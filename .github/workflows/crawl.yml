@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   crawl:
@@ -31,3 +33,40 @@ jobs:
         with:
           commit_message: 'chore: 更新 TapTap 新游监测数据'
           file_pattern: 'data/*.json'
+
+  deploy:
+    needs: crawl
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout 仓库
+        # crawl job 通过 needs 保证先执行完成，git-auto-commit-action 的提交
+        # 已经推送到默认分支，这里普通 checkout 即可拉到包含最新数据的代码。
+        uses: actions/checkout@v4
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 安装前端依赖
+        working-directory: web
+        run: npm ci
+
+      - name: 构建展示层
+        # vite.config.js 中的 closeBundle 钩子会在构建完成后自动把仓库根目录
+        # data/ 拷贝进 web/dist/data/，因此构建产物已包含最新采集数据。
+        working-directory: web
+        run: npm run build
+
+      - name: 上传 Pages 构建产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
