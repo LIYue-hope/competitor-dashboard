@@ -28,14 +28,29 @@ function copyDataDir(destDir) {
   }
 }
 
+// GitHub Pages 部署在 https://<user>.github.io/competitor-dashboard/ 子路径下，
+// 所以生产构建需要 base 与该子路径保持一致，静态资源引用才不会 404。
+// 开发时 vite 也会把该 base 前缀拼进 URL（例如 http://localhost:5173/competitor-dashboard/），
+// 因此下方 middleware 需要能同时兼容带/不带 base 前缀的 /data/*.json 请求。
+const BASE_PATH = '/competitor-dashboard/'
+
 function repoDataPlugin() {
   return {
     name: 'repo-data-plugin',
     configureServer(server) {
-      // 开发环境下拦截 /data/*.json 请求，直接从仓库根目录 data/ 读取
+      // 开发环境下拦截 /data/*.json 请求，直接从仓库根目录 data/ 读取；
+      // 兼容 base 前缀（/competitor-dashboard/data/*.json）
       server.middlewares.use((req, res, next) => {
-        if (req.url && req.url.startsWith('/data/') && req.url.endsWith('.json')) {
-          const filePath = path.join(dataSourceDir, req.url.replace('/data/', ''))
+        if (!req.url || !req.url.endsWith('.json')) {
+          return next()
+        }
+        // 剥离可能的 base 前缀，得到 /data/xxx.json 形式
+        let normalized = req.url
+        if (normalized.startsWith(BASE_PATH)) {
+          normalized = '/' + normalized.slice(BASE_PATH.length)
+        }
+        if (normalized.startsWith('/data/')) {
+          const filePath = path.join(dataSourceDir, normalized.replace('/data/', ''))
           if (fs.existsSync(filePath)) {
             res.setHeader('Content-Type', 'application/json; charset=utf-8')
             res.end(fs.readFileSync(filePath, 'utf-8'))
@@ -54,5 +69,5 @@ function repoDataPlugin() {
 
 export default defineConfig({
   plugins: [vue(), repoDataPlugin()],
-  base: './',
+  base: BASE_PATH,
 })

@@ -8,7 +8,9 @@ const error = ref('')
 
 onMounted(async () => {
   try {
-    const res = await fetch('/data/taptap_upcoming.json')
+    // 使用 import.meta.env.BASE_URL 拼接数据路径，
+    // 保证在 GitHub Pages 子路径（/competitor-dashboard/）部署下也能正确请求到 data/*.json
+    const res = await fetch(`${import.meta.env.BASE_URL}data/taptap_upcoming.json`)
     if (!res.ok) {
       throw new Error(`请求失败：${res.status}`)
     }
