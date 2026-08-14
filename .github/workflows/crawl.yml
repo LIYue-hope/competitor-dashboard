@@ -10,6 +10,13 @@ permissions:
   pages: write
   id-token: write
 
+# 避免同一分支上出现并发运行的 workflow 互相推送冲突。
+# cancel-in-progress: false 表示排队等待前一个采集任务跑完，而不是中途取消，
+# 这样每次触发（定时+手动）都会依次完整执行，最大化数据完整性。
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
@@ -27,6 +34,22 @@ jobs:
 
       - name: 运行 TapTap 采集脚本
         run: python scripts/crawl_taptap.py
+
+      - name: 拉取远程最新提交（避免推送冲突）
+        # git-auto-commit-action README 明确写明 "git-auto-commit will not do a
+        # git-rebase for you!"，且未提供 skip_fetch/push_options 之外的冲突处理
+        # 参数。为降低 non-fast-forward 推送失败概率（例如 schedule 触发与人工
+        # workflow_dispatch/本地 push 并发时），这里在 commit 前手动 rebase 到
+        # 最新远程状态。
+        # --autostash：采集脚本刚生成的 data/*.json 属于未提交修改，pull --rebase
+        #   遇到脏工作区会拒绝执行；--autostash 会自动 stash 再 pop，避免手写
+        #   stash/rebase/pop 三步。
+        # 远程没有新提交时 pull --rebase 直接返回 0（Already up to date），
+        # 不会失败。
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin ${{ github.ref_name }}
 
       - name: 提交数据变更
         uses: stefanzweifel/git-auto-commit-action@v5
