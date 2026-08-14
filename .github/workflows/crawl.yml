@@ -1,0 +1,33 @@
+name: 竞品数据采集
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        run: pip install -r scripts/requirements.txt
+
+      - name: 运行 TapTap 采集脚本
+        run: python scripts/crawl_taptap.py
+
+      - name: 提交数据变更
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: 更新 TapTap 新游监测数据'
+          file_pattern: 'data/*.json'
