@@ -1,0 +1,261 @@
+{
+  "crawled_at": "2026-08-17T10:24:46.034284+00:00",
+  "window_days": 7,
+  "publishers": [
+    {
+      "key": "tencent",
+      "label": "腾讯",
+      "games": [
+        {
+          "game_name": "三角洲行动",
+          "publisher": "腾讯",
+          "publisher_key": "tencent",
+          "official_url": "https://df.qq.com/",
+          "source_status": "pending",
+          "updates": [],
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "和平精英",
+          "publisher": "腾讯",
+          "publisher_key": "tencent",
+          "official_url": "https://gp.qq.com/",
+          "source_status": "pending",
+          "updates": [],
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "洛克王国世界",
+          "publisher": "腾讯",
+          "publisher_key": "tencent",
+          "official_url": "https://lkwg.qq.com/",
+          "source_status": "pending",
+          "updates": [],
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "王者荣耀世界",
+          "publisher": "腾讯",
+          "publisher_key": "tencent",
+          "official_url": "https://world.qq.com/",
+          "source_status": "ok",
+          "updates": [
+            {
+              "title": "音频开发日记丨妃寒共鸣任务专属音乐",
+              "type": "公告",
+              "date": "2026-08-14",
+              "summary": "“无论还要历经多少风暴与寒霜，只要心里还有太阳的方向，她就不害怕。”",
+              "url": "https://world.qq.com/web202603/newsDetail.html?newsid=18835455"
+            },
+            {
+              "title": "8月13日版本更新公告",
+              "type": "更新公告",
+              "date": "2026-08-12",
+              "summary": "夏日新篇正式登场，福利与新装双双就位",
+              "url": "https://world.qq.com/web202603/newsDetail.html?newsid=18834344"
+            },
+            {
+              "title": "8月13日不停服更新公告",
+              "type": "更新公告",
+              "date": "2026-08-12",
+              "summary": "为提升游戏体验，《王者荣耀世界》于8月13日05:00~06:00进行不停服维护更新，具体情况请以游戏为准。感谢大家的支持和理解，祝游戏愉快！",
+              "url": "https://world.qq.com/web202603/newsDetail.html?newsid=18834374"
+            },
+            {
+              "title": "绮霞裁诗丨全新时装实机演示爆料",
+              "type": "公告",
+              "date": "2026-08-12",
+              "summary": "全新时装套装【绮霞裁诗】即将上架，可使用活跃代币晶珀灵遇获取！",
+              "url": "https://world.qq.com/web202603/newsDetail.html?newsid=18834284"
+            },
+            {
+              "title": "王者荣耀世界已进入RED LAND2026",
+              "type": "公告",
+              "date": "2026-08-12",
+              "summary": "世界在召唤！即刻启程与英雄们并肩同行",
+              "url": "https://world.qq.com/web202603/newsDetail.html?newsid=18834200"
+            },
+            {
+              "title": "【师姐来信】关于S1的下一步丨制作组的思考与规划",
+              "type": "公告",
+              "date": "2026-08-11",
+              "summary": "我是师姐。最近大家对于什么时候迎来S2赛季有不少讨论，S2究竟要给大家呈现哪些内容，制作组也一直在反复权衡，也想跟大家聊聊这几个月我们的思考、反复讨论过的选择、以及接下来的规划。",
+              "url": "https://world.qq.com/web202603/newsDetail.html?newsid=18833450"
+            },
+            {
+              "title": "8月13日版本更新预告",
+              "type": "更新公告",
+              "date": "2026-08-11",
+              "summary": "王者荣耀世界8月13日版本更新预告",
+              "url": "https://world.qq.com/web202603/newsDetail.html?newsid=18833905"
+            }
+          ],
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "key": "netease",
+      "label": "网易",
+      "games": [
+        {
+          "game_name": "第五人格",
+          "publisher": "网易",
+          "publisher_key": "netease",
+          "official_url": "https://id5.163.com/",
+          "source_status": "ok",
+          "updates": [],
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "蛋仔派对",
+          "publisher": "网易",
+          "publisher_key": "netease",
+          "official_url": "https://party.163.com/",
+          "source_status": "ok",
+          "updates": [
+            {
+              "title": "《蛋仔派对》8月13日不停服更新维护公告",
+              "type": "更新公告",
+              "date": "2026-08-13",
+              "summary": "亲爱的蛋仔们： 为保证蛋仔们的游戏体验，我们已于 8月13日8:00 完成不停服维护， 本次更新的内容如下： 玩法更新 一、逃出惊魂夜 1.新追捕者<少盟主-沈昭>登场！",
+              "url": "https://party.163.com/update/20260817/35182_1311315.html"
+            }
+          ],
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "燕云十六声",
+          "publisher": "网易",
+          "publisher_key": "netease",
+          "official_url": "https://www.yysls.cn/",
+          "source_status": "error",
+          "updates": [],
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "key": "mihoyo",
+      "label": "米哈游",
+      "games": [
+        {
+          "game_name": "原神",
+          "publisher": "米哈游",
+          "publisher_key": "mihoyo",
+          "official_url": "https://ys.mihoyo.com/",
+          "source_status": "ok",
+          "updates": [
+            {
+              "title": "「幽境危战」活动：紊乱地脉挑战",
+              "type": "新活动",
+              "date": "2026-08-17",
+              "summary": "〓活动奖励〓 〓活动时间〓 整体活动时间： 2026/08/19 10:00 ~ 2026/09/22 03:59 紊乱爆发期： 2026/08/19 10:00 ~ 2026/08/29 03:59 〓参与条件〓 冒险等阶≥20级 且完成魔神任务：序章·第三幕「巨龙与自由之歌」…",
+              "url": "https://ys.mihoyo.com/"
+            },
+            {
+              "title": "「夏日怪谈冒险会」参与获得装扮「幽幽惊吓帽」",
+              "type": "公告",
+              "date": "2026-08-15",
+              "summary": "〓活动时间〓 整体活动时间： 2026/08/17 12:00 ~ 2026/09/04 03:59 任务完成时间： 2026/08/17 12:00 ~ 2026/08/31 03:59 〓活动奖励〓 头饰装扮「幽幽惊吓帽」、重现晶簇、奇丽凝晶、动作、表情 〓参与条件〓 唤醒「…",
+              "url": "https://ys.mihoyo.com/"
+            },
+            {
+              "title": "「至冬」现已开放！",
+              "type": "公告",
+              "date": "2026-08-12",
+              "summary": "7.0版本全新内容一览",
+              "url": "https://ys.mihoyo.com/"
+            },
+            {
+              "title": "「无神怜爱的雪国」7.0版本更新说明",
+              "type": "更新公告",
+              "date": "2026-08-12",
+              "summary": "亲爱的旅行者： 以下是7.0版本——「无神怜爱的雪国」更新与补偿内容。 〓补偿内容〓 停服更新补偿： 原石*300 （停服维护每小时补偿60原石） 问题修复补偿： 原石*300 （补偿条目请参考对应补偿邮件） 〓补偿范围〓 停服更新补偿： 2026/08/12 06:00 前冒险…",
+              "url": "https://ys.mihoyo.com/"
+            },
+            {
+              "title": "游戏更新修复与优化说明",
+              "type": "更新公告",
+              "date": "2026-08-12",
+              "summary": "亲爱的旅行者： 为了给旅行者提供更好的游戏体验，制作组会根据各位旅行者的反馈，对游戏不断地进行优化调整，修复已发现的各类问题。 〓已知问题〓 目前，搭载 Intel® Iris® Xe 系列显卡的 PC 设备，在进入「至冬」区域时可能出现异常闪屏的问题。 遇到相关问题的旅行者，请…",
+              "url": "https://ys.mihoyo.com/"
+            },
+            {
+              "title": "「至冬漫游手册」网页活动开启，参与活动必得原石！",
+              "type": "新活动",
+              "date": "2026-08-12",
+              "summary": "「至冬漫游手册」网页活动限时开启。快来开启「雪国的馈赠」抽取原石等奖励吧！ >>点击参与活动<< 〓活动时间〓 2026/08/12 至 2026/08/25 23:59 *活动结束后不可领取奖励，请旅行者及时领取* 〓参与条件〓 冒险等阶≥1级的旅行者即可参与活动 〓活动介绍及…",
+              "url": "https://ys.mihoyo.com/"
+            },
+            {
+              "title": "游戏调研",
+              "type": "公告",
+              "date": "2026-08-12",
+              "summary": "亲爱的旅行者： 新的旅程开始啦！为了更深入地了解旅行者的游戏习惯，给旅行者带来更好的游戏体验，派蒙准备了一份特别调查问卷，完成此份问卷可获得50原石奖励~ 〓问卷填写时间〓 长期 〓问卷地址〓 点击此处填写特别调查问卷 旅行者还可以通过打开派蒙界面-邮件-“游戏调研”-问卷链接或…",
+              "url": "https://ys.mihoyo.com/"
+            },
+            {
+              "title": "「奇域秘藏·裁论幻演」奇偶装扮上新",
+              "type": "公告",
+              "date": "2026-08-11",
+              "summary": "活动期间，旅行者可以通过「裁论幻演」活动颂愿/「幻演纪游」/千星商城获得心仪的奇偶装扮！ 穿戴新套装或试行斗篷游玩人气奇域关卡，还可以获得60原石奖励！ 〓活动颂愿介绍〓 颂愿时间 限定传说（5星）装扮 卓越（4星）装扮 7.0版本更新后 ~ 2026/09/22 14:59 「…",
+              "url": "https://ys.mihoyo.com/"
+            },
+            {
+              "title": "「幻演赛季」赛季开启公告说明",
+              "type": "公告",
+              "date": "2026-08-11",
+              "summary": "〓赛季时间〓 赛季准备期： 7.0版本更新后 ~ 2026/08/13 09:59 赛季游玩期： 2026/08/13 10:00 ~ 2026/09/22 03:59 赛季展示期： 2026/09/22 04:00 ~ 7.0版本结束 〓参与条件〓 唤醒「千星奇域」奇偶后 〓赛…",
+              "url": "https://ys.mihoyo.com/"
+            },
+            {
+              "title": "「绮衣珍赏·温煦」参与获得自选奇偶装扮套装「琥色蜜酿」一套",
+              "type": "公告",
+              "date": "2026-08-11",
+              "summary": "〓活动时间〓 7.0版本更新后 ~ 2026/09/23 05:59 〓活动奖励〓 自选奇偶装扮套装「琥色蜜酿」一套、重现晶簇 〓参与条件〓 唤醒「千星奇域」奇偶后 〓活动说明〓 ● 活动期间，旅行者可以通过完成珍赏任务获得对应的「珍赏见闻」与重现晶簇，每周通过珍赏任务可获得奖励…",
+              "url": "https://ys.mihoyo.com/"
+            }
+          ],
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "崩坏：星穹铁道",
+          "publisher": "米哈游",
+          "publisher_key": "mihoyo",
+          "official_url": "https://sr.mihoyo.com/",
+          "source_status": "ok",
+          "updates": [
+            {
+              "title": "4.5版本「无名勋礼」更新",
+              "type": "更新公告",
+              "date": "2026-08-17",
+              "summary": "亲爱的开拓者： 活动期间，开拓者可以在「无名勋礼」中，通过提升勋礼等级获取 星轨通票、自塑尘脂、命运的足迹 等奖励。 解锁「无名客的荣勋」后，可立即获得 星琼*680 ，提升勋礼等级可额外获得 光锥碎忆*1、星轨专票*4、自选4星光锥、变量骰子*1、自塑尘脂*2、遗器残骸、通用命…",
+              "url": "https://sr.mihoyo.com/"
+            },
+            {
+              "title": "4.5版本商店上新",
+              "type": "更新公告",
+              "date": "2026-08-14",
+              "summary": "亲爱的开拓者： 4.5版本中，游戏内商店将会上架开拓穿搭-头饰 「别看我，看它」 ！同时，礼包「黑塔 • 协议」的限购次数刷新。 开拓穿搭「别看我，看它」上架 购买即可获取开拓穿搭- 头饰「别看我，看它」 ！ ■头饰价格 680星琼 ■上架时间 4.5版本更新后 ■特别说明 开拓…",
+              "url": "https://sr.mihoyo.com/"
+            },
+            {
+              "title": "「花藏繁生」活动：拟造花萼限时双倍掉落",
+              "type": "新活动",
+              "date": "2026-08-13",
+              "summary": "活动时间 2026/08/14 04:00:00 - 2026/08/24 03:59:00 参与条件 完成冒险任务「拟造花萼（金）• 回忆之蕾」 活动说明 「花藏繁生」活动期间，挑战并通关「拟造花萼（金）」或「拟造花萼（赤）」时，可获得双倍奖励。 消耗活动双倍奖励次数与开拓力后…",
+              "url": "https://sr.mihoyo.com/"
+            }
+          ],
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "label": "其他",
+      "games": []
+    }
+  ]
+}

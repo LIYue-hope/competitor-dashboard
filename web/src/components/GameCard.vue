@@ -5,25 +5,20 @@ defineProps({
     required: true,
   },
 })
-
-// crawled_at 是采集脚本写入的 UTC 时间（ISO 8601 带时区偏移，如
-// "...+00:00"）。这里按用户本地时区（浏览器所在时区）展示，格式为
-// "月-日-时-分"，不显示年份和秒。若用户本地时区恰好是 UTC+8（北京时间），
-// 显示结果会与北京时间一致；否则会按用户所在时区自动换算，避免误导。
-function formatCrawledAt(isoString) {
-  if (!isoString) return ''
-  const date = new Date(isoString)
-  if (Number.isNaN(date.getTime())) return ''
-  const pad = (n) => String(n).padStart(2, '0')
-  return `${pad(date.getMonth() + 1)}-${pad(date.getDate())}-${pad(date.getHours())}-${pad(date.getMinutes())}`
-}
 </script>
 
 <template>
   <div class="game-card">
     <div class="card-top">
       <h2 class="game-name">{{ game.game_name || '未知游戏' }}</h2>
-      <span v-if="game.score" class="score">{{ game.score }}</span>
+      <span class="score-group">
+        <span
+          v-if="game.has_afk_grinding_tag"
+          class="afk-star"
+          title="游戏介绍或开发者的话中提及挂机/搬砖玩法"
+        >★</span>
+        <span v-if="game.score" class="score">{{ game.score }}</span>
+      </span>
     </div>
 
     <dl class="info-list">
@@ -33,12 +28,7 @@ function formatCrawledAt(isoString) {
       </div>
       <div class="info-row">
         <dt>上线日期</dt>
-        <dd>
-          {{ game.release_date || '未知' }}
-          <span v-if="game.crawled_at" class="crawled-at">
-            更新于 {{ formatCrawledAt(game.crawled_at) }}
-          </span>
-        </dd>
+        <dd>{{ game.release_date || '未知' }}</dd>
       </div>
       <div class="info-row">
         <dt>类型</dt>
@@ -52,13 +42,13 @@ function formatCrawledAt(isoString) {
 
     <div class="tags">
       <span v-if="game.is_major_publisher" class="tag tag-major">大厂/大IP</span>
-      <span v-if="game.has_afk_grinding_tag" class="tag tag-afk">挂机/搬砖</span>
     </div>
   </div>
 </template>
 
 <style scoped>
 .game-card {
+  position: relative;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   padding: 16px;
@@ -70,11 +60,26 @@ function formatCrawledAt(isoString) {
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 8px;
+  gap: 8px;
 }
 
 .game-name {
   margin: 0;
   font-size: 16px;
+}
+
+.score-group {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.afk-star {
+  font-size: 16px;
+  line-height: 1;
+  color: #ffc107;
+  text-shadow: 0 0 1px #e0a800;
 }
 
 .score {
@@ -104,12 +109,6 @@ function formatCrawledAt(isoString) {
   margin: 0;
 }
 
-.crawled-at {
-  font-size: 11px;
-  color: #aaa;
-  margin-left: 4px;
-}
-
 .tags {
   display: flex;
   gap: 6px;
@@ -124,9 +123,5 @@ function formatCrawledAt(isoString) {
 
 .tag-major {
   background: #1976d2;
-}
-
-.tag-afk {
-  background: #757575;
 }
 </style>

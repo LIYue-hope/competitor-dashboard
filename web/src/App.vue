@@ -1,42 +1,122 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import GameCard from './components/GameCard.vue'
+import HaoyouPanel from './components/HaoyouPanel.vue'
+import HotGamesPanel from './components/HotGamesPanel.vue'
 
-const games = ref([])
+// 三个数据源分开加载与展示：
+// - taptap_upcoming.json：TapTap 新游预约扁平列表
+// - haoyoukuaibao_upcoming.json：好游快爆按日期分组的时间线
+// - hot_games_dynamics.json：热门游戏动态按发行商分组
+const taptapGames = ref([])
+const haoyouData = ref(null)
+const hotGamesData = ref(null)
+const taptapError = ref('')
+const haoyouError = ref('')
+const hotGamesError = ref('')
 const loading = ref(true)
-const error = ref('')
+
+// 当前激活 Tab，默认 TapTap
+const activeTab = ref('taptap')
+
+async function loadJson(name) {
+  // 使用 import.meta.env.BASE_URL 拼接数据路径，
+  // 保证在 GitHub Pages 子路径（/competitor-dashboard/）部署下也能正确请求到 data/*.json
+  const res = await fetch(`${import.meta.env.BASE_URL}data/${name}`)
+  if (!res.ok) {
+    throw new Error(`请求 ${name} 失败：${res.status}`)
+  }
+  return res.json()
+}
 
 onMounted(async () => {
-  try {
-    // 使用 import.meta.env.BASE_URL 拼接数据路径，
-    // 保证在 GitHub Pages 子路径（/competitor-dashboard/）部署下也能正确请求到 data/*.json
-    const res = await fetch(`${import.meta.env.BASE_URL}data/taptap_upcoming.json`)
-    if (!res.ok) {
-      throw new Error(`请求失败：${res.status}`)
-    }
-    games.value = await res.json()
-  } catch (e) {
-    error.value = `数据加载失败：${e.message}`
-  } finally {
-    loading.value = false
+  // 三个数据源独立加载，一个失败不影响其它 Tab 的可用性
+  const [taptapResult, haoyouResult, hotGamesResult] = await Promise.allSettled([
+    loadJson('taptap_upcoming.json'),
+    loadJson('haoyoukuaibao_upcoming.json'),
+    loadJson('hot_games_dynamics.json'),
+  ])
+
+  if (taptapResult.status === 'fulfilled') {
+    taptapGames.value = taptapResult.value
+  } else {
+    taptapError.value = `数据加载失败：${taptapResult.reason.message}`
   }
+
+  if (haoyouResult.status === 'fulfilled') {
+    haoyouData.value = haoyouResult.value
+  } else {
+    haoyouError.value = `数据加载失败：${haoyouResult.reason.message}`
+  }
+
+  if (hotGamesResult.status === 'fulfilled') {
+    hotGamesData.value = hotGamesResult.value
+  } else {
+    hotGamesError.value = `数据加载失败：${hotGamesResult.reason.message}`
+  }
+
+  loading.value = false
 })
+
+// crawled_at 是采集脚本写入的 UTC 时间（ISO 8601 带时区偏移）。
+// 按用户本地时区展示为"月-日 时:分"，不显示年份和秒。
+function formatCrawledAt(isoString) {
+  if (!isoString) return ''
+  const d = new Date(isoString)
+  if (Number.isNaN(d.getTime())) return ''
+  const pad = (n) => String(n).padStart(2, '0')
+  return `${pad(d.getMonth() + 1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`
+}
 </script>
 
 <template>
   <div class="page">
     <header class="page-header">
-      <h1>TapTap 新游监测</h1>
-      <p class="subtitle">竞品看板 · 数据来源：TapTap 新游预约页</p>
+      <h1>游戏行业监测看板</h1>
     </header>
 
-    <p v-if="loading">加载中...</p>
-    <p v-else-if="error" class="error">{{ error }}</p>
-    <p v-else-if="games.length === 0">暂无数据</p>
+    <nav class="tab-nav">
+      <button
+        :class="['tab-btn', { active: activeTab === 'taptap' }]"
+        @click="activeTab = 'taptap'"
+      >TapTap新游监测</button>
+      <button
+        :class="['tab-btn', { active: activeTab === 'haoyou' }]"
+        @click="activeTab = 'haoyou'"
+      >好游快爆新游监测</button>
+    </nav>
 
-    <div v-else class="card-grid">
-      <GameCard v-for="game in games" :key="game.source_url" :game="game" />
-    </div>
+    <p v-if="loading">加载中...</p>
+
+    <!-- TapTap Tab -->
+    <section v-show="!loading && activeTab === 'taptap'" class="tab-panel">
+      <p v-if="taptapError" class="error">{{ taptapError }}</p>
+      <p v-else-if="taptapGames.length === 0">暂无数据</p>
+      <template v-else>
+        <div v-if="taptapGames[0]" class="panel-meta">
+          <div class="source-line">数据来源：TapTap-即将上线  更新时间 {{ formatCrawledAt(taptapGames[0].crawled_at) }}</div>
+          <div class="star-note">★ 表示该游戏的游戏介绍或开发者的话中提及挂机/搬砖玩法</div>
+        </div>
+        <div class="card-grid">
+          <GameCard v-for="game in taptapGames" :key="game.source_url" :game="game" />
+        </div>
+      </template>
+    </section>
+
+    <!-- 好游快爆 Tab -->
+    <section v-show="!loading && activeTab === 'haoyou'" class="tab-panel">
+      <p v-if="haoyouError" class="error">{{ haoyouError }}</p>
+      <p v-else-if="!haoyouData || haoyouData.days.length === 0">暂无数据</p>
+      <HaoyouPanel v-else :data="haoyouData" />
+    </section>
+
+    <!-- 热门游戏动态监测：固定展示在新游监测 Tab 内容下方，不作为可切换的顶级 Tab -->
+    <section v-if="!loading" class="hot-section">
+      <h2 class="hot-heading">热门游戏动态监测</h2>
+      <p v-if="hotGamesError" class="error">{{ hotGamesError }}</p>
+      <p v-else-if="!hotGamesData || hotGamesData.publishers.length === 0">暂无数据</p>
+      <HotGamesPanel v-else :data="hotGamesData" />
+    </section>
   </div>
 </template>
 
@@ -48,7 +128,7 @@ onMounted(async () => {
 }
 
 .page-header {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .page-header h1 {
@@ -56,19 +136,75 @@ onMounted(async () => {
   font-size: 24px;
 }
 
-.subtitle {
-  margin: 0;
-  color: #666;
+.tab-nav {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tab-btn {
+  border: none;
+  background: none;
+  padding: 8px 16px;
   font-size: 14px;
+  cursor: pointer;
+  color: #555;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+
+.tab-btn:hover {
+  color: #1976d2;
+}
+
+.tab-btn.active {
+  color: #1976d2;
+  border-bottom-color: #1976d2;
+  font-weight: 600;
+}
+
+/* 两个 Tab 面板统一容器盒模型（无边距差异），
+   保证切换 Tab 时内容区域起始位置一致，不出现页面偏移 */
+.tab-panel {
+  min-height: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .error {
   color: #d32f2f;
 }
 
+.panel-meta {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.panel-meta .source-line {
+  color: #666;
+}
+
+.panel-meta .star-note {
+  margin-top: 2px;
+  color: #aaa;
+}
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 16px;
+}
+
+.hot-section {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.hot-heading {
+  font-size: 18px;
+  margin: 0 0 16px;
+  color: #222;
 }
 </style>

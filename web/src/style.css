@@ -2,6 +2,13 @@
   color-scheme: light;
 }
 
+/* 页面内容长度会随 Tab/日期切换变化，导致纵向滚动条按需出现/消失，
+   进而使视口可用宽度发生 15~17px 的抖动，表现为切换时左右页边距
+   看起来不一致。强制预留滚动条槛位，保证可用宽度始终恒定。 */
+html {
+  scrollbar-gutter: stable;
+}
+
 * {
   box-sizing: border-box;
 }

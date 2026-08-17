@@ -35,6 +35,9 @@ jobs:
       - name: 运行 TapTap 采集脚本
         run: python scripts/crawl_taptap.py
 
+      - name: 运行热门游戏动态采集脚本
+        run: python scripts/crawl_hot_games.py
+
       - name: 拉取远程最新提交（避免推送冲突）
         # git-auto-commit-action README 明确写明 "git-auto-commit will not do a
         # git-rebase for you!"，且未提供 skip_fetch/push_options 之外的冲突处理
@@ -54,7 +57,7 @@ jobs:
       - name: 提交数据变更
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: 更新 TapTap 新游监测数据'
+          commit_message: 'chore: 更新竞品监测数据（TapTap / 热门游戏动态）'
           file_pattern: 'data/*.json'
 
   deploy:

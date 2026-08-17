@@ -176,16 +176,36 @@ def enrich_with_detail(game):
         if publisher_match:
             publisher = publisher_match.group(1).strip()
 
-        # 游戏简介：取"更多游戏资讯"之前、"开发者的话"之前的一段描述文本作为简介来源，
-        # 用于挂机/搬砖关键词匹配；找不到则退化为整页文本参与匹配。
-        intro_match = re.search(r"《.+?》[^\n]*", page_text)
-        intro_text = intro_match.group(0) if intro_match else page_text
+        # 上线日期：从详情页解析准确完整日期，覆盖列表页分组标题（如"08/14 周五"）。
+        # 详情页存在两种日期字面格式：
+        #   1) "2026/08/21"（斜杠分隔，见诡秘之主/菜鸡梦想家）
+        #   2) "2026-08-22"（连字符分隔，见江城创业记）
+        # 二者都紧跟在"上线日期"文案之后（中间可能有冒号、空格、换行等分隔字符），
+        # 因此这里用一条兼容正则匹配。捕获到日期后统一归一化为 YYYY-MM-DD。
+        # 如果详情页也找不到该字段，则保留列表页传入的日期分组标题作为兜底。
+        release_match = re.search(
+            r"上线日期[^\d]{0,10}(20\d{2})[/\-](\d{1,2})[/\-](\d{1,2})", page_text
+        )
+        if release_match:
+            y, m, d = release_match.groups()
+            game["release_date"] = f"{y}-{int(m):02d}-{int(d):02d}"
+
+        # 挂机/搬砖玩法判定依据"游戏介绍"与"开发者的话"两段文本：
+        #   - 游戏介绍：class="app-intro__summary"（简介摘要），退化到 app-intro__item；
+        #   - 开发者的话：class="text-modal__content"（详情页仅此一处存放开发者寄语）。
+        # 二者文本 + 类型标签一起送入关键词匹配，命中则前端在卡片右上角标注黄色五角星。
+        intro_node = soup.find(class_="app-intro__summary") or soup.find(
+            class_="app-intro__item"
+        )
+        intro_text = intro_node.get_text(" ", strip=True) if intro_node else ""
+        dev_node = soup.find(class_="text-modal__content")
+        dev_text = dev_node.get_text(" ", strip=True) if dev_node else ""
 
         game["publisher"] = publisher
         game["reservation_count"] = reservation
         game["is_major_publisher"] = is_major_publisher(publisher)
         game["has_afk_grinding_tag"] = has_afk_grinding_tag(
-            intro_text, " ".join(game.get("tags", []))
+            intro_text, dev_text, " ".join(game.get("tags", []))
         )
     except Exception:
         logger.exception("解析详情页结构失败，跳过字段补充：%s", game["detail_url"])
