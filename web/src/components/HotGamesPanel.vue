@@ -348,9 +348,8 @@ function typeClass(type) {
   background: #757575;
 }
 
-/* 限高 420px 并在列表内滚动，避免单个游戏动态过多把整张卡片和页面拉得很长。
-   单条动态高度随有无摘要浮动（约 46~76px），所以实际露出 3~6 条，
-   带摘要的数据源接近 4 条。 */
+/* 限高 350px 并在列表内滚动，避免单个游戏动态过多把整张卡片和页面拉得很长。
+   单条动态高度随有无摘要浮动（约 46~76px），所以实际露出 3~5 条。 */
 .update-list {
   list-style: none;
   margin: 0;
@@ -358,7 +357,7 @@ function typeClass(type) {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  max-height: 420px;
+  max-height: 350px;
   overflow-y: auto;
   overscroll-behavior: contain;
 }

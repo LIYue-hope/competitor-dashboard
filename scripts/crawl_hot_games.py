@@ -57,6 +57,15 @@ WINDOW_DAYS = 7
 # 摘要正文截断长度（字符）。
 SUMMARY_MAX_LEN = 140
 
+# 详情正文喂给 BeautifulSoup 前的粗截断长度（字符）。腾讯 gicp 单条正文实测
+# 可达数百 KB（洛克王国世界内嵌大段中奖名单表格），全量解析很慢；这里远大于
+# SUMMARY_MAX_LEN，足够截出摘要。
+CONTENT_PARSE_MAX_LEN = 4000
+
+# 正文只有长图、没有任何文字时的摘要占位文案。
+IMAGE_ONLY_SUMMARY = "（本条为图片公告，正文无文字内容，点击查看原文）"
+
+
 # 发行商 Tab 顺序与展示名。
 PUBLISHERS = [
     {"key": "tencent", "label": "腾讯"},
@@ -145,6 +154,8 @@ GAMES = [
             "title_strip": "i",  # <i> 内是类型标签，取标题时剔除
             "label_sel": "p i",  # 类型标签（新闻/公告），用于类型判定
             "summary_sel": None,
+            # 列表页确实没有摘要元素，回退请求详情页取正文（服务端渲染，utf-8）。
+            "detail_summary_sel": ".cont-box .artText",
         },
     },
     {
@@ -245,15 +256,25 @@ def _cutoff_date():
     )
 
 
-def _clean_summary(html_or_text):
-    """把 HTML/富文本压成单行纯文本并截断，作为卡片摘要。"""
+def _clean_summary(html_or_text, is_html=True):
+    """把 HTML/富文本压成单行纯文本并截断，作为卡片摘要。
+
+    is_html=False 用于调用方已经 get_text 过的纯文本：此时绝不能再当 HTML 解析，
+    否则正文里字面出现的尖括号内容（如蛋仔派对摘要中的 <少盟主-沈昭>）会被
+    当成未知标签整段吞掉。
+    """
     if not html_or_text:
         return ""
-    text = BeautifulSoup(html_or_text, "html.parser").get_text(" ", strip=True)
-    # 米哈游公告正文是"实体转义的 HTML"（如 &lt;t class="t_lc"&gt;...&lt;/t&gt;），
-    # 首次 get_text 会把实体解码成字面标签文本，需再解析一次才能真正剥离标签。
-    if "<" in text and ">" in text:
-        text = BeautifulSoup(text, "html.parser").get_text(" ", strip=True)
+    raw = html_or_text if isinstance(html_or_text, str) else str(html_or_text)
+    if is_html:
+        text = BeautifulSoup(raw, "html.parser").get_text(" ", strip=True)
+        # 米哈游公告正文是"实体转义的 HTML"（如 &lt;t class="t_lc"&gt;...&lt;/t&gt;），
+        # 首次 get_text 会把实体解码成字面标签文本，需再解析一次才能真正剥离标签。
+        # 判定看**输入**里有没有 &lt;/&gt; 实体，避免误伤正文里的字面尖括号。
+        if "&lt;" in raw and "&gt;" in raw:
+            text = BeautifulSoup(text, "html.parser").get_text(" ", strip=True)
+    else:
+        text = raw
     text = re.sub(r"\s+", " ", text).strip()
     if len(text) > SUMMARY_MAX_LEN:
         text = text[:SUMMARY_MAX_LEN].rstrip() + "…"
@@ -501,6 +522,7 @@ def fetch_netease_updates(game):
       title_strip 取标题前先移除的子元素选择器（如类型标签 <i>）
       label_sel   类型标签文本选择器（相对 item），None/取不到时退回空串
       summary_sel 摘要文本选择器（相对 item），None 表示无摘要
+      detail_summary_sel  列表页无摘要时，回退请求详情页用该选择器取正文（相对详情页文档）
     """
     dom = game["dom"]
     resp = fetch_json(game["list_url"], timeout=12)
@@ -550,7 +572,21 @@ def fetch_netease_updates(game):
         if dom.get("summary_sel"):
             snode = item.select_one(dom["summary_sel"])
             if snode:
-                summary = _clean_summary(snode.get_text(" ", strip=True))
+                summary = _clean_summary(snode.get_text(" ", strip=True), is_html=False)
+        # 列表页无摘要元素（如第五人格）时，回退请求详情页取正文首段。
+        # 只对配了 detail_summary_sel 的游戏生效；单条失败不影响其它条目。
+        if not summary and dom.get("detail_summary_sel") and url.startswith("http"):
+            try:
+                dresp = fetch_json(url, timeout=10)
+                dresp.encoding = dresp.apparent_encoding or "utf-8"
+                dnode = BeautifulSoup(dresp.text, "html.parser").select_one(
+                    dom["detail_summary_sel"]
+                )
+                if dnode:
+                    summary = _clean_summary(dnode.get_text(" ", strip=True), is_html=False)
+            except Exception as exc:  # 网络/解析异常都降级为空摘要
+                logger.warning("%s 详情页摘要获取失败：%s（%s）", game["game_name"], url, exc)
+
 
         updates.append(
             {
@@ -587,6 +623,44 @@ def _cmc_date(item):
         return datetime.strptime(idx_time[:10], "%Y-%m-%d").date()
     except ValueError:
         return None
+
+
+def _fetch_gicp_summary(service_id, news_id):
+    """按 iNewsId 拉腾讯 gicp 图文正文，截成卡片摘要。失败返回空串。
+
+    df / gp / rocom 的 cmc/cross 列表项没有可用摘要（sDesc 恒为空或等于
+    sTitle），只能逐条请求正文接口。接口无签名、无需登录、无需 Referer，
+    id 必须传 iNewsId（传 iDocID 会返回"没有查询到相关数据"），返回体是
+    JSONP 形态 `var searchObj={...};`，用 _load_cmc_json 解析。
+    单条摘要拿不到不应影响整个游戏的抓取，故所有异常都吞掉只记日志。
+    """
+    if not news_id:
+        return ""
+    url = (
+        "https://apps.game.qq.com/wmp/v3.1/public/searchNews.php?p0="
+        + str(service_id)
+        + "&source=web_pc&id=" + str(news_id)
+    )
+    try:
+        data = _load_cmc_json(fetch_json(url, timeout=10).text)
+        if data.get("status") != 0:
+            logger.debug(
+                "searchNews status=%s（p0=%s id=%s）", data.get("status"), service_id, news_id
+            )
+            return ""
+        # 正文在**顶层** msg 里；data 字段实测是字符串（不是对象），别从里面取。
+        msg = data.get("msg")
+        content = (msg.get("sContent") or "") if isinstance(msg, dict) else ""
+        # 正文可能极长（洛克王国世界单条实测 690KB），先粗截断再交给解析器。
+        summary = _clean_summary(content[:CONTENT_PARSE_MAX_LEN])
+        # 部分公告正文只有一张长图（如三角洲 iNewsId=18837554/18834460，sContent
+        # 仅 <img> + &nbsp;），源站本身没有文字。给个占位说明，避免卡片摘要空白。
+        if not summary and "<img" in content.lower():
+            return IMAGE_ONLY_SUMMARY
+        return summary
+    except Exception as exc:  # 网络/解析/结构异常都只降级为空摘要
+        logger.warning("gicp 正文获取失败（p0=%s id=%s）：%s", service_id, news_id, exc)
+        return ""
 
 
 # ---------------------------------------------------------------------------
@@ -727,14 +801,16 @@ def fetch_df_updates(game):
             if doc_id
             else game["official_url"]
         )
+        # 详情页链接用 iDocID，但正文接口只认 iNewsId（等价于 iId）。
+        news_id = item.get("iNewsId") or item.get("iId")
 
         updates.append(
             {
                 "title": title or "（无标题）",
                 "type": _df_classify(item),
                 "date": ann_date.isoformat(),
-                # sDesc 实测恒为空字符串，无摘要可用。
-                "summary": _clean_summary(item.get("sDesc") or ""),
+                # sDesc 实测恒为空字符串，摘要改走 gicp 图文正文接口。
+                "summary": _fetch_gicp_summary(game["serviceId"], news_id),
                 "url": detail_url,
             }
         )
@@ -810,10 +886,8 @@ def fetch_gp_updates(game):
         else:
             detail_url = game["official_url"]
 
-        # sDesc 实测等于 sTitle，不是真摘要，按无摘要处理。
-        summary = _clean_summary(item.get("sDesc") or "")
-        if summary == title:
-            summary = ""
+        # sDesc 实测等于 sTitle，不是真摘要，改走 gicp 图文正文接口。
+        summary = _fetch_gicp_summary(game["serviceId"], news_id)
 
         updates.append(
             {
@@ -895,8 +969,8 @@ def fetch_rocom_updates(game):
                 "title": title or "（无标题）",
                 "type": _rocom_classify(item),
                 "date": ann_date.isoformat(),
-                # sDesc 恒为空。
-                "summary": _clean_summary(item.get("sDesc") or ""),
+                # sDesc 恒为空，摘要改走 gicp 图文正文接口。
+                "summary": _fetch_gicp_summary(game["serviceId"], news_id),
                 "url": detail_url,
             }
         )

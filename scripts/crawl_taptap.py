@@ -23,7 +23,7 @@ import logging
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from bs4 import BeautifulSoup
 
@@ -182,13 +182,26 @@ def enrich_with_detail(game):
         #   2) "2026-08-22"（连字符分隔，见江城创业记）
         # 二者都紧跟在"上线日期"文案之后（中间可能有冒号、空格、换行等分隔字符），
         # 因此这里用一条兼容正则匹配。捕获到日期后统一归一化为 YYYY-MM-DD。
-        # 如果详情页也找不到该字段，则保留列表页传入的日期分组标题作为兜底。
         release_match = re.search(
             r"上线日期[^\d]{0,10}(20\d{2})[/\-](\d{1,2})[/\-](\d{1,2})", page_text
         )
         if release_match:
             y, m, d = release_match.groups()
             game["release_date"] = f"{y}-{int(m):02d}-{int(d):02d}"
+        else:
+            # 详情页没有完整日期（如"漫画群星：大集结"只标"限量测试"，无上线日期
+            # 字段）时，回退用列表页分组标题里的"月/日"（如"08/19 周三"），
+            # 按当前月份推断年份：仅当前月为 12 月且目标月为 1 月时归为明年，
+            # 其余情况默认今年。统一归一化为 YYYY-MM-DD，与详情页格式一致。
+            fallback_match = re.search(r"(\d{1,2})[/\-](\d{1,2})", game.get("release_date") or "")
+            if fallback_match:
+                m, d = int(fallback_match.group(1)), int(fallback_match.group(2))
+                today = datetime.now(timezone.utc) + timedelta(hours=8)
+                year = today.year + 1 if today.month == 12 and m == 1 else today.year
+                try:
+                    game["release_date"] = f"{year}-{m:02d}-{d:02d}"
+                except ValueError:
+                    pass
 
         # 挂机/搬砖玩法判定依据"游戏介绍"与"开发者的话"两段文本：
         #   - 游戏介绍：class="app-intro__summary"（简介摘要），退化到 app-intro__item；
