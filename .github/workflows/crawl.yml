@@ -38,19 +38,50 @@ jobs:
       - name: 安装依赖
         run: pip install -r scripts/requirements.txt
 
+      # 三个采集脚本互相独立，各自对应一个数据源。统一加 continue-on-error: true
+      # 是为了让"部分失败"不再演变成"全部不更新"：某个源改版/超时导致脚本 exit
+      # 非 0 时，后面的采集脚本和提交推送步骤仍会执行，已成功采集到的数据照样
+      # 落库并部署。同时给每步加 id，供后续步骤用 steps.<id>.outcome 精确判断
+      # 是哪个源失败（continue-on-error 会把 conclusion 改写成 success，只有
+      # outcome 保留原始结果，所以判定必须用 outcome）。
       - name: 运行 TapTap 采集脚本
+        id: taptap
+        continue-on-error: true
         run: python scripts/crawl_taptap.py
 
       - name: 运行热门游戏动态采集脚本
+        id: hot_games
+        continue-on-error: true
         run: python scripts/crawl_hot_games.py
 
+      - name: 运行好游快爆采集脚本
+        # 输出 data/haoyoukuaibao_upcoming.json，依赖与其它脚本一致
+        # （requests + bs4，已在 scripts/requirements.txt 覆盖），且落在
+        # data/*.json 下，能被下面提交步骤的 add / diff 通配直接覆盖。
+        id: haoyoukuaibao
+        continue-on-error: true
+        run: python scripts/crawl_haoyoukuaibao.py
+
       - name: 采集失败提示
-        # 单独一步作为"哨兵"：放在采集脚本之后、提交步骤之前，只有前面任一
-        # 脚本步骤失败（exit 非 0）才会触发，输出一条 GitHub Actions 错误
-        # 注解，方便在 Actions 列表页/邮件通知里一眼看到失败原因，不必展开
-        # 日志逐行查找。注意该步骤本身不应改变 job 的失败状态，仅做提示。
-        if: failure()
-        run: echo "::error::竞品数据采集失败，请检查上方步骤日志"
+        # 单独一步作为"哨兵"：放在采集脚本之后、提交步骤之前，只要前面任一
+        # 脚本步骤失败就输出 GitHub Actions 错误注解，方便在 Actions 列表页/
+        # 邮件通知里一眼看到失败原因，不必展开日志逐行查找。
+        # 这里不能再用 failure()：采集步骤已声明 continue-on-error: true，
+        # 失败后 job 仍处于 success 状态，failure() 永远不成立，必须逐个比对
+        # steps.<id>.outcome。该步骤本身只做提示，不改变 job 状态。
+        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure'
+        run: |
+          # 把失败的脚本名字逐个打进 ::error:: 注解，直接在列表页区分是哪个源挂了。
+          if [ "${{ steps.taptap.outcome }}" = "failure" ]; then
+            echo "::error::TapTap 采集脚本失败（scripts/crawl_taptap.py）"
+          fi
+          if [ "${{ steps.hot_games.outcome }}" = "failure" ]; then
+            echo "::error::热门游戏动态采集脚本失败（scripts/crawl_hot_games.py）"
+          fi
+          if [ "${{ steps.haoyoukuaibao.outcome }}" = "failure" ]; then
+            echo "::error::好游快爆采集脚本失败（scripts/crawl_haoyoukuaibao.py）"
+          fi
+          echo "::error::竞品数据采集部分失败，已成功的数据仍会提交并部署，请检查上方步骤日志"
 
       - name: 提交并推送数据变更
         # 不用 stefanzweifel/git-auto-commit-action：该 action 内部自己做
@@ -71,7 +102,7 @@ jobs:
           fi
 
           git add data/*.json
-          git commit -m "chore: 更新竞品监测数据（TapTap / 热门游戏动态）"
+          git commit -m "chore: 更新竞品监测数据（TapTap / 热门游戏动态 / 好游快爆）"
 
           for i in 1 2 3; do
             if git push origin ${{ github.ref_name }}; then
@@ -87,8 +118,23 @@ jobs:
           done
           git push origin ${{ github.ref_name }}
 
+      - name: 标记采集失败（保证 run 显示为红色）
+        # 必须排在"提交并推送数据变更"之后：先把本次已成功采集的数据落库推送，
+        # 再让 job 以非 0 退出。顺序颠倒的话 exit 1 会让提交推送步骤被跳过，
+        # 又退回到"一个源挂掉、当天全都不更新"的老问题。
+        # 这一步的作用是把被 continue-on-error 吞掉的失败重新暴露出来：否则
+        # run 会一直显示绿色，某个数据源长期挂掉也无人察觉。
+        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure'
+        run: exit 1
+
   deploy:
     needs: crawl
+    # crawl job 末尾会因"标记采集失败"变成 failure，默认 needs 语义下 deploy
+    # 会被直接跳过，导致部分成功的数据虽然推上去了但页面不更新。这里用
+    # always() 解除失败拦截，同时显式排除 cancelled / skipped：被取消或跳过
+    # 说明采集根本没跑完（比如并发排队被取消），此时没有必要重新部署。
+    # needs: crawl 保留不动，仍靠它保证"先采集推送、后构建部署"的顺序。
+    if: always() && needs.crawl.result != 'cancelled' && needs.crawl.result != 'skipped'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

@@ -62,6 +62,17 @@ function typeClass(type) {
       return 'type-activity'
     case '更新公告':
       return 'type-update'
+    case '赛事':
+      return 'type-esports'
+    // 公告/资讯/新闻同属中性信息类，复用一套配色
+    case '公告':
+    case '资讯':
+    case '新闻':
+      return 'type-news'
+    // 安全公告/处罚公告属警示类
+    case '安全公告':
+    case '处罚公告':
+      return 'type-warning'
     default:
       return 'type-default'
   }
@@ -290,17 +301,23 @@ function typeClass(type) {
   border-radius: 10px;
   font-size: 12px;
   cursor: pointer;
-  color: #666;
+  /* tab 底色由下方 .type-xxx 类型色覆盖（同优先级、更靠后），统一用白字保证可读。
+     字色统一成白色后，选中态无法再靠字色区分，改用整体透明度 + 字重区分，
+     这样不需要改动各类型的底色值。 */
+  color: #fff;
+  opacity: 0.55;
 }
 
 .type-btn:hover {
   border-color: #1976d2;
-  color: #1976d2;
+  opacity: 0.85;
 }
 
 .type-btn.active {
   color: #fff;
   border-color: transparent;
+  opacity: 1;
+  font-weight: 700;
 }
 
 .type-btn.active.type-foresight {
@@ -315,17 +332,48 @@ function typeClass(type) {
   background: #1976d2;
 }
 
+.type-btn.active.type-esports {
+  background: #00838f;
+}
+
+.type-btn.active.type-news {
+  background: #546e7a;
+}
+
+.type-btn.active.type-warning {
+  background: #c62828;
+}
+
 .type-btn.active.type-default {
   background: #757575;
 }
 
+/* 限高 420px 并在列表内滚动，避免单个游戏动态过多把整张卡片和页面拉得很长。
+   单条动态高度随有无摘要浮动（约 46~76px），所以实际露出 3~6 条，
+   带摘要的数据源接近 4 条。 */
 .update-list {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 6px 0 0;
   display: flex;
   flex-direction: column;
   gap: 12px;
+  max-height: 420px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.update-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.update-list::-webkit-scrollbar-thumb {
+  background: #d0d0d0;
+  border-radius: 3px;
+}
+
+.update-list::-webkit-scrollbar-thumb:hover {
+  background: #b0b0b0;
 }
 
 .update-item {
@@ -365,6 +413,21 @@ function typeClass(type) {
 
 .type-update {
   background: #1976d2;
+}
+
+/* 赛事：中性亮色 */
+.type-esports {
+  background: #00838f;
+}
+
+/* 公告 / 资讯 / 新闻：中性色 */
+.type-news {
+  background: #546e7a;
+}
+
+/* 安全公告 / 处罚公告：警示色 */
+.type-warning {
+  background: #c62828;
 }
 
 .type-default {
