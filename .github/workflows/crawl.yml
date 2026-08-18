@@ -38,22 +38,6 @@ jobs:
       - name: 运行热门游戏动态采集脚本
         run: python scripts/crawl_hot_games.py
 
-      - name: 拉取远程最新提交（避免推送冲突）
-        # git-auto-commit-action README 明确写明 "git-auto-commit will not do a
-        # git-rebase for you!"，且未提供 skip_fetch/push_options 之外的冲突处理
-        # 参数。为降低 non-fast-forward 推送失败概率（例如 schedule 触发与人工
-        # workflow_dispatch/本地 push 并发时），这里在 commit 前手动 rebase 到
-        # 最新远程状态。
-        # --autostash：采集脚本刚生成的 data/*.json 属于未提交修改，pull --rebase
-        #   遇到脏工作区会拒绝执行；--autostash 会自动 stash 再 pop，避免手写
-        #   stash/rebase/pop 三步。
-        # 远程没有新提交时 pull --rebase 直接返回 0（Already up to date），
-        # 不会失败。
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase --autostash origin ${{ github.ref_name }}
-
       - name: 提交数据变更
         id: auto_commit
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -62,19 +46,29 @@ jobs:
           file_pattern: 'data/*.json'
           skip_push: true
 
-      - name: 推送提交（失败时 rebase 重试，避免与并发推送冲突）
-        # git-auto-commit-action 内部 push 失败（non-fast-forward，例如 schedule
-        # 触发与人工 workflow_dispatch/本地 push 并发时）会把错误统一抛成
-        # "Invalid status code: 1" 且不会自动重试。这里用 skip_push: true 让该
-        # action 只负责 commit，push 交给下面这一步：遇到冲突就 rebase 后重推。
+      - name: 推送提交（遇冲突时以本次采集结果为准，rebase 后重试）
+        # 不在 commit 前做 pull --rebase --autostash：那一步会把脚本刚生成的
+        # 未提交改动 stash 再 pop，如果远程同时更新了同一批 data/*.json，
+        # pop 会冲突并把工作区留在"未合并"状态，导致后面 git add 直接报错
+        # （即 "needs merge" -> Invalid status code: 1）。
+        # 改为：先正常提交，push 失败（non-fast-forward）时才 rebase；
+        # data/*.json 是纯采集生成产物，冲突时直接以本次最新采集结果为准
+        # (--ours)，不做人工合并。
         if: steps.auto_commit.outputs.changes_detected == 'true'
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           for i in 1 2 3; do
             if git push origin ${{ github.ref_name }}; then
               exit 0
             fi
             echo "推送冲突，尝试第 $i 次 rebase 重试..."
-            git pull --rebase --autostash origin ${{ github.ref_name }}
+            if ! git pull --rebase origin ${{ github.ref_name }}; then
+              echo "rebase 冲突，data/*.json 以本次采集结果为准"
+              git checkout --ours -- data/*.json
+              git add data/*.json
+              git rebase --continue
+            fi
           done
           git push origin ${{ github.ref_name }}
 
@@ -93,7 +87,7 @@ jobs:
       - name: 安装 Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: 安装前端依赖
         working-directory: web
