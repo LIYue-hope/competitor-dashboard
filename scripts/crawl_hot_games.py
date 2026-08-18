@@ -472,8 +472,13 @@ def fetch_mihoyo_cms_updates(game):
                 "title": title or "（无标题）",
                 "type": _classify_type(_mihoyo_cms_label(game, item), title),
                 "date": ann_date.isoformat(),
-                # sIntro 是列表接口自带的摘要，无需再请求详情接口。
-                "summary": _clean_summary(item.get("sIntro") or ""),
+                # sIntro 是列表接口自带的摘要，无需再请求详情接口。但部分游戏
+                # （如原神）所有条目的 sIntro 都是空串，此时回退到 sContent
+                # （正文 HTML），_clean_summary 会去标签并截断到 SUMMARY_MAX_LEN。
+                "summary": (
+                    _clean_summary(item.get("sIntro") or "")
+                    or _clean_summary(item.get("sContent") or "")
+                ),
                 "url": _mihoyo_cms_detail_url(game, item, ext),
             }
         )

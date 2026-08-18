@@ -30,7 +30,8 @@
           <li>
             <a>
               <div class="con">
-                <div class="name"><em>游戏名</em><span class="g-type">状态角标</span></div>
+                <div class="name"><em>游戏名</em><span class="g-type-pc">PC/主机</span></div>
+                                            <!-- 角标类名带后缀（g-type-xx），也可能是无文本图标 <i class="it-ico ghot"> -->
                 <p class="tags"><span class="it">类型标签</span>...</p>
                 <div class="info">
                   <span class="score">9.6</span>       <!-- 可能无 -->
@@ -203,8 +204,14 @@ def _parse_game_row(li):
     if not game_name:
         return None
 
-    status_node = name_node.find(class_="g-type")
-    status_tag = status_node.get_text(strip=True) if status_node else None
+    # 状态角标的实际类名带后缀（如 <span class="g-type-pc">PC/主机</span>），
+    # BeautifulSoup 的 class_= 按 class token 精确匹配，写 "g-type" 匹配不到
+    # "g-type-pc"，必须按前缀匹配。同级还有纯图标角标（<i class="it-ico ghot">
+    # 表示热门），本身无文本，取到空串时按"无角标"处理。
+    status_node = name_node.find(
+        lambda tag: any(c.startswith("g-type") for c in (tag.get("class") or []))
+    )
+    status_tag = (status_node.get_text(strip=True) or None) if status_node else None
 
     categories = [
         it.get_text(strip=True)

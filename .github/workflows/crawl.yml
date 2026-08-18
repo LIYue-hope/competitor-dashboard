@@ -24,11 +24,15 @@ jobs:
       - name: Checkout 仓库
         uses: actions/checkout@v4
 
-      - name: 注册 merge=ours 驱动（配合 .gitattributes 避免数据文件产生冲突）
-        # .gitattributes 声明 data/*.json merge=ours，但 Git 并不会内置这个
-        # 驱动，需要显式注册一次（值随便设为 true，Git 只关心该 config key
-        # 是否存在），否则该属性不生效，冲突时仍会走默认三方合并。
-        run: git config --local merge.ours.driver true
+      - name: 注册 keep-crawled 合并驱动（配合 .gitattributes 避免数据文件产生冲突）
+        # .gitattributes 声明 data/*.json merge=keep-crawled，但 Git 不内置这个
+        # 驱动，需要显式注册一次，否则该属性不生效，冲突时仍会走默认三方合并。
+        # data/*.json 是纯采集产物，冲突时应"以本次采集结果为准"：驱动脚本里
+        # %A 是当前侧、%B 是待并入侧，rebase 时 %A 为远端已有提交、%B 为正在
+        # 重放的本次采集提交，所以 cp %B %A 才是保留新采集数据。
+        # （早先注册的 merge.ours.driver true 保留 %A，方向正好相反，会静默丢弃
+        #  刚采集到的数据。）
+        run: git config --local merge.keep-crawled.driver 'cp %B %A'
 
       - name: 安装 Python
         uses: actions/setup-python@v5
@@ -90,8 +94,8 @@ jobs:
         # git 命令，方便在推送冲突时精确控制重试与冲突解决策略。
         #
         # data/*.json 是纯采集生成产物（.gitattributes 已声明
-        # merge=ours，避免 rebase 时进入需要人工解决的冲突状态），
-        # 因此这里冲突处理只需保底兜底一次 checkout --ours。
+        # merge=keep-crawled，冲突时直接取本次采集结果，避免 rebase 进入需要
+        # 人工解决的冲突状态），因此这里冲突处理只需保底兜底一次 checkout。
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -111,7 +115,10 @@ jobs:
             echo "推送冲突，尝试第 $i 次 rebase 重试..."
             if ! git pull --rebase origin ${{ github.ref_name }}; then
               echo "rebase 冲突，data/*.json 以本次采集结果为准"
-              git checkout --ours -- data/*.json
+              # rebase 期间 --ours 指被 rebase 到的那一侧（远端已有提交），
+              # --theirs 才是正在重放的本地提交（即本次采集结果）。要"以本次
+              # 采集为准"必须用 --theirs，写 --ours 会反过来丢掉刚采到的数据。
+              git checkout --theirs -- data/*.json
               git add data/*.json
               git rebase --continue
             fi
@@ -141,8 +148,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout 仓库
-        # crawl job 通过 needs 保证先执行完成，git-auto-commit-action 的提交
-        # 已经推送到默认分支，这里普通 checkout 即可拉到包含最新数据的代码。
+        # crawl job 通过 needs 保证先执行完成，其"提交并推送数据变更"步骤已把
+        # 数据提交推送到默认分支，这里普通 checkout 即可拉到包含最新数据的代码。
         uses: actions/checkout@v4
 
       - name: 安装 Node.js
