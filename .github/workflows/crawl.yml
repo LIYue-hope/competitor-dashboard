@@ -55,10 +55,28 @@ jobs:
           git pull --rebase --autostash origin ${{ github.ref_name }}
 
       - name: 提交数据变更
+        id: auto_commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: 更新竞品监测数据（TapTap / 热门游戏动态）'
           file_pattern: 'data/*.json'
+          skip_push: true
+
+      - name: 推送提交（失败时 rebase 重试，避免与并发推送冲突）
+        # git-auto-commit-action 内部 push 失败（non-fast-forward，例如 schedule
+        # 触发与人工 workflow_dispatch/本地 push 并发时）会把错误统一抛成
+        # "Invalid status code: 1" 且不会自动重试。这里用 skip_push: true 让该
+        # action 只负责 commit，push 交给下面这一步：遇到冲突就 rebase 后重推。
+        if: steps.auto_commit.outputs.changes_detected == 'true'
+        run: |
+          for i in 1 2 3; do
+            if git push origin ${{ github.ref_name }}; then
+              exit 0
+            fi
+            echo "推送冲突，尝试第 $i 次 rebase 重试..."
+            git pull --rebase --autostash origin ${{ github.ref_name }}
+          done
+          git push origin ${{ github.ref_name }}
 
   deploy:
     needs: crawl
