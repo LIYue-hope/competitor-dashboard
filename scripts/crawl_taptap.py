@@ -252,6 +252,13 @@ def main():
 
     records = build_output(enriched)
 
+    # 健全性检查：列表页解析到 0 条记录基本只有两种可能——页面结构变化导致
+    # 选择器失效，或者本次请求被限流/返回异常页面。两种情况都不应该用空
+    # 列表覆盖掉之前采集到的正常数据，直接终止本次写入。
+    if not records:
+        logger.error("采集结果为空（0 条记录），疑似解析失效，终止写入以避免覆盖旧数据")
+        return 1
+
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(records, f, ensure_ascii=False, indent=2)

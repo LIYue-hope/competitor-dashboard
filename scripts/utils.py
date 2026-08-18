@@ -71,6 +71,35 @@ def fetch_html(url, timeout=10, retries=2, backoff=1.5):
     return None
 
 
+def fetch_json(url, timeout=10, retries=2, backoff=1.5, headers=None):
+    """发起 GET 请求并解析为 JSON，失败时重试，最终失败抛出最后一次异常。
+
+    与 fetch_html 不同：这里失败时抛异常而不是返回 None，因为调用方
+    （米哈游公告 API、腾讯 cmc/cross 接口等）后续需要区分"网络失败"
+    与"正常返回但业务字段异常"，抛异常能让上层统一走 build_game_record
+    的 try/except 降级为 source_status="error"，不会用空数据覆盖旧数据。
+    """
+    merged_headers = dict(DEFAULT_HEADERS)
+    if headers:
+        merged_headers.update(headers)
+
+    last_exc = None
+    for attempt in range(1, retries + 2):
+        try:
+            resp = requests.get(url, headers=merged_headers, timeout=timeout)
+            resp.raise_for_status()
+            resp.encoding = resp.apparent_encoding or resp.encoding
+            return resp
+        except requests.RequestException as exc:
+            last_exc = exc
+            logger.warning(
+                "请求失败（第%d次）：%s，原因：%s", attempt, url, exc
+            )
+            if attempt <= retries:
+                time.sleep(backoff * attempt)
+    raise last_exc
+
+
 def match_keywords(text, keywords):
     """判断 text 中是否包含 keywords 列表中的任一关键词。"""
     if not text:

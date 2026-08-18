@@ -24,6 +24,12 @@ jobs:
       - name: Checkout 仓库
         uses: actions/checkout@v4
 
+      - name: 注册 merge=ours 驱动（配合 .gitattributes 避免数据文件产生冲突）
+        # .gitattributes 声明 data/*.json merge=ours，但 Git 并不会内置这个
+        # 驱动，需要显式注册一次（值随便设为 true，Git 只关心该 config key
+        # 是否存在），否则该属性不生效，冲突时仍会走默认三方合并。
+        run: git config --local merge.ours.driver true
+
       - name: 安装 Python
         uses: actions/setup-python@v5
         with:
@@ -38,26 +44,35 @@ jobs:
       - name: 运行热门游戏动态采集脚本
         run: python scripts/crawl_hot_games.py
 
-      - name: 提交数据变更
-        id: auto_commit
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: 更新竞品监测数据（TapTap / 热门游戏动态）'
-          file_pattern: 'data/*.json'
-          skip_push: true
+      - name: 采集失败提示
+        # 单独一步作为"哨兵"：放在采集脚本之后、提交步骤之前，只有前面任一
+        # 脚本步骤失败（exit 非 0）才会触发，输出一条 GitHub Actions 错误
+        # 注解，方便在 Actions 列表页/邮件通知里一眼看到失败原因，不必展开
+        # 日志逐行查找。注意该步骤本身不应改变 job 的失败状态，仅做提示。
+        if: failure()
+        run: echo "::error::竞品数据采集失败，请检查上方步骤日志"
 
-      - name: 推送提交（遇冲突时以本次采集结果为准，rebase 后重试）
-        # 不在 commit 前做 pull --rebase --autostash：那一步会把脚本刚生成的
-        # 未提交改动 stash 再 pop，如果远程同时更新了同一批 data/*.json，
-        # pop 会冲突并把工作区留在"未合并"状态，导致后面 git add 直接报错
-        # （即 "needs merge" -> Invalid status code: 1）。
-        # 改为：先正常提交，push 失败（non-fast-forward）时才 rebase；
-        # data/*.json 是纯采集生成产物，冲突时直接以本次最新采集结果为准
-        # (--ours)，不做人工合并。
-        if: steps.auto_commit.outputs.changes_detected == 'true'
+      - name: 提交并推送数据变更
+        # 不用 stefanzweifel/git-auto-commit-action：该 action 内部自己做
+        # add+commit+push，push 失败（non-fast-forward）时无法从外部介入重试，
+        # 且没有 skip_push 输入可用于把 push 拆出来单独处理。改为直接用原生
+        # git 命令，方便在推送冲突时精确控制重试与冲突解决策略。
+        #
+        # data/*.json 是纯采集生成产物（.gitattributes 已声明
+        # merge=ours，避免 rebase 时进入需要人工解决的冲突状态），
+        # 因此这里冲突处理只需保底兜底一次 checkout --ours。
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- data/*.json; then
+            echo "数据无变化，跳过提交"
+            exit 0
+          fi
+
+          git add data/*.json
+          git commit -m "chore: 更新竞品监测数据（TapTap / 热门游戏动态）"
+
           for i in 1 2 3; do
             if git push origin ${{ github.ref_name }}; then
               exit 0

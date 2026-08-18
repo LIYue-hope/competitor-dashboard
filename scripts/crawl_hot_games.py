@@ -26,7 +26,7 @@ from datetime import datetime, timedelta, timezone
 import requests
 from bs4 import BeautifulSoup
 
-from utils import DEFAULT_HEADERS, has_afk_grinding_tag
+from utils import DEFAULT_HEADERS, fetch_json, has_afk_grinding_tag
 
 logging.basicConfig(
     level=logging.INFO,
@@ -248,12 +248,6 @@ def _classify_type(label, title):
 # ---------------------------------------------------------------------------
 # 米哈游公告 API
 # ---------------------------------------------------------------------------
-def _fetch_json(url, timeout=12):
-    resp = requests.get(url, headers=DEFAULT_HEADERS, timeout=timeout)
-    resp.raise_for_status()
-    return resp.json()
-
-
 def fetch_mihoyo_updates(game):
     """抓取米哈游系游戏近 7 天公告，返回 update 列表。"""
     list_url = game["list_url"]
@@ -262,14 +256,14 @@ def fetch_mihoyo_updates(game):
         "getAnnList", "getAnnContent"
     )
 
-    list_data = _fetch_json(list_url)
+    list_data = fetch_json(list_url, timeout=12).json()
     if list_data.get("retcode") != 0:
         raise RuntimeError(f"getAnnList retcode={list_data.get('retcode')}")
 
     # 正文映射：ann_id -> content(HTML)。正文接口偶发异常时降级为只用标题/副标题。
     content_map = {}
     try:
-        content_data = _fetch_json(content_url)
+        content_data = fetch_json(content_url, timeout=12).json()
         for item in content_data.get("data", {}).get("list", []):
             content_map[item.get("ann_id")] = item.get("content", "")
     except (requests.RequestException, ValueError) as exc:
@@ -320,9 +314,7 @@ def fetch_netease_updates(game):
       summary_sel 摘要文本选择器（相对 item），None 表示无摘要
     """
     dom = game["dom"]
-    resp = requests.get(game["list_url"], headers=DEFAULT_HEADERS, timeout=12)
-    resp.raise_for_status()
-    resp.encoding = resp.apparent_encoding or "utf-8"
+    resp = fetch_json(game["list_url"], timeout=12)
     soup = BeautifulSoup(resp.text, "html.parser")
 
     cutoff = _cutoff_date()
@@ -404,11 +396,8 @@ def fetch_wjsj_updates(game):
         + "&exclusiveChannelSign=" + sign
         + "&time=" + str(ts)
     )
-    headers = dict(DEFAULT_HEADERS)
-    headers["Referer"] = "https://world.qq.com/"
-    resp = requests.get(url, headers=headers, timeout=12)
-    resp.raise_for_status()
-    resp.encoding = resp.apparent_encoding or "utf-8"
+    headers = {"Referer": "https://world.qq.com/"}
+    resp = fetch_json(url, timeout=12, headers=headers)
     text = resp.text
     start, end = text.find("{"), text.rfind("}")
     if start == -1 or end == -1:
@@ -512,12 +501,27 @@ def build_output():
 
 def main():
     output = build_output()
+
+    # 健全性检查：防止网络异常/接口大范围失效时，用几乎全空的结果覆盖掉
+    # 昨天采集到的正常数据。只要"至少一款游戏成功采集到 >=1 条动态"就
+    # 认为本次采集有效；全部游戏都 pending/error/空更新才判定为异常。
+    total_updates = sum(
+        len(g["updates"])
+        for pub in output["publishers"]
+        for g in pub["games"]
+    )
+    if total_updates == 0:
+        raise RuntimeError(
+            "热门游戏动态采集结果异常：全部游戏 0 条动态，"
+            "疑似接口大范围失效，终止写入以避免覆盖旧数据"
+        )
+
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     total = sum(len(g["games"]) for g in output["publishers"])
-    logger.info("已写入 %s（%d 款游戏）", OUTPUT_PATH, total)
+    logger.info("已写入 %s（%d 款游戏，%d 条动态）", OUTPUT_PATH, total, total_updates)
 
 
 if __name__ == "__main__":
