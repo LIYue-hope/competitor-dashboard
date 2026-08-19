@@ -2,18 +2,28 @@
 import { ref, onMounted } from 'vue'
 import GameCard from './components/GameCard.vue'
 import HaoyouPanel from './components/HaoyouPanel.vue'
+import JiuyouPanel from './components/JiuyouPanel.vue'
 import HotGamesPanel from './components/HotGamesPanel.vue'
+import GameNewsPanel from './components/GameNewsPanel.vue'
 
-// 三个数据源分开加载与展示：
+// 六个数据源分开加载与展示：
 // - taptap_upcoming.json：TapTap 新游预约扁平列表
 // - haoyoukuaibao_upcoming.json：好游快爆按日期分组的时间线
+// - 9game_upcoming.json：九游新游开测按日期分组的时间线
 // - hot_games_dynamics.json：热门游戏动态按发行商分组
+// - 3dmgame_news.json / 3dmgame_reviews.json：游戏资讯（3DMGame 新闻 + 测评）
 const taptapGames = ref([])
 const haoyouData = ref(null)
+const jiuyouData = ref(null)
 const hotGamesData = ref(null)
+const dmNewsData = ref(null)
+const dmReviewsData = ref(null)
 const taptapError = ref('')
 const haoyouError = ref('')
+const jiuyouError = ref('')
 const hotGamesError = ref('')
+const dmNewsError = ref('')
+const dmReviewsError = ref('')
 const loading = ref(true)
 
 // 当前激活 Tab，默认 TapTap
@@ -30,12 +40,17 @@ async function loadJson(name) {
 }
 
 onMounted(async () => {
-  // 三个数据源独立加载，一个失败不影响其它 Tab 的可用性
-  const [taptapResult, haoyouResult, hotGamesResult] = await Promise.allSettled([
-    loadJson('taptap_upcoming.json'),
-    loadJson('haoyoukuaibao_upcoming.json'),
-    loadJson('hot_games_dynamics.json'),
-  ])
+  // 各数据源独立加载，一个失败不影响其它 Tab / 板块的可用性
+  const [taptapResult, haoyouResult, jiuyouResult, hotGamesResult, dmNewsResult, dmReviewsResult] =
+    await Promise.allSettled([
+      loadJson('taptap_upcoming.json'),
+      loadJson('haoyoukuaibao_upcoming.json'),
+      loadJson('9game_upcoming.json'),
+      loadJson('hot_games_dynamics.json'),
+      loadJson('3dmgame_news.json'),
+      loadJson('3dmgame_reviews.json'),
+    ])
+
 
   if (taptapResult.status === 'fulfilled') {
     taptapGames.value = taptapResult.value
@@ -49,10 +64,28 @@ onMounted(async () => {
     haoyouError.value = `数据加载失败：${haoyouResult.reason.message}`
   }
 
+  if (jiuyouResult.status === 'fulfilled') {
+    jiuyouData.value = jiuyouResult.value
+  } else {
+    jiuyouError.value = `数据加载失败：${jiuyouResult.reason.message}`
+  }
+
   if (hotGamesResult.status === 'fulfilled') {
     hotGamesData.value = hotGamesResult.value
   } else {
     hotGamesError.value = `数据加载失败：${hotGamesResult.reason.message}`
+  }
+
+  if (dmNewsResult.status === 'fulfilled') {
+    dmNewsData.value = dmNewsResult.value
+  } else {
+    dmNewsError.value = `数据加载失败：${dmNewsResult.reason.message}`
+  }
+
+  if (dmReviewsResult.status === 'fulfilled') {
+    dmReviewsData.value = dmReviewsResult.value
+  } else {
+    dmReviewsError.value = `数据加载失败：${dmReviewsResult.reason.message}`
   }
 
   loading.value = false
@@ -84,6 +117,10 @@ function formatCrawledAt(isoString) {
         :class="['tab-btn', { active: activeTab === 'haoyou' }]"
         @click="activeTab = 'haoyou'"
       >好游快爆新游监测</button>
+      <button
+        :class="['tab-btn', { active: activeTab === 'jiuyou' }]"
+        @click="activeTab = 'jiuyou'"
+      >九游新游监测</button>
     </nav>
 
     <p v-if="loading">加载中...</p>
@@ -110,12 +147,32 @@ function formatCrawledAt(isoString) {
       <HaoyouPanel v-else :data="haoyouData" />
     </section>
 
+    <!-- 九游 Tab -->
+    <section v-show="!loading && activeTab === 'jiuyou'" class="tab-panel">
+      <p v-if="jiuyouError" class="error">{{ jiuyouError }}</p>
+      <p v-else-if="!jiuyouData || jiuyouData.days.length === 0">暂无数据</p>
+      <JiuyouPanel v-else :data="jiuyouData" />
+    </section>
+
     <!-- 热门游戏动态监测：固定展示在新游监测 Tab 内容下方，不作为可切换的顶级 Tab -->
     <section v-if="!loading" class="hot-section">
       <h2 class="hot-heading">热门游戏动态监测</h2>
       <p v-if="hotGamesError" class="error">{{ hotGamesError }}</p>
       <p v-else-if="!hotGamesData || hotGamesData.publishers.length === 0">暂无数据</p>
       <HotGamesPanel v-else :data="hotGamesData" />
+    </section>
+
+    <!-- 游戏资讯：与新游监测、热门游戏动态监测同级的独立板块，
+         当前只接入 3DMGame，内部再分新闻 / 测评两个子 Tab -->
+    <section v-if="!loading" class="hot-section">
+      <h2 class="hot-heading">游戏资讯</h2>
+      <h3 class="sub-heading">3DMGame</h3>
+      <GameNewsPanel
+        :news-data="dmNewsData"
+        :reviews-data="dmReviewsData"
+        :news-error="dmNewsError"
+        :reviews-error="dmReviewsError"
+      />
     </section>
   </div>
 </template>
@@ -207,4 +264,11 @@ function formatCrawledAt(isoString) {
   margin: 0 0 16px;
   color: #222;
 }
+
+.sub-heading {
+  font-size: 15px;
+  margin: 0 0 12px;
+  color: #444;
+}
+
 </style>

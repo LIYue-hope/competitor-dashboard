@@ -1,0 +1,533 @@
+<script setup>
+import { ref, computed, watch, nextTick } from 'vue'
+
+const props = defineProps({
+  newsData: {
+    type: Object,
+    default: null,
+    // { crawled_at, window_days, items: [ {title, url, game_name, published_at, summary} ] }
+  },
+  reviewsData: {
+    type: Object,
+    default: null,
+    // { crawled_at, window_days, items: [ {title, url, score, published_at, comment_count, author} ] }
+  },
+  newsError: {
+    type: String,
+    default: '',
+  },
+  reviewsError: {
+    type: String,
+    default: '',
+  },
+})
+
+// 面板内部的「新闻 / 测评」子 Tab，默认新闻
+const activeTab = ref('news')
+
+const newsItems = computed(() => props.newsData?.items || [])
+const reviewItems = computed(() => props.reviewsData?.items || [])
+
+// 日期筛选：起止两个下拉框构成一个连续区间，'' 只在无数据时出现
+const startDate = ref('')
+const endDate = ref('')
+
+function dateOf(item) {
+  return (item.published_at || '').slice(0, 10)
+}
+
+// 可选日期取数据里实际出现的日期，按倒序排列，并带上当日条数
+const dateOptions = computed(() => {
+  const counter = new Map()
+  for (const item of newsItems.value) {
+    const date = dateOf(item)
+    if (!date) continue
+    counter.set(date, (counter.get(date) || 0) + 1)
+  }
+  return [...counter.entries()]
+    .map(([date, count]) => ({ date, count }))
+    .sort((a, b) => (a.date < b.date ? 1 : -1))
+})
+
+// 只保留数据里真实存在的日期，倒序（新 → 旧）
+const availableDates = computed(() => dateOptions.value.map((opt) => opt.date))
+
+// 区间必须落在已有数据的日期内：数据刷新后把越界的选择收回到完整区间
+watch(
+  availableDates,
+  (dates) => {
+    if (!dates.length) {
+      startDate.value = ''
+      endDate.value = ''
+      return
+    }
+    const newest = dates[0]
+    const oldest = dates[dates.length - 1]
+    if (!dates.includes(startDate.value)) startDate.value = oldest
+    if (!dates.includes(endDate.value)) endDate.value = newest
+  },
+  { immediate: true },
+)
+
+// 两个下拉互相裁剪可选项，天然保证 起始 <= 结束，不需要额外纠正逻辑
+const startOptions = computed(() =>
+  dateOptions.value.filter((opt) => opt.date <= endDate.value),
+)
+const endOptions = computed(() =>
+  dateOptions.value.filter((opt) => opt.date >= startDate.value),
+)
+
+const isFullRange = computed(() => {
+  const dates = availableDates.value
+  if (!dates.length) return true
+  return endDate.value === dates[0] && startDate.value === dates[dates.length - 1]
+})
+
+const filteredNews = computed(() => {
+  if (!startDate.value || !endDate.value) return newsItems.value
+  return newsItems.value.filter((item) => {
+    const date = dateOf(item)
+    return date >= startDate.value && date <= endDate.value
+  })
+})
+
+// 只在区间收窄到单日时统计当日新闻数最多的 3 个游戏，并列时按 game_name 升序
+const topGames = computed(() => {
+  if (!startDate.value || startDate.value !== endDate.value) return []
+  const counter = new Map()
+  for (const item of filteredNews.value) {
+    const name = item.game_name
+    if (!name) continue
+    counter.set(name, (counter.get(name) || 0) + 1)
+  }
+  return [...counter.entries()]
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count || (a.name < b.name ? -1 : 1))
+    .slice(0, 3)
+})
+
+const newsListRef = ref(null)
+
+function resetRange() {
+  const dates = availableDates.value
+  if (!dates.length) return
+  startDate.value = dates[dates.length - 1]
+  endDate.value = dates[0]
+}
+
+// 换日期后列表内容整体变化，滚动位置需要回到顶部
+watch([startDate, endDate], () => {
+  nextTick(() => {
+    if (newsListRef.value) newsListRef.value.scrollTop = 0
+  })
+})
+
+function formatCrawledAt(isoString) {
+  if (!isoString) return ''
+  const d = new Date(isoString)
+  if (Number.isNaN(d.getTime())) return ''
+  const pad = (n) => String(n).padStart(2, '0')
+  return `${pad(d.getMonth() + 1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`
+}
+
+// published_at 是采集侧输出的 'YYYY-MM-DD HH:mm:ss' 文本，直接截取避免时区偏移
+function shortDate(date) {
+  return (date || '').slice(5, 10)
+}
+
+function formatPublishedShort(published) {
+  return (published || '').slice(5, 16)
+}
+
+function formatPublishedFull(published) {
+  return (published || '').slice(0, 16)
+}
+
+function scoreClass(score) {
+  const value = Number(score)
+  if (!score || Number.isNaN(value)) return 'score-none'
+  if (value >= 9) return 'score-high'
+  if (value >= 8) return 'score-good'
+  if (value >= 7) return 'score-fair'
+  return 'score-low'
+}
+
+function scoreText(score) {
+  return score ? score : '暂无评分'
+}
+</script>
+
+<template>
+  <div class="news-panel">
+    <nav class="tab-nav">
+      <button
+        :class="['tab-btn', { active: activeTab === 'news' }]"
+        @click="activeTab = 'news'"
+      >新闻</button>
+      <button
+        :class="['tab-btn', { active: activeTab === 'reviews' }]"
+        @click="activeTab = 'reviews'"
+      >测评</button>
+    </nav>
+
+    <section v-if="activeTab === 'news'" class="tab-section">
+      <p v-if="newsError" class="error">{{ newsError }}</p>
+      <template v-else>
+        <div v-if="newsData" class="panel-meta">
+          <div class="source-line">
+            3DMGame 新闻：近 {{ newsData.window_days }} 天 · 更新于 {{ formatCrawledAt(newsData.crawled_at) }}
+          </div>
+        </div>
+
+        <div v-if="dateOptions.length" class="pub-nav">
+          <label class="date-field">
+            起始
+            <select v-model="startDate" class="date-select">
+              <option v-for="opt in startOptions" :key="opt.date" :value="opt.date">
+                {{ shortDate(opt.date) }}（{{ opt.count }}）
+              </option>
+            </select>
+          </label>
+          <span class="range-sep">至</span>
+          <label class="date-field">
+            结束
+            <select v-model="endDate" class="date-select">
+              <option v-for="opt in endOptions" :key="opt.date" :value="opt.date">
+                {{ shortDate(opt.date) }}（{{ opt.count }}）
+              </option>
+            </select>
+          </label>
+          <span class="range-count">共 {{ filteredNews.length }} 条</span>
+          <button v-if="!isFullRange" class="reset-btn" @click="resetRange">全部日期</button>
+        </div>
+
+        <p v-if="topGames.length" class="top-games">
+          当日热点：<span
+            v-for="(g, i) in topGames"
+            :key="g.name"
+          >{{ i > 0 ? ' · ' : '' }}{{ g.name }}（{{ g.count }}）</span>
+        </p>
+
+        <p v-if="filteredNews.length === 0" class="empty">暂无数据</p>
+        <ul v-else ref="newsListRef" class="news-list">
+          <li v-for="(item, i) in filteredNews" :key="item.url || i" class="news-item">
+            <div class="item-head">
+              <span v-if="item.game_name" class="game-tag">{{ item.game_name }}</span>
+              <span class="item-date">{{ formatPublishedShort(item.published_at) }}</span>
+            </div>
+            <a
+              v-if="item.url"
+              class="item-title"
+              :href="item.url"
+              target="_blank"
+              rel="noopener"
+            >{{ item.title }}</a>
+            <span v-else class="item-title">{{ item.title }}</span>
+            <p v-if="item.summary" class="item-summary">{{ item.summary }}</p>
+          </li>
+        </ul>
+      </template>
+    </section>
+
+    <section v-else class="tab-section">
+      <p v-if="reviewsError" class="error">{{ reviewsError }}</p>
+      <template v-else>
+        <div v-if="reviewsData" class="panel-meta">
+          <div class="source-line">
+            3DMGame 测评：近 {{ reviewsData.window_days }} 天 · 更新于 {{ formatCrawledAt(reviewsData.crawled_at) }}
+          </div>
+        </div>
+
+        <p v-if="reviewItems.length === 0" class="empty">暂无数据</p>
+        <ul v-else class="review-list">
+          <li v-for="(item, i) in reviewItems" :key="item.url || i" class="review-item">
+            <span :class="['score-badge', scoreClass(item.score)]">{{ scoreText(item.score) }}</span>
+            <div class="review-body">
+              <a
+                v-if="item.url"
+                class="item-title"
+                :href="item.url"
+                target="_blank"
+                rel="noopener"
+              >{{ item.title }}</a>
+              <span v-else class="item-title">{{ item.title }}</span>
+              <div class="review-meta">
+                <span>{{ formatPublishedFull(item.published_at) }}</span>
+                <span v-if="item.author" class="review-author">by {{ item.author }}</span>
+                <span>评论 {{ item.comment_count }}</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </template>
+    </section>
+  </div>
+</template>
+
+<style scoped>
+.tab-nav {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.tab-btn {
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 6px 16px;
+  border-radius: 16px;
+  font-size: 13px;
+  cursor: pointer;
+  color: #333;
+}
+
+.tab-btn:hover {
+  border-color: #1976d2;
+  color: #1976d2;
+}
+
+.tab-btn.active {
+  background: #1976d2;
+  color: #fff;
+  border-color: #1976d2;
+}
+
+.panel-meta {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.panel-meta .source-line {
+  color: #666;
+}
+
+.pub-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.date-field {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  color: #666;
+}
+
+.date-select {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+  padding: 5px 8px;
+  font-size: 13px;
+  color: #333;
+  cursor: pointer;
+}
+
+.date-select:hover {
+  border-color: #1976d2;
+}
+
+.range-sep {
+  font-size: 13px;
+  color: #999;
+}
+
+.range-count {
+  font-size: 12px;
+  color: #999;
+}
+
+.reset-btn {
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #666;
+}
+
+.reset-btn:hover {
+  border-color: #1976d2;
+  color: #1976d2;
+}
+
+.top-games {
+  margin: 0 0 12px;
+  font-size: 13px;
+  color: #444;
+}
+
+.empty {
+  color: #999;
+  font-size: 13px;
+}
+
+.error {
+  color: #d32f2f;
+  font-size: 13px;
+}
+
+/* 新闻条数多，限高在列表内滚动，避免把整页拉长 */
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0 6px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 560px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.news-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.news-list::-webkit-scrollbar-thumb {
+  background: #d0d0d0;
+  border-radius: 3px;
+}
+
+.news-list::-webkit-scrollbar-thumb:hover {
+  background: #b0b0b0;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 10px;
+}
+
+.news-item:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.item-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.game-tag {
+  font-size: 12px;
+  padding: 1px 6px;
+  border-radius: 3px;
+  color: #fff;
+  background: #546e7a;
+  flex-shrink: 0;
+}
+
+.item-date {
+  font-size: 12px;
+  color: #999;
+}
+
+.item-title {
+  font-size: 13px;
+  color: #222;
+  line-height: 1.4;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a.item-title:hover {
+  color: #1976d2;
+  text-decoration: underline;
+}
+
+/* 摘要较长，统一裁到 2 行保证列表节奏一致 */
+.item-summary {
+  margin: 0;
+  font-size: 12px;
+  color: #666;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.review-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.review-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 12px;
+}
+
+.review-item:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.score-badge {
+  flex-shrink: 0;
+  min-width: 46px;
+  text-align: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.score-high {
+  background: #2e7d32;
+}
+
+.score-good {
+  background: #1976d2;
+}
+
+.score-fair {
+  background: #ef6c00;
+}
+
+.score-low,
+.score-none {
+  background: #757575;
+}
+
+.score-none {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.review-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.review-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 12px;
+  color: #999;
+}
+
+.review-author {
+  color: #666;
+}
+</style>

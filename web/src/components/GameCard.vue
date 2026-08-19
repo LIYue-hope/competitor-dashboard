@@ -10,7 +10,16 @@ defineProps({
 <template>
   <div class="game-card">
     <div class="card-top">
-      <h2 class="game-name">{{ game.game_name || '未知游戏' }}</h2>
+      <h2 class="game-name">
+        <a
+          v-if="game.source_url"
+          class="game-link"
+          :href="game.source_url"
+          target="_blank"
+          rel="noopener"
+        >{{ game.game_name || '未知游戏' }}</a>
+        <template v-else>{{ game.game_name || '未知游戏' }}</template>
+      </h2>
       <span class="score-group">
         <span
           v-if="game.has_afk_grinding_tag"
@@ -66,6 +75,16 @@ defineProps({
 .game-name {
   margin: 0;
   font-size: 16px;
+}
+
+.game-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.game-link:hover {
+  color: #1976d2;
+  text-decoration: underline;
 }
 
 .score-group {

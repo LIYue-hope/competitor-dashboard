@@ -33,9 +33,9 @@ function formatCrawledAt(isoString) {
 </script>
 
 <template>
-  <div class="haoyou-panel">
+  <div class="jiuyou-panel">
     <div v-if="data.crawled_at" class="panel-meta">
-      <div class="source-line">数据来源：好游快爆-即将上线  更新时间 {{ formatCrawledAt(data.crawled_at) }}</div>
+      <div class="source-line">数据来源：九游-新游开测  更新时间 {{ formatCrawledAt(data.crawled_at) }}</div>
       <div class="star-note">★ 表示该游戏的游戏介绍或开发者的话中提及挂机/搬砖玩法</div>
     </div>
 
@@ -77,16 +77,8 @@ function formatCrawledAt(isoString) {
           </div>
           <dl class="info-list">
             <div class="info-row">
-              <dt>发行商</dt>
-              <dd>{{ game.publisher || '未知' }}</dd>
-            </div>
-            <div class="info-row">
               <dt>类型</dt>
               <dd>{{ (game.categories && game.categories.join('、')) || '未知' }}</dd>
-            </div>
-            <div class="info-row">
-              <dt>预约量级</dt>
-              <dd>{{ game.reservation_count || '未知' }}</dd>
             </div>
           </dl>
           <p v-if="game.event_desc" class="event-desc">{{ game.event_desc }}</p>
