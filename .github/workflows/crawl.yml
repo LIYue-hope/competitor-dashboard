@@ -143,6 +143,17 @@ jobs:
     # needs: crawl 保留不动，仍靠它保证"先采集推送、后构建部署"的顺序。
     if: always() && needs.crawl.result != 'cancelled' && needs.crawl.result != 'skipped'
     runs-on: ubuntu-latest
+    # 顶层 concurrency（第 16 行）只对同一个 workflow 文件生效，且限制的是
+    # 整个 run（crawl+deploy 一起），无法阻止"对同一个已完成 run 手动重跑
+    # deploy job"这种操作重复执行 upload-pages-artifact 步骤，导致同一 run
+    # 产生 2 份同名 github-pages artifact，deploy-pages@v4 在
+    # getArtifactMetadata 阶段发现歧义直接报错（Multiple artifacts named
+    # "github-pages" were unexpectedly found）。这里单独给 deploy job 加一层
+    # 跨 run 的 concurrency，把所有指向同一个 Pages 环境的部署都串行化，
+    # 避免定时任务和手动重跑在部署阶段并发写同一份 artifact。
+    concurrency:
+      group: pages-deploy
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
