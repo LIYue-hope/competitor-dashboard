@@ -21,6 +21,13 @@ data/hot_games_dynamics.json 供展示层渲染。
   cmc/cross 接口，但无需签名（source=web_pc 即可）。df、gp 按 chanid 过滤频道，
   rocom 按 tagids 过滤标签；返回体可能带 `var userobj=` 前缀，统一用
   _load_cmc_json 截取解析，类型判定各自按频道 id / 标签名映射。
+- cmc：配置驱动的腾讯内容中心通用采集（王者荣耀 / 金铲铲之战 / 暗区突围 /
+  穿越火线-枪战王者）。同一个 cmc/cross 接口，差异（serviceId、query 串、
+  频道或标签、排除规则、详情页模板、类型映射）全部收进游戏配置的 cmc 字段。
+- codm：使命召唤手游。cmc/cross 对 codm 返回 status=-97 非法请求来源，改解析
+  gicp 服务端渲染列表页（GBK 编码），页面无分类字段，类型只能按标题兜底。
+- hyrz：火影忍者。用老 wmp 接口（不是 cmc/cross），列表在 msg.result，只收
+  公告 + 新闻两类。
 - pending：官方来源尚未确认稳定可抓取时的占位状态，仅展示官网直达链接，
   不做自动摘要（当前无游戏使用）。
 
@@ -31,7 +38,6 @@ import json
 import logging
 import os
 import re
-import time
 from datetime import datetime, timedelta, timezone
 
 import requests
@@ -86,6 +92,9 @@ PUBLISHERS = [
 #   "df"      -> 三角洲行动 cmc/cross（serviceId + chanid）
 #   "gp"      -> 和平精英 cmc/cross（serviceId + chanid）
 #   "rocom"   -> 洛克王国世界 cmc/cross（serviceId + tagids）
+#   "cmc"     -> 腾讯内容中心通用采集（serviceId + cmc 配置字段）
+#   "codm"    -> 使命召唤手游 gicp SSR 列表页（list_url）
+#   "hyrz"    -> 火影忍者 wmp 接口（无需额外配置）
 #   "pending" -> 仅展示官网链接，不自动采集
 # ---------------------------------------------------------------------------
 GAMES = [
@@ -246,6 +255,126 @@ GAMES = [
         "source": "wjsj",
         # 内容中心聚合频道（新闻+公告+活动等）："最新" tab 对应 chanid=7091
         "chanid": "7091",
+    },
+    # 以下 4 款走配置驱动的通用采集（source="cmc"）：同一个 cmc/cross 接口，
+    # 只是 serviceId / query 串 / 频道或标签 / 详情页链接规则不同。均无需签名，
+    # 也不需要 Referer。注意 chanid 只认单值：逗号分隔返回 "invalid chanid"，
+    # 重复传参只生效第一个，故多频道写成 chanids 列表，由 handler 逐个请求后
+    # 按条目 id 去重合并；tagids 则支持逗号多值（配 logic=or）。
+    {
+        "game_name": "王者荣耀",
+        "publisher": "腾讯",
+        "publisher_key": "tencent",
+        "official_url": "https://pvp.qq.com/",
+        "source": "cmc",
+        "list_url": "https://pvp.qq.com/web201706/newsindex.shtml",
+        "serviceId": "18",
+        "cmc": {
+            # 传 exclusiveChannel/exclusiveChannelSign 反而报 empty time，不要加。
+            "query": (
+                "filter=channel&sortby=sIdxTime&source=web_pc&limit=50"
+                "&logic=or&typeids=1,2&start=0&withtop=yes"
+            ),
+            # 频道：1760 热门、1761 新闻、1762 公告、1763 活动、1764 赛事（不收）
+            "chanids": ["1761", "1762", "1763"],
+            # 一条内容可同时挂多个频道，赛事稿会混进新闻/活动，需二次剔除。
+            "exclude_chanids": ["1764"],
+            "type_map": [("1762", "公告"), ("1763", "活动"), ("1761", "新闻")],
+            "id_field": "iId",
+            "detail_url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid={id}",
+            # sVID 非空是视频稿，详情页走视频模板。
+            "video_url": "https://pvp.qq.com/web201706/v/detail.shtml?G_Biz=18&tid={id}",
+        },
+    },
+    {
+        "game_name": "金铲铲之战",
+        "publisher": "腾讯",
+        "publisher_key": "tencent",
+        "official_url": "https://jcc.qq.com/",
+        "source": "cmc",
+        "list_url": "https://jcc.qq.com/#/news",
+        "serviceId": "283",
+        "cmc": {
+            # source 必须是 JK_gw（web_pc 会被拒）；该站无 filter 参数，按 tag 组织。
+            "query": "source=JK_gw&typeids=1&logic=or&start=0&limit=20",
+            # 标签：116054 公告、118283 新闻、116025 社区（不收）
+            "tagids": "116054,118283",
+            # 116025 在页面上叫「社区」，但接口 sTagInfo 里名字是「教学」，
+            # 按名字过滤会漏，必须按 id 排除。sChannelInfo 该站恒为空串。
+            "exclude_tagids": ["116025"],
+            "type_map": [("116054", "公告"), ("118283", "新闻")],
+            # 详情页用 iDocID（长数字串），不是 iNewsId。
+            "id_field": "iDocID",
+            "detail_url": "https://jcc.qq.com/#/news/{id}",
+        },
+    },
+    {
+        "game_name": "暗区突围",
+        "publisher": "腾讯",
+        "publisher_key": "tencent",
+        "official_url": "https://aqtwwx.qq.com/",
+        "source": "cmc",
+        "list_url": "https://aqtwwx.qq.com/web202501/news.html",
+        "serviceId": "463",
+        "cmc": {
+            "query": (
+                "source=web_pc&typeids=1&limit=20&start=0&filter=channel"
+                "&withtop=yes&topMode=new"
+            ),
+            # 6858 最新即全量入口（覆盖公告 6887 / 更新 6888 / 新闻 7020 / 活动），
+            # 7107 攻略不收。注意 6858 频道名在 sChannelInfo 里是 "6858|web_pc"，
+            # 别按名字匹配；sTagIds 常为空串，分类主判据必须是 sChannelInfo。
+            "chanids": ["6858"],
+            "exclude_chanids": ["7107"],
+            "exclude_tagids": ["139946"],  # 攻略标签，辅助判据
+            "type_map": [
+                ("6887", "公告"),
+                ("6888", "更新"),
+                ("7020", "新闻"),
+                ("138636", "新闻"),
+            ],
+            "id_field": "iNewsId",
+            "detail_url": "https://aqtwwx.qq.com/web202501/newsdetail.html?newsid={id}",
+        },
+    },
+    {
+        "game_name": "穿越火线-枪战王者",
+        "publisher": "腾讯",
+        "publisher_key": "tencent",
+        "official_url": "https://cfm.qq.com/",
+        "source": "cmc",
+        "list_url": "https://cfm.qq.com/web201801/newlist.shtml",
+        "serviceId": "34",
+        "cmc": {
+            "query": "source=web_pc&typeids=1,2&filter=channel&logic=or&start=0&limit=20",
+            # 频道：3682 版本、706 活动、783 公告、640 赛事、713 更多(视频)。
+            # 需求只要活动 + 公告两个 tab。
+            "chanids": ["706", "783"],
+            "exclude_chanids": ["640"],
+            "type_map": [("783", "公告"), ("706", "活动")],
+            # 详情页只认 iDocID（列表页模板即 detail.shtml?docid=...）；
+            # 实测 newsdetail.shtml?id={iNewsId} 返回 404。
+            "id_field": "iDocID",
+            "detail_url": "https://cfm.qq.com/web201801/detail.shtml?docid={id}",
+        },
+    },
+    {
+        "game_name": "使命召唤手游",
+        "publisher": "腾讯",
+        "publisher_key": "tencent",
+        "official_url": "https://codm.qq.com/",
+        "source": "codm",
+        # gicp SSR 列表页：/gicp/news/886/2/{chanid}/{page}.html，每页 10 条。
+        # chanid：19485 综合（全部混排）/ 112919 新闻 / 112918 公告 / 120840 日志。
+        "list_url": "https://codm.qq.com/gicp/news/886/2/19485/1.html",
+    },
+    {
+        "game_name": "火影忍者",
+        "publisher": "腾讯",
+        "publisher_key": "tencent",
+        "official_url": "https://hyrz.qq.com/",
+        "source": "hyrz",
+        "list_url": "https://hyrz.qq.com/web202003/newsList.html",
     },
 ]
 
@@ -978,6 +1107,244 @@ def fetch_rocom_updates(game):
     return updates
 
 
+# ---------------------------------------------------------------------------
+# 腾讯内容中心通用采集（配置驱动，见 GAMES 的 cmc 字段）
+# 覆盖王者荣耀 / 金铲铲之战 / 暗区突围 / 穿越火线-枪战王者
+# ---------------------------------------------------------------------------
+def _cmc_id_names(info):
+    """解析 "706|活动,828|最新攻略" 形态的频道/标签串为 {id: 名称}。"""
+    result = {}
+    for part in (info or "").split(","):
+        cid, sep, name = part.partition("|")
+        cid = cid.strip()
+        if sep and cid:
+            result[cid] = name.strip()
+    return result
+
+
+def _cmc_tag_ids(item):
+    """条目的标签 id 集合。sTagInfo 带中文名，sTagIds 只有 id，两者取并集。"""
+    ids = set(_cmc_id_names(item.get("sTagInfo")))
+    ids |= {t.strip() for t in (item.get("sTagIds") or "").split(",") if t.strip()}
+    return ids
+
+
+def _cmc_excluded(item, cfg):
+    """按频道 id / 标签 id 判断条目是否属于不采集的栏目（如赛事、攻略、社区）。
+
+    分频道站与分标签站的 id 空间不同，故排除规则也分开配，避免 id 撞号误杀。
+    """
+    chan_ids = set(_cmc_id_names(item.get("sChannelInfo")))
+    if chan_ids & set(cfg.get("exclude_chanids") or ()):
+        return True
+    return bool(_cmc_tag_ids(item) & set(cfg.get("exclude_tagids") or ()))
+
+
+def _cmc_classify(item, cfg):
+    """先按 type_map（频道/标签 id -> 中文标注）取标注，再交给 _classify_type 细分。
+
+    type_map 是有序列表，取第一个命中的（越具体的排前面），一条内容常同时挂
+    多个频道/标签。映射不到时 label 为空，退化为纯标题关键词判定。
+    """
+    ids = set(_cmc_id_names(item.get("sChannelInfo"))) | _cmc_tag_ids(item)
+    label = ""
+    for cid, name in cfg.get("type_map") or []:
+        if cid in ids:
+            label = name
+            break
+    return _classify_type(label, item.get("sTitle") or "")
+
+
+def _cmc_fetch_items(game, cfg, key, value):
+    """按单个 chanid / tagids 取一页条目。"""
+    url = (
+        "https://apps.game.qq.com/cmc/cross?serviceId=" + str(game["serviceId"])
+        + "&" + cfg["query"]
+        + "&" + key + "=" + value
+    )
+    data = _load_cmc_json(fetch_json(url, timeout=12).text)
+    if data.get("status") != 0:
+        raise RuntimeError(
+            f"cmc/cross status={data.get('status')}：{data.get('msg')}（{key}={value}）"
+        )
+    payload = data.get("data")
+    payload = payload if isinstance(payload, dict) else {}
+    return payload.get("items") or []
+
+
+def fetch_cmc_updates(game):
+    """抓取腾讯内容中心近 7 天条目（配置驱动，适配多款游戏）。"""
+    cfg = game["cmc"]
+    # chanid 只认单值（逗号 -> invalid chanid，重复传参只生效第一个），
+    # 多频道逐个请求后合并；tagids 支持逗号多值，一次请求即可。
+    queries = [("chanid", c) for c in (cfg.get("chanids") or [])]
+    if cfg.get("tagids"):
+        queries.append(("tagids", cfg["tagids"]))
+
+    items, seen = [], set()
+    for key, value in queries:
+        for item in _cmc_fetch_items(game, cfg, key, value):
+            uid = str(item.get("iId") or item.get("iNewsId") or item.get("iDocID") or "")
+            if uid and uid in seen:
+                continue
+            seen.add(uid)
+            items.append(item)
+    logger.info(
+        "%s：接口返回 %d 条（%d 次请求去重后）", game["game_name"], len(items), len(queries)
+    )
+
+    cutoff = _cutoff_date()
+    updates, dropped = [], []
+    for item in items:
+        ann_date = _cmc_date(item)
+        if not ann_date or ann_date < cutoff:
+            continue
+        if _cmc_excluded(item, cfg):
+            dropped.append(item.get("sTitle") or "")
+            continue
+
+        id_value = item.get(cfg["id_field"])
+        if id_value:
+            template = cfg["detail_url"]
+            if cfg.get("video_url") and (item.get("sVID") or "").strip():
+                template = cfg["video_url"]
+            detail_url = template.format(id=id_value)
+        else:
+            detail_url = game["official_url"]
+
+        updates.append(
+            {
+                "title": (item.get("sTitle") or "").strip() or "（无标题）",
+                "type": _cmc_classify(item, cfg),
+                "date": ann_date.isoformat(),
+                # 这几个站列表接口的 sDesc 实测恒为空串；不为此逐条抓正文，
+                # 否则 CI 请求量翻倍。有值时直接用。
+                "summary": _clean_summary(item.get("sDesc") or ""),
+                "url": detail_url,
+            }
+        )
+    if dropped:
+        logger.info(
+            "%s：按排除频道/标签剔除 %d 条：%s",
+            game["game_name"], len(dropped), " / ".join(dropped[:5]),
+        )
+    return updates
+
+
+# ---------------------------------------------------------------------------
+# 使命召唤手游（gicp 服务端渲染列表页）
+# ---------------------------------------------------------------------------
+def fetch_codm_updates(game):
+    """抓取使命召唤手游官网资讯列表近 7 天条目。
+
+    cmc/cross 对 codm 是封的（serviceId=886/887 各种 source 都返回
+    status=-97 非法请求来源），只能解析 gicp SSR 页面。
+    """
+    resp = fetch_json(game["list_url"], timeout=12)
+    # 页面是 GBK，apparent_encoding 会猜错导致中文乱码，必须强制 gb18030。
+    resp.encoding = "gb18030"
+    rows = BeautifulSoup(resp.text, "html.parser").select("#news-list a.txt-line-wrapper")
+    if not rows:
+        raise RuntimeError("codm 列表页未解析到条目，页面结构可能已变化")
+
+    cutoff = _cutoff_date()
+    updates = []
+    for a in rows:
+        tnode, dnode = a.select_one("span.title"), a.select_one("span.time")
+        if not tnode or not dnode:
+            continue
+        # 列表时间形如 2026-08-19 10:23:39。
+        ann_date = _parse_netease_date(dnode.get_text(strip=True), "%Y-%m-%d")
+        if not ann_date or ann_date < cutoff:
+            continue
+
+        title = tnode.get_text(strip=True)
+        href = a.get("href") or ""
+        # href 是相对路径（列表在 886 目录，详情在 887 目录）。
+        url = href if href.startswith("http") else "https://codm.qq.com" + href
+
+        updates.append(
+            {
+                "title": title or "（无标题）",
+                # 页面 HTML 没有任何分类字段，类型只能按标题关键词兜底。
+                "type": _classify_type(None, title),
+                "date": ann_date.isoformat(),
+                # 列表页无摘要元素，留空（不额外请求详情页）。
+                "summary": "",
+                "url": url,
+            }
+        )
+    return updates
+
+
+# ---------------------------------------------------------------------------
+# 火影忍者（腾讯老 wmp 接口，不是 cmc/cross）
+# ---------------------------------------------------------------------------
+# 该接口没有 sChannelInfo / sTagInfo，拿不到中文分类名，只能按 sTagIds 判类型。
+# 注意：sTagIds 是无序多标签，赛事等标签常不在首位，必须对**全部** id 求交集，
+# 不能只看第一个。命中以下任一标签即不算「新闻」，从「最新」列表里剔除：
+_HYRZ_EXCLUDED_TAGS = {
+    "18813": "赛事",
+    "18808": "攻略",
+    "18806": "视频",
+    "138135": "体验服",
+    "18812": "公告",  # 公告已由 18812 那次请求单独采集，避免重复
+}
+
+# 标签：18807 最新、18812 公告、18808 攻略、18813 赛事、18806 视频、138135 体验服。
+# 需求只要公告 + 新闻：公告直取 18812，新闻从「最新」里剔掉上述排除标签。
+_HYRZ_QUERIES = [("18812", "公告"), ("18807", "新闻")]
+
+
+def fetch_hyrz_updates(game):
+    """抓取火影忍者官网近 7 天公告与新闻。"""
+    cutoff = _cutoff_date()
+    headers = {"Referer": game["list_url"]}
+    updates, seen = [], set()
+    for tag_id, label in _HYRZ_QUERIES:
+        url = (
+            "https://apps.game.qq.com/wmp/v3.1/?p0=25&p1=searchNewsKeywordsList"
+            "&page=1&pagesize=10&order=sIdxTime&r0=cors&r1=NewsObj&type=iTag"
+            "&id=" + tag_id + "&source=web_ingame"
+        )
+        data = _load_cmc_json(fetch_json(url, timeout=12, headers=headers).text)
+        if data.get("status") != 0:
+            raise RuntimeError(f"wmp status={data.get('status')}：{data.get('msg')}")
+        # 与 cmc/cross 不同：列表在 msg.result，分页信息也在 msg 里。
+        msg = data.get("msg")
+        items = (msg.get("result") or []) if isinstance(msg, dict) else []
+        logger.info("%s：标签 %s 返回 %d 条", game["game_name"], tag_id, len(items))
+
+        for item in items:
+            ann_date = _cmc_date(item)
+            if not ann_date or ann_date < cutoff:
+                continue
+            tag_ids = {t.strip() for t in (item.get("sTagIds") or "").split(",")}
+            # 「最新」里只保留新闻：命中任一排除标签就跳过（多标签无序，取全集交集）。
+            if label == "新闻" and tag_ids & _HYRZ_EXCLUDED_TAGS.keys():
+                continue
+            news_id = str(item.get("iNewsId") or "").strip()  # 该接口 iNewsId 是字符串
+            if news_id and news_id in seen:
+                continue
+            seen.add(news_id)
+
+            title = (item.get("sTitle") or "").strip()
+            updates.append(
+                {
+                    "title": title or "（无标题）",
+                    "type": _classify_type(label, title),
+                    "date": ann_date.isoformat(),
+                    "summary": _clean_summary(item.get("sDesc") or ""),
+                    "url": (
+                        f"https://hyrz.qq.com/web202003/newsDetails.html?aid={news_id}&pageType=0"
+                        if news_id
+                        else game["official_url"]
+                    ),
+                }
+            )
+    return updates
+
+
 SOURCE_FETCHERS = {
 
     "mihoyo_cms": fetch_mihoyo_cms_updates,
@@ -987,6 +1354,9 @@ SOURCE_FETCHERS = {
     "df": fetch_df_updates,
     "gp": fetch_gp_updates,
     "rocom": fetch_rocom_updates,
+    "cmc": fetch_cmc_updates,
+    "codm": fetch_codm_updates,
+    "hyrz": fetch_hyrz_updates,
 }
 
 
@@ -1041,34 +1411,17 @@ def build_output():
     }
 
 
-def count_updates(output):
-    return sum(
+def main():
+    output = build_output()
+
+    # 健全性检查：防止网络异常/接口大范围失效时，用几乎全空的结果覆盖掉
+    # 昨天采集到的正常数据。只要"至少一款游戏成功采集到 >=1 条动态"就
+    # 认为本次采集有效；全部游戏都 pending/error/空更新才判定为异常。
+    total_updates = sum(
         len(g["updates"])
         for pub in output["publishers"]
         for g in pub["games"]
     )
-
-
-def main():
-    # 健全性检查：防止网络异常/接口大范围失效时，用几乎全空的结果覆盖掉
-    # 昨天采集到的正常数据。只要"至少一款游戏成功采集到 >=1 条动态"就
-    # 认为本次采集有效；全部游戏都 pending/error/空更新才判定为异常。
-    #
-    # 全空时整体重试：单个源的失败已经在 build_game_record 里降级为
-    # source_status="error"，走到这里说明所有源同时失效，多半是 CI 出口 IP
-    # 被限流这类瞬时问题。前端「数据更新」按钮会按需触发采集，命中频率远高于
-    # 每天一次的定时任务，因此这里再补一层整体重试。
-    attempts = 3
-    for attempt in range(1, attempts + 1):
-        output = build_output()
-        total_updates = count_updates(output)
-        if total_updates > 0:
-            break
-        logger.warning("第 %d/%d 次采集到 0 条动态", attempt, attempts)
-        if attempt < attempts:
-            logger.info("等待 10 秒后重试")
-            time.sleep(10)
-
     if total_updates == 0:
         raise RuntimeError(
             "热门游戏动态采集结果异常：全部游戏 0 条动态，"
