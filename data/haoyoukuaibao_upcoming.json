@@ -1,10 +1,25 @@
 {
-  "crawled_at": "2026-08-20T00:35:59.942387+00:00",
+  "crawled_at": "2026-08-20T02:36:59.886505+00:00",
   "days": [
     {
       "date": "2026-08-20",
       "date_label": "08月20日 今天",
       "games": [
+        {
+          "game_name": "黑神话：钟馗",
+          "categories": [
+            "角色扮演",
+            "动作",
+            "剧情"
+          ],
+          "score": "9.7",
+          "event_desc": "15分钟全新实机演示公布",
+          "status_tag": "PC/主机",
+          "detail_url": "https://www.3839.com/a/186063.htm",
+          "publisher": null,
+          "reservation_count": "32281",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "晃晃人生手游",
           "categories": [
@@ -12,12 +27,27 @@
             "多人联机",
             "开放世界"
           ],
-          "score": "8.8",
+          "score": "8.9",
           "event_desc": "海外上线安卓和iOS",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/194871.htm",
           "publisher": "RubberBandGames",
-          "reservation_count": "23206",
+          "reservation_count": "23265",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "代号U1",
+          "categories": [
+            "射击",
+            "多人联机",
+            "休闲"
+          ],
+          "score": null,
+          "event_desc": "首曝预约，上线时间待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/202425.htm",
+          "publisher": null,
+          "reservation_count": null,
           "has_afk_grinding_tag": false
         },
         {
@@ -32,22 +62,37 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/135728.htm",
           "publisher": "热脉游戏",
-          "reservation_count": "25181",
+          "reservation_count": "25198",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "愤怒的小鸟：梦幻爆破",
+          "categories": [
+            "消除",
+            "休闲",
+            "益智"
+          ],
+          "score": "8.4",
+          "event_desc": "首曝预约，上线时间待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/111810.htm",
+          "publisher": null,
+          "reservation_count": "282",
           "has_afk_grinding_tag": false
         },
         {
           "game_name": "这个CEO我当定了！",
           "categories": [
-            "电影质感",
+            "互动影像",
             "角色扮演",
-            "模拟人生"
+            "电影质感"
           ],
           "score": null,
           "event_desc": "10:00 上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/197335.htm",
           "publisher": "大水网络",
-          "reservation_count": "272",
+          "reservation_count": null,
           "has_afk_grinding_tag": false
         },
         {
@@ -62,7 +107,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/197239.htm",
           "publisher": null,
-          "reservation_count": "48",
+          "reservation_count": "58",
           "has_afk_grinding_tag": true
         },
         {
@@ -92,7 +137,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201107.htm",
           "publisher": "广州宇游",
-          "reservation_count": "122",
+          "reservation_count": null,
           "has_afk_grinding_tag": false
         },
         {
@@ -107,7 +152,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/181177.htm",
           "publisher": "钜沐游星工作室",
-          "reservation_count": "376",
+          "reservation_count": "406",
           "has_afk_grinding_tag": false
         }
       ]
@@ -124,7 +169,7 @@
             "小说改编"
           ],
           "score": "7.6",
-          "event_desc": "10:00 正式上线",
+          "event_desc": "10:00 正式上线,预下载已开启",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/150321.htm",
           "publisher": null,
@@ -143,7 +188,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202214.htm",
           "publisher": "良心工作室",
-          "reservation_count": "18253",
+          "reservation_count": "18286",
           "has_afk_grinding_tag": false
         },
         {
@@ -154,11 +199,11 @@
             "经营"
           ],
           "score": "9.2",
-          "event_desc": "正式上线，具体几点待定",
+          "event_desc": "10:00 正式上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/156199.htm",
           "publisher": null,
-          "reservation_count": "18053",
+          "reservation_count": "18058",
           "has_afk_grinding_tag": false
         },
         {
@@ -184,7 +229,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202292.htm",
           "publisher": null,
-          "reservation_count": "18",
+          "reservation_count": "22",
           "has_afk_grinding_tag": true
         },
         {
@@ -214,7 +259,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201107.htm",
           "publisher": "广州宇游",
-          "reservation_count": "122",
+          "reservation_count": null,
           "has_afk_grinding_tag": false
         },
         {
@@ -229,7 +274,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/181177.htm",
           "publisher": "钜沐游星工作室",
-          "reservation_count": "376",
+          "reservation_count": "406",
           "has_afk_grinding_tag": false
         }
       ]
@@ -250,7 +295,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202292.htm",
           "publisher": null,
-          "reservation_count": "18",
+          "reservation_count": "22",
           "has_afk_grinding_tag": true
         },
         {
@@ -367,7 +412,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/163966.htm",
           "publisher": null,
-          "reservation_count": "28.1万",
+          "reservation_count": "28.2万",
           "has_afk_grinding_tag": false
         },
         {
