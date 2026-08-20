@@ -1,40 +1,30 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 
-// 板块级「数据更新」按钮：点一下真正重新抓一遍该板块的数据。
+// 板块级"数据更新"按钮。
 //
-// 完整链路：
-//   1. POST {API}/api/refresh { section }  -> Serverless 代理用它保管的 token 调
-//      GitHub workflow_dispatch，只跑该板块对应的采集脚本，返回 run_id
-//   2. 轮询 GET {API}/api/status?run_id=  -> 等到 status === 'completed'
-//   3. 从 raw.githubusercontent 拉这一板块的 data/*.json（采集 job 已 push，
-//      raw 立刻可见，不必等 Pages 重新构建部署）
-//   4. 校验非空后整体替换页面数据
-//
-// 为什么要经过代理：站点是公开静态站，token 放前端等于公开写权限。代理见
-// worker/src/index.js。未配置 VITE_REFRESH_API 时自动退化为"只拉 raw 最新数据、
-// 不触发采集"，本地开发和没部署代理的情况下按钮依然可用。
+// 数据来源说明：
+//   本站是纯静态站（GitHub Pages），前端无法触发 Python 采集脚本重新抓取。
+//   因此这里的"更新"指的是直接从仓库 main 分支拉取最新的 data/*.json——
+//   crawl job 推送数据后 raw 立即可见，不必等 Pages 重新构建部署，
+//   所以它拿到的数据可能比当前页面（构建产物）更新。
+//   需要真正重新抓取时，去 Actions 手动触发 workflow，再点本按钮取结果。
 const RAW_BASE = 'https://raw.githubusercontent.com/LIYue-hope/competitor-dashboard/main/data'
 
-// 构建期注入。web/.env.local 或 CI 的 VITE_REFRESH_API 里配代理地址（不带尾斜杠）
-const API_BASE = (import.meta.env.VITE_REFRESH_API || '').replace(/\/$/, '')
-
-const SUCCESS_COOLDOWN_MS = 2 * 60 * 60 * 1000 // 刷新成功后 2 小时内不可再刷，避免短时间重复触发采集
+const SUCCESS_COOLDOWN_MS = 2 * 60 * 60 * 1000 // 刷新成功后 2 小时内不可再刷，避免短时间重复请求
 const FAIL_COOLDOWN_MS = 30 * 60 * 1000 // 刷新失败后 30 分钟即可重试
-const FETCH_ATTEMPTS = 3 // 只重试"拉数据"，绝不重试"触发采集"，否则一次点击会起多个 run
-const FETCH_RETRY_WAIT_MS = 1000
-const POLL_INTERVAL_MS = 10 * 1000
-const RUN_TIMEOUT_MS = 8 * 60 * 1000 // 单板块采集通常 1~2 分钟，留足排队余量
+const MAX_ATTEMPTS = 3
+const RETRY_WAIT_MS = 1000
 
 const props = defineProps({
-  // 对应 crawl.yml 的 inputs.section，同时用作 localStorage 键后缀
-  section: {
-    type: String,
-    required: true,
-  },
-  // 本板块涉及的数据文件名，全部拉取成功且非空才算刷新成功
+  // 本板块涉及的数据文件名，全部成功才算刷新成功
   files: {
     type: Array,
+    required: true,
+  },
+  // localStorage 中记录冷却状态的键后缀，各板块独立
+  storageKey: {
+    type: String,
     required: true,
   },
 })
@@ -42,30 +32,20 @@ const props = defineProps({
 // 刷新成功后把 { 文件名: 解析后的数据 } 交给父组件写入页面
 const emit = defineEmits(['refreshed'])
 
-// idle：可点击；dispatching：正在触发采集；running：采集进行中；
-// fetching：采集完成、正在拉数据；done：刷新完成；failed：刷新失败
+// idle：可点击；loading：刷新中；done：刷新完成；failed：刷新失败
 const state = ref('idle')
 const cooldownUntil = ref(0)
 const now = ref(Date.now())
-let ticker = null
+let timer = null
 
-const busy = computed(() => ['dispatching', 'running', 'fetching'].includes(state.value))
 const cooling = computed(() => cooldownUntil.value > now.value)
-const disabled = computed(() => busy.value || cooling.value)
+const disabled = computed(() => state.value === 'loading' || cooling.value)
 
 const label = computed(() => {
-  if (busy.value) return ''
+  if (state.value === 'loading') return ''
   if (state.value === 'done') return '刷新完成'
   if (state.value === 'failed') return '刷新失败'
   return '数据更新'
-})
-
-// 采集要跑一两分钟，光转圈用户不知道卡在哪一步，给一句状态说明
-const hint = computed(() => {
-  if (state.value === 'dispatching') return '正在触发采集'
-  if (state.value === 'running') return '采集中，请稍候'
-  if (state.value === 'fetching') return '正在拉取新数据'
-  return ''
 })
 
 // 剩余冷却时间格式化为 时:分:秒（不足 1 小时省略小时段）
@@ -79,47 +59,27 @@ const countdown = computed(() => {
   return h > 0 ? `${h}:${pad(m)}:${pad(s)}` : `${pad(m)}:${pad(s)}`
 })
 
-const stateKey = computed(() => `refresh:${props.section}`)
-const KEY_STORAGE = 'refresh:access-key'
+const stateKey = computed(() => `refresh:${props.storageKey}`)
 
-function persist(extra = {}) {
+function persist() {
   localStorage.setItem(
     stateKey.value,
-    JSON.stringify({ until: cooldownUntil.value, result: state.value, ...extra }),
+    JSON.stringify({ until: cooldownUntil.value, result: state.value }),
   )
 }
 
-function readSaved() {
+function restore() {
   try {
-    return JSON.parse(localStorage.getItem(stateKey.value) || 'null')
+    const raw = localStorage.getItem(stateKey.value)
+    if (!raw) return
+    const saved = JSON.parse(raw)
+    if (saved && saved.until > Date.now()) {
+      cooldownUntil.value = saved.until
+      state.value = saved.result === 'failed' ? 'failed' : 'done'
+    }
   } catch {
     // 本地记录损坏时忽略，按可刷新处理
-    return null
   }
-}
-
-// 访问口令：站点公开，代理必须校验口令，否则等于把 CI 额度开放给公网。
-// 首次点击时询问一次并存在本地，之后无感。
-function accessKey() {
-  let key = localStorage.getItem(KEY_STORAGE)
-  if (!key) {
-    key = window.prompt('请输入数据更新口令（只需输入一次，保存在本地浏览器）') || ''
-    if (key) localStorage.setItem(KEY_STORAGE, key)
-  }
-  return key
-}
-
-async function api(path, options = {}) {
-  const res = await fetch(`${API_BASE}${path}`, {
-    ...options,
-    headers: { ...(options.headers || {}), 'X-Refresh-Key': accessKey() },
-  })
-  if (res.status === 401) {
-    // 口令错了就清掉，下次点击重新询问，而不是一直静默失败
-    localStorage.removeItem(KEY_STORAGE)
-    throw new Error('unauthorized')
-  }
-  return res
 }
 
 // 数据合法性校验：空数组 / 空对象都视为抓取异常，不能用来覆盖页面上的既有数据
@@ -129,7 +89,7 @@ function isValid(payload) {
   return Object.keys(payload).length > 0
 }
 
-async function fetchRawOnce() {
+async function fetchOnce() {
   const stamp = Date.now()
   const results = await Promise.all(
     props.files.map(async (name) => {
@@ -143,144 +103,41 @@ async function fetchRawOnce() {
   return Object.fromEntries(results)
 }
 
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
+async function handleClick() {
+  if (disabled.value) return
 
-function succeed(payload) {
-  emit('refreshed', payload)
-  state.value = 'done'
-  cooldownUntil.value = Date.now() + SUCCESS_COOLDOWN_MS
-  persist()
-}
+  state.value = 'loading'
 
-// 不 emit，页面保留原有数据；冷却缩短为半小时，便于尽快重试
-function fail() {
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
+    try {
+      const payload = await fetchOnce()
+      emit('refreshed', payload)
+      state.value = 'done'
+      cooldownUntil.value = Date.now() + SUCCESS_COOLDOWN_MS
+      persist()
+      return
+    } catch {
+      if (attempt < MAX_ATTEMPTS) {
+        await new Promise((resolve) => setTimeout(resolve, RETRY_WAIT_MS))
+      }
+    }
+  }
+
+  // 三次都失败：不 emit，页面保留原有数据，冷却缩短为半小时
   state.value = 'failed'
   cooldownUntil.value = Date.now() + FAIL_COOLDOWN_MS
   persist()
 }
 
-// 采集完成后拉数据。这一层可以安全重试：raw 是只读请求，重试不会再起采集。
-async function fetchWithRetry() {
-  state.value = 'fetching'
-  for (let attempt = 1; attempt <= FETCH_ATTEMPTS; attempt += 1) {
-    try {
-      return await fetchRawOnce()
-    } catch {
-      if (attempt < FETCH_ATTEMPTS) await sleep(FETCH_RETRY_WAIT_MS)
-    }
-  }
-  return null
-}
-
-// 轮询 run 状态直到结束。deadline 用绝对时间戳，刷新页面续跑时也能正确判超时。
-// 采集 workflow 里失败的源被 continue-on-error 吞掉后又用 exit 1 重新暴露，
-// 所以 conclusion 为 failure 只说明"至少一个源挂了"，成功的源数据仍然已经 push。
-// 因此这里不因 failure 直接判负，仍去拉数据，由非空校验决定成败。
-async function waitForRun(runId, deadline) {
-  state.value = 'running'
-  while (Date.now() < deadline) {
-    await sleep(POLL_INTERVAL_MS)
-    try {
-      const res = await api(`/api/status?run_id=${runId}`)
-      if (res.ok) {
-        const { status } = await res.json()
-        if (status === 'completed') return true
-      }
-    } catch {
-      // 单次轮询失败（网络抖动 / 口令失效）不立即判负，继续等到超时
-    }
-  }
-  return false
-}
-
-async function handleClick() {
-  if (disabled.value) return
-
-  // 没配代理：退化成只拉 raw 上已有的最新数据，不触发采集
-  if (!API_BASE) {
-    state.value = 'fetching'
-    const payload = await fetchWithRetry()
-    if (payload) succeed(payload)
-    else fail()
-    return
-  }
-
-  state.value = 'dispatching'
-  let runId = null
-  try {
-    const res = await api('/api/refresh', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ section: props.section }),
-    })
-
-    if (res.status === 429) {
-      // 服务端冷却未到（本地记录被清过）。按服务端给的剩余时间对齐，不算失败。
-      const { retry_after: retryAfter } = await res.json().catch(() => ({}))
-      state.value = 'idle'
-      cooldownUntil.value = Date.now() + (Number(retryAfter) || 1800) * 1000
-      persist()
-      return
-    }
-    if (!res.ok) throw new Error(`dispatch ${res.status}`)
-
-    runId = (await res.json()).run_id
-  } catch {
-    fail()
-    return
-  }
-
-  const deadline = Date.now() + RUN_TIMEOUT_MS
-
-  // run_id 反查失败（代理没能及时看到 run 记录）：采集其实已经触发，
-  // 不能重发，退化为固定等待一段时间后直接拉数据。
-  if (!runId) {
-    state.value = 'running'
-    await sleep(90 * 1000)
-  } else {
-    // 记下 run_id，刷新/关掉页面后回来能接着轮询，而不是重新触发一次采集
-    persist({ runId, deadline })
-    const finished = await waitForRun(runId, deadline)
-    if (!finished) {
-      fail()
-      return
-    }
-  }
-
-  const payload = await fetchWithRetry()
-  if (payload) succeed(payload)
-  else fail()
-}
-
-// 上次离开页面时采集还没跑完：接着轮询，避免重复触发
-async function resume(saved) {
-  const finished = await waitForRun(saved.runId, saved.deadline)
-  if (!finished) {
-    fail()
-    return
-  }
-  const payload = await fetchWithRetry()
-  if (payload) succeed(payload)
-  else fail()
-}
-
 onMounted(() => {
-  const saved = readSaved()
-  if (saved) {
-    if (saved.runId && saved.deadline > Date.now() && !['done', 'failed'].includes(saved.result)) {
-      resume(saved)
-    } else if (saved.until > Date.now()) {
-      cooldownUntil.value = saved.until
-      state.value = saved.result === 'failed' ? 'failed' : 'done'
-    }
-  }
-  ticker = setInterval(() => {
+  restore()
+  timer = setInterval(() => {
     now.value = Date.now()
   }, 1000)
 })
 
 onUnmounted(() => {
-  clearInterval(ticker)
+  clearInterval(timer)
 })
 </script>
 
@@ -290,14 +147,13 @@ onUnmounted(() => {
       class="refresh-btn"
       :class="[state, { cooling }]"
       :disabled="disabled"
-      :title="state === 'failed' ? '抓取失败，已保留原有数据' : '重新采集本板块数据'"
+      :title="state === 'failed' ? '抓取失败，已保留原有数据' : '从仓库拉取最新采集数据'"
       @click="handleClick"
     >
-      <span v-if="busy" class="spin" aria-label="刷新中">⟳</span>
+      <span v-if="state === 'loading'" class="spin" aria-label="刷新中">⟳</span>
       <template v-else>{{ label }}</template>
     </button>
-    <span v-if="hint" class="hint">{{ hint }}</span>
-    <span v-else-if="cooling" class="countdown">下次可刷新 {{ countdown }}</span>
+    <span v-if="cooling" class="countdown">下次可刷新 {{ countdown }}</span>
   </span>
 </template>
 
@@ -351,8 +207,7 @@ onUnmounted(() => {
   }
 }
 
-.countdown,
-.hint {
+.countdown {
   font-size: 12px;
   color: #888;
 }

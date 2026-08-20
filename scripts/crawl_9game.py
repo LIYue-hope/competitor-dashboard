@@ -93,7 +93,7 @@ from datetime import date, datetime, timezone
 from bs4 import BeautifulSoup
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from utils import fetch_html, has_afk_grinding_tag, retry_until_nonempty  # noqa: E402
+from utils import fetch_html, has_afk_grinding_tag  # noqa: E402
 
 logging.basicConfig(
     level=logging.INFO,
@@ -484,17 +484,16 @@ def build_output(days):
 
 def main():
     logger.info("开始抓取 九游 开测表首发新游：%s", LIST_URL)
-    today = date.today()
+    html = fetch_html(LIST_URL, timeout=15)
+    if not html:
+        logger.error("开测表页面抓取失败，终止本次采集")
+        return 1
 
-    # 抓取 + 解析整体重试：九游偶发返回 HTTP 200 但开测表容器缺失，
-    # fetch_html 只对 requests 异常重试，拦不住这种降级响应
-    days = retry_until_nonempty(
-        lambda: parse_kaice_table(fetch_html(LIST_URL, timeout=15) or "", today),
-        "九游开测表",
-    )
-    total_games = sum(len(d["games"]) for d in days) if days else 0
+    today = date.today()
+    days = parse_kaice_table(html, today)
+    total_games = sum(len(d["games"]) for d in days)
     logger.info(
-        "解析完成，共 %d 个日期分组、%d 款首发游戏", len(days) if days else 0, total_games
+        "解析完成，共 %d 个日期分组、%d 款首发游戏", len(days), total_games
     )
 
     # 健全性检查：0 个日期分组通常意味着开测表选择器已失效（页面结构变化），

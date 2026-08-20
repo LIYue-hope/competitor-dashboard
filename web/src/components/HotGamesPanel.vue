@@ -114,7 +114,11 @@ function typeClass(type) {
           >★</span>
 
           <div class="card-top">
-            <h3 class="game-name">{{ game.game_name }}</h3>
+            <h3 class="game-name">
+              {{ game.game_name }}
+              <!-- 同一 tab 下多家公司混排时（鹰角/库洛/叠纸）才有 company -->
+              <span v-if="game.company" class="game-company">（{{ game.company }}）</span>
+            </h3>
             <a
               class="official-link"
               :href="game.official_url"
@@ -265,6 +269,12 @@ function typeClass(type) {
   margin: 0;
   font-size: 15px;
   line-height: 1.4;
+}
+
+.game-company {
+  font-size: 12px;
+  font-weight: normal;
+  color: #999;
 }
 
 .official-link {

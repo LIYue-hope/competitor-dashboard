@@ -71,7 +71,7 @@ import requests
 from bs4 import BeautifulSoup
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from utils import DEFAULT_HEADERS, has_afk_grinding_tag, retry_until_nonempty  # noqa: E402
+from utils import DEFAULT_HEADERS, has_afk_grinding_tag  # noqa: E402
 
 logging.basicConfig(
     level=logging.INFO,
@@ -318,20 +318,20 @@ def enrich_with_detail(game):
 
 def main():
     logger.info("开始抓取 好游快爆 新游时间线：%s", LIST_URL)
-    today = date.today()
+    html = fetch_page(LIST_URL)
+    if not html:
+        logger.error("时间线页面抓取失败，终止本次采集")
+        return 1
 
-    # 抓取 + 解析整体重试：3839 偶发返回 HTTP 200 但缺少"即将上线"面板，
-    # fetch_page 只对 requests 异常重试，拦不住这种降级响应
-    days = retry_until_nonempty(
-        lambda: parse_timeline(fetch_page(LIST_URL) or "", today), "好游快爆时间线"
-    )
-    total_games = sum(len(d["games"]) for d in days) if days else 0
+    today = date.today()
+    days = parse_timeline(html, today)
+    total_games = sum(len(d["games"]) for d in days)
     logger.info(
         "解析完成，窗口 %s ~ %s（%d 天），共 %d 个日期分组、%d 款游戏",
         today.isoformat(),
         date.fromordinal(today.toordinal() + WINDOW_DAYS - 1).isoformat(),
         WINDOW_DAYS,
-        len(days) if days else 0,
+        len(days),
         total_games,
     )
 

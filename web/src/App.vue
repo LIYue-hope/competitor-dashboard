@@ -138,10 +138,9 @@ function onNewsRefreshed(payload) {
       新游监测
       <RefreshButton
         :files="['taptap_upcoming.json', 'haoyoukuaibao_upcoming.json', '9game_upcoming.json']"
-        section="new-games"
+        storage-key="new-games"
         @refreshed="onNewGamesRefreshed"
       />
-
     </h2>
 
 
@@ -197,10 +196,9 @@ function onNewsRefreshed(payload) {
         热门游戏动态监测
         <RefreshButton
           :files="['hot_games_dynamics.json']"
-          section="hot-games"
+          storage-key="hot-games"
           @refreshed="onHotGamesRefreshed"
         />
-
       </h2>
 
       <p v-if="hotGamesError" class="error">{{ hotGamesError }}</p>
@@ -215,10 +213,9 @@ function onNewsRefreshed(payload) {
         游戏资讯
         <RefreshButton
           :files="['3dmgame_news.json', '3dmgame_reviews.json']"
-          section="news"
+          storage-key="game-news"
           @refreshed="onNewsRefreshed"
         />
-
       </h2>
 
       <h3 class="sub-heading">3DMGame</h3>

@@ -13,8 +13,13 @@ data/hot_games_dynamics.json 供展示层渲染。
 - mihoyo：米哈游公告 JSON API（原神 hk4e、崩坏：星穹铁道 hkrpg），
   getAnnList 拿列表 + getAnnContent 拿正文，按 ann_id 关联。
   现仅作 mihoyo_cms 的降级退路，不再直接配给游戏。
-- netease：网易系 SSR HTML 新闻列表页（第五人格/蛋仔派对/燕云十六声），按各站点
-  DOM 结构声明选择器解析标题/日期/摘要。
+- netease：网易系 SSR HTML 新闻列表页（第五人格/蛋仔派对/燕云十六声/阴阳师/
+  永劫无间/我的世界/光遇/遗忘之海/梦幻西游手游/巅峰极速），按各站点 DOM 结构
+  声明选择器解析标题/日期/摘要；响应头普遍不带 charset，故各站显式配
+  encoding（梦幻西游是唯一的 gb18030 站），日期/标题可从属性取（date_attr /
+  title_attr），一个游戏可配多个栏目页（list_urls）。
+- nsh：逆水寒官网新闻列表（n.163.com）。DOM 与 netease 系同构，但日期被拆成
+  「日」与「两位年.月」两个节点，get_text 拼接会得到错年份，故独立成一个 source。
 - wjsj：王者荣耀世界内容中心聚合接口（腾讯 apps.game.qq.com/cmc/cross），
   按 newslist.js 还原签名算法（md5(token+source+biz+timestamp)）请求 JSON。
 - df / gp / rocom：三角洲行动 / 和平精英 / 洛克王国世界，同为腾讯内容中心
@@ -28,6 +33,23 @@ data/hot_games_dynamics.json 供展示层渲染。
   gicp 服务端渲染列表页（GBK 编码），页面无分类字段，类型只能按标题兜底。
 - hyrz：火影忍者。用老 wmp 接口（不是 cmc/cross），列表在 msg.result，只收
   公告 + 新闻两类。
+- hypergryph：鹰角官网新闻接口（明日方舟 ak.hypergryph.com/api/news、终末地
+  web-news.hypergryph.com/api/bulletin），字段完全一致，差异（域名/分页上限/
+  tab 取值）收在游戏配置里。displayTime 是 unix 秒 UTC，需转北京时间。
+- papegames：叠纸系官网新闻接口（无限暖暖 / 闪耀暖暖 / 恋与制作人），同一套
+  后端，publish_time 是 ISO-8601 UTC，必须转北京时间。
+- kuro：库洛静态 JSON CMS（鸣潮 / 战双帕弥什 ArticleMenu.json），返回体是
+  数组，startTime 已是北京时间。
+- wanmei：完美世界异环官网新闻列表（SSR HTML，第 N 页为 index{N-1}.html），
+  响应无 charset 声明，必须显式 utf-8 解码；严格倒序，遇窗口外条目即停翻页。
+- preternatural：超自然行动组（巨人网络）官网列表接口 sphinx.preternatural.cc，
+  按 category 分类各请求一次；部分老条目 publishAt 被写成请求时刻附近的时间戳，
+  必须取 min(publishAt, updateAt) 作为发布时间。
+- biligame：B 站发行游戏新闻接口 api.biligame.com/news/list.action（命运-冠位
+  指定 / 三国：谋定天下），以 gameExtensionId 为键，positionId=2 必填，日期取
+  createTime（modifyTime 会把旧公告顶到今天）；列表头部有置顶条目。
+- silverpalace：白银之城（乐元素）官网列表接口 news_list，size 被服务端压到
+  10/页需按 total_page 翻页；列表是 id 倒序不是日期倒序，必须逐条比窗口。
 - pending：官方来源尚未确认稳定可抓取时的占位状态，仅展示官网直达链接，
   不做自动摘要（当前无游戏使用）。
 
@@ -78,6 +100,7 @@ PUBLISHERS = [
     {"key": "tencent", "label": "腾讯"},
     {"key": "netease", "label": "网易"},
     {"key": "mihoyo", "label": "米哈游"},
+    {"key": "hg_kuro_pape", "label": "鹰角、库洛、叠纸"},
     {"key": "other", "label": "其他"},
 ]
 
@@ -87,7 +110,9 @@ PUBLISHERS = [
 #   "mihoyo_cms" -> 米哈游官网新闻 CMS getContentList（list_url），
 #                   失败时自动降级到 fallback_url 指向的公告接口
 #   "mihoyo"  -> 使用 mihoyo 配置（list_url，content_url 自动由 list_url 推导）
-#   "netease" -> 使用 netease 配置（list_url，dom 选择器）
+#   "netease" -> 使用 netease 配置（list_url 或 list_urls，dom 选择器，
+#                可选 encoding 显式指定响应编码）
+#   "nsh"     -> 逆水寒官网新闻列表（list_url + dom，日期拆成两节点单独解析）
 #   "wjsj"    -> 王者荣耀世界 cmc/cross（需签名，chanid）
 #   "df"      -> 三角洲行动 cmc/cross（serviceId + chanid）
 #   "gp"      -> 和平精英 cmc/cross（serviceId + chanid）
@@ -95,7 +120,17 @@ PUBLISHERS = [
 #   "cmc"     -> 腾讯内容中心通用采集（serviceId + cmc 配置字段）
 #   "codm"    -> 使命召唤手游 gicp SSR 列表页（list_url）
 #   "hyrz"    -> 火影忍者 wmp 接口（无需额外配置）
+#   "hypergryph" -> 鹰角官网新闻接口（list_url + tab_types + max_pages）
+#   "papegames"  -> 叠纸系官网新闻接口（list_url + 可选 section_types）
+#   "kuro"       -> 库洛静态 JSON CMS（list_url + article_types）
+#   "wanmei"     -> 异环官网新闻列表 SSR（list_url + page_url + max_pages）
+#   "preternatural" -> 超自然行动组官网列表接口（list_url + category_types）
+#   "biligame"   -> B 站发行游戏新闻接口（list_url + type_names + detail_url_tpl）
+#   "silverpalace"  -> 白银之城官网列表接口（list_url + category_types + max_pages）
 #   "pending" -> 仅展示官网链接，不自动采集
+#
+# 可选字段 company：该发行商 tab 下多家公司混排时（鹰角/库洛/叠纸），前端在
+# 游戏名后以括号展示公司名；game_name 保持干净（它同时是前端卡片的 key）。
 # ---------------------------------------------------------------------------
 GAMES = [
     # ---------------- 米哈游 ----------------
@@ -144,6 +179,30 @@ GAMES = [
             "https://hkrpg-ann-api.mihoyo.com/common/hkrpg_cn/announcement/api/getAnnList"
             "?game=hkrpg&game_biz=hkrpg_cn&lang=zh-cn&bundle_id=hkrpg_cn&channel_id=1"
             "&level=70&platform=pc&region=prod_gf_cn&uid=100000000"
+        ),
+    },
+    {
+        "game_name": "绝区零",
+        "publisher": "米哈游",
+        "publisher_key": "mihoyo",
+        "official_url": "https://zzz.mihoyo.com/",
+        "source": "mihoyo_cms",
+        # 官网「最新」父栏目 iChanId=273（子栏目 278 新闻 / 279 公告 / 280 活动，
+        # 280 已废弃，最新条目停在 2024-12-18）。278+279+280=1552=273 的 iTotal，
+        # 说明 273 是三者无重复并集，抓一次即可。该站不能/不需带 iAppId。
+        "list_url": (
+            "https://api-takumi-static.mihoyo.com/content_v2_user/app/"
+            "706fd13a87294881/getContentList?iPage=1&iPageSize=50"
+            "&iChanId=273&sLangKey=zh-cn"
+        ),
+        "detail_url_prefix": "https://zzz.mihoyo.com/news/",
+        # sCategoryName 恒为空串，类型只能靠 sChanId 反查；sExt 里没有
+        # news-date，日期走 _mihoyo_cms_date 对 dtStartTime 的回落分支。
+        "chan_types": {"279": "公告", "278": "新闻", "280": "活动"},
+        "fallback_url": (
+            "https://announcement-api.mihoyo.com/common/nap_cn/announcement/api/getAnnList"
+            "?game=nap&game_biz=nap_cn&lang=zh-cn&bundle_id=nap_cn&channel_id=1"
+            "&level=60&platform=pc&region=prod_gf_cn&uid=100000000"
         ),
     },
     # ---------------- 网易 ----------------
@@ -207,6 +266,188 @@ GAMES = [
             "title_attr": "title",
             "label_sel": ".news-label",  # 类型标签（公告/新闻等），用于类型判定
             "summary_sel": ".news-text",
+        },
+    },
+    {
+        "game_name": "阴阳师",
+        "publisher": "网易",
+        "publisher_key": "netease",
+        "official_url": "https://yys.163.com/",
+        "source": "netease",
+        # 「最新」页已聚合 公告 + 新闻 + 活动，无需再分别抓三个栏目页。
+        "list_url": "https://yys.163.com/news/index.html",
+        "encoding": "utf-8",
+        # 列表项 DOM：<a class="link" title="标题"><p class="p-tit">08-19 标题</p>
+        #   <p class="p-mess">正文</p><span class="category">公告</span></a>
+        # 日期与标题同在 .p-tit 里，标题另有 title 属性可直接取。
+        "dom": {
+            "item": ".news-list a.link",
+            "date_sel": ".p-tit",
+            "date_fmt": "%m-%d",
+            "title_attr": "title",
+            "label_sel": ".category",
+            "summary_sel": ".p-mess",
+            "detail_summary_sel": ".artText",
+        },
+    },
+    {
+        "game_name": "逆水寒",
+        "publisher": "网易",
+        "publisher_key": "netease",
+        "official_url": "https://n.163.com/",
+        "source": "nsh",
+        "list_url": "https://n.163.com/news/",
+        "encoding": "utf-8",
+        # 列表项 DOM：<a title="标题"><div class="news-time"><strong>20</strong>
+        #   <span>26.08</span></div><div class="type">公告</div>
+        #   <div class="title">标题</div><div class="desc">摘要</div></a>
+        # 日期拆成「日」+「两位年.月」两个节点，故用 day_sel / year_month_sel。
+        "dom": {
+            "item": "ul.news-list li a",
+            "day_sel": ".news-time strong",
+            "year_month_sel": ".news-time span",
+            "title_attr": "title",
+            "label_sel": ".type",
+            "summary_sel": ".desc",
+            "detail_summary_sel": ".artText",
+        },
+    },
+    {
+        "game_name": "永劫无间",
+        "publisher": "网易",
+        "publisher_key": "netease",
+        "official_url": "https://www.yjwujian.cn/news/",
+        "source": "netease",
+        "list_url": "https://www.yjwujian.cn/news/",
+        "encoding": "utf-8",
+        # 列表项 DOM：<a class="news-itme" href="..."><span class="title">标题</span>
+        #   <span class="date">[08-14]</span></a>（class 拼写是站点原样）
+        "dom": {
+            "item": "a.news-itme",
+            "date_sel": ".date",
+            "date_fmt": "%m-%d",
+            "title_sel": ".title",
+            "label_sel": None,  # 该站列表项无类型标签元素
+            "summary_sel": None,
+            # 不能用 .content：该站 .content 命中的是页脚版权信息。
+            "detail_summary_sel": ".artText",
+        },
+    },
+    {
+        "game_name": "我的世界",
+        "publisher": "网易",
+        "publisher_key": "netease",
+        "official_url": "https://mc.163.com/",
+        "source": "netease",
+        "list_url": "https://mc.163.com/news/",
+        "encoding": "utf-8",
+        # 列表项 DOM：<a title="标题"><i>新闻</i><p class="lside">
+        #   <span class="title">标题</span><span class="comment">摘要</span></p>
+        #   <span class="time">08-07</span></a>
+        "dom": {
+            "item": "ul.list li a",
+            "date_sel": ".time",
+            "date_fmt": "%m-%d",
+            "title_attr": "title",
+            "label_sel": "i",
+            "summary_sel": ".comment",
+            # 不配 detail_summary_sel：详情页 .artText 存在但文本长度为 0，
+            # 摘要只能从列表 .comment 取。
+        },
+    },
+    {
+        "game_name": "光遇",
+        "publisher": "网易",
+        "publisher_key": "netease",
+        "official_url": "https://sky.163.com/",
+        "source": "netease",
+        "list_url": "https://sky.163.com/news/",
+        "encoding": "utf-8",
+        # 列表项 DOM：<a href="..."><div><img/></div><div class="text">
+        #   <div>2026-08-19</div><div>标题</div><div>摘要</div></div></a>
+        # .text 下三个 div 全无 class，只能靠 :nth-of-type 定位；<a> 无 title 属性。
+        "dom": {
+            "item": "#list_show > a",
+            "date_sel": ".text > div:nth-of-type(1)",
+            "date_fmt": "%Y-%m-%d",
+            "title_sel": ".text > div:nth-of-type(2)",
+            "label_sel": None,  # 页面无类型标签元素，类型由标题推断
+            "summary_sel": ".text > div:nth-of-type(3)",
+            "detail_summary_sel": ".artText",
+        },
+    },
+    {
+        "game_name": "遗忘之海",
+        "publisher": "网易",
+        "publisher_key": "netease",
+        "official_url": "https://sea.163.com/",
+        "source": "netease",
+        "list_url": "https://sea.163.com/news/",
+        "encoding": "utf-8",
+        # 列表项 DOM：<a class="item" href="https://..."><div class="text">
+        #   <div class="title"><span>公告</span>标题</div>
+        #   <div class="time">2026.08.19</div></div></a>
+        # 日期用点号分隔；类型标签 <span> 嵌在 .title 内，取标题时要剥掉。
+        "dom": {
+            "item": "ul.news_list a.item",
+            "date_sel": ".time",
+            "date_fmt": "%Y.%m.%d",
+            "title_sel": ".title",
+            "title_strip": "span",
+            "label_sel": ".title span",
+            "summary_sel": None,
+            "detail_summary_sel": ".artText",
+        },
+    },
+    {
+        "game_name": "梦幻西游手游",
+        "publisher": "网易",
+        "publisher_key": "netease",
+        "official_url": "https://my.163.com/",
+        "source": "netease",
+        # 新闻 + 活动两个栏目页（/news/weihu/ 与新闻页同 artId 完全重复，不抓）。
+        "list_urls": [
+            "https://my.163.com/news/news/",
+            "https://my.163.com/news/remen/",
+        ],
+        # 全站唯一非 utf-8 的站点：utf-8 会抛 UnicodeDecodeError，GB2312 会在
+        # 生僻字上失败，必须 gb18030。
+        "encoding": "gb18030",
+        # 列表项 DOM：<a title="标题"><span class="news_time" data-date="08-18">
+        #   日 月</span><span class="news_title">标题</span>
+        #   <span class="news_desc">摘要</span></a>
+        # 日期只存在于 data-date 属性里（元素文本恒为「日 月」），故用 date_attr。
+        "dom": {
+            "item": "._con li a",
+            "date_sel": ".news_time",
+            "date_attr": "data-date",
+            "date_fmt": "%m-%d",
+            "title_attr": "title",
+            "summary_sel": ".news_desc",
+            # 活动栏目的 href 是专题落地页，没有统一模板也没有 .artText，
+            # 取不到时自动回退列表摘要。
+            "detail_summary_sel": ".artText",
+        },
+    },
+    {
+        "game_name": "巅峰极速",
+        "publisher": "网易",
+        "publisher_key": "netease",
+        "official_url": "https://speed.163.com/",
+        "source": "netease",
+        # 单栏目：/news/official/ 等子栏目全部 404。
+        "list_url": "https://speed.163.com/news/",
+        "encoding": "utf-8",
+        # 列表项 DOM：<a title="标题"><h2 class="news-tit"><p>标题</p>
+        #   <span>2026.07.24</span></h2><p class="news-desc">摘要</p></a>
+        "dom": {
+            "item": "ul.news-list li a",
+            "date_sel": ".news-tit span",
+            "date_fmt": "%Y.%m.%d",
+            "title_attr": "title",
+            "label_sel": None,  # 该站列表项无类型标签元素
+            "summary_sel": ".news-desc",
+            "detail_summary_sel": ".artText",
         },
     },
     # ---------------- 腾讯 ----------------
@@ -376,6 +617,199 @@ GAMES = [
         "source": "hyrz",
         "list_url": "https://hyrz.qq.com/web202003/newsList.html",
     },
+    # ---------------- 鹰角 / 库洛 / 叠纸 ----------------
+    # 同一个 tab 下混排三家公司，故每款游戏带 company 字段供前端括号展示。
+    # 7 个站点归为 3 个 source：鹰角两站字段一致（hypergryph）、叠纸三站同一套
+    # 后端（papegames）、库洛两站同一套静态 CMS（kuro），差异全部写在配置里。
+    {
+        "game_name": "明日方舟",
+        "publisher": "鹰角网络",
+        "publisher_key": "hg_kuro_pape",
+        "company": "鹰角",
+        "official_url": "https://ak.hypergryph.com/",
+        "source": "hypergryph",
+        # LATEST 单页只回 6 条（total=12），需按 page 翻到 end:true。
+        "list_url": "https://ak.hypergryph.com/api/news?category=LATEST&page={page}",
+        "detail_url_prefix": "https://ak.hypergryph.com/news/",
+        "tab_types": {"0": "公告", "1": "活动", "2": "新闻"},
+        "max_pages": 5,
+    },
+    {
+        "game_name": "明日方舟：终末地",
+        "publisher": "鹰角网络",
+        "publisher_key": "hg_kuro_pape",
+        "company": "鹰角",
+        "official_url": "https://endfield.hypergryph.com/",
+        "source": "hypergryph",
+        # 接口在独立域名，code=endfield_web 必填，pageSize 服务端上限 20
+        # （20 条可回溯一个多月，7 天窗口无需翻页）。
+        "list_url": (
+            "https://web-news.hypergryph.com/api/bulletin?lang=zh-cn"
+            "&code=endfield_web&page={page}&pageSize=20"
+        ),
+        "detail_url_prefix": "https://endfield.hypergryph.com/news/",
+        # 该站 tab 是 slug，不是数字。
+        "tab_types": {"notices": "公告", "news": "新闻", "events": "活动"},
+    },
+    {
+        "game_name": "无限暖暖",
+        "publisher": "叠纸游戏",
+        "publisher_key": "hg_kuro_pape",
+        "company": "叠纸",
+        "official_url": "https://infinitynikki.nuanpaper.com/",
+        "source": "papegames",
+        "list_url": "https://infinitynikki.nuanpaper.com/api/news?offset=0&limit=20",
+        "detail_url_prefix": "https://infinitynikki.nuanpaper.com/news/",
+        "section_types": {"0": "新闻", "1": "公告", "2": "活动"},
+    },
+    {
+        "game_name": "闪耀暖暖",
+        "publisher": "叠纸游戏",
+        "publisher_key": "hg_kuro_pape",
+        "company": "叠纸",
+        "official_url": "https://nikki4.papegames.cn/",
+        "source": "papegames",
+        # 该站路径带 v1/。limit=30：版本更新日单日可发 12 条以上。
+        "list_url": "https://nikki4.papegames.cn/api/v1/news?offset=0&limit=30",
+        "detail_url_prefix": "https://nikki4.papegames.cn/news/",
+        # section 语义与无限暖暖不同，不能共用一张表。
+        "section_types": {"0": "新闻", "1": "活动", "2": "公告", "3": "系统玩法"},
+    },
+    {
+        "game_name": "恋与制作人",
+        "publisher": "叠纸游戏",
+        "publisher_key": "hg_kuro_pape",
+        "company": "叠纸",
+        # 官网是 SSG 站，/home#2 只是首页 hash 锚点，真实列表页是 /news/more。
+        "official_url": "https://evol.papegames.cn/",
+        "source": "papegames",
+        # 该站没有 v1/（/api/v1/news 返回 404）。
+        "list_url": "https://evol.papegames.cn/api/news?offset=0&limit=20",
+        "detail_url_prefix": "https://evol.papegames.cn/news/",
+        # 不配 section_types：该站 section 语义混乱（0 是公告/活动/资讯大杂烩、
+        # 1 抽奖名单、2 同人征集），类型改由 _classify_type 按标题关键词判定。
+    },
+    {
+        "game_name": "鸣潮",
+        "publisher": "库洛游戏",
+        "publisher_key": "hg_kuro_pape",
+        "company": "库洛",
+        "official_url": "https://mc.kurogames.com/",
+        "source": "kuro",
+        # 该站路径带 /zh。
+        "list_url": (
+            "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/"
+            "json/G152/zh/ArticleMenu.json"
+        ),
+        # 详情页带 /detail/。
+        "detail_url_prefix": "https://mc.kurogames.com/main/news/detail/",
+        "article_types": {"51": "新闻", "52": "公告", "53": "活动"},
+    },
+    {
+        "game_name": "战双帕弥什",
+        "publisher": "库洛游戏",
+        "publisher_key": "hg_kuro_pape",
+        "company": "库洛",
+        "official_url": "https://pns.kurogames.com/",
+        "source": "kuro",
+        # 该站路径不带 /zh（带了 404）。
+        "list_url": (
+            "https://media-cdn-zspms.kurogame.com/pnswebsite/website2.0/"
+            "json/G144/ArticleMenu.json"
+        ),
+        # 详情页不带 /detail/。
+        "detail_url_prefix": "https://pns.kurogames.com/news/",
+        # 数据里还有字典外的历史类型 35 / 54（2022-2023 的旧攻略文），
+        # 由 fetcher 兜底成「公告」，不影响 7 天窗口。
+        "article_types": {"4": "新闻", "5": "公告", "43": "活动"},
+    },
+    # ---------------- 其他 ----------------
+    {
+        "game_name": "异环",
+        "publisher": "完美世界",
+        "publisher_key": "other",
+        "company": "完美世界",
+        "official_url": "https://yh.wanmei.com/news/index.html",
+        "source": "wanmei",
+        "list_url": "https://yh.wanmei.com/news/index.html",
+        # 第 N 页是 index{N-1}.html（共 24 页，每页 3 条）。严格倒序无置顶，
+        # 遇到窗口外条目即停，max_pages 只是保险上限。
+        "page_url": "https://yh.wanmei.com/news/index{index}.html",
+        "max_pages": 5,
+        "base_url": "https://yh.wanmei.com",
+    },
+    {
+        "game_name": "超自然行动组",
+        "publisher": "巨人网络",
+        "publisher_key": "other",
+        "company": "巨人网络",
+        # 官网是 Nuxt SPA，HTML 里没有数据，实际抓 sphinx 列表接口。
+        "official_url": "https://www.chaoziran.com/news",
+        "source": "preternatural",
+        "list_url": (
+            "https://sphinx.preternatural.cc/api/official/article/list"
+            "?gametag=preternatural&page=1&pageSize=999&category={category}"
+        ),
+        "detail_url_prefix": "https://www.chaoziran.com/news/",
+        # 分类值取自官网 JS chunk，需逐个分类请求一次。
+        "category_types": {"2": "新闻", "6": "公告", "3": "活动"},
+    },
+    {
+        "game_name": "命运-冠位指定",
+        "publisher": "哔哩哔哩",
+        "publisher_key": "other",
+        "company": "B站",
+        "official_url": "https://game.bilibili.com/fgo/news.html",
+        "source": "biligame",
+        # gameExtensionId=45 来自官网 news.js（不是 game_base_id=49）；
+        # positionId=2 必填（1/3/4 返回 totalNum=0），typeId 留空即全部类型。
+        "list_url": (
+            "https://api.biligame.com/news/list.action?gameExtensionId=45"
+            "&positionId=2&pageNum=1&pageSize=50&typeId="
+        ),
+        "detail_url_tpl": "https://game.bilibili.com/fgo/news.html#!news/0/1/{id}",
+        # 「攻略」(5)、「评测」(3) 不在前端类型白名单里，归一化成「新闻」。
+        "type_names": {"1": "公告", "2": "新闻", "3": "新闻", "4": "活动", "5": "新闻"},
+    },
+    {
+        "game_name": "三国：谋定天下",
+        "publisher": "哔哩哔哩",
+        "publisher_key": "other",
+        "company": "B站",
+        "official_url": "https://game.bilibili.com/nslg/",
+        "source": "biligame",
+        # gameExtensionId=1039（由首页 newsId 反查 news/{id}.action 的 gameInfo）。
+        "list_url": (
+            "https://api.biligame.com/news/list.action?gameExtensionId=1039"
+            "&positionId=2&pageNum=1&pageSize=50&typeId="
+        ),
+        # 该站无独立详情路由（/nslg/news* 全 404），详情走首页的 query 参数。
+        "detail_url_tpl": "https://game.bilibili.com/nslg/?news_detail_id={id}",
+        "type_names": {"1": "公告", "2": "新闻", "3": "新闻", "4": "活动", "5": "新闻"},
+    },
+    {
+        "game_name": "白银之城",
+        "publisher": "乐元素",
+        "publisher_key": "other",
+        "company": "乐元素",
+        # 必须固定用 leyuansu 域名：镜像站 elementagames 同一篇文章 id 不同，
+        # 混用会导致详情链接串号。
+        "official_url": "https://silverpalace.leyuansu.com/zh-cn/news",
+        "source": "silverpalace",
+        # lang=zh-cn 必填；不传 type 即全部分类；size 被服务端压到 10/页，
+        # 按响应里的 total_page 翻页（实测 total_page=5）。
+        "list_url": (
+            "https://silverpalace.leyuansu.com/server/index.php/home/news_list"
+            "?lang=zh-cn&page={page}&size=10"
+        ),
+        "detail_url_prefix": "https://silverpalace.leyuansu.com/zh-cn/newsDetail?id=",
+        "category_types": {
+            "news": "新闻",
+            "announcements": "公告",
+            "events": "活动",
+        },
+        "max_pages": 10,
+    },
 ]
 
 
@@ -414,13 +848,14 @@ def _clean_summary(html_or_text, is_html=True):
 def _parse_netease_date(raw, fmt):
     """解析网易列表项日期。fmt='%Y-%m-%d' 为完整日期；'%m-%d' 只有月日，
     按"不晚于今天"推断年份（如 12-30 出现在 1 月，则归为去年）。
-    分隔符兼容 '-' 与 '/'（如燕云十六声用 08/15）。"""
+    分隔符兼容 '-'、'/'、'.'（燕云十六声用 08/15，遗忘之海/巅峰极速用
+    2026.08.19）。"""
     if not raw:
         return None
     raw = raw.strip()
     today = (datetime.now(timezone.utc) + timedelta(hours=8)).date()
     if fmt in ("%m-%d", "%m/%d"):
-        m = re.search(r"(\d{1,2})[-/](\d{1,2})", raw)
+        m = re.search(r"(\d{1,2})[-/.](\d{1,2})", raw)
         if not m:
             return None
         month, day = int(m.group(1)), int(m.group(2))
@@ -434,7 +869,7 @@ def _parse_netease_date(raw, fmt):
             except ValueError:
                 return None
         return dt
-    m = re.search(r"(\d{4})[-/](\d{1,2})[-/](\d{1,2})", raw)
+    m = re.search(r"(\d{4})[-/.](\d{1,2})[-/.](\d{1,2})", raw)
     if not m:
         return None
     try:
@@ -640,94 +1075,171 @@ def fetch_mihoyo_cms_updates(game):
 # ---------------------------------------------------------------------------
 # 网易 SSR 新闻列表
 # ---------------------------------------------------------------------------
+def _netease_soup(game, url, timeout=12):
+    """请求网易系 SSR 页面并解析成 soup。
+
+    配了 encoding 就显式钉死编码：这些站响应头普遍不带 charset，
+    apparent_encoding 会误判（梦幻西游是 gb18030，按 utf-8 解码直接抛异常；
+    光遇的 404 页又是 GB 编码，不能靠"能否 utf-8 解码"判断有效性）。
+    """
+    resp = fetch_json(url, timeout=timeout)
+    if game.get("encoding"):
+        resp.encoding = game["encoding"]
+    return BeautifulSoup(resp.text, "html.parser")
+
+
+def _netease_detail_summary(game, url, selector):
+    """列表页无摘要时，回退请求详情页取正文首段。失败/取不到均返回空串。"""
+    try:
+        dnode = _netease_soup(game, url, timeout=10).select_one(selector)
+        if dnode:
+            return _clean_summary(dnode.get_text(" ", strip=True), is_html=False)
+    except Exception as exc:  # 网络/解析异常都降级为空摘要
+        logger.warning("%s 详情页摘要获取失败：%s（%s）", game["game_name"], url, exc)
+    return ""
+
+
+def _netease_update(game, item, ann_date):
+    """把一个网易系列表项 <a> 组装成 update 记录（日期由调用方解析后传入）。
+
+    逆水寒（source="nsh"）的日期解析方式不同，但标题/类型/摘要/链接的取法
+    与 netease 系完全一致，故共用本函数。
+    """
+    dom = game["dom"]
+
+    # 类型标签（列表页 <i>/<span> 里的「新闻」/「公告」等）。必须在取标题之前读，
+    # 因为 title_strip 会把标签节点从 DOM 里摘掉；取不到则退回空串。
+    label = ""
+    if dom.get("label_sel"):
+        lnode = item.select_one(dom["label_sel"])
+        if lnode:
+            label = lnode.get_text(" ", strip=True)
+
+    # 标题
+    if dom.get("title_attr"):
+        title = (item.get(dom["title_attr"]) or "").strip()
+    elif dom.get("title_sel"):
+        tnode = item.select_one(dom["title_sel"])
+        if tnode and dom.get("title_strip"):
+            for junk in tnode.select(dom["title_strip"]):
+                junk.extract()  # 移除类型标签等，仅留标题正文
+        title = tnode.get_text(" ", strip=True) if tnode else ""
+    else:
+        title = item.get_text(" ", strip=True)
+    title = re.sub(r"\s+", " ", title).strip()
+
+    # 链接。href 有 '//' 协议相对与绝对 https 两种形态。
+    href = item.get("href", "") or ""
+    url = href if href.startswith("http") else ("https:" + href if href else game["official_url"])
+
+    # 摘要
+    summary = ""
+    if dom.get("summary_sel"):
+        snode = item.select_one(dom["summary_sel"])
+        if snode:
+            summary = _clean_summary(snode.get_text(" ", strip=True), is_html=False)
+    # 列表页无摘要元素（如第五人格）时回退详情页正文；只对配了
+    # detail_summary_sel 的游戏生效，单条失败不影响其它条目。
+    if not summary and dom.get("detail_summary_sel") and url.startswith("http"):
+        summary = _netease_detail_summary(game, url, dom["detail_summary_sel"])
+
+    return {
+        "title": title or "（无标题）",
+        "type": _classify_type(label, title),
+        "date": ann_date.isoformat(),
+        "summary": summary,
+        "url": url,
+    }
+
+
 def fetch_netease_updates(game):
     """抓取网易系游戏新闻列表页近 7 天条目，返回 update 列表。
 
     各游戏站点 DOM 结构不同，用 game["dom"] 声明选择器：
       item        列表项选择器（CSS）
-      date_sel    日期文本选择器（相对 item）
+      date_sel    日期节点选择器（相对 item）
+      date_attr   日期取自该节点的属性（如梦幻西游的 data-date），
+                  未配置时取节点文本
       date_fmt    日期格式：'%Y-%m-%d' 完整日期 / '%m-%d' 仅月日
+                  （分隔符 - / . 都兼容，见 _parse_netease_date）
       title_attr  标题取自 item 的该属性（如 title）；与 title_sel 二选一
       title_sel   标题文本选择器（相对 item）
       title_strip 取标题前先移除的子元素选择器（如类型标签 <i>）
       label_sel   类型标签文本选择器（相对 item），None/取不到时退回空串
       summary_sel 摘要文本选择器（相对 item），None 表示无摘要
       detail_summary_sel  列表页无摘要时，回退请求详情页用该选择器取正文（相对详情页文档）
+
+    游戏配置里 list_urls（列表）与 list_url（单个）二选一：梦幻西游要同时抓
+    新闻与活动两个栏目页，两页 DOM 完全一致，故共用一份 dom。
     """
     dom = game["dom"]
-    resp = fetch_json(game["list_url"], timeout=12)
-    soup = BeautifulSoup(resp.text, "html.parser")
+    cutoff = _cutoff_date()
+    updates = []
+    seen = set()
+    for list_url in game.get("list_urls") or [game["list_url"]]:
+        soup = _netease_soup(game, list_url)
+        for item in soup.select(dom["item"]):
+            # 日期
+            date_node = item.select_one(dom["date_sel"]) if dom.get("date_sel") else None
+            if date_node is None:
+                continue
+            if dom.get("date_attr"):
+                raw_date = (date_node.get(dom["date_attr"]) or "").strip()
+            else:
+                raw_date = date_node.get_text(" ", strip=True)
+            ann_date = _parse_netease_date(raw_date, dom.get("date_fmt", "%Y-%m-%d"))
+            if not ann_date or ann_date < cutoff:
+                continue
+
+            update = _netease_update(game, item, ann_date)
+            if update["url"] in seen:
+                continue
+            seen.add(update["url"])
+            updates.append(update)
+    return updates
+
+
+def fetch_nsh_updates(game):
+    """抓取逆水寒官网新闻列表页近 7 天条目。
+
+    与 netease 系的唯一差异是日期：该站把日期拆成两个节点
+    <div class="news-time"><strong>20</strong><span>26.08</span></div>，
+    strong 是「日」、span 是「两位年.月」，必须分别取值再组日期
+    （get_text 拼接会得到 "2026.08" / "1926.08" 之类的错值）。
+    href 里的 8 位数字与列表显示日期并不一致（显示 08-20 的那条 href 是
+    20260819），以显示日期为准。
+    """
+    dom = game["dom"]
+    soup = _netease_soup(game, game["list_url"])
 
     cutoff = _cutoff_date()
     updates = []
     seen = set()
     for item in soup.select(dom["item"]):
-        # 日期
-        date_node = item.select_one(dom["date_sel"]) if dom.get("date_sel") else None
-        raw_date = date_node.get_text(" ", strip=True) if date_node else ""
-        ann_date = _parse_netease_date(raw_date, dom.get("date_fmt", "%Y-%m-%d"))
-        if not ann_date or ann_date < cutoff:
+        day_node = item.select_one(dom["day_sel"])
+        ym_node = item.select_one(dom["year_month_sel"])
+        if not day_node or not ym_node:
+            continue
+        ym = ym_node.get_text(strip=True)  # 如 "26.08"
+        m = re.match(r"(\d{2})\D(\d{1,2})$", ym)
+        if not m:
+            continue
+        try:
+            ann_date = datetime(
+                2000 + int(m.group(1)), int(m.group(2)), int(day_node.get_text(strip=True))
+            ).date()
+        except ValueError:
+            continue
+        if ann_date < cutoff:
             continue
 
-        # 类型标签（列表页 <i> 里的「新闻」/「公告」等）。必须在取标题之前读，
-        # 因为 title_strip 会把标签节点从 DOM 里摘掉；取不到则退回空串。
-        label = ""
-        if dom.get("label_sel"):
-            lnode = item.select_one(dom["label_sel"])
-            if lnode:
-                label = lnode.get_text(" ", strip=True)
-
-        # 标题
-        if dom.get("title_attr"):
-            title = (item.get(dom["title_attr"]) or "").strip()
-        elif dom.get("title_sel"):
-            tnode = item.select_one(dom["title_sel"])
-            if tnode and dom.get("title_strip"):
-                for junk in tnode.select(dom["title_strip"]):
-                    junk.extract()  # 移除类型标签等，仅留标题正文
-            title = tnode.get_text(" ", strip=True) if tnode else ""
-        else:
-            title = item.get_text(" ", strip=True)
-        title = re.sub(r"\s+", " ", title).strip()
-
-        # 链接
-        href = item.get("href", "") or ""
-        url = href if href.startswith("http") else ("https:" + href if href else game["official_url"])
-        if url in seen:
+        update = _netease_update(game, item, ann_date)
+        if update["url"] in seen:
             continue
-        seen.add(url)
-
-        # 摘要
-        summary = ""
-        if dom.get("summary_sel"):
-            snode = item.select_one(dom["summary_sel"])
-            if snode:
-                summary = _clean_summary(snode.get_text(" ", strip=True), is_html=False)
-        # 列表页无摘要元素（如第五人格）时，回退请求详情页取正文首段。
-        # 只对配了 detail_summary_sel 的游戏生效；单条失败不影响其它条目。
-        if not summary and dom.get("detail_summary_sel") and url.startswith("http"):
-            try:
-                dresp = fetch_json(url, timeout=10)
-                dresp.encoding = dresp.apparent_encoding or "utf-8"
-                dnode = BeautifulSoup(dresp.text, "html.parser").select_one(
-                    dom["detail_summary_sel"]
-                )
-                if dnode:
-                    summary = _clean_summary(dnode.get_text(" ", strip=True), is_html=False)
-            except Exception as exc:  # 网络/解析异常都降级为空摘要
-                logger.warning("%s 详情页摘要获取失败：%s（%s）", game["game_name"], url, exc)
-
-
-        updates.append(
-            {
-                "title": title or "（无标题）",
-                "type": _classify_type(label, title),
-                "date": ann_date.isoformat(),
-                "summary": summary,
-                "url": url,
-            }
-        )
+        seen.add(update["url"])
+        updates.append(update)
     return updates
+
 
 
 # ---------------------------------------------------------------------------
@@ -1345,11 +1857,408 @@ def fetch_hyrz_updates(game):
     return updates
 
 
+# ---------------------------------------------------------------------------
+# 鹰角 / 叠纸 / 库洛（3 个 source 覆盖 7 个站点）
+# ---------------------------------------------------------------------------
+def _fetch_json_utf8(url, timeout=12):
+    """请求并解析 JSON，强制按 utf-8 解码。
+
+    utils.fetch_json 用 apparent_encoding 猜编码，对 Content-Type 不带 charset
+    的接口（ak.hypergryph.com、库洛 CDN）会猜成 ISO-8859-1 导致中文乱码，故这里
+    直接解 resp.content。返回体不是 JSON（如错误页 HTML）时 json.loads 抛
+    ValueError，与网络异常一样交给 build_game_record 降级成 source_status=error。
+    """
+    return json.loads(fetch_json(url, timeout=timeout).content.decode("utf-8"))
+
+
+def _bj_date_from_unix(raw):
+    """unix 秒（UTC）-> 北京时间日期（date）。"""
+    try:
+        ts = int(raw)
+    except (TypeError, ValueError):
+        return None
+    return datetime.fromtimestamp(ts, timezone(timedelta(hours=8))).date()
+
+
+def _bj_date_from_iso_utc(raw):
+    """ISO-8601 UTC 字符串（如 2026-08-19T04:00:00.000Z）-> 北京时间日期。
+
+    必须做时区转换：直接切 [:10] 会把 UTC 16:00 之后的条目算少一天。
+    """
+    if not raw:
+        return None
+    try:
+        dt = datetime.fromisoformat(str(raw).replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone(timedelta(hours=8))).date()
+
+
+def fetch_hypergryph_updates(game):
+    """抓取鹰角系游戏（明日方舟 / 明日方舟：终末地）近 7 天条目。
+
+    两站字段完全一致（title / displayTime unix 秒 UTC / tab 分类 / cid /
+    brief 现成摘要），差异全部放在游戏配置里：
+      list_url          列表接口，含 {page} 占位（终末地在独立域名 web-news）
+      tab_types         tab 值 -> 栏目名（方舟是 "0/1/2"，终末地是 slug）
+      detail_url_prefix 详情页前缀，拼 cid
+      max_pages         翻页上限，默认 1（方舟 LATEST 单页只回 6 条，需翻页）
+    """
+    tab_types = game.get("tab_types") or {}
+    items = []
+    for page in range(1, game.get("max_pages", 1) + 1):
+        data = _fetch_json_utf8(game["list_url"].format(page=page))
+        if data.get("code") != 0:
+            raise RuntimeError(f"hypergryph code={data.get('code')}：{data.get('msg')}")
+        payload = data.get("data")
+        if not isinstance(payload, dict) or not isinstance(payload.get("list"), list):
+            raise RuntimeError("hypergryph 返回缺少 data.list")
+        items.extend(payload["list"])
+        # end=True 即末页。列表混排 sticky 置顶条目，不能靠"遇到旧条目"提前收工，
+        # 只能翻到 end 再逐条比 cutoff（LATEST total=12，实测第 2 页即 end）。
+        if payload.get("end") or not payload["list"]:
+            break
+    logger.info("%s：接口返回 %d 条", game["game_name"], len(items))
+
+    cutoff = _cutoff_date()
+    updates = []
+    for item in items:
+        ann_date = _bj_date_from_unix(item.get("displayTime"))
+        if not ann_date or ann_date < cutoff:
+            continue
+
+        title = (item.get("title") or "").strip()
+        cid = str(item.get("cid") or "")
+        updates.append(
+            {
+                "title": title or "（无标题）",
+                "type": _classify_type(tab_types.get(str(item.get("tab"))), title),
+                "date": ann_date.isoformat(),
+                # brief 是列表接口自带的纯文本摘要，无需请求详情页。
+                "summary": _clean_summary(item.get("brief") or "", is_html=False),
+                "url": game["detail_url_prefix"] + cid if cid else game["official_url"],
+            }
+        )
+    return updates
+
+
+def fetch_papegames_updates(game):
+    """抓取叠纸系游戏（无限暖暖 / 闪耀暖暖 / 恋与制作人）近 7 天条目。
+
+    同一套后端，响应封装 {"data":{"total":N,"data":[...]},"ret":0,"msg":"ok"}。
+    差异放在游戏配置里：
+      list_url          列表接口（闪耀暖暖路径带 v1/，另两站不带）。不传
+                        section 参数即全分类；传 section=-1 会返回 total:0。
+      section_types     section 值 -> 栏目名；恋与制作人不配该字段，其 section
+                        语义混乱，类型退回 _classify_type 按标题判定
+      detail_url_prefix 详情页前缀，拼 id
+    """
+    data = _fetch_json_utf8(game["list_url"])
+    if data.get("ret") != 0:
+        raise RuntimeError(f"papegames ret={data.get('ret')}：{data.get('msg')}")
+    payload = data.get("data")
+    if not isinstance(payload, dict) or not isinstance(payload.get("data"), list):
+        raise RuntimeError("papegames 返回缺少 data.data")
+    items = payload["data"]
+    logger.info(
+        "%s：接口返回 %d 条（total=%s）",
+        game["game_name"], len(items), payload.get("total"),
+    )
+
+    # 闪耀暖暖不传 section 的全量列表不是时间倒序（首条是 2019 年的置顶稿），
+    # 故先按 publish_time 倒序，且只能逐条比 cutoff，不能遇到旧条目就 break。
+    items = sorted(items, key=lambda i: str(i.get("publish_time") or ""), reverse=True)
+
+    section_types = game.get("section_types") or {}
+    cutoff = _cutoff_date()
+    updates = []
+    for item in items:
+        ann_date = _bj_date_from_iso_utc(item.get("publish_time"))
+        if not ann_date or ann_date < cutoff:
+            continue
+
+        title = (item.get("title") or "").strip()
+        item_id = str(item.get("id") or "")
+        updates.append(
+            {
+                "title": title or "（无标题）",
+                "type": _classify_type(section_types.get(str(item.get("section"))), title),
+                "date": ann_date.isoformat(),
+                # 列表接口没有摘要字段（无限暖暖有 abstract 但实测恒为 null），
+                # 不为此逐条抓正文；有值时直接用。
+                "summary": _clean_summary(item.get("abstract") or "", is_html=False),
+                "url": (
+                    game["detail_url_prefix"] + item_id if item_id else game["official_url"]
+                ),
+            }
+        )
+    return updates
+
+
+def fetch_kuro_updates(game):
+    """抓取库洛系游戏（鸣潮 / 战双帕弥什）近 7 天条目。
+
+    静态 JSON CMS，返回体是数组不是对象。差异放在游戏配置里：
+      list_url          ArticleMenu.json（鸣潮路径带 /zh，战双不带，带了 404）
+      article_types     articleType -> 栏目名，字典外的历史类型兜底成「公告」
+      detail_url_prefix 详情页前缀（鸣潮带 /detail/，战双不带）
+    """
+    items = _fetch_json_utf8(game["list_url"])
+    if not isinstance(items, list) or not items:
+        raise RuntimeError("kuro ArticleMenu 返回不是非空数组")
+    logger.info("%s：接口返回 %d 条", game["game_name"], len(items))
+
+    # 返回顺序是按分类分组的（组内倒序），且有 top 置顶稿，必须逐条比 cutoff。
+    items = sorted(items, key=lambda i: str(i.get("startTime") or ""), reverse=True)
+
+    article_types = game.get("article_types") or {}
+    cutoff = _cutoff_date()
+    updates = []
+    for item in items:
+        # startTime 形如 "2026-08-20 10:00:00"，已是北京时间，不再转时区。
+        ann_date = _parse_netease_date(item.get("startTime") or "", "%Y-%m-%d")
+        if not ann_date or ann_date < cutoff:
+            continue
+
+        title = (item.get("articleTitle") or "").strip()
+        article_id = str(item.get("articleId") or "")
+        label = article_types.get(str(item.get("articleType")), "公告")
+        updates.append(
+            {
+                "title": title or "（无标题）",
+                "type": _classify_type(label, title),
+                "date": ann_date.isoformat(),
+                # articleDesc 是列表自带摘要（实测多为空串）；articleContent 在
+                # 列表里被截断到 ~20 字符，不能当摘要用。
+                "summary": _clean_summary(item.get("articleDesc") or "", is_html=False),
+                "url": (
+                    game["detail_url_prefix"] + article_id
+                    if article_id
+                    else game["official_url"]
+                ),
+            }
+        )
+    return updates
+
+
+# ---------------------------------------------------------------------------
+# 其他发行（完美世界 / 巨人 / B 站 / 乐元素）
+# ---------------------------------------------------------------------------
+def fetch_wanmei_updates(game):
+    """抓取异环官网新闻列表（yh.wanmei.com）近 7 天条目。
+
+    SSR HTML，第 1 页是 index.html，第 N 页是 index{N-1}.html，每页 3 条。
+    列表严格按日期倒序且无置顶，故遇到窗口外条目即可停止翻页。
+    """
+    cutoff = _cutoff_date()
+    updates = []
+    for page in range(1, game.get("max_pages", 1) + 1):
+        url = game["list_url"] if page == 1 else game["page_url"].format(index=page - 1)
+        # 响应头不带 charset，走 apparent_encoding 会猜错，直接按 utf-8 解。
+        html = fetch_json(url, timeout=12).content.decode("utf-8")
+        items = BeautifulSoup(html, "html.parser").select("div.listNews > a")
+        if not items:
+            break
+
+        stop = False
+        for item in items:
+            date_node = item.select_one("p.date")
+            if date_node is None:
+                continue
+            # p.date 形如 2026-08-19，已是北京时间，不做时区转换。
+            ann_date = _parse_netease_date(
+                date_node.get_text(" ", strip=True), "%Y-%m-%d"
+            )
+            if not ann_date or ann_date < cutoff:
+                stop = True
+                break
+
+            title_node = item.select_one("h2.title")
+            title = title_node.get_text(" ", strip=True) if title_node else ""
+            label_node = item.select_one("p.type")
+            summary_node = item.select_one("div.des")
+            href = (item.get("href") or "").strip()
+            updates.append(
+                {
+                    "title": title or "（无标题）",
+                    # p.type 已是中文栏目名（公告 / 新闻 / 活动）。
+                    "type": _classify_type(
+                        label_node.get_text(strip=True) if label_node else "", title
+                    ),
+                    "date": ann_date.isoformat(),
+                    "summary": _clean_summary(
+                        summary_node.get_text(" ", strip=True) if summary_node else "",
+                        is_html=False,
+                    ),
+                    "url": (
+                        game["base_url"] + href
+                        if href.startswith("/")
+                        else href or game["official_url"]
+                    ),
+                }
+            )
+        if stop:
+            break
+    return updates
+
+
+def fetch_preternatural_updates(game):
+    """抓取超自然行动组官网列表接口（sphinx.preternatural.cc）近 7 天条目。
+
+    官网是 Nuxt SPA，HTML 里没有数据。接口按分类查询，category_types 里的每个
+    分类各请求一次（2 新闻 / 6 公告 / 3 活动）。
+    """
+    cutoff = _cutoff_date()
+    updates = []
+    for category, label in game["category_types"].items():
+        data = _fetch_json_utf8(game["list_url"].format(category=category))
+        if data.get("code") != 0:
+            raise RuntimeError(
+                f"preternatural code={data.get('code')}：{data.get('msg')}"
+            )
+        payload = data.get("data")
+        if not isinstance(payload, dict) or not isinstance(payload.get("data"), list):
+            raise RuntimeError("preternatural 返回缺少 data.data")
+        items = payload["data"]
+        logger.info("%s：分类 %s（%s）返回 %d 条", game["game_name"], category, label, len(items))
+
+        for item in items:
+            # 部分历史条目的 publishAt 被刷成"接近请求时刻"，会把旧稿误算进窗口；
+            # 正常条目 publishAt == updateAt，故取两者较小值。
+            pub_date = _bj_date_from_unix(item.get("publishAt"))
+            upd_date = _bj_date_from_unix(item.get("updateAt"))
+            candidates = [d for d in (pub_date, upd_date) if d]
+            ann_date = min(candidates) if candidates else None
+            # 新闻分类首条是置顶稿，只能 continue，不能 break。
+            if not ann_date or ann_date < cutoff:
+                continue
+
+            title = (item.get("title") or "").strip()
+            item_id = str(item.get("id") or "")
+            updates.append(
+                {
+                    "title": title or "（无标题）",
+                    "type": _classify_type(label, title),
+                    "date": ann_date.isoformat(),
+                    # abstract 实测多为空串，不为此逐条抓正文。
+                    "summary": _clean_summary(item.get("abstract") or "", is_html=False),
+                    "url": (
+                        game["detail_url_prefix"] + item_id
+                        if item_id
+                        else game["official_url"]
+                    ),
+                }
+            )
+    return updates
+
+
+def fetch_biligame_updates(game):
+    """抓取 B 站发行游戏（命运-冠位指定 / 三国：谋定天下）近 7 天条目。
+
+    同一个 news/list.action 接口，两站只差 gameExtensionId。差异放在游戏配置里：
+      list_url        列表接口（含 gameExtensionId / positionId=2）
+      type_names      typeId -> 栏目名，攻略/评测归一化成「新闻」
+      detail_url_tpl  详情页模板，拼 {id}
+    """
+    data = _fetch_json_utf8(game["list_url"])
+    if data.get("code") != 0:
+        raise RuntimeError(f"biligame code={data.get('code')}：{data.get('msg')}")
+    items = data.get("data")
+    if not isinstance(items, list):
+        raise RuntimeError("biligame 返回缺少 data 数组")
+    logger.info(
+        "%s：接口返回 %d 条（totalNum=%s）",
+        game["game_name"], len(items), data.get("totalNum"),
+    )
+
+    type_names = game.get("type_names") or {}
+    cutoff = _cutoff_date()
+    updates = []
+    for item in items:
+        # createTime 形如 "2026-08-14 17:00:00"，已是北京时间，不再转时区。
+        ann_date = _parse_netease_date(item.get("createTime") or "", "%Y-%m-%d")
+        # 列表头部有置顶稿（日期可能很旧），必须逐条比 cutoff，不能 break。
+        if not ann_date or ann_date < cutoff:
+            continue
+
+        title = (item.get("title") or "").strip()
+        item_id = str(item.get("id") or "")
+        updates.append(
+            {
+                "title": title or "（无标题）",
+                "type": _classify_type(type_names.get(str(item.get("typeId"))), title),
+                "date": ann_date.isoformat(),
+                # 列表接口没有摘要字段。
+                "summary": "",
+                "url": (
+                    game["detail_url_tpl"].format(id=item_id)
+                    if item_id
+                    else game["official_url"]
+                ),
+            }
+        )
+    return updates
+
+
+def fetch_silverpalace_updates(game):
+    """抓取白银之城官网列表接口（silverpalace.leyuansu.com）近 7 天条目。
+
+    不传 type 即全部分类，按响应里的 total_page 翻页；category 字段
+    （news / announcements / events）映射成中文栏目名。
+    """
+    items = []
+    total_page = 1
+    for page in range(1, game.get("max_pages", 1) + 1):
+        data = _fetch_json_utf8(game["list_url"].format(page=page))
+        if data.get("code") != 0:
+            raise RuntimeError(f"silverpalace code={data.get('code')}：{data.get('msg')}")
+        payload = data.get("data")
+        if not isinstance(payload, dict) or not isinstance(payload.get("list"), list):
+            raise RuntimeError("silverpalace 返回缺少 data.list")
+        items.extend(payload["list"])
+        total_page = int(payload.get("total_page") or 1)
+        if page >= total_page or not payload["list"]:
+            break
+    logger.info(
+        "%s：接口返回 %d 条（total_page=%s）", game["game_name"], len(items), total_page
+    )
+
+    category_types = game.get("category_types") or {}
+    cutoff = _cutoff_date()
+    updates = []
+    for item in items:
+        # 列表是 id 倒序而非日期倒序，只能逐条比 cutoff，不能 break。
+        # publish_date 形如 2026-07-23，已是北京时间。
+        ann_date = _parse_netease_date(item.get("publish_date") or "", "%Y-%m-%d")
+        if not ann_date or ann_date < cutoff:
+            continue
+
+        title = (item.get("title") or "").strip()
+        item_id = str(item.get("id") or "")
+        updates.append(
+            {
+                "title": title or "（无标题）",
+                "type": _classify_type(category_types.get(item.get("category")), title),
+                "date": ann_date.isoformat(),
+                "summary": _clean_summary(item.get("desc") or "", is_html=False),
+                "url": (
+                    game["detail_url_prefix"] + item_id
+                    if item_id
+                    else game["official_url"]
+                ),
+            }
+        )
+    return sorted(updates, key=lambda u: u["date"], reverse=True)
+
+
 SOURCE_FETCHERS = {
 
     "mihoyo_cms": fetch_mihoyo_cms_updates,
     "mihoyo": fetch_mihoyo_updates,
     "netease": fetch_netease_updates,
+    "nsh": fetch_nsh_updates,
     "wjsj": fetch_wjsj_updates,
     "df": fetch_df_updates,
     "gp": fetch_gp_updates,
@@ -1357,6 +2266,13 @@ SOURCE_FETCHERS = {
     "cmc": fetch_cmc_updates,
     "codm": fetch_codm_updates,
     "hyrz": fetch_hyrz_updates,
+    "hypergryph": fetch_hypergryph_updates,
+    "papegames": fetch_papegames_updates,
+    "kuro": fetch_kuro_updates,
+    "wanmei": fetch_wanmei_updates,
+    "preternatural": fetch_preternatural_updates,
+    "biligame": fetch_biligame_updates,
+    "silverpalace": fetch_silverpalace_updates,
 }
 
 
@@ -1373,6 +2289,10 @@ def build_game_record(game):
         "updates": [],
         "has_afk_grinding_tag": False,
     }
+    # 同一 tab 下多家公司混排时（鹰角/库洛/叠纸）带上公司名，供前端在游戏名后
+    # 以括号展示；其余游戏不带该字段。
+    if game.get("company"):
+        record["company"] = game["company"]
 
     if source not in SOURCE_FETCHERS:
         return record

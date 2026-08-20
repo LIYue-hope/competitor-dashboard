@@ -3,21 +3,7 @@ name: 竞品数据采集
 on:
   schedule:
     - cron: '0 0 * * *'
-  workflow_dispatch:
-    inputs:
-      section:
-        # 前端"数据更新"按钮经 Serverless 代理 dispatch 时传入，只跑该板块对应的
-        # 采集脚本，避免一次按钮点击就消耗全量采集的时间与配额。
-        # 定时触发不带 inputs，下面统一用 `inputs.section || 'all'` 兜底为 all。
-        description: '要采集的板块'
-        required: false
-        default: 'all'
-        type: choice
-        options:
-          - all
-          - new-games
-          - hot-games
-          - news
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -27,18 +13,13 @@ permissions:
 # 避免同一分支上出现并发运行的 workflow 互相推送冲突。
 # cancel-in-progress: false 表示排队等待前一个采集任务跑完，而不是中途取消，
 # 这样每次触发（定时+手动）都会依次完整执行，最大化数据完整性。
-# group 里带上 section：不同板块写的是不同的 data/*.json，rebase 不会真冲突，
-# 因此允许三个板块的按需刷新并行，只把同一板块的重复点击串行化。
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.section || 'all' }}
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   crawl:
     runs-on: ubuntu-latest
-    env:
-      # 步骤级 if 里统一读这个变量，避免每处都重复写一遍 `inputs.section || 'all'`
-      SECTION: ${{ inputs.section || 'all' }}
     steps:
       - name: Checkout 仓库
         uses: actions/checkout@v4
@@ -68,19 +49,13 @@ jobs:
       # 落库并部署。同时给每步加 id，供后续步骤用 steps.<id>.outcome 精确判断
       # 是哪个源失败（continue-on-error 会把 conclusion 改写成 success，只有
       # outcome 保留原始结果，所以判定必须用 outcome）。
-      #
-      # if 里的 SECTION 决定本次只跑哪些源。被跳过的步骤 outcome 是 'skipped'
-      # 而非 'failure'，所以下面两个按 outcome == 'failure' 判定的哨兵步骤不受
-      # 影响，仍然只对真正失败的源报错。
       - name: 运行 TapTap 采集脚本
         id: taptap
-        if: env.SECTION == 'all' || env.SECTION == 'new-games'
         continue-on-error: true
         run: python scripts/crawl_taptap.py
 
       - name: 运行热门游戏动态采集脚本
         id: hot_games
-        if: env.SECTION == 'all' || env.SECTION == 'hot-games'
         continue-on-error: true
         run: python scripts/crawl_hot_games.py
 
@@ -89,13 +64,11 @@ jobs:
         # （requests + bs4，已在 scripts/requirements.txt 覆盖），且落在
         # data/*.json 下，能被下面提交步骤的 add / diff 通配直接覆盖。
         id: haoyoukuaibao
-        if: env.SECTION == 'all' || env.SECTION == 'new-games'
         continue-on-error: true
         run: python scripts/crawl_haoyoukuaibao.py
 
       - name: 运行九游采集脚本
         id: jiuyou
-        if: env.SECTION == 'all' || env.SECTION == 'new-games'
         continue-on-error: true
         run: python scripts/crawl_9game.py
 
@@ -103,10 +76,8 @@ jobs:
         # 输出 data/3dmgame_news.json + data/3dmgame_reviews.json，10 天滚动
         # 窗口，脚本内部自行读取旧文件合并去重，因此本步骤无需额外处理。
         id: dmgame
-        if: env.SECTION == 'all' || env.SECTION == 'news'
         continue-on-error: true
         run: python scripts/crawl_3dmgame.py
-
 
       - name: 采集失败提示
         # 单独一步作为"哨兵"：放在采集脚本之后、提交步骤之前，只要前面任一
@@ -154,8 +125,7 @@ jobs:
           fi
 
           git add data/*.json
-          git commit -m "chore: 更新竞品监测数据（section=${SECTION}）"
-
+          git commit -m "chore: 更新竞品监测数据（TapTap / 热门游戏动态 / 好游快爆 / 九游 / 3DMGame）"
 
           for i in 1 2 3; do
             if git push origin ${{ github.ref_name }}; then
@@ -190,19 +160,8 @@ jobs:
     # always() 解除失败拦截，同时显式排除 cancelled / skipped：被取消或跳过
     # 说明采集根本没跑完（比如并发排队被取消），此时没有必要重新部署。
     # needs: crawl 保留不动，仍靠它保证"先采集推送、后构建部署"的顺序。
-    #
-    # section != 'all' 时跳过部署：这类 run 来自前端"数据更新"按钮的按需刷新，
-    # 前端刷新后直接读 raw.githubusercontent 上的最新数据，不依赖 Pages 重新
-    # 构建；跳过部署既省掉一次 3~4 分钟的构建，也避免频繁点击把 pages-deploy
-    # 这条串行队列堵死、拖慢真正需要部署的定时任务。全量数据仍会在下一次定时
-    # 运行（section=all）时随构建一起发布到静态产物里。
-    if: |
-      always()
-      && needs.crawl.result != 'cancelled'
-      && needs.crawl.result != 'skipped'
-      && (inputs.section || 'all') == 'all'
+    if: always() && needs.crawl.result != 'cancelled' && needs.crawl.result != 'skipped'
     runs-on: ubuntu-latest
-
     # 顶层 concurrency（第 16 行）只对同一个 workflow 文件生效，且限制的是
     # 整个 run（crawl+deploy 一起），无法阻止"对同一个已完成 run 手动重跑
     # deploy job"这种操作重复执行 upload-pages-artifact 步骤，导致同一 run
@@ -239,14 +198,7 @@ jobs:
         # vite.config.js 中的 closeBundle 钩子会在构建完成后自动把仓库根目录
         # data/ 拷贝进 web/dist/data/，因此构建产物已包含最新采集数据。
         working-directory: web
-        env:
-          # 「数据更新」按钮要调的 Serverless 代理地址，在仓库
-          # Settings > Secrets and variables > Actions > Variables 里配
-          # REFRESH_API_BASE。没配时按钮自动退化为"只拉 raw 上已有的最新数据"，
-          # 不会构建失败。
-          VITE_REFRESH_API: ${{ vars.REFRESH_API_BASE }}
         run: npm run build
-
 
       - name: 上传 Pages 构建产物
         uses: actions/upload-pages-artifact@v3
