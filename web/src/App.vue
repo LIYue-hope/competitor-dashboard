@@ -5,6 +5,8 @@ import HaoyouPanel from './components/HaoyouPanel.vue'
 import JiuyouPanel from './components/JiuyouPanel.vue'
 import HotGamesPanel from './components/HotGamesPanel.vue'
 import GameNewsPanel from './components/GameNewsPanel.vue'
+import RefreshButton from './components/RefreshButton.vue'
+
 
 // 六个数据源分开加载与展示：
 // - taptap_upcoming.json：TapTap 新游预约扁平列表
@@ -100,6 +102,30 @@ function formatCrawledAt(isoString) {
   const pad = (n) => String(n).padStart(2, '0')
   return `${pad(d.getMonth() + 1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`
 }
+
+// RefreshButton 只在三次抓取全部成功时才 emit，因此这里拿到的一定是校验过的完整数据，
+// 直接整体替换对应板块的数据源即可；失败时不会走到这里，页面保留原有数据。
+function onNewGamesRefreshed(payload) {
+  taptapGames.value = payload['taptap_upcoming.json']
+  haoyouData.value = payload['haoyoukuaibao_upcoming.json']
+  jiuyouData.value = payload['9game_upcoming.json']
+  taptapError.value = ''
+  haoyouError.value = ''
+  jiuyouError.value = ''
+}
+
+function onHotGamesRefreshed(payload) {
+  hotGamesData.value = payload['hot_games_dynamics.json']
+  hotGamesError.value = ''
+}
+
+function onNewsRefreshed(payload) {
+  dmNewsData.value = payload['3dmgame_news.json']
+  dmReviewsData.value = payload['3dmgame_reviews.json']
+  dmNewsError.value = ''
+  dmReviewsError.value = ''
+}
+
 </script>
 
 <template>
@@ -108,7 +134,16 @@ function formatCrawledAt(isoString) {
       <h1>游戏行业监测看板</h1>
     </header>
 
-    <h2 class="hot-heading">新游监测</h2>
+    <h2 class="hot-heading">
+      新游监测
+      <RefreshButton
+        :files="['taptap_upcoming.json', 'haoyoukuaibao_upcoming.json', '9game_upcoming.json']"
+        section="new-games"
+        @refreshed="onNewGamesRefreshed"
+      />
+
+    </h2>
+
 
     <nav class="tab-nav">
       <button
@@ -158,7 +193,16 @@ function formatCrawledAt(isoString) {
 
     <!-- 热门游戏动态监测：固定展示在新游监测 Tab 内容下方，不作为可切换的顶级 Tab -->
     <section v-if="!loading" class="hot-section">
-      <h2 class="hot-heading">热门游戏动态监测</h2>
+      <h2 class="hot-heading">
+        热门游戏动态监测
+        <RefreshButton
+          :files="['hot_games_dynamics.json']"
+          section="hot-games"
+          @refreshed="onHotGamesRefreshed"
+        />
+
+      </h2>
+
       <p v-if="hotGamesError" class="error">{{ hotGamesError }}</p>
       <p v-else-if="!hotGamesData || hotGamesData.publishers.length === 0">暂无数据</p>
       <HotGamesPanel v-else :data="hotGamesData" />
@@ -167,7 +211,16 @@ function formatCrawledAt(isoString) {
     <!-- 游戏资讯：与新游监测、热门游戏动态监测同级的独立板块，
          当前只接入 3DMGame，内部再分新闻 / 测评两个子 Tab -->
     <section v-if="!loading" class="hot-section">
-      <h2 class="hot-heading">游戏资讯</h2>
+      <h2 class="hot-heading">
+        游戏资讯
+        <RefreshButton
+          :files="['3dmgame_news.json', '3dmgame_reviews.json']"
+          section="news"
+          @refreshed="onNewsRefreshed"
+        />
+
+      </h2>
+
       <h3 class="sub-heading">3DMGame</h3>
       <GameNewsPanel
         :news-data="dmNewsData"

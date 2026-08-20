@@ -100,6 +100,35 @@ def fetch_json(url, timeout=10, retries=2, backoff=1.5, headers=None):
     raise last_exc
 
 
+def retry_until_nonempty(fetch_parse, label, attempts=3, wait_seconds=5):
+    """反复执行"抓取 + 解析"，直到拿到非空结果，全部失败返回最后一次的空结果。
+
+    fetch_html / fetch_json 只在 requests 抛异常时重试，而这些站点偶发返回
+    HTTP 200 但正文缺少目标容器（反爬/限流的降级页面），这类响应不会触发它们
+    的重试，只会解析出 0 条。前端「数据更新」按钮会按需触发采集，命中频率远高
+    于每天一次的定时任务，因此在"抓取 + 解析"这一整层再加一次重试。
+
+    fetch_parse 需要返回列表/字典等可判空的结果；抛异常视为本次失败继续重试。
+    """
+    result = None
+    for attempt in range(1, attempts + 1):
+        try:
+            result = fetch_parse()
+        except Exception:
+            logger.exception("%s 第 %d/%d 次抓取解析异常", label, attempt, attempts)
+            result = None
+        else:
+            if result:
+                return result
+            logger.warning("%s 第 %d/%d 次解析到 0 条", label, attempt, attempts)
+
+        if attempt < attempts:
+            logger.info("%s 等待 %d 秒后重试", label, wait_seconds)
+            time.sleep(wait_seconds)
+
+    return result
+
+
 def match_keywords(text, keywords):
     """判断 text 中是否包含 keywords 列表中的任一关键词。"""
     if not text:

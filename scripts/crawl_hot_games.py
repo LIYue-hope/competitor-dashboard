@@ -31,6 +31,7 @@ import json
 import logging
 import os
 import re
+import time
 from datetime import datetime, timedelta, timezone
 
 import requests
@@ -1040,17 +1041,34 @@ def build_output():
     }
 
 
-def main():
-    output = build_output()
-
-    # 健全性检查：防止网络异常/接口大范围失效时，用几乎全空的结果覆盖掉
-    # 昨天采集到的正常数据。只要"至少一款游戏成功采集到 >=1 条动态"就
-    # 认为本次采集有效；全部游戏都 pending/error/空更新才判定为异常。
-    total_updates = sum(
+def count_updates(output):
+    return sum(
         len(g["updates"])
         for pub in output["publishers"]
         for g in pub["games"]
     )
+
+
+def main():
+    # 健全性检查：防止网络异常/接口大范围失效时，用几乎全空的结果覆盖掉
+    # 昨天采集到的正常数据。只要"至少一款游戏成功采集到 >=1 条动态"就
+    # 认为本次采集有效；全部游戏都 pending/error/空更新才判定为异常。
+    #
+    # 全空时整体重试：单个源的失败已经在 build_game_record 里降级为
+    # source_status="error"，走到这里说明所有源同时失效，多半是 CI 出口 IP
+    # 被限流这类瞬时问题。前端「数据更新」按钮会按需触发采集，命中频率远高于
+    # 每天一次的定时任务，因此这里再补一层整体重试。
+    attempts = 3
+    for attempt in range(1, attempts + 1):
+        output = build_output()
+        total_updates = count_updates(output)
+        if total_updates > 0:
+            break
+        logger.warning("第 %d/%d 次采集到 0 条动态", attempt, attempts)
+        if attempt < attempts:
+            logger.info("等待 10 秒后重试")
+            time.sleep(10)
+
     if total_updates == 0:
         raise RuntimeError(
             "热门游戏动态采集结果异常：全部游戏 0 条动态，"

@@ -39,7 +39,7 @@ import requests
 from bs4 import BeautifulSoup
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from utils import DEFAULT_HEADERS  # noqa: E402
+from utils import DEFAULT_HEADERS, retry_until_nonempty  # noqa: E402
 
 logging.basicConfig(
     level=logging.INFO,
@@ -312,11 +312,9 @@ def write_output(path, items, label):
 
 
 def run_news(today, window_start):
-    try:
-        new_items = crawl_news(window_start)
-    except Exception:
-        logger.exception("新闻采集异常，保留旧数据不写入")
-        return 1
+    # 抓取 + 解析整体重试：3DMGAME 偶发返回 HTTP 200 但列表容器缺失，
+    # retry_until_nonempty 同时兜住异常与"解析到 0 条"两种情况
+    new_items = retry_until_nonempty(lambda: crawl_news(window_start), "3DM 新闻")
 
     if not new_items:
         logger.error("新闻采集结果为空（0 条），疑似解析失效，终止写入以避免覆盖旧数据")
@@ -329,11 +327,7 @@ def run_news(today, window_start):
 
 
 def run_reviews(today, window_start):
-    try:
-        new_items = crawl_reviews(window_start)
-    except Exception:
-        logger.exception("测评采集异常，保留旧数据不写入")
-        return 1
+    new_items = retry_until_nonempty(lambda: crawl_reviews(window_start), "3DM 测评")
 
     if not new_items:
         logger.error("测评采集结果为空（0 条），疑似解析失效，终止写入以避免覆盖旧数据")
