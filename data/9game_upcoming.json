@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-08-20T02:37:38.309426+00:00",
+  "crawled_at": "2026-08-20T11:45:12.123114+00:00",
   "days": [
     {
       "date": "2026-08-20",
@@ -10,7 +10,7 @@
           "categories": [
             "卡牌"
           ],
-          "score": "7.1",
+          "score": null,
           "event_desc": "西游送十万抽",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/diandianyingxiong/",
@@ -56,6 +56,17 @@
       "date_label": "08月21日 明天",
       "games": [
         {
+          "game_name": "器灵宝塔",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "修仙国风仙侠手游",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/qilingbaota/",
+          "has_afk_grinding_tag": false
+        },
+        {
           "game_name": "脆弱的星球",
           "categories": [
             "角色扮演"
@@ -64,7 +75,7 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/cuiruodexingqiu/",
-          "has_afk_grinding_tag": true
+          "has_afk_grinding_tag": false
         },
         {
           "game_name": "开天英雄",
@@ -136,6 +147,23 @@
       ]
     },
     {
+      "date": "2026-08-29",
+      "date_label": "08月29日 下周六",
+      "games": [
+        {
+          "game_name": "乱弹三国志",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": "刷金养老版",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/luandansanguozhi3/",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
       "date": "2026-09-01",
       "date_label": "09月01日",
       "games": [
@@ -165,40 +193,6 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/xiuxiuyongzhe/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "date_label": "09月04日",
-      "games": [
-        {
-          "game_name": "名将冲突",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/mingjiangchongtu/",
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "date_label": "09月11日",
-      "games": [
-        {
-          "game_name": "露娜蓝色大陆",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/lnlsdl/",
           "has_afk_grinding_tag": false
         }
       ]

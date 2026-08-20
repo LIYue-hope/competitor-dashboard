@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-08-20T11:06:06.217464+00:00",
+  "crawled_at": "2026-08-20T11:44:19.745514+00:00",
   "window_days": 7,
   "publishers": [
     {
@@ -350,44 +350,8 @@
           "publisher": "腾讯",
           "publisher_key": "tencent",
           "official_url": "https://codm.qq.com/",
-          "source_status": "ok",
-          "updates": [
-            {
-              "title": "倒计时2天！真的忍不住好想斗啊！！",
-              "type": "公告",
-              "date": "2026-08-19",
-              "summary": "",
-              "url": "https://codm.qq.com/gicp/news/887/18838484.html"
-            },
-            {
-              "title": "倒计时3天！新模式-破坏乱斗近在眼前",
-              "type": "公告",
-              "date": "2026-08-18",
-              "summary": "",
-              "url": "https://codm.qq.com/gicp/news/887/18838481.html"
-            },
-            {
-              "title": "倒计时4天！新模式-破坏乱斗即将上线",
-              "type": "更新公告",
-              "date": "2026-08-17",
-              "summary": "",
-              "url": "https://codm.qq.com/gicp/news/887/18837346.html"
-            },
-            {
-              "title": "快看，是我们热血沸腾的组合技！",
-              "type": "公告",
-              "date": "2026-08-16",
-              "summary": "",
-              "url": "https://codm.qq.com/gicp/news/887/18836859.html"
-            },
-            {
-              "title": "这罗兹怎么想干嘛就干嘛？",
-              "type": "公告",
-              "date": "2026-08-14",
-              "summary": "",
-              "url": "https://codm.qq.com/gicp/news/887/18836857.html"
-            }
-          ],
+          "source_status": "error",
+          "updates": [],
           "has_afk_grinding_tag": false
         },
         {
