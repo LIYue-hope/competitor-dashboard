@@ -178,9 +178,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout 仓库
-        # crawl job 通过 needs 保证先执行完成，其"提交并推送数据变更"步骤已把
-        # 数据提交推送到默认分支，这里普通 checkout 即可拉到包含最新数据的代码。
+        # crawl job 已把新采集的数据提交推送到当前分支，但 checkout 默认取的是
+        # 触发本次 run 的 github.sha（即推送前的那个 commit），会导致部署产物永远
+        # 落后一次采集。必须显式指定 ref 为分支名，才能拉到 crawl job 推送后的最新提交。
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - name: 安装 Node.js
         uses: actions/setup-node@v4

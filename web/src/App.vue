@@ -108,19 +108,21 @@ function formatCrawledAt(isoString) {
       <h1>游戏行业监测看板</h1>
     </header>
 
+    <h2 class="hot-heading">新游监测</h2>
+
     <nav class="tab-nav">
       <button
         :class="['tab-btn', { active: activeTab === 'taptap' }]"
         @click="activeTab = 'taptap'"
-      >TapTap新游监测</button>
+      >TapTap</button>
       <button
         :class="['tab-btn', { active: activeTab === 'haoyou' }]"
         @click="activeTab = 'haoyou'"
-      >好游快爆新游监测</button>
+      >好游快爆</button>
       <button
         :class="['tab-btn', { active: activeTab === 'jiuyou' }]"
         @click="activeTab = 'jiuyou'"
-      >九游新游监测</button>
+      >九游</button>
     </nav>
 
     <p v-if="loading">加载中...</p>

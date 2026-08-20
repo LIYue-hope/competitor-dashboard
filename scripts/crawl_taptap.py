@@ -23,6 +23,8 @@ import logging
 import os
 import re
 import sys
+import time
+
 from datetime import datetime, timedelta, timezone
 
 from bs4 import BeautifulSoup
@@ -249,15 +251,36 @@ def build_output(games):
     return records
 
 
+def fetch_and_parse_list(attempts=3, wait_seconds=5):
+    """抓取并解析列表页，解析不到任何游戏时整体重试。
+
+    utils.fetch_html 只在 requests 抛异常时重试，而 TapTap 偶发返回 HTTP 200
+    但正文缺少新游列表容器（反爬/限流返回的降级页面），这种响应不会触发
+    fetch_html 的重试。CI runner 的出口 IP 更容易命中该情况，因此这里在
+    "抓取 + 解析" 这一整层再加一次重试。
+    """
+    for attempt in range(1, attempts + 1):
+        list_html = fetch_html(LIST_URL)
+        if list_html:
+            games = parse_list_page(list_html)
+            if games:
+                return games
+            logger.warning("第 %d/%d 次解析到 0 款游戏", attempt, attempts)
+        else:
+            logger.warning("第 %d/%d 次列表页抓取失败", attempt, attempts)
+
+        if attempt < attempts:
+            logger.info("等待 %d 秒后重试", wait_seconds)
+            time.sleep(wait_seconds)
+
+    return []
+
+
 def main():
     logger.info("开始抓取 TapTap 新游列表：%s", LIST_URL)
-    list_html = fetch_html(LIST_URL)
-    if not list_html:
-        logger.error("列表页抓取失败，终止本次采集")
-        return 1
-
-    games = parse_list_page(list_html)
+    games = fetch_and_parse_list()
     logger.info("列表页解析到 %d 款游戏", len(games))
+
 
     enriched = []
     for game in games:

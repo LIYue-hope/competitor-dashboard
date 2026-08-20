@@ -384,7 +384,8 @@ function scoreText(score) {
   gap: 12px;
   max-height: 560px;
   overflow-y: auto;
-  overscroll-behavior: contain;
+  /* 到顶/到底后允许滚动链接到整页 */
+  overscroll-behavior: auto;
 }
 
 .news-list::-webkit-scrollbar {
