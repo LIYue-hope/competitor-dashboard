@@ -301,45 +301,53 @@ function onNewsRefreshed(payload) {
         />
       </h2>
 
-      <h3 class="sub-heading">3DMGame</h3>
-      <GameNewsPanel
-        :news-data="dmNewsData"
-        :reviews-data="dmReviewsData"
-        :news-error="dmNewsError"
-        :reviews-error="dmReviewsError"
-        source-name="3DMGame"
-        review-label="测评"
-      />
+      <div class="source-card">
+        <h3 class="sub-heading">3DMGame</h3>
+        <GameNewsPanel
+          :news-data="dmNewsData"
+          :reviews-data="dmReviewsData"
+          :news-error="dmNewsError"
+          :reviews-error="dmReviewsError"
+          source-name="3DMGame"
+          review-label="测评"
+        />
+      </div>
 
-      <h3 class="sub-heading">游侠网</h3>
-      <GameNewsPanel
-        :news-data="youxiaNewsData"
-        :reviews-data="youxiaReviewsData"
-        :news-error="youxiaNewsError"
-        :reviews-error="youxiaReviewsError"
-        source-name="游侠网"
-        review-label="评测"
-        news-note="游侠网游戏频道更新滞后约 1 天，当天内容由全站资讯补齐，因此可能夹带少量非游戏资讯——这是为避免漏掉当天新闻的有意取舍，不是采集错误，滞后内容会在次日采集时自动校正。"
-      />
+      <div class="source-card">
+        <h3 class="sub-heading">游侠网</h3>
+        <GameNewsPanel
+          :news-data="youxiaNewsData"
+          :reviews-data="youxiaReviewsData"
+          :news-error="youxiaNewsError"
+          :reviews-error="youxiaReviewsError"
+          source-name="游侠网"
+          review-label="评测"
+          news-note="游侠网游戏频道更新滞后约 1 天，当天内容由全站资讯补齐，因此可能夹带少量非游戏资讯——这是为避免漏掉当天新闻的有意取舍，不是采集错误，滞后内容会在次日采集时自动校正。"
+        />
+      </div>
 
-      <h3 class="sub-heading">游民星空</h3>
-      <GameNewsPanel
-        :news-data="gamerskyNewsData"
-        :reviews-data="gamerskyReviewsData"
-        :news-error="gamerskyNewsError"
-        :reviews-error="gamerskyReviewsError"
-        source-name="游民星空"
-        review-label="评测"
-        news-note="游民星空新闻合并「单机电玩 / NS / 手游 / 网游」四个频道；其中手游频道站点自 2026-07-31 起未再更新，10 天窗口内为 0 条，非抓取问题。"
-      />
+      <div class="source-card">
+        <h3 class="sub-heading">游民星空</h3>
+        <GameNewsPanel
+          :news-data="gamerskyNewsData"
+          :reviews-data="gamerskyReviewsData"
+          :news-error="gamerskyNewsError"
+          :reviews-error="gamerskyReviewsError"
+          source-name="游民星空"
+          review-label="评测"
+          news-note="游民星空新闻合并「单机电玩 / NS / 手游 / 网游」四个频道；其中手游频道站点自 2026-07-31 起未再更新，10 天窗口内为 0 条，非抓取问题。"
+        />
+      </div>
 
-      <h3 class="sub-heading">GameLook</h3>
-      <GameNewsPanel
-        :news-data="gamelookNewsData"
-        :news-error="gamelookNewsError"
-        source-name="GameLook"
-        :show-reviews="false"
-      />
+      <div class="source-card">
+        <h3 class="sub-heading">GameLook</h3>
+        <GameNewsPanel
+          :news-data="gamelookNewsData"
+          :news-error="gamelookNewsError"
+          source-name="GameLook"
+          :show-reviews="false"
+        />
+      </div>
     </section>
 
   </div>
@@ -438,5 +446,20 @@ function onNewsRefreshed(payload) {
   margin: 0 0 12px;
   color: #444;
 }
+
+/* 游戏资讯下各来源单独成卡，用与 .hot-section 同色的细线框出边界，
+   避免四个站的新闻列表在视觉上连成一片 */
+.source-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background: #fff;
+}
+
+.source-card:last-child {
+  margin-bottom: 0;
+}
+
 
 </style>

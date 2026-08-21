@@ -40,9 +40,10 @@
 输出：
   data/youxia_news.json
     {"crawled_at": "...", "window_days": 10, "items": [
-      {title, url, published_at, summary, author, supplemented}, ...
+      {title, url, published_at, summary, author, game_name, supplemented}, ...
     ]}
-    （游侠网新闻列表没有游戏名，故不输出 game_name 字段）
+    （game_name 由标题里的《》/【】提取，判定不出时为空串）
+
   data/youxia_reviews.json
     {"crawled_at": "...", "window_days": 15, "items": [
       {title, url, score, published_at, comment_count, author, summary,
@@ -62,6 +63,7 @@ import requests
 from bs4 import BeautifulSoup
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from game_name import derive_game_name  # noqa: E402
 from utils import DEFAULT_HEADERS  # noqa: E402
 
 logging.basicConfig(
@@ -616,6 +618,17 @@ def strip_internal_fields(items):
     return items
 
 
+def apply_game_names(items):
+    """对合并后的全部条目重算 game_name（只从标题的书名号提取，本站无游戏标签）。
+
+    对「合并后」而不是「本次新抓到」的条目执行：game_name 是标题的纯函数，
+    这样窗口内从旧 JSON 继承下来的老条目也会顺带补上，不需要单独的回填脚本。
+    """
+    for item in items:
+        item["game_name"] = derive_game_name(item.get("title", ""))
+    return items
+
+
 def run_news(window_start):
     try:
         new_items, game_urls, min_game_id, max_game_id = crawl_news(window_start)
@@ -630,6 +643,7 @@ def run_news(window_start):
     )
     supplemented = sum(1 for item in merged if item.get("supplemented"))
     logger.info("新闻合并后 %d 条，其中补充区 %d 条", len(merged), supplemented)
+    apply_game_names(merged)
     write_output(NEWS_OUTPUT_PATH, merged, "新闻", NEWS_WINDOW_DAYS)
     return 0
 

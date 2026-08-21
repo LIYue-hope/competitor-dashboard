@@ -112,20 +112,43 @@ const filteredNews = computed(() => {
   })
 })
 
-// 只在区间收窄到单日时统计当日新闻数最多的 3 个游戏，并列时按 game_name 升序
+// 统计键：忽略空格与冒号差异，让「黑神话：钟馗」「黑神话钟馗」「GTA 6」「GTA6」
+// 这类同名异写落到同一个键上。只用于统计，不改动条目里存的 game_name。
+// 注意不做前缀合并（「黑神话」不并入「黑神话：钟馗」），前缀可能对应别的作品，
+// 归错了统计就失真。
+function statKey(name) {
+  return name.replace(/[\s:：]/g, '').toLowerCase()
+}
+
+// 只在区间收窄到单日时统计当日新闻数最多的 3 个游戏，并列时按展示名升序
 const topGames = computed(() => {
   if (!startDate.value || startDate.value !== endDate.value) return []
-  const counter = new Map()
+  const groups = new Map()
   for (const item of filteredNews.value) {
     const name = item.game_name
     if (!name) continue
-    counter.set(name, (counter.get(name) || 0) + 1)
+    const key = statKey(name)
+    if (!key) continue
+    let group = groups.get(key)
+    if (!group) {
+      group = { count: 0, variants: new Map() }
+      groups.set(key, group)
+    }
+    group.count += 1
+    group.variants.set(name, (group.variants.get(name) || 0) + 1)
   }
-  return [...counter.entries()]
-    .map(([name, count]) => ({ name, count }))
+  return [...groups.values()]
+    .map(({ count, variants }) => ({
+      // 展示组内出现次数最多的完整写法，同样次数时取更长的（信息更全）
+      name: [...variants.entries()].sort(
+        (a, b) => b[1] - a[1] || b[0].length - a[0].length || (a[0] < b[0] ? -1 : 1)
+      )[0][0],
+      count
+    }))
     .sort((a, b) => b.count - a.count || (a.name < b.name ? -1 : 1))
     .slice(0, 3)
 })
+
 
 const newsListRef = ref(null)
 
@@ -429,15 +452,17 @@ const reviewsEmptyText = computed(() => {
   font-size: 13px;
 }
 
-/* 新闻条数多，限高在列表内滚动，避免把整页拉长 */
+/* 新闻条数多，限高在列表内滚动，避免把整页拉长。
+   373px 是刻意压缩的结果（原 560px 的 2/3），配合更紧的 gap / padding-top
+   让四个来源卡片在一屏内的占位更均衡，不是随手写的魔法数字，调整前请确认视觉预期。 */
 .news-list {
   list-style: none;
   margin: 0;
   padding: 0 6px 0 0;
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  max-height: 560px;
+  gap: 6px;
+  max-height: 373px;
   overflow-y: auto;
   /* 到顶/到底后允许滚动链接到整页 */
   overscroll-behavior: auto;
@@ -461,7 +486,7 @@ const reviewsEmptyText = computed(() => {
   flex-direction: column;
   gap: 4px;
   border-top: 1px solid #f0f0f0;
-  padding-top: 10px;
+  padding-top: 6px;
 }
 
 .news-item:first-child {

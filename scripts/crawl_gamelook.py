@@ -32,9 +32,11 @@
 输出：
   data/gamelook_news.json
     {"crawled_at": "...", "window_days": 10, "items": [
-      {title, url, published_at, summary, post_id}, ...
+      {title, url, published_at, summary, game_name, post_id}, ...
     ]}
-    （GameLook 列表接口没有游戏名与作者名，故不输出 game_name / author 字段）
+    （game_name 由标题里的《》/【】提取，判定不出时为空串；
+      列表接口没有作者名，故不输出 author 字段）
+
 """
 import html
 import json
@@ -49,6 +51,7 @@ import requests
 from bs4 import BeautifulSoup
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from game_name import derive_game_name  # noqa: E402
 from utils import DEFAULT_HEADERS  # noqa: E402
 
 logging.basicConfig(
@@ -245,6 +248,17 @@ def write_output(path, items, label, window_days):
     logger.info("写入 %s（%s，%d 条）", path, label, len(items))
 
 
+def apply_game_names(items):
+    """对合并后的全部条目重算 game_name（只从标题的书名号提取，本站无游戏标签）。
+
+    对「合并后」而不是「本次新抓到」的条目执行：game_name 是标题的纯函数，
+    这样窗口内从旧 JSON 继承下来的老条目也会顺带补上，不需要单独的回填脚本。
+    """
+    for item in items:
+        item["game_name"] = derive_game_name(item.get("title", ""))
+    return items
+
+
 def run_news(window_start):
     try:
         new_items, raw_count, _pages = crawl_news(window_start)
@@ -258,6 +272,7 @@ def run_news(window_start):
 
     old_items = load_existing_items(NEWS_OUTPUT_PATH)
     merged = merge_and_filter(old_items, strip_internal_fields(new_items), window_start)
+    apply_game_names(merged)
     logger.info("新闻合并后 %d 条", len(merged))
     write_output(NEWS_OUTPUT_PATH, merged, "新闻", NEWS_WINDOW_DAYS)
     return 0

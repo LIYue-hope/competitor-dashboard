@@ -42,6 +42,7 @@ import requests
 from bs4 import BeautifulSoup
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from game_name import derive_game_name  # noqa: E402
 from utils import DEFAULT_HEADERS  # noqa: E402
 
 logging.basicConfig(
@@ -322,6 +323,20 @@ def write_output(path, items, label, window_days):
     logger.info("写入 %s（%s，%d 条）", path, label, len(items))
 
 
+def apply_game_names(items):
+    """对合并后的全部条目重算 game_name。
+
+    对「合并后」而不是「本次新抓到」的条目执行：game_name 现在是标题的纯函数，
+    这样窗口内从旧 JSON 继承下来的老条目也会顺带补上，不需要单独的回填脚本。
+    列表页 div.bq 抓到的标签作为兜底信号传入（标题无书名号时才会用到）。
+    """
+    for item in items:
+        item["game_name"] = derive_game_name(
+            item.get("title", ""), item.get("game_name", "")
+        )
+    return items
+
+
 def run_news(today, window_start):
     try:
         new_items = crawl_news(window_start)
@@ -335,6 +350,7 @@ def run_news(today, window_start):
 
     old_items = load_existing_items(NEWS_OUTPUT_PATH)
     merged = merge_and_filter(old_items, new_items, window_start)
+    apply_game_names(merged)
     write_output(NEWS_OUTPUT_PATH, merged, "新闻", NEWS_WINDOW_DAYS)
     return 0
 
