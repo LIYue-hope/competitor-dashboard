@@ -1,21 +1,10 @@
 {
-  "crawled_at": "2026-08-21T00:39:41.705585+00:00",
+  "crawled_at": "2026-08-21T09:16:25.799526+00:00",
   "days": [
     {
       "date": "2026-08-21",
       "date_label": "08月21日 今天",
       "games": [
-        {
-          "game_name": "器灵宝塔",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "修仙国风仙侠手游",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/qilingbaota/",
-          "has_afk_grinding_tag": false
-        },
         {
           "game_name": "脆弱的星球",
           "categories": [
@@ -25,6 +14,17 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/cuiruodexingqiu/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "器灵宝塔",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "修仙国风仙侠手游",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/qilingbaota/",
           "has_afk_grinding_tag": false
         },
         {
@@ -92,6 +92,23 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/hhjjc/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "date_label": "08月28日 下周五",
+      "games": [
+        {
+          "game_name": "卧龙三国",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": "放置神魔版",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/wolongsanguo2/",
           "has_afk_grinding_tag": false
         }
       ]
