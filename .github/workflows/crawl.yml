@@ -79,6 +79,30 @@ jobs:
         continue-on-error: true
         run: python scripts/crawl_3dmgame.py
 
+      - name: 运行游侠网新闻/评测采集脚本
+        # 输出 data/youxia_news.json + data/youxia_reviews.json，新闻 10 天、
+        # 评测 15 天滚动窗口（评测产出频率低，窗口更长），脚本内部自行读取旧
+        # 文件合并去重，因此本步骤无需额外处理。
+        id: youxia
+        continue-on-error: true
+        run: python scripts/crawl_youxia.py
+
+      - name: 运行游民星空新闻/评测采集脚本
+        # 输出 data/gamersky_news.json + data/gamersky_reviews.json，新闻 10 天、
+        # 评测 15 天滚动窗口，脚本内部自行读取旧文件合并去重，因此本步骤无需额外处理。
+        id: gamersky
+        continue-on-error: true
+        run: python scripts/crawl_gamersky.py
+
+      - name: 运行 GameLook 新闻采集脚本
+        # 输出 data/gamelook_news.json，10 天滚动窗口；该站只有新闻没有评测，
+        # 所以只产出一个文件，前端对应面板走 news-only 模式。
+        id: gamelook
+        continue-on-error: true
+        run: python scripts/crawl_gamelook.py
+
+
+
       - name: 采集失败提示
         # 单独一步作为"哨兵"：放在采集脚本之后、提交步骤之前，只要前面任一
         # 脚本步骤失败就输出 GitHub Actions 错误注解，方便在 Actions 列表页/
@@ -86,7 +110,7 @@ jobs:
         # 这里不能再用 failure()：采集步骤已声明 continue-on-error: true，
         # 失败后 job 仍处于 success 状态，failure() 永远不成立，必须逐个比对
         # steps.<id>.outcome。该步骤本身只做提示，不改变 job 状态。
-        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure' || steps.jiuyou.outcome == 'failure' || steps.dmgame.outcome == 'failure'
+        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure' || steps.jiuyou.outcome == 'failure' || steps.dmgame.outcome == 'failure' || steps.youxia.outcome == 'failure' || steps.gamersky.outcome == 'failure' || steps.gamelook.outcome == 'failure'
         run: |
           # 把失败的脚本名字逐个打进 ::error:: 注解，直接在列表页区分是哪个源挂了。
           if [ "${{ steps.taptap.outcome }}" = "failure" ]; then
@@ -103,6 +127,15 @@ jobs:
           fi
           if [ "${{ steps.dmgame.outcome }}" = "failure" ]; then
             echo "::error::3DMGame 采集脚本失败（scripts/crawl_3dmgame.py）"
+          fi
+          if [ "${{ steps.youxia.outcome }}" = "failure" ]; then
+            echo "::error::游侠网采集脚本失败（scripts/crawl_youxia.py）"
+          fi
+          if [ "${{ steps.gamersky.outcome }}" = "failure" ]; then
+            echo "::error::游民星空采集脚本失败（scripts/crawl_gamersky.py）"
+          fi
+          if [ "${{ steps.gamelook.outcome }}" = "failure" ]; then
+            echo "::error::GameLook 采集脚本失败（scripts/crawl_gamelook.py）"
           fi
           echo "::error::竞品数据采集部分失败，已成功的数据仍会提交并部署，请检查上方步骤日志"
 
@@ -125,7 +158,7 @@ jobs:
           fi
 
           git add data/*.json
-          git commit -m "chore: 更新竞品监测数据（TapTap / 热门游戏动态 / 好游快爆 / 九游 / 3DMGame）"
+          git commit -m "chore: 更新竞品监测数据（TapTap / 热门游戏动态 / 好游快爆 / 九游 / 3DMGame / 游侠网 / 游民星空 / GameLook）"
 
           for i in 1 2 3; do
             if git push origin ${{ github.ref_name }}; then
@@ -150,7 +183,7 @@ jobs:
         # 又退回到"一个源挂掉、当天全都不更新"的老问题。
         # 这一步的作用是把被 continue-on-error 吞掉的失败重新暴露出来：否则
         # run 会一直显示绿色，某个数据源长期挂掉也无人察觉。
-        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure' || steps.jiuyou.outcome == 'failure' || steps.dmgame.outcome == 'failure'
+        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure' || steps.jiuyou.outcome == 'failure' || steps.dmgame.outcome == 'failure' || steps.youxia.outcome == 'failure' || steps.gamersky.outcome == 'failure' || steps.gamelook.outcome == 'failure'
         run: exit 1
 
   deploy:

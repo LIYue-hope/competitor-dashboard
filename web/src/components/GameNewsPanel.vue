@@ -5,12 +5,14 @@ const props = defineProps({
   newsData: {
     type: Object,
     default: null,
-    // { crawled_at, window_days, items: [ {title, url, game_name, published_at, summary} ] }
+    // { crawled_at, window_days, items: [ {title, url, published_at, summary} ] }
+    // game_name 只有 3DMGame 有，游侠网新闻没有该字段
   },
   reviewsData: {
     type: Object,
     default: null,
     // { crawled_at, window_days, items: [ {title, url, score, published_at, comment_count, author} ] }
+    // 游侠网评测额外带 platforms（字符串数组）与 cover（暂不展示），且 comment_count / score 可能为 null
   },
   newsError: {
     type: String,
@@ -20,9 +22,28 @@ const props = defineProps({
     type: String,
     default: '',
   },
+  // 来源名与评测 Tab 文案由父组件传入：3DMGame 用「测评」，游侠网用「评测」，两边用词按各自习惯保留
+  sourceName: {
+    type: String,
+    default: '',
+  },
+  reviewLabel: {
+    type: String,
+    default: '测评',
+  },
+  // 新闻 Tab 下的补充说明，由父组件按来源传入；不传则不显示（3DMGame 不需要）
+  newsNote: {
+    type: String,
+    default: '',
+  },
+  // 某些来源（如 GameLook）只有新闻没有评测，此时传 false 隐藏评测 tab 与整个评测分支
+  showReviews: {
+    type: Boolean,
+    default: true,
+  },
 })
 
-// 面板内部的「新闻 / 测评」子 Tab，默认新闻
+// 面板内部的「新闻 / 评测」子 Tab，默认新闻
 const activeTab = ref('news')
 
 const newsItems = computed(() => props.newsData?.items || [])
@@ -155,11 +176,23 @@ function scoreClass(score) {
 function scoreText(score) {
   return score ? score : '暂无评分'
 }
+
+// 空态带上窗口天数，避免只显示一片空白让人误以为是加载失败
+const newsEmptyText = computed(() => {
+  const days = props.newsData?.window_days
+  return days ? `近 ${days} 天暂无新闻` : '暂无数据'
+})
+
+const reviewsEmptyText = computed(() => {
+  const days = props.reviewsData?.window_days
+  return days ? `近 ${days} 天暂无${props.reviewLabel}` : '暂无数据'
+})
+
 </script>
 
 <template>
   <div class="news-panel">
-    <nav class="tab-nav">
+    <nav v-if="showReviews" class="tab-nav">
       <button
         :class="['tab-btn', { active: activeTab === 'news' }]"
         @click="activeTab = 'news'"
@@ -167,17 +200,21 @@ function scoreText(score) {
       <button
         :class="['tab-btn', { active: activeTab === 'reviews' }]"
         @click="activeTab = 'reviews'"
-      >测评</button>
+      >{{ reviewLabel }}</button>
+
     </nav>
 
-    <section v-if="activeTab === 'news'" class="tab-section">
+    <section v-if="activeTab === 'news' || !showReviews" class="tab-section">
       <p v-if="newsError" class="error">{{ newsError }}</p>
       <template v-else>
         <div v-if="newsData" class="panel-meta">
           <div class="source-line">
-            3DMGame 新闻：近 {{ newsData.window_days }} 天 · 更新于 {{ formatCrawledAt(newsData.crawled_at) }}
+            {{ sourceName }} 新闻：近 {{ newsData.window_days }} 天 · 更新于 {{ formatCrawledAt(newsData.crawled_at) }}
+
           </div>
         </div>
+
+        <p v-if="newsNote" class="news-note">{{ newsNote }}</p>
 
         <div v-if="dateOptions.length" class="pub-nav">
           <label class="date-field">
@@ -208,7 +245,8 @@ function scoreText(score) {
           >{{ i > 0 ? ' · ' : '' }}{{ g.name }}（{{ g.count }}）</span>
         </p>
 
-        <p v-if="filteredNews.length === 0" class="empty">暂无数据</p>
+        <p v-if="filteredNews.length === 0" class="empty">{{ newsEmptyText }}</p>
+
         <ul v-else ref="newsListRef" class="news-list">
           <li v-for="(item, i) in filteredNews" :key="item.url || i" class="news-item">
             <div class="item-head">
@@ -229,16 +267,18 @@ function scoreText(score) {
       </template>
     </section>
 
-    <section v-else class="tab-section">
+    <section v-if="activeTab === 'reviews' && showReviews" class="tab-section">
       <p v-if="reviewsError" class="error">{{ reviewsError }}</p>
       <template v-else>
         <div v-if="reviewsData" class="panel-meta">
           <div class="source-line">
-            3DMGame 测评：近 {{ reviewsData.window_days }} 天 · 更新于 {{ formatCrawledAt(reviewsData.crawled_at) }}
+            {{ sourceName }} {{ reviewLabel }}：近 {{ reviewsData.window_days }} 天 · 更新于 {{ formatCrawledAt(reviewsData.crawled_at) }}
+
           </div>
         </div>
 
-        <p v-if="reviewItems.length === 0" class="empty">暂无数据</p>
+        <p v-if="reviewItems.length === 0" class="empty">{{ reviewsEmptyText }}</p>
+
         <ul v-else class="review-list">
           <li v-for="(item, i) in reviewItems" :key="item.url || i" class="review-item">
             <span :class="['score-badge', scoreClass(item.score)]">{{ scoreText(item.score) }}</span>
@@ -254,8 +294,14 @@ function scoreText(score) {
               <div class="review-meta">
                 <span>{{ formatPublishedFull(item.published_at) }}</span>
                 <span v-if="item.author" class="review-author">by {{ item.author }}</span>
-                <span>评论 {{ item.comment_count }}</span>
+                <span v-if="item.comment_count !== null && item.comment_count !== undefined">评论 {{ item.comment_count }}</span>
+                <span
+                  v-for="p in (item.platforms || [])"
+                  :key="p"
+                  class="platform-tag"
+                >{{ p }}</span>
               </div>
+
             </div>
           </li>
         </ul>
@@ -299,6 +345,15 @@ function scoreText(score) {
 
 .panel-meta .source-line {
   color: #666;
+}
+
+/* 说明性小字，字号/颜色沿用 .panel-meta 与 .empty 的弱化风格，长文本自动换行不截断 */
+.news-note {
+  margin: 0 0 8px;
+  font-size: 12px;
+  color: #999;
+  line-height: 1.6;
+  word-break: break-word;
 }
 
 .pub-nav {
@@ -531,4 +586,12 @@ a.item-title:hover {
 .review-author {
   color: #666;
 }
+
+.platform-tag {
+  padding: 1px 6px;
+  border-radius: 3px;
+  color: #fff;
+  background: #78909c;
+}
+
 </style>

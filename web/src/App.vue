@@ -8,24 +8,38 @@ import GameNewsPanel from './components/GameNewsPanel.vue'
 import RefreshButton from './components/RefreshButton.vue'
 
 
-// 六个数据源分开加载与展示：
+// 各数据源分开加载与展示：
 // - taptap_upcoming.json：TapTap 新游预约扁平列表
 // - haoyoukuaibao_upcoming.json：好游快爆按日期分组的时间线
 // - 9game_upcoming.json：九游新游开测按日期分组的时间线
 // - hot_games_dynamics.json：热门游戏动态按发行商分组
 // - 3dmgame_news.json / 3dmgame_reviews.json：游戏资讯（3DMGame 新闻 + 测评）
+// - youxia_news.json / youxia_reviews.json：游戏资讯（游侠网 新闻 + 评测）
+// - gamersky_news.json / gamersky_reviews.json：游戏资讯（游民星空 新闻 + 评测）
+// - gamelook_news.json：游戏资讯（GameLook 新闻，该站只有新闻没有评测）
 const taptapGames = ref([])
 const haoyouData = ref(null)
 const jiuyouData = ref(null)
 const hotGamesData = ref(null)
 const dmNewsData = ref(null)
 const dmReviewsData = ref(null)
+const youxiaNewsData = ref(null)
+const youxiaReviewsData = ref(null)
+const gamerskyNewsData = ref(null)
+const gamerskyReviewsData = ref(null)
+const gamelookNewsData = ref(null)
 const taptapError = ref('')
 const haoyouError = ref('')
 const jiuyouError = ref('')
 const hotGamesError = ref('')
 const dmNewsError = ref('')
 const dmReviewsError = ref('')
+const youxiaNewsError = ref('')
+const youxiaReviewsError = ref('')
+const gamerskyNewsError = ref('')
+const gamerskyReviewsError = ref('')
+const gamelookNewsError = ref('')
+
 const loading = ref(true)
 
 // 当前激活 Tab，默认 TapTap
@@ -43,7 +57,19 @@ async function loadJson(name) {
 
 onMounted(async () => {
   // 各数据源独立加载，一个失败不影响其它 Tab / 板块的可用性
-  const [taptapResult, haoyouResult, jiuyouResult, hotGamesResult, dmNewsResult, dmReviewsResult] =
+  const [
+    taptapResult,
+    haoyouResult,
+    jiuyouResult,
+    hotGamesResult,
+    dmNewsResult,
+    dmReviewsResult,
+    youxiaNewsResult,
+    youxiaReviewsResult,
+    gamerskyNewsResult,
+    gamerskyReviewsResult,
+    gamelookNewsResult,
+  ] =
     await Promise.allSettled([
       loadJson('taptap_upcoming.json'),
       loadJson('haoyoukuaibao_upcoming.json'),
@@ -51,7 +77,13 @@ onMounted(async () => {
       loadJson('hot_games_dynamics.json'),
       loadJson('3dmgame_news.json'),
       loadJson('3dmgame_reviews.json'),
+      loadJson('youxia_news.json'),
+      loadJson('youxia_reviews.json'),
+      loadJson('gamersky_news.json'),
+      loadJson('gamersky_reviews.json'),
+      loadJson('gamelook_news.json'),
     ])
+
 
 
   if (taptapResult.status === 'fulfilled') {
@@ -90,6 +122,38 @@ onMounted(async () => {
     dmReviewsError.value = `数据加载失败：${dmReviewsResult.reason.message}`
   }
 
+  if (youxiaNewsResult.status === 'fulfilled') {
+    youxiaNewsData.value = youxiaNewsResult.value
+  } else {
+    youxiaNewsError.value = `数据加载失败：${youxiaNewsResult.reason.message}`
+  }
+
+  if (youxiaReviewsResult.status === 'fulfilled') {
+    youxiaReviewsData.value = youxiaReviewsResult.value
+  } else {
+    youxiaReviewsError.value = `数据加载失败：${youxiaReviewsResult.reason.message}`
+  }
+
+  if (gamerskyNewsResult.status === 'fulfilled') {
+    gamerskyNewsData.value = gamerskyNewsResult.value
+  } else {
+    gamerskyNewsError.value = `数据加载失败：${gamerskyNewsResult.reason.message}`
+  }
+
+  if (gamerskyReviewsResult.status === 'fulfilled') {
+    gamerskyReviewsData.value = gamerskyReviewsResult.value
+  } else {
+    gamerskyReviewsError.value = `数据加载失败：${gamerskyReviewsResult.reason.message}`
+  }
+
+  if (gamelookNewsResult.status === 'fulfilled') {
+    gamelookNewsData.value = gamelookNewsResult.value
+  } else {
+    gamelookNewsError.value = `数据加载失败：${gamelookNewsResult.reason.message}`
+  }
+
+
+
   loading.value = false
 })
 
@@ -122,9 +186,20 @@ function onHotGamesRefreshed(payload) {
 function onNewsRefreshed(payload) {
   dmNewsData.value = payload['3dmgame_news.json']
   dmReviewsData.value = payload['3dmgame_reviews.json']
+  youxiaNewsData.value = payload['youxia_news.json']
+  youxiaReviewsData.value = payload['youxia_reviews.json']
+  gamerskyNewsData.value = payload['gamersky_news.json']
+  gamerskyReviewsData.value = payload['gamersky_reviews.json']
+  gamelookNewsData.value = payload['gamelook_news.json']
   dmNewsError.value = ''
   dmReviewsError.value = ''
+  youxiaNewsError.value = ''
+  youxiaReviewsError.value = ''
+  gamerskyNewsError.value = ''
+  gamerskyReviewsError.value = ''
+  gamelookNewsError.value = ''
 }
+
 
 </script>
 
@@ -207,12 +282,20 @@ function onNewsRefreshed(payload) {
     </section>
 
     <!-- 游戏资讯：与新游监测、热门游戏动态监测同级的独立板块，
-         当前只接入 3DMGame，内部再分新闻 / 测评两个子 Tab -->
+         已接入 3DMGame 与游侠网，每个来源内部再分新闻 / 测评（评测）两个子 Tab -->
     <section v-if="!loading" class="hot-section">
       <h2 class="hot-heading">
         游戏资讯
         <RefreshButton
-          :files="['3dmgame_news.json', '3dmgame_reviews.json']"
+          :files="[
+            '3dmgame_news.json',
+            '3dmgame_reviews.json',
+            'youxia_news.json',
+            'youxia_reviews.json',
+            'gamersky_news.json',
+            'gamersky_reviews.json',
+            'gamelook_news.json',
+          ]"
           storage-key="game-news"
           @refreshed="onNewsRefreshed"
         />
@@ -224,8 +307,41 @@ function onNewsRefreshed(payload) {
         :reviews-data="dmReviewsData"
         :news-error="dmNewsError"
         :reviews-error="dmReviewsError"
+        source-name="3DMGame"
+        review-label="测评"
+      />
+
+      <h3 class="sub-heading">游侠网</h3>
+      <GameNewsPanel
+        :news-data="youxiaNewsData"
+        :reviews-data="youxiaReviewsData"
+        :news-error="youxiaNewsError"
+        :reviews-error="youxiaReviewsError"
+        source-name="游侠网"
+        review-label="评测"
+        news-note="游侠网游戏频道更新滞后约 1 天，当天内容由全站资讯补齐，因此可能夹带少量非游戏资讯——这是为避免漏掉当天新闻的有意取舍，不是采集错误，滞后内容会在次日采集时自动校正。"
+      />
+
+      <h3 class="sub-heading">游民星空</h3>
+      <GameNewsPanel
+        :news-data="gamerskyNewsData"
+        :reviews-data="gamerskyReviewsData"
+        :news-error="gamerskyNewsError"
+        :reviews-error="gamerskyReviewsError"
+        source-name="游民星空"
+        review-label="评测"
+        news-note="游民星空新闻合并「单机电玩 / NS / 手游 / 网游」四个频道；其中手游频道站点自 2026-07-31 起未再更新，10 天窗口内为 0 条，非抓取问题。"
+      />
+
+      <h3 class="sub-heading">GameLook</h3>
+      <GameNewsPanel
+        :news-data="gamelookNewsData"
+        :news-error="gamelookNewsError"
+        source-name="GameLook"
+        :show-reviews="false"
       />
     </section>
+
   </div>
 </template>
 

@@ -9,10 +9,12 @@
 两个列表页均为服务端渲染的静态 HTML，requests 直接抓取即可解析，无需 JS 渲染。
 
 采集窗口与滚动更新逻辑（与本项目其它脚本不同，两个输出文件都不是全量覆盖）：
-  窗口固定为 10 天：[today - 9 days, today]。
+  新闻窗口 10 天、测评窗口 15 天，均为 [today - (N-1) days, today]。
+  测评窗口更长是因为测评产出频率远低于新闻（每天多则数条、常常整周为 0），
+  10 天窗口经常只剩零星几条甚至空列表，拉长到 15 天才够撑起一屏内容。
   1. 读取已有输出文件（若存在）
   2. 本次翻页抓取新数据，直到某一页所有条目 published_at 都早于窗口起始日期
-     （today - 9 天）就停止翻页，避免无限翻旧页
+     就停止翻页，避免无限翻旧页
   3. 新旧数据按 url 去重合并（同一 url 用最新抓到的那条覆盖旧的）
   4. 过滤：只保留 published_at 日期部分 >= 窗口起始日期的条目
   5. 按 published_at 降序排序后写入文件
@@ -25,9 +27,10 @@
       {title, url, game_name, published_at, summary}, ...
     ]}
   data/3dmgame_reviews.json
-    {"crawled_at": "...", "window_days": 10, "items": [
+    {"crawled_at": "...", "window_days": 15, "items": [
       {title, url, score, published_at, comment_count, author}, ...
     ]}
+
 """
 import json
 import logging
@@ -56,8 +59,11 @@ DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data"
 NEWS_OUTPUT_PATH = os.path.join(DATA_DIR, "3dmgame_news.json")
 REVIEWS_OUTPUT_PATH = os.path.join(DATA_DIR, "3dmgame_reviews.json")
 
-# 采集窗口：[today - 9 天, today]，共 10 天
-WINDOW_DAYS = 10
+# 采集窗口：新闻 [today - 9 天, today]，共 10 天
+NEWS_WINDOW_DAYS = 10
+# 测评窗口比新闻长：测评产出频率远低于新闻（常常连续多天为 0），10 天窗口经常
+# 只剩零星几条，拉长到 15 天才够撑起前端一屏内容。
+REVIEWS_WINDOW_DAYS = 15
 
 MAX_PAGES = 60  # 兜底翻页上限，避免站点结构异常导致死循环
 
@@ -299,10 +305,15 @@ def crawl_reviews(window_start):
     return items
 
 
-def write_output(path, items, label):
+def write_output(path, items, label, window_days):
+    """写出单个数据源的结果。
+
+    window_days 必须由调用方按数据源传入（新闻 10、测评 15），不能共用一个
+    全局常量：前端「近 N 天」文案直接读这个字段，写错会显示成错误的天数。
+    """
     output = {
         "crawled_at": datetime.now(timezone.utc).isoformat(),
-        "window_days": WINDOW_DAYS,
+        "window_days": window_days,
         "items": items,
     }
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -324,7 +335,7 @@ def run_news(today, window_start):
 
     old_items = load_existing_items(NEWS_OUTPUT_PATH)
     merged = merge_and_filter(old_items, new_items, window_start)
-    write_output(NEWS_OUTPUT_PATH, merged, "新闻")
+    write_output(NEWS_OUTPUT_PATH, merged, "新闻", NEWS_WINDOW_DAYS)
     return 0
 
 
@@ -341,20 +352,23 @@ def run_reviews(today, window_start):
 
     old_items = load_existing_items(REVIEWS_OUTPUT_PATH)
     merged = merge_and_filter(old_items, new_items, window_start)
-    write_output(REVIEWS_OUTPUT_PATH, merged, "测评")
+    write_output(REVIEWS_OUTPUT_PATH, merged, "测评", REVIEWS_WINDOW_DAYS)
     return 0
 
 
 def main():
     today = date.today()
-    window_start = today - timedelta(days=WINDOW_DAYS - 1)
+    # 新闻与测评窗口长度不同，各自单独算窗口起始日期
+    news_window_start = today - timedelta(days=NEWS_WINDOW_DAYS - 1)
+    reviews_window_start = today - timedelta(days=REVIEWS_WINDOW_DAYS - 1)
     logger.info(
-        "开始抓取 3DMGAME 新闻与测评，窗口 %s ~ %s（%d 天）",
-        window_start.isoformat(), today.isoformat(), WINDOW_DAYS,
+        "开始抓取 3DMGAME 新闻与测评，新闻窗口 %s ~ %s（%d 天），测评窗口 %s ~ %s（%d 天）",
+        news_window_start.isoformat(), today.isoformat(), NEWS_WINDOW_DAYS,
+        reviews_window_start.isoformat(), today.isoformat(), REVIEWS_WINDOW_DAYS,
     )
 
-    news_result = run_news(today, window_start)
-    reviews_result = run_reviews(today, window_start)
+    news_result = run_news(today, news_window_start)
+    reviews_result = run_reviews(today, reviews_window_start)
 
     return 0 if news_result == 0 and reviews_result == 0 else 1
 
