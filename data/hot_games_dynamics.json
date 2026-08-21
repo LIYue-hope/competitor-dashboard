@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-08-21T09:15:35.117700+00:00",
+  "crawled_at": "2026-08-21T15:02:38.553544+00:00",
   "window_days": 7,
   "publishers": [
     {
@@ -165,6 +165,13 @@
           "official_url": "https://pvp.qq.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "8月21日体验服不停机更新公告",
+              "type": "更新公告",
+              "date": "2026-08-21",
+              "summary": "",
+              "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=807513"
+            },
             {
               "title": "8月21日版本更新公告",
               "type": "更新公告",
@@ -579,6 +586,20 @@
           "official_url": "https://n.163.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "2026年8月27日畅玩服服务器合并公告",
+              "type": "公告",
+              "date": "2026-08-21",
+              "summary": "为了改善游戏运营品质，《逆水寒》畅玩服将于2026年8月27日（周四）进行服务器合并，结果如下 附1：本次达到合服要求的服务器，相关调整说明 1. 帮会联赛分组如何计算？",
+              "url": "https://n.163.com/news/update/20260821/29094_1311883.html"
+            },
+            {
+              "title": "黄金畅玩服X9联赛，还有更多...",
+              "type": "新闻",
+              "date": "2026-08-21",
+              "summary": "黄金畅玩服上线以来，凭借全新的装备鉴定模式与独特的生态环境，接连创下多个佳绩。 有同门说：还要再玩十年逆水寒！",
+              "url": "https://n.163.com/news/20260821/26225_1311882.html"
+            },
             {
               "title": "2026年8月20日更新公告",
               "type": "更新公告",
@@ -1224,6 +1245,13 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "【九儿-冷漠罗丽】演绎动画展示",
+              "type": "新闻",
+              "date": "2026-08-21",
+              "summary": "",
+              "url": "https://www.chaoziran.com/news/714"
+            },
+            {
               "title": "双人动作【你是自由的】爆料！",
               "type": "新闻",
               "date": "2026-08-21",
@@ -1342,7 +1370,29 @@
           "publisher_key": "other",
           "official_url": "https://game.bilibili.com/nslg/",
           "source_status": "ok",
-          "updates": [],
+          "updates": [
+            {
+              "title": "S3赛季第42批服务器赛季结算预告",
+              "type": "新闻",
+              "date": "2026-08-21",
+              "summary": "",
+              "url": "https://game.bilibili.com/nslg/?news_detail_id=18272"
+            },
+            {
+              "title": "S2赛季第53批服务器赛季结算预告",
+              "type": "新闻",
+              "date": "2026-08-21",
+              "summary": "",
+              "url": "https://game.bilibili.com/nslg/?news_detail_id=18271"
+            },
+            {
+              "title": "S1赛季第106批服务器赛季结算预告",
+              "type": "新闻",
+              "date": "2026-08-21",
+              "summary": "",
+              "url": "https://game.bilibili.com/nslg/?news_detail_id=18270"
+            }
+          ],
           "has_afk_grinding_tag": false,
           "company": "B站"
         },

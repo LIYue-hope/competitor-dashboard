@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-08-21T09:16:25.799526+00:00",
+  "crawled_at": "2026-08-21T15:03:42.885254+00:00",
   "days": [
     {
       "date": "2026-08-21",
@@ -188,6 +188,23 @@
           "event_desc": "单职业高爆传奇",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/chaojileidianzhanshen/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "date_label": "09月07日",
+      "games": [
+        {
+          "game_name": "寒刃2",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "超变传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/hanren21/",
           "has_afk_grinding_tag": false
         }
       ]
