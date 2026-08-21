@@ -1,59 +1,9 @@
 {
-  "crawled_at": "2026-08-20T11:45:12.123114+00:00",
+  "crawled_at": "2026-08-21T00:39:41.705585+00:00",
   "days": [
     {
-      "date": "2026-08-20",
-      "date_label": "08月20日 今天",
-      "games": [
-        {
-          "game_name": "点点英雄",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": "西游送十万抽",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/diandianyingxiong/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "剑定武林",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/jiandingwulin/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "忍者冒险团",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": "预约送3000抽",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/rzmxt/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "水浒乱斗",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": "7.1",
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/shuihuluandou1/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-08-21",
-      "date_label": "08月21日 明天",
+      "date_label": "08月21日 今天",
       "games": [
         {
           "game_name": "器灵宝塔",
@@ -193,6 +143,51 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/xiuxiuyongzhe/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "date_label": "09月04日",
+      "games": [
+        {
+          "game_name": "名将冲突",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/mingjiangchongtu/",
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "超级雷电战神",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "单职业高爆传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/chaojileidianzhanshen/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "date_label": "09月11日",
+      "games": [
+        {
+          "game_name": "露娜蓝色大陆",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/lnlsdl/",
           "has_afk_grinding_tag": false
         }
       ]
