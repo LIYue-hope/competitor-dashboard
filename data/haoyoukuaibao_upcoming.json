@@ -1,191 +1,9 @@
 {
-  "crawled_at": "2026-08-21T15:03:01.673288+00:00",
+  "crawled_at": "2026-08-22T00:38:34.898004+00:00",
   "days": [
     {
-      "date": "2026-08-21",
-      "date_label": "08月21日 今天",
-      "games": [
-        {
-          "game_name": "诡秘之主(官服)",
-          "categories": [
-            "多平台",
-            "角色扮演",
-            "小说改编"
-          ],
-          "score": "6.3",
-          "event_desc": "已开服上线！下载游玩赢大疆相机",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/150321.htm",
-          "publisher": null,
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "晃晃人生-国服正版手游",
-          "categories": [
-            "编辑推荐",
-            "派对游戏",
-            "开放世界"
-          ],
-          "score": "9.1",
-          "event_desc": "国服首曝预约，26年末开启首测",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/202214.htm",
-          "publisher": "良心工作室",
-          "reservation_count": "31910",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "小鸡与小马：超级派对-超级鸡马",
-          "categories": [
-            "编辑推荐",
-            "派对游戏",
-            "Steam移植"
-          ],
-          "score": "9.4",
-          "event_desc": "官宣将于27年春节正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/134108.htm",
-          "publisher": null,
-          "reservation_count": "66.7万",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "超音速闪击-伊甸之路",
-          "categories": [
-            "Steam移植",
-            "卡牌",
-            "弹幕"
-          ],
-          "score": "9.7",
-          "event_desc": "定档11月正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/151235.htm",
-          "publisher": "良心工作室",
-          "reservation_count": "45977",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "异星探险家-太空沙盒探索",
-          "categories": [
-            "编辑推荐",
-            "Steam移植",
-            "开放世界"
-          ],
-          "score": "9.7",
-          "event_desc": "官宣2027年Q1季度(1~3月)开启首测",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/185570.htm",
-          "publisher": "良心工作室",
-          "reservation_count": "79339",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "高塔旅人-巴别塔圣歌",
-          "categories": [
-            "编辑推荐",
-            "解谜",
-            "买断制"
-          ],
-          "score": "9.6",
-          "event_desc": "定档12月正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/185571.htm",
-          "publisher": "良心工作室",
-          "reservation_count": "28397",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "良心工作室周年直播夜",
-          "categories": [],
-          "score": "9.5",
-          "event_desc": "19:00 开启7周年直播",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/173593.htm",
-          "publisher": "良心工作室",
-          "reservation_count": "31142",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "菜鸡梦想家",
-          "categories": [
-            "编辑器",
-            "模拟",
-            "经营"
-          ],
-          "score": "8.8",
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/156199.htm",
-          "publisher": null,
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "梦幻西游：再续前缘",
-          "categories": [
-            "MMO",
-            "角色扮演",
-            "回合"
-          ],
-          "score": null,
-          "event_desc": "正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/202025.htm",
-          "publisher": "网易游戏",
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "放置地铁大亨",
-          "categories": [
-            "模拟",
-            "养成",
-            "经营"
-          ],
-          "score": null,
-          "event_desc": "10:00 上线试玩",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/201643.htm",
-          "publisher": null,
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "九界降魔",
-          "categories": [
-            "角色扮演",
-            "仙侠",
-            "MMO"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/201107.htm",
-          "publisher": "广州宇游",
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "风云世界",
-          "categories": [
-            "角色扮演",
-            "即时战斗",
-            "怀旧向"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/181177.htm",
-          "publisher": "钜沐游星工作室",
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-08-22",
-      "date_label": "08月22日 明天",
+      "date_label": "08月22日 今天",
       "games": [
         {
           "game_name": "圣垣-预下载",
@@ -198,7 +16,7 @@
           "event_desc": "10:00 正式上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/129095.htm",
-          "publisher": "恒沙世界",
+          "publisher": null,
           "reservation_count": null,
           "has_afk_grinding_tag": false
         }
@@ -206,7 +24,7 @@
     },
     {
       "date": "2026-08-24",
-      "date_label": "08月24日 下周一",
+      "date_label": "08月24日 后天",
       "games": [
         {
           "game_name": "永夜起源",
@@ -256,7 +74,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/197808.htm",
           "publisher": "广州龙霆网络有限公司",
-          "reservation_count": "136",
+          "reservation_count": "140",
           "has_afk_grinding_tag": true
         }
       ]
@@ -277,7 +95,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/156001.htm",
           "publisher": null,
-          "reservation_count": "123万",
+          "reservation_count": "123.1万",
           "has_afk_grinding_tag": false
         },
         {
@@ -292,7 +110,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/182527.htm",
           "publisher": null,
-          "reservation_count": "65.3万",
+          "reservation_count": "65.4万",
           "has_afk_grinding_tag": false
         },
         {
@@ -337,7 +155,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202156.htm",
           "publisher": null,
-          "reservation_count": "26",
+          "reservation_count": "30",
           "has_afk_grinding_tag": false
         }
       ]
@@ -358,7 +176,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/193900.htm",
           "publisher": null,
-          "reservation_count": "1272",
+          "reservation_count": "1282",
           "has_afk_grinding_tag": false
         },
         {
@@ -373,7 +191,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/188848.htm",
           "publisher": "深圳敢玩网络科技有限公司",
-          "reservation_count": "794",
+          "reservation_count": "796",
           "has_afk_grinding_tag": true
         },
         {
@@ -388,7 +206,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/173508.htm",
           "publisher": "多巴安游戏",
-          "reservation_count": "171",
+          "reservation_count": "175",
           "has_afk_grinding_tag": false
         },
         {
@@ -403,7 +221,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202156.htm",
           "publisher": null,
-          "reservation_count": "26",
+          "reservation_count": "30",
           "has_afk_grinding_tag": false
         },
         {
@@ -419,6 +237,57 @@
           "detail_url": "https://www.3839.com/a/201508.htm",
           "publisher": null,
           "reservation_count": "130",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "date_label": "08月28日 下周五",
+      "games": [
+        {
+          "game_name": "前进吧！团子",
+          "categories": [
+            "冒险",
+            "休闲",
+            "闯关"
+          ],
+          "score": null,
+          "event_desc": "20:00 上线试玩",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/201938.htm",
+          "publisher": null,
+          "reservation_count": "58",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "卧龙三国",
+          "categories": [
+            "卡牌",
+            "三国",
+            "中国风"
+          ],
+          "score": null,
+          "event_desc": "08:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/201508.htm",
+          "publisher": null,
+          "reservation_count": "130",
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "乱弹三国志",
+          "categories": [
+            "三国",
+            "卡牌",
+            "中国风"
+          ],
+          "score": null,
+          "event_desc": "12:00 预下载，8月29日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/152646.htm",
+          "publisher": null,
+          "reservation_count": "95",
           "has_afk_grinding_tag": true
         }
       ]
