@@ -41,9 +41,26 @@ const props = defineProps({
     type: Boolean,
     default: true,
   },
+  digestData: {
+    type: Object,
+    default: null,
+    // { generated_at, source, window_days, top_n,
+    //   items: [ {date, article_count, game_count, untagged_count, digest,
+    //             digest_source, top_games: [{name, count}]} ] }
+    // 目前只有 3DMGame 生成（试点），其余来源不传，总结 tab 不出现
+  },
+  digestError: {
+    type: String,
+    default: '',
+  },
+  // 总结 tab 的开关，与 showReviews 同一套逻辑：默认关闭，只有明确接入的来源打开
+  showDigest: {
+    type: Boolean,
+    default: false,
+  },
 })
 
-// 面板内部的「新闻 / 评测」子 Tab，默认新闻
+// 面板内部的「新闻 / 评测 / 总结」子 Tab，默认新闻
 const activeTab = ref('news')
 
 const newsItems = computed(() => props.newsData?.items || [])
@@ -211,23 +228,63 @@ const reviewsEmptyText = computed(() => {
   return days ? `近 ${days} 天暂无${props.reviewLabel}` : '暂无数据'
 })
 
+// ---- 总结 tab ----
+// 总结按天生成，一天一条，脚本已按日期倒序写好，这里不再排序
+const digestItems = computed(() => props.digestData?.items || [])
+
+// 总结用单日选择（和新闻的起止区间是两套独立状态，互不影响）
+const digestDate = ref('')
+
+const digestDates = computed(() => digestItems.value.map((entry) => entry.date))
+
+// 数据刷新后日期可能整体后移，选中项越界就回到最新一天
+watch(
+  digestDates,
+  (dates) => {
+    if (!dates.length) {
+      digestDate.value = ''
+      return
+    }
+    if (!dates.includes(digestDate.value)) digestDate.value = dates[0]
+  },
+  { immediate: true },
+)
+
+const currentDigest = computed(
+  () => digestItems.value.find((entry) => entry.date === digestDate.value) || null,
+)
+
+const digestTopN = computed(() => props.digestData?.top_n || 15)
+
+const digestEmptyText = computed(() => {
+  const days = props.digestData?.window_days
+  return days ? `近 ${days} 天暂无总结` : '暂无数据'
+})
+
+
 </script>
 
 <template>
   <div class="news-panel">
-    <nav v-if="showReviews" class="tab-nav">
+    <nav v-if="showReviews || showDigest" class="tab-nav">
       <button
         :class="['tab-btn', { active: activeTab === 'news' }]"
         @click="activeTab = 'news'"
       >新闻</button>
       <button
+        v-if="showReviews"
         :class="['tab-btn', { active: activeTab === 'reviews' }]"
         @click="activeTab = 'reviews'"
       >{{ reviewLabel }}</button>
+      <button
+        v-if="showDigest"
+        :class="['tab-btn', { active: activeTab === 'digest' }]"
+        @click="activeTab = 'digest'"
+      >总结</button>
 
     </nav>
 
-    <section v-if="activeTab === 'news' || !showReviews" class="tab-section">
+    <section v-if="activeTab === 'news' || (!showReviews && !showDigest)" class="tab-section">
       <p v-if="newsError" class="error">{{ newsError }}</p>
       <template v-else>
         <div v-if="newsData" class="panel-meta">
@@ -328,6 +385,46 @@ const reviewsEmptyText = computed(() => {
             </div>
           </li>
         </ul>
+      </template>
+    </section>
+
+    <section v-if="activeTab === 'digest' && showDigest" class="tab-section">
+      <p v-if="digestError" class="error">{{ digestError }}</p>
+      <template v-else>
+        <div v-if="digestData" class="panel-meta">
+          <div class="source-line">
+            {{ sourceName }} 每日总结：近 {{ digestData.window_days }} 天 · 更新于 {{ formatCrawledAt(digestData.generated_at) }}
+          </div>
+        </div>
+
+        <div v-if="digestDates.length" class="pub-nav">
+          <label class="date-field">
+            日期
+            <select v-model="digestDate" class="date-select">
+              <option v-for="entry in digestItems" :key="entry.date" :value="entry.date">
+                {{ shortDate(entry.date) }}（{{ entry.article_count }}）
+              </option>
+            </select>
+          </label>
+          <span v-if="currentDigest" class="range-count">
+            {{ currentDigest.article_count }} 条 · {{ currentDigest.game_count }} 款游戏
+          </span>
+        </div>
+
+        <p v-if="!currentDigest" class="empty">{{ digestEmptyText }}</p>
+
+        <template v-else>
+          <p class="digest-text">{{ currentDigest.digest }}</p>
+
+          <p class="digest-subhead">当日游戏 Top {{ digestTopN }}</p>
+          <ol v-if="currentDigest.top_games.length" class="digest-top-list">
+            <li v-for="g in currentDigest.top_games" :key="g.name" class="digest-top-item">
+              <span class="digest-game">{{ g.name }}</span>
+              <span class="digest-count">{{ g.count }} 条</span>
+            </li>
+          </ol>
+          <p v-else class="empty">当日没有指向具体游戏的新闻</p>
+        </template>
       </template>
     </section>
   </div>
@@ -617,6 +714,46 @@ a.item-title:hover {
   border-radius: 3px;
   color: #fff;
   background: #78909c;
+}
+
+/* 综述是一整段连续文字，行高比列表项松一档，读起来不费劲 */
+.digest-text {
+  margin: 0 0 16px;
+  font-size: 13px;
+  color: #333;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.digest-subhead {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Top 15 用两列排，避免竖着拉出很长一条 */
+.digest-top-list {
+  margin: 0;
+  padding-left: 22px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 4px 16px;
+}
+
+.digest-top-item {
+  font-size: 13px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.digest-game {
+  margin-right: 6px;
+}
+
+.digest-count {
+  font-size: 12px;
+  color: #999;
 }
 
 </style>

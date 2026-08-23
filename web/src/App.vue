@@ -14,6 +14,8 @@ import RefreshButton from './components/RefreshButton.vue'
 // - 9game_upcoming.json：九游新游开测按日期分组的时间线
 // - hot_games_dynamics.json：热门游戏动态按发行商分组
 // - 3dmgame_news.json / 3dmgame_reviews.json：游戏资讯（3DMGame 新闻 + 测评）
+// - 3dmgame_digest.json：3DMGame 每日新闻总结（试点，仅此来源有）
+
 // - youxia_news.json / youxia_reviews.json：游戏资讯（游侠网 新闻 + 评测）
 // - gamersky_news.json / gamersky_reviews.json：游戏资讯（游民星空 新闻 + 评测）
 // - gamelook_news.json：游戏资讯（GameLook 新闻，该站只有新闻没有评测）
@@ -23,6 +25,7 @@ const jiuyouData = ref(null)
 const hotGamesData = ref(null)
 const dmNewsData = ref(null)
 const dmReviewsData = ref(null)
+const dmDigestData = ref(null)
 const youxiaNewsData = ref(null)
 const youxiaReviewsData = ref(null)
 const gamerskyNewsData = ref(null)
@@ -34,6 +37,7 @@ const jiuyouError = ref('')
 const hotGamesError = ref('')
 const dmNewsError = ref('')
 const dmReviewsError = ref('')
+const dmDigestError = ref('')
 const youxiaNewsError = ref('')
 const youxiaReviewsError = ref('')
 const gamerskyNewsError = ref('')
@@ -64,6 +68,7 @@ onMounted(async () => {
     hotGamesResult,
     dmNewsResult,
     dmReviewsResult,
+    dmDigestResult,
     youxiaNewsResult,
     youxiaReviewsResult,
     gamerskyNewsResult,
@@ -77,6 +82,7 @@ onMounted(async () => {
       loadJson('hot_games_dynamics.json'),
       loadJson('3dmgame_news.json'),
       loadJson('3dmgame_reviews.json'),
+      loadJson('3dmgame_digest.json'),
       loadJson('youxia_news.json'),
       loadJson('youxia_reviews.json'),
       loadJson('gamersky_news.json'),
@@ -121,6 +127,13 @@ onMounted(async () => {
   } else {
     dmReviewsError.value = `数据加载失败：${dmReviewsResult.reason.message}`
   }
+
+  if (dmDigestResult.status === 'fulfilled') {
+    dmDigestData.value = dmDigestResult.value
+  } else {
+    dmDigestError.value = `数据加载失败：${dmDigestResult.reason.message}`
+  }
+
 
   if (youxiaNewsResult.status === 'fulfilled') {
     youxiaNewsData.value = youxiaNewsResult.value
@@ -186,6 +199,7 @@ function onHotGamesRefreshed(payload) {
 function onNewsRefreshed(payload) {
   dmNewsData.value = payload['3dmgame_news.json']
   dmReviewsData.value = payload['3dmgame_reviews.json']
+  dmDigestData.value = payload['3dmgame_digest.json']
   youxiaNewsData.value = payload['youxia_news.json']
   youxiaReviewsData.value = payload['youxia_reviews.json']
   gamerskyNewsData.value = payload['gamersky_news.json']
@@ -193,6 +207,7 @@ function onNewsRefreshed(payload) {
   gamelookNewsData.value = payload['gamelook_news.json']
   dmNewsError.value = ''
   dmReviewsError.value = ''
+  dmDigestError.value = ''
   youxiaNewsError.value = ''
   youxiaReviewsError.value = ''
   gamerskyNewsError.value = ''
@@ -290,6 +305,7 @@ function onNewsRefreshed(payload) {
           :files="[
             '3dmgame_news.json',
             '3dmgame_reviews.json',
+            '3dmgame_digest.json',
             'youxia_news.json',
             'youxia_reviews.json',
             'gamersky_news.json',
@@ -308,6 +324,9 @@ function onNewsRefreshed(payload) {
           :reviews-data="dmReviewsData"
           :news-error="dmNewsError"
           :reviews-error="dmReviewsError"
+          :digest-data="dmDigestData"
+          :digest-error="dmDigestError"
+          :show-digest="true"
           source-name="3DMGame"
           review-label="测评"
         />
