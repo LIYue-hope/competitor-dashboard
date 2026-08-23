@@ -1,30 +1,9 @@
 {
-  "crawled_at": "2026-08-22T00:38:34.898004+00:00",
+  "crawled_at": "2026-08-23T00:40:14.003434+00:00",
   "days": [
     {
-      "date": "2026-08-22",
-      "date_label": "08月22日 今天",
-      "games": [
-        {
-          "game_name": "圣垣-预下载",
-          "categories": [
-            "Roguelike",
-            "角色扮演",
-            "冒险"
-          ],
-          "score": "5.8",
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/129095.htm",
-          "publisher": null,
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-08-24",
-      "date_label": "08月24日 后天",
+      "date_label": "08月24日 明天",
       "games": [
         {
           "game_name": "永夜起源",
@@ -38,14 +17,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202072.htm",
           "publisher": "畅鸣游戏",
-          "reservation_count": "46",
+          "reservation_count": "58",
           "has_afk_grinding_tag": true
         }
       ]
     },
     {
       "date": "2026-08-25",
-      "date_label": "08月25日 下周二",
+      "date_label": "08月25日 后天",
       "games": [
         {
           "game_name": "重制十七岁",
@@ -74,7 +53,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/197808.htm",
           "publisher": "广州龙霆网络有限公司",
-          "reservation_count": "140",
+          "reservation_count": "148",
           "has_afk_grinding_tag": true
         }
       ]
@@ -95,7 +74,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/156001.htm",
           "publisher": null,
-          "reservation_count": "123.1万",
+          "reservation_count": "123.7万",
           "has_afk_grinding_tag": false
         },
         {
@@ -110,7 +89,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/182527.htm",
           "publisher": null,
-          "reservation_count": "65.4万",
+          "reservation_count": "65.5万",
           "has_afk_grinding_tag": false
         },
         {
@@ -155,7 +134,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202156.htm",
           "publisher": null,
-          "reservation_count": "30",
+          "reservation_count": "32",
           "has_afk_grinding_tag": false
         }
       ]
@@ -176,7 +155,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/193900.htm",
           "publisher": null,
-          "reservation_count": "1282",
+          "reservation_count": "1318",
           "has_afk_grinding_tag": false
         },
         {
@@ -206,7 +185,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/173508.htm",
           "publisher": "多巴安游戏",
-          "reservation_count": "175",
+          "reservation_count": "177",
           "has_afk_grinding_tag": false
         },
         {
@@ -221,7 +200,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202156.htm",
           "publisher": null,
-          "reservation_count": "30",
+          "reservation_count": "32",
           "has_afk_grinding_tag": false
         },
         {
@@ -287,7 +266,28 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/152646.htm",
           "publisher": null,
-          "reservation_count": "95",
+          "reservation_count": "97",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "date_label": "08月29日 下周六",
+      "games": [
+        {
+          "game_name": "乱弹三国志",
+          "categories": [
+            "三国",
+            "卡牌",
+            "中国风"
+          ],
+          "score": null,
+          "event_desc": "08:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/152646.htm",
+          "publisher": null,
+          "reservation_count": "97",
           "has_afk_grinding_tag": true
         }
       ]
