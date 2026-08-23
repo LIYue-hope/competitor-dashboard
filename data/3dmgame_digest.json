@@ -1,17 +1,123 @@
 {
-  "generated_at": "2026-08-22T17:26:33.035684+00:00",
+  "generated_at": "2026-08-23T05:39:33.575799+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-08-21",
-      "article_count": 81,
-      "game_count": 60,
-      "untagged_count": 8,
-      "digest": "8月21日 3DMGame 共 81 条新闻，涉及 60 款游戏。报道最集中的是《GTA6》（8 条）、《黄昏血族》（4 条）、《Cardpocalypse》（2 条）。其余进入当日前 15 的还有《时之书：无尽终章》、《生化危机：维罗妮卡》、《007：初露锋芒》、《2XKO》、《33号远征队》、《Barkour》、《DOTA2》、《DayZ》、《Scavland》、《inZOI（云族裔）》、《ʘmʘchim》、《九阴真经：武侠》。另有 8 条未指向具体游戏的行业或平台资讯。",
+      "date": "2026-08-23",
+      "article_count": 10,
+      "game_count": 6,
+      "untagged_count": 3,
+      "digest": "8月23日 3DMGame 共 10 条新闻，涉及 6 款游戏。报道最集中的是《GTA6》（2 条）、《使命召唤：现代战争4》（1 条）、《只狼》（1 条）。其余进入当日前 6 的还有《喵喵的结合》、《宝可梦：风/波》、《战地6》。另有 3 条未指向具体游戏的行业或平台资讯。",
       "digest_source": "rules",
-      "input_hash": "ec015d67227c287d",
+      "input_hash": "814fb5f5db294087",
+      "top_games": [
+        {
+          "name": "GTA6",
+          "count": 2
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 1
+        },
+        {
+          "name": "只狼",
+          "count": 1
+        },
+        {
+          "name": "喵喵的结合",
+          "count": 1
+        },
+        {
+          "name": "宝可梦：风/波",
+          "count": 1
+        },
+        {
+          "name": "战地6",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "article_count": 35,
+      "game_count": 23,
+      "untagged_count": 4,
+      "digest": "8月22日 3DMGame 共 35 条新闻，涉及 23 款游戏。报道最集中的是《GTA6》（9 条）、《C.U.B.E》（1 条）、《Car Park Capital》（1 条）。其余进入当日前 15 的还有《VHOLUME》、《七大罪：起源》、《使命召唤：现代战争4》、《前哨站模拟器》、《勇者斗恶龙怪物仙境4》、《合金装备：大师合集 第二卷》、《合金装备：大师合集Vol.2》、《吸血鬼幸存者》、《夕阳攀岩团》、《战争机器》、《暗黑破坏神4》、《最后的生还者》。另有 4 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "026e62170e4df183",
+      "top_games": [
+        {
+          "name": "GTA6",
+          "count": 9
+        },
+        {
+          "name": "C.U.B.E",
+          "count": 1
+        },
+        {
+          "name": "Car Park Capital",
+          "count": 1
+        },
+        {
+          "name": "VHOLUME",
+          "count": 1
+        },
+        {
+          "name": "七大罪：起源",
+          "count": 1
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 1
+        },
+        {
+          "name": "前哨站模拟器",
+          "count": 1
+        },
+        {
+          "name": "勇者斗恶龙怪物仙境4",
+          "count": 1
+        },
+        {
+          "name": "合金装备：大师合集 第二卷",
+          "count": 1
+        },
+        {
+          "name": "合金装备：大师合集Vol.2",
+          "count": 1
+        },
+        {
+          "name": "吸血鬼幸存者",
+          "count": 1
+        },
+        {
+          "name": "夕阳攀岩团",
+          "count": 1
+        },
+        {
+          "name": "战争机器",
+          "count": 1
+        },
+        {
+          "name": "暗黑破坏神4",
+          "count": 1
+        },
+        {
+          "name": "最后的生还者",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "article_count": 84,
+      "game_count": 63,
+      "untagged_count": 8,
+      "digest": "8月21日 3DMGame 共 84 条新闻，涉及 63 款游戏。报道最集中的是《GTA6》（8 条）、《黄昏血族》（4 条）、《Cardpocalypse》（2 条）。其余进入当日前 15 的还有《时之书：无尽终章》、《生化危机：维罗妮卡》、《007：初露锋芒》、《2XKO》、《33号远征队》、《Barkour》、《DOTA2》、《DayZ》、《Scavland》、《inZOI（云族裔）》、《ʘmʘchim》、《九阴真经：武侠》。另有 8 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "463f34953fb1b683",
       "top_games": [
         {
           "name": "GTA6",
@@ -568,148 +674,6 @@
         },
         {
           "name": "Wild Blue Skies",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "article_count": 82,
-      "game_count": 63,
-      "untagged_count": 9,
-      "digest": "8月13日 3DMGame 共 82 条新闻，涉及 63 款游戏。报道最集中的是《影之刃零》（6 条）、《剑星》（2 条）、《巫师》（2 条）。其余进入当日前 15 的还有《控制：共振》、《红色沙漠》、《羊蹄山之魂：完全版》、《AI2U：与你直到世界尽头》、《Arc Raiders》、《D-Topia》、《EscapetheBabyAlarm》、《Finding Polka》、《GTA6》、《Greedy Greedy Gnomes》、《IGS 经典街机合集》、《Moss: The Forgotten Relic》。另有 9 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
-      "input_hash": "930888496131a933",
-      "top_games": [
-        {
-          "name": "影之刃零",
-          "count": 6
-        },
-        {
-          "name": "剑星",
-          "count": 2
-        },
-        {
-          "name": "巫师",
-          "count": 2
-        },
-        {
-          "name": "控制：共振",
-          "count": 2
-        },
-        {
-          "name": "红色沙漠",
-          "count": 2
-        },
-        {
-          "name": "羊蹄山之魂：完全版",
-          "count": 2
-        },
-        {
-          "name": "AI2U：与你直到世界尽头",
-          "count": 1
-        },
-        {
-          "name": "Arc Raiders",
-          "count": 1
-        },
-        {
-          "name": "D-Topia",
-          "count": 1
-        },
-        {
-          "name": "EscapetheBabyAlarm",
-          "count": 1
-        },
-        {
-          "name": "Finding Polka",
-          "count": 1
-        },
-        {
-          "name": "GTA6",
-          "count": 1
-        },
-        {
-          "name": "Greedy Greedy Gnomes",
-          "count": 1
-        },
-        {
-          "name": "IGS 经典街机合集",
-          "count": 1
-        },
-        {
-          "name": "Moss: The Forgotten Relic",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "date": "2026-08-12",
-      "article_count": 72,
-      "game_count": 50,
-      "untagged_count": 10,
-      "digest": "8月12日 3DMGame 共 72 条新闻，涉及 50 款游戏。报道最集中的是《影之刃零》（10 条）、《GTA6》（2 条）、《上古卷轴6》（2 条）。其余进入当日前 15 的还有《红色沙漠》、《BOMBANANA!》、《PEAK》、《Swords & Slippers》、《WARDOGS》、《三圣石传说》、《使命召唤：现代战争4》、《光之战士》、《光环：战役进化》、《共鸣：瘟疫传说传承》、《刺客信条：黑旗 记忆重置》、《剑星》。另有 10 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
-      "input_hash": "8dd54329e4fe6f7c",
-      "top_games": [
-        {
-          "name": "影之刃零",
-          "count": 10
-        },
-        {
-          "name": "GTA6",
-          "count": 2
-        },
-        {
-          "name": "上古卷轴6",
-          "count": 2
-        },
-        {
-          "name": "红色沙漠",
-          "count": 2
-        },
-        {
-          "name": "BOMBANANA!",
-          "count": 1
-        },
-        {
-          "name": "PEAK",
-          "count": 1
-        },
-        {
-          "name": "Swords & Slippers",
-          "count": 1
-        },
-        {
-          "name": "WARDOGS",
-          "count": 1
-        },
-        {
-          "name": "三圣石传说",
-          "count": 1
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1
-        },
-        {
-          "name": "光之战士",
-          "count": 1
-        },
-        {
-          "name": "光环：战役进化",
-          "count": 1
-        },
-        {
-          "name": "共鸣：瘟疫传说传承",
-          "count": 1
-        },
-        {
-          "name": "刺客信条：黑旗 记忆重置",
-          "count": 1
-        },
-        {
-          "name": "剑星",
           "count": 1
         }
       ]

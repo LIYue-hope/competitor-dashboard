@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-08-23T00:40:48.794080+00:00",
+  "crawled_at": "2026-08-23T05:33:01.441005+00:00",
   "days": [
     {
       "date": "2026-08-25",
@@ -43,6 +43,17 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/hhjjc/",
           "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "战争联盟",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/zhanzhenglianmeng1/",
+          "has_afk_grinding_tag": true
         }
       ]
     },
