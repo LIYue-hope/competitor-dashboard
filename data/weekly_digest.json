@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-24T07:00:10.055724+00:00",
+  "generated_at": "2026-08-24T10:55:03.599988+00:00",
   "week_start": "2026-08-17",
   "week_end": "2026-08-23",
-  "article_count": 1915,
-  "game_count": 231,
-  "digest": "上周游戏行业资讯总量达1915条，涵盖231款游戏，其中《GTA6》以182条资讯领跑热度榜，Take-Two关停黑客网站未果，泄露视频仍不断放出，泄露者获利6万美元并打破落网传闻。国产MMO《诡秘之主》以14条资讯位居次席，官方公布全平台配置需求，最低仅需GTX1060显卡，并确认耗资12亿，自称是“最后一款纯人类开发大作”。《影之刃零》以115条资讯位列第三，Steam预购成绩惊艳，一周入账1450万美元并成功登顶销量榜，2026年发售定档。国产3A《黑神话：钟馗》以94条资讯紧随其后，杨奇发长文回应争议，公布主角脸模及实机演示。此外，《湮灭之潮》因女主建模争议引发讨论，总监确认本作不是魂游；《致命躯壳2》发售前遭偷跑，Steam褒贬不一；《仁王3》DLC上线后好评率仅16%；《漫威金刚狼》确认9月15日发售，巴西预购折扣被砍；《异环》因使用AI及剧情争议引发关注；《无限大》确认亮相2026科隆游戏展。",
+  "article_count": 2014,
+  "game_count": 242,
+  "digest": "上周游戏行业资讯总量达2014条，涉及242款游戏，其中《GTA6》以188条资讯领跑热度榜，Take-Two关停黑客网站未果，泄露视频持续放出且泄露者获利6万美元，前R星开发者称该事件不值一提，第七个泄露视频展示了杰森开超跑抢劫的情节。国产MMO《诡秘之主》紧随其后，成本高达12亿引发热议，官方自称是“最后一款纯人类开发大作”，其配置需求最低仅需GTX1060显卡，全平台防护新范式ACE为22条神之途径保驾护航。动作游戏《影之刃零》表现抢眼，Steam预购入账1450万美元并成功登顶销量榜，CGTN专访了其舞狮Boss战的非遗匠心，2026年发售定档。国产新作《黑神话：钟馗》热度排名第四，FAQ更新了新海报和截图，主角脸模揭晓为游科自家服装模特，杨奇发长文回应了《黑悟空》的争议，实机演示展示了剑术道法与召唤小鬼的战斗。其他游戏动态方面，《湮灭之潮》总监确认本作不是魂游，首批试玩评价获赞；《致命躯壳2》发售前遭偷跑，Steam褒贬不一被批“DEMO诈骗”；《仁王3》DLC“庆安地狱变”上线，国区好评率仅16％；《漫威金刚狼》将于9月15日登陆PS5，因线性设计被批同质化严重；《无限大》确认亮相2026科隆游戏展；《异环》被曝使用AI且流水破20亿。",
   "digest_source": "llm",
   "heat_formula": "热度 = 资讯量 30% + 跨源覆盖 15% + 预约量 18% + 社区（周内新增关注/评价/讨论）15% + TapTap 榜单名次 12% + 官方动态 7% + 评测讨论 3%；各项先对数归一（资讯满格 200 条），缺测的维度计 0、不倒扣，满分 100。",
-  "input_hash": "c6971317c165b9f8",
+  "input_hash": "bc42e2ba69001424",
   "hot_ranking": [
     {
       "rank": 1,
       "name": "诡秘之主",
-      "heat_score": 42.3,
-      "media_count": 14,
+      "heat_score": 42.7,
+      "media_count": 15,
       "source_count": 4,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -66,6 +66,32 @@
     },
     {
       "rank": 3,
+      "name": "GTA6",
+      "heat_score": 40.9,
+      "media_count": 188,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《GTA6》最新泄露实机中葱哥喊话玩家：该反击了！",
+          "url": "https://www.gamersky.com/news/202608/2194570.shtml",
+          "source": "游民星空",
+          "published_at": "2026-08-23"
+        },
+        {
+          "title": "《GTA6》泄露视频现实早有原型！老头往车厢里加油",
+          "url": "https://www.gamersky.com/news/202608/2194566.shtml",
+          "source": "游民星空",
+          "published_at": "2026-08-23"
+        }
+      ]
+    },
+    {
+      "rank": 4,
       "name": "黑神话：钟馗",
       "heat_score": 40.8,
       "media_count": 94,
@@ -91,36 +117,10 @@
       ]
     },
     {
-      "rank": 4,
-      "name": "GTA6",
-      "heat_score": 40.7,
-      "media_count": 182,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《GTA6》最新泄露实机中葱哥喊话玩家：该反击了！",
-          "url": "https://www.gamersky.com/news/202608/2194570.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-23"
-        },
-        {
-          "title": "《GTA6》泄露视频现实早有原型！老头往车厢里加油",
-          "url": "https://www.gamersky.com/news/202608/2194566.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-23"
-        }
-      ]
-    },
-    {
       "rank": 5,
       "name": "湮灭之潮",
-      "heat_score": 35.6,
-      "media_count": 37,
+      "heat_score": 35.9,
+      "media_count": 39,
       "source_count": 4,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -145,8 +145,8 @@
     {
       "rank": 6,
       "name": "致命躯壳2",
-      "heat_score": 31.7,
-      "media_count": 33,
+      "heat_score": 32.1,
+      "media_count": 35,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -161,18 +161,18 @@
           "published_at": "2026-08-21"
         },
         {
-          "title": "《致命躯壳2》今日发售!\"老头环+天际\"黑暗奇幻RPG",
-          "url": "https://www.gamersky.com/news/202608/2192640.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-20"
+          "title": "游侠晚报:《致命躯壳2》硬件实测《GTA6》泄露风波发酵",
+          "url": "https://www.ali213.net/news/html/2026-8/1033315.html",
+          "source": "游侠网",
+          "published_at": "2026-08-21"
         }
       ]
     },
     {
       "rank": 7,
       "name": "仁王3",
-      "heat_score": 31.2,
-      "media_count": 30,
+      "heat_score": 31.4,
+      "media_count": 31,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -196,37 +196,9 @@
     },
     {
       "rank": 8,
-      "name": "无限大",
-      "heat_score": 30.9,
-      "media_count": 3,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": 2,
-      "rank_lists": [
-        "reserve"
-      ],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "网易开放世界大作《无限大》官宣亮相2026科隆游戏展！",
-          "url": "https://www.ali213.net/news/html/2026-8/1032833.html",
-          "source": "游侠网",
-          "published_at": "2026-08-20"
-        },
-        {
-          "title": "网易《无限大》确认亮相2026科隆游戏展开幕夜",
-          "url": "https://www.3dmgame.com/news/202608/3950906.html",
-          "source": "3DMGame",
-          "published_at": "2026-08-19"
-        }
-      ]
-    },
-    {
-      "rank": 9,
       "name": "漫威金刚狼",
-      "heat_score": 30.3,
-      "media_count": 28,
+      "heat_score": 30.7,
+      "media_count": 30,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -245,6 +217,34 @@
           "url": "https://www.gamersky.com/news/202608/2193353.shtml",
           "source": "游民星空",
           "published_at": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "无限大",
+      "heat_score": 30.6,
+      "media_count": 3,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": 3,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "网易开放世界大作《无限大》官宣亮相2026科隆游戏展！",
+          "url": "https://www.ali213.net/news/html/2026-8/1032833.html",
+          "source": "游侠网",
+          "published_at": "2026-08-20"
+        },
+        {
+          "title": "网易《无限大》确认亮相2026科隆游戏展开幕夜",
+          "url": "https://www.3dmgame.com/news/202608/3950906.html",
+          "source": "3DMGame",
+          "published_at": "2026-08-19"
         }
       ]
     },

@@ -1,107 +1,398 @@
 {
-  "generated_at": "2026-08-24T06:58:30.032453+00:00",
+  "generated_at": "2026-08-24T10:53:14.506802+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-08-21",
-      "article_count": 85,
-      "game_count": 47,
-      "untagged_count": 25,
-      "digest": "FromSoftware新作《黄昏之血》开启网络测试，宫崎英高详解玩法；GTA6泄露风波持续，PC版泄露论引关注；《致命躯壳2》发售口碑两极分化；Riot宣布《2XKO》将于年底停止积极开发；多款游戏登陆Switch 2或开启促销。",
+      "date": "2026-08-24",
+      "article_count": 60,
+      "game_count": 36,
+      "untagged_count": 15,
+      "digest": "GTA6泄密风波持续发酵，网飞与R星均受影响，FS社新作Switch 2性能表现引发争议；沉没之城2口碑虽好但销量遇冷；科乐美宣布重启多款经典IP，地铁2039亮相科隆展。",
       "digest_source": "llm",
-      "input_hash": "8173eb99415846fe",
+      "input_hash": "ecc15f57151bd845",
       "game_digests": [
         {
-          "name": "黄昏之血",
-          "count": 7,
-          "summary": "FromSoftware的Switch 2独占新作《黄昏之血》即将开启首次公开网络测试，导演宫崎英高近日受访，详解了战斗、地图、多人模式及开发幕后。",
+          "name": "GTA6",
+          "count": 6,
+          "summary": "网飞对GTA6黑客Cyberleek持续泄露实机视频表示不满，官方辟谣称网络流传的113GB伪造镜像文件暗藏恶意软件，暂无公开PC可玩版本。",
           "summary_source": "llm"
         },
+        {
+          "name": "黄昏之血",
+          "count": 4,
+          "summary": "宫崎英高确认Switch 2的到来将跨越性能鸿沟，但Switch 2版网络测试反馈喜忧参半，部分场景卡顿与输入延迟问题仍待打磨。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "沉没之城2",
+          "count": 2,
+          "summary": "生存恐怖游戏《沉没之城2》正式发售，IGN给出8分好评，Steam特别好评但在线人数止步1906人，高昂定价成为叫好不叫座的主因。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "DRIVE IN THE RAIN",
+          "count": 1,
+          "summary": "恐怖公路冒险游戏《DRIVE IN THE RAIN》Steam商店页面上线，计划于2027年登陆PC平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FAREIDOLIA",
+          "count": 1,
+          "summary": "NEXON代号为“Project RX”的动漫风格游戏正式定名《FAREIDOLIA》，并在东京电玩展开放试玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Song of Kings",
+          "count": 1,
+          "summary": "受斯里兰卡神话启发的叙事驱动型解谜平台游戏《Song of Kings》免费试玩版登陆Steam。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "TORIGAME",
+          "count": 1,
+          "summary": "复古经典动作游戏《TORIGAME》官宣登陆Steam，将于北京时间8月24日23:00正式上线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤4",
+          "count": 1,
+          "summary": "《使命召唤：现代战争4》被曝滥用AI素材，玩家吐槽售价虚高，静待官方回应。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 1,
+          "summary": "《使命召唤：现代战争4》首次测试版在Steam平台表现未达预期，在线人数骤降超50%。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "刺客信条：黑旗RE",
+          "count": 1,
+          "summary": "发售逾月，《刺客信条：黑旗 重置版》热度未消，育碧深挖1724年《海贼史》文献。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星完整版",
+          "count": 1,
+          "summary": "SHIFT UP放出NS2版“无删减动作”PV，确认将于2026年下半年登陆NS2平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "原神",
+          "count": 1,
+          "summary": "日本B-R 31冰淇淋宣布与《原神》推出联动商品。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "合金装备",
+          "count": 1,
+          "summary": "科乐美总裁早川英树宣布《合金装备》《恶魔城》《寂静岭》等经典IP将全面重启，全力开发面向全球市场的全新3A大作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "地铁2039",
+          "count": 1,
+          "summary": "4A Games新作《地铁2039》确认亮相2026科隆游戏展，现场开启试玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "奥日",
+          "count": 1,
+          "summary": "Ori系列总监托马斯·马勒否认《奥日3》正在开发，称纯属无稽之谈。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "article_count": 20,
+      "game_count": 13,
+      "untagged_count": 5,
+      "digest": "今日资讯聚焦于《ARC Raiders》远征模式暂停至2027年、R星高管安抚军心，以及《绝地潜兵2》全平台玩家突破2290万等重磅动态。此外，《匹诺曹的谎言》Switch 2版确认采用完整卡带，微软《奥日》新作传闻更换开发商，以及《潜行者2》紧急修复NPC消失BUG等更新与争议也引发关注。",
+      "digest_source": "llm",
+      "input_hash": "133eb479422c4ffa",
+      "game_digests": [
+        {
+          "name": "ARC Raiders",
+          "count": 2,
+          "summary": "官方宣布远征模式暂停至2027年初，R星高管紧急安抚军心，现有奖励结构与新手门槛将重构，暂停期间玩家增益与未完成进度将得到妥善补偿。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "绝地潜兵2",
+          "count": 2,
+          "summary": "索尼官方公布《绝地潜兵2》全平台累计吸引超过2290万名玩家，覆盖PS5、Xbox和PC，由于游戏在加入PS+前从未进入订阅服务，该数字基本可视为真实销量。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "DOOM",
+          "count": 1,
+          "summary": "开发者将《DOOM》植入AI，实现了在等待AI思考时可以玩游戏的功能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7重生",
+          "count": 1,
+          "summary": "Square Enix开启《最终幻想7重生》萨菲罗斯可动手办预购，售价约1270元人民币，该系列以精细涂装与高可动性著称，还原其“一翼天使”的经典形象。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "匹诺曹的谎言",
+          "count": 1,
+          "summary": "官方确认Switch 2版实体游戏将采用包含完整数据的传统卡带，绝非仅含下载码的“钥匙卡”，该完全版将于10月2日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "大海捞针",
+          "count": 1,
+          "summary": "独立游戏《Needle In a Haystack》上线，玩家需在500万根草里找1根针，短短几天内在社交平台播放量突破2000万次。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "奥日",
+          "count": 1,
+          "summary": "据ResetEra论坛爆料，微软旗下《Ori》系列开发商可能已从Moon Studios更换为Saber Interactive，传闻称Xbox计划在科隆游戏展或年底的Developer_Direct上公布新作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "月光光心慌慌",
+          "count": 1,
+          "summary": "IllFonic开发的非对称恐怖游戏宣布进厂压盘，将于9月8日正式登陆PS5、Xbox Series X/S及PC平台，购买数字豪华版的玩家可提前至9月4日进入游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "潜行者2",
+          "count": 1,
+          "summary": "推送2.0.2版本热修复补丁，主要针对PS5及其他平台修复了特定NPC或尸体离奇消失从而导致玩家无法推进任务的致命BUG。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "羞辱",
+          "count": 1,
+          "summary": "Arkane Studios联合创始人Harvey Smith透露，在《羞辱》诞生前工作室濒临破产，拒绝了外包合同后孤注一掷开发原创IP，最终成就了沉浸式模拟游戏的里程碑。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "轮回之兽",
+          "count": 1,
+          "summary": "数毛社实测发现游戏存在严重的性能缩放问题，且缺少预编译着色器导致频繁卡顿，不过通过调整特定画质选项可获得更流畅的体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "辐射",
+          "count": 1,
+          "summary": "《辐射》系列联合创始人Tim Cain指出发行商往往学不会从失败中吸取教训，虽然“烂游戏”蕴含试错价值，但许多发行商只看重成功而忽视教训。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "雾影猎人",
+          "count": 1,
+          "summary": "官方发布反作弊处罚公告，首次对“恶意组队”行为实施封禁，超八成玩家对此表示支持。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "article_count": 48,
+      "game_count": 28,
+      "untagged_count": 14,
+      "digest": "GTA6再遭黑客泄露引发关注，漫威金刚狼开发完成即将发售，黄昏血族封测服务器因热度过高宕机后修复，COD现代战争4试玩版登顶Steam畅销榜。",
+      "digest_source": "llm",
+      "input_hash": "61da295d83de4e8e",
+      "game_digests": [
         {
           "name": "GTA6",
-          "count": 4,
-          "summary": "《GTA6》泄密账号\"大葱哥\"已沉寂24小时，网传被控制，且泄露内容竟来自PC版本，海外主播花200万购买泄露版计划直播。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "致命躯壳2",
-          "count": 3,
-          "summary": "《致命躯壳2》8月20日全平台发售，媒体赞誉有加（MC均分88），但Steam玩家评价两极分化，后期堆怪与地图引导成为争议漩涡。",
+          "count": 5,
+          "summary": "黑客组织扬言三天内放出可玩版本，R星追查源头宣发计划不变，此次大规模泄露对销量影响极小，仅略微削弱官方展示惊喜感。",
           "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
           "count": 2,
-          "summary": "PS5独占大作《漫威金刚狼》确认将于2026年9月15日正式发售，官方首次公开了金刚狼亚德曼金属爪的独立视觉自定义系统。",
+          "summary": "PS5实体版百亿补贴售价414元，开发工作全部完成正式进厂压盘，发售日期将不再变动。",
           "summary_source": "llm"
+        },
+        {
+          "name": "黄昏血族",
+          "count": 2,
+          "summary": "封测首日服务器因玩家涌入宕机，官方紧急抢修后于次日完成修复并重启测试，任天堂辟谣9月24日发售日期不实。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "COD现代战争4",
+          "count": 1,
+          "summary": "试玩版已正式登陆Steam，抢先体验面向预购玩家开放，公开试玩将于8月29日启动。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仁王3",
+          "count": 1,
+          "summary": "DLC新角色玛丽亚登场，除新关卡敌人剧情外，神秘女性角色成为玩家讨论焦点。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "勇者斗恶龙怪物仙境4",
+          "count": 1,
+          "summary": "SE公布冒险舞台与登场伙伴，确定2026年12月3日全球同步发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "只狗：路边一条",
+          "count": 1,
+          "summary": "凭借流浪持剑狗狗的独特设定火爆海外，获IGN专门报道，不少玩家预约入坑。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "合金装备4",
+          "count": 1,
+          "summary": "M站均分86分零差评，大师合集2将PS3独占神作移植至现代平台，打破Cell架构导致的“不可能移植”魔咒。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "合金装备：大师合集2",
+          "count": 1,
+          "summary": "将于8月27日发售，对经典“换盘笑话”进行了平台化台词调整。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "吸血鬼幸存者",
+          "count": 1,
+          "summary": "新DLC血月遗产将于8月28日上线，带来全新剧情世界观、多名新角色及新武器技能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "喵咪争霸",
+          "count": 1,
+          "summary": "融合挂机养成与卡牌兵线对战，玩法策略丰富且可玩性高，兼顾休闲与硬核玩家体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "喵喵",
+          "count": 1,
+          "summary": "猫咪视角恐怖冒险游戏《Meowmories》现已登陆Steam，玩家将化身迷失于“猫之恶梦”的小猫。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "少女死神养成计划",
+          "count": 1,
+          "summary": "Steam现已解锁，主打黑暗奇幻肉鸽玩法，拥有双武器战斗、自由养成与羁绊剧情。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "沙耶之歌",
+          "count": 1,
+          "summary": "沙耶L size模型再贩预订于8月20日正式启动，国内B站渠道售价359元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "波斯王子：Rogue",
+          "count": 1,
+          "summary": "Steam价格永久下调，标准版售价由118元降至80元。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "article_count": 116,
+      "game_count": 59,
+      "untagged_count": 37,
+      "digest": "8月21日 游侠网 共 116 条新闻，涉及 59 款游戏。报道最集中的是《黄昏之血》（10 条）、《GTA6》（5 条）、《致命躯壳2》（5 条）。另有 37 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "09d6ae1022ea2359",
+      "game_digests": [
+        {
+          "name": "黄昏之血",
+          "count": 10,
+          "summary": "宫崎英高采访畅谈《黄昏之血》战斗/地图/多人模式等；游侠早报：《黄昏之血》媒体评测口碑优秀 Epic喜加一；宫崎英高谈新作《黄昏之血》选择Switch2独占的原因（当天共 10 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA6",
+          "count": 5,
+          "summary": "《GTA6》泄密账号\"大葱哥\"已沉寂24小时 网传被控制；种子网站出现《GTA6》可下载版本？别信那是病毒！；曝《GTA6》泄露内容竟来自PC版本！或已完整可玩（当天共 5 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "致命躯壳2",
+          "count": 5,
+          "summary": "1060只有20帧？《致命躯壳2》硬件实测 老卡集体阵亡；《致命躯壳2》口碑\"撕裂\"!玩家却因迷路和粪怪吵翻了；满屏高分与好评！《致命躯壳2》媒体赞誉宣传片公布（当天共 5 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "星河盗贼",
+          "count": 2,
+          "summary": "《星河盗贼》国区永降至48元：造一把属于你的离谱神枪；真香永降！《星河盗贼》仅48元 亲手打造逆天离谱神枪。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 2,
+          "summary": "狼叔换装自由!《漫威金刚狼》豪华版五套定制战衣公开；《漫威金刚狼》限定PS5配件黄牛爆炒：售价超官方3倍。",
+          "summary_source": "rules"
         },
         {
           "name": "黑神话：钟馗",
           "count": 2,
-          "summary": "《黑神话：钟馗》15分钟实机演示发布即引爆海内外，YouTube热度冲至游戏榜第一，官方及媒体渠道累计播放量已超500万。",
-          "summary_source": "llm"
+          "summary": "游科招聘现端倪？《黑神话：钟馗》可能是开放世界！；油管热度力压群雄！《黑神话:钟馗》登顶游戏热度榜首。",
+          "summary_source": "rules"
         },
         {
           "name": "007：初露锋芒",
           "count": 1,
-          "summary": "《007：初露锋芒》发售不到三个月，全球累计销量已突破400万份，获得Steam“特别好评”（91%好评率）与Metacritic约87分。",
-          "summary_source": "llm"
+          "summary": "三个月卖出400万份！《007:初露锋芒》创下特工新纪录。",
+          "summary_source": "rules"
         },
         {
           "name": "2XKO",
           "count": 1,
-          "summary": "拳头游戏宣布旗下《英雄联盟》衍生格斗游戏《2XKO》将于2026年12月结束积极开发，转入维护模式，成为Riot史上最短命自研游戏。",
-          "summary_source": "llm"
+          "summary": "玩家留存率\"惨淡\"!《2XKO》成Riot史上最短命自研游戏。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "COD23",
+          "count": 1,
+          "summary": "杀疯了！《COD23》空降国区畅销榜首 凌晨开启抢先试玩。",
+          "summary_source": "rules"
         },
         {
           "name": "Cardpocalypse",
           "count": 1,
-          "summary": "Epic游戏商城本周免费游戏现已开放领取，本轮可领取作品为《Cardpocalypse》以及《阿尔比恩Online》史诗法师礼包。",
-          "summary_source": "llm"
+          "summary": "Epic喜加一：卡牌RPG游戏《Cardpocalypse》免费领取！。",
+          "summary_source": "rules"
         },
         {
           "name": "DayZ",
           "count": 1,
-          "summary": "经典末日生存游戏《DayZ》现已正式登陆任天堂Switch 2主机，首发享8.5折优惠。",
-          "summary_source": "llm"
+          "summary": "《DayZ》登陆任天堂Switch 2平台，首发享8.5折优惠。",
+          "summary_source": "rules"
         },
         {
           "name": "DayZ酷炫版",
           "count": 1,
-          "summary": "经典多人生存沙盒游戏《DayZ酷炫版》现已上线Switch2平台，游戏上线开启限时折扣，包含三张特色地图与多人联机玩法。",
-          "summary_source": "llm"
+          "summary": "《DayZ酷炫版》正式登陆Switch2 已开启首周限时折扣。",
+          "summary_source": "rules"
         },
         {
           "name": "GT赛车7",
           "count": 1,
-          "summary": "《GT赛车7》玩家可在PS4与PS5双平台免费领取两款经典车型——隐形版丰田FT-1 Vision GT与马自达787B '91，活动截止到8月31日。",
-          "summary_source": "llm"
+          "summary": "《GT赛车7》免费送两款隐形赛车！看直播即可领取。",
+          "summary_source": "rules"
         },
         {
           "name": "LOL",
           "count": 1,
-          "summary": "游戏开发商Riot Games宣布，旗下以《英雄联盟》宇宙为背景的2v2格斗游戏《2XKO》将于2026年底结束积极开发阶段。",
-          "summary_source": "llm"
+          "summary": "《LOL》格斗游戏《2XKO》宣布将于26年底停止积极开发。",
+          "summary_source": "rules"
         },
         {
           "name": "inZOI（云族裔）",
           "count": 1,
-          "summary": "KRAFTON旗下生活模拟游戏《inZOI（云族裔）》将参加于9月12日至13日在中国上海举行的TapTap玩聚节。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "九阴真经：武侠",
-          "count": 1,
-          "summary": "基于虚幻5引擎打造的开放世界武侠游戏《九阴真经：武侠》将登陆德国科隆国际游戏展，首部实机PV《梦回》同步揭晓。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "人类一败涂地",
-          "count": 1,
-          "summary": "《人类一败涂地》资深主创成立英国新工作室，获鹰角网络投资，正开发融合多元风格的全新AA级物理玩法原创游戏。",
-          "summary_source": "llm"
+          "summary": "《inZOI（云族裔）》确认参展TapTap玩聚节。",
+          "summary_source": "rules"
         }
       ]
     },

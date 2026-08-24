@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T06:59:42.406127+00:00",
+  "generated_at": "2026-08-24T10:54:07.594564+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
@@ -9,27 +9,27 @@
       "article_count": 7,
       "game_count": 3,
       "untagged_count": 4,
-      "digest": "8月24日 GameLook 共 7 条新闻，涉及 3 款游戏。报道最集中的是《2XKO》（1 条）、《渔力全开》（1 条）、《诡秘之主》（1 条）。另有 4 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
+      "digest": "GameLook当日共报道7条新闻，涉及3款游戏，主要聚焦于《2XKO》的停更公告、《渔力全开》的Steam上线以及《诡秘之主》的上线表现。",
+      "digest_source": "llm",
       "input_hash": "91eac7a1a02b9cfe",
       "game_digests": [
         {
           "name": "2XKO",
           "count": 1,
-          "summary": "拳头《2XKO》年底停更但不停运，玩家惋惜热议：“退全款太良心了”！。",
-          "summary_source": "rules"
+          "summary": "拳头游戏宣布《2XKO》将于2026年12月结束持续开发，但游戏服务器将保持运营。",
+          "summary_source": "llm"
         },
         {
           "name": "渔力全开",
           "count": 1,
-          "summary": "“钓鱼佬与疯鱼的搏斗”！2人开发《渔力全开》Steam火了，真够抽象的！。",
-          "summary_source": "rules"
+          "summary": "第一人称多人合作游戏《渔力全开》于8月20日在Steam上线，凭借抽象玩法走红。",
+          "summary_source": "llm"
         },
         {
           "name": "诡秘之主",
           "count": 1,
-          "summary": "首日免费榜第一，快手《诡秘之主》到了不能输的一天！。",
-          "summary_source": "rules"
+          "summary": "快手MMO《诡秘之主》上线后首日登顶免费榜第一。",
+          "summary_source": "llm"
         }
       ]
     },
