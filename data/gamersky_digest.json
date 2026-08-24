@@ -1,0 +1,927 @@
+{
+  "generated_at": "2026-08-23T09:45:15.928223+00:00",
+  "source": "游民星空",
+  "window_days": 10,
+  "top_n": 15,
+  "items": [
+    {
+      "date": "2026-08-23",
+      "article_count": 2,
+      "game_count": 0,
+      "untagged_count": 2,
+      "digest": "8月23日 游民星空 共 2 条新闻，涉及 0 款游戏。另有 2 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "ba345fece7dd6f53",
+      "game_digests": []
+    },
+    {
+      "date": "2026-08-22",
+      "article_count": 103,
+      "game_count": 35,
+      "untagged_count": 29,
+      "digest": "GTA6相关新闻占据当日头条，泄露事件与细节更新引发热议；FS社新作The Duskbloods口碑两极分化，宫崎英高亲自直播回应；黑神话：钟馗实机演示播放量破千万；国产游戏方面，诡秘之主公测火爆，湮灭之潮女主造型引争议，仙剑3语音包上线。",
+      "digest_source": "llm",
+      "input_hash": "b592c625e89496fd",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 23,
+          "summary": "泄露者Cyberleek声称若代币价值达300万美元将公开高跟鞋相关视频，最新泄露视频展示了枪支怼人及NPC反应。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "The Duskbloods",
+          "count": 5,
+          "summary": "FS社新作被批素材复用严重，宫崎英高亲自宣布今晚20:00紧急直播，展示空中三段跳等新机制。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黑神话：钟馗",
+          "count": 5,
+          "summary": "两天B站播放破千万，XBOX官方宣传实机，玩家热议能否加入感情戏，敖厂长惊叹视觉表现。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仁王3",
+          "count": 3,
+          "summary": "首支DLC“庆安地狱变”上线，新增玛丽亚角色及神似“老头环”的盾矛武器。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "湮灭之潮",
+          "count": 3,
+          "summary": "首个剧情预告片定档8月26日科隆展，女主新衣造型引发关注，官方澄清未给女主“整容”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤23：现代战争4",
+          "count": 2,
+          "summary": "NS2版外媒测试分辨率低且战役恐锁30帧，内测码开抢活动正在进行。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "只狗：路边一条",
+          "count": 2,
+          "summary": "制作人透露年底可试玩，急缺投资，虚幻5开发Demo需等待。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "PS专场B站播放破千万，PS官方宣传十周年访谈，中国“刃”能飞。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 2,
+          "summary": "琴格蕾战斗实机疑似泄露，黑人女编剧布里特妮·莫里斯离职引发剧情担忧。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "诡秘之主",
+          "count": 2,
+          "summary": "公测进入第二天，已有近500万名玩家参与，开发成本高达12亿。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "CS2",
+          "count": 1,
+          "summary": "Steam同时在线峰值跌至127.6万人，饰品暴跌让老玩家心凉。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仙剑3",
+          "count": 1,
+          "summary": "百度地图上线龙葵红蓝双声线导航语音包。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "伊芙魔术礼服MOD曝光，玩家可自由选择黑丝肉腿造型。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "动物朋克",
+          "count": 1,
+          "summary": "冯骥亲自打Call，新动向引发“大的要来了”的猜测。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "反恐精英2",
+          "count": 1,
+          "summary": "线上赛事直播事故片段走红，引发大量玩家讨论。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "article_count": 170,
+      "game_count": 55,
+      "untagged_count": 55,
+      "digest": "今日游戏资讯聚焦于《GTA6》黑客泄露获利、宫崎英高新作测试及多款大作发售动态，国产游戏《黑神话：钟馗》与《影之刃零》热度持续攀升。",
+      "digest_source": "llm",
+      "input_hash": "20d4aa8c011f2a81",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 17,
+          "summary": "代号CyberLeek的黑客组织今日发布了第六段实机泄露片段，玩家对游戏质量感到震惊，黑客疑似通过加密货币获利超过5万美元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黑神话：钟馗",
+          "count": 14,
+          "summary": "《黑神话：钟馗》15分钟实机演示持续发酵，引发玩家对游戏类型及前瞻图的讨论，日本游戏大佬CyberConnect2社长松山洋发文高度赞赏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "The Duskbloods",
+          "count": 7,
+          "summary": "宫崎英高新作《The Duskbloods》今日开启Switch 2网络测试，官方回应大量玩家无法登录的问题，并公布了恋爱系统。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 5,
+          "summary": "《影之刃零》Steam平台首日销量约30万份，不到12小时登顶PS中国播放量榜首，战斗实机中的假动作引发玩家热议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 4,
+          "summary": "Insomniac Games宣布《漫威金刚狼》已正式进厂压盘，发售日期不再变动，官方还公布了豪华版独占内容及实体版价格。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化危机9",
+          "count": 4,
+          "summary": "《生化危机9》开启促销，支持超史低6.8折特卖及大额金币抵扣。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黑钟馗",
+          "count": 4,
+          "summary": "《黑钟馗》实机演示中惊现“眼窝生手”Boss，女鬼角色设计引发关注，外网涌现大量科普帖。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "007初露锋芒",
+          "count": 3,
+          "summary": "IGN9分含金量，《007初露锋芒》全球销量破400万份，游戏开启8折特卖。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 3,
+          "summary": "前PS公关负责人Jerome Benzadon宣布加入Shift Up担任全球公关总监，引发社区对DEI履历的讨论。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战神",
+          "count": 3,
+          "summary": "真人剧核心演员奎托斯确认由巴蒂斯塔出演，引发关于其能否撑起内核的讨论。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "共鸣：瘟疫传说传承",
+          "count": 2,
+          "summary": "距离发售仅一周，PC版遭遇严重泄露，主角与玩法大幅改动引发热议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "只狗：路边一条",
+          "count": 2,
+          "summary": "独立游戏《只狗：路边一条》PV首曝，9人团队开发，玩家扮演野狗寻找主人。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "合金装备大师合集Vol.2",
+          "count": 2,
+          "summary": "将于8月27日发售，外媒给出满分评价，M站评分86分。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "瘟疫传说",
+          "count": 2,
+          "summary": "新作PC版已泄露，将于8月28日正式发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "致命躯壳2",
+          "count": 2,
+          "summary": "发售一天后口碑反转，Steam国区评价为褒贬不一。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "article_count": 164,
+      "game_count": 56,
+      "untagged_count": 21,
+      "digest": "今日游戏资讯热度集中在《黑神话：钟馗》实机演示与《GTA6》泄露事件，游民星空共收录164条新闻，涉及56款游戏。",
+      "digest_source": "llm",
+      "input_hash": "276689393125f65f",
+      "game_digests": [
+        {
+          "name": "黑神话：钟馗",
+          "count": 52,
+          "summary": "游戏科学正式公布《黑神话》系列第二部作品《黑神话：钟馗》全新的15分钟实机演示，B站播放量破500万，引发玩家社区广泛关注。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 16,
+          "summary": "受《GTA6》最新一轮实机画面及地图泄露事件影响，R星母公司Take-Two Interactive股价当日下跌2.21%，市值缩水约10亿美元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黑钟馗",
+          "count": 6,
+          "summary": "德国媒体Gamepro称赞《黑神话：钟馗》水面效果以假乱真，外媒Haybowena则表示画面逼真到离谱，优化压力太大。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "The Duskbloods",
+          "count": 4,
+          "summary": "宫崎英高新作《The Duskbloods》发售时间疑似泄露，将于2026年内登陆Switch 2平台，外媒评测称质量超高。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "空之轨迹 the 2nd",
+          "count": 4,
+          "summary": "《空之轨迹 the 2nd》PS5版试玩更新，简中体验版今日开放下载，可游玩约10小时序章至第1章剧情。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仁王3",
+          "count": 3,
+          "summary": "《仁王3》新DLC“庆安地狱变”已于8月19日正式发售，官方今日发布DLC的“盾矛”弹反技巧实机演示。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "牛来",
+          "count": 3,
+          "summary": "国产动画电影《牛来》因画面粗糙而反向走红，敖厂长发布视频探讨其灵感来源，日本游戏制作人小高和刚表示希望引进。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不心动才有鬼",
+          "count": 2,
+          "summary": "真人影游《不心动才有鬼》公开最新幕后花絮，展示演员王星辰与陈漫的吵架对手戏，画面身材抢镜。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "命运石之门：重启",
+          "count": 2,
+          "summary": "经典科幻视觉小说《命运石之门：重启》现已发售，登陆Steam并追加全新世界线，获玩家“多半好评”评价。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 2,
+          "summary": "CDPR将在科隆游戏展开幕之夜活动中首次公开《巫师3：狂猎》全新剧情资料片《旧时曲》的详细内容及前瞻展示。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最后生还者OL",
+          "count": 2,
+          "summary": "彭博社记者Jason Schreier在视频中谈及了顽皮狗开发多年但最终被砍的在线服务型游戏《最后生还者OL》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "湮灭之潮",
+          "count": 2,
+          "summary": "IGN于今日公布了国产奇幻动作冒险游戏《湮灭之潮》的最新实机演示视频，集中展示了一场长达7分钟的硬核BOSS战。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黑神话：悟空",
+          "count": 2,
+          "summary": "《黑神话：悟空》风灵月影下载量近1000万，主角动捕演员支持《黑神话：钟馗》，引发玩家期待。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Cardpocalypse",
+          "count": 1,
+          "summary": "Epic游戏商城已开放领取本周最新免费游戏《Cardpocalypse》，领取时间为8月20日-8月27日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7",
+          "count": 1,
+          "summary": "MOD制作者发布了《最终幻想7：重生》的全新角色MOD，将《第一后裔》中的海上作业工作服移植给蒂法。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "article_count": 151,
+      "game_count": 53,
+      "untagged_count": 38,
+      "digest": "今日游戏资讯热度集中在《GTA6》黑客泄密与《黑神话》临近820节点，索尼新作《影之刃零》联动泡泡玛特引发热议，而《仁王3》DLC上线获好评，《漫威金刚狼》限定主机套装曝光。",
+      "digest_source": "llm",
+      "input_hash": "c6dea1f37cbacd67",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 32,
+          "summary": "黑客CyberLeek高调威胁随时泄密，并爆料游戏内货币可兑换真钱，引发玩家社群热议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 12,
+          "summary": "索尼举办直播活动遭玩家“冲烂”，官方公布新角色“冥使·虚空”，并宣布与泡泡玛特高端模玩联动。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仁王3",
+          "count": 7,
+          "summary": "DLC“庆安地狱变”正式解锁，外媒给出9分超高评价，但游戏突发坏档故障，光荣致歉并紧急修复。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黑神话",
+          "count": 7,
+          "summary": "腾讯宣布将携《黑神话》与《影之刃零》亮相科隆展，玩家期待8月20日有新动态。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 3,
+          "summary": "索尼官方商城上架限定版PS5数字主机套装，黄黑主题极具辨识度，失眠组回应玩家槽点称体验最重要。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "The Duskbloods",
+          "count": 2,
+          "summary": "宫崎英高新作测试预载开启，数据包大小仅3.8GB，登陆Switch 2平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "控制",
+          "count": 2,
+          "summary": "新作《控制：共振》宣布制作完成，但实体版发售日期将受影响而延期。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "湮灭之潮",
+          "count": 2,
+          "summary": "官方盖章游戏不是类魂，开发团队透露作品受《JOJO的奇妙冒险》及《战神》影响。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "火焰纹章：万缕千丝",
+          "count": 2,
+          "summary": "公布新角色“君子兰夫人”，外媒称百万玩家玩不了，实为NS2独占。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "007：初露锋芒",
+          "count": 1,
+          "summary": "NS2版确认在科隆游戏展上首次提供公开试玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "CS2",
+          "count": 1,
+          "summary": "玩家在线数连续5个月下滑，近30个月处于最低水平。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Guardians of the Wild Sky",
+          "count": 1,
+          "summary": "可驯龙驾空艇的生存建造新作确定由P社发行，2027年登陆Steam早测。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仁王",
+          "count": 1,
+          "summary": "系列新作有望推出，制作人谈及《仁王3》后续DLC及系列未来规划。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "动物朋克",
+          "count": 1,
+          "summary": "《暗影火炬城》开发商新作《动物朋克》发布全新海报图。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "古墓丽影：亚特兰蒂斯遗迹",
+          "count": 1,
+          "summary": "重制版引入RPG技能树元素，与原版差异巨大。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "article_count": 140,
+      "game_count": 56,
+      "untagged_count": 26,
+      "digest": "今日资讯聚焦《影之刃零》热度居高不下，云游戏版官宣及PS开屏推荐引发热议；《致命躯壳2》发售获好评并登Steam畅销榜首；多款游戏如《仁王3》DLC、《巫师3》新资料片及《The Duskbloods》测试等均有新动态。",
+      "digest_source": "llm",
+      "input_hash": "6271172fc6924613",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 47,
+          "summary": "官方宣布云游戏版将于10月29日同步上线，并拿下PS商店开屏推荐，待遇仅次于GTA6。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "致命躯壳2",
+          "count": 6,
+          "summary": "游戏正式发售获Steam特别好评，流程翻倍约30小时，目前登顶Steam全球畅销榜第一。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仁王3",
+          "count": 3,
+          "summary": "DLC第一弹“庆安地狱变”将于明日发售，官方同步公开新BOSS实机演示及219元联名手柄预售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 2,
+          "summary": "索尼发布新广告使用预告片片段，引发玩家对画面细节修改的讨论，贴吧热议国服过审前景。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 2,
+          "summary": "官方公布科隆游戏展期间直播马拉松计划，全新资料片“旧时曲”将迎来全球首秀。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战神",
+          "count": 2,
+          "summary": "Prime 1 Studio发布阿特柔斯1/3比例收藏雕像，游戏版奎托斯演员批评真人剧制作惯例。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "湮灭之潮",
+          "count": 2,
+          "summary": "YouTube发布53分钟新实机演示，官方回应脸模争议称会继续优化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 2,
+          "summary": "纽约街头投放裸眼3D广告，引发玩家对PS5独占新动向的关注。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7",
+          "count": 1,
+          "summary": "系列总监滨口直树正式入驻微博，向中国玩家致以问候。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA印度",
+          "count": 1,
+          "summary": "博主发布AI生成短剧视频，巨型蜥蜴与群体舞蹈引发网友围观。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "The Duskbloods",
+          "count": 1,
+          "summary": "Switch 2专属网络测试预载开启，大量角色疑似泄露。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "三国战纪",
+          "count": 1,
+          "summary": "PC版官方致歉，承诺努力更新内容，不谈139元价格。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不心动才有鬼",
+          "count": 1,
+          "summary": "互动影游发布新动态，美女角色自曝对脚超自信。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "井域：喀洛之血",
+          "count": 1,
+          "summary": "正式发售，讲述迷茫杀手少女与未来特工逆转未来的公路冒险。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仙剑四",
+          "count": 1,
+          "summary": "云天河1/4雕像明日开定，售价3380元。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "article_count": 133,
+      "game_count": 58,
+      "untagged_count": 38,
+      "digest": "今日资讯聚焦《影之刃零》与《湮灭之潮》热度，媒体评分解禁与展会预告成为主流，多款大作公布发售日或配置。",
+      "digest_source": "llm",
+      "input_hash": "2aa4831f312c6f0d",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 11,
+          "summary": "制作人回应明星代言争议并提醒明日上午10点观看专场State of Play，Steam愿望单数超《生化危机：代号维罗妮卡重制版》达第8名。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "湮灭之潮",
+          "count": 9,
+          "summary": "将亮相TapTap玩聚节，外网盛赞其非类魂游戏，但女主造型遭部分玩家吐槽疑似遭到和谐。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "致命躯壳2",
+          "count": 6,
+          "summary": "媒体评分解禁，OpenCritic均分86分，IGN8分，M站PS5版均分88分，媒体盛赞其转型成功。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 5,
+          "summary": "PS5新预告惊喜亮相，美国军队推出再入伍假期以便玩家体验游戏，玩家称加载画面早透。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仁王3",
+          "count": 2,
+          "summary": "DLC“庆安地狱变”忍盾矛实机公开，全新情报及截图发布，后天解锁。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战神",
+          "count": 2,
+          "summary": "Neotoys推出非官方奎托斯1/12手办，细节惊艳，网传售价598元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "昭和米国物语",
+          "count": 2,
+          "summary": "时隔近2年发布全新女主实机，玩家称翘臀太吸睛，科隆导览宣传片发布。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 2,
+          "summary": "确认无开放世界，默认60帧光追，Insomniac详解罗根叙事导向设计，9月15日登陆PS5。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "王国之心4",
+          "count": 2,
+          "summary": "发布D23预告片加长版，野村哲也强调2027发售不会跳票。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "艾尔登法环",
+          "count": 2,
+          "summary": "Switch 2版《艾尔登法环 褪色者版》致敬《黑暗之魂2》，TV与掌机模式均流畅运行。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "诡秘之主",
+          "count": 2,
+          "summary": "官方称项目总成本高达12亿元，包含公测推广费用。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鬼武者：剑之道",
+          "count": 2,
+          "summary": "9.4发售，卡普空发布主角宫本武藏预告。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黑神话",
+          "count": 2,
+          "summary": "老外打《黑神话》被大头BOSS硬控两小时，萍萍新作《花满楼》发新片。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黑神话：悟空",
+          "count": 2,
+          "summary": "新史低卖，国区第二畅销付费游戏，取材古迹带动文旅发展。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "COD23现代战争4",
+          "count": 1,
+          "summary": "内测码开抢，数量有限先到先得。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "article_count": 93,
+      "game_count": 37,
+      "untagged_count": 43,
+      "digest": "今日资讯聚焦《影之刃零》实体版预约及PS预热，《GTA6》因IGN独占报道引发讨论，《湮灭之潮》实机演示获关注，《漫威金刚狼》遭网暴争议，多款经典及新作如《生化9》《博德之门3》亦有动态。",
+      "digest_source": "llm",
+      "input_hash": "96082f1898fc4d29",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 6,
+          "summary": "零售商透露该游戏有实体版，非下载码，实体礼盒溢价严重，PS官方预热专场并确认将带来新内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "IGN将其列为“主机限时独占”，引发玩家对PC版何时登陆的讨论，同时有眼疾玩家担忧无法在发售前游玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "湮灭之潮",
+          "count": 3,
+          "summary": "官方公布40分钟最高画质实机演示，展示关羽怒劈日本鬼子，线下试玩活动引发海外玩家对角色设计的关注。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 3,
+          "summary": "官方称故事中X战警不存在，总监解释取消开放世界，但游戏因遭无端嘲讽引发开发者不堪网暴的争议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战神",
+          "count": 2,
+          "summary": "奎托斯配音演员分享观点，认为《战神》成功源于开发商尊重粉丝，周淑怡直播时自曝玩《战神》玩成抖M。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化9",
+          "count": 2,
+          "summary": "法日实体销量超数字版，多国光盘需求强劲，艾达王疑似因官方授权周边泄露而意外曝光。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GT7",
+          "count": 1,
+          "summary": "马自达公布全新Gr.3级别赛车RX-VISION GT3 Evo，确认将于今年晚些时候登陆游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA4",
+          "count": 1,
+          "summary": "IGN重玩18年前的《GTA4》并直呼真香，认为新作《GTA6》应取其经。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴6",
+          "count": 1,
+          "summary": "Xbox女CEO发文称赞该游戏，但8年来仍未公开新情报。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不义联盟3",
+          "count": 1,
+          "summary": "前作《不义联盟2》全球累计销量正式突破900万份。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "人间地狱：越南",
+          "count": 1,
+          "summary": "游戏在Steam初期口碑褒贬不一，服务器频繁爆炸导致玩家难以正常游玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仁王3",
+          "count": 1,
+          "summary": "官方公布DLC“庆安地狱变”新武器实机，展示雷属性弹反效果。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤",
+          "count": 1,
+          "summary": "《光环》系列下一款多人游戏或由《使命召唤》开发商大锤组接棒。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "玩家制作Mod让角色伊芙换上蒂法服装，引发两大人气女角色的梦幻联动讨论。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "博德之门3",
+          "count": 1,
+          "summary": "拉瑞安工作室批准主机版新增18款免费Mod，PS5和Xbox Series X|S玩家可下载。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "article_count": 95,
+      "game_count": 40,
+      "untagged_count": 34,
+      "digest": "当日资讯聚焦国产动作游戏《影之刃零》与《湮灭之潮》，二者因致敬关羽及试玩活动引发热议，同时《漫威金刚狼》因公式化设计遭玩家质疑，多款大作如《GTA6》《王国之心4》亦有新动态。",
+      "digest_source": "llm",
+      "input_hash": "4d2367c40171ef12",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 9,
+          "summary": "预购开启并公布11分钟实机，PS5版性能独特，海外预购表现强劲，粉丝及主播给予高度评价。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "湮灭之潮",
+          "count": 6,
+          "summary": "开启线下试玩活动，女主形象及脸模改动引发玩家讨论，B站UP主发布视频称赞游戏品质。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 5,
+          "summary": "尚未发售便遭玩家锐评，知名爆料人直言对其“0%兴趣”，Boss战设计被指公式化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 2,
+          "summary": "距离发售约三个月，高级版售价100美元，预购强劲，玩家预计短期内不会打折。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "四海兄弟：故乡",
+          "count": 2,
+          "summary": "新DLC今日发售，国区售价43元，此前D加密已被破解。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "王国之心4",
+          "count": 2,
+          "summary": "官宣定档2027年发售，并支持简体中文，为系列首次。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "龙之剑：觉醒",
+          "count": 2,
+          "summary": "主要剧情免费更新，将推出新DLC，并首先移植PS5版。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "4:LOOP",
+          "count": 1,
+          "summary": "索尼发行的新游测试体验被曝“无趣”，被指可能再次失败。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Son of Thanjai",
+          "count": 1,
+          "summary": "公布幕后访谈，展示动捕过程及战斗场面，由印度Ayelet Studio开发。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴5",
+          "count": 1,
+          "summary": "贝塞斯达宣布将推出新版本更新，Mod玩家担忧兼容性问题。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "中国式家长",
+          "count": 1,
+          "summary": "推出大型更新，新增美术生玩法、四季系统及免费试玩版。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "博德之门3",
+          "count": 1,
+          "summary": "玩家发现开场存在针对夺心魔玩家的特殊语音。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "四海兄弟",
+          "count": 1,
+          "summary": "PS5版首发47港币，PS4版可免费升级。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "四海兄弟：缄默法则",
+          "count": 1,
+          "summary": "上线PS5，售价768港币，会员有折扣。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "地平线6",
+          "count": 1,
+          "summary": "PS5版发布时间曝光，前作登陆PS直接卖爆。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "article_count": 157,
+      "game_count": 62,
+      "untagged_count": 57,
+      "digest": "当日资讯聚焦《影之刃零》获官媒报道及Demo传闻，《GTA6》进入发售百日冲刺且预购销量达2500万份，《漫威金刚狼》实机演示引发机制争议。此外，《轮回之兽》因口碑不佳多次道歉，《鬼武者：剑之道》公布新Boss，《命运石之门：重启》获媒体高分。",
+      "digest_source": "llm",
+      "input_hash": "9fae53724710cd3e",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 12,
+          "summary": "CCTV报道甄子丹加盟，Demo页面短暂现身引发猜测，Steam畅销榜一度登顶。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 10,
+          "summary": "实机演示中辅助追踪机制遭玩家质疑，魔形女新造型曝光引发热议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "进入发售百日冲刺，预购总销量达2500万份，Netflix将独家首播60分钟新预告。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鬼武者：剑之道",
+          "count": 4,
+          "summary": "PS5实体版333元，官方公布Boss“酒吞童子”，将于9月4日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "命运石之门：重启",
+          "count": 3,
+          "summary": "M站开分85，外媒盛赞质量超高，将于8月20日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "火焰纹章：万缕千丝",
+          "count": 3,
+          "summary": "公布难度选择系统，Switch 2独占，锁30帧引发讨论。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "轮回之兽",
+          "count": 3,
+          "summary": "因口碑不及预期多次道歉，PS5光盘十天跌至176元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "四海兄弟",
+          "count": 2,
+          "summary": "PS5版通过ESRB评级，支持60FPS，PS4版可免费升级。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "大侠立志传",
+          "count": 2,
+          "summary": "新作删除结缘系统引发玩家强烈争议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战神",
+          "count": 2,
+          "summary": "外媒曝新作重要角色回归，玩家社区热议宙斯与奥丁实力对比。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "火焰纹章",
+          "count": 2,
+          "summary": "新作男主因绝世容颜被NPC夸赞，引发关于男性角色设计的讨论。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "美末",
+          "count": 2,
+          "summary": "奥斯卡影帝曾拒演乔尔一角，引发网友热议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "金刚狼",
+          "count": 2,
+          "summary": "叙事总监介绍游戏结构，技术总监分享战斗与角色体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Pearl in Blue",
+          "count": 1,
+          "summary": "美少女游戏首曝3D模型，预计登陆移动平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "QUIET",
+          "count": 1,
+          "summary": "Steam玩家测试全球参与人数突破15万人。",
+          "summary_source": "llm"
+        }
+      ]
+    }
+  ]
+}

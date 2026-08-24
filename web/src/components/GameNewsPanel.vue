@@ -6,7 +6,7 @@ const props = defineProps({
     type: Object,
     default: null,
     // { crawled_at, window_days, items: [ {title, url, published_at, summary} ] }
-    // game_name 只有 3DMGame 有，游侠网新闻没有该字段
+    // game_name 由采集侧标注，四个资讯源都有该字段（未识别到游戏时为空）
   },
   reviewsData: {
     type: Object,
@@ -46,14 +46,15 @@ const props = defineProps({
     default: null,
     // { generated_at, source, window_days, top_n,
     //   items: [ {date, article_count, game_count, untagged_count, digest,
-    //             digest_source, top_games: [{name, count}]} ] }
-    // 目前只有 3DMGame 生成（试点），其余来源不传，总结 tab 不出现
+    //             digest_source,
+    //             game_digests: [{name, count, summary, summary_source}]} ] }
+    // 四个资讯源都生成，不传则新闻总结 tab 不出现
   },
   digestError: {
     type: String,
     default: '',
   },
-  // 总结 tab 的开关，与 showReviews 同一套逻辑：默认关闭，只有明确接入的来源打开
+  // 新闻总结 tab 的开关，与 showReviews 同一套逻辑：默认关闭，只有明确接入的来源打开
   showDigest: {
     type: Boolean,
     default: false,
@@ -256,6 +257,14 @@ const currentDigest = computed(
 
 const digestTopN = computed(() => props.digestData?.top_n || 15)
 
+// 兼容早期只写了 top_games 的旧数据：那时没有单游戏总结，退化成只显示名字和条数
+const currentGameDigests = computed(() => {
+  const entry = currentDigest.value
+  if (!entry) return []
+  if (entry.game_digests?.length) return entry.game_digests
+  return (entry.top_games || []).map((g) => ({ ...g, summary: '' }))
+})
+
 const digestEmptyText = computed(() => {
   const days = props.digestData?.window_days
   return days ? `近 ${days} 天暂无总结` : '暂无数据'
@@ -272,15 +281,15 @@ const digestEmptyText = computed(() => {
         @click="activeTab = 'news'"
       >新闻</button>
       <button
+        v-if="showDigest"
+        :class="['tab-btn', { active: activeTab === 'digest' }]"
+        @click="activeTab = 'digest'"
+      >新闻总结</button>
+      <button
         v-if="showReviews"
         :class="['tab-btn', { active: activeTab === 'reviews' }]"
         @click="activeTab = 'reviews'"
       >{{ reviewLabel }}</button>
-      <button
-        v-if="showDigest"
-        :class="['tab-btn', { active: activeTab === 'digest' }]"
-        @click="activeTab = 'digest'"
-      >总结</button>
 
     </nav>
 
@@ -393,7 +402,7 @@ const digestEmptyText = computed(() => {
       <template v-else>
         <div v-if="digestData" class="panel-meta">
           <div class="source-line">
-            {{ sourceName }} 每日总结：近 {{ digestData.window_days }} 天 · 更新于 {{ formatCrawledAt(digestData.generated_at) }}
+            {{ sourceName }} 每日新闻总结：近 {{ digestData.window_days }} 天 · 更新于 {{ formatCrawledAt(digestData.generated_at) }}
           </div>
         </div>
 
@@ -416,11 +425,14 @@ const digestEmptyText = computed(() => {
         <template v-else>
           <p class="digest-text">{{ currentDigest.digest }}</p>
 
-          <p class="digest-subhead">当日游戏 Top {{ digestTopN }}</p>
-          <ol v-if="currentDigest.top_games.length" class="digest-top-list">
-            <li v-for="g in currentDigest.top_games" :key="g.name" class="digest-top-item">
-              <span class="digest-game">{{ g.name }}</span>
-              <span class="digest-count">{{ g.count }} 条</span>
+          <p class="digest-subhead">各游戏当日动态（Top {{ digestTopN }}）</p>
+          <ol v-if="currentGameDigests.length" class="digest-game-list">
+            <li v-for="g in currentGameDigests" :key="g.name" class="digest-game-item">
+              <p class="digest-game-head">
+                <span class="digest-game">{{ g.name }}</span>
+                <span class="digest-count">{{ g.count }} 条</span>
+              </p>
+              <p class="digest-game-summary">{{ g.summary }}</p>
             </li>
           </ol>
           <p v-else class="empty">当日没有指向具体游戏的新闻</p>
@@ -732,19 +744,31 @@ a.item-title:hover {
   color: #444;
 }
 
-/* Top 15 用两列排，避免竖着拉出很长一条 */
-.digest-top-list {
+/* 每款游戏一段总结，长度不定，只能单列竖排；靠间距区分条目，不加边框省得太重 */
+.digest-game-list {
   margin: 0;
   padding-left: 22px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 4px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.digest-top-item {
+.digest-game-item {
   font-size: 13px;
   color: #333;
-  line-height: 1.6;
+}
+
+.digest-game-head {
+  margin: 0 0 2px;
+  font-weight: 600;
+}
+
+.digest-game-summary {
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #444;
+  text-align: justify;
 }
 
 .digest-game {
@@ -753,6 +777,7 @@ a.item-title:hover {
 
 .digest-count {
   font-size: 12px;
+  font-weight: 400;
   color: #999;
 }
 

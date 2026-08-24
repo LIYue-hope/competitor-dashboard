@@ -101,9 +101,10 @@ jobs:
         continue-on-error: true
         run: python scripts/crawl_gamelook.py
 
-      - name: 生成 3DMGame 每日新闻总结
-        # 必须排在 3DMGame 采集之后：它读的是刚写好的 data/3dmgame_news.json，
-        # 输出 data/3dmgame_digest.json（同样在 data/ 下，被后面的提交步骤一并带上）。
+      - name: 生成四个资讯源的每日新闻总结
+        # 必须排在四个资讯源采集之后：它读的是刚写好的 data/<key>_news.json
+        # （3dmgame / youxia / gamersky / gamelook），输出 data/<key>_digest.json
+        #（同样在 data/ 下，被后面的提交步骤一并带上）。
         # 上游采集失败时这一步仍会跑，此时读到的是上一次的新闻文件，结果只是不更新，
         # 不会写坏数据（脚本解析出 0 条时拒绝写文件）。
         id: digest
@@ -119,7 +120,29 @@ jobs:
           DIGEST_LLM_FALLBACK_BASE_URL: https://qianfan.baidubce.com/v2
           DIGEST_LLM_FALLBACK_MODEL: ernie-3.5-8k
           DIGEST_LLM_FALLBACK_API_KEY: ${{ secrets.DIGEST_LLM_FALLBACK_API_KEY }}
-        run: python scripts/summarize_3dmgame.py
+        run: python scripts/summarize_news.py
+
+
+      - name: 采集 TapTap 榜单
+        # 读取下载/预约/热玩榜供周报热度使用。榜页常是 SPA，
+        # 0 条时脚本拒绝覆盖旧文件，失败不阻断后续周报生成。
+        id: taptap_rank
+        continue-on-error: true
+        run: python scripts/crawl_taptap_rank.py
+
+      - name: 生成上周游戏总结
+        # 排在四路资讯 digest 与 TapTap 榜单之后：读已有 news/upcoming/dynamics/rank。
+        # 未配 LLM key 时走规则生成；窗口内 0 条资讯时拒绝覆盖旧周报。
+        id: weekly
+        continue-on-error: true
+        env:
+          DIGEST_LLM_BASE_URL: https://open.bigmodel.cn/api/paas/v4
+          DIGEST_LLM_MODEL: glm-4.7-flash
+          DIGEST_LLM_API_KEY: ${{ secrets.DIGEST_LLM_API_KEY }}
+          DIGEST_LLM_FALLBACK_BASE_URL: https://qianfan.baidubce.com/v2
+          DIGEST_LLM_FALLBACK_MODEL: ernie-3.5-8k
+          DIGEST_LLM_FALLBACK_API_KEY: ${{ secrets.DIGEST_LLM_FALLBACK_API_KEY }}
+        run: python scripts/summarize_week.py
 
 
 
@@ -130,7 +153,7 @@ jobs:
         # 这里不能再用 failure()：采集步骤已声明 continue-on-error: true，
         # 失败后 job 仍处于 success 状态，failure() 永远不成立，必须逐个比对
         # steps.<id>.outcome。该步骤本身只做提示，不改变 job 状态。
-        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure' || steps.jiuyou.outcome == 'failure' || steps.dmgame.outcome == 'failure' || steps.youxia.outcome == 'failure' || steps.gamersky.outcome == 'failure' || steps.gamelook.outcome == 'failure' || steps.digest.outcome == 'failure'
+        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure' || steps.jiuyou.outcome == 'failure' || steps.dmgame.outcome == 'failure' || steps.youxia.outcome == 'failure' || steps.gamersky.outcome == 'failure' || steps.gamelook.outcome == 'failure' || steps.digest.outcome == 'failure' || steps.taptap_rank.outcome == 'failure' || steps.weekly.outcome == 'failure'
         run: |
           # 把失败的脚本名字逐个打进 ::error:: 注解，直接在列表页区分是哪个源挂了。
           if [ "${{ steps.taptap.outcome }}" = "failure" ]; then
@@ -158,7 +181,13 @@ jobs:
             echo "::error::GameLook 采集脚本失败（scripts/crawl_gamelook.py）"
           fi
           if [ "${{ steps.digest.outcome }}" = "failure" ]; then
-            echo "::error::3DMGame 每日总结生成失败（scripts/summarize_3dmgame.py）"
+            echo "::error::资讯源每日新闻总结生成失败（scripts/summarize_news.py）"
+          fi
+          if [ "${{ steps.taptap_rank.outcome }}" = "failure" ]; then
+            echo "::error::TapTap 榜单采集脚本失败（scripts/crawl_taptap_rank.py）"
+          fi
+          if [ "${{ steps.weekly.outcome }}" = "failure" ]; then
+            echo "::error::上周游戏总结生成失败（scripts/summarize_week.py）"
           fi
           echo "::error::竞品数据采集部分失败，已成功的数据仍会提交并部署，请检查上方步骤日志"
 
@@ -206,7 +235,7 @@ jobs:
         # 又退回到"一个源挂掉、当天全都不更新"的老问题。
         # 这一步的作用是把被 continue-on-error 吞掉的失败重新暴露出来：否则
         # run 会一直显示绿色，某个数据源长期挂掉也无人察觉。
-        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure' || steps.jiuyou.outcome == 'failure' || steps.dmgame.outcome == 'failure' || steps.youxia.outcome == 'failure' || steps.gamersky.outcome == 'failure' || steps.gamelook.outcome == 'failure' || steps.digest.outcome == 'failure'
+        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure' || steps.jiuyou.outcome == 'failure' || steps.dmgame.outcome == 'failure' || steps.youxia.outcome == 'failure' || steps.gamersky.outcome == 'failure' || steps.gamelook.outcome == 'failure' || steps.digest.outcome == 'failure' || steps.taptap_rank.outcome == 'failure' || steps.weekly.outcome == 'failure'
         run: exit 1
 
   deploy:

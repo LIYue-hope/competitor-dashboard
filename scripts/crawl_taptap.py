@@ -143,6 +143,20 @@ def _parse_game_card(anchor, app_id, upcoming_date):
     }
 
 
+
+def extract_metric(page_text, label):
+    """从详情页纯文本里取「关注/评价/讨论」量级，解析失败返回 None。"""
+    if not page_text or not label:
+        return None
+    match = re.search(
+        r"%s\s*\n?\s*([\d.]+(?:[ \t]*万)?)" % re.escape(label),
+        page_text,
+    )
+    if not match:
+        return None
+    return match.group(1).replace(" ", "").strip()
+
+
 def enrich_with_detail(game):
     """请求详情页，补充发行商、预约量级、游戏简介等字段。"""
     html = fetch_html(game["detail_url"])
@@ -218,6 +232,12 @@ def enrich_with_detail(game):
 
         game["publisher"] = publisher
         game["reservation_count"] = reservation
+        game["follow_count"] = extract_metric(page_text, "关注")
+        game["review_count"] = extract_metric(page_text, "评价")
+        discussion = extract_metric(page_text, "讨论")
+        if discussion is None:
+            discussion = extract_metric(page_text, "帖子")
+        game["discussion_count"] = discussion
         game["is_major_publisher"] = is_major_publisher(publisher)
         game["has_afk_grinding_tag"] = has_afk_grinding_tag(
             intro_text, dev_text, " ".join(game.get("tags", []))
@@ -240,6 +260,9 @@ def build_output(games):
                 "release_date": game.get("release_date"),
                 "categories": game.get("tags", []),
                 "reservation_count": game.get("reservation_count"),
+                "follow_count": game.get("follow_count"),
+                "review_count": game.get("review_count"),
+                "discussion_count": game.get("discussion_count"),
                 "is_major_publisher": bool(game.get("is_major_publisher")),
                 "has_afk_grinding_tag": bool(game.get("has_afk_grinding_tag")),
                 "score": game.get("score"),
