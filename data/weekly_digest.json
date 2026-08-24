@@ -1,48 +1,77 @@
 {
-  "generated_at": "2026-08-24T02:56:39.991744+00:00",
+  "generated_at": "2026-08-24T06:09:47.391990+00:00",
   "week_start": "2026-08-17",
   "week_end": "2026-08-23",
-  "article_count": 1808,
-  "game_count": 181,
-  "digest": "8月17日–8月23日四源共 1808 条新闻，涉及 181 款游戏。报道与热度最集中的是《影之刃零》（113 条）、《黑神话：钟馗》（92 条）、《GTA6》（156 条）。其中：Steam新一周销量榜：《影之刃零》成功登顶！；《黑神话：钟馗》FAQ更新 新海报和截图欣赏；《GTA6》第七个视频泄露 杰森开超跑抢劫。另有 397 条未指向具体游戏的行业资讯。",
+  "article_count": 1914,
+  "game_count": 230,
+  "digest": "8月17日–8月23日四源共 1914 条新闻，涉及 230 款游戏。报道与热度最集中的是《诡秘之主》（14 条）、《影之刃零》（115 条）、《黑神话：钟馗》（94 条）。其中：耗资12亿！纯人类开发国产MMO《诡秘之主》即将公测；Steam新一周销量榜：《影之刃零》成功登顶！；《黑神话：钟馗》FAQ更新 新海报和截图欣赏。另有 429 条未指向具体游戏的行业资讯。",
   "digest_source": "rules",
-  "heat_formula": "热度 = 资讯量 30% + 跳源覆盖 15% + 预约量 18% + 社区（关注/评价/讨论）15% + TapTap 榜单名次 12% + 官方动态 7% + 评测讨论 3%；各项先对数归一（资讯满格 200 条），缺测的维度计 0、不倒扣，满分 100。",
-  "input_hash": "ea04227b856301c9",
+  "heat_formula": "热度 = 资讯量 30% + 跨源覆盖 15% + 预约量 18% + 社区（周内新增关注/评价/讨论）15% + TapTap 榜单名次 12% + 官方动态 7% + 评测讨论 3%；各项先对数归一（资讯满格 200 条），缺测的维度计 0、不倒扣，满分 100。",
+  "input_hash": "2215817dcc9b1e9d",
   "hot_ranking": [
     {
       "rank": 1,
-      "name": "影之刃零",
-      "heat_score": 41.8,
-      "media_count": 113,
+      "name": "诡秘之主",
+      "heat_score": 42.3,
+      "media_count": 14,
       "source_count": 4,
       "reservation_label": null,
-      "follow_label": null,
+      "follow_delta_label": null,
+      "best_rank": 1,
+      "rank_lists": [
+        "hot",
+        "new"
+      ],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "500万人参与！国产12亿新游《诡秘之主》公测火爆 远超官方想象",
+          "url": "https://www.gamersky.com/news/202608/2194222.shtml",
+          "source": "游民星空",
+          "published_at": "2026-08-22"
+        },
+        {
+          "title": "耗资12亿人民币巨制！《诡秘之主》今日上线",
+          "url": "https://www.gamersky.com/news/202608/2194026.shtml",
+          "source": "游民星空",
+          "published_at": "2026-08-21"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "影之刃零",
+      "heat_score": 41.9,
+      "media_count": 115,
+      "source_count": 4,
+      "reservation_label": null,
+      "follow_delta_label": null,
       "best_rank": null,
       "rank_lists": [],
       "official_count": 0,
       "news": [
         {
-          "title": "Steam新一周销量榜：《影之刃零》成功登顶！",
-          "url": "https://www.3dmgame.com/news/202608/3950925.html",
-          "source": "3DMGame",
-          "published_at": "2026-08-19"
+          "title": "《影之刃零》还有66天发售 也就主角剩余生命的时间",
+          "url": "https://www.gamersky.com/news/202608/2194425.shtml",
+          "source": "游民星空",
+          "published_at": "2026-08-23"
         },
         {
-          "title": "《影之刃零》2026发售定档！预购福利、版本区别及网易云游戏一键预约攻略全解析",
-          "url": "https://www.3dmgame.com/news/202608/3950914.html",
+          "title": "Steam新一周销量榜：《影之刃零》成功登顶！",
+          "url": "https://www.3dmgame.com/news/202608/3950925.html",
           "source": "3DMGame",
           "published_at": "2026-08-19"
         }
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "黑神话：钟馗",
-      "heat_score": 40.6,
-      "media_count": 92,
+      "heat_score": 40.8,
+      "media_count": 94,
       "source_count": 4,
       "reservation_label": null,
-      "follow_label": null,
+      "follow_delta_label": null,
       "best_rank": null,
       "rank_lists": [],
       "official_count": 0,
@@ -62,69 +91,39 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "GTA6",
-      "heat_score": 39.9,
-      "media_count": 156,
+      "heat_score": 40.7,
+      "media_count": 182,
       "source_count": 3,
       "reservation_label": null,
-      "follow_label": null,
+      "follow_delta_label": null,
       "best_rank": null,
       "rank_lists": [],
       "official_count": 0,
       "news": [
         {
-          "title": "《GTA6》最新\"高跟鞋\"泄露需付费！进度已超70%",
-          "url": "https://www.gamersky.com/news/202608/2194356.shtml",
+          "title": "《GTA6》最新泄露实机中葱哥喊话玩家：该反击了！",
+          "url": "https://www.gamersky.com/news/202608/2194570.shtml",
           "source": "游民星空",
-          "published_at": "2026-08-22"
+          "published_at": "2026-08-23"
         },
         {
-          "title": "《GTA6》泄露视频不见女主 黑客玩的可能只是Demo",
-          "url": "https://www.gamersky.com/news/202608/2194347.shtml",
+          "title": "《GTA6》泄露视频现实早有原型！老头往车厢里加油",
+          "url": "https://www.gamersky.com/news/202608/2194566.shtml",
           "source": "游民星空",
-          "published_at": "2026-08-22"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "name": "诡秘之主",
-      "heat_score": 39.3,
-      "media_count": 13,
-      "source_count": 4,
-      "reservation_label": null,
-      "follow_label": null,
-      "best_rank": 12,
-      "rank_lists": [
-        "download",
-        "played",
-        "reserve"
-      ],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "500万人参与！国产12亿新游《诡秘之主》公测火爆 远超官方想象",
-          "url": "https://www.gamersky.com/news/202608/2194222.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-22"
-        },
-        {
-          "title": "耗资12亿人民币巨制！《诡秘之主》今日上线",
-          "url": "https://www.gamersky.com/news/202608/2194026.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-21"
+          "published_at": "2026-08-23"
         }
       ]
     },
     {
       "rank": 5,
       "name": "湮灭之潮",
-      "heat_score": 35.3,
-      "media_count": 35,
+      "heat_score": 35.6,
+      "media_count": 37,
       "source_count": 4,
       "reservation_label": null,
-      "follow_label": null,
+      "follow_delta_label": null,
       "best_rank": null,
       "rank_lists": [],
       "official_count": 0,
@@ -150,7 +149,7 @@
       "media_count": 33,
       "source_count": 3,
       "reservation_label": null,
-      "follow_label": null,
+      "follow_delta_label": null,
       "best_rank": null,
       "rank_lists": [],
       "official_count": 0,
@@ -176,7 +175,7 @@
       "media_count": 30,
       "source_count": 3,
       "reservation_label": null,
-      "follow_label": null,
+      "follow_delta_label": null,
       "best_rank": null,
       "rank_lists": [],
       "official_count": 0,
@@ -197,43 +196,69 @@
     },
     {
       "rank": 8,
-      "name": "漫威金刚狼",
-      "heat_score": 30.1,
-      "media_count": 27,
+      "name": "无限大",
+      "heat_score": 30.9,
+      "media_count": 3,
       "source_count": 3,
       "reservation_label": null,
-      "follow_label": null,
-      "best_rank": null,
-      "rank_lists": [],
+      "follow_delta_label": null,
+      "best_rank": 2,
+      "rank_lists": [
+        "reserve"
+      ],
       "official_count": 0,
       "news": [
         {
-          "title": "《漫威金刚狼》琴格蕾战斗实机疑似泄露！炫酷凤凰女",
-          "url": "https://www.gamersky.com/news/202608/2193353.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-22"
+          "title": "网易开放世界大作《无限大》官宣亮相2026科隆游戏展！",
+          "url": "https://www.ali213.net/news/html/2026-8/1032833.html",
+          "source": "游侠网",
+          "published_at": "2026-08-20"
         },
         {
-          "title": "还没发售就跑路了？曝《漫威金刚狼》首席编剧离职！",
-          "url": "https://www.ali213.net/news/html/2026-8/1032069.html",
-          "source": "游侠网",
-          "published_at": "2026-08-18"
+          "title": "网易《无限大》确认亮相2026科隆游戏展开幕夜",
+          "url": "https://www.3dmgame.com/news/202608/3950906.html",
+          "source": "3DMGame",
+          "published_at": "2026-08-19"
         }
       ]
     },
     {
       "rank": 9,
+      "name": "漫威金刚狼",
+      "heat_score": 30.3,
+      "media_count": 28,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《漫威金刚狼》正式送厂压盘 将于9月15日登陆PS5",
+          "url": "https://www.3dmgame.com/news/202608/3951215.html",
+          "source": "3DMGame",
+          "published_at": "2026-08-23"
+        },
+        {
+          "title": "《漫威金刚狼》琴格蕾战斗实机疑似泄露！炫酷凤凰女",
+          "url": "https://www.gamersky.com/news/202608/2193353.shtml",
+          "source": "游民星空",
+          "published_at": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "rank": 10,
       "name": "异环",
-      "heat_score": 29.8,
+      "heat_score": 28.6,
       "media_count": 3,
       "source_count": 2,
       "reservation_label": null,
-      "follow_label": null,
-      "best_rank": 4,
+      "follow_delta_label": null,
+      "best_rank": 9,
       "rank_lists": [
-        "download",
-        "played",
-        "reserve"
+        "hot"
       ],
       "official_count": 3,
       "news": [
@@ -248,32 +273,6 @@
           "url": "https://www.gamersky.com/news/202608/2191124.shtml",
           "source": "游民星空",
           "published_at": "2026-08-18"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "name": "巫师3",
-      "heat_score": 26.6,
-      "media_count": 14,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《巫师3》DLC新图完整版曝光 篝火仪式与船只引猜测",
-          "url": "https://www.gamersky.com/news/202608/2194142.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-21"
-        },
-        {
-          "title": "《巫师3》NPC原本有恐惧反应 但一害怕就把婴儿丢地上",
-          "url": "https://www.3dmgame.com/news/202608/3951057.html",
-          "source": "3DMGame",
-          "published_at": "2026-08-20"
         }
       ]
     }

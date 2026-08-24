@@ -1,7 +1,10 @@
-"""采集 TapTap 下载 / 预约 / 热玩榜，写入 data/taptap_rank.json。
+"""采集 TapTap 热门 / 预约 / 新品榜，写入 data/taptap_rank.json。
 
-榜页经常是前端渲染，HTML 里不一定有完整列表。这里先走 webapiv2，
-解析失败再退回 HTML。任一榜单都解析不到时拒绝覆盖旧文件。
+榜页是前端渲染，HTML 里不一定有完整列表。这里先走 webapiv2，解析失败
+再退回 HTML。任一榜单都解析不到时拒绝覆盖旧文件。
+
+接口只认 type_name=hot/reserve/sell/new（played、download 会 400），
+而且硬限 limit=10，所以名次要靠 from 翻页拼出来。
 """
 import json
 import logging
@@ -30,24 +33,21 @@ X_UA = (
     "&DS=Android&UID=0&OS=Windows&CH=website"
 )
 
-# list_type -> (api type_name 候选, 页面路径候选)
+# list_type -> (接口 type_name, 页面路径候选)
+# 榜单口径以接口返回的 title 为准：hot=热门榜、reserve=预约榜、new=新品榜。
+# 接口没有「热玩榜/下载榜」这两个口径，别再往里塞，会 400 然后静默退化成
+# 三个榜抓到同一份数据。
 LIST_SPECS = {
-    "download": {
-        "type_names": ("hot", "download", "sold"),
-        "paths": ("/top/download", "/top/hot"),
-    },
-    "reserve": {
-        "type_names": ("reserve", "reserved"),
-        "paths": ("/top/reserve", "/top/reserved"),
-    },
-    "played": {
-        "type_names": ("played", "play"),
-        "paths": ("/top/played", "/top/play"),
-    },
+    "hot": {"type_name": "hot", "paths": ("/top/hot",)},
+    "reserve": {"type_name": "reserve", "paths": ("/top/reserve",)},
+    "new": {"type_name": "new", "paths": ("/top/new",)},
 }
 
 APP_HREF_RE = re.compile(r"/app/(\d+)")
 RANK_LIMIT = 50
+API_URL = "https://www.taptap.cn/webapiv2/app-top/v2/hits"
+# 接口不接受更大的 limit（limit=50 直接 400），只能一页 10 条往后翻
+API_PAGE_SIZE = 10
 
 
 def _app_name(node):
@@ -70,14 +70,17 @@ def _walk_apps(payload):
         cur = stack.pop()
         if isinstance(cur, dict):
             name, app_id = _app_name(cur)
-            if name and (app_id not in seen_ids or not app_id):
-                if app_id:
-                    seen_ids.add(app_id)
-                if APP_HREF_RE.search("/app/%s" % app_id) or name:
-                    found.append((name, app_id))
-            stack.extend(cur.values())
+            # 榜单名（热门榜）和页面 <title> 也带 name 但没有 app_id，
+            # 以前会被当成第 1、2 名，把真实名次整体后移两位。没有 app_id
+            # 的节点一律不是游戏，直接丢掉。
+            if name and app_id and app_id not in seen_ids:
+                seen_ids.add(app_id)
+                found.append((name, app_id))
+            # stack 是后进先出，直接 extend 会把列表顺序整体倒过来，
+            # 而榜单顺序就是名次，必须倒着塞才能正着弹出来
+            stack.extend(reversed(list(cur.values())))
         elif isinstance(cur, list):
-            stack.extend(cur)
+            stack.extend(reversed(cur))
     # 上面会把嵌套 app 重复扫出来，按首次出现保序去重
     deduped = []
     seen = set()
@@ -91,35 +94,47 @@ def _walk_apps(payload):
 
 
 def fetch_rank_api(type_name):
-    url = "https://www.taptap.cn/webapiv2/app-top/v2/hits"
-    try:
-        resp = fetch_json(
-            url,
-            headers={"X-UA": X_UA},
-        )
-    except Exception as exc:
-        logger.warning("榜单接口失败 type_name=%s：%s", type_name, exc)
-        return []
-    try:
-        data = resp.json()
-    except ValueError:
-        return []
+    """按 type_name 翻页拉一个榜单，data.list 的顺序就是名次。"""
     rows = []
-    for index, (name, app_id) in enumerate(_walk_apps(data)[:RANK_LIMIT], start=1):
-        if not name:
-            continue
-        rows.append(
-            {
-                "rank": index,
-                "game_name": name,
-                "app_id": app_id or None,
-                "list_type": None,
-                "source_url": (
-                    "https://www.taptap.cn/app/%s" % app_id if app_id else None
-                ),
-            }
+    seen_ids = set()
+    title = ""
+    for offset in range(0, RANK_LIMIT, API_PAGE_SIZE):
+        url = "%s?from=%d&limit=%d&type_name=%s" % (
+            API_URL,
+            offset,
+            API_PAGE_SIZE,
+            type_name,
         )
-    return rows
+        try:
+            resp = fetch_json(url, headers={"X-UA": X_UA})
+            data = resp.json()
+        except Exception as exc:
+            logger.warning("榜单接口失败 type_name=%s from=%d：%s", type_name, offset, exc)
+            break
+        block = data.get("data") or {}
+        title = title or str(block.get("title") or "")
+        page = block.get("list") or []
+        if not page:
+            break
+        for node in page:
+            name, app_id = _app_name(node)
+            if not name or not app_id or app_id in seen_ids:
+                continue
+            seen_ids.add(app_id)
+            rows.append(
+                {
+                    "rank": len(rows) + 1,
+                    "game_name": name,
+                    "app_id": app_id,
+                    "list_type": None,
+                    "source_url": "https://www.taptap.cn/app/%s" % app_id,
+                }
+            )
+            if len(rows) >= RANK_LIMIT:
+                break
+        if len(rows) >= RANK_LIMIT or not block.get("next_page"):
+            break
+    return rows, title
 
 
 def parse_rank_html(html, list_type):
@@ -187,13 +202,19 @@ def parse_rank_html(html, list_type):
 
 
 def crawl_one_list(list_type, spec):
-    for type_name in spec["type_names"]:
-        rows = fetch_rank_api(type_name)
-        if rows:
-            for row in rows:
-                row["list_type"] = list_type
-            logger.info("接口拿到 %s 榜 %d 条（type_name=%s）", list_type, len(rows), type_name)
-            return rows
+    rows, title = fetch_rank_api(spec["type_name"])
+    if rows:
+        for row in rows:
+            row["list_type"] = list_type
+        logger.info(
+            "接口拿到 %s 榜 %d 条（type_name=%s，接口标题=%s，第 1 名=%s）",
+            list_type,
+            len(rows),
+            spec["type_name"],
+            title or "未知",
+            rows[0]["game_name"],
+        )
+        return rows
     for path in spec["paths"]:
         html = fetch_html("https://www.taptap.cn" + path)
         rows = parse_rank_html(html, list_type)

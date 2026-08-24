@@ -52,6 +52,72 @@ class TestHeatFormula(unittest.TestCase):
         self.assertFalse(sw.qualifies(_bucket(articles=[{}, {}], reservation=9999)))
 
 
+class TestCommunityDelta(unittest.TestCase):
+    def test_snapshot_reads_taptap_counts(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with open(os.path.join(tmp, "taptap_upcoming.json"), "w", encoding="utf-8") as fh:
+                json.dump(
+                    [
+                        {
+                            "game_name": GAME_A,
+                            "follow_count": "1.2\u4e07",
+                            "review_count": 300,
+                            "discussion_count": None,
+                        },
+                        {"game_name": "", "follow_count": 999},
+                        {"game_name": GAME_B},
+                    ],
+                    fh,
+                )
+            snapshot = sw.community_snapshot(tmp)
+        self.assertEqual(
+            snapshot, {sw.stat_key(GAME_A): {"follow": 12000, "review": 300}}
+        )
+
+    def test_history_overwrites_same_day_and_skips_empty(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            key = sw.stat_key(GAME_A)
+            sw.update_community_history(tmp, {key: {"follow": 10}}, today=date(2026, 8, 23))
+            sw.update_community_history(tmp, {key: {"follow": 20}}, today=date(2026, 8, 23))
+            self.assertIsNone(sw.update_community_history(tmp, {}, today=date(2026, 8, 24)))
+            payload = sw.load_json(os.path.join(tmp, sw.COMMUNITY_HISTORY_NAME))
+        self.assertEqual(len(payload["snapshots"]), 1)
+        self.assertEqual(payload["snapshots"][0]["date"], "2026-08-23")
+        self.assertEqual(payload["snapshots"][0]["games"][key], {"follow": 20})
+
+    def _history(self, *rows):
+        return {"snapshots": [{"date": day, "games": games} for day, games in rows]}
+
+    def test_delta_needs_pre_window_baseline(self):
+        key = sw.stat_key(GAME_A)
+        history = self._history(
+            ("2026-08-18", {key: {"follow": 100}}),
+            ("2026-08-23", {key: {"follow": 500}}),
+        )
+        self.assertEqual(
+            sw.community_deltas(history, date(2026, 8, 17), date(2026, 8, 23)), {}
+        )
+
+    def test_delta_is_window_increment_clamped_and_intersected(self):
+        key = sw.stat_key(GAME_A)
+        history = self._history(
+            ("2026-08-10", {key: {"follow": 100, "review": 80, "discussion": 5}}),
+            ("2026-08-16", {key: {"follow": 200, "review": 90}}),
+            ("2026-08-20", {key: {"follow": 260, "review": 60, "discussion": 9}}),
+            ("2026-08-23", {key: {"follow": 500, "review": 70}}),
+            ("2026-08-30", {key: {"follow": 900, "review": 999}}),
+        )
+        deltas = sw.community_deltas(history, date(2026, 8, 17), date(2026, 8, 23))
+        # \u57fa\u7ebf\u7528 08-16\uff0c\u7ec8\u503c\u7528 08-23\uff1bdiscussion \u4e24\u8fb9\u4e0d\u5168\u4e0d\u8ba1
+        self.assertEqual(deltas, {key: {"follow": 300, "review": 0}})
+
+    def test_heat_uses_delta_not_stock(self):
+        stock_only = _bucket(articles=[{}], follow=500000)
+        delta_only = _bucket(articles=[{}], community_delta={"follow": 5000})
+        self.assertEqual(sw.heat_breakdown(stock_only)[1]["community"], 0.0)
+        self.assertGreater(sw.heat_breakdown(delta_only)[1]["community"], 0.0)
+
+
 class TestFeaturedAndRules(unittest.TestCase):
     def test_game_news_prefers_event_titles(self):
         bucket = _bucket(

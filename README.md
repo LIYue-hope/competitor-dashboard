@@ -1,39 +1,172 @@
 # 竞品看板
 
-游戏行业竞品资讯监测看板。当前实现范围：**TapTap 新游监测**。
+游戏行业竞品资讯监测看板。GitHub Actions 每天定时跑一批采集脚本，把结果写成 `data/*.json`
+提交回仓库，再构建 Vue3 静态站部署到 GitHub Pages。整个系统没有后端、没有数据库，
+数据文件本身就是"数据库"，页面只读 JSON。
 
-三角洲行动版本公告监测、行业资讯监测暂未实现，属于后续规划。
+- 仓库：`git@github.com:LIYue-hope/competitor-dashboard.git`
+- 部署目标：GitHub Pages，Vite `base` 为 `/competitor-dashboard/`
 
-## 架构
+## 看板包含什么
 
-- `scripts/` — 数据采集层（Python），定时抓取数据源，输出结构化 JSON 到 `data/`
-- `data/` — 采集结果 JSON，供展示层读取
-- `web/` — 展示层（Vue3 + Vite），构建产物用于 GitHub Pages
-- `.github/workflows/` — GitHub Actions 定时任务：跑采集脚本 → 提交数据 → 部署 Pages
+页面顶部常驻「上周游戏总结」（跨源热度榜），下方是三个互斥的板块 Tab：
 
-## 本地运行采集脚本
+- **新游监测** — TapTap / 好游快爆 / 九游 三个二级 Tab，看新游预约与开测排期
+- **热门游戏动态监测** — 按发行商分组（腾讯 / 网易 / 米哈游 / 鹰角、库洛、叠纸 / 其他），
+  看各游戏官方近 7 天的版本前瞻、更新公告、新活动、赛事等动态
+- **游戏资讯** — 3DMGame / 游侠网 / 游民星空 / GameLook 四个来源，每个来源内部再分
+  「新闻 / 新闻总结 / 评测（测评）」子 Tab；GameLook 站点没有评测，只有前两个
 
-```bash
-cd scripts
-pip install -r requirements.txt
-python crawl_taptap.py
+## 目录结构
+
+```
+scripts/                 数据采集层（Python，仅 requests + beautifulsoup4）
+  crawl_*.py             一个数据源一个脚本，互相独立
+  summarize_news.py      四个资讯源的每日新闻总结
+  summarize_week.py      上周跨源热度榜 + 周报综述
+  utils.py               HTTP 封装（重试）、大厂关键词、挂机/搬砖关键词
+  game_name.py           从新闻标题提取游戏名（纯函数，四个资讯爬虫共用）
+  heat_utils.py          热度计算纯函数（量级解析、对数归一、上周日期窗口）
+  test_*.py              标准库 unittest 单测，不走网络
+data/                    采集产物 JSON，展示层直接读取
+web/                     展示层（Vue 3.4 + Vite 5）
+.github/workflows/       定时采集 → 提交数据 → 构建部署 Pages
 ```
 
-采集结果会写入 `data/taptap_upcoming.json`。
+## 数据文件
 
-## 本地运行展示层
+| 文件 | 产出脚本 | 顶层结构 |
+| --- | --- | --- |
+| `taptap_upcoming.json` | `crawl_taptap.py` | 游戏对象扁平数组 |
+| `taptap_rank.json` | `crawl_taptap_rank.py` | `{crawled_at, lists:{hot, reserve, new}}` |
+| `haoyoukuaibao_upcoming.json` | `crawl_haoyoukuaibao.py` | `{crawled_at, days:[{date, date_label, games}]}` |
+| `9game_upcoming.json` | `crawl_9game.py` | 同上（按日期分组） |
+| `hot_games_dynamics.json` | `crawl_hot_games.py` | `{crawled_at, window_days, publishers:[{key, label, games}]}` |
+| `<源>_news.json` / `<源>_reviews.json` | `crawl_3dmgame/youxia/gamersky/gamelook.py` | `{crawled_at, window_days, items:[{title, url, game_name, published_at, summary}]}` |
+| `<源>_digest.json` | `summarize_news.py` | `{generated_at, source, window_days, top_n, items:[{date, digest, top_games, ...}]}` |
+| `weekly_digest.json` | `summarize_week.py` | `{week_start, week_end, digest, heat_formula, hot_ranking:[...]}` |
+| `community_history.json` | `summarize_week.py` | TapTap 关注/评价存量快照，用于算周内增量 |
+
+## 数据源与采集约定
+
+各采集脚本互相独立，一个源一个脚本，但共用同一套写文件约定：
+
+- **优先走站点接口，没有接口才解析 HTML。** 已确认可用的接口：TapTap 榜单
+  `webapiv2/app-top/v2/hits`、游民星空 `db2.gamersky.com/LabelJsonpAjax.aspx`（JSONP）、
+  GameLook WordPress REST API `wp-json/wp/v2/posts`、腾讯内容中心 `apps.game.qq.com/cmc/cross`、
+  米哈游官网 CMS `content_v2_user/getContentList`。TapTap 新游列表、好游快爆、九游、
+  3DMGame、游侠网走服务端渲染 HTML + BeautifulSoup，全项目不引入 playwright。
+- **滚动窗口而非全量覆盖。** 资讯类：新闻 10 天、评测 15 天（评测出稿频率低，窗口更长）；
+  热门游戏动态与好游快爆/九游排期：7 天。每次运行先读旧文件，翻页抓新数据，
+  某一页所有条目都早于窗口起点就停止翻页，然后按 `url` 去重合并（同 url 以最新抓到的为准），
+  过滤掉出窗的条目，按发布时间降序写回。
+- **0 条拒绝写。** 网络失败或解析出 0 条时不用空结果覆盖旧文件，保留上一次的数据，
+  宁可数据不更新也不丢数据。
+- **编码要显式指定。** 好游快爆、游侠网、3DMGame 等站点响应头不带 charset，
+  requests 会误判 ISO-8859-1；梦幻西游官网是 gb18030；GameLook 接口带 UTF-8 BOM，
+  必须 `json.loads(resp.content.decode("utf-8-sig"))`。这些都是实测坑，改动时别删。
+- **游戏名统一从标题的书名号提取**（`scripts/game_name.py`），来源自带的标签只做兜底：
+  实测 3DMGame 的标签有相当比例是频道名/平台名（「游戏新闻」「Steam」），直接当游戏名会污染统计。
+
+单源的具体坑（游侠网 game 频道滞后 1 天、游民星空手游频道 2026-07-31 后停更、
+TapTap 详情页需逐个请求补预约量级等）都写在各脚本头部 docstring 里，改脚本前先读。
+
+## LLM 总结与热度榜
+
+`summarize_news.py` 给四个资讯源各生成「每日一段综述 + Top 15 游戏各自一段动态」，
+`summarize_week.py` 生成上周综述与跨源热度榜。两者共用同一套模型调用约定：
+
+- 主用 + 备用两组环境变量，每组三个齐了才算可用；一组都没配就完整走规则生成，不报错：
+
+  ```
+  DIGEST_LLM_BASE_URL / DIGEST_LLM_API_KEY / DIGEST_LLM_MODEL
+  DIGEST_LLM_FALLBACK_BASE_URL / DIGEST_LLM_FALLBACK_API_KEY / DIGEST_LLM_FALLBACK_MODEL
+  ```
+
+  `BASE_URL` 形如 `https://xxx/v1`，不含 `/chat/completions`。CI 里主用智谱 GLM-4.7-Flash、
+  备用百度千帆 ERNIE-3.5-8K，key 走仓库 secrets（`DIGEST_LLM_API_KEY` /
+  `DIGEST_LLM_FALLBACK_API_KEY`）。原方案 GitHub Models 已于 2026-07-30 全量退役，不可用。
+- 模型输出要过 `verify_digest` 数字校验：任一数字/日期在输入里找不到就换下一家，
+  全失败退回规则文本——编造具体数字是这类摘要任务最主要的翻车方式。
+- 按日期维度用 `input_hash` 复用旧结果，只对新增/变化的日期调模型，稳态下每天约 4 次调用。
+- 热度公式（写在 `weekly_digest.json` 的 `heat_formula` 字段里，随数据一起展示）：
+  资讯量 30% + 跨源覆盖 15% + 预约量 18% + 社区（周内新增关注/评价/讨论）15% +
+  TapTap 榜单名次 12% + 官方动态 7% + 评测讨论 3%；各项先对数归一（资讯满格 200 条），
+  缺测维度计 0、不倒扣，满分 100。窗口是北京时间「上一个自然周的周一到周日」。
+
+## 展示层
+
+Vue 3.4 + Vite 5，无状态管理库、无 UI 框架，组件直接 `fetch` 对应 JSON。
+
+- 数据路径统一为 `${import.meta.env.BASE_URL}data/xxx.json`。`web/vite.config.js` 里的
+  自定义 `repo-data` 插件负责让这条路径在两种环境都成立：dev 时拦截 `/data/*.json`
+  从仓库根目录 `data/` 读盘，build 时在 `closeBundle` 把 `data/` 整个拷进 `dist/data/`。
+  所以采集脚本只管往仓库根 `data/` 写，不用关心 `web/` 结构。
+- 各数据源 `Promise.allSettled` 独立加载，一个文件挂掉只影响它自己那个 Tab。
+- 「更新」按钮（`RefreshButton.vue`）**不触发采集**，只从 GitHub raw 拉 main 分支上已有的
+  `data/*.json`（最多重试 3 次，空数组/空对象视为异常不覆盖页面）。成功后 2 小时冷却、
+  失败 30 分钟冷却，状态存在 localStorage 的 `refresh:<storageKey>` 下。
+- 组件分工：`GameCard`（TapTap 新游卡片）、`HaoyouPanel` / `JiuyouPanel`（按日期分组的排期）、
+  `HotGamesPanel`（发行商 Tab + 动态类型子 Tab）、`GameNewsPanel`（资讯源通用面板，
+  日期区间筛选 + 当日热点 + 评分徽章 + 每日总结）、`WeeklyDigestPanel`（热度榜）。
+
+## 本地开发
+
+采集脚本（Python 3.11+，CI 用 3.11）：
+
+```bash
+pip install -r scripts/requirements.txt
+python scripts/crawl_taptap.py          # 单独跑某个源
+python scripts/summarize_news.py youxia # 只给一个来源生成总结，不传参则四个都跑
+```
+
+单测用标准库 unittest，不需要 pytest，也不走网络：
+
+```bash
+python -m unittest discover -s scripts -p "test_*.py" -v
+```
+
+> 已在本地 Python 3.12.10 上跑过，69 个用例全部通过。测试文件里的中文一律写成 `\uXXXX`
+> 转义，是为了避免 Windows 控制台代码页把源码搞坏，新增用例请沿用这个写法。
+
+展示层：
 
 ```bash
 cd web
 npm install
-npm run dev
+npm run dev      # 开发（数据从仓库根 data/ 实时读盘）
+npm run build    # 产物在 web/dist，含拷贝进去的 data/
 ```
 
-## 数据源说明与已知限制
+## CI 工作流
 
-TapTap 新游监测数据来源于 `https://www.taptap.cn/upcoming` 列表页 + 各游戏详情页（`https://www.taptap.cn/app/{id}`）。
+`.github/workflows/crawl.yml`，每天 UTC 00:00 定时触发，也可手动 `workflow_dispatch`。
+两个 job：`crawl`（采集 + 提交）→ `deploy`（构建 + 部署 Pages）。几个关键设计：
 
-- 列表页未发现可直接调用的公开 JSON API（未找到稳定的 `/webapiv2/...` 类接口返回新游列表数据），因此采用 `requests + BeautifulSoup` 直接解析服务端渲染的列表页 HTML。
-- 列表页本身不包含"预约量级"字段，该字段需要访问每个游戏的详情页单独抓取，因此脚本会对列表页解析出的每个游戏 ID 发起一次详情页请求，请求量随新游数量线性增长，请留意抓取频率与网站的访问压力。
-- 页面 HTML 的 CSS class 命名可能随 TapTap 前端版本更新而变化，脚本中的选择器是基于当前观察到的页面结构编写的**推断值**，如后续解析持续失败，需要用浏览器开发者工具重新核对真实 DOM 结构后调整 `scripts/crawl_taptap.py` 中的选择器。
-- 本地开发环境未安装 Python，本次未能实际运行脚本进行端到端验证，仅通过页面抓取结果人工核对了字段来源，实际抓取效果需要在有 Python 环境的机器/CI 上验证。
+- 每个采集步骤都是 `continue-on-error: true` 并带 `id`，避免"一个源改版导致当天全都不更新"。
+  判定失败必须用 `steps.<id>.outcome`（`continue-on-error` 会把 `conclusion` 改写成 success）。
+- 失败信息先由一个"哨兵"步骤逐个打成 `::error::` 注解，然后先提交推送已成功的数据，
+  最后才 `exit 1` 让整个 run 变红——顺序颠倒会导致数据推不上去。
+- `deploy` 用 `if: always() && ...` 解除失败拦截（部分成功也要更新页面），
+  并额外加 `concurrency: pages-deploy` 串行化，避免手动重跑 deploy 时产生两份同名
+  `github-pages` artifact 让 `deploy-pages@v4` 报歧义错误。
+- `deploy` 的 checkout 必须显式 `ref: ${{ github.ref_name }}`，否则拿到的是采集推送前的
+  commit，页面永远落后一次采集。
+- `.gitattributes` 声明 `data/*.json merge=keep-crawled`，workflow 里显式注册
+  `merge.keep-crawled.driver 'cp %B %A'`，让数据文件冲突时以本次采集结果为准；
+  rebase 兜底用 `git checkout --theirs`（rebase 语义下 `--theirs` 才是正在重放的本次采集）。
+
+## 已知限制
+
+- HTML 解析类爬虫（TapTap 新游、好游快爆、九游、3DMGame、游侠网）的选择器绑定当前页面
+  DOM 结构，站点前端改版会导致解析失败；此时脚本会拒绝写空数据，页面停留在旧数据，
+  需要用浏览器开发者工具核对真实 DOM 后调整选择器。
+- TapTap 新游的预约量级只在详情页出现，脚本会对每个游戏 ID 额外发一次请求，
+  请求量随新游数量线性增长，注意抓取频率。
+- TapTap 榜单接口只认 `type_name=hot/reserve/sell/new`（`played`/`download` 返回 400），
+  且硬限 `limit=10`，名次靠 `from` 翻页拼出来。
+- 米哈游官网 CMS 的 `appSn` / `iChanId` 是官网前端 JS 里的硬编码值，官网改版即失效，
+  失效时降级回米哈游公告接口。
+- 页面的「更新」按钮只能拉到 GitHub 上已有的数据，无法在浏览器里触发采集；
+  想立刻刷新数据要去 Actions 手动跑一次 workflow。
+

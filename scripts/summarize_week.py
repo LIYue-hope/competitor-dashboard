@@ -3,6 +3,10 @@
 一期用已有资讯条数、跨源覆盖、预约、官方动态、评测评论；
 二期叠 TapTap 关注/评价/讨论 与榜单名次。缺测维度记 0，不倒扣。
 
+社区维度算「窗口内新增」而不是历史存量：每次运行把 TapTap 存量拍进
+community_history.json，评分时用窗口内最后一张快照减窗口开始前最后一张，
+拿不到基线就记 0。
+
 窗口：北京时间「上一个自然周的周一到周日」。
 """
 import hashlib
@@ -17,6 +21,7 @@ from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from heat_utils import (  # noqa: E402
+    BEIJING,
     format_count_label,
     in_range,
     last_week_range,
@@ -60,6 +65,20 @@ W_REVIEW = 0.03
 # 一周内单款游戏的资讯条数上限：超过即视为满格（四源合计，头部游戏可达上百条）
 MEDIA_CAP = 200
 
+# 社区看的是「周内新增」，量级比存量小两个数量级，满格单独给一档
+COMMUNITY_CAP = 100000
+
+# TapTap 存量快照：内部字段名 -> 采集字段名
+COMMUNITY_FIELDS = (
+    ("follow", "follow_count"),
+    ("review", "review_count"),
+    ("discussion", "discussion_count"),
+)
+COMMUNITY_HISTORY_NAME = "community_history.json"
+# 快照留半年多，够跨周做差，也不至于把文件撑大
+HISTORY_KEEP_DAYS = 200
+
+
 
 EVENT_HINTS = (
     "\u53d1\u552e",
@@ -97,8 +116,8 @@ def _empty_bucket():
         "sources": set(),
         "reservation": None,
         "follow": None,
-        "review_users": None,
-        "discussion": None,
+        # 窗口内新增的社区数据（关注/评价/讨论），拿不到基线时保持 None
+        "community_delta": None,
         "best_rank": None,
         "rank_lists": set(),
         "official_count": 0,
@@ -161,13 +180,9 @@ def ingest_upcoming(data_dir, buckets):
         bucket = buckets.setdefault(key, _empty_bucket())
         bucket["variants"][name] += 1
         merge_reservation(bucket, item.get("reservation_count"))
+        # 关注存量只当入榜门槛用；打分看的是 community_delta（周内新增）
         bucket["follow"] = _max_count(bucket["follow"], parse_count(item.get("follow_count")))
-        bucket["review_users"] = _max_count(
-            bucket["review_users"], parse_count(item.get("review_count"))
-        )
-        bucket["discussion"] = _max_count(
-            bucket["discussion"], parse_count(item.get("discussion_count"))
-        )
+
 
     haoyou = load_json(os.path.join(data_dir, "haoyoukuaibao_upcoming.json")) or {}
     for day in haoyou.get("days") or []:
@@ -179,6 +194,97 @@ def ingest_upcoming(data_dir, buckets):
             bucket = buckets.setdefault(key, _empty_bucket())
             bucket["variants"][name] += 1
             merge_reservation(bucket, item.get("reservation_count"))
+
+
+def community_snapshot(data_dir):
+    """把 TapTap 当前的关注/评价/讨论存量拍成一张快照。"""
+    taptap = load_json(os.path.join(data_dir, "taptap_upcoming.json")) or []
+    if isinstance(taptap, dict):
+        taptap = taptap.get("items") or []
+    games = {}
+    for item in taptap:
+        key = stat_key((item.get("game_name") or "").strip())
+        if not key:
+            continue
+        row = {}
+        for field, source in COMMUNITY_FIELDS:
+            value = parse_count(item.get(source))
+            if value is not None:
+                row[field] = value
+        if row:
+            games[key] = row
+    return games
+
+
+def update_community_history(data_dir, snapshot, today=None):
+    """按天累积快照，同一天重复跑覆盖当天那条；空快照不写，避免污染基线。"""
+    if not snapshot:
+        return None
+    day = today
+    if day is None:
+        day = datetime.now(BEIJING).date()
+    elif isinstance(day, datetime):
+        day = day.astimezone(BEIJING).date()
+    day = day.isoformat()
+    path = os.path.join(data_dir, COMMUNITY_HISTORY_NAME)
+    history = load_json(path) or {}
+    snapshots = [
+        item for item in (history.get("snapshots") or []) if item.get("date") != day
+    ]
+    snapshots.append({"date": day, "games": snapshot})
+    snapshots.sort(key=lambda item: item.get("date") or "")
+    payload = {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "snapshots": snapshots[-HISTORY_KEEP_DAYS:],
+    }
+    os.makedirs(data_dir, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as handle:
+        json.dump(payload, handle, ensure_ascii=False, indent=2)
+    return payload
+
+
+def community_deltas(history, start, end):
+    """窗口内最后一张快照 - 窗口开始前最后一张快照，得到「本周新增」。
+
+    没有窗口前的基线（比如刚上线只攒了一周快照）就返回空，让社区维度记 0，
+    而不是把历史存量当成本周增量。
+    """
+    snapshots = sorted(
+        (history or {}).get("snapshots") or [], key=lambda item: item.get("date") or ""
+    )
+    base = None
+    latest = None
+    for snap in snapshots:
+        day = snap.get("date") or ""
+        if day < start.isoformat():
+            base = snap
+        elif day <= end.isoformat():
+            latest = snap
+    if not base or not latest:
+        return {}
+
+    deltas = {}
+    base_games = base.get("games") or {}
+    for key, now_row in (latest.get("games") or {}).items():
+        base_row = base_games.get(key)
+        if not base_row:
+            continue
+        row = {}
+        for field, _source in COMMUNITY_FIELDS:
+            if field in now_row and field in base_row:
+                row[field] = max(0, now_row[field] - base_row[field])
+        if row:
+            deltas[key] = row
+    return deltas
+
+
+def ingest_community(data_dir, start, end, buckets):
+    history = load_json(os.path.join(data_dir, COMMUNITY_HISTORY_NAME)) or {}
+    deltas = community_deltas(history, start, end)
+    for key, row in deltas.items():
+        bucket = buckets.get(key)
+        if bucket is not None:
+            bucket["community_delta"] = row
 
 
 def ingest_hot_games(data_dir, start, end, buckets):
@@ -279,16 +385,15 @@ def heat_breakdown(bucket):
     media = len(bucket["articles"])
     coverage = len(bucket["sources"])
     reservation = bucket["reservation"]
-    community = (bucket["follow"] or 0) + (bucket["review_users"] or 0) + (
-        bucket["discussion"] or 0
-    )
+    # 社区只认窗口内新增，历史存量不参与打分
+    community = sum((bucket["community_delta"] or {}).values())
     official = bucket["official_count"]
     review_signal = bucket["comment_sum"] + bucket["review_articles"]
     parts = {
         "media": log_norm(media, MEDIA_CAP),
         "coverage": coverage / 4.0,
         "reservation": log_norm(reservation, 2000000),
-        "community": log_norm(community, 1000000),
+        "community": log_norm(community, COMMUNITY_CAP),
         "rank": rank_score(bucket["best_rank"]),
         "official": log_norm(official, 20),
         "review": log_norm(review_signal, 50),
@@ -310,6 +415,7 @@ def collect_games(data_dir, start, end):
     buckets = {}
     ingest_news(articles, buckets)
     ingest_upcoming(data_dir, buckets)
+    ingest_community(data_dir, start, end, buckets)
     ingest_hot_games(data_dir, start, end, buckets)
     ingest_reviews(data_dir, start, end, buckets)
     ingest_ranks(data_dir, buckets)
@@ -485,6 +591,7 @@ def week_input_hash(articles):
 
 def serialize_entry(rank, row):
     bucket = row["bucket"]
+    delta = bucket["community_delta"] or {}
     return {
         "rank": rank,
         "name": row["name"],
@@ -492,7 +599,7 @@ def serialize_entry(rank, row):
         "media_count": len(bucket["articles"]),
         "source_count": len(bucket["sources"]),
         "reservation_label": format_count_label(bucket["reservation"]),
-        "follow_label": format_count_label(bucket["follow"]),
+        "follow_delta_label": format_count_label(delta.get("follow")),
         "best_rank": bucket["best_rank"],
         "rank_lists": sorted(bucket["rank_lists"]),
         "official_count": bucket["official_count"],
@@ -503,8 +610,8 @@ def serialize_entry(rank, row):
 def heat_formula_note():
     """页面小字用：把权重口径直接从常量拼出来，避免前后端各写一份。"""
     return (
-        "\u70ed\u5ea6 = \u8d44\u8baf\u91cf %d%% + \u8df3\u6e90\u8986\u76d6 %d%% + \u9884\u7ea6\u91cf %d%% "
-        "+ \u793e\u533a\uff08\u5173\u6ce8/\u8bc4\u4ef7/\u8ba8\u8bba\uff09%d%% + TapTap \u699c\u5355\u540d\u6b21 %d%% "
+        "\u70ed\u5ea6 = \u8d44\u8baf\u91cf %d%% + \u8de8\u6e90\u8986\u76d6 %d%% + \u9884\u7ea6\u91cf %d%% "
+        "+ \u793e\u533a\uff08\u5468\u5185\u65b0\u589e\u5173\u6ce8/\u8bc4\u4ef7/\u8ba8\u8bba\uff09%d%% + TapTap \u699c\u5355\u540d\u6b21 %d%% "
         "+ \u5b98\u65b9\u52a8\u6001 %d%% + \u8bc4\u6d4b\u8ba8\u8bba %d%%\uff1b"
         "\u5404\u9879\u5148\u5bf9\u6570\u5f52\u4e00\uff08\u8d44\u8baf\u6ee1\u683c %d \u6761\uff09\uff0c"
         "\u7f3a\u6d4b\u7684\u7ef4\u5ea6\u8ba1 0\u3001\u4e0d\u5012\u6263\uff0c\u6ee1\u5206 100\u3002"
@@ -554,6 +661,8 @@ def write_output(path, payload):
 def run(data_dir=None, today=None):
     data_dir = data_dir or DATA_DIR
     start, end = last_week_range(today)
+    # 先把今天的社区存量落进历史，再算窗口增量：跨周做差要靠这条链攒基线
+    update_community_history(data_dir, community_snapshot(data_dir), today=today)
     articles, ranked = collect_games(data_dir, start, end)
     output_path = os.path.join(data_dir, OUTPUT_NAME)
     if not articles:

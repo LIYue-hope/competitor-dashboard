@@ -17,7 +17,7 @@ function weekLabel(data) {
 }
 
 function rankListsText(lists) {
-  const map = { download: '下载榜', reserve: '预约榜', played: '热玩榜' }
+  const map = { hot: '热门榜', reserve: '预约榜', new: '新品榜' }
   return (lists || []).map((key) => map[key] || key).join(' / ')
 }
 
@@ -48,7 +48,7 @@ function rankListsText(lists) {
           <p class="rank-meta">
             资讯 {{ row.media_count }} 条 · {{ row.source_count }} 个来源
             <template v-if="row.reservation_label"> · 预约 {{ row.reservation_label }}</template>
-            <template v-if="row.follow_label"> · 关注 {{ row.follow_label }}</template>
+                  <template v-if="row.follow_delta_label"> · 周内新增关注 {{ row.follow_delta_label }}</template>
             <template v-if="row.best_rank"> · TapTap 最高第 {{ row.best_rank }}（{{ rankListsText(row.rank_lists) }}）</template>
             <template v-if="row.official_count"> · 官方动态 {{ row.official_count }}</template>
           </p>
