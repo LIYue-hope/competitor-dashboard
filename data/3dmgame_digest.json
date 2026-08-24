@@ -1,24 +1,75 @@
 {
-  "generated_at": "2026-08-23T05:39:33.575799+00:00",
+  "generated_at": "2026-08-24T00:44:23.742222+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-08-23",
-      "article_count": 10,
-      "game_count": 6,
+      "date": "2026-08-24",
+      "article_count": 12,
+      "game_count": 7,
       "untagged_count": 3,
-      "digest": "8月23日 3DMGame 共 10 条新闻，涉及 6 款游戏。报道最集中的是《GTA6》（2 条）、《使命召唤：现代战争4》（1 条）、《只狼》（1 条）。其余进入当日前 6 的还有《喵喵的结合》、《宝可梦：风/波》、《战地6》。另有 3 条未指向具体游戏的行业或平台资讯。",
+      "digest": "8月24日 3DMGame 共 12 条新闻，涉及 7 款游戏。报道最集中的是《GTA6》（2 条）、《黑神话：钟馗》（2 条）、《奥日3》（1 条）。其余进入当日前 7 的还有《真三国无双2猛将传复刻版》、《神鬼寓言4》、《骤影：绯月杀》、《黄昏血族》。另有 3 条未指向具体游戏的行业或平台资讯。",
       "digest_source": "rules",
-      "input_hash": "814fb5f5db294087",
+      "input_hash": "f4e6ae932e5c00b7",
       "top_games": [
         {
           "name": "GTA6",
           "count": 2
         },
         {
+          "name": "黑神话：钟馗",
+          "count": 2
+        },
+        {
+          "name": "奥日3",
+          "count": 1
+        },
+        {
+          "name": "真三国无双2猛将传复刻版",
+          "count": 1
+        },
+        {
+          "name": "神鬼寓言4",
+          "count": 1
+        },
+        {
+          "name": "骤影：绯月杀",
+          "count": 1
+        },
+        {
+          "name": "黄昏血族",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "article_count": 19,
+      "game_count": 13,
+      "untagged_count": 5,
+      "digest": "8月23日 3DMGame 共 19 条新闻，涉及 13 款游戏。报道最集中的是《GTA6》（2 条）、《ARC Raiders》（1 条）、《DOTA2》（1 条）。其余进入当日前 13 的还有《使命召唤：现代战争4》、《刺客信条：奥德赛》、《只狼》、《喵喵的结合》、《地铁2039》、《宝可梦：风/波》、《战地6》、《漫威金刚狼》、《脑航员2》、《黄昏血族》。另有 5 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "fbb852838ecbf70f",
+      "top_games": [
+        {
+          "name": "GTA6",
+          "count": 2
+        },
+        {
+          "name": "ARC Raiders",
+          "count": 1
+        },
+        {
+          "name": "DOTA2",
+          "count": 1
+        },
+        {
           "name": "使命召唤：现代战争4",
+          "count": 1
+        },
+        {
+          "name": "刺客信条：奥德赛",
           "count": 1
         },
         {
@@ -30,11 +81,27 @@
           "count": 1
         },
         {
+          "name": "地铁2039",
+          "count": 1
+        },
+        {
           "name": "宝可梦：风/波",
           "count": 1
         },
         {
           "name": "战地6",
+          "count": 1
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 1
+        },
+        {
+          "name": "脑航员2",
+          "count": 1
+        },
+        {
+          "name": "黄昏血族",
           "count": 1
         }
       ]
@@ -603,77 +670,6 @@
         },
         {
           "name": "完蛋！我被男同学包围了",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "article_count": 100,
-      "game_count": 66,
-      "untagged_count": 18,
-      "digest": "8月14日 3DMGame 共 100 条新闻，涉及 66 款游戏。报道最集中的是《影之刃零》（6 条）、《GTA6》（4 条）、《人间地狱：越南》（2 条）。其余进入当日前 15 的还有《德波尼亚》、《沙金工业》、《深度求财：挖打撤》、《漫威斗魂》、《漫威金刚狼》、《第一后裔》、《轨道双子星》、《FF7》、《QUIET》、《Sign：碎冠篇》、《Verde》、《Wild Blue Skies》。另有 18 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
-      "input_hash": "657c88941ddc0199",
-      "top_games": [
-        {
-          "name": "影之刃零",
-          "count": 6
-        },
-        {
-          "name": "GTA6",
-          "count": 4
-        },
-        {
-          "name": "人间地狱：越南",
-          "count": 2
-        },
-        {
-          "name": "德波尼亚",
-          "count": 2
-        },
-        {
-          "name": "沙金工业",
-          "count": 2
-        },
-        {
-          "name": "深度求财：挖打撤",
-          "count": 2
-        },
-        {
-          "name": "漫威斗魂",
-          "count": 2
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2
-        },
-        {
-          "name": "第一后裔",
-          "count": 2
-        },
-        {
-          "name": "轨道双子星",
-          "count": 2
-        },
-        {
-          "name": "FF7",
-          "count": 1
-        },
-        {
-          "name": "QUIET",
-          "count": 1
-        },
-        {
-          "name": "Sign：碎冠篇",
-          "count": 1
-        },
-        {
-          "name": "Verde",
-          "count": 1
-        },
-        {
-          "name": "Wild Blue Skies",
           "count": 1
         }
       ]
