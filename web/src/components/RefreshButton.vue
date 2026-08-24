@@ -144,7 +144,7 @@ onUnmounted(() => {
 <template>
   <span class="refresh-wrap">
     <button
-      class="refresh-btn"
+      class="icon-btn refresh-btn"
       :class="[state, { cooling }]"
       :disabled="disabled"
       :title="state === 'failed' ? '抓取失败，已保留原有数据' : '从仓库拉取最新采集数据'"
@@ -162,39 +162,19 @@ onUnmounted(() => {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin-left: 12px;
   font-weight: 400;
 }
 
+/* 视觉走 style.css 的 .icon-btn，这里只补按钮宽度和成功 / 失败两种语义色 */
 .refresh-btn {
-  min-width: 72px;
-  padding: 4px 12px;
+  min-width: 76px;
+  justify-content: center;
+  height: 28px;
   font-size: 12px;
-  line-height: 18px;
-  color: #1976d2;
-  background: #fff;
-  border: 1px solid #90caf9;
-  border-radius: 4px;
-  cursor: pointer;
 }
 
-.refresh-btn:hover:not(:disabled) {
-  background: #e3f2fd;
-}
-
-.refresh-btn:disabled {
-  cursor: default;
-}
-
-.refresh-btn.done {
-  color: #2e7d32;
-  border-color: #a5d6a7;
-}
-
-.refresh-btn.failed {
-  color: #d32f2f;
-  border-color: #ef9a9a;
-}
+.refresh-btn.done { color: var(--ok); border-color: var(--ok); }
+.refresh-btn.failed { color: var(--danger); border-color: var(--danger); }
 
 .spin {
   display: inline-block;
@@ -209,6 +189,7 @@ onUnmounted(() => {
 
 .countdown {
   font-size: 12px;
-  color: #888;
+  color: var(--text-3);
 }
 </style>
+

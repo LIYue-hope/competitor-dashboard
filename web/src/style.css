@@ -1,21 +1,593 @@
+/* ============ 设计令牌：颜色 / 圆角 / 阴影 全部收敛到变量 ============
+   深浅色只是换一组变量值，不改任何布局代码。 */
 :root {
-  color-scheme: light;
+  --bg: #f2f4f7;
+  --surface: #ffffff;
+  --surface-2: #f7f8fa;
+  --border: #e4e7ec;
+  --border-strong: #d0d5dd;
+  --text: #101828;
+  --text-2: #475467;
+  --text-3: #98a2b3;
+  --brand: #2563eb;
+  --brand-weak: #eff4ff;
+  --danger: #d92d20;
+  --warn: #f79009;
+  --ok: #12b76a;
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --shadow-1: 0 1px 2px rgba(16, 24, 40, .05);
+  --shadow-2: 0 4px 12px -2px rgba(16, 24, 40, .08), 0 2px 4px -2px rgba(16, 24, 40, .04);
+  --font: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --app-bar-h: 56px;
 }
 
-/* 页面内容长度会随 Tab/日期切换变化，导致纵向滚动条按需出现/消失，
-   进而使视口可用宽度发生 15~17px 的抖动，表现为切换时左右页边距
-   看起来不一致。强制预留滚动条槛位，保证可用宽度始终恒定。 */
-html {
-  scrollbar-gutter: stable;
+[data-theme="dark"] {
+  --bg: #0c111d;
+  --surface: #161b26;
+  --surface-2: #1f242f;
+  --border: #262b37;
+  --border-strong: #333741;
+  --text: #f5f5f6;
+  --text-2: #cecfd2;
+  --text-3: #85888e;
+  --brand: #62a0ff;
+  --brand-weak: #1a2542;
+  --shadow-1: none;
+  --shadow-2: 0 4px 12px -2px rgba(0, 0, 0, .5);
 }
 
 * {
   box-sizing: border-box;
 }
 
+/* 页面内容长度会随 Tab/日期切换变化，导致纵向滚动条按需出现/消失，
+   进而使视口可用宽度发生 15~17px 的抖动，表现为切换时左右页边距
+   看起来不一致。强制预留滚动条槽位，保证可用宽度始终恒定。 */
+html {
+  scrollbar-gutter: stable;
+}
+
+/* 吸顶栏在折叠 / 展开之间切换会改变自身高度。Chrome 的 scroll anchoring 会为了
+   "锚住"下方内容而反向补偿 scrollTop，补偿又把 scrollY 推回阈值另一侧，于是形成
+   折叠→补偿→展开→补偿 的死循环，表现就是慢速滚动时页面上下抖、滚不下去。
+   这里全局关掉锚定，配合 useStickyTabs 里的滞回区间与底部补偿，缺一个都会复现。 */
+html,
+body {
+  overflow-anchor: none;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
-  background: #f5f5f5;
-  color: #222;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
 }
+
+a {
+  color: inherit;
+}
+
+/* ============ 卡片 ============ */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-1);
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+.card-head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.card-head h2 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 650;
+}
+
+.card-head .spacer {
+  flex: 1;
+}
+
+.stamp {
+  font-size: 12px;
+  color: var(--text-3);
+  font-variant-numeric: tabular-nums;
+}
+
+.hint {
+  font-size: 12px;
+  color: var(--text-3);
+  line-height: 1.6;
+  margin: 0 0 10px;
+  word-break: break-word;
+}
+
+/* ============ 分段控件：所有层级的 Tab 统一用它，靠尺寸而非样式分层级 ============ */
+.seg {
+  display: inline-flex;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 3px;
+  gap: 2px;
+  flex-wrap: wrap;
+  /* 作为 flex 子项时默认 min-width:auto 不肯收缩，长标签（三角洲行动、梦幻西游手游
+     这类名字）会顶出容器。归零后才会正常换行而不是溢出灰底。 */
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* 条目多、标签长的那几层（游戏名、日期）用方角容器：胶囊圆角只在单行时成立，
+   一换行圆角就兜不住末尾按钮，视觉上就是"按钮跑到灰条外面"。 */
+.seg.wrap {
+  border-radius: var(--r-md);
+  row-gap: 3px;
+}
+
+.seg button {
+  border: none;
+  background: none;
+  border-radius: 999px;
+  cursor: pointer;
+  color: var(--text-2);
+  font-size: 13px;
+  padding: 6px 14px;
+  transition: background .12s, color .12s;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.seg button:hover {
+  color: var(--text);
+}
+
+.seg button.active {
+  background: var(--surface);
+  color: var(--brand);
+  font-weight: 600;
+  box-shadow: var(--shadow-1);
+}
+
+.seg.sm button {
+  font-size: 12px;
+  padding: 4px 10px;
+}
+
+/* ============ 多级 sticky Tab 栏 ============
+   吸在 app-bar 下方；滚过阈值后加 .compact，多行合并成一行、隐去行标签并缩小按钮，
+   把垂直空间还给内容。高度变化带来的滚动抖动由 useStickyTabs 补偿，见那里的注释。 */
+.tab-stack {
+  position: sticky;
+  top: var(--app-bar-h);
+  z-index: 12;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  /* 负边距把吸顶栏撑到卡片内边距外沿，滚动时内容不会从两侧缝隙露出来 */
+  margin: 0 -20px 14px;
+  padding: 10px 20px;
+  /* 只过渡 box-shadow：padding 一旦参与过渡，JS 侧量折叠前后高度差时读到的是
+     动画中间值，补偿量就会算错，重新引入抖动。高度变化本来也该是瞬时的。 */
+  transition: box-shadow .12s;
+}
+
+.tab-stack.compact {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  box-shadow: var(--shadow-2);
+}
+
+.tab-stack.compact .tab-row-label { display: none; }
+.tab-stack.compact .seg { padding: 2px; }
+.tab-stack.compact .seg button { font-size: 12px; padding: 3px 9px; }
+
+.tab-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.tab-row-label {
+  font-size: 12px;
+  color: var(--text-3);
+  flex: none;
+  width: 28px;
+}
+
+/* 展开时各行本就分行，不需要分隔符；折叠成一行后才用竖线区分层级 */
+.tab-sep { display: none; }
+.tab-stack.compact .tab-sep {
+  display: inline-block;
+  width: 1px;
+  height: 16px;
+  background: var(--border-strong);
+}
+
+/* 吸顶栏里的输入类控件 */
+.tab-stack select,
+.tab-stack input {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: var(--r-sm);
+  padding: 6px 9px;
+  font-size: 13px;
+  font-family: var(--font);
+  min-width: 0;
+}
+
+.tab-stack input { flex: 1 1 180px; max-width: 280px; }
+.tab-stack select:hover,
+.tab-stack input:focus { border-color: var(--brand); outline: none; }
+.tab-stack.compact select,
+.tab-stack.compact input { padding: 4px 8px; font-size: 12px; }
+
+/* 搜索框和它后面的统计文案绑成一个不换行的整体，保证折叠后统计始终紧跟搜索框，
+   不会被 flex-wrap 甩到下一行去 */
+.search-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: nowrap;
+  min-width: 0;
+}
+
+.search-wrap .stamp { white-space: nowrap; }
+
+/* 日期区间的两个下拉 + 分隔符也绑成一组，避免"起始"和"结束"被拆到两行 */
+.range-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: nowrap;
+}
+
+.range-wrap .sep { font-size: 12px; color: var(--text-3); }
+
+/* ============ 徽标 ============ */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 11px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  color: var(--text-2);
+  background: var(--surface-2);
+  white-space: nowrap;
+}
+
+.badge.brand { border-color: transparent; background: var(--brand-weak); color: var(--brand); }
+.badge.star { border-color: transparent; background: #fef0c7; color: #b54708; }
+
+/* ============ 动态类型配色 ============
+   语义沿用改版前的约定：紫=版本前瞻 橙=新活动 蓝=更新公告 青=赛事
+   灰蓝=公告/资讯/新闻 红=安全/处罚公告。改版不动这套色彩约定。 */
+.t-foresight { --tc: #7b1fa2; }
+.t-activity  { --tc: #ef6c00; }
+.t-update    { --tc: #1976d2; }
+.t-esports   { --tc: #00838f; }
+.t-news      { --tc: #546e7a; }
+.t-warning   { --tc: #c62828; }
+.t-default   { --tc: #757575; }
+
+.type-tag {
+  font-size: 11px;
+  padding: 1px 7px;
+  border-radius: 3px;
+  color: #fff;
+  background: var(--tc);
+  white-space: nowrap;
+  flex: none;
+}
+
+/* 类型 Tab 选中时才上底色，未选中用字色，避免一排彩色块互相抢注意力 */
+.seg button.type-btn { color: var(--tc); }
+.seg button.type-btn.active { background: var(--tc); color: #fff; }
+
+/* ============ 日期锚点标题 ============
+   scroll-margin-top 必须大于 app-bar(56px) + 折叠态吸顶栏高度，否则点日期跳过去时
+   标题会被吸顶栏盖住。九游有 10 个日期，折叠下日期 Tab 会折成 2~3 行，所以留到
+   160px；宁可上方多留点空隙，也不能让标题被挡。 */
+.date-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 22px 0 10px;
+  font-size: 14px;
+  font-weight: 650;
+  scroll-margin-top: 160px;
+}
+
+.date-head:first-of-type { margin-top: 4px; }
+.date-head .line { flex: 1; height: 1px; background: var(--border); }
+
+/* ============ 新游卡片网格 ============ */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 12px;
+}
+
+/* ============ 列表（资讯 / 官方动态共用） ============ */
+.news-list { list-style: none; margin: 0; padding: 0; }
+
+.news-item {
+  padding: 11px 0;
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 12px;
+}
+
+.news-item:first-child { border-top: none; }
+
+.news-date {
+  flex: none;
+  width: 42px;
+  font-size: 12px;
+  color: var(--text-3);
+  font-variant-numeric: tabular-nums;
+  padding-top: 2px;
+}
+
+.news-main { min-width: 0; flex: 1; }
+
+.news-title {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.news-title:hover { color: var(--brand); text-decoration: underline; }
+
+/* 采集侧标注的游戏名前置到标题之前：扫列表时先看到"是哪款游戏"再看"发生了什么"。
+   inline 让它能和标题一起自然折行。 */
+.news-game {
+  display: inline;
+  font-size: 12px;
+  padding: 1px 6px;
+  margin-right: 6px;
+  border-radius: 3px;
+  color: #fff;
+  background: #546e7a;
+  white-space: nowrap;
+}
+
+/* 摘要较长，统一裁到 2 行保证列表节奏一致 */
+.news-sum {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: var(--text-3);
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.news-tags { display: flex; gap: 6px; margin-top: 5px; flex-wrap: wrap; }
+
+mark { background: #fef0c7; color: inherit; border-radius: 2px; }
+
+/* ============ 榜单行（周报热度榜 / 每日总结 Top N 共用） ============ */
+.rank-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rank-row {
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  padding: 12px 14px;
+  background: var(--surface);
+  transition: border-color .12s, box-shadow .12s;
+}
+
+.rank-row:hover { border-color: var(--border-strong); box-shadow: var(--shadow-2); }
+.rank-row.top { background: linear-gradient(90deg, var(--brand-weak), transparent 60%); }
+
+.rank-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+
+.rank-no {
+  width: 22px;
+  height: 22px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  border-radius: 6px;
+  background: var(--surface-2);
+  color: var(--text-2);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.rank-row.top .rank-no { background: var(--brand); color: #fff; }
+.rank-name { font-size: 14px; font-weight: 650; }
+
+/* 热度条把"热度 42.3"从纯数字变成可横向比较的长度 */
+.heat-bar {
+  flex: 1;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  overflow: hidden;
+  min-width: 60px;
+}
+
+.heat-bar i { display: block; height: 100%; border-radius: 999px; background: var(--brand); }
+
+.heat-val {
+  font-size: 12px;
+  color: var(--text-3);
+  font-variant-numeric: tabular-nums;
+  flex: none;
+}
+
+.rank-meta {
+  margin: 6px 0 0;
+  font-size: 12px;
+  color: var(--text-3);
+  line-height: 1.7;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+}
+
+.rank-meta.text { display: block; color: var(--text-2); text-align: justify; }
+
+/* 每款游戏的代表资讯，缩进挂在该行下面 */
+.rank-news {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 8px 0 0;
+  border-top: 1px dashed var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.rank-news a { font-size: 12.5px; color: var(--text); text-decoration: none; }
+.rank-news a:hover { color: var(--brand); text-decoration: underline; }
+.rank-news .src { font-size: 11px; color: var(--text-3); margin-left: 6px; }
+
+/* 综述是一整段连续文字，行高比列表项松一档 */
+.digest-body {
+  font-size: 13.5px;
+  line-height: 1.85;
+  color: var(--text-2);
+  margin: 0 0 8px;
+  text-align: justify;
+}
+
+/* 热度口径 / 来源说明属于注解，压到小字避免抢正文 */
+.formula { font-size: 11px; color: var(--text-3); line-height: 1.7; margin: 0 0 18px; }
+
+/* ============ KPI 数字卡 ============ */
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.kpi {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  padding: 12px 14px;
+}
+
+.kpi .k { font-size: 12px; color: var(--text-3); margin-bottom: 4px; }
+.kpi .v {
+  font-size: 22px;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+}
+.kpi .v small { font-size: 12px; font-weight: 400; color: var(--text-3); margin-left: 3px; }
+
+/* ============ 通用按钮 ============ */
+.icon-btn {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-2);
+  border-radius: var(--r-sm);
+  height: 32px;
+  padding: 0 12px;
+  font-size: 13px;
+  font-family: var(--font);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.icon-btn:hover:not(:disabled) { border-color: var(--brand); color: var(--brand); }
+.icon-btn:disabled { cursor: default; opacity: .6; }
+
+/* ============ 加载 / 空 / 错误三态 ============ */
+.skel {
+  background: var(--surface-2);
+  border-radius: var(--r-sm);
+  animation: skel-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes skel-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .45; }
+}
+
+.skel-line { height: 12px; margin-bottom: 8px; }
+
+.state {
+  text-align: center;
+  padding: 36px 12px;
+  color: var(--text-3);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.state .em { display: block; font-size: 24px; margin-bottom: 8px; opacity: .5; }
+.state.err { color: var(--danger); }
+
+/* ============ 响应式：<960px 侧栏导航降级为顶部横滚分段控件 ============ */
+@media (max-width: 960px) {
+  .card { padding: 14px; border-radius: var(--r-md); }
+  /* 卡片内边距变成 14px，吸顶栏的负边距要跟着收，否则会横向溢出 */
+  .tab-stack {
+    margin-left: -14px;
+    margin-right: -14px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .tab-row-label { display: none; }
+  .date-head { scroll-margin-top: 180px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+

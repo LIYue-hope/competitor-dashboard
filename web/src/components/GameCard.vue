@@ -1,146 +1,107 @@
 <script setup>
-defineProps({
+import { computed } from 'vue'
+
+// TapTap / 好游快爆 / 九游 三个来源共用同一张卡片：字段有多有少，缺的行直接不渲染。
+const props = defineProps({
   game: {
     type: Object,
     required: true,
   },
 })
+
+const url = computed(() => props.game.source_url || props.game.detail_url || '')
+
+const rows = computed(() => {
+  const g = props.game
+  return [
+    ['发行商', g.publisher],
+    // TapTap 给 release_date（上线日期），好游快爆给 event_desc（当日事件描述）
+    ['上线', g.release_date || g.event_desc],
+    ['类型', (g.categories || []).join('、')],
+    // 预约量与关注量是两个不同口径，标签跟着实际字段走，别混成一个"预约"
+    [g.reservation_count ? '预约' : '关注', g.reservation_count || g.follow_count],
+  ].filter(([, v]) => v)
+})
 </script>
 
 <template>
-  <div class="game-card">
-    <div class="card-top">
-      <h2 class="game-name">
-        <a
-          v-if="game.source_url"
-          class="game-link"
-          :href="game.source_url"
-          target="_blank"
-          rel="noopener"
-        >{{ game.game_name || '未知游戏' }}</a>
+  <article class="g-card">
+    <div class="g-top">
+      <h3 class="g-name">
+        <a v-if="url" :href="url" target="_blank" rel="noopener">{{ game.game_name || '未知游戏' }}</a>
         <template v-else>{{ game.game_name || '未知游戏' }}</template>
-      </h2>
-      <span class="score-group">
-        <span
-          v-if="game.has_afk_grinding_tag"
-          class="afk-star"
-          title="游戏介绍或开发者的话中提及挂机/搬砖玩法"
-        >★</span>
-        <span v-if="game.score" class="score">{{ game.score }}</span>
-      </span>
+      </h3>
+      <span v-if="game.score" class="g-score">{{ game.score }}</span>
     </div>
 
-    <dl class="info-list">
-      <div class="info-row">
-        <dt>发行商</dt>
-        <dd>{{ game.publisher || '未知' }}</dd>
-      </div>
-      <div class="info-row">
-        <dt>上线日期</dt>
-        <dd>{{ game.release_date || '未知' }}</dd>
-      </div>
-      <div class="info-row">
-        <dt>类型</dt>
-        <dd>{{ (game.categories && game.categories.join('、')) || '未知' }}</dd>
-      </div>
-      <div class="info-row">
-        <dt>预约量级</dt>
-        <dd>{{ game.reservation_count || '未知' }}</dd>
-      </div>
+    <dl class="g-rows">
+      <template v-for="[k, v] in rows" :key="k">
+        <dt>{{ k }}</dt>
+        <dd>{{ v }}</dd>
+      </template>
     </dl>
 
-    <div class="tags">
-      <span v-if="game.is_major_publisher" class="tag tag-major">大厂/大IP</span>
+    <div v-if="game.is_major_publisher || game.has_afk_grinding_tag || game.status_tag" class="g-tags">
+      <span v-if="game.is_major_publisher" class="badge brand">大厂/大IP</span>
+      <span
+        v-if="game.has_afk_grinding_tag"
+        class="badge star"
+        title="游戏介绍或开发者的话中提及挂机/搬砖玩法"
+      >★ 挂机/搬砖</span>
+      <span v-if="game.status_tag" class="badge">{{ game.status_tag }}</span>
     </div>
-  </div>
+  </article>
 </template>
 
 <style scoped>
-.game-card {
-  position: relative;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  padding: 16px;
-  background: #fff;
-}
-
-.card-top {
+.g-card {
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  background: var(--surface);
+  padding: 14px;
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 8px;
-  gap: 8px;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform .12s, box-shadow .12s, border-color .12s;
 }
 
-.game-name {
+.g-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-2);
+  border-color: var(--border-strong);
+}
+
+.g-top { display: flex; align-items: flex-start; gap: 8px; }
+
+.g-name {
   margin: 0;
-  font-size: 16px;
+  font-size: 14.5px;
+  font-weight: 650;
+  line-height: 1.35;
+  flex: 1;
 }
 
-.game-link {
-  color: inherit;
-  text-decoration: none;
-}
+.g-name a { text-decoration: none; }
+.g-name a:hover { color: var(--brand); }
 
-.game-link:hover {
-  color: #1976d2;
-  text-decoration: underline;
-}
-
-.score-group {
-  display: flex;
-  align-items: baseline;
-  gap: 4px;
-  flex-shrink: 0;
-}
-
-.afk-star {
-  font-size: 16px;
-  line-height: 1;
-  color: #ffc107;
-  text-shadow: 0 0 1px #e0a800;
-}
-
-.score {
-  font-size: 14px;
-  color: #ff9800;
-  font-weight: bold;
-}
-
-.info-list {
-  margin: 0 0 12px;
-}
-
-.info-row {
-  display: flex;
+.g-score {
   font-size: 13px;
-  color: #333;
-  margin-bottom: 4px;
+  font-weight: 700;
+  color: var(--warn);
+  font-variant-numeric: tabular-nums;
+  flex: none;
 }
 
-.info-row dt {
-  width: 64px;
-  color: #888;
-  flex-shrink: 0;
-}
-
-.info-row dd {
+.g-rows {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px 10px;
   margin: 0;
+  font-size: 12.5px;
 }
 
-.tags {
-  display: flex;
-  gap: 6px;
-}
+.g-rows dt { color: var(--text-3); margin: 0; }
+.g-rows dd { margin: 0; color: var(--text-2); }
 
-.tag {
-  font-size: 12px;
-  padding: 2px 8px;
-  border-radius: 4px;
-  color: #fff;
-}
-
-.tag-major {
-  background: #1976d2;
-}
+.g-tags { display: flex; flex-wrap: wrap; gap: 5px; }
 </style>
