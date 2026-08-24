@@ -1,60 +1,24 @@
 {
-  "crawled_at": "2026-08-24T00:38:41.709773+00:00",
+  "crawled_at": "2026-08-24T06:47:46.960028+00:00",
   "days": [
     {
       "date": "2026-08-24",
       "date_label": "08月24日 今天",
       "games": [
         {
-          "game_name": "永夜起源",
+          "game_name": "Anoawa",
           "categories": [
-            "策略",
-            "放置",
-            "剧情"
+            "下落式音游",
+            "音游",
+            "二次元"
           ],
           "score": null,
-          "event_desc": "上线试玩，具体几点待定",
+          "event_desc": "开启预约，上线时间待定",
           "status_tag": null,
-          "detail_url": "https://www.3839.com/a/202072.htm",
-          "publisher": "畅鸣游戏",
-          "reservation_count": "64",
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "date_label": "08月25日 明天",
-      "games": [
-        {
-          "game_name": "重制十七岁",
-          "categories": [
-            "视觉小说",
-            "剧情",
-            "悬疑"
-          ],
-          "score": null,
-          "event_desc": "正式上线，具体几点待定",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/201952.htm",
-          "publisher": "熵联天创",
-          "reservation_count": null,
+          "detail_url": "https://www.3839.com/a/202624.htm",
+          "publisher": "inokana",
+          "reservation_count": "82",
           "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "大侠闯天下",
-          "categories": [
-            "Roguelike",
-            "放置",
-            "割草"
-          ],
-          "score": null,
-          "event_desc": "正式上线，具体几点待定",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/197808.htm",
-          "publisher": "广州龙霆网络有限公司",
-          "reservation_count": "152",
-          "has_afk_grinding_tag": true
         }
       ]
     },
@@ -74,7 +38,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/156001.htm",
           "publisher": null,
-          "reservation_count": "124.2万",
+          "reservation_count": "124.9万",
           "has_afk_grinding_tag": false
         },
         {
@@ -89,7 +53,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/182527.htm",
           "publisher": null,
-          "reservation_count": "65.5万",
+          "reservation_count": "65.6万",
           "has_afk_grinding_tag": false
         },
         {
@@ -114,12 +78,12 @@
             "多平台",
             "模拟经营"
           ],
-          "score": "7.6",
+          "score": "7.5",
           "event_desc": "将于科隆游戏展曝光新动态",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/187221.htm",
           "publisher": null,
-          "reservation_count": "17.1万",
+          "reservation_count": "17.2万",
           "has_afk_grinding_tag": false
         },
         {
@@ -155,7 +119,22 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/193900.htm",
           "publisher": null,
-          "reservation_count": "1334",
+          "reservation_count": "1330",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "重制十七岁",
+          "categories": [
+            "视觉小说",
+            "剧情",
+            "悬疑"
+          ],
+          "score": null,
+          "event_desc": "上线试玩，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/201952.htm",
+          "publisher": "熵联天创",
+          "reservation_count": null,
           "has_afk_grinding_tag": false
         },
         {
@@ -215,7 +194,22 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201508.htm",
           "publisher": null,
-          "reservation_count": "130",
+          "reservation_count": "132",
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "永夜起源",
+          "categories": [
+            "策略",
+            "放置",
+            "剧情"
+          ],
+          "score": null,
+          "event_desc": "正式上线，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/202072.htm",
+          "publisher": "畅鸣游戏",
+          "reservation_count": "132",
           "has_afk_grinding_tag": true
         }
       ]
@@ -251,7 +245,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201508.htm",
           "publisher": null,
-          "reservation_count": "130",
+          "reservation_count": "132",
           "has_afk_grinding_tag": true
         },
         {
