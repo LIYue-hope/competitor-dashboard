@@ -298,8 +298,17 @@ const NEWS_FILES = [
   gap: 12px;
   height: var(--app-bar-h);
   padding: 0 20px;
-  background: var(--surface);
+  background: var(--surface-glass);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
   border-bottom: 1px solid var(--border);
+}
+
+/* 与 style.css 里 .tab-stack 同样的兜底：拿不到模糊就退回不透明底色 */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .app-bar {
+    background: var(--surface);
+  }
 }
 
 .app-bar h1 {
