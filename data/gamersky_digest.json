@@ -1,107 +1,124 @@
 {
-  "generated_at": "2026-08-24T10:53:48.369329+00:00",
+  "generated_at": "2026-08-25T00:48:17.935278+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
+      "date": "2026-08-25",
+      "article_count": 2,
+      "game_count": 1,
+      "untagged_count": 1,
+      "digest": "CD Projekt Red在科隆游戏展上确认《巫师4》将于2028年发售，并公布了《巫师3》DLC“旧时曲”的亮相计划。",
+      "digest_source": "llm",
+      "input_hash": "f9465cf12b68310d",
+      "game_digests": [
+        {
+          "name": "巫师4",
+          "count": 1,
+          "summary": "CD Projekt Red联合CEO确认《巫师4》将于2028年发售，工作室目标是在2028年的某个时间推出该作。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
       "date": "2026-08-24",
-      "article_count": 112,
-      "game_count": 49,
-      "untagged_count": 37,
-      "digest": "8月24日 游民星空 共 112 条新闻，涉及 49 款游戏。报道最集中的是《GTA6》（15 条）、《黄昏血族》（5 条）、《星鸣特攻》（3 条）。另有 37 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
-      "input_hash": "231934114bb63874",
+      "article_count": 135,
+      "game_count": 57,
+      "untagged_count": 43,
+      "digest": "今日资讯聚焦于《GTA6》持续泄露风波、《黑神话：钟馗》细节揭秘及《剑星》NS2版官宣，同时《星鸣特攻》发售两周年引发玩家热议，《艾尔登法环》登顶NS2销量榜。",
+      "digest_source": "llm",
+      "input_hash": "d27e8111d9d7961d",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 15,
-          "summary": "R星前员工:《GTA6》泄露远不如“热咖啡”危机大；《GTA6》泄露确认有超真实系统！玩家欢呼：要的就是这个；《GTA6》下次泄露实机投票 “小镇”占7成 高跟鞋败（当天共 15 条）",
-          "summary_source": "rules"
+          "count": 21,
+          "summary": "黑客Cyberleek持续爆料，发布第11波实机泄露，并提议玩家去R星总部闹事。",
+          "summary_source": "llm"
         },
         {
           "name": "黄昏血族",
           "count": 5,
-          "summary": "FS社新作《黄昏血族》并非传统魂游！重度PVP Boss战不核心；宫崎英高:《黄昏血族》21年就在做 因NS性能差点废了；FS社新作《黄昏血族》首测落幕：六大血族你最喜欢玩哪个？（当天共 5 条）",
-          "summary_source": "rules"
+          "summary": "宫崎英高透露该作21年开发时曾因NS性能差点废了，网测内容大缩水但正式版故事量将媲美魂系。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黑神话：钟馗",
+          "count": 4,
+          "summary": "官方回应沿用《黑神话：悟空》音效是有意为之，主角惯用手与钟馗相反，原计划低魔武侠后调整为中庸。",
+          "summary_source": "llm"
         },
         {
           "name": "星鸣特攻",
           "count": 3,
-          "summary": "《星鸣特攻》发售两周年仍被玩家鞭尸：索尼长记性没？；今天是个好日子：《星鸣特攻》/小岛秀夫/V社的生日；2年前的今天：旷世粪作《星鸣特攻》发售！光速下线。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "黑神话：钟馗",
-          "count": 3,
-          "summary": "《黑神话：钟馗》又一细节！主角惯用手与钟馗相反；冯骥再暗示《黑神话：钟馗》原计划低魔武侠！杨奇：还是得中庸；《黑神话：钟馗》最新发现：大蚌真君疑似厨娘帮手！收入麾下？。",
-          "summary_source": "rules"
+          "summary": "发售两周年仍被玩家鞭尸，2年前的今天该作上线两周即被关闭。",
+          "summary_source": "llm"
         },
         {
           "name": "使命召唤23 现代战争4",
           "count": 2,
-          "summary": "《使命召唤23：现代战争4》测试没人玩？24小时暴跌近半 口碑一片负面；《使命召唤23 现代战争4》猛用AI 网友:这卖70刀?我奶奶来了也行。",
-          "summary_source": "rules"
+          "summary": "测试口碑负面，24小时在线人数暴跌近半，被曝大量使用AI生成插图。",
+          "summary_source": "llm"
         },
         {
           "name": "剑星",
           "count": 2,
-          "summary": "《剑星》性感Mod：美腿就该配高叉 大雷就该配深V！；《剑星》伊芙成人级清凉mod:油光黑丝/丁字裤二选一。",
-          "summary_source": "rules"
+          "summary": "Mod制作者上传伊芙高叉紧身衣及油光黑丝等成人级清凉MOD。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星 完整版",
+          "count": 2,
+          "summary": "官方公布NS2版预告，确认将于2026年晚些时候登陆，支持Joy-Con 2体感操作。",
+          "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 2,
-          "summary": "《影之刃零》豪华版两套皮肤好帅 械摩躯是武侠朋克?；《影之刃零》排面！PS又发视频宣传：期待发售中。",
-          "summary_source": "rules"
+          "summary": "PS官方发布宣传视频，游戏将于10月29日正式发售登陆PC/PS5。",
+          "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
           "count": 2,
-          "summary": "外媒体验《漫威金刚狼》：叙事出色 但战斗很无聊；《漫威金刚狼》大幅改动漫画设定 剑齿虎等登场。",
-          "summary_source": "rules"
+          "summary": "外媒体验称叙事出色但战斗无聊，大幅改动漫画设定引发讨论。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "艾尔登法环",
+          "count": 2,
+          "summary": "在Switch 2发售前夕登顶NS2销量榜，据称运行可达60fps。",
+          "summary_source": "llm"
         },
         {
           "name": "P5",
           "count": 1,
-          "summary": "盆栽哥收到设计师亲笔《P5》老婆武见妙 《P6》周边。",
-          "summary_source": "rules"
+          "summary": "歌手盆栽哥收到设计师亲笔《P5》老婆武见妙及《P6》周边。",
+          "summary_source": "llm"
         },
         {
           "name": "Song of Kings",
           "count": 1,
-          "summary": "《Song of Kings》免费试玩版现已登陆Steam，将斯里兰卡神话带到PC平台。",
-          "summary_source": "rules"
+          "summary": "免费试玩版登陆Steam，将斯里兰卡神话带到PC平台。",
+          "summary_source": "llm"
         },
         {
           "name": "The Duskbloods",
           "count": 1,
-          "summary": "FS社新作《The Duskbloods》网测内容大缩水！老贼:正式版故事量媲美魂系。",
-          "summary_source": "rules"
+          "summary": "网测内容大缩水，宫崎英高表示正式版故事量媲美魂系。",
+          "summary_source": "llm"
         },
         {
           "name": "X战警97",
           "count": 1,
-          "summary": "《X战警97》镭射眼配音:《杀戮尖塔2》玩了上千小时。",
-          "summary_source": "rules"
+          "summary": "镭射眼配音分享游戏喜好，玩了上千小时《杀戮尖塔2》。",
+          "summary_source": "llm"
         },
         {
           "name": "三国群英传",
           "count": 1,
-          "summary": "《三国群英传》新作“吕布”来临！黑金战甲太顶了。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "不心动才有鬼",
-          "count": 1,
-          "summary": "《不心动才有鬼》采访花絮 浩浩妈王星辰遭调侃“恶心”。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "使命召唤",
-          "count": 1,
-          "summary": "《使命召唤》新作普莱斯队长头秃了？毛发优化太难绷。",
-          "summary_source": "rules"
+          "summary": "新作“吕布”模型公开，黑金战甲造型备受关注。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -909,107 +926,6 @@
           "name": "博德之门3",
           "count": 1,
           "summary": "拉瑞安工作室批准主机版新增18款免费Mod，PS5和Xbox Series X|S玩家可下载。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "article_count": 95,
-      "game_count": 40,
-      "untagged_count": 34,
-      "digest": "当日资讯聚焦国产动作游戏《影之刃零》与《湮灭之潮》，二者因致敬关羽及试玩活动引发热议，同时《漫威金刚狼》因公式化设计遭玩家质疑，多款大作如《GTA6》《王国之心4》亦有新动态。",
-      "digest_source": "llm",
-      "input_hash": "4d2367c40171ef12",
-      "game_digests": [
-        {
-          "name": "影之刃零",
-          "count": 9,
-          "summary": "预购开启并公布11分钟实机，PS5版性能独特，海外预购表现强劲，粉丝及主播给予高度评价。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 6,
-          "summary": "开启线下试玩活动，女主形象及脸模改动引发玩家讨论，B站UP主发布视频称赞游戏品质。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 5,
-          "summary": "尚未发售便遭玩家锐评，知名爆料人直言对其“0%兴趣”，Boss战设计被指公式化。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "距离发售约三个月，高级版售价100美元，预购强劲，玩家预计短期内不会打折。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "四海兄弟：故乡",
-          "count": 2,
-          "summary": "新DLC今日发售，国区售价43元，此前D加密已被破解。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "王国之心4",
-          "count": 2,
-          "summary": "官宣定档2027年发售，并支持简体中文，为系列首次。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "龙之剑：觉醒",
-          "count": 2,
-          "summary": "主要剧情免费更新，将推出新DLC，并首先移植PS5版。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "4:LOOP",
-          "count": 1,
-          "summary": "索尼发行的新游测试体验被曝“无趣”，被指可能再次失败。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Son of Thanjai",
-          "count": 1,
-          "summary": "公布幕后访谈，展示动捕过程及战斗场面，由印度Ayelet Studio开发。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴5",
-          "count": 1,
-          "summary": "贝塞斯达宣布将推出新版本更新，Mod玩家担忧兼容性问题。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "中国式家长",
-          "count": 1,
-          "summary": "推出大型更新，新增美术生玩法、四季系统及免费试玩版。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "博德之门3",
-          "count": 1,
-          "summary": "玩家发现开场存在针对夺心魔玩家的特殊语音。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "四海兄弟",
-          "count": 1,
-          "summary": "PS5版首发47港币，PS4版可免费升级。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "四海兄弟：缄默法则",
-          "count": 1,
-          "summary": "上线PS5，售价768港币，会员有折扣。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "地平线6",
-          "count": 1,
-          "summary": "PS5版发布时间曝光，前作登陆PS直接卖爆。",
           "summary_source": "llm"
         }
       ]

@@ -1,22 +1,87 @@
 {
-  "generated_at": "2026-08-24T10:50:10.232320+00:00",
+  "generated_at": "2026-08-25T00:47:29.639255+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-08-24",
-      "article_count": 51,
-      "game_count": 26,
-      "untagged_count": 12,
-      "digest": "GTA6泄露者销毁价值650万美元代币引发关注，奥日3辟谣传闻，SNK公布2025财年净亏损222亿日元。科乐美将重启合金装备等经典IP，V社庆祝成立30周年，剑星Switch2版预告发布，SNK陷入资不抵债。",
+      "date": "2026-08-25",
+      "article_count": 14,
+      "game_count": 9,
+      "untagged_count": 2,
+      "digest": "今日游戏资讯聚焦于《湮灭之潮》女主改脸争议、FromSoftware新作《黄昏血族》机制揭秘及《巫师4》定档2028年发售等热点。",
       "digest_source": "llm",
-      "input_hash": "65d7e8c5b9237d38",
+      "input_hash": "f83825478f9d8418",
+      "game_digests": [
+        {
+          "name": "湮灭之潮",
+          "count": 2,
+          "summary": "老外晒女主新美照引发争议，新版五官更柔和，制作人解释为渲染管线调整，本作将亮相科隆游戏展。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黄昏血族",
+          "count": 2,
+          "summary": "宫崎英高透露新作核心为美德胜利点系统，灵感来自桌游《卡坦岛》，对局分多轮淘汰，最后存活三人进入终局。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黑神话：钟馗",
+          "count": 2,
+          "summary": "8082音频工作室放出民乐录制幕后花絮，配乐风格革新，融合市井烟火与捉鬼肃杀氛围，将传统乐器与现代编曲结合。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "三国志14威力加强传承版",
+          "count": 1,
+          "summary": "光荣公布假想剧本“英杰会聚”，秦始皇、朱元璋等跨朝帝王同台争霸，新增军情侦察与“功劳-方策”养成链。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 1,
+          "summary": "CDPR官宣游戏将于2028年发售，登陆PS5、XSX|S和PC，称其为迄今规模最大、最具野心的一款游戏，科隆展将展示《巫师3》DLC。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "真三国无双",
+          "count": 1,
+          "summary": "赵云登杂志封面，再现护送阿斗名场面，Fami通特集梳理系列美术变迁，《真三国无双2 with 猛将传 Remastered》10月1日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "荒野大镖客2",
+          "count": 1,
+          "summary": "MOD制作者Roxis724打造《新天堂——被遗忘的边境》MOD，将于9月16日上线，还原墨西哥地图。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "隐藏真探",
+          "count": 1,
+          "summary": "Steam试玩版上线，采用全动态真人影像形式，邀请《隐形守护者》原班演员加盟，玩家扮演特工胡杨在谍战中抉择。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黎明行者之血",
+          "count": 1,
+          "summary": "官方确认首发当日补丁将追加60帧性能模式，此前主机版最高帧率仅40帧，PS5和PS5 Pro均支持该模式。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "article_count": 55,
+      "game_count": 29,
+      "untagged_count": 12,
+      "digest": "今日游戏资讯聚焦于《GTA6》泄露视频引发争议、《奥日3》传闻辟谣、以及《半条命》30周年纪念等热点事件，同时涉及多款新作预告与厂商动态。",
+      "digest_source": "llm",
+      "input_hash": "162af977817cf55a",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 9,
-          "summary": "泄露者Cyberleek销毁价值650万美元虚拟代币$CYBERLEEK，共计2.7亿枚，市值超4500万美元。",
+          "count": 10,
+          "summary": "第11个泄露视频曝光，展示杰森夜闯全果派对及大量裸露镜头，引发玩家对R星“DEDE”倾向的讨论。",
           "summary_source": "llm"
         },
         {
@@ -28,79 +93,79 @@
         {
           "name": "沉没之城2",
           "count": 2,
-          "summary": "生存恐怖游戏《沉没之城2》叫好不叫座，Steam历史最高同时在线人数为1906人。",
+          "summary": "生存恐怖游戏《沉没之城2》叫好不叫座，Steam历史最高在线人数仅为1906人。",
           "summary_source": "llm"
         },
         {
           "name": "渔力全开",
           "count": 2,
-          "summary": "《渔力全开》MOD下载，死亡不掉落mod、多人联机mod、准心mod是热度最高的三款实用模组。",
+          "summary": "《渔力全开》MOD下载热度高，死亡不掉落、多人联机等实用模组安装教程引发关注。",
           "summary_source": "llm"
         },
         {
           "name": "黄昏血族",
           "count": 2,
-          "summary": "宫崎英高盛赞NS2，称《黄昏血族》在初代Switch上开发太难，得益于Switch 2硬件提升。",
+          "summary": "宫崎英高盛赞NS2，称《黄昏血族》在初代Switch上开发困难，得益于Switch 2硬件提升。",
           "summary_source": "llm"
         },
         {
           "name": "黑神话：钟馗",
           "count": 2,
-          "summary": "游科放出15分钟实机演示，外媒认为画面逼真带来压迫感，优化压力大。",
+          "summary": "15分钟实机演示获外媒好评，画面逼真且优化压力大，叙事氛围阴沉。",
           "summary_source": "llm"
         },
         {
           "name": "Afterworld",
           "count": 1,
-          "summary": "P社手滑自曝新IP《Afterworld》，后末日大战略玩法在论坛后台操作失误中泄露。",
+          "summary": "P社手滑自曝新IP《Afterworld》，后末日大战略玩法在论坛提前泄露。",
           "summary_source": "llm"
         },
         {
           "name": "SNK",
           "count": 1,
-          "summary": "SNK陷入资不抵债，2025财年净亏损222亿日元，营收同比增长10%但亏损显著下滑。",
+          "summary": "陷入资不抵债状态，2025财年净亏损222亿日元，虽营收增长但仍面临财务困境。",
           "summary_source": "llm"
         },
         {
           "name": "Song of Kings",
           "count": 1,
-          "summary": "《Song of Kings》免费试玩版登陆Steam，将斯里兰卡神话带到PC平台。",
+          "summary": "免费试玩版登陆Steam，将斯里兰卡神话带到PC平台，玩家可体验魔笛解谜玩法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Win11",
+          "count": 1,
+          "summary": "Windows 11测试版新增“智能分配”功能，允许用户自行分配内存给游戏和AI。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 1,
+          "summary": "B测第一轮最高同时在线人数达11万5145人，数据表现亮眼。",
           "summary_source": "llm"
         },
         {
           "name": "剑星：完整版",
           "count": 1,
-          "summary": "《剑星：完整版》Switch2新预告发布，支持Joy-Con2体感操控，将于2026年下半年发售。",
+          "summary": "Switch2新预告发布，支持Joy-Con2体感操控，将于2026年下半年发售。",
           "summary_source": "llm"
         },
         {
           "name": "半条命",
           "count": 1,
-          "summary": "V社正式成立30周年，Steam和《半条命》书写传奇，1998年《半条命》横空出世。",
+          "summary": "V社正式成立30周年，回顾《半条命》系列对FPS游戏及Steam平台的革命性贡献。",
           "summary_source": "llm"
         },
         {
           "name": "合金装备",
           "count": 1,
-          "summary": "科乐美将《合金装备》《恶魔城》重启列为最高优先级，称其为业务支柱的重要举措。",
+          "summary": "科乐美将《合金装备》《恶魔城》重启列为最高优先级，并计划重启《幻想水浒传》。",
           "summary_source": "llm"
         },
         {
           "name": "城堡漂流记",
           "count": 1,
-          "summary": "《城堡漂流记》Demo上线，玩家可免费下载体验，正式版预计于2026年第四季度发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：旧时曲",
-          "count": 1,
-          "summary": "CDPR确认《巫师3：旧时曲》将拥有更多昆特牌内容，社区经理回复“确认！100%”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "方块方舟",
-          "count": 1,
-          "summary": "《方块方舟》地下迷城DLC定档8月27日登陆Steam，首发首周享9折特惠。",
+          "summary": "Demo上线Steam，玩家可免费体验打造飞行城堡的冒险玩法。",
           "summary_source": "llm"
         }
       ]
@@ -897,107 +962,6 @@
           "name": "红色沙漠",
           "count": 1,
           "summary": "1.18.00版本更新补丁上线，优化马厩功能并修复多项BUG。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "article_count": 31,
-      "game_count": 23,
-      "untagged_count": 5,
-      "digest": "3DMGame当日共收录31条新闻，涉及23款游戏。焦点集中在《漫威金刚狼》D23宣传片公布及发售日确认，以及《ARC Raiders》营收突破183亿日元。此外，2K挖角前FIFA制作人组建新工作室挑战EA，《使命召唤：现代战争4》开启B测，多款新作如《涩谷交叉物语》、《Japanese Swordsmith》等公布或发售，同时《女巨人游乐场》因发行纠纷引发争议。",
-      "digest_source": "llm",
-      "input_hash": "114752c4dd6d3ca8",
-      "game_digests": [
-        {
-          "name": "漫威金刚狼",
-          "count": 3,
-          "summary": "SIE在D23大会发布最新宣传片，金刚狼与X战警将迎战反派，游戏定于9月15日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "ARC Raiders",
-          "count": 2,
-          "summary": "Nexon报告该作单季营收达183亿日元，占公司总营收15%，全球销量突破1630万份。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "428",
-          "count": 1,
-          "summary": "经典神作《428》的精神续作《涩谷交叉物语》首次公布角色截图，海报中的五位主角亮相。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "EA SPORTS FC 26",
-          "count": 1,
-          "summary": "2K挖角前FIFA资深制作人Aaron McHardy组建Small Axe工作室，旨在打造3A级体育游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Japanese Swordsmith",
-          "count": 1,
-          "summary": "硬核日本刀锻造模拟游戏《Japanese Swordsmith》上线Steam，还原传统锻造工艺。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Trick × Trick",
-          "count": 1,
-          "summary": "超能力死亡游戏悬疑解谜游戏《Trick × Trick》登陆Steam正式推出。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "动视确认多人游戏Beta公测将于8月21日开启，PC、PS5和Xbox Series X|S平台支持。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：黑色行动2",
-          "count": 1,
-          "summary": "官方推送01.007.000补丁，包含安全更新、UI修复及自定义游戏景深效果开关。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环：战役进化",
-          "count": 1,
-          "summary": "游戏将于下周迎来五项关键更新，修复色差、AI及跨平台稳定性问题。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "卡莉亚的炼金工房",
-          "count": 1,
-          "summary": "官方公布趣味调查，八成玩家赞同女主进食后真实反应机制，欧美玩家支持率达91%。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "四海兄弟最终版",
-          "count": 1,
-          "summary": "PS Plus版玩家无法获得免费次世代升级，仅购买PS4或Xbox One版的玩家可领取。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达：时之笛 重制版",
-          "count": 1,
-          "summary": "任天堂Switch 2 Pro手柄40周年限定包装泄露图片曝光。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "女巨人游乐场",
-          "count": 1,
-          "summary": "游戏开启抢测后，开发者怒斥发行商未经同意擅自发行，表示已准备起诉。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "妹妹、他人、妄想症",
-          "count": 1,
-          "summary": "黑暗系视觉冒险游戏《妹妹、他人、妄想症》正式登陆Steam，支持中文。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "完蛋！我被男同学包围了",
-          "count": 1,
-          "summary": "游戏因主创需兼顾学业，已从Steam平台下架处理。",
           "summary_source": "llm"
         }
       ]
