@@ -1,70 +1,207 @@
 {
-  "generated_at": "2026-08-25T00:47:29.639255+00:00",
+  "generated_at": "2026-08-26T00:48:46.162456+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-08-25",
-      "article_count": 14,
-      "game_count": 9,
-      "untagged_count": 2,
-      "digest": "今日游戏资讯聚焦于《湮灭之潮》女主改脸争议、FromSoftware新作《黄昏血族》机制揭秘及《巫师4》定档2028年发售等热点。",
+      "date": "2026-08-26",
+      "article_count": 28,
+      "game_count": 28,
+      "untagged_count": 0,
+      "digest": "2026年科隆游戏展开幕夜集中公布多款新预告与发售信息，涵盖动作、恐怖、射击及模拟等类型，国产游戏《影之刃零》预售表现亮眼。",
       "digest_source": "llm",
-      "input_hash": "f83825478f9d8418",
+      "input_hash": "20f98020476aa7d7",
       "game_digests": [
+        {
+          "name": "1001 Threads of Mizan",
+          "count": 1,
+          "summary": "中东题材动作冒险游戏《1001 Threads of Mizan》公布12分钟实机演示。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "1666：阿姆斯特丹",
+          "count": 1,
+          "summary": "《1666：阿姆斯特丹》在科隆展公布新预告，并于Steam和Epic开启抢先体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Cinder City",
+          "count": 1,
+          "summary": "NCSoft科幻题材MMO开放世界战术射击游戏《Cinder City》新预告公布。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "No Law",
+          "count": 1,
+          "summary": "开放世界赛博朋克FPS《No Law》公布新实机预告，宣布将于2027年发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Perceptum",
+          "count": 1,
+          "summary": "心理恐怖游戏《Perceptum》新预告公布，确认将于2027年发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "TARAE: The Unbound",
+          "count": 1,
+          "summary": "东方暗黑RPG《TARAE: The Unbound》新预告公布，展示过场与战斗画面。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "乐高：天际线",
+          "count": 1,
+          "summary": "P社与Iceflake Studios公布《乐高：天际线》，登陆PC、NS2、PS5和Xbox。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "动物朋克",
+          "count": 1,
+          "summary": "国产游戏《动物朋克》新预告公布，展示酷帅兔哥砍机甲的战斗画面。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "地铁2039",
+          "count": 1,
+          "summary": "《地铁2039》全新预告公布，展示画面与战斗细节，将于2027年2月发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "大迁离",
+          "count": 1,
+          "summary": "类《质量效应》游戏《大迁离》公布新实机预告，确认将于2027年4月发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "寂静岭：小镇陷落",
+          "count": 1,
+          "summary": "《寂静岭：小镇陷落》新预告公布，将于9月24日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 1,
+          "summary": "《巫师3：狂猎 重制版》官宣，将于9月29日上线，并公布新DLC“旧时曲”预告。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "《影之刃零》Steam预售销量达《黑神话》同期73%，愿望单人数突破200万。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "恐龙猎人：起源",
+          "count": 1,
+          "summary": "《恐龙猎人：起源》全新预告公布，将于今秋登陆多平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战争机器：事变日",
+          "count": 1,
+          "summary": "《战争机器：事变日》新预告公布，确认将于10月6日发售。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "article_count": 78,
+      "game_count": 54,
+      "untagged_count": 13,
+      "digest": "GTA6泄露视频持续曝光，展示海滩NPC细节；地铁2039公布典藏版头盔实物；天地创造确认复刻回归；湮灭之潮女主新美照引发争议；红色沙漠入围科隆游戏展两项大奖；黑神话：钟馗发布配乐幕后花絮；龙之剑：觉醒撤回mod限制公告；Age Twisters获科隆游戏展大奖提名；Bodycam宣布9月2日更新强化音效；Dokimon Quest开启Steam免费活动；NBA2KOL2举办阵营狙击赛直播；生化危机9演员将主持游戏展活动；SUPER BOMBERMAN COLLECTION新增Panic Bomber W。",
+      "digest_source": "llm",
+      "input_hash": "86287f691f8f2a18",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "泄露视频展示傍晚海滩场景，NPC设计细节丰富，但光线昏暗影响观感。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "地铁：2039",
+          "count": 2,
+          "summary": "4A Games公布典藏版头盔实物，将于科隆游戏展展出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "天地创造",
+          "count": 2,
+          "summary": "原作人设藤原神威寄语，确认复刻回归将于2027年登陆多平台。",
+          "summary_source": "llm"
+        },
         {
           "name": "湮灭之潮",
           "count": 2,
-          "summary": "老外晒女主新美照引发争议，新版五官更柔和，制作人解释为渲染管线调整，本作将亮相科隆游戏展。",
+          "summary": "女主新美照引发争议，被指撞脸迪丽热巴，制作方解释为渲染管线调整。",
           "summary_source": "llm"
+        },
+        {
+          "name": "红色沙漠",
+          "count": 2,
+          "summary": "入围科隆游戏展“最具史诗感游戏”与“最佳PC游戏”奖项。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "轮回之兽",
+          "count": 2,
+          "summary": "国产《轮回之兽》？游先看：《伊始之猫》首部预告发布；《轮回之兽》更新上线 修复调整多处玩家诟病问题。",
+          "summary_source": "rules"
         },
         {
           "name": "黄昏血族",
           "count": 2,
-          "summary": "宫崎英高透露新作核心为美德胜利点系统，灵感来自桌游《卡坦岛》，对局分多轮淘汰，最后存活三人进入终局。",
-          "summary_source": "llm"
+          "summary": "FS社《黄昏血族》有恋爱系统 夫妻搭配干活不累；《黄昏血族》网络封闭测试比《艾尔登法环：黑夜君临》还要火。",
+          "summary_source": "rules"
         },
         {
           "name": "黑神话：钟馗",
           "count": 2,
-          "summary": "8082音频工作室放出民乐录制幕后花絮，配乐风格革新，融合市井烟火与捉鬼肃杀氛围，将传统乐器与现代编曲结合。",
+          "summary": "8082音频工作室发布配乐幕后花絮，展现传统民乐与现代编曲结合。",
           "summary_source": "llm"
         },
         {
-          "name": "三国志14威力加强传承版",
-          "count": 1,
-          "summary": "光荣公布假想剧本“英杰会聚”，秦始皇、朱元璋等跨朝帝王同台争霸，新增军情侦察与“功劳-方策”养成链。",
+          "name": "龙之剑：觉醒",
+          "count": 2,
+          "summary": "因mod限制条款遭玩家反对，官方撤回公告并道歉。",
           "summary_source": "llm"
         },
         {
-          "name": "巫师4",
+          "name": "Age Twisters",
           "count": 1,
-          "summary": "CDPR官宣游戏将于2028年发售，登陆PS5、XSX|S和PC，称其为迄今规模最大、最具野心的一款游戏，科隆展将展示《巫师3》DLC。",
+          "summary": "获科隆游戏展大奖“最有益健康作品”提名。",
           "summary_source": "llm"
         },
         {
-          "name": "真三国无双",
+          "name": "Bodycam",
           "count": 1,
-          "summary": "赵云登杂志封面，再现护送阿斗名场面，Fami通特集梳理系列美术变迁，《真三国无双2 with 猛将传 Remastered》10月1日发售。",
+          "summary": "宣布9月2日发布更新，强化真实音效与气氛。",
           "summary_source": "llm"
         },
         {
-          "name": "荒野大镖客2",
+          "name": "Dokimon Quest",
           "count": 1,
-          "summary": "MOD制作者Roxis724打造《新天堂——被遗忘的边境》MOD，将于9月16日上线，还原墨西哥地图。",
+          "summary": "在Steam开启免费活动，原价48元。",
           "summary_source": "llm"
         },
         {
-          "name": "隐藏真探",
+          "name": "NBA2KOL2",
           "count": 1,
-          "summary": "Steam试玩版上线，采用全动态真人影像形式，邀请《隐形守护者》原班演员加盟，玩家扮演特工胡杨在谍战中抉择。",
+          "summary": "举办阵营狙击赛直播活动，邀请跨圈主播参与。",
           "summary_source": "llm"
         },
         {
-          "name": "黎明行者之血",
+          "name": "Resident Evil Requiem",
           "count": 1,
-          "summary": "官方确认首发当日补丁将追加60帧性能模式，此前主机版最高帧率仅40帧，PS5和PS5 Pro均支持该模式。",
+          "summary": "演员将主持Future Games Show，带领观众观看独家内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "SUPER BOMBERMAN COLLECTION",
+          "count": 1,
+          "summary": "免费更新新增《Panic Bomber W》。",
           "summary_source": "llm"
         }
       ]
@@ -861,107 +998,6 @@
           "name": "塞尔达传说",
           "count": 1,
           "summary": "IGN在预览体验中称《火焰纹章：万缕千丝》在主角切换设计上“借鉴了近年《塞尔达》游戏的思路”。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "article_count": 20,
-      "game_count": 16,
-      "untagged_count": 4,
-      "digest": "今日游戏资讯涵盖电竞、新作发售、厂商动态及行业传闻，DOTA2 TI15中国战队全军覆没，多款游戏公布新内容或引发讨论。",
-      "digest_source": "llm",
-      "input_hash": "42c25caea582d98a",
-      "game_digests": [
-        {
-          "name": "DOTA2",
-          "count": 1,
-          "summary": "TI15小组赛结束，三支中国战队XG、VG、TR悉数被淘汰，创下自TI1以来的历史最差战绩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GT赛车7",
-          "count": 1,
-          "summary": "马自达RX-VISION GT3 Evo正式确认将于年内登陆《GT赛车7》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Rideshare刺激模拟",
-          "count": 1,
-          "summary": "Saber Interactive用ChatGPT取代首席编剧，被曝充斥AI生成内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "X战警前传：金刚狼",
-          "count": 1,
-          "summary": "网友对比2009年旧作与2026年新作《漫威金刚狼》，称后者不过是画面更精美的老一套。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "不义联盟2",
-          "count": 1,
-          "summary": "NetherRealm工作室确认《不义联盟2》全球销量已超过900万，引发对《不义联盟3》的讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤",
-          "count": 1,
-          "summary": "据爆料微软正探索让动视协助开发《光环》多人游戏，Sledgehammer Games可能参与其中。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环",
-          "count": 1,
-          "summary": "据称未来《光环》系列开发将重度依赖外包模式，15家外部工作室参与制作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环：战役进化",
-          "count": 1,
-          "summary": "该作几乎全外包开发，共有15家外部工作室参与制作，涉及全流程开发。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "彩虹六号：围攻",
-          "count": 1,
-          "summary": "第三赛季“裂焰行动”全内容公布，包含排位赛3.0改版、新干员努尔及街机模式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "实体收藏版预约人数超3.2万人，已超过2万套的限量发售数量。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战神",
-          "count": 1,
-          "summary": "演员克里斯托弗·贾奇澄清无意争取真人剧奎托斯，并对弃用原班人马表示不满。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "湖之仆从",
-          "count": 1,
-          "summary": "冒险新作《湖之仆从》于8月13日发售，Steam好评率高达98%。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "王国之心",
-          "count": 1,
-          "summary": "野村哲也透露将深度参与动画系列开发，并负责多款全新角色设计。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化危机9",
-          "count": 1,
-          "summary": "授权厂商宣传帖疑似意外泄露艾达·王将回归《生化危机9》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "红色沙漠",
-          "count": 1,
-          "summary": "1.18.00版本更新补丁上线，优化马厩功能并修复多项BUG。",
           "summary_source": "llm"
         }
       ]

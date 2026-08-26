@@ -1,46 +1,147 @@
 {
-  "generated_at": "2026-08-25T00:48:09.182969+00:00",
+  "generated_at": "2026-08-26T00:49:00.858801+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-08-24",
-      "article_count": 88,
-      "game_count": 52,
-      "untagged_count": 23,
-      "digest": "GTA6因黑客泄露引发网飞不满及恶意软件风波，FS社新作Switch 2测试暴露性能问题，沉没之城2口碑好但销量遇冷，WARDOGS测试爆火，多款新作定名或公布。",
+      "date": "2026-08-25",
+      "article_count": 72,
+      "game_count": 45,
+      "untagged_count": 16,
+      "digest": "今日游侠网共发布72条资讯，涵盖45款游戏。重点聚焦《巫师4》因索尼取消实体版政策引发玩家抵制，以及《GTA6》泄露风波与阴谋论讨论。此外，《使命召唤：现代战争4》Switch 2版公测定档且预购火爆，但Steam测试流失率极高；《龙之剑：觉醒》因MOD新规引发争议后撤回。其他资讯还包括《Afterworld》泄露、科隆游戏展提名及多款游戏发售与更新动态。",
       "digest_source": "llm",
-      "input_hash": "596e411a747c0936",
+      "input_hash": "acd94d063387dc57",
       "game_digests": [
         {
-          "name": "GTA6",
-          "count": 8,
-          "summary": "网飞对黑客Cyberleek持续泄露实机视频不满，官方辟谣113GB伪造镜像文件含恶意软件，称暂无公开PC可玩版本。",
+          "name": "巫师4",
+          "count": 5,
+          "summary": "CDPR官宣《巫师4》2028年发售，因索尼取消PS实体版政策，大量玩家集体发声抵制纯数字游戏。",
           "summary_source": "llm"
         },
         {
-          "name": "黄昏之血",
+          "name": "GTA6",
           "count": 4,
-          "summary": "宫崎英高确认Switch 2版将优化性能，FS社测试反馈帧率与延迟问题，并引入基于技术的匹配机制避免新手被虐。",
+          "summary": "《GTA6》泄露视频持续刷屏，引发行业热议，独立游戏《Leafborn》借机蹭流量营销行为引发广泛讨论。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤：现代战争4",
           "count": 2,
-          "summary": "B测Steam在线人数骤降超50%，多人死斗模式实机试玩流出，被曝滥用AI素材引发玩家吐槽。",
+          "summary": "《使命召唤：现代战争4》Switch 2版公测定档8月28日，预购近40万份收入超1.5亿。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "现代战争4",
+          "count": 2,
+          "summary": "《现代战争4》Steam测试流失超七成，首轮峰值11.5万人，当前仅3万人在线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黎明行者之血",
+          "count": 2,
+          "summary": "《黎明行者之血》公布10分钟主机版实机演示，首日补丁确认PS5/XSX新增60帧模式。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "龙之剑：觉醒",
+          "count": 2,
+          "summary": "《龙之剑：觉醒》因MOD管控条款繁琐严苛引发反对，官方迅速致歉并撤回新规。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Afterworld",
+          "count": 1,
+          "summary": "P社全新废土大战略游戏《Afterworld》泄露曝光，打破官方预热悬念。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Age Twisters",
+          "count": 1,
+          "summary": "KRAFTON旗下《Age Twisters》入围2026科隆游戏展“最有益健康作品”奖。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "DQ11S",
+          "count": 1,
+          "summary": "《DQ11S》Switch 2版预告公开，支持1080p/60帧与1440p/30帧双模式，为独立发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Dokimon Quest",
+          "count": 1,
+          "summary": "像素风“宝可梦”《Dokimon Quest》在Steam限时免费，原价49元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7启示",
+          "count": 1,
+          "summary": "《FF7启示》科隆展台照片曝光，推测首次线下试玩即将到来。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7重生",
+          "count": 1,
+          "summary": "《FF7重生》蒂法泳装手办开放预购，定价29700日元，11月28日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑/盾",
+          "count": 1,
+          "summary": "宝可梦前《剑/盾》艺术总监James Turner回归，出任TPC创意总监。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "名利场2：冒牌富少",
+          "count": 1,
+          "summary": "真人互动影游《名利场2：冒牌富少》今日登陆Steam商店页，愿望单同步开启。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "回音：飞艇传说",
+          "count": 1,
+          "summary": "开放世界飞艇生存RPG《回音：飞艇传说》发布v0.20.0“暴风雨”大型更新。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "article_count": 97,
+      "game_count": 56,
+      "untagged_count": 27,
+      "digest": "GTA6持续遭黑客泄露引发网飞不满，官方辟谣恶意偷跑；FS社新作Switch 2版性能堪忧；沉没之城2发售IGN获8分但Steam热度低迷；WARDOGS测试爆火破10万在线；奥日总监否认新作传闻；FF10开启25周年纪念活动；多款新作如DRIVE IN THE RAIN、KOTAMON等陆续发售或官宣。",
+      "digest_source": "llm",
+      "input_hash": "a6387db13d9496ac",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 9,
+          "summary": "网飞对黑客Cyberleek持续泄露实机视频不满，官方辟谣113GB伪造恶意安装包，称暂无公开PC可玩版本。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黄昏之血",
+          "count": 4,
+          "summary": "宫崎英高确认Switch 2版将优化性能，但网络测试反馈帧率与延迟问题仍待打磨，并确认引入匹配机制。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 2,
+          "summary": "B测Steam在线人数骤降超50%，被曝大量使用AI生成美术素材引发玩家吐槽。",
           "summary_source": "llm"
         },
         {
           "name": "奥日",
           "count": 2,
-          "summary": "系列总监否认《奥日3》开发传闻，透露Moon Studios正讨论回购IP，原开发商因专注《恶意不息》缺席新作。",
+          "summary": "系列总监否认《奥日3》开发传闻，透露Moon Studios正讨论回购IP，但爆料称新作将由其他开发商制作。",
           "summary_source": "llm"
         },
         {
           "name": "沉没之城2",
           "count": 2,
-          "summary": "IGN给出8分好评，Steam特别好评但峰值仅1906人，高昂定价导致叫好不叫座。",
+          "summary": "IGN打出8分好评，但Steam峰值仅1906人，高昂定价成为叫好不叫座的核心原因。",
           "summary_source": "llm"
         },
         {
@@ -52,13 +153,19 @@
         {
           "name": "FAREIDOLIA",
           "count": 1,
-          "summary": "NEXON代号为“Project RX”的动漫风格游戏正式定名《FAREIDOLIA》。",
+          "summary": "NEXON代号为“Project RX”的动漫风格游戏正式定名《FAREIDOLIA》，并开放试玩。",
           "summary_source": "llm"
         },
         {
           "name": "FF10",
           "count": 1,
           "summary": "史克威尔艾尼克斯宣布9月12日推出25周年纪念抽签及“幻光之记忆”大型展览。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "KOTAMON",
+          "count": 1,
+          "summary": "收集模拟新作《KOTAMON》登陆Steam，自带简体中文且评价特别好评。",
           "summary_source": "llm"
         },
         {
@@ -70,37 +177,31 @@
         {
           "name": "Song of Kings",
           "count": 1,
-          "summary": "叙事驱动型解谜平台游戏《Song of Kings》免费试玩版登陆Steam。",
+          "summary": "受斯里兰卡神话启发的解谜平台游戏《Song of Kings》免费试玩版登陆Steam。",
           "summary_source": "llm"
         },
         {
           "name": "TORIGAME",
           "count": 1,
-          "summary": "复古经典动作游戏《TORIGAME》将于8月24日23:00登陆Steam。",
+          "summary": "复古经典动作游戏《TORIGAME》将于8月24日23:00登陆Steam，复刻27年前经典乐趣。",
           "summary_source": "llm"
         },
         {
           "name": "WARDOGS",
           "count": 1,
-          "summary": "FPS《WARDOGS》Steam测试同时在线人数突破10万5000人。",
+          "summary": "FPS新作《WARDOGS》Steam测试爆火，10.5万人同时在线，主打100人大混战。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤4",
           "count": 1,
-          "summary": "《使命召唤：现代战争4》被曝大量使用AI生成美术素材，玩家吐槽售价虚高。",
+          "summary": "《使命召唤：现代战争4》被曝滥用AI素材，玩家吐槽售价虚高。",
           "summary_source": "llm"
         },
         {
           "name": "刺客信条：黑旗RE",
           "count": 1,
-          "summary": "发售逾月，育碧深挖1724年《海贼史》文献，聚焦海贼史实与传奇交汇。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星完整版",
-          "count": 1,
-          "summary": "SHIFT UP放出NS2版“无删减动作”PV，确定于2026年下半年登陆NS2平台。",
+          "summary": "发售逾月热度未消，育碧深挖1724年《海贼史》文献，聚焦海贼史实。",
           "summary_source": "llm"
         }
       ]
@@ -808,107 +909,6 @@
           "name": "人中之龙",
           "count": 1,
           "summary": "改编舞台剧《神室町八犬传》正式公布，预定于2026年8月上演。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "article_count": 31,
-      "game_count": 17,
-      "untagged_count": 9,
-      "digest": "国产游戏《影之刃零》热度居高不下，Steam预估销量达26.5万份，实体收藏版预约人数突破3.2万。索尼宣布将于8月18日举办其专属State of Play发布会。此外，《湮灭之潮》女主脸模调整引发争议，而《生化9》艾达王回归消息意外泄露。",
-      "digest_source": "llm",
-      "input_hash": "fe5deeffe372999a",
-      "game_digests": [
-        {
-          "name": "影之刃零",
-          "count": 3,
-          "summary": "《影之刃零》实体收藏版礼盒在京东开启预约，目前预约人数已突破3.2万，而官方限定发售总量仅为2万套。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 3,
-          "summary": "《湮灭之潮》放出40分钟实机试玩演示，引发玩家关注。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化9",
-          "count": 2,
-          "summary": "卡普空合作厂商宣传帖意外泄露艾达・王或将登陆《生化危机9》，事后紧急删改相关内容，官方暂未对此事作出回应。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Unhinged",
-          "count": 1,
-          "summary": "网飞游戏事业传出裁员与关停消息，网飞已决定关闭旗下位于洛杉矶的游戏工作室Night School Studio，以及芬兰赫尔辛基的Moonloot Games。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "人类 一败涂地",
-          "count": 1,
-          "summary": "曾打造《人类：一败涂地》的开发商No Brakes Games正式公开了旗下全新VR物理解谜游戏《Tiny Flock》（中文暂译《小小羊群》）。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "仁王3",
-          "count": 1,
-          "summary": "B站光荣特库摩官方账号发布了《仁王3》DLC“庆安地狱变”忍盾矛的实机演示，引发玩家关注。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：黑色行动2",
-          "count": 1,
-          "summary": "《使命召唤：黑色行动2》PS平台推送新补丁，新增安全更新，优化自定义游戏视觉效果，修复多项UI及多人模式问题。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环",
-          "count": 1,
-          "summary": "据《光环》系列爆料人Rebs Gaming透露，光环工作室未来开发工作将大幅依赖外包模式，此前发售的《光环：战役进化》已呈现出这一趋势。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "全面战争",
-          "count": 1,
-          "summary": "世嘉在Steam平台开启发行商特卖活动，旗下《全面战争》系列迎来全线折扣，低至1.5折。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺客信条4黑旗RE",
-          "count": 1,
-          "summary": "知名破解者voices38攻破了《刺客信条4：黑旗 记忆重置》的Denuvo加密，并放出可离线运行的版本。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "时之笛",
-          "count": 1,
-          "summary": "外媒报道任天堂或正在筹备一款《塞尔达传说》主题的Switch 2特别版主机，相关图片近日已在网上流出。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "明末2",
-          "count": 1,
-          "summary": "505 Games及其母公司Digital Bros集团宣布与《明末：渊虚之羽》原主创夏思源创立的新工作室签署开发与发行协议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "湖之仆从",
-          "count": 1,
-          "summary": "《锈湖》新作《湖之仆从》发售后口碑爆棚，Steam获98%好评，凭借独特画风、优质谜题与剧情广受玩家喜爱。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "玩具总动员3",
-          "count": 1,
-          "summary": "Xbox商店将于下月起停止销售《玩具总动员3》Xbox 360版本，为即将推出的现代化重制版《玩具总动员3：完全版》让出销售位置。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "红色沙漠",
-          "count": 1,
-          "summary": "《红色沙漠》推送1.18.00版本更新，优化马厩、知识系统与相机设置，修复各类BUG、提升稳定性。",
           "summary_source": "llm"
         }
       ]

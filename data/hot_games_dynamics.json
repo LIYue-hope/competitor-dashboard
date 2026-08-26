@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-08-25T00:41:09.104326+00:00",
+  "crawled_at": "2026-08-26T00:41:30.487005+00:00",
   "window_days": 7,
   "publishers": [
     {
@@ -49,6 +49,13 @@
               "url": "https://df.qq.com/cp/a20240906main/newsdetail.html?id=4615657799545625504"
             },
             {
+              "title": "违规行为处罚公告(8.10~8.16)",
+              "type": "安全公告",
+              "date": "2026-08-21",
+              "summary": "（本条为图片公告，正文无文字内容，点击查看原文）",
+              "url": "https://df.qq.com/cp/a20240906main/newsdetail.html?id=9268768654971673903"
+            },
+            {
               "title": "第三周第二轮循环赛A、B组对决今日开启！",
               "type": "赛事",
               "date": "2026-08-21",
@@ -75,13 +82,6 @@
               "date": "2026-08-20",
               "summary": "常规赛第三周 第一轮循环赛 A 、 B 组 的比赛已于今日圆满结束！新一周全新对阵登场，各位选手火力全开状态拉满，为周积分展开激烈角逐！ 第一轮循环赛A组赛果 恭喜 eStar 夺得第一轮循环赛A组积分第一！ eStar战队R5破译曼德尔砖缩小积分差距，R7局内团队配合默契，进攻…",
               "url": "https://df.qq.com/cp/a20240906main/newsdetail.html?id=6855334450309879866"
-            },
-            {
-              "title": "第三周揭幕战今日打响，A、B组率先登场！",
-              "type": "赛事",
-              "date": "2026-08-19",
-              "summary": "8月19日，2026三角洲行动烽火职业联赛夏季赛常规赛进入第三周。今日进行第一轮循环赛A、B组比赛，12支战队开启本周周积分争夺。 A组14:00率先开赛 eStar、NOVA、广州狼队、TEC、TES、北京DRG六支战队展开A组较量。对阵阵容如下。 A组首发名单 B组约17:3…",
-              "url": "https://df.qq.com/cp/a20240906main/newsdetail.html?id=18196119306901375912"
             }
           ],
           "has_afk_grinding_tag": false
@@ -116,15 +116,7 @@
           "publisher_key": "tencent",
           "official_url": "https://rocom.qq.com/",
           "source_status": "ok",
-          "updates": [
-            {
-              "title": "违规行为处罚公告（2026年8月11日~8月17日）",
-              "type": "处罚公告",
-              "date": "2026-08-19",
-              "summary": "亲爱的小洛克： 为打造公平、健康的游戏环境，保障各位小洛克的账号资产安全与游戏公平体验，自开服以来，「王国安全部」持续对发布违规信息、使用外挂、脚本或其他第三方辅助工具、恶意利用游戏漏洞获取不正 当 收益等行为进行监测和打击。详细规则请查阅游戏公告 ——《公平游戏公约》 。 王国…",
-              "url": "https://rocom.qq.com/web202507/sub/detail.html?newsid=18838122"
-            }
-          ],
+          "updates": [],
           "has_afk_grinding_tag": false
         },
         {
@@ -133,15 +125,7 @@
           "publisher_key": "tencent",
           "official_url": "https://world.qq.com/",
           "source_status": "ok",
-          "updates": [
-            {
-              "title": "8月20日不停服更新公告",
-              "type": "更新公告",
-              "date": "2026-08-19",
-              "summary": "为提升游戏体验，《王者荣耀世界》于8月20日05:00~06:00进行不停服维护更新，具体情况请以游戏为准。感谢大家的支持和理解，祝游戏愉快！",
-              "url": "https://world.qq.com/web202603/newsDetail.html?newsid=18838035"
-            }
-          ],
+          "updates": [],
           "has_afk_grinding_tag": false
         },
         {
@@ -151,6 +135,13 @@
           "official_url": "https://pvp.qq.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "8月25日体验服停机更新公告",
+              "type": "更新公告",
+              "date": "2026-08-25",
+              "summary": "",
+              "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=807688"
+            },
             {
               "title": "8月25日安卓建议更新公告",
               "type": "更新公告",
@@ -206,20 +197,6 @@
               "date": "2026-08-20",
               "summary": "",
               "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=807462"
-            },
-            {
-              "title": "英雄平衡性调整 | 钟无艳增强",
-              "type": "公告",
-              "date": "2026-08-19",
-              "summary": "",
-              "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=807389"
-            },
-            {
-              "title": "8月20日版本更新公告",
-              "type": "更新公告",
-              "date": "2026-08-19",
-              "summary": "",
-              "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=807388"
             }
           ],
           "has_afk_grinding_tag": false
@@ -265,13 +242,6 @@
               "date": "2026-08-20",
               "summary": "",
               "url": "https://jcc.qq.com/#/news/16342196803179720115"
-            },
-            {
-              "title": "《金铲铲之战》18.1版本 8月20日更新欢迎来到【自然之力】",
-              "type": "更新公告",
-              "date": "2026-08-19",
-              "summary": "",
-              "url": "https://jcc.qq.com/#/news/9564050190647869289"
             }
           ],
           "has_afk_grinding_tag": false
@@ -306,13 +276,6 @@
               "date": "2026-08-21",
               "summary": "",
               "url": "https://cfm.qq.com/web201801/detail.shtml?docid=7376603338501006945"
-            },
-            {
-              "title": "【活动介绍】暴风赤红送抽活动上线，联动武器套装同步登场！",
-              "type": "新活动",
-              "date": "2026-08-19",
-              "summary": "",
-              "url": "https://cfm.qq.com/web201801/detail.shtml?docid=12686828968321178120"
             }
           ],
           "has_afk_grinding_tag": false
@@ -324,6 +287,13 @@
           "official_url": "https://codm.qq.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "限时CP免费领活动将迎来第四周",
+              "type": "新活动",
+              "date": "2026-08-24",
+              "summary": "",
+              "url": "https://codm.qq.com/gicp/news/887/18840940.html"
+            },
             {
               "title": "8月26日见，请先欣赏【亡灵军团】系列化实机展示",
               "type": "公告",
@@ -351,13 +321,6 @@
               "date": "2026-08-20",
               "summary": "",
               "url": "https://codm.qq.com/gicp/news/887/18839107.html"
-            },
-            {
-              "title": "倒计时2天！真的忍不住好想斗啊！！",
-              "type": "公告",
-              "date": "2026-08-19",
-              "summary": "",
-              "url": "https://codm.qq.com/gicp/news/887/18838484.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -412,13 +375,6 @@
               "date": "2026-08-20",
               "summary": "幽深古堡迷雾不散，一场关于搜证与推理的庄园故事仍在继续。娱乐玩法“加页手记”S0赛季迎来重大版本更新，为各位访客带来内容更饱满、操作更顺滑的庄园冒险！ 【辞章藏品更新，解锁别样庄园能力】 本次更新上线稀世、奇珍、独特三类辞章，每件藏品都承载着独属于庄园的故事。【稀世辞章】包含瓶装…",
               "url": "https://id5.163.com/news/official/20260820/26476_1311752.html"
-            },
-            {
-              "title": "夏末风起，新刃试锋——《第五人格》2026IVL夏季赛总决赛大战在即",
-              "type": "新闻",
-              "date": "2026-08-19",
-              "summary": "南国八月，暑热未消，初秋的微凉已在珠江水面悄悄铺开。夏日的羊城将见证勇士们逐光前行，荣耀加身的热血时刻。《第五人格》2026IVL夏季赛总决赛的大幕即将拉开，然而这次与以往相比有些许不同——由于亚运会国家队的征召，多支战队出现了核心选手暂别赛场和新人轮换的情况。崭新的面孔在赛场上…",
-              "url": "https://id5.163.com/news/official/20260819/26476_1311601.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -459,27 +415,6 @@
               "date": "2026-08-20",
               "summary": "8月28日，请侠探秘",
               "url": "https://www.yysls.cn/news/official/20260822/37780_1311917.html"
-            },
-            {
-              "title": "新的“侠迹”，落在帕米尔高原",
-              "type": "新闻",
-              "date": "2026-08-19",
-              "summary": "【山水一砚】战令外观本周返场",
-              "url": "https://www.yysls.cn/news/official/20260822/37780_1311918.html"
-            },
-            {
-              "title": "8月19日2.7.5C版本在线修复公告",
-              "type": "更新公告",
-              "date": "2026-08-19",
-              "summary": "8月19日2.7.5C版本在线修复公告",
-              "url": "https://www.yysls.cn/news/update/20260817/40412_1311301.html"
-            },
-            {
-              "title": "8月19日2.7.5C版本「陌上花正好」更新公告",
-              "type": "更新公告",
-              "date": "2026-08-19",
-              "summary": "8月19日2.7.5C版本「陌上花正好」更新公告",
-              "url": "https://www.yysls.cn/news/update/20260819/40412_1311611.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -492,32 +427,11 @@
           "source_status": "ok",
           "updates": [
             {
-              "title": "天音无界，尘寰和鸣，阴阳师×Vsinger 联动合作曲上线！",
-              "type": "新闻",
-              "date": "2026-08-19",
-              "summary": "歌声轻扬，夜色渐长。异世界偶然的邂逅，让我们并肩肆意闯。着灯海寻踪觅迹，驻足云华打捞遗失声韵。愿旋律再度响起，伴你我奔赴归途，「灯火之下，共赴繁华， 与你并肩把故事唱完吧！」",
-              "url": "https://yys.163.com/news/official/20260820/22592_1311826.html"
-            },
-            {
-              "title": "全新版本「云华依言歌」正式开启！全新联动限定SSR角色 洛天依、言和今日降临！",
-              "type": "新闻",
-              "date": "2026-08-19",
-              "summary": "以歌寄愿，声彻云华。全平台互通新区【天籁和音】现已开启，全新联动限定角色SSR洛天依、SSR言和今日降临！ 登录即领洛天依/言和联动皮肤62魂玉抵扣券！",
-              "url": "https://yys.163.com/news/official/20260820/22592_1311823.html"
-            },
-            {
-              "title": "阴阳师×Vsinger联动「声动云华」网页活动开启，参与活动领丰厚好礼！",
-              "type": "新活动",
-              "date": "2026-08-19",
-              "summary": "依言浅歌，唱响云华。大人参与网页活动，达成指定条件。即可解锁洛天依聊天挂件（30天）、言和聊天挂件（30天）、抓抓币、神秘的符咒·限时 御行达摩（碎片）等丰富好礼！",
-              "url": "https://yys.163.com/news/official/20260820/22592_1311824.html"
-            },
-            {
-              "title": "《阴阳师》手游8月19日维护更新公告",
+              "title": "《阴阳师》手游8月26日维护更新公告",
               "type": "更新公告",
-              "date": "2026-08-19",
-              "summary": "※维护时间 2026年8月19日7:00-9:00 ※亲爱的阴阳师大人： 为了给大家带来更好的游戏体验，服务器将进行停服维护，期间暂时无法进入游戏。若未能按时完成维护，则开服时间将会顺延，给各位带来的不便敬请谅解，非常感谢大家的支持和理解！",
-              "url": "https://yys.163.com/news/update/20260818/23024_1311591.html"
+              "date": "2026-08-25",
+              "summary": "※维护时间 2026年8月26日7:30-9:00 ※亲爱的阴阳师大人： 为了给大家带来更好的游戏体验，服务器将进行停服维护，期间暂时无法进入游戏。若未能按时完成维护，则开服时间将会顺延，给各位带来的不便敬请谅解，非常感谢大家的支持和理解！",
+              "url": "https://yys.163.com/news/update/20260825/23024_1312226.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -570,13 +484,6 @@
               "date": "2026-08-20",
               "summary": "为了保证服务器的运行稳定和服务质量，《逆水寒》将于2026年8月20日早8时停机进行维护工作，预计维护到上午10时。",
               "url": "https://n.163.com/news/update/20260819/29094_1311750.html"
-            },
-            {
-              "title": "装备“重生”、200万奖金，敬献武神坛巅峰！",
-              "type": "新闻",
-              "date": "2026-08-19",
-              "summary": "黄金畅玩服是一片机缘纵横的江湖，多重词条随机组合，每次鉴定都有机会邂逅绝世奇兵。然而装备词条一锤落定，想要拿到心仪的趁手装备实属不易。",
-              "url": "https://n.163.com/news/20260819/26225_1311687.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -587,7 +494,15 @@
           "publisher_key": "netease",
           "official_url": "https://www.yjwujian.cn/news/",
           "source_status": "ok",
-          "updates": [],
+          "updates": [
+            {
+              "title": "8月25日《永劫无间》违规玩家封禁公告",
+              "type": "公告",
+              "date": "2026-08-25",
+              "summary": "各位英雄： 《永劫无间》致力于打造一个公正、健康、良好的竞技环境。 目前有部分玩家采取“请挂护航”的手段实现快速上分的目的，严重破坏了游戏竞技公平，对游戏环境造成了极大的影响。 针对“请挂护航”的违规玩家，永劫无间开发团队将对其进行严厉打击，依据具体违规情况，对其进行扣除段位分、…",
+              "url": "https://www.yjwujian.cn/news/update/20260825/33456_1312204.html"
+            }
+          ],
           "has_afk_grinding_tag": false
         },
         {
@@ -605,22 +520,7 @@
           "publisher_key": "netease",
           "official_url": "https://sky.163.com/",
           "source_status": "ok",
-          "updates": [
-            {
-              "title": "《光·遇》繁花映云间创作激励活动丨把绣球传给想见的人吧",
-              "type": "新活动",
-              "date": "2026-08-19",
-              "summary": "【《光·遇》繁花映云间 多平台创作激励活动】 《光·遇》七夕节开启！参与各平台创作活动，携带话题#光遇 #光遇七夕 #光遇绣球传给想见的人 发布《光·遇》七夕节相关的原创作品，就有机会瓜分万元奖励，赢丰富好礼！",
-              "url": "https://sky.163.com/news/activity/20260818/26691_1311482.html"
-            },
-            {
-              "title": "繁花寄意 共赴佳期丨《光·遇》七夕节：把绣球传给想见的人吧~",
-              "type": "公告",
-              "date": "2026-08-19",
-              "summary": "由网易游戏代理的《光·遇》，凭借清新唯美的美术画面和创新独特的游戏玩法，荣膺“2020 Apple Design Awards”和“2020 Google Play年度最具创新力游戏”奖项！《光·遇》七夕节已于8月19日正式上线，繁花寄意，共赴佳期，把绣球传给想见的人吧~ 繁花寄…",
-              "url": "https://sky.163.com/news/official/20260818/26689_1311589.html"
-            }
-          ],
+          "updates": [],
           "has_afk_grinding_tag": false
         },
         {
@@ -629,15 +529,7 @@
           "publisher_key": "netease",
           "official_url": "https://sea.163.com/",
           "source_status": "ok",
-          "updates": [
-            {
-              "title": "8月20日不停服更新公告",
-              "type": "更新公告",
-              "date": "2026-08-19",
-              "summary": "尊敬的船长： 为提供更优质的游戏体验，《遗忘之海》将于 2026年8月20日 06:00~09:00 进行 不停服更新 ，期间航行不会中断，您仍可正常体验游戏，仅有少量功能会临时停用。更新时长可能视实际情况略有浮动，请船长们合理安排游戏进度和时间。 ★ 更新安排 更新时间：202…",
-              "url": "https://sea.163.com/news/update/20260819/42727_1311663.html"
-            }
-          ],
+          "updates": [],
           "has_afk_grinding_tag": false
         },
         {
@@ -647,6 +539,13 @@
           "official_url": "https://my.163.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "2026年08月26日维护公告：全新岭南道召唤灵入世",
+              "type": "更新公告",
+              "date": "2026-08-25",
+              "summary": "亲爱的玩家朋友： 为保证服务器的运行稳定和服务质量，《梦幻西游》手游及电脑端版本（《梦幻西游：时空》）正式服所有服务器将于2026年8月26日停机，进行维护工作。预计维护时间为8:00～9:00。",
+              "url": "https://my.163.com/news/news/20260825/16741_1312206.html"
+            },
             {
               "title": "轻享服的少侠：你们的人物属性又能提升一层！",
               "type": "公告",
@@ -693,6 +592,13 @@
           "official_url": "https://ys.mihoyo.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "《原神》7.0版本表情包「派蒙的画作第52弹」现已上线",
+              "type": "新闻",
+              "date": "2026-08-25",
+              "summary": "亲爱的旅行者，「派蒙的画作第52弹」表情包现已陆续开放下载，欢迎前往【微信表情包商城】以及【抖音表情包商城】下载使用！ ‌ 微信表情包（即将上线）获取Tips： 1-前往微信“搜一搜”搜索“原神表情包第52弹”； 2-点击导航栏“表情”按钮，进入表情专辑，即可下载使用。 抖音表情…",
+              "url": "https://ys.mihoyo.com/main/news/detail/165884"
+            },
             {
               "title": "《原神》过场动画-「凯旋」",
               "type": "新闻",
@@ -748,13 +654,6 @@
               "date": "2026-08-20",
               "summary": "咳咳，接下来要讲的可是本次体验课重点中的重点，都给我认真听好了。 啧，现在的年轻人，怎么感觉专注力越来越差了？！ 针对大家的情况，我专门制定了一份考题，全部答完再下课吧。 旅行者和派蒙？你们还有什么不懂的问题吗，我的课堂随时欢迎提问哦。 关于《原神》 《原神》是由米哈游自研的一款…",
               "url": "https://ys.mihoyo.com/main/news/detail/165835"
-            },
-            {
-              "title": "行过风波，赴一场至冬日常！",
-              "type": "新闻",
-              "date": "2026-08-19",
-              "summary": "经历了一系列风波，我们结识了至冬的新伙伴，也迎来了冰原上的新战斗。现在，是时候走近伙伴们的故事，磨砺自身的枪法——把这趟旅途，走得更远吧！ 关于《原神》 《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。 在这广阔的世界中，你可以踏遍…",
-              "url": "https://ys.mihoyo.com/main/news/detail/165804"
             }
           ],
           "has_afk_grinding_tag": false
@@ -766,6 +665,34 @@
           "official_url": "https://sr.mihoyo.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "4.5版本「挥掷千星的筹码」版本更新说明",
+              "type": "更新公告",
+              "date": "2026-08-26",
+              "summary": "以何代价，可换取乐园一息尚存？以何声响，能引来琥珀垂落目光？天平已悄然校准，而你，唯有孤注一掷。",
+              "url": "https://sr.mihoyo.com/news/165896"
+            },
+            {
+              "title": "4.5版本活动跃迁（其一）",
+              "type": "新活动",
+              "date": "2026-08-25",
+              "summary": "限定5星角色「知更鸟•晴歌（记忆•风）」「风堇（记忆•风）」跃迁成功概率限时提升。",
+              "url": "https://sr.mihoyo.com/news/165883"
+            },
+            {
+              "title": "「超限：狂飙大奖赛」：夺得赛事冠军，获取自塑尘脂、命运的足迹、星琼等奖励！",
+              "type": "公告",
+              "date": "2026-08-25",
+              "summary": "千星城全新的赛车比赛将效仿「幻月游戏」，唯一胜利的队伍将登神成为「掌管交通（规则）的神」。",
+              "url": "https://sr.mihoyo.com/news/165885"
+            },
+            {
+              "title": "《崩坏：星穹铁道》知更鸟•晴歌角色PV——「追赶风的方向」",
+              "type": "新闻",
+              "date": "2026-08-25",
+              "summary": "风将吹向何方，谁也捉摸不透。气球又会系着我去哪漫游？",
+              "url": "https://sr.mihoyo.com/news/165882"
+            },
             {
               "title": "4.5版本预下载&更新预告",
               "type": "更新公告",
@@ -800,13 +727,6 @@
               "date": "2026-08-20",
               "summary": "4.5版本更新后，「差分宇宙•乐园漫记」将更新全新谒者面具、方程、奇物、加权奇物、事件！此外，最高星阶提升至X10「万机之王」。",
               "url": "https://sr.mihoyo.com/news/165836"
-            },
-            {
-              "title": "《崩坏：星穹铁道》走近星穹——「知更鸟•晴歌：快乐的小鸟」",
-              "type": "新闻",
-              "date": "2026-08-19",
-              "summary": "「哥哥，你也来啦？新歌听了吗？」",
-              "url": "https://sr.mihoyo.com/news/165803"
             }
           ],
           "has_afk_grinding_tag": false
@@ -838,13 +758,6 @@
               "date": "2026-08-20",
               "summary": "「我得决定一下要怎么度过今天，你有什么推荐吗？」",
               "url": "https://zzz.mihoyo.com/news/165825"
-            },
-            {
-              "title": "漫长的告别丨3.1版本内容一览（下期）",
-              "type": "新闻",
-              "date": "2026-08-19",
-              "summary": "S级代理人[希格莉德(冰 ·强攻)]与S级音擎[骁骑礼赞(强攻)]加入限时频段，「独家重映」&「音擎回响」频段也已开启。",
-              "url": "https://zzz.mihoyo.com/news/165800"
             }
           ],
           "has_afk_grinding_tag": false
@@ -899,6 +812,62 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "《无限暖暖》2.9版本「向晴空绽放」|「字境奇旅」联动活动",
+              "type": "新活动",
+              "date": "2026-08-25",
+              "summary": "《无限暖暖》2.9版本「向晴空绽放」8月28日全球同步开启！",
+              "url": "https://infinitynikki.nuanpaper.com/news/1011"
+            },
+            {
+              "title": "下课一起走好吗？| 新华书店文创精选联动预告",
+              "type": "新闻",
+              "date": "2026-08-25",
+              "summary": "",
+              "url": "https://infinitynikki.nuanpaper.com/news/1004"
+            },
+            {
+              "title": "《无限暖暖》2.9版本「向晴空绽放」|「晨曦照见心花」限时累充回馈",
+              "type": "新活动",
+              "date": "2026-08-25",
+              "summary": "《无限暖暖》2.9版本「向晴空绽放」8月28日全球同步开启！",
+              "url": "https://infinitynikki.nuanpaper.com/news/1010"
+            },
+            {
+              "title": "《无限暖暖》2.9版本「向晴空绽放」|「商城」限时复刻",
+              "type": "新活动",
+              "date": "2026-08-25",
+              "summary": "《无限暖暖》2.9版本「向晴空绽放」8月28日全球同步开启！",
+              "url": "https://infinitynikki.nuanpaper.com/news/1008"
+            },
+            {
+              "title": "《无限暖暖》2.9版本「向晴空绽放」| 缤纷商品上新",
+              "type": "新闻",
+              "date": "2026-08-25",
+              "summary": "《无限暖暖》2.9版本「向晴空绽放」8月28日全球同步开启！",
+              "url": "https://infinitynikki.nuanpaper.com/news/1009"
+            },
+            {
+              "title": "《无限暖暖》2.9版本「向晴空绽放」| 商城套装上新",
+              "type": "新闻",
+              "date": "2026-08-25",
+              "summary": "《无限暖暖》2.9版本「向晴空绽放」8月28日全球同步开启！",
+              "url": "https://infinitynikki.nuanpaper.com/news/1007"
+            },
+            {
+              "title": "《无限暖暖》奇想映像 |「星之海」新增进化奖励实机展示",
+              "type": "新闻",
+              "date": "2026-08-25",
+              "summary": "《无限暖暖》2.9版本「向晴空绽放」8月28日全球同步开启！",
+              "url": "https://infinitynikki.nuanpaper.com/news/1006"
+            },
+            {
+              "title": "《无限暖暖》奇想映像 | 2.9版本服装赠礼实机展示",
+              "type": "新闻",
+              "date": "2026-08-25",
+              "summary": "《无限暖暖》2.9版本「向晴空绽放」8月28日全球同步开启！",
+              "url": "https://infinitynikki.nuanpaper.com/news/1005"
+            },
+            {
               "title": "「向着云顶，冲鸭」「牧铃声中的曼舞」限定共鸣复刻开启",
               "type": "新闻",
               "date": "2026-08-24",
@@ -946,13 +915,6 @@
               "date": "2026-08-22",
               "summary": "",
               "url": "https://infinitynikki.nuanpaper.com/news/997"
-            },
-            {
-              "title": "♾️ INFINITY｜黄金乡后日谈",
-              "type": "新闻",
-              "date": "2026-08-19",
-              "summary": "",
-              "url": "https://infinitynikki.nuanpaper.com/news/996"
             }
           ],
           "has_afk_grinding_tag": false,
@@ -974,7 +936,15 @@
           "publisher_key": "hg_kuro_pape",
           "official_url": "https://evol.papegames.cn/",
           "source_status": "ok",
-          "updates": [],
+          "updates": [
+            {
+              "title": "【爱与远方·热带风】完成小游戏，免费领取SSR羁绊！",
+              "type": "公告",
+              "date": "2026-08-24",
+              "summary": "",
+              "url": "https://evol.papegames.cn/news/904"
+            }
+          ],
           "has_afk_grinding_tag": false,
           "company": "叠纸"
         },
@@ -1032,13 +1002,6 @@
               "date": "2026-08-20",
               "summary": "服务器预计于8月21日02:00-06:00进行不停服更新，具体结束时间可能会根据更新情况有所提前或延后。",
               "url": "https://yh.wanmei.com/news/gamebroad/20260821/263671.html"
-            },
-            {
-              "title": "《异环》8月20日不停服更新公告",
-              "type": "更新公告",
-              "date": "2026-08-19",
-              "summary": "服务器预计于8月20日02:00-06:00进行不停服更新，具体结束时间可能会根据更新情况有所提前或延后。",
-              "url": "https://yh.wanmei.com/news/gamebroad/20260819/263646.html"
             }
           ],
           "has_afk_grinding_tag": false,
@@ -1051,6 +1014,34 @@
           "official_url": "https://www.chaoziran.com/news",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "【无心-霜枫照夜】时装模型展示",
+              "type": "新闻",
+              "date": "2026-08-25",
+              "summary": "",
+              "url": "https://www.chaoziran.com/news/720"
+            },
+            {
+              "title": "梨园炼狱模式上线！300万的金缕玉衣来啦",
+              "type": "新闻",
+              "date": "2026-08-25",
+              "summary": "",
+              "url": "https://www.chaoziran.com/news/719"
+            },
+            {
+              "title": "新怪物【豹弹仔】调查影像爆料......",
+              "type": "新闻",
+              "date": "2026-08-25",
+              "summary": "",
+              "url": "https://www.chaoziran.com/news/718"
+            },
+            {
+              "title": "8月25日更新——无限梦境炼狱模式上线！",
+              "type": "更新公告",
+              "date": "2026-08-25",
+              "summary": "",
+              "url": "https://www.chaoziran.com/news/721"
+            },
             {
               "title": "S11魔盒【无心-霜枫照夜】时装爆料！",
               "type": "新闻",
@@ -1113,20 +1104,6 @@
               "date": "2026-08-20",
               "summary": "",
               "url": "https://www.chaoziran.com/news/711"
-            },
-            {
-              "title": "不必再藏着了，可以露出我藏在下面的发色了",
-              "type": "新闻",
-              "date": "2026-08-19",
-              "summary": "",
-              "url": "https://www.chaoziran.com/news/708"
-            },
-            {
-              "title": "【弦月琵琶】皮肤爆料！",
-              "type": "新闻",
-              "date": "2026-08-19",
-              "summary": "",
-              "url": "https://www.chaoziran.com/news/707"
             }
           ],
           "has_afk_grinding_tag": false,
@@ -1164,6 +1141,13 @@
           "official_url": "https://game.bilibili.com/nslg/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "《三国：谋定天下》8月26日停服更新预告",
+              "type": "更新公告",
+              "date": "2026-08-25",
+              "summary": "",
+              "url": "https://game.bilibili.com/nslg/?news_detail_id=18279"
+            },
             {
               "title": "合服结果公告（8月22日）",
               "type": "公告",

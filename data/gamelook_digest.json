@@ -1,9 +1,38 @@
 {
-  "generated_at": "2026-08-25T00:48:20.782770+00:00",
+  "generated_at": "2026-08-26T00:49:33.786652+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-08-25",
+      "article_count": 7,
+      "game_count": 3,
+      "untagged_count": 4,
+      "digest": "今日行业资讯聚焦国产3A与独立游戏，多款产品在销量与流水上表现亮眼，引发市场热议。",
+      "digest_source": "llm",
+      "input_hash": "86078310fc6c4e0d",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "愿望单超160万、海外玩家达70%，有望突破千万套销量。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "沙金工业",
+          "count": 1,
+          "summary": "1人开发作品Steam爆卖12万套，画面抽象引发关注。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "诡秘之主",
+          "count": 1,
+          "summary": "周末3天预估流水超6000万，项目组自曝利润率爆表。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-08-24",
       "article_count": 8,
