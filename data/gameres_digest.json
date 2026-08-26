@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T07:51:06.306230+00:00",
+  "generated_at": "2026-08-26T08:45:22.586748+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
@@ -50,15 +50,15 @@
       "article_count": 8,
       "game_count": 1,
       "untagged_count": 7,
-      "digest": "8月25日 游资网 共 8 条新闻，涉及 1 款游戏。报道最集中的是《异环》（1 条）。另有 7 条未指向具体游戏的行业或平台资讯。《异环》方面的报道有「《异环》流水超20亿，完美世界下半年业绩引期待」。",
-      "digest_source": "rules",
+      "digest": "当日资讯主要聚焦完美世界旗下新作《异环》，该作上线后全球流水表现亮眼，已突破20亿元大关，虽上半年公司归母净利润亏损，但得益于《异环》收入逐步释放及多元业务布局，市场对其下半年业绩表现抱有较高期待。",
+      "digest_source": "llm",
       "input_hash": "f9d393e3df25ca1d",
       "game_digests": [
         {
           "name": "异环",
           "count": 1,
-          "summary": "《异环》流水超20亿，完美世界下半年业绩引期待。",
-          "summary_source": "rules"
+          "summary": "《异环》上线后全球流水超20亿元，完美世界上半年归母净亏主因《异环》上线初期收入费用错配，随着该作收入逐步释放，叠加多元业务布局，市场对其下半年业绩引期待。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -67,21 +67,21 @@
       "article_count": 11,
       "game_count": 2,
       "untagged_count": 9,
-      "digest": "8月24日 游资网 共 11 条新闻，涉及 2 款游戏。报道最集中的是《小冰冰斗蛐蛐》（1 条）、《金铲铲之战》（1 条）。另有 9 条未指向具体游戏的行业或平台资讯。《小冰冰斗蛐蛐》方面的报道有「莉莉丝的斗蛐蛐！《小冰冰斗蛐蛐》体验怎么样？」。",
-      "digest_source": "rules",
+      "digest": "今日游戏行业资讯主要聚焦于莉莉丝与腾讯两款头部产品的动态。莉莉丝推出《小冰冰传奇》IP衍生的斗蛐蛐品类小游戏《小冰冰斗蛐蛐》，采用1v1回合制匹配战斗；腾讯《金铲铲之战》开启「自然之力」赛季，以森林、魔法为核心推出特色羁绊与“自然仙灵”机制。",
+      "digest_source": "llm",
       "input_hash": "a239a0554e0e426a",
       "game_digests": [
         {
           "name": "小冰冰斗蛐蛐",
           "count": 1,
-          "summary": "莉莉丝的斗蛐蛐！《小冰冰斗蛐蛐》体验怎么样？。",
-          "summary_source": "rules"
+          "summary": "莉莉丝测试《小冰冰传奇》IP衍生的斗蛐蛐品类小游戏《小冰冰斗蛐蛐》，采用1v1回合制匹配战斗，含金币肉鸽、赛季回收等机制，有潜力但目前仍需打磨。",
+          "summary_source": "llm"
         },
         {
           "name": "金铲铲之战",
           "count": 1,
-          "summary": "常玩常新的《金铲铲之战》，又做出了一个“味”很正的赛季？。",
-          "summary_source": "rules"
+          "summary": "《金铲铲之战》「自然之力」赛季上线，以森林、魔法、自然为核心，推出峡谷野怪、永恒之森等特色羁绊弈子，核心机制“自然仙灵”为对局增添更多策略趣味。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -90,33 +90,33 @@
       "article_count": 9,
       "game_count": 4,
       "untagged_count": 5,
-      "digest": "8月21日 游资网 共 9 条新闻，涉及 4 款游戏。报道最集中的是《俱乐大玩家》（1 条）、《星砂岛》（1 条）、《沉没之城 2》（1 条）。另有 5 条未指向具体游戏的行业或平台资讯。另外还有《黑神话：钟馗》（1 条）也有报道。",
-      "digest_source": "rules",
+      "digest": "2026年8月21日游戏行业资讯聚焦于新作发售与实机演示发布。游戏科学发布《黑神话：钟馗》15分钟实机演示，展示美术与战斗升级；Fami通发布《沉没之城2》评测，称其克苏鲁题材黑暗冒险玩法精炼易上手；《星砂岛》正式版上线，主打休闲治愈与高自由度生活模拟；《竞拍之王》玩法移植的《俱乐大玩家》上线，采用赛季外显商业化设计。",
+      "digest_source": "llm",
       "input_hash": "ee4679d4b6a40339",
       "game_digests": [
         {
           "name": "俱乐大玩家",
           "count": 1,
-          "summary": "Steam爆款竞拍玩法搬进小游戏！《俱乐大玩家》能跑通吗？。",
-          "summary_source": "rules"
+          "summary": "将Steam爆款《竞拍之王》的竞拍社交玩法移植到小游戏，保留核心体验与策略博弈属性，适配节奏设分级房间，采用赛季外显商业化设计。",
+          "summary_source": "llm"
         },
         {
           "name": "星砂岛",
           "count": 1,
-          "summary": "强调享受生活的《星砂岛》，不只是“又一个种田游戏”。",
-          "summary_source": "rules"
+          "summary": "正式版上线，主打休闲治愈享受生活理念，赋予玩家高自由度选择权，涵盖多元玩法、联机功能及UGC生态。",
+          "summary_source": "llm"
         },
         {
           "name": "沉没之城 2",
           "count": 1,
-          "summary": "《沉没之城 2》Fami 通评测：被克苏鲁神话追逐的黑暗冒险。",
-          "summary_source": "rules"
+          "summary": "Fami通发布抢先评测，称其克苏鲁题材第三人称生存恐怖游戏玩法精炼、原创剧情易上手，已于8月18日登陆多平台。",
+          "summary_source": "llm"
         },
         {
           "name": "黑神话：钟馗",
           "count": 1,
-          "summary": "“低调”的《黑神话：钟馗》，也许比《悟空》更意想不到？。",
-          "summary_source": "rules"
+          "summary": "游戏科学发布15分钟实机演示，涵盖剧情、动作、关卡探索及首领战，展现美术与战斗交互的打磨升级。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -125,33 +125,33 @@
       "article_count": 10,
       "game_count": 4,
       "untagged_count": 6,
-      "digest": "8月20日 游资网 共 10 条新闻，涉及 4 款游戏。报道最集中的是《他予回声》（1 条）、《异环》（1 条）、《弹企鹅》（1 条）。另有 6 条未指向具体游戏的行业或平台资讯。另外还有《赫尔铸界》（1 条）也有报道。",
-      "digest_source": "rules",
+      "digest": "8月20日游戏行业资讯聚焦于新游动态与厂商财报，乐元素展示3D偶像新作《他予回声》并开启测试招募，完美世界发布半年报披露《异环》全球流水破20亿，Roguelite弹幕射击游戏《弹企鹅》今日登陆Steam发售，物理砍杀肉鸽新作《赫尔铸界》亮相科隆并定档2027年Q1。",
+      "digest_source": "llm",
       "input_hash": "e884c37e86700791",
       "game_digests": [
         {
           "name": "他予回声",
           "count": 1,
           "summary": "乐元素3D偶像游戏《他予回声》新团亮相，首次测试招募同步开启。",
-          "summary_source": "rules"
+          "summary_source": "llm"
         },
         {
           "name": "异环",
           "count": 1,
-          "summary": "完美世界2026半年报：《异环》全球流水破20亿 Q3起释放业绩。",
-          "summary_source": "rules"
+          "summary": "完美世界发布2026年半年报，披露《异环》全球流水破20亿，业绩Q3起逐步释放。",
+          "summary_source": "llm"
         },
         {
           "name": "弹企鹅",
           "count": 1,
-          "summary": "弹射肉鸽游戏《弹企鹅》今日发售：瞄准，发射，消灭敌人！。",
-          "summary_source": "rules"
+          "summary": "Roguelite弹射弹幕射击游戏《弹企鹅》今日登陆Steam发售，售价37元，首两周享九折优惠。",
+          "summary_source": "llm"
         },
         {
           "name": "赫尔铸界",
           "count": 1,
-          "summary": "大西瓜杀出冥界？《赫尔铸界》参展科隆定档明年初。",
-          "summary_source": "rules"
+          "summary": "融合物理碰撞与合成消除机制的砍杀肉鸽新作《赫尔铸界》亮相科隆Gamescom，定档2027年Q1登陆Steam抢先体验。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -160,45 +160,45 @@
       "article_count": 13,
       "game_count": 6,
       "untagged_count": 7,
-      "digest": "8月19日 游资网 共 13 条新闻，涉及 6 款游戏。报道最集中的是《后室》（1 条）、《沉星之序》（1 条）、《灵魂潮汐》（1 条）。另有 7 条未指向具体游戏的行业或平台资讯。另外还有《致命躯壳 II》（1 条）、《雾海之下》（1 条）、《龙石战争》（1 条）也有报道。",
-      "digest_source": "rules",
+      "digest": "今日游戏行业资讯聚焦于多款新作发售与老游优化，涵盖后室方法论解析、沉星之序多平台定档、灵魂潮汐系统复盘、致命躯壳II体验报告、雾海之下首测细节及龙石战争玩法融合等热点，展现了从独立游戏到3A大作的多维度动态。",
+      "digest_source": "llm",
       "input_hash": "53410402d30134b7",
       "game_digests": [
         {
           "name": "后室",
           "count": 1,
-          "summary": "后现代爆款指南：《后室》游戏方法论。",
-          "summary_source": "rules"
+          "summary": "《后室》游戏方法论文章梳理了该亚文化的游戏化发展脉络，对比经典与后现代惊悚游戏，解析多人合作微恐探索游戏的爆款逻辑与可借鉴经验。",
+          "summary_source": "llm"
         },
         {
           "name": "沉星之序",
           "count": 1,
-          "summary": "《沉星之序》将于10月9日在PC、NINTENDO SWITCH 2和PLAYSTATION 5平台推出。",
-          "summary_source": "rules"
+          "summary": "由知名游戏设计师Jonathan Blow领衔开发的叙事冒险解谜新作《沉星之序》将于10月9日登陆PC、Nintendo Switch 2及PS5平台，含千余手工谜题，Steam试玩版已开放且进度可继承。",
+          "summary_source": "llm"
         },
         {
           "name": "灵魂潮汐",
           "count": 1,
-          "summary": "《灵魂潮汐》复盘记录：战斗系统、养成系统。",
-          "summary_source": "rules"
+          "summary": "复盘记录分析了《灵魂潮汐》因主线高认知负荷、无扫荡等设计导致玩家流失的核心问题，并提出系统策划执行原则与主线减负、轻内容拓维等优化方案。",
+          "summary_source": "llm"
         },
         {
           "name": "致命躯壳 II",
           "count": 1,
-          "summary": "我不做耐力条了！《致命躯壳 II》体验报告。",
-          "summary_source": "rules"
+          "summary": "体验报告指出《致命躯壳 II》已收到通知，欧洲ARPG崛起了，并强调游戏不再做耐力条。",
+          "summary_source": "llm"
         },
         {
           "name": "雾海之下",
           "count": 1,
-          "summary": "《雾海之下》的待机模式，你发现了吗？丨触乐。",
-          "summary_source": "rules"
+          "summary": "网易雷火织屋工作室开发的《雾海之下》开启首测，游戏以“吃打撤”为核心，还在待机模式、捏脸呆毛等非核心细节处用心打磨。",
+          "summary_source": "llm"
         },
         {
           "name": "龙石战争",
           "count": 1,
-          "summary": "搜打撤+模拟经营！这款《龙石战争》玩出了新花样！。",
-          "summary_source": "rules"
+          "summary": "Q版中式微恐3D LowPoly风格小游戏《龙石战争》融合搜打撤战斗与列车模拟经营玩法，二者形成资源正向循环，还设抓宠附身、肉鸽BD等特色内容。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -207,21 +207,21 @@
       "article_count": 7,
       "game_count": 2,
       "untagged_count": 5,
-      "digest": "8月18日 游资网 共 7 条新闻，涉及 2 款游戏。报道最集中的是《卧龙2：凤火连天》（1 条）、《手绘治愈》（1 条）。另有 5 条未指向具体游戏的行业或平台资讯。《卧龙2：凤火连天》方面的报道有「《卧龙2：凤火连天》制作人平山正和CJ访谈：纵向深化」。",
-      "digest_source": "rules",
+      "digest": "今日游戏行业资讯主要聚焦于两款游戏的动态，其中《卧龙2：凤火连天》制作人平山正和在CJ接受访谈，透露续作立项原因及玩法深化方向；另一款是乌克兰团队历时六年制作的手绘治愈游戏《图科尼：森林看护者》，其序章曾获97%好评，正传于8月17日发售。",
+      "digest_source": "llm",
       "input_hash": "01313419fed74a6c",
       "game_digests": [
         {
           "name": "卧龙2：凤火连天",
           "count": 1,
-          "summary": "《卧龙2：凤火连天》制作人平山正和CJ访谈：纵向深化。",
-          "summary_source": "rules"
+          "summary": "制作人平山正和在CJ受访，透露前作因大量未实现设计才立项续作，团队动作游戏经验将赋能本作玩法。",
+          "summary_source": "llm"
         },
         {
           "name": "手绘治愈",
           "count": 1,
-          "summary": "【手绘治愈】曾经Steam97%好评如潮的“成人童话”，为何迟到了6年？。",
-          "summary_source": "rules"
+          "summary": "乌克兰团队历时六年制作的水彩手绘游戏《图科尼：森林看护者》于8月17日在Steam正式发售，其序章曾获97%好评。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -230,27 +230,27 @@
       "article_count": 8,
       "game_count": 3,
       "untagged_count": 5,
-      "digest": "8月17日 游资网 共 8 条新闻，涉及 3 款游戏。报道最集中的是《Toon Blast》（1 条）、《咕鸽勇者》（1 条）、《沙金工业》（1 条）。另有 5 条未指向具体游戏的行业或平台资讯。《Toon Blast》方面的报道有「十年熬死一群徒弟！三消超级爆款《Toon Blast》如何越战越勇？」。",
-      "digest_source": "rules",
+      "digest": "2026年8月17日，游戏行业资讯聚焦于长线运营与新品发售。三消巨头《Toon Blast》凭借九年长线运营实现付费日活增长，引发行业对其成功模式的探讨；肉鸽新作《咕鸽勇者》主打第一人称视角与暗黑风格，试图在细分赛道寻求突破；像素自动化游戏《沙金工业》则于PC多平台开启抢先体验，并同步登陆PC Game Pass。",
+      "digest_source": "llm",
       "input_hash": "21a7e26beb9fee75",
       "game_digests": [
         {
           "name": "Toon Blast",
           "count": 1,
-          "summary": "十年熬死一群徒弟！三消超级爆款《Toon Blast》如何越战越勇？。",
-          "summary_source": "rules"
+          "summary": "上线9年的爆破类三消爆款《Toon Blast》实现付费日活增长，外媒分析其长线运营成功原因，梳理品类十年发展与玩法迭代。",
+          "summary_source": "llm"
         },
         {
           "name": "咕鸽勇者",
           "count": 1,
-          "summary": "第一人称肉鸽！《咕鸽勇者》的沉浸体验做得怎么样？。",
-          "summary_source": "rules"
+          "summary": "肉鸽赛道新作《咕鸽勇者》主打第一人称视角与暗黑地牢风格，采用选房间探索与回合制战斗设计，借视角优势强化沉浸体验。",
+          "summary_source": "llm"
         },
         {
           "name": "沙金工业",
           "count": 1,
-          "summary": "像素自动化游戏《沙金工业》现已开启抢先体验。",
-          "summary_source": "rules"
+          "summary": "像素自动化游戏《沙金工业》已在PC多平台开启抢先体验，支持中文，享两周首发65折优惠，并同步加入PC Game Pass。",
+          "summary_source": "llm"
         }
       ]
     }

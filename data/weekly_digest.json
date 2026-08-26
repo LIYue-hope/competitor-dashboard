@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-26T00:49:47.993822+00:00",
+  "generated_at": "2026-08-26T08:45:50.382418+00:00",
   "week_start": "2026-08-17",
   "week_end": "2026-08-23",
-  "article_count": 2044,
-  "game_count": 244,
-  "digest": "上周游戏行业资讯总量达2044条，覆盖244款游戏，国产大作《影之刃零》以115条资讯领跑热度榜，其Steam预购首周入账1450万美元并成功登顶销量榜，官方还公布了2026年发售定档及PS5特性宣传片，CGTN专访更聚焦了其舞狮Boss战的非遗匠心；紧随其后的《GTA6》以193条资讯占据高位，Take-Two虽关停黑客网站未果，泄露视频仍不断放出，泄露者获利6万美元且钱包仍存39万加密货币，前R星开发者则称泄露事件不值一提；国产MMO《诡秘之主》以12亿成本引发热议，官方自称“最后一款纯人类开发大作”，并公布了全平台配置需求，最低仅需GTX 1060显卡；另一款国产3A《黑神话：钟馗》则通过15分钟实机演示展示剑术道法与召唤小鬼，杨奇发文回应了《黑悟空》争议；此外，《湮灭之潮》因女主新旧建模对比及配音获动捕演员确认引发讨论，总监澄清本作非魂游；《致命躯壳2》发售前遭偷跑，发售后因调侃玩家《命运2》游玩时长超1.6万小时及大雷盔甲女爆火而受关注；《仁王3》首个DLC“庆安地狱变”上线，国区好评率仅16%；《漫威金刚狼》正式送厂压盘将于9月15日登陆PS5，索尼巴西预购折扣被砍引发零售商抗议；网易《无限大》确认亮相2026科隆游戏展，国产抗日FPS《抵抗者》也官宣参展并发布全新预告，预约量达3155。",
+  "article_count": 2089,
+  "game_count": 249,
+  "digest": "上周游戏行业资讯总量达2089条，涵盖249款游戏，其中《GTA6》以193条资讯领跑热度榜，Take-Two关停黑客网站未果，泄露视频仍不断放出，泄露者获利6万美元且钱包仍存39万加密货币。国产3A方面，《影之刃零》表现抢眼，Steam预购入账1450万美元并成功登顶销量榜，2026年发售定档，其CGTN专访展示了舞狮Boss战的非遗匠心；而《黑神话：钟馗》则由杨奇发长文回应争议，公布主角脸模为游科自家服装模特及15分钟实机演示。备受关注的《湮灭之潮》因女主新脸模及配音（确认与《生化危机：安魂曲》格蕾丝相关）引发讨论，总监也澄清非魂游。此外，《诡秘之主》作为国产虚幻5 MMO，成本达12亿并公布全平台配置（最低GTX1060）；《致命躯壳2》发售前遭豪华版偷跑，发售后因调侃玩家《命运2》时长及大雷盔甲女爆火但Steam褒贬不一。其他动态包括《仁王3》DLC“庆安地狱变”上线好评率仅16%，《漫威金刚狼》确认9月15日登陆PS5，网易《无限大》官宣亮相科隆展，以及《异环》全球流水破20亿引发财报热议。",
   "digest_source": "llm",
   "heat_formula": "热度 = 资讯量 30% + 跨源覆盖 15% + 预约量 18% + 社区（周内新增关注/评价/讨论）15% + TapTap 榜单名次 12% + 官方动态 7% + 评测讨论 3%；各项先对数归一（资讯满格 200 条），缺测的维度计 0、不倒扣，满分 100。",
-  "input_hash": "01c8755a655f53bf",
+  "input_hash": "dc19ed513addeae5",
   "hot_ranking": [
     {
       "rank": 1,
@@ -37,6 +37,32 @@
     },
     {
       "rank": 2,
+      "name": "黑神话：钟馗",
+      "heat_score": 44.6,
+      "media_count": 95,
+      "source_count": 5,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《黑神话：钟馗》或于2029年发售 玩家直呼等不及了",
+          "url": "https://www.gamersky.com/news/202608/2193651.shtml",
+          "source": "游民星空",
+          "published_at": "2026-08-21"
+        },
+        {
+          "title": "《黑神话：钟馗》FAQ更新 新海报和截图欣赏",
+          "url": "https://www.3dmgame.com/news/202608/3951067.html",
+          "source": "3DMGame",
+          "published_at": "2026-08-21"
+        }
+      ]
+    },
+    {
+      "rank": 3,
       "name": "诡秘之主",
       "heat_score": 42.7,
       "media_count": 15,
@@ -65,7 +91,7 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "影之刃零",
       "heat_score": 41.9,
       "media_count": 115,
@@ -91,7 +117,7 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "GTA6",
       "heat_score": 41.0,
       "media_count": 193,
@@ -113,32 +139,6 @@
           "url": "https://www.gamersky.com/news/202608/2194566.shtml",
           "source": "游民星空",
           "published_at": "2026-08-23"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "name": "黑神话：钟馗",
-      "heat_score": 40.8,
-      "media_count": 94,
-      "source_count": 4,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《黑神话：钟馗》或于2029年发售 玩家直呼等不及了",
-          "url": "https://www.gamersky.com/news/202608/2193651.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-21"
-        },
-        {
-          "title": "《黑神话：钟馗》FAQ更新 新海报和截图欣赏",
-          "url": "https://www.3dmgame.com/news/202608/3951067.html",
-          "source": "3DMGame",
-          "published_at": "2026-08-21"
         }
       ]
     },
@@ -170,6 +170,34 @@
     },
     {
       "rank": 7,
+      "name": "异环",
+      "heat_score": 31.5,
+      "media_count": 4,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": 11,
+      "rank_lists": [
+        "hot"
+      ],
+      "official_count": 1,
+      "news": [
+        {
+          "title": "《异环》流水破20亿，完美半年报却亏一个亿？财报要反着看！",
+          "url": "http://www.gamelook.com.cn/2026/08/600353/",
+          "source": "GameLook",
+          "published_at": "2026-08-21"
+        },
+        {
+          "title": "完美世界2026半年报：《异环》全球流水破20亿 Q3起释放业绩",
+          "url": "https://www.gameres.com/901202620.html",
+          "source": "游资网",
+          "published_at": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "rank": 8,
       "name": "仁王3",
       "heat_score": 31.4,
       "media_count": 31,
@@ -195,7 +223,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "无限大",
       "heat_score": 31.1,
       "media_count": 3,
@@ -223,7 +251,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "漫威金刚狼",
       "heat_score": 30.5,
       "media_count": 29,
@@ -245,32 +273,6 @@
           "url": "https://www.gamersky.com/news/202608/2193353.shtml",
           "source": "游民星空",
           "published_at": "2026-08-22"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "name": "抵抗者",
-      "heat_score": 30.4,
-      "media_count": 4,
-      "source_count": 3,
-      "reservation_label": "3155",
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "去德国灭鬼子！ 国产抗日FPS《抵抗者》官宣参加德国科隆展 并将发布全新预告",
-          "url": "https://www.3dmgame.com/news/202608/3950840.html",
-          "source": "3DMGame",
-          "published_at": "2026-08-18"
-        },
-        {
-          "title": "国产抗日FPS《抵抗者》全新预告官宣！确认参展科隆",
-          "url": "https://www.gamersky.com/news/202608/2190738.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-18"
         }
       ]
     }

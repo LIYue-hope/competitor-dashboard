@@ -1,35 +1,70 @@
 {
-  "generated_at": "2026-08-26T00:49:33.786652+00:00",
+  "generated_at": "2026-08-26T08:43:24.035080+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
+      "date": "2026-08-26",
+      "article_count": 7,
+      "game_count": 4,
+      "untagged_count": 3,
+      "digest": "国产单机与派对游戏成为今日焦点，《只狗：路边一条》由9人团队开发并首曝火遍全球，《渔力全开》凭借魔性玩法两天爆卖100万份。动视暴雪新作《现代战争4》Steam测试超11万在线但口碑低迷，Supercell则分享了《皇室战争》从失败更新中吸取的教训。",
+      "digest_source": "llm",
+      "input_hash": "606c9c888a3b55f8",
+      "game_digests": [
+        {
+          "name": "只狗：路边一条",
+          "count": 1,
+          "summary": "国产单机《只狗：路边一条》由9人团队开发，首曝内容因“狗剑客”的搞笑设定火遍全球。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "渔力全开",
+          "count": 1,
+          "summary": "2人开发的钓鱼射击融合派对游戏《渔力全开》Steam在线达37万人，两天内爆卖100万份。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "现代战争4",
+          "count": 1,
+          "summary": "动视暴雪重磅新作《现代战争4》Steam测试在线人数超11万，但遭遇口碑低迷。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "皇室战争",
+          "count": 1,
+          "summary": "Supercell在演讲中回顾了《皇室战争》的发展历程，分享了从多次失败更新中吸取的教训。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
       "date": "2026-08-25",
       "article_count": 7,
       "game_count": 3,
       "untagged_count": 4,
-      "digest": "今日行业资讯聚焦国产3A与独立游戏，多款产品在销量与流水上表现亮眼，引发市场热议。",
-      "digest_source": "llm",
+      "digest": "8月25日 GameLook 共 7 条新闻，涉及 3 款游戏。报道最集中的是《影之刃零》（1 条）、《沙金工业》（1 条）、《诡秘之主》（1 条）。另有 4 条未指向具体游戏的行业或平台资讯。《影之刃零》方面的报道有「分析：《影之刃零》愿望单超160万、海外玩家达70%，有望突破千万套销量！」。",
+      "digest_source": "rules",
       "input_hash": "86078310fc6c4e0d",
       "game_digests": [
         {
           "name": "影之刃零",
           "count": 1,
-          "summary": "愿望单超160万、海外玩家达70%，有望突破千万套销量。",
-          "summary_source": "llm"
+          "summary": "分析：《影之刃零》愿望单超160万、海外玩家达70%，有望突破千万套销量！。",
+          "summary_source": "rules"
         },
         {
           "name": "沙金工业",
           "count": 1,
-          "summary": "1人开发作品Steam爆卖12万套，画面抽象引发关注。",
-          "summary_source": "llm"
+          "summary": "手搓“炼金流水线”多上头？1人开发《沙金工业》Steam爆卖12万套，画面抽象！。",
+          "summary_source": "rules"
         },
         {
           "name": "诡秘之主",
           "count": 1,
-          "summary": "周末3天预估流水超6000万，项目组自曝利润率爆表。",
-          "summary_source": "llm"
+          "summary": "《诡秘之主》赢麻了？周末3天预估流水超6000万，项目组自曝“利润率爆表”！。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -137,21 +172,21 @@
       "article_count": 6,
       "game_count": 2,
       "untagged_count": 4,
-      "digest": "友谊时光上半年利润大增74%，恋爱小游戏《心跳陷落》成主要发力点；10亿美元巨制《星际公民》直播中因游戏Bug不断、团队埋怨互怼引发玩家笑翻。",
-      "digest_source": "llm",
+      "digest": "8月19日 GameLook 共 6 条新闻，涉及 2 款游戏。报道最集中的是《心跳陷落》（1 条）、《星际公民》（1 条）。另有 4 条未指向具体游戏的行业或平台资讯。《心跳陷落》方面的报道有「友谊时光上半年利润大增74%：恋爱小游戏《心跳陷落》发力，在研5款游戏」。",
+      "digest_source": "rules",
       "input_hash": "946940aeef647d00",
       "game_digests": [
         {
           "name": "心跳陷落",
           "count": 1,
-          "summary": "友谊时光上半年利润大增74%，恋爱小游戏《心跳陷落》成主要发力点。",
-          "summary_source": "llm"
+          "summary": "友谊时光上半年利润大增74%：恋爱小游戏《心跳陷落》发力，在研5款游戏。",
+          "summary_source": "rules"
         },
         {
           "name": "星际公民",
           "count": 1,
-          "summary": "10亿美元巨制《星际公民》直播中因游戏Bug不断、团队埋怨互怼引发玩家笑翻。",
-          "summary_source": "llm"
+          "summary": "玩家笑翻！10亿美元巨制《星际公民》直播中“游戏Bug不断，团队埋怨互怼”。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -160,20 +195,20 @@
       "article_count": 7,
       "game_count": 2,
       "untagged_count": 5,
-      "digest": "GameLook当日共7条新闻，涉及2款游戏，其中《湮灭之潮》与《诡秘之主》各占1条，其余5条未指向具体游戏。",
+      "digest": "今日行业资讯聚焦于两款国产游戏的开发进展与宣发动态。《湮灭之潮》团队在成都试玩后对中国团队打造“3A亚瑟王”更有信心，而《诡秘之主》则因网友举报引发关注，官方公开账目显示实际投入达12亿。",
       "digest_source": "llm",
       "input_hash": "17786dcc24f8b3a6",
       "game_digests": [
         {
           "name": "湮灭之潮",
           "count": 1,
-          "summary": "GameLook在成都试玩后，对中国团队的“3A亚瑟王”更有信心了，报道中提到游戏中巨大的骑士形象令人印象深刻。",
+          "summary": "团队在成都试玩后对中国团队打造“3A亚瑟王”更有信心，并展示了游戏中巨大的骑士角色。",
           "summary_source": "llm"
         },
         {
           "name": "诡秘之主",
           "count": 1,
-          "summary": "网友“举报”被快手老板看到，《诡秘之主》公开账目，实际花费12亿，不止10亿。",
+          "summary": "因网友举报引发关注，官方公开账目显示实际投入达12亿，回应了关于资金投入的讨论。",
           "summary_source": "llm"
         }
       ]
@@ -183,26 +218,26 @@
       "article_count": 7,
       "game_count": 3,
       "untagged_count": 4,
-      "digest": "GameLook当日共发布7条资讯，涉及3款游戏，涵盖三消、武侠及IP改编领域。",
+      "digest": "GameLook当日共发布7条新闻，聚焦于三消品类长青作、武侠游戏出海及IP改编新作。报道详细分析了《Toon Blast》十年长盛不衰的运营策略，探讨了《燕云十六声》在CGDC上关于中国武侠文化如何成功走向世界的演讲，并解读了吉比特财报中《甄嬛传》即将上线带来的业绩增长预期。",
       "digest_source": "llm",
       "input_hash": "13bf8e1da65a74f0",
       "game_digests": [
         {
           "name": "Toon Blast",
           "count": 1,
-          "summary": "三消游戏《Toon Blast》十年长红，GameLook分析其如何凭借爆破类消除玩法在激烈竞争中持续保持活力。",
+          "summary": "GameLook报道分析了三消超级爆款《Toon Blast》十年长盛不衰的运营策略，指出爆破类消除是继《糖果传奇》后的重要细分品类，并探讨了其如何越战越勇。",
           "summary_source": "llm"
         },
         {
           "name": "燕云十六声",
           "count": 1,
-          "summary": "网易《燕云十六声》亮相2026中国游戏开发者大会，分享中国武侠文化如何成功走向世界的经验。",
+          "summary": "GameLook报道了网易游戏在2026中国游戏开发者大会（CGDC）上的演讲，探讨了中国武侠题材游戏如何成功走向世界。",
           "summary_source": "llm"
         },
         {
           "name": "甄嬛传",
           "count": 1,
-          "summary": "吉比特上半年业绩暴增，旗下《甄嬛传》IP改编游戏即将上线，卢竑岩详解了海外市场翻倍增长及AI应用。",
+          "summary": "GameLook报道解读了吉比特2026年上半年财报，指出《甄嬛传》即将上线，并分析了其海外市场翻倍增长及AI应用前景。",
           "summary_source": "llm"
         }
       ]

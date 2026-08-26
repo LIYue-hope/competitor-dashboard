@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-08-26T00:42:28.226707+00:00",
+  "crawled_at": "2026-08-26T08:25:50.776409+00:00",
   "days": [
     {
       "date": "2026-08-26",
@@ -23,17 +23,6 @@
       "date_label": "08月27日 明天",
       "games": [
         {
-          "game_name": "排兵布阵",
-          "categories": [
-            "策略"
-          ],
-          "score": null,
-          "event_desc": "自走棋玩法标杆",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/paibingbuzhen/",
-          "has_afk_grinding_tag": false
-        },
-        {
           "game_name": "新月大陆",
           "categories": [
             "角色扮演"
@@ -42,17 +31,6 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/xinyuedalu/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "幻化竞技场",
-          "categories": [
-            "策略"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/hhjjc/",
           "has_afk_grinding_tag": false
         },
         {
@@ -65,6 +43,28 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/zhanzhenglianmeng1/",
           "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "排兵布阵",
+          "categories": [
+            "策略"
+          ],
+          "score": null,
+          "event_desc": "自走棋玩法标杆",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/paibingbuzhen/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "幻化竞技场",
+          "categories": [
+            "策略"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/hhjjc/",
+          "has_afk_grinding_tag": false
         }
       ]
     },
@@ -77,7 +77,7 @@
           "categories": [
             "格斗"
           ],
-          "score": null,
+          "score": "7.5",
           "event_desc": "万人热血攻沙",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/wzswz/",
@@ -134,6 +134,17 @@
       "date": "2026-09-03",
       "date_label": "09月03日 下周四",
       "games": [
+        {
+          "game_name": "梦诛轻享",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "9月3日公测上线",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/mhxzxqx/",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "咻咻勇者",
           "categories": [
