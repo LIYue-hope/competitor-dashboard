@@ -1,18 +1,42 @@
 {
-  "generated_at": "2026-08-26T09:46:59.955648+00:00",
+  "generated_at": "2026-08-26T10:19:00.396845+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-08-26",
-      "article_count": 53,
-      "game_count": 42,
-      "untagged_count": 7,
-      "digest": "今日游戏行业新闻丰富，涉及多款游戏和厂商的动态。其中包括《源初之结》、《百战天虫：银河智战》等新作发布，以及《索尼克赛车 交叉世界》等游戏的限时促销。同时，还有《魔法门之英雄无敌III重制版》等经典游戏的专访和试玩。此外，科乐美与网红猫咪合作推出《合金装备》主题宠物玩具，独立工作室Ink & Pixel公布了手绘风解谜冒险游戏《壁画迷境》的全新预告片。最后，《大镖客2》遭遇罕见的BUG，引发了社区的关注。",
+      "article_count": 85,
+      "game_count": 63,
+      "untagged_count": 13,
+      "digest": "今日（8月26日），游侠网新闻总数为85条，涉及游戏63款。其中，《动物朋克》和《地铁：2039》是报道数量最多的两款游戏，分别有2条和2条相关报道。此外，《昭和米国物语》、《湮灭之潮》、《源初之结》、《百战天虫：银河智战》、《索尼克赛车 交叉世界》、《魔法门之英雄无敌III重制版》、《黎明行者之血》、《1666：阿姆斯特丹》和《Cinder City》等游戏也各有1条报道。",
       "digest_source": "llm",
-      "input_hash": "1d490a5ee28692bd",
+      "input_hash": "3057ec6d35942139",
       "game_digests": [
+        {
+          "name": "动物朋克",
+          "count": 2,
+          "summary": "《动物朋克》亮相科隆开幕夜，全新预告片公布；GC26：《动物朋克》新实机预告公布 战斗画面超帅。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "地铁：2039",
+          "count": 2,
+          "summary": "GC26：《地铁2039》预告片「异类」 2027年2月发售！；2026科隆游戏展大奖提名公布！《地铁:2039》领跑全场。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "昭和米国物语",
+          "count": 2,
+          "summary": "IGN发布《昭和米国物语》试玩前瞻：怪诞世界塑造出色；GC26：《昭和米国物语》实机预告！公布日语声优阵容。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "湮灭之潮",
+          "count": 2,
+          "summary": "《湮灭之潮》官宣女主角换人！确认是《生化9》格蕾丝；GC26：《湮灭之潮》新剧情预告：女主新形象惊艳亮相。",
+          "summary_source": "rules"
+        },
         {
           "name": "源初之结",
           "count": 2,
@@ -35,6 +59,12 @@
           "name": "魔法门之英雄无敌III重制版",
           "count": 2,
           "summary": "《魔法门之英雄无敌III重制版》试玩：埃拉西亚从未离开；《魔法门之英雄无敌III重制版》专访：重铸埃拉西亚荣光。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "黎明行者之血",
+          "count": 2,
+          "summary": "《黎明行者之血》全球解锁时间公布：9月3日早7点发售；GC26：《黎明行者之血》全新预告片公布 9月3日发售。",
           "summary_source": "rules"
         },
         {
@@ -62,45 +92,15 @@
           "summary_source": "rules"
         },
         {
+          "name": "Like or Die",
+          "count": 1,
+          "summary": "GC26：NCSOFT主播射击新作《Like or Die》首曝！。",
+          "summary_source": "rules"
+        },
+        {
           "name": "Nidhogg",
           "count": 1,
           "summary": "《Nidhogg》开发商动作肉鸽新作《地牢大出血》现已全平台发售！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "OPUS：心相吾山",
-          "count": 1,
-          "summary": "《OPUS：心相吾山》入围科隆三项年度大奖！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "TankRat坦克狂途",
-          "count": 1,
-          "summary": "拆解，打捞，生存！《TankRat坦克狂途》整装待发，定于27年1月15日发售。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "人类2",
-          "count": 1,
-          "summary": "GC26：战略游戏《人类2》实机预告片！2027年登陆PC。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "合金装备",
-          "count": 1,
-          "summary": "科乐美联动网红猫咪推出：《合金装备》主题宠物玩具。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "壁画迷境",
-          "count": 1,
-          "summary": "GC26：手绘风解谜冒险《壁画迷境》公布全新预告片。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "大镖客2",
-          "count": 1,
-          "summary": "木屋惊现诡异郊狼!《大镖客2》千小时大佬遇罕见BUG。",
           "summary_source": "rules"
         }
       ]

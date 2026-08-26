@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T09:48:26.707505+00:00",
+  "generated_at": "2026-08-26T10:21:17.966693+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
@@ -134,23 +134,23 @@
     },
     {
       "date": "2026-08-20",
-      "article_count": 7,
+      "article_count": 8,
       "game_count": 4,
-      "untagged_count": 3,
-      "digest": "今日GameLook共发布7条新闻，涉及4款游戏。索尼为《影之刃零》举办State of Play发布会，宣布其PS5独占一年；勇仕网络发布中期业绩，称《深空之眼》停更且4款新游戏研发中；“三幻神”重聚《逆水寒》；《金铲铲之战》开启“自然仙灵”新赛季。",
+      "untagged_count": 4,
+      "digest": "索尼为《影之刃零》举办State of Play发布会宣布其PS5独占一年，引发玩家对光盘版的争议；勇仕网络发布财报显示《深空之眼》停更且上半年亏损478万；旭旭宝宝、PDD、五五开现身《逆水寒》引发关注；金铲铲之战开启“自然仙灵”新赛季。",
       "digest_source": "llm",
-      "input_hash": "4fd6342e8eb0cd9e",
+      "input_hash": "d66f879ce618e6de",
       "game_digests": [
         {
           "name": "影之刃零",
           "count": 1,
-          "summary": "索尼举办State of Play发布会宣布其PS5独占一年，老外因光盘版缺席闹场。",
+          "summary": "索尼举办State of Play发布会宣布其PS5主机独占一年，引发老外对光盘版的争议。",
           "summary_source": "llm"
         },
         {
           "name": "深空之眼",
           "count": 1,
-          "summary": "勇仕网络发布中期业绩，称《深空之眼》停更且4款新游戏研发中。",
+          "summary": "勇仕网络发布财报显示《深空之眼》停更，上半年亏损478万，另有4款新游戏研发中。",
           "summary_source": "llm"
         },
         {
@@ -162,7 +162,7 @@
         {
           "name": "金铲铲之战",
           "count": 1,
-          "summary": "8月20日开启“自然仙灵”新赛季，将“野性”和“脑洞”玩法结合。",
+          "summary": "开启“自然仙灵”新赛季，将“野性”和“脑洞”策略融入游戏玩法。",
           "summary_source": "llm"
         }
       ]
