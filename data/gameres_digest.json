@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-26T08:45:22.586748+00:00",
+  "generated_at": "2026-08-26T09:48:33.882085+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-08-26",
-      "article_count": 9,
-      "game_count": 5,
+      "article_count": 10,
+      "game_count": 6,
       "untagged_count": 4,
-      "digest": "8月26日 游资网 共 9 条新闻，涉及 5 款游戏。报道最集中的是《四海兄弟 故乡》（1 条）、《异克斯小队》（1 条）、《昭和米国物语》（1 条）。另有 4 条未指向具体游戏的行业或平台资讯。另外还有《猪了个猪》（1 条）、《皇室战争》（1 条）也有报道。",
-      "digest_source": "rules",
-      "input_hash": "e9d3708ea7171a41",
+      "digest": "2026年8月26日，游戏行业资讯聚焦于新作公布与老游戏复盘。科隆游戏展上，《异克斯小队》《无限大》等新作亮相，腾讯游戏发行《异克斯小队》并开放心愿单；《无限大》公布2027年1月15日上线计划。此外，《四海兄弟 故乡》发布荣誉之士DLC体验报告，《昭和米国物语》引发讨论，Supercell在Dev分享会上复盘《皇室战争》运营教训。",
+      "digest_source": "llm",
+      "input_hash": "01f43e446a32980f",
       "game_digests": [
         {
           "name": "四海兄弟 故乡",
@@ -22,26 +22,32 @@
         {
           "name": "异克斯小队",
           "count": 1,
-          "summary": "在外星打工是种什么体验？三人合作射击新作《异克斯小队》亮相科隆。",
-          "summary_source": "rules"
+          "summary": "《异克斯小队》亮相科隆游戏展，由Behaviour Interactive研发、腾讯游戏国内发行，预计2027年登陆多平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "无限大",
+          "count": 1,
+          "summary": "《无限大》宣布2027年1月15日全球上线，全球预约量破1500万。",
+          "summary_source": "llm"
         },
         {
           "name": "昭和米国物语",
           "count": 1,
-          "summary": "我玩到了《昭和米国物语》，它真的不只是来搞抽象的。",
-          "summary_source": "rules"
+          "summary": "《昭和米国物语》引发讨论，被评价为复古流行的幻想怀旧与抽象风格。",
+          "summary_source": "llm"
         },
         {
           "name": "猪了个猪",
           "count": 1,
-          "summary": "ROI从64%到270%，《猪了个猪》做对了什么？。",
-          "summary_source": "rules"
+          "summary": "《猪了个猪》通过优化买量策略，将ROI从64%提升至270%。",
+          "summary_source": "llm"
         },
         {
           "name": "皇室战争",
           "count": 1,
-          "summary": "“我们差点儿杀死《皇室战争》”，Supercell演讲：从失败更新学到的教训。",
-          "summary_source": "rules"
+          "summary": "Supercell在Gamescom Dev分享会上复盘《皇室战争》运营教训，指出2025年3月移除赛季商店虽扩大奖励受益面，却引发玩家强烈不满。",
+          "summary_source": "llm"
         }
       ]
     },

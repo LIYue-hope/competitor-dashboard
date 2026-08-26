@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-08-26T08:24:55.197517+00:00",
+  "crawled_at": "2026-08-26T09:32:19.470682+00:00",
   "window_days": 7,
   "publishers": [
     {
@@ -139,7 +139,22 @@
           "publisher_key": "tencent",
           "official_url": "https://world.qq.com/",
           "source_status": "ok",
-          "updates": [],
+          "updates": [
+            {
+              "title": "柠纱拾星丨全新时装实机演示爆料",
+              "type": "公告",
+              "date": "2026-08-26",
+              "summary": "全新时装套装【柠纱拾星】即将上架，上架首双周享超值特惠1480璇晶！",
+              "url": "https://world.qq.com/web202603/newsDetail.html?newsid=18846144"
+            },
+            {
+              "title": "8月27日不停服更新公告",
+              "type": "更新公告",
+              "date": "2026-08-26",
+              "summary": "为提升游戏体验，《王者荣耀世界》于8月27日05:00~06:00进行不停服维护更新，具体情况请以游戏为准。感谢大家的支持和理解，祝游戏愉快！",
+              "url": "https://world.qq.com/web202603/newsDetail.html?newsid=18846137"
+            }
+          ],
           "has_afk_grinding_tag": false
         },
         {
@@ -1037,8 +1052,23 @@
           "publisher": "库洛游戏",
           "publisher_key": "hg_kuro_pape",
           "official_url": "https://mc.kurogames.com/",
-          "source_status": "error",
-          "updates": [],
+          "source_status": "ok",
+          "updates": [
+            {
+              "title": "《鸣潮》3.6版本「蜃云灯影，凡尘剑心」全平台活动开启！",
+              "type": "新活动",
+              "date": "2026-08-20",
+              "summary": "",
+              "url": "https://mc.kurogames.com/main/news/detail/5363"
+            },
+            {
+              "title": "「蜃云灯影，凡尘剑心」3.6版本内容说明",
+              "type": "更新公告",
+              "date": "2026-08-20",
+              "summary": "",
+              "url": "https://mc.kurogames.com/main/news/detail/5354"
+            }
+          ],
           "has_afk_grinding_tag": false,
           "company": "库洛"
         },
@@ -1047,7 +1077,7 @@
           "publisher": "库洛游戏",
           "publisher_key": "hg_kuro_pape",
           "official_url": "https://pns.kurogames.com/",
-          "source_status": "ok",
+          "source_status": "error",
           "updates": [],
           "has_afk_grinding_tag": false,
           "company": "库洛"

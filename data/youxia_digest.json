@@ -1,107 +1,107 @@
 {
-  "generated_at": "2026-08-26T08:37:07.431773+00:00",
+  "generated_at": "2026-08-26T09:46:59.955648+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-08-26",
-      "article_count": 40,
-      "game_count": 32,
+      "article_count": 53,
+      "game_count": 42,
       "untagged_count": 7,
-      "digest": "2026年科隆游戏展开幕夜，Team17公布斜视角3D回合战术肉鸽《百战天虫：银河智战》，并透露经典初代2.5D重制版；CDPR宣布《巫师3：狂猎 重制版》9月29日登陆Switch2及多平台，Steam国区原版价格上调；此外，Panache Digital Games公布《1666：阿姆斯特丹》预告并开启抢先体验，NCSOFT公布科幻MMO《Cinder City》，Nidhogg开发商新作《地牢大出血》全平台发售，科乐美推出《合金装备》主题宠物玩具。",
+      "digest": "今日游戏行业新闻丰富，涉及多款游戏和厂商的动态。其中包括《源初之结》、《百战天虫：银河智战》等新作发布，以及《索尼克赛车 交叉世界》等游戏的限时促销。同时，还有《魔法门之英雄无敌III重制版》等经典游戏的专访和试玩。此外，科乐美与网红猫咪合作推出《合金装备》主题宠物玩具，独立工作室Ink & Pixel公布了手绘风解谜冒险游戏《壁画迷境》的全新预告片。最后，《大镖客2》遭遇罕见的BUG，引发了社区的关注。",
       "digest_source": "llm",
-      "input_hash": "c503705c77bdd450",
+      "input_hash": "1d490a5ee28692bd",
       "game_digests": [
+        {
+          "name": "源初之结",
+          "count": 2,
+          "summary": "GC26：米哈游全新动作大作《源初之结》科隆PV首曝！；与伙伴共同迎战强敌，米哈游神话题材新作《源初之结》首曝。",
+          "summary_source": "rules"
+        },
         {
           "name": "百战天虫：银河智战",
           "count": 2,
-          "summary": "Team17在科隆游戏展公布斜视角3D回合战术肉鸽新作，玩法对标《XCOM》，官方还透露经典初代2.5D重制版正在开发。",
-          "summary_source": "llm"
+          "summary": "《百战天虫：银河智战》正式公开！经典《百战天虫》系列强势回归，两款全新作品正在开发中；GC26：斜视角战术肉鸽《百战天虫：银河智战》官宣。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "索尼克赛车 交叉世界",
+          "count": 2,
+          "summary": "主机平台“SEGA八月特惠”开跑!　《索尼克赛车 交叉世界》及《双点博物馆》加入促销阵容！；《索尼克赛车 交叉世界》免费更新“阿克赛尔”今日上线！ 史低4折促销中！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "魔法门之英雄无敌III重制版",
+          "count": 2,
+          "summary": "《魔法门之英雄无敌III重制版》试玩：埃拉西亚从未离开；《魔法门之英雄无敌III重制版》专访：重铸埃拉西亚荣光。",
+          "summary_source": "rules"
         },
         {
           "name": "1666：阿姆斯特丹",
           "count": 1,
-          "summary": "Panache Digital Games公布新预告并同步在Steam与Epic开启PC端抢先体验。",
-          "summary_source": "llm"
+          "summary": "GC26：《1666：阿姆斯特丹》新预告公布 抢先体验开启。",
+          "summary_source": "rules"
         },
         {
           "name": "Cinder City",
           "count": 1,
-          "summary": "韩国NCSOFT旗下BigFire Games公布科幻题材MMO开放世界战术射击游戏《Cinder City》宣传片。",
-          "summary_source": "llm"
+          "summary": "GC26：开放世界战术射击游戏《Cinder City》宣传片。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA6",
+          "count": 1,
+          "summary": "“大葱哥”并非第一人？《GTA6》最早泄露源头被曝光。",
+          "summary_source": "rules"
         },
         {
           "name": "Gravhounds",
           "count": 1,
-          "summary": "独立工作室Octopus Panic公布合作动作建造游戏《Gravhounds》首支预告片。",
-          "summary_source": "llm"
+          "summary": "GC26:合作太空建造射击新作《Gravhounds》预告公布。",
+          "summary_source": "rules"
         },
         {
           "name": "Nidhogg",
           "count": 1,
-          "summary": "《Nidhogg》开发商动作肉鸽新作《地牢大出血》现已全平台发售。",
-          "summary_source": "llm"
+          "summary": "《Nidhogg》开发商动作肉鸽新作《地牢大出血》现已全平台发售！。",
+          "summary_source": "rules"
         },
         {
           "name": "OPUS：心相吾山",
           "count": 1,
-          "summary": "国产叙事冒险游戏《OPUS：心相吾山》入围科隆三项年度大奖，将与《极限竞速：地平线6》等大作同台竞技。",
-          "summary_source": "llm"
+          "summary": "《OPUS：心相吾山》入围科隆三项年度大奖！。",
+          "summary_source": "rules"
         },
         {
           "name": "TankRat坦克狂途",
           "count": 1,
-          "summary": "《TankRat坦克狂途》定于2027年1月15日发售，主打拆解、打捞与生存玩法。",
-          "summary_source": "llm"
+          "summary": "拆解，打捞，生存！《TankRat坦克狂途》整装待发，定于27年1月15日发售。",
+          "summary_source": "rules"
         },
         {
           "name": "人类2",
           "count": 1,
-          "summary": "世嘉旗下Amplitude Studios公布历史战略游戏《人类2》实机预告片，确认2027年登陆PC。",
-          "summary_source": "llm"
+          "summary": "GC26：战略游戏《人类2》实机预告片！2027年登陆PC。",
+          "summary_source": "rules"
         },
         {
           "name": "合金装备",
           "count": 1,
-          "summary": "科乐美联动网红猫咪“独耳乌诺”推出《合金装备》系列主题宠物玩具周边。",
-          "summary_source": "llm"
+          "summary": "科乐美联动网红猫咪推出：《合金装备》主题宠物玩具。",
+          "summary_source": "rules"
         },
         {
           "name": "壁画迷境",
           "count": 1,
-          "summary": "独立工作室Ink & Pixel公布手绘风格解谜冒险游戏《壁画迷境》全新预告片。",
-          "summary_source": "llm"
+          "summary": "GC26：手绘风解谜冒险《壁画迷境》公布全新预告片。",
+          "summary_source": "rules"
         },
         {
           "name": "大镖客2",
           "count": 1,
-          "summary": "《荒野大镖客2》资深玩家在Reddit分享游玩千小时后偶遇诡异郊狼BUG的罕见视频。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "安魂曲",
-          "count": 1,
-          "summary": "知名爆料人透露《生化危机9：安魂曲》后续DLC或将重返初代斯宾塞洋馆场景。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 1,
-          "summary": "《巫师3：狂猎》全新DLC“旧时曲”今日公布，重返丹德里恩故乡莱顿，包含30小时新冒险。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：狂猎",
-          "count": 1,
-          "summary": "Steam国区原版《巫师3：狂猎 完全版》价格由149元上调至199元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：狂猎 重制版",
-          "count": 1,
-          "summary": "CDPR正式公布《巫师3：狂猎 重制版》，确认9月29日登陆PC、PS5、Xbox Series X|S及Switch2。",
-          "summary_source": "llm"
+          "summary": "木屋惊现诡异郊狼!《大镖客2》千小时大佬遇罕见BUG。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -413,99 +413,99 @@
       "article_count": 49,
       "game_count": 28,
       "untagged_count": 15,
-      "digest": "8月22日 游侠网 共 49 条新闻，涉及 28 款游戏。报道最集中的是《GTA6》（5 条）、《漫威金刚狼》（2 条）、《黄昏血族》（2 条）。另有 15 条未指向具体游戏的行业或平台资讯。另外还有《COD现代战争4》（1 条）、《仁王3》（1 条）、《勇者斗恶龙怪物仙境4》（1 条）也有报道。",
-      "digest_source": "rules",
+      "digest": "8月22日游戏资讯聚焦于《GTA6》遭黑客二次泄露引发宣发担忧，以及《漫威金刚狼》PS5实体版进厂压盘、FS社《黄昏血族》封测服务器宕机等动态。此外，多款新作如《勇者斗恶龙怪物仙境4》、《合金装备大师合集2》及《沙耶之歌》模型等也公布了发售或预订信息。",
+      "digest_source": "llm",
       "input_hash": "91332d90d400ecff",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 5,
-          "summary": "韧性拉满！《GTA6》遭海量泄露 销量与宣发均未受影响；游侠晚报:王国之心4索拉故事终点 黑客将公开《GTA6》；大的来了！曝黑客组织扬言三天内放出《GTA6》可玩版本（当天共 5 条）",
-          "summary_source": "rules"
+          "summary": "黑客组织扬言三天内放出可玩版本，继泄露地图片段与实机演示后，官方宣发计划不变，仅略微削弱展示惊喜感。",
+          "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
           "count": 2,
-          "summary": "《漫威金刚狼》PS5实体版百亿补贴好价：售价414元；PS5独占大作《漫威金刚狼》进厂压盘！开发全部完成。",
-          "summary_source": "rules"
+          "summary": "PS5实体版在拼多多百亿补贴中售价414元，且游戏开发工作已全部完成，正式进厂压盘。",
+          "summary_source": "llm"
         },
         {
           "name": "黄昏血族",
           "count": 2,
-          "summary": "任天堂官方辟谣！《黄昏血族》9月24日发售日期不实；《黄昏血族》封测首日服务器宕机 今日修复后重启测试。",
-          "summary_source": "rules"
+          "summary": "任天堂官方辟谣9月24日发售日期不实，此前因封测首日玩家涌入导致服务器宕机，官方紧急修复后重启测试。",
+          "summary_source": "llm"
         },
         {
           "name": "COD现代战争4",
           "count": 1,
-          "summary": "神作还是雷作？《COD现代战争4》登顶Steam畅销榜。",
-          "summary_source": "rules"
+          "summary": "试玩版已登陆Steam，面向预购玩家开放，公开试玩将于8月29日启动。",
+          "summary_source": "llm"
         },
         {
           "name": "仁王3",
           "count": 1,
-          "summary": "《仁王3》DLC新角色玛丽亚登场：颜值超高的小姐姐。",
-          "summary_source": "rules"
+          "summary": "首支DLC“庆安地狱变”上线，新角色玛丽亚成为讨论焦点。",
+          "summary_source": "llm"
         },
         {
           "name": "勇者斗恶龙怪物仙境4",
           "count": 1,
-          "summary": "《勇者斗恶龙怪物仙境4》新情报公布：舞台/新角色公开。",
-          "summary_source": "rules"
+          "summary": "SE公布新情报，确定于2026年12月3日全球同步发售。",
+          "summary_source": "llm"
         },
         {
           "name": "只狗：路边一条",
           "count": 1,
-          "summary": "国产《只狗：路边一条》海外爆火 独特玩法获IGN点赞。",
-          "summary_source": "rules"
+          "summary": "凭借流浪持剑狗狗的独特设定在海外爆火，获IGN报道并收获大量好评。",
+          "summary_source": "llm"
         },
         {
           "name": "合金装备4",
           "count": 1,
-          "summary": "M站均分86零差评!大师合集2带《合金装备4》脱离牢笼。",
-          "summary_source": "rules"
+          "summary": "《合金装备大师合集Vol.2》媒体评分解禁，Metacritic均分86分，收录13篇评测全数好评。",
+          "summary_source": "llm"
         },
         {
           "name": "合金装备：大师合集2",
           "count": 1,
-          "summary": "《合金装备:大师合集2》\"换盘梗\"为各平台重录新台词。",
-          "summary_source": "rules"
+          "summary": "将于8月27日发售，对《合金装备4》中的“换盘笑话”进行了平台化台词调整。",
+          "summary_source": "llm"
         },
         {
           "name": "吸血鬼幸存者",
           "count": 1,
-          "summary": "《吸血鬼幸存者》新DLC血月遗产携全新剧情8月28日上线。",
-          "summary_source": "rules"
+          "summary": "新DLC“血月遗产”将于8月28日上线，带来全新剧情、角色、武器及舞台。",
+          "summary_source": "llm"
         },
         {
           "name": "喵咪争霸",
           "count": 1,
-          "summary": "小鱼干即是战力！《喵咪争霸》试玩 云养猫党不可错过。",
-          "summary_source": "rules"
+          "summary": "试玩开启，融合挂机养成与卡牌兵线对战，玩法策略丰富。",
+          "summary_source": "llm"
         },
         {
           "name": "喵喵",
           "count": 1,
-          "summary": "一场为爱猫而战的噩梦！猫眼恐怖冒险《喵喵》已上线。",
-          "summary_source": "rules"
+          "summary": "恐怖冒险游戏《Meowmories》登陆Steam，玩家将化身小猫在Unreal Engine 5构建的梦境中寻找主人。",
+          "summary_source": "llm"
         },
         {
           "name": "少女死神养成计划",
           "count": 1,
-          "summary": "双武器酣爽砍杀！《少女死神养成计划》Steam现已解锁。",
-          "summary_source": "rules"
+          "summary": "登陆Steam，主打黑暗奇幻肉鸽玩法，拥有双武器战斗与自由养成系统。",
+          "summary_source": "llm"
         },
         {
           "name": "沙耶之歌",
           "count": 1,
-          "summary": "“扭曲的纯爱”再现！《沙耶之歌》沙耶L size模型预订。",
-          "summary_source": "rules"
+          "summary": "沙耶L size模型再贩预订于8月20日启动，国内B站渠道售价359元。",
+          "summary_source": "llm"
         },
         {
           "name": "波斯王子：Rogue",
           "count": 1,
-          "summary": "《波斯王子：Rogue》Steam价格永降：标准版降至80元。",
-          "summary_source": "rules"
+          "summary": "Steam标准版价格永久下调至80元。",
+          "summary_source": "llm"
         }
       ]
     },
