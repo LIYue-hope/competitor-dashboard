@@ -33,6 +33,7 @@ from game_name import derive_game_name  # noqa: E402
 from summarize_news import (  # noqa: E402
     DATA_DIR,
     call_llm,
+    format_date_cn,
     llm_enabled,
     load_json,
     stat_key,
@@ -525,7 +526,13 @@ def rules_overview(start, end, articles, ranked):
 def build_model_input(start, end, articles, ranked):
     untagged = sum(1 for item in articles if not stat_key(item.get("game_name")))
     lines = [
-        "\u5468\u671f\uff1a%s \u81f3 %s" % (start.isoformat(), end.isoformat()),
+        "\u5468\u671f\uff1a%s\uff08%s\uff09 \u81f3 %s\uff08%s\uff09"
+        % (
+            start.isoformat(),
+            format_date_cn(start.isoformat()),
+            end.isoformat(),
+            format_date_cn(end.isoformat()),
+        ),
         "\u56db\u6e90\u65b0\u95fb\u603b\u6570\uff1a%d \u6761\uff0c\u6d89\u53ca\u6e38\u620f %d \u6b3e\uff0c\u672a\u6307\u5411\u5177\u4f53\u6e38\u620f %d \u6761\u3002"
         % (len(articles), len(ranked), untagged),
         "\u6309\u7efc\u5408\u70ed\u5ea6\u6392\u5e8f\u7684\u6e38\u620f\uff08\u542b\u6761\u6570/\u6765\u6e90/\u9884\u7ea6/\u699c\u5355\u4e0e\u4ee3\u8868\u6807\u9898\uff09\uff1a",

@@ -20,10 +20,15 @@ data/<key>_digest.json。刻意不做「游戏名 + 条数」的清单：光有�
     备用  DIGEST_LLM_FALLBACK_BASE_URL / DIGEST_LLM_FALLBACK_API_KEY
           DIGEST_LLM_FALLBACK_MODEL
   BASE_URL 形如 https://xxx/v1，不含 /chat/completions，由 call_llm 自行拼接。
-  当前部署：主用智谱 GLM-4.7-Flash，备用百度千帆 ERNIE-3.5-8K，两家都是国内
-  直连、永久免费不限量，只限并发；稳态调用量是「来源数 × 当次未命中缓存的日期数」
+  当前部署：主用智谱 GLM-4.7-Flash（永久免费，并发 1），备用讯飞星火 Lite
+  （官方标注「支持免费使用」，OpenAI 兼容接口）。千帆 3.5 / Speed / Lite /
+  Tiny 已于 2026 上半年全部退役，官方替换的 ernie-4.5-turbo-128k 只是新用户
+  100 万 token / 3 个月试用，不是免费模型，不再用。混元-lite 已从现行价目
+  下架。主用 429 会按 Retry-After / 指数退避重试，仍失败才换备用；两家都不
+  行就走规则文本。稳态调用量是「来源数 × 当次未命中缓存的日期数」
   ——命中 input_hash 且综述不短于 CACHE_MIN_DIGEST_LEN 的日期直接复用，通常每个
-  来源只剩当天这一个新日期要算，碰不到任何速率上限。
+  来源只剩当天这一个新日期要算。免费档并发是 1，请求之间会主动隔开，避免
+  上一次还没释放就打下一次。
   模型生成结果还要过 verify_digest 的数字校验，任一数字/日期在输入里找不到就
   换下一家、全都失败则退回规则文本——模型编造具体数字是这类摘要任务最主要的
   翻车方式。
@@ -108,8 +113,9 @@ RULES_SUMMARY_MAX = 160
 
 # 送模型的输入规模上限。各站摘要在采集侧被硬截断（3DM 为 360 字符），单游戏取
 # 标题 + 摘要仍可能上千字，因此按游戏和总量两级封顶，保证请求体可控。
-# 单游戏 360 × 15 款仍在总量 6000 以内，保证 Top 15 都能进素材而不是被截在半路；
-# 总量也要给备用的 ERNIE-3.5-8K 留出输出空间，不能再往上放。
+# 单游戏 360 × 15 款仍在总量 6000 以内，保证 Top 15 都能进素材而不是被截在半路。
+# 主用 glm-4.7-flash 有 200K 上下文，6000 不是窗口硬约束，只是把请求体压在每天
+# 几次调用的量级上，不必再往上放。
 MAX_CHARS_PER_GAME = 360
 MAX_INPUT_CHARS = 6000
 
@@ -117,6 +123,10 @@ MAX_INPUT_CHARS = 6000
 def read_provider(prefix, label):
     base_url = os.environ.get(f"{prefix}BASE_URL", "").strip().rstrip("/")
     api_key = os.environ.get(f"{prefix}API_KEY", "").strip()
+    # 有人会把控制台示例里的 "Bearer xxx" 整段贴进 secret，再拼一次就变成
+    # "Bearer Bearer xxx"，对方直接 401。
+    if api_key.lower().startswith("bearer "):
+        api_key = api_key[7:].strip()
     model = os.environ.get(f"{prefix}MODEL", "").strip()
     if not (base_url and api_key and model):
         return None
@@ -136,12 +146,18 @@ LLM_PROVIDERS = [
 
 LLM_TIMEOUT = 60
 
-# 429/1305 是共享算力的瞬时限流，隔几秒重试就能过，不该直接掉到备用或规则文本。
-# 实测同一个 key 打 glm-4.7-flash 大约三次里中一次，所以给到 6 次、每次多等 2 秒
-# （最长 2+4+6+8+10=30 秒），单次运行一共约 30 个请求，等待总量仍在 CI 可接受范围。
-LLM_MAX_ATTEMPTS = 6
-LLM_RETRY_BACKOFF = 2
-LLM_RETRY_MAX_WAIT = 10
+# 智谱免费档并发是 1，共享算力高峰会连着 429。隔几秒再打同一个模型比直接换备用
+# 更划算：备用是兜底，不是平行分流。给到 8 次，按 5 秒起跳、上限 30 秒
+# （5+10+15+20+25+30+30 ≈ 135 秒），单次运行稳态只有几个新日期，CI 等得起。
+# 响应头带 Retry-After 时优先听服务端的，别自作主张。
+LLM_MAX_ATTEMPTS = 8
+LLM_RETRY_BACKOFF = 5
+LLM_RETRY_MAX_WAIT = 30
+
+# 两次调用之间的最小间隔。并发 1 的免费档，上一次还没释放就打下一次必 429。
+LLM_CALL_GAP = 2
+
+_last_llm_call_at = 0.0
 
 
 
@@ -347,7 +363,9 @@ def build_model_input(source_name, date, clusters, total, untagged_count):
     而且长尾游戏本来也不进当日榜，没有单独总结的必要。
     """
     lines = [
-        f"日期：{date}",
+        # 中文日期必须写进素材：模型几乎一定写成「8月21日」，而 ISO 日期
+        # 2026-08-21 拆出来的是 08 不是 8，数字校验会把整段综述扔掉。
+        f"日期：{date}（{format_date_cn(date)}）",
         # 涉及游戏数也要写进素材：综述本该提这个数，但数字校验只认素材里出现过的
         # 数字，不给它就等于禁止模型说「涉及 N 款游戏」。
         f"当天 {source_name} 新闻总数：{total} 条，涉及游戏 {len(clusters)} 款，"
@@ -396,9 +414,21 @@ def verify_digest(text, source_text, min_len=CACHE_MIN_DIGEST_LEN):
         return False, "文本过短"
     allowed = set(DIGIT_RUN_RE.findall(source_text))
     for number in DIGIT_RUN_RE.findall(text):
-        if number not in allowed:
+        if not digit_run_allowed(number, allowed):
             return False, f"输出里的数字 {number} 在输入素材中不存在"
     return True, ""
+
+
+def digit_run_allowed(number, allowed):
+    """数字串是否能在素材里对上，允许只差前导零。
+
+    素材写 2026-08-21，模型写「8月21日」是正常中文，08 和 8 应视为同一个数；
+    编造的 27、300 对不上任何一段，仍然拒绝。
+    """
+    if number in allowed:
+        return True
+    stripped = number.lstrip("0") or "0"
+    return any((item.lstrip("0") or "0") == stripped for item in allowed)
 
 
 def extract_message_text(data):
@@ -418,47 +448,58 @@ def extract_message_text(data):
 def call_llm(provider, prompt_input, system_prompt=None):
     """调用一组 provider 的 chat/completions，失败返回 None 交给调用方兜底。"""
     url = f"{provider['base_url']}/chat/completions"
+    system_text = system_prompt or (
+        "你是游戏行业资讯编辑。根据素材写当日总结，严格按以下格式输出，"
+        "不要输出标题、前言、结语或 Markdown 标记：\n"
+        "第一行以「综述：」开头，用 100~140 字概括当天整体情况；"
+        "即使当天新闻只有 1~3 条也要写到 100 字左右，做法是展开这几条"
+        "报道的具体内容、点名涉及的游戏与厂商，不得虚构任何素材里没有的"
+        "事实或数字，也不要用空话凑字数；\n"
+        "之后每款游戏各占一行，格式为「游戏名｜这款游戏当天的动态」，"
+        "游戏名与素材里的写法保持一致，顺序也和素材一致，每行 40~80 字，"
+        "讲清具体发生了什么（发售、更新、销量、争议等），"
+        "不要只重复标题也不要写成条数统计。\n"
+        "只允许使用素材里出现的事实与数字，素材没写的一律不写。"
+    )
+    # 星火官方只写明 Ultra / Max 支持 system，Lite 把指令并进 user 更稳，
+    # 避免被当成非法角色直接拒掉。
+    if "xf-yun.com" in provider["base_url"]:
+        messages = [
+            {
+                "role": "user",
+                "content": system_text + "\n\n素材：\n" + prompt_input,
+            }
+        ]
+    else:
+        messages = [
+            {"role": "system", "content": system_text},
+            {"role": "user", "content": prompt_input},
+        ]
     payload = {
         "model": provider["model"],
-        "messages": [
-            {
-                "role": "system",
-                "content": system_prompt or (
-                    "你是游戏行业资讯编辑。根据素材写当日总结，严格按以下格式输出，"
-                    "不要输出标题、前言、结语或 Markdown 标记：\n"
-                    "第一行以「综述：」开头，用 100~140 字概括当天整体情况；"
-                    "即使当天新闻只有 1~3 条也要写到 100 字左右，做法是展开这几条"
-                    "报道的具体内容、点名涉及的游戏与厂商，不得虚构任何素材里没有的"
-                    "事实或数字，也不要用空话凑字数；\n"
-                    "之后每款游戏各占一行，格式为「游戏名｜这款游戏当天的动态」，"
-                    "游戏名与素材里的写法保持一致，顺序也和素材一致，每行 40~80 字，"
-                    "讲清具体发生了什么（发售、更新、销量、争议等），"
-                    "不要只重复标题也不要写成条数统计。\n"
-                    "只允许使用素材里出现的事实与数字，素材没写的一律不写。"
-                ),
-            },
-            {"role": "user", "content": prompt_input},
-        ],
+        "messages": messages,
         "temperature": 0.2,
         # 综述 + 15 行单游戏总结，中文按 1 字≈1.5 token 估，1600 才够写完不被截断
         "max_tokens": 1600,
     }
     # 智谱的 glm-4.5/4.7 系列默认开思考，推理会吃光 max_tokens 让 content 空着返回，
     # 这个任务也不需要长链推理，所以显式关掉。只对智谱下发：这个字段不是通用参数，
-    # 发给千帆有被当成非法入参拒掉的风险。
+    # 发给星火会被当成非法入参拒掉。
     if "bigmodel.cn" in provider["base_url"]:
         payload["thinking"] = {"type": "disabled"}
     headers = dict(DEFAULT_HEADERS)
     headers["Authorization"] = f"Bearer {provider['api_key']}"
     headers["Content-Type"] = "application/json"
     for attempt in range(1, LLM_MAX_ATTEMPTS + 1):
+        _wait_call_gap()
         try:
             resp = requests.post(
                 url, json=payload, headers=headers, timeout=LLM_TIMEOUT
             )
+            _mark_llm_call()
             # 429 = 共享算力被占满，等一会儿再打同一个模型比直接换备用更划算
             if resp.status_code == 429 and attempt < LLM_MAX_ATTEMPTS:
-                wait = min(LLM_RETRY_BACKOFF * attempt, LLM_RETRY_MAX_WAIT)
+                wait = retry_after_seconds(resp, attempt)
                 logger.warning(
                     "%s模型 %s 被限流（429），%s 秒后重试（第 %s/%s 次）",
                     provider["label"],
@@ -472,13 +513,44 @@ def call_llm(provider, prompt_input, system_prompt=None):
             resp.raise_for_status()
             return extract_message_text(resp.json())
         except (requests.RequestException, KeyError, IndexError, ValueError) as exc:
+            extra = ""
+            err_resp = getattr(exc, "response", None)
+            if err_resp is not None:
+                body = " ".join((err_resp.text or "").split())
+                if body:
+                    extra = "；响应：%s" % body[:300]
             logger.warning(
-                "%s模型 %s 调用失败：%s", provider["label"], provider["model"], exc
+                "%s模型 %s 调用失败：%s%s",
+                provider["label"],
+                provider["model"],
+                exc,
+                extra,
             )
             return None
     return None
 
 
+def _wait_call_gap():
+    """两次请求之间至少隔 LLM_CALL_GAP 秒，避开免费档并发 1 的硬限。"""
+    elapsed = time.monotonic() - _last_llm_call_at
+    if elapsed < LLM_CALL_GAP:
+        time.sleep(LLM_CALL_GAP - elapsed)
+
+
+def _mark_llm_call():
+    global _last_llm_call_at
+    _last_llm_call_at = time.monotonic()
+
+
+def retry_after_seconds(resp, attempt):
+    """429 的等待时长：优先听 Retry-After，没有再按指数退避。"""
+    raw = (resp.headers.get("Retry-After") or "").strip()
+    if raw:
+        try:
+            return min(max(int(raw), 1), LLM_RETRY_MAX_WAIT)
+        except ValueError:
+            pass
+    return min(LLM_RETRY_BACKOFF * attempt, LLM_RETRY_MAX_WAIT)
 
 
 def llm_enabled():
@@ -489,8 +561,8 @@ def llm_enabled():
 def parse_model_output(text):
     """把模型输出拆成（综述, {统计键: 单游戏总结}）。
 
-    用行 + 分隔符而不是 JSON：备用的 ERNIE-3.5-8K 属于小模型，让它吐结构化 JSON
-    的失败率明显高于吐纯文本，而这里的格式简单到解析根本不需要 JSON。
+    用行 + 分隔符而不是 JSON：让小模型吐结构化 JSON 的失败率明显高于吐纯文本，
+    而这里的格式简单到解析根本不需要 JSON。
     """
     overview = ""
     summaries = {}

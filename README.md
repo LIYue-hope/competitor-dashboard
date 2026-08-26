@@ -83,9 +83,13 @@ TapTap 详情页需逐个请求补预约量级等）都写在各脚本头部 doc
   DIGEST_LLM_FALLBACK_BASE_URL / DIGEST_LLM_FALLBACK_API_KEY / DIGEST_LLM_FALLBACK_MODEL
   ```
 
-  `BASE_URL` 形如 `https://xxx/v1`，不含 `/chat/completions`。CI 里主用智谱 GLM-4.7-Flash、
-  备用百度千帆 ERNIE-3.5-8K，key 走仓库 secrets（`DIGEST_LLM_API_KEY` /
-  `DIGEST_LLM_FALLBACK_API_KEY`）。原方案 GitHub Models 已于 2026-07-30 全量退役，不可用。
+  `BASE_URL` 形如 `https://xxx/v1`，不含 `/chat/completions`。CI 里主用智谱
+  GLM-4.7-Flash（永久免费，并发 1），备用讯飞星火 Lite（官方标注「支持免费使用」，
+  OpenAI 兼容接口 `https://spark-api-open.xf-yun.com/v1`，模型名 `lite`）。
+  千帆 3.5 / Speed / Lite / Tiny 已退役，`ernie-4.5-turbo-128k` 只是新用户试用；
+  混元-lite 已从现行价目下架。key 走仓库 secrets（`DIGEST_LLM_API_KEY` /
+  `DIGEST_LLM_FALLBACK_API_KEY`，星火这边填控制台的 APIPassword）。原方案
+  GitHub Models 已于 2026-07-30 全量退役，不可用。
 - 模型输出要过 `verify_digest` 数字校验：任一数字/日期在输入里找不到就换下一家，
   全失败退回规则文本——编造具体数字是这类摘要任务最主要的翻车方式。
 - 按日期维度用 `input_hash` 复用旧结果，只对新增/变化的日期调模型，稳态下每天约 4 次调用。

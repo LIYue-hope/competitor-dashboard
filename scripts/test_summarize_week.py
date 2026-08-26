@@ -292,5 +292,38 @@ class TestCollectAndPayload(unittest.TestCase):
             self.assertEqual(data["hot_ranking"][0]["media_count"], 3)
 
 
+class TestVerifyDigest(unittest.TestCase):
+    def test_leading_zero_date_is_allowed(self):
+        source = "\u65e5\u671f\uff1a2026-08-21\n\u5171 12 \u6761"
+        filler = (
+            "\u6d89\u53ca\u591a\u6b3e\u6e38\u620f\u7684\u53d1\u552e\u4e0e\u66f4\u65b0\u52a8\u6001\uff0c"
+            "\u62a5\u9053\u96c6\u4e2d\u5728\u51e0\u6b3e\u70ed\u95e8\u4f5c\u54c1\u7684\u7248\u672c\u524d\u77bb\u4e0e\u6d4b\u8bd5\u6392\u671f\u3002"
+        )
+        text = "8\u670821\u65e5\u5171 12 \u6761\u65b0\u95fb\uff0c" + filler * 3
+        ok, reason = sw.verify_digest(text, source)
+        self.assertTrue(ok, reason)
+
+    def test_fabricated_number_is_rejected(self):
+        source = "\u65e5\u671f\uff1a2026-08-21\n\u5171 12 \u6761"
+        filler = (
+            "\u6d89\u53ca\u591a\u6b3e\u6e38\u620f\u7684\u53d1\u552e\u4e0e\u66f4\u65b0\u52a8\u6001\uff0c"
+            "\u62a5\u9053\u96c6\u4e2d\u5728\u51e0\u6b3e\u70ed\u95e8\u4f5c\u54c1\u7684\u7248\u672c\u524d\u77bb\u4e0e\u6d4b\u8bd5\u6392\u671f\u3002"
+        )
+        text = "8\u670821\u65e5\u5171 12 \u6761\u65b0\u95fb\uff0c\u9500\u91cf\u8d85 300 \u4e07\uff0c" + filler * 3
+        ok, reason = sw.verify_digest(text, source)
+        self.assertFalse(ok)
+        self.assertIn("300", reason)
+
+    def test_retry_after_prefers_header(self):
+        import summarize_news as sn
+
+        resp = mock.Mock()
+        resp.headers = {"Retry-After": "12"}
+        self.assertEqual(sn.retry_after_seconds(resp, attempt=1), 12)
+        resp.headers = {}
+        self.assertEqual(sn.retry_after_seconds(resp, attempt=3), 15)
+
+
+
 if __name__ == "__main__":
     unittest.main()
