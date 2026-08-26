@@ -127,10 +127,9 @@ jobs:
         id: digest
         continue-on-error: true
         # 主用智谱 GLM-4.7-Flash（永久免费，并发 1），备用讯飞星火 Lite
-        # （官方标注「支持免费使用」）。千帆免费档已退役，ernie-4.5-turbo-128k
-        # 是试用不是免费，混元-lite 已从现行价目下架，都不用。key 走仓库
-        # secrets；未配置的 secret 是空字符串，脚本会判定该组不可用并降级到
-        # 规则生成，不报错也不会写坏数据。
+        # （官方标注「支持免费使用」）。DIGEST_LLM_FALLBACK_API_KEY 必须是
+        # 控制台 Lite 版本页的 APIPassword，拿错版本或填 APPID/APIKey 会 11200。
+        # 未配置的 secret 是空字符串，脚本会判定该组不可用并降级到规则生成。
         env:
           DIGEST_LLM_BASE_URL: https://open.bigmodel.cn/api/paas/v4
           DIGEST_LLM_MODEL: glm-4.7-flash

@@ -24,11 +24,11 @@ data/<key>_digest.json。刻意不做「游戏名 + 条数」的清单：光有�
   （官方标注「支持免费使用」，OpenAI 兼容接口）。千帆 3.5 / Speed / Lite /
   Tiny 已于 2026 上半年全部退役，官方替换的 ernie-4.5-turbo-128k 只是新用户
   100 万 token / 3 个月试用，不是免费模型，不再用。混元-lite 已从现行价目
-  下架。主用 429 会按 Retry-After / 指数退避重试，仍失败才换备用；两家都不
-  行就走规则文本。稳态调用量是「来源数 × 当次未命中缓存的日期数」
+  下架。主用 429 固定等 15 秒再打同一条，最多 4 次；成功回包后也隔 15 秒才
+  发下一条，避免免费档 RPM 窗口没过就接着打。仍失败才换备用；两家都不行就
+  走规则文本。稳态调用量是「来源数 × 当次未命中缓存的日期数」
   ——命中 input_hash 且综述不短于 CACHE_MIN_DIGEST_LEN 的日期直接复用，通常每个
-  来源只剩当天这一个新日期要算。免费档并发是 1，请求之间会主动隔开，避免
-  上一次还没释放就打下一次。
+  来源只剩当天这一个新日期要算。
   模型生成结果还要过 verify_digest 的数字校验，任一数字/日期在输入里找不到就
   换下一家、全都失败则退回规则文本——模型编造具体数字是这类摘要任务最主要的
   翻车方式。
@@ -146,18 +146,20 @@ LLM_PROVIDERS = [
 
 LLM_TIMEOUT = 60
 
-# 智谱免费档并发是 1，共享算力高峰会连着 429。隔几秒再打同一个模型比直接换备用
-# 更划算：备用是兜底，不是平行分流。给到 8 次，按 5 秒起跳、上限 30 秒
-# （5+10+15+20+25+30+30 ≈ 135 秒），单次运行稳态只有几个新日期，CI 等得起。
-# 响应头带 Retry-After 时优先听服务端的，别自作主张。
-LLM_MAX_ATTEMPTS = 8
-LLM_RETRY_BACKOFF = 5
-LLM_RETRY_MAX_WAIT = 30
+# 智谱免费档并发是 1，共享算力高峰会连着 429。同一条请求停在原地等窗口，
+# 比立刻换备用更划算。固定 15 秒、最多 4 次（含首次共 4 次 POST，中间最多
+# 等 3 次 × 15 秒）。响应头 / body 带 Retry-After 时优先听服务端的，但下限
+# 仍是 15 秒，避免窗口还没过就打回去。
+LLM_MAX_ATTEMPTS = 4
+LLM_RETRY_WAIT = 15
 
-# 两次调用之间的最小间隔。并发 1 的免费档，上一次还没释放就打下一次必 429。
-LLM_CALL_GAP = 2
+# 成功回包后再隔这么久才发下一条。2 秒只防并发重叠，挡不住 RPM；
+# 和 429 退避用同一个 15 秒，逻辑简单，稳态每天几次调用 CI 等得起。
+LLM_CALL_GAP = 15
 
 _last_llm_call_at = 0.0
+# 429 时记「窗口何时打开」，成功回包时清掉。限流响应本身不刷新成功冷却。
+_rate_limited_until = 0.0
 
 
 
@@ -411,7 +413,7 @@ def verify_digest(text, source_text, min_len=CACHE_MIN_DIGEST_LEN):
     单游戏总结本身就短，同一个下限会把合理的一句话也误杀，由调用方另传。
     """
     if not text or len(text) < min_len:
-        return False, "文本过短"
+        return False, "文本过短（%s 字，下限 %s）" % (len(text or ""), min_len)
     allowed = set(DIGIT_RUN_RE.findall(source_text))
     for number in DIGIT_RUN_RE.findall(text):
         if not digit_run_allowed(number, allowed):
@@ -434,15 +436,19 @@ def digit_run_allowed(number, allowed):
 def extract_message_text(data):
     """从 chat/completions 响应里取正文，取不到就返回空串让调用方兜底。
 
-    刻意只认 content：智谱的思考型模型会把推理过程放在 reasoning_content，那段是
-    草稿而不是成品，直接拿去当总结会把「用户想要…」这类自言自语写到页面上。
-    所以 content 为空时记一条日志退回上层，而不是拿推理过程凑数。
+    优先 content：思考型模型的 reasoning_content 是草稿。但 glm-4.7-flash 关掉
+    thinking 之后仍偶尔把成品只放在 reasoning_content、content 留空，这时再丢掉
+    整段就只剩「文本过短」。content 为空才回退推理字段，有正文时绝不拿草稿凑数。
     """
     message = data["choices"][0]["message"]
     text = (message.get("content") or "").strip()
-    if not text and message.get("reasoning_content"):
-        logger.warning("模型只返回了推理过程、正文为空，按失败处理")
-    return text
+    if text:
+        return text
+    fallback = (message.get("reasoning_content") or "").strip()
+    if fallback:
+        logger.warning("模型正文为空，回退使用推理字段（%s 字）", len(fallback))
+        return fallback
+    return ""
 
 
 def call_llm(provider, prompt_input, system_prompt=None):
@@ -496,61 +502,109 @@ def call_llm(provider, prompt_input, system_prompt=None):
             resp = requests.post(
                 url, json=payload, headers=headers, timeout=LLM_TIMEOUT
             )
-            _mark_llm_call()
-            # 429 = 共享算力被占满，等一会儿再打同一个模型比直接换备用更划算
-            if resp.status_code == 429 and attempt < LLM_MAX_ATTEMPTS:
-                wait = retry_after_seconds(resp, attempt)
-                logger.warning(
-                    "%s模型 %s 被限流（429），%s 秒后重试（第 %s/%s 次）",
-                    provider["label"],
-                    provider["model"],
-                    wait,
-                    attempt,
-                    LLM_MAX_ATTEMPTS,
-                )
-                time.sleep(wait)
-                continue
+        except (requests.RequestException, KeyError, IndexError, ValueError) as exc:
+            logger.warning(
+                "%s模型 %s 调用失败：%s",
+                provider["label"],
+                provider["model"],
+                exc,
+            )
+            return None
+        if resp.status_code == 429 and attempt < LLM_MAX_ATTEMPTS:
+            wait = retry_after_seconds(resp)
+            _mark_rate_limited(wait)
+            logger.warning(
+                "%s模型 %s 被限流（429），%s 秒后重试同一条（第 %s/%s 次）",
+                provider["label"],
+                provider["model"],
+                wait,
+                attempt,
+                LLM_MAX_ATTEMPTS,
+            )
+            time.sleep(wait)
+            continue
+        try:
             resp.raise_for_status()
+            _mark_llm_call()
             return extract_message_text(resp.json())
         except (requests.RequestException, KeyError, IndexError, ValueError) as exc:
             extra = ""
-            err_resp = getattr(exc, "response", None)
-            if err_resp is not None:
-                body = " ".join((err_resp.text or "").split())
-                if body:
-                    extra = "；响应：%s" % body[:300]
+            hint = ""
+            body = " ".join((resp.text or "").split())
+            if body:
+                extra = "；响应：%s" % body[:300]
+                hint = spark_auth_hint(body)
             logger.warning(
-                "%s模型 %s 调用失败：%s%s",
+                "%s模型 %s 调用失败：%s%s%s",
                 provider["label"],
                 provider["model"],
                 exc,
                 extra,
+                hint,
             )
             return None
+    logger.warning(
+        "%s模型 %s 重试用尽，放弃本条",
+        provider["label"],
+        provider["model"],
+    )
     return None
 
 
 def _wait_call_gap():
-    """两次请求之间至少隔 LLM_CALL_GAP 秒，避开免费档并发 1 的硬限。"""
-    elapsed = time.monotonic() - _last_llm_call_at
-    if elapsed < LLM_CALL_GAP:
-        time.sleep(LLM_CALL_GAP - elapsed)
+    """发下一条之前等到成功冷却和 429 窗口都过了。"""
+    target = max(_last_llm_call_at + LLM_CALL_GAP, _rate_limited_until)
+    remaining = target - time.monotonic()
+    if remaining > 0:
+        time.sleep(remaining)
 
 
 def _mark_llm_call():
-    global _last_llm_call_at
+    """成功回包才刷新冷却起点；429 不走这里。"""
+    global _last_llm_call_at, _rate_limited_until
     _last_llm_call_at = time.monotonic()
+    _rate_limited_until = 0.0
 
 
-def retry_after_seconds(resp, attempt):
-    """429 的等待时长：优先听 Retry-After，没有再按指数退避。"""
+def _mark_rate_limited(wait):
+    """限流响应只用来推迟下一次发送，不刷新成功冷却。"""
+    global _rate_limited_until
+    _rate_limited_until = time.monotonic() + wait
+
+
+def retry_after_seconds(resp):
+    """429 等待时长：头或 body 里的 Retry-After，否则固定 15 秒。"""
     raw = (resp.headers.get("Retry-After") or "").strip()
     if raw:
         try:
-            return min(max(int(raw), 1), LLM_RETRY_MAX_WAIT)
+            return max(int(raw), LLM_RETRY_WAIT)
         except ValueError:
             pass
-    return min(LLM_RETRY_BACKOFF * attempt, LLM_RETRY_MAX_WAIT)
+    try:
+        data = resp.json()
+    except ValueError:
+        data = {}
+    for key in ("retry_after", "retryAfter"):
+        value = data.get(key)
+        if value is None and isinstance(data.get("error"), dict):
+            value = data["error"].get(key)
+        if value is not None:
+            try:
+                return max(int(value), LLM_RETRY_WAIT)
+            except (TypeError, ValueError):
+                pass
+    return LLM_RETRY_WAIT
+
+
+def spark_auth_hint(body):
+    """11200 / AppIdNoAuthError 是授权问题，重试没用，提示去控制台核对 Lite 的 key。"""
+    if "11200" not in body and "AppIdNoAuthError" not in body:
+        return ""
+    return (
+        "。这是讯飞授权错误，不是限流：请到控制台 Lite 版本页开通服务，"
+        "把该页的 APIPassword 写入 DIGEST_LLM_FALLBACK_API_KEY"
+        "（Lite / Pro / Ultra 各有一份，不能混用；也不是 APPID 或 APIKey）"
+    )
 
 
 def llm_enabled():
@@ -563,28 +617,35 @@ def parse_model_output(text):
 
     用行 + 分隔符而不是 JSON：让小模型吐结构化 JSON 的失败率明显高于吐纯文本，
     而这里的格式简单到解析根本不需要 JSON。
+
+    综述经常被模型拆成两三行：第一行「综述：……」只有二三十字，后面几行散文
+    才把字数写满。只收第一行就会被 CACHE_MIN_DIGEST_LEN 判成过短。所以从综述
+    起笔一直拼到第一条「游戏名｜动态」为止，空行忽略，不把游戏行误吃进去。
     """
-    overview = ""
+    overview_parts = []
     summaries = {}
+    capturing_overview = False
     for raw in (text or "").splitlines():
         line = LEADING_NUM_RE.sub("", raw.strip().lstrip("-•*# ").strip())
         if not line:
             continue
         if OVERVIEW_PREFIX_RE.match(line):
-            overview = OVERVIEW_PREFIX_RE.sub("", line).strip()
+            overview_parts = [OVERVIEW_PREFIX_RE.sub("", line).strip()]
+            capturing_overview = True
             continue
         parts = GAME_LINE_SEP_RE.split(line, maxsplit=1)
-        if len(parts) != 2:
-            # 模型偶尔漏掉「综述：」前缀，此时把第一段散文当综述，别整天作废
-            if not overview:
-                overview = line
+        if len(parts) == 2:
+            capturing_overview = False
+            name = parts[0].strip().strip("《》").strip()
+            summary = parts[1].strip()
+            key = stat_key(name)
+            if key and summary:
+                summaries[key] = summary
             continue
-        name = parts[0].strip().strip("《》").strip()
-        summary = parts[1].strip()
-        key = stat_key(name)
-        if key and summary:
-            summaries[key] = summary
-    return overview, summaries
+        if capturing_overview or not overview_parts:
+            overview_parts.append(line)
+            capturing_overview = True
+    return "".join(overview_parts), summaries
 
 
 def generate_digest(date, prompt_input):
@@ -601,9 +662,10 @@ def generate_digest(date, prompt_input):
         overview, summaries = parse_model_output(raw)
         ok, reason = verify_digest(overview, prompt_input)
         if not ok:
+            preview = (overview or "")[:80].replace("\n", " ")
             logger.warning(
-                "%s %s模型 %s 综述未通过校验（%s）",
-                date, provider["label"], provider["model"], reason,
+                "%s %s模型 %s 综述未通过校验（%s）；摘录：%s",
+                date, provider["label"], provider["model"], reason, preview,
             )
             continue
         kept = {}

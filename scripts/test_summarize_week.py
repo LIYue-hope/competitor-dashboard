@@ -318,10 +318,58 @@ class TestVerifyDigest(unittest.TestCase):
         import summarize_news as sn
 
         resp = mock.Mock()
-        resp.headers = {"Retry-After": "12"}
-        self.assertEqual(sn.retry_after_seconds(resp, attempt=1), 12)
+        resp.headers = {"Retry-After": "20"}
+        resp.json.side_effect = ValueError("no json")
+        self.assertEqual(sn.retry_after_seconds(resp), 20)
         resp.headers = {}
-        self.assertEqual(sn.retry_after_seconds(resp, attempt=3), 15)
+        resp.json.side_effect = ValueError("no json")
+        self.assertEqual(sn.retry_after_seconds(resp), sn.LLM_RETRY_WAIT)
+        resp.headers = {"Retry-After": "5"}
+        resp.json.side_effect = ValueError("no json")
+        self.assertEqual(sn.retry_after_seconds(resp), sn.LLM_RETRY_WAIT)
+
+    def test_spark_auth_hint_on_11200(self):
+        import summarize_news as sn
+
+        hint = sn.spark_auth_hint('{"error":{"message":"AppIdNoAuthError","code":"11200"}}')
+        self.assertIn("APIPassword", hint)
+        self.assertEqual(sn.spark_auth_hint("429 too many requests"), "")
+
+    def test_parse_joins_wrapped_overview(self):
+        import summarize_news as sn
+
+        raw = (
+            "\u7efc\u8ff0\uff1a8\u670821\u65e5\u5171 12 \u6761\u65b0\u95fb\uff0c\n"
+            "\u6d89\u53ca\u591a\u6b3e\u6e38\u620f\u7684\u53d1\u552e\u4e0e\u66f4\u65b0\u52a8\u6001\uff0c"
+            "\u62a5\u9053\u96c6\u4e2d\u5728\u51e0\u6b3e\u70ed\u95e8\u4f5c\u54c1\u3002\n"
+            "\n"
+            "AlphaQuest\uff5c\u5f53\u5929\u66f4\u65b0\u4e86\u6d4b\u8bd5\u6392\u671f\u3002"
+        )
+        overview, summaries = sn.parse_model_output(raw)
+        self.assertIn("12", overview)
+        self.assertGreaterEqual(len(overview), 40)
+        self.assertIn(sw.stat_key("AlphaQuest"), summaries)
+
+    def test_parse_without_overview_prefix_joins_prose(self):
+        import summarize_news as sn
+
+        raw = (
+            "8\u670821\u65e5\u5171 12 \u6761\u65b0\u95fb\u3002\n"
+            "\u62a5\u9053\u96c6\u4e2d\u5728\u70ed\u95e8\u4f5c\u54c1\u7684\u53d1\u552e\u4e0e\u66f4\u65b0\u3002\n"
+            "AlphaQuest\uff5c\u5f53\u5929\u66f4\u65b0\u4e86\u6d4b\u8bd5\u6392\u671f\u3002"
+        )
+        overview, summaries = sn.parse_model_output(raw)
+        self.assertIn("12", overview)
+        self.assertIn("\u53d1\u552e", overview)
+        self.assertIn(sw.stat_key("AlphaQuest"), summaries)
+
+    def test_extract_falls_back_to_reasoning(self):
+        import summarize_news as sn
+
+        empty = {"choices": [{"message": {"content": "", "reasoning_content": "ok"}}]}
+        self.assertEqual(sn.extract_message_text(empty), "ok")
+        filled = {"choices": [{"message": {"content": "body", "reasoning_content": "draft"}}]}
+        self.assertEqual(sn.extract_message_text(filled), "body")
 
 
 
