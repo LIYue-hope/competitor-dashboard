@@ -13,6 +13,7 @@ const FILES = {
   taptap: 'taptap_upcoming.json',
   haoyou: 'haoyoukuaibao_upcoming.json',
   jiuyou: '9game_upcoming.json',
+  p16: '16p_upcoming.json',
   hot: 'hot_games_dynamics.json',
   dmNews: '3dmgame_news.json',
   dmReviews: '3dmgame_reviews.json',
@@ -25,6 +26,8 @@ const FILES = {
   gsDigest: 'gamersky_digest.json',
   glNews: 'gamelook_news.json',
   glDigest: 'gamelook_digest.json',
+  grNews: 'gameres_news.json',
+  grDigest: 'gameres_digest.json',
 }
 
 const data = ref({})
@@ -103,6 +106,7 @@ const newGameErrors = computed(() => ({
   taptap: errors.value.taptap || '',
   haoyou: errors.value.haoyou || '',
   jiuyou: errors.value.jiuyou || '',
+  p16: errors.value.p16 || '',
 }))
 
 // 每个资讯源的展示配置 + 数据在一处组装，面板只负责渲染
@@ -155,6 +159,16 @@ const newsSources = computed(() => [
     newsError: errors.value.glNews || '',
     digestError: errors.value.glDigest || '',
   },
+  {
+    key: 'gr',
+    label: '游资网',
+    // 游资网只有新闻没有评测
+    showReviews: false,
+    news: data.value.grNews,
+    digest: data.value.grDigest,
+    newsError: errors.value.grNews || '',
+    digestError: errors.value.grDigest || '',
+  },
 ])
 
 // 侧栏条目计数：让人在切板块之前就知道各板块有多少内容
@@ -163,7 +177,8 @@ const counts = computed(() => ({
   'new-games':
     (data.value.taptap || []).length +
     (data.value.haoyou?.days || []).reduce((n, d) => n + d.games.length, 0) +
-    (data.value.jiuyou?.days || []).reduce((n, d) => n + d.games.length, 0),
+    (data.value.jiuyou?.days || []).reduce((n, d) => n + d.games.length, 0) +
+    (data.value.p16?.days || []).reduce((n, d) => n + d.games.length, 0),
   'hot-games': (data.value.hot?.publishers || []).reduce((n, p) => n + p.games.length, 0),
   news: newsSources.value.reduce((n, s) => n + (s.news?.items || []).length, 0),
 }))
@@ -189,6 +204,7 @@ const NEWS_FILES = [
   'youxia_news.json', 'youxia_reviews.json', 'youxia_digest.json',
   'gamersky_news.json', 'gamersky_reviews.json', 'gamersky_digest.json',
   'gamelook_news.json', 'gamelook_digest.json',
+  'gameres_news.json', 'gameres_digest.json',
 ]
 </script>
 
@@ -243,7 +259,7 @@ const NEWS_FILES = [
               <h2>新游监测</h2>
               <span class="spacer"></span>
               <RefreshButton
-                :files="['taptap_upcoming.json', 'haoyoukuaibao_upcoming.json', '9game_upcoming.json']"
+                :files="['taptap_upcoming.json', 'haoyoukuaibao_upcoming.json', '9game_upcoming.json', '16p_upcoming.json']"
                 storage-key="new-games"
                 @refreshed="onRefreshed"
               />
@@ -252,6 +268,7 @@ const NEWS_FILES = [
               :taptap="data.taptap || []"
               :haoyou="data.haoyou"
               :jiuyou="data.jiuyou"
+              :p16="data.p16"
               :errors="newGameErrors"
               :active="activeSection === 'new-games'"
             />

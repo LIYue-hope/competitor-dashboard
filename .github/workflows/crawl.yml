@@ -72,6 +72,15 @@ jobs:
         continue-on-error: true
         run: python scripts/crawl_9game.py
 
+      - name: 运行游资网新游采集脚本
+        # 输出 data/16p_upcoming.json，7 天窗口的「上线」新游；数据来自 16p.com，
+        # 与游资网资讯同一家后端（gameres.com 的 gamecenter 接口），依赖只有
+        # requests（已在 scripts/requirements.txt 覆盖）。
+        id: p16
+        continue-on-error: true
+        run: python scripts/crawl_16p.py
+
+
       - name: 运行 3DMGame 新闻/测评采集脚本
         # 输出 data/3dmgame_news.json + data/3dmgame_reviews.json，10 天滚动
         # 窗口，脚本内部自行读取旧文件合并去重，因此本步骤无需额外处理。
@@ -101,9 +110,17 @@ jobs:
         continue-on-error: true
         run: python scripts/crawl_gamelook.py
 
-      - name: 生成四个资讯源的每日新闻总结
-        # 必须排在四个资讯源采集之后：它读的是刚写好的 data/<key>_news.json
-        # （3dmgame / youxia / gamersky / gamelook），输出 data/<key>_digest.json
+      - name: 运行游资网新闻采集脚本
+        # 输出 data/gameres_news.json，10 天滚动窗口；该站只有新闻没有评测，
+        # 所以只产出一个文件，前端对应面板走 news-only 模式。
+        # 采集侧按 tags 的 tid 白名单只保留「推荐/原创/产品/厂商/市场」5 类。
+        id: gameres
+        continue-on-error: true
+        run: python scripts/crawl_gameres.py
+
+      - name: 生成五个资讯源的每日新闻总结
+        # 必须排在五个资讯源采集之后：它读的是刚写好的 data/<key>_news.json
+        # （3dmgame / youxia / gamersky / gamelook / gameres），输出 data/<key>_digest.json
         #（同样在 data/ 下，被后面的提交步骤一并带上）。
         # 上游采集失败时这一步仍会跑，此时读到的是上一次的新闻文件，结果只是不更新，
         # 不会写坏数据（脚本解析出 0 条时拒绝写文件）。
@@ -153,7 +170,7 @@ jobs:
         # 这里不能再用 failure()：采集步骤已声明 continue-on-error: true，
         # 失败后 job 仍处于 success 状态，failure() 永远不成立，必须逐个比对
         # steps.<id>.outcome。该步骤本身只做提示，不改变 job 状态。
-        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure' || steps.jiuyou.outcome == 'failure' || steps.dmgame.outcome == 'failure' || steps.youxia.outcome == 'failure' || steps.gamersky.outcome == 'failure' || steps.gamelook.outcome == 'failure' || steps.digest.outcome == 'failure' || steps.taptap_rank.outcome == 'failure' || steps.weekly.outcome == 'failure'
+        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure' || steps.jiuyou.outcome == 'failure' || steps.p16.outcome == 'failure' || steps.dmgame.outcome == 'failure' || steps.youxia.outcome == 'failure' || steps.gamersky.outcome == 'failure' || steps.gamelook.outcome == 'failure' || steps.gameres.outcome == 'failure' || steps.digest.outcome == 'failure' || steps.taptap_rank.outcome == 'failure' || steps.weekly.outcome == 'failure'
         run: |
           # 把失败的脚本名字逐个打进 ::error:: 注解，直接在列表页区分是哪个源挂了。
           if [ "${{ steps.taptap.outcome }}" = "failure" ]; then
@@ -168,6 +185,9 @@ jobs:
           if [ "${{ steps.jiuyou.outcome }}" = "failure" ]; then
             echo "::error::九游采集脚本失败（scripts/crawl_9game.py）"
           fi
+          if [ "${{ steps.p16.outcome }}" = "failure" ]; then
+            echo "::error::游资网新游采集脚本失败（scripts/crawl_16p.py）"
+          fi
           if [ "${{ steps.dmgame.outcome }}" = "failure" ]; then
             echo "::error::3DMGame 采集脚本失败（scripts/crawl_3dmgame.py）"
           fi
@@ -179,6 +199,9 @@ jobs:
           fi
           if [ "${{ steps.gamelook.outcome }}" = "failure" ]; then
             echo "::error::GameLook 采集脚本失败（scripts/crawl_gamelook.py）"
+          fi
+          if [ "${{ steps.gameres.outcome }}" = "failure" ]; then
+            echo "::error::游资网采集脚本失败（scripts/crawl_gameres.py）"
           fi
           if [ "${{ steps.digest.outcome }}" = "failure" ]; then
             echo "::error::资讯源每日新闻总结生成失败（scripts/summarize_news.py）"
@@ -210,7 +233,7 @@ jobs:
           fi
 
           git add data/*.json
-          git commit -m "chore: 更新竞品监测数据（TapTap / 热门游戏动态 / 好游快爆 / 九游 / 3DMGame / 游侠网 / 游民星空 / GameLook）"
+          git commit -m "chore: 更新竞品监测数据（TapTap / 热门游戏动态 / 好游快爆 / 九游 / 游资网新游 / 3DMGame / 游侠网 / 游民星空 / GameLook / 游资网）"
 
           for i in 1 2 3; do
             if git push origin ${{ github.ref_name }}; then
@@ -235,7 +258,7 @@ jobs:
         # 又退回到"一个源挂掉、当天全都不更新"的老问题。
         # 这一步的作用是把被 continue-on-error 吞掉的失败重新暴露出来：否则
         # run 会一直显示绿色，某个数据源长期挂掉也无人察觉。
-        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure' || steps.jiuyou.outcome == 'failure' || steps.dmgame.outcome == 'failure' || steps.youxia.outcome == 'failure' || steps.gamersky.outcome == 'failure' || steps.gamelook.outcome == 'failure' || steps.digest.outcome == 'failure' || steps.taptap_rank.outcome == 'failure' || steps.weekly.outcome == 'failure'
+        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure' || steps.jiuyou.outcome == 'failure' || steps.p16.outcome == 'failure' || steps.dmgame.outcome == 'failure' || steps.youxia.outcome == 'failure' || steps.gamersky.outcome == 'failure' || steps.gamelook.outcome == 'failure' || steps.gameres.outcome == 'failure' || steps.digest.outcome == 'failure' || steps.taptap_rank.outcome == 'failure' || steps.weekly.outcome == 'failure'
         run: exit 1
 
   deploy:

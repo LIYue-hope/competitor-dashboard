@@ -46,6 +46,7 @@ NEWS_SOURCES = [
     ("youxia", "\u6e38\u4fa0\u7f51"),
     ("gamersky", "\u6e38\u6c11\u661f\u7a7a"),
     ("gamelook", "GameLook"),
+    ("gameres", "\u6e38\u8d44\u7f51"),
 ]
 REVIEW_KEYS = ("3dmgame", "youxia", "gamersky")
 

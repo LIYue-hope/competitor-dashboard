@@ -7,7 +7,8 @@ const props = defineProps({
   taptap: { type: Array, default: () => [] },
   haoyou: { type: Object, default: null },
   jiuyou: { type: Object, default: null },
-  errors: { type: Object, default: () => ({}) }, // { taptap, haoyou, jiuyou }
+  p16: { type: Object, default: null },
+  errors: { type: Object, default: () => ({}) }, // { taptap, haoyou, jiuyou, p16 }
   active: { type: Boolean, default: false },
 })
 
@@ -15,6 +16,7 @@ const SOURCES = [
   ['taptap', 'TapTap'],
   ['haoyou', '好游快爆'],
   ['jiuyou', '九游'],
+  ['p16', '游资网'],
 ]
 
 const tab = ref('taptap')
@@ -36,7 +38,7 @@ const crawledAt = computed(() =>
 
 /**
  * 日期分组：不重排内容，只是把既有顺序切成带锚点的段落。
- * 好游快爆 / 九游 数据本身就是按天分组的，直接用；
+ * 好游快爆 / 九游 / 游资网 数据本身就是按天分组的，直接用；
  * TapTap 是扁平列表，按 release_date 归组并保持首次出现顺序（等价于原排序）。
  */
 const groups = computed(() => {
