@@ -1,18 +1,53 @@
 {
-  "generated_at": "2026-08-26T10:21:17.968168+00:00",
+  "generated_at": "2026-08-27T02:54:30.170372+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-08-26",
-      "article_count": 10,
-      "game_count": 6,
-      "untagged_count": 4,
-      "digest": "2026年8月26日，游戏行业资讯聚焦于新作公布与老游戏复盘。科隆游戏展上，《异克斯小队》《无限大》等新作亮相，腾讯游戏发行《异克斯小队》并开放心愿单；《无限大》公布2027年1月15日上线计划。此外，《四海兄弟 故乡》发布荣誉之士DLC体验报告，《昭和米国物语》引发讨论，Supercell在Dev分享会上复盘《皇室战争》运营教训。",
+      "date": "2026-08-27",
+      "article_count": 2,
+      "game_count": 2,
+      "untagged_count": 0,
+      "digest": "今日游戏行业资讯聚焦于经典IP的现代化重塑与爆款小游戏的持续发力。育碧成都宣布联合上海团队研发《英雄无敌3重制版》，计划于2027年登陆多平台；蜜獾工作室则凭借复用核心框架的西游题材新作《赵云与阿斗》2.0，在抖音小游戏新游榜次日登顶，延续了前作的爆款热度。",
       "digest_source": "llm",
-      "input_hash": "01f43e446a32980f",
+      "input_hash": "676339063381a6c6",
       "game_digests": [
+        {
+          "name": "英雄无敌3",
+          "count": 1,
+          "summary": "育碧成都联合上海团队研发《英雄无敌3重铸版》，全3D化还原经典策略玩法，优化战斗与交互，同步上线UGC编辑器，预计2027年登陆多平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赵云与阿斗",
+          "count": 1,
+          "summary": "蜜獾工作室推出《赵云与阿斗》2.0，复用前作核心框架仅调整胜负机制，该作登抖音小游戏新游榜次日登顶，延续了6月爆款的热度。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "article_count": 15,
+      "game_count": 11,
+      "untagged_count": 4,
+      "digest": "2026年8月26日，游戏行业新闻汇总在这一天的新闻中，我们见证了多款游戏的动态和发布。首先，蜗牛数字基于虚幻5开发的开放世界武侠游戏《九阴真经：武侠》亮相科隆游戏展，并发布了首部实机PV。此外，多人在线跨平台大世界捉宠RPG《伊莫》也宣布了PC端和移动端的上线日期。另外，《四海兄弟 故乡》的荣誉之士DLC体验报告也在科隆游戏展上公布。最后，《无限大》和《昭和米国物语》分别宣布了全球上线日期。同时，我们也看到了一些游戏面临的挑战和问题，如《皇室战争》因更新引发玩家不满等。这些新闻反映了游戏行业的多样性和复杂性。",
+      "digest_source": "llm",
+      "input_hash": "9556cce86a4d25fe",
+      "game_digests": [
+        {
+          "name": "九阴真经：武侠",
+          "count": 1,
+          "summary": "江湖由你改变！《九阴真经：武侠》亮相科隆游戏展！实机PV正式发布。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "伊莫",
+          "count": 1,
+          "summary": "《伊莫》亮相2026科隆游戏展，PC端上线定档9月16日，移动端定档9月23日。",
+          "summary_source": "rules"
+        },
         {
           "name": "四海兄弟 故乡",
           "count": 1,
@@ -22,32 +57,50 @@
         {
           "name": "异克斯小队",
           "count": 1,
-          "summary": "《异克斯小队》亮相科隆游戏展，由Behaviour Interactive研发、腾讯游戏国内发行，预计2027年登陆多平台。",
-          "summary_source": "llm"
+          "summary": "在外星打工是种什么体验？三人合作射击新作《异克斯小队》亮相科隆。",
+          "summary_source": "rules"
         },
         {
           "name": "无限大",
           "count": 1,
-          "summary": "《无限大》宣布2027年1月15日全球上线，全球预约量破1500万。",
-          "summary_source": "llm"
+          "summary": "等了三年，《无限大》的野心终于露出了全貌。",
+          "summary_source": "rules"
         },
         {
           "name": "昭和米国物语",
           "count": 1,
-          "summary": "《昭和米国物语》引发讨论，被评价为复古流行的幻想怀旧与抽象风格。",
-          "summary_source": "llm"
+          "summary": "我玩到了《昭和米国物语》，它真的不只是来搞抽象的。",
+          "summary_source": "rules"
         },
         {
           "name": "猪了个猪",
           "count": 1,
-          "summary": "《猪了个猪》通过优化买量策略，将ROI从64%提升至270%。",
-          "summary_source": "llm"
+          "summary": "ROI从64%到270%，《猪了个猪》做对了什么？。",
+          "summary_source": "rules"
         },
         {
           "name": "皇室战争",
           "count": 1,
-          "summary": "Supercell在Gamescom Dev分享会上复盘《皇室战争》运营教训，指出2025年3月移除赛季商店虽扩大奖励受益面，却引发玩家强烈不满。",
-          "summary_source": "llm"
+          "summary": "“我们差点儿杀死《皇室战争》”，Supercell演讲：从失败更新学到的教训。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "科恩1939",
+          "count": 1,
+          "summary": "硬核枪战、生死一瞬！《科恩1939》定档9月30日。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "轮回保险公司 R.I.P",
+          "count": 1,
+          "summary": "深入禁区清除感染！《轮回保险公司 R.I.P》1.0版定档9月16日。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "黎明门前的吹笛人",
+          "count": 1,
+          "summary": "种田开店，还能顺手钓古神！《黎明门前的吹笛人》定档9月23日。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -227,35 +280,6 @@
           "name": "手绘治愈",
           "count": 1,
           "summary": "乌克兰团队历时六年制作的水彩手绘游戏《图科尼：森林看护者》于8月17日在Steam正式发售，其序章曾获97%好评。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-17",
-      "article_count": 8,
-      "game_count": 3,
-      "untagged_count": 5,
-      "digest": "2026年8月17日，游戏行业资讯聚焦于长线运营与新品发售。三消巨头《Toon Blast》凭借九年长线运营实现付费日活增长，引发行业对其成功模式的探讨；肉鸽新作《咕鸽勇者》主打第一人称视角与暗黑风格，试图在细分赛道寻求突破；像素自动化游戏《沙金工业》则于PC多平台开启抢先体验，并同步登陆PC Game Pass。",
-      "digest_source": "llm",
-      "input_hash": "21a7e26beb9fee75",
-      "game_digests": [
-        {
-          "name": "Toon Blast",
-          "count": 1,
-          "summary": "上线9年的爆破类三消爆款《Toon Blast》实现付费日活增长，外媒分析其长线运营成功原因，梳理品类十年发展与玩法迭代。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "咕鸽勇者",
-          "count": 1,
-          "summary": "肉鸽赛道新作《咕鸽勇者》主打第一人称视角与暗黑地牢风格，采用选房间探索与回合制战斗设计，借视角优势强化沉浸体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "沙金工业",
-          "count": 1,
-          "summary": "像素自动化游戏《沙金工业》已在PC多平台开启抢先体验，支持中文，享两周首发65折优惠，并同步加入PC Game Pass。",
           "summary_source": "llm"
         }
       ]

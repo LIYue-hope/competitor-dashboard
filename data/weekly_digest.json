@@ -1,45 +1,19 @@
 {
-  "generated_at": "2026-08-26T10:21:30.720564+00:00",
+  "generated_at": "2026-08-27T02:56:19.510459+00:00",
   "week_start": "2026-08-17",
   "week_end": "2026-08-23",
-  "article_count": 2090,
-  "game_count": 249,
-  "digest": "上周游戏行业热度持续高涨，国产大作《影之刃零》表现最为抢眼，凭借Steam预购入账1450万美元的亮眼成绩成功登顶销量榜，其2026年发售定档及新宣传片也引发了广泛关注。备受瞩目的《GTA6》持续霸榜，尽管Take-Two关停黑客网站未果，泄露视频仍不断放出，泄露者获利6万美元且钱包中仍存39万加密货币，前R星开发者称其泄露事件不值一提。此外，《黑神话：钟馗》主角脸模揭晓为游科自家服装模特，并发布15分钟实机演示解析剑术道法；《湮灭之潮》总监确定本作非魂游，女主新配音获动捕演员确认；《诡秘之主》成本达12亿引发热议，配置需求公布；《致命躯壳2》发售前遭偷跑，Steam褒贬不一；《仁王3》首个DLC上线好评率仅16%；《异环》流水破20亿引发财报讨论；网易《无限大》确认亮相科隆展；国产抗日FPS《抵抗者》也官宣参展科隆并发布新预告。",
+  "article_count": 1798,
+  "game_count": 225,
+  "digest": "在2026年8月17日至8月23日的周期内，游戏行业经历了一系列引人注目的事件。首先，《黑神话：钟馗》以其新海报和截图吸引了大量关注，并提供了关于主角脸模和实机演示的信息。此外，《诡秘之主》作为一款使用虚幻5开发的MMO游戏，其成本高达12亿，引发了广泛的讨论，认为其成本相当于4部《黑悟空》。同时，《影之刃零》在Steam上取得了显著的成绩，成为新的畅销游戏。此外，《GTA6》的泄露事件持续发酵，尽管前R星开发者表示不值得一提，但泄露者仍通过视频获利。而《湮灭之潮》则因其幽默调剂和首批试玩评价获得了好评。网易的《无限大》确认亮相科隆游戏展，展示了其开放世界大作的全新情报。最后，《仁王3》的DLC第一弹“庆安地狱变”上线，解决了之前补丁引发的存档故障问题。整体来看，这一周的游戏行业热度榜上，多款游戏都取得了不俗的成绩，为玩家带来了丰富的选择。",
   "digest_source": "llm",
   "heat_formula": "热度 = 资讯量 30% + 跨源覆盖 15% + 预约量 18% + 社区（周内新增关注/评价/讨论）15% + TapTap 榜单名次 12% + 官方动态 7% + 评测讨论 3%；各项先对数归一（资讯满格 200 条），缺测的维度计 0、不倒扣，满分 100。",
-  "input_hash": "12cdfca4ef23c96c",
+  "input_hash": "bc5a4db5481ae185",
   "hot_ranking": [
     {
       "rank": 1,
-      "name": "湮灭之潮",
-      "heat_score": 47.4,
-      "media_count": 39,
-      "source_count": 4,
-      "reservation_label": "1万",
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《湮灭之潮》澄清没给女主“整容” 颜值变换引争议",
-          "url": "https://www.gamersky.com/news/202608/2194165.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-22"
-        },
-        {
-          "title": "《湮灭之潮》女主新旧建模对比 官方回应新脸争议",
-          "url": "https://www.3dmgame.com/news/202608/3950852.html",
-          "source": "3DMGame",
-          "published_at": "2026-08-19"
-        }
-      ]
-    },
-    {
-      "rank": 2,
       "name": "黑神话：钟馗",
-      "heat_score": 44.6,
-      "media_count": 95,
+      "heat_score": 44.5,
+      "media_count": 94,
       "source_count": 5,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -62,10 +36,10 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "诡秘之主",
-      "heat_score": 42.7,
-      "media_count": 15,
+      "heat_score": 41.9,
+      "media_count": 13,
       "source_count": 4,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -91,10 +65,10 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 3,
       "name": "影之刃零",
-      "heat_score": 41.9,
-      "media_count": 115,
+      "heat_score": 40.9,
+      "media_count": 97,
       "source_count": 4,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -117,10 +91,10 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 4,
       "name": "GTA6",
-      "heat_score": 41.0,
-      "media_count": 193,
+      "heat_score": 40.8,
+      "media_count": 185,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -143,11 +117,11 @@
       ]
     },
     {
-      "rank": 6,
-      "name": "致命躯壳2",
-      "heat_score": 32.1,
-      "media_count": 35,
-      "source_count": 3,
+      "rank": 5,
+      "name": "湮灭之潮",
+      "heat_score": 33.2,
+      "media_count": 24,
+      "source_count": 4,
       "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": null,
@@ -155,75 +129,21 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《致命躯壳2》发售一天后口碑反转！Steam褒贬不一",
-          "url": "https://www.gamersky.com/news/202608/2193738.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-21"
-        },
-        {
-          "title": "游侠晚报:《致命躯壳2》硬件实测《GTA6》泄露风波发酵",
-          "url": "https://www.ali213.net/news/html/2026-8/1033315.html",
-          "source": "游侠网",
-          "published_at": "2026-08-21"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "name": "异环",
-      "heat_score": 31.5,
-      "media_count": 4,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": 11,
-      "rank_lists": [
-        "hot"
-      ],
-      "official_count": 1,
-      "news": [
-        {
-          "title": "《异环》流水破20亿，完美半年报却亏一个亿？财报要反着看！",
-          "url": "http://www.gamelook.com.cn/2026/08/600353/",
-          "source": "GameLook",
-          "published_at": "2026-08-21"
-        },
-        {
-          "title": "完美世界2026半年报：《异环》全球流水破20亿 Q3起释放业绩",
-          "url": "https://www.gameres.com/901202620.html",
-          "source": "游资网",
-          "published_at": "2026-08-20"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "name": "仁王3",
-      "heat_score": 31.4,
-      "media_count": 31,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《仁王3》更新！玩家关键问题解决",
-          "url": "https://www.gamersky.com/news/202608/2193541.shtml",
+          "title": "《湮灭之潮》澄清没给女主“整容” 颜值变换引争议",
+          "url": "https://www.gamersky.com/news/202608/2194165.shtml",
           "source": "游民星空",
           "published_at": "2026-08-22"
         },
         {
-          "title": "《仁王3》今日更新：解决此前补丁引发的存档故障问题",
-          "url": "https://www.ali213.net/news/html/2026-8/1033119.html",
-          "source": "游侠网",
-          "published_at": "2026-08-21"
+          "title": "《湮灭之潮》女主新旧建模对比 官方回应新脸争议",
+          "url": "https://www.3dmgame.com/news/202608/3950852.html",
+          "source": "3DMGame",
+          "published_at": "2026-08-19"
         }
       ]
     },
     {
-      "rank": 9,
+      "rank": 6,
       "name": "无限大",
       "heat_score": 31.1,
       "media_count": 3,
@@ -251,28 +171,110 @@
       ]
     },
     {
-      "rank": 10,
-      "name": "抵抗者",
-      "heat_score": 30.5,
-      "media_count": 4,
+      "rank": 7,
+      "name": "仁王3",
+      "heat_score": 30.6,
+      "media_count": 27,
       "source_count": 3,
-      "reservation_label": "3551",
+      "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": null,
       "rank_lists": [],
       "official_count": 0,
       "news": [
         {
-          "title": "去德国灭鬼子！ 国产抗日FPS《抵抗者》官宣参加德国科隆展 并将发布全新预告",
-          "url": "https://www.3dmgame.com/news/202608/3950840.html",
-          "source": "3DMGame",
-          "published_at": "2026-08-18"
+          "title": "《仁王3》更新！玩家关键问题解决",
+          "url": "https://www.gamersky.com/news/202608/2193541.shtml",
+          "source": "游民星空",
+          "published_at": "2026-08-22"
         },
         {
-          "title": "国产抗日FPS《抵抗者》全新预告官宣！确认参展科隆",
-          "url": "https://www.gamersky.com/news/202608/2190738.shtml",
+          "title": "《仁王3》今日更新：解决此前补丁引发的存档故障问题",
+          "url": "https://www.ali213.net/news/html/2026-8/1033119.html",
+          "source": "游侠网",
+          "published_at": "2026-08-21"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "致命躯壳2",
+      "heat_score": 30.6,
+      "media_count": 27,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《致命躯壳2》发售一天后口碑反转！Steam褒贬不一",
+          "url": "https://www.gamersky.com/news/202608/2193738.shtml",
           "source": "游民星空",
-          "published_at": "2026-08-18"
+          "published_at": "2026-08-21"
+        },
+        {
+          "title": "游侠晚报:《致命躯壳2》硬件实测《GTA6》泄露风波发酵",
+          "url": "https://www.ali213.net/news/html/2026-8/1033315.html",
+          "source": "游侠网",
+          "published_at": "2026-08-21"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "他予回声",
+      "heat_score": 30.1,
+      "media_count": 3,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": 5,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "乐元素3D偶像游戏《他予回声》新团亮相，首次测试招募同步开启",
+          "url": "https://www.gameres.com/901202622.html",
+          "source": "游资网",
+          "published_at": "2026-08-20"
+        },
+        {
+          "title": "乐元素3D偶像游戏《他予回声》新团亮相，首次测试招募同步开启",
+          "url": "https://www.3dmgame.com/news/202608/3950998.html",
+          "source": "3DMGame",
+          "published_at": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "异环",
+      "heat_score": 29.4,
+      "media_count": 3,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": 8,
+      "rank_lists": [
+        "hot"
+      ],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《异环》流水破20亿，完美半年报却亏一个亿？财报要反着看！",
+          "url": "http://www.gamelook.com.cn/2026/08/600353/",
+          "source": "GameLook",
+          "published_at": "2026-08-21"
+        },
+        {
+          "title": "完美世界2026半年报：《异环》全球流水破20亿 Q3起释放业绩",
+          "url": "https://www.gameres.com/901202620.html",
+          "source": "游资网",
+          "published_at": "2026-08-20"
         }
       ]
     }

@@ -1,9 +1,32 @@
 {
-  "generated_at": "2026-08-26T10:21:17.966693+00:00",
+  "generated_at": "2026-08-27T02:51:15.081541+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-08-27",
+      "article_count": 3,
+      "game_count": 2,
+      "untagged_count": 1,
+      "digest": "2026年8月27日，游戏行业新闻聚焦于两款游戏的最新动态。首先是Behaviour与腾讯合作推出的《异克斯小队》，在科隆游戏展上完成了全球首曝，展示了太空人合作射击的新颖玩法。其次是米哈游的奇幻网游《源初之结》在德国科隆游戏展上引起了全球玩家的广泛关注，大伟哥对制作游戏的艰辛表示感慨。",
+      "digest_source": "llm",
+      "input_hash": "49fa038b884a3671",
+      "game_digests": [
+        {
+          "name": "异克斯小队",
+          "count": 1,
+          "summary": "名厂Behaviour联手腾讯，科隆首曝《异克斯小队》：太空人合作射击有点爽！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "源初之结",
+          "count": 1,
+          "summary": "米哈游奇幻网游《源初之结》震惊全球玩家，大伟哥感慨：“做游戏真难”！。",
+          "summary_source": "rules"
+        }
+      ]
+    },
     {
       "date": "2026-08-26",
       "article_count": 7,
@@ -209,35 +232,6 @@
           "name": "诡秘之主",
           "count": 1,
           "summary": "因网友举报引发关注，官方公开账目显示实际投入达12亿，回应了关于资金投入的讨论。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-17",
-      "article_count": 7,
-      "game_count": 3,
-      "untagged_count": 4,
-      "digest": "GameLook当日共发布7条新闻，聚焦于三消品类长青作、武侠游戏出海及IP改编新作。报道详细分析了《Toon Blast》十年长盛不衰的运营策略，探讨了《燕云十六声》在CGDC上关于中国武侠文化如何成功走向世界的演讲，并解读了吉比特财报中《甄嬛传》即将上线带来的业绩增长预期。",
-      "digest_source": "llm",
-      "input_hash": "13bf8e1da65a74f0",
-      "game_digests": [
-        {
-          "name": "Toon Blast",
-          "count": 1,
-          "summary": "GameLook报道分析了三消超级爆款《Toon Blast》十年长盛不衰的运营策略，指出爆破类消除是继《糖果传奇》后的重要细分品类，并探讨了其如何越战越勇。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "燕云十六声",
-          "count": 1,
-          "summary": "GameLook报道了网易游戏在2026中国游戏开发者大会（CGDC）上的演讲，探讨了中国武侠题材游戏如何成功走向世界。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "甄嬛传",
-          "count": 1,
-          "summary": "GameLook报道解读了吉比特2026年上半年财报，指出《甄嬛传》即将上线，并分析了其海外市场翻倍增长及AI应用前景。",
           "summary_source": "llm"
         }
       ]
