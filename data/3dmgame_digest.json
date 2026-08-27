@@ -1,22 +1,28 @@
 {
-  "generated_at": "2026-08-27T02:42:22.408844+00:00",
+  "generated_at": "2026-08-27T05:51:28.938037+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-08-27",
-      "article_count": 43,
-      "game_count": 33,
-      "untagged_count": 4,
-      "digest": "8月27日 3DMGame 共 43 条新闻，涉及 33 款游戏。报道最集中的是《GTA6》（5 条）、《巫师3》（2 条）、《巫师3：狂猎》（2 条）。另有 4 条未指向具体游戏的行业或平台资讯。另外还有《Project Helix》（1 条）、《Ritual Tides》（1 条）、《七日世界》（1 条）也有报道。",
-      "digest_source": "rules",
-      "input_hash": "b59f253070715fa2",
+      "article_count": 58,
+      "game_count": 45,
+      "untagged_count": 5,
+      "digest": "《GTA6》新泄露画面引发争议，玩家对画质缩水表示不满。《守墓人2》定档9月22日全球发行，开启预售。《巫师3》DLC重点聚焦男性友情剧情。《巫师3》女术士DLC回归，带来新可推倒角色。《源初之结》由米哈游开发，Solo Game代理发行。《JOIN US》将于2027年3月首发登陆PS5、Xbox与PC。《Project Helix》被问及是否会配备光驱，CEO拒绝回答。《Ritual Tides》新预告公布，计划于年内发售。《Win11》被质疑是否在后台监控用户操作。《七日世界》主机版今日上线，覆盖主要市场。《三位一体6》延期至2027年3月4日发售。《九阴真经：武侠》展示全新实机演示，展现开放世界场景。《共鸣：瘟疫传说传承》媒体评价褒贬不一，IGN仅6分。《分裂之门》等游戏停止开发，个服务器将于9月关闭。《堡垒之夜》评级新增成人标签，泳装皮肤成导火索。",
+      "digest_source": "llm",
+      "input_hash": "3ea3fb253c0e0719",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 5,
           "summary": "《GTA6》新泄露引爆画面争议 被玩家狂喷画质缩水；剧情选择影响深远！曝《GTA6》将超越《荒野大镖客2》荣誉值；《GTA6》采访大量细节汇总：体重系统确认回归（当天共 5 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "守墓人2",
+          "count": 2,
+          "summary": "《守墓人2》定档，2026年9月22日全球发行，现已开起预购；《守墓人2》9月22日多平台发售 好评中世纪墓园模拟器。",
           "summary_source": "rules"
         },
         {
@@ -32,6 +38,18 @@
           "summary_source": "rules"
         },
         {
+          "name": "源初之结",
+          "count": 2,
+          "summary": "米哈游全新奇幻写实动作游戏《源初之结》亮相科隆游戏展；米哈游多元神话题材新作《源初之结》亮相科隆游戏展。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "JOIN US",
+          "count": 1,
+          "summary": "《JOIN US》确认 2027 年 3 月首发登陆 PS5、Xbox 与 PC。",
+          "summary_source": "rules"
+        },
+        {
           "name": "Project Helix",
           "count": 1,
           "summary": "下一代Xbox会有光驱吗？Xbox CEO拒绝回答。",
@@ -41,6 +59,12 @@
           "name": "Ritual Tides",
           "count": 1,
           "summary": "恐怖游戏《Ritual Tides》新预告 今年内发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Win11",
+          "count": 1,
+          "summary": "逆向工程师拆解Windows 11：没有监控每一台PC。",
           "summary_source": "rules"
         },
         {
@@ -74,33 +98,9 @@
           "summary_source": "rules"
         },
         {
-          "name": "女神异闻录4：复兴版",
+          "name": "堡垒之夜",
           "count": 1,
-          "summary": "《女神异闻录4：复兴版》剧情宣传片发布！预购已开启。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "守墓人2",
-          "count": 1,
-          "summary": "《守墓人2》9月22日多平台发售 好评中世纪墓园模拟器。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "寂静岭",
-          "count": 1,
-          "summary": "曝《寂静岭》多款未公布新作开发中！背景不会局限。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "巫师3：旧时曲",
-          "count": 1,
-          "summary": "CDPR公布《巫师3：旧时曲》全新昆特牌细节 全部20张！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "巫师3：重制版",
-          "count": 1,
-          "summary": "《巫师3：重制版》NS2版截图 画面焕然一新。",
+          "summary": "《堡垒之夜》评级新增成人标签 泳装皮肤成导火索。",
           "summary_source": "rules"
         }
       ]

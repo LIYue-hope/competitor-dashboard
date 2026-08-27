@@ -1,107 +1,107 @@
 {
-  "generated_at": "2026-08-27T02:50:08.803927+00:00",
+  "generated_at": "2026-08-27T05:52:59.315835+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-08-27",
-      "article_count": 48,
-      "game_count": 27,
-      "untagged_count": 10,
-      "digest": "2026年8月27日，游戏行业新闻汇总显示，当天共有48条新闻涉及27款游戏。其中，《GTA6》的叙事和开发细节成为焦点，而《共鸣：瘟疫传说传承》凭借其动作冒险元素受到外媒好评。国产3A动作冒险游戏《湮灭之潮》借鉴了JOJO替身系统，而《神鬼寓言4》公布了18分钟超长实机演示。此外，中世纪题材恐怖游戏《ALKIMYA》、恐怖新游《Ritual Tides》、美少女功夫新游《SPINE》、恶搞动作冒险游戏《Trees Hate You》以及《古墓丽影RE》等游戏也各有动态。同时，《命运3》和《夜勤人2》等游戏也分别发布了新预告或新情报。",
+      "article_count": 81,
+      "game_count": 44,
+      "untagged_count": 17,
+      "digest": "2026年8月27日游戏行业资讯聚焦于《GTA6》夏季宣传启动与争议，以及《共鸣：瘟疫传说传承》媒体评分出炉。此外，多款新作如《湮灭之潮》、《神鬼寓言4》、《鬼武者：剑之道》在科隆游戏展及未来游戏展上发布实机演示与发售信息。",
       "digest_source": "llm",
-      "input_hash": "e3f1fd2a93a00919",
+      "input_hash": "56fc183ae6cb1b84",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 8,
-          "summary": "《GTA6》确认男女主现实原型：美国著名雌雄大盗；多位主播已提前看过《GTA6》！独家解析将同步网飞解禁；《GTA6》还是恋爱模拟：玩家选择会影响男女主感情（当天共 8 条）",
-          "summary_source": "rules"
+          "count": 14,
+          "summary": "曝R星严禁盗发《GTA6》。",
+          "summary_source": "llm"
         },
         {
           "name": "共鸣：瘟疫传说传承",
           "count": 3,
-          "summary": "外媒评测《共鸣：瘟疫传说传承》转向类《神秘海域》动作冒险获赞；《共鸣：瘟疫传说传承》M站开分 PS5版79分；IGN 6分！《共鸣：瘟疫传说传承》评价出炉：战斗重复乏味。",
-          "summary_source": "rules"
+          "summary": "IGN 6分！《共鸣：瘟疫传说传承》评价出炉：战斗重复乏味，将于8月28日正式发售，登陆PC/PS5/XSX平台。",
+          "summary_source": "llm"
         },
         {
           "name": "湮灭之潮",
+          "count": 3,
+          "summary": "在今晚未来游戏展活动中，动作RPG《湮灭之潮》发布开发者介绍视频，团队分享了游戏如何从全新角度重新演绎亚瑟王传说，同时强调战斗系统始终是游戏体验的核心。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
           "count": 2,
-          "summary": "《湮灭之潮》主创称借鉴JOJO替身：我们爱JOJO；《湮灭之潮》新实机：大量BOSS战 战斗系统细致打磨。",
-          "summary_source": "rules"
+          "summary": "CDPR收编了优秀MOD制作者Halk Hogan，使其制作的备受好评的高清材质MOD不需要玩家手动下载，直接进入游戏便可直接使用。",
+          "summary_source": "llm"
         },
         {
           "name": "神鬼寓言4",
           "count": 2,
-          "summary": "《神鬼寓言4》18分钟超长实机！2027年2月23日发售；顺眼多了！《神鬼寓言4》18分钟实机 新美女角色亮相。",
-          "summary_source": "rules"
+          "summary": "在2026年科隆游戏展XBOX发布会上，Playground Games新作《神鬼寓言4》发布全新任务实机演示。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鬼武者：剑之道",
+          "count": 2,
+          "summary": "在今晚的未来游戏展上，《鬼武者：剑之道》公开了最新预告片。",
+          "summary_source": "llm"
         },
         {
           "name": "Alkimya",
           "count": 1,
-          "summary": "中世纪生化危机！《Alkimya》预告公开 铠甲超帅。",
-          "summary_source": "rules"
+          "summary": "在今晚的未来游戏展上，中世纪题材恐怖游戏《ALKIMYT》公开了最新预告片。",
+          "summary_source": "llm"
         },
         {
           "name": "COD23",
           "count": 1,
-          "summary": "老任站起来了!《COD23》N2版预告公开！公测将开启。",
-          "summary_source": "rules"
+          "summary": "任天堂官方今日发布了《使命召唤：现代战争4》Nintendo Switch 2版的预告片，确认本作将于10月23日正式发售，现已在任天堂eShop开启预购。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "JOIN US",
+          "count": 1,
+          "summary": "《JOIN US》确认2027年3月首发登陆PS5、Xbox与PC。",
+          "summary_source": "llm"
         },
         {
           "name": "Ritual Tides",
           "count": 1,
-          "summary": "恐怖新游《Ritual Tides》全新预告公布！2026年内发售。",
-          "summary_source": "rules"
+          "summary": "在今晚的未来游戏展上，《Ritual Tides》公布了全新预告片，将于2026年内发售。",
+          "summary_source": "llm"
         },
         {
           "name": "SPINE",
           "count": 1,
-          "summary": "美少女功夫新游《SPINE》全新宣传片公布！2027年发售。",
-          "summary_source": "rules"
+          "summary": "在今晚的未来游戏展上，《SPINE》公布了全新预告片，将于2027年发售。",
+          "summary_source": "llm"
         },
         {
           "name": "Trees Hate You",
           "count": 1,
-          "summary": "恶搞动作冒险《Trees Hate You》预告 11月发售。",
-          "summary_source": "rules"
+          "summary": "在今晚未来游戏展活动中，恶搞动作冒险游戏《Trees Hate You》发布新预告，将于2026年11月17日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "一盏秋声：锦衣卫",
+          "count": 1,
+          "summary": "上海英澈网络科技有限公司，已于近日正式进入破产清算程序。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "偶像传奇！闪耀再临",
+          "count": 1,
+          "summary": "本作此前已登陆Steam平台并收获广泛好评，Switch版预计于2026年10月8日正式发售。",
+          "summary_source": "llm"
         },
         {
           "name": "古墓丽影RE",
           "count": 1,
-          "summary": "《古墓丽影RE》15分钟实机 探索解密战斗全展示。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "合金装备",
-          "count": 1,
-          "summary": "临时工？Steam免费领取《合金装备》经典作品。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "命运3",
-          "count": 1,
-          "summary": "《命运3》传闻再起 Bungie含糊暗示引社区猜测 官方尚未确认。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "夜勤人2",
-          "count": 1,
-          "summary": "《夜勤人2》全新预告公开！3D肉鸽动作角色扮演。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "守墓人2",
-          "count": 1,
-          "summary": "《守墓人2》全新预告公开！9月22日正式发售。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "战锤西格玛时代：死亡大师",
-          "count": 1,
-          "summary": "《战锤西格玛时代：死亡大师》横版新作曝光新片！定档2027年。",
-          "summary_source": "rules"
+          "summary": "在今日的Xbox科隆直播节目中，《古墓丽影：亚特兰蒂斯遗迹》的一段实机演示视频得以公开。",
+          "summary_source": "llm"
         }
       ]
     },

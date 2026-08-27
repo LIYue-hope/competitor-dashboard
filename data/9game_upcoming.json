@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-08-27T02:34:09.916809+00:00",
+  "crawled_at": "2026-08-27T05:44:19.677534+00:00",
   "days": [
     {
       "date": "2026-08-27",
@@ -121,6 +121,23 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/bzzm/",
           "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "date_label": "09月02日 下周三",
+      "games": [
+        {
+          "game_name": "仙逆：本尊",
+          "categories": [
+            "挂机"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/xnbz/",
+          "has_afk_grinding_tag": true
         }
       ]
     },
