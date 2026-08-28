@@ -1,17 +1,40 @@
 {
-  "generated_at": "2026-08-27T05:54:26.606988+00:00",
+  "generated_at": "2026-08-28T08:07:23.447282+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-08-27",
-      "article_count": 7,
+      "date": "2026-08-28",
+      "article_count": 6,
       "game_count": 2,
-      "untagged_count": 5,
-      "digest": "8月27日 GameLook 共 7 条新闻，涉及 2 款游戏。报道最集中的是《异克斯小队》（1 条）、《源初之结》（1 条）。另有 5 条未指向具体游戏的行业或平台资讯。《异克斯小队》方面的报道有「名厂Behaviour联手腾讯，科隆首曝《异克斯小队》：太空人合作射击有点爽！」。",
-      "digest_source": "rules",
-      "input_hash": "ada2f4746458e8bf",
+      "untagged_count": 4,
+      "digest": "2026年8月28日，游戏行业新闻汇总显示，腾讯与德国游戏公司Sandbox Interactive GmbH合作护航《Albion Online》，同时巨人网络上半年净利润暴增175%，旗下《超自然行动组》DAU破1200万。此外，还有4条未具体指向某款游戏的新闻。",
+      "digest_source": "llm",
+      "input_hash": "45b7fd8d61514ad8",
+      "game_digests": [
+        {
+          "name": "Albion Online",
+          "count": 1,
+          "summary": "腾讯游戏安全 ACE 携手腾讯云与 Sandbox Interactive 达成合作，护航全球知名MMO《Albion Online》 —— 在2026年科隆国际游戏展（Gamescom）期间，腾讯游戏安全 ACE、腾讯云与德国游戏公司 Sandbox Interactive GmbH 共同宣布达成合作。 Sandbox…",
+          "summary_source": "llm"
+        },
+        {
+          "name": "超自然行动组",
+          "count": 1,
+          "summary": "巨人网络上半年净利润暴增175%！《超自然行动组》DAU破1200万、持续领跑。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "article_count": 10,
+      "game_count": 3,
+      "untagged_count": 7,
+      "digest": "2026年8月27日，游戏行业新闻汇总显示，当天共有10条新闻涉及3款游戏。其中，《异克斯小队》由名厂Behaviour与腾讯合作，科隆首曝太空人合作射击游戏；《源初之结》由米哈游推出，一款奇幻网游震惊全球玩家；《王者万象棋》则宣布产品全网预约量突破7000万，将于2026年9月10日全平台上线。此外，还有7条新闻未明确指向具体游戏。",
+      "digest_source": "llm",
+      "input_hash": "a5f820d6e7e1c6e9",
       "game_digests": [
         {
           "name": "异克斯小队",
@@ -23,6 +46,12 @@
           "name": "源初之结",
           "count": 1,
           "summary": "米哈游奇幻网游《源初之结》震惊全球玩家，大伟哥感慨：“做游戏真难”！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "王者万象棋",
+          "count": 1,
+          "summary": "农友就打农家牌！7000万预约，《王者万象棋》9月10日全平台上线！。",
           "summary_source": "rules"
         }
       ]
@@ -210,29 +239,6 @@
           "count": 1,
           "summary": "玩家笑翻！10亿美元巨制《星际公民》直播中“游戏Bug不断，团队埋怨互怼”。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "article_count": 7,
-      "game_count": 2,
-      "untagged_count": 5,
-      "digest": "今日行业资讯聚焦于两款国产游戏的开发进展与宣发动态。《湮灭之潮》团队在成都试玩后对中国团队打造“3A亚瑟王”更有信心，而《诡秘之主》则因网友举报引发关注，官方公开账目显示实际投入达12亿。",
-      "digest_source": "llm",
-      "input_hash": "17786dcc24f8b3a6",
-      "game_digests": [
-        {
-          "name": "湮灭之潮",
-          "count": 1,
-          "summary": "团队在成都试玩后对中国团队打造“3A亚瑟王”更有信心，并展示了游戏中巨大的骑士角色。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "诡秘之主",
-          "count": 1,
-          "summary": "因网友举报引发关注，官方公开账目显示实际投入达12亿，回应了关于资金投入的讨论。",
-          "summary_source": "llm"
         }
       ]
     }

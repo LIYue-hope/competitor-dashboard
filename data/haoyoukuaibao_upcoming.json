@@ -1,53 +1,38 @@
 {
-  "crawled_at": "2026-08-27T05:43:28.690850+00:00",
+  "crawled_at": "2026-08-28T07:46:45.803116+00:00",
   "days": [
     {
-      "date": "2026-08-27",
-      "date_label": "08月27日 今天",
+      "date": "2026-08-28",
+      "date_label": "08月28日 今天",
       "games": [
         {
-          "game_name": "王者万象棋-9月上线",
+          "game_name": "王者万象棋-抢先下载资源",
           "categories": [
             "多平台",
             "策略",
             "竞技"
           ],
           "score": "7.8",
-          "event_desc": "19:00 直播中将公布上线时间",
+          "event_desc": "资源包预下载开启！9月10日上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/148499.htm",
           "publisher": null,
-          "reservation_count": "78.6万",
+          "reservation_count": "82.2万",
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "闪耀吧！噜咪",
+          "game_name": "白银之城(官服)",
           "categories": [
-            "抓宠",
-            "卡牌",
-            "放置"
+            "编辑推荐",
+            "多平台",
+            "开放世界"
           ],
-          "score": "9.4",
-          "event_desc": "定档9月17日正式上线",
+          "score": "8.7",
+          "event_desc": "iOS外显1月31日上线,安卓或同步上线",
           "status_tag": null,
-          "detail_url": "https://www.3839.com/a/191535.htm",
-          "publisher": null,
-          "reservation_count": null,
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "缠重山3窃天局",
-          "categories": [
-            "解谜",
-            "脑洞",
-            "悬疑"
-          ],
-          "score": null,
-          "event_desc": "10:00 上线试玩",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/193900.htm",
-          "publisher": null,
-          "reservation_count": null,
+          "detail_url": "https://www.3839.com/a/182782.htm",
+          "publisher": "上海乐元素世界",
+          "reservation_count": "36.1万",
           "has_afk_grinding_tag": false
         },
         {
@@ -66,88 +51,7 @@
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "排兵布阵",
-          "categories": [
-            "战术竞技",
-            "策略",
-            "自走棋"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/188848.htm",
-          "publisher": "深圳敢玩网络科技有限公司",
-          "reservation_count": null,
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "幻化竞技场",
-          "categories": [
-            "策略",
-            "自走棋",
-            "竞技"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/173508.htm",
-          "publisher": "多巴安游戏",
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "卧龙三国-预下载",
-          "categories": [
-            "卡牌",
-            "三国",
-            "中国风"
-          ],
-          "score": null,
-          "event_desc": "12:00 预下载，8月28日上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/201508.htm",
-          "publisher": null,
-          "reservation_count": null,
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "永夜起源",
-          "categories": [
-            "策略",
-            "放置",
-            "剧情"
-          ],
-          "score": null,
-          "event_desc": "正式上线，具体几点待定",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/202072.htm",
-          "publisher": "畅鸣游戏",
-          "reservation_count": "186",
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "date_label": "08月28日 明天",
-      "games": [
-        {
-          "game_name": "前进吧！团子",
-          "categories": [
-            "冒险",
-            "休闲",
-            "闯关"
-          ],
-          "score": null,
-          "event_desc": "20:00 上线试玩",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/201938.htm",
-          "publisher": null,
-          "reservation_count": "62",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "卧龙三国-预下载",
+          "game_name": "卧龙三国",
           "categories": [
             "卡牌",
             "三国",
@@ -162,7 +66,7 @@
           "has_afk_grinding_tag": true
         },
         {
-          "game_name": "乱弹三国志",
+          "game_name": "乱弹三国志-预下载",
           "categories": [
             "三国",
             "卡牌",
@@ -173,17 +77,17 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/152646.htm",
           "publisher": null,
-          "reservation_count": "119",
+          "reservation_count": null,
           "has_afk_grinding_tag": true
         }
       ]
     },
     {
       "date": "2026-08-29",
-      "date_label": "08月29日 后天",
+      "date_label": "08月29日 明天",
       "games": [
         {
-          "game_name": "乱弹三国志",
+          "game_name": "乱弹三国志-预下载",
           "categories": [
             "三国",
             "卡牌",
@@ -194,7 +98,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/152646.htm",
           "publisher": null,
-          "reservation_count": "119",
+          "reservation_count": null,
           "has_afk_grinding_tag": true
         }
       ]
@@ -210,12 +114,12 @@
             "角色扮演",
             "竞技"
           ],
-          "score": "4.1",
+          "score": "4.2",
           "event_desc": "海外软发布上线，具体几点待定",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/195028.htm",
           "publisher": "Blizzard Entertainment, Inc.",
-          "reservation_count": "26029",
+          "reservation_count": "26081",
           "has_afk_grinding_tag": false
         },
         {
@@ -230,7 +134,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201774.htm",
           "publisher": null,
-          "reservation_count": "48",
+          "reservation_count": "50",
           "has_afk_grinding_tag": false
         },
         {
@@ -245,7 +149,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201714.htm",
           "publisher": "9377手游",
-          "reservation_count": "96",
+          "reservation_count": "114",
           "has_afk_grinding_tag": false
         }
       ]
@@ -266,7 +170,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/195139.htm",
           "publisher": null,
-          "reservation_count": "12052",
+          "reservation_count": "12227",
           "has_afk_grinding_tag": false
         }
       ]
@@ -275,6 +179,21 @@
       "date": "2026-09-02",
       "date_label": "09月02日 下周三",
       "games": [
+        {
+          "game_name": "王者万象棋-抢先下载资源",
+          "categories": [
+            "多平台",
+            "策略",
+            "竞技"
+          ],
+          "score": "7.8",
+          "event_desc": "开启预注册，9月10日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/148499.htm",
+          "publisher": null,
+          "reservation_count": "82.2万",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "仙逆：本尊",
           "categories": [
@@ -287,7 +206,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201058.htm",
           "publisher": "广州萤火互动网络有限公司",
-          "reservation_count": "170",
+          "reservation_count": "182",
           "has_afk_grinding_tag": true
         },
         {
@@ -317,7 +236,28 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201890.htm",
           "publisher": "Point N&#39; Sheep",
-          "reservation_count": "56",
+          "reservation_count": "58",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "date_label": "09月03日 下周四",
+      "games": [
+        {
+          "game_name": "梦幻新诛仙：轻享",
+          "categories": [
+            "角色扮演",
+            "MMO",
+            "回合"
+          ],
+          "score": "7.6",
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/195139.htm",
+          "publisher": null,
+          "reservation_count": "12227",
           "has_afk_grinding_tag": false
         }
       ]

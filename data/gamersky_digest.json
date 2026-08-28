@@ -1,154 +1,255 @@
 {
-  "generated_at": "2026-08-27T05:52:59.315835+00:00",
+  "generated_at": "2026-08-28T08:04:05.710226+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-08-27",
-      "article_count": 81,
-      "game_count": 44,
+      "date": "2026-08-28",
+      "article_count": 118,
+      "game_count": 32,
       "untagged_count": 17,
-      "digest": "2026年8月27日游戏行业资讯聚焦于《GTA6》夏季宣传启动与争议，以及《共鸣：瘟疫传说传承》媒体评分出炉。此外，多款新作如《湮灭之潮》、《神鬼寓言4》、《鬼武者：剑之道》在科隆游戏展及未来游戏展上发布实机演示与发售信息。",
+      "digest": "2026年8月28日，游戏行业新闻数量达到118条，涉及32款游戏。其中，《GTA6》和《巫师3》分别以66条和2条的新闻量占据头条，而《影之刃零》、《神鬼寓言》、《艾尔登法环》、《COD17》、《PHYSINT》、《不心动才有鬼》、《天妖火龙》、《尼尔》以及《巫师》系列等游戏也各有斩获。此外，《征服纪：臣民之心》和《心之眼》等新作也获得了玩家的关注。整体来看，游戏行业在这一天呈现出多元化的发展态势，既有重磅作品的发布，也有新游戏的亮相，为玩家带来了丰富的选择。",
       "digest_source": "llm",
-      "input_hash": "56fc183ae6cb1b84",
+      "input_hash": "c7cb3db79ba8fd9f",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 14,
-          "summary": "曝R星严禁盗发《GTA6》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "共鸣：瘟疫传说传承",
-          "count": 3,
-          "summary": "IGN 6分！《共鸣：瘟疫传说传承》评价出炉：战斗重复乏味，将于8月28日正式发售，登陆PC/PS5/XSX平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 3,
-          "summary": "在今晚未来游戏展活动中，动作RPG《湮灭之潮》发布开发者介绍视频，团队分享了游戏如何从全新角度重新演绎亚瑟王传说，同时强调战斗系统始终是游戏体验的核心。",
+          "count": 66,
+          "summary": "《GTA6》露西亚与杰森公寓惊现彩蛋 墙上相框藏《罪恶都市》封面女郎形象 —— 玩家在《GTA6》露西亚与杰森公寓发现墙上相框，内含《罪恶都市》封面女郎，被社区称为传奇彩蛋。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3",
           "count": 2,
-          "summary": "CDPR收编了优秀MOD制作者Halk Hogan，使其制作的备受好评的高清材质MOD不需要玩家手动下载，直接进入游戏便可直接使用。",
+          "summary": "《巫师3》重制官宣XPA！原作现XGP \"锁链\"新武器 —— Xbox官方今日宣布，《巫师3：狂猎 重制版》确定于9月29日登陆Xbox Series X|S与PC平台，并支持中文以及Xbox Play Anywhere（XPA）。",
           "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "想要爽玩《影之刃零》你需要换显示器吗？ —— 为了更好的体验《影之刃零》，或许你该换个显示器了！完成上方愿望单任务，即有机会获得HKC34寸显示器或《影之刃零》激活码！",
+          "summary_source": "llm"
+        },
+        {
+          "name": "神鬼寓言",
+          "count": 2,
+          "summary": "《神鬼寓言》超长实机发布 主角丑还不是最大的问题 —— 《神鬼寓言4》战斗演示视频放出后，玩家普遍对游戏的质量表示失望，看来主角的脸并不是游戏最大的问题。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "艾尔登法环",
+          "count": 2,
+          "summary": "《艾尔登法环》新DLC相当豪华！外媒盛赞:有意外惊喜 —— 据Automaton报道，伴随Switch2《艾尔登法环 褪色者版》同步上线的付费 DLC「褪色者包」，除官方此前公开的新职业、灵马外观等内容外，新增的多款武器与盾牌也收获了大量玩家好评，整体内容丰富度远超大家预期。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "COD17",
+          "count": 1,
+          "summary": "老婆枪带进现实 网友复刻《COD17》二次元枪皮 —— 近日，推特网友分享了复刻的《COD》17二次元枪",
+          "summary_source": "llm"
+        },
+        {
+          "name": "PHYSINT",
+          "count": 1,
+          "summary": "逼斗战神马东锡加入小岛秀夫谍战新游《PHYSINT》！巴掌比小岛脸还大 —— 今日，日本知名游戏制作人小岛秀夫在个人社交媒体上晒出了他和“大逼斗战神”马东锡的合照。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不心动才有鬼",
+          "count": 1,
+          "summary": "影游《不心动才有鬼》六大美女学猪叫！小姐姐笑翻 黑丝玉足全看了 —— 性感影游六大美女学猪叫。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "天妖火龙",
+          "count": 1,
+          "summary": "零氪也能开狂暴!996传奇盒子《天妖火龙》传奇手游以诚意致敬散人 —— 怎么说呢，就像在已经不相信爱情的时候，又给了你爱情。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "尼尔",
+          "count": 1,
+          "summary": "Pixio推出《尼尔》15周年联名显示器 27英寸WQHD 180Hz 背面印DK插图 —— Pixio推出《尼尔》15周年联名显示器PX278WAVENR，27英寸WQHD 180Hz，背面印DK插图，约2104元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师",
+          "count": 1,
+          "summary": "游民专访CDPR《巫师》系列团队：让杰洛特回归的想法存在很久了。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3重制版",
+          "count": 1,
+          "summary": "免费升级!《巫师3重制版》惊喜官宣 伟大无需多言 —— 时隔多年的售后服务，既不与原游戏分开、也不额外要求收费，甚至是在开发多部新作过程中搞定的，重制游戏该不该收费，本身没有标准答案，开发人力成本客观存在。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "征服纪：臣民之心",
+          "count": 1,
+          "summary": "殖民模拟 × 4X 策略游戏《征服纪：臣民之心》正式发表！预定于2027年夏季在Steam®发售 —— 殖民模拟 × 4X 策略游戏《征服纪：臣民之心》正式发表！预定于2027年夏季在Steam®发售",
+          "summary_source": "llm"
+        },
+        {
+          "name": "心之眼",
+          "count": 1,
+          "summary": "《心之眼》官宣游戏强势回归 玩家数上涨！实际在线18人 —— 据Twisted Voxel报道，近日，《心之眼》开发商Build A Rocket Boy声称，这款动作冒险游戏已经成功“卷土重来”，玩家也重新回到了游戏中。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "怪物猎人",
+          "count": 1,
+          "summary": "复刻原作大嘴!《怪物猎人》奇怪龙毛绒玩偶本月发售 —— SK Japan即将上架一款以《怪物猎人》中经典怪物奇怪龙为原型的毛绒玩偶。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "article_count": 199,
+      "game_count": 88,
+      "untagged_count": 51,
+      "digest": "8月27日游戏行业资讯聚焦于《GTA6》泄露致歉与前瞻录制版本争议，以及《巫师3》DLC销量预测与周边发布。此外，《艾尔登法环》公布新DLC解锁时间表，国产游戏《湮灭之潮》公布配音与实机，《共鸣：瘟疫传说传承》媒体评分出炉，多款新作如《神鬼寓言4》、《COD23》及《昭和米国物语》在科隆展期间公布新情报或开启试玩。",
+      "digest_source": "llm",
+      "input_hash": "8347179b7cfbd85b",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 29,
+          "summary": "Rockstar Games就游戏画面泄露发布致歉信，确认开发接近完成，同时官方预告与Netflix合作的26分钟前瞻视频将于8月28日凌晨3点首播，但未明确标注视频录制使用的PS5版本。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 7,
+          "summary": "CD Projekt Red公布《巫师3：狂猎》全新资料片“旧时曲”的官方周边产品系列，市场分析机构预测该DLC全球销量将达到1140万份，远超常规体量。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "湮灭之潮",
+          "count": 4,
+          "summary": "动作RPG《湮灭之潮》公布女主角格雯德琳的英文配音名单，开发团队Eclipse Glow Games在采访中表示核心战斗机制灵感源自《JOJO的奇妙冒险》替身系统。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "艾尔登法环",
+          "count": 4,
+          "summary": "万代南梦宫与FromSoftware公布《艾尔登法环：褪色者版》及“褪色者包”的全球解锁时间路线图，官方同步推送了包含平衡性调整与Bug修复的最新更新。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "共鸣：瘟疫传说传承",
+          "count": 3,
+          "summary": "Asobo Studio制作、Focus Entertainment发行的《共鸣：瘟疫传说传承》媒体评分解禁，PS5版79分，Xbox版88分，PC版84分，IGN给出6分评价。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "昭和米国物语",
+          "count": 3,
+          "summary": "国产游戏《昭和米国物语》在科隆游戏展期间开启线下试玩，开展3小时已有超300名玩家到场体验，外媒称赞其创意胜过十年西方公式3A。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "神鬼寓言",
+          "count": 3,
+          "summary": "《神鬼寓言》最低需要5050显卡！可1080/30帧；《神鬼寓言》战斗拉完了？劈砍不见血迹 毫无打击感；开智？《神鬼寓言》喜提新美人！但比国产游戏差多了。",
+          "summary_source": "rules"
         },
         {
           "name": "神鬼寓言4",
-          "count": 2,
-          "summary": "在2026年科隆游戏展XBOX发布会上，Playground Games新作《神鬼寓言4》发布全新任务实机演示。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 2,
-          "summary": "在今晚的未来游戏展上，《鬼武者：剑之道》公开了最新预告片。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Alkimya",
-          "count": 1,
-          "summary": "在今晚的未来游戏展上，中世纪题材恐怖游戏《ALKIMYT》公开了最新预告片。",
+          "count": 3,
+          "summary": "Playground Games在科隆展XBOX发布会上公布18分钟超长实机演示，IGN评价战斗系统流畅度拉满超预期，游戏定档2027年2月23日发售。",
           "summary_source": "llm"
         },
         {
           "name": "COD23",
-          "count": 1,
-          "summary": "任天堂官方今日发布了《使命召唤：现代战争4》Nintendo Switch 2版的预告片，确认本作将于10月23日正式发售，现已在任天堂eShop开启预购。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "JOIN US",
-          "count": 1,
-          "summary": "《JOIN US》确认2027年3月首发登陆PS5、Xbox与PC。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Ritual Tides",
-          "count": 1,
-          "summary": "在今晚的未来游戏展上，《Ritual Tides》公布了全新预告片，将于2026年内发售。",
+          "count": 2,
+          "summary": "《使命召唤23：现代战争4》面向所有玩家开启试玩周末，任天堂官方发布Switch 2版预告片，确认将于10月23日正式发售。",
           "summary_source": "llm"
         },
         {
           "name": "SPINE",
-          "count": 1,
-          "summary": "在今晚的未来游戏展上，《SPINE》公布了全新预告片，将于2027年发售。",
+          "count": 2,
+          "summary": "动作射击游戏《SPINE》在今晚的未来游戏展上公布全新宣传片，展示美少女功夫战斗内容，游戏定档2027年发售。",
           "summary_source": "llm"
         },
         {
-          "name": "Trees Hate You",
-          "count": 1,
-          "summary": "在今晚未来游戏展活动中，恶搞动作冒险游戏《Trees Hate You》发布新预告，将于2026年11月17日发售。",
+          "name": "三国志14 威力加强传承版",
+          "count": 2,
+          "summary": "天津光荣特库摩打造的《三国志14》决定版公布，新增宋江与朱元璋等武将，并收录威力加强版与至今为止的DLC。",
           "summary_source": "llm"
         },
         {
-          "name": "一盏秋声：锦衣卫",
-          "count": 1,
-          "summary": "上海英澈网络科技有限公司，已于近日正式进入破产清算程序。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "偶像传奇！闪耀再临",
-          "count": 1,
-          "summary": "本作此前已登陆Steam平台并收获广泛好评，Switch版预计于2026年10月8日正式发售。",
+          "name": "九阴真经：武侠",
+          "count": 2,
+          "summary": "蜗牛数字基于虚幻5引擎开发的开放世界武侠游戏《九阴真经：武侠》亮相科隆游戏展并发布实机PV，展示战斗内容。",
           "summary_source": "llm"
         },
         {
           "name": "古墓丽影RE",
-          "count": 1,
-          "summary": "在今日的Xbox科隆直播节目中，《古墓丽影：亚特兰蒂斯遗迹》的一段实机演示视频得以公开。",
+          "count": 2,
+          "summary": "《古墓丽影：亚特兰蒂斯遗迹》在今日的Xbox科隆直播节目中公开15分钟实机演示，展示探索、解密与战斗内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "合金装备",
+          "count": 2,
+          "summary": "《合金装备大师合集Vol.2》Switch版移植版因索尼彩蛋遭移除、PS3手柄变Switch Pro手柄引发玩家讨论，Steam平台出现疑似免费领取经典作品的福利。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "守墓人2",
+          "count": 2,
+          "summary": "独立游戏《守墓人2》在今晚的未来游戏展上公布最新预告片，定档2026年9月22日全球发行，目前已开启预购。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-08-26",
-      "article_count": 228,
-      "game_count": 97,
-      "untagged_count": 40,
-      "digest": "今日游戏资讯涵盖了多个热门游戏及其动态，包括《巫师3：狂猎》的DLC“旧时曲”、《GTA6》的开发实机演示、《湮灭之潮》的新预告和角色、国产游戏《昭和米国物语》的科隆展展示、以及《源初之结》的发布等。这些游戏不仅在各自的平台上受到关注，也引发了玩家社区的广泛讨论和期待。",
+      "article_count": 220,
+      "game_count": 96,
+      "untagged_count": 39,
+      "digest": "2026年8月26日游戏行业资讯密集，GTA6因黑客泄露引发热议，科隆游戏展成为国产游戏主战场，米哈游转型写实动作新作《源初之结》亮相，CDPR则宣布《巫师3》重制版与DLC同日发售。",
       "digest_source": "llm",
-      "input_hash": "f53f483d3f9fb7af",
+      "input_hash": "1b89759c5407ab23",
       "game_digests": [
-        {
-          "name": "巫师3",
-          "count": 15,
-          "summary": "《巫师3》DLC或有多个可攻略角色 杰洛特享福了！；《巫师3》DLC“旧时曲”新图公开：官宣全新功能；《巫师3》新DLC剧情：好兄弟丹德里恩为核心（当天共 15 条）",
-          "summary_source": "rules"
-        },
         {
           "name": "GTA6",
           "count": 13,
-          "summary": "《GTA6》序章实机泄露：提高警惕 小心剧透！；泄露让《GTA6》团队痛心疾首 玩家反而更想买了；140万粉丝网红提前看《GTA6》：将公布独家内容！（当天共 13 条）",
-          "summary_source": "rules"
+          "summary": "黑客Cyberleek发布第16段开发实机视频泄露序章内容，R星官方回应泄露事件，意大利网红MikeShowSha受邀提前体验Hands-off预览活动，国行PS5 Pro因芯片短缺及GTA6需求出现缺货涨价。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 13,
+          "summary": "CDPR宣布《巫师3：狂猎》重制版将于9月29日上线，原版玩家可免费升级，同时确认重制版与DLC“旧时曲”同日发售，原版玩家未拥有资料片将免费获得。",
+          "summary_source": "llm"
         },
         {
           "name": "湮灭之潮",
           "count": 10,
-          "summary": "《湮灭之潮》新预告BOSS战首曝 顶级光追欣赏美腿；外媒盛赞国产《湮灭之潮》：让人想起《猎天使魔女》《鬼泣》《最终幻想16》；《湮灭之潮》官方介绍性感新美人！蕾丝润唇美乳（当天共 10 条）",
-          "summary_source": "rules"
+          "summary": "英伟达发布独家预告片展示路径追踪和DLSS 4.5技术，外媒盛赞其画面让人想起《猎天使魔女》《鬼泣》等作品，官方介绍角色桂妮薇儿，XQC惊叹其颜值并喊话买。",
+          "summary_source": "llm"
         },
         {
           "name": "昭和米国物语",
           "count": 9,
-          "summary": "国产《昭和米国物语》热度爆棚！老外排长队试玩；《昭和米国物语》豪华日配阵容曝光！多位知名CV加盟；挑眉哥看《昭和米国物语》没绷住：我一定要玩！（当天共 9 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "源初之结",
-          "count": 6,
-          "summary": "《源初之结》融合东西方神话！九尾狐|穷奇|西方巨龙等；大伟哥直言《源初之结》\"非常不米哈游\" 做游戏太难了；米哈游虚幻5多人动作新游《源初之结》官方介绍！故事宏大原创 灵感中外神话（当天共 6 条）",
-          "summary_source": "rules"
+          "summary": "铃空游戏公布科隆展线下活动照片及豪华日配阵容，知名主播Asmongold观看预告后表示一定要玩，IGN称其创意满分但战斗手感有待提升。",
+          "summary_source": "llm"
         },
         {
           "name": "地铁2039",
           "count": 5,
-          "summary": "《地铁2039》末世生存太恐怖 吓到两天不敢玩；2027年度最佳竞争者出现！《地铁2039》被狂赞；IGN《地铁2039》试玩评价超级高！纯粹硬核单人FPS（当天共 5 条）",
-          "summary_source": "rules"
+          "summary": "IGN、GameSpot等外媒发布试玩前瞻，盛赞其恐怖氛围、战斗系统及写实画质，GameSpark报道有媒体试玩后因太恐怖两天不敢玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "源初之结",
+          "count": 5,
+          "summary": "米哈游在科隆开幕夜正式公开写实奇幻动作游戏《源初之结》，创始人“大伟哥”直言其“非常不米哈游”，游戏组队狩猎神话生灵，开启预约。",
+          "summary_source": "llm"
         },
         {
           "name": "巫师3：狂猎",
@@ -159,38 +260,32 @@
         {
           "name": "巫师3：狂猎 重制版",
           "count": 4,
-          "summary": "《巫师3：狂猎重制版》NS2版截图曝光：进步巨大 焕然一新；《巫师3：狂猎重制版》免费升级！玩家惊叹：索尼快来学；《巫师3：狂猎 重制版》内容公开！白送俩dlc|画面升级|战斗优化|技能重做等（当天共 4 条）",
+          "summary": "《巫师3：狂猎重制版》NS2版截图曝光：进步巨大 焕然一新；《巫师3：狂猎重制版》免费升级！玩家惊叹：其他厂快来学；《巫师3：狂猎 重制版》内容公开！白送俩dlc|画面升级|战斗优化|技能重做等（当天共 4 条）",
           "summary_source": "rules"
         },
         {
           "name": "剑星",
           "count": 3,
-          "summary": "《剑星》超涩潜水服MOD:逆天大长腿 油光翘臀超性感；米哈游新作太惊艳！吓到《剑星》制作人：完全没想到；《剑星》金亨泰盛赞《湮灭之潮》：让我这同行害怕了。",
-          "summary_source": "rules"
+          "summary": "制作人金亨泰在社交平台发文盛赞米哈游新作《源初之结》太惊艳，同时表示《湮灭之潮》让他这同行感到害怕。",
+          "summary_source": "llm"
         },
         {
           "name": "动物朋克",
           "count": 3,
-          "summary": "《动物朋克》亮相科隆开幕夜 全新预告片公布；国产《动物朋克》全新实机！官方致谢 免费送福利；国产《动物朋克》全新实机预告！兔子哥爆帅砍机甲。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "巫师3重制版",
-          "count": 3,
-          "summary": "《巫师3重制版》官方声明：实体版也能免费升级！；免费升级!《巫师3重制版》惊喜官宣 伟大无需多言；《巫师3重制版》原生Switch2版官宣！9月29日发售。",
-          "summary_source": "rules"
+          "summary": "钛核工作室在科隆开幕夜公布全新实机预告，展示兔子哥爆帅砍机甲的画面，这是自去年11月后的首次进度曝光。",
+          "summary_source": "llm"
         },
         {
           "name": "战争机器：事变日",
           "count": 3,
-          "summary": "《战争机器：事变日》24分钟长实机 血腥升级猛汉爆杀；《战争机器：事变日》近25分钟战役实机曝光：UE5打造 回归兽族破土起源；《战争机器：事变日》全新预告公布！10月6日发售。",
-          "summary_source": "rules"
+          "summary": "IGN公开24至25分钟战役实机演示，游戏采用UE5打造，回归兽族破土起源，官方公布10月6日发售日期。",
+          "summary_source": "llm"
         },
         {
           "name": "无限大",
           "count": 3,
-          "summary": "国产都市开放世界RPG《无限大》定档2027年1月15日 全球同步上线；老外炮轰科隆展游戏太重复！但国产新作《无限大》值得关注；网易二游《无限大》新预告公开！定档2027.1.15。",
-          "summary_source": "rules"
+          "summary": "网易都市开放世界RPG《无限大》定档2027年1月15日全球上线，新都市“重霄”曝光，定档预告看量破700万、全球预约破千万。",
+          "summary_source": "llm"
         },
         {
           "name": "昭和米国",
@@ -201,109 +296,115 @@
         {
           "name": "白银之城",
           "count": 3,
-          "summary": "国产《白银之城》登陆PS5!商店上线 支持PS5Pro强化；国产ARPG《白银之城》发布光线追踪与DLSS 4.5预告 乐元素旗下Silver Studio打造；国产《白银之城》科隆预告足控狂喜 棉袜 黑丝 大白腿。",
-          "summary_source": "rules"
+          "summary": "乐元素发布ARPG《白银之城》科隆展PV，展示维多利亚风白银城及足控元素，游戏登陆PS5商店并支持PS5 Pro强化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "NBA2K27",
+          "count": 2,
+          "summary": "2K公布第一赛季宣传片，视频最后出现大量《GTA6》元素，包括棕榈树、海鸥、警笛及紫粉色罪恶都市风格画面。",
+          "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-08-25",
-      "article_count": 142,
-      "game_count": 59,
+      "article_count": 141,
+      "game_count": 58,
       "untagged_count": 37,
-      "digest": "今日游戏行业动态中，《GTA6》和《巫师4》成为焦点。前者由R星开发，备受期待，而后者则由CD Projekt Red制作，预计将在2028年发售。此外，《黄昏血族》、《鬼武者：剑之道》等游戏也各有亮点，吸引了大量玩家的关注。同时，《漫威金刚狼》的实体版预购问题、《鬼武者：剑之道》的数字版与PS5版本对比、以及《湮灭之潮》入围科隆游戏奖等消息，都成为了玩家们关注的焦点。",
+      "digest": "今日游戏资讯聚焦于《GTA6》的持续泄露风波与《巫师4》定档2028年引发的股价波动，同时《影之刃零》Steam预估销量表现亮眼。此外，FS社新作《黄昏血族》、国产单机《湮灭之潮》及《诡秘之主》公测等消息也占据重要篇幅。",
       "digest_source": "llm",
-      "input_hash": "03773c97edb4b3b0",
+      "input_hash": "039e37e74db931fb",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 23,
-          "summary": "留给葱哥的时间不多了？R星和《GTA6》都高兴的太早；《GTA6》新泄露展示实体盘 黑客呼吁：实体很重要！；《GTA6》再泄露！游戏货架摆满JS8主机 还有实体盘（当天共 23 条）",
-          "summary_source": "rules"
+          "summary": "黑客Cyberleek今日放出第14段开发实机视频，展示男主杰森在游戏商店试戴耳机及货架摆满JS8主机，引发玩家对实体盘重要性的热议。",
+          "summary_source": "llm"
         },
         {
           "name": "巫师4",
           "count": 7,
-          "summary": "《巫师4》2028年发售!cdpr股价应声下跌:还要等两年；《巫师4》可能无PS实体盘！定档2028 玩家激愤；《巫师4》希里全新艺术图！一剑封喉帅到爆（当天共 7 条）",
-          "summary_source": "rules"
+          "summary": "CD Projekt Red正式确认《巫师4》发售窗口期为2028年，官方正全力推进，但该消息导致公司股价应声下跌。",
+          "summary_source": "llm"
         },
         {
           "name": "黄昏血族",
           "count": 5,
-          "summary": "PC外媒直言FS社新作《黄昏血族》NS独占无妨！玩后祛魅了 很平淡；FS社新作《黄昏血族》参考赛文奥特曼 宫崎英高本人很喜欢；NS2独占赢麻了!FS社新作《黄昏血族》测试申请赢了全平台（当天共 5 条）",
-          "summary_source": "rules"
+          "summary": "宫崎英高确认《黄昏血族》将加入段位匹配系统，并透露游戏剧情丰富，不输《艾尔登法环》与《黑暗之魂》。",
+          "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 4,
-          "summary": "《影之刃零》Steam预估销量爆炸！达《黑神话：悟空》同期73%；《影之刃零》巨乳白毛\"妈妈\"有多大？超绝身材太吸睛；《影之刃零》又有大活？梁其伟IP变动 疑似前往美国（当天共 4 条）",
-          "summary_source": "rules"
+          "summary": "根据Alinea Analytics预估，国产武侠动作游戏《影之刃零》Steam预估销量达《黑神话：悟空》同期73%，有望实现爆款首发。",
+          "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
           "count": 3,
-          "summary": "《漫威金刚狼》评分解禁时间曝光！发售前就出；索尼又搞小动作？《漫威金刚狼》实体版预购疑遭封价；失眠组已准备好《漫威金刚狼》发售后被骂！打是亲骂是爱。",
-          "summary_source": "rules"
+          "summary": "索尼宣布自2028年起将停止第一方游戏光盘生产，引发玩家对《漫威金刚狼》实体版预购及未来游戏介质前景的担忧。",
+          "summary_source": "llm"
         },
         {
           "name": "鬼武者：剑之道",
           "count": 3,
-          "summary": "《鬼武者：剑之道》新作PS5实体降到298元：数字版卖518港币；《鬼武者：剑之道》官方公开Boss“酒吞童子”新视频；《鬼武者：剑之道》NS2版不逊PS5！虽锁30帧体验没区别。",
-          "summary_source": "rules"
+          "summary": "卡普空新作《鬼武者：剑之道》官方公开Boss“酒吞童子”新视频，其真实身份仍为谜。",
+          "summary_source": "llm"
         },
         {
           "name": "剑星",
           "count": 2,
-          "summary": "《剑星》超涩新MOD：台词超炸裂 大雷看个够；《剑星》伊芙成人级清凉mod:油光黑丝/丁字裤二选一。",
-          "summary_source": "rules"
+          "summary": "玩家创作者发布了《剑星》伊芙全新MOD「Vulgar Dialogue for Eve」，彻底改写伊芙的对话风格。",
+          "summary_source": "llm"
         },
         {
           "name": "湮灭之潮",
           "count": 2,
-          "summary": "《湮灭之潮》入围科隆最史诗游戏奖！竞争《红色沙漠》等；国单《湮灭之潮》获最佳PS游戏提名！全新内容马上来。",
-          "summary_source": "rules"
+          "summary": "国产动作游戏《湮灭之潮》入围2026年科隆游戏展大奖“最佳PlayStation游戏”提名。",
+          "summary_source": "llm"
         },
         {
           "name": "生化危机",
           "count": 2,
-          "summary": "两位《生化危机》系列新作演员将带领观众观看全球首发、独家公开内容与开发者深度访谈；《生化危机》电影彩蛋太亲切：打字机 草药 急救喷雾。",
-          "summary_source": "rules"
+          "summary": "《生化危机》系列新作《Resident Evil Requiem》演员将带领观众观看全球首发、独家公开内容与开发者深度访谈。",
+          "summary_source": "llm"
         },
         {
           "name": "红色沙漠",
           "count": 2,
-          "summary": "《红色沙漠》斩获科隆双提名！最佳PC+最具史诗感；《红色沙漠》首次打折！PC国区214元 PS港区446港币。",
-          "summary_source": "rules"
+          "summary": "开放世界动作冒险游戏《红色沙漠》在Gamescom Awards 2026中获得“最佳PC”与“最具史诗感”两项提名。",
+          "summary_source": "llm"
         },
         {
           "name": "致命躯壳2",
           "count": 2,
-          "summary": "大雷盔甲女卖爆!《致命躯壳2》俄区排前三:毛子爱硬核；《致命躯壳2》处决动作：把剑插头里当武器 还要被主角踹剑柄。",
-          "summary_source": "rules"
+          "summary": "《致命躯壳2》俄区销量排名前三，其中大雷盔甲女角色卖爆，引发玩家热议。",
+          "summary_source": "llm"
         },
         {
           "name": "诡秘之主",
           "count": 2,
-          "summary": "《诡秘之主》8月24日更新上线：开放1000人战场 新剧情与副本登场；50万一只坐骑！《诡秘之主》公测氪爆 研发烧了12亿。",
-          "summary_source": "rules"
+          "summary": "网文IP改编MMO《诡秘之主》正式公测，上线后热度居高不下，一款龙形态稀有坐骑被网友戏称为“五十万顶奢坐骑”。",
+          "summary_source": "llm"
         },
         {
           "name": "骤影·绯月杀",
           "count": 2,
-          "summary": "《骤影·绯月杀》8.25限时Demo测试 送10套游戏周边；《骤影·绯月杀》8.25限时七日测试！这可能是你玩过最“能打”的狼人杀！。",
-          "summary_source": "rules"
+          "summary": "《骤影：绯月杀》于8月25日开启限时Demo测试，游戏将于今年9月25日中秋节正式发售。",
+          "summary_source": "llm"
         },
         {
           "name": "Age Twisters",
           "count": 1,
-          "summary": "KRAFTON旗下《Age Twisters》获2026年科隆游戏展大奖提名。",
-          "summary_source": "rules"
+          "summary": "KRAFTON旗下《Age Twisters》入围2026年科隆游戏展大奖“最有益健康作品”奖项。",
+          "summary_source": "llm"
         },
         {
           "name": "Fairgame$",
           "count": 1,
-          "summary": "索尼《Fairgame$》疑将开测！或有较大改版。",
-          "summary_source": "rules"
+          "summary": "索尼PlayStation旗下Haven Studios开发的多人射击新作《Fairgame$》疑将开启测试，或有较大改版。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -909,107 +1010,6 @@
           "name": "古墓丽影：亚特兰蒂斯遗迹",
           "count": 1,
           "summary": "与原版差异巨大，引入RPG技能树元素，由Flying Wild Hog与水晶动力联合打造。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "article_count": 140,
-      "game_count": 56,
-      "untagged_count": 26,
-      "digest": "今日资讯聚焦《影之刃零》热度居高不下，云游戏版官宣及PS开屏推荐引发热议；《致命躯壳2》发售获好评并登Steam畅销榜首；多款游戏如《仁王3》DLC、《巫师3》新资料片及《The Duskbloods》测试等均有新动态。",
-      "digest_source": "llm",
-      "input_hash": "6271172fc6924613",
-      "game_digests": [
-        {
-          "name": "影之刃零",
-          "count": 47,
-          "summary": "官方宣布云游戏版将于10月29日同步上线，并拿下PS商店开屏推荐，待遇仅次于GTA6。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "致命躯壳2",
-          "count": 6,
-          "summary": "游戏正式发售获Steam特别好评，流程翻倍约30小时，目前登顶Steam全球畅销榜第一。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "仁王3",
-          "count": 3,
-          "summary": "DLC第一弹“庆安地狱变”将于明日发售，官方同步公开新BOSS实机演示及219元联名手柄预售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "索尼发布新广告使用预告片片段，引发玩家对画面细节修改的讨论，贴吧热议国服过审前景。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 2,
-          "summary": "官方公布科隆游戏展期间直播马拉松计划，全新资料片“旧时曲”将迎来全球首秀。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战神",
-          "count": 2,
-          "summary": "Prime 1 Studio发布阿特柔斯1/3比例收藏雕像，游戏版奎托斯演员批评真人剧制作惯例。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 2,
-          "summary": "YouTube发布53分钟新实机演示，官方回应脸模争议称会继续优化。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2,
-          "summary": "纽约街头投放裸眼3D广告，引发玩家对PS5独占新动向的关注。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7",
-          "count": 1,
-          "summary": "系列总监滨口直树正式入驻微博，向中国玩家致以问候。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA印度",
-          "count": 1,
-          "summary": "博主发布AI生成短剧视频，巨型蜥蜴与群体舞蹈引发网友围观。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "The Duskbloods",
-          "count": 1,
-          "summary": "Switch 2专属网络测试预载开启，大量角色疑似泄露。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三国战纪",
-          "count": 1,
-          "summary": "PC版官方致歉，承诺努力更新内容，不谈139元价格。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "不心动才有鬼",
-          "count": 1,
-          "summary": "互动影游发布新动态，美女角色自曝对脚超自信。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "井域：喀洛之血",
-          "count": 1,
-          "summary": "正式发售，讲述迷茫杀手少女与未来特工逆转未来的公路冒险。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "仙剑四",
-          "count": 1,
-          "summary": "云天河1/4雕像明日开定，售价3380元。",
           "summary_source": "llm"
         }
       ]

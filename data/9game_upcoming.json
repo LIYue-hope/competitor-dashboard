@@ -1,70 +1,9 @@
 {
-  "crawled_at": "2026-08-27T05:44:19.677534+00:00",
+  "crawled_at": "2026-08-28T07:47:30.136146+00:00",
   "days": [
     {
-      "date": "2026-08-27",
-      "date_label": "08月27日 今天",
-      "games": [
-        {
-          "game_name": "排兵布阵",
-          "categories": [
-            "策略"
-          ],
-          "score": null,
-          "event_desc": "自走棋玩法标杆",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/paibingbuzhen/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "新月大陆",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/xinyuedalu/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "幻化竞技场",
-          "categories": [
-            "策略"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/hhjjc/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "战争联盟",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zhanzhenglianmeng1/",
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "绝境猎人",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/juejinglieren/",
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
       "date": "2026-08-28",
-      "date_label": "08月28日 明天",
+      "date_label": "08月28日 今天",
       "games": [
         {
           "game_name": "王者守卫战",
@@ -92,7 +31,7 @@
     },
     {
       "date": "2026-08-29",
-      "date_label": "08月29日 后天",
+      "date_label": "08月29日 明天",
       "games": [
         {
           "game_name": "乱弹三国志",
@@ -210,6 +149,40 @@
           "event_desc": "超变传奇",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/hanren21/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "date_label": "09月10日",
+      "games": [
+        {
+          "game_name": "王者万象棋",
+          "categories": [
+            "动作"
+          ],
+          "score": "8.0",
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/wangzhewanxiangqi/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "date_label": "09月16日",
+      "games": [
+        {
+          "game_name": "全民萌兽",
+          "categories": [
+            "策略"
+          ],
+          "score": null,
+          "event_desc": "免费领2048抽",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/qmms/",
           "has_afk_grinding_tag": false
         }
       ]

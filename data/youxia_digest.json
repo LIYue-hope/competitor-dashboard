@@ -1,111 +1,129 @@
 {
-  "generated_at": "2026-08-27T05:51:48.861045+00:00",
+  "generated_at": "2026-08-28T07:59:20.869543+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-08-27",
-      "article_count": 20,
-      "game_count": 13,
-      "untagged_count": 7,
-      "digest": "今日游戏行业资讯聚焦于多款经典与新作，运营18年的《A.V.A 战地之王》宣布10月28日关服并推出续作，R星澄清《GTA6》网飞节目直播规则，Epic免费发放《天黑后在一起》，《女神异闻录4重制版》发布中配预告，科隆游戏展上《巫师3》DLC演示获好评，《颂钟长鸣》公开坐骑系统，以及《龙之信条2》NS2版实机画面流出。",
+      "article_count": 79,
+      "game_count": 53,
+      "untagged_count": 19,
+      "digest": "8月27日游戏行业资讯聚焦于《GTA6》的直播规则调整、泄露风波及持枪禁令，同时《巫师3》DLC与重制版引发关注，多款新作如《守墓人2》《与狼同行》公布发售信息，科隆游戏展期间亦有《古墓丽影RE》《九阴真经：武侠》等游戏展示实机内容。",
       "digest_source": "llm",
-      "input_hash": "4aa04da34ed379c7",
+      "input_hash": "3276cf6a330bc623",
       "game_digests": [
         {
-          "name": "A.V.A 战地之王",
-          "count": 1,
-          "summary": "运营18年落幕！官方宣布10月28日正式关服，同时推出次世代续作《AVA RE:BIRTH》。",
-          "summary_source": "llm"
-        },
-        {
           "name": "GTA6",
-          "count": 1,
-          "summary": "R星澄清网飞节目转播规则，创作者可直播但禁止无剪辑搬运，需添加原创点评。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "堡垒之夜",
-          "count": 1,
-          "summary": "ESRB新增“挑逗性主题”标签，导火索指向DC联动活动中毒藤女的大胆造型。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "天黑后在一起",
-          "count": 1,
-          "summary": "Epic喜加一，多人合作恐怖游戏《天黑后在一起》免费领取，截止9月2日。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "女神异闻录4重制版",
-          "count": 1,
-          "summary": "在gamescom2026上发布中文配音剧情预告，展示部分游戏内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫奇魔法学院",
-          "count": 1,
-          "summary": "生活模拟游戏「Witchbrook」正式确认中文名为《巫奇魔法学院》。",
+          "count": 3,
+          "summary": "Rockstar North负责人Rob Nelson透露，莱奥尼达州明确禁止在公共场合公开持枪，拿枪走在路上会非常危险。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3",
-          "count": 1,
-          "summary": "科隆游戏展上《巫师3：旧时曲》DLC实机演示引爆全场，外国美女Coser盛赞其为“PEAK”。",
+          "count": 3,
+          "summary": "CDPR官宣《巫师3》9月29日推出免费重制版，承诺全程免费升级且不加价。",
           "summary_source": "llm"
         },
         {
-          "name": "无尽的平安夜",
-          "count": 1,
-          "summary": "老作品《12の月のイヴ》今日在Steam发售，更名为《无尽的平安夜》。",
+          "name": "FF7",
+          "count": 2,
+          "summary": "《最终幻想7：启示》在科隆游戏展开启媒体与创作者闭门试玩，总监滨口直树确认正在筹备公开试玩，玩家很快就能体验。",
           "summary_source": "llm"
         },
         {
-          "name": "湮灭之潮",
-          "count": 1,
-          "summary": "在科隆游戏展发布剧情预告，开发团队透露灵感来源包括JOJO、战神、鬼泣等。",
+          "name": "GTA",
+          "count": 2,
+          "summary": "R星开发人员接受专访，透露了《GTA》系列的大量游戏细节内容。",
           "summary_source": "llm"
         },
         {
-          "name": "米粒新世界",
-          "count": 1,
-          "summary": "治愈系像素风增量放置游戏Demo在Steam开放，玩家在巨树上建立迷你社会。",
+          "name": "守墓人2",
+          "count": 2,
+          "summary": "《守墓人2》新预告公布，确认将于9月22日发售，各平台预购同步开启。",
           "summary_source": "llm"
         },
         {
-          "name": "颂钟长鸣",
+          "name": "A.V.A 战地之王",
           "count": 1,
-          "summary": "科隆展首次公开坐骑系统开发画面，展台人气火爆，坐骑成最受关注焦点。",
+          "summary": "运营18年的经典FPS网游《A.V.A 战地之王》将于10月28日正式关服，官方同时官宣次世代续作《AVA RE:BIRTH》将于金秋上线。",
           "summary_source": "llm"
         },
         {
-          "name": "黑袍纠察队",
+          "name": "No Law",
           "count": 1,
-          "summary": "外媒爆料主创埃里克·克莱普克深度参与《GTA6》剧本撰写，官方未回应。",
+          "summary": "赛博朋克RPG《No Law》宣布游戏中所有NPC均可被杀死，但死亡不可逆，杀商店老板会导致店铺关门，开发者提醒玩家后果自负。",
           "summary_source": "llm"
         },
         {
-          "name": "龙之信条2",
+          "name": "Warlock",
           "count": 1,
-          "summary": "《龙之信条2：黑暗觉者》NS2版实机画面流出，主机模式下基本锁定30帧。",
+          "summary": "DND新作《Warlock》官宣经典角色塔莎，由八尺夫人动捕演员演绎，游戏设定于恐惧领域，预计2027年登陆多平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "三位一体6",
+          "count": 1,
+          "summary": "《三位一体6》发售日由2026年9月17日延期至2027年3月4日，登陆PS5、Xbox Series X|S、Switch、Switch 2及PC平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "与狼同行",
+          "count": 1,
+          "summary": "TellTale Games宣布《与狼同行》重制版将于10月29日登陆全平台，画面得到大幅提升，并加入了独家幕后花絮。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "九阴真经：武侠",
+          "count": 1,
+          "summary": "《九阴真经：武侠》在科隆游戏展公布新实机，展示了开放江湖场景以及客栈战斗实机演示。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仙剑奇侠传四：重制版",
+          "count": 1,
+          "summary": "中手游透露《仙剑奇侠传四：重制版》预计于2027年上半年正式发售，目前开发工作顺利。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "伊莫",
+          "count": 1,
+          "summary": "大世界捉宠RPG《伊莫》亮相科隆游戏展并公布新PV，全球预约超2800万，PC端将搭载DLSS4.5技术。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "古墓丽影RE",
+          "count": 1,
+          "summary": "《古墓丽影：亚特兰蒂斯遗迹》在科隆游戏展公布长达20分钟实机演示，采用虚幻引擎5打造，将原作重构为半连通开放世界。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "合金装备：幽灵通天塔",
+          "count": 1,
+          "summary": "Steam平台疑似出现“临时工”操作失误，原本需预购《合金装备：大师合集 Vol.2》方可解锁的特典内容现已开放免费领取。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-08-26",
-      "article_count": 107,
-      "game_count": 75,
-      "untagged_count": 15,
-      "digest": "《巫师3》发布新DLC“旧时曲”并公布PC配置需求。《1666：阿姆斯特丹》新预告公布，游戏即将开启抢先体验。GTA6泄露事件源头被指为暗网黑客。《动物朋克》科隆展首秀，官方截图公开。《地铁：2039》在科隆展上公布新实机演示和DLC内容。《昭和米国物语》试玩前瞻发布，IGN报道了其首次实机试玩。《湮灭之潮》确认女主角换人，新剧情预告曝光。《源初之结》科隆展全球首曝PV，米哈游动作大作备受期待。《百战天虫：银河智战》正式公开，两款新作正在开发中。《索尼克赛车 交叉世界》免费更新“阿克赛尔”今日上线，史低4折促销中。《红色沙漠增强版》官宣，全平台开启折扣活动。《魔法门之英雄无敌III重制版》试玩、专访相继发布。《黎明行者之血》全球解锁时间公布，将于9月3日发售。",
+      "article_count": 130,
+      "game_count": 83,
+      "untagged_count": 24,
+      "digest": "今日游戏行业新闻总数为130条，涉及83款游戏。其中，《GTA6》和《巫师3》等知名游戏均有新动态。此外，《动物朋克》、《湮灭之潮》等独立游戏也获得了关注。具体来看，《GTA6》的泄露事件引起了广泛关注，而《巫师3》则发布了新的DLC“旧时曲”预告片。此外，还有多款新游戏如《百战天虫：银河智战》、《红色沙漠增强版》等发布或更新信息。",
       "digest_source": "llm",
-      "input_hash": "d1161778e3af2343",
+      "input_hash": "f852dbd0b02b295d",
       "game_digests": [
         {
+          "name": "GTA6",
+          "count": 5,
+          "summary": "“大葱哥”并非第一人？《GTA6》最早泄露源头被曝光；《GTA6》泄露彩蛋曝光：恶搞《黑魂》《美末》！；R星官宣《GTA6》媒体情报解禁时间 海量新内容将至（当天共 5 条）",
+          "summary_source": "rules"
+        },
+        {
           "name": "巫师3",
-          "count": 4,
-          "summary": "十年一剑终章开启！《巫师3》“旧时曲”确认大量新支线；《巫师3》DLC“旧时曲”PC配置公布：最低GTX 1660；《巫师3》DLC“旧时曲”官方截图公开：风景如画！（当天共 4 条）",
+          "count": 5,
+          "summary": "十年一剑终章开启！《巫师3》“旧时曲”确认大量新支线；《巫师3》DLC“旧时曲”PC配置公布：最低GTX 1660；《巫师3》DLC“旧时曲”官方截图公开：风景如画！（当天共 5 条）",
           "summary_source": "rules"
         },
         {
@@ -115,15 +133,21 @@
           "summary_source": "rules"
         },
         {
-          "name": "GTA6",
+          "name": "人类2",
           "count": 2,
-          "summary": "“大葱哥”并非第一人？《GTA6》最早泄露源头被曝光；《GTA6》泄露彩蛋曝光：恶搞《黑魂》《美末》！。",
+          "summary": "GC26：战略游戏《人类2》实机预告片！2027年登陆PC；预告片被指AI生成？《人类2》开发商紧急辟谣:全实拍。",
           "summary_source": "rules"
         },
         {
           "name": "动物朋克",
           "count": 2,
           "summary": "《动物朋克》亮相科隆开幕夜，全新预告片公布；GC26：《动物朋克》新实机预告公布 战斗画面超帅。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "后世更序",
+          "count": 2,
+          "summary": "在灰烬之上建立帝国：《后世更序》公布，末日题材大战略游戏；P社跳出历史改编 末日大战略新作《后世更序》来袭！。",
           "summary_source": "rules"
         },
         {
@@ -178,18 +202,6 @@
           "name": "红色沙漠增强版",
           "count": 2,
           "summary": "GC26:《红色沙漠增强版》官宣!全新故事内容免费升级；Pearl Abyss推出《红色沙漠增强版》，全平台开启折扣。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "魔法门之英雄无敌III重制版",
-          "count": 2,
-          "summary": "《魔法门之英雄无敌III重制版》试玩：埃拉西亚从未离开；《魔法门之英雄无敌III重制版》专访：重铸埃拉西亚荣光。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 2,
-          "summary": "《黎明行者之血》全球解锁时间公布：9月3日早7点发售；GC26：《黎明行者之血》全新预告片公布 9月3日发售。",
           "summary_source": "rules"
         }
       ]
@@ -897,107 +909,6 @@
           "name": "共鸣：瘟疫传说传承",
           "count": 1,
           "summary": "《共鸣：瘟疫传说传承》入选微软8月下旬XGP第二波游戏阵容。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "article_count": 85,
-      "game_count": 56,
-      "untagged_count": 11,
-      "digest": "今日游侠网共发布85条新闻，涉及56款游戏。索尼为《影之刃零》举办专场发布会，该作定档10月29日；《沉没之城2》正式发售，媒体评分79分；《致命躯壳2》发售前72小时遭破解；《漫威金刚狼》公布PS5 Pro技术规格；《王国之心》系列因新作消息Steam销量大涨；《轮回之兽》推出新补丁并公布1/4雕像；《Swords & Slippers》愿望单五天翻倍；《井域：喀洛之血》正式发售；《仁王3》推送大版本更新备战DLC；《使命召唤：现代战争4》公布Beta测试预告；《使命召唤：黑色行动2》14年后重回日本PSN下载榜首；《光与影：33号远征队》前PS高管建议更改标签。",
-      "digest_source": "llm",
-      "input_hash": "fdc72e89d5eb5b5e",
-      "game_digests": [
-        {
-          "name": "影之刃零",
-          "count": 11,
-          "summary": "索尼为该作举办专场发布会，制作人梁其伟与甄子丹出镜详解18分钟实机内容，官方建议佩戴耳机游玩以体验极致音效，游戏定档10月29日。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "致命躯壳2",
-          "count": 5,
-          "summary": "发售前72小时遭破解，开发商未采用复杂加密方案仅依赖Steam验证，预购玩家心碎，豪华版用户已可游玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "沉没之城2",
-          "count": 2,
-          "summary": "基于虚幻引擎5的生存恐怖大作正式发售，媒体实测显示1080p最高画质下对显卡要求极高，M站PS5版均分79分。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2,
-          "summary": "公布PS5 Pro技术规格，基础版60帧+全程光追，Pro版提供80-90帧VRR或最高120帧输出，同时曝出首席编剧离职。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "王国之心",
-          "count": 2,
-          "summary": "受《王国之心4》官宣2027年末发售日刺激，系列多款旧作同时在线人数创历史新高，收录合集冲上Steam美区热销榜第二。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "轮回之兽",
-          "count": 2,
-          "summary": "推出第二个补丁加入镜头调整等功能，并公布1/4比例GK雕像，该作现已开启预订。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FC27",
-          "count": 1,
-          "summary": "姆巴佩哈兰德领衔！《FC27》公开能力值前27名球员。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Samson",
-          "count": 1,
-          "summary": "PC口碑翻车仍硬闯主机！《Samson》9月登陆主机平台。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Swords&Slippers",
-          "count": 1,
-          "summary": "黑暗童话动作肉鸽新作Steam愿望单五天内从10万飙升至20万。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "井域：喀洛之血",
-          "count": 1,
-          "summary": "吸血鬼与人类混血少女的故事正式发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "人中之龙极3",
-          "count": 1,
-          "summary": "世嘉举办“SEGA Publisher Sale”活动，《人中之龙极3》6折优惠。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "仁王3",
-          "count": 1,
-          "summary": "推送大版本更新备战首个大型DLC“庆安地狱变”，对战斗系统进行大规模上调。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "公布Beta测试先导预告片，确认本周末开启公开测试。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：黑色行动2",
-          "count": 1,
-          "summary": "登陆PS5/PS4平台14年后重回日本PSN下载榜首。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光与影",
-          "count": 1,
-          "summary": "前PS高管吉田修平透露建议开发商不要将游戏标为“回合制RPG”，以免因JRPG标签在欧美市场带有负面刻板印象。",
           "summary_source": "llm"
         }
       ]
