@@ -1,106 +1,201 @@
 {
-  "generated_at": "2026-08-28T07:57:00.929890+00:00",
+  "generated_at": "2026-08-29T04:56:10.077774+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-08-28",
-      "article_count": 80,
-      "game_count": 58,
-      "untagged_count": 5,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》的技术表现与发售策略，以及多款新游的发售与测试动态。R星确认《GTA6》先登陆主机后登陆PC，IGN评价其技术杰作但需等PC版；CDPR邀请Mod大神参与《巫师3：重制版》开发并公布新截图；艺画开天旗下ARPG《凡应》开启第二轮测试；Telltale宣布《与狼同行 重制版》10月29日发售并新增黑白电影滤镜；Shift Up确认《剑星：完整版》Switch2版将在TGS首度公开试玩。",
+      "date": "2026-08-29",
+      "article_count": 18,
+      "game_count": 14,
+      "untagged_count": 1,
+      "digest": "今日游戏行业资讯聚焦于《侠盗猎车6》实机演示的发布与细节曝光，以及《钢铁侠》实机视频泄露引发的关注。此外，多款新作如《DayZ Badlands》、《吸血鬼幸存者》DLC等陆续公布发售或更新计划，同时《使命召唤》反外挂行动与Mod社区数据也引发热议。",
       "digest_source": "llm",
-      "input_hash": "3cbc82e446f5d342",
+      "input_hash": "bd8a29f30495ab4b",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 17,
-          "summary": "R星确认《侠盗猎车手6》先登陆PS5和Xbox Series X、后登陆PC，IGN评价其技术杰作但需等PC版。",
+          "count": 4,
+          "summary": "《侠盗猎车6》首个30分钟实机演示在Netflix首映后登陆YouTube，粉丝认出首位回归角色并推断其全名为瓦伦蒂娜，画面实现质的飞跃。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "DayZ Badlands",
+          "count": 1,
+          "summary": "经典系列新作《DayZ Badlands》确定于10月15日登陆PC、PS4及XBOX平台，需拥有基础游戏《DayZ》才能游玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Occult Cleanup Agency",
+          "count": 1,
+          "summary": "由《糖豆人》主创打造的超自然清除模拟游戏《Occult Cleanup Agency》Steam上线，玩家需清除洗衣机等处的非人类物体。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Soul Chained",
+          "count": 1,
+          "summary": "魂系动作冒险新游《Soul Chained》因BOSS衣着清凉导致审核停滞而延期，官方正在制定修改措施。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴5：天际特别版",
+          "count": 1,
+          "summary": "Mod门户NexusMods宣布站内Mod总计下载超250亿次，其中半数以上为《老滚5》，该作下载数达128亿次。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 1,
+          "summary": "动视公布反外挂专项行动进展，法务人员前往俄亥俄州知名外挂作者Elocarry住所送达下架禁令并全程录像。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "吸血鬼幸存者",
+          "count": 1,
+          "summary": "经典肉鸽神作《吸血鬼幸存者》新DLC“血月遗产”上线，带来10位以上新角色、16种以上新武器及XL尺寸新地图。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "控制",
+          "count": 1,
+          "summary": "modder成功在《控制》中启用DLSS 5 AI神经滤镜，性能影响约为40%，该技术似乎仅限于RTX 50系列。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "灵魂面甲",
+          "count": 1,
+          "summary": "国产生存沙盒游戏《灵魂面甲：浮沙》DLC大型更新“引力之外”将于8月31日上线，新增燃烧高地等区域。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "科隆国际游戏展",
+          "count": 1,
+          "summary": "参展商吐槽科隆展出现昂贵电脑被盗事件，开发者Ryan Laley的Alienware笔记本及数据丢失，警方因GDPR限制无法查看监控。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛博朋克2077",
+          "count": 1,
+          "summary": "网友将DLSS 5神经渲染MOD应用至《赛博朋克2077》，画面表现超级真实，引发关于AI垃圾与逆天画面的两极评价。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "远征：堕入黑暗",
+          "count": 1,
+          "summary": "中世纪合作搜打撤游戏《远征：堕入黑暗》试玩突破10万人，预定2026年Q4正式推出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "钢铁侠",
+          "count": 1,
+          "summary": "EA《钢铁侠》实机视频泄露，开发商Motive Studio承认真实性，展示了爽快战斗与飞行玩法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "阿利吉耶里之环",
+          "count": 1,
+          "summary": "神秘解谜冒险新游《阿利吉耶里之环》确定于9月11日登陆PC及PS5平台，支持中文。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "article_count": 99,
+      "game_count": 67,
+      "untagged_count": 8,
+      "digest": "今日游戏行业资讯聚焦于《GTA6》NPC行为机制与《巫师3》重制版开发动态，同时《绝地潜兵2》CEO借机发声，以及艺画开天ARPG《凡应》开启第二轮测试，多款新作与重制版陆续公布发售日或试玩信息。",
+      "digest_source": "llm",
+      "input_hash": "9be7cb8b131267ba",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 23,
+          "summary": "《GTA6》NPC将比前作更敏锐，玩家在公共场合携带武器或火箭筒将面临报警风险，游戏将恢复六星通缉等级。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3：重制版",
           "count": 2,
-          "summary": "CDPR邀请民间Mod高手HalkHogan参与开发，并公布了各平台新截图，画质提升显著。",
+          "summary": "CDPR邀请民间画质Mod高手HalkHogan参与开发，并公布多段实机演示，画面在光影、贴图及远景方面均有显著提升。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "绝地潜兵2",
+          "count": 2,
+          "summary": "箭头工作室CEO表示《GTA6》未登PC且首发无线上模式，这给《绝地潜兵2》争取到了宝贵的喘息空间。",
           "summary_source": "llm"
         },
         {
           "name": "13Z：生肖试炼",
           "count": 1,
-          "summary": "肉鸽动作游戏《13Z：生肖试炼》将于2027年1月14日登陆Nintendo Switch 2/PS5，PC版将于2027年第一季度登陆Steam。",
+          "summary": "肉鸽动作游戏《13Z：生肖试炼》将于2027年1月14日登陆Nintendo Switch 2及PS5平台，PC版将于2027年第一季度登陆Steam。",
           "summary_source": "llm"
         },
         {
           "name": "COCORO",
           "count": 1,
-          "summary": "视觉小说《COCORO》登陆Steam，支持中文，讲述AI暴走世界中机器人少女想变成人类的故事。",
+          "summary": "AI末世背景的视觉小说《COCORO》登陆Steam平台，支持中文，讲述了失去故乡的少年与梦想结婚的仿生人少女的故事。",
           "summary_source": "llm"
         },
         {
           "name": "Cassette Beasts 2002",
           "count": 1,
-          "summary": "怪物收集冒险游戏《Cassette Beasts 2002》将于2027年3月登陆PC、Switch 2及主机平台。",
+          "summary": "怪物收集冒险游戏《Cassette Beasts 2002》将于2027年3月登陆PC、Switch 2、PS5及Xbox Series X|S平台。",
           "summary_source": "llm"
         },
         {
           "name": "FF7",
           "count": 1,
-          "summary": "SBI负责人以《最终幻想7》为例批评性感女角形象，引发大量负面言论，指责其强加意识形态。",
+          "summary": "SBI负责人以《最终幻想7》重制系列为例，批评性感女角形象，并喊话“禁止这些恶心的污秽之物”，引发大量玩家负面评价。",
           "summary_source": "llm"
         },
         {
           "name": "For the Stars",
           "count": 1,
-          "summary": "蜗牛游戏公布太空沙盒游戏《For the Stars》科隆展宣传片，主打星球探索与前哨建设。",
+          "summary": "蜗牛游戏公布开放宇宙生存MMO《For the Stars》科隆展宣传片，玩家可自定义飞船、缔结星际联盟，现已上线Steam。",
           "summary_source": "llm"
         },
         {
           "name": "GTA",
           "count": 1,
-          "summary": "开发者回忆初代《GTA》开发往事，从城市模拟器转向俯视角犯罪沙盒，计划设置三座风格不同的城市。",
+          "summary": "开发者回顾初代《GTA》开发往事，称其最初以城市模拟器为方向，后受俯视赛车构想启发，才逐渐形成俯视角犯罪沙盒玩法。",
           "summary_source": "llm"
         },
         {
           "name": "P4重制",
           "count": 1,
-          "summary": "世嘉公布东京电玩展阵容，《女神异闻录4：复兴版》将作为完全重制版亮相，画面与玩法系统全面革新。",
+          "summary": "世嘉公布2026年东京电玩展阵容，《女神异闻录4：复兴版》作为经典名作完全重制版将回归，画面与玩法系统全面革新。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "what goes up",
+          "count": 1,
+          "summary": "合作物理建造游戏《what goes up》公开，玩家将受雇于“银河废品公司”，利用重力枪、悬浮背包等装备回收太空垃圾。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴",
+          "count": 1,
+          "summary": "微软正洽谈十多款游戏改编项目，其中包括《上古卷轴》、《暗黑破坏神》等，潜在交易报价或达3亿美元。",
           "summary_source": "llm"
         },
         {
           "name": "与狼同行 重制版",
           "count": 1,
-          "summary": "《与狼同行 重制版》将于2026年10月29日发售，登陆PC、PS5、Xbox Series X|S及Switch，新增黑白电影滤镜。",
+          "summary": "《与狼同行 重制版》确认将于2026年10月29日发售，登陆PC、PS5、Xbox Series X|S及Switch平台，新增黑白电影滤镜。",
           "summary_source": "llm"
         },
         {
           "name": "凡应",
           "count": 1,
-          "summary": "艺画开天旗下ARPG《凡应》今日开启第二轮测试，采用虚幻5引擎，融合电影化叙事与动作战斗。",
+          "summary": "艺画开天旗下ARPG《凡应》今日开启EP02测试，采用虚幻5引擎开发，玩家将化身为海履者驾驭海巡兽展开冒险。",
           "summary_source": "llm"
         },
         {
           "name": "剑星：完整版",
           "count": 1,
-          "summary": "《剑星：完整版》Switch2版将于2026年东京电玩展提供首次公开试玩，包含联动DLC及专属皮肤。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "去月球",
-          "count": 1,
-          "summary": "《去月球》制作人高瞰谈长期使用“RPG工具”的原因，终章预计2027年发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "变形金刚 电影",
-          "count": 1,
-          "summary": "配音传奇演员彼得·库伦逝世，享年85岁，曾为《变形金刚》擎天柱及多款游戏献声。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影：亚特兰蒂斯遗迹",
-          "count": 1,
-          "summary": "《古墓丽影：亚特兰蒂斯遗迹》新实机演示公布，展示劳拉探索遗迹及大战恐龙的片段。",
+          "summary": "《剑星：完整版》Switch2版将于2026年东京电玩展提供首次公开试玩，完整收录本体及两部大型扩展包。",
           "summary_source": "llm"
         }
       ]
@@ -309,113 +404,113 @@
     },
     {
       "date": "2026-08-25",
-      "article_count": 78,
+      "article_count": 83,
       "game_count": 54,
-      "untagged_count": 13,
-      "digest": "GTA6泄露视频持续曝光，展示海滩NPC细节；地铁2039公布典藏版头盔实物；天地创造确认复刻回归；湮灭之潮女主新美照引发争议；红色沙漠入围科隆游戏展两项大奖；黑神话：钟馗发布配乐幕后花絮；龙之剑：觉醒撤回mod限制公告；Age Twisters获科隆游戏展大奖提名；Bodycam宣布9月2日更新强化音效；Dokimon Quest开启Steam免费活动；NBA2KOL2举办阵营狙击赛直播；生化危机9演员将主持游戏展活动；SUPER BOMBERMAN COLLECTION新增Panic Bomber W。",
+      "untagged_count": 18,
+      "digest": "今日游戏资讯聚焦于《GTA6》泄露视频持续曝光，展示海滩NPC细节；4A Games公布《地铁2039》典藏版实物头盔；《天地创造》确认复刻回归多平台；国产游戏《湮灭之潮》女主新形象引发争议；Pearl Abyss旗下《红色沙漠》入围科隆游戏展两项大奖；FromSoftware新作《黄昏血族》公布恋爱系统；国产《黑神话：钟馗》发布民乐配乐花絮；韩国游戏《龙之剑：觉醒》撤回Mod限制公告；KRAFTON新作《Age Twisters》获科隆游戏展提名；FPS《Bodycam》宣布9月2日更新音效；像素RPG《Dokimon Quest》开启免费领取；腾讯《NBA2KOL2》举办阵营狙击赛；《生化危机9》演员将主持Gamescom发布会；Konami宣布《SUPER BOMBERMAN COLLECTION》新增《Panic Bomber W》。",
       "digest_source": "llm",
-      "input_hash": "86287f691f8f2a18",
+      "input_hash": "955b7115b3f5a9f8",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 4,
-          "summary": "泄露视频展示傍晚海滩场景，NPC设计细节丰富，但光线昏暗影响观感。",
+          "summary": "泄露视频展示傍晚海滩场景，杰森骑自行车穿梭，NPC设计细节丰富且变化多样，引发玩家对光线昏暗的讨论。",
           "summary_source": "llm"
         },
         {
           "name": "地铁：2039",
           "count": 2,
-          "summary": "4A Games公布典藏版头盔实物，将于科隆游戏展展出。",
+          "summary": "4A Games公布典藏版实物头盔，取材于主角3D模型，带有战损痕迹，将于科隆游戏展展出。",
           "summary_source": "llm"
         },
         {
           "name": "天地创造",
           "count": 2,
-          "summary": "原作人设藤原神威寄语，确认复刻回归将于2027年登陆多平台。",
+          "summary": "原版人设藤原神威寄语，确认经典ARPG复刻回归，登陆Switch、PS5、PC等多平台。",
           "summary_source": "llm"
         },
         {
           "name": "湮灭之潮",
           "count": 2,
-          "summary": "女主新美照引发争议，被指撞脸迪丽热巴，制作方解释为渲染管线调整。",
+          "summary": "女主新版美照五官更柔和，引发海外社区关于“撞脸迪丽热巴”及“改脸”的争议。",
           "summary_source": "llm"
         },
         {
           "name": "红色沙漠",
           "count": 2,
-          "summary": "入围科隆游戏展“最具史诗感游戏”与“最佳PC游戏”奖项。",
+          "summary": "Pearl Abyss旗下游戏入围Gamescom Awards 2026“最具史诗感游戏”与“最佳PC游戏”两项提名。",
           "summary_source": "llm"
         },
         {
           "name": "轮回之兽",
           "count": 2,
-          "summary": "国产《轮回之兽》？游先看：《伊始之猫》首部预告发布；《轮回之兽》更新上线 修复调整多处玩家诟病问题。",
-          "summary_source": "rules"
+          "summary": "国产游戏《伊始之猫》发布首部预告，展示一人一猫协作的动作冒险风格。",
+          "summary_source": "llm"
         },
         {
           "name": "黄昏血族",
           "count": 2,
-          "summary": "FS社《黄昏血族》有恋爱系统 夫妻搭配干活不累；《黄昏血族》网络封闭测试比《艾尔登法环：黑夜君临》还要火。",
-          "summary_source": "rules"
+          "summary": "FromSoftware社长宫崎英高透露游戏包含恋爱系统，核心机制为美德胜利点系统。",
+          "summary_source": "llm"
         },
         {
           "name": "黑神话：钟馗",
           "count": 2,
-          "summary": "8082音频工作室发布配乐幕后花絮，展现传统民乐与现代编曲结合。",
+          "summary": "8082音频工作室发布民乐录制幕后花絮，展示古筝、琵琶等乐器，风格偏向民间志怪。",
           "summary_source": "llm"
         },
         {
           "name": "龙之剑：觉醒",
           "count": 2,
-          "summary": "因mod限制条款遭玩家反对，官方撤回公告并道歉。",
+          "summary": "因Mod限制条款过于繁琐遭玩家反对，官方撤回相关公告并道歉，仅保留两条最低限度原则。",
           "summary_source": "llm"
         },
         {
           "name": "Age Twisters",
           "count": 1,
-          "summary": "获科隆游戏展大奖“最有益健康作品”提名。",
+          "summary": "KRAFTON旗下双人合作冒险游戏入围科隆游戏展大奖“最有益健康作品”奖项。",
           "summary_source": "llm"
         },
         {
           "name": "Bodycam",
           "count": 1,
-          "summary": "宣布9月2日发布更新，强化真实音效与气氛。",
+          "summary": "Reissad Studio宣布9月2日发布更新，主要强化真实音效与气氛，提升临场感。",
           "summary_source": "llm"
         },
         {
           "name": "Dokimon Quest",
           "count": 1,
-          "summary": "在Steam开启免费活动，原价48元。",
+          "summary": "像素风怪物驯服游戏《Dokimon Quest》在Steam开启免费领取活动，原价48元。",
           "summary_source": "llm"
         },
         {
           "name": "NBA2KOL2",
           "count": 1,
-          "summary": "举办阵营狙击赛直播活动，邀请跨圈主播参与。",
+          "summary": "腾讯举办“阵营狙击赛”直播活动，跨圈主播参与，配合“即战赛场”与“自由赛场”玩法。",
           "summary_source": "llm"
         },
         {
           "name": "Resident Evil Requiem",
           "count": 1,
-          "summary": "演员将主持Future Games Show，带领观众观看独家内容。",
+          "summary": "演员Nick Apostolides与Angela Sant’Albano将主持Gamescom期间的Future Games Show。",
           "summary_source": "llm"
         },
         {
           "name": "SUPER BOMBERMAN COLLECTION",
           "count": 1,
-          "summary": "免费更新新增《Panic Bomber W》。",
+          "summary": "Konami宣布通过免费更新新增1995年经典益智游戏《Panic Bomber W》。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-08-24",
-      "article_count": 55,
-      "game_count": 29,
+      "article_count": 56,
+      "game_count": 30,
       "untagged_count": 12,
-      "digest": "的互动，逐步扩张城堡的规模。游戏结合了策略和Roguelite元素，玩家需要合理规划资源，同时应对随机生成的障碍和敌人，以在有限的回合内生存并建造更复杂的建筑。《城堡漂流记》Demo现已上线Steam，玩家可以免费下载体验。游戏的核心玩法包括建造、扩张和战斗，玩家需要在受诅咒的土地上通过规划和决策来生存下去。此外，游戏还提供了丰富的内容供玩家探索，包括不同的地图、建筑和敌人类型。《城堡漂流记》预计将于2026年第四季度正式发售，届时玩家将有机会体验到这款游戏的独特魅力。",
+      "digest": "的互动，逐步扩张城堡，同时抵御不断涌来的敌人和自然灾害。游戏强调策略性和探索性，玩家需要合理规划资源使用，以在不断变化的环境中生存下去。《城堡漂流记》Demo现已上线Steam，玩家可以免费下载体验。游戏的核心玩法包括建造、扩张和防御，玩家需要在有限的空间内规划建筑布局，通过不同建筑之间的互动，逐步扩张城堡，同时抵御不断涌来的敌人和自然灾害。游戏强调策略性和探索性，玩家需要合理规划资源使用，以在不断变化的环境中生存下去。",
       "digest_source": "llm",
-      "input_hash": "162af977817cf55a",
+      "input_hash": "6da39747ef56b5a4",
       "game_digests": [
         {
           "name": "GTA6",
@@ -701,102 +796,102 @@
     },
     {
       "date": "2026-08-21",
-      "article_count": 84,
-      "game_count": 63,
-      "untagged_count": 8,
-      "digest": "GTA6黑客泄露事件持续发酵，FBI介入调查泄密者或面临50年监禁；任天堂否认《黄昏血族》9月24日发售传闻；IOI宣布《007：初露锋芒》累计销量超400万套；Riot宣布《2XKO》内容开发将于12月结束；索尼前总裁曾建议《33号远征队》不要叫回合制RPG；DayZ Switch2版现已开售并享15%折扣。",
+      "article_count": 86,
+      "game_count": 64,
+      "untagged_count": 9,
+      "digest": "《GTA 6》的实机画面继续泄露，FBI介入调查。《黄昏血族》发售日期被误传，任天堂否认。Cardpocalypse活动免费发放，Epic商城推出虚拟代币。《时之书：无尽终章》免费体验版发布，游戏内容开发结束。《007：初露锋芒》累计销量突破400万套。《2XKO》DLC即将上线，运营状况不佳。《33号远征队》因回合制RPG名称建议而改名为“反应式回合制战斗”。《Barkour》Q4正式推出，支持中文。DOTA2 G胖现身国际邀请赛欢迎视频，体重新史低瘦成休·杰克曼。DayZ Switch2版现已开售，限时特惠同步开启。Scavland将于9月5日抢先体验，俯视角末世生存冒险。inZOI（云族裔）确认参展TapTap玩聚节。《ʘmʘchim》正式公布，预计将于2027年正式发售。《九阴真经：武侠》科隆游戏展参展确定，首部PV《梦回》同步公开。",
       "digest_source": "llm",
-      "input_hash": "463f34953fb1b683",
+      "input_hash": "62e7e8834773c59d",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 8,
-          "summary": "《GTA6》泄露惊动FBI，黑客CyberLeek可能面临最高50年监禁，FBI已开始追查。",
-          "summary_source": "llm"
+          "summary": "传《GTA6》泄露惊动FBI 泄密者面临50年牢狱；又要多花一笔钱？《GTA6》月度订阅传闻引玩家热议；曝美国主播花35万美元买《GTA 6》偷跑版！将直播试玩（当天共 8 条）",
+          "summary_source": "rules"
         },
         {
           "name": "黄昏血族",
           "count": 4,
-          "summary": "任天堂否认《黄昏血族》将于9月24日发售，官方称目前没有任何发售日期信息。",
-          "summary_source": "llm"
+          "summary": "发售日是误传？任天堂否认《黄昏血族》9月24日发售传闻；宫崎英高谈《黄昏血族》：会老带新才是好魂5！；《黄昏血族》发售日疑遭提前泄露！知名外媒意外泄密（当天共 4 条）",
+          "summary_source": "rules"
         },
         {
           "name": "Cardpocalypse",
           "count": 2,
-          "summary": "《Cardpocalypse》Epic平台永久免费入库，玩家可领取至8月27日23:00。",
-          "summary_source": "llm"
+          "summary": "\"喜加一\"周报（8.21-8.27）：《Cardpocalypse》免费；Epic喜加一：免费领取卡片战斗RPG《Cardpocalypse》。",
+          "summary_source": "rules"
         },
         {
           "name": "时之书：无尽终章",
           "count": 2,
-          "summary": "《时之书：无尽终章》免费体验版已于8月20日在Steam开放下载。",
-          "summary_source": "llm"
+          "summary": "《时之书：无尽终章》免费体验版今日起于Steam开放下载！；《时之书：无尽终章》试玩发布 银恶城风格探索冒险。",
+          "summary_source": "rules"
         },
         {
           "name": "生化危机：维罗妮卡",
           "count": 2,
-          "summary": "传闻《生化危机：维罗妮卡》制作人平林良章将于8月25日出席科隆展。",
-          "summary_source": "llm"
+          "summary": "传闻《生化危机：维罗妮卡》制作人或将亮相科隆展；《生化危机：维罗妮卡》、《生化0重制》主要角色演员曝光 克莱尔威斯克演员回归。",
+          "summary_source": "rules"
         },
         {
           "name": "007：初露锋芒",
           "count": 1,
-          "summary": "《007：初露锋芒》发售三个月累计销量突破400万套，Steam获特别好评。",
-          "summary_source": "llm"
+          "summary": "《007：初露锋芒》累计销量现已超过400万套。",
+          "summary_source": "rules"
         },
         {
           "name": "2XKO",
           "count": 1,
-          "summary": "《2XKO》内容开发将于今年12月结束，重心转向运营，最后DLC将于10月上线。",
-          "summary_source": "llm"
+          "summary": "LOL衍生格斗《2XKO》内容开发年底结束 今后重心转向运营。",
+          "summary_source": "rules"
         },
         {
           "name": "33号远征队",
           "count": 1,
-          "summary": "索尼前总裁吉田修平曾建议《33号远征队》不要叫回合制RPG，建议改称反应式回合制。",
-          "summary_source": "llm"
+          "summary": "索尼前总裁曾建议《33号远征队》不要叫回合制RPG。",
+          "summary_source": "rules"
         },
         {
           "name": "Barkour",
           "count": 1,
-          "summary": "《Barkour》宣布将于2026年Q4正式推出，支持中文，玩家将扮演狗狗特工。",
-          "summary_source": "llm"
+          "summary": "《Barkour》2026年Q4正式推出 狗子特工动作潜行。",
+          "summary_source": "rules"
         },
         {
           "name": "DOTA2",
           "count": 1,
-          "summary": "G胖现身2026年TI欢迎视频，被网友调侃瘦成休·杰克曼。",
-          "summary_source": "llm"
+          "summary": "G胖亮相2026TI 体重新史低瘦成休·杰克曼。",
+          "summary_source": "rules"
         },
         {
           "name": "DayZ",
           "count": 1,
-          "summary": "《DayZ》Switch2版现已开售，首周享15%折扣，包含三张风格各异的地图。",
-          "summary_source": "llm"
+          "summary": "《DayZ》Switch2版现已开售 限时特惠同步开启。",
+          "summary_source": "rules"
         },
         {
           "name": "Scavland",
           "count": 1,
-          "summary": "《Scavland》将于9月5日登陆Steam抢先体验，支持中文。",
-          "summary_source": "llm"
+          "summary": "《Scavland》9月5日抢先体验 俯视角末世生存冒险。",
+          "summary_source": "rules"
         },
         {
           "name": "inZOI（云族裔）",
           "count": 1,
-          "summary": "《inZOI（云族裔）》确认参展9月12日至13日的TapTap玩聚节。",
-          "summary_source": "llm"
+          "summary": "《inZOI（云族裔）》确认参展TapTap玩聚节。",
+          "summary_source": "rules"
         },
         {
           "name": "ʘmʘchim",
           "count": 1,
-          "summary": "《ʘmʘchim》正式公布，预计将于2027年发售，支持小红书账号同步。",
-          "summary_source": "llm"
+          "summary": "自由组装物理机关，脑洞大开解决难题 新游《ʘmʘchim》正式公布！。",
+          "summary_source": "rules"
         },
         {
           "name": "九阴真经：武侠",
           "count": 1,
-          "summary": "《九阴真经：武侠》确定参展8月26日至28日的科隆游戏展，首部PV《梦回》同步公开。",
-          "summary_source": "llm"
+          "summary": "《九阴真经：武侠》科隆游戏展参展确定，首部PV《梦回》同步公开。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -897,107 +992,6 @@
           "name": "不朽遗志",
           "count": 1,
           "summary": "《幽灵行者》开发团队One More Level宣布FPS魂系新作《Valor Mortis》已进厂压盘，定于2026年10月13日登陆PC及次世代主机。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "article_count": 77,
-      "game_count": 56,
-      "untagged_count": 6,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》泄露风波与《影之刃零》Steam销量夺冠，同时《使命召唤：现代战争4》因AI生成争议引发讨论，多款新作如《湮灭之潮》、《仁王3》DLC及《NBA 2K27》公布新内容，电竞方面《DOTA2》TI15即将开幕。",
-      "digest_source": "llm",
-      "input_hash": "53c4d4013191ad47",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 7,
-          "summary": "R星未证实真实性但泄密内容遭版权投诉，网飞将于8月27日举办特别展示活动，引发玩家对内容真伪的激烈讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 4,
-          "summary": "国产武侠动作游戏《影之刃零》预售开启，成功击败《绝地潜兵2》登顶Steam新一周销量榜，带动《黑神话：悟空》重返前十。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 2,
-          "summary": "官方误发内部营销图，因士兵持枪变形被疑AI生成，随后被删除并回应称仅为占位图。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "喵咪争霸",
-          "count": 2,
-          "summary": "Steam地址已公布，游戏包含6大地区93个普通关卡及44个困难模式，将于8月22日正式发售，首发价22元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "明末：渊虚之羽",
-          "count": 2,
-          "summary": "游戏音乐精选集实体黑胶专辑在京东开启预售，共收录29首配乐，包含150份制作人签名海报。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 2,
-          "summary": "外媒发布53分钟新实机演示，展示多场Boss战及女性BOSS莫德雷德，游戏登陆PC、PS5、XSX|S平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "火焰纹章：万缕千丝",
-          "count": 2,
-          "summary": "公布新角色君子兰夫人及剧情预告，游戏将于9月17日登陆Switch2。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黄昏血族",
-          "count": 2,
-          "summary": "网络测试客户端现已开放下载，测试将持续至8月24日，玩家需通过官网获取下载码。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "007：初露锋芒",
-          "count": 1,
-          "summary": "Switch2版将在8月26日至30日的科隆游戏展上首次提供公开试玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "DOTA2",
-          "count": 1,
-          "summary": "TI15主赛事将于8月20日上午10点在上海开幕，8支队伍将争夺冠军。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "NBA 2K27",
-          "count": 1,
-          "summary": "游戏今日揭晓，预购豪华版与巅峰版玩家可于8月27日抢先体验，带来多项玩法更新。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三国志大战",
-          "count": 1,
-          "summary": "前世嘉《三国志大战》《舞萌》制作人倾力打造！ 《三国志BOND》。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "上古卷轴6",
-          "count": 1,
-          "summary": "外包人员爆料称游戏世界搭建已完成，预计于2027年底发售，地点位于红卫人故乡哈默费尔。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "仁王3",
-          "count": 1,
-          "summary": "DLC第一弹“庆安地狱变”今日上线，新增新武器、守护灵及“领悟的旅途”难度。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "仙剑奇侠传四",
-          "count": 1,
-          "summary": "云天河1/4雕像今日开定，全款定价3380元，限量338个。",
           "summary_source": "llm"
         }
       ]

@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-08-28T08:09:33.253295+00:00",
+  "generated_at": "2026-08-29T05:05:56.550714+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-08-28",
-      "article_count": 5,
+      "article_count": 6,
       "game_count": 4,
-      "untagged_count": 1,
-      "digest": "今日游戏行业资讯聚焦于多款新游发售与老牌游戏更新，其中《共鸣：瘟疫传说传承》正式登陆PS5、Xbox Series X|S及PC平台并加入Xbox Game Pass，同名原声也已上线；网易《燕云十六声》官宣全球玩家突破一亿，并上线民俗规则怪谈关卡「照影庙」及杭州新区域；此外，《永劫无间》五周年推出首款水陆双栖新地图宛渠，分享了设计思路与踩坑调整；《暴走植物园》则展示了“塔防+肉鸽”玩法的进化。",
+      "untagged_count": 2,
+      "digest": "今日游戏资讯聚焦于多款新作发售与老牌游戏更新。动作冒险新作《共鸣：瘟疫传说传承》正式登陆主机与PC平台并加入Xbox Game Pass；网易武侠游戏《燕云十六声》全球玩家突破一亿，同步上线新区域与民俗关卡；《永劫无间》五周年推出水陆双栖新地图宛渠；塔防肉鸽新作《暴走植物园》则展示了靶心like玩法的进化。",
       "digest_source": "llm",
-      "input_hash": "0165ca03aead07d8",
+      "input_hash": "a6b369e0036b6ce3",
       "game_digests": [
         {
           "name": "共鸣：瘟疫传说传承",
           "count": 1,
-          "summary": "《共鸣：瘟疫传说传承》现已正式发售，登陆PS5、Xbox Series X|S及PC平台，并加入Xbox Game Pass，同名游戏原声也已上线流媒体平台。",
+          "summary": "《共鸣：瘟疫传说传承》正式登陆PS5、Xbox Series X|S及PC平台，加入Xbox Game Pass，同名游戏原声已上线流媒体平台。",
           "summary_source": "llm"
         },
         {
           "name": "暴走植物园",
           "count": 1,
-          "summary": "《暴走植物园》展示了“塔防+肉鸽”玩法的进化，局时短至6分钟，被视作靶心like的下一轮进化。",
+          "summary": "《暴走植物园》展示了靶心like玩法的进化，短到6分钟一局，为“塔防+肉鸽”提供了新解法。",
           "summary_source": "llm"
         },
         {
           "name": "永劫无间",
           "count": 1,
-          "summary": "《永劫无间》五周年推出首款水陆双栖新地图宛渠，分享了该地图从设计背景到体验优化的全流程思路与踩坑调整。",
+          "summary": "《永劫无间》五周年推出首款水陆双栖新地图宛渠，分享了该地图从设计到体验优化的全流程思路与踩坑调整。",
           "summary_source": "llm"
         },
         {
           "name": "燕云十六声",
           "count": 1,
-          "summary": "网易《燕云十六声》官宣全球游侠突破一亿人，上线民俗规则怪谈主题关卡「照影庙」及杭州新区域、新镇守、新野外首领。",
+          "summary": "网易《燕云十六声》全球游侠突破一亿，同步解锁民俗规则怪谈主题关卡「照影庙」，上线杭州新区域、新镇守及新野外首领。",
           "summary_source": "llm"
         }
       ]
@@ -275,53 +275,6 @@
           "name": "赫尔铸界",
           "count": 1,
           "summary": "融合物理碰撞与合成消除机制的砍杀肉鸽新作《赫尔铸界》亮相科隆Gamescom，定档2027年Q1登陆Steam抢先体验。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "article_count": 13,
-      "game_count": 6,
-      "untagged_count": 7,
-      "digest": "今日游戏行业资讯聚焦于多款新作发售与老游优化，涵盖后室方法论解析、沉星之序多平台定档、灵魂潮汐系统复盘、致命躯壳II体验报告、雾海之下首测细节及龙石战争玩法融合等热点，展现了从独立游戏到3A大作的多维度动态。",
-      "digest_source": "llm",
-      "input_hash": "53410402d30134b7",
-      "game_digests": [
-        {
-          "name": "后室",
-          "count": 1,
-          "summary": "《后室》游戏方法论文章梳理了该亚文化的游戏化发展脉络，对比经典与后现代惊悚游戏，解析多人合作微恐探索游戏的爆款逻辑与可借鉴经验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "沉星之序",
-          "count": 1,
-          "summary": "由知名游戏设计师Jonathan Blow领衔开发的叙事冒险解谜新作《沉星之序》将于10月9日登陆PC、Nintendo Switch 2及PS5平台，含千余手工谜题，Steam试玩版已开放且进度可继承。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "灵魂潮汐",
-          "count": 1,
-          "summary": "复盘记录分析了《灵魂潮汐》因主线高认知负荷、无扫荡等设计导致玩家流失的核心问题，并提出系统策划执行原则与主线减负、轻内容拓维等优化方案。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "致命躯壳 II",
-          "count": 1,
-          "summary": "体验报告指出《致命躯壳 II》已收到通知，欧洲ARPG崛起了，并强调游戏不再做耐力条。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "雾海之下",
-          "count": 1,
-          "summary": "网易雷火织屋工作室开发的《雾海之下》开启首测，游戏以“吃打撤”为核心，还在待机模式、捏脸呆毛等非核心细节处用心打磨。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "龙石战争",
-          "count": 1,
-          "summary": "Q版中式微恐3D LowPoly风格小游戏《龙石战争》融合搜打撤战斗与列车模拟经营玩法，二者形成资源正向循环，还设抓宠附身、肉鸽BD等特色内容。",
           "summary_source": "llm"
         }
       ]

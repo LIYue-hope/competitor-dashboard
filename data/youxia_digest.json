@@ -1,106 +1,207 @@
 {
-  "generated_at": "2026-08-28T07:59:20.869543+00:00",
+  "generated_at": "2026-08-29T04:58:02.112149+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-08-27",
-      "article_count": 79,
-      "game_count": 53,
-      "untagged_count": 19,
-      "digest": "8月27日游戏行业资讯聚焦于《GTA6》的直播规则调整、泄露风波及持枪禁令，同时《巫师3》DLC与重制版引发关注，多款新作如《守墓人2》《与狼同行》公布发售信息，科隆游戏展期间亦有《古墓丽影RE》《九阴真经：武侠》等游戏展示实机内容。",
+      "date": "2026-08-28",
+      "article_count": 80,
+      "game_count": 39,
+      "untagged_count": 17,
+      "digest": "今日游戏资讯聚焦于《GTA6》的预购盛况与开发幕后，R星高管透露曾考虑四主角最终锁定双主角，全球预购量达460万份且90%玩家购买终极版。此外，《艾尔登法环》新DLC“褪色者包”今日上线，而《42中队》因开发周期过长再度跳票至2027年Q2。其他方面，小岛秀夫新作《PHYSINT》官宣马东锡加盟，史克威尔艾尼克斯宣布《FF7：永恒危机》将于10月7日停服。",
       "digest_source": "llm",
-      "input_hash": "3276cf6a330bc623",
+      "input_hash": "0b51405150c6ed04",
       "game_digests": [
         {
           "name": "GTA6",
+          "count": 23,
+          "summary": "R星高管透露开发初期曾考虑四主角，最终锁定双主角，全球预购量达460万份，其中77%来自PS5平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 2,
+          "summary": "CDPR重制版配置大曝光，1080p光追需RTX 4060 Ti，老玩家可免费升级，民间大神HalkHogan已正式加入开发团队。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "艾尔登法环",
+          "count": 2,
+          "summary": "新版本更新上线，全新DLC“褪色者包”于8月28日分时段全平台上线，同时优化平衡并修复BUG。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "42中队",
+          "count": 1,
+          "summary": "历经十二年开发、众筹超10亿美元的《42中队》再度跳票，发售窗口由2026年Q4推迟至2027年Q2。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF15",
+          "count": 1,
+          "summary": "《最终幻想15》导演田畑端现身《电锯糖心》TGS舞台，Dragami Games宣布新作与动画化计划，9月19日将揭晓详情。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7：永恒危机",
+          "count": 1,
+          "summary": "史克威尔艾尼克斯宣布《最终幻想7：永恒危机》将于2026年10月7日14:00（北京时间）终止服务。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "For the Stars",
+          "count": 1,
+          "summary": "蜗牛游戏发布科隆展宣传片，主打星球探索与建设，已确认上线Steam平台，发售日待定。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Holstin",
+          "count": 1,
+          "summary": "心理生存恐怖游戏《Holstin》将于2027年登陆PC及主机，首发加入Xbox Game Pass，94%特别好评免费试玩版开放中。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "ONI零 复活",
+          "count": 1,
+          "summary": "科乐美展位惊喜公布，饭岛多纪哉氏将重启和风RPG《ONI零～复活～Reboot》，登陆Nintendo Switch。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "PHYSINT",
+          "count": 1,
+          "summary": "小岛秀夫晒出与韩国演员马东锡合照，证实其加盟谍战新作《PHYSINT》，预计2030年前后发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "STRANGER THAN HEAVEN",
+          "count": 1,
+          "summary": "世嘉公布TGS2026舞台活动，城田优与藤冈靛将于9月21日亮相，提供“RGG工作室TV”特别篇与实机游玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不朽之树",
+          "count": 1,
+          "summary": "生存建造游戏《不朽之树》试玩定档10月，全新实机预告片发布，由Geo Seed Games打造。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "凡应",
+          "count": 1,
+          "summary": "艺画开天旗下首款ARPG新游《凡应》今日开启EP02测试，提供顶级互动式电影体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "后世更序",
+          "count": 1,
+          "summary": "P社公布十年首款原创IP《后世更序》，舞台置于末日浩劫后北美大陆，玩家从幸存者起步逐步扩张为帝国。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "命运石之门：重启",
+          "count": 1,
+          "summary": "MAGES.发行的视觉小说《命运石之门：重启》登顶Fami通周销榜，三个平台版本合计售出15,153份。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "article_count": 122,
+      "game_count": 78,
+      "untagged_count": 28,
+      "digest": "8月27日游戏行业资讯聚焦于《GTA6》的直播规则调整与剧情泄露，以及《巫师3》DLC的口碑盛赞与免费重制版官宣。此外，《守墓人2》定档发售，《A.V.A战地之王》宣布关服，米哈游新作《源初之结》亮相科隆展，多款游戏公布发售日期或更新计划。",
+      "digest_source": "llm",
+      "input_hash": "2e1acec907613563",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 7,
+          "summary": "Rockstar North负责人透露莱奥尼达州禁止公开持枪，公共场合携带武器很危险。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7",
           "count": 3,
-          "summary": "Rockstar North负责人Rob Nelson透露，莱奥尼达州明确禁止在公共场合公开持枪，拿枪走在路上会非常危险。",
+          "summary": "Sweet Baby公司被指喷《FF7》重制版，玩家呼吁别把手伸向JRPG。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3",
           "count": 3,
-          "summary": "CDPR官宣《巫师3》9月29日推出免费重制版，承诺全程免费升级且不加价。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7",
-          "count": 2,
-          "summary": "《最终幻想7：启示》在科隆游戏展开启媒体与创作者闭门试玩，总监滨口直树确认正在筹备公开试玩，玩家很快就能体验。",
+          "summary": "CDPR官宣《巫师3》9月29日推出免费重制版，升级全程免费不加价。",
           "summary_source": "llm"
         },
         {
           "name": "GTA",
           "count": 2,
-          "summary": "R星开发人员接受专访，透露了《GTA》系列的大量游戏细节内容。",
+          "summary": "R星开发人员接受专访透露大量《GTA》游戏细节，Dazed杂志发布相关报道。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "伊莫",
+          "count": 2,
+          "summary": "大世界捉宠RPG《伊莫》亮相科隆展，PC端定档9月16日，移动端定档9月23日。",
           "summary_source": "llm"
         },
         {
           "name": "守墓人2",
           "count": 2,
-          "summary": "《守墓人2》新预告公布，确认将于9月22日发售，各平台预购同步开启。",
+          "summary": "《守墓人2》定档2026年9月22日全球发行，现已开启预购。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "极限竞速：地平线6",
+          "count": 2,
+          "summary": "Playground Games公布全新“漂移攻击”模式，将于9月上线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "源初之结",
+          "count": 2,
+          "summary": "米哈游公布《源初之结》短实机试玩，主打UE5写实画风的免费PC端PvE多人合作动作游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "龙之信条2",
+          "count": 2,
+          "summary": "《龙之信条2》大型更新延期至9月2日，包含存档系统大改与Pawn AI强化。",
           "summary_source": "llm"
         },
         {
           "name": "A.V.A 战地之王",
           "count": 1,
-          "summary": "运营18年的经典FPS网游《A.V.A 战地之王》将于10月28日正式关服，官方同时官宣次世代续作《AVA RE:BIRTH》将于金秋上线。",
+          "summary": "运营18年的FPS网游《A.V.A 战地之王》将于10月28日正式关服。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7EC",
+          "count": 1,
+          "summary": "手游《FF7EC》上线“塔克斯包围网”最终章，距离10月7日停服仅剩一个多月。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "NBA 2K27",
+          "count": 1,
+          "summary": "《NBA 2K27》生涯模式可穿越乔丹时代，王朝模式可扮演文班亚马。",
           "summary_source": "llm"
         },
         {
           "name": "No Law",
           "count": 1,
-          "summary": "赛博朋克RPG《No Law》宣布游戏中所有NPC均可被杀死，但死亡不可逆，杀商店老板会导致店铺关门，开发者提醒玩家后果自负。",
+          "summary": "赛博朋克RPG《No Law》宣布NPC全可杀，但死亡不可逆后果玩家自负。",
           "summary_source": "llm"
         },
         {
-          "name": "Warlock",
+          "name": "Riftbound",
           "count": 1,
-          "summary": "DND新作《Warlock》官宣经典角色塔莎，由八尺夫人动捕演员演绎，游戏设定于恐惧领域，预计2027年登陆多平台。",
+          "summary": "外媒爆料LOL衍生游戏《Riftbound》数字版已秘密开发。",
           "summary_source": "llm"
         },
         {
-          "name": "三位一体6",
+          "name": "Tropico 7",
           "count": 1,
-          "summary": "《三位一体6》发售日由2026年9月17日延期至2027年3月4日，登陆PS5、Xbox Series X|S、Switch、Switch 2及PC平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "与狼同行",
-          "count": 1,
-          "summary": "TellTale Games宣布《与狼同行》重制版将于10月29日登陆全平台，画面得到大幅提升，并加入了独家幕后花絮。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "九阴真经：武侠",
-          "count": 1,
-          "summary": "《九阴真经：武侠》在科隆游戏展公布新实机，展示了开放江湖场景以及客栈战斗实机演示。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "仙剑奇侠传四：重制版",
-          "count": 1,
-          "summary": "中手游透露《仙剑奇侠传四：重制版》预计于2027年上半年正式发售，目前开发工作顺利。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "伊莫",
-          "count": 1,
-          "summary": "大世界捉宠RPG《伊莫》亮相科隆游戏展并公布新PV，全球预约超2800万，PC端将搭载DLSS4.5技术。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影RE",
-          "count": 1,
-          "summary": "《古墓丽影：亚特兰蒂斯遗迹》在科隆游戏展公布长达20分钟实机演示，采用虚幻引擎5打造，将原作重构为半连通开放世界。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "合金装备：幽灵通天塔",
-          "count": 1,
-          "summary": "Steam平台疑似出现“临时工”操作失误，原本需预购《合金装备：大师合集 Vol.2》方可解锁的特典内容现已开放免费领取。",
+          "summary": "《Tropico 7》首支实机预告片揭晓发售日期。",
           "summary_source": "llm"
         }
       ]
@@ -808,107 +909,6 @@
           "name": "NBA 2K27",
           "count": 1,
           "summary": "公开“篮球之城”模式PV，男女自创球员可同场对战，9月4日正式发售。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "article_count": 112,
-      "game_count": 60,
-      "untagged_count": 35,
-      "digest": "今日游戏圈热点聚焦于《GTA6》的严重数据泄露与虚假货币传闻引发的行业热议，以及《仁王3》DLC上线与《沉没之城2》在战火中艰难发售的双重对比。此外，《影之刃零》预购火爆，《黄昏之血》开启测试，多款新作与老牌IP如《以撒的结合》联机版均有重磅动态。",
-      "digest_source": "llm",
-      "input_hash": "29eaa318b95ba517",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 7,
-          "summary": "《GTA6》遭遇严重数据泄露，Reddit用户整理出24条新机制，同时黑客Cyberleek发布最后通牒并抛出虚拟货币可兑换法币的虚假传闻，引发全网热议与辟谣。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "仁王3",
-          "count": 4,
-          "summary": "光荣特库摩旗下《仁王3》首部大型DLC“庆安地狱变”今日上线，外媒Techradar给出4.5星高分，通关时长预计为10-15小时。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "沉没之城2",
-          "count": 3,
-          "summary": "Frogwares开发的克苏鲁生存恐怖游戏《沉没之城2》正式发售，Steam收获“特别好评”，官方披露开发团队在乌克兰经历了85183次空袭警报等极端困境。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黄昏之血",
-          "count": 3,
-          "summary": "宫崎英高执导的Switch 2独占PVPVE动作游戏《黄昏之血》网络测试预载开启，官方向获选玩家发放3.8GB下载码，将于8月21日开测。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FE万缕千丝",
-          "count": 2,
-          "summary": "《火焰纹章：万缕千丝》公开新角色奥罗拉与君子兰夫人的详细设定，前者是被囚禁的星辰女神，后者是怀抱小熊玩偶的妖艳女性。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 2,
-          "summary": "《影之刃零》举办索尼State of Play发布会，展示中式舞狮BOSS战，预购销量远超预期，制作人梁其伟感谢玩家支持。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战地6",
-          "count": 2,
-          "summary": "《战地6》第四赛季“壮志凌云”更新上线，开启为期一周的限时免费体验活动，Steam在线人数达5.2万。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黑神话",
-          "count": 2,
-          "summary": "尽管游戏科学未官宣，但媒体与UP主推测8月20日可能发布重磅消息，称内容已备好，采访疑似就位。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "EXODUS",
-          "count": 1,
-          "summary": "威世智公布科幻RPG《EXODUS》概念设定图，庆祝其愿望单数量突破50万，该作由《质量效应》原班开发者创立。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "NBA 2K27",
-          "count": 1,
-          "summary": "《NBA 2K27》官方进行前瞻直播，公开了赛场内容、女篮生涯及辉煌生涯等更新优化。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "ONTOS",
-          "count": 1,
-          "summary": "《活体脑细胞》核心团队打造的科幻恐怖冒险游戏《ONTOS》亮相科隆开幕夜，确认将于8月26日直播。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "仓库猎人模拟器",
-          "count": 1,
-          "summary": "仓库竞拍“捡漏”模拟游戏《仓库猎人模拟器》公布，支持最多4人合作，PC版热卖中，计划于2026年登陆主机。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "仙剑奇侠传四",
-          "count": 1,
-          "summary": "正版授权的《仙剑奇侠传四》主角云天河1/4雕像公开，定于8月19日17:00开定，国内限量338体。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "以撒的结合",
-          "count": 1,
-          "summary": "《以撒的结合：忏悔+》Online主机版将于2026年11月19日登陆PS5、Xbox Series及Switch 2，实现四人在线合作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "共鸣：瘟疫传说传承",
-          "count": 1,
-          "summary": "《共鸣：瘟疫传说传承》入选微软8月下旬XGP第二波游戏阵容。",
           "summary_source": "llm"
         }
       ]

@@ -1,29 +1,35 @@
 {
-  "generated_at": "2026-08-28T08:07:23.447282+00:00",
+  "generated_at": "2026-08-29T05:05:22.102976+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-08-28",
-      "article_count": 6,
-      "game_count": 2,
-      "untagged_count": 4,
-      "digest": "2026年8月28日，游戏行业新闻汇总显示，腾讯与德国游戏公司Sandbox Interactive GmbH合作护航《Albion Online》，同时巨人网络上半年净利润暴增175%，旗下《超自然行动组》DAU破1200万。此外，还有4条未具体指向某款游戏的新闻。",
+      "article_count": 8,
+      "game_count": 3,
+      "untagged_count": 5,
+      "digest": "2026年8月28日游戏行业资讯聚焦于腾讯游戏安全ACE与Sandbox Interactive在科隆游戏展达成合作护航《Albion Online》，网易雷火在科隆展确认《无限大》将于2027年1月15日发售，以及巨人网络上半年净利润暴增175%且《超自然行动组》DAU突破1200万领跑市场。",
       "digest_source": "llm",
-      "input_hash": "45b7fd8d61514ad8",
+      "input_hash": "780d7e2a6dd3b34e",
       "game_digests": [
         {
           "name": "Albion Online",
           "count": 1,
-          "summary": "腾讯游戏安全 ACE 携手腾讯云与 Sandbox Interactive 达成合作，护航全球知名MMO《Albion Online》 —— 在2026年科隆国际游戏展（Gamescom）期间，腾讯游戏安全 ACE、腾讯云与德国游戏公司 Sandbox Interactive GmbH 共同宣布达成合作。 Sandbox…",
+          "summary": "腾讯游戏安全ACE携手腾讯云与Sandbox Interactive在科隆游戏展宣布达成合作，旨在护航该全球知名MMO。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "无限大",
+          "count": 1,
+          "summary": "网易雷火在科隆游戏展开幕夜带来实机内容，并正式确认游戏将于2027年1月15日发售。",
           "summary_source": "llm"
         },
         {
           "name": "超自然行动组",
           "count": 1,
-          "summary": "巨人网络上半年净利润暴增175%！《超自然行动组》DAU破1200万、持续领跑。",
-          "summary_source": "rules"
+          "summary": "巨人网络上半年净利润暴增175%，财报显示该游戏DAU已突破1200万并持续领跑市场。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -216,29 +222,6 @@
           "count": 1,
           "summary": "开启“自然仙灵”新赛季，将“野性”和“脑洞”策略融入游戏玩法。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "article_count": 6,
-      "game_count": 2,
-      "untagged_count": 4,
-      "digest": "2026年8月19日，游戏行业新闻汇总显示，尽管当天只有6条新闻涉及两款游戏，但每一条都透露出行业的活跃与创新。友谊时光（06820.HK）发布的中期业绩报告显示，其总营收达到约5.995亿元，同比增长74%。同时，《星际公民》作为一款备受期待的太空模拟游戏，在直播过程中遭遇了“游戏Bug不断”和团队间的相互埋怨与互怼，这反映了游戏开发过程中的挑战与压力。此外，还有关于恋爱小游戏《心跳陷落》的报道，显示其在研产品数量达5款，显示出游戏市场的多元化趋势。",
-      "digest_source": "llm",
-      "input_hash": "946940aeef647d00",
-      "game_digests": [
-        {
-          "name": "心跳陷落",
-          "count": 1,
-          "summary": "友谊时光上半年利润大增74%：恋爱小游戏《心跳陷落》发力，在研5款游戏。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "星际公民",
-          "count": 1,
-          "summary": "玩家笑翻！10亿美元巨制《星际公民》直播中“游戏Bug不断，团队埋怨互怼”。",
-          "summary_source": "rules"
         }
       ]
     }

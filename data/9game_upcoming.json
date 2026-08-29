@@ -1,37 +1,9 @@
 {
-  "crawled_at": "2026-08-28T07:47:30.136146+00:00",
+  "crawled_at": "2026-08-29T04:43:03.838699+00:00",
   "days": [
     {
-      "date": "2026-08-28",
-      "date_label": "08月28日 今天",
-      "games": [
-        {
-          "game_name": "王者守卫战",
-          "categories": [
-            "格斗"
-          ],
-          "score": "7.5",
-          "event_desc": "万人热血攻沙",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/wzswz/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "卧龙三国",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": "放置神魔版",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/wolongsanguo2/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-08-29",
-      "date_label": "08月29日 明天",
+      "date_label": "08月29日 今天",
       "games": [
         {
           "game_name": "乱弹三国志",
@@ -166,6 +138,23 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/wangzhewanxiangqi/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "date_label": "09月11日",
+      "games": [
+        {
+          "game_name": "热力无限赛车",
+          "categories": [
+            "竞速"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/rlwxsc/",
           "has_afk_grinding_tag": false
         }
       ]

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-28T08:10:10.538206+00:00",
+  "generated_at": "2026-08-29T05:06:11.545616+00:00",
   "week_start": "2026-08-17",
   "week_end": "2026-08-23",
-  "article_count": 1497,
-  "game_count": 207,
-  "digest": "在2026年8月17日至8月23日的周期内，游戏行业经历了一系列引人注目的事件。首先，《黑神话：钟馗》以其新海报和截图吸引了大量关注，同时杨奇长文介绍了游戏的详细内容，并回应了之前关于《黑悟空》的争议。此外，GTA6的泄露事件持续发酵，尽管Take-Two公司尝试阻止黑客网站，但泄露视频仍然不断流出。与此同时，国产虚幻5游戏《诡秘之主》因其高配置需求而引发热议，而《影之刃零》则凭借Steam预购成绩惊艳，成功登顶销量榜。乐元素3D偶像游戏《他予回声》首次测试招募同步开启，新团亮相。此外，《仁王3》首个DLC上线后引发了不同反响，而《王者万象棋》预约人数达到95万，成为热门游戏之一。最后，《湮灭之潮》通过幽默调剂和首批试玩评价获得了积极反馈，而《漫威金刚狼》即将登陆PS5，引起了广泛关注。整体来看，这一周的游戏行业热度高涨，多款游戏吸引了大量玩家的关注和期待。",
+  "article_count": 1140,
+  "game_count": 174,
+  "digest": "上周游戏行业资讯总量达1140条，涉及174款游戏，其中《黑神话：钟馗》以94条资讯位居热度榜首，杨奇发长文回应争议并揭晓主角脸模，FAQ更新与15分钟实机演示进一步展示了剑术道法与召唤小鬼的战斗细节，同时宣布低配设备可一键免下载开玩；紧随其后的是《GTA6》，135条资讯聚焦于泄露风波，黑客网站关停未果，泄露视频不断放出，泄露者获利6万美元且钱包仍存39万加密货币，前R星开发者称其不值一提；国产大作《诡秘之主》与《影之刃零》热度紧随其后，《诡秘之主》因12亿成本引热议，配置需求推荐RTX3070ti，ACE技术护航22条神之途径，而《影之刃零》Steam预购首周入账1450万美元，创收破亿，CGTN专访展示舞狮Boss战非遗匠心；此外，《漫威金刚狼》正式送厂压盘将于9月15日登陆PS5，因巴西预购折扣被砍引发索尼锁价争议，确认仅狼叔可操作；《湮灭之潮》总监澄清非类魂游戏，首批试玩评价赞爆；而《致命躯壳2》Steam褒贬不一被批“DEMO诈骗”，1060显卡实测仅20帧，大雷盔甲女爆火引发玩家因迷路和粪怪吵翻；乐元素3D偶像游戏《他予回声》开启首次测试招募，预约量达97万的《王者万象棋》与179万的《伊莫》也位列榜单前列。",
   "digest_source": "llm",
   "heat_formula": "热度 = 资讯量 30% + 跨源覆盖 15% + 预约量 18% + 社区（周内新增关注/评价/讨论）15% + TapTap 榜单名次 12% + 官方动态 7% + 评测讨论 3%；各项先对数归一（资讯满格 200 条），缺测的维度计 0、不倒扣，满分 100。",
-  "input_hash": "4a41a24c07444892",
+  "input_hash": "3b0db24f9bd6b1a3",
   "hot_ranking": [
     {
       "rank": 1,
@@ -38,8 +38,8 @@
     {
       "rank": 2,
       "name": "GTA6",
-      "heat_score": 40.7,
-      "media_count": 181,
+      "heat_score": 39.0,
+      "media_count": 135,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -64,8 +64,8 @@
     {
       "rank": 3,
       "name": "诡秘之主",
-      "heat_score": 36.3,
-      "media_count": 9,
+      "heat_score": 35.7,
+      "media_count": 8,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -93,8 +93,8 @@
     {
       "rank": 4,
       "name": "影之刃零",
-      "heat_score": 35.1,
-      "media_count": 34,
+      "heat_score": 31.0,
+      "media_count": 16,
       "source_count": 4,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -107,24 +107,18 @@
           "url": "https://www.gamersky.com/news/202608/2194425.shtml",
           "source": "游民星空",
           "published_at": "2026-08-23"
-        },
-        {
-          "title": "Steam新一周销量榜：《影之刃零》成功登顶！",
-          "url": "https://www.3dmgame.com/news/202608/3950925.html",
-          "source": "3DMGame",
-          "published_at": "2026-08-19"
         }
       ]
     },
     {
       "rank": 5,
       "name": "他予回声",
-      "heat_score": 29.9,
+      "heat_score": 29.4,
       "media_count": 3,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
-      "best_rank": 6,
+      "best_rank": 8,
       "rank_lists": [
         "reserve"
       ],
@@ -146,37 +140,11 @@
     },
     {
       "rank": 6,
-      "name": "仁王3",
-      "heat_score": 29.5,
-      "media_count": 22,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《仁王3》更新！玩家关键问题解决",
-          "url": "https://www.gamersky.com/news/202608/2193541.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-22"
-        },
-        {
-          "title": "《仁王3》今日更新：解决此前补丁引发的存档故障问题",
-          "url": "https://www.ali213.net/news/html/2026-8/1033119.html",
-          "source": "游侠网",
-          "published_at": "2026-08-21"
-        }
-      ]
-    },
-    {
-      "rank": 7,
       "name": "王者万象棋",
       "heat_score": 29.1,
       "media_count": 0,
       "source_count": 0,
-      "reservation_label": "95万",
+      "reservation_label": "97万",
       "follow_delta_label": null,
       "best_rank": 1,
       "rank_lists": [
@@ -186,36 +154,25 @@
       "news": []
     },
     {
-      "rank": 8,
-      "name": "湮灭之潮",
+      "rank": 7,
+      "name": "伊莫",
       "heat_score": 27.9,
-      "media_count": 18,
-      "source_count": 3,
-      "reservation_label": null,
+      "media_count": 0,
+      "source_count": 0,
+      "reservation_label": "179万",
       "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
+      "best_rank": 9,
+      "rank_lists": [
+        "reserve"
+      ],
       "official_count": 0,
-      "news": [
-        {
-          "title": "《湮灭之潮》澄清没给女主“整容” 颜值变换引争议",
-          "url": "https://www.gamersky.com/news/202608/2194165.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-22"
-        },
-        {
-          "title": "《湮灭之潮》女主新旧建模对比 官方回应新脸争议",
-          "url": "https://www.3dmgame.com/news/202608/3950852.html",
-          "source": "3DMGame",
-          "published_at": "2026-08-19"
-        }
-      ]
+      "news": []
     },
     {
-      "rank": 9,
+      "rank": 8,
       "name": "漫威金刚狼",
-      "heat_score": 27.9,
-      "media_count": 18,
+      "heat_score": 26.9,
+      "media_count": 15,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -238,10 +195,10 @@
       ]
     },
     {
-      "rank": 10,
-      "name": "黄昏血族",
-      "heat_score": 26.9,
-      "media_count": 15,
+      "rank": 9,
+      "name": "湮灭之潮",
+      "heat_score": 26.6,
+      "media_count": 14,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -250,16 +207,36 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《黄昏血族》测试报名人数超《黑夜君临》 制作人惊了",
-          "url": "https://www.gamersky.com/news/202608/2194409.shtml",
+          "title": "《湮灭之潮》澄清没给女主“整容” 颜值变换引争议",
+          "url": "https://www.gamersky.com/news/202608/2194165.shtml",
           "source": "游民星空",
-          "published_at": "2026-08-23"
+          "published_at": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "致命躯壳2",
+      "heat_score": 26.3,
+      "media_count": 12,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《致命躯壳2》发售一天后口碑反转！Steam褒贬不一",
+          "url": "https://www.gamersky.com/news/202608/2193738.shtml",
+          "source": "游民星空",
+          "published_at": "2026-08-21"
         },
         {
-          "title": "网传登陆Steam？宫崎英高《黄昏血族》官宣传闻遭辟谣",
-          "url": "https://www.ali213.net/news/html/2026-8/1033613.html",
+          "title": "游侠晚报:《致命躯壳2》硬件实测《GTA6》泄露风波发酵",
+          "url": "https://www.ali213.net/news/html/2026-8/1033315.html",
           "source": "游侠网",
-          "published_at": "2026-08-23"
+          "published_at": "2026-08-21"
         }
       ]
     }
