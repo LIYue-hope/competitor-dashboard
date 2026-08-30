@@ -1,34 +1,40 @@
 {
-  "generated_at": "2026-08-29T05:05:22.102976+00:00",
+  "generated_at": "2026-08-30T02:28:46.558045+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-08-28",
-      "article_count": 8,
-      "game_count": 3,
+      "article_count": 9,
+      "game_count": 4,
       "untagged_count": 5,
-      "digest": "2026年8月28日游戏行业资讯聚焦于腾讯游戏安全ACE与Sandbox Interactive在科隆游戏展达成合作护航《Albion Online》，网易雷火在科隆展确认《无限大》将于2027年1月15日发售，以及巨人网络上半年净利润暴增175%且《超自然行动组》DAU突破1200万领跑市场。",
+      "digest": "2026年8月28日游戏行业资讯聚焦于腾讯云与Sandbox Interactive合作护航《Albion Online》、网易《无限大》确认2027年1月15日发售、巨人网络财报显示《超自然行动组》DAU破1200万，以及《剑网3》举办十七周年庆典。",
       "digest_source": "llm",
-      "input_hash": "780d7e2a6dd3b34e",
+      "input_hash": "c83ead6f63c61b02",
       "game_digests": [
         {
           "name": "Albion Online",
           "count": 1,
-          "summary": "腾讯游戏安全ACE携手腾讯云与Sandbox Interactive在科隆游戏展宣布达成合作，旨在护航该全球知名MMO。",
+          "summary": "腾讯游戏安全ACE携手腾讯云与Sandbox Interactive达成合作，护航全球知名MMO《Albion Online》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑网3",
+          "count": 1,
+          "summary": "《剑网3》举办十七周年庆典，首次采用四面舞台，现场1.8万名玩家齐聚一堂，并发布年度重磅内容及未来2.0规划。",
           "summary_source": "llm"
         },
         {
           "name": "无限大",
           "count": 1,
-          "summary": "网易雷火在科隆游戏展开幕夜带来实机内容，并正式确认游戏将于2027年1月15日发售。",
+          "summary": "网易雷火在科隆游戏展确认《无限大》将于2027年1月15日发售，并带来实机内容展示。",
           "summary_source": "llm"
         },
         {
           "name": "超自然行动组",
           "count": 1,
-          "summary": "巨人网络上半年净利润暴增175%，财报显示该游戏DAU已突破1200万并持续领跑市场。",
+          "summary": "巨人网络上半年净利润暴增175%，财报显示《超自然行动组》DAU破1200万，持续领跑。",
           "summary_source": "llm"
         }
       ]
@@ -186,41 +192,6 @@
           "name": "黑神话：钟馗",
           "count": 1,
           "summary": "游戏科学发布新PV，冯骥与杨奇表态，游戏将于8月20日准点相约。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "article_count": 8,
-      "game_count": 4,
-      "untagged_count": 4,
-      "digest": "索尼为《影之刃零》举办State of Play发布会宣布其PS5独占一年，引发玩家对光盘版的争议；勇仕网络发布财报显示《深空之眼》停更且上半年亏损478万；旭旭宝宝、PDD、五五开现身《逆水寒》引发关注；金铲铲之战开启“自然仙灵”新赛季。",
-      "digest_source": "llm",
-      "input_hash": "d66f879ce618e6de",
-      "game_digests": [
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "索尼举办State of Play发布会宣布其PS5主机独占一年，引发老外对光盘版的争议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "深空之眼",
-          "count": 1,
-          "summary": "勇仕网络发布财报显示《深空之眼》停更，上半年亏损478万，另有4款新游戏研发中。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "逆水寒",
-          "count": 1,
-          "summary": "游戏直播界“三幻神”旭旭宝宝、PDD、五五开时隔八年重聚《逆水寒》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "金铲铲之战",
-          "count": 1,
-          "summary": "开启“自然仙灵”新赛季，将“野性”和“脑洞”策略融入游戏玩法。",
           "summary_source": "llm"
         }
       ]

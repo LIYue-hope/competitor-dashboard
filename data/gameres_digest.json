@@ -1,9 +1,19 @@
 {
-  "generated_at": "2026-08-29T05:05:56.550714+00:00",
+  "generated_at": "2026-08-30T02:29:03.609410+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-08-29",
+      "article_count": 1,
+      "game_count": 0,
+      "untagged_count": 1,
+      "digest": "今日游戏行业资讯聚焦于宏观市场动态，未涉及具体游戏产品的发售、更新或运营活动。游资网今日共发布1条行业新闻，该报道未点名任何具体游戏名称或厂商，主要围绕行业整体趋势进行报道。按报道条数排序的游戏（含代表性标题与摘要）：",
+      "digest_source": "llm",
+      "input_hash": "0f97d4f8d667ebf4",
+      "game_digests": []
+    },
     {
       "date": "2026-08-28",
       "article_count": 6,
@@ -240,41 +250,6 @@
           "name": "黑神话：钟馗",
           "count": 1,
           "summary": "游戏科学发布15分钟实机演示，涵盖剧情、动作、关卡探索及首领战，展现美术与战斗交互的打磨升级。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "article_count": 10,
-      "game_count": 4,
-      "untagged_count": 6,
-      "digest": "8月20日游戏行业资讯聚焦于新游动态与厂商财报，乐元素展示3D偶像新作《他予回声》并开启测试招募，完美世界发布半年报披露《异环》全球流水破20亿，Roguelite弹幕射击游戏《弹企鹅》今日登陆Steam发售，物理砍杀肉鸽新作《赫尔铸界》亮相科隆并定档2027年Q1。",
-      "digest_source": "llm",
-      "input_hash": "e884c37e86700791",
-      "game_digests": [
-        {
-          "name": "他予回声",
-          "count": 1,
-          "summary": "乐元素3D偶像游戏《他予回声》新团亮相，首次测试招募同步开启。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "异环",
-          "count": 1,
-          "summary": "完美世界发布2026年半年报，披露《异环》全球流水破20亿，业绩Q3起逐步释放。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "弹企鹅",
-          "count": 1,
-          "summary": "Roguelite弹射弹幕射击游戏《弹企鹅》今日登陆Steam发售，售价37元，首两周享九折优惠。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "赫尔铸界",
-          "count": 1,
-          "summary": "融合物理碰撞与合成消除机制的砍杀肉鸽新作《赫尔铸界》亮相科隆Gamescom，定档2027年Q1登陆Steam抢先体验。",
           "summary_source": "llm"
         }
       ]

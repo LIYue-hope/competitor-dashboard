@@ -1,9 +1,79 @@
 {
-  "generated_at": "2026-08-29T04:58:02.112149+00:00",
+  "generated_at": "2026-08-30T02:26:06.405029+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-08-30",
+      "article_count": 12,
+      "game_count": 7,
+      "untagged_count": 4,
+      "digest": "今日游戏资讯聚焦于《GTA6》的直播热度与科隆游戏展上的新作动态。R星新作《GTA6》演示直播峰值近400万人，创下今年游戏直播纪录，并新增火力压制等机制；卡普空公布《龙之信条2》DLC时长超25小时；SigilGames唯美横版动作新游《Divinum》上线Steam；Atlus宣布《女神异闻录4RE》将全换配音；《漫威金刚狼》与《致命躯壳2》也分别回应了玩家关于战衣复原与口碑的关切。",
+      "digest_source": "llm",
+      "input_hash": "dc9a4b0a1ec39d2a",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 2,
+          "summary": "R星新作《GTA6》演示直播峰值近400万人，创下2026年至今游戏直播最高纪录，并新增火力压制警察等躲避追捕机制。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Divinum",
+          "count": 1,
+          "summary": "SigilGames唯美银河恶魔城横版动作新游《Divinum》正式登陆Steam，支持中文并收获好评。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "女神异闻录4RE",
+          "count": 1,
+          "summary": "Atlus在科隆游戏展上透露，《女神异闻录4》重制版《Persona 4 Revival》将完全替换原有的英文配音演员。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "昭和米国物语",
+          "count": 1,
+          "summary": "科隆游戏展上《昭和米国物语》趣味难度引发热议，官方曝光隐藏令和简易难度，说明游戏主打养成玩法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 1,
+          "summary": "Insomniac Games回应《漫威金刚狼》中破损服装为何自动复原，解释了金刚狼战衣自愈的设定。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "致命躯壳2",
+          "count": 1,
+          "summary": "《致命躯壳2》发售后凭借升级的硬核战斗与探索内容收获媒体高分与玩家好评，官方发文致谢。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "龙之信条2：黑暗觉者",
+          "count": 1,
+          "summary": "卡普空曝光打磨两年的DLC细节，新增雪域区域与海量迷宫，整体游玩内容超25小时。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "article_count": 8,
+      "game_count": 1,
+      "untagged_count": 7,
+      "digest": "2026年8月29日，游侠网共发布了8条新闻，涉及游戏1款。其中7条新闻未明确指出具体游戏名称，仅提及《GTA6》这一游戏。这7条新闻主要围绕《GTA6》的热度差异展开讨论，包括其在海外的火爆程度与在国内的播放数据对比，以及玩家对这种差异的看法。",
+      "digest_source": "llm",
+      "input_hash": "a6f9ff9ce17332cf",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 1,
+          "summary": "《GTA6》争议不断！《GTA6》国内一天百万播放 真的算凉了吗？——《GTA6》实机内容海外爆火、国内播放数据平平，对比多款千万播放的国产3A引发热议，玩家对热度差距成因产生不同看法。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-08-28",
       "article_count": 80,
@@ -808,107 +878,6 @@
           "name": "inZOI（云族裔）",
           "count": 1,
           "summary": "KRAFTON旗下生活模拟游戏《inZOI（云族裔）》将参加于9月12日至13日在中国上海举行的TapTap玩聚节。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "article_count": 131,
-      "game_count": 73,
-      "untagged_count": 27,
-      "digest": "今日游侠网资讯共131条，涵盖73款游戏。GTA6因泄露与手感争议引发热议，黑神话：钟馗发布15分钟实机演示并公布脸模与动捕细节，命运石之门：重启与寂静岭：Townfall正式发售或开启预购，多款新作公布发售日与玩法。",
-      "digest_source": "llm",
-      "input_hash": "73b8aa237ee2b72c",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 13,
-          "summary": "黑客泄露版本收录塔妹新歌确认为2025年后，玩家吐槽驾驶手感称“15年白等”引发两极分化。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黑神话：钟馗",
-          "count": 12,
-          "summary": "发布15分钟实机演示，UI设计融入道教符咒，老戏骨李光复出演老者脸模，动捕成本升级。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黑钟馗",
-          "count": 3,
-          "summary": "主角脸模确认为自家服饰模特“戴zhili-”，音效由8082Audio操刀，新实机展示主角、BOSS及神秘女角色。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "命运石之门：重启",
-          "count": 2,
-          "summary": "正式登陆Steam，画面音效配音全面升级，获Steam特别好评，开启限时折扣并附赠复古DLC。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "寂静岭：Townfall",
-          "count": 2,
-          "summary": "Steam开启预购，国区标准版310元，豪华版380元，定档9月24日登陆PS5和PC。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "深海迷航2",
-          "count": 2,
-          "summary": "推出第二次大型更新，上线“同伴系统”强化多人联机体验，补齐大量玩家期盼的协作功能。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 2,
-          "summary": "外媒专访明确游戏并非类魂，主创揭秘融合多款作品特色元素，兼顾新手与硬核玩家。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2,
-          "summary": "全程仅可操控金刚狼罗根，琴·葛蕾及X特攻队成员为NPC，PS5限定套装定价649.99欧元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "空之轨迹 the 2nd",
-          "count": 2,
-          "summary": "Steam版公开OP动画，简中体验版今日开放下载，支持Switch/Switch 2/PS5/Steam。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "COD：现代战争4",
-          "count": 1,
-          "summary": "本周末开启测试，官方公布多人模式预告片。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "CS2",
-          "count": 1,
-          "summary": "裂变天地S3苏州站16支战队名单揭晓。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FE风花雪月",
-          "count": 1,
-          "summary": "My Nintendo推出定制头像限时兑换活动，支持Switch与Switch 2。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA：印度",
-          "count": 1,
-          "summary": "AI短片因高度复刻视觉风格与荒诞瑕疵火爆海外平台，引发大量网友趣味讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Grow & Go",
-          "count": 1,
-          "summary": "Epic限时免费领取，由Horizon Studios Hungary开发的休闲农场与配送模拟游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "NBA 2K27",
-          "count": 1,
-          "summary": "公开“篮球之城”模式PV，男女自创球员可同场对战，9月4日正式发售。",
           "summary_source": "llm"
         }
       ]

@@ -1,100 +1,147 @@
 {
-  "generated_at": "2026-08-29T04:56:10.077774+00:00",
+  "generated_at": "2026-08-30T02:25:07.707896+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-08-29",
-      "article_count": 18,
-      "game_count": 14,
-      "untagged_count": 1,
-      "digest": "今日游戏行业资讯聚焦于《侠盗猎车6》实机演示的发布与细节曝光，以及《钢铁侠》实机视频泄露引发的关注。此外，多款新作如《DayZ Badlands》、《吸血鬼幸存者》DLC等陆续公布发售或更新计划，同时《使命召唤》反外挂行动与Mod社区数据也引发热议。",
+      "date": "2026-08-30",
+      "article_count": 5,
+      "game_count": 5,
+      "untagged_count": 0,
+      "digest": "8月30日游戏行业资讯聚焦于《GTA6》配音争议、DLSS 5技术测试及《共鸣：瘟疫传说传承》发售后的好评表现，同时《巫师3》开发商CDPR介入科隆游戏展盗窃案，而《詹姆斯庞德》重制版则因AI生成内容遭到主创严厉批评。",
       "digest_source": "llm",
-      "input_hash": "bd8a29f30495ab4b",
+      "input_hash": "e1f086f264862d63",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 4,
-          "summary": "《侠盗猎车6》首个30分钟实机演示在Netflix首映后登陆YouTube，粉丝认出首位回归角色并推断其全名为瓦伦蒂娜，画面实现质的飞跃。",
+          "count": 1,
+          "summary": "《GTA6》加长版预览引发争议，男主杰森的配音被批评过于平淡、缺乏个性，与露西亚形成反差，部分粉丝认为其可能隐藏叙事意图。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴5：天际",
+          "count": 1,
+          "summary": "DLSS 5的早期版本意外出现在《上古卷轴5：天际》等游戏的测试中，RenoDX Mod社区已制作简易工具让玩家使用该技术。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "共鸣：瘟疫传说传承",
+          "count": 1,
+          "summary": "该作已于8月27日发售，Steam国区售价199元，在189篇评价中好评率高达95%，玩家普遍称赞其画面漂亮、优化优秀。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3：狂猎",
+          "count": 1,
+          "summary": "CDPR针对科隆游戏展发生的盗窃案发声，表示愿意为受害者提供帮助，并称“任何兄弟都不应该从零开始”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "詹姆斯庞德",
+          "count": 1,
+          "summary": "《詹姆斯庞德 遗产：池塘尚不足》主创克里斯·索雷尔斥责该作使用AI生成内容，称其不尊重原作且毫无灵魂，自己全程未参与。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "article_count": 34,
+      "game_count": 22,
+      "untagged_count": 2,
+      "digest": "8月29日游戏行业资讯聚焦于《GTA6》公布公共交通系统等新细节，以及《巫师3》重制版与DLSS 5的对比讨论。此外，动视针对《使命召唤》外挂作者采取线下法律行动，科隆游戏展发生开发者笔记本被盗事件，多款新游如《Divinum》、《吸血鬼幸存者》DLC及《天国：拯救2》总监对《GTA6》的批评也引发关注。",
+      "digest_source": "llm",
+      "input_hash": "768eedf77b6fe875",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 9,
+          "summary": "R星确认游戏中将依赖公共交通工具，玩家可乘坐巴士、火车或出租车在莱昂尼达快速旅行，小地图将显示公交车站，支持跳过或欣赏沿途风景。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 2,
+          "summary": "CDPR在科隆游戏展公布《巫师3》重制版，并宣布为现有玩家提供免费更新，提升画面、性能和游戏体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "科隆国际游戏展",
+          "count": 2,
+          "summary": "独立开发者瑞安·莱利在科隆展商务区遭遇笔记本电脑被盗，情绪激动地宣布展期提前结束，引发行业关注。",
           "summary_source": "llm"
         },
         {
           "name": "DayZ Badlands",
           "count": 1,
-          "summary": "经典系列新作《DayZ Badlands》确定于10月15日登陆PC、PS4及XBOX平台，需拥有基础游戏《DayZ》才能游玩。",
+          "summary": "Bohemia Interactive宣布经典系列新作《DayZ Badlands》将于10月15日登陆PC、PS4及Xbox平台，需拥有基础游戏《DayZ》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Divinum",
+          "count": 1,
+          "summary": "Sigil Games工作室发行的唯美横版动作游戏《Divinum》登陆Steam，支持中文并收获特别好评。",
           "summary_source": "llm"
         },
         {
           "name": "Occult Cleanup Agency",
           "count": 1,
-          "summary": "由《糖豆人》主创打造的超自然清除模拟游戏《Occult Cleanup Agency》Steam上线，玩家需清除洗衣机等处的非人类物体。",
+          "summary": "由《糖豆人》主创打造的超自然物体清除模拟游戏《Occult Cleanup Agency》在Steam上线。",
           "summary_source": "llm"
         },
         {
           "name": "Soul Chained",
           "count": 1,
-          "summary": "魂系动作冒险新游《Soul Chained》因BOSS衣着清凉导致审核停滞而延期，官方正在制定修改措施。",
+          "summary": "魂系动作冒险游戏《Soul Chained》因其中一个BOSS衣着过于清凉导致审核停滞而延期，官方正在制定修改措施。",
           "summary_source": "llm"
         },
         {
           "name": "上古卷轴5：天际特别版",
           "count": 1,
-          "summary": "Mod门户NexusMods宣布站内Mod总计下载超250亿次，其中半数以上为《老滚5》，该作下载数达128亿次。",
+          "summary": "Mod门户NexusMods宣布Mod总下载量超250亿次，其中半数以上为《上古卷轴5》的128亿次下载。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴6",
+          "count": 1,
+          "summary": "Xbox CEO阿莎·夏尔马在科隆游戏展被问及《上古卷轴6》是否独占时，表示每个平台都需要独占体验，未给出直接答复。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤：现代战争4",
           "count": 1,
-          "summary": "动视公布反外挂专项行动进展，法务人员前往俄亥俄州知名外挂作者Elocarry住所送达下架禁令并全程录像。",
+          "summary": "动视上门向知名外挂作者Elocarry送达停止侵权下架禁令，并全程录像，展示打击外挂的线下行动。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑网3",
+          "count": 1,
+          "summary": "《剑网3》举办十七周年庆发布会，宣布开启50级新世代「苍生铸世」，并公布2027年开启的《剑网3》2.0全面进化。",
           "summary_source": "llm"
         },
         {
           "name": "吸血鬼幸存者",
           "count": 1,
-          "summary": "经典肉鸽神作《吸血鬼幸存者》新DLC“血月遗产”上线，带来10位以上新角色、16种以上新武器及XL尺寸新地图。",
+          "summary": "经典肉鸽游戏《吸血鬼幸存者》DLC「血月遗产」上线，带来10位以上新角色、16种以上新武器及XL尺寸新地图。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "天国：拯救2",
+          "count": 1,
+          "summary": "《天国：拯救2》总监Daniel Vávra批评《GTA6》主角性格平淡，称其为反社会人格，认为游戏缺乏故事吸引力。",
           "summary_source": "llm"
         },
         {
           "name": "控制",
           "count": 1,
-          "summary": "modder成功在《控制》中启用DLSS 5 AI神经滤镜，性能影响约为40%，该技术似乎仅限于RTX 50系列。",
+          "summary": "Modder成功在《控制》中启用DLSS 5 AI神经滤镜，使用《NBA 2K27》DLL，RTX 5060在启用时性能下降约40%。",
           "summary_source": "llm"
         },
         {
-          "name": "灵魂面甲",
+          "name": "洛克人：双重超载",
           "count": 1,
-          "summary": "国产生存沙盒游戏《灵魂面甲：浮沙》DLC大型更新“引力之外”将于8月31日上线，新增燃烧高地等区域。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "科隆国际游戏展",
-          "count": 1,
-          "summary": "参展商吐槽科隆展出现昂贵电脑被盗事件，开发者Ryan Laley的Alienware笔记本及数据丢失，警方因GDPR限制无法查看监控。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "赛博朋克2077",
-          "count": 1,
-          "summary": "网友将DLSS 5神经渲染MOD应用至《赛博朋克2077》，画面表现超级真实，引发关于AI垃圾与逆天画面的两极评价。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "远征：堕入黑暗",
-          "count": 1,
-          "summary": "中世纪合作搜打撤游戏《远征：堕入黑暗》试玩突破10万人，预定2026年Q4正式推出。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "钢铁侠",
-          "count": 1,
-          "summary": "EA《钢铁侠》实机视频泄露，开发商Motive Studio承认真实性，展示了爽快战斗与飞行玩法。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "阿利吉耶里之环",
-          "count": 1,
-          "summary": "神秘解谜冒险新游《阿利吉耶里之环》确定于9月11日登陆PC及PS5平台，支持中文。",
+          "summary": "纪念洛克人诞生40周年的新作《洛克人：双重超载》开发思路聚焦加大BOSS数量，每个关卡设置3大区域及BOSS，预计2027年发售。",
           "summary_source": "llm"
         }
       ]
@@ -892,107 +939,6 @@
           "count": 1,
           "summary": "《九阴真经：武侠》科隆游戏展参展确定，首部PV《梦回》同步公开。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "article_count": 93,
-      "game_count": 55,
-      "untagged_count": 22,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》泄密引发的争议、多款新作动态及老游戏更新。Take-Two针对黑客泄露视频采取封杀措施，而“停止扼杀游戏”组织迅速划清界限；游科公布《黑神话：钟馗》主角脸模；Falcom开放《空之轨迹 the 2nd》简中体验版；ARMAG与Two Cakes Studio推出恐怖游戏《TIC-TAC: Twelve o'clock》；CDPR回应《巫师3》NPC离谱行为；One More Level宣布FPS魂系新作《不朽遗志》进厂压盘。",
-      "digest_source": "llm",
-      "input_hash": "3cd0f8800983512c",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 8,
-          "summary": "黑客组织Cyberleek公布早期实机视频，Take-Two迅速封杀，黑客因不满R星拒绝发行实体光盘及开启数字预购而泄密，引发“停止扼杀游戏”组织谴责。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黑神话：钟馗",
-          "count": 4,
-          "summary": "游科发布15分钟实机演示，模特“戴zhili-”确认担任主角脸模及面部捕捉，因其曾为游科官方服饰模特，被玩家调侃“肥水不流外人田”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "空之轨迹 the 2nd",
-          "count": 3,
-          "summary": "Falcom与云豹娱乐、凤凰游戏联合发行的Steam版《空之轨迹 the 2nd》简体中文体验版今日开放下载，支持全平台存档继承。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "TIC-TAC: Twelve o'clock",
-          "count": 2,
-          "summary": "ARMAG与Two Cakes Studio在Steam推出超自然恐怖游戏《TIC-TAC: Twelve o'clock》，玩家需在午夜钟声敲响时躲避复仇幽灵追猎。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 2,
-          "summary": "CD Projekt Red设计师透露，为追求真实感，NPC母亲在恐惧时会做出将婴儿摔到地上的离谱反应，这源于开发团队对乡村地区真实性的侧重。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 2,
-          "summary": "CGTN专访制作团队，梁其伟阐述“武侠朋克”风格，动作导演羊柳坚持还原传统武术真实质感，State of Play专场发布的舞狮Boss战演示引发热议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2,
-          "summary": "失眠组确认PS5版全程仅金刚狼一名可操控主角，琴·葛蕾等角色仅作为剧情NPC，旨在集中挖掘角色特质，避免如《蜘蛛侠》般出现节奏割裂的潜行关卡。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "EA FC 27",
-          "count": 1,
-          "summary": "据福布斯报道，游戏将于2026年9月25日全球发售，9月18日开启抢先体验，新增“The Grounds”开放世界社交枢纽，支持百人互动及俱乐部模式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA：印度",
-          "count": 1,
-          "summary": "国内博主“量大漫剧”利用AI生成概念短片，复刻GTA视觉风格与UI，突显印度市井元素，虽存在肢体扭曲等瑕疵，但因其荒诞搞笑效果引发网友关注。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "In the Van",
-          "count": 1,
-          "summary": "双人独立工作室Cosmic Tofu公开僵尸末世求生游戏《In the Van》，玩家可驾驶并定制房车，白天搜刮物资，夜晚在车内烹饪、耕种及破解手机。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Project P.I.T.T.",
-          "count": 1,
-          "summary": "物理自动化沙盒游戏《Project P.I.T.T.》今日登陆Steam，玩家需搭建生产线将橡皮鸭等产品投喂给无底深渊，利用磁铁、风扇等设备打出巨型连击。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Subnautica 2：异星水域",
-          "count": 1,
-          "summary": "Unknown Worlds宣布推出第二次更新，新增近距离语音聊天与救援系统以强化联机体验，并向海洋清洁组织捐赠10万美元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "七日杀",
-          "count": 1,
-          "summary": "The Fun Pimps发布3.2测试版，商店大门可由载具喇叭开启，配方道具更易辨认，修复了农作物收获逻辑及自动炮塔设置等已知问题。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴5：天际特别版",
-          "count": 1,
-          "summary": "B社突然宣布更新上线，扩充了PS4/PS5/Xbox主机版Mod存储限制，建议玩家更新前手动保存以防数据丢失。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "不朽遗志",
-          "count": 1,
-          "summary": "《幽灵行者》开发团队One More Level宣布FPS魂系新作《Valor Mortis》已进厂压盘，定于2026年10月13日登陆PC及次世代主机。",
-          "summary_source": "llm"
         }
       ]
     }

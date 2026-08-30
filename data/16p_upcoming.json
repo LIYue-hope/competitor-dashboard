@@ -1,32 +1,9 @@
 {
-  "crawled_at": "2026-08-29T04:43:20.073377+00:00",
+  "crawled_at": "2026-08-30T02:18:23.707829+00:00",
   "days": [
     {
-      "date": "2026-08-29",
-      "date_label": "08月29日 今天",
-      "games": [
-        {
-          "game_name": "乱弹三国志",
-          "categories": [
-            "三国",
-            "卡牌",
-            "中国风",
-            "竖屏",
-            "放置"
-          ],
-          "score": null,
-          "release_date": "2026-08-29",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1865411.html",
-          "publisher": "小乔工作室",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
       "date": "2026-08-31",
-      "date_label": "08月31日 后天",
+      "date_label": "08月31日 明天",
       "games": [
         {
           "game_name": "地城狩猎",
@@ -52,7 +29,7 @@
             "迷宫",
             "逃脱"
           ],
-          "score": "9.6",
+          "score": "9.5",
           "release_date": "2026-08-31",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952364.html",
@@ -101,30 +78,6 @@
       ]
     },
     {
-      "date": "2026-09-01",
-      "date_label": "09月01日 下周二",
-      "games": [
-        {
-          "game_name": "梦幻新诛仙:轻享",
-          "categories": [
-            "角色扮演",
-            "MMO",
-            "回合",
-            "经营",
-            "中国风",
-            "多平台"
-          ],
-          "score": "8.5",
-          "release_date": "2026-09-01",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1946063.html",
-          "publisher": "完美世界游戏",
-          "is_major_publisher": true,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-02",
       "date_label": "09月02日 下周三",
       "games": [
@@ -136,7 +89,7 @@
             "角色扮演",
             "放置"
           ],
-          "score": "8.2",
+          "score": "8.3",
           "release_date": "2026-09-02",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952362.html",
@@ -150,6 +103,23 @@
       "date": "2026-09-03",
       "date_label": "09月03日 下周四",
       "games": [
+        {
+          "game_name": "咻咻勇者",
+          "categories": [
+            "角色扮演",
+            "放置",
+            "冒险",
+            "探索",
+            "休闲"
+          ],
+          "score": null,
+          "release_date": "2026-09-03",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1953767.html",
+          "publisher": "紫晓游戏",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        },
         {
           "game_name": "梦幻新诛仙:轻享",
           "categories": [
@@ -175,6 +145,19 @@
       "date_label": "09月04日 下周五",
       "games": [
         {
+          "game_name": "大王请留步",
+          "categories": [
+            "策略"
+          ],
+          "score": null,
+          "release_date": "2026-09-04",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1953768.html",
+          "publisher": "海南娱创科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
           "game_name": "塔塔冒险队",
           "categories": [
             "建造",
@@ -194,6 +177,26 @@
           "publisher": "上海莉莉丝网络科技有限公司",
           "is_major_publisher": true,
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "date_label": "09月05日 下周六",
+      "games": [
+        {
+          "game_name": "魔幻砖域",
+          "categories": [
+            "独立",
+            "策略"
+          ],
+          "score": "9.2",
+          "release_date": "2026-09-05",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1909793.html",
+          "publisher": "便当游戏",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
         }
       ]
     }
