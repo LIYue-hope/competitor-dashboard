@@ -1,46 +1,207 @@
 {
-  "generated_at": "2026-08-30T02:25:07.707896+00:00",
+  "generated_at": "2026-08-31T02:21:17.534872+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-08-30",
-      "article_count": 5,
-      "game_count": 5,
-      "untagged_count": 0,
-      "digest": "8月30日游戏行业资讯聚焦于《GTA6》配音争议、DLSS 5技术测试及《共鸣：瘟疫传说传承》发售后的好评表现，同时《巫师3》开发商CDPR介入科隆游戏展盗窃案，而《詹姆斯庞德》重制版则因AI生成内容遭到主创严厉批评。",
+      "date": "2026-08-31",
+      "article_count": 35,
+      "game_count": 19,
+      "untagged_count": 3,
+      "digest": "8月31日游戏资讯聚焦于《GTA6》玩家对R星创作理念转变的担忧，以及多款新作如《巫师3重制版》《漫威金刚狼》《神鬼寓言4》的发售信息、配置需求与争议。此外，Valve泄露的《传送门2》档案、动视打击外挂、DLSS 5在多款游戏中的民间测试对比，以及卡普空传闻中的新作情报也占据了显著篇幅。",
       "digest_source": "llm",
-      "input_hash": "e1f086f264862d63",
+      "input_hash": "ee8becc385a2e476",
       "game_digests": [
         {
           "name": "GTA6",
+          "count": 10,
+          "summary": "玩家担忧R星创作理念转变，质疑丹·豪瑟离职后游戏基调是否仍具讽刺与黑色幽默。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 2,
+          "summary": "REDstreams展示重制版无障碍菜单，玩家可调节生命回复参数，游戏定于9月29日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 2,
+          "summary": "CDPR叙事总监回应主角争议，承认曾想保留杰洛特，但希里是小说核心，引发女玩家批评。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 2,
+          "summary": "PS5版容量曝光79.36GB，媒体评测将于9月10日解禁，游戏定于9月15日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "神鬼寓言4",
+          "count": 2,
+          "summary": "PlayGround公布PC配置，1080P低画质需RTX 2060或RX 6600，1440P高画质需RTX 5060。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "传送门2",
           "count": 1,
-          "summary": "《GTA6》加长版预览引发争议，男主杰森的配音被批评过于平淡、缺乏个性，与露西亚形成反差，部分粉丝认为其可能隐藏叙事意图。",
+          "summary": "Valve开发档案泄露，曝光2009年版本内容及已取消的《光圈值》素材。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤",
+          "count": 1,
+          "summary": "动视向《使命召唤》外挂卖家Elocarry送达律师函，要求停止侵权。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "DLSS 5民间测试显示画质飞跃但帧率大幅下降，RTX 5090显卡也难以流畅运行。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "呼吸边缘2",
+          "count": 1,
+          "summary": "太空生存游戏发售日发现致敬游戏压制者xatab的彩蛋。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "地铁2039",
+          "count": 1,
+          "summary": "4A Games公布新实机预告，展示枪械改装与潜行玩法，定于2027年2月发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "异于天堂",
+          "count": 1,
+          "summary": "世嘉与RGG工作室公布12分钟实机演示，展示跨时代日本背景与动作玩法，定于2027年1月发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最后的生还者2",
+          "count": 1,
+          "summary": "玩家将DLSS 5实验版注入游戏，测试显示画面有美颜滤镜效果，人物样貌发生偏移。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7：重生",
+          "count": 1,
+          "summary": "玩家测试DLSS 5后，蒂法面部细节增强但五官轮廓与原版形象差异巨大。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "洛克人",
+          "count": 1,
+          "summary": "传闻卡普空将在任天堂直面会公布《洛克人：双重超载》详情及发售日期。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化危机：安魂曲",
+          "count": 1,
+          "summary": "吉尔·瓦伦汀缺席本作DLC，但将是卡普空《生化危机》初代重制版的关键人物。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "article_count": 22,
+      "game_count": 16,
+      "untagged_count": 1,
+      "digest": "GTA6相关传闻引发行业震动，微软推广100%实体版策略迫使索尼重新考虑纯数字计划。Steam发生13TB数据泄露事件，涉及大量经典游戏。CDPR确认《巫师4》实体版将仅含数字兑换码。科隆展期间发生多起展商设备盗窃案，展会官方回应引发争议。此外，多款游戏如《共鸣：瘟疫传说传承》《合金装备4》发售或更新引发关注。",
+      "digest_source": "llm",
+      "input_hash": "5d21e72f11f9e5d2",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 6,
+          "summary": "传微软推广100%实体版策略迫使索尼重新考虑纯数字计划，索尼此前宣布2028年1月停产新游戏实体光盘。",
           "summary_source": "llm"
         },
         {
           "name": "上古卷轴5：天际",
           "count": 1,
-          "summary": "DLSS 5的早期版本意外出现在《上古卷轴5：天际》等游戏的测试中，RenoDX Mod社区已制作简易工具让玩家使用该技术。",
+          "summary": "Mod社区利用RenoDX工具将DLSS 5技术注入游戏，并在《上古卷轴5：天际》等游戏中测试AI人脸滤镜功能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "传送门2",
+          "count": 1,
+          "summary": "13TB Steam游戏库数据泄露，包含《传送门2》等2003年至2013年的游戏文件。",
           "summary_source": "llm"
         },
         {
           "name": "共鸣：瘟疫传说传承",
           "count": 1,
-          "summary": "该作已于8月27日发售，Steam国区售价199元，在189篇评价中好评率高达95%，玩家普遍称赞其画面漂亮、优化优秀。",
+          "summary": "游戏已于8月27日发售，Steam国区售价199元，获得95%好评率，玩家称赞其画面与优化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "合金装备4",
+          "count": 1,
+          "summary": "PC版玩家开局即解锁掰雕像私处成就，该游戏拥有大量无厘头互动细节。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "地铁2039",
+          "count": 1,
+          "summary": "开发商4A Games确认《地铁2039》将回归隐藏业力系统，主角为流亡者“异乡人”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "女神异闻录4：复兴版",
+          "count": 1,
+          "summary": "开发商Atlus决定更换英文配音阵容，因原班人马档期难协调且部分演员已退出行业。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3：狂猎",
           "count": 1,
-          "summary": "CDPR针对科隆游戏展发生的盗窃案发声，表示愿意为受害者提供帮助，并称“任何兄弟都不应该从零开始”。",
+          "summary": "开发商CDPR发声愿意帮助科隆展被盗设备开发者瑞恩·莱利，并表示“任何兄弟都不应该从零开始”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 1,
+          "summary": "CDPR确认游戏仍会有实体版，但受索尼2028年新政策影响，实体版内将仅含数字兑换码。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "幻兽帕鲁",
+          "count": 1,
+          "summary": "发行主管约翰·巴克利称玩家误读Steam数据，多款游戏遭无端诟病，玩家数量回落属正常现象。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "异锁",
+          "count": 1,
+          "summary": "Valve开发的MOBA+射击游戏“旧神新血”大更新延至九月下旬，官方备好通知玩家或点披萨。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫漫长夜",
+          "count": 1,
+          "summary": "开发商Hinterland抽调人员制作生存模式新DLC，以应对充满不确定性的行业环境。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "科隆国际游戏展",
+          "count": 1,
+          "summary": "展会官方回应展商设备被盗事件，称参展商需自行预订安保服务并投保盗窃险。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "秘密邻居",
+          "count": 1,
+          "summary": "游戏遭黑客入侵删除数据，开发商Hologryph与tinyBuild宣布暂时关停服务。",
           "summary_source": "llm"
         },
         {
           "name": "詹姆斯庞德",
           "count": 1,
-          "summary": "《詹姆斯庞德 遗产：池塘尚不足》主创克里斯·索雷尔斥责该作使用AI生成内容，称其不尊重原作且毫无灵魂，自己全程未参与。",
+          "summary": "主创克里斯·索雷尔斥责AI重制版不尊重原作且毫无灵魂，称自己未参与该项目。",
           "summary_source": "llm"
         }
       ]
@@ -838,107 +999,6 @@
           "count": 1,
           "summary": "第14赛季“死亡觉醒”剧情中，玩家将在混沌界要塞遭遇堕落天使瑟拉齐尔，其警告“他来了”暗示马萨伊尔可能回归。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "article_count": 86,
-      "game_count": 64,
-      "untagged_count": 9,
-      "digest": "《GTA 6》的实机画面继续泄露，FBI介入调查。《黄昏血族》发售日期被误传，任天堂否认。Cardpocalypse活动免费发放，Epic商城推出虚拟代币。《时之书：无尽终章》免费体验版发布，游戏内容开发结束。《007：初露锋芒》累计销量突破400万套。《2XKO》DLC即将上线，运营状况不佳。《33号远征队》因回合制RPG名称建议而改名为“反应式回合制战斗”。《Barkour》Q4正式推出，支持中文。DOTA2 G胖现身国际邀请赛欢迎视频，体重新史低瘦成休·杰克曼。DayZ Switch2版现已开售，限时特惠同步开启。Scavland将于9月5日抢先体验，俯视角末世生存冒险。inZOI（云族裔）确认参展TapTap玩聚节。《ʘmʘchim》正式公布，预计将于2027年正式发售。《九阴真经：武侠》科隆游戏展参展确定，首部PV《梦回》同步公开。",
-      "digest_source": "llm",
-      "input_hash": "62e7e8834773c59d",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 8,
-          "summary": "传《GTA6》泄露惊动FBI 泄密者面临50年牢狱；又要多花一笔钱？《GTA6》月度订阅传闻引玩家热议；曝美国主播花35万美元买《GTA 6》偷跑版！将直播试玩（当天共 8 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "黄昏血族",
-          "count": 4,
-          "summary": "发售日是误传？任天堂否认《黄昏血族》9月24日发售传闻；宫崎英高谈《黄昏血族》：会老带新才是好魂5！；《黄昏血族》发售日疑遭提前泄露！知名外媒意外泄密（当天共 4 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Cardpocalypse",
-          "count": 2,
-          "summary": "\"喜加一\"周报（8.21-8.27）：《Cardpocalypse》免费；Epic喜加一：免费领取卡片战斗RPG《Cardpocalypse》。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "时之书：无尽终章",
-          "count": 2,
-          "summary": "《时之书：无尽终章》免费体验版今日起于Steam开放下载！；《时之书：无尽终章》试玩发布 银恶城风格探索冒险。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "生化危机：维罗妮卡",
-          "count": 2,
-          "summary": "传闻《生化危机：维罗妮卡》制作人或将亮相科隆展；《生化危机：维罗妮卡》、《生化0重制》主要角色演员曝光 克莱尔威斯克演员回归。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "007：初露锋芒",
-          "count": 1,
-          "summary": "《007：初露锋芒》累计销量现已超过400万套。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "2XKO",
-          "count": 1,
-          "summary": "LOL衍生格斗《2XKO》内容开发年底结束 今后重心转向运营。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "33号远征队",
-          "count": 1,
-          "summary": "索尼前总裁曾建议《33号远征队》不要叫回合制RPG。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Barkour",
-          "count": 1,
-          "summary": "《Barkour》2026年Q4正式推出 狗子特工动作潜行。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "DOTA2",
-          "count": 1,
-          "summary": "G胖亮相2026TI 体重新史低瘦成休·杰克曼。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "DayZ",
-          "count": 1,
-          "summary": "《DayZ》Switch2版现已开售 限时特惠同步开启。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Scavland",
-          "count": 1,
-          "summary": "《Scavland》9月5日抢先体验 俯视角末世生存冒险。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "inZOI（云族裔）",
-          "count": 1,
-          "summary": "《inZOI（云族裔）》确认参展TapTap玩聚节。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "ʘmʘchim",
-          "count": 1,
-          "summary": "自由组装物理机关，脑洞大开解决难题 新游《ʘmʘchim》正式公布！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "九阴真经：武侠",
-          "count": 1,
-          "summary": "《九阴真经：武侠》科隆游戏展参展确定，首部PV《梦回》同步公开。",
-          "summary_source": "rules"
         }
       ]
     }

@@ -1,9 +1,26 @@
 {
-  "generated_at": "2026-08-30T02:28:46.558045+00:00",
+  "generated_at": "2026-08-31T02:26:09.329783+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-08-31",
+      "article_count": 4,
+      "game_count": 1,
+      "untagged_count": 3,
+      "digest": "2026年8月31日，GameLook共发布4条资讯，其中3条未指向具体游戏，1条聚焦于《凡应》。当天二游市场竞争激烈，新项目与团队数量众多，市场热度处于高位。在具体游戏动态方面，《凡应》正在进行二测，其表现被认为已展现出突围二游红海的底气。",
+      "digest_source": "llm",
+      "input_hash": "c405915b99ed3b17",
+      "game_digests": [
+        {
+          "name": "凡应",
+          "count": 1,
+          "summary": "《凡应》正在进行二测，其表现被认为已展现出突围二游红海的底气。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-08-28",
       "article_count": 9,
@@ -157,41 +174,6 @@
           "name": "诡秘之主",
           "count": 1,
           "summary": "快手版《诡秘之主》上线首日即登顶免费榜第一，成为近期备受关注的高投入MMO新作。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "article_count": 7,
-      "game_count": 4,
-      "untagged_count": 3,
-      "digest": "今日游戏行业资讯聚焦于多款头部产品的财报表现与动态，完美世界财报显示《异环》流水破20亿但净利下滑，金山软件财报显示《鹅鸭杀》成新王牌，网易财报显示《遗忘之海》口碑改善，游戏科学则发布《黑神话：钟馗》新PV。",
-      "digest_source": "llm",
-      "input_hash": "5e9feaa02268d726",
-      "game_digests": [
-        {
-          "name": "异环",
-          "count": 1,
-          "summary": "完美世界财报显示《异环》流水破20亿，但上半年净利亏损1亿元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "遗忘之海",
-          "count": 1,
-          "summary": "网易Q2财报显示《遗忘之海》口碑正在改善，游戏业务同比增9.7%。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鹅鸭杀",
-          "count": 1,
-          "summary": "金山软件半年报显示《鹅鸭杀》正成为金山“新王牌”，游戏业务下滑15%。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黑神话：钟馗",
-          "count": 1,
-          "summary": "游戏科学发布新PV，冯骥与杨奇表态，游戏将于8月20日准点相约。",
           "summary_source": "llm"
         }
       ]

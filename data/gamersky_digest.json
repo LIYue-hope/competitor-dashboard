@@ -1,111 +1,206 @@
 {
-  "generated_at": "2026-08-30T02:28:17.533156+00:00",
+  "generated_at": "2026-08-31T02:25:52.118435+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-08-30",
-      "article_count": 17,
-      "game_count": 8,
-      "untagged_count": 6,
-      "digest": "今日游戏资讯聚焦多款重磅新作，R星确认《GTA6》将于11月19日发售，并曝光了丰富的新截图与公寓原型；卡普空为《鬼武者：剑之道》推出含新区域与Boss战的Demo更新；国产动作游戏《古神：风里希》在科隆展获玩家好评；此外，《地铁2039》取消快速存档引发热议，《生化9》DLC将缺席吉尔，《腐烂国度3》开放Demo招募测试。",
+      "date": "2026-08-31",
+      "article_count": 15,
+      "game_count": 7,
+      "untagged_count": 5,
+      "digest": "2026年8月31日，游戏行业新闻汇总显示，多款游戏在当天发生了显著动态。首先，《GTA6》的开发者盛赞其NPC技术领先行业至少10年，同时确认游戏中没有小孩NPC具备完整肢解系统。其次，《塞尔达时之笛RE》评级有变，暗示性内容不见，被划分为“12岁以上可用”（12+）级别。此外，《巫师3：狂猎》DLC“旧时曲”将于2027年正式推出，包含新怪物、新妹子和新战斗机制新地图。同时，索尼新发布会9月3日将最后一个亮相，包括《逆转裁判7》以及《洛克人：双重超载》的新消息。最后，《星际：异端先知》即将在索尼新发布会上亮相。",
       "digest_source": "llm",
-      "input_hash": "f947ee7f758b7f7d",
+      "input_hash": "db343e3f0ce7c4c0",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 4,
-          "summary": "R星确认将于11月19日发售，并曝光了多张全新游戏内截图，展示了男女主角造型及公寓原型，同时透露游戏内拥有丰富的随机事件和沉浸感极强的NPC设计。",
+          "count": 3,
+          "summary": "\"老麦\"怒斥《GTA6》一成不变言论：比给他爱5吊太多；《GTA6》确认没有小孩NPC 具备完整肢解系统；开发者盛赞《GTA6》NPC技术 领先行业至少10年。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA4",
+          "count": 2,
+          "summary": "DLSS5让《GTA4》直接进化！不用再等重制版了；《GTA4》光追Mod大更:DLSS 5登场！老游戏焕发新生。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达时之笛RE",
+          "count": 1,
+          "summary": "《塞尔达时之笛RE》评级有变 \"暗示性内容\"不见。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3重制版",
+          "count": 1,
+          "summary": "《巫师3重制版》竟有自带外挂！你再也不用修剑了。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3：狂猎",
+          "count": 1,
+          "summary": "《巫师3：狂猎》DLC旧时曲12分钟实机演示！新怪物新妹子新战斗机制新地图。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "星际：异端先知",
+          "count": 1,
+          "summary": "曝索尼新发布会9月3日！《星际：异端先知》将最后一个亮相。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "逆转裁判7",
+          "count": 1,
+          "summary": "曝《逆转裁判7》即将官宣！卡普空重大公告将至 依旧无《鬼泣》。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "article_count": 86,
+      "game_count": 35,
+      "untagged_count": 24,
+      "digest": "今日游戏资讯聚焦于《GTA6》的深度开发细节与争议，马斯克公开表示不会游玩，XSS性能讨论再起；国产游戏方面，《古神：风里希》科隆展PV播放量突破28万，《不心动才有鬼》Steam好评率高达96%，《黑神话》与《老头环》同框亮相引发关注；此外，《艾尔登法环》DLC口碑下滑，Switch 2版实体缺货，而《鬼武者：剑之道》Demo更新内容丰富。",
+      "digest_source": "llm",
+      "input_hash": "7586a55610c801ae",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 23,
+          "summary": "关于Xbox Series S性能的讨论再次被点燃，有玩家询问最便宜的游玩途径。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "古神：风里希",
+          "count": 2,
+          "summary": "官方发布科隆游戏展现场速报，分享了本作在海外展会上的试玩情况，现场有不少海内外玩家排起长队。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化9",
+          "count": 2,
+          "summary": "《生化9》格蕾丝x阿狸KDA女团MOD引发关注，同时曝出吉尔不会出现在《生化9》DLC中。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "艾尔登法环",
+          "count": 2,
+          "summary": "《艾尔登法环》新DLC好评率从“特别好评”滑落至“褒贬不一”，Switch 2版实体版在日本市场迅速出现大面积缺货。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鬼武者：剑之道",
+          "count": 2,
+          "summary": "卡普空公布全新预告片，公开了幻魔兄弟“畏风”与“抚雷”等新内容，Demo更新追加了新的可玩区域与Boss战。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黑神话",
+          "count": 2,
+          "summary": "《黑神话》与《老头环》在腾讯主办的游戏艺术展上同框亮相，杨奇谈到了《黑神话》线下店开业一周年及周边开发的原因。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6 OL",
           "count": 1,
-          "summary": "R星可能推迟《GTA6 OL》的首发时间，预计将推迟至2027年至2028年之间。",
+          "summary": "R星可能推迟《GTA6 OL》首发时间，预计推迟到2027~2028年。",
           "summary_source": "llm"
         },
         {
-          "name": "古神：风里希",
+          "name": "SPINE",
           "count": 1,
-          "summary": "国产动作游戏《古神：风里希》在科隆游戏展现场吸引了大量玩家排队试玩，官方晒出现场照片并感谢玩家支持。",
+          "summary": "科隆展上走红的《SPINE》开发商被曝是生化危机粉丝，曾发布致敬《生化危机：代号维罗妮卡 重制版》的对比图。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不心动才有鬼",
+          "count": 1,
+          "summary": "国产影游《不心动才有鬼》角色PV公开，Steam好评率高达96%。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "动物朋克",
+          "count": 1,
+          "summary": "冯骥亲自打Call，国产《动物朋克》发布新截图，展示了酷炫的雷霆大招。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "卧龙：苍天陨落",
+          "count": 1,
+          "summary": "光荣特库摩公开了《卧龙：苍天陨落 完全版》Nintendo Switch 2版的最新多人游戏实机演示，展示了联机合作玩法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "合金装备大师合集Vol.2",
+          "count": 1,
+          "summary": "玩家们似乎很快就找到了一个“必须优先完成”的目标，91.8%的玩家已解锁掰断雕像成就。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "嘉豪",
+          "count": 1,
+          "summary": "Steam上线了一款画风抽象的桌宠游戏《嘉豪》，官方介绍充满“豪气”，将于9月1日上线。",
           "summary_source": "llm"
         },
         {
           "name": "地铁2039",
           "count": 1,
-          "summary": "《地铁2039》玩法被曝过于硬核，官方取消了快速存档功能并曝光了新的游戏机制。",
+          "summary": "《地铁2039》玩法太硬核，取消了快速存档机制。",
           "summary_source": "llm"
         },
         {
-          "name": "巫师4",
+          "name": "塞尔达",
           "count": 1,
-          "summary": "《巫师4》编剧承认自己也很想玩杰洛特，但希里必须证明自己才能接任主角。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化9",
-          "count": 1,
-          "summary": "据爆料，吉尔将不会出现在《生化9》的DLC中，她的回归计划被安排在《生化危机1》和《生化危机0》中。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "腐烂国度3",
-          "count": 1,
-          "summary": "《腐烂国度3》在科隆展开放试玩，官方正在招募玩家测试Demo，让玩家终于能体验游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 1,
-          "summary": "卡普空为《鬼武者：剑之道》推出了全新Demo更新，追加了新的可玩区域与Boss战，并称玩完Demo不要删除。",
+          "summary": "《塞尔达》成真了？有父母晒出新生儿金发尖耳，取名林克。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-08-29",
-      "article_count": 102,
+      "article_count": 103,
       "game_count": 45,
       "untagged_count": 28,
-      "digest": "今日游戏资讯聚焦于《GTA6》的实机细节与玩家热议，相关报道达26条，涵盖女主角露西亚的物理反馈、皮肤特征及索尼可能放弃实体光盘的传闻。此外，多款游戏因DLSS 5技术模组引发讨论，包括《剑星》、《三男一狗5》、《GTA：SA》及《刺客信条：影》。《共鸣：瘟疫传说传承》正式发售获IGN 6分好评，卡普空公布《龙之信条2：黑暗觉者》超25小时内容，Nekki澄清《SPINE》预告破亿是致敬《疾速追杀》。",
+      "digest": "8月29日游戏资讯聚焦于《GTA6》的持续热度，27条报道围绕实机画面、角色细节及索尼实体光盘传闻展开；同时，多款游戏因DLSS 5技术更新引发讨论，包括《剑星》、《刺客信条：影》、《GTA：圣安地列斯》及《三男一狗5》等，此外《共鸣：瘟疫传说传承》发售获好评，卡普空公布《龙之信条2》DLC细节。",
       "digest_source": "llm",
-      "input_hash": "fd21ae209c688e45",
+      "input_hash": "85f6c8325c640c19",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 26,
-          "summary": "一段实机片段曝光，女主角露西亚撞墙后墙面留血迹、面部显伤痕，物理反馈细节获关注。",
+          "count": 27,
+          "summary": "27条报道聚焦实机画面，玩家逐帧拆解女主角露西亚细节，索尼放弃实体光盘传闻称因印制成本过高，官方未证实。",
           "summary_source": "llm"
         },
         {
           "name": "共鸣：瘟疫传说传承",
           "count": 2,
-          "summary": "游戏已于8月28日正式发售，目前Steam平台收获“特别好评”评价，IGN给出6分。",
+          "summary": "游戏已于8月28日发售，IGN给出6分好评，Steam收获“特别好评”，玩家称赞其画面表现与电影化演出。",
           "summary_source": "llm"
         },
         {
           "name": "剑星",
           "count": 2,
-          "summary": "有玩家分享了运行泄露版DLSS 5文件后的实机对比图，引发讨论，关闭DLSS 5时角色皮肤瑕疵全显现。",
+          "summary": "玩家分享开启泄露版DLSS 5文件后的实机对比，关闭该功能后角色皮肤毛孔瑕疵显现，引发社区关于画质与真实感的讨论。",
           "summary_source": "llm"
         },
         {
           "name": "神鬼寓言4",
           "count": 2,
-          "summary": "开发团队在索尼PlayStation Blog发布长文，曝光了本作的诸多全新细节，延期反而让玩家松了口气。",
+          "summary": "开发团队在PlayStation Blog发布长文，曝光新作诸多细节，玩家表示延期反而松了口气，认为原因与游戏质量有关。",
           "summary_source": "llm"
         },
         {
           "name": "龙之信条2：黑暗觉者",
           "count": 2,
-          "summary": "卡普空旗下大型付费DLC已曝光海量核心细节，将为玩家带来超25小时的全新游玩内容。",
+          "summary": "卡普空公布大型付费DLC细节，内容突破25小时，IGN试玩展示了新增雪原区域诺根及遗物鉴定系统。",
           "summary_source": "llm"
         },
         {
           "name": "AC影",
           "count": 1,
-          "summary": "有玩家通过泄露的英伟达相关文件，在游戏中抢先试跑尚未正式上线的DLSS 5功能，效果显著。",
+          "summary": "玩家通过泄露文件抢先试跑DLSS 5功能，实机演示显示女主画面更加逼真，细节表现大幅提升。",
           "summary_source": "llm"
         },
         {
@@ -117,49 +212,49 @@
         {
           "name": "GTA Online",
           "count": 1,
-          "summary": "在《GTA6》官方最新公布的26分钟实机演示中，Rockstar带来了此前未曾公开的剧情与角色细节，瓦伦蒂娜正式回归。",
+          "summary": "角色瓦伦蒂娜在《GTA6》实机演示中回归，玩家直呼“忘不了她”，引发对经典角色情怀的讨论。",
           "summary_source": "llm"
         },
         {
           "name": "GTA：SA",
           "count": 1,
-          "summary": "有模组作者将《NBA 2K27》抢先体验版中泄露的DLSS相关文件注入《GTA：圣安地列斯》，并成功启用DLSS 5功能。",
+          "summary": "模组作者将NBA 2K27的DLSS 5文件注入游戏，成功在《GTA：圣安地列斯》中启用该功能，画面提升显著。",
           "summary_source": "llm"
         },
         {
           "name": "SPINE",
           "count": 1,
-          "summary": "预告中赤线跪地被枪指的画面播放破亿，Nekki澄清该镜头是致敬《疾速追杀》海报。",
+          "summary": "预告中赤线跪地被枪指的画面播放破亿，开发商Nekki澄清该镜头是对《疾速追杀》海报的致敬。",
           "summary_source": "llm"
         },
         {
           "name": "TARAE: The Unbound",
           "count": 1,
-          "summary": "韩国开发商Boundary开发的新作在科隆游戏展期间公布了首个玩法实机预告，展示了游戏的战斗系统。",
+          "summary": "韩国团队Boundary在科隆游戏展公布首个玩法实机预告，展示东方黑暗奇幻背景下的战斗系统与职业设定。",
           "summary_source": "llm"
         },
         {
           "name": "三男一狗5",
           "count": 1,
-          "summary": "有模组作者将《NBA 2K27》抢先体验版中泄露的DLSS相关文件注入游戏，并成功尝试启用DLSS 5功能。",
+          "summary": "模组作者将NBA 2K27的DLSS 5文件注入游戏，成功在《三男一狗5》中启用该功能，技术表现获得关注。",
           "summary_source": "llm"
         },
         {
           "name": "上古卷轴6",
           "count": 1,
-          "summary": "XBOX女老大回应了关于该作是否独占的问题，自2018年E3公布以来已过去8年。",
+          "summary": "XBOX女老大回应游戏是否独占，自2018年公布以来已过去8年，Bethesda尚未公布更多有用信息。",
           "summary_source": "llm"
         },
         {
           "name": "刺客信条4：黑旗 记忆重置",
           "count": 1,
-          "summary": "游戏即将更新，后台数据曝光，该作是育碧对2013年经典之作的一次现代重制。",
+          "summary": "游戏后台数据曝光，支持中配，即将迎来更新。",
           "summary_source": "llm"
         },
         {
           "name": "刺客信条：影",
           "count": 1,
-          "summary": "游戏还在更新，更新包竟达14GB，玩家对此表示不敢相信。",
+          "summary": "游戏以日本江户时期为背景，玩家将扮演奈绪江及弥助，近期更新补丁大小达14GB。",
           "summary_source": "llm"
         }
       ]
@@ -867,107 +962,6 @@
           "name": "反恐精英2",
           "count": 1,
           "summary": "线上赛事直播事故片段走红，引发大量玩家讨论。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "article_count": 168,
-      "game_count": 55,
-      "untagged_count": 54,
-      "digest": "今日游戏资讯聚焦于《GTA6》黑客持续泄露获利、宫崎英高新作《The Duskbloods》公测遇登陆问题，以及《黑神话：钟馗》实机演示引发全球热议与关注。此外，《影之刃零》Steam首日销量预估达30万份，索尼第一方大作《漫威金刚狼》宣布开发完成进厂压盘，多款游戏则因发售前泄露引发讨论。",
-      "digest_source": "llm",
-      "input_hash": "dfe32e365cb0b0cd",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 17,
-          "summary": "代号CyberLeek的黑客组织今日发布了第六段实机泄露片段，玩家对游戏质量感到震惊，黑客疑似通过加密货币项目获利超过5万美元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黑神话：钟馗",
-          "count": 14,
-          "summary": "游戏科学公开了15分钟实机演示，CyberConnect2社长松山洋发文高度赞赏，前瞻图引热议，玩家社群对游戏类型展开讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "The Duskbloods",
-          "count": 7,
-          "summary": "由宫崎英高监制的Switch 2独占动作游戏今日开启公开网络测试，大量玩家无法登陆，官方已做出回应。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 5,
-          "summary": "据市场分析机构数据预估，该作Steam平台首日销量达到约30万份，不到12小时便登顶PS中国播放量榜首。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化危机9",
-          "count": 4,
-          "summary": "该作开启促销，支持超史低6.8折特卖及大额金币抵扣。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黑钟馗",
-          "count": 4,
-          "summary": "实机演示中约14分50秒处出现造型诡异的高大人形怪物，引发玩家关于“眼窝生手”Boss及主角光头神似科比的讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "007初露锋芒",
-          "count": 3,
-          "summary": "该作开启8折特卖，IGN9分含金量，全球销量已破400万份。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 3,
-          "summary": "Shift Up迎来前PlayStation公关负责人Jerome Benzadon加盟，担任全球公关总监，引发关于DEI履历的讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战神",
-          "count": 3,
-          "summary": "真人剧核心演员奎托斯确认由巴蒂斯塔出演，近期照片显示其肌肉大幅度缩水，引发能否撑起内核的担忧。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 3,
-          "summary": "Insomniac Games宣布游戏已正式“进厂压盘”，发售日期将不再变动，豪华版包含独占内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "共鸣：瘟疫传说传承",
-          "count": 2,
-          "summary": "距离正式发售尚有一周时间，PC版已遭遇严重泄露，主角与玩法大幅改动引发社区热议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "只狗：路边一条",
-          "count": 2,
-          "summary": "PV首曝，由9人团队开发，玩家将扮演一只野狗含剑寻找主人。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "合金装备大师合集Vol.2",
-          "count": 2,
-          "summary": "将于8月27日正式发售，外媒给出满分评价，M站评分86分。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "瘟疫传说",
-          "count": 2,
-          "summary": "新作PC版已泄露，完整可玩，将于8月28日正式发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "致命躯壳2",
-          "count": 2,
-          "summary": "发售一天后口碑反转，Steam国区评价为褒贬不一。",
           "summary_source": "llm"
         }
       ]

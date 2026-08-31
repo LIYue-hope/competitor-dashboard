@@ -1,9 +1,9 @@
 {
-  "crawled_at": "2026-08-30T02:18:23.707829+00:00",
+  "crawled_at": "2026-08-31T02:15:03.784425+00:00",
   "days": [
     {
       "date": "2026-08-31",
-      "date_label": "08月31日 明天",
+      "date_label": "08月31日 今天",
       "games": [
         {
           "game_name": "地城狩猎",
@@ -29,7 +29,7 @@
             "迷宫",
             "逃脱"
           ],
-          "score": "9.5",
+          "score": "9.6",
           "release_date": "2026-08-31",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952364.html",
@@ -78,8 +78,31 @@
       ]
     },
     {
+      "date": "2026-09-01",
+      "date_label": "09月01日 明天",
+      "games": [
+        {
+          "game_name": "我在园区搜打撤",
+          "categories": [
+            "冒险",
+            "收集",
+            "生存",
+            "动作",
+            "养成"
+          ],
+          "score": "8.2",
+          "release_date": "2026-09-01",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952304.html",
+          "publisher": "时迹网络",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
       "date": "2026-09-02",
-      "date_label": "09月02日 下周三",
+      "date_label": "09月02日 后天",
       "games": [
         {
           "game_name": "仙逆:本尊",
@@ -101,7 +124,7 @@
     },
     {
       "date": "2026-09-03",
-      "date_label": "09月03日 下周四",
+      "date_label": "09月03日 周四",
       "games": [
         {
           "game_name": "咻咻勇者",
@@ -142,7 +165,7 @@
     },
     {
       "date": "2026-09-04",
-      "date_label": "09月04日 下周五",
+      "date_label": "09月04日 周五",
       "games": [
         {
           "game_name": "大王请留步",
@@ -182,7 +205,7 @@
     },
     {
       "date": "2026-09-05",
-      "date_label": "09月05日 下周六",
+      "date_label": "09月05日 周六",
       "games": [
         {
           "game_name": "魔幻砖域",
