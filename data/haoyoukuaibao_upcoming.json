@@ -1,63 +1,27 @@
 {
-  "crawled_at": "2026-08-31T02:14:17.284140+00:00",
+  "crawled_at": "2026-09-01T02:30:55.709963+00:00",
   "days": [
     {
-      "date": "2026-08-31",
-      "date_label": "08月31日 今天",
-      "games": [
-        {
-          "game_name": "守望先锋：冲锋-守望先锋IP手游",
-          "categories": [
-            "动作",
-            "角色扮演",
-            "竞技"
-          ],
-          "score": "4.2",
-          "event_desc": "海外软发布上线，具体几点待定",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/195028.htm",
-          "publisher": "Blizzard Entertainment, Inc.",
-          "reservation_count": "26572",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "诗韵生花",
-          "categories": [
-            "休闲",
-            "益智",
-            "中国风"
-          ],
-          "score": null,
-          "event_desc": "00:00 上线试玩",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/201774.htm",
-          "publisher": null,
-          "reservation_count": "124",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "地城狩猎",
-          "categories": [
-            "角色扮演",
-            "策略",
-            "Roguelike"
-          ],
-          "score": null,
-          "event_desc": "正式上线，具体几点待定",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/201714.htm",
-          "publisher": "9377手游",
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-01",
-      "date_label": "09月01日 明天",
+      "date_label": "09月01日 今天",
       "games": [
         {
-          "game_name": "梦幻新诛仙：轻享",
+          "game_name": "光明王传说·番外篇",
+          "categories": [
+            "剧情",
+            "解谜",
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "16:00 上线试玩",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/202937.htm",
+          "publisher": "梦辰游戏",
+          "reservation_count": "104",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "梦幻新诛仙：轻享-预下载",
           "categories": [
             "角色扮演",
             "MMO",
@@ -68,28 +32,28 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/195139.htm",
           "publisher": null,
-          "reservation_count": "13291",
+          "reservation_count": null,
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-02",
-      "date_label": "09月02日 后天",
+      "date_label": "09月02日 明天",
       "games": [
         {
-          "game_name": "王者万象棋-抢先下载资源",
+          "game_name": "王者万象棋-9.2预注册",
           "categories": [
             "多平台",
             "策略",
             "竞技"
           ],
           "score": "7.7",
-          "event_desc": "开启预注册，9月10日上线",
+          "event_desc": "10:00 开启预注册，9月10日上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/148499.htm",
           "publisher": null,
-          "reservation_count": "86.1万",
+          "reservation_count": "87.1万",
           "has_afk_grinding_tag": false
         },
         {
@@ -104,23 +68,23 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201058.htm",
           "publisher": "广州萤火互动网络有限公司",
-          "reservation_count": "256",
+          "reservation_count": "346",
           "has_afk_grinding_tag": true
         },
         {
           "game_name": "开个龙虾馆",
           "categories": [
-            "经营",
-            "模拟",
-            "竖屏"
+            "放置",
+            "建造",
+            "经营"
           ],
           "score": null,
           "event_desc": "上线试玩，具体几点待定",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201961.htm",
-          "publisher": "厦门纪石科技有限公司",
+          "publisher": null,
           "reservation_count": "60",
-          "has_afk_grinding_tag": false
+          "has_afk_grinding_tag": true
         },
         {
           "game_name": "无血",
@@ -134,17 +98,17 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201890.htm",
           "publisher": "Point N&#39; Sheep",
-          "reservation_count": "72",
+          "reservation_count": "74",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-03",
-      "date_label": "09月03日 周四",
+      "date_label": "09月03日 后天",
       "games": [
         {
-          "game_name": "梦幻新诛仙：轻享",
+          "game_name": "梦幻新诛仙：轻享-预下载",
           "categories": [
             "角色扮演",
             "MMO",
@@ -155,7 +119,43 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/195139.htm",
           "publisher": null,
-          "reservation_count": "13291",
+          "reservation_count": null,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "咻咻勇者",
+          "categories": [
+            "角色扮演",
+            "放置",
+            "冒险"
+          ],
+          "score": null,
+          "event_desc": "11:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/192492.htm",
+          "publisher": null,
+          "reservation_count": "542",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "date_label": "09月04日 周五",
+      "games": [
+        {
+          "game_name": "塔塔冒险队",
+          "categories": [
+            "建造",
+            "养成",
+            "收集"
+          ],
+          "score": null,
+          "event_desc": "09:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/196013.htm",
+          "publisher": "上海莉莉丝网络科技有限公司",
+          "reservation_count": "604",
           "has_afk_grinding_tag": false
         }
       ]
@@ -176,7 +176,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202853.htm",
           "publisher": "拳众娱乐",
-          "reservation_count": "20",
+          "reservation_count": "32",
           "has_afk_grinding_tag": false
         }
       ]

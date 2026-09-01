@@ -1,23 +1,64 @@
 {
-  "generated_at": "2026-08-31T02:26:09.329783+00:00",
+  "generated_at": "2026-09-01T02:51:13.838878+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
+      "date": "2026-09-01",
+      "article_count": 3,
+      "game_count": 2,
+      "untagged_count": 1,
+      "digest": "9月1日 GameLook 共 3 条新闻，涉及 2 款游戏。报道最集中的是《凡人修仙传》（1 条）、《无限大》（1 条）。另有 1 条未指向具体游戏的行业或平台资讯。《凡人修仙传》方面的报道有「209款国产6款进口游戏获版号：《凡人修仙传》《龙之谷》过审，三七散爆盛趣畅游在列」。",
+      "digest_source": "rules",
+      "input_hash": "b2ce4ba764dda462",
+      "game_digests": [
+        {
+          "name": "凡人修仙传",
+          "count": 1,
+          "summary": "209款国产6款进口游戏获版号：《凡人修仙传》《龙之谷》过审，三七散爆盛趣畅游在列。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "无限大",
+          "count": 1,
+          "summary": "真玩了！科隆展亲自试玩网易《无限大》，全球玩家热议。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
       "date": "2026-08-31",
-      "article_count": 4,
-      "game_count": 1,
-      "untagged_count": 3,
-      "digest": "2026年8月31日，GameLook共发布4条资讯，其中3条未指向具体游戏，1条聚焦于《凡应》。当天二游市场竞争激烈，新项目与团队数量众多，市场热度处于高位。在具体游戏动态方面，《凡应》正在进行二测，其表现被认为已展现出突围二游红海的底气。",
+      "article_count": 13,
+      "game_count": 4,
+      "untagged_count": 9,
+      "digest": "2026年8月31日，游戏行业新闻汇总显示，当日共有13条关于4款游戏的新闻报道。其中，《凡应》的二测继续进化，展现出了突围二游红海的底气；《剑网3》作为一款运营十七年的游戏，正在思考MMO的新方向；《湮灭之潮》在科隆展上斩获“最史诗游戏”大奖；而《疯狂水世界》则选择了一条没人走过的路，展现了小游戏市场的活力。这些报道涵盖了游戏发售、更新、销量、争议等多个方面，为读者提供了丰富的信息。",
       "digest_source": "llm",
-      "input_hash": "c405915b99ed3b17",
+      "input_hash": "e62ee7b6150587f8",
       "game_digests": [
         {
           "name": "凡应",
           "count": 1,
-          "summary": "《凡应》正在进行二测，其表现被认为已展现出突围二游红海的底气。",
-          "summary_source": "llm"
+          "summary": "二测继续进化，《凡应》已经展现出了突围二游红海的底气。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "剑网3",
+          "count": 1,
+          "summary": "十七岁的《剑网3》，正在思考MMO的新方向。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "湮灭之潮",
+          "count": 1,
+          "summary": "“成都游戏圈又牛了一把”！《湮灭之潮》喜获科隆展“最史诗游戏”大奖。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "疯狂水世界",
+          "count": 1,
+          "summary": "半年分水岭之后，小游戏该怎么走？《疯狂水世界》选择了一条没人走过的路。",
+          "summary_source": "rules"
         }
       ]
     },
