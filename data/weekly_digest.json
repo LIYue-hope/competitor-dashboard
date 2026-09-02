@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-01T02:55:27.849223+00:00",
+  "generated_at": "2026-09-02T02:15:42.600994+00:00",
   "week_start": "2026-08-24",
   "week_end": "2026-08-30",
-  "article_count": 2307,
-  "game_count": 291,
-  "digest": "上周游戏行业资讯总量达2307条，涉及291款游戏，其中《GTA6》以341条资讯领跑热度榜，相关话题涵盖R星确认手工打造房间、驾驶机制借鉴《GTA4》以及高管确认如期发售等；网易《无限大》紧随其后，公布PC最低推荐储存空间相差60GB、登陆PS5及定档2027年1月15日公测等动态；腾讯《王者万象棋》凭借7000万预约量及9月10日全平台上线的消息位居第二；此外，《诡秘之主》因公测顶配坐骑花费50万元及周末预估流水超6000万引发热议；《伊莫》亮相科隆展公布PC端9月16日、移动端9月23日上线计划；《异环》曝出上线四月吸金20亿及泳装角色物理交互细节；《白银之城》登陆PS5并展示光线追踪与DLSS 4.5技术；《昭和米国物语》试玩报告与科隆展排队热度居高不下；《巫师3》重制版相关配置提升与新模式讨论频繁；《共鸣：瘟疫传说传承》则因Steam特别好评及IGN评分引发关注。",
+  "article_count": 2308,
+  "game_count": 293,
+  "digest": "上周游戏行业资讯总量达2308条，涉及293款游戏，其中《GTA6》以341条资讯领跑热度榜，R星确认游戏将如期发售并实机演示，同时透露每个房间均为手工打造，驾驶系统借鉴了《GTA4》的易上手性，高管还回应了玩家对质量的顾虑。网易《无限大》紧随其后，公布了PC版最低60GB的存储空间要求，并官宣定档2027年1月15日全球同步上线，同时宣布登陆PS5平台并支持PS5 Pro强化。国产手游《诡秘之主》热度攀升，8月24日更新开放千人战场，周末三天预估流水超6000万，但公测因顶配坐骑售价50万元引发争议。科隆游戏展期间，《伊莫》宣布PC端9月16日上线，移动端9月23日上线，大世界捉宠RPG《昭和米国物语》试玩报告与性感女主战斗预告引发关注。国产二游《白银之城》登陆PS5并支持PS5 Pro强化，光线追踪与DLSS 4.5预告引发热议。完美世界《异环》曝光上线四月吸金20亿，完美世界反亏1.18亿，泳装角色雨水物理交互细节备受好评。米哈游新作《源初之结》亮相科隆，宣布放弃抽卡机制只卖皮肤，主打奇幻写实动作与神话题材。此外，《巫师3》重制版配置提升至RTX 2060S，并推出专为时间少玩家设计的模式，DLC重点是男性友情；《共鸣：瘟疫传说传承》Steam特别好评，IGN评分6分引发讨论。",
   "digest_source": "llm",
   "heat_formula": "热度 = 资讯量 30% + 跨源覆盖 15% + 预约量 18% + 社区（周内新增关注/评价/讨论）15% + TapTap 榜单名次 12% + 官方动态 7% + 评测讨论 3%；各项先对数归一（资讯满格 200 条），缺测的维度计 0、不倒扣，满分 100。",
-  "input_hash": "550fdec48b9a0f70",
+  "input_hash": "83d059ea4fb6b531",
   "hot_ranking": [
     {
       "rank": 1,
@@ -39,34 +39,6 @@
     },
     {
       "rank": 2,
-      "name": "王者万象棋",
-      "heat_score": 42.9,
-      "media_count": 2,
-      "source_count": 2,
-      "reservation_label": "103万",
-      "follow_delta_label": null,
-      "best_rank": 1,
-      "rank_lists": [
-        "reserve"
-      ],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "农友就打农家牌！7000万预约，《王者万象棋》9月10日全平台上线！",
-          "url": "https://www.gameres.com/901202711.html",
-          "source": "游资网",
-          "published_at": "2026-08-27"
-        },
-        {
-          "title": "农友就打农家牌！7000万预约，《王者万象棋》9月10日全平台上线！",
-          "url": "http://www.gamelook.com.cn/2026/08/600969/",
-          "source": "GameLook",
-          "published_at": "2026-08-27"
-        }
-      ]
-    },
-    {
-      "rank": 3,
       "name": "GTA6",
       "heat_score": 41.2,
       "media_count": 341,
@@ -92,17 +64,16 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 3,
       "name": "诡秘之主",
-      "heat_score": 38.0,
+      "heat_score": 37.5,
       "media_count": 6,
       "source_count": 4,
       "reservation_label": null,
       "follow_delta_label": null,
-      "best_rank": 1,
+      "best_rank": 3,
       "rank_lists": [
-        "hot",
-        "new"
+        "hot"
       ],
       "official_count": 0,
       "news": [
@@ -121,7 +92,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 4,
       "name": "伊莫",
       "heat_score": 35.9,
       "media_count": 5,
@@ -149,51 +120,7 @@
       ]
     },
     {
-      "rank": 6,
-      "name": "异环",
-      "heat_score": 35.1,
-      "media_count": 4,
-      "source_count": 4,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": 12,
-      "rank_lists": [
-        "hot"
-      ],
-      "official_count": 1,
-      "news": [
-        {
-          "title": "曝《异环》上线四月吸金20亿！完美世界反亏1.18亿",
-          "url": "https://www.3dmgame.com/news/202608/3951331.html",
-          "source": "3DMGame",
-          "published_at": "2026-08-25"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "name": "白银之城",
-      "heat_score": 34.9,
-      "media_count": 6,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": 5,
-      "rank_lists": [
-        "reserve"
-      ],
-      "official_count": 1,
-      "news": [
-        {
-          "title": "国产《白银之城》登陆PS5!商店上线 支持PS5Pro强化",
-          "url": "https://www.gamersky.com/news/202608/2196474.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-26"
-        }
-      ]
-    },
-    {
-      "rank": 8,
+      "rank": 5,
       "name": "昭和米国物语",
       "heat_score": 33.5,
       "media_count": 23,
@@ -219,7 +146,51 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 6,
+      "name": "白银之城",
+      "heat_score": 33.3,
+      "media_count": 6,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": 5,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "国产《白银之城》登陆PS5!商店上线 支持PS5Pro强化",
+          "url": "https://www.gamersky.com/news/202608/2196474.shtml",
+          "source": "游民星空",
+          "published_at": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "异环",
+      "heat_score": 33.1,
+      "media_count": 4,
+      "source_count": 4,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": 20,
+      "rank_lists": [
+        "hot"
+      ],
+      "official_count": 1,
+      "news": [
+        {
+          "title": "曝《异环》上线四月吸金20亿！完美世界反亏1.18亿",
+          "url": "https://www.3dmgame.com/news/202608/3951331.html",
+          "source": "3DMGame",
+          "published_at": "2026-08-25"
+        }
+      ]
+    },
+    {
+      "rank": 8,
       "name": "巫师3",
       "heat_score": 33.0,
       "media_count": 46,
@@ -245,7 +216,7 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 9,
       "name": "共鸣：瘟疫传说传承",
       "heat_score": 31.2,
       "media_count": 15,
@@ -266,6 +237,26 @@
           "title": "《共鸣：瘟疫传说传承》发售预告片于开幕夜直播秀盛大首映",
           "url": "https://www.3dmgame.com/news/202608/3951491.html",
           "source": "3DMGame",
+          "published_at": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "源初之结",
+      "heat_score": 31.0,
+      "media_count": 16,
+      "source_count": 4,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "米哈游新作《源初之结》开启预约！超多官方大图公开",
+          "url": "https://www.gamersky.com/news/202608/2196191.shtml",
+          "source": "游民星空",
           "published_at": "2026-08-26"
         }
       ]

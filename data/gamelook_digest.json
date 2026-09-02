@@ -1,29 +1,45 @@
 {
-  "generated_at": "2026-09-01T02:51:13.838878+00:00",
+  "generated_at": "2026-09-02T02:11:53.332136+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-01",
-      "article_count": 3,
-      "game_count": 2,
-      "untagged_count": 1,
-      "digest": "9月1日 GameLook 共 3 条新闻，涉及 2 款游戏。报道最集中的是《凡人修仙传》（1 条）、《无限大》（1 条）。另有 1 条未指向具体游戏的行业或平台资讯。《凡人修仙传》方面的报道有「209款国产6款进口游戏获版号：《凡人修仙传》《龙之谷》过审，三七散爆盛趣畅游在列」。",
+      "date": "2026-09-02",
+      "article_count": 2,
+      "game_count": 0,
+      "untagged_count": 2,
+      "digest": "9月2日 GameLook 共 2 条新闻，涉及 0 款游戏。另有 2 条未指向具体游戏的行业或平台资讯。当天的内容包括「苹果护城河塌了！App Store收入十年首次下滑，中国游戏成“全球手游顶梁柱”」。",
       "digest_source": "rules",
-      "input_hash": "b2ce4ba764dda462",
+      "input_hash": "830ba282f35fc0ef",
+      "game_digests": []
+    },
+    {
+      "date": "2026-09-01",
+      "article_count": 6,
+      "game_count": 3,
+      "untagged_count": 3,
+      "digest": "2026年9月1日，游戏行业新闻汇总显示，尽管当天只有3条新闻，但涉及的游戏包括《凡人修仙传》、《异环》和《无限大》，其中《凡人修仙传》和《异环》分别获得版号，而《无限大》则在科隆展上受到全球玩家的热议。",
+      "digest_source": "llm",
+      "input_hash": "036e0a89cde67258",
       "game_digests": [
         {
           "name": "凡人修仙传",
           "count": 1,
-          "summary": "209款国产6款进口游戏获版号：《凡人修仙传》《龙之谷》过审，三七散爆盛趣畅游在列。",
-          "summary_source": "rules"
+          "summary": "209款国产6款进口游戏获版号：《凡人修仙传》《龙之谷》过审，三七散爆盛趣畅游在列 —— 【GameLook专稿，禁止转载！】",
+          "summary_source": "llm"
+        },
+        {
+          "name": "异环",
+          "count": 1,
+          "summary": "幻塔工作室负责人张御：《异环》要打造难以复制的内容、不靠焦虑逼氪 —— 【GameLook专稿，禁止转载！】",
+          "summary_source": "llm"
         },
         {
           "name": "无限大",
           "count": 1,
-          "summary": "真玩了！科隆展亲自试玩网易《无限大》，全球玩家热议。",
-          "summary_source": "rules"
+          "summary": "真玩了！科隆展亲自试玩网易《无限大》，全球玩家热议 —— 【GameLook专稿，禁止转载！】",
+          "summary_source": "llm"
         }
       ]
     },

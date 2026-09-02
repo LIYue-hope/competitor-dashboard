@@ -1,159 +1,260 @@
 {
-  "generated_at": "2026-09-01T02:38:25.680462+00:00",
+  "generated_at": "2026-09-02T02:01:47.807819+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-01",
-      "article_count": 44,
-      "game_count": 28,
-      "untagged_count": 7,
-      "digest": "Take-Two继续追查《GTA6》泄密事件，向法院申请封存调查文件以防止惊动嫌疑人，并针对Discord、X和YouTube提交传票请求。Rebel Wolves工作室的《黎明行者之血》媒体评分解禁，CDPR总监发文祝贺。卡普空公布《鬼武者：剑之道》预载信息及M站PC均分85分。",
+      "date": "2026-09-02",
+      "article_count": 33,
+      "game_count": 24,
+      "untagged_count": 5,
+      "digest": "9月2日游戏行业资讯聚焦多款新作动态，R星《GTA6》曝出道德量表系统，CDPR旗下《巫师3》重制版确认存档兼容并公布DLC，Shift Up为《剑星：血雨》滥用AI致歉，Moon Studios宣布《恶意不息》延期至2027年3月登陆PS5，多款独立游戏如《Cozy Country》《哞琪牛奶屋》及国产《伊始之猫》也相继推出或引发关注。",
       "digest_source": "llm",
-      "input_hash": "538b212e908c2ec7",
+      "input_hash": "22dd149fd278c6f3",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 7,
-          "summary": "Take-Two向法院申请封存调查文件，针对Discord、X和YouTube提交传票请求，试图确认“Cyberleek”身份及特定用户资料。",
+          "count": 3,
+          "summary": "R星曝出犯罪档案量表系统，玩家无视评估可能导致量表碎裂不再记录行为。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 2,
+          "summary": "科隆展最受欢迎游戏榜曝光！《巫师3》DLC＆国产大作；CDPR从未考虑收取《巫师3》重制版费用：给老玩家的礼物。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师4",
+          "count": 2,
+          "summary": "CDPR确认新作将使用虚幻5引擎，CEO回应称此举是为了提高开发效率以支撑更快推出更多游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Cozy Country",
+          "count": 1,
+          "summary": "Protopop工作室发行温馨治愈模拟新作《Cozy Country》，登陆Steam支持自由建造村庄。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Size Warfare",
+          "count": 1,
+          "summary": "TinysoftGames宣布1.5版更新上线，优化指挥官模式并加入分步式新手教程。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "WARDOGS",
+          "count": 1,
+          "summary": "BULKHEAD工作室宣布《WARDOGS》最终测试将于9月4日开启，支持百人混战战术FPS。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "伊始之猫",
+          "count": 1,
+          "summary": "国产动作游戏《伊始之猫》在科隆展亮相后国外爆火，玩家热议巨型猫咪互动玩法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星：血雨",
+          "count": 1,
+          "summary": "Shift Up承认AI生成音乐视频引发负面反馈，技术总监致歉并计划区分官方内容与实验材料。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "后世更序",
+          "count": 1,
+          "summary": "P社公布后末日生存大战略游戏《后世更序》，外媒试玩称其比想象中更偏向生存RPG。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "哞琪牛奶屋",
+          "count": 1,
+          "summary": "Blibloop工作室开发治愈系新游《哞琪牛奶屋》将于11月17日登陆Steam，开启送奶之旅。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "守望先锋 Rush",
+          "count": 1,
+          "summary": "暴雪移动端新作《守望先锋 Rush》开启抢先体验，支持iOS和安卓平台及单人多人竞技。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师1：重制版",
+          "count": 1,
+          "summary": "CDPR联合CEO透露开发速度减慢，原因在于与《巫师4》存在技术层面的依赖关系。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3：狂猎",
+          "count": 1,
+          "summary": "CDPR确认重制版将兼容旧存档，玩家无需重头再玩即可继续剧情和保留成就。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "恶意不息",
+          "count": 1,
+          "summary": "Moon Studios宣布正式版延期至2027年3月，同时登陆PS5平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "抵抗者",
+          "count": 1,
+          "summary": "国产抗战FPS《抵抗者》IGN发布采访视频，展示雪地游击、潜行谍战等不同战场玩法。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "article_count": 87,
+      "game_count": 56,
+      "untagged_count": 15,
+      "digest": "9月1日游戏资讯聚焦于R星新作《GTA6》的深度爆料，详细披露了“犯罪档案”系统及杰森与露西亚的独立关系设定。此外，Rebel Wolves工作室的《黎明行者之血》获得CDPR总监祝贺，媒体评分达82至87分；索尼Aniplex接手万代《Fate/EXTRA Record》；《Bodycam》Steam愿望单突破300万；Shift Up公布《剑星》Switch 2版性能细节，并确认采用帧插值技术实现60帧；Xbox CEO表示将重振《光环》IP；CDPR公布《刺客信条：黑旗》重制版1.0.7更新内容。",
+      "digest_source": "llm",
+      "input_hash": "4a960b3ae1c92618",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 11,
+          "summary": "R星爆料新系统，杰森与露西亚拥有独立关系与犯罪档案，恋爱非强制",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鬼武者：剑之道",
+          "count": 5,
+          "summary": "媒体制作通关视频，肯定战斗系统与音效，指出探索稀薄",
           "summary_source": "llm"
         },
         {
           "name": "黎明行者之血",
           "count": 3,
-          "summary": "Rebel Wolves工作室处女作媒体评分解禁，Metacritic均分82至87分，CDPR总监发文祝贺前同事。",
+          "summary": "CDPR总监发文祝贺，媒体评分82至87分，Rebel Wolves工作室新作",
           "summary_source": "llm"
         },
         {
-          "name": "鬼武者：剑之道",
-          "count": 2,
-          "summary": "PS5版预载需41.235 GB，将于9月2日开启，M站PC均分85分，将于9月4日登陆多平台。",
+          "name": "Bodycam",
+          "count": 1,
+          "summary": "Reissad Studio宣布Steam愿望单突破300万，虚幻5引擎打造战术FPS",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Fate",
+          "count": 1,
+          "summary": "Aniplex接手万代《Fate/EXTRA Record》，索尼音娱将公布详情",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Hubert",
+          "count": 1,
+          "summary": "Brocap Studio宣布10月13日推出牧羊犬视角模拟游戏",
           "summary_source": "llm"
         },
         {
           "name": "Pawned Souls",
           "count": 1,
-          "summary": "创意独立游戏免费发布，将国际象棋规则改编为类魂即时战棋玩法。",
+          "summary": "独立游戏免费发布，将国际象棋规则改编为类魂即时战棋",
           "summary_source": "llm"
         },
         {
           "name": "TARAE The Unbound",
           "count": 1,
-          "summary": "韩国开发商公布东方暗黑RPG新实机预告，展示职业与战斗系统，登陆PS5、XSX|S和PC。",
+          "summary": "韩国开发商公布东方暗黑RPG新实机预告",
           "summary_source": "llm"
         },
         {
           "name": "专业船舶模拟器",
           "count": 1,
-          "summary": "沉浸式真实航运模拟器将于9月16日登陆Steam抢先体验。",
+          "summary": "SWE Systems宣布9月16日登陆Steam抢先体验",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 1,
+          "summary": "Digital Legends为Switch 2开发底座模式目标60帧",
+          "summary_source": "llm"
+        },
+        {
+          "name": "光环",
+          "count": 1,
+          "summary": "Xbox CEO阿莎·夏尔马表示重振《光环》IP是当务之急",
           "summary_source": "llm"
         },
         {
           "name": "刺客信条：黑旗",
           "count": 1,
-          "summary": "重制版1.0.7更新将于22:00上线，包含外观优化、新宠物及大量错误修复。",
+          "summary": "重制版1.0.7更新上线，新增隐藏武器与关闭光环选项",
           "summary_source": "llm"
         },
         {
           "name": "剑星",
           "count": 1,
-          "summary": "Switch2版性能细节公布，掌机与底座模式均通过AMD FSR 3.1帧插值达到60帧。",
+          "summary": "Shift Up公布Switch 2版细节，采用帧插值技术实现60帧",
           "summary_source": "llm"
         },
         {
           "name": "卧龙：苍天陨落 完全版",
           "count": 1,
-          "summary": "NS2版新视频展示多人战Boss玩法，将于9月3日登陆Switch2。",
+          "summary": "光荣公布NS2版新视频，展示多人战Boss玩法",
           "summary_source": "llm"
         },
         {
           "name": "合金装备4",
           "count": 1,
-          "summary": "玩家因PS3账号连续36个月不活跃被索尼删除，导致无法访问数字版游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "如龙",
-          "count": 1,
-          "summary": "RGG新作《异于天堂》称探索密度历代最强，横跨五个日本城市与时代。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "守望先锋",
-          "count": 1,
-          "summary": "公布与LE SSERAFIM第三次联动日程，9月11日发布MV，9月13日上线皮肤。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "宝可梦冠军",
-          "count": 1,
-          "summary": "Z超级进化近期实装上线，支持通过宝可梦Home带入队伍。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "幻兽帕鲁",
-          "count": 1,
-          "summary": "Steam开启生存游戏节，游戏开启30%折扣至史低75.60元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "异形：隔离2",
-          "count": 1,
-          "summary": "美术总监建议玩家感到害怕时可调低音乐以缓解紧张感。",
+          "summary": "玩家发现PS3账号因不活跃被索尼删除，数字游戏无法访问",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-08-31",
-      "article_count": 67,
-      "game_count": 40,
-      "untagged_count": 9,
-      "digest": "R星发布《GTA6》新截图并更新官网，展示角色自定义及抢劫经济细节；CDPR公布《巫师3》重制版PS5 Pro性能表现，同时《巫师4》因主角更换引发玩家争议；Insomniac公开《漫威金刚狼》容量与预载信息，PlayGround公布《神鬼寓言4》PC配置，动视向《使命召唤》外挂卖家送达律师函，此外《传送门2》开发档案泄露，多款新作与重制计划亦有相关报道。",
+      "article_count": 72,
+      "game_count": 41,
+      "untagged_count": 12,
+      "digest": "R星发布《GTA6》三张新截图展示角色自定义功能，并详细介绍了抢劫与经济系统细节；CD Projekt Red确认《巫师3》重制版在PS5 Pro上光追模式下可稳定60帧，同时《巫师4》因主角更换引发玩家争议；此外，《漫威金刚狼》PS5版容量曝光为79.36GB，H2 INTERACTIVE宣布《007：初露锋芒》Switch2版再次延期。",
       "digest_source": "llm",
-      "input_hash": "1b5310abf8f68c21",
+      "input_hash": "c8e6e2a085f397fa",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 14,
-          "summary": "R星官网发布三张新截图展示角色自定义功能，杰森跳水动作可作后空翻，抢劫系统金钱分为银行余额、现金及战利品三种类型，死亡可能丢失现款，自由探索抢劫分为多个等级。",
+          "count": 15,
+          "summary": "R星在官网发布三张新截图展示角色自定义功能，玩家发现杰森跳水时可作后空翻，并详细介绍了抢劫与经济系统细节，包括金钱类型、存取款机制及死亡掉落规则。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3",
           "count": 3,
-          "summary": "重制版在PS5 Pro上可实现光追开启状态下稳定60帧运行，基础版PS5仅能维持30帧，PS5 Pro性能模式在120Hz设备上最高可达90帧，所有图形预设将利用PSSR AI技术优化画面。",
+          "summary": "CD Projekt Red确认《巫师3：狂猎》重制版在PS5 Pro上可实现光线追踪开启状态下稳定60帧，并利用PlayStation光谱超分辨率(PSSR)技术优化画面，画质显著提升。",
           "summary_source": "llm"
         },
         {
           "name": "巫师4",
           "count": 2,
-          "summary": "CDPR叙事总监回应主角更换争议，承认早期曾想保留杰洛特，但强调希里值得成为主角，此举引发玩家尤其是女性玩家批评，认为官方在迎合网络厌女者。",
+          "summary": "CD Projekt Red叙事总监回应主角更换争议，承认早期曾想保留杰洛特，但强调希里是值得的主角，此举再次引发玩家尤其是女性玩家的批评。",
           "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
           "count": 2,
-          "summary": "PS5版容量曝光为79.36GB，将于9月8日开启预载，9月15日发售，媒体评测将于9月10日解禁，需预留约80GB SSD空间，官方发布新预告展示战斗与剧情。",
+          "summary": "Insomniac Games放出全新概览预告展示战斗与剧情，PS5版容量曝光为79.36GB，预载将于9月8日开启，媒体评测将于9月10日解禁。",
           "summary_source": "llm"
         },
         {
           "name": "神鬼寓言4",
           "count": 2,
-          "summary": "《神鬼寓言4》PC配置公开 最低需RTX 2060显卡；《神鬼寓言4》主线时长15-20小时 完整通关40小时。",
-          "summary_source": "rules"
+          "summary": "PlayGround公布了PC配置需求，最低需RTX 2060显卡，推荐配置为RTX 5060/3060Ti，高画质下可在1440P分辨率下达到60帧。",
+          "summary_source": "llm"
         },
         {
           "name": "007：初露锋芒",
           "count": 1,
-          "summary": "Switch2版再次延期，发行商H2 INTERACTIVE宣布具体发售日期待定，这已是该平台版本的第三次推迟，原计划于2026年夏后半发售。",
+          "summary": "发行商H2 INTERACTIVE宣布《007：初露锋芒》Switch2版再次延期，具体发售日期待定，这已是该平台版本的第三次推迟。",
           "summary_source": "llm"
         },
         {
           "name": "BUZZ or DIE",
           "count": 1,
-          "summary": "冒险游戏《BUZZ or DIE》Steam商店页面改版并公开新视觉图，宣布年内发售，玩家需通过制作短视频争取曝光量以换取免罪，落败将面临直播处刑。",
+          "summary": "冒险游戏《BUZZ or DIE》Steam商店页面改版并公开新主视觉图，宣布将于年内发售，玩家需通过制作短视频争取曝光以避免死刑。",
           "summary_source": "llm"
         },
         {
@@ -165,43 +266,43 @@
         {
           "name": "Turok: Origins",
           "count": 1,
-          "summary": "Saber Interactive在科隆游戏展公布预告，确认将于2027年春季登陆PC、PS5、Xbox Series X|S及Switch 2。",
+          "summary": "Saber Interactive在科隆游戏展上公布预告，确认将于2027年春季登陆PC、PS5、Xbox Series X|S及Switch 2。",
           "summary_source": "llm"
         },
         {
           "name": "一起来榨大果汁",
           "count": 1,
-          "summary": "中世纪经营模拟游戏Steam简中Demo现已开放，计划于2026年9月正式推出，玩家需根据村民需求榨制包含水果、蔬菜、香料等材料的饮品。",
+          "summary": "中世纪经营模拟游戏《一起来榨大果汁》简中Demo现已开放，玩家需根据村民需求榨汁，游戏计划于2026年9月推出。",
           "summary_source": "llm"
         },
         {
           "name": "三国叶子戏",
           "count": 1,
-          "summary": "融合卡牌堆叠与模拟经营的RPG作品Steam商店页面正式公开，玩家将魂穿东汉末年担任成都代理县长，通过堆叠卡牌进行资源调配与城邦经营。",
+          "summary": "融合卡牌堆叠与模拟经营的《三国叶子戏》正式公开Steam商店页面，玩家将魂穿东汉末年成为成都代理县长，游戏承袭东方传统美学。",
           "summary_source": "llm"
         },
         {
           "name": "传送门2",
           "count": 1,
-          "summary": "Valve开发档案泄露，包含《传送门2》2009年版本内容及未采用的流程片段，文件中出现了被传为已取消《半条命2：第三章》武器的“武器化装置”模型。",
+          "summary": "一批来自Steam2内容服务器的12TB游戏开发档案泄露，其中包含《传送门2》2009年版本内容及已取消《半条命2：第三章》武器概念。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤",
           "count": 1,
-          "summary": "动视向《使命召唤》外挂卖家Elocarry送达律师函，要求其停止侵权，该卖家除经营《使命召唤》外挂外，还涉及《腐蚀》和《Apex英雄》等游戏。",
+          "summary": "动视向《使命召唤》外挂卖家Elocarry送达律师函，要求其停止侵权并联系律师事务所，此前该卖家宣称其外挂可避开RICOCHET反作弊系统。",
           "summary_source": "llm"
         },
         {
           "name": "剑星",
           "count": 1,
-          "summary": "玩家通过模组将DLSS 5 Neural Rendering技术移植至游戏中实测，画质飞跃但帧率显著下降，5090显卡也难以维持流畅运行。",
+          "summary": "玩家通过ReShade模组在《剑星》中实测DLSS 5技术，结果显示画质飞跃但帧率大幅下降，5090显卡也难以维持流畅运行。",
           "summary_source": "llm"
         },
         {
           "name": "古墓丽影2",
           "count": 1,
-          "summary": "传闻水晶动力与Flying Wild Hog已开始规划《古墓丽影2》和《古墓丽影3》重制版，消息来源与《古墓丽影：亚特兰蒂斯遗迹》联合开发商有关，但官方尚未确认。",
+          "summary": "传闻水晶动力与Flying Wild Hog正在开发《古墓丽影2》和《古墓丽影3》重制版，消息来源与《古墓丽影：亚特兰蒂斯遗迹》联合开发商有关。",
           "summary_source": "llm"
         }
       ]
@@ -910,95 +1011,6 @@
           "count": 1,
           "summary": "从小小城堡到空中堡垒，《城堡漂流记》Demo上线。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "article_count": 19,
-      "game_count": 13,
-      "untagged_count": 5,
-      "digest": "GTA6黑客组织Cyberleek持续泄露实机内容，Take-Two封禁官网未果；Team Spirit夺得DOTA2 TI15冠军；《使命召唤：现代战争4》B测Steam好评率仅37%；《漫威金刚狼》已送厂压盘定档9月15日；Double Fine收回全系列IP与发行权；宫崎英高透露《黄昏血族》将采用基于水平的匹配机制。",
-      "digest_source": "llm",
-      "input_hash": "fbb852838ecbf70f",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "黑客组织Cyberleek持续放出第七波实机泄露内容，Take-Two封禁官网未果，宣发节奏被打乱。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "ARC Raiders",
-          "count": 1,
-          "summary": "第五次远征活动将于9月8日开启，持续三周，远征系统将在活动结束后暂停运营。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "DOTA2",
-          "count": 1,
-          "summary": "Team Spirit以3:2击败PV夺得TI15冠军，创造历史成为首个三冠王队伍。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "BETA公测在Steam好评率仅37%，简体中文评价为多半差评，引发玩家批评。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺客信条：奥德赛",
-          "count": 1,
-          "summary": "因克里斯托弗·诺兰电影上映，玩家数量激增，目前是该系列Steam评分最高的游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "只狼",
-          "count": 1,
-          "summary": "限定Xbox主机全球仅12台，单台标价1.2万美元，卖家已吸引大量关注。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "喵喵的结合",
-          "count": 1,
-          "summary": "Xbox商店泄露主机移植版，定档9月8日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "地铁2039",
-          "count": 1,
-          "summary": "将在科隆展重磅亮相，计划在展会周内放出实机预告片并解禁媒体试玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "宝可梦：风/波",
-          "count": 1,
-          "summary": "开发者表示未来可能会舍弃经典对战体系，探索全新挑战方向。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战地6",
-          "count": 1,
-          "summary": "《使命召唤：现代战争4》B测Steam差评，被指还不如《战地6》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 1,
-          "summary": "已正式送厂压盘，定于9月15日登陆PS5，玩家可解锁黄金钢爪外观。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "脑航员2",
-          "count": 1,
-          "summary": "Double Fine确认与Xbox拆分后，收回全系列游戏IP与发行权。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黄昏血族",
-          "count": 1,
-          "summary": "宫崎英高透露游戏将采用基于玩家水平的匹配机制，避免高手虐菜。",
-          "summary_source": "llm"
         }
       ]
     }

@@ -1,117 +1,182 @@
 {
-  "generated_at": "2026-09-01T02:48:03.977561+00:00",
+  "generated_at": "2026-09-02T02:09:32.314920+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-01",
-      "article_count": 29,
-      "game_count": 14,
-      "untagged_count": 9,
-      "digest": "今日游戏圈热点集中在卡普空新作《鬼武者：剑之道》与《剑星》上，前者试玩下载量突破200万且IGN打出10分满分，后者Switch 2版实机展示获好评；此外《GTA6》新实机发布带动PS5版预购激增606%，《黎明行者之血》获IGN 9分好评，国产《魔法门之英雄无敌3重制版》获批版号。",
+      "date": "2026-09-02",
+      "article_count": 14,
+      "game_count": 8,
+      "untagged_count": 5,
+      "digest": "2026年9月2日，游戏行业新闻汇总显示，多款游戏在这一天发生了显著动态。首先，《巫师4》选择了虚幻5引擎进行开发，CD Projekt Red的联合CEO Michal Nowakowski透露了这一决定背后的考量，强调效率和质量的重要性。其次，Rockstar Games的《GTA6》遭遇黑客攻击，“葱哥”黑客团体发布了早期可运行版本的游戏实机片段，对游戏开发造成影响。此外，《古墓丽影》新作的概念图曝光，展示了希腊遗迹的场景。同时，《女神异闻录4RE》对白进行了大改，但角色性格保持不变。《女神异闻录5》中强行开启多倍DLSS 5后出现了“画风崩坏”的情况。最后，《街头篮球》版本更新带来了舞力对决、蜜蜂大冒险等新内容，并增加了DIY制作和进阶宝箱系统。IGN给予《黎明行者》9分的高评价，使其在Steam全球热销榜上登顶。",
       "digest_source": "llm",
-      "input_hash": "9201e7ca71e65983",
+      "input_hash": "3fa28a6555f9115b",
       "game_digests": [
         {
-          "name": "剑星",
-          "count": 3,
-          "summary": "Switch 2版实机展示获好评，官方透露有神秘独占大动作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 3,
-          "summary": "试玩下载量突破200万，IGN打出10分满分评价。",
-          "summary_source": "llm"
+          "name": "巫师4",
+          "count": 2,
+          "summary": "《巫师4》为何选用虚幻5？CDPR无奈坦白：为了效率；CDPR高管拿《巫师4》对标GTA6:第一要务永远是质量。",
+          "summary_source": "rules"
         },
         {
           "name": "GTA6",
-          "count": 2,
-          "summary": "Netflix上线独家实机演示，带动PS5版预购猛增606%。",
-          "summary_source": "llm"
+          "count": 1,
+          "summary": "《GTA6》葱哥追查进展迅速！R星已锁定两名嫌疑人。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "古墓丽影",
+          "count": 1,
+          "summary": "《古墓丽影》新作概念图曝光：希腊遗迹比劳拉美！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "女神异闻录4RE",
+          "count": 1,
+          "summary": "《女神异闻录4RE》大改对白？并非魔改 角色性格没变。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "女神异闻录5",
+          "count": 1,
+          "summary": "《女神异闻录5》强开多倍DLSS5太猎奇 Joker变小丑。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3：狂猎重制版",
+          "count": 1,
+          "summary": "《巫师3：狂猎重制版》从未考虑过收费！白送玩家的礼物。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "街头篮球",
+          "count": 1,
+          "summary": "《街头篮球》FS 舞力对决开启!DIY 制作、进阶宝箱来袭。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "黎明行者",
+          "count": 1,
+          "summary": "IGN9分的含金量!《黎明行者》Steam全球热销榜登顶。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "article_count": 153,
+      "game_count": 55,
+      "untagged_count": 48,
+      "digest": "今日游民星空新闻总数为153条，涉及游戏55款。其中，《GTA6》和《鬼武者》系列是报道的焦点，分别有24条和9条相关新闻。此外，《黎明行者之血》、《鬼武者：剑之道》、《剑星》、《黎明行者》等游戏也各有8条相关报道。其他游戏如《巫师3重制版》、《星际：异端先知》、《DayZ》、《Swords & Slippers》等也有各自的报道。",
+      "digest_source": "llm",
+      "input_hash": "00c27c638c6b375a",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 24,
+          "summary": "知名网红爆料《GTA6》更多细节：亲自前往R星提前看；《GTA6》操作更现代化！试玩透露：奔跑仅需按摇杆；年假用在《GTA6》值得吗？上班玩家时间太宝贵（当天共 24 条）",
+          "summary_source": "rules"
         },
         {
           "name": "鬼武者",
-          "count": 2,
-          "summary": "IGN10分《鬼武者：剑之道》PS5版容量约41.235GB，9月2日开启预载。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "合金装备4",
-          "count": 1,
-          "summary": "老PS3玩家账号被删导致数字游戏全部丢失。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "怪物猎人：世界",
-          "count": 1,
-          "summary": "玩家植入DLSS5技术，角色出现极度扭曲怪异现象。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星际：异端先知",
-          "count": 1,
-          "summary": "官宣拍摄杀青，光头女主发布新近照。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 1,
-          "summary": "PS5独占大作预载版本更新，存储大小略有上涨。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "灰境行者",
-          "count": 1,
-          "summary": "腾讯虚幻5新作开启首轮测试报名，参考硬核ARPG。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "神鬼寓言",
-          "count": 1,
-          "summary": "《神鬼寓言4》超长实机发布，玩家对游戏质量表示失望。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "红色沙漠",
-          "count": 1,
-          "summary": "Pearl Abyss发布“创新”试玩版，无需下载浏览器直接玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "魔兽世界2",
-          "count": 1,
-          "summary": "暴雪官店出现“wow-2”字样，疑似将公布新作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "魔法门之英雄无敌3重制版",
-          "count": 1,
-          "summary": "获批国产游戏版号，育碧官方回应。",
-          "summary_source": "llm"
+          "count": 9,
+          "summary": "《鬼武者》小怪很\"呆\"但有混乱群战！Boss战很有挑战；《鬼武者》小怪数量比Boss少 主打极致Boss体验?；IGN认为《鬼武者》太简单！于是禁药通关然后给10分（当天共 9 条）",
+          "summary_source": "rules"
         },
         {
           "name": "黎明行者之血",
+          "count": 8,
+          "summary": "《黎明行者之血》奖杯公布！正常白金需四周目 最高难度；《黎明行者之血》全新实机！PS5 Pro 60帧表现出色；《黎明行者之血》时长灌水？15小时完成大多数内容（当天共 8 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "鬼武者：剑之道",
+          "count": 6,
+          "summary": "最佳索尼PS游戏！《鬼武者：剑之道》荣获新大奖：官方回应；IGN10分神作却遭喷！《鬼武者：剑之道》配得上满分吗？；IGN10分《鬼武者：剑之道》新BOSS实机 脖子超长诡异猎奇（当天共 6 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "剑星",
+          "count": 4,
+          "summary": "《剑星》超涩2B Mod 迷你裙加高叉 大雷白腿全都要；玩家晒《剑星》伊芙超大雕像：大雷翘臀超逼真！；《剑星》NS2版评价超高！60fps+超多独占控制体验 爽爆（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "黎明行者",
+          "count": 3,
+          "summary": "多家媒体盛赞《黎明行者》：直呼《巫师3》有继任者了；本部太吹!《黎明行者》IGN西班牙7分:没耐心的玩不了；外媒仅给《黎明行者》及格分！开放世界重复又空洞。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3重制版",
+          "count": 2,
+          "summary": "《巫师3重制版》确认继承原版存档！不必开新档了；《巫师3重制版》PS5 Pro可达90帧！支持PSSR。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "星际：异端先知",
+          "count": 2,
+          "summary": "顽皮狗发《星际：异端先知》光头女主新照被狂骂！；《星际：异端先知》官宣拍摄杀青！光头女主新近照。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "DayZ",
           "count": 1,
-          "summary": "获IGN 9分盛赞，被评价为《巫师》味太正了。",
-          "summary_source": "llm"
+          "summary": "做游戏如同经历死亡?《DayZ》作者吐露开发辛酸历程。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Swords & Slippers",
+          "count": 1,
+          "summary": "《Swords & Slippers》新预告!皮夹克小红帽太帅了。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "不心动才有鬼",
+          "count": 1,
+          "summary": "《不心动才有鬼》胆小校花被气球吓一激灵 娇羞惹人怜。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤17：黑色行动5",
+          "count": 1,
+          "summary": "9月第一批XGP公布！《使命召唤17：黑色行动5》领衔。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "刺客信条4：黑旗 记忆重置",
+          "count": 1,
+          "summary": "《刺客信条4：黑旗 记忆重置》更新官宣！超多内容 今晚上线。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "刺客信条：奥德赛",
+          "count": 1,
+          "summary": "《刺客信条：奥德赛》强开DLSS5！卡珊德拉变大妈？。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "剑星：血雨",
+          "count": 1,
+          "summary": "《剑星：血雨》或将登陆NS2平台 初代移植积累经验。",
+          "summary_source": "rules"
         }
       ]
     },
     {
       "date": "2026-08-31",
-      "article_count": 126,
-      "game_count": 52,
+      "article_count": 128,
+      "game_count": 53,
       "untagged_count": 41,
-      "digest": "今日游戏行业新闻总数为126条，涉及52款游戏。其中，《GTA6》和《鬼武者：剑之道》分别获得较高关注，前者因地图中超过5家脱衣舞俱乐部而引发争议，后者则在多个平台上获得了积极评价。此外，《黎明行者之血》和《昭和米国物语》等作品也各有亮点。同时，一些游戏如《巫师3》、《星际：异端先知》等也发布了新动态或更新。",
+      "digest": "今日游戏新闻概览显示，多个知名游戏及其开发商发布了新动态或更新。其中包括《GTA6》的地图规模、《鬼武者：剑之道》的媒体评分和即将到来的奖项，以及《黎明行者之血》和《昭和米国物语》等作品的试玩奖励问题和制作人致歉。此外，还有关于《巫师3》和《星际：异端先知》的DLSS5技术展示，以及《最后生还者》中开启DLSS5后的画面效果讨论。漫威金刚狼的新片预告和《007：初露锋芒》的延期发售也引起了关注。独立游戏《BALL BOY Simulator》登陆Steam，而米哈游的陪伴型新游《BSide:Olivia Lin》停运。科隆游戏展上，《Turok: Origins》公布了完整加长版预告，展示了其丰富的内容。最后，《三国叶子戏》公开了商店页面，为玩家提供了更多信息。",
       "digest_source": "llm",
-      "input_hash": "8460124fc15a4791",
+      "input_hash": "d379a9b841d8b51f",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 19,
-          "summary": "曝《GTA6》脱衣舞俱乐部至少5个！但去多了会影响主角关系；《GTA6》新截图曝光！双主角犯罪|亲密大赏；夸张身材女网红声称参演《GTA6》？R星口味都没这么重（当天共 19 条）",
+          "count": 20,
+          "summary": "曝《GTA6》脱衣舞俱乐部至少5个！但去多了会影响主角关系；《GTA6》新截图曝光！双主角犯罪|亲密大赏；夸张身材女网红声称参演《GTA6》？R星口味都没这么重（当天共 20 条）",
           "summary_source": "rules"
         },
         {
@@ -904,107 +969,6 @@
           "count": 1,
           "summary": "《不心动才有鬼》采访花絮 浩浩妈王星辰遭调侃“恶心”。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "article_count": 90,
-      "game_count": 29,
-      "untagged_count": 31,
-      "digest": "2026年8月23日游戏资讯聚焦于《GTA6》的持续泄露与《黑钟馗》的口碑发酵，同时索尼宣布《绝地潜兵2》加入PS+，国产游戏《湮灭之潮》因TGA杰夫宣传引发关注，多款新作公布发售日或延期。",
-      "digest_source": "llm",
-      "input_hash": "73720ae5e4675dfe",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 24,
-          "summary": "黑客Cyberleek连续发布多段泄露实机视频，展示了NPC加油、厕所互动及死亡过场等细节，距离发售不足三个月。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黑钟馗",
-          "count": 3,
-          "summary": "《黑钟馗》男主脸模晒出近况，战神制作人David Jaffe观看实机后感叹其投入心血，杨奇则回应游戏并非低魔武侠。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 2,
-          "summary": "游戏距离发售仅剩66天，官方宣布与B站百大UP主“狸叶”合作推出主题周边。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 2,
-          "summary": "TGA创始人杰夫·基斯利宣传该作，开发商确认将在科隆游戏展公布女主格温德琳的英文配音演员。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "绝地潜兵2",
-          "count": 2,
-          "summary": "索尼宣布该作已正式加入PlayStation Plus二档与三档游戏目录，总监此前因回应玩家建议引发争议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黄昏血族",
-          "count": 2,
-          "summary": "游戏测试报名人数超过《艾尔登法环：黑夜君临》，宫崎英高相关角色引发玩家热议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黑神话：钟馗",
-          "count": 2,
-          "summary": "外媒盛赞其配乐，8082音频工作室发布实机花絮展示民乐制作过程。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "不心动才有鬼",
-          "count": 1,
-          "summary": "官方发布演员王星辰的幕后采访，分享其饰演单亲妈妈角色的看法。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "你妈",
-          "count": 1,
-          "summary": "Steam桌面模拟游戏《你妈》更新“你妈为你舞动”功能，玩家可播放音乐观看角色跳舞。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "你嫂子",
-          "count": 1,
-          "summary": "雷霆新游《你嫂子》上线Steam，主打白毛大嫂角色与爆衣奖励环节。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "全速以赴",
-          "count": 1,
-          "summary": "国产开放世界赛车游戏《全速以赴》官宣延期，原定9月10日发售改为12月19日。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺客信条：奥德赛",
-          "count": 1,
-          "summary": "该作玩家数量和评价迎来第二春，成为系列第一好评。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "半条命3",
-          "count": 1,
-          "summary": "V社明天迎来30周年，玩家社区持续狂求《半条命3》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "喵喵的结合",
-          "count": 1,
-          "summary": "外媒报道称Xbox商店上线了该作主机版页面，定档9月8日。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "奥日",
-          "count": 1,
-          "summary": "经典类银河恶魔城游戏《奥日》新作或将由Saber Interactive接手开发。",
-          "summary_source": "llm"
         }
       ]
     }

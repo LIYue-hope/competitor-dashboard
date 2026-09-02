@@ -1,45 +1,9 @@
 {
-  "crawled_at": "2026-09-01T02:30:55.709963+00:00",
+  "crawled_at": "2026-09-02T01:51:43.342469+00:00",
   "days": [
     {
-      "date": "2026-09-01",
-      "date_label": "09月01日 今天",
-      "games": [
-        {
-          "game_name": "光明王传说·番外篇",
-          "categories": [
-            "剧情",
-            "解谜",
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "16:00 上线试玩",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/202937.htm",
-          "publisher": "梦辰游戏",
-          "reservation_count": "104",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "梦幻新诛仙：轻享-预下载",
-          "categories": [
-            "角色扮演",
-            "MMO",
-            "回合"
-          ],
-          "score": "7.6",
-          "event_desc": "10:00 预下载，9月3日上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/195139.htm",
-          "publisher": null,
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-02",
-      "date_label": "09月02日 明天",
+      "date_label": "09月02日 今天",
       "games": [
         {
           "game_name": "王者万象棋-9.2预注册",
@@ -48,16 +12,16 @@
             "策略",
             "竞技"
           ],
-          "score": "7.7",
+          "score": "7.6",
           "event_desc": "10:00 开启预注册，9月10日上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/148499.htm",
           "publisher": null,
-          "reservation_count": "87.1万",
+          "reservation_count": "87.9万",
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "仙逆：本尊",
+          "game_name": "仙逆：本尊-预下载",
           "categories": [
             "仙侠",
             "玄幻",
@@ -68,7 +32,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201058.htm",
           "publisher": "广州萤火互动网络有限公司",
-          "reservation_count": "346",
+          "reservation_count": null,
           "has_afk_grinding_tag": true
         },
         {
@@ -79,7 +43,7 @@
             "经营"
           ],
           "score": null,
-          "event_desc": "上线试玩，具体几点待定",
+          "event_desc": "10:00 上线试玩",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201961.htm",
           "publisher": null,
@@ -105,7 +69,7 @@
     },
     {
       "date": "2026-09-03",
-      "date_label": "09月03日 后天",
+      "date_label": "09月03日 明天",
       "games": [
         {
           "game_name": "梦幻新诛仙：轻享-预下载",
@@ -114,7 +78,7 @@
             "MMO",
             "回合"
           ],
-          "score": "7.6",
+          "score": "7.2",
           "event_desc": "10:00 正式上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/195139.htm",
@@ -134,14 +98,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/192492.htm",
           "publisher": null,
-          "reservation_count": "542",
+          "reservation_count": "554",
           "has_afk_grinding_tag": true
         }
       ]
     },
     {
       "date": "2026-09-04",
-      "date_label": "09月04日 周五",
+      "date_label": "09月04日 后天",
       "games": [
         {
           "game_name": "塔塔冒险队",
@@ -155,7 +119,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/196013.htm",
           "publisher": "上海莉莉丝网络科技有限公司",
-          "reservation_count": "604",
+          "reservation_count": "710",
           "has_afk_grinding_tag": false
         }
       ]
@@ -176,7 +140,28 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202853.htm",
           "publisher": "拳众娱乐",
-          "reservation_count": "32",
+          "reservation_count": "34",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "date_label": "09月08日 下周二",
+      "games": [
+        {
+          "game_name": "劳拉和俄西里斯神庙",
+          "categories": [
+            "Steam移植",
+            "第三人称",
+            "动作"
+          ],
+          "score": null,
+          "event_desc": "海外上线安卓和iOS",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/202180.htm",
+          "publisher": "Crystal Dynamics",
+          "reservation_count": "208",
           "has_afk_grinding_tag": false
         }
       ]

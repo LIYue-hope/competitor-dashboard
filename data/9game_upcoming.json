@@ -1,27 +1,21 @@
 {
-  "crawled_at": "2026-09-01T02:31:26.290872+00:00",
+  "crawled_at": "2026-09-02T01:52:19.025387+00:00",
   "days": [
     {
-      "date": "2026-09-01",
-      "date_label": "09月01日 今天",
+      "date": "2026-09-02",
+      "date_label": "09月02日 今天",
       "games": [
         {
-          "game_name": "百战祖玛",
+          "game_name": "荣耀时刻",
           "categories": [
             "角色扮演"
           ],
           "score": null,
-          "event_desc": "攻速神器传奇",
+          "event_desc": "散人高爆打金传奇",
           "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/bzzm/",
+          "detail_url": "https://www.9game.cn/rysk/",
           "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "date_label": "09月02日 明天",
-      "games": [
+        },
         {
           "game_name": "仙逆：本尊",
           "categories": [
@@ -31,13 +25,13 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/xnbz/",
-          "has_afk_grinding_tag": true
+          "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-03",
-      "date_label": "09月03日 后天",
+      "date_label": "09月03日 明天",
       "games": [
         {
           "game_name": "梦诛轻享",
@@ -65,7 +59,7 @@
     },
     {
       "date": "2026-09-04",
-      "date_label": "09月04日 周五",
+      "date_label": "09月04日 后天",
       "games": [
         {
           "game_name": "名将冲突",
@@ -206,6 +200,23 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/tianmingxingzhe/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "date_label": "09月23日",
+      "games": [
+        {
+          "game_name": "蜀山幻想志",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": "小阵大谋",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/shushanhuanxiangzhi/",
           "has_afk_grinding_tag": false
         }
       ]
