@@ -8,6 +8,11 @@ community_history.json，评分时用窗口内最后一张快照减窗口开始�
 拿不到基线就记 0。
 
 窗口：北京时间「上一个自然周的周一到周日」。
+
+周报按自然周「每周生成一期、生成后冻结」：该周结束后的第一次运行按当时
+的爬取数据成稿，之后任何一天都不再重写同一周的文件（哪怕新闻滚动窗口又
+给该周补进了内容）；下一自然周的第一次运行自然进入对「新结束的一周」的
+新一轮计算。community_history.json 的社区快照不冻结，每天照常追加一张。
 """
 import hashlib
 import json
@@ -669,26 +674,40 @@ def write_output(path, payload):
 def run(data_dir=None, today=None):
     data_dir = data_dir or DATA_DIR
     start, end = last_week_range(today)
-    # 先把今天的社区存量落进历史，再算窗口增量：跨周做差要靠这条链攒基线
+    week_key = start.isoformat()
+    # 先把今天的社区存量落进历史，再算窗口增量：跨周做差要靠这条链攒基线。
+    # 社区快照不参与冻结，每天照常落一张（这是内部中间数据，不属于对外展示）。
     update_community_history(data_dir, community_snapshot(data_dir), today=today)
     articles, ranked = collect_games(data_dir, start, end)
     output_path = os.path.join(data_dir, OUTPUT_NAME)
-    if not articles:
-        logger.error("\u7a97\u53e3\u5185\u6ca1\u6709\u65b0\u95fb\uff0c\u8df3\u8fc7\u5199\u5165\u4ee5\u907f\u514d\u8986\u76d6\u5df2\u6709\u5468\u62a5")
-        return False
-
-    current_hash = week_input_hash(articles)
     old = load_json(output_path)
-    if (
-        old
-        and old.get("input_hash") == current_hash
-        and old.get("digest_source") == "llm"
-        and old.get("hot_ranking")
-        and old.get("week_start") == start.isoformat()
-    ):
-        logger.info("\u5468\u62a5 hash \u672a\u53d8\uff0c\u590d\u7528\u65e7\u7ed3\u679c")
+
+    # ---- 冻结判定 ----
+    # 每周的目标永远是「已结束的一周」，而文件只在窗口内有新闻、
+    # build_payload + write_output 成功后才落盘，所以「同周文件存在」本身就
+    # 说明该周已成功成稿，应当冻结——即使没有游戏达到入榜门槛
+    # （hot_ranking 为空数组，页面会显示「上周暂无达到入榜门槛的游戏」），
+    # 也不能让当周每天都重算重写、反复调模型。冻结后不再比较 input_hash、
+    # 不关心 digest_source（rules 版同样冻结），也绝不再调模型或重写文件——
+    # 哪怕 10~15 天滚动窗口又给该周补进了新内容。旧文件缺失、或旧文件属于
+    # 更早一周时才进入新一轮。
+    frozen = bool(old and old.get("week_start") == week_key)
+    if frozen:
+        if not articles:
+            # 新闻窗口为空但该周报告已生成并冻结：同样不算失败，别让 CI 天天报红。
+            logger.info("窗口内没有新闻；%s 这一周的周报已生成并冻结，跳过重写", week_key)
+        else:
+            logger.info("周报已生成并冻结（%s ~ %s），跳过重写", start.isoformat(), end.isoformat())
         return True
 
+    if not articles:
+        # 没有同周冻结报告可保底，窗口内也没有新闻：维持原行为——
+        # 报错并拒绝写空文件，避免把已有的周报覆盖掉。
+        logger.error("窗口内没有新闻，跳过写入以避免覆盖已有周报")
+        return False
+
+    # 走到这里说明本周尚未成稿（没有旧文件，或旧文件是更早一周）且有新闻可写：
+    # 新一轮计算并写盘，自然覆盖「次周一」的轮换与首次上线场景。
     payload = build_payload(start, end, articles, ranked, data_dir=data_dir)
     write_output(output_path, payload)
     return True

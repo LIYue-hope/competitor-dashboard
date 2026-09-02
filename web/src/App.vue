@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, onMounted, watchEffect } from 'vue'
+import { ref, computed, onMounted, watch, watchEffect } from 'vue'
 import NewGamesPanel from './components/NewGamesPanel.vue'
 import HotGamesPanel from './components/HotGamesPanel.vue'
 import GameNewsPanel from './components/GameNewsPanel.vue'
@@ -34,15 +34,27 @@ const data = ref({})
 const errors = ref({})
 const loading = ref(true)
 
-// 顶层激活板块，默认新游监测。四个板块互斥显示，用 v-show 保留已加载 DOM
-const activeSection = ref('new-games')
-
+// 四个互斥板块（侧栏顺序即 SECTIONS 顺序），key 是 activeSection 的合法取值。
+// 面板用 v-show 互斥显示以保留已加载 DOM；顶栏数据各源分开加载，一个失败不影响其它板块。
 const SECTIONS = [
   ['weekly', '上周总览'],
   ['new-games', '新游监测'],
   ['hot-games', '热门动态'],
   ['news', '游戏资讯'],
 ]
+const SECTION_KEYS = SECTIONS.map(([key]) => key)
+const DEFAULT_SECTION = 'weekly'
+
+// 顶层激活板块默认「上周总览」；上次选择的板块记在 localStorage，
+// 刷新（F5）后停留在刷新前的板块。非法/缺失的历史值一律回退默认板块。
+function initialSection() {
+  const saved = localStorage.getItem('active-section')
+  return SECTION_KEYS.includes(saved) ? saved : DEFAULT_SECTION
+}
+const activeSection = ref(initialSection())
+
+// 点击切换板块时写入记忆，与主题的 localStorage 用法保持一致
+watch(activeSection, (key) => localStorage.setItem('active-section', key))
 
 const theme = ref(localStorage.getItem('theme') || '')
 

@@ -292,6 +292,229 @@ class TestCollectAndPayload(unittest.TestCase):
             self.assertEqual(data["hot_ranking"][0]["media_count"], 3)
 
 
+def _write_json_file(tmp_dir, name, payload):
+    with open(os.path.join(tmp_dir, name), "w", encoding="utf-8") as handle:
+        json.dump(payload, handle)
+
+
+def _read_text(path):
+    with open(path, encoding="utf-8") as handle:
+        return handle.read()
+
+
+def _news_item(url, day, title=None):
+    return {
+        "title": title or ("%s update %s" % (GAME_A, url)),
+        "url": url,
+        "game_name": GAME_A,
+        "published_at": "%s 12:00:00" % day,
+        "summary": "",
+    }
+
+
+def _frozen_weekly(
+    week_start="2026-08-17",
+    week_end="2026-08-23",
+    digest_source="llm",
+    article_count=2,
+    digest="FROZEN WEEKLY DIGEST",
+    with_ranking=True,
+):
+    """Fake an already-written weekly_digest.json of the target week.
+
+    A same-week file counts as frozen even when hot_ranking is empty:
+    a week can end with news but no game reaching the ranking bar.
+    """
+    ranking = []
+    if with_ranking:
+        ranking = [
+            {
+                "rank": 1,
+                "name": GAME_A,
+                "heat_score": 42.0,
+                "media_count": article_count,
+                "source_count": 1,
+                "reservation_label": None,
+                "follow_delta_label": None,
+                "best_rank": None,
+                "rank_lists": [],
+                "official_count": 0,
+                "news": [],
+            }
+        ]
+    return {
+        "generated_at": "2026-08-24T00:00:00+00:00",
+        "week_start": week_start,
+        "week_end": week_end,
+        "article_count": article_count,
+        "game_count": 1,
+        "digest": digest,
+        "digest_source": digest_source,
+        "heat_formula": "heat formula placeholder",
+        "input_hash": "0" * 16,
+        "hot_ranking": ranking,
+    }
+
+
+class TestWeeklyFreeze(unittest.TestCase):
+    """Weekly digest freeze semantics.
+
+    One report per natural week is written on the first run after that week
+    ends, then frozen: later runs targeting the same week must return True
+    without rewriting the file. 2026-08-24 (Monday) and 2026-08-25 (Tuesday)
+    both target the natural week 2026-08-17..2026-08-23, while 2026-08-23
+    (Sunday) targets 2026-08-10..2026-08-16.
+    """
+
+    def test_same_week_llm_report_frozen_despite_new_news(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            _write_json_file(
+                tmp, sw.OUTPUT_NAME, _frozen_weekly(digest_source="llm", article_count=2)
+            )
+            items = [
+                _news_item("https://news.example/a1", "2026-08-18"),
+                _news_item("https://news.example/a2", "2026-08-20"),
+            ]
+            _write_json_file(tmp, "3dmgame_news.json", {"items": items})
+            # the rolling window later back-fills one more article of the week
+            items.append(_news_item("https://news.example/a3", "2026-08-21"))
+            _write_json_file(tmp, "3dmgame_news.json", {"items": items})
+            out_path = os.path.join(tmp, sw.OUTPUT_NAME)
+            before = _read_text(out_path)
+            before_mtime = os.path.getmtime(out_path)
+            with mock.patch.object(sw, "llm_enabled", return_value=True):
+                with mock.patch.object(
+                    sw,
+                    "build_payload",
+                    side_effect=AssertionError("frozen week must not rebuild"),
+                ):
+                    ok = sw.run(data_dir=tmp, today=date(2026, 8, 24))
+            self.assertTrue(ok)
+            # file bytes and mtime untouched: no rewrite happened at all
+            self.assertEqual(_read_text(out_path), before)
+            self.assertEqual(os.path.getmtime(out_path), before_mtime)
+            payload = json.loads(before)
+            self.assertEqual(payload["week_start"], "2026-08-17")
+            self.assertEqual(payload["week_end"], "2026-08-23")
+            self.assertEqual(payload["digest_source"], "llm")
+            self.assertEqual(payload["article_count"], 2)
+
+    def test_same_week_rules_report_frozen_too(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            _write_json_file(tmp, sw.OUTPUT_NAME, _frozen_weekly(digest_source="rules"))
+            items = [_news_item("https://news.example/b1", "2026-08-19")]
+            _write_json_file(tmp, "3dmgame_news.json", {"items": items})
+            items.append(_news_item("https://news.example/b2", "2026-08-22"))
+            _write_json_file(tmp, "3dmgame_news.json", {"items": items})
+            out_path = os.path.join(tmp, sw.OUTPUT_NAME)
+            before = _read_text(out_path)
+            before_mtime = os.path.getmtime(out_path)
+            with mock.patch.object(sw, "llm_enabled", return_value=False):
+                with mock.patch.object(
+                    sw,
+                    "build_payload",
+                    side_effect=AssertionError("frozen week must not rebuild"),
+                ):
+                    ok = sw.run(data_dir=tmp, today=date(2026, 8, 24))
+            self.assertTrue(ok)
+            self.assertEqual(_read_text(out_path), before)
+            self.assertEqual(os.path.getmtime(out_path), before_mtime)
+            self.assertEqual(json.loads(before)["digest_source"], "rules")
+
+    def test_older_week_file_replaced_by_new_week(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            _write_json_file(
+                tmp,
+                sw.OUTPUT_NAME,
+                _frozen_weekly(
+                    week_start="2026-08-10",
+                    week_end="2026-08-16",
+                    digest_source="rules",
+                    article_count=1,
+                    digest="OLD WEEK DIGEST",
+                ),
+            )
+            items = [
+                _news_item("https://news.example/c1", "2026-08-18"),
+                _news_item("https://news.example/c2", "2026-08-19"),
+                _news_item("https://news.example/c3", "2026-08-21"),
+            ]
+            _write_json_file(tmp, "3dmgame_news.json", {"items": items})
+            out_path = os.path.join(tmp, sw.OUTPUT_NAME)
+            with mock.patch.object(sw, "llm_enabled", return_value=False):
+                ok = sw.run(data_dir=tmp, today=date(2026, 8, 24))
+            self.assertTrue(ok)
+            payload = sw.load_json(out_path)
+            self.assertEqual(payload["week_start"], "2026-08-17")
+            self.assertEqual(payload["week_end"], "2026-08-23")
+            self.assertEqual(payload["article_count"], 3)
+            self.assertEqual(payload["digest_source"], "rules")
+            self.assertNotEqual(payload["digest"], "OLD WEEK DIGEST")
+            self.assertEqual(payload["hot_ranking"][0]["name"], GAME_A)
+            self.assertEqual(payload["hot_ranking"][0]["media_count"], 3)
+
+    def test_empty_news_window_with_frozen_report_returns_true(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            _write_json_file(tmp, sw.OUTPUT_NAME, _frozen_weekly(digest_source="rules"))
+            out_path = os.path.join(tmp, sw.OUTPUT_NAME)
+            before = _read_text(out_path)
+            before_mtime = os.path.getmtime(out_path)
+            with mock.patch.object(sw, "llm_enabled", return_value=False):
+                ok = sw.run(data_dir=tmp, today=date(2026, 8, 24))
+            self.assertTrue(ok)
+            self.assertEqual(_read_text(out_path), before)
+            self.assertEqual(os.path.getmtime(out_path), before_mtime)
+            self.assertEqual(sw.load_json(out_path)["week_start"], "2026-08-17")
+
+    def test_community_history_still_snapshots_daily_in_frozen_week(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            _write_json_file(tmp, sw.OUTPUT_NAME, _frozen_weekly(digest_source="rules"))
+            _write_json_file(
+                tmp,
+                "taptap_upcoming.json",
+                [{"game_name": GAME_A, "follow_count": 1000}],
+            )
+            out_path = os.path.join(tmp, sw.OUTPUT_NAME)
+            before = _read_text(out_path)
+            with mock.patch.object(sw, "llm_enabled", return_value=False):
+                # two consecutive days (Mon/Tue) of the same frozen target week
+                self.assertTrue(sw.run(data_dir=tmp, today=date(2026, 8, 24)))
+                self.assertTrue(sw.run(data_dir=tmp, today=date(2026, 8, 25)))
+            history = sw.load_json(os.path.join(tmp, sw.COMMUNITY_HISTORY_NAME))
+            days = [snap["date"] for snap in history["snapshots"]]
+            self.assertEqual(days, ["2026-08-24", "2026-08-25"])
+            # weekly digest stays untouched across the frozen week
+            self.assertEqual(_read_text(out_path), before)
+
+    def test_same_week_empty_ranking_report_is_frozen_too(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            # a week that ended with news but no game reaching the ranking bar
+            _write_json_file(
+                tmp,
+                sw.OUTPUT_NAME,
+                _frozen_weekly(digest_source="rules", with_ranking=False),
+            )
+            items = [
+                _news_item("https://news.example/e1", "2026-08-18"),
+                _news_item("https://news.example/e2", "2026-08-19"),
+            ]
+            _write_json_file(tmp, "3dmgame_news.json", {"items": items})
+            out_path = os.path.join(tmp, sw.OUTPUT_NAME)
+            before = _read_text(out_path)
+            before_mtime = os.path.getmtime(out_path)
+            with mock.patch.object(sw, "llm_enabled", return_value=True):
+                with mock.patch.object(
+                    sw,
+                    "build_payload",
+                    side_effect=AssertionError("frozen week must not rebuild"),
+                ):
+                    ok = sw.run(data_dir=tmp, today=date(2026, 8, 24))
+            self.assertTrue(ok)
+            self.assertEqual(_read_text(out_path), before)
+            self.assertEqual(os.path.getmtime(out_path), before_mtime)
+            self.assertEqual(json.loads(before)["hot_ranking"], [])
+
+
 class TestVerifyDigest(unittest.TestCase):
     def test_leading_zero_date_is_allowed(self):
         source = "\u65e5\u671f\uff1a2026-08-21\n\u5171 12 \u6761"
