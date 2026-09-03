@@ -1,18 +1,54 @@
 {
-  "generated_at": "2026-09-02T02:11:53.332136+00:00",
+  "generated_at": "2026-09-03T02:18:47.478935+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-02",
-      "article_count": 2,
-      "game_count": 0,
+      "date": "2026-09-03",
+      "article_count": 4,
+      "game_count": 2,
       "untagged_count": 2,
-      "digest": "9月2日 GameLook 共 2 条新闻，涉及 0 款游戏。另有 2 条未指向具体游戏的行业或平台资讯。当天的内容包括「苹果护城河塌了！App Store收入十年首次下滑，中国游戏成“全球手游顶梁柱”」。",
-      "digest_source": "rules",
-      "input_hash": "830ba282f35fc0ef",
-      "game_digests": []
+      "digest": "9月3日，游戏行业新闻数量为4条，涉及2款游戏。其中，伊莫（Funplus）和向僵尸开炮（三七互娱）是当天的焦点。伊莫被描述为Funplus史上最大豪赌，而向僵尸开炮则在微信小游戏畅销榜Top 100中登顶。",
+      "digest_source": "llm",
+      "input_hash": "ed70a72ab4d9c3f2",
+      "game_digests": [
+        {
+          "name": "伊莫",
+          "count": 1,
+          "summary": "SLG大佬的新野心，Funplus董事长：《伊莫》是公司史上最大豪赌！——【GameLook专稿，禁止转载！】",
+          "summary_source": "llm"
+        },
+        {
+          "name": "向僵尸开炮",
+          "count": 1,
+          "summary": "8月微信小游戏畅销榜Top 100：《向僵尸开炮》登顶、三七多达8款入榜——【GameLook专稿，禁止转载！】",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "article_count": 6,
+      "game_count": 2,
+      "untagged_count": 4,
+      "digest": "科隆游戏展期间，游戏行业接连曝出两起引发热议的荒唐事件，其中《星战》新游在展会上爆卖，却导致80%员工停薪留职，引发业界对游戏开发现状的强烈关注；与此同时，9月新游上线档期开启，腾讯《王者万象棋》领衔，莉莉丝、完美世界、B站及趣加等多家厂商的新作将陆续登场。",
+      "digest_source": "llm",
+      "input_hash": "8990491a77b5c81d",
+      "game_digests": [
+        {
+          "name": "星战",
+          "count": 1,
+          "summary": "科隆游戏展期间《星战》新游爆卖，但80%员工却面临停薪留职的困境。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "王者万象棋",
+          "count": 1,
+          "summary": "9月新游上线档期开启，腾讯《王者万象棋》领衔，莉莉丝、完美世界、B站及趣加等厂商的新作将陆续登场。",
+          "summary_source": "llm"
+        }
+      ]
     },
     {
       "date": "2026-09-01",
@@ -202,35 +238,6 @@
           "name": "诡秘之主",
           "count": 1,
           "summary": "该项目组自曝周末3天预估流水超6000万，600+人团队五年投入12亿的高投入MMO模式获验证。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-24",
-      "article_count": 8,
-      "game_count": 3,
-      "untagged_count": 5,
-      "digest": "GameLook当日共报道8条新闻，涉及3款游戏，其中《2XKO》宣布年底停更但不停运引发玩家热议，《渔力全开》Steam上线后因玩法抽象迅速走红，《诡秘之主》首日登顶免费榜第一。",
-      "digest_source": "llm",
-      "input_hash": "510611ef0b42c0ff",
-      "game_digests": [
-        {
-          "name": "2XKO",
-          "count": 1,
-          "summary": "拳头游戏宣布《2XKO》将于2026年12月结束持续开发，但游戏服务器将保持不停运，玩家对此反应热烈。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "渔力全开",
-          "count": 1,
-          "summary": "第一人称多人合作游戏《渔力全开》于8月20日在Steam上线，凭借“钓鱼佬与疯鱼搏斗”的抽象玩法迅速走红。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "诡秘之主",
-          "count": 1,
-          "summary": "快手版《诡秘之主》上线首日即登顶免费榜第一，成为近期备受关注的高投入MMO新作。",
           "summary_source": "llm"
         }
       ]

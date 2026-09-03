@@ -1,37 +1,9 @@
 {
-  "crawled_at": "2026-09-02T01:52:19.025387+00:00",
+  "crawled_at": "2026-09-03T02:01:13.348402+00:00",
   "days": [
     {
-      "date": "2026-09-02",
-      "date_label": "09月02日 今天",
-      "games": [
-        {
-          "game_name": "荣耀时刻",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "散人高爆打金传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/rysk/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "仙逆：本尊",
-          "categories": [
-            "挂机"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/xnbz/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-03",
-      "date_label": "09月03日 明天",
+      "date_label": "09月03日 今天",
       "games": [
         {
           "game_name": "梦诛轻享",
@@ -59,7 +31,7 @@
     },
     {
       "date": "2026-09-04",
-      "date_label": "09月04日 后天",
+      "date_label": "09月04日 明天",
       "games": [
         {
           "game_name": "名将冲突",
@@ -103,6 +75,23 @@
       ]
     },
     {
+      "date": "2026-09-09",
+      "date_label": "09月09日 下周三",
+      "games": [
+        {
+          "game_name": "防线守卫战",
+          "categories": [
+            "策略"
+          ],
+          "score": "8.1",
+          "event_desc": "筑防测试",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/fxswz/",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
       "date": "2026-09-10",
       "date_label": "09月10日 下周四",
       "games": [
@@ -140,6 +129,17 @@
       "date": "2026-09-16",
       "date_label": "09月16日",
       "games": [
+        {
+          "game_name": "无尽之旅",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "组建你的冒险小队",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/wujinzhilu1/",
+          "has_afk_grinding_tag": true
+        },
         {
           "game_name": "全民萌兽",
           "categories": [

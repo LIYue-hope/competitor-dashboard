@@ -1,106 +1,207 @@
 {
-  "generated_at": "2026-09-02T02:01:47.807819+00:00",
+  "generated_at": "2026-09-03T02:09:31.377702+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-02",
-      "article_count": 33,
-      "game_count": 24,
-      "untagged_count": 5,
-      "digest": "9月2日游戏行业资讯聚焦多款新作动态，R星《GTA6》曝出道德量表系统，CDPR旗下《巫师3》重制版确认存档兼容并公布DLC，Shift Up为《剑星：血雨》滥用AI致歉，Moon Studios宣布《恶意不息》延期至2027年3月登陆PS5，多款独立游戏如《Cozy Country》《哞琪牛奶屋》及国产《伊始之猫》也相继推出或引发关注。",
+      "date": "2026-09-03",
+      "article_count": 38,
+      "game_count": 30,
+      "untagged_count": 3,
+      "digest": "9月3日游戏行业资讯丰富，GTA6因冰箱bug引发前Bethesda设计师批评，多款新作如《古墓丽影：亚特兰蒂斯遗迹》《神鬼寓言4》在科隆展展示引发讨论，《黎明行者之血》发售因优化问题Steam褒贬不一，同时《上古卷轴5》官宣与宜家联动，CDPR财报显示《巫师》系列销量破9000万份。",
       "digest_source": "llm",
-      "input_hash": "22dd149fd278c6f3",
+      "input_hash": "0eacf2ac16bed527",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 3,
-          "summary": "R星曝出犯罪档案量表系统，玩家无视评估可能导致量表碎裂不再记录行为。",
+          "summary": "前Bethesda设计师瑞安·詹金斯怒喷玩家网暴开发者，批评当代网络文化摧毁行业，并举例指出《GTA6》中主角拿啤酒时瓶子凭空刷在手中的明显bug引发了社交媒体的嘲讽。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "古墓丽影：亚特兰蒂斯遗迹",
+          "count": 2,
+          "summary": "科隆游戏展期间外媒集体痛批《古墓丽影：亚特兰蒂斯遗迹》重制版，虽然视觉和配音获赞，但玩法被指重蹈“暗黑重启三部曲”覆辙，媒体担忧其表现不佳。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "神鬼寓言4",
+          "count": 2,
+          "summary": "Playground Games在科隆展展示新演示，玩家发现主角再次换脸引发争论，导演拉尔夫·富尔顿回应称这是展示游戏内的完整捏脸系统，并非为了回应争议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黎明行者之血",
+          "count": 2,
+          "summary": "Rebel Wolves开发的开放世界黑暗奇幻RPG正式发售，IGN给予9/10高分，但玩家因优化问题不满，Steam好评率仅58%，目前拥有444条评论。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "BOMBANANA!",
+          "count": 1,
+          "summary": "Lefto Studio开发的3人合作拆弹游戏《BOMBANANA!》正式登陆Steam，支持中文，此前试玩吸引600万玩家，玩家需扮演三不猴破解谜题。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Mariachi Legends",
+          "count": 1,
+          "summary": "银河战士恶魔城风格新作《Mariachi Legends》公布新预告，将于2027年4月27日登陆PS5、XBOX、Switch和PC平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴5",
+          "count": 1,
+          "summary": "Bethesda宣布与瑞典家具巨头宜家跨界合作，将于9月9日通过Creation Club推出相关家具内容，官方发布了包含KALLAX搁架单元的预告片。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "余烬守卫",
+          "count": 1,
+          "summary": "肉鸽塔防游戏《余烬守卫》将于9月17日正式推出，目前已收获特别好评，主打迷宫建造与独特砲塔组合。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "刺客信条：黑旗 记忆重置",
+          "count": 1,
+          "summary": "法国零售商E.leclerc上架了一款疑似Switch2专用的“《刺客信条：黑旗 记忆重置》高级专业无线手柄”，标注发售日期为2026年9月22日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "JND Studios与Shift Up推出的《剑星》女主伊芙1/3比例限量雕像全球仅199个，售价约14930元，预购开启后迅速售罄，玩家称赞其真人感极强。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "割草模拟器2",
+          "count": 1,
+          "summary": "Skyhook Games制作的续作《割草模拟器2》将于9月23日登陆Steam，支持中文，引入全新草坪技术和官方授权设备。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "堕落之主2",
+          "count": 1,
+          "summary": "官方发布新视频确认将进行全方位升级，包括重做战斗系统、强化BOSS战、丰富Build搭配及移除PC版D加密。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "宝可梦",
+          "count": 1,
+          "summary": "宝可梦中国宣布推出30周年庆典独占收藏礼盒，包含喷火龙和多款皮卡丘手办，售价780元和88元，引发海外玩家羡慕。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师",
+          "count": 1,
+          "summary": "CDPR发布2026年上半年财报，净利润同比增长37%，《巫师》系列累计销量已超过9000万份。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3：旧时曲",
+          "count": 1,
+          "summary": "DLC《旧时曲》预告片发布12小时观看量破300万，愿望单超过90万，热度持续爆棚。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "article_count": 88,
+      "game_count": 56,
+      "untagged_count": 16,
+      "digest": "今日游戏行业资讯聚焦于《GTA6》PS5 Pro性能传闻、《巫师4》虚幻5画风辟谣及《鬼武者：剑之道》试玩数据，同时《007：初露锋芒》销量破400万，多款新作如《双轮成行》及《仙境传说》开发商股权变动引发关注。",
+      "digest_source": "llm",
+      "input_hash": "d7935f9ddcf831f6",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 8,
+          "summary": "索尼向Rockstar施压要求《GTA6》在PS5 Pro上实现明显性能提升，因已获PS5 Pro Enhanced标识，外界猜测其帧率或达40FPS甚至60FPS。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 3,
+          "summary": "CDPR联席CEO Michal Nowakowski回应虚幻5引擎担忧，称《巫师4》将凭借独特风格与其他虚幻5游戏区分，并强调技术对玩家并不重要。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鬼武者：剑之道",
+          "count": 3,
+          "summary": "卡普空宣布《鬼武者：剑之道》试玩版全球下载量突破200万，并公布将于9月4日登陆多平台，同时开启PC端预载。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "007 初露锋芒",
+          "count": 2,
+          "summary": "《007：初露锋芒》销量突破400万套，IO Interactive宣布游戏将迎来首次八折优惠。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "双轮成行",
+          "count": 2,
+          "summary": "双人合作驾驶冒险游戏《双轮成行》今日正式登陆Steam，首发两周内享9折优惠，支持好友通行证。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "堡垒之夜",
+          "count": 2,
+          "summary": "环球影城与Epic Games合作，在万圣节恐怖之夜推出《堡垒之夜》主题惊吓区，奥兰多和好莱坞园区将设置不同设计方案。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3",
           "count": 2,
-          "summary": "科隆展最受欢迎游戏榜曝光！《巫师3》DLC＆国产大作；CDPR从未考虑收取《巫师3》重制版费用：给老玩家的礼物。",
-          "summary_source": "rules"
+          "summary": "科隆展Steam愿望单统计显示，《巫师3：狂猎 – 旧时曲》DLC以451,000个新增愿望单位居榜首，预计2027年发售。",
+          "summary_source": "llm"
         },
         {
-          "name": "巫师4",
+          "name": "英雄联盟",
           "count": 2,
-          "summary": "CDPR确认新作将使用虚幻5引擎，CEO回应称此举是为了提高开发效率以支撑更快推出更多游戏。",
+          "summary": "LCK季后赛Gen.G以3比0击败KT，HLE、Gen.G与T1锁定全球总决赛席位，KT与DK、BFX争夺最后一个名额。",
           "summary_source": "llm"
         },
         {
           "name": "Cozy Country",
           "count": 1,
-          "summary": "Protopop工作室发行温馨治愈模拟新作《Cozy Country》，登陆Steam支持自由建造村庄。",
+          "summary": "温馨治愈模拟游戏《Cozy Country》登陆Steam，玩家可在其中绘制森林、建造村庄并自由探索。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Fenestra: my focus, her future",
+          "count": 1,
+          "summary": "STAYRESIDENT公布专注辅助育成冒险游戏《Fenestra: my focus, her future》，现实专注时长将推动少女成长。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "PUBG: DED.NET",
+          "count": 1,
+          "summary": "《PUBG：DED.NET》创意总监介绍核心玩法，游戏将大逃杀与肉鸽式成长结合，单次挑战持续五至七场比赛。",
           "summary_source": "llm"
         },
         {
           "name": "Size Warfare",
           "count": 1,
-          "summary": "TinysoftGames宣布1.5版更新上线，优化指挥官模式并加入分步式新手教程。",
+          "summary": "独立游戏《Size Warfare》1.5版更新上线，优化了指挥官模式并加入完整分步式新手教程。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Under a Rock",
+          "count": 1,
+          "summary": "开放世界生存制作游戏《Under a Rock》Steam免费Alpha测试启动，将持续至9月7日。",
           "summary_source": "llm"
         },
         {
           "name": "WARDOGS",
           "count": 1,
-          "summary": "BULKHEAD工作室宣布《WARDOGS》最终测试将于9月4日开启，支持百人混战战术FPS。",
+          "summary": "百人混战战术FPS《WARDOGS》最终测试将于9月4日开启，上次公测吸引10万以上玩家参与。",
           "summary_source": "llm"
         },
         {
-          "name": "伊始之猫",
+          "name": "仙境传说",
           "count": 1,
-          "summary": "国产动作游戏《伊始之猫》在科隆展亮相后国外爆火，玩家热议巨型猫咪互动玩法。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星：血雨",
-          "count": 1,
-          "summary": "Shift Up承认AI生成音乐视频引发负面反馈，技术总监致歉并计划区分官方内容与实验材料。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "后世更序",
-          "count": 1,
-          "summary": "P社公布后末日生存大战略游戏《后世更序》，外媒试玩称其比想象中更偏向生存RPG。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "哞琪牛奶屋",
-          "count": 1,
-          "summary": "Blibloop工作室开发治愈系新游《哞琪牛奶屋》将于11月17日登陆Steam，开启送奶之旅。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "守望先锋 Rush",
-          "count": 1,
-          "summary": "暴雪移动端新作《守望先锋 Rush》开启抢先体验，支持iOS和安卓平台及单人多人竞技。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师1：重制版",
-          "count": 1,
-          "summary": "CDPR联合CEO透露开发速度减慢，原因在于与《巫师4》存在技术层面的依赖关系。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：狂猎",
-          "count": 1,
-          "summary": "CDPR确认重制版将兼容旧存档，玩家无需重头再玩即可继续剧情和保留成就。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "恶意不息",
-          "count": 1,
-          "summary": "Moon Studios宣布正式版延期至2027年3月，同时登陆PS5平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "抵抗者",
-          "count": 1,
-          "summary": "国产抗战FPS《抵抗者》IGN发布采访视频，展示雪地游击、潜行谍战等不同战场玩法。",
+          "summary": "索尼音乐娱乐宣布以约286亿日元收购GungHo超过23%股份，成为其最大股东，双方将推动联合开发与运营。",
           "summary_source": "llm"
         }
       ]
@@ -910,107 +1011,6 @@
           "count": 1,
           "summary": "Konami宣布通过免费更新新增1995年经典益智游戏《Panic Bomber W》。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-24",
-      "article_count": 56,
-      "game_count": 30,
-      "untagged_count": 12,
-      "digest": "的互动，逐步扩张城堡，同时抵御不断涌来的敌人和自然灾害。游戏强调策略性和探索性，玩家需要合理规划资源使用，以在不断变化的环境中生存下去。《城堡漂流记》Demo现已上线Steam，玩家可以免费下载体验。游戏的核心玩法包括建造、扩张和防御，玩家需要在有限的空间内规划建筑布局，通过不同建筑之间的互动，逐步扩张城堡，同时抵御不断涌来的敌人和自然灾害。游戏强调策略性和探索性，玩家需要合理规划资源使用，以在不断变化的环境中生存下去。",
-      "digest_source": "llm",
-      "input_hash": "6da39747ef56b5a4",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 10,
-          "summary": "《GTA6》第11个视频泄露 杰森夜闯全果主义派对；就当没有过这些！ 《GTA6》泄露者Cyberleek销毁价值650万美元虚拟代币；国外网友因猜中日期《GTA6》泄露日期被警察找上门 或为关键人物（当天共 10 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "奥日3",
-          "count": 2,
-          "summary": "粉丝哭了！官方辟谣称《奥日3》传闻纯属无稽之谈；传《奥日3》开发中 但原开发商Moon Studios没参与。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "沉没之城2",
-          "count": 2,
-          "summary": "生存恐怖游戏《沉没之城2》叫好不叫座 在线人数未能超过2000人；《沉没之城2》IGN8分：低配《生化危机》但满意！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "渔力全开",
-          "count": 2,
-          "summary": "《渔力全开》MOD下载，死亡不掉落mod、多人联机mod一键下载安装方法；休闲钓鱼游戏《渔力全开》再成黑马 2天100万让你释放嘉豪之力。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "黄昏血族",
-          "count": 2,
-          "summary": "宫崎英高盛赞NS2：《黄昏血族》在初代开发太难了！；《黄昏血族》新实机演示 巨型蛤蟆BOSS登场。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "黑神话：钟馗",
-          "count": 2,
-          "summary": "《黑神话：钟馗》画面逼真到离谱 外媒认为游戏优化压力大；粉丝推测《黑神话：钟馗》或于2029年发售。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Afterworld",
-          "count": 1,
-          "summary": "P社手滑自曝新IP《Afterworld》 后末日大战略玩法。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "SNK",
-          "count": 1,
-          "summary": "SNK陷入资不抵债！曝2025财年净亏损222亿日元。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Song of Kings",
-          "count": 1,
-          "summary": "《Song of Kings》免费试玩版现已登陆 Steam， 将斯里兰卡神话带到 PC 平台。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Win11",
-          "count": 1,
-          "summary": "Windows将很快允许用户自己分配内存给游戏和AI。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "《使命召唤：现代战争4》B测第一轮 数据不是那么亮眼。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "剑星：完整版",
-          "count": 1,
-          "summary": "《剑星：完整版》Switch2新预告发布 支持体感操控。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "半条命",
-          "count": 1,
-          "summary": "V社正式成立30周年：一部用Steam和《半条命》书写的传奇。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "合金装备",
-          "count": 1,
-          "summary": "科乐美将《合金装备》《恶魔城》重启列为最高优先级。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "城堡漂流记",
-          "count": 1,
-          "summary": "从小小城堡到空中堡垒，《城堡漂流记》Demo上线。",
-          "summary_source": "rules"
         }
       ]
     }

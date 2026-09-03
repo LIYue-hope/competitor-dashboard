@@ -1,75 +1,9 @@
 {
-  "crawled_at": "2026-09-02T01:51:43.342469+00:00",
+  "crawled_at": "2026-09-03T02:00:48.643261+00:00",
   "days": [
     {
-      "date": "2026-09-02",
-      "date_label": "09月02日 今天",
-      "games": [
-        {
-          "game_name": "王者万象棋-9.2预注册",
-          "categories": [
-            "多平台",
-            "策略",
-            "竞技"
-          ],
-          "score": "7.6",
-          "event_desc": "10:00 开启预注册，9月10日上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/148499.htm",
-          "publisher": null,
-          "reservation_count": "87.9万",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "仙逆：本尊-预下载",
-          "categories": [
-            "仙侠",
-            "玄幻",
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/201058.htm",
-          "publisher": "广州萤火互动网络有限公司",
-          "reservation_count": null,
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "开个龙虾馆",
-          "categories": [
-            "放置",
-            "建造",
-            "经营"
-          ],
-          "score": null,
-          "event_desc": "10:00 上线试玩",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/201961.htm",
-          "publisher": null,
-          "reservation_count": "60",
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "无血",
-          "categories": [
-            "Steam移植",
-            "Roguelike",
-            "动作"
-          ],
-          "score": null,
-          "event_desc": "海外安卓上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/201890.htm",
-          "publisher": "Point N&#39; Sheep",
-          "reservation_count": "74",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-03",
-      "date_label": "09月03日 明天",
+      "date_label": "09月03日 今天",
       "games": [
         {
           "game_name": "梦幻新诛仙：轻享-预下载",
@@ -78,7 +12,7 @@
             "MMO",
             "回合"
           ],
-          "score": "7.2",
+          "score": "6.8",
           "event_desc": "10:00 正式上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/195139.htm",
@@ -98,14 +32,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/192492.htm",
           "publisher": null,
-          "reservation_count": "554",
+          "reservation_count": "578",
           "has_afk_grinding_tag": true
         }
       ]
     },
     {
       "date": "2026-09-04",
-      "date_label": "09月04日 后天",
+      "date_label": "09月04日 明天",
       "games": [
         {
           "game_name": "塔塔冒险队",
@@ -119,7 +53,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/196013.htm",
           "publisher": "上海莉莉丝网络科技有限公司",
-          "reservation_count": "710",
+          "reservation_count": "792",
           "has_afk_grinding_tag": false
         }
       ]
@@ -140,7 +74,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202853.htm",
           "publisher": "拳众娱乐",
-          "reservation_count": "34",
+          "reservation_count": "38",
           "has_afk_grinding_tag": false
         }
       ]
@@ -162,6 +96,27 @@
           "detail_url": "https://www.3839.com/a/202180.htm",
           "publisher": "Crystal Dynamics",
           "reservation_count": "208",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "date_label": "09月09日 下周三",
+      "games": [
+        {
+          "game_name": "王者万象棋-预注册已开启",
+          "categories": [
+            "多平台",
+            "策略",
+            "竞技"
+          ],
+          "score": "7.7",
+          "event_desc": "正式包预下载，9月10日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/148499.htm",
+          "publisher": null,
+          "reservation_count": "89.2万",
           "has_afk_grinding_tag": false
         }
       ]

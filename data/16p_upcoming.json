@@ -1,31 +1,9 @@
 {
-  "crawled_at": "2026-09-02T01:52:33.239816+00:00",
+  "crawled_at": "2026-09-03T02:01:21.710526+00:00",
   "days": [
     {
-      "date": "2026-09-02",
-      "date_label": "09月02日 今天",
-      "games": [
-        {
-          "game_name": "仙逆:本尊",
-          "categories": [
-            "仙侠",
-            "玄幻",
-            "角色扮演",
-            "放置"
-          ],
-          "score": "8.4",
-          "release_date": "2026-09-02",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1952362.html",
-          "publisher": "广州萤火互动网络有限公司",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
       "date": "2026-09-03",
-      "date_label": "09月03日 明天",
+      "date_label": "09月03日 今天",
       "games": [
         {
           "game_name": "咻咻勇者",
@@ -54,19 +32,19 @@
             "中国风",
             "多平台"
           ],
-          "score": "8.5",
+          "score": "9.0",
           "release_date": "2026-09-03",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1946063.html",
-          "publisher": "完美世界游戏",
-          "is_major_publisher": true,
+          "publisher": "Chengdu Tianzhiyou Technology Co., Ltd",
+          "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-04",
-      "date_label": "09月04日 后天",
+      "date_label": "09月04日 明天",
       "games": [
         {
           "game_name": "大王请留步",
@@ -94,7 +72,7 @@
             "塔防",
             "竖屏"
           ],
-          "score": "6.8",
+          "score": "7.3",
           "release_date": "2026-09-04",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952320.html",
@@ -106,7 +84,7 @@
     },
     {
       "date": "2026-09-05",
-      "date_label": "09月05日 周六",
+      "date_label": "09月05日 后天",
       "games": [
         {
           "game_name": "魔幻砖域",
@@ -140,6 +118,29 @@
           "publisher": "Mulazim Hussain",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "date_label": "09月09日 下周三",
+      "games": [
+        {
+          "game_name": "防线守卫战",
+          "categories": [
+            "策略",
+            "放置",
+            "塔防",
+            "养成",
+            "灵异"
+          ],
+          "score": null,
+          "release_date": "2026-09-09",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952321.html",
+          "publisher": "构想蓝游戏",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
         }
       ]
     }
