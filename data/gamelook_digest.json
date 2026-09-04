@@ -1,28 +1,57 @@
 {
-  "generated_at": "2026-09-03T02:18:47.478935+00:00",
+  "generated_at": "2026-09-04T02:15:20.344257+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-03",
+      "date": "2026-09-04",
       "article_count": 4,
-      "game_count": 2,
-      "untagged_count": 2,
-      "digest": "9月3日，游戏行业新闻数量为4条，涉及2款游戏。其中，伊莫（Funplus）和向僵尸开炮（三七互娱）是当天的焦点。伊莫被描述为Funplus史上最大豪赌，而向僵尸开炮则在微信小游戏畅销榜Top 100中登顶。",
+      "game_count": 3,
+      "untagged_count": 1,
+      "digest": "西山居宣布《剑侠世界4：无限》将于10月公测，郭炜炜离职后该作被定位为运营20年的“终极收官之作”。索尼以12亿日元接盘《智龙迷城》开发商GungHo，孙正义弟弟清仓股份。此外，8月抖音小游戏畅销榜显示《灵画师》连冠，三七游戏有6款产品入榜。",
       "digest_source": "llm",
-      "input_hash": "ed70a72ab4d9c3f2",
+      "input_hash": "46de8046f81ff0c5",
+      "game_digests": [
+        {
+          "name": "剑侠世界4：无限",
+          "count": 1,
+          "summary": "西山居宣布该作将于10月公测，郭炜炜离职后其被定位为运营20年的“终极收官之作”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "智龙迷城",
+          "count": 1,
+          "summary": "索尼以12亿日元接盘《智龙迷城》开发商GungHo，孙正义弟弟清仓股份。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "灵画师",
+          "count": 1,
+          "summary": "该游戏在8月抖音小游戏畅销榜Top 100中连冠，三七游戏有6款产品入榜。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "article_count": 6,
+      "game_count": 2,
+      "untagged_count": 4,
+      "digest": "9月3日，游戏行业新闻汇总显示，Funplus宣布推出新作《伊莫》，这是公司历史上最大的一次投资。此外，微信小游戏8月份的畅销榜Top 100中，《向僵尸开炮》位列榜首，三七互娱有多达8款小游戏上榜。",
+      "digest_source": "llm",
+      "input_hash": "39effb777828cfbc",
       "game_digests": [
         {
           "name": "伊莫",
           "count": 1,
-          "summary": "SLG大佬的新野心，Funplus董事长：《伊莫》是公司史上最大豪赌！——【GameLook专稿，禁止转载！】",
+          "summary": "Funplus：《伊莫》是公司史上最大豪赌！——【GameLook专稿，禁止转载！】",
           "summary_source": "llm"
         },
         {
           "name": "向僵尸开炮",
           "count": 1,
-          "summary": "8月微信小游戏畅销榜Top 100：《向僵尸开炮》登顶、三七多达8款入榜——【GameLook专稿，禁止转载！】",
+          "summary": "8月微信小游戏畅销榜Top 100：《向僵尸开炮》登顶、三七多达8款入榜 —— 【GameLook专稿，禁止转载！】",
           "summary_source": "llm"
         }
       ]
@@ -209,35 +238,6 @@
           "name": "皇室战争",
           "count": 1,
           "summary": "Supercell在演讲中回顾了《皇室战争》的发展历程，分享了从多次失败更新中吸取的教训。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "article_count": 7,
-      "game_count": 3,
-      "untagged_count": 4,
-      "digest": "8月25日游戏行业资讯聚焦于国产3A大作《影之刃零》的海外热度、独立游戏《沙金工业》的Steam销量爆发以及MMO《诡秘之主》周末的流水表现，三款游戏分别代表了高期待值、独立开发与长线运营三种不同赛道。",
-      "digest_source": "llm",
-      "input_hash": "86078310fc6c4e0d",
-      "game_digests": [
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "随着上线时间确认，外媒分析其愿望单超160万且海外玩家占比达70%，有望突破千万套销量。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "沙金工业",
-          "count": 1,
-          "summary": "这款由1人开发的抽象风格游戏凭借手搓炼金流水线玩法，在Steam上爆卖12万套。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "诡秘之主",
-          "count": 1,
-          "summary": "该项目组自曝周末3天预估流水超6000万，600+人团队五年投入12亿的高投入MMO模式获验证。",
           "summary_source": "llm"
         }
       ]

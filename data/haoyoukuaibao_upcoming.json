@@ -1,45 +1,9 @@
 {
-  "crawled_at": "2026-09-03T02:00:48.643261+00:00",
+  "crawled_at": "2026-09-04T01:55:40.576898+00:00",
   "days": [
     {
-      "date": "2026-09-03",
-      "date_label": "09月03日 今天",
-      "games": [
-        {
-          "game_name": "梦幻新诛仙：轻享-预下载",
-          "categories": [
-            "角色扮演",
-            "MMO",
-            "回合"
-          ],
-          "score": "6.8",
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/195139.htm",
-          "publisher": null,
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "咻咻勇者",
-          "categories": [
-            "角色扮演",
-            "放置",
-            "冒险"
-          ],
-          "score": null,
-          "event_desc": "11:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/192492.htm",
-          "publisher": null,
-          "reservation_count": "578",
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
       "date": "2026-09-04",
-      "date_label": "09月04日 明天",
+      "date_label": "09月04日 今天",
       "games": [
         {
           "game_name": "塔塔冒险队",
@@ -49,18 +13,18 @@
             "收集"
           ],
           "score": null,
-          "event_desc": "09:00 正式上线",
+          "event_desc": "08:00 正式上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/196013.htm",
           "publisher": "上海莉莉丝网络科技有限公司",
-          "reservation_count": "792",
+          "reservation_count": null,
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-06",
-      "date_label": "09月06日 周日",
+      "date_label": "09月06日 后天",
       "games": [
         {
           "game_name": "墨斗师",
@@ -74,7 +38,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202853.htm",
           "publisher": "拳众娱乐",
-          "reservation_count": "38",
+          "reservation_count": "44",
           "has_afk_grinding_tag": false
         }
       ]
@@ -83,6 +47,21 @@
       "date": "2026-09-08",
       "date_label": "09月08日 下周二",
       "games": [
+        {
+          "game_name": "灵武世界",
+          "categories": [
+            "Roguelike",
+            "冒险",
+            "探索"
+          ],
+          "score": null,
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/197920.htm",
+          "publisher": null,
+          "reservation_count": "82",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "劳拉和俄西里斯神庙",
           "categories": [
@@ -95,7 +74,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202180.htm",
           "publisher": "Crystal Dynamics",
-          "reservation_count": "208",
+          "reservation_count": "212",
           "has_afk_grinding_tag": false
         }
       ]
@@ -116,7 +95,28 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/148499.htm",
           "publisher": null,
-          "reservation_count": "89.2万",
+          "reservation_count": "89.8万",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "date_label": "09月10日 下周四",
+      "games": [
+        {
+          "game_name": "王者万象棋-预注册已开启",
+          "categories": [
+            "多平台",
+            "策略",
+            "竞技"
+          ],
+          "score": "7.7",
+          "event_desc": "正式上线，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/148499.htm",
+          "publisher": null,
+          "reservation_count": "89.8万",
           "has_afk_grinding_tag": false
         }
       ]

@@ -1,37 +1,9 @@
 {
-  "crawled_at": "2026-09-03T02:01:13.348402+00:00",
+  "crawled_at": "2026-09-04T01:56:21.112237+00:00",
   "days": [
     {
-      "date": "2026-09-03",
-      "date_label": "09月03日 今天",
-      "games": [
-        {
-          "game_name": "梦诛轻享",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "9月3日公测上线",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/mhxzxqx/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "咻咻勇者",
-          "categories": [
-            "冒险"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/xiuxiuyongzhe/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-04",
-      "date_label": "09月04日 明天",
+      "date_label": "09月04日 今天",
       "games": [
         {
           "game_name": "名将冲突",
@@ -141,6 +113,17 @@
           "has_afk_grinding_tag": true
         },
         {
+          "game_name": "宝石战争",
+          "categories": [
+            "卡牌"
+          ],
+          "score": "8.5",
+          "event_desc": "三消卡牌",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/baoshizhanzheng/",
+          "has_afk_grinding_tag": false
+        },
+        {
           "game_name": "全民萌兽",
           "categories": [
             "策略"
@@ -167,6 +150,23 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/haidaochuanqi1/",
           "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "date_label": "09月19日",
+      "games": [
+        {
+          "game_name": "龙吟山海",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "登录送顶奢时装",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/longyinshanhai/",
+          "has_afk_grinding_tag": true
         }
       ]
     },
@@ -217,6 +217,23 @@
           "event_desc": "小阵大谋",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/shushanhuanxiangzhi/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "date_label": "10月15日",
+      "games": [
+        {
+          "game_name": "剑侠世界4",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/jxsj4wx/",
           "has_afk_grinding_tag": false
         }
       ]

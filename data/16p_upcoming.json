@@ -1,51 +1,24 @@
 {
-  "crawled_at": "2026-09-03T02:01:21.710526+00:00",
+  "crawled_at": "2026-09-04T01:56:32.831993+00:00",
   "days": [
     {
-      "date": "2026-09-03",
-      "date_label": "09月03日 今天",
+      "date": "2026-09-04",
+      "date_label": "09月04日 今天",
       "games": [
         {
-          "game_name": "咻咻勇者",
+          "game_name": "暗黑挂机II",
           "categories": [
-            "角色扮演",
-            "放置",
-            "冒险",
-            "探索",
-            "休闲"
+            "TapTap制造",
+            "角色扮演"
           ],
-          "score": null,
-          "release_date": "2026-09-03",
+          "score": "9.7",
+          "release_date": "2026-09-04",
           "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1953767.html",
-          "publisher": "紫晓游戏",
+          "detail_url": "https://www.16p.com/1953760.html",
+          "publisher": "TDgaming工作室",
           "is_major_publisher": false,
           "has_afk_grinding_tag": true
         },
-        {
-          "game_name": "梦幻新诛仙:轻享",
-          "categories": [
-            "角色扮演",
-            "MMO",
-            "回合",
-            "经营",
-            "中国风",
-            "多平台"
-          ],
-          "score": "9.0",
-          "release_date": "2026-09-03",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1946063.html",
-          "publisher": "Chengdu Tianzhiyou Technology Co., Ltd",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "date_label": "09月04日 明天",
-      "games": [
         {
           "game_name": "大王请留步",
           "categories": [
@@ -72,7 +45,7 @@
             "塔防",
             "竖屏"
           ],
-          "score": "7.3",
+          "score": "7.2",
           "release_date": "2026-09-04",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952320.html",
@@ -84,7 +57,7 @@
     },
     {
       "date": "2026-09-05",
-      "date_label": "09月05日 后天",
+      "date_label": "09月05日 明天",
       "games": [
         {
           "game_name": "魔幻砖域",
@@ -140,6 +113,66 @@
           "detail_url": "https://www.16p.com/1952321.html",
           "publisher": "构想蓝游戏",
           "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "date_label": "09月10日 下周四",
+      "games": [
+        {
+          "game_name": "小小英杰:合战天下",
+          "categories": [
+            "策略",
+            "三国",
+            "SLG",
+            "角色扮演"
+          ],
+          "score": "7.2",
+          "release_date": "2026-09-10",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1954387.html",
+          "publisher": "上海电光火石科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "王者万象棋",
+          "categories": [
+            "多平台",
+            "策略",
+            "竞技",
+            "战棋",
+            "自走棋",
+            "多端互通"
+          ],
+          "score": "7.7",
+          "release_date": "2026-09-10",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1841952.html",
+          "publisher": "腾讯",
+          "is_major_publisher": true,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "小冰冰斗蛐蛐",
+          "categories": [
+            "策略",
+            "竞技",
+            "搜打撤",
+            "养成",
+            "动物",
+            "Roguelike",
+            "自走棋",
+            "竖屏"
+          ],
+          "score": "6.9",
+          "release_date": "2026-09-10",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952327.html",
+          "publisher": "上海莉莉丝网络科技有限公司",
+          "is_major_publisher": true,
           "has_afk_grinding_tag": true
         }
       ]

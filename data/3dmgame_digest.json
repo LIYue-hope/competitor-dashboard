@@ -1,106 +1,207 @@
 {
-  "generated_at": "2026-09-03T02:09:31.377702+00:00",
+  "generated_at": "2026-09-04T02:05:19.373195+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-03",
-      "article_count": 38,
+      "date": "2026-09-04",
+      "article_count": 36,
       "game_count": 30,
-      "untagged_count": 3,
-      "digest": "9月3日游戏行业资讯丰富，GTA6因冰箱bug引发前Bethesda设计师批评，多款新作如《古墓丽影：亚特兰蒂斯遗迹》《神鬼寓言4》在科隆展展示引发讨论，《黎明行者之血》发售因优化问题Steam褒贬不一，同时《上古卷轴5》官宣与宜家联动，CDPR财报显示《巫师》系列销量破9000万份。",
+      "untagged_count": 4,
+      "digest": "《最终幻想7 启示》将推出两个付费DLC，聚焦萨菲罗斯与文森特&塔克斯。科乐美新作《Rev. NOiR》预告将于2027年发售。《WARDOGS》开启最终封测，吸引16万玩家涌入试玩。《严阵以待》更新发布任务自由编辑功能。乐高初代PlayStation积木套装在索尼State of Play上亮相。桌面伴侣游戏《你嫂子》上架Steam支持物理晃动模式。《剑星：完整版》Nintendo Switch 2版公布，收录两款DLC及后续追加内容。《勇者斗恶龙：怪物仙境4》预告12月3日发售。《堕落之主2》官方发起角色人气对决，两大性感女角同台。《怪物猎人：荒野》DLC“凌越”新预告公布，全新古龙“雷霆龙”登场。",
       "digest_source": "llm",
-      "input_hash": "0eacf2ac16bed527",
+      "input_hash": "940d3cdcdaa73572",
+      "game_digests": [
+        {
+          "name": "最终幻想7 启示",
+          "count": 3,
+          "summary": "不止卖本体！《最终幻想7 启示》将推出两个付费DLC；《最终幻想7 启示》PC版确认上D加密！预购已开启；《最终幻想7：启示》新预告和实机 游戏预购已开启。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "CONQ：不屈王冠",
+          "count": 1,
+          "summary": "奇幻ARPG《CONQ: 不屈王冠》预告 有海战元素。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Fate",
+          "count": 1,
+          "summary": "《Fate/EXTRA Record》新预告 明年1月28日发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA6",
+          "count": 1,
+          "summary": "AI打造《GTA6》DLC印度视频 拳打阿三过瘾。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "PROJECT ZIRCON",
+          "count": 1,
+          "summary": "Konami公布卡牌构筑游戏《PROJECT ZIRCON》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Rev. NOiR",
+          "count": 1,
+          "summary": "科乐美新作《Rev. NOiR》预告 将于2027发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "WARDOGS",
+          "count": 1,
+          "summary": "百人混战战术FPS《WARDOGS》最终封测盛况空前 16万玩家涌入。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "严阵以待",
+          "count": 1,
+          "summary": "《严阵以待》最新更新发布 任务自由编辑功能上线。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "乐高积木",
+          "count": 1,
+          "summary": "乐高初代PlayStation积木套装公布 10月1日发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "你嫂子",
+          "count": 1,
+          "summary": "桌面伴侣游戏《你嫂子》上架Steam 支持物理晃动。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "全境封锁",
+          "count": 1,
+          "summary": "显卡爆炸！十年前老游戏《全境封锁》DLSS 5截图欣赏。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "剑星：完整版",
+          "count": 1,
+          "summary": "《剑星：完整版》NS2版公布，收录两款DLC及后续追加内容。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "勇者斗恶龙：怪物仙境4",
+          "count": 1,
+          "summary": "《勇者斗恶龙：怪物仙境4》预告 12月3日发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "堕落之主2",
+          "count": 1,
+          "summary": "《堕落之主2》官方发起角色人气对决 两大性感女角同台。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "怪物猎人：荒野",
+          "count": 1,
+          "summary": "《怪物猎人：荒野》DLC”凌越“预告 新古龙登场。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "article_count": 78,
+      "game_count": 63,
+      "untagged_count": 9,
+      "digest": "今日游戏行业资讯丰富，GTA6因冰箱bug引发前Bethesda设计师批评，古墓丽影重制版遭外媒担忧玩法，神鬼寓言4回应主角长相争议，鬼武者剑之道发布19分钟演示，黎明行者之血发售因优化问题Steam褒贬不一，BOMBANANA!正式推出，Mariachi Legends公布发售日，上古卷轴5官宣与宜家跨界联动，仙乡小千金上线试玩Demo，余烬守卫定档9月17日，刺客信条黑旗记忆重置疑似泄露Switch2版，剑星推出限量雕像，割草模拟器2定档9月23日，卧龙苍天陨落全球玩家破800万，另一个伊甸起源发布试玩版。",
+      "digest_source": "llm",
+      "input_hash": "113a82934e4af286",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 3,
-          "summary": "前Bethesda设计师瑞安·詹金斯怒喷玩家网暴开发者，批评当代网络文化摧毁行业，并举例指出《GTA6》中主角拿啤酒时瓶子凭空刷在手中的明显bug引发了社交媒体的嘲讽。",
+          "summary": "前Bethesda设计师瑞安·詹金斯怒批玩家对《GTA6》冰箱bug的网暴行为，认为网络愤怒文化正在摧毁游戏行业。",
           "summary_source": "llm"
         },
         {
           "name": "古墓丽影：亚特兰蒂斯遗迹",
           "count": 2,
-          "summary": "科隆游戏展期间外媒集体痛批《古墓丽影：亚特兰蒂斯遗迹》重制版，虽然视觉和配音获赞，但玩法被指重蹈“暗黑重启三部曲”覆辙，媒体担忧其表现不佳。",
+          "summary": "外媒在科隆游戏展期间集体痛批该重制版重蹈“暗黑重启三部曲”覆辙，担忧其玩法设计。",
           "summary_source": "llm"
         },
         {
           "name": "神鬼寓言4",
           "count": 2,
-          "summary": "Playground Games在科隆展展示新演示，玩家发现主角再次换脸引发争论，导演拉尔夫·富尔顿回应称这是展示游戏内的完整捏脸系统，并非为了回应争议。",
+          "summary": "导演拉尔夫·富尔顿回应玩家关于主角长相的争议，强调游戏拥有完整的捏脸系统，演示中的角色仅为选项之一。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鬼武者：剑之道",
+          "count": 2,
+          "summary": "IGN发布开场19分钟演示，展示了电影式剧情演出及宫本武藏在异界斩杀幻魔的剑斗场景。",
           "summary_source": "llm"
         },
         {
           "name": "黎明行者之血",
           "count": 2,
-          "summary": "Rebel Wolves开发的开放世界黑暗奇幻RPG正式发售，IGN给予9/10高分，但玩家因优化问题不满，Steam好评率仅58%，目前拥有444条评论。",
+          "summary": "Rebel Wolves开发的开放世界RPG正式发售，IGN给出9/10高分，但玩家因优化问题在Steam上评价褒贬不一。",
           "summary_source": "llm"
         },
         {
           "name": "BOMBANANA!",
           "count": 1,
-          "summary": "Lefto Studio开发的3人合作拆弹游戏《BOMBANANA!》正式登陆Steam，支持中文，此前试玩吸引600万玩家，玩家需扮演三不猴破解谜题。",
+          "summary": "Lefto Studio开发的3人合作拆弹游戏正式登陆Steam，支持中文，玩家需依靠不完整信息破解谜题。",
           "summary_source": "llm"
         },
         {
           "name": "Mariachi Legends",
           "count": 1,
-          "summary": "银河战士恶魔城风格新作《Mariachi Legends》公布新预告，将于2027年4月27日登陆PS5、XBOX、Switch和PC平台。",
+          "summary": "银河战士恶魔城风格游戏公布新预告，定于2027年4月27日发售，登陆PS5、Xbox、Switch和PC平台。",
           "summary_source": "llm"
         },
         {
           "name": "上古卷轴5",
           "count": 1,
-          "summary": "Bethesda宣布与瑞典家具巨头宜家跨界合作，将于9月9日通过Creation Club推出相关家具内容，官方发布了包含KALLAX搁架单元的预告片。",
+          "summary": "Bethesda宣布与瑞典家具巨头宜家跨界合作，相关家具将于9月9日通过Creation Club形式加入游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仙乡小千金",
+          "count": 1,
+          "summary": "仙侠养女儿RPG试玩Demo上线Steam，玩家可扮演父亲或母亲抚养女儿，体验四季流转与日常规划。",
           "summary_source": "llm"
         },
         {
           "name": "余烬守卫",
           "count": 1,
-          "summary": "肉鸽塔防游戏《余烬守卫》将于9月17日正式推出，目前已收获特别好评，主打迷宫建造与独特砲塔组合。",
+          "summary": "肉鸽塔防游戏将于9月17日正式推出，现已收获特别好评，主打迷宫建造与独特砲塔组合。",
           "summary_source": "llm"
         },
         {
           "name": "刺客信条：黑旗 记忆重置",
           "count": 1,
-          "summary": "法国零售商E.leclerc上架了一款疑似Switch2专用的“《刺客信条：黑旗 记忆重置》高级专业无线手柄”，标注发售日期为2026年9月22日。",
+          "summary": "法国零售商E.leclerc上架了一款疑似对应Switch2平台的“《刺客信条：黑旗 记忆重置》高级专业无线手柄”，标注发售日期为2026年9月22日。",
           "summary_source": "llm"
         },
         {
           "name": "剑星",
           "count": 1,
-          "summary": "JND Studios与Shift Up推出的《剑星》女主伊芙1/3比例限量雕像全球仅199个，售价约14930元，预购开启后迅速售罄，玩家称赞其真人感极强。",
+          "summary": "JND Studios与Shift Up推出女主伊芙1/3比例限量雕像，全球限量199个，含底座高78.5cm，单体售价约14930元。",
           "summary_source": "llm"
         },
         {
           "name": "割草模拟器2",
           "count": 1,
-          "summary": "Skyhook Games制作的续作《割草模拟器2》将于9月23日登陆Steam，支持中文，引入全新草坪技术和官方授权设备。",
+          "summary": "Skyhook Games制作的续作将于9月23日登陆Steam正式推出，支持中文，引入官方授权设备及落叶吹扫玩法。",
           "summary_source": "llm"
         },
         {
-          "name": "堕落之主2",
+          "name": "卧龙：苍天陨落",
           "count": 1,
-          "summary": "官方发布新视频确认将进行全方位升级，包括重做战斗系统、强化BOSS战、丰富Build搭配及移除PC版D加密。",
+          "summary": "全球玩家数突破800万，完全版登陆Nintendo Switch2，官方确认续作《卧龙2：凤火连天》将于2027年初发售。",
           "summary_source": "llm"
         },
         {
-          "name": "宝可梦",
+          "name": "另一个伊甸：起源",
           "count": 1,
-          "summary": "宝可梦中国宣布推出30周年庆典独占收藏礼盒，包含喷火龙和多款皮卡丘手办，售价780元和88元，引发海外玩家羡慕。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师",
-          "count": 1,
-          "summary": "CDPR发布2026年上半年财报，净利润同比增长37%，《巫师》系列累计销量已超过9000万份。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：旧时曲",
-          "count": 1,
-          "summary": "DLC《旧时曲》预告片发布12小时观看量破300万，愿望单超过90万，热度持续爆棚。",
+          "summary": "日式RPG新作发布免费试玩版，存档可继承至9月17日登陆PC和Switch的正式版。",
           "summary_source": "llm"
         }
       ]
@@ -909,107 +1010,6 @@
           "name": "黎明行者之血",
           "count": 2,
           "summary": "Rebel Wolves工作室公布《黎明行者之血》全球解锁时间，PC版将于9月3日全球同步解锁，预载将于9月1日开启。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "article_count": 83,
-      "game_count": 54,
-      "untagged_count": 18,
-      "digest": "今日游戏资讯聚焦于《GTA6》泄露视频持续曝光，展示海滩NPC细节；4A Games公布《地铁2039》典藏版实物头盔；《天地创造》确认复刻回归多平台；国产游戏《湮灭之潮》女主新形象引发争议；Pearl Abyss旗下《红色沙漠》入围科隆游戏展两项大奖；FromSoftware新作《黄昏血族》公布恋爱系统；国产《黑神话：钟馗》发布民乐配乐花絮；韩国游戏《龙之剑：觉醒》撤回Mod限制公告；KRAFTON新作《Age Twisters》获科隆游戏展提名；FPS《Bodycam》宣布9月2日更新音效；像素RPG《Dokimon Quest》开启免费领取；腾讯《NBA2KOL2》举办阵营狙击赛；《生化危机9》演员将主持Gamescom发布会；Konami宣布《SUPER BOMBERMAN COLLECTION》新增《Panic Bomber W》。",
-      "digest_source": "llm",
-      "input_hash": "955b7115b3f5a9f8",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 4,
-          "summary": "泄露视频展示傍晚海滩场景，杰森骑自行车穿梭，NPC设计细节丰富且变化多样，引发玩家对光线昏暗的讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "地铁：2039",
-          "count": 2,
-          "summary": "4A Games公布典藏版实物头盔，取材于主角3D模型，带有战损痕迹，将于科隆游戏展展出。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "天地创造",
-          "count": 2,
-          "summary": "原版人设藤原神威寄语，确认经典ARPG复刻回归，登陆Switch、PS5、PC等多平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 2,
-          "summary": "女主新版美照五官更柔和，引发海外社区关于“撞脸迪丽热巴”及“改脸”的争议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "红色沙漠",
-          "count": 2,
-          "summary": "Pearl Abyss旗下游戏入围Gamescom Awards 2026“最具史诗感游戏”与“最佳PC游戏”两项提名。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "轮回之兽",
-          "count": 2,
-          "summary": "国产游戏《伊始之猫》发布首部预告，展示一人一猫协作的动作冒险风格。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黄昏血族",
-          "count": 2,
-          "summary": "FromSoftware社长宫崎英高透露游戏包含恋爱系统，核心机制为美德胜利点系统。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黑神话：钟馗",
-          "count": 2,
-          "summary": "8082音频工作室发布民乐录制幕后花絮，展示古筝、琵琶等乐器，风格偏向民间志怪。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "龙之剑：觉醒",
-          "count": 2,
-          "summary": "因Mod限制条款过于繁琐遭玩家反对，官方撤回相关公告并道歉，仅保留两条最低限度原则。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Age Twisters",
-          "count": 1,
-          "summary": "KRAFTON旗下双人合作冒险游戏入围科隆游戏展大奖“最有益健康作品”奖项。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Bodycam",
-          "count": 1,
-          "summary": "Reissad Studio宣布9月2日发布更新，主要强化真实音效与气氛，提升临场感。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Dokimon Quest",
-          "count": 1,
-          "summary": "像素风怪物驯服游戏《Dokimon Quest》在Steam开启免费领取活动，原价48元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "NBA2KOL2",
-          "count": 1,
-          "summary": "腾讯举办“阵营狙击赛”直播活动，跨圈主播参与，配合“即战赛场”与“自由赛场”玩法。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Resident Evil Requiem",
-          "count": 1,
-          "summary": "演员Nick Apostolides与Angela Sant’Albano将主持Gamescom期间的Future Games Show。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "SUPER BOMBERMAN COLLECTION",
-          "count": 1,
-          "summary": "Konami宣布通过免费更新新增1995年经典益智游戏《Panic Bomber W》。",
           "summary_source": "llm"
         }
       ]
