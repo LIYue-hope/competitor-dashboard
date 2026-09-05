@@ -1,59 +1,107 @@
 {
-  "generated_at": "2026-09-05T02:03:47.753570+00:00",
+  "generated_at": "2026-09-05T09:31:18.313278+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-09-05",
-      "article_count": 7,
-      "game_count": 7,
-      "untagged_count": 0,
-      "digest": "2026年9月5日，游戏行业新闻汇总显示，当天共有7条关于游戏的新闻报道。涉及的游戏包括《Beach Invasion 1944》、《GTA6》、《塞尔达传说》、《大迁离》、《奥日》、《谢谢你，巴士司机》和《黎明行者之血》。这些游戏涵盖了不同的类型和风格，从二战FPS到开放世界吸血鬼主题游戏，再到即时评论网站的挑战，展现了游戏行业的多样性和创新。同时，一些游戏如《GTA6》的发售时间可能比预期更早，而《塞尔达传说》即将举办两场直面会，展示其40周年纪念版和新作《时之笛 重制版》的发售信息。此外，《大迁离》在科隆游戏展上获得了媒体的关注，而《奥日》工作室CEO则成立了新的评价网站以对抗M站的评价体系。最后，《谢谢你，巴士司机》作为一款“混乱的公交车驾驶游戏”即将登陆PC平台。",
+      "article_count": 25,
+      "game_count": 21,
+      "untagged_count": 2,
+      "digest": "2026年9月5日游戏行业资讯聚焦于多款新作发售与展会动态。史克威尔艾尼克斯公布《最终幻想7：启示》TGS试玩及发售计划，索尼确认PS5新作参展阵容，任天堂宣布《塞尔达传说》40周年直面会及《时之笛》重制版疑似泄露，KRAFTON开启《Project ZETA》第二次全球测试，Digital Extremes预告《星际战甲》新更新，Moon StudiosCEO宣布成立新评价网站对抗M站，科隆展就硬件被盗事件致歉并承诺整改。",
       "digest_source": "llm",
-      "input_hash": "3326aeff10871965",
+      "input_hash": "d7973230300b93f2",
       "game_digests": [
+        {
+          "name": "最终幻想7：启示",
+          "count": 2,
+          "summary": "史克威尔艾尼克斯公布TGS2026参展阵容，确认《最终幻想7：启示》将全程开放试玩，并计划于2027年4月8日登陆多平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黎明行者之血",
+          "count": 2,
+          "summary": "《黎明行者之血》1.0.2热修复上线，修复了任务对话、手柄输入异常及NPC互动等多项问题。",
+          "summary_source": "llm"
+        },
         {
           "name": "Beach Invasion 1944‌",
           "count": 1,
-          "summary": "《Beach Invasion 1944‌》Epic喜加一 二战FPS。",
-          "summary_source": "rules"
+          "summary": "二战FPS《Beach Invasion 1944‌》在Epic平台限时免费发布，玩家可领取至9月7日。",
+          "summary_source": "llm"
         },
         {
           "name": "GTA6",
           "count": 1,
-          "summary": "《GTA6》登陆PC的时间可能比想象地要更快。",
-          "summary_source": "rules"
+          "summary": "VVC记者爆料称，受主机价格上涨影响，Take Two可能加快《GTA6》PC版发售速度。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Project ZETA",
+          "count": 1,
+          "summary": "KRAFTON宣布《Project ZETA》开启第二次全球测试，这是一款全新的多团队战术竞技游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "东京电玩展",
+          "count": 1,
+          "summary": "索尼确认《怪物猎人：荒野 凌越》《最终幻想7：启示》《漫威金刚狼》及《皇牌空战8：希孚之翼》将在2026东京电玩展开放试玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "东方红魔乡：New Classic",
+          "count": 1,
+          "summary": "神主ZUN宣布《东方红魔乡：New Classic》将于9月10日登陆多平台，本人亲自监制重制。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "亚斯特尼西雅物语",
+          "count": 1,
+          "summary": "NIS America宣布《亚斯特尼西雅物语》将于2027年2月11日登陆Switch 2、PS5及PC平台。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达传说",
           "count": 1,
-          "summary": "《塞尔达传说》40周年纪念 任天堂将举办两场直面会。",
-          "summary_source": "rules"
+          "summary": "任天堂将于9月8日及9日举办两场直面会，庆祝《塞尔达传说》40周年，并可能确认《时之笛》重制版发售日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达时之笛",
+          "count": 1,
+          "summary": "法国零售商Cdiscount疑似上架《塞尔达传说：时之笛》Switch2限定主机及配件，引发发售猜测。",
+          "summary_source": "llm"
         },
         {
           "name": "大迁离",
           "count": 1,
-          "summary": "《大迁离》科隆展试玩前瞻 非常注重选择和掩体射击。",
-          "summary_source": "rules"
+          "summary": "Archetype Entertainment的《大迁离》在科隆展试玩中备受关注，游戏灵感源自《质量效应》。",
+          "summary_source": "llm"
         },
         {
           "name": "奥日",
           "count": 1,
-          "summary": "《奥日》工作室CEO揭竿而起 成立全新评价网站对抗M站。",
-          "summary_source": "rules"
+          "summary": "《奥日》工作室CEO宣布成立新评价网站“VideoGamesCritic”，旨在对抗M站并重视玩家意见。",
+          "summary_source": "llm"
         },
         {
-          "name": "谢谢你，巴士司机",
+          "name": "星际战甲",
           "count": 1,
-          "summary": "Double Fine公布新作《谢谢你，巴士司机》。",
-          "summary_source": "rules"
+          "summary": "Digital Extremes宣布《星际战甲》最新更新“Narin冰剑”将于9月24日上线，推出新战甲及挑战。",
+          "summary_source": "llm"
         },
         {
-          "name": "黎明行者之血",
+          "name": "沃斯托克之路",
           "count": 1,
-          "summary": "《黎明行者之血》官方迎合日本玩家呼声 日版将废除出血限制。",
-          "summary_source": "rules"
+          "summary": "个人开发者宣布《沃斯托克之路》首次大型更新将于9月30日发布，新增地图与NPC AI。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "科隆国际游戏展",
+          "count": 1,
+          "summary": "主办方就科隆展期间独立开发者硬件被盗事件致歉，承认初期回应不当并承诺开展专项安保审查。",
+          "summary_source": "llm"
         }
       ]
     },

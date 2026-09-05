@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-09-05T01:55:20.877165+00:00",
+  "crawled_at": "2026-09-05T09:24:27.502857+00:00",
   "days": [
     {
       "date": "2026-09-05",
@@ -35,6 +35,30 @@
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1946412.html",
           "publisher": "Mulazim Hussain",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "date_label": "09月08日 下周二",
+      "games": [
+        {
+          "game_name": "灵武世界",
+          "categories": [
+            "Roguelike",
+            "冒险",
+            "探索",
+            "剧情",
+            "割草",
+            "社交"
+          ],
+          "score": null,
+          "release_date": "2026-09-08",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1935286.html",
+          "publisher": "贵州梦轩",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }
