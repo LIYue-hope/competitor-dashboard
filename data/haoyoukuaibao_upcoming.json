@@ -1,30 +1,9 @@
 {
-  "crawled_at": "2026-09-04T01:55:40.576898+00:00",
+  "crawled_at": "2026-09-05T01:54:33.792519+00:00",
   "days": [
     {
-      "date": "2026-09-04",
-      "date_label": "09月04日 今天",
-      "games": [
-        {
-          "game_name": "塔塔冒险队",
-          "categories": [
-            "建造",
-            "养成",
-            "收集"
-          ],
-          "score": null,
-          "event_desc": "08:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/196013.htm",
-          "publisher": "上海莉莉丝网络科技有限公司",
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-06",
-      "date_label": "09月06日 后天",
+      "date_label": "09月06日 明天",
       "games": [
         {
           "game_name": "墨斗师",
@@ -38,7 +17,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202853.htm",
           "publisher": "拳众娱乐",
-          "reservation_count": "44",
+          "reservation_count": "52",
           "has_afk_grinding_tag": false
         }
       ]
@@ -59,7 +38,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/197920.htm",
           "publisher": null,
-          "reservation_count": "82",
+          "reservation_count": "90",
           "has_afk_grinding_tag": false
         },
         {
@@ -74,7 +53,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202180.htm",
           "publisher": "Crystal Dynamics",
-          "reservation_count": "212",
+          "reservation_count": "220",
           "has_afk_grinding_tag": false
         }
       ]
@@ -91,11 +70,11 @@
             "竞技"
           ],
           "score": "7.7",
-          "event_desc": "正式包预下载，9月10日上线",
-          "status_tag": null,
+          "event_desc": "距9月9日开放下载仅剩4天",
+          "status_tag": "招募中",
           "detail_url": "https://www.3839.com/a/148499.htm",
           "publisher": null,
-          "reservation_count": "89.8万",
+          "reservation_count": "90.3万",
           "has_afk_grinding_tag": false
         }
       ]
@@ -116,7 +95,28 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/148499.htm",
           "publisher": null,
-          "reservation_count": "89.8万",
+          "reservation_count": "90.3万",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "date_label": "09月11日 下周五",
+      "games": [
+        {
+          "game_name": "热力无限赛车",
+          "categories": [
+            "多人联机",
+            "竞速",
+            "赛车"
+          ],
+          "score": null,
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/198768.htm",
+          "publisher": null,
+          "reservation_count": "560",
           "has_afk_grinding_tag": false
         }
       ]

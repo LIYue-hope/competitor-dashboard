@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-04T02:15:20.344257+00:00",
+  "generated_at": "2026-09-05T02:07:30.872625+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-09-04",
-      "article_count": 4,
+      "article_count": 6,
       "game_count": 3,
-      "untagged_count": 1,
-      "digest": "西山居宣布《剑侠世界4：无限》将于10月公测，郭炜炜离职后该作被定位为运营20年的“终极收官之作”。索尼以12亿日元接盘《智龙迷城》开发商GungHo，孙正义弟弟清仓股份。此外，8月抖音小游戏畅销榜显示《灵画师》连冠，三七游戏有6款产品入榜。",
+      "untagged_count": 3,
+      "digest": "西山居宣布《剑侠世界4：无限》将于10月公测，郭炜炜离职后该作被定位为运营20年的“终极收官之作”。索尼以12亿日元巨资接盘GungHo，孙正义弟弟清仓股份。此外，《灵画师》在8月抖音小游戏畅销榜中连冠，三七互娱有6款产品入榜。",
       "digest_source": "llm",
-      "input_hash": "46de8046f81ff0c5",
+      "input_hash": "5a5e8fded73ab5e6",
       "game_digests": [
         {
           "name": "剑侠世界4：无限",
@@ -22,13 +22,13 @@
         {
           "name": "智龙迷城",
           "count": 1,
-          "summary": "索尼以12亿日元接盘《智龙迷城》开发商GungHo，孙正义弟弟清仓股份。",
+          "summary": "索尼以12亿日元巨资接盘GungHo，孙正义弟弟清仓股份，GungHo抱上新大腿。",
           "summary_source": "llm"
         },
         {
           "name": "灵画师",
           "count": 1,
-          "summary": "该游戏在8月抖音小游戏畅销榜Top 100中连冠，三七游戏有6款产品入榜。",
+          "summary": "该作在8月抖音小游戏畅销榜Top 100中连冠，三七互娱有6款产品入榜。",
           "summary_source": "llm"
         }
       ]
@@ -204,41 +204,6 @@
           "count": 1,
           "summary": "农友就打农家牌！7000万预约，《王者万象棋》9月10日全平台上线！。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "article_count": 7,
-      "game_count": 4,
-      "untagged_count": 3,
-      "digest": "国产单机与派对游戏成为今日焦点，《只狗：路边一条》由9人团队开发并首曝火遍全球，《渔力全开》凭借魔性玩法两天爆卖100万份。动视暴雪新作《现代战争4》Steam测试超11万在线但口碑低迷，Supercell则分享了《皇室战争》从失败更新中吸取的教训。",
-      "digest_source": "llm",
-      "input_hash": "606c9c888a3b55f8",
-      "game_digests": [
-        {
-          "name": "只狗：路边一条",
-          "count": 1,
-          "summary": "国产单机《只狗：路边一条》由9人团队开发，首曝内容因“狗剑客”的搞笑设定火遍全球。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "渔力全开",
-          "count": 1,
-          "summary": "2人开发的钓鱼射击融合派对游戏《渔力全开》Steam在线达37万人，两天内爆卖100万份。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "现代战争4",
-          "count": 1,
-          "summary": "动视暴雪重磅新作《现代战争4》Steam测试在线人数超11万，但遭遇口碑低迷。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "皇室战争",
-          "count": 1,
-          "summary": "Supercell在演讲中回顾了《皇室战争》的发展历程，分享了从多次失败更新中吸取的教训。",
-          "summary_source": "llm"
         }
       ]
     }

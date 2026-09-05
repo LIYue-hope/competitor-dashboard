@@ -1,63 +1,9 @@
 {
-  "crawled_at": "2026-09-04T01:56:32.831993+00:00",
+  "crawled_at": "2026-09-05T01:55:20.877165+00:00",
   "days": [
     {
-      "date": "2026-09-04",
-      "date_label": "09月04日 今天",
-      "games": [
-        {
-          "game_name": "暗黑挂机II",
-          "categories": [
-            "TapTap制造",
-            "角色扮演"
-          ],
-          "score": "9.7",
-          "release_date": "2026-09-04",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1953760.html",
-          "publisher": "TDgaming工作室",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "大王请留步",
-          "categories": [
-            "策略"
-          ],
-          "score": null,
-          "release_date": "2026-09-04",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1953768.html",
-          "publisher": "海南娱创科技有限公司",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "塔塔冒险队",
-          "categories": [
-            "建造",
-            "养成",
-            "收集",
-            "休闲",
-            "策略",
-            "放置",
-            "卡牌",
-            "塔防",
-            "竖屏"
-          ],
-          "score": "7.2",
-          "release_date": "2026-09-04",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1952320.html",
-          "publisher": "上海莉莉丝网络科技有限公司",
-          "is_major_publisher": true,
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
       "date": "2026-09-05",
-      "date_label": "09月05日 明天",
+      "date_label": "09月05日 今天",
       "games": [
         {
           "game_name": "魔幻砖域",
@@ -77,7 +23,7 @@
     },
     {
       "date": "2026-09-07",
-      "date_label": "09月07日 下周一",
+      "date_label": "09月07日 后天",
       "games": [
         {
           "game_name": "终极野生狮子模拟器 3D",
@@ -122,22 +68,6 @@
       "date_label": "09月10日 下周四",
       "games": [
         {
-          "game_name": "小小英杰:合战天下",
-          "categories": [
-            "策略",
-            "三国",
-            "SLG",
-            "角色扮演"
-          ],
-          "score": "7.2",
-          "release_date": "2026-09-10",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1954387.html",
-          "publisher": "上海电光火石科技有限公司",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
           "game_name": "王者万象棋",
           "categories": [
             "多平台",
@@ -147,7 +77,7 @@
             "自走棋",
             "多端互通"
           ],
-          "score": "7.7",
+          "score": "7.6",
           "release_date": "2026-09-10",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1841952.html",
@@ -174,6 +104,47 @@
           "publisher": "上海莉莉丝网络科技有限公司",
           "is_major_publisher": true,
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "date_label": "09月11日 下周五",
+      "games": [
+        {
+          "game_name": "热力无限赛车",
+          "categories": [
+            "多人联机",
+            "竞速",
+            "赛车",
+            "漂移",
+            "3D"
+          ],
+          "score": "7.7",
+          "release_date": "2026-09-11",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952267.html",
+          "publisher": "广州金科文化科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "梦之形",
+          "categories": [
+            "PC游戏",
+            "动作",
+            "MOBA",
+            "Roguelike",
+            "多人联机",
+            "冒险"
+          ],
+          "score": "8.5",
+          "release_date": "2026-09-11",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1942651.html",
+          "publisher": "心动",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
         }
       ]
     }

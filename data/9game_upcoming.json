@@ -1,37 +1,9 @@
 {
-  "crawled_at": "2026-09-04T01:56:21.112237+00:00",
+  "crawled_at": "2026-09-05T01:55:10.939816+00:00",
   "days": [
     {
-      "date": "2026-09-04",
-      "date_label": "09月04日 今天",
-      "games": [
-        {
-          "game_name": "名将冲突",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/mingjiangchongtu/",
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "超级雷电战神",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "单职业高爆传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/chaojileidianzhanshen/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-07",
-      "date_label": "09月07日 下周一",
+      "date_label": "09月07日 后天",
       "games": [
         {
           "game_name": "寒刃2",
@@ -42,6 +14,23 @@
           "event_desc": "超变传奇",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/hanren21/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "date_label": "09月08日 下周二",
+      "games": [
+        {
+          "game_name": "猛将勇士",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": "绝色三国",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/mengjiangyongshi/",
           "has_afk_grinding_tag": false
         }
       ]
@@ -93,6 +82,23 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/rlwxsc/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "date_label": "09月14日",
+      "games": [
+        {
+          "game_name": "至尊传说",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "超变传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/zhizunchuanshuo1/",
           "has_afk_grinding_tag": false
         }
       ]
@@ -166,7 +172,7 @@
           "event_desc": "登录送顶奢时装",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/longyinshanhai/",
-          "has_afk_grinding_tag": true
+          "has_afk_grinding_tag": false
         }
       ]
     },
