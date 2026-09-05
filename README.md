@@ -1,6 +1,8 @@
 ## 后续更新安排
 
 - [x] 将上周预览中的综合热度榜固定为上一周数据，不随日期每日更新变动（已实现，2026-09-02）
+- [x] 修复 TapTap 新游连续 3 天采集 0 条：列表页 2026-09 改版为 Nuxt SPA，`crawl_taptap.py`
+  改走 webapiv2 日历接口 `calendar/v1/upcoming`（已实现，2026-09-05）
 - [ ] 构建服务器实现页面中点击刷新能够抓取网页中的最新数据而不是拿到仓库中的最性能数据
 - [ ] 调整llm输出每日总结的提示词、尽可能避免规则文本的输出
 
@@ -84,13 +86,14 @@ GameLook 与游资网没有评测文件。
 
 - **优先走站点接口，没有接口才解析 HTML。** 已确认可用的接口：
   TapTap 榜单 `webapiv2/app-top/v2/hits`、
+  TapTap 新游日历 `webapiv2/calendar/v1/upcoming`（需 `X-UA` 头，`type=1`、`limit≤10`）、
   游民星空 `db2.gamersky.com/LabelJsonpAjax.aspx`（JSONP）、
   GameLook WordPress REST API `wp-json/wp/v2/posts`、
   游资网资讯 `gameres.com/api/v1/portal/articles`（cursor 翻页，`page_size` 上限 50）、
   游资网新游 `gameres.com/api/public/v1/gamecenter/test_game`（与 16p.com 同一后端）、
   腾讯内容中心 `apps.game.qq.com/cmc/cross`、
   米哈游官网 CMS `content_v2_user/getContentList`。
-  TapTap 新游列表、好游快爆、九游、3DMGame、游侠网走服务端渲染 HTML + BeautifulSoup，
+  好游快爆、九游、3DMGame、游侠网走服务端渲染 HTML + BeautifulSoup，
   全项目不引入 playwright。
 - **滚动窗口而非全量覆盖。** 资讯类：新闻 10 天、评测 15 天（评测出稿频率低，窗口更长）；
   热门游戏动态与好游快爆/九游排期：7 天；游资网新游是 `[today, today+6]` 朝未来 7 天。
@@ -113,6 +116,8 @@ GameLook 与游资网没有评测文件。
   「市场」父类 tid=13 不会出现在条目 tags 里，必须展开成子标签）。
 - 游资网新游必须传 `type_range=2`（国内游戏），且 `testtype` 精确等于「上线」
   （`startswith` 会把「上线试玩」带进来）；不要再用 `game.area == "CN"` 二次筛。
+- TapTap 新游接口必须带 `X-UA` 头（不带直接 400 INVALID_XUA）、`type=1` 才有数据、
+  `limit` 上限 10、`day` 为北京时区当日 0 点的 unix 秒。
 - TapTap 详情页需逐个请求补预约量级。
 
 ## LLM 总结与热度榜
@@ -232,9 +237,12 @@ npm run build    # 产物在 web/dist，含拷贝进去的 data/
 
 ## 已知限制
 
-- HTML 解析类爬虫（TapTap 新游、好游快爆、九游、3DMGame、游侠网）的选择器绑定当前页面
+- HTML 解析类爬虫（好游快爆、九游、3DMGame、游侠网）的选择器绑定当前页面
   DOM 结构，站点前端改版会导致解析失败；此时脚本会拒绝写空数据，页面停留在旧数据，
   需要用浏览器开发者工具核对真实 DOM 后调整选择器。
+- TapTap 新游列表页 2026-09 改版为 Nuxt SPA，旧 SSR 容器（`app-upcoming__list`）已移除；
+  `crawl_taptap.py` 已改用 webapiv2 日历接口（需 `X-UA` 头，`type=1`、`limit≤10`），
+  接口字段本身仍可能随站点改版变化，失效表现与处理方式同 HTML 解析类一致。
 - TapTap 新游的预约量级只在详情页出现，脚本会对每个游戏 ID 额外发一次请求，
   请求量随新游数量线性增长，注意抓取频率。
 - TapTap 榜单接口只认 `type_name=hot/reserve/sell/new`（`played`/`download` 返回 400），

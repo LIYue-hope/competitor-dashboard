@@ -1,22 +1,30 @@
 """TapTap 新游监测采集脚本。
 
 数据源：
-  - 列表页 https://www.taptap.cn/upcoming （新游预约列表，服务端渲染）
-  - 详情页 https://www.taptap.cn/app/{id} （用于补充预约量级字段）
+  - 新游列表：webapiv2 日历接口
+    GET https://www.taptap.cn/webapiv2/calendar/v1/upcoming?type=1&limit=10
+    响应形如 {"success":true,"now":..,"data":{"list":[{"day":<北京当日0点unix秒>,
+    "list":[<event>...]}...],"prev_page":"","next_page":""}}；每个 event 的
+    app_card_info 自带标题、评分、类型标签、发行商、关注/评价/讨论量级等完整卡片字段。
+  - 详情页 https://www.taptap.cn/app/{id} （用于补充发行商、预约量级等字段）
 
-选型说明：
-  列表页经核查为服务端渲染的静态 HTML（非异步 JS 渲染），未发现可直接调用的
-  公开 JSON API（未找到类似 /webapiv2/... 的稳定接口返回新游列表数据），因此
-  采用 requests + BeautifulSoup 直接解析 HTML，不引入 playwright。
+改版说明（2026-09-02 前后）：
+  原 SSR 列表页 https://www.taptap.cn/upcoming 已重做为 Nuxt SPA（今日游戏 /
+  app-calendar），旧容器 class="app-upcoming__list" 已不存在，SSR HTML 里只剩
+  SPA 壳 + __NUXT_DATA__（devalue 扁平图，不值得解析），导致旧解析链路持续拿到
+  0 条。因此本脚本改用与 crawl_taptap_rank.py 同款的 webapiv2 JSON 接口，
+  不再解析 HTML 列表页。
 
-注意：
-  列表页本身不包含"预约量级"，该数据只在游戏详情页展示，因此本脚本会对每个
-  游戏 ID 额外请求一次详情页。
+已知坑：
+  - 接口必须带 X-UA 请求头（不带直接 400 INVALID_XUA），并带上常规 UA/Referer；
+  - limit 上限 10（传 20+ 直接 400），type=1 才有数据（0/2..7 为空）；
+  - day 按北京时区当日 0 点给出，转日期必须用 +8 时区；
+  - 预约量级等统计只在游戏详情页展示，因此本脚本仍会对每个游戏 ID 额外请求一次详情页；
+  - next_page 为空表示没有更多页（实测如此）；万一非空需继续拉（相对路径前面补
+    https://www.taptap.cn，最多翻 3 页保险）。
 
-已知限制：
-  页面 CSS class 命名可能随 TapTap 前端版本更新而变化，下方选择器基于当前
-  观察到的页面结构编写，如解析持续失败（大量条目被跳过），需要用浏览器
-  开发者工具重新核对真实 DOM 结构后调整。
+输出：
+  data/taptap_upcoming.json，游戏对象扁平数组（schema 与旧 SSR 版保持一致）。
 """
 import json
 import logging
@@ -30,7 +38,7 @@ from datetime import datetime, timedelta, timezone
 from bs4 import BeautifulSoup
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from utils import fetch_html, is_major_publisher, has_afk_grinding_tag  # noqa: E402
+from utils import fetch_html, fetch_json, is_major_publisher, has_afk_grinding_tag  # noqa: E402
 
 logging.basicConfig(
     level=logging.INFO,
@@ -38,110 +46,176 @@ logging.basicConfig(
 )
 logger = logging.getLogger("crawl_taptap")
 
-LIST_URL = "https://www.taptap.cn/upcoming"
 DETAIL_URL_TMPL = "https://www.taptap.cn/app/{app_id}"
 OUTPUT_PATH = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), "..", "data", "taptap_upcoming.json"
 )
 
-APP_LINK_RE = re.compile(r"^/app/(\d+)")
+# webapiv2 日历接口（与 crawl_taptap_rank.py 同款调用方式）。
+# type=1 才有数据（0/2..7 为空）；limit 上限 10（传 20+ 直接 400）。
+UPCOMING_API_URL = "https://www.taptap.cn/webapiv2/calendar/v1/upcoming"
+UPCOMING_TYPE = "1"
+PAGE_LIMIT = 10
+# 保险上限：实测 next_page 为空，翻页逻辑仅为接口行为变化时兜底
+MAX_PAGES = 3
+
+# 接口要求的客户端标记，不带 X-UA 会直接 400 INVALID_XUA（照抄 crawl_taptap_rank.py）
+X_UA = (
+    "V=1&PN=WebApp&LANG=zh_CN&VN_CODE=102&LOC=CN&PLT=PC"
+    "&DS=Android&UID=0&OS=Windows&CH=website"
+)
+
+# 北京时区（固定 +8，无夏令时）：接口的 day 是北京当日 0 点的 unix 秒
+BEIJING_TZ = timezone(timedelta(hours=8))
 
 
-def parse_list_page(html):
-    """解析列表页，返回每个游戏的基础信息（名称、上线日期、类型标签、详情页链接等）。"""
-    soup = BeautifulSoup(html, "html.parser")
-    games = []
+def _fetch_upcoming_page(url):
+    """GET 一页 upcoming JSON。成功返回 payload dict，失败返回 None。
 
-    # 页面除新游预约列表外，还有一个侧边栏"热门游戏"推荐区块
-    # （class="web-aside-wrap"，如原神、我的世界、蛋仔派对等常驻热门游戏），
-    # 该区块与本采集目标无关，必须排除，否则会把热门游戏误当成新游列表条目。
-    # 新游预约列表真实容器为 class="app-upcoming__list"，内部按日期分组为
-    # 多个 class="upcoming-item"，每个分组含日期标题（upcoming-item__title）
-    # 和该日期下的游戏卡片列表（upcoming-item__event-list 下的 <a>）。
-    upcoming_list = soup.find(class_="app-upcoming__list")
-    if not upcoming_list:
-        logger.warning(
-            "未找到新游列表容器（class=app-upcoming__list），页面结构可能已变化，"
-            "本次不解析出任何数据"
-        )
-        return games
-
-    for item in upcoming_list.find_all(class_="upcoming-item"):
-        title_node = item.find(class_="upcoming-item__title")
-        date_text = title_node.get_text(strip=True) if title_node else None
-
-        for anchor in item.find_all("a", href=APP_LINK_RE):
-            href = anchor.get("href", "")
-            match = APP_LINK_RE.match(href)
-            if not match:
-                continue
-
-            try:
-                game = _parse_game_card(anchor, match.group(1), date_text)
-                if game:
-                    games.append(game)
-            except Exception:
-                logger.exception("解析游戏卡片失败，跳过该条目，href=%s", href)
-
-    # 去重（同一个 app_id 可能因图片/标题分别形成多个 <a> 而重复，或因带
-    # 查询参数如 ?os=android 而 URL 不同但指向同一款游戏）
-    deduped = {}
-    for game in games:
-        deduped[game["app_id"]] = game
-    return list(deduped.values())
-
-
-def _parse_game_card(anchor, app_id, upcoming_date):
-    """从单个 <a href="/app/{id}"> 节点解析出一张游戏卡片的基础字段。
-
-    实测真实 DOM 结构（见浏览器/requests 抓取样例）如下（简化）：
-        <a href="/app/862677">
-          <div class="event-type-label__title">首发</div>          <!-- 状态角标，可能没有 -->
-          <div class="daily-event-app-info__title">魔幻砖域</div>   <!-- 游戏名称 -->
-          <div class="tap-rating__less-rating-font">暂无评分</div>  <!-- 或 tap-rating__number 存具体分数 -->
-          <div class="tap-label-tag">卡牌</div>...                 <!-- 类型标签，可能没有 -->
-        </a>
-    游戏名称固定在 class="daily-event-app-info__title" 的节点里，不再依赖
-    文本片段顺序猜测，避免与日期分组文本、状态角标混淆导致错位。
-    上线日期由调用方从所属 upcoming-item__title 传入（如"08/14 周五"）。
+    utils.fetch_json 已合并 DEFAULT_HEADERS（常规 UA / Accept-Language），
+    这里再补 X-UA 与 Referer 两个 webapiv2 必需的请求头。
     """
-    name_node = anchor.find(class_="daily-event-app-info__title")
-    name = name_node.get_text(strip=True) if name_node else None
+    headers = {"X-UA": X_UA, "Referer": "https://www.taptap.cn/"}
+    try:
+        payload = fetch_json(url, headers=headers).json()
+    except Exception:
+        logger.exception("upcoming 接口请求失败：%s", url)
+        return None
+    if not isinstance(payload, dict) or payload.get("success") is not True:
+        logger.warning("upcoming 接口返回异常结构，url=%s", url)
+        return None
+    return payload
+
+
+def _fetch_day_groups():
+    """按 next_page 翻页拉取 upcoming 接口，返回所有 day 分组原始列表。
+
+    任一页请求失败/结构异常时返回 None，与"正常返回但分组为空"的 [] 区分，
+    便于外层把两种情况分别按"抓取失败"与"解析到 0 款"记日志。
+    """
+    url = "%s?type=%s&limit=%d" % (UPCOMING_API_URL, UPCOMING_TYPE, PAGE_LIMIT)
+    groups = []
+    for _ in range(MAX_PAGES):
+        payload = _fetch_upcoming_page(url)
+        if payload is None:
+            return None
+        data = payload.get("data") or {}
+        page_groups = data.get("list") or []
+        groups.extend(page_groups)
+        next_page = data.get("next_page") or ""
+        if not next_page:
+            break
+        if next_page.startswith("/"):
+            url = "https://www.taptap.cn" + next_page
+        elif next_page.startswith("http"):
+            url = next_page
+        else:
+            logger.warning("无法识别的 next_page，停止翻页：%r", next_page)
+            break
+    return groups
+
+
+def _day_to_iso(day):
+    """day 是北京时区当日 0 点的 unix 秒，转成 YYYY-MM-DD；解析失败返回 None。"""
+    try:
+        return datetime.fromtimestamp(int(day), tz=BEIJING_TZ).date().isoformat()
+    except (TypeError, ValueError, OSError):
+        return None
+
+
+def _event_to_game(event, day_iso):
+    """把单个 event 摊平成一张基础游戏 dict，字段缺失到无法构成记录时返回 None。
+
+    返回 dict 的 key 与旧 SSR 版 parse_list_page 的产物保持一致：
+    app_id / name / score / status_tag / tags / release_date / detail_url。
+    """
+    app = event.get("app_card_info") or {}
+    if not isinstance(app, dict):
+        return None
+
+    game_id = event.get("game_id")
+    if not game_id:
+        return None
+
+    title = app.get("title") or ""
+    if isinstance(title, dict):
+        title = title.get("text") or ""
+    name = str(title).strip()
     if not name:
         return None
 
-    status_node = anchor.find(class_="event-type-label__title")
-    status_tag = status_node.get_text(strip=True) if status_node else None
-
-    # 评分：有具体分数时在 tap-rating__number 节点里存数字；没有评分时
-    # （新游预约期常见，属于正常情况，不是解析 bug）该位置直接展示
-    # "暂无评分"四个字（class="tap-rating__less-rating-font"），
-    # 实测列表卡片原文顺序就是"首发 → 魔幻砖域 → 暂无评分 → 卡牌..."。
-    # 这里直接存该文案字符串（而不是 None），这样前端 v-if="game.score"
-    # 对非空字符串判断为真，能正常展示"暂无评分"，无需改动前端逻辑。
-    score_node = anchor.find(class_="tap-rating__number")
-    if score_node:
-        score = score_node.get_text(strip=True)
-    else:
-        less_rating_node = anchor.find(class_="tap-rating__less-rating-font")
-        score = less_rating_node.get_text(strip=True) if less_rating_node else None
+    # 评分：有 rating.score 时取字符串（如"7.4"），没有评分的新游保持 None，
+    # 前端按 v-if="game.score" 自行决定展示与否。
+    stat = app.get("stat") or {}
+    rating = stat.get("rating") if isinstance(stat, dict) else None
+    score = None
+    if isinstance(rating, dict) and rating.get("score") is not None:
+        score = str(rating.get("score")).strip() or None
 
     tags = [
-        tag_node.get_text(strip=True)
-        for tag_node in anchor.find_all(class_="tap-label-tag")
-        if tag_node.get_text(strip=True)
+        str(tag.get("value")).strip()
+        for tag in app.get("tags") or []
+        if isinstance(tag, dict) and tag.get("value")
     ]
+    tags = [t for t in tags if t]
 
     return {
-        "app_id": app_id,
+        "app_id": str(game_id),
         "name": name,
         "score": score,
-        "status_tag": status_tag,
+        "status_tag": event.get("sub_event_type_title"),
         "tags": tags,
-        "release_date": upcoming_date,
-        "detail_url": DETAIL_URL_TMPL.format(app_id=app_id),
+        "release_date": day_iso,
+        "detail_url": DETAIL_URL_TMPL.format(app_id=game_id),
     }
 
+
+def parse_day_groups(day_groups):
+    """把接口的 day 分组列表摊平成基础游戏 dict 列表。
+
+    同一款游戏在同一天可能有多个 event（如首发 + 预下载），不同日期分组间
+    也可能重复出现，这里按 app_id 去重、保留第一次出现的记录。
+    """
+    games = []
+    seen = set()
+    for group in day_groups or []:
+        if not isinstance(group, dict):
+            continue
+        day_iso = _day_to_iso(group.get("day"))
+        for event in group.get("list") or []:
+            if not isinstance(event, dict):
+                continue
+            game = _event_to_game(event, day_iso)
+            if not game or game["app_id"] in seen:
+                continue
+            seen.add(game["app_id"])
+            games.append(game)
+    return games
+
+
+def fetch_and_parse_list(attempts=3, wait_seconds=5):
+    """抓取并解析 upcoming 接口，解析不到任何游戏时整体重试。
+
+    utils.fetch_json 只在 requests 抛异常时重试，而 TapTap 偶发返回 HTTP 200
+    但正文缺少预期结构（反爬/限流返回的降级响应），这种响应不会触发其重试。
+    CI runner 的出口 IP 更容易命中该情况，因此这里在"抓取 + 解析"这一整层
+    再加一次重试（语义与原 SSR 列表页版本一致）。
+    """
+    for attempt in range(1, attempts + 1):
+        day_groups = _fetch_day_groups()
+        if day_groups is None:
+            logger.warning("第 %d/%d 次 upcoming 接口抓取失败", attempt, attempts)
+        else:
+            games = parse_day_groups(day_groups)
+            if games:
+                return games
+            logger.warning("第 %d/%d 次接口解析到 0 款游戏", attempt, attempts)
+
+        if attempt < attempts:
+            logger.info("等待 %d 秒后重试", wait_seconds)
+            time.sleep(wait_seconds)
+
+    return []
 
 
 def extract_metric(page_text, label):
@@ -192,7 +266,7 @@ def enrich_with_detail(game):
         if publisher_match:
             publisher = publisher_match.group(1).strip()
 
-        # 上线日期：从详情页解析准确完整日期，覆盖列表页分组标题（如"08/14 周五"）。
+        # 上线日期：优先用详情页解析到的准确完整日期，覆盖基础记录里接口给的日期。
         # 详情页存在两种日期字面格式：
         #   1) "2026/08/21"（斜杠分隔，见诡秘之主/菜鸡梦想家）
         #   2) "2026-08-22"（连字符分隔，见江城创业记）
@@ -206,18 +280,23 @@ def enrich_with_detail(game):
             game["release_date"] = f"{y}-{int(m):02d}-{int(d):02d}"
         else:
             # 详情页没有完整日期（如"漫画群星：大集结"只标"限量测试"，无上线日期
-            # 字段）时，回退用列表页分组标题里的"月/日"（如"08/19 周三"），
-            # 按当前月份推断年份：仅当前月为 12 月且目标月为 1 月时归为明年，
-            # 其余情况默认今年。统一归一化为 YYYY-MM-DD，与详情页格式一致。
-            fallback_match = re.search(r"(\d{1,2})[/\-](\d{1,2})", game.get("release_date") or "")
-            if fallback_match:
-                m, d = int(fallback_match.group(1)), int(fallback_match.group(2))
-                today = datetime.now(timezone.utc) + timedelta(hours=8)
-                year = today.year + 1 if today.month == 12 and m == 1 else today.year
-                try:
-                    game["release_date"] = f"{year}-{m:02d}-{d:02d}"
-                except ValueError:
-                    pass
+            # 字段）时，保留基础记录给的日期。基础记录现在直接来自接口 day 字段、
+            # 已经是完整 YYYY-MM-DD，不能再丢进 MM/DD 正则二次改写——
+            # "2026-09-09"会被错切成 "26-09"。只有该字段还不是完整日期（旧 SSR
+            # 版传入的"MM/DD 周几"分组标题等）时才走旧的回退逻辑：解析"月/日"，
+            # 按当前月份推断年份（仅当前月为 12 月且目标月为 1 月时归为明年，
+            # 其余情况默认今年），统一归一化为 YYYY-MM-DD。
+            release_date = game.get("release_date") or ""
+            if not re.match(r"^\d{4}-\d{1,2}-\d{1,2}$", release_date):
+                fallback_match = re.search(r"(\d{1,2})[/\-](\d{1,2})", release_date)
+                if fallback_match:
+                    m, d = int(fallback_match.group(1)), int(fallback_match.group(2))
+                    today = datetime.now(timezone.utc) + timedelta(hours=8)
+                    year = today.year + 1 if today.month == 12 and m == 1 else today.year
+                    try:
+                        game["release_date"] = f"{year}-{m:02d}-{d:02d}"
+                    except ValueError:
+                        pass
 
         # 挂机/搬砖玩法判定依据"游戏介绍"与"开发者的话"两段文本：
         #   - 游戏介绍：class="app-intro__summary"（简介摘要），退化到 app-intro__item；
@@ -274,36 +353,15 @@ def build_output(games):
     return records
 
 
-def fetch_and_parse_list(attempts=3, wait_seconds=5):
-    """抓取并解析列表页，解析不到任何游戏时整体重试。
-
-    utils.fetch_html 只在 requests 抛异常时重试，而 TapTap 偶发返回 HTTP 200
-    但正文缺少新游列表容器（反爬/限流返回的降级页面），这种响应不会触发
-    fetch_html 的重试。CI runner 的出口 IP 更容易命中该情况，因此这里在
-    "抓取 + 解析" 这一整层再加一次重试。
-    """
-    for attempt in range(1, attempts + 1):
-        list_html = fetch_html(LIST_URL)
-        if list_html:
-            games = parse_list_page(list_html)
-            if games:
-                return games
-            logger.warning("第 %d/%d 次解析到 0 款游戏", attempt, attempts)
-        else:
-            logger.warning("第 %d/%d 次列表页抓取失败", attempt, attempts)
-
-        if attempt < attempts:
-            logger.info("等待 %d 秒后重试", wait_seconds)
-            time.sleep(wait_seconds)
-
-    return []
-
-
 def main():
-    logger.info("开始抓取 TapTap 新游列表：%s", LIST_URL)
+    logger.info(
+        "开始抓取 TapTap 新游列表接口：%s?type=%s&limit=%d",
+        UPCOMING_API_URL,
+        UPCOMING_TYPE,
+        PAGE_LIMIT,
+    )
     games = fetch_and_parse_list()
-    logger.info("列表页解析到 %d 款游戏", len(games))
-
+    logger.info("接口解析到 %d 款游戏", len(games))
 
     enriched = []
     for game in games:
@@ -311,9 +369,9 @@ def main():
 
     records = build_output(enriched)
 
-    # 健全性检查：列表页解析到 0 条记录基本只有两种可能——页面结构变化导致
-    # 选择器失效，或者本次请求被限流/返回异常页面。两种情况都不应该用空
-    # 列表覆盖掉之前采集到的正常数据，直接终止本次写入。
+    # 健全性检查：解析到 0 条记录基本只有两种可能——接口改版导致字段失效，
+    # 或者本次请求被限流/返回异常响应。两种情况都不应该用空列表覆盖掉之前
+    # 采集到的正常数据，直接终止本次写入。
     if not records:
         logger.error("采集结果为空（0 条记录），疑似解析失效，终止写入以避免覆盖旧数据")
         return 1
