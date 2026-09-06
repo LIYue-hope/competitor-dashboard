@@ -1,30 +1,23 @@
 {
-  "crawled_at": "2026-09-05T09:24:27.502857+00:00",
+  "crawled_at": "2026-09-06T01:50:11.507499+00:00",
   "days": [
     {
-      "date": "2026-09-05",
-      "date_label": "09月05日 今天",
+      "date": "2026-09-07",
+      "date_label": "09月07日 明天",
       "games": [
         {
-          "game_name": "魔幻砖域",
+          "game_name": "小偷公司",
           "categories": [
-            "独立",
-            "策略"
+            "休闲"
           ],
-          "score": "9.2",
-          "release_date": "2026-09-05",
+          "score": "8.5",
+          "release_date": "2026-09-07",
           "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1909793.html",
-          "publisher": "便当游戏",
+          "detail_url": "https://www.16p.com/1954644.html",
+          "publisher": "超神网络",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "date_label": "09月07日 后天",
-      "games": [
+        },
         {
           "game_name": "终极野生狮子模拟器 3D",
           "categories": [
@@ -42,7 +35,7 @@
     },
     {
       "date": "2026-09-08",
-      "date_label": "09月08日 下周二",
+      "date_label": "09月08日 后天",
       "games": [
         {
           "game_name": "灵武世界",
@@ -92,6 +85,39 @@
       "date_label": "09月10日 下周四",
       "games": [
         {
+          "game_name": "欢乐消消消",
+          "categories": [
+            "养成",
+            "女性向",
+            "模拟经营",
+            "治愈",
+            "合成",
+            "休闲"
+          ],
+          "score": "8.3",
+          "release_date": "2026-09-10",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1954714.html",
+          "publisher": "紫辰乐游",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "云隐修仙录",
+          "categories": [
+            "修仙",
+            "文字",
+            "休闲"
+          ],
+          "score": null,
+          "release_date": "2026-09-10",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1954638.html",
+          "publisher": "次元茶馆工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
           "game_name": "王者万象棋",
           "categories": [
             "多平台",
@@ -108,26 +134,6 @@
           "publisher": "腾讯",
           "is_major_publisher": true,
           "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "小冰冰斗蛐蛐",
-          "categories": [
-            "策略",
-            "竞技",
-            "搜打撤",
-            "养成",
-            "动物",
-            "Roguelike",
-            "自走棋",
-            "竖屏"
-          ],
-          "score": "6.9",
-          "release_date": "2026-09-10",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1952327.html",
-          "publisher": "上海莉莉丝网络科技有限公司",
-          "is_major_publisher": true,
-          "has_afk_grinding_tag": true
         }
       ]
     },
@@ -144,29 +150,11 @@
             "漂移",
             "3D"
           ],
-          "score": "7.7",
+          "score": "7.8",
           "release_date": "2026-09-11",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952267.html",
           "publisher": "广州金科文化科技有限公司",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "梦之形",
-          "categories": [
-            "PC游戏",
-            "动作",
-            "MOBA",
-            "Roguelike",
-            "多人联机",
-            "冒险"
-          ],
-          "score": "8.5",
-          "release_date": "2026-09-11",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1942651.html",
-          "publisher": "心动",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }

@@ -1,9 +1,110 @@
 {
-  "crawled_at": "2026-09-05T09:24:13.067394+00:00",
+  "crawled_at": "2026-09-06T01:49:56.396934+00:00",
   "days": [
     {
+      "date": "2026-09-01",
+      "date_label": "09月01日 周二",
+      "games": [
+        {
+          "game_name": "百战祖玛",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "攻速神器传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/bzzm/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "date_label": "09月02日 周三",
+      "games": [
+        {
+          "game_name": "仙逆：本尊",
+          "categories": [
+            "挂机"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/xnbz/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "荣耀时刻",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "散人高爆打金传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/rysk/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "date_label": "09月03日 周四",
+      "games": [
+        {
+          "game_name": "梦诛轻享",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "9月3日公测上线",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/mhxzxqx/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "咻咻勇者",
+          "categories": [
+            "冒险"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/xiuxiuyongzhe/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "date_label": "09月04日 周五",
+      "games": [
+        {
+          "game_name": "名将冲突",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/mingjiangchongtu/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "超级雷电战神",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "单职业高爆传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/chaojileidianzhanshen/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
       "date": "2026-09-07",
-      "date_label": "09月07日 后天",
+      "date_label": "09月07日 明天",
       "games": [
         {
           "game_name": "寒刃2",
@@ -20,7 +121,7 @@
     },
     {
       "date": "2026-09-08",
-      "date_label": "09月08日 下周二",
+      "date_label": "09月08日 后天",
       "games": [
         {
           "game_name": "猛将勇士",
