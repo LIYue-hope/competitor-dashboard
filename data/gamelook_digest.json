@@ -1,9 +1,32 @@
 {
-  "generated_at": "2026-09-06T02:00:04.585023+00:00",
+  "generated_at": "2026-09-07T02:05:36.528618+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-07",
+      "article_count": 3,
+      "game_count": 2,
+      "untagged_count": 1,
+      "digest": "2026年9月7日，游戏行业新闻数量为3条，涉及两款游戏。其中，《梦幻西游》手游作为一款长期占据畅销头部位置的游戏，其长青逻辑成为业界关注的焦点。同时，米哈游的《雨之城》也引起了玩家和媒体的关注，该游戏内测期间引入了AI视频平台，让玩家能够拍摄大片。",
+      "digest_source": "llm",
+      "input_hash": "d21393b67daff348",
+      "game_digests": [
+        {
+          "name": "梦幻西游",
+          "count": 1,
+          "summary": "《梦幻西游》手游稳居畅销头部，长青逻辑引关注",
+          "summary_source": "llm"
+        },
+        {
+          "name": "雨之城",
+          "count": 1,
+          "summary": "米哈游《雨之城》内测引入AI视频平台，玩家体验升级",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-09-04",
       "article_count": 6,
@@ -140,41 +163,6 @@
           "count": 1,
           "summary": "半年分水岭之后，小游戏该怎么走？《疯狂水世界》选择了一条没人走过的路。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "article_count": 9,
-      "game_count": 4,
-      "untagged_count": 5,
-      "digest": "2026年8月28日游戏行业资讯聚焦于腾讯云与Sandbox Interactive合作护航《Albion Online》、网易《无限大》确认2027年1月15日发售、巨人网络财报显示《超自然行动组》DAU破1200万，以及《剑网3》举办十七周年庆典。",
-      "digest_source": "llm",
-      "input_hash": "c83ead6f63c61b02",
-      "game_digests": [
-        {
-          "name": "Albion Online",
-          "count": 1,
-          "summary": "腾讯游戏安全ACE携手腾讯云与Sandbox Interactive达成合作，护航全球知名MMO《Albion Online》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑网3",
-          "count": 1,
-          "summary": "《剑网3》举办十七周年庆典，首次采用四面舞台，现场1.8万名玩家齐聚一堂，并发布年度重磅内容及未来2.0规划。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "无限大",
-          "count": 1,
-          "summary": "网易雷火在科隆游戏展确认《无限大》将于2027年1月15日发售，并带来实机内容展示。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "超自然行动组",
-          "count": 1,
-          "summary": "巨人网络上半年净利润暴增175%，财报显示《超自然行动组》DAU破1200万，持续领跑。",
-          "summary_source": "llm"
         }
       ]
     }

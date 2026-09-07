@@ -1,20 +1,137 @@
 {
-  "generated_at": "2026-09-02T02:15:42.600994+00:00",
-  "week_start": "2026-08-24",
-  "week_end": "2026-08-30",
-  "article_count": 2308,
-  "game_count": 293,
-  "digest": "上周游戏行业资讯总量达2308条，涉及293款游戏，其中《GTA6》以341条资讯领跑热度榜，R星确认游戏将如期发售并实机演示，同时透露每个房间均为手工打造，驾驶系统借鉴了《GTA4》的易上手性，高管还回应了玩家对质量的顾虑。网易《无限大》紧随其后，公布了PC版最低60GB的存储空间要求，并官宣定档2027年1月15日全球同步上线，同时宣布登陆PS5平台并支持PS5 Pro强化。国产手游《诡秘之主》热度攀升，8月24日更新开放千人战场，周末三天预估流水超6000万，但公测因顶配坐骑售价50万元引发争议。科隆游戏展期间，《伊莫》宣布PC端9月16日上线，移动端9月23日上线，大世界捉宠RPG《昭和米国物语》试玩报告与性感女主战斗预告引发关注。国产二游《白银之城》登陆PS5并支持PS5 Pro强化，光线追踪与DLSS 4.5预告引发热议。完美世界《异环》曝光上线四月吸金20亿，完美世界反亏1.18亿，泳装角色雨水物理交互细节备受好评。米哈游新作《源初之结》亮相科隆，宣布放弃抽卡机制只卖皮肤，主打奇幻写实动作与神话题材。此外，《巫师3》重制版配置提升至RTX 2060S，并推出专为时间少玩家设计的模式，DLC重点是男性友情；《共鸣：瘟疫传说传承》Steam特别好评，IGN评分6分引发讨论。",
+  "generated_at": "2026-09-07T02:11:46.551022+00:00",
+  "week_start": "2026-08-31",
+  "week_end": "2026-09-06",
+  "article_count": 2116,
+  "game_count": 254,
+  "digest": "在2026年8月31日至9月6日的周期内，游戏行业经历了一系列引人注目的事件。首先，Funplus推出的《伊莫》以其SLG（策略游戏）的新野心引起了广泛关注，预约量高达184万，并成功上榜。同时，腾讯即将在9月推出12款新游，包括莉莉丝、完美和B站等知名公司的作品，预示着游戏市场的新一轮竞争。另一焦点是《GTA6》，尽管尚未发布，但PS5模拟器已成功游玩了《给他爱5》，这为游戏的正式发布增添了期待。此外，迈阿密-戴德县警长对《GTA6》广告的反对，反映了社会对于暴力内容的敏感性。在独立游戏领域，《黎明行者之血》凭借其优秀的销量表现和优化问题，成为了玩家讨论的热点。而《鬼武者：剑之道》虽然遭遇启动灾难，但整体评价仍然不错，特别是其长达20小时的主线剧情受到了玩家的好评。在PC平台，《无限大》作为一款开放世界游戏，以其轻松愉快的游玩体验获得了玩家的认可。同时，《漫威金刚狼》也因其女性角色设计受到批评，而《最终幻想7：启示》则展示了过场快进功能的问题。总的来说，这个周期内的游戏市场活跃，多款新作和经典作品的更新吸引了大量玩家的关注，同时也暴露出一些游戏存在的问题和挑战。",
   "digest_source": "llm",
   "heat_formula": "热度 = 资讯量 30% + 跨源覆盖 15% + 预约量 18% + 社区（周内新增关注/评价/讨论）15% + TapTap 榜单名次 12% + 官方动态 7% + 评测讨论 3%；各项先对数归一（资讯满格 200 条），缺测的维度计 0、不倒扣，满分 100。",
-  "input_hash": "83d059ea4fb6b531",
+  "input_hash": "dc6aa01296458e29",
   "hot_ranking": [
     {
       "rank": 1,
+      "name": "伊莫",
+      "heat_score": 55.8,
+      "media_count": 2,
+      "source_count": 2,
+      "reservation_label": "184万",
+      "follow_delta_label": "3万",
+      "best_rank": 6,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "SLG大佬的新野心，Funplus：《伊莫》是公司史上最大豪赌！",
+          "url": "http://www.gamelook.com.cn/2026/09/601388/",
+          "source": "GameLook",
+          "published_at": "2026-09-03"
+        },
+        {
+          "title": "SLG大佬的新野心，Funplus董事长：《伊莫》是公司史上最大豪赌！",
+          "url": "https://mp.weixin.qq.com/s/hulpofz0ydhg4iJejhx5hg",
+          "source": "游资网",
+          "published_at": "2026-09-03"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "王者万象棋",
+      "heat_score": 51.7,
+      "media_count": 1,
+      "source_count": 1,
+      "reservation_label": "115万",
+      "follow_delta_label": "8万",
+      "best_rank": 1,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "9月预计12款新游上线：腾讯《王者万象棋》领衔，莉莉丝,完美,B站,趣加逐个登场",
+          "url": "http://www.gamelook.com.cn/2026/09/601320/",
+          "source": "GameLook",
+          "published_at": "2026-09-02"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "GTA6",
+      "heat_score": 44.8,
+      "media_count": 194,
+      "source_count": 4,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《GTA6》泄露大哥销声匿迹已一周多 落网了or成功跑路",
+          "url": "https://www.gamersky.com/news/202609/2201654.shtml",
+          "source": "游民星空",
+          "published_at": "2026-09-05"
+        },
+        {
+          "title": "仿佛遭到全网 “轮番拷打” 《GTA6》预告到处被跨游戏对比惹争议",
+          "url": "https://www.gamersky.com/news/202609/2203980.shtml",
+          "source": "游民星空",
+          "published_at": "2026-09-05"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "黎明行者之血",
+      "heat_score": 39.0,
+      "media_count": 68,
+      "source_count": 4,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《黎明行者之血》销量突破100万套 发售仅两天",
+          "url": "https://www.gamersky.com/news/202609/2203994.shtml",
+          "source": "游民星空",
+          "published_at": "2026-09-06"
+        },
+        {
+          "title": "《黎明行者之血》发售两天 销量成功突破100万",
+          "url": "https://www.3dmgame.com/news/202609/3952497.html",
+          "source": "3DMGame",
+          "published_at": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "闪耀吧！噜咪",
+      "heat_score": 38.4,
+      "media_count": 0,
+      "source_count": 0,
+      "reservation_label": "24万",
+      "follow_delta_label": "2万",
+      "best_rank": 9,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": []
+    },
+    {
+      "rank": 6,
       "name": "无限大",
-      "heat_score": 43.5,
-      "media_count": 9,
-      "source_count": 5,
+      "heat_score": 37.8,
+      "media_count": 6,
+      "source_count": 4,
       "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": 2,
@@ -24,176 +141,18 @@
       "official_count": 0,
       "news": [
         {
-          "title": "网易二游《无限大》登陆PS5！支持PS5 Pro强化",
-          "url": "https://www.gamersky.com/news/202608/2197639.shtml",
+          "title": "网易新游《无限大》确认开服100h内容！开放世界内容超多",
+          "url": "https://www.gamersky.com/news/202608/2199674.shtml",
           "source": "游民星空",
-          "published_at": "2026-08-27"
-        },
-        {
-          "title": "国产都市开放世界RPG《无限大》定档2027年1月15日 全球同步上线",
-          "url": "https://www.gamersky.com/news/202608/2196456.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-26"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "name": "GTA6",
-      "heat_score": 41.2,
-      "media_count": 341,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "R星高管确认GTA6将如期发售 望实机打消玩家质量顾虑",
-          "url": "https://www.3dmgame.com/news/202608/3951823.html",
-          "source": "3DMGame",
-          "published_at": "2026-08-30"
-        },
-        {
-          "title": "R星叕一次确认《GTA6》11.19发售！现在就差优化了",
-          "url": "https://www.gamersky.com/news/202608/2199095.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-30"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "name": "诡秘之主",
-      "heat_score": 37.5,
-      "media_count": 6,
-      "source_count": 4,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": 3,
-      "rank_lists": [
-        "hot"
-      ],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《诡秘之主》8月24日更新上线：开放1000人战场 新剧情与副本登场",
-          "url": "https://www.gamersky.com/news/202608/2195617.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-25"
-        },
-        {
-          "title": "50万一只坐骑！《诡秘之主》公测氪爆 研发烧了12亿",
-          "url": "https://www.gamersky.com/news/202608/2195604.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-25"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "name": "伊莫",
-      "heat_score": 35.9,
-      "media_count": 5,
-      "source_count": 4,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": 6,
-      "rank_lists": [
-        "reserve"
-      ],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《伊莫》亮相2026科隆游戏展，PC端上线定档9月16日，移动端定档9月23日",
-          "url": "https://www.3dmgame.com/news/202608/3951630.html",
-          "source": "3DMGame",
-          "published_at": "2026-08-27"
-        },
-        {
-          "title": "定档！大世界捉宠RPG《伊莫》登陆科隆展 新PV重磅放送",
-          "url": "https://www.ali213.net/news/html/2026-8/1034587.html",
-          "source": "游侠网",
-          "published_at": "2026-08-27"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "name": "昭和米国物语",
-      "heat_score": 33.5,
-      "media_count": 23,
-      "source_count": 4,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "Game Informer科隆试玩《昭和米国物语》",
-          "url": "https://www.gamersky.com/news/202608/2199114.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-30"
-        },
-        {
-          "title": "梗点拉满！《昭和米国物语》奇葩设定 果然是脑洞神作",
-          "url": "https://www.ali213.net/news/html/2026-8/1035347.html",
-          "source": "游侠网",
-          "published_at": "2026-08-30"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "name": "白银之城",
-      "heat_score": 33.3,
-      "media_count": 6,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": 5,
-      "rank_lists": [
-        "reserve"
-      ],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "国产《白银之城》登陆PS5!商店上线 支持PS5Pro强化",
-          "url": "https://www.gamersky.com/news/202608/2196474.shtml",
-          "source": "游民星空",
-          "published_at": "2026-08-26"
+          "published_at": "2026-08-31"
         }
       ]
     },
     {
       "rank": 7,
-      "name": "异环",
-      "heat_score": 33.1,
-      "media_count": 4,
-      "source_count": 4,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": 20,
-      "rank_lists": [
-        "hot"
-      ],
-      "official_count": 1,
-      "news": [
-        {
-          "title": "曝《异环》上线四月吸金20亿！完美世界反亏1.18亿",
-          "url": "https://www.3dmgame.com/news/202608/3951331.html",
-          "source": "3DMGame",
-          "published_at": "2026-08-25"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "name": "巫师3",
-      "heat_score": 33.0,
-      "media_count": 46,
+      "name": "鬼武者：剑之道",
+      "heat_score": 37.1,
+      "media_count": 82,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -202,25 +161,51 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《巫师3》资料片会卖爆！预估销量1140万份",
-          "url": "https://www.gamersky.com/news/202608/2197640.shtml",
+          "title": "《鬼武者：剑之道》发售当天惨遭破解！D加密又被绕过",
+          "url": "https://www.gamersky.com/news/202609/2204105.shtml",
           "source": "游民星空",
-          "published_at": "2026-08-29"
+          "published_at": "2026-09-06"
         },
         {
-          "title": "《巫师3》旧时曲全新周边公布！游戏未发售先来买衣服",
-          "url": "https://www.gamersky.com/news/202608/2197603.shtml",
+          "title": "《鬼武者：剑之道》官方庆祝发售！开发很不容易 感谢玩家",
+          "url": "https://www.gamersky.com/news/202609/2203855.shtml",
           "source": "游民星空",
-          "published_at": "2026-08-27"
+          "published_at": "2026-09-05"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "鬼武者",
+      "heat_score": 31.5,
+      "media_count": 35,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《鬼武者》Steam预估销量近40万 中国玩家占比最高",
+          "url": "https://www.gamersky.com/news/202609/2203480.shtml",
+          "source": "游民星空",
+          "published_at": "2026-09-06"
+        },
+        {
+          "title": "咒术回战作者祝贺《鬼武者》发售!芥见下下手绘贺图",
+          "url": "https://www.gamersky.com/news/202609/2203206.shtml",
+          "source": "游民星空",
+          "published_at": "2026-09-04"
         }
       ]
     },
     {
       "rank": 9,
-      "name": "共鸣：瘟疫传说传承",
-      "heat_score": 31.2,
-      "media_count": 15,
-      "source_count": 4,
+      "name": "漫威金刚狼",
+      "heat_score": 31.0,
+      "media_count": 32,
+      "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": null,
@@ -228,25 +213,25 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《共鸣：瘟疫传说传承》现已正式发售交织战斗、神话与命运，索菲亚的冒险之旅今日登陆主机与 PC 平台",
-          "url": "https://www.gameres.com/901202724.html",
-          "source": "游资网",
-          "published_at": "2026-08-28"
+          "title": "Insomniac《漫威金刚狼》新宣传片引争议 玩家对部分女性角色建模设计表达不满",
+          "url": "https://www.gamersky.com/news/202609/2203382.shtml",
+          "source": "游民星空",
+          "published_at": "2026-09-04"
         },
         {
-          "title": "《共鸣：瘟疫传说传承》发售预告片于开幕夜直播秀盛大首映",
-          "url": "https://www.3dmgame.com/news/202608/3951491.html",
+          "title": "《漫威金刚狼》发售宣传片 9月15日推出",
+          "url": "https://www.3dmgame.com/news/202609/3952335.html",
           "source": "3DMGame",
-          "published_at": "2026-08-26"
+          "published_at": "2026-09-03"
         }
       ]
     },
     {
       "rank": 10,
-      "name": "源初之结",
-      "heat_score": 31.0,
-      "media_count": 16,
-      "source_count": 4,
+      "name": "最终幻想7：启示",
+      "heat_score": 29.9,
+      "media_count": 26,
+      "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": null,
@@ -254,10 +239,16 @@
       "official_count": 0,
       "news": [
         {
-          "title": "米哈游新作《源初之结》开启预约！超多官方大图公开",
-          "url": "https://www.gamersky.com/news/202608/2196191.shtml",
+          "title": "《最终幻想7：启示》确定于2027年4月8日上市 系列三部曲迎来完结",
+          "url": "https://www.gamersky.com/news/202609/2202873.shtml",
           "source": "游民星空",
-          "published_at": "2026-08-26"
+          "published_at": "2026-09-04"
+        },
+        {
+          "title": "《最终幻想7启示》新预告 官宣明年4月8日发售",
+          "url": "https://www.gamersky.com/news/202609/2202755.shtml",
+          "source": "游民星空",
+          "published_at": "2026-09-03"
         }
       ]
     }

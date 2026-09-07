@@ -1,9 +1,30 @@
 {
-  "crawled_at": "2026-09-06T01:49:03.927242+00:00",
+  "crawled_at": "2026-09-07T01:46:25.592232+00:00",
   "days": [
     {
+      "date": "2026-09-07",
+      "date_label": "09月07日 今天",
+      "games": [
+        {
+          "game_name": "运气修仙",
+          "categories": [
+            "搜打撤",
+            "Roguelike",
+            "修仙"
+          ],
+          "score": null,
+          "event_desc": "08:00 上线试玩",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/203197.htm",
+          "publisher": null,
+          "reservation_count": null,
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
       "date": "2026-09-08",
-      "date_label": "09月08日 后天",
+      "date_label": "09月08日 明天",
       "games": [
         {
           "game_name": "灵武世界",
@@ -17,7 +38,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/197920.htm",
           "publisher": null,
-          "reservation_count": "104",
+          "reservation_count": "108",
           "has_afk_grinding_tag": false
         },
         {
@@ -32,38 +53,38 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202180.htm",
           "publisher": "Crystal Dynamics",
-          "reservation_count": "232",
+          "reservation_count": "240",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-09",
-      "date_label": "09月09日 下周三",
+      "date_label": "09月09日 后天",
       "games": [
         {
-          "game_name": "王者万象棋-预注册已开启",
+          "game_name": "王者万象棋-9.9预下载",
           "categories": [
             "多平台",
             "策略",
             "竞技"
           ],
           "score": "7.7",
-          "event_desc": "距9月9日开放下载仅剩3天",
+          "event_desc": "距9月9日开放下载仅剩2天",
           "status_tag": "招募中",
           "detail_url": "https://www.3839.com/a/148499.htm",
           "publisher": null,
-          "reservation_count": "90.9万",
+          "reservation_count": "91.3万",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-10",
-      "date_label": "09月10日 下周四",
+      "date_label": "09月10日 周四",
       "games": [
         {
-          "game_name": "王者万象棋-预注册已开启",
+          "game_name": "王者万象棋-9.9预下载",
           "categories": [
             "多平台",
             "策略",
@@ -74,14 +95,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/148499.htm",
           "publisher": null,
-          "reservation_count": "90.9万",
+          "reservation_count": "91.3万",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-11",
-      "date_label": "09月11日 下周五",
+      "date_label": "09月11日 周五",
       "games": [
         {
           "game_name": "热力无限赛车",

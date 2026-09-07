@@ -1,106 +1,308 @@
 {
-  "generated_at": "2026-09-06T01:56:12.725599+00:00",
+  "generated_at": "2026-09-07T01:58:24.037251+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-04",
-      "article_count": 96,
-      "game_count": 59,
-      "untagged_count": 17,
-      "digest": "Square Enix新作《最终幻想7：启示》确认PC版将搭载D加密引发玩家不满，卡普空重启作《鬼武者：剑之道》发售首日频发故障且好评率仅61%。索尼State of Play发布会公布《GTA6》限定手柄、万代《高达：异轨征途》定档2027年3月5日，史克威尔艾尼克斯公布《最终幻想：共鸣》试玩版及《GT赛车7》30周年大型更新。",
+      "date": "2026-09-06",
+      "article_count": 33,
+      "game_count": 20,
+      "untagged_count": 10,
+      "digest": "TGS2026前夕，史克威尔艾尼克斯宣布《最终幻想7：启示》将在展台提供全程试玩，该作定于2027年4月8日登陆多平台。同时，Switch 2版《最终幻想7：启示》130GB的惊人容量让系列霸榜游戏容量前四。此外，《漫威金刚狼》直播偷跑引发争议，而《星球大战：亡命之徒》则被破解者攻破Denuvo加密。",
       "digest_source": "llm",
-      "input_hash": "fad65cdec94782b3",
+      "input_hash": "5e28402d2a53f8d4",
       "game_digests": [
         {
-          "name": "最终幻想7：启示",
-          "count": 4,
-          "summary": "Square Enix确认PC版将搭载D加密技术，引发玩家对3A大作依赖D加密的不满。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 4,
-          "summary": "卡普空重启作《鬼武者：剑之道》今日登陆Steam，因严重启动故障等问题好评率仅61%。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7：启示",
-          "count": 3,
-          "summary": "索尼State of Play活动公开《最终幻想7：启示》10分钟实机演示，确认游戏将于2027年4月8日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Fate",
-          "count": 3,
-          "summary": "《Fate/EXTRA 重制版》正式开启预购，PS版售价388港币，确认于2027年1月28日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 3,
-          "summary": "索尼正式发布两款《GTA6》主题限定版DualSense手柄，分别以“罪恶都市”的白昼与夜色为灵感。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "高达：异轨征途",
-          "count": 3,
-          "summary": "万代南梦宫确认《高达：异轨征途》将于2027年3月5日登陆PS5、Xbox Series X|S与PC平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "地铁2039",
+          "name": "FF7启示",
           "count": 2,
-          "summary": "4A Games官宣《地铁2039》将于2027年2月4日全平台发售，主机首发即支持光追4K/60帧。",
-          "summary_source": "llm"
+          "summary": "游侠早报:TGS含《FF7启示》试玩 VRChat首次参展；30周年纪念之作！《FF7启示》TGS试玩开启 定档确认。",
+          "summary_source": "rules"
         },
         {
-          "name": "最终幻想：共鸣",
+          "name": "最终幻想",
           "count": 2,
-          "summary": "史克威尔艾尼克斯公布《最终幻想：共鸣》试玩版，容量约4.8GB，确认于10月22日发售。",
+          "summary": "Switch 2版容量130GB，系列霸榜游戏容量前四，1至6代迷你Melody TV将于2027年1月29日发售。",
           "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
           "count": 2,
-          "summary": "Insomniac公开《漫威金刚狼》新预告，多名反派集体亮相，但发售宣传片因女性角色建模粗糙引发玩家吐槽。",
+          "summary": "直播偷跑引发争议，男主利亚姆・麦金太尔曾为《战争机器》JD・菲尼克斯担当脸模配音。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 1,
+          "summary": "数百个房屋能够进去探索，引发玩家热议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "奥林匹斯之战",
+          "count": 1,
+          "summary": "时隔38年，原版夫妻制作人回归重制该作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "我的世界",
+          "count": 1,
+          "summary": "Fossil推出三款联名限量腕表，分别以界、末地及《我的世界：地下城2》为设计灵感。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星球大战：亡命之徒",
+          "count": 1,
+          "summary": "育碧大作被破解者Voices38攻破Denuvo加密保护。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星露谷",
+          "count": 1,
+          "summary": "1.7版本仍在开发中，两款MOD可提前体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7",
+          "count": 1,
+          "summary": "庆祝在PlayStation平台首次问世已过去29年，即将在2027年迎来发售30周年。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7：启示",
+          "count": 1,
+          "summary": "收藏版已售罄，官方暂无补货计划。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化危机",
+          "count": 1,
+          "summary": "《生化危机4》阿什莉体模PeachMilky晒出《最终幻想7》爱丽丝的Cos造型。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "真人快打1",
+          "count": 1,
+          "summary": "D加密被破解，曝新3D《马里奥》明年发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "诡秘之主",
+          "count": 1,
+          "summary": "女版Faker在直播中以Faker照片为模板捏脸，该项目总成本达12亿元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "质量效应",
+          "count": 1,
+          "summary": "《大迁离》确认全性别恋爱路线，性别不再成为情感羁绊的壁垒。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛博朋克2077",
+          "count": 1,
+          "summary": "HORI推出两款Switch 2主题配件——无线手柄与斜挎单肩包。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "article_count": 63,
+      "game_count": 32,
+      "untagged_count": 24,
+      "digest": "《GTA6》的预告片和相关讨论引发了社区的激烈争论，玩家对逐帧拆解内容的评价两极分化。《GTA6》PC版的消息传出，有传言称发售速度可能比外界预期的更快。《寂静岭》系列设计师伊藤畅达分享了他放弃恋爱和结婚的经历，以及他对早些年选择成家的看法。《沙丘：觉醒》主机版的性能模式支持动态4K/60帧，并宣布将加入XGP并支持跨平台进度共享。科乐美公布了以1920年代纽约为背景的动作冒险游戏《绯红狂想曲》的配置要求。《黎明行者之血》更新了PS5手柄支持，同时推出了一款“杰洛特替换Mod”。《Beach Invasion 1944》在Epic平台上免费领取，而PEL夏季赛圆满收官。ZUN亲自重制的经典名作《东方红魔乡：New Classic》确定于9月10日发售。第一人称战术撤离射击游戏《光芒行动》确认亮相FPS Games Show，并首次放出约3分钟的独家实机演示。科乐美正在内部讨论推出《合金装备：大师合集3》，有望收录《合金装备5：幻痛》与《合金装备崛起：复仇》。任天堂宣布将于北京时间9月8日播出《塞尔达传说》40周年纪念特别节目“塞尔达传说 Direct 2026.9.8”。瑞典零售商Retrospelbutiken上架了Switch 2版《塞尔达传说：时之笛》重制版商品页面，售价849克朗（约合人民币595元）。Steam新游《居家扮工虫》上线，玩家扮演蚯蚓打工赚钱的搞怪游戏。经典动作冒险游戏《影子传说》登陆PS5，定价62港币。",
+      "digest_source": "llm",
+      "input_hash": "5d73f818916bb733",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "两极分化！《GTA6》预告流出 遭各路游戏轮番对比拷打；外媒分析《GTA6》PS5 Pro版技术表现：难以稳定60帧；《GTA6》PC版比外界预期的要更快 有望一年内上线（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "寂静岭",
+          "count": 2,
+          "summary": "令人唏嘘！伊藤畅达回忆 开发《寂静岭》8年放弃找女友；《寂静岭》开发者伊藤畅达感叹若早结婚或许更幸福？。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "沙丘：觉醒",
+          "count": 2,
+          "summary": "游侠晚报：《沙丘觉醒》支持4K60帧 Epic游戏喜加一；《沙丘：觉醒》主机版性能模式支持动态4K/60帧！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "绯红狂想曲",
+          "count": 2,
+          "summary": "科乐美《绯红狂想曲》配置公布 20年代纽约很吃内存；科乐美新作《绯红狂想曲》上架Steam：红帽女主很可爱。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "黎明行者之血",
+          "count": 2,
+          "summary": "《黎明行者之血》新更新上线：PC版现已支持PS5手柄；《黎明行者之血》杰洛特Mod惊艳亮相 动作完美适配！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Beach Invasion 1944‌",
+          "count": 1,
+          "summary": "Epic喜加一：二战FPS《Beach Invasion 1944‌》免费领。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "PEL奇遇时光三亚篇",
+          "count": 1,
+          "summary": "PEL硝烟未散，海岛旅途启程！《PEL奇遇时光三亚篇》9月11日斗鱼重磅首播。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "东方红魔乡 重制版",
+          "count": 1,
+          "summary": "ZUN亲自重制！《东方红魔乡 重制版》宣布9月10日发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "光芒行动",
+          "count": 1,
+          "summary": "3分钟实机首曝！《光芒行动》确认亮相FPS GamesShow。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "合金装备：大师合集3",
+          "count": 1,
+          "summary": "科乐美内部爆料：《合金装备：大师合集3》正讨论中。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说",
+          "count": 1,
+          "summary": "任天堂宣布《塞尔达传说》40周年特别节目 9月8日播出。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说 时之笛RE",
+          "count": 1,
+          "summary": "任天堂硬刚GTA6！曝《塞尔达传说 时之笛RE》11月发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达时之笛",
+          "count": 1,
+          "summary": "《塞尔达时之笛》重制惊现瑞典零售商页面 售849克朗。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "居家扮工虫",
+          "count": 1,
+          "summary": "Steam新游《居家扮工虫》上线，怎么变成虫子了还要打工？。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影子传说",
+          "count": 1,
+          "summary": "FC忍者游戏《影子传说》正式登陆PS5：售价62港币！。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "article_count": 121,
+      "game_count": 65,
+      "untagged_count": 31,
+      "digest": "今日游戏资讯聚焦于《最终幻想7：启示》因D加密引发争议，卡普空重启作《鬼武者：剑之道》发售首日频发故障，索尼State of Play发布会公布《GTA6》限定手柄及多款新作定档，同时《漫威金刚狼》因角色建模设计引发玩家热议。",
+      "digest_source": "llm",
+      "input_hash": "68868499ae6b89e4",
+      "game_digests": [
+        {
+          "name": "最终幻想7：启示",
+          "count": 5,
+          "summary": "Square Enix确认PC版将搭载Denuvo防篡改技术，引发玩家对3A大作依赖D加密的不满。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "索尼State of Play发布会公布两款以“罪恶都市”为灵感的限定版DualSense手柄，引发玩家热议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鬼武者：剑之道",
+          "count": 4,
+          "summary": "卡普空重启作今日登陆Steam，因严重启动故障与功能缺失，好评率仅61%，官方尚未发布修复方案。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7：启示",
+          "count": 3,
+          "summary": "官方确认游戏将于2027年4月8日发售，作为系列三部曲的完结篇正式定档。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Fate",
+          "count": 3,
+          "summary": "《Fate/EXTRA 重制版》开启预购：PS版售价388港币！；“月之圣杯战争”再启！《Fate/EXTRA Record》官宣2027年1月28日发售；圣杯战争再临！《Fate/Extra》重制版定档27年1月。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 3,
+          "summary": "Insomniac公开新预告展示狼叔战斗风格，但新版魔形女建模因偏离经典人设引发玩家吐槽。",
           "summary_source": "llm"
         },
         {
           "name": "红色沙漠",
+          "count": 3,
+          "summary": "Pearl Abyss公布付费DLC“未知征途”将于10月16日发售，Steam国区预购价为108元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "高达：异轨征途",
+          "count": 3,
+          "summary": "万代南梦宫公布新作预告，确认将于2027年3月5日登陆PS5、Xbox Series X|S及PC平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黎明行者之血",
+          "count": 3,
+          "summary": "Rebel Wolves推送1.0.2热修复补丁，修复三大任务Bug，同时玩家Mod已将30天限时机制延长至90天。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "地铁2039",
           "count": 2,
-          "summary": "Pearl Abyss公布《红色沙漠》付费DLC“未知征途”，将于10月16日发售，Steam国区预购价108元。",
+          "summary": "4A Games确认本作在PS5、PS5 Pro及XSX上首发即支持光追4K/60帧性能模式，定档2027年2月4日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想：共鸣",
+          "count": 2,
+          "summary": "史克威尔艾尼克斯公布HD-2D回合制RPG新作，试玩版上线约4.8GB，确认10月22日发售。",
           "summary_source": "llm"
         },
         {
           "name": "食人鲨2",
           "count": 2,
-          "summary": "开发商Tripwire Interactive在Steam商店页移除了《食人鲨2》的D加密标签，引发玩家猜测。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 2,
-          "summary": "《黎明行者之血》发售数小时后，玩家Mod已将核心的30天限时机制修改为90天。",
+          "summary": "Steam商店页D加密标签突然消失，引发玩家猜测开发商是否听取了反馈改变主意。",
           "summary_source": "llm"
         },
         {
           "name": "FINAL FANTASY VII REVELATION",
           "count": 1,
-          "summary": "Square Enix宣布《最终幻想7：启示》将于2027年4月8日上市，作为系列三部曲的完结篇。",
+          "summary": "《FINAL FANTASY VII REVELATION》确定于 2027 年 4 月 8 日（四）上市！系列三部曲，迎来完结。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTAOL",
+          "count": 1,
+          "summary": "R星主创马特·弗里德曼透露，团队在开发初期曾集体唱衰《GTA Online》，认为其必将失败。",
           "summary_source": "llm"
         },
         {
-          "name": "GT赛车7",
+          "name": "GT赛车",
           "count": 1,
-          "summary": "为庆祝系列诞生30周年，《GT赛车7》公布代号“Spec IV”的大型更新，新增12辆新车及在线漂移赛。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Grim Trials",
-          "count": 1,
-          "summary": "微软撤回此前误设置为免费领取的《少女死神养成计划》订单，并从玩家库中移除该游戏。",
+          "summary": "小米成为Vision Gran Turismo项目史上首个中国品牌，为《GT赛车7》打造纯电概念超跑。",
           "summary_source": "llm"
         }
       ]
@@ -707,107 +909,6 @@
           "name": "幻珠奇港（Port of Jumanah）",
           "count": 1,
           "summary": "潜入深海肉鸽冒险《幻珠奇港（Port of Jumanah）》9 月 7 日正式登陆 Steam。",
-          "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "article_count": 104,
-      "game_count": 49,
-      "untagged_count": 23,
-      "digest": "今日游戏行业新闻概览显示，全球游戏市场继续蓬勃发展，多款新作和经典续作发布，引发广泛关注。以下是部分重点新闻的详细描述：《GTA6》开发中，Rockstar North团队负责人Rob Nelson透露，该游戏在开发初期曾考虑过四主角配置，但最终决定聚焦于杰森与露西亚娅这对“雌雄大盗”。《GTA6》全球预购量达460万份，其中77%来自PS5平台，显示了PlayStation平台的强大吸引力。Rockstar North联合负责人表示，《GTA6》将避开现实政治，避免让玩家感觉游戏“过时”。任天堂为《艾尔登法环》NS版开发了“保姆级新手”攻略包，受到玩家好评。《艾尔登法环》更新上线，新增了大量内容，包括DLC和新DLC时间点，优化了游戏平衡并修复了BUG。《巫师3》重制版配置曝光，预计在当前架构下无法实现4K全路径光追原生60帧，需依赖DLSS等技术。《巫师3》重制版PC配置升级，内存、系统、存储门槛大幅提高。《湮灭之潮》疑似支持XPA服务，主机PC双端免费畅玩。《瘟疫传说》新作性能实测出炉，Vega 64在1080p高画质下反超RX 5700 XT。《42中队》宣布跳票至2027年Q2，历经十二年开发。《FF15》导演田畑端将参与《电锯糖心》TGS舞台活动。《FF7:永恒危机》官宣定档10月7日停服。《For the Stars》科隆展宣传片流出，蜗牛游戏开启“开放宇宙”新篇章。《Holstin》确定2027年登陆PC及主机，首发加入Xbox Game Pass。TGS科乐城展位惊喜，《ONI零 复活》重制版实机试玩。",
-      "digest_source": "llm",
-      "input_hash": "7a6c637f83f4c87b",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 27,
-          "summary": "R星高管自曝：《GTA6》曾考虑四主角 最终锁定双主角；《GTA6》全球预购量达460万份！90%玩家买的终极版；R星承认《GTA6》避开现实政治 怕游戏发售就\"过时\"！（当天共 27 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "艾尔登法环",
-          "count": 3,
-          "summary": "任天堂为《艾尔登法环》NS 2版写“保姆级”新手攻略；《艾尔登法环》更新上线！海量内容来袭 新DLC时间揭晓；2款武器携专属战技登场！《艾尔登法环》新DLC上线。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "巫师3",
-          "count": 2,
-          "summary": "《巫师3》重制版配置大曝光：1080p光追仅需3060？；民间大神被\"招安\"!《巫师3》重制版CDPR再邀Mod高手。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "巫师3重制版",
-          "count": 2,
-          "summary": "掌机画质天花板！《巫师3重制版》NS2性能规格正式揭晓；《巫师3重制版》大升级！内存配置翻倍 老电脑集体劝退。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 2,
-          "summary": "血赚！《湮灭之潮》疑似入驻XPA 主机PC双端免费畅玩；排面拉满！国产3A《湮灭之潮》拿下科隆游戏展重磅大奖。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "瘟疫传说",
-          "count": 2,
-          "summary": "撼讯推出《瘟疫传说》联名款9070XT！限量附赠游戏；《瘟疫传说》新作优化逆天 老旗舰Vega 64教新卡做人。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "42中队",
-          "count": 1,
-          "summary": "十二年开发 六度延期！《42中队》终为《GTA6》让路。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "FF15",
-          "count": 1,
-          "summary": "梦幻联动？《FF15》导演现身《电锯糖心》TGS舞台！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "FF7：永恒危机",
-          "count": 1,
-          "summary": "倒计时一个月！《FF7:永恒危机》官宣定档10月7日停服。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "For the Stars",
-          "count": 1,
-          "summary": "《For the Stars》科隆展宣传片流出 蜗牛游戏开启“开放宇宙”新篇章。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Holstin",
-          "count": 1,
-          "summary": "心理生存恐怖游戏《Holstin》确定2027年登陆PC及主机！首发加入Xbox Game Pass，94%特别好评免费试玩版开放中。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "ONI零 复活",
-          "count": 1,
-          "summary": "TGS科乐美展位惊喜！《ONI零 复活》重制版实机试玩。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "PHYSINT",
-          "count": 1,
-          "summary": "小岛秀夫晒合照!马东锡正式加盟谍战新作《PHYSINT》。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "STRANGER THAN HEAVEN",
-          "count": 1,
-          "summary": "­­《STRANGER THAN HEAVEN》东京电玩展2026舞台活动迎来重磅嘉宾 城田优与藤冈靛9月21日亮相展区舞台。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "不朽之树",
-          "count": 1,
-          "summary": "生存建造游戏《不朽之树》试玩定档10月|全新预告片发布。",
           "summary_source": "rules"
         }
       ]

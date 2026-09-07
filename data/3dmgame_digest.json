@@ -1,40 +1,183 @@
 {
-  "generated_at": "2026-09-06T01:56:12.720923+00:00",
+  "generated_at": "2026-09-07T01:54:27.642357+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-06",
-      "article_count": 6,
-      "game_count": 4,
-      "untagged_count": 2,
-      "digest": "今日游戏行业资讯聚焦于R星新作《GTA6》的暴力尺度爆料、Bungie因《命运2》销量下滑而考虑转租总部大楼，以及《大迁离》与《黎明行者之血》分别宣布恋爱系统无性别限制与发售两天销量破百万。",
+      "date": "2026-09-07",
+      "article_count": 30,
+      "game_count": 21,
+      "untagged_count": 4,
+      "digest": "索尼与失眠组即将推出的《漫威金刚狼》泄露引发关注，但已破解PS5主机因固件版本限制无法运行；卡普空《鬼武者：剑之道》Steam在线人数突破8万，超越《生化危机2》与《街头霸王6》；《月光光心慌慌》亲密互动疑似遭删引发争议；《GTA6》新情报公布，游戏将于11月19日登陆PS5与XSX|S；《塞尔达：时之笛》重制版或于11月发售，与《GTA6》正面硬刚。",
       "digest_source": "llm",
-      "input_hash": "533ceae6b4f82aba",
+      "input_hash": "258b07976a0a24ee",
       "game_digests": [
         {
-          "name": "GTA6",
-          "count": 1,
-          "summary": "R星新作据称将比前作更血腥暴力，NPC被枪击会出现肢解或斩首效果，YouTuber ElRubius爆料暴力程度大幅提升，环境破坏场景也将更加丰富。",
+          "name": "漫威金刚狼",
+          "count": 3,
+          "summary": "索尼与失眠组即将推出的冒险游戏《漫威金刚狼》泄露到网络，但已破解的PS5主机因系统固件版本限制无法运行该游戏。",
           "summary_source": "llm"
         },
         {
-          "name": "命运2",
+          "name": "鬼武者：剑之道",
+          "count": 3,
+          "summary": "卡普空《鬼武者：剑之道》Steam在线人数突破8万，超越了《生化危机2》重制版与《街头霸王6》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "月光光心慌慌",
+          "count": 2,
+          "summary": "IllFonic《月光光心慌慌》在推出热修复后，疑似移除了玩家热议的亲密互动小游戏，官方尚未确认该改动。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Catharsis ～最后的画室～",
           "count": 1,
-          "summary": "Bungie因游戏销量下滑及裁员超600人，正考虑将其位于华盛顿州贝尔维尤的庞大总部大楼的大部分空间转租出去，以适应远程协作需求。",
+          "summary": "讲谈社Game Creators' Lab(GCL)公开了以游历名画世界为主题的“沉浸式艺术冒险游戏”《Catharsis ～最后的画室～》Steam页面。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 1,
+          "summary": "El Rubius分享了《GTA6》闭门实机演示的未公开机制与世界细节，游戏将于11月19日登陆PS5与XSX|S。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "SPINE",
+          "count": 1,
+          "summary": "赛博朋克枪斗游戏《SPINE》因预告中主角被多支枪口对准面部的镜头意外走红，相关片段全网播放量破上亿次。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "任天堂明星大乱斗",
+          "count": 1,
+          "summary": "舅舅党爆料任天堂正在开发《任天堂明星大乱斗》的完整续作，而非简单移植，该消息尚未得到官方证实。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "PC版《剑星》出现伊芙“赛博忍者”服装Mod，该Mod适配战斗、过场与拍照模式，玩家可在Nexus Mods平台下载。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "古墓丽影：亚特兰蒂斯遗迹",
+          "count": 1,
+          "summary": "亚马逊游戏工作室分享了《古墓丽影：亚特兰蒂斯遗迹》全新概念艺术图，玩家盛赞其希腊古墓场景美术。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "哭泣之光",
+          "count": 1,
+          "summary": "FuRyu开发的爱丽丝题材肉鸽游戏《哭泣之光》将于11月5日发售，试玩展示了卡牌构筑与闪避炸弹等系统。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达：时之笛",
+          "count": 1,
+          "summary": "爆料人NateTheHate预计任天堂将在11月推出《塞尔达传说：时之笛》重制版，与《GTA6》正面硬刚。",
           "summary_source": "llm"
         },
         {
           "name": "大迁离",
           "count": 1,
-          "summary": "前BioWare成员打造的科幻RPG《大迁离》允许主角与任意性别角色发展恋爱关系，叙事总监证实恋爱剧情由玩家主导且不受性别锁定。",
+          "summary": "太空歌剧RPG《大迁离》将于2027年4月7日登陆PC、PS5和XSX|S，游戏拥有“圣骑-不朽”双轴道德体系。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "孤岛惊魂5",
+          "count": 1,
+          "summary": "破解者0xZeOn为《孤岛惊魂5》当前版本发布了传统的未加密补丁，支持Windows 11 25H2系统。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "居家扮工虫",
+          "count": 1,
+          "summary": "独立游戏《居家扮工虫》现已登陆Steam，玩家扮演蚯蚓在金融业中通过处理Excel报表赚取财富。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "居家蠕动",
+          "count": 1,
+          "summary": "物理模拟游戏《居家蠕动》登陆Steam，玩家扮演居家办公的蠕虫，需在规定时间内完成工作任务。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "article_count": 18,
+      "game_count": 11,
+      "untagged_count": 6,
+      "digest": "今日游戏行业资讯聚焦于《GTA6》模拟器进展与暴力程度爆料，以及《Fortune’s Run》因开发权纠纷被迫取消。此外，俄罗斯方块公司维权白宫山寨版，CS2脏话追踪功能适得其反，Bungie因《命运2》销量下滑考虑转租总部大楼，而《黎明行者之血》发售两天销量破百万。",
+      "digest_source": "llm",
+      "input_hash": "9b009f7567aa15ba",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 2,
+          "summary": "PS5模拟器已能在KyTyPS5模拟器上以40-60帧运行PS5版《给他爱5》，网友预测这会给R星压力促使其加快推出PC版，同时R星新作据爆料将比前作更血腥暴力。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Fortune’s Run",
+          "count": 1,
+          "summary": "沉浸式模拟复古射击游戏《Fortune’s Run》因主开发者迪齐与Valve在项目控制权及9000美元款项上的纠纷，导致游戏被指控差评轰炸并彻底下架停售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "俄罗斯方块",
+          "count": 1,
+          "summary": "俄罗斯方块公司针对白宫官网收录的《筑墙》山寨版发布声明，明确表示与该行为划清界限，并强调对版权侵权持零容忍态度，威胁可能提起诉讼。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "反恐精英2",
+          "count": 1,
+          "summary": "Valve旗下《反恐精英2》推出的“脏话追踪”功能上线后适得其反，不仅未减少玩家辱骂，反而刺激大家争相在排行榜上刷屏，使用量激增。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "命运2",
+          "count": 1,
+          "summary": "Bungie因《命运2》销量下滑及三年内裁员超600人，正考虑将其位于华盛顿州贝尔维尤的总部大楼大部分空间转租出去，以适应数字化办公需求。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "大迁离",
+          "count": 1,
+          "summary": "科幻RPG《大迁离》确认恋爱系统不受性别锁定，无论主角是男性还是女性，均可与任意心仪角色发展恋情，叙事总监德鲁·卡尔皮申证实了这一设计思路。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "文明7",
+          "count": 1,
+          "summary": "2K与Firaxis Games宣布《文明7》将于9月上线1.5.0版本更新，并计划在2027年推出大型免费更新“Arc of Tomorrow”及付费资料片“地出寰宇”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "旧版符文传说",
+          "count": 1,
+          "summary": "前《符文传说》开发者“Mod Jed”安德鲁·莱克曼因利用后台权限盗取玩家游戏道具并转售牟利，被警方逮捕并正式宣判，最高将面临三年实刑。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "碧蓝幻想Relink",
+          "count": 1,
+          "summary": "Cygames为摆脱主线项目高预期包袱，推出全新发行厂牌Cygames Edge，旨在加快中小型游戏发售速度，其首个项目为《Where the Seeds Fall》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鬼玩人",
+          "count": 1,
+          "summary": "《鬼玩人》人气主演布鲁斯·坎贝尔确诊癌症后透露，医生给出的预期生存期约为五年，他已宣布将逐步淡出演员行业。",
           "summary_source": "llm"
         },
         {
           "name": "黎明行者之血",
           "count": 1,
-          "summary": "Rebel Wolves宣布该作发售两天销量已突破100万份，在Steam平台获得“特别好评”，最高同时在线玩家人数达到约7万人。",
+          "summary": "科幻RPG《黎明行者之血》发售两天销量成功突破100万份，在Steam平台获得“特别好评”，最高同时在线玩家人数达到约7万人。",
           "summary_source": "llm"
         }
       ]
@@ -843,107 +986,6 @@
           "name": "洛克人：双重超载",
           "count": 1,
           "summary": "纪念洛克人诞生40周年的新作《洛克人：双重超载》开发思路聚焦加大BOSS数量，每个关卡设置3大区域及BOSS，预计2027年发售。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "article_count": 99,
-      "game_count": 67,
-      "untagged_count": 8,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》NPC行为机制与《巫师3》重制版开发动态，同时《绝地潜兵2》CEO借机发声，以及艺画开天ARPG《凡应》开启第二轮测试，多款新作与重制版陆续公布发售日或试玩信息。",
-      "digest_source": "llm",
-      "input_hash": "9be7cb8b131267ba",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 23,
-          "summary": "《GTA6》NPC将比前作更敏锐，玩家在公共场合携带武器或火箭筒将面临报警风险，游戏将恢复六星通缉等级。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：重制版",
-          "count": 2,
-          "summary": "CDPR邀请民间画质Mod高手HalkHogan参与开发，并公布多段实机演示，画面在光影、贴图及远景方面均有显著提升。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "绝地潜兵2",
-          "count": 2,
-          "summary": "箭头工作室CEO表示《GTA6》未登PC且首发无线上模式，这给《绝地潜兵2》争取到了宝贵的喘息空间。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "13Z：生肖试炼",
-          "count": 1,
-          "summary": "肉鸽动作游戏《13Z：生肖试炼》将于2027年1月14日登陆Nintendo Switch 2及PS5平台，PC版将于2027年第一季度登陆Steam。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "COCORO",
-          "count": 1,
-          "summary": "AI末世背景的视觉小说《COCORO》登陆Steam平台，支持中文，讲述了失去故乡的少年与梦想结婚的仿生人少女的故事。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Cassette Beasts 2002",
-          "count": 1,
-          "summary": "怪物收集冒险游戏《Cassette Beasts 2002》将于2027年3月登陆PC、Switch 2、PS5及Xbox Series X|S平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7",
-          "count": 1,
-          "summary": "SBI负责人以《最终幻想7》重制系列为例，批评性感女角形象，并喊话“禁止这些恶心的污秽之物”，引发大量玩家负面评价。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "For the Stars",
-          "count": 1,
-          "summary": "蜗牛游戏公布开放宇宙生存MMO《For the Stars》科隆展宣传片，玩家可自定义飞船、缔结星际联盟，现已上线Steam。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA",
-          "count": 1,
-          "summary": "开发者回顾初代《GTA》开发往事，称其最初以城市模拟器为方向，后受俯视赛车构想启发，才逐渐形成俯视角犯罪沙盒玩法。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "P4重制",
-          "count": 1,
-          "summary": "世嘉公布2026年东京电玩展阵容，《女神异闻录4：复兴版》作为经典名作完全重制版将回归，画面与玩法系统全面革新。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "what goes up",
-          "count": 1,
-          "summary": "合作物理建造游戏《what goes up》公开，玩家将受雇于“银河废品公司”，利用重力枪、悬浮背包等装备回收太空垃圾。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴",
-          "count": 1,
-          "summary": "微软正洽谈十多款游戏改编项目，其中包括《上古卷轴》、《暗黑破坏神》等，潜在交易报价或达3亿美元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "与狼同行 重制版",
-          "count": 1,
-          "summary": "《与狼同行 重制版》确认将于2026年10月29日发售，登陆PC、PS5、Xbox Series X|S及Switch平台，新增黑白电影滤镜。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "凡应",
-          "count": 1,
-          "summary": "艺画开天旗下ARPG《凡应》今日开启EP02测试，采用虚幻5引擎开发，玩家将化身为海履者驾驭海巡兽展开冒险。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星：完整版",
-          "count": 1,
-          "summary": "《剑星：完整版》Switch2版将于2026年东京电玩展提供首次公开试玩，完整收录本体及两部大型扩展包。",
           "summary_source": "llm"
         }
       ]
