@@ -4,12 +4,14 @@ import NewGamesPanel from './components/NewGamesPanel.vue'
 import HotGamesPanel from './components/HotGamesPanel.vue'
 import GameNewsPanel from './components/GameNewsPanel.vue'
 import WeeklyDigestPanel from './components/WeeklyDigestPanel.vue'
+import HistoryDataPanel from './components/HistoryDataPanel.vue'
 import RefreshButton from './components/RefreshButton.vue'
 
 // 各数据源分开加载与展示，一个失败不影响其它板块的可用性。
 // key 与 data/*.json 的对应关系集中在这张表里，加减来源只改这里。
 const FILES = {
   weekly: 'weekly_digest.json',
+  weeklyHistory: 'weekly_history.json',
   taptap: 'taptap_upcoming.json',
   haoyou: 'haoyoukuaibao_upcoming.json',
   jiuyou: '9game_upcoming.json',
@@ -41,6 +43,7 @@ const SECTIONS = [
   ['new-games', '新游监测'],
   ['hot-games', '热门动态'],
   ['news', '游戏资讯'],
+  ['history', '历史数据'],
 ]
 const SECTION_KEYS = SECTIONS.map(([key]) => key)
 const DEFAULT_SECTION = 'weekly'
@@ -186,6 +189,7 @@ const newsSources = computed(() => [
 // 侧栏条目计数：让人在切板块之前就知道各板块有多少内容
 const counts = computed(() => ({
   weekly: (data.value.weekly?.hot_ranking || []).length,
+  history: (data.value.weeklyHistory?.heat_ranking || []).length,
   'new-games':
     (data.value.taptap || []).length +
     (data.value.haoyou?.days || []).reduce((n, d) => n + d.games.length, 0) +
@@ -284,6 +288,19 @@ const NEWS_FILES = [
               :errors="newGameErrors"
               :active="activeSection === 'new-games'"
             />
+          </section>
+
+          <section v-show="activeSection === 'history'" class="card">
+            <div class="card-head">
+              <h2>历史数据</h2>
+              <span class="spacer"></span>
+              <RefreshButton
+                :files="['weekly_history.json']"
+                storage-key="weekly-history"
+                @refreshed="onRefreshed"
+              />
+            </div>
+            <HistoryDataPanel :data="data.weeklyHistory" :error="errors.weeklyHistory || ''" />
           </section>
 
           <section v-show="activeSection === 'hot-games'" class="card">

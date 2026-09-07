@@ -292,6 +292,53 @@ class TestCollectAndPayload(unittest.TestCase):
             self.assertEqual(data["hot_ranking"][0]["media_count"], 3)
 
 
+class TestWeeklyHistory(unittest.TestCase):
+    def _ranked(self, count):
+        rows = []
+        for i in range(count):
+            bucket = _bucket(
+                articles=[{}] * (i + 1),
+                sources={"3dmgame"},
+            )
+            rows.append(
+                {
+                    "name": "Game%03d" % i,
+                    "heat": i / 100.0,
+                    "bucket": bucket,
+                }
+            )
+        return rows
+
+    def test_history_starts_at_configured_week_and_keeps_top_100(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            sw.update_weekly_history(
+                tmp, date(2026, 8, 31), date(2026, 9, 6), self._ranked(101)
+            )
+            payload = sw.load_json(os.path.join(tmp, sw.HISTORY_OUTPUT_NAME))
+        self.assertEqual(payload["weeks"], ["2026-08-31"])
+        self.assertEqual(len(payload["heat_ranking"]), 100)
+        self.assertEqual(len(payload["news_ranking"]), 100)
+        self.assertEqual(payload["heat_ranking"][0]["name"], "Game100")
+        self.assertEqual(payload["news_ranking"][0]["name"], "Game100")
+        self.assertEqual(payload["heat_ranking"][0]["week_end"], "2026-09-06")
+
+    def test_history_is_idempotent_per_week_and_ignores_earlier_weeks(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            sw.update_weekly_history(
+                tmp, date(2026, 8, 24), date(2026, 8, 30), self._ranked(1)
+            )
+            self.assertFalse(os.path.exists(os.path.join(tmp, sw.HISTORY_OUTPUT_NAME)))
+            sw.update_weekly_history(
+                tmp, date(2026, 8, 31), date(2026, 9, 6), self._ranked(1)
+            )
+            sw.update_weekly_history(
+                tmp, date(2026, 8, 31), date(2026, 9, 6), self._ranked(2)
+            )
+            payload = sw.load_json(os.path.join(tmp, sw.HISTORY_OUTPUT_NAME))
+        self.assertEqual(payload["weeks"], ["2026-08-31"])
+        self.assertEqual(len(payload["heat_ranking"]), 1)
+
+
 def _write_json_file(tmp_dir, name, payload):
     with open(os.path.join(tmp_dir, name), "w", encoding="utf-8") as handle:
         json.dump(payload, handle)

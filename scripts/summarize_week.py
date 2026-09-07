@@ -59,6 +59,9 @@ REVIEW_KEYS = ("3dmgame", "youxia", "gamersky")
 TOP_N = 10
 NEWS_PER_GAME = 2
 OUTPUT_NAME = "weekly_digest.json"
+HISTORY_OUTPUT_NAME = "weekly_history.json"
+HISTORY_START = "2026-08-31"
+HISTORY_LIMIT = 100
 
 # 热度权重：媒体 30% / 跨源 15% / 预约 18% / 社区 15% / 榜单 12% / 官方 7% / 评测 3%
 W_MEDIA = 0.30
@@ -671,6 +674,42 @@ def write_output(path, payload):
     logger.info("\u5199\u5165 %s\uff08%d \u6b3e\u6e38\u620f\uff09", path, len(payload.get("hot_ranking") or []))
 
 
+def _history_row(rank, row, start, end):
+    """历史榜用全量候选，而不是页面周报的 Top 10。"""
+    output = serialize_entry(rank, row)
+    output["week_start"] = start.isoformat()
+    output["week_end"] = end.isoformat()
+    return output
+
+
+def update_weekly_history(data_dir, start, end, ranked):
+    """追加一个自然周，并为两个榜单分别保留前 100 条。"""
+    if start.isoformat() < HISTORY_START:
+        return
+    path = os.path.join(data_dir, HISTORY_OUTPUT_NAME)
+    old = load_json(path) or {}
+    weeks = set(old.get("weeks") or [])
+    week_key = start.isoformat()
+    # 周报冻结期间仍可能再次运行；周起始日作为幂等键，不重复插入。
+    if week_key in weeks:
+        return
+
+    rows = [_history_row(i, row, start, end) for i, row in enumerate(ranked, start=1)]
+    heat_rows = list(old.get("heat_ranking") or []) + rows
+    news_rows = list(old.get("news_ranking") or []) + rows
+    heat_rows.sort(key=lambda row: (-float(row.get("heat_score") or 0), -int(row.get("media_count") or 0), row.get("name") or ""))
+    news_rows.sort(key=lambda row: (-int(row.get("media_count") or 0), -float(row.get("heat_score") or 0), row.get("name") or ""))
+    weeks.add(week_key)
+    payload = {
+        "history_start": HISTORY_START,
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "weeks": sorted(weeks),
+        "heat_ranking": heat_rows[:HISTORY_LIMIT],
+        "news_ranking": news_rows[:HISTORY_LIMIT],
+    }
+    write_output(path, payload)
+
+
 def run(data_dir=None, today=None):
     data_dir = data_dir or DATA_DIR
     start, end = last_week_range(today)
@@ -698,6 +737,7 @@ def run(data_dir=None, today=None):
             logger.info("窗口内没有新闻；%s 这一周的周报已生成并冻结，跳过重写", week_key)
         else:
             logger.info("周报已生成并冻结（%s ~ %s），跳过重写", start.isoformat(), end.isoformat())
+        update_weekly_history(data_dir, start, end, ranked)
         return True
 
     if not articles:
@@ -710,6 +750,7 @@ def run(data_dir=None, today=None):
     # 新一轮计算并写盘，自然覆盖「次周一」的轮换与首次上线场景。
     payload = build_payload(start, end, articles, ranked, data_dir=data_dir)
     write_output(output_path, payload)
+    update_weekly_history(data_dir, start, end, ranked)
     return True
 
 
