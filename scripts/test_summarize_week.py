@@ -309,10 +309,17 @@ class TestWeeklyHistory(unittest.TestCase):
             )
         return rows
 
+    def _articles_for_ranked(self, ranked, day="2026-08-31", source_key="3dmgame"):
+        return [
+            {"game_name": row["name"], "source_key": source_key, "published_at": day, "url": "https://example.com/%s/%s/%d" % (row["name"], day, index)}
+            for row in ranked
+            for index, _ in enumerate(row["bucket"]["articles"])
+        ]
+
     def test_history_starts_at_configured_week_and_keeps_top_100(self):
         with tempfile.TemporaryDirectory() as tmp:
             sw.update_weekly_history(
-                tmp, date(2026, 8, 31), date(2026, 9, 6), self._ranked(101)
+                tmp, date(2026, 8, 31), date(2026, 9, 6), self._ranked(101), self._articles_for_ranked(self._ranked(101))
             )
             payload = sw.load_json(os.path.join(tmp, sw.HISTORY_OUTPUT_NAME))
         self.assertEqual(payload["weeks"], ["2026-08-31"])
@@ -325,18 +332,79 @@ class TestWeeklyHistory(unittest.TestCase):
     def test_history_is_idempotent_per_week_and_ignores_earlier_weeks(self):
         with tempfile.TemporaryDirectory() as tmp:
             sw.update_weekly_history(
-                tmp, date(2026, 8, 24), date(2026, 8, 30), self._ranked(1)
+                tmp, date(2026, 8, 24), date(2026, 8, 30), self._ranked(1), self._articles_for_ranked(self._ranked(1))
             )
             self.assertFalse(os.path.exists(os.path.join(tmp, sw.HISTORY_OUTPUT_NAME)))
             sw.update_weekly_history(
-                tmp, date(2026, 8, 31), date(2026, 9, 6), self._ranked(1)
+                tmp, date(2026, 8, 31), date(2026, 9, 6), self._ranked(1), self._articles_for_ranked(self._ranked(1))
             )
             sw.update_weekly_history(
-                tmp, date(2026, 8, 31), date(2026, 9, 6), self._ranked(2)
+                tmp, date(2026, 8, 31), date(2026, 9, 6), self._ranked(2), self._articles_for_ranked(self._ranked(2))
             )
             payload = sw.load_json(os.path.join(tmp, sw.HISTORY_OUTPUT_NAME))
         self.assertEqual(payload["weeks"], ["2026-08-31"])
         self.assertEqual(len(payload["heat_ranking"]), 1)
+
+    def test_same_archived_week_repairs_news_ranking_from_history(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            ranked = self._ranked(2)
+            articles = self._articles_for_ranked(ranked)
+            start, end = date(2026, 8, 31), date(2026, 9, 6)
+            sw.update_weekly_history(tmp, start, end, ranked, articles)
+            path = os.path.join(tmp, sw.HISTORY_OUTPUT_NAME)
+            corrupted = sw.load_json(path)
+            corrupted["news_ranking"] = list(reversed(corrupted["news_ranking"]))
+            sw.write_output(path, corrupted)
+
+            sw.update_weekly_history(tmp, start, end, ranked, articles)
+            payload = sw.load_json(path)
+
+        self.assertEqual(payload["weeks"], ["2026-08-31"])
+        self.assertEqual(payload["news_ranking"], sw.rank_news_history(payload["news_history"]))
+
+    def test_news_history_merges_game_across_weeks_and_keeps_periods(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            first = self._ranked(101)
+            second = self._ranked(1)
+            # 同名游戏第二周的资讯量改为 7，验证累计而非覆盖。
+            second[0]["bucket"]["articles"] = [{}] * 7
+            sw.update_weekly_history(
+                tmp, date(2026, 8, 31), date(2026, 9, 6), first, self._articles_for_ranked(first)
+            )
+            sw.update_weekly_history(
+                tmp, date(2026, 9, 7), date(2026, 9, 13), second, self._articles_for_ranked(second, "2026-09-07", "youxia")
+            )
+            payload = sw.load_json(os.path.join(tmp, sw.HISTORY_OUTPUT_NAME))
+        game = next(row for row in payload["news_history"] if row["name"] == "Game000")
+        self.assertEqual(game["media_count"], 8)
+        self.assertEqual(game["first_article_date"], "2026-08-31")
+        self.assertEqual(game["last_article_date"], "2026-09-07")
+        self.assertEqual(game["source_count"], 2)
+        self.assertEqual(len(payload["news_history"]), 101)
+        expected_ranking = sorted(
+            payload["news_history"],
+            key=lambda row: (-int(row.get("media_count") or 0), -float(row.get("heat_score") or 0), row.get("name") or ""),
+        )[:sw.HISTORY_LIMIT]
+        self.assertEqual(payload["news_ranking"], expected_ranking)
+
+    def test_news_history_includes_games_that_do_not_qualify_for_heat(self):
+        articles = [
+            {"game_name": "NewsOnly", "source_key": "3dmgame", "published_at": "2026-08-31", "url": "https://example.com/1"},
+            {"game_name": "NewsOnly", "source_key": "youxia", "published_at": "2026-09-03", "url": "https://example.com/2"},
+            {"game_name": "NewsOnly", "source_key": "gamersky", "published_at": "2026-09-06", "url": "https://example.com/3"},
+            {"game_name": "NewsOnly", "source_key": "gamersky", "published_at": "2026-09-06", "url": "https://example.com/3"},
+            {"game_name": "TooOld", "source_key": "3dmgame", "published_at": "2026-08-30", "url": "https://example.com/old"},
+        ]
+        with tempfile.TemporaryDirectory() as tmp:
+            sw.update_weekly_history(
+                tmp, date(2026, 8, 31), date(2026, 9, 6), [], articles
+            )
+            payload = sw.load_json(os.path.join(tmp, sw.HISTORY_OUTPUT_NAME))
+        self.assertEqual(payload["heat_ranking"], [])
+        self.assertEqual(payload["news_ranking"][0]["name"], "NewsOnly")
+        self.assertEqual(payload["news_ranking"][0]["media_count"], 3)
+        self.assertEqual(payload["news_ranking"][0]["first_article_date"], "2026-08-31")
+        self.assertEqual(payload["news_ranking"][0]["last_article_date"], "2026-09-06")
 
 
 def _write_json_file(tmp_dir, name, payload):

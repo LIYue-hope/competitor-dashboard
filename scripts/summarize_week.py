@@ -62,6 +62,7 @@ OUTPUT_NAME = "weekly_digest.json"
 HISTORY_OUTPUT_NAME = "weekly_history.json"
 HISTORY_START = "2026-08-31"
 HISTORY_LIMIT = 100
+NEWS_HISTORY_VERSION = 2
 
 # 热度权重：媒体 30% / 跨源 15% / 预约 18% / 社区 15% / 榜单 12% / 官方 7% / 评测 3%
 W_MEDIA = 0.30
@@ -682,29 +683,146 @@ def _history_row(rank, row, start, end):
     return output
 
 
-def update_weekly_history(data_dir, start, end, ranked):
-    """追加一个自然周，并为两个榜单分别保留前 100 条。"""
+def _row_periods(row):
+    """兼容旧版单周期行，并统一为资讯累计榜需要的周期数组。"""
+    periods = row.get("periods") or [row]
+    out = []
+    for period in periods:
+        start = period.get("week_start")
+        end = period.get("week_end")
+        if start and end and {"week_start": start, "week_end": end} not in out:
+            out.append({"week_start": start, "week_end": end})
+    return sorted(out, key=lambda period: period["week_start"])
+
+
+def merge_news_history(rows):
+    """按游戏名累计去重后的资讯数，并保留首末真实发布日期。"""
+    merged = {}
+    for row in rows:
+        name = row.get("name") or ""
+        media_count = int(row.get("media_count") or 0)
+        # 历史资讯榜只收实际有资讯的游戏；热度入榜与资讯入榜互不依赖。
+        if not name or media_count <= 0:
+            continue
+        if name not in merged:
+            merged[name] = {**row, "media_count": 0, "article_ids": [], "source_keys": []}
+        target = merged[name]
+        ids = row.get("article_ids") or []
+        if ids:
+            known = set(target["article_ids"])
+            new_ids = [item for item in ids if item not in known]
+            target["article_ids"] += new_ids
+            target["media_count"] += len(new_ids)
+        elif not target["article_ids"]:
+            # 兼容没有 URL 去重键的旧行；v2 新数据始终走上面的精确去重分支。
+            target["media_count"] += media_count
+        source_keys = row.get("source_keys") or []
+        if source_keys:
+            target["source_keys"] = list(dict.fromkeys(target["source_keys"] + source_keys))
+            target["source_count"] = len(target["source_keys"])
+        else:
+            # 旧行未保存来源标识时无法精确并集，至少不让已有来源数倒退。
+            target["source_count"] = max(int(target.get("source_count") or 0), int(row.get("source_count") or 0))
+        for field, chooser in (("first_article_date", min), ("last_article_date", max)):
+            value = row.get(field)
+            if value:
+                target[field] = chooser(filter(None, [target.get(field), value]))
+        # 只作排序兜底，资讯榜本身不展示热度。
+        target["heat_score"] = max(float(target.get("heat_score") or 0), float(row.get("heat_score") or 0))
+    return list(merged.values())
+
+
+def collect_news_history_rows(articles, start, end):
+    """直接按周内资讯的 game_name 聚合，不受热度榜入榜门槛影响。"""
+    buckets = {}
+    for item in articles:
+        published_at = (item.get("published_at") or "")[:10]
+        if not published_at or published_at < HISTORY_START or not in_range(published_at, start, end):
+            continue
+        name = (item.get("game_name") or "").strip()
+        key = stat_key(name)
+        if not key:
+            continue
+        bucket = buckets.setdefault(key, {"variants": defaultdict(int), "sources": set(), "articles": []})
+        bucket["variants"][name] += 1
+        article_id = "%s:%s" % (item.get("source_key") or "", item.get("url") or "%s:%s" % (published_at, item.get("title") or ""))
+        bucket["articles"].append((article_id, published_at))
+        if item.get("source_key"):
+            bucket["sources"].add(item["source_key"])
+    return [
+        {
+            "name": pick_display_name(bucket["variants"]),
+            "media_count": len({article_id for article_id, _ in bucket["articles"]}),
+            "source_count": len(bucket["sources"]),
+            "source_keys": sorted(bucket["sources"]),
+            "week_start": start.isoformat(),
+            "week_end": end.isoformat(),
+            "article_ids": list(dict.fromkeys(article_id for article_id, _ in bucket["articles"])),
+            "first_article_date": min(day for _, day in bucket["articles"]),
+            "last_article_date": max(day for _, day in bucket["articles"]),
+        }
+        for bucket in buckets.values()
+    ]
+
+
+def rank_news_history(news_history):
+    """从全量资讯累计底稿派生页面展示的前 100 名。"""
+    return sorted(
+        news_history,
+        key=lambda row: (-int(row.get("media_count") or 0), -float(row.get("heat_score") or 0), row.get("name") or ""),
+    )[:HISTORY_LIMIT]
+
+
+def update_weekly_history(data_dir, start, end, ranked, articles):
+    """追加自然周：热度榜用 ranked，资讯榜直接按原始资讯聚合。"""
     if start.isoformat() < HISTORY_START:
         return
     path = os.path.join(data_dir, HISTORY_OUTPUT_NAME)
     old = load_json(path) or {}
     weeks = set(old.get("weeks") or [])
     week_key = start.isoformat()
-    # 周报冻结期间仍可能再次运行；周起始日作为幂等键，不重复插入。
-    if week_key in weeks:
+    # v1 的资讯行来自热度候选，不能拿来与直接资讯统计混用；首次升级时重建。
+    if old.get("news_data_version") == NEWS_HISTORY_VERSION:
+        news_history = merge_news_history(old.get("news_history") or [])
+        news_weeks = set(old.get("news_weeks") or [])
+    else:
+        news_history = []
+        news_weeks = set()
+    is_new_heat_week = week_key not in weeks
+    is_new_news_week = week_key not in news_weeks
+    # 热度周已归档但资讯源本次暂时为空时，不写只有时间戳变化的空更新；
+    # 保留 news_weeks 的缺口，等同周后续运行拿到资讯后再补齐。
+    if not is_new_heat_week and is_new_news_week and not articles:
+        return
+    if not is_new_heat_week and not is_new_news_week:
+        # 历史底稿归一化或展示榜偏离底稿时，安全重建派生榜而不追加当周数据。
+        news_ranking = rank_news_history(news_history)
+        if old.get("news_history") != news_history or old.get("news_ranking") != news_ranking:
+            migrated = {**old, "news_history": news_history}
+            migrated["news_ranking"] = news_ranking
+            write_output(path, migrated)
         return
 
-    rows = [_history_row(i, row, start, end) for i, row in enumerate(ranked, start=1)]
-    heat_rows = list(old.get("heat_ranking") or []) + rows
-    news_rows = list(old.get("news_ranking") or []) + rows
+    heat_rows = list(old.get("heat_ranking") or [])
+    if is_new_heat_week:
+        rows = [_history_row(i, row, start, end) for i, row in enumerate(ranked, start=1)]
+        # 与周报候选集保持一致：即使分数恰为 0，也应保留在历史榜中。
+        heat_rows += rows
+        weeks.add(week_key)
+    # 临时抓空时不落 news_weeks，让同周后续冻结运行仍能补齐。
+    if is_new_news_week and articles:
+        news_history = merge_news_history(news_history + collect_news_history_rows(articles, start, end))
+        news_weeks.add(week_key)
     heat_rows.sort(key=lambda row: (-float(row.get("heat_score") or 0), -int(row.get("media_count") or 0), row.get("name") or ""))
-    news_rows.sort(key=lambda row: (-int(row.get("media_count") or 0), -float(row.get("heat_score") or 0), row.get("name") or ""))
-    weeks.add(week_key)
+    news_rows = rank_news_history(news_history)
     payload = {
         "history_start": HISTORY_START,
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "weeks": sorted(weeks),
+        "news_data_version": NEWS_HISTORY_VERSION,
+        "news_weeks": sorted(news_weeks),
         "heat_ranking": heat_rows[:HISTORY_LIMIT],
+        "news_history": news_history,
         "news_ranking": news_rows[:HISTORY_LIMIT],
     }
     write_output(path, payload)
@@ -737,7 +855,7 @@ def run(data_dir=None, today=None):
             logger.info("窗口内没有新闻；%s 这一周的周报已生成并冻结，跳过重写", week_key)
         else:
             logger.info("周报已生成并冻结（%s ~ %s），跳过重写", start.isoformat(), end.isoformat())
-        update_weekly_history(data_dir, start, end, ranked)
+        update_weekly_history(data_dir, start, end, ranked, articles)
         return True
 
     if not articles:
@@ -750,7 +868,7 @@ def run(data_dir=None, today=None):
     # 新一轮计算并写盘，自然覆盖「次周一」的轮换与首次上线场景。
     payload = build_payload(start, end, articles, ranked, data_dir=data_dir)
     write_output(output_path, payload)
-    update_weekly_history(data_dir, start, end, ranked)
+    update_weekly_history(data_dir, start, end, ranked, articles)
     return True
 
 

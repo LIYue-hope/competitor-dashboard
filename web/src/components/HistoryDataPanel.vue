@@ -9,8 +9,9 @@ const props = defineProps({
 const pageSize = ref(20)
 const heatPage = ref(1)
 const newsPage = ref(1)
-const heatRows = computed(() => props.data?.heat_ranking || [])
-const newsRows = computed(() => props.data?.news_ranking || [])
+// 两个榜单按自身指标独立展示，避免要求同一游戏同时具备热度和资讯才可入榜。
+const heatRows = computed(() => (props.data?.heat_ranking || []).filter((row) => Number(row.heat_score) > 0))
+const newsRows = computed(() => (props.data?.news_ranking || []).filter((row) => Number(row.media_count) > 0))
 
 watch(pageSize, () => { heatPage.value = 1; newsPage.value = 1 })
 
@@ -23,29 +24,40 @@ const heatShown = computed(() => pageRows(heatRows.value, heatPage))
 const newsShown = computed(() => pageRows(newsRows.value, newsPage))
 
 function pages(rows) { return Math.max(1, Math.ceil(rows.length / pageSize.value)) }
-function period(row) {
-  const start = (row.week_start || '').slice(5)
-  const end = (row.week_end || '').slice(5)
-  return start && end ? `${start} ~ ${end}` : '—'
+function periods(row) {
+  const ranges = row.periods?.length ? row.periods : [row]
+  const labels = ranges.map((range) => {
+    const start = (range.week_start || '').slice(5)
+    const end = (range.week_end || '').slice(5)
+    return start && end ? `${start} ~ ${end}` : ''
+  }).filter(Boolean)
+  return labels.length ? labels : ['—']
+}
+function articleRange(row) {
+  const first = (row.first_article_date || '').slice(5)
+  const last = (row.last_article_date || '').slice(5)
+  return first && last ? `${first} ~ ${last}` : '—'
 }
 </script>
 
 <template>
   <div class="history-data">
-    <p class="hint">历史数据自 08-31 起累计；每周成稿后自动补充。各榜单最多保留前 100 款游戏。</p>
     <p v-if="error" class="state err"><span class="em">!</span>{{ error }}</p>
     <p v-else-if="!data" class="state"><span class="em">—</span>暂无历史数据</p>
     <template v-else>
-      <div class="history-toolbar">
-        <span class="stamp">每页显示</span>
-        <select v-model.number="pageSize" aria-label="每页显示条数">
-          <option :value="20">20 条</option>
-          <option :value="50">50 条</option>
-          <option :value="100">100 条</option>
-        </select>
+      <div class="history-note-row">
+        <p class="hint">历史数据自 08-31 起累计，每周成稿后自动补充，各榜单最多保留前 100 款游戏。</p>
+        <label class="history-toolbar">
+          <span class="stamp">每页显示</span>
+          <select v-model.number="pageSize" aria-label="每页显示条数">
+            <option :value="20">20 条</option>
+            <option :value="50">50 条</option>
+            <option :value="100">100 条</option>
+          </select>
+        </label>
       </div>
 
-      <section class="history-section">
+      <section class="history-section history-heat-section">
         <div class="card-head">
           <h2>历史热度榜</h2>
           <span class="badge brand">{{ heatRows.length }} / 100 款</span>
@@ -57,10 +69,8 @@ function period(row) {
             <div class="rank-top">
               <span class="rank-no">{{ (heatPage - 1) * pageSize + index + 1 }}</span>
               <span class="rank-name">{{ row.name }}</span>
-              <span class="heat-bar"><i :style="{ width: `${Math.min(row.heat_score || 0, 100)}%` }"></i></span>
-              <span class="heat-val">热度 {{ row.heat_score }}</span>
+              <span class="history-value"><span>{{ periods(row).join('、') }}</span><strong>热度 {{ row.heat_score }}</strong></span>
             </div>
-            <p class="rank-meta"><span>上榜周期 <strong>{{ period(row) }}</strong></span><span>资讯 {{ row.media_count }} 条</span><span>{{ row.source_count }} 个来源</span></p>
           </li>
         </ol>
         <p v-else class="state"><span class="em">—</span>暂无历史热度榜数据</p>
@@ -71,7 +81,7 @@ function period(row) {
         </div>
       </section>
 
-      <section class="history-section">
+      <section class="history-section history-news-section">
         <div class="card-head">
           <h2>历史游戏资讯榜</h2>
           <span class="badge brand">{{ newsRows.length }} / 100 款</span>
@@ -79,14 +89,12 @@ function period(row) {
           <span class="stamp">按历史资讯数量排序</span>
         </div>
         <ol v-if="newsShown.length" class="rank-list">
-          <li v-for="(row, index) in newsShown" :key="`${row.week_start}-${row.name}`" class="rank-row" :class="{ top: (newsPage - 1) * pageSize + index < 3 }">
+          <li v-for="(row, index) in newsShown" :key="`${row.name}-${articleRange(row)}`" class="rank-row" :class="{ top: (newsPage - 1) * pageSize + index < 3 }">
             <div class="rank-top">
               <span class="rank-no">{{ (newsPage - 1) * pageSize + index + 1 }}</span>
               <span class="rank-name">{{ row.name }}</span>
-              <span class="heat-bar"><i :style="{ width: `${Math.min((row.media_count / (newsRows[0]?.media_count || 1)) * 100, 100)}%` }"></i></span>
-              <span class="heat-val">资讯 {{ row.media_count }} 条</span>
+              <span class="history-value"><span>{{ articleRange(row) }}</span><strong>累计资讯 {{ row.media_count }} 条</strong></span>
             </div>
-            <p class="rank-meta"><span>上榜周期 <strong>{{ period(row) }}</strong></span><span>热度 {{ row.heat_score }}</span><span>{{ row.source_count }} 个来源</span></p>
           </li>
         </ol>
         <p v-else class="state"><span class="em">—</span>暂无历史游戏资讯榜数据</p>
@@ -101,10 +109,27 @@ function period(row) {
 </template>
 
 <style scoped>
-.history-toolbar { display: flex; justify-content: flex-end; align-items: center; gap: 8px; margin: 0 0 12px; }
+.history-note-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 12px; }
+.history-note-row .hint { margin: 0; }
+.history-toolbar { display: inline-flex; flex: none; align-items: center; gap: 8px; }
 select { border: 1px solid var(--border); background: var(--surface); color: var(--text); border-radius: var(--r-sm); padding: 5px 8px; font: 12px var(--font); }
 .history-section { border: 1px solid var(--border); border-radius: var(--r-md); padding: 14px; margin-top: 14px; background: var(--surface); }
 .history-section .card-head { margin-bottom: 10px; }
 .pager { display: flex; justify-content: flex-end; align-items: center; gap: 10px; margin-top: 12px; }
 .pager .icon-btn { height: 28px; font-size: 12px; }
+.history-section .rank-list { gap: 5px; }
+.history-section .rank-row { padding: 8px 10px; }
+.history-section .rank-top { gap: 7px; }
+.history-value { display: grid; grid-template-columns: 118px 84px; align-items: center; margin-left: auto; color: var(--text); font-size: 12px; font-variant-numeric: tabular-nums; text-align: right; }
+.history-value > span { white-space: nowrap; }
+.history-value strong { color: var(--text); font-weight: 700; white-space: nowrap; text-align: right; }
+.history-heat-section .history-value { grid-template-columns: 118px 64px; }
+.history-news-section .history-value { grid-template-columns: 118px 96px; }
+@media (max-width: 640px) {
+  .history-note-row { align-items: flex-start; flex-direction: column; }
+  .history-toolbar { align-self: flex-end; }
+  .history-value { grid-template-columns: 108px 80px; }
+  .history-heat-section .history-value { grid-template-columns: 108px 62px; }
+  .history-news-section .history-value { grid-template-columns: 108px 88px; }
+}
 </style>
