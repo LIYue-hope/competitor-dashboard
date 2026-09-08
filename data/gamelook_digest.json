@@ -1,28 +1,57 @@
 {
-  "generated_at": "2026-09-07T02:05:36.528618+00:00",
+  "generated_at": "2026-09-08T02:15:10.024669+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-07",
+      "date": "2026-09-08",
       "article_count": 3,
-      "game_count": 2,
-      "untagged_count": 1,
-      "digest": "2026年9月7日，游戏行业新闻数量为3条，涉及两款游戏。其中，《梦幻西游》手游作为一款长期占据畅销头部位置的游戏，其长青逻辑成为业界关注的焦点。同时，米哈游的《雨之城》也引起了玩家和媒体的关注，该游戏内测期间引入了AI视频平台，让玩家能够拍摄大片。",
+      "game_count": 1,
+      "untagged_count": 2,
+      "digest": "GameLook今日共报道3条新闻，主要聚焦于《和平精英》的公益实践与行业动态。其中一条重点报道了《和平精英》将海洋公益从一次性活动转化为长期主义样本，玩家在游戏内海岛地图中可拾取散落贝壳并欣赏精致贝雕作品，体现了游戏与公益的深度融合。",
       "digest_source": "llm",
-      "input_hash": "d21393b67daff348",
+      "input_hash": "ec3c62abc07b886b",
       "game_digests": [
+        {
+          "name": "和平精英",
+          "count": 1,
+          "summary": "《和平精英》将海洋公益实践干成长期主义样本，玩家在游戏内海岛地图中可拾取散落贝壳并欣赏精致贝雕作品，体现了游戏与公益的深度融合。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "article_count": 7,
+      "game_count": 4,
+      "untagged_count": 3,
+      "digest": "今日游戏行业资讯聚焦于独立游戏发售、老牌IP新作传闻及长青MMO运营分析。土耳其独立工作室LeftoStudio开发的合作拆弹派对游戏《BOMBANANA!》正式登陆Steam，引发关注；暴雪疑似通过官网故障暗示《星际争霸》射击新作即将到来；米哈游旗下《雨之城》开启内测，引入AI视频平台功能；此外，行业媒体还深入剖析了《梦幻西游》手游运营十一年的长青逻辑。",
+      "digest_source": "llm",
+      "input_hash": "3dae3a3c344a61dc",
+      "game_digests": [
+        {
+          "name": "BOMBANANA!",
+          "count": 1,
+          "summary": "土耳其独立工作室LeftoStudio开发的合作拆弹派对游戏《BOMBANANA!》正式登陆Steam，该作主打“3只逗比猴的混乱”玩法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星际争霸",
+          "count": 1,
+          "summary": "暴雪疑似通过官网故障暗示《星际争霸》射击新作即将到来，引发全球老玩家对这一经典IP未来发展的猜测与关注。",
+          "summary_source": "llm"
+        },
         {
           "name": "梦幻西游",
           "count": 1,
-          "summary": "《梦幻西游》手游稳居畅销头部，长青逻辑引关注",
+          "summary": "行业媒体深入剖析了《梦幻西游》手游运营十一年来稳居畅销头部的原因，探讨其在存量竞争深水区中的长跑逻辑。",
           "summary_source": "llm"
         },
         {
           "name": "雨之城",
           "count": 1,
-          "summary": "米哈游《雨之城》内测引入AI视频平台，玩家体验升级",
+          "summary": "米哈游旗下《雨之城》开启内测，引入AI视频平台功能，允许玩家通过AI技术拍摄大片，探索“AI梦工厂”的玩法。",
           "summary_source": "llm"
         }
       ]

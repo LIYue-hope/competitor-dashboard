@@ -1,30 +1,9 @@
 {
-  "crawled_at": "2026-09-07T01:46:25.592232+00:00",
+  "crawled_at": "2026-09-08T01:57:39.844364+00:00",
   "days": [
     {
-      "date": "2026-09-07",
-      "date_label": "09月07日 今天",
-      "games": [
-        {
-          "game_name": "运气修仙",
-          "categories": [
-            "搜打撤",
-            "Roguelike",
-            "修仙"
-          ],
-          "score": null,
-          "event_desc": "08:00 上线试玩",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/203197.htm",
-          "publisher": null,
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-08",
-      "date_label": "09月08日 明天",
+      "date_label": "09月08日 今天",
       "games": [
         {
           "game_name": "灵武世界",
@@ -38,7 +17,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/197920.htm",
           "publisher": null,
-          "reservation_count": "108",
+          "reservation_count": "186",
           "has_afk_grinding_tag": false
         },
         {
@@ -53,14 +32,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202180.htm",
           "publisher": "Crystal Dynamics",
-          "reservation_count": "240",
+          "reservation_count": "256",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-09",
-      "date_label": "09月09日 后天",
+      "date_label": "09月09日 明天",
       "games": [
         {
           "game_name": "王者万象棋-9.9预下载",
@@ -69,19 +48,19 @@
             "策略",
             "竞技"
           ],
-          "score": "7.7",
-          "event_desc": "距9月9日开放下载仅剩2天",
-          "status_tag": "招募中",
+          "score": "7.6",
+          "event_desc": "8点开放下载，9月10日7点上线",
+          "status_tag": null,
           "detail_url": "https://www.3839.com/a/148499.htm",
           "publisher": null,
-          "reservation_count": "91.3万",
+          "reservation_count": "91.6万",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-10",
-      "date_label": "09月10日 周四",
+      "date_label": "09月10日 后天",
       "games": [
         {
           "game_name": "王者万象棋-9.9预下载",
@@ -90,12 +69,27 @@
             "策略",
             "竞技"
           ],
-          "score": "7.7",
-          "event_desc": "正式上线，具体几点待定",
+          "score": "7.6",
+          "event_desc": "07:00 正式上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/148499.htm",
           "publisher": null,
-          "reservation_count": "91.3万",
+          "reservation_count": "91.6万",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "左右跳一跳",
+          "categories": [
+            "单机",
+            "休闲",
+            "节奏"
+          ],
+          "score": null,
+          "event_desc": "00:00 上线试玩",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/203272.htm",
+          "publisher": null,
+          "reservation_count": null,
           "has_afk_grinding_tag": false
         }
       ]
@@ -116,7 +110,43 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/198768.htm",
           "publisher": null,
-          "reservation_count": "570",
+          "reservation_count": "576",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "date_label": "09月14日 下周一",
+      "games": [
+        {
+          "game_name": "燃烧纪元",
+          "categories": [
+            "冒险",
+            "刷宝",
+            "策略"
+          ],
+          "score": null,
+          "event_desc": "09:00 预下载，9月15日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/184564.htm",
+          "publisher": null,
+          "reservation_count": "508",
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "黑白之地",
+          "categories": [
+            "MMO",
+            "弹幕",
+            "刷宝"
+          ],
+          "score": "8.9",
+          "event_desc": "11:00 预下载，9月15日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/147972.htm",
+          "publisher": null,
+          "reservation_count": "7126",
           "has_afk_grinding_tag": false
         }
       ]

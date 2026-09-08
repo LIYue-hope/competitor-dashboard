@@ -1,106 +1,207 @@
 {
-  "generated_at": "2026-09-07T01:54:27.642357+00:00",
+  "generated_at": "2026-09-08T02:04:57.229440+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-07",
-      "article_count": 30,
-      "game_count": 21,
+      "date": "2026-09-08",
+      "article_count": 29,
+      "game_count": 22,
       "untagged_count": 4,
-      "digest": "索尼与失眠组即将推出的《漫威金刚狼》泄露引发关注，但已破解PS5主机因固件版本限制无法运行；卡普空《鬼武者：剑之道》Steam在线人数突破8万，超越《生化危机2》与《街头霸王6》；《月光光心慌慌》亲密互动疑似遭删引发争议；《GTA6》新情报公布，游戏将于11月19日登陆PS5与XSX|S；《塞尔达：时之笛》重制版或于11月发售，与《GTA6》正面硬刚。",
+      "digest": "游戏名：《瓦力欧大陆：摇摆》游戏动态：上一款正统横版平台作品为2008年Wii平台的《瓦力欧大陆：摇摆》，自此之后该IP长期只有《瓦力欧制造》派对小游戏系列更新，正统寻宝平台冒险就此沉寂接近20年。游戏厂商：任天堂游戏类型：横版平台冒险游戏游戏特点：以横版闯关为主，玩家需要控制角色在各种关卡中前进，避开障碍物，收集道具，完成各种任务。游戏目标：通过各种关卡，完成任务，提升角色能力，挑战更高难度的关卡。游戏评价：这款游戏以其独特的横版玩法和丰富的关卡设计吸引了大量玩家，是横版平台游戏中的经典之作。",
       "digest_source": "llm",
-      "input_hash": "258b07976a0a24ee",
+      "input_hash": "48c42b50c82bc3f2",
       "game_digests": [
         {
-          "name": "漫威金刚狼",
-          "count": 3,
-          "summary": "索尼与失眠组即将推出的冒险游戏《漫威金刚狼》泄露到网络，但已破解的PS5主机因系统固件版本限制无法运行该游戏。",
+          "name": "GTA6",
+          "count": 4,
+          "summary": "《GTA6》B站演示出现数十处模糊 引发国内外网友热议；《GTA6》车辆系统细节公布 需要加油但速度很快！；《GTA6》将会在当地时间11月19日凌晨0点解锁（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "3D马里奥",
+          "count": 1,
+          "summary": "任天堂多款新作泄露 新大乱斗、《3D马里奥》等。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "CS2",
+          "count": 1,
+          "summary": "《CS2》聊天监测工具设公开榜单，引起玩家嘴臭狂潮。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说：时之笛 重制版",
+          "count": 1,
+          "summary": "《塞尔达传说：时之笛 重制版》定价曝光 澳区售价居中。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "女神异闻录",
+          "count": 1,
+          "summary": "《女神异闻录》制作人称初代与二代未来可能重制或复刻。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "宝可梦集换式卡牌Pocket",
+          "count": 1,
+          "summary": "美国男子申请宝可梦博士被拒起诉任天堂 法官驳回诉讼。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "寂静岭：小镇陷落",
+          "count": 1,
+          "summary": "《寂静岭：小镇陷落》大小与预载时间公布 容量远超前作！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3：旧时曲",
+          "count": 1,
+          "summary": "竟然不许！ 《巫师3：旧时曲》杰洛特没法和丹德里恩的祖母恋爱。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "异于天堂",
+          "count": 1,
+          "summary": "《异于天堂》舍弃《如龙7 8》回合制玩法 回归经典动作游戏。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "恶魔城：贝尔蒙特的诅咒",
+          "count": 1,
+          "summary": "《恶魔城：贝尔蒙特的诅咒》通关时间20-25小时 包含多结局大量隐藏。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "恸哭幽光",
+          "count": 1,
+          "summary": "《恸哭幽光》9月17日试玩发布 完整体验第一章内容。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "星际争霸",
+          "count": 1,
+          "summary": "曝《星际争霸》FPS新作非命运式 玩法接近星际战士2。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "最终幻想：共鸣",
+          "count": 1,
+          "summary": "《最终幻想：共鸣》主线30-40小时 买断无内购。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "极限竞速：地平线6",
+          "count": 1,
+          "summary": "《极限竞速：地平线6》PS5版仍计划2026年发售 开发商辟谣延期传闻。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "瓦力欧大陆",
+          "count": 1,
+          "summary": "曝《瓦力欧大陆》新作正在开发中 将登陆Switch2。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "article_count": 68,
+      "game_count": 51,
+      "untagged_count": 7,
+      "digest": "卡普空新作《鬼武者：剑之道》Steam在线人数突破8万，首日销量破百万；外媒称《GTA6》因缺乏强力对手获年度游戏提名毫无悬念；索尼与失眠组新作《漫威金刚狼》泄露但PS5破解版无法运行；CDPR确认《巫师4》丹德里恩将回归；IllFonic《月光光心慌慌》热修后疑似移除亲密互动；PLAYISM宣布《8号出口》全球销量破300万；Valve《CS2》曝出可伪造VAC封禁的严重漏洞。",
+      "digest_source": "llm",
+      "input_hash": "7f31583fc3293a37",
+      "game_digests": [
+        {
+          "name": "鬼武者：剑之道",
+          "count": 5,
+          "summary": "Steam在线人数突破8万，首日销量破百万，超越《生化危机2》和《街头霸王6》。",
           "summary_source": "llm"
         },
         {
-          "name": "鬼武者：剑之道",
+          "name": "GTA6",
           "count": 3,
-          "summary": "卡普空《鬼武者：剑之道》Steam在线人数突破8万，超越了《生化危机2》重制版与《街头霸王6》。",
+          "summary": "外媒称因今年游戏行业整体拉胯，该作获年度游戏提名毫无悬念。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 3,
+          "summary": "游戏本体泄露但PS5破解版无法运行，需系统固件13.60版本。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 2,
+          "summary": "丹德里恩确认亮相，波兰配音演员已参与录制。",
           "summary_source": "llm"
         },
         {
           "name": "月光光心慌慌",
           "count": 2,
-          "summary": "IllFonic《月光光心慌慌》在推出热修复后，疑似移除了玩家热议的亲密互动小游戏，官方尚未确认该改动。",
+          "summary": "热修后疑似移除亲密互动小游戏，官方尚未确认。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "8号出口",
+          "count": 1,
+          "summary": "全球销量突破300万份，本作及续作开启促销。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "CS2",
+          "count": 1,
+          "summary": "曝出严重漏洞，作弊者可伪造VAC封禁强行终止比赛。",
           "summary_source": "llm"
         },
         {
           "name": "Catharsis ～最后的画室～",
           "count": 1,
-          "summary": "讲谈社Game Creators' Lab(GCL)公开了以游历名画世界为主题的“沉浸式艺术冒险游戏”《Catharsis ～最后的画室～》Steam页面。",
+          "summary": "沉浸式艺术ADV公开Steam页面，预计2026年内发售。",
           "summary_source": "llm"
         },
         {
-          "name": "GTA6",
+          "name": "D加密",
           "count": 1,
-          "summary": "El Rubius分享了《GTA6》闭门实机演示的未公开机制与世界细节，游戏将于11月19日登陆PS5与XSX|S。",
+          "summary": "黑客Voices38一口气攻破5款知名大作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Rebounder",
+          "count": 1,
+          "summary": "Aggro Crab公布发行科幻平台游戏，计划2027年推出。",
           "summary_source": "llm"
         },
         {
           "name": "SPINE",
           "count": 1,
-          "summary": "赛博朋克枪斗游戏《SPINE》因预告中主角被多支枪口对准面部的镜头意外走红，相关片段全网播放量破上亿次。",
+          "summary": "枪斗游戏因“枪怼脸”梗图走红，二创掀起热潮。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古世纪S",
+          "count": 1,
+          "summary": "首度曝光品牌识别与主视觉图，2027年登陆Steam。",
           "summary_source": "llm"
         },
         {
           "name": "任天堂明星大乱斗",
           "count": 1,
-          "summary": "舅舅党爆料任天堂正在开发《任天堂明星大乱斗》的完整续作，而非简单移植，该消息尚未得到官方证实。",
+          "summary": "舅舅党爆料正在开发全新续作，非简单移植。",
           "summary_source": "llm"
         },
         {
           "name": "剑星",
           "count": 1,
-          "summary": "PC版《剑星》出现伊芙“赛博忍者”服装Mod，该Mod适配战斗、过场与拍照模式，玩家可在Nexus Mods平台下载。",
+          "summary": "PC版伊芙“赛博忍者”Mod风格热辣，适配战斗与拍照模式。",
           "summary_source": "llm"
         },
         {
           "name": "古墓丽影：亚特兰蒂斯遗迹",
           "count": 1,
-          "summary": "亚马逊游戏工作室分享了《古墓丽影：亚特兰蒂斯遗迹》全新概念艺术图，玩家盛赞其希腊古墓场景美术。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "哭泣之光",
-          "count": 1,
-          "summary": "FuRyu开发的爱丽丝题材肉鸽游戏《哭泣之光》将于11月5日发售，试玩展示了卡牌构筑与闪避炸弹等系统。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达：时之笛",
-          "count": 1,
-          "summary": "爆料人NateTheHate预计任天堂将在11月推出《塞尔达传说：时之笛》重制版，与《GTA6》正面硬刚。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "大迁离",
-          "count": 1,
-          "summary": "太空歌剧RPG《大迁离》将于2027年4月7日登陆PC、PS5和XSX|S，游戏拥有“圣骑-不朽”双轴道德体系。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "孤岛惊魂5",
-          "count": 1,
-          "summary": "破解者0xZeOn为《孤岛惊魂5》当前版本发布了传统的未加密补丁，支持Windows 11 25H2系统。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "居家扮工虫",
-          "count": 1,
-          "summary": "独立游戏《居家扮工虫》现已登陆Steam，玩家扮演蚯蚓在金融业中通过处理Excel报表赚取财富。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "居家蠕动",
-          "count": 1,
-          "summary": "物理模拟游戏《居家蠕动》登陆Steam，玩家扮演居家办公的蠕虫，需在规定时间内完成工作任务。",
+          "summary": "新概念图公布，玩家盛赞希腊古墓场景美术。",
           "summary_source": "llm"
         }
       ]
@@ -885,107 +986,6 @@
           "name": "詹姆斯庞德",
           "count": 1,
           "summary": "主创克里斯·索雷尔斥责AI重制版不尊重原作且毫无灵魂，称自己未参与该项目。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "article_count": 34,
-      "game_count": 22,
-      "untagged_count": 2,
-      "digest": "8月29日游戏行业资讯聚焦于《GTA6》公布公共交通系统等新细节，以及《巫师3》重制版与DLSS 5的对比讨论。此外，动视针对《使命召唤》外挂作者采取线下法律行动，科隆游戏展发生开发者笔记本被盗事件，多款新游如《Divinum》、《吸血鬼幸存者》DLC及《天国：拯救2》总监对《GTA6》的批评也引发关注。",
-      "digest_source": "llm",
-      "input_hash": "768eedf77b6fe875",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 9,
-          "summary": "R星确认游戏中将依赖公共交通工具，玩家可乘坐巴士、火车或出租车在莱昂尼达快速旅行，小地图将显示公交车站，支持跳过或欣赏沿途风景。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 2,
-          "summary": "CDPR在科隆游戏展公布《巫师3》重制版，并宣布为现有玩家提供免费更新，提升画面、性能和游戏体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "科隆国际游戏展",
-          "count": 2,
-          "summary": "独立开发者瑞安·莱利在科隆展商务区遭遇笔记本电脑被盗，情绪激动地宣布展期提前结束，引发行业关注。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "DayZ Badlands",
-          "count": 1,
-          "summary": "Bohemia Interactive宣布经典系列新作《DayZ Badlands》将于10月15日登陆PC、PS4及Xbox平台，需拥有基础游戏《DayZ》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Divinum",
-          "count": 1,
-          "summary": "Sigil Games工作室发行的唯美横版动作游戏《Divinum》登陆Steam，支持中文并收获特别好评。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Occult Cleanup Agency",
-          "count": 1,
-          "summary": "由《糖豆人》主创打造的超自然物体清除模拟游戏《Occult Cleanup Agency》在Steam上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Soul Chained",
-          "count": 1,
-          "summary": "魂系动作冒险游戏《Soul Chained》因其中一个BOSS衣着过于清凉导致审核停滞而延期，官方正在制定修改措施。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴5：天际特别版",
-          "count": 1,
-          "summary": "Mod门户NexusMods宣布Mod总下载量超250亿次，其中半数以上为《上古卷轴5》的128亿次下载。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴6",
-          "count": 1,
-          "summary": "Xbox CEO阿莎·夏尔马在科隆游戏展被问及《上古卷轴6》是否独占时，表示每个平台都需要独占体验，未给出直接答复。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "动视上门向知名外挂作者Elocarry送达停止侵权下架禁令，并全程录像，展示打击外挂的线下行动。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑网3",
-          "count": 1,
-          "summary": "《剑网3》举办十七周年庆发布会，宣布开启50级新世代「苍生铸世」，并公布2027年开启的《剑网3》2.0全面进化。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "吸血鬼幸存者",
-          "count": 1,
-          "summary": "经典肉鸽游戏《吸血鬼幸存者》DLC「血月遗产」上线，带来10位以上新角色、16种以上新武器及XL尺寸新地图。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "天国：拯救2",
-          "count": 1,
-          "summary": "《天国：拯救2》总监Daniel Vávra批评《GTA6》主角性格平淡，称其为反社会人格，认为游戏缺乏故事吸引力。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "控制",
-          "count": 1,
-          "summary": "Modder成功在《控制》中启用DLSS 5 AI神经滤镜，使用《NBA 2K27》DLL，RTX 5060在启用时性能下降约40%。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "洛克人：双重超载",
-          "count": 1,
-          "summary": "纪念洛克人诞生40周年的新作《洛克人：双重超载》开发思路聚焦加大BOSS数量，每个关卡设置3大区域及BOSS，预计2027年发售。",
           "summary_source": "llm"
         }
       ]

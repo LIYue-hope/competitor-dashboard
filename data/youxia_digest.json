@@ -1,17 +1,195 @@
 {
-  "generated_at": "2026-09-07T01:58:24.037251+00:00",
+  "generated_at": "2026-09-08T02:08:57.832018+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
+      "date": "2026-09-08",
+      "article_count": 14,
+      "game_count": 11,
+      "untagged_count": 3,
+      "digest": "2026年9月8日游戏行业动态在这一天，游戏界发生了多起引人注目的事件。首先，《最终幻想7：启示》实体展示盒的曝光标志着该系列三部曲的实体收藏终于迎来“闭环”。此外，Polyphony Digital为《GT赛车8》加速开发，计划招募18个技术岗位以支持最大规模的技术升级。索尼Guerrilla工作室的《地平线3》目前仅由一支小团队开发，距离发售尚有数年。IGN报道了《极限竞速：地平线6》PS5版的不延期决定，Playground Games确认游戏将如期登陆PS5。同时，《寂静岭：小镇陷落》的PS5版预载安排提前两天，而《火焰纹章：万缕千丝》的最终容量大小也得到了确认。鸿蒙平台首发的《王者万象棋》与华为Mate XT 2合作，定义大屏策略游戏新标杆。《苍翼：混沌效应》展示了蓝牙直连手柄适配体验，提升了手机玩硬核动作游戏的体验。印度警官阿俊作为《街头霸王6》的新角色，将于10月13日登场。欧风神秘学MMO《诡秘之主》在华为Mate XT 2上解锁高画质光影特效。最后，卡普空表示将继续“重新激活”旗下的老牌作品，为重磅新作阵容提供支撑。",
+      "digest_source": "llm",
+      "input_hash": "b5c20ef12e7b3824",
+      "game_digests": [
+        {
+          "name": "FF7启示",
+          "count": 1,
+          "summary": "《FF7启示》实体版曝光！三部曲实体收藏终迎\"闭环\"。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GT赛车8",
+          "count": 1,
+          "summary": "《GT赛车8》加速开发！团队挂18个职位 为下一代蓄力。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "地平线3",
+          "count": 1,
+          "summary": "曝《地平线3》仅小规模开发！仍处早期 发售或待PS6。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "地平线6",
+          "count": 1,
+          "summary": "《地平线6》PS5版不延期 IGN称11月撞GTA6等于自杀。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "寂静岭：小镇陷落",
+          "count": 1,
+          "summary": "《寂静岭：小镇陷落》PS5版容量约51GB！提前两天预载。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "火焰纹章：万缕千丝",
+          "count": 1,
+          "summary": "《火焰纹章：万缕千丝》最终容量大小确认：约27GB。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "王者万象棋",
+          "count": 1,
+          "summary": "鸿蒙同步首发！《王者万象棋》携手华为Mate XT 2，定义大屏策略游戏新标杆。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "苍翼：混沌效应",
+          "count": 1,
+          "summary": "蓝牙直连手柄！《苍翼：混沌效应》适配Pura X View，手机也能玩出掌机感。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "街霸6",
+          "count": 1,
+          "summary": "《街霸6》秋季重磅！印度警官阿俊10月13日震撼登场。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "诡秘之主",
+          "count": 1,
+          "summary": "三折叠HUAWEI Mate XT 2加持，《诡秘之主》高画质光影体验再升级。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "鬼武者",
+          "count": 1,
+          "summary": "《鬼武者》新作大卖！卡普空未来将继续重新激活老IP。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "article_count": 91,
+      "game_count": 45,
+      "untagged_count": 23,
+      "digest": "今日游戏行业资讯聚焦于《GTA6》的深度机制解析与角色背景揭秘，以及《鬼武者：剑之道》发售后的市场热度。此外，《英雄联盟》海斗大赛四强战队访谈、《巫师4》全面制作阶段确认、以及《赛博朋克2077》MOD开发者的技术突破也是今日报道的重点。",
+      "digest_source": "llm",
+      "input_hash": "77d1e97752433e2c",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 9,
+          "summary": "玩家自制PS2版《GTA6》截图：秒回《罪恶都市》时代，一名Reddit用户将《GTA6》实机中的Vice City场景按2004年前后的技术水准重新制作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "英雄联盟",
+          "count": 7,
+          "summary": "《英雄联盟》全民赛道四强DYGL战队访谈：不留遗憾，放手一搏，这支由普通大乱斗爱好者组成的队伍，没有明星选手光环，凭着对游戏的热爱晋级四强。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鬼武者：剑之道",
+          "count": 5,
+          "summary": "《鬼武者：剑之道》首发热度火爆 Steam在线人数破8万，卡普空经典IP新作发售之后市场反响热烈，Steam同时在线峰值达到81500人。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "P4R",
+          "count": 2,
+          "summary": "《P4R》玛丽登场方式大改！打造更自然流畅初见体验，制作人和田和久透露，游戏将大幅优化玛丽的出场方式，不同于《黄金版》中略显突兀的“空降”，新作将让玛丽从一开始就自然融入主线故事。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "女神异闻录4：重制版",
+          "count": 2,
+          "summary": "《女神异闻录4：重制版》将是一款“完全重制”的作品，Atlus《女神异闻录》系列制作人和田和久透露，在《女神异闻录3：Reload》之后，团队正将全部精力投入到《女神异闻录4：黄金版》的完全重制上。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 2,
+          "summary": "CDPR确认《巫师4》进入全面制作阶段!目标2028年发售，在CDPR 2026上半年财报投资者问答会上，联合CEO米哈乌・诺瓦科夫斯基确认《巫师4》已进入全面制作阶段。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "神鬼寓言",
+          "count": 2,
+          "summary": "《神鬼寓言》所有NPC均为人工设计，拒绝AI与随机生成，游戏总监Ralph Fulton在接受外媒GamesRadar+采访时透露，本作中每一名NPC均由开发团队单独设计。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛博朋克2077",
+          "count": 2,
+          "summary": "《赛博朋克2077》第三人称MOD上线 支持无缝切换！由模组作者CybrDrake打造的“Immersive Third Person”MOD现已发布，为《赛博朋克2077》加入了完成度极高的第三人称视角。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "8号出口",
+          "count": 1,
+          "summary": "恐怖游戏《8号出口》销量突破300万份 Steam开启促销，开发商KOTAKE CREATE宣布，心理恐怖解谜游戏《8号出口》全球累计销量已突破300万份。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Catharsis ～最后的画室～",
+          "count": 1,
+          "summary": "沉浸式艺术ADV《Catharsis ～最后的画室～》公开Steam页面，讲谈社Game Creators' Lab今日正式公开了新作《Catharsis ～最后的画室～》的Steam商店页面。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Dungeon Picnic",
+          "count": 1,
+          "summary": "超可爱魔女闯地城！RPG肉鸽《Dungeon Picnic》推出试玩，独立开发者Lapismine于今日在Steam推出PC游戏《Dungeon Picnic》的体验版。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA",
+          "count": 1,
+          "summary": "前R星员工揭秘《GTA》开发流程：发售前全员通关找Bug，前Rockstar North技术总监奥贝·维梅伊发文透露，在开发《GTA3》《GTA4》等作品时，团队会在游戏正式发售前两周暂停开发工作，全员从头到尾完整通关一遍游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6 OL",
+          "count": 1,
+          "summary": "外媒推测《GTA6 OL》不随本体上线!或将延期两年推出，相关分析报道显示，《GTA6》线上模式或将不会跟随游戏本体同步发售，最坏情况下延期时长可达两年。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Scavland",
+          "count": 1,
+          "summary": "多半好评！硬核生存RPG《Scavland》推出抢先体验版，NoShadow与UNSUBSCRIBE于2026年9月5日在Steam平台推出新作《Scavland》的抢先体验版。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "东方",
+          "count": 1,
+          "summary": "30年老游戏IP《东方》粉丝越来越年轻 过半都未满20岁，社群公布的第22回人气投票问卷结果引发热议，这款问世近30年的同人系列IP，粉丝构成呈现出惊人的“年轻化”趋势。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
       "date": "2026-09-06",
-      "article_count": 33,
+      "article_count": 34,
       "game_count": 20,
       "untagged_count": 10,
-      "digest": "TGS2026前夕，史克威尔艾尼克斯宣布《最终幻想7：启示》将在展台提供全程试玩，该作定于2027年4月8日登陆多平台。同时，Switch 2版《最终幻想7：启示》130GB的惊人容量让系列霸榜游戏容量前四。此外，《漫威金刚狼》直播偷跑引发争议，而《星球大战：亡命之徒》则被破解者攻破Denuvo加密。",
+      "digest": "今日游戏资讯聚焦于《最终幻想7：启示》的TGS试玩与发售定档，以及《GTA6》关于地图探索与暴力尺度的爆料。此外，《漫威金刚狼》因内容外泄与建模争议引发关注，《星球大战：亡命之徒》遭破解，《诡秘之主》因12亿成本与捏脸功能登上热搜，多款经典与新作动态交织。",
       "digest_source": "llm",
-      "input_hash": "5e28402d2a53f8d4",
+      "input_hash": "c9ad042b0d27176e",
       "game_digests": [
         {
           "name": "FF7启示",
@@ -20,189 +198,189 @@
           "summary_source": "rules"
         },
         {
+          "name": "GTA6",
+          "count": 2,
+          "summary": "R星新作《GTA6》被曝大幅升级血腥暴力效果，新增NPC肢解与斩首特效，并计划今年晚些时候公开更多核心内容。",
+          "summary_source": "llm"
+        },
+        {
           "name": "最终幻想",
           "count": 2,
-          "summary": "Switch 2版容量130GB，系列霸榜游戏容量前四，1至6代迷你Melody TV将于2027年1月29日发售。",
+          "summary": "《最终幻想》系列Switch 2版130GB容量包揽游戏容量榜前四，官方宣布《最终幻想》1至6代迷你Melody TV将于2027年1月29日发售。",
           "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
           "count": 2,
-          "summary": "直播偷跑引发争议，男主利亚姆・麦金太尔曾为《战争机器》JD・菲尼克斯担当脸模配音。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 1,
-          "summary": "数百个房屋能够进去探索，引发玩家热议。",
+          "summary": "《漫威金刚狼》距离发售仅剩两周，完整通关流程与剧情梗概已大量外泄，PS5版建模表现遭玩家吐槽。",
           "summary_source": "llm"
         },
         {
           "name": "奥林匹斯之战",
           "count": 1,
-          "summary": "时隔38年，原版夫妻制作人回归重制该作。",
+          "summary": "经典动作RPG《奥林匹斯之战》重制版引发关注，原版夫妻制作人时隔38年回归。",
           "summary_source": "llm"
         },
         {
           "name": "我的世界",
           "count": 1,
-          "summary": "Fossil推出三款联名限量腕表，分别以界、末地及《我的世界：地下城2》为设计灵感。",
+          "summary": "Fossil推出三款《我的世界》联名限量腕表，分别以熔岩、末地及《我的世界：地下城2》为设计灵感。",
           "summary_source": "llm"
         },
         {
           "name": "星球大战：亡命之徒",
           "count": 1,
-          "summary": "育碧大作被破解者Voices38攻破Denuvo加密保护。",
+          "summary": "知名破解者Voices38成功攻破《星球大战：亡命之徒》的Denuvo加密保护，并放出未加密版本。",
           "summary_source": "llm"
         },
         {
           "name": "星露谷",
           "count": 1,
-          "summary": "1.7版本仍在开发中，两款MOD可提前体验。",
+          "summary": "《星露谷物语》1.7版本仍在开发中，尽管开发者正投入新作《闹鬼巧克力工坊》。",
           "summary_source": "llm"
         },
         {
           "name": "最终幻想7",
           "count": 1,
-          "summary": "庆祝在PlayStation平台首次问世已过去29年，即将在2027年迎来发售30周年。",
+          "summary": "《最终幻想7》在PlayStation平台首次问世已过去29年，即将迎来发售30周年。",
           "summary_source": "llm"
         },
         {
           "name": "最终幻想7：启示",
           "count": 1,
-          "summary": "收藏版已售罄，官方暂无补货计划。",
+          "summary": "史克威尔艾尼克斯确认《最终幻想7：启示》将在TGS提供全程试玩，定档2027年4月8日登陆多平台，纪念原作发售30周年。",
           "summary_source": "llm"
         },
         {
           "name": "生化危机",
           "count": 1,
-          "summary": "《生化危机4》阿什莉体模PeachMilky晒出《最终幻想7》爱丽丝的Cos造型。",
+          "summary": "《生化危机4》阿什莉体模PeachMilky晒出《最终幻想7》爱丽丝Cos造型，引发玩家关注。",
           "summary_source": "llm"
         },
         {
           "name": "真人快打1",
           "count": 1,
-          "summary": "D加密被破解，曝新3D《马里奥》明年发售。",
+          "summary": "《真人快打1》D加密被正式破解，任天堂方面也爆料了关于新3D《马里奥》游戏的动态。",
           "summary_source": "llm"
         },
         {
           "name": "诡秘之主",
           "count": 1,
-          "summary": "女版Faker在直播中以Faker照片为模板捏脸，该项目总成本达12亿元。",
+          "summary": "国产新游《诡秘之主》因12亿项目总成本及女版Faker复刻捏脸功能引发玩家热议。",
           "summary_source": "llm"
         },
         {
           "name": "质量效应",
           "count": 1,
-          "summary": "《大迁离》确认全性别恋爱路线，性别不再成为情感羁绊的壁垒。",
+          "summary": "《大迁离》公开恋爱系统颠覆性设计，主角可与任意性别角色发展恋情。",
           "summary_source": "llm"
         },
         {
           "name": "赛博朋克2077",
           "count": 1,
-          "summary": "HORI推出两款Switch 2主题配件——无线手柄与斜挎单肩包。",
+          "summary": "外设品牌HORI推出两款《赛博朋克2077》主题Nintendo Switch 2配件，包括无线手柄与斜挎单肩包。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-09-05",
-      "article_count": 63,
-      "game_count": 32,
+      "article_count": 64,
+      "game_count": 33,
       "untagged_count": 24,
-      "digest": "《GTA6》的预告片和相关讨论引发了社区的激烈争论，玩家对逐帧拆解内容的评价两极分化。《GTA6》PC版的消息传出，有传言称发售速度可能比外界预期的更快。《寂静岭》系列设计师伊藤畅达分享了他放弃恋爱和结婚的经历，以及他对早些年选择成家的看法。《沙丘：觉醒》主机版的性能模式支持动态4K/60帧，并宣布将加入XGP并支持跨平台进度共享。科乐美公布了以1920年代纽约为背景的动作冒险游戏《绯红狂想曲》的配置要求。《黎明行者之血》更新了PS5手柄支持，同时推出了一款“杰洛特替换Mod”。《Beach Invasion 1944》在Epic平台上免费领取，而PEL夏季赛圆满收官。ZUN亲自重制的经典名作《东方红魔乡：New Classic》确定于9月10日发售。第一人称战术撤离射击游戏《光芒行动》确认亮相FPS Games Show，并首次放出约3分钟的独家实机演示。科乐美正在内部讨论推出《合金装备：大师合集3》，有望收录《合金装备5：幻痛》与《合金装备崛起：复仇》。任天堂宣布将于北京时间9月8日播出《塞尔达传说》40周年纪念特别节目“塞尔达传说 Direct 2026.9.8”。瑞典零售商Retrospelbutiken上架了Switch 2版《塞尔达传说：时之笛》重制版商品页面，售价849克朗（约合人民币595元）。Steam新游《居家扮工虫》上线，玩家扮演蚯蚓打工赚钱的搞怪游戏。经典动作冒险游戏《影子传说》登陆PS5，定价62港币。",
+      "digest": "今日游戏资讯聚焦于《GTA6》的发售争议与PC版进度传闻，同时《塞尔达传说》40周年特别节目及《东方红魔乡》重制版发售计划引发关注，科乐美新作《绯红狂想曲》公布配置，独立游戏《居家扮工虫》与《沙丘：觉醒》主机版性能模式也登上热搜。",
       "digest_source": "llm",
-      "input_hash": "5d73f818916bb733",
+      "input_hash": "b8ab747d5aa1a280",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 4,
-          "summary": "两极分化！《GTA6》预告流出 遭各路游戏轮番对比拷打；外媒分析《GTA6》PS5 Pro版技术表现：难以稳定60帧；《GTA6》PC版比外界预期的要更快 有望一年内上线（当天共 4 条）",
-          "summary_source": "rules"
+          "summary": "曝将登陆Switch2平台，法国零售商页面泄露显示《GTA6》即将在11月19日发售，登陆PS5与Xbox Series X|S平台。",
+          "summary_source": "llm"
         },
         {
           "name": "寂静岭",
           "count": 2,
-          "summary": "令人唏嘘！伊藤畅达回忆 开发《寂静岭》8年放弃找女友；《寂静岭》开发者伊藤畅达感叹若早结婚或许更幸福？。",
-          "summary_source": "rules"
+          "summary": "美术总监伊藤畅达感叹若早结婚或许更幸福，回忆在科乐美开发前三部作品的8年岁月，为了追求极致放弃了所有假期甚至睡在纸板上。",
+          "summary_source": "llm"
         },
         {
           "name": "沙丘：觉醒",
           "count": 2,
-          "summary": "游侠晚报：《沙丘觉醒》支持4K60帧 Epic游戏喜加一；《沙丘：觉醒》主机版性能模式支持动态4K/60帧！。",
-          "summary_source": "rules"
+          "summary": "主机版性能模式支持动态4K/60帧，Xbox Series X支持性能模式与画质模式，Series S主打60帧流畅体验，游戏将首发加入XGP。",
+          "summary_source": "llm"
         },
         {
           "name": "绯红狂想曲",
           "count": 2,
-          "summary": "科乐美《绯红狂想曲》配置公布 20年代纽约很吃内存；科乐美新作《绯红狂想曲》上架Steam：红帽女主很可爱。",
-          "summary_source": "rules"
+          "summary": "Steam页面同步上线，在索尼State of Play活动中正式公布，红帽女主造型引发关注。",
+          "summary_source": "llm"
         },
         {
           "name": "黎明行者之血",
           "count": 2,
-          "summary": "《黎明行者之血》新更新上线：PC版现已支持PS5手柄；《黎明行者之血》杰洛特Mod惊艳亮相 动作完美适配！。",
-          "summary_source": "rules"
+          "summary": "新更新上线支持PS5手柄，修复了部分BUG，玩家社区推出“杰洛特替换Mod”，将主角完美替换为《巫师3》中的杰洛特。",
+          "summary_source": "llm"
         },
         {
           "name": "Beach Invasion 1944‌",
           "count": 1,
-          "summary": "Epic喜加一：二战FPS《Beach Invasion 1944‌》免费领。",
-          "summary_source": "rules"
+          "summary": "在Epic平台限时免费领取，截止时间为9月7日。",
+          "summary_source": "llm"
         },
         {
           "name": "PEL奇遇时光三亚篇",
           "count": 1,
-          "summary": "PEL硝烟未散，海岛旅途启程！《PEL奇遇时光三亚篇》9月11日斗鱼重磅首播。",
-          "summary_source": "rules"
+          "summary": "9月11日斗鱼重磅首播，由斗鱼与《和平精英》联合推出的电竞直播综艺将正式开启。",
+          "summary_source": "llm"
         },
         {
           "name": "东方红魔乡 重制版",
           "count": 1,
-          "summary": "ZUN亲自重制！《东方红魔乡 重制版》宣布9月10日发售。",
-          "summary_source": "rules"
+          "summary": "宣布9月10日发售，登陆PS5、Switch、Switch 2与PC（Steam）平台，由ZUN亲自监制并负责全部乐曲的重制工作。",
+          "summary_source": "llm"
         },
         {
           "name": "光芒行动",
           "count": 1,
-          "summary": "3分钟实机首曝！《光芒行动》确认亮相FPS GamesShow。",
-          "summary_source": "rules"
+          "summary": "确认亮相FPS GamesShow并放出约3分钟实机演示，展示PvPvPvE与沉浸式恐怖体验的撤离任务玩法。",
+          "summary_source": "llm"
         },
         {
           "name": "合金装备：大师合集3",
           "count": 1,
-          "summary": "科乐美内部爆料：《合金装备：大师合集3》正讨论中。",
-          "summary_source": "rules"
+          "summary": "科乐美内部讨论推出，有望收录《合金装备5：幻痛》与《合金装备崛起：复仇》，MGSV将推出优化至60帧的改进版。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达传说",
           "count": 1,
-          "summary": "任天堂宣布《塞尔达传说》40周年特别节目 9月8日播出。",
-          "summary_source": "rules"
+          "summary": "宣布40周年特别节目“塞尔达传说 Direct 2026.9.8”将于9月8日播出。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达传说 时之笛RE",
           "count": 1,
-          "summary": "任天堂硬刚GTA6！曝《塞尔达传说 时之笛RE》11月发售。",
-          "summary_source": "rules"
+          "summary": "曝将于11月推出，具体时间可能是11月第一周，或与《GTA6》同周。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达时之笛",
           "count": 1,
-          "summary": "《塞尔达时之笛》重制惊现瑞典零售商页面 售849克朗。",
-          "summary_source": "rules"
+          "summary": "重制惊现瑞典零售商页面，Switch 2版将于2026年11月12日发售，标价849瑞典克朗。",
+          "summary_source": "llm"
         },
         {
           "name": "居家扮工虫",
           "count": 1,
-          "summary": "Steam新游《居家扮工虫》上线，怎么变成虫子了还要打工？。",
-          "summary_source": "rules"
+          "summary": "Steam新游正式发售，首发折扣价仅需18.75元，玩家扮演蚯蚓在金融业中博取财富自由。",
+          "summary_source": "llm"
         },
         {
           "name": "影子传说",
           "count": 1,
-          "summary": "FC忍者游戏《影子传说》正式登陆PS5：售价62港币！。",
-          "summary_source": "rules"
+          "summary": "正式登陆PS5，港服定价62港币，日服定价800日元（约合人民币33元）。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -808,107 +986,6 @@
           "name": "秘密邻居",
           "count": 1,
           "summary": "黑客删档逼迫下架!《秘密邻居》紧急暂时关停服务器。",
-          "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "article_count": 47,
-      "game_count": 23,
-      "untagged_count": 18,
-      "digest": "2026年科隆游戏展期间，多款大作动态引发关注。《红色沙漠》虽获两项提名但遗憾陪跑，随后发布热修；RGG工作室公布《异于天堂》实机，浜口直树确认《FF7重生》将纳入《圣子降临》剧情；《全面战争：战锤40K》斩获科隆最佳PC游戏；微软正打包出售《上古卷轴》等IP影视改编权；《星空》DLSS 5演示遭玩家吐槽，但官方转发玩家自制MOD《StarSim》；《漫威金刚狼》公布豪华版战衣与全场景破坏细节；《三体》动画团队新作《凡应》开启测试。",
-      "digest_source": "llm",
-      "input_hash": "99910bb3cc4fb8b5",
-      "game_digests": [
-        {
-          "name": "红色沙漠",
-          "count": 3,
-          "summary": "《红色沙漠》在科隆展获两项提名但遗憾陪跑，随后发布2.00.01热修补丁以修复文本异常并提升帧数。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "《GTA6》国内播放数据与海外热度形成反差，且海报文字引发与《光与影：33号远征队》的联动猜想。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "异于天堂",
-          "count": 2,
-          "summary": "RGG工作室公布《异于天堂》实机演示，以1915年至1965年日本为舞台，史努比狗狗参与配音。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星空",
-          "count": 2,
-          "summary": "《星空》DLSS 5演示因画面崩坏遭玩家怒喷，但官方转发了玩家自制MOD《StarSim》，展示近300个手工轨道星系。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2,
-          "summary": "《漫威金刚狼》公布豪华版战衣与全场景破坏细节，确认豪华版战衣无法通过主线解锁。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "DayZ Badlands",
-          "count": 1,
-          "summary": "生存新作《DayZ Badlands》定档10月15日登陆多平台，带来267平方公里沙漠新地图。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7",
-          "count": 1,
-          "summary": "《FF7》系列制作人滨口直树呼吁玩家别再等全系列出完再玩，终章即将发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7重生",
-          "count": 1,
-          "summary": "导演浜口直树确认《FF7重生》将纳入《圣子降临》剧情，但结局走向待玩家揭晓。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "P4R",
-          "count": 1,
-          "summary": "制作人横田伸昭确认《P4R》无阳介恋爱路线，坦言因工作量过大无法实现。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Soul Chained",
-          "count": 1,
-          "summary": "魂系新作《Soul Chained》因BOSS造型尺度问题审核受阻而延期。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三体",
-          "count": 1,
-          "summary": "艺画开天《三体》动画团队新作《凡应》开启EP02测试，开放多元玩法。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴",
-          "count": 1,
-          "summary": "微软正与好莱坞制片厂谈判，计划以3亿美元打包出售《上古卷轴》等十余款IP影视改编权。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "全面战争：战锤40K",
-          "count": 1,
-          "summary": "《全面战争：战锤40K》荣获科隆“最佳PC游戏”大奖，玩家可前往展台试玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 1,
-          "summary": "《巫师3》在科隆展斩获“最佳展台”、“最佳周边商品”及“最佳预告片”三项大奖。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "幻珠奇港（Port of Jumanah）",
-          "count": 1,
-          "summary": "潜入深海肉鸽冒险《幻珠奇港（Port of Jumanah）》9 月 7 日正式登陆 Steam。",
           "summary_source": "rules"
         }
       ]

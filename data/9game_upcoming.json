@@ -1,27 +1,21 @@
 {
-  "crawled_at": "2026-09-07T01:47:08.497889+00:00",
+  "crawled_at": "2026-09-08T01:58:21.571109+00:00",
   "days": [
     {
-      "date": "2026-09-07",
-      "date_label": "09月07日 今天",
+      "date": "2026-09-08",
+      "date_label": "09月08日 今天",
       "games": [
         {
-          "game_name": "寒刃2",
+          "game_name": "斯特恩大陆",
           "categories": [
             "角色扮演"
           ],
           "score": null,
-          "event_desc": "超变传奇",
+          "event_desc": "MMO大世界",
           "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/hanren21/",
+          "detail_url": "https://www.9game.cn/stedl/",
           "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "date_label": "09月08日 明天",
-      "games": [
+        },
         {
           "game_name": "猛将勇士",
           "categories": [
@@ -32,12 +26,23 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/mengjiangyongshi/",
           "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "梦幻逍遥",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "回合老炮都懂这味",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/menghuanxiaoyao1/",
+          "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-09",
-      "date_label": "09月09日 后天",
+      "date_label": "09月09日 明天",
       "games": [
         {
           "game_name": "防线守卫战",
@@ -45,7 +50,7 @@
             "策略"
           ],
           "score": "8.1",
-          "event_desc": "筑防测试",
+          "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/fxswz/",
           "has_afk_grinding_tag": true
@@ -54,7 +59,7 @@
     },
     {
       "date": "2026-09-10",
-      "date_label": "09月10日 周四",
+      "date_label": "09月10日 后天",
       "games": [
         {
           "game_name": "王者万象棋",
@@ -139,6 +144,17 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/qmms/",
           "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "古剑奇闻录",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/gujianqiwenlu/",
+          "has_afk_grinding_tag": false
         }
       ]
     },
@@ -194,6 +210,23 @@
       ]
     },
     {
+      "date": "2026-09-21",
+      "date_label": "09月21日",
+      "games": [
+        {
+          "game_name": "蜀山幻想志",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": "小阵大谋",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/shushanhuanxiangzhi/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
       "date": "2026-09-22",
       "date_label": "09月22日",
       "games": [
@@ -211,18 +244,18 @@
       ]
     },
     {
-      "date": "2026-09-23",
-      "date_label": "09月23日",
+      "date": "2026-09-29",
+      "date_label": "09月29日",
       "games": [
         {
-          "game_name": "蜀山幻想志",
+          "game_name": "雷霆烈焰",
           "categories": [
-            "卡牌"
+            "角色扮演"
           ],
           "score": null,
-          "event_desc": "小阵大谋",
+          "event_desc": null,
           "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/shushanhuanxiangzhi/",
+          "detail_url": "https://www.9game.cn/leitinglieyan/",
           "has_afk_grinding_tag": false
         }
       ]
