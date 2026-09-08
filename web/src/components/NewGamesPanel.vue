@@ -36,6 +36,30 @@ const crawledAt = computed(() =>
   tab.value === 'taptap' ? props.taptap[0]?.crawled_at : props[tab.value]?.crawled_at,
 )
 
+// TapTap 日历接口只返回 ISO 日期；其余三个来源已有与采集日对应的 date_label。
+// 这里复用它们的展示口径，避免同一排日期按钮里 TapTap 显得像另一套格式。
+function dateLabel(date, reference = '') {
+  const target = new Date(`${date}T00:00:00`)
+  const today = new Date(`${(reference || new Date().toISOString()).slice(0, 10)}T00:00:00`)
+  if (Number.isNaN(target.getTime()) || Number.isNaN(today.getTime())) return date
+
+  const label = `${String(target.getMonth() + 1).padStart(2, '0')}月${String(target.getDate()).padStart(2, '0')}日`
+  const offset = Math.round((target - today) / 86_400_000)
+  if (offset === 0) return `${label} 今天`
+  if (offset === 1) return `${label} 明天`
+  if (offset === 2) return `${label} 后天`
+
+  const weekStart = (d) => {
+    const mondayOffset = (d.getDay() + 6) % 7
+    return new Date(d.getFullYear(), d.getMonth(), d.getDate() - mondayOffset)
+  }
+  const weekDelta = Math.round((weekStart(target) - weekStart(today)) / 604_800_000)
+  const weekday = ['周一', '周二', '周三', '周四', '周五', '周六', '周日'][(target.getDay() + 6) % 7]
+  if (weekDelta === 0) return `${label} ${weekday}`
+  if (weekDelta === 1) return `${label} 下${weekday}`
+  return label
+}
+
 /**
  * 日期分组：不重排内容，只是把既有顺序切成带锚点的段落。
  * 好游快爆 / 九游 / 游资网 数据本身就是按天分组的，直接用；
@@ -54,7 +78,11 @@ const groups = computed(() => {
     const date = g.release_date || 'unknown'
     let grp = out.find((x) => x.date === date)
     if (!grp) {
-      grp = { date, label: date === 'unknown' ? '日期未知' : `上线 ${date}`, games: [] }
+      grp = {
+        date,
+        label: date === 'unknown' ? '日期未知' : dateLabel(date, g.crawled_at || crawledAt.value),
+        games: [],
+      }
       out.push(grp)
     }
     grp.games.push(g)

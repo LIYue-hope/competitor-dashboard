@@ -191,9 +191,10 @@ a {
   /* 负边距把吸顶栏撑到卡片内边距外沿，滚动时内容不会从两侧缝隙露出来 */
   margin: 0 -20px 14px;
   padding: 10px 20px;
-  /* 只过渡 box-shadow：padding 一旦参与过渡，JS 侧量折叠前后高度差时读到的是
-     动画中间值，补偿量就会算错，重新引入抖动。高度变化本来也该是瞬时的。 */
-  transition: box-shadow .12s;
+  /* 高度由 useStickyTabs 依据切换前后的实测值做 WAAPI 过渡；不能在这里直接
+     transition auto 高度。overflow:hidden 让中间帧只露出当前高度内的控件。 */
+  overflow: hidden;
+  transition: box-shadow .18s ease;
 }
 
 /* 不支持 backdrop-filter 的浏览器（如旧版 Firefox 默认配置）拿不到模糊，
@@ -233,6 +234,10 @@ a {
   color: var(--text-3);
   flex: none;
   width: 28px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tab-stack { transition: none; }
 }
 
 /* 展开时各行本就分行，不需要分隔符；折叠成一行后才用竖线区分层级 */
@@ -284,6 +289,16 @@ a {
 }
 
 .range-wrap .sep { font-size: 12px; color: var(--text-3); }
+
+/* 新闻显示条数紧跟更新时间，沿用日期筛选的下拉控件样式。 */
+.news-limit {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+/* 条数切换是辅助设置，使用次级灰色，避免与筛选条件争夺视觉焦点。 */
+.tab-stack .news-limit select { color: var(--text-3); }
 
 /* ============ 徽标 ============ */
 .badge {

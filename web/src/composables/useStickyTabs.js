@@ -34,6 +34,7 @@ export function useStickyTabs(stackRef, rootRef, activeRef) {
 
   let delta = 0
   let queued = false
+  let stackAnimation = null
 
   // 量一次展开态与折叠态的高度差。直接改 DOM class 再同步还原，
   // 全程无 await，Vue 不会在中间 patch，不会和 :class 绑定打架。
@@ -56,17 +57,52 @@ export function useStickyTabs(stackRef, rootRef, activeRef) {
     document.body.style.paddingBottom = on ? `${delta}px` : ''
   }
 
+  /**
+   * 切换 class 后用实际高度补一段短动画。CSS 无法直接过渡 auto 高度，
+   * 因此用 Web Animations API 从切换前高度过渡到切换后高度；最终布局和
+   * body 补偿仍会在同一帧生效，不会破坏滚动防抖的高度守恒。
+   */
+  function setCompact(next) {
+    if (compact.value === next) return
+
+    const el = stackRef.value
+    const from = el?.getBoundingClientRect().height
+    compact.value = next
+    setPad(next)
+
+    if (!el || !from || !el.animate || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+
+    nextTick().then(() => {
+      // 如果滚动方向在 DOM 更新前已反转，交给最新一次切换处理。
+      if (compact.value !== next) return
+      // 先取消旧动画，再读取新 class 的真实目标高度。否则快速反向滚动时，
+      // 这里会读到旧动画的中间高度，动画结束会跳一下。
+      stackAnimation?.cancel()
+      const to = el.getBoundingClientRect().height
+      if (Math.abs(to - from) < 1) return
+
+      const animation = el.animate(
+        [{ height: `${from}px` }, { height: `${to}px` }],
+        { duration: 180, easing: 'cubic-bezier(.2, .7, .2, 1)' },
+      )
+      stackAnimation = animation
+      const clearAnimation = () => {
+        if (stackAnimation === animation) stackAnimation = null
+      }
+      animation.onfinish = clearAnimation
+      animation.oncancel = clearAnimation
+    })
+  }
+
   function apply() {
     queued = false
     if (!activeRef.value) return
 
     const y = window.scrollY
     if (!compact.value && y > COMPACT_ON) {
-      compact.value = true
-      setPad(true)
+      setCompact(true)
     } else if (compact.value && y < COMPACT_OFF) {
-      compact.value = false
-      setPad(false)
+      setCompact(false)
     }
 
     const root = rootRef.value
@@ -88,12 +124,14 @@ export function useStickyTabs(stackRef, rootRef, activeRef) {
   }
 
   function onResize() {
+    stackAnimation?.cancel()
     measure()
     onScroll()
   }
 
   /** 内容变化（切 Tab、刷新数据）后重新实测补偿量并复位 */
   async function remeasure() {
+    stackAnimation?.cancel()
     compact.value = false
     setPad(false)
     await nextTick()
@@ -105,6 +143,7 @@ export function useStickyTabs(stackRef, rootRef, activeRef) {
   watch(activeRef, (on) => {
     if (on) remeasure()
     else {
+      stackAnimation?.cancel()
       compact.value = false
       setPad(false)
     }
@@ -117,6 +156,7 @@ export function useStickyTabs(stackRef, rootRef, activeRef) {
   })
 
   onUnmounted(() => {
+    stackAnimation?.cancel()
     window.removeEventListener('scroll', onScroll)
     window.removeEventListener('resize', onResize)
     if (activeRef.value) setPad(false)

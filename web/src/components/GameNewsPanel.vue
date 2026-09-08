@@ -19,6 +19,9 @@ const { compact, remeasure } = useStickyTabs(stackRef, rootRef, activeRef)
 const sourceKey = ref('')
 const tab = ref('news')
 const q = ref('')
+// 新闻窗口可能有数百条记录，默认只渲染前 30 条；筛选与统计仍基于完整命中集。
+const newsLimit = ref(30)
+const newsPage = ref(1)
 // 新闻列表用起止区间，每日总结用单日，两套状态互不影响
 const from = ref('')
 const to = ref('')
@@ -44,7 +47,11 @@ function selectSource(key) {
   digestDate.value = ''
 }
 
-watch([sourceKey, tab, q, from, to, digestDate], () => remeasure())
+// 来源、分类、搜索和日期区间改变后，新的结果集始终从第一页开始浏览。
+watch([sourceKey, tab, q, from, to, digestDate, newsLimit], () => {
+  newsPage.value = 1
+  remeasure()
+})
 
 /* ---- 新闻 ---- */
 const newsItems = computed(() => src.value?.news?.items || [])
@@ -83,6 +90,34 @@ const filteredNews = computed(() => {
     )
   }
   return list
+})
+
+const newsPageCount = computed(() => {
+  if (newsLimit.value === 'all') return 1
+  return Math.max(1, Math.ceil(filteredNews.value.length / Number(newsLimit.value)))
+})
+
+const shownNews = computed(() => {
+  if (newsLimit.value === 'all') return filteredNews.value
+  const start = (newsPage.value - 1) * Number(newsLimit.value)
+  return filteredNews.value.slice(start, start + Number(newsLimit.value))
+})
+
+// 页数很多时保留首末页及当前页附近的页码，避免分页器本身变成一整行长列表。
+const newsPageOptions = computed(() => {
+  const total = newsPageCount.value
+  const current = newsPage.value
+  const pages = new Set([1, total, current - 2, current - 1, current, current + 1, current + 2])
+  const ordered = [...pages].filter((page) => page >= 1 && page <= total).sort((a, b) => a - b)
+  return ordered.reduce((options, page, index) => {
+    if (index && page - ordered[index - 1] > 1) options.push(null)
+    options.push(page)
+    return options
+  }, [])
+})
+
+watch(newsPageCount, (count) => {
+  if (newsPage.value > count) newsPage.value = count
 })
 
 // 只在区间收窄到单日时统计当日新闻数最多的 3 个游戏
@@ -211,6 +246,13 @@ function highlight(text) {
             <span class="stamp">
               共 {{ filteredNews.length }} 条 · 近 {{ src.news.window_days }} 天 · 更新于 {{ stamp(src.news.crawled_at) }}
             </span>
+            <span class="news-limit" aria-label="新闻显示条数">
+              <select v-model="newsLimit" aria-label="新闻显示条数">
+                <option :value="30">显示 30 条</option>
+                <option :value="100">显示 100 条</option>
+                <option value="all">显示全部</option>
+              </select>
+            </span>
           </span>
         </template>
 
@@ -248,7 +290,7 @@ function highlight(text) {
           <span class="em">—</span>{{ q ? '没有匹配的新闻' : `近 ${src.news?.window_days || 0} 天暂无新闻` }}
         </p>
         <ul v-else class="news-list">
-          <li v-for="(it, i) in filteredNews" :key="it.url || i" class="news-item">
+          <li v-for="(it, i) in shownNews" :key="it.url || i" class="news-item">
             <span class="news-date">{{ md(it.published_at) }}</span>
             <div class="news-main">
               <component :is="it.url ? 'a' : 'span'" class="news-title" :href="it.url || null" target="_blank" rel="noopener"
@@ -265,6 +307,24 @@ function highlight(text) {
             </div>
           </li>
         </ul>
+        <p v-if="shownNews.length < filteredNews.length" class="hint">
+          第 {{ newsPage }} / {{ newsPageCount }} 页，本页展示 {{ shownNews.length }} 条，已匹配 {{ filteredNews.length }} 条新闻。
+        </p>
+        <nav v-if="newsLimit !== 'all' && newsPageCount > 1" class="news-pager" aria-label="新闻分页">
+          <button class="icon-btn" :disabled="newsPage === 1" @click="newsPage--">上一页</button>
+          <template v-for="(page, index) in newsPageOptions" :key="page || `gap-${index}`">
+            <span v-if="page === null" class="pager-gap" aria-hidden="true">…</span>
+            <button
+              v-else
+              class="icon-btn pager-page"
+              :class="{ active: page === newsPage }"
+              :aria-current="page === newsPage ? 'page' : null"
+              :aria-label="`第 ${page} 页`"
+              @click="newsPage = page"
+            >{{ page }}</button>
+          </template>
+          <button class="icon-btn" :disabled="newsPage === newsPageCount" @click="newsPage++">下一页</button>
+        </nav>
       </template>
     </template>
 
@@ -343,5 +403,24 @@ function highlight(text) {
   font-size: 15px;
   font-weight: 700;
 }
+
+.news-pager {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.news-pager .icon-btn {
+  height: 28px;
+  padding: 0 9px;
+  font-size: 12px;
+}
+
+.news-pager .pager-page { min-width: 28px; justify-content: center; padding: 0 6px; }
+.news-pager .pager-page.active { border-color: var(--brand); background: var(--brand-weak); color: var(--brand); }
+.pager-gap { color: var(--text-3); line-height: 28px; }
 </style>
 

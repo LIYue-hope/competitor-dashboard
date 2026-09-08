@@ -382,6 +382,17 @@ const NEWS_FILES = [
   display: flex;
   flex-direction: column;
   gap: 2px;
+  padding: 4px;
+  background: var(--surface-glass);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-1);
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .rail { background: var(--surface); }
 }
 
 .rail-btn {
@@ -422,10 +433,8 @@ const NEWS_FILES = [
     position: static;
     flex-direction: row;
     overflow-x: auto;
-    background: var(--surface);
-    border: 1px solid var(--border);
     border-radius: 999px;
-    padding: 3px;
+    padding: 3px 4px;
   }
 
   .rail-btn { border-radius: 999px; white-space: nowrap; }
