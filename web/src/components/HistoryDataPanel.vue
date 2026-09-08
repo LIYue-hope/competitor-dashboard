@@ -24,6 +24,19 @@ const heatShown = computed(() => pageRows(heatRows.value, heatPage))
 const newsShown = computed(() => pageRows(newsRows.value, newsPage))
 
 function pages(rows) { return Math.max(1, Math.ceil(rows.length / pageSize.value)) }
+
+// 与游戏资讯的新闻分页保持一致：页数多时只保留首末页和当前页附近页码。
+const newsPageOptions = computed(() => {
+  const total = pages(newsRows.value)
+  const current = newsPage.value
+  const visible = new Set([1, total, current - 2, current - 1, current, current + 1, current + 2])
+  const ordered = [...visible].filter((page) => page >= 1 && page <= total).sort((a, b) => a - b)
+  return ordered.reduce((options, page, index) => {
+    if (index && page - ordered[index - 1] > 1) options.push(null)
+    options.push(page)
+    return options
+  }, [])
+})
 function periods(row) {
   const ranges = row.periods?.length ? row.periods : [row]
   const labels = ranges.map((range) => {
@@ -98,11 +111,21 @@ function articleRange(row) {
           </li>
         </ol>
         <p v-else class="state"><span class="em">—</span>暂无历史游戏资讯榜数据</p>
-        <div v-if="newsRows.length > pageSize" class="pager">
+        <nav v-if="newsRows.length > pageSize" class="news-pager" aria-label="历史游戏资讯榜分页">
           <button class="icon-btn" :disabled="newsPage === 1" @click="newsPage--">上一页</button>
-          <span class="stamp">第 {{ newsPage }} / {{ pages(newsRows) }} 页</span>
+          <template v-for="(page, index) in newsPageOptions" :key="page || `gap-${index}`">
+            <span v-if="page === null" class="pager-gap" aria-hidden="true">…</span>
+            <button
+              v-else
+              class="icon-btn pager-page"
+              :class="{ active: page === newsPage }"
+              :aria-current="page === newsPage ? 'page' : null"
+              :aria-label="`第 ${page} 页`"
+              @click="newsPage = page"
+            >{{ page }}</button>
+          </template>
           <button class="icon-btn" :disabled="newsPage === pages(newsRows)" @click="newsPage++">下一页</button>
-        </div>
+        </nav>
       </section>
     </template>
   </div>
@@ -117,6 +140,11 @@ select { border: 1px solid var(--border); background: var(--surface); color: var
 .history-section .card-head { margin-bottom: 10px; }
 .pager { display: flex; justify-content: flex-end; align-items: center; gap: 10px; margin-top: 12px; }
 .pager .icon-btn { height: 28px; font-size: 12px; }
+.news-pager { display: flex; justify-content: flex-end; align-items: center; gap: 6px; margin-top: 12px; flex-wrap: wrap; }
+.news-pager .icon-btn { height: 28px; padding: 0 9px; font-size: 12px; }
+.news-pager .pager-page { min-width: 28px; justify-content: center; padding: 0 6px; }
+.news-pager .pager-page.active { border-color: var(--brand); background: var(--brand-weak); color: var(--brand); }
+.pager-gap { color: var(--text-3); line-height: 28px; }
 .history-section .rank-list { gap: 5px; }
 .history-section .rank-row { padding: 8px 10px; }
 .history-section .rank-top { gap: 7px; }

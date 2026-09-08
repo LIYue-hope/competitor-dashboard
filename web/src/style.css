@@ -280,6 +280,13 @@ a {
 
 .search-wrap .stamp { white-space: nowrap; }
 
+/* 资讯来源的数据量不同会让“筛选”一行的内容宽度轻微伸缩。
+   固定为 3DMGame 当前的 503px 基准，切来源时布局不再跳动；窄屏仍可收缩。 */
+.news-search-wrap {
+  flex: 0 1 503px;
+  width: 503px;
+}
+
 /* 日期区间的两个下拉 + 分隔符也绑成一组，避免"起始"和"结束"被拆到两行 */
 .range-wrap {
   display: inline-flex;
@@ -289,6 +296,10 @@ a {
 }
 
 .range-wrap .sep { font-size: 12px; color: var(--text-3); }
+
+/* GameLook、游资网的日期条目数字较短，原生 select 会随内容变窄。
+   固定为 3DMGame 的日期选择框基准宽度，所有来源的起止时间筛选栏保持一致。 */
+.range-wrap select { width: 120px; }
 
 /* 新闻显示条数紧跟更新时间，沿用日期筛选的下拉控件样式。 */
 .news-limit {

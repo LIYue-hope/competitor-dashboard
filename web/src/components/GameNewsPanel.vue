@@ -241,7 +241,7 @@ function highlight(text) {
             </select>
             <button v-if="!isFullRange" class="icon-btn" @click="resetRange">全部日期</button>
           </span>
-          <span class="search-wrap">
+          <span class="search-wrap news-search-wrap">
             <input v-model.trim="q" type="search" :placeholder="`在 ${src.label} 新闻中搜索`" />
             <span class="stamp">
               共 {{ filteredNews.length }} 条 · 近 {{ src.news.window_days }} 天 · 更新于 {{ stamp(src.news.crawled_at) }}

@@ -199,18 +199,30 @@ const counts = computed(() => ({
   news: newsSources.value.reduce((n, s) => n + (s.news?.items || []).length, 0),
 }))
 
-// 顶栏总时间戳取各源里最新的一个
+// 数据文件的生成时间字段并不统一：大部分采集结果放在顶层，TapTap 新游则在数组条目内。
+// 只识别采集/生成/更新元数据，避免把文章发布时间误当成数据更新时间。
+const TIMESTAMP_FIELDS = new Set(['crawled_at', 'generated_at', 'updated_at'])
+
+function collectTimestamps(value, timestamps = []) {
+  if (Array.isArray(value)) {
+    value.forEach((item) => collectTimestamps(item, timestamps))
+  } else if (value && typeof value === 'object') {
+    Object.entries(value).forEach(([key, item]) => {
+      if (TIMESTAMP_FIELDS.has(key) && typeof item === 'string') timestamps.push(item)
+      else collectTimestamps(item, timestamps)
+    })
+  }
+  return timestamps
+}
+
+// 顶栏总时间戳取当前成功加载的所有数据文件中最新的采集、生成或更新时间。
 const newestStamp = computed(() => {
-  const list = [
-    data.value.taptap?.[0]?.crawled_at,
-    data.value.hot?.crawled_at,
-    data.value.dmNews?.crawled_at,
-    data.value.gsNews?.crawled_at,
-  ].filter(Boolean)
-  if (!list.length) return ''
-  const iso = list.sort().pop()
-  const d = new Date(iso)
-  if (Number.isNaN(d.getTime())) return ''
+  const latest = collectTimestamps(Object.values(data.value))
+    .map((iso) => ({ iso, time: new Date(iso).getTime() }))
+    .filter(({ time }) => !Number.isNaN(time))
+    .sort((a, b) => b.time - a.time)[0]
+  if (!latest) return ''
+  const d = new Date(latest.iso)
   const p = (n) => String(n).padStart(2, '0')
   return `${p(d.getMonth() + 1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`
 })
