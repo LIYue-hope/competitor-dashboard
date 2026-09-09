@@ -33,12 +33,14 @@
   每个来源内部再分「新闻 / 新闻总结 / 评测（测评）」子 Tab；
   GameLook 与游资网站点没有评测，只有前两个；新闻默认每页显示 30 条，可在更新时间后
   切换为每页 100 条或全部；按 30 / 100 条显示时，可通过列表底部页码浏览其余新闻，以兼顾长列表浏览与页面性能
-- **历史数据** — 侧栏一级板块；从 2026-08-31 起按每周成稿时的
-  完整候选列表累计，展示历史热度榜和历史游戏资讯榜，前端可按 20 / 50 / 100 条分页查看
+- **历史数据** — 侧栏一级板块；从 2026-08-31 起累计展示历史热度榜和历史游戏资讯榜：
+  热度榜在每周一上周总览成稿后更新，资讯榜每天随资讯采集增量更新；前端可按
+  20 / 50 / 100 条分页查看，两个榜单的显示条数可分别筛选
 
 顶栏有深浅色切换（跟随系统，可手动覆盖，记在 `localStorage`），以及当前已加载数据中可用的最新采集时间戳。
 吸顶栏和 Tab 栏用半透明磨砂底；不支持 `backdrop-filter` 的浏览器回退为不透明底色。
 新游监测、热门动态和游戏资讯的吸顶 Tab 栏会在滚动折叠或展开时平滑过渡，并遵从系统的“减少动态效果”设置。
+鼠标悬停或通过键盘聚焦 Tab 标签、新闻条目、官方动态和游戏卡片等具体内容时，该条目会平滑放大至 1.05 倍，以突出当前焦点；游戏资讯和热门动态的条目带完整左右框线；顶栏和吸顶 Tab 栏本身不会整体缩放。
 
 ## 目录结构
 
@@ -75,7 +77,7 @@ web/                     展示层（Vue 3.4 + Vite 5）
 | `<源>_news.json` / `<源>_reviews.json` | `crawl_3dmgame/youxia/gamersky/gamelook/gameres.py` | `{crawled_at, window_days, items:[{title, url, game_name, published_at, summary}]}` |
 | `<源>_digest.json` | `summarize_news.py` | `{generated_at, source, window_days, top_n, items:[{date, digest, top_games, ...}]}` |
 | `weekly_digest.json` | `summarize_week.py` | `{week_start, week_end, digest, heat_formula, hot_ranking:[...]}` |
-| `weekly_history.json` | `summarize_week.py` | `{history_start, weeks, heat_ranking, news_data_version, news_weeks, news_history, news_ranking}`；`news_history` 为全量累计底稿，`news_ranking` 为展示前 100 名 |
+| `weekly_history.json` | `summarize_week.py` | `{history_start, weeks, heat_ranking, news_data_version, news_days, news_history, news_ranking}`；`news_history` 为全量累计底稿，`news_ranking` 为展示前 100 名 |
 | `community_history.json` | `summarize_week.py` | TapTap 关注/评价/讨论存量快照，用于算周内增量 |
 
 `weekly_digest.json` 按自然周「每周生成一期并冻结」：只在每周结束后的第一次运行
@@ -83,13 +85,15 @@ web/                     展示层（Vue 3.4 + Vite 5）
 等下一自然周第一次运行再进入新一轮）；`community_history.json` 的社区快照不冻结，
 每天照常追加一张，供跨周算周内新增。
 
-`weekly_history.json` 自 2026-08-31 起按周追加一次：即使当周周报已冻结，后续运行也会
-补齐尚未记录的周次。两个榜单独立入榜：有热度的游戏进入历史热度榜；历史资讯榜直接从各资讯源
-的周内文章按游戏名统计，不受热度榜门槛或周报 Top 10 限制。历史资讯榜会将不同周期的同名游戏
-合并、累计资讯数量，并显示该游戏首篇资讯日至末篇资讯日。`news_history` 保留完整累计底稿，页面的 `news_ranking`
-仅派生前 100 款，避免榜外游戏再次上榜时丢失既有资讯数；`news_weeks` 防止同一周重复累计。
-本地现有资讯源已回填 v2 的 `news_history` 与 `news_ranking`；后续按文章 URL（缺失时回退来源、
-日期与标题）去重，避免重跑或窗口重叠导致重复累计。
+`weekly_history.json` 自 2026-08-31 起分开整理两个榜单：历史热度榜只在每周一上周总览
+成功成稿后追加一次，随后随周报冻结；历史游戏资讯榜每天读取各资讯源的滚动保留窗口并增量合并，
+不受热度榜门槛或周报 Top 10 限制。资讯榜会将同名游戏合并、累计资讯数量，并显示该游戏首篇资讯日
+至末篇资讯日。`news_history` 保留完整累计底稿，页面的 `news_ranking` 仅派生前 100 款，避免榜外游戏
+再次上榜时丢失既有资讯数；`news_days` 记录每日整理日期。已有 v2 底稿会保留并迁移到每日整理逻辑；
+后续按文章 URL（缺失时回退来源、日期与标题）去重，避免重跑或滚动窗口重叠导致重复累计。
+
+如需仅修复已有 `weekly_history.json` 的资讯展示排序（不读取采集源，也不改动 `news_history` 累计底稿），可运行
+`python scripts/summarize_week.py --repair-news-history-ranking`；该命令只在 `news_ranking` 与当前排序规则不一致时写回文件。
 
 资讯源 key：`3dmgame` / `youxia` / `gamersky` / `gamelook` / `gameres`。
 GameLook 与游资网没有评测文件。
@@ -246,8 +250,9 @@ npm run build    # 产物在 web/dist，含拷贝进去的 data/
   摘要会完整走规则生成。
 
 采集顺序：各源爬虫（含游资网资讯 / 新游）→ 每日 digest → TapTap 榜单 → 上周总结 → 提交 `data/*.json`。
-「上周总结」每天都会随流程跑，但同一自然周只在每周结束后的第一次运行成稿并冻结：
-之后新闻窗口继续回填也不再重写该周，等下一自然周才生成新一期。
+「上周总结」每天都会随流程跑，但同一自然周只在每周结束后的第一次运行（周一）成稿并冻结：
+热度历史榜随这次成功成稿更新一次；历史游戏资讯榜则在每次日常运行中独立增量更新，之后新闻窗口
+继续回填也不会重写该周总览，等下一自然周才生成新一期。
 
 ## 已知限制
 

@@ -316,6 +316,42 @@ class TestWeeklyHistory(unittest.TestCase):
             for index, _ in enumerate(row["bucket"]["articles"])
         ]
 
+    def test_collect_news_history_rows_allows_daily_call_without_week_bounds(self):
+        rows = sw.collect_news_history_rows([
+            {"game_name": "NewsOnly", "source_key": "3dmgame", "published_at": "2026-09-08", "url": "https://example.com/news"},
+        ])
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["name"], "NewsOnly")
+        self.assertEqual(rows[0]["week_start"], None)
+        self.assertEqual(rows[0]["week_end"], None)
+
+    def test_collect_news_history_rows_keeps_legacy_week_bounds(self):
+        rows = sw.collect_news_history_rows(
+            [{"game_name": "NewsOnly", "source_key": "3dmgame", "published_at": "2026-09-08", "url": "https://example.com/news"}],
+            date(2026, 9, 7), date(2026, 9, 13),
+        )
+        self.assertEqual(rows[0]["week_start"], "2026-09-07")
+        self.assertEqual(rows[0]["week_end"], "2026-09-13")
+
+    def test_repair_news_history_ranking_only_replaces_stale_display_rows(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = os.path.join(tmp, sw.HISTORY_OUTPUT_NAME)
+            payload = {
+                "news_history": [
+                    {"name": "Beta", "media_count": 2, "heat_score": 0},
+                    {"name": "Alpha", "media_count": 2, "heat_score": 0},
+                ],
+                "news_ranking": [{"name": "Beta", "media_count": 2, "heat_score": 0}],
+                "unchanged": {"keep": True},
+            }
+            sw.write_output(path, payload)
+            self.assertTrue(sw.repair_news_history_ranking(tmp))
+            repaired = sw.load_json(path)
+            self.assertEqual(repaired["news_history"], payload["news_history"])
+            self.assertEqual(repaired["unchanged"], payload["unchanged"])
+            self.assertEqual([row["name"] for row in repaired["news_ranking"]], ["Alpha", "Beta"])
+            self.assertFalse(sw.repair_news_history_ranking(tmp))
+
     def test_history_starts_at_configured_week_and_keeps_top_100(self):
         with tempfile.TemporaryDirectory() as tmp:
             sw.update_weekly_history(
@@ -332,7 +368,8 @@ class TestWeeklyHistory(unittest.TestCase):
     def test_history_is_idempotent_per_week_and_ignores_earlier_weeks(self):
         with tempfile.TemporaryDirectory() as tmp:
             sw.update_weekly_history(
-                tmp, date(2026, 8, 24), date(2026, 8, 30), self._ranked(1), self._articles_for_ranked(self._ranked(1))
+                tmp, date(2026, 8, 24), date(2026, 8, 30), self._ranked(1),
+                self._articles_for_ranked(self._ranked(1), "2026-08-24")
             )
             self.assertFalse(os.path.exists(os.path.join(tmp, sw.HISTORY_OUTPUT_NAME)))
             sw.update_weekly_history(
@@ -405,6 +442,38 @@ class TestWeeklyHistory(unittest.TestCase):
         self.assertEqual(payload["news_ranking"][0]["media_count"], 3)
         self.assertEqual(payload["news_ranking"][0]["first_article_date"], "2026-08-31")
         self.assertEqual(payload["news_ranking"][0]["last_article_date"], "2026-09-06")
+
+    def test_news_history_refreshes_daily_without_readding_rolling_articles(self):
+        articles = [
+            {"game_name": "NewsOnly", "source_key": "3dmgame", "published_at": "2026-09-07", "url": "https://example.com/one"},
+        ]
+        with tempfile.TemporaryDirectory() as tmp:
+            # A non-Monday run updates news but must not backfill heat history.
+            sw.update_weekly_history(
+                tmp, date(2026, 8, 31), date(2026, 9, 6), [], articles,
+                news_day=date(2026, 9, 8), archive_heat=False,
+            )
+            # The next daily run receives the retained article plus a new item.
+            sw.update_weekly_history(
+                tmp, date(2026, 8, 31), date(2026, 9, 6), [], articles + [
+                    {"game_name": "NewsOnly", "source_key": "youxia", "published_at": "2026-09-08", "url": "https://example.com/two"},
+                ], news_day=date(2026, 9, 9), archive_heat=False,
+            )
+            payload = sw.load_json(os.path.join(tmp, sw.HISTORY_OUTPUT_NAME))
+        row = payload["news_ranking"][0]
+        self.assertEqual(row["media_count"], 2)
+        self.assertEqual(row["source_count"], 2)
+        self.assertEqual(payload["news_days"], ["2026-09-08", "2026-09-09"])
+        self.assertEqual(payload["weeks"], [])
+
+        # Only the successful Monday weekly-report path opts in to heat archival.
+        with tempfile.TemporaryDirectory() as tmp:
+            sw.update_weekly_history(
+                tmp, date(2026, 8, 31), date(2026, 9, 6), [], articles,
+                news_day=date(2026, 9, 14), archive_heat=True,
+            )
+            payload = sw.load_json(os.path.join(tmp, sw.HISTORY_OUTPUT_NAME))
+        self.assertEqual(payload["weeks"], ["2026-08-31"])
 
 
 def _write_json_file(tmp_dir, name, payload):

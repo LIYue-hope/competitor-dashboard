@@ -421,9 +421,20 @@ const NEWS_FILES = [
   align-items: center;
   justify-content: space-between;
   gap: 8px;
+  position: relative;
+  transform-origin: center;
+  transition: transform .12s ease, background .12s, color .12s, box-shadow .12s;
 }
 
-.rail-btn:hover { background: var(--surface-2); color: var(--text); }
+.rail-btn:hover,
+.rail-btn:focus-visible {
+  transform: scale(var(--focus-scale));
+  z-index: 1;
+  background: var(--surface-2);
+  color: var(--text);
+  box-shadow: var(--shadow-1);
+}
+.rail-btn:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
 .rail-btn.active { background: var(--brand-weak); color: var(--brand); font-weight: 600; }
 
 .rail-btn .count {

@@ -22,7 +22,7 @@ import re
 import sys
 
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from heat_utils import (  # noqa: E402
@@ -62,7 +62,10 @@ OUTPUT_NAME = "weekly_digest.json"
 HISTORY_OUTPUT_NAME = "weekly_history.json"
 HISTORY_START = "2026-08-31"
 HISTORY_LIMIT = 100
-NEWS_HISTORY_VERSION = 2
+# v3: news_history is refreshed from the daily rolling news files.  v2 rows
+# already contain article_ids, so they can be retained and safely deduplicated
+# during the migration instead of rebuilding (and losing older articles).
+NEWS_HISTORY_VERSION = 3
 
 # 热度权重：媒体 30% / 跨源 15% / 预约 18% / 社区 15% / 榜单 12% / 官方 7% / 评测 3%
 W_MEDIA = 0.30
@@ -732,12 +735,19 @@ def merge_news_history(rows):
     return list(merged.values())
 
 
-def collect_news_history_rows(articles, start, end):
-    """直接按周内资讯的 game_name 聚合，不受热度榜入榜门槛影响。"""
+def collect_news_history_rows(articles, start=None, end=None):
+    """按资讯游戏名聚合，不受热度榜入榜门槛影响。
+
+    历史资讯榜每天从资讯源的滚动保留窗口补数据；start/end 仅保留给旧调用
+    和测试使用。article_ids 仍是最终的去重依据，因此窗口重叠或同日重跑不会
+    重复累计。
+    """
     buckets = {}
     for item in articles:
         published_at = (item.get("published_at") or "")[:10]
-        if not published_at or published_at < HISTORY_START or not in_range(published_at, start, end):
+        if not published_at or published_at < HISTORY_START:
+            continue
+        if start is not None and end is not None and not in_range(published_at, start, end):
             continue
         name = (item.get("game_name") or "").strip()
         key = stat_key(name)
@@ -755,8 +765,10 @@ def collect_news_history_rows(articles, start, end):
             "media_count": len({article_id for article_id, _ in bucket["articles"]}),
             "source_count": len(bucket["sources"]),
             "source_keys": sorted(bucket["sources"]),
-            "week_start": start.isoformat(),
-            "week_end": end.isoformat(),
+            # 每日资讯整理不会传周边界；保留字段以兼容旧的按周调用和
+            # 既有历史数据格式，但不能假定 start/end 一定存在。
+            "week_start": start.isoformat() if start is not None else None,
+            "week_end": end.isoformat() if end is not None else None,
             "article_ids": list(dict.fromkeys(article_id for article_id, _ in bucket["articles"])),
             "first_article_date": min(day for _, day in bucket["articles"]),
             "last_article_date": max(day for _, day in bucket["articles"]),
@@ -773,34 +785,51 @@ def rank_news_history(news_history):
     )[:HISTORY_LIMIT]
 
 
-def update_weekly_history(data_dir, start, end, ranked, articles):
-    """追加自然周：热度榜用 ranked，资讯榜直接按原始资讯聚合。"""
-    if start.isoformat() < HISTORY_START:
-        return
+def repair_news_history_ranking(data_dir=None):
+    """从完整资讯累计底稿安全重派生展示榜，供一次性数据迁移使用。
+
+    不读取采集源、不合并或修改 news_history；只有展示榜确实过期时才覆写文件。
+    """
+    data_dir = data_dir or DATA_DIR
+    path = os.path.join(data_dir, HISTORY_OUTPUT_NAME)
+    payload = load_json(path)
+    if not payload or not isinstance(payload.get("news_history"), list):
+        logger.warning("未找到可重派生的历史资讯底稿：%s", path)
+        return False
+    ranking = rank_news_history(payload["news_history"])
+    if payload.get("news_ranking") == ranking:
+        return False
+    payload["news_ranking"] = ranking
+    write_output(path, payload)
+    return True
+
+
+def update_weekly_history(
+    data_dir, start, end, ranked, articles, news_day=None, archive_heat=True
+):
+    """归档已成稿自然周的热度榜，并每日增量整理资讯历史。
+
+    热度只由周一生成并冻结的上周总览写入一次；资讯则从每日采集后的滚动
+    新闻数据增量合并。两者共享文件，但各自的去重/时间标记互不影响。
+    """
     path = os.path.join(data_dir, HISTORY_OUTPUT_NAME)
     old = load_json(path) or {}
     weeks = set(old.get("weeks") or [])
     week_key = start.isoformat()
-    # v1 的资讯行来自热度候选，不能拿来与直接资讯统计混用；首次升级时重建。
-    if old.get("news_data_version") == NEWS_HISTORY_VERSION:
+    # v1 的资讯行来自热度候选，不能拿来与直接资讯统计混用；v2 已有精确
+    # article_ids，升级到每日整理时可直接保留。
+    if old.get("news_data_version") in (2, NEWS_HISTORY_VERSION):
         news_history = merge_news_history(old.get("news_history") or [])
-        news_weeks = set(old.get("news_weeks") or [])
+        news_days = set(old.get("news_days") or old.get("news_weeks") or [])
     else:
         news_history = []
-        news_weeks = set()
-    is_new_heat_week = week_key not in weeks
-    is_new_news_week = week_key not in news_weeks
-    # 热度周已归档但资讯源本次暂时为空时，不写只有时间戳变化的空更新；
-    # 保留 news_weeks 的缺口，等同周后续运行拿到资讯后再补齐。
-    if not is_new_heat_week and is_new_news_week and not articles:
-        return
-    if not is_new_heat_week and not is_new_news_week:
-        # 历史底稿归一化或展示榜偏离底稿时，安全重建派生榜而不追加当周数据。
-        news_ranking = rank_news_history(news_history)
-        if old.get("news_history") != news_history or old.get("news_ranking") != news_ranking:
-            migrated = {**old, "news_history": news_history}
-            migrated["news_ranking"] = news_ranking
-            write_output(path, migrated)
+        news_days = set()
+    is_new_heat_week = (
+        archive_heat and start.isoformat() >= HISTORY_START and week_key not in weeks
+    )
+    daily_news_rows = collect_news_history_rows(articles) if articles else []
+    # 首个历史起始日之前没有可归档的热度或资讯时，不创建空文件。
+    if not old and not is_new_heat_week and not daily_news_rows:
         return
 
     heat_rows = list(old.get("heat_ranking") or [])
@@ -809,10 +838,18 @@ def update_weekly_history(data_dir, start, end, ranked, articles):
         # 与周报候选集保持一致：即使分数恰为 0，也应保留在历史榜中。
         heat_rows += rows
         weeks.add(week_key)
-    # 临时抓空时不落 news_weeks，让同周后续冻结运行仍能补齐。
-    if is_new_news_week and articles:
-        news_history = merge_news_history(news_history + collect_news_history_rows(articles, start, end))
-        news_weeks.add(week_key)
+    # 每日读取滚动窗口。merge_news_history 用 URL（缺失时来源/日期/标题）去重，
+    # 所以昨天的文章仍在窗口内、或同一天手动重跑，都不会重复累计。
+    if daily_news_rows:
+        news_history = merge_news_history(news_history + daily_news_rows)
+        if news_day is None:
+            news_day = end
+        if isinstance(news_day, datetime):
+            news_day = news_day.astimezone(BEIJING).date()
+        if isinstance(news_day, date):
+            news_days.add(news_day.isoformat())
+        elif news_day:
+            news_days.add(str(news_day)[:10])
     heat_rows.sort(key=lambda row: (-float(row.get("heat_score") or 0), -int(row.get("media_count") or 0), row.get("name") or ""))
     news_rows = rank_news_history(news_history)
     payload = {
@@ -820,7 +857,7 @@ def update_weekly_history(data_dir, start, end, ranked, articles):
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "weeks": sorted(weeks),
         "news_data_version": NEWS_HISTORY_VERSION,
-        "news_weeks": sorted(news_weeks),
+        "news_days": sorted(news_days),
         "heat_ranking": heat_rows[:HISTORY_LIMIT],
         "news_history": news_history,
         "news_ranking": news_rows[:HISTORY_LIMIT],
@@ -830,12 +867,25 @@ def update_weekly_history(data_dir, start, end, ranked, articles):
 
 def run(data_dir=None, today=None):
     data_dir = data_dir or DATA_DIR
+    if today is None:
+        today = datetime.now(BEIJING).date()
+    elif isinstance(today, datetime):
+        today = today.astimezone(BEIJING).date()
     start, end = last_week_range(today)
     week_key = start.isoformat()
     # 先把今天的社区存量落进历史，再算窗口增量：跨周做差要靠这条链攒基线。
     # 社区快照不参与冻结，每天照常落一张（这是内部中间数据，不属于对外展示）。
     update_community_history(data_dir, community_snapshot(data_dir), today=today)
     articles, ranked = collect_games(data_dir, start, end)
+    # 资讯历史不依赖周报是否需要重写。先在所有冻结/空窗口分支之前合并当天
+    # 的滚动新闻，保证周二到周日也能日更；archive_heat=False 明确禁止此处
+    # 意外补写热度历史。
+    history_articles = load_news_articles(
+        data_dir, date.fromisoformat(HISTORY_START), today
+    )
+    update_weekly_history(
+        data_dir, start, end, [], history_articles, news_day=today, archive_heat=False
+    )
     output_path = os.path.join(data_dir, OUTPUT_NAME)
     old = load_json(output_path)
 
@@ -855,7 +905,12 @@ def run(data_dir=None, today=None):
             logger.info("窗口内没有新闻；%s 这一周的周报已生成并冻结，跳过重写", week_key)
         else:
             logger.info("周报已生成并冻结（%s ~ %s），跳过重写", start.isoformat(), end.isoformat())
-        update_weekly_history(data_dir, start, end, ranked, articles)
+        # 同一个周一内若周报已成功写入、但此前历史文件写入失败，允许安全重试。
+        # weeks 去重让常规重复运行不改热榜；非周一冻结分支绝不补写。
+        if today.weekday() == 0:
+            update_weekly_history(
+                data_dir, start, end, ranked, [], news_day=today, archive_heat=True
+            )
         return True
 
     if not articles:
@@ -868,7 +923,12 @@ def run(data_dir=None, today=None):
     # 新一轮计算并写盘，自然覆盖「次周一」的轮换与首次上线场景。
     payload = build_payload(start, end, articles, ranked, data_dir=data_dir)
     write_output(output_path, payload)
-    update_weekly_history(data_dir, start, end, ranked, articles)
+    # 只有周一且本轮上周总览已成功落盘，才追加热度历史。其他日期即便手动
+    # 补成稿，也留待下一个周一，避免冻结分支或缺失旧归档时每日补写热榜。
+    if today.weekday() == 0:
+        update_weekly_history(
+            data_dir, start, end, ranked, [], news_day=today, archive_heat=True
+        )
     return True
 
 
@@ -877,6 +937,10 @@ def main():
         level=logging.INFO,
         format="%(asctime)s [%(levelname)s] %(message)s",
     )
+    if sys.argv[1:] == ["--repair-news-history-ranking"]:
+        changed = repair_news_history_ranking()
+        logger.info("历史资讯展示榜%s重派生", "已" if changed else "无需")
+        return 0
     logger.info(
         "\u6a21\u578b\u8def\u5f84\uff1a%s",
         "\u5df2\u914d\u7f6e" if llm_enabled() else "\u672a\u914d\u7f6e\uff08\u8d70\u89c4\u5219\u751f\u6210\uff09",

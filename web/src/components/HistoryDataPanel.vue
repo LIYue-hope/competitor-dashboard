@@ -6,28 +6,30 @@ const props = defineProps({
   error: { type: String, default: '' },
 })
 
-const pageSize = ref(20)
+const heatPageSize = ref(20)
+const newsPageSize = ref(20)
 const heatPage = ref(1)
 const newsPage = ref(1)
 // 两个榜单按自身指标独立展示，避免要求同一游戏同时具备热度和资讯才可入榜。
 const heatRows = computed(() => (props.data?.heat_ranking || []).filter((row) => Number(row.heat_score) > 0))
 const newsRows = computed(() => (props.data?.news_ranking || []).filter((row) => Number(row.media_count) > 0))
 
-watch(pageSize, () => { heatPage.value = 1; newsPage.value = 1 })
+watch(heatPageSize, () => { heatPage.value = 1 })
+watch(newsPageSize, () => { newsPage.value = 1 })
 
-function pageRows(rows, page) {
+function pageRows(rows, page, pageSize) {
   const start = (page.value - 1) * pageSize.value
   return rows.slice(start, start + pageSize.value)
 }
 
-const heatShown = computed(() => pageRows(heatRows.value, heatPage))
-const newsShown = computed(() => pageRows(newsRows.value, newsPage))
+const heatShown = computed(() => pageRows(heatRows.value, heatPage, heatPageSize))
+const newsShown = computed(() => pageRows(newsRows.value, newsPage, newsPageSize))
 
-function pages(rows) { return Math.max(1, Math.ceil(rows.length / pageSize.value)) }
+function pages(rows, pageSize) { return Math.max(1, Math.ceil(rows.length / pageSize.value)) }
 
 // 与游戏资讯的新闻分页保持一致：页数多时只保留首末页和当前页附近页码。
 const newsPageOptions = computed(() => {
-  const total = pages(newsRows.value)
+  const total = pages(newsRows.value, newsPageSize)
   const current = newsPage.value
   const visible = new Set([1, total, current - 2, current - 1, current, current + 1, current + 2])
   const ordered = [...visible].filter((page) => page >= 1 && page <= total).sort((a, b) => a - b)
@@ -59,38 +61,38 @@ function articleRange(row) {
     <p v-else-if="!data" class="state"><span class="em">—</span>暂无历史数据</p>
     <template v-else>
       <div class="history-note-row">
-        <p class="hint">历史数据自 08-31 起累计，每周成稿后自动补充，各榜单最多保留前 100 款游戏。</p>
-        <label class="history-toolbar">
-          <span class="stamp">每页显示</span>
-          <select v-model.number="pageSize" aria-label="每页显示条数">
-            <option :value="20">20 条</option>
-            <option :value="50">50 条</option>
-            <option :value="100">100 条</option>
-          </select>
-        </label>
+        <p class="hint">历史数据自 08-31 起累计：热度榜随每周成稿更新，游戏资讯榜每日更新；各榜单最多保留前 100 款游戏。</p>
       </div>
 
       <section class="history-section history-heat-section">
         <div class="card-head">
           <h2>历史热度榜</h2>
           <span class="badge brand">{{ heatRows.length }} / 100 款</span>
-          <span class="spacer"></span>
           <span class="stamp">按游戏热度排序</span>
+          <span class="spacer"></span>
+          <label class="history-toolbar">
+            <span class="stamp">每页显示</span>
+            <select v-model.number="heatPageSize" aria-label="历史热度榜每页显示条数">
+              <option :value="20">20 条</option>
+              <option :value="50">50 条</option>
+              <option :value="100">100 条</option>
+            </select>
+          </label>
         </div>
         <ol v-if="heatShown.length" class="rank-list">
-          <li v-for="(row, index) in heatShown" :key="`${row.week_start}-${row.name}`" class="rank-row" :class="{ top: (heatPage - 1) * pageSize + index < 3 }">
+          <li v-for="(row, index) in heatShown" :key="`${row.week_start}-${row.name}`" class="rank-row" :class="{ top: (heatPage - 1) * heatPageSize + index < 3 }">
             <div class="rank-top">
-              <span class="rank-no">{{ (heatPage - 1) * pageSize + index + 1 }}</span>
+              <span class="rank-no">{{ (heatPage - 1) * heatPageSize + index + 1 }}</span>
               <span class="rank-name">{{ row.name }}</span>
               <span class="history-value"><span>{{ periods(row).join('、') }}</span><strong>热度 {{ row.heat_score }}</strong></span>
             </div>
           </li>
         </ol>
         <p v-else class="state"><span class="em">—</span>暂无历史热度榜数据</p>
-        <div v-if="heatRows.length > pageSize" class="pager">
+        <div v-if="heatRows.length > heatPageSize" class="pager">
           <button class="icon-btn" :disabled="heatPage === 1" @click="heatPage--">上一页</button>
-          <span class="stamp">第 {{ heatPage }} / {{ pages(heatRows) }} 页</span>
-          <button class="icon-btn" :disabled="heatPage === pages(heatRows)" @click="heatPage++">下一页</button>
+          <span class="stamp">第 {{ heatPage }} / {{ pages(heatRows, heatPageSize) }} 页</span>
+          <button class="icon-btn" :disabled="heatPage === pages(heatRows, heatPageSize)" @click="heatPage++">下一页</button>
         </div>
       </section>
 
@@ -98,20 +100,28 @@ function articleRange(row) {
         <div class="card-head">
           <h2>历史游戏资讯榜</h2>
           <span class="badge brand">{{ newsRows.length }} / 100 款</span>
-          <span class="spacer"></span>
           <span class="stamp">按历史资讯数量排序</span>
+          <span class="spacer"></span>
+          <label class="history-toolbar">
+            <span class="stamp">每页显示</span>
+            <select v-model.number="newsPageSize" aria-label="历史游戏资讯榜每页显示条数">
+              <option :value="20">20 条</option>
+              <option :value="50">50 条</option>
+              <option :value="100">100 条</option>
+            </select>
+          </label>
         </div>
         <ol v-if="newsShown.length" class="rank-list">
-          <li v-for="(row, index) in newsShown" :key="`${row.name}-${articleRange(row)}`" class="rank-row" :class="{ top: (newsPage - 1) * pageSize + index < 3 }">
+          <li v-for="(row, index) in newsShown" :key="`${row.name}-${articleRange(row)}`" class="rank-row" :class="{ top: (newsPage - 1) * newsPageSize + index < 3 }">
             <div class="rank-top">
-              <span class="rank-no">{{ (newsPage - 1) * pageSize + index + 1 }}</span>
+              <span class="rank-no">{{ (newsPage - 1) * newsPageSize + index + 1 }}</span>
               <span class="rank-name">{{ row.name }}</span>
               <span class="history-value"><span>{{ articleRange(row) }}</span><strong>累计资讯 {{ row.media_count }} 条</strong></span>
             </div>
           </li>
         </ol>
         <p v-else class="state"><span class="em">—</span>暂无历史游戏资讯榜数据</p>
-        <nav v-if="newsRows.length > pageSize" class="news-pager" aria-label="历史游戏资讯榜分页">
+        <nav v-if="newsRows.length > newsPageSize" class="news-pager" aria-label="历史游戏资讯榜分页">
           <button class="icon-btn" :disabled="newsPage === 1" @click="newsPage--">上一页</button>
           <template v-for="(page, index) in newsPageOptions" :key="page || `gap-${index}`">
             <span v-if="page === null" class="pager-gap" aria-hidden="true">…</span>
@@ -124,7 +134,7 @@ function articleRange(row) {
               @click="newsPage = page"
             >{{ page }}</button>
           </template>
-          <button class="icon-btn" :disabled="newsPage === pages(newsRows)" @click="newsPage++">下一页</button>
+          <button class="icon-btn" :disabled="newsPage === pages(newsRows, newsPageSize)" @click="newsPage++">下一页</button>
         </nav>
       </section>
     </template>
@@ -132,7 +142,7 @@ function articleRange(row) {
 </template>
 
 <style scoped>
-.history-note-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 12px; }
+.history-note-row { margin: 0 0 12px; }
 .history-note-row .hint { margin: 0; }
 .history-toolbar { display: inline-flex; flex: none; align-items: center; gap: 8px; }
 select { border: 1px solid var(--border); background: var(--surface); color: var(--text); border-radius: var(--r-sm); padding: 5px 8px; font: 12px var(--font); }
@@ -154,8 +164,9 @@ select { border: 1px solid var(--border); background: var(--surface); color: var
 .history-heat-section .history-value { grid-template-columns: 118px 64px; }
 .history-news-section .history-value { grid-template-columns: 118px 96px; }
 @media (max-width: 640px) {
-  .history-note-row { align-items: flex-start; flex-direction: column; }
-  .history-toolbar { align-self: flex-end; }
+  .history-section .card-head { align-items: flex-start; flex-wrap: wrap; }
+  .history-section .card-head .spacer { display: none; }
+  .history-toolbar { width: 100%; justify-content: flex-end; }
   .history-value { grid-template-columns: 108px 80px; }
   .history-heat-section .history-value { grid-template-columns: 108px 62px; }
   .history-news-section .history-value { grid-template-columns: 108px 88px; }

@@ -62,11 +62,15 @@ const rows = computed(() => {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  transition: transform .12s, box-shadow .12s, border-color .12s;
+  position: relative;
+  transform-origin: center;
+  transition: transform .12s ease, box-shadow .12s, border-color .12s;
 }
 
-.g-card:hover {
-  transform: translateY(-2px);
+.g-card:hover,
+.g-card:focus-within {
+  transform: scale(var(--focus-scale));
+  z-index: 1;
   box-shadow: var(--shadow-2);
   border-color: var(--border-strong);
 }

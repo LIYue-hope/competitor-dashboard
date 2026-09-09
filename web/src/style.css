@@ -25,6 +25,7 @@
      不透明度别再往下调——低于 .7 时正文压在 tab 文字上会明显影响可读性。 */
   --surface-glass: rgba(255, 255, 255, .72);
   --glass-blur: saturate(180%) blur(14px);
+  --focus-scale: 1.05;
 }
 
 [data-theme="dark"] {
@@ -151,7 +152,9 @@ a {
   color: var(--text-2);
   font-size: 13px;
   padding: 6px 14px;
-  transition: background .12s, color .12s;
+  position: relative;
+  transform-origin: center;
+  transition: background .12s, color .12s, transform .12s ease, box-shadow .12s ease;
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -160,6 +163,17 @@ a {
 
 .seg button:hover {
   color: var(--text);
+  transform: scale(var(--focus-scale));
+  z-index: 1;
+  box-shadow: var(--shadow-1);
+}
+
+.seg button:focus-visible {
+  transform: scale(var(--focus-scale));
+  z-index: 1;
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+  box-shadow: var(--shadow-1);
 }
 
 .seg button.active {
@@ -237,7 +251,8 @@ a {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .tab-stack { transition: none; }
+  .tab-stack,
+  .app-bar { transition: none; }
 }
 
 /* 展开时各行本就分行，不需要分隔符；折叠成一行后才用竖线区分层级 */
@@ -380,13 +395,28 @@ a {
 .news-list { list-style: none; margin: 0; padding: 0; }
 
 .news-item {
-  padding: 11px 0;
+  padding: 11px 12px;
   border-top: 1px solid var(--border);
+  border-inline: 1px solid var(--border);
   display: flex;
   gap: 12px;
+  position: relative;
+  transform-origin: center;
+  transition: transform .12s ease, background .12s ease, border-color .12s ease, box-shadow .12s ease;
 }
 
 .news-item:first-child { border-top: none; }
+
+/* 新闻与官方动态共用 .news-item；放大单条而不是它所在的整块吸顶栏，
+   让鼠标与键盘焦点都能明确指向当前阅读对象。 */
+.news-item:hover,
+.news-item:focus-within {
+  transform: scale(var(--focus-scale));
+  z-index: 1;
+  background: var(--surface);
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow-2);
+}
 
 .news-date {
   flex: none;
@@ -453,10 +483,18 @@ mark { background: #fef0c7; color: inherit; border-radius: 2px; }
   border-radius: var(--r-md);
   padding: 12px 14px;
   background: var(--surface);
-  transition: border-color .12s, box-shadow .12s;
+  position: relative;
+  transform-origin: center;
+  transition: border-color .12s, box-shadow .12s, transform .12s ease;
 }
 
-.rank-row:hover { border-color: var(--border-strong); box-shadow: var(--shadow-2); }
+.rank-row:hover,
+.rank-row:focus-within {
+  transform: scale(var(--focus-scale));
+  z-index: 1;
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow-2);
+}
 .rank-row.top { background: linear-gradient(90deg, var(--brand-weak), transparent 60%); }
 
 .rank-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
