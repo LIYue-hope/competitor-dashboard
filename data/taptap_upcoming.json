@@ -1,45 +1,5 @@
 [
   {
-    "game_name": "阴阳师",
-    "publisher": "杭州网易雷火科技有限公司",
-    "release_date": "2016-09-08",
-    "categories": [
-      "卡牌",
-      "养成",
-      "回合制"
-    ],
-    "reservation_count": null,
-    "follow_count": "513万",
-    "review_count": "5.9万",
-    "discussion_count": null,
-    "is_major_publisher": true,
-    "has_afk_grinding_tag": false,
-    "score": "7.4",
-    "status_tag": "新版本更新",
-    "source_url": "https://www.taptap.cn/app/12492",
-    "crawled_at": "2026-09-08T01:54:49.191965+00:00"
-  },
-  {
-    "game_name": "九万亩",
-    "publisher": "两英里科技成都有限公司",
-    "release_date": "2026-09-09",
-    "categories": [
-      "策略",
-      "SLG",
-      "像素"
-    ],
-    "reservation_count": "1.1万",
-    "follow_count": "1.1万",
-    "review_count": "118",
-    "discussion_count": null,
-    "is_major_publisher": false,
-    "has_afk_grinding_tag": false,
-    "score": "8.9",
-    "status_tag": "限量测试",
-    "source_url": "https://www.taptap.cn/app/715863",
-    "crawled_at": "2026-09-08T01:54:49.191965+00:00"
-  },
-  {
     "game_name": "王者万象棋",
     "publisher": "深圳市腾讯计算机系统有限公司",
     "release_date": "2026-09-10",
@@ -48,16 +8,36 @@
       "PVP",
       "回合制"
     ],
-    "reservation_count": "116万",
-    "follow_count": "98万",
-    "review_count": "1749",
+    "reservation_count": null,
+    "follow_count": "104万",
+    "review_count": "1808",
     "discussion_count": null,
     "is_major_publisher": true,
     "has_afk_grinding_tag": false,
-    "score": "7.6",
+    "score": "7.5",
     "status_tag": "首发",
     "source_url": "https://www.taptap.cn/app/243110",
-    "crawled_at": "2026-09-08T01:54:49.191965+00:00"
+    "crawled_at": "2026-09-09T04:30:44.624809+00:00"
+  },
+  {
+    "game_name": "宝石战争",
+    "publisher": "wuguifeng",
+    "release_date": "2026-09-16",
+    "categories": [
+      "RPG",
+      "策略",
+      "卡牌"
+    ],
+    "reservation_count": "7.1万",
+    "follow_count": "6.9万",
+    "review_count": "420",
+    "discussion_count": null,
+    "is_major_publisher": false,
+    "has_afk_grinding_tag": false,
+    "score": "9.3",
+    "status_tag": "首发",
+    "source_url": "https://www.taptap.cn/app/766061",
+    "crawled_at": "2026-09-09T04:30:44.624809+00:00"
   },
   {
     "game_name": "闪耀吧！噜咪",
@@ -69,15 +49,35 @@
       "放置"
     ],
     "reservation_count": "25万",
-    "follow_count": "25万",
-    "review_count": "1055",
+    "follow_count": "26万",
+    "review_count": "1068",
     "discussion_count": null,
     "is_major_publisher": false,
     "has_afk_grinding_tag": true,
     "score": "8.8",
     "status_tag": "首发",
     "source_url": "https://www.taptap.cn/app/784122",
-    "crawled_at": "2026-09-08T01:54:49.191965+00:00"
+    "crawled_at": "2026-09-09T04:30:44.624809+00:00"
+  },
+  {
+    "game_name": "循环勇士",
+    "publisher": "南京西木优洛网络文化有限公司",
+    "release_date": "2026-09-18",
+    "categories": [
+      "Roguelike",
+      "逆塔防",
+      "策略"
+    ],
+    "reservation_count": "2.8万",
+    "follow_count": "2.8万",
+    "review_count": "62",
+    "discussion_count": null,
+    "is_major_publisher": false,
+    "has_afk_grinding_tag": true,
+    "score": "8.7",
+    "status_tag": "限量测试",
+    "source_url": "https://www.taptap.cn/app/731113",
+    "crawled_at": "2026-09-09T04:30:44.624809+00:00"
   },
   {
     "game_name": "伊莫",
@@ -88,16 +88,16 @@
       "冒险",
       "开放世界"
     ],
-    "reservation_count": "184万",
-    "follow_count": "178万",
-    "review_count": "4298",
+    "reservation_count": "185万",
+    "follow_count": "179万",
+    "review_count": "4306",
     "discussion_count": null,
     "is_major_publisher": false,
     "has_afk_grinding_tag": false,
     "score": "8.6",
     "status_tag": "首发",
     "source_url": "https://www.taptap.cn/app/748031",
-    "crawled_at": "2026-09-08T01:54:49.191965+00:00"
+    "crawled_at": "2026-09-09T04:30:44.624809+00:00"
   },
   {
     "game_name": "水银疗养院",
@@ -117,7 +117,7 @@
     "score": "9.6",
     "status_tag": "预下载",
     "source_url": "https://www.taptap.cn/app/758860",
-    "crawled_at": "2026-09-08T01:54:49.191965+00:00"
+    "crawled_at": "2026-09-09T04:30:44.624809+00:00"
   },
   {
     "game_name": "伯吉的温馨厨房",
@@ -128,15 +128,15 @@
       "模拟经营",
       "休闲"
     ],
-    "reservation_count": "46万",
+    "reservation_count": "47万",
     "follow_count": "47万",
-    "review_count": "4733",
+    "review_count": "4738",
     "discussion_count": null,
     "is_major_publisher": false,
     "has_afk_grinding_tag": true,
     "score": "8.8",
     "status_tag": "首发",
     "source_url": "https://www.taptap.cn/app/882850",
-    "crawled_at": "2026-09-08T01:54:49.191965+00:00"
+    "crawled_at": "2026-09-09T04:30:44.624809+00:00"
   }
 ]

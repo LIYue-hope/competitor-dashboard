@@ -1,107 +1,208 @@
 {
-  "generated_at": "2026-09-08T02:04:57.229440+00:00",
+  "generated_at": "2026-09-09T04:41:48.353645+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-08",
-      "article_count": 29,
-      "game_count": 22,
-      "untagged_count": 4,
-      "digest": "游戏名：《瓦力欧大陆：摇摆》游戏动态：上一款正统横版平台作品为2008年Wii平台的《瓦力欧大陆：摇摆》，自此之后该IP长期只有《瓦力欧制造》派对小游戏系列更新，正统寻宝平台冒险就此沉寂接近20年。游戏厂商：任天堂游戏类型：横版平台冒险游戏游戏特点：以横版闯关为主，玩家需要控制角色在各种关卡中前进，避开障碍物，收集道具，完成各种任务。游戏目标：通过各种关卡，完成任务，提升角色能力，挑战更高难度的关卡。游戏评价：这款游戏以其独特的横版玩法和丰富的关卡设计吸引了大量玩家，是横版平台游戏中的经典之作。",
+      "date": "2026-09-09",
+      "article_count": 54,
+      "game_count": 43,
+      "untagged_count": 3,
+      "digest": "今日游戏行业资讯聚焦于R星新作《GTA6》的恋爱关系玩法细节、任天堂《塞尔达传说：时之笛 重制版》刻意保留加载画面的争议，以及《漫威争锋》第10赛季屠神者格尔登场等重磅内容。此外，俄罗斯方块版权方抗议白宫侵权致游戏下架，Steam客服要求找回《半条命2》实体密钥的奇葩事件也引发关注。",
       "digest_source": "llm",
-      "input_hash": "48c42b50c82bc3f2",
+      "input_hash": "10708f258c7e826b",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 4,
-          "summary": "《GTA6》B站演示出现数十处模糊 引发国内外网友热议；《GTA6》车辆系统细节公布 需要加油但速度很快！；《GTA6》将会在当地时间11月19日凌晨0点解锁（当天共 4 条）",
-          "summary_source": "rules"
+          "summary": "R星证实《GTA6》中杰森和露西亚的关系不一定会一直保持恋爱状态，玩家可选择让这对情侣和平分手，之后两人将保持正常关系继续一起从事犯罪活动，恋爱关系被设定为非必需且不影响主线剧情。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说：时之笛 重制版",
+          "count": 4,
+          "summary": "任天堂确认《塞尔达传说：时之笛 重制版》将刻意保留读盘画面以还原N64原作的节奏与氛围，这一设计旨在尊重原作历史记忆，但也在玩家社群中引发了截然不同的反响。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说",
+          "count": 2,
+          "summary": "任天堂正式公布《塞尔达传说》40周年限定版Nintendo Switch 2主机，将于10月29日发售，该主机采用深绿色Joy-Con并配备带闪亮装饰的底座，澳大利亚售价为799澳元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威争锋",
+          "count": 2,
+          "summary": "网易宣布《漫威争锋》第10赛季将于9月11日上线，新英雄屠神者格尔将以决斗家身份加入，其终极能力可命令黑色狂战士展开集中进攻，PV中洛基也被其杀死，头像变灰。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "EthrA",
+          "count": 1,
+          "summary": "StoneLab Games工作室宣布3D像素开放世界冒险新游《EthrA》开启众筹，预定登陆PC、PS5和Switch 2平台，玩家将扮演农场男孩鲍勃和迷路孩子威尔探索大陆并揭开千年谎言。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA4",
+          "count": 1,
+          "summary": "国外玩家使用RTX 5080显卡开启DLSS 5神经渲染与RTX Remix路径追踪技术，展示了《GTA4》Mission 4任务的全新画面效果，该MOD版本包含完整路径追踪、光线重建等功能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Godreaper",
+          "count": 1,
+          "summary": "暗黑风动作冒险游戏《Godreaper》公布新预告，展示了游戏过场和战斗画面，背景设定在充满东斯拉夫神话色彩的硬核奇幻世界，游戏将于2027年登陆PC平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "SPINE",
+          "count": 1,
+          "summary": "枪斗游戏《SPINE》在科隆游戏展上展示女主洗澡画面的制作过程，开发团队强调该场景没有色情只有艺术，电影级画面的制作由CG工作室ZHEESHEE Studio负责。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴6",
+          "count": 1,
+          "summary": "前《上古卷轴V：天际》联合负责人库尔特·库尔曼表示，上古卷轴6多数成员原想先开发该作，但陶德·霍华德最终决定推进全新IP《星空》，改变了工作室此前的开发节奏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "俄罗斯方块",
+          "count": 1,
+          "summary": "俄罗斯方块版权方The Tetris Company发布声明抗议白宫利用俄罗斯方块迷你游戏暗示建设边境墙的侵权行为，白宫随后妥协悄然下架了该迷你游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "刺客信条",
+          "count": 1,
+          "summary": "育碧悄无声息地更换了Steam商店中原版《刺客信条》（2007）的宣传图和横幅，这一动作引发了一波关于即将公布重制版的传闻，但育碧方面目前尚未发布官方评论。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "半条命2",
+          "count": 1,
+          "summary": "一名Steam用户在找回账号时，尽管提供了证明账号所有权的资料，客服仍要求他提供2005年发售至今已过去21年的《半条命2》实体包装盒CD密钥，该用户表示这几乎不可能找到。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "吞吞堡垒",
+          "count": 1,
+          "summary": "中世纪肉鸽堡垒防御战斗新游《吞吞堡垒》登陆Steam抢先体验开启，支持中文并收获特别好评，玩家将驾驶移动城堡吞噬村庄、打造模块化武装系统并不断壮大自己。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "噬血代码2",
+          "count": 1,
+          "summary": "万代南梦宫为《噬血代码2》发布2.0重大更新，移除了游戏中的反盗版保护系统D加密，并加入了通关后内容、试炼模式、新可玩同伴Liv Voda、Legacy图形滤镜等。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "坏房子",
+          "count": 1,
+          "summary": "Andrew Morrish工作室宣布地牢探索自动战斗新游《坏房子》将于2027年初登陆Steam正式推出，支持中文，玩家需探索神秘地下室的众多房间，但只有一个条件是不要进入地下室。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "article_count": 85,
+      "game_count": 65,
+      "untagged_count": 13,
+      "digest": "今日游戏资讯聚焦于《GTA6》发售前夕的玩家趣闻、任天堂新作公布及多款游戏发售与更新。R星新作因丹麦未婚妻包揽家务的暖心故事引发热议，任天堂公布《塞尔达传说：时之笛》重制版实机演示及《3D马里奥》开发消息，Insomniac回顾《漫威蜘蛛侠》八周年影响，卡普空新作《生化危机：安魂曲》获年度最佳表演投票支持，Riot承认《2XKO》玩家规模不足，CS2因侮辱性词汇榜单引发玩家恶搞狂潮，Polyphony Digital疑似启动《GT赛车8》开发，NC公开FPS新作《like or die》，此外《Invokyr》《Soul Chained》等新游发售，《TBH》更新上线，《东方Project》投票显示年轻群体为主力。",
+      "digest_source": "llm",
+      "input_hash": "7fd46fad37e23890",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 5,
+          "summary": "丹麦未婚妻为庆祝男友生日送出《GTA6》终极版，承诺发售期间包揽家务、准备饭菜零食，该暖心故事在社交平台收获大量好评。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说：时之笛 重制版",
+          "count": 2,
+          "summary": "任天堂在40周年直面会公布该作新实机演示，确认将于2026年11月5日发售，画面采用怀旧写实风格，玩法进行了现代化改良。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威蜘蛛侠",
+          "count": 2,
+          "summary": "Insomniac回顾《漫威蜘蛛侠》发售八周年，称其塑造了原创剧情与角色，对漫威单人英雄游戏发展方向产生了深远影响。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化危机：安魂曲",
+          "count": 2,
+          "summary": "TGA发起年度最佳表演投票，玩家一致认为安杰拉·圣塔尔巴诺在《生化危机：安魂曲》中的表演一骑绝尘，呼吁主办方提前颁奖。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "2XKO",
+          "count": 1,
+          "summary": "Riot联合创始人马克·梅里尔表示《2XKO》游戏本身值得肯定，但未能积累足够玩家形成长期社区，面临与其他游戏争夺时间的挑战。",
+          "summary_source": "llm"
         },
         {
           "name": "3D马里奥",
           "count": 1,
-          "summary": "任天堂多款新作泄露 新大乱斗、《3D马里奥》等。",
-          "summary_source": "rules"
+          "summary": "任天堂新作泄露消息显示，全新《任天堂明星大乱斗》及《3D马里奥》游戏将于明年推出，马里奥赛车DLC将于2027年上线。",
+          "summary_source": "llm"
         },
         {
           "name": "CS2",
           "count": 1,
-          "summary": "《CS2》聊天监测工具设公开榜单，引起玩家嘴臭狂潮。",
-          "summary_source": "rules"
+          "summary": "第三方服务CS2 Tracker新增Slur Tracker功能，公开统计侮辱性用语，导致部分玩家故意使用脏话争夺榜单排名，Billypastaking位居榜首。",
+          "summary_source": "llm"
         },
         {
-          "name": "塞尔达传说：时之笛 重制版",
+          "name": "GT赛车8",
           "count": 1,
-          "summary": "《塞尔达传说：时之笛 重制版》定价曝光 澳区售价居中。",
-          "summary_source": "rules"
+          "summary": "Polyphony Digital官网发布车辆模拟程序员招聘信息，疑似已启动《GT赛车8》开发工作，为系列新作铺路。",
+          "summary_source": "llm"
         },
         {
-          "name": "女神异闻录",
+          "name": "Invokyr",
           "count": 1,
-          "summary": "《女神异闻录》制作人称初代与二代未来可能重制或复刻。",
-          "summary_source": "rules"
+          "summary": "恐怖解谜游戏《Invokyr》将于10月8日登陆Steam，支持最多6人联机，玩家需通过玩桌游逃脱被“游戏主宰”统治的老宅。",
+          "summary_source": "llm"
         },
         {
-          "name": "宝可梦集换式卡牌Pocket",
+          "name": "MD引擎",
           "count": 1,
-          "summary": "美国男子申请宝可梦博士被拒起诉任天堂 法官驳回诉讼。",
-          "summary_source": "rules"
+          "summary": "无需编程的MD游戏制作工具《MD引擎》上线Steam，支持拖放功能创建Sega Mega Drive游戏，并支持多平台导出。",
+          "summary_source": "llm"
         },
         {
-          "name": "寂静岭：小镇陷落",
+          "name": "SMILE GAME BUILDER",
           "count": 1,
-          "summary": "《寂静岭：小镇陷落》大小与预载时间公布 容量远超前作！。",
-          "summary_source": "rules"
+          "summary": "经典3D游戏制作工具《SMILE GAME BUILDER》开启10周年史低二折促销，支持零基础玩家制作游戏。",
+          "summary_source": "llm"
         },
         {
-          "name": "巫师3：旧时曲",
+          "name": "Soul Chained",
           "count": 1,
-          "summary": "竟然不许！ 《巫师3：旧时曲》杰洛特没法和丹德里恩的祖母恋爱。",
-          "summary_source": "rules"
+          "summary": "魂系合作战斗游戏《Soul Chained》正式登陆Steam，玩家需通过锁链魔法与团队合作，在物理效果夸张的战斗中杀出炼狱。",
+          "summary_source": "llm"
         },
         {
-          "name": "异于天堂",
+          "name": "TBH：塔斯克巴·英雄",
           "count": 1,
-          "summary": "《异于天堂》舍弃《如龙7 8》回合制玩法 回归经典动作游戏。",
-          "summary_source": "rules"
+          "summary": "肉鸽动作RPG《TBH》更新“瘟疫之地”内容，新增地区、90级道具及合成配方，支持放置玩法。",
+          "summary_source": "llm"
         },
         {
-          "name": "恶魔城：贝尔蒙特的诅咒",
+          "name": "like or die",
           "count": 1,
-          "summary": "《恶魔城：贝尔蒙特的诅咒》通关时间20-25小时 包含多结局大量隐藏。",
-          "summary_source": "rules"
+          "summary": "NC公开FPS新作《点赞或死亡》，玩家需在平行宇宙首尔直播比赛，通过战斗表现争取观众点赞和赞助者礼物。",
+          "summary_source": "llm"
         },
         {
-          "name": "恸哭幽光",
+          "name": "东方Project",
           "count": 1,
-          "summary": "《恸哭幽光》9月17日试玩发布 完整体验第一章内容。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "星际争霸",
-          "count": 1,
-          "summary": "曝《星际争霸》FPS新作非命运式 玩法接近星际战士2。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "最终幻想：共鸣",
-          "count": 1,
-          "summary": "《最终幻想：共鸣》主线30-40小时 买断无内购。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "极限竞速：地平线6",
-          "count": 1,
-          "summary": "《极限竞速：地平线6》PS5版仍计划2026年发售 开发商辟谣延期传闻。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "瓦力欧大陆",
-          "count": 1,
-          "summary": "曝《瓦力欧大陆》新作正在开发中 将登陆Switch2。",
-          "summary_source": "rules"
+          "summary": "年度人气投票结果显示，15至19岁群体占参与总人数的38.17%，为最大年龄段，YouTube是主要接触渠道。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -885,107 +986,6 @@
           "name": "古墓丽影2",
           "count": 1,
           "summary": "传闻水晶动力与Flying Wild Hog正在开发《古墓丽影2》和《古墓丽影3》重制版，消息来源与《古墓丽影：亚特兰蒂斯遗迹》联合开发商有关。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-30",
-      "article_count": 22,
-      "game_count": 16,
-      "untagged_count": 1,
-      "digest": "GTA6相关传闻引发行业震动，微软推广100%实体版策略迫使索尼重新考虑纯数字计划。Steam发生13TB数据泄露事件，涉及大量经典游戏。CDPR确认《巫师4》实体版将仅含数字兑换码。科隆展期间发生多起展商设备盗窃案，展会官方回应引发争议。此外，多款游戏如《共鸣：瘟疫传说传承》《合金装备4》发售或更新引发关注。",
-      "digest_source": "llm",
-      "input_hash": "5d21e72f11f9e5d2",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 6,
-          "summary": "传微软推广100%实体版策略迫使索尼重新考虑纯数字计划，索尼此前宣布2028年1月停产新游戏实体光盘。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴5：天际",
-          "count": 1,
-          "summary": "Mod社区利用RenoDX工具将DLSS 5技术注入游戏，并在《上古卷轴5：天际》等游戏中测试AI人脸滤镜功能。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "传送门2",
-          "count": 1,
-          "summary": "13TB Steam游戏库数据泄露，包含《传送门2》等2003年至2013年的游戏文件。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "共鸣：瘟疫传说传承",
-          "count": 1,
-          "summary": "游戏已于8月27日发售，Steam国区售价199元，获得95%好评率，玩家称赞其画面与优化。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "合金装备4",
-          "count": 1,
-          "summary": "PC版玩家开局即解锁掰雕像私处成就，该游戏拥有大量无厘头互动细节。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "地铁2039",
-          "count": 1,
-          "summary": "开发商4A Games确认《地铁2039》将回归隐藏业力系统，主角为流亡者“异乡人”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "女神异闻录4：复兴版",
-          "count": 1,
-          "summary": "开发商Atlus决定更换英文配音阵容，因原班人马档期难协调且部分演员已退出行业。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：狂猎",
-          "count": 1,
-          "summary": "开发商CDPR发声愿意帮助科隆展被盗设备开发者瑞恩·莱利，并表示“任何兄弟都不应该从零开始”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师4",
-          "count": 1,
-          "summary": "CDPR确认游戏仍会有实体版，但受索尼2028年新政策影响，实体版内将仅含数字兑换码。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "幻兽帕鲁",
-          "count": 1,
-          "summary": "发行主管约翰·巴克利称玩家误读Steam数据，多款游戏遭无端诟病，玩家数量回落属正常现象。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "异锁",
-          "count": 1,
-          "summary": "Valve开发的MOBA+射击游戏“旧神新血”大更新延至九月下旬，官方备好通知玩家或点披萨。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫漫长夜",
-          "count": 1,
-          "summary": "开发商Hinterland抽调人员制作生存模式新DLC，以应对充满不确定性的行业环境。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "科隆国际游戏展",
-          "count": 1,
-          "summary": "展会官方回应展商设备被盗事件，称参展商需自行预订安保服务并投保盗窃险。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "秘密邻居",
-          "count": 1,
-          "summary": "游戏遭黑客入侵删除数据，开发商Hologryph与tinyBuild宣布暂时关停服务。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "詹姆斯庞德",
-          "count": 1,
-          "summary": "主创克里斯·索雷尔斥责AI重制版不尊重原作且毫无灵魂，称自己未参与该项目。",
           "summary_source": "llm"
         }
       ]

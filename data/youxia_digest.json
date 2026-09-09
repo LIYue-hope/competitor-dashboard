@@ -1,83 +1,208 @@
 {
-  "generated_at": "2026-09-08T02:08:57.832018+00:00",
+  "generated_at": "2026-09-09T04:42:36.623856+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-08",
-      "article_count": 14,
-      "game_count": 11,
-      "untagged_count": 3,
-      "digest": "2026年9月8日游戏行业动态在这一天，游戏界发生了多起引人注目的事件。首先，《最终幻想7：启示》实体展示盒的曝光标志着该系列三部曲的实体收藏终于迎来“闭环”。此外，Polyphony Digital为《GT赛车8》加速开发，计划招募18个技术岗位以支持最大规模的技术升级。索尼Guerrilla工作室的《地平线3》目前仅由一支小团队开发，距离发售尚有数年。IGN报道了《极限竞速：地平线6》PS5版的不延期决定，Playground Games确认游戏将如期登陆PS5。同时，《寂静岭：小镇陷落》的PS5版预载安排提前两天，而《火焰纹章：万缕千丝》的最终容量大小也得到了确认。鸿蒙平台首发的《王者万象棋》与华为Mate XT 2合作，定义大屏策略游戏新标杆。《苍翼：混沌效应》展示了蓝牙直连手柄适配体验，提升了手机玩硬核动作游戏的体验。印度警官阿俊作为《街头霸王6》的新角色，将于10月13日登场。欧风神秘学MMO《诡秘之主》在华为Mate XT 2上解锁高画质光影特效。最后，卡普空表示将继续“重新激活”旗下的老牌作品，为重磅新作阵容提供支撑。",
+      "date": "2026-09-09",
+      "article_count": 27,
+      "game_count": 16,
+      "untagged_count": 1,
+      "digest": "今日游戏资讯聚焦于《塞尔达传说：时之笛重制版》的密集曝光，包括容量27GB、实体版发售及Switch 2独占等重磅消息，引发玩家对新造型的争议。此外，《GTA6》预购量达528万份，PS平台占比77%；《女神异闻录4重制版》试玩引发画面升级争议；《蜂巢：异星物语》正式发售；暴雪预热《星际争霸》新作，凯瑞甘或回归。",
       "digest_source": "llm",
-      "input_hash": "b5c20ef12e7b3824",
+      "input_hash": "2c59fc88ea0d3b18",
       "game_digests": [
+        {
+          "name": "塞尔达传说：时之笛RE",
+          "count": 6,
+          "summary": "新预告公布定档11月5日，Switch 2独占，官网同步上线并放出大量截图。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 2,
+          "summary": "双主角战斗风格曝光，露西娅走技术流，杰森崇尚暴力输出，拥有独立近战与掩体设计。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GUNDAM 异轨征途",
+          "count": 2,
+          "summary": "媒体试玩体验称游戏机战爽快，采访呼吁玩家成为王牌机师。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说",
+          "count": 2,
+          "summary": "40周年特别直面会涵盖游戏、电影、硬件与周边，信息量巨大。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛",
+          "count": 2,
+          "summary": "官方发布三代塞尔达公主同框对比图，展示其颜值进化史。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黎明行者之血",
+          "count": 2,
+          "summary": "上市仅6天，开发团队已开始筹备续作，并公布横跨不同时代与文化的发展蓝图。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "EthrA",
+          "count": 1,
+          "summary": "StoneLab Games宣布3D像素风开放世界冒险RPG《EthrA》开启众筹，计划登陆PC、PS5及Switch 2。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说：时之笛重制版",
+          "count": 1,
+          "summary": "确认多名角色加入完整语音对白，林克依旧保持“哑巴”设定。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "女神异闻录4重制版",
+          "count": 1,
+          "summary": "《女神异闻录4重制版》试玩揭底:一场忠实的画面升级。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "时之笛 重制版",
+          "count": 1,
+          "summary": "公布Switch 2专属玩法，利用录音功能实现让林克吹笛子的效果。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛RE",
+          "count": 1,
+          "summary": "能自己唱歌让林克吹！《时之笛RE》新增ns2专属玩法。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "星际争霸",
+          "count": 1,
+          "summary": "暴雪预热新作，官网异常闪屏及通讯信号暗示莎拉·凯瑞甘或将回归。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "湮灭之潮",
+          "count": 1,
+          "summary": "斩获科隆“最具史诗感”大奖，发布纪念视频回顾线下试玩会。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "英雄联盟",
+          "count": 1,
+          "summary": "26.20版本加入全队语音功能，同步推出“语音皮肤”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "蜂巢：异星物语",
+          "count": 1,
+          "summary": "治愈系开放世界生存沙盒今日正式发售，登陆Steam、PS5及Xbox Series，Steam国区定价109元。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "article_count": 87,
+      "game_count": 56,
+      "untagged_count": 21,
+      "digest": "今日游戏资讯聚焦于《GTA6》的发售预热与周边热度，以及《漫威金刚狼》发售前的实体泄露与系统爆料。此外，《地平线6》官方辟谣延期传闻并上线新活动，NC新作《Like or Die》亮相科隆展，AI模型GPT-6 Astra成功通关《传送门》，而《勇气默示录》移除D加密后迅速被破解引发争议。",
+      "digest_source": "llm",
+      "input_hash": "eb14ae32a3c5c2a7",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 7,
+          "summary": "距离正式发售仅剩数月，玩家自制立体模型获赞，社区对比R星足部模型细节引发热议，女主露西娅演员分享庆祝生日的近照。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "地平线6",
+          "count": 3,
+          "summary": "开发商Playground Games确认游戏仍按计划于2026年登陆PS5，官方辟谣延期传闻，并上线“英伦汽车庆典”更新及漂移计分赛。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 2,
+          "summary": "发售前一周实体版被偷跑，失眠组公布战斗系统详情，核心围绕怒气三档分级机制展开，并配备两套独立成长体系。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "艾尔登法环",
+          "count": 2,
+          "summary": "官方发布服务器维护公告，同步上线1.17.1版本补丁，这是近期推出“褪色者包”后的首次维护。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "1666：阿姆斯特丹",
+          "count": 1,
+          "summary": "自开启PC抢先体验后口碑遇冷，暗黑巫术题材新作与发售前的亮眼期待形成巨大反差。",
+          "summary_source": "llm"
+        },
         {
           "name": "FF7启示",
           "count": 1,
-          "summary": "《FF7启示》实体版曝光！三部曲实体收藏终迎\"闭环\"。",
-          "summary_source": "rules"
+          "summary": "重制三部曲收官之作实体版展示盒照片曝光，三部曲实体收藏终迎“闭环”。",
+          "summary_source": "llm"
         },
         {
           "name": "GT赛车8",
           "count": 1,
-          "summary": "《GT赛车8》加速开发！团队挂18个职位 为下一代蓄力。",
-          "summary_source": "rules"
+          "summary": "Polyphony Digital开放多达18个技术岗位，为系列史上最大规模技术升级储备人手。",
+          "summary_source": "llm"
         },
         {
-          "name": "地平线3",
+          "name": "Like or Die",
           "count": 1,
-          "summary": "曝《地平线3》仅小规模开发！仍处早期 发售或待PS6。",
-          "summary_source": "rules"
+          "summary": "NC新作在科隆展公开，设定于平行宇宙首尔，玩家化身主播在16人4v4对抗中通过点赞机制赢取奖励。",
+          "summary_source": "llm"
         },
         {
-          "name": "地平线6",
+          "name": "PUBG",
           "count": 1,
-          "summary": "《地平线6》PS5版不延期 IGN称11月撞GTA6等于自杀。",
-          "summary_source": "rules"
+          "summary": "宣布与《咒术回战》联动，PC版9月10日上线，全地图变身咒术战场，出现五条悟石像及无量空处。",
+          "summary_source": "llm"
         },
         {
-          "name": "寂静岭：小镇陷落",
+          "name": "三国志 14 with 威力加强传承版",
           "count": 1,
-          "summary": "《寂静岭：小镇陷落》PS5版容量约51GB！提前两天预载。",
-          "summary_source": "rules"
+          "summary": "天津团队制作人接受专访，分享新作开发相关内容。",
+          "summary_source": "llm"
         },
         {
-          "name": "火焰纹章：万缕千丝",
+          "name": "传送门",
           "count": 1,
-          "summary": "《火焰纹章：万缕千丝》最终容量大小确认：约27GB。",
-          "summary_source": "rules"
+          "summary": "OpenAI旗舰模型GPT-6 Astra在零人工干预下自主通关游戏，耗时近24小时思考决策，标志着AI在空间推理上取得突破。",
+          "summary_source": "llm"
         },
         {
-          "name": "王者万象棋",
+          "name": "刺客信条",
           "count": 1,
-          "summary": "鸿蒙同步首发！《王者万象棋》携手华为Mate XT 2，定义大屏策略游戏新标杆。",
-          "summary_source": "rules"
+          "summary": "官方推出爱德华・肯维1/2比例收藏雕像，定价2999美元，全球限量500尊，迎接系列20周年。",
+          "summary_source": "llm"
         },
         {
-          "name": "苍翼：混沌效应",
+          "name": "剑网3",
           "count": 1,
-          "summary": "蓝牙直连手柄！《苍翼：混沌效应》适配Pura X View，手机也能玩出掌机感。",
-          "summary_source": "rules"
+          "summary": "与《凡人修仙传》联动将于9月10日上线，以“凡人不凡，执剑为侠”为主题。",
+          "summary_source": "llm"
         },
         {
-          "name": "街霸6",
+          "name": "勇气默示录",
           "count": 1,
-          "summary": "《街霸6》秋季重磅！印度警官阿俊10月13日震撼登场。",
-          "summary_source": "rules"
+          "summary": "移除Denuvo保护后仅3小时便被破解组织TENOKE发布补丁，引发关于D加密反伤正版玩家的讨论。",
+          "summary_source": "llm"
         },
         {
-          "name": "诡秘之主",
+          "name": "博德3",
           "count": 1,
-          "summary": "三折叠HUAWEI Mate XT 2加持，《诡秘之主》高画质光影体验再升级。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "鬼武者",
-          "count": 1,
-          "summary": "《鬼武者》新作大卖！卡普空未来将继续重新激活老IP。",
-          "summary_source": "rules"
+          "summary": "玩家自制mod解锁原版隐藏的9环法术“毁灭真言”，打破原版法术强度限制。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -886,107 +1011,6 @@
           "count": 1,
           "summary": "玩家反馈开启后性能大跌，5090显卡在DLSS 5下也面临挑战。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-30",
-      "article_count": 44,
-      "game_count": 17,
-      "untagged_count": 20,
-      "digest": "2026年8月30日，游戏行业新闻数量达到44条，涉及17款游戏。其中，《GTA6》的直播峰值人数创下新高，而《漫威金刚狼》的破损服装自动复原机制引发了玩家关注。新晋黑马《Divinum》和生存建造游戏《Join Us》分别在Steam平台上线。《使命召唤：现代战争4》第二阶段公开测试展开，而《嘉豪》则在Steam上正式发售。《地铁2039》的道德设定迎来转变，《女神异闻录4RE》宣布将替换原有的英文配音演员。此外，《巫师3：狂猎重制版》、《异环》、《昭和米国物语》、《最终幻想7重生》以及《生化9》等游戏也各有动态。",
-      "digest_source": "llm",
-      "input_hash": "74bad1a209c9a364",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 7,
-          "summary": "《GTA6》演示直播峰值近400万人 创今年游戏直播之最；R星《GTA6》新机制：火力压制警察 换车换衣躲避追捕；细节狂魔R星！《GTA6》女主公寓现实原型被找到了！（当天共 7 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2,
-          "summary": "失眠组官方解释《漫威金刚狼》破损服装为何自动复原；官方玩梗!《漫威金刚狼》UI彩蛋：金刚狼躺床抚摸相框。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Divinum",
-          "count": 1,
-          "summary": "新晋黑马诞生！唯美横版动作新游《Divinum》正式上线。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Join Us",
-          "count": 1,
-          "summary": "大主教掏枪了！生存建造游戏《Join Us》公开新实机。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "《使命召唤：现代战争4》第二周公测登场 首度加入NS2。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "嘉豪",
-          "count": 1,
-          "summary": "逆天！猎奇桌宠新游《嘉豪》上线Steam 9.1正式发售。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "地铁2039",
-          "count": 1,
-          "summary": "《地铁2039》道德设定迎转变 系列隐藏业力系统回归。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "女神异闻录4RE",
-          "count": 1,
-          "summary": "《女神异闻录4RE》配音原班人马无法集齐?干脆全换！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "巫师3",
-          "count": 1,
-          "summary": "游侠晚报：《巫师3》重制新实机 数毛社解析GTA6预告。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "巫师3：狂猎重制版",
-          "count": 1,
-          "summary": "《巫师3：狂猎重制版》新实机：画面升级 战斗机制展示。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "异环",
-          "count": 1,
-          "summary": "《异环》细节拉满！泳装角色自带雨水真实物理交互！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "昭和米国物语",
-          "count": 1,
-          "summary": "梗点拉满！《昭和米国物语》奇葩设定 果然是脑洞神作。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "最终幻想7重生",
-          "count": 1,
-          "summary": "DLSS 5渲染《最终幻想7重生》主角！克劳德变\"寡姐\"！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "生化9",
-          "count": 1,
-          "summary": "曝吉尔无缘《生化9》DLC!回归重心放在RE1、RE0重制。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "秘密邻居",
-          "count": 1,
-          "summary": "黑客删档逼迫下架!《秘密邻居》紧急暂时关停服务器。",
-          "summary_source": "rules"
         }
       ]
     }

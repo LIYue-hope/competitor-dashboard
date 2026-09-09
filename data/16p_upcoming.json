@@ -1,57 +1,41 @@
 {
-  "crawled_at": "2026-09-08T01:58:29.136899+00:00",
+  "crawled_at": "2026-09-09T04:34:39.548486+00:00",
   "days": [
     {
-      "date": "2026-09-08",
-      "date_label": "09月08日 今天",
+      "date": "2026-09-10",
+      "date_label": "09月10日 明天",
       "games": [
         {
-          "game_name": "灵武世界",
+          "game_name": "来吧!中餐厅",
           "categories": [
-            "Roguelike",
-            "冒险",
-            "探索",
-            "剧情",
-            "割草",
-            "社交"
+            "休闲"
           ],
           "score": null,
-          "release_date": "2026-09-08",
+          "release_date": "2026-09-10",
           "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1935286.html",
-          "publisher": "贵州梦轩",
+          "detail_url": "https://www.16p.com/1954973.html",
+          "publisher": "成都零下七度科技有限公司",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "date_label": "09月09日 明天",
-      "games": [
+        },
         {
-          "game_name": "防线守卫战",
+          "game_name": "王者万象棋",
           "categories": [
+            "多平台",
             "策略",
-            "放置",
-            "塔防",
-            "养成",
-            "灵异"
+            "竞技",
+            "战棋",
+            "自走棋",
+            "多端互通"
           ],
-          "score": null,
-          "release_date": "2026-09-09",
+          "score": "7.6",
+          "release_date": "2026-09-10",
           "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1952321.html",
-          "publisher": "构想蓝游戏",
+          "detail_url": "https://www.16p.com/1841952.html",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
           "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
-      "date": "2026-09-10",
-      "date_label": "09月10日 后天",
-      "games": [
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "正中靶心2",
           "categories": [
@@ -60,7 +44,7 @@
             "割草",
             "魔法"
           ],
-          "score": "4.9",
+          "score": "4.7",
           "release_date": "2026-09-10",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952835.html",
@@ -87,7 +71,7 @@
     },
     {
       "date": "2026-09-11",
-      "date_label": "09月11日 周五",
+      "date_label": "09月11日 后天",
       "games": [
         {
           "game_name": "热力无限赛车",
@@ -117,7 +101,7 @@
           "categories": [
             "角色扮演"
           ],
-          "score": "7.6",
+          "score": "8.0",
           "release_date": "2026-09-12",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952940.html",
@@ -146,6 +130,52 @@
           "publisher": "广州黑岛软件科技有限公司",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "date_label": "09月15日 下周二",
+      "games": [
+        {
+          "game_name": "翡翠搜打撤:开石暴富",
+          "categories": [
+            "模拟",
+            "休闲",
+            "单机",
+            "搜打撤"
+          ],
+          "score": "6.0",
+          "release_date": "2026-09-15",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1953166.html",
+          "publisher": "万兆方程",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "全民萌兽",
+          "categories": [
+            "休闲",
+            "放置",
+            "解压",
+            "冒险",
+            "闯关",
+            "收集",
+            "探索",
+            "塔防",
+            "养成",
+            "魔幻",
+            "佛系",
+            "卡通"
+          ],
+          "score": null,
+          "release_date": "2026-09-15",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1949490.html",
+          "publisher": "森灵游戏",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
         }
       ]
     }

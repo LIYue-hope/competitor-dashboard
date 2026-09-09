@@ -1,22 +1,57 @@
 {
-  "generated_at": "2026-09-08T02:15:10.024669+00:00",
+  "generated_at": "2026-09-09T04:48:04.681681+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-08",
-      "article_count": 3,
-      "game_count": 1,
-      "untagged_count": 2,
-      "digest": "GameLook今日共报道3条新闻，主要聚焦于《和平精英》的公益实践与行业动态。其中一条重点报道了《和平精英》将海洋公益从一次性活动转化为长期主义样本，玩家在游戏内海岛地图中可拾取散落贝壳并欣赏精致贝雕作品，体现了游戏与公益的深度融合。",
+      "date": "2026-09-09",
+      "article_count": 7,
+      "game_count": 3,
+      "untagged_count": 4,
+      "digest": "9月9日，游戏行业新闻汇总显示，《Bodycam》更新爆卖，玩家痛呼“远离战争珍惜和平”；《甄嬛传》新游戏乱战；《鸣潮》最高扶持500万元。同时，广州“游戏电竞18条”公示入选名单，涉及《鸣潮》《望月》等游戏。",
       "digest_source": "llm",
-      "input_hash": "ec3c62abc07b886b",
+      "input_hash": "85acbfe3763fdb3b",
+      "game_digests": [
+        {
+          "name": "Bodycam",
+          "count": 1,
+          "summary": "“照片级FPS游戏”技惊四座！《Bodycam》更新爆卖，玩家痛呼“远离战争珍惜和平”。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "甄嬛传",
+          "count": 1,
+          "summary": "三款《甄嬛传》新游戏乱战！时隔12年，国民级宫斗IP杀回游戏圈？。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "鸣潮",
+          "count": 1,
+          "summary": "最高扶持500万元！广州“游戏电竞18条”公示入选名单，《鸣潮》《望月》等在列。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "article_count": 8,
+      "game_count": 2,
+      "untagged_count": 6,
+      "digest": "9月8日游戏行业资讯共8条，主要聚焦于《和平精英》的海洋公益长期主义实践以及《鬼武者：剑之道》在中国市场的亮眼表现。卡普空新作《鬼武者：剑之道》Steam平台一半玩家来自中国，引发外媒关注；而《和平精英》则通过在游戏内植入贝雕作品等细节，将海洋公益从一次性活动转化为长期主义样本。",
+      "digest_source": "llm",
+      "input_hash": "47caa1421664c9e0",
       "game_digests": [
         {
           "name": "和平精英",
           "count": 1,
-          "summary": "《和平精英》将海洋公益实践干成长期主义样本，玩家在游戏内海岛地图中可拾取散落贝壳并欣赏精致贝雕作品，体现了游戏与公益的深度融合。",
+          "summary": "《和平精英》在游戏内植入精致贝雕作品，玩家拾取散落贝壳，将海洋公益实践从一次性善意转化为长期主义样本。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鬼武者",
+          "count": 1,
+          "summary": "《鬼武者：剑之道》Steam平台一半玩家来自中国，外媒惊叹中国玩家成最大金主，IGN本部给出10分满分评价。",
           "summary_source": "llm"
         }
       ]
