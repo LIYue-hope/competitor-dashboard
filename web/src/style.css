@@ -82,7 +82,8 @@ a {
   border: 1px solid var(--border);
   border-radius: var(--r-lg);
   box-shadow: var(--shadow-1);
-  padding: 20px;
+  --card-padding: 20px;
+  padding: var(--card-padding);
   margin-bottom: 16px;
 }
 
@@ -107,6 +108,27 @@ a {
 .card-head .spacer {
   flex: 1;
 }
+
+/* 页面标题和各内容分区标题在长列表中保持可见，便于确认当前所在分区。
+   与资讯/动态面板自己的吸顶 Tab 共用 app-bar 下方的层级。 */
+.sticky-heading {
+  position: sticky;
+  top: var(--app-bar-h);
+  z-index: 11;
+  background: var(--surface);
+  margin-inline: calc(-1 * var(--card-padding));
+  padding-inline: var(--card-padding);
+  padding-block: 8px;
+  margin-top: -8px;
+  margin-bottom: 8px;
+}
+
+/* 日期分组标题本身带有段落间距，吸顶时保留这套节奏。 */
+.date-head.sticky-heading {
+  margin-top: 22px;
+  padding-block: 6px;
+}
+.date-head:first-of-type.sticky-heading { margin-top: 4px; }
 
 .stamp {
   font-size: 12px;
@@ -643,7 +665,7 @@ mark { background: #fef0c7; color: inherit; border-radius: 2px; }
 
 /* ============ 响应式：<960px 侧栏导航降级为顶部横滚分段控件 ============ */
 @media (max-width: 960px) {
-  .card { padding: 14px; border-radius: var(--r-md); }
+  .card { --card-padding: 14px; padding: var(--card-padding); border-radius: var(--r-md); }
   /* 卡片内边距变成 14px，吸顶栏的负边距要跟着收，否则会横向溢出 */
   .tab-stack {
     margin-left: -14px;

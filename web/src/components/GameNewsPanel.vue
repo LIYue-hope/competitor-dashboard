@@ -19,8 +19,8 @@ const { compact, remeasure } = useStickyTabs(stackRef, rootRef, activeRef)
 const sourceKey = ref('')
 const tab = ref('news')
 const q = ref('')
-// 新闻窗口可能有数百条记录，默认只渲染前 30 条；筛选与统计仍基于完整命中集。
-const newsLimit = ref(30)
+// 新闻窗口可能有数百条记录，默认只渲染前 15 条；筛选与统计仍基于完整命中集。
+const newsLimit = ref(15)
 const newsPage = ref(1)
 // 新闻列表用起止区间，每日总结用单日，两套状态互不影响
 const from = ref('')
@@ -248,6 +248,7 @@ function highlight(text) {
             </span>
             <span class="news-limit" aria-label="新闻显示条数">
               <select v-model="newsLimit" aria-label="新闻显示条数">
+                <option :value="15">显示 15 条</option>
                 <option :value="30">显示 30 条</option>
                 <option :value="100">显示 100 条</option>
                 <option value="all">显示全部</option>
@@ -338,7 +339,7 @@ function highlight(text) {
           综述来源：{{ currentDigest.digest_source === 'llm' ? 'LLM 生成' : '规则拼接（模型未启用或调用失败）' }}
         </p>
 
-        <div class="card-head">
+        <div class="card-head sticky-heading">
           <h2>各游戏当日动态（Top {{ src.digest.top_n || 15 }}）</h2>
           <span v-if="llmCount" class="badge brand">{{ llmCount }} / {{ digestGames.length }} 条为 LLM 总结</span>
         </div>

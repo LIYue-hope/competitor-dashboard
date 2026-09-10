@@ -31,11 +31,13 @@
   看各游戏官方近 7 天的版本前瞻、更新公告、新活动、赛事等动态
 - **游戏资讯** — 3DMGame / 游侠网 / 游民星空 / GameLook / 游资网 五个来源，
   每个来源内部再分「新闻 / 新闻总结 / 评测（测评）」子 Tab；
-  GameLook 与游资网站点没有评测，只有前两个；新闻默认每页显示 30 条，可在更新时间后
-  切换为每页 100 条或全部；按 30 / 100 条显示时，可通过列表底部页码浏览其余新闻，以兼顾长列表浏览与页面性能
+  GameLook 与游资网站点没有评测，只有前两个；新闻默认每页显示 15 条，可切换为 30 / 100 条或全部；
+  按分页条数显示时，可通过列表底部页码浏览其余新闻，以兼顾长列表浏览与页面性能。资讯列表下方展示各网站每日新增资讯曲线，横轴为日期、纵轴为当天新增条数，数据从 2026-09-01 起每日持久化更新；曲线支持近一周、近半月、近一月、近半年与总数据筛选，默认总数据，资讯刷新成功后会同步采用刚拉取的数值。
 - **历史数据** — 侧栏一级板块；从 2026-08-31 起累计展示历史热度榜和历史游戏资讯榜：
   热度榜在每周一上周总览成稿后更新，资讯榜每天随资讯采集增量更新；前端可按
   20 / 50 / 100 条分页查看，两个榜单的显示条数可分别筛选
+
+左侧一级板块可直接点击跳转并自动展开当前组；点击标题右侧的 `>` 可展开或收起该板块的小标题，切换一级板块时上一组自动收回。点击小标题或滚动到对应内容时，该小标题以浅蓝色高亮（例如「历史数据」可展开「历史热度榜」和「历史游戏资讯榜」）。
 
 顶栏有深浅色切换（跟随系统，可手动覆盖，记在 `localStorage`），以及当前已加载数据中可用的最新采集时间戳。
 吸顶栏和 Tab 栏用半透明磨砂底；不支持 `backdrop-filter` 的浏览器回退为不透明底色。
@@ -76,6 +78,7 @@ web/                     展示层（Vue 3.4 + Vite 5）
 | `hot_games_dynamics.json` | `crawl_hot_games.py` | `{crawled_at, window_days, publishers:[{key, label, games}]}` |
 | `<源>_news.json` / `<源>_reviews.json` | `crawl_3dmgame/youxia/gamersky/gamelook/gameres.py` | `{crawled_at, window_days, items:[{title, url, game_name, published_at, summary}]}` |
 | `<源>_digest.json` | `summarize_news.py` | `{generated_at, source, window_days, top_n, items:[{date, digest, top_games, ...}]}` |
+| `daily_news_history.json` | `snapshot_daily_news_counts.py` | `{start_date, sources, days:[{date, counts:{<source_key>: 条数}}]}`，资讯新增曲线的长期快照 |
 | `weekly_digest.json` | `summarize_week.py` | `{week_start, week_end, digest, heat_formula, hot_ranking:[...]}` |
 | `weekly_history.json` | `summarize_week.py` | `{history_start, weeks, heat_ranking, news_data_version, news_days, news_history, news_ranking}`；`news_history` 为全量累计底稿，`news_ranking` 为展示前 100 名 |
 | `community_history.json` | `summarize_week.py` | TapTap 关注/评价/讨论存量快照，用于算周内增量 |
@@ -207,6 +210,7 @@ pip install -r scripts/requirements.txt
 python scripts/crawl_taptap.py            # 单独跑某个源
 python scripts/crawl_16p.py               # 游资网新游
 python scripts/summarize_news.py youxia   # 只给一个来源生成总结，不传参则五个都跑
+python scripts/snapshot_daily_news_counts.py # 固化各资讯站每日新增条数
 python scripts/summarize_week.py          # 上周热度榜与综述
 ```
 
@@ -249,7 +253,10 @@ npm run build    # 产物在 web/dist，含拷贝进去的 data/
   `DIGEST_LLM_FALLBACK_API_KEY`（讯飞星火 Lite 的 APIPassword）。没配也能跑，
   摘要会完整走规则生成。
 
-采集顺序：各源爬虫（含游资网资讯 / 新游）→ 每日 digest → TapTap 榜单 → 上周总结 → 提交 `data/*.json`。
+采集顺序：各源爬虫（含游资网资讯 / 新游）→ 每日资讯新增快照 → 每日 digest → TapTap 榜单 → 上周总结 → 提交 `data/*.json`。
+每日资讯新增快照会把五个来源按文章发布日期聚合，并持续写入 `daily_news_history.json`；原始新闻文件滚动清理后，已记录日期的曲线数据仍会保留。
+快照脚本会区分来源不可用与成功读取但确实为 0 条：前者不会写入该来源当天的计数，曲线以断点和“暂无数据”表示；后者会正常记录当天的 0。
+页面各板块标题及内容分区标题会在滚动时吸顶显示，离开当前分区后自动释放。
 「上周总结」每天都会随流程跑，但同一自然周只在每周结束后的第一次运行（周一）成稿并冻结：
 热度历史榜随这次成功成稿更新一次；历史游戏资讯榜则在每次日常运行中独立增量更新，之后新闻窗口
 继续回填也不会重写该周总览，等下一自然周才生成新一期。

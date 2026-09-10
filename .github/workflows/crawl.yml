@@ -118,6 +118,13 @@ jobs:
         continue-on-error: true
         run: python scripts/crawl_gameres.py
 
+      - name: 生成各网站每日资讯新增曲线数据
+        # 原始资讯文件只保留短期滚动窗口；该快照将 2026-09-01 起按发布日期、来源
+        # 固化为每日计数，供前端趋势图长期展示。放在五个资讯爬虫之后以取得当天最新值。
+        id: daily_news_history
+        continue-on-error: true
+        run: python scripts/snapshot_daily_news_counts.py
+
       - name: 生成五个资讯源的每日新闻总结
         # 必须排在五个资讯源采集之后：它读的是刚写好的 data/<key>_news.json
         # （3dmgame / youxia / gamersky / gamelook / gameres），输出 data/<key>_digest.json
@@ -170,7 +177,7 @@ jobs:
         # 这里不能再用 failure()：采集步骤已声明 continue-on-error: true，
         # 失败后 job 仍处于 success 状态，failure() 永远不成立，必须逐个比对
         # steps.<id>.outcome。该步骤本身只做提示，不改变 job 状态。
-        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure' || steps.jiuyou.outcome == 'failure' || steps.p16.outcome == 'failure' || steps.dmgame.outcome == 'failure' || steps.youxia.outcome == 'failure' || steps.gamersky.outcome == 'failure' || steps.gamelook.outcome == 'failure' || steps.gameres.outcome == 'failure' || steps.digest.outcome == 'failure' || steps.taptap_rank.outcome == 'failure' || steps.weekly.outcome == 'failure'
+        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure' || steps.jiuyou.outcome == 'failure' || steps.p16.outcome == 'failure' || steps.dmgame.outcome == 'failure' || steps.youxia.outcome == 'failure' || steps.gamersky.outcome == 'failure' || steps.gamelook.outcome == 'failure' || steps.gameres.outcome == 'failure' || steps.daily_news_history.outcome == 'failure' || steps.digest.outcome == 'failure' || steps.taptap_rank.outcome == 'failure' || steps.weekly.outcome == 'failure'
         run: |
           # 把失败的脚本名字逐个打进 ::error:: 注解，直接在列表页区分是哪个源挂了。
           if [ "${{ steps.taptap.outcome }}" = "failure" ]; then
@@ -202,6 +209,9 @@ jobs:
           fi
           if [ "${{ steps.gameres.outcome }}" = "failure" ]; then
             echo "::error::游资网采集脚本失败（scripts/crawl_gameres.py）"
+          fi
+          if [ "${{ steps.daily_news_history.outcome }}" = "failure" ]; then
+            echo "::error::每日资讯新增曲线数据生成失败（scripts/snapshot_daily_news_counts.py）"
           fi
           if [ "${{ steps.digest.outcome }}" = "failure" ]; then
             echo "::error::资讯源每日新闻总结生成失败（scripts/summarize_news.py）"
@@ -258,7 +268,7 @@ jobs:
         # 又退回到"一个源挂掉、当天全都不更新"的老问题。
         # 这一步的作用是把被 continue-on-error 吞掉的失败重新暴露出来：否则
         # run 会一直显示绿色，某个数据源长期挂掉也无人察觉。
-        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure' || steps.jiuyou.outcome == 'failure' || steps.p16.outcome == 'failure' || steps.dmgame.outcome == 'failure' || steps.youxia.outcome == 'failure' || steps.gamersky.outcome == 'failure' || steps.gamelook.outcome == 'failure' || steps.gameres.outcome == 'failure' || steps.digest.outcome == 'failure' || steps.taptap_rank.outcome == 'failure' || steps.weekly.outcome == 'failure'
+        if: steps.taptap.outcome == 'failure' || steps.hot_games.outcome == 'failure' || steps.haoyoukuaibao.outcome == 'failure' || steps.jiuyou.outcome == 'failure' || steps.p16.outcome == 'failure' || steps.dmgame.outcome == 'failure' || steps.youxia.outcome == 'failure' || steps.gamersky.outcome == 'failure' || steps.gamelook.outcome == 'failure' || steps.gameres.outcome == 'failure' || steps.daily_news_history.outcome == 'failure' || steps.digest.outcome == 'failure' || steps.taptap_rank.outcome == 'failure' || steps.weekly.outcome == 'failure'
         run: exit 1
 
   deploy:

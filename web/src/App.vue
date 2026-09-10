@@ -1,8 +1,9 @@
 <script setup>
-import { ref, computed, onMounted, watch, watchEffect } from 'vue'
+import { ref, computed, onMounted, onUnmounted, watch, watchEffect, nextTick } from 'vue'
 import NewGamesPanel from './components/NewGamesPanel.vue'
 import HotGamesPanel from './components/HotGamesPanel.vue'
 import GameNewsPanel from './components/GameNewsPanel.vue'
+import DailyNewsTrend from './components/DailyNewsTrend.vue'
 import WeeklyDigestPanel from './components/WeeklyDigestPanel.vue'
 import HistoryDataPanel from './components/HistoryDataPanel.vue'
 import RefreshButton from './components/RefreshButton.vue'
@@ -30,6 +31,7 @@ const FILES = {
   glDigest: 'gamelook_digest.json',
   grNews: 'gameres_news.json',
   grDigest: 'gameres_digest.json',
+  dailyNewsHistory: 'daily_news_history.json',
 }
 
 const data = ref({})
@@ -55,9 +57,57 @@ function initialSection() {
   return SECTION_KEYS.includes(saved) ? saved : DEFAULT_SECTION
 }
 const activeSection = ref(initialSection())
+const expandedSection = ref('')
+const activeSubAnchor = ref('')
+
+// 侧栏既可作为一级页面入口，也可展开当前板块中的可跳转小标题。
+// 子项 anchor 都是稳定的 DOM id，数据刷新时仍可准确定位。
+const SECTION_NAV = {
+  weekly: [['weekly-overview', '上周综述'], ['weekly-hot-ranking', '综合热度榜']],
+  'new-games': [['new-games-content', '各网站新游']],
+  'hot-games': [['hot-games-content', '游戏动态']],
+  news: [['news-content', '资讯列表'], ['news-daily-trend', '每日新增曲线']],
+  history: [['history-heat-ranking', '历史热度榜'], ['history-news-ranking', '历史游戏资讯榜']],
+}
+
+function selectSection(key) {
+  activeSection.value = key
+  // 一级标题本身也是导航入口；切换时同步只展开当前组，避免留下上一组的小标题。
+  expandedSection.value = key
+  activeSubAnchor.value = ''
+  nextTick(() => {
+    document.getElementById(`${key}-content`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    updateActiveSubAnchor()
+  })
+}
+function toggleSection(key) {
+  expandedSection.value = expandedSection.value === key ? '' : key
+}
+function jumpToSection(key, anchor) {
+  activeSection.value = key
+  expandedSection.value = key
+  activeSubAnchor.value = anchor
+  nextTick(() => document.getElementById(anchor)?.scrollIntoView({ behavior: 'smooth', block: 'start' }))
+}
+
+// 滚动到某个内容锚点时同步高亮侧栏小标题；阈值避开顶栏和资讯面板吸顶栏。
+function updateActiveSubAnchor() {
+  const anchors = SECTION_NAV[activeSection.value] || []
+  const threshold = 90
+  let current = ''
+  for (const [anchor] of anchors) {
+    const element = document.getElementById(anchor)
+    if (element && element.getBoundingClientRect().top <= threshold) current = anchor
+  }
+  activeSubAnchor.value = current
+}
 
 // 点击切换板块时写入记忆，与主题的 localStorage 用法保持一致
 watch(activeSection, (key) => localStorage.setItem('active-section', key))
+watch(activeSection, () => nextTick(() => {
+  // 点击子标题跨板块跳转时先保留用户刚选中的高亮，滚动事件会在抵达后继续校正。
+  if (!activeSubAnchor.value) updateActiveSubAnchor()
+}))
 
 const theme = ref(localStorage.getItem('theme') || '')
 
@@ -92,7 +142,15 @@ onMounted(async () => {
   data.value = nextData
   errors.value = nextErrors
   loading.value = false
+  nextTick(updateActiveSubAnchor)
 })
+
+onMounted(() => {
+  window.addEventListener('scroll', updateActiveSubAnchor, { passive: true })
+  nextTick(updateActiveSubAnchor)
+})
+
+onUnmounted(() => window.removeEventListener('scroll', updateActiveSubAnchor))
 
 function toggleTheme() {
   theme.value = theme.value === 'dark' ? 'light' : 'dark'
@@ -186,6 +244,57 @@ const newsSources = computed(() => [
   },
 ])
 
+// 新快照尚未部署、或某次请求失败时，仍用已加载的五份滚动资讯数据画出可用曲线。
+// 快照一旦可用就始终优先使用，fallback 仅覆盖当前新闻窗口，明确标为临时数据。
+const dailyNewsTrendData = computed(() => {
+  const snapshot = data.value.dailyNewsHistory
+  const DAILY_NEWS_START_DATE = '2026-09-01'
+  const sourceMeta = snapshot?.sources?.length
+    ? snapshot.sources
+    : newsSources.value.map(({ key, label }) => ({ key, label }))
+  const rows = new Map((snapshot?.days || []).map((day) => [
+    day.date,
+    { date: day.date, counts: { ...(day.counts || {}) } },
+  ]))
+  const todayParts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit',
+  }).formatToParts(new Date())
+  const today = `${todayParts.find((part) => part.type === 'year').value}-${todayParts.find((part) => part.type === 'month').value}-${todayParts.find((part) => part.type === 'day').value}`
+  for (const source of newsSources.value) {
+    // 只有成功加载且结构有效的来源才覆盖快照，避免一次刷新失败把历史值改成 0。
+    if (!Array.isArray(source.news?.items)) continue
+    const counts = {}
+    for (const item of source.news.items) {
+      const date = String(item.published_at || '').slice(0, 10)
+      if (!date || date < DAILY_NEWS_START_DATE) continue
+      counts[date] = (counts[date] || 0) + 1
+    }
+    // 成功读取但当天没有文章时也要明确记录 0；读取失败的来源在上面的 guard 已跳过。
+    if (today >= DAILY_NEWS_START_DATE && counts[today] === undefined) counts[today] = 0
+    for (const [date, count] of Object.entries(counts)) {
+      if (!rows.has(date)) rows.set(date, { date, counts: {} })
+      rows.get(date).counts[source.key] = count
+    }
+  }
+  if (!rows.size) return null
+  return {
+    ...(snapshot || {}),
+    start_date: snapshot?.start_date || [...rows.keys()].sort()[0],
+    temporary: !snapshot?.days?.length,
+    sources: sourceMeta,
+    // 刷新资讯后用刚加载的新闻覆盖相同日期，曲线无需等待下一次页面加载。
+    days: [...rows.values()].sort((a, b) => a.date.localeCompare(b.date)).map((day) => ({
+      date: day.date,
+      // 缺失键表示该来源当日不可用，不能在展示层再伪造成 0 条。
+      counts: Object.fromEntries(sourceMeta.flatMap((source) => {
+        const value = day.counts?.[source.key]
+        return Number.isFinite(value) ? [[source.key, value]] : []
+      })),
+    })),
+  }
+})
+const dailyNewsTrendError = computed(() => dailyNewsTrendData.value ? '' : (errors.value.dailyNewsHistory || ''))
+
 // 侧栏条目计数：让人在切板块之前就知道各板块有多少内容
 const counts = computed(() => ({
   weekly: (data.value.weekly?.hot_ranking || []).length,
@@ -233,6 +342,7 @@ const NEWS_FILES = [
   'gamersky_news.json', 'gamersky_reviews.json', 'gamersky_digest.json',
   'gamelook_news.json', 'gamelook_digest.json',
   'gameres_news.json', 'gameres_digest.json',
+  'daily_news_history.json',
 ]
 </script>
 
@@ -248,16 +358,22 @@ const NEWS_FILES = [
 
     <div class="layout">
       <nav class="rail">
-        <button
-          v-for="[key, label] in SECTIONS"
-          :key="key"
-          class="rail-btn"
-          :class="{ active: activeSection === key }"
-          @click="activeSection = key"
-        >
-          <span>{{ label }}</span>
-          <span class="count">{{ counts[key] || '' }}</span>
-        </button>
+        <div v-for="[key, label] in SECTIONS" :key="key" class="rail-group" :class="{ active: activeSection === key }">
+          <div class="rail-btn">
+            <button class="rail-main" :class="{ active: activeSection === key }" @click="selectSection(key)">
+              <span>{{ label }}</span><span class="count">{{ counts[key] || '' }}</span>
+            </button>
+            <button class="rail-toggle" :class="{ expanded: expandedSection === key }" :aria-label="`展开${label}小标题`" :aria-expanded="expandedSection === key" @click="toggleSection(key)">›</button>
+          </div>
+          <div v-show="expandedSection === key" class="rail-subnav">
+            <button
+              v-for="[anchor, sublabel] in SECTION_NAV[key]"
+              :key="anchor"
+              :class="{ active: activeSubAnchor === anchor }"
+              @click="jumpToSection(key, anchor)"
+            >{{ sublabel }}</button>
+          </div>
+        </div>
       </nav>
 
       <main>
@@ -269,8 +385,8 @@ const NEWS_FILES = [
         </div>
 
         <template v-else>
-          <section v-show="activeSection === 'weekly'" class="card">
-            <div class="card-head">
+          <section id="weekly-content" v-show="activeSection === 'weekly'" class="card section-anchor">
+            <div class="card-head sticky-heading">
               <h2>上周总览</h2>
               <span class="spacer"></span>
               <RefreshButton
@@ -279,11 +395,11 @@ const NEWS_FILES = [
                 @refreshed="onRefreshed"
               />
             </div>
-            <WeeklyDigestPanel :data="data.weekly" :error="errors.weekly || ''" />
+            <div id="weekly-overview"><WeeklyDigestPanel :data="data.weekly" :error="errors.weekly || ''" /></div>
           </section>
 
-          <section v-show="activeSection === 'new-games'" class="card">
-            <div class="card-head">
+          <section id="new-games-content" v-show="activeSection === 'new-games'" class="card section-anchor">
+            <div class="card-head sticky-heading">
               <h2>新游监测</h2>
               <span class="spacer"></span>
               <RefreshButton
@@ -302,8 +418,8 @@ const NEWS_FILES = [
             />
           </section>
 
-          <section v-show="activeSection === 'history'" class="card">
-            <div class="card-head">
+          <section id="history-content" v-show="activeSection === 'history'" class="card section-anchor">
+            <div class="card-head sticky-heading">
               <h2>历史数据</h2>
               <span class="spacer"></span>
               <RefreshButton
@@ -315,8 +431,8 @@ const NEWS_FILES = [
             <HistoryDataPanel :data="data.weeklyHistory" :error="errors.weeklyHistory || ''" />
           </section>
 
-          <section v-show="activeSection === 'hot-games'" class="card">
-            <div class="card-head">
+          <section id="hot-games-content" v-show="activeSection === 'hot-games'" class="card section-anchor">
+            <div class="card-head sticky-heading">
               <h2>热门游戏动态监测</h2>
               <span class="spacer"></span>
               <RefreshButton
@@ -332,13 +448,14 @@ const NEWS_FILES = [
             />
           </section>
 
-          <section v-show="activeSection === 'news'" class="card">
-            <div class="card-head">
+          <section id="news-content" v-show="activeSection === 'news'" class="card section-anchor">
+            <div class="card-head sticky-heading">
               <h2>游戏资讯</h2>
               <span class="spacer"></span>
               <RefreshButton :files="NEWS_FILES" storage-key="game-news" @refreshed="onRefreshed" />
             </div>
             <GameNewsPanel :sources="newsSources" :active="activeSection === 'news'" />
+            <DailyNewsTrend :data="dailyNewsTrendData" :error="dailyNewsTrendError" />
           </section>
         </template>
       </main>
@@ -411,7 +528,7 @@ const NEWS_FILES = [
   border: none;
   background: none;
   text-align: left;
-  padding: 9px 12px;
+  padding: 0;
   border-radius: var(--r-sm);
   font-size: 14px;
   font-family: var(--font);
@@ -425,6 +542,43 @@ const NEWS_FILES = [
   transform-origin: center;
   transition: transform .12s ease, background .12s, color .12s, box-shadow .12s;
 }
+
+.rail-main {
+  flex: 1;
+  min-width: 0;
+  border: none;
+  border-radius: var(--r-sm);
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 9px 4px 9px 12px;
+  font: inherit;
+  text-align: left;
+}
+.rail-toggle {
+  width: 30px;
+  align-self: stretch;
+  border: none;
+  border-radius: var(--r-sm);
+  background: none;
+  color: var(--text-3);
+  cursor: pointer;
+  font-size: 21px;
+  line-height: 1;
+  transition: transform .15s ease, color .12s, background .12s;
+}
+.rail-toggle:hover, .rail-toggle:focus-visible { color: var(--brand); background: var(--surface-2); }
+.rail-toggle.expanded { transform: rotate(90deg); }
+.rail-btn:has(.rail-main.active) { background: var(--brand-weak); color: var(--brand); font-weight: 600; }
+.rail-subnav { display: grid; gap: 2px; padding: 3px 4px 6px 20px; }
+.rail-subnav button { border: none; border-radius: var(--r-sm); background: none; color: var(--text-2); cursor: pointer; padding: 6px 8px; font: 12px var(--font); text-align: left; }
+.rail-subnav button:hover, .rail-subnav button:focus-visible { color: var(--brand); background: var(--brand-weak); }
+.rail-subnav button.active { color: var(--brand); opacity: .68; font-weight: 600; }
+.section-anchor { scroll-margin-top: calc(var(--app-bar-h) + 16px); }
 
 .rail-btn:hover,
 .rail-btn:focus-visible {
@@ -460,6 +614,9 @@ const NEWS_FILES = [
     padding: 3px 4px;
   }
 
+  .rail-group { flex: none; }
   .rail-btn { border-radius: 999px; white-space: nowrap; }
+  .rail-main, .rail-toggle { border-radius: 999px; }
+  .rail-subnav { position: absolute; z-index: 2; min-width: 150px; padding: 5px; border: 1px solid var(--border); border-radius: var(--r-sm); background: var(--surface); box-shadow: var(--shadow-1); }
 }
 </style>

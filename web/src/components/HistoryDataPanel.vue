@@ -64,8 +64,8 @@ function articleRange(row) {
         <p class="hint">历史数据自 08-31 起累计：热度榜随每周成稿更新，游戏资讯榜每日更新；各榜单最多保留前 100 款游戏。</p>
       </div>
 
-      <section class="history-section history-heat-section">
-        <div class="card-head">
+      <section id="history-heat-ranking" class="history-section history-heat-section">
+        <div class="card-head sticky-heading">
           <h2>历史热度榜</h2>
           <span class="badge brand">{{ heatRows.length }} / 100 款</span>
           <span class="stamp">按游戏热度排序</span>
@@ -96,8 +96,8 @@ function articleRange(row) {
         </div>
       </section>
 
-      <section class="history-section history-news-section">
-        <div class="card-head">
+      <section id="history-news-ranking" class="history-section history-news-section">
+        <div class="card-head sticky-heading">
           <h2>历史游戏资讯榜</h2>
           <span class="badge brand">{{ newsRows.length }} / 100 款</span>
           <span class="stamp">按历史资讯数量排序</span>
@@ -146,7 +146,7 @@ function articleRange(row) {
 .history-note-row .hint { margin: 0; }
 .history-toolbar { display: inline-flex; flex: none; align-items: center; gap: 8px; }
 select { border: 1px solid var(--border); background: var(--surface); color: var(--text); border-radius: var(--r-sm); padding: 5px 8px; font: 12px var(--font); }
-.history-section { border: 1px solid var(--border); border-radius: var(--r-md); padding: 14px; margin-top: 14px; background: var(--surface); }
+.history-section { --card-padding: 14px; border: 1px solid var(--border); border-radius: var(--r-md); padding: var(--card-padding); margin-top: 14px; background: var(--surface); }
 .history-section .card-head { margin-bottom: 10px; }
 .pager { display: flex; justify-content: flex-end; align-items: center; gap: 10px; margin-top: 12px; }
 .pager .icon-btn { height: 28px; font-size: 12px; }
@@ -156,6 +156,7 @@ select { border: 1px solid var(--border); background: var(--surface); color: var
 .news-pager .pager-page.active { border-color: var(--brand); background: var(--brand-weak); color: var(--brand); }
 .pager-gap { color: var(--text-3); line-height: 28px; }
 .history-section .rank-list { gap: 5px; }
+.history-section .rank-row { --focus-scale: 1.02; }
 .history-section .rank-row { padding: 8px 10px; }
 .history-section .rank-top { gap: 7px; }
 .history-value { display: grid; grid-template-columns: 118px 84px; align-items: center; margin-left: auto; color: var(--text); font-size: 12px; font-variant-numeric: tabular-nums; text-align: right; }

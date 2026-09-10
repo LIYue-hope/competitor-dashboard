@@ -164,7 +164,7 @@ function stamp(iso) {
     </p>
     <template v-else>
       <template v-for="g in shown" :key="g.id">
-        <h3 :id="g.id" class="date-head">
+        <h3 :id="g.id" class="date-head sticky-heading">
           <span>{{ g.label }}</span>
           <span class="badge">{{ g.games.length }} 款</span>
           <span class="line"></span>

@@ -69,13 +69,13 @@ function stamp(iso) {
       <p class="digest-body">{{ data.digest }}</p>
       <p v-if="data.heat_formula" class="formula">{{ data.heat_formula }}</p>
 
-      <div class="card-head">
+      <div id="weekly-hot-ranking" class="card-head sticky-heading">
         <h2>综合热度榜</h2>
         <span class="spacer"></span>
         <span v-if="data.generated_at" class="stamp">更新于 {{ stamp(data.generated_at) }}</span>
       </div>
 
-      <ol v-if="rows.length" class="rank-list">
+      <ol v-if="rows.length" class="rank-list weekly-hot-ranking-list">
         <li
           v-for="r in rows"
           :key="r.rank + r.name"
@@ -103,3 +103,8 @@ function stamp(iso) {
     </template>
   </div>
 </template>
+
+<style scoped>
+/* 综合热度榜的卡片两侧留白较窄，聚焦时略微收小放大倍数，避免越过外层底框。 */
+.weekly-hot-ranking-list .rank-row { --focus-scale: 1.02; }
+</style>

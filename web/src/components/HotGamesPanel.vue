@@ -142,7 +142,7 @@ function stamp(iso) {
         </div>
       </div>
 
-      <div class="card-head">
+      <div class="card-head sticky-heading">
         <h2>{{ game ? game.game_name : '' }}</h2>
         <!-- 同一 tab 下多家公司混排时（鹰角/库洛/叠纸）才有 company -->
         <span v-if="game && game.company" class="stamp">（{{ game.company }}）</span>
