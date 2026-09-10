@@ -1,26 +1,9 @@
 {
-  "crawled_at": "2026-09-09T04:34:29.780128+00:00",
+  "crawled_at": "2026-09-10T04:29:56.753023+00:00",
   "days": [
     {
-      "date": "2026-09-09",
-      "date_label": "09月09日 今天",
-      "games": [
-        {
-          "game_name": "防线守卫战",
-          "categories": [
-            "策略"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/fxswz/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-10",
-      "date_label": "09月10日 明天",
+      "date_label": "09月10日 今天",
       "games": [
         {
           "game_name": "王者万象棋",
@@ -37,8 +20,19 @@
     },
     {
       "date": "2026-09-11",
-      "date_label": "09月11日 后天",
+      "date_label": "09月11日 明天",
       "games": [
+        {
+          "game_name": "魔狩战纪",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": "7.0",
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/moshouzhanji3/",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "热力无限赛车",
           "categories": [
@@ -115,23 +109,6 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/gujianqiwenlu/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "date_label": "09月17日 下周四",
-      "games": [
-        {
-          "game_name": "西游大冒险",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": "开局千抽悟空出山",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/xiyoudamaoxian1/",
           "has_afk_grinding_tag": false
         }
       ]
@@ -218,6 +195,17 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/tianmingxingzhe/",
           "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "西游大冒险",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": "开局千抽悟空出山",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/xiyoudamaoxian1/",
+          "has_afk_grinding_tag": false
         }
       ]
     },
@@ -262,23 +250,6 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/leitinglieyan/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "date_label": "10月15日",
-      "games": [
-        {
-          "game_name": "剑侠世界4",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/jxsj4wx/",
           "has_afk_grinding_tag": false
         }
       ]

@@ -1,9 +1,44 @@
 {
-  "generated_at": "2026-09-09T04:48:04.681681+00:00",
+  "generated_at": "2026-09-10T04:47:54.225409+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-10",
+      "article_count": 8,
+      "game_count": 4,
+      "untagged_count": 4,
+      "digest": "Sensor Tower数据显示，2026年8月点点互动《Tasty Travels》全球收入突破4600万美元，创历史新高，助力38家中国厂商入围全球手游发行商收入榜Top 100。任天堂公布《塞尔达传说：时之笛》重制实机，引发玩家对审美与玩法的激烈争论。独立游戏《未眠野》首曝，试图通过涌现式设计解决玩家对大世界的疲劳感。此外，小游戏《核爆模拟器》全球爆火，伊朗、美国、韩国和日本成为挨炸次数最多的国家。",
+      "digest_source": "llm",
+      "input_hash": "5e0833756f0fe44f",
+      "game_digests": [
+        {
+          "name": "Tasty Travels",
+          "count": 1,
+          "summary": "Sensor Tower数据显示，2026年8月点点互动《Tasty Travels》全球收入突破4600万美元，创历史新高。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说：时之笛",
+          "count": 1,
+          "summary": "任天堂公布《塞尔达传说：时之笛》重制实机，引发玩家对审美与玩法的激烈争论。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "未眠野",
+          "count": 1,
+          "summary": "独立游戏《未眠野》首曝，试图通过涌现式设计解决玩家对大世界的疲劳感。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "核爆模拟器",
+          "count": 1,
+          "summary": "小游戏《核爆模拟器》全球爆火，伊朗、美国、韩国和日本成为挨炸次数最多的国家。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-09-09",
       "article_count": 7,
@@ -192,41 +227,6 @@
           "count": 1,
           "summary": "真玩了！科隆展亲自试玩网易《无限大》，全球玩家热议 —— 【GameLook专稿，禁止转载！】",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-31",
-      "article_count": 13,
-      "game_count": 4,
-      "untagged_count": 9,
-      "digest": "2026年8月31日，游戏行业新闻汇总显示，当日共有13条关于4款游戏的新闻报道。其中，《凡应》的二测继续进化，展现出了突围二游红海的底气；《剑网3》作为一款运营十七年的游戏，正在思考MMO的新方向；《湮灭之潮》在科隆展上斩获“最史诗游戏”大奖；而《疯狂水世界》则选择了一条没人走过的路，展现了小游戏市场的活力。这些报道涵盖了游戏发售、更新、销量、争议等多个方面，为读者提供了丰富的信息。",
-      "digest_source": "llm",
-      "input_hash": "e62ee7b6150587f8",
-      "game_digests": [
-        {
-          "name": "凡应",
-          "count": 1,
-          "summary": "二测继续进化，《凡应》已经展现出了突围二游红海的底气。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "剑网3",
-          "count": 1,
-          "summary": "十七岁的《剑网3》，正在思考MMO的新方向。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 1,
-          "summary": "“成都游戏圈又牛了一把”！《湮灭之潮》喜获科隆展“最史诗游戏”大奖。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "疯狂水世界",
-          "count": 1,
-          "summary": "半年分水岭之后，小游戏该怎么走？《疯狂水世界》选择了一条没人走过的路。",
-          "summary_source": "rules"
         }
       ]
     }

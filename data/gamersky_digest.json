@@ -1,107 +1,208 @@
 {
-  "generated_at": "2026-09-09T04:46:39.753806+00:00",
+  "generated_at": "2026-09-10T04:46:09.096949+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-09",
-      "article_count": 57,
-      "game_count": 28,
-      "untagged_count": 7,
-      "digest": "任天堂在《塞尔达传说》40周年直面会上公布多款新作，其中《塞尔达传说：时之笛 重制版》展示大量实机内容与4K画面，引发玩家对角色模型及画风的热议；同时《塞尔达》限定版Switch 2主机及同名电影同步公布，引发黄牛炒作；此外《女神异闻录6》成就泄露，《GTA6》公布NPC行为新细节，国产开放世界RPG《未眠野》首曝PV。",
+      "date": "2026-09-10",
+      "article_count": 48,
+      "game_count": 32,
+      "untagged_count": 10,
+      "digest": "今日游戏圈焦点集中在小岛秀夫新作《PHYSINT》的发行权归属上，索尼宣布退出合作，Xbox接手发行并计划登陆PC和XGP。此外，《流浪地球：望日》Steam页公开，SNK公布《合金弹头》终极合集，索尼开启《GTA6》限定手柄预购，多款Switch 2游戏发售信息及育碧《刺客信条》重制传闻引发关注。",
       "digest_source": "llm",
-      "input_hash": "1f8f27806a8647ed",
+      "input_hash": "fc5eac596c33220b",
       "game_digests": [
         {
-          "name": "塞尔达传说：时之笛 重制版",
-          "count": 14,
-          "summary": "任天堂在直面会上公开了该作更多内容，展示了现代技术加持下的巨大进步，GameSpot汇总了未在直面会上展示的6分钟实机视频，包含探索、战斗与解谜。",
+          "name": "PHYSINT",
+          "count": 5,
+          "summary": "索尼宣布退出与小岛秀夫合作的谍战新作《PHYSINT》，小岛工作室官方发文表示将和Xbox开展合作，该作看来要上PC和XGP了。",
           "summary_source": "llm"
         },
         {
-          "name": "时之笛",
-          "count": 3,
-          "summary": "外媒GameXplain分享了Switch 2版本与N64画面对比视频，称其画面惊艳，同时有玩家吐槽幼年林克形象油腻像AI，IGN则评价该作敢于在《GTA6》统治的月份里正面交锋。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "时之笛RE",
-          "count": 3,
-          "summary": "官方发布了4K游戏新图，展示了林克举大剑的画面，TGA杰夫盘点其新特性，称新鲜感拉满，同时该作加入了完整配音剧情以加强沉浸感。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达",
+          "name": "流浪地球：望日",
           "count": 2,
-          "summary": "任天堂公布了《塞尔达传说》40周年纪念版Switch 2限定主机及配件的售价，美区与日区同步公开，10月29日发售，美版售价逼近3500元，黄牛已将其炒至850美元。",
+          "summary": "《流浪地球：望日》Steam页公开，这是一款由《边境》开发商柳叶刀工作室制作的线性剧情驱动的第三人称科幻射击单机游戏，刘慈欣担任监制。",
           "summary_source": "llm"
         },
         {
-          "name": "塞尔达时之笛",
+          "name": "饿狼传说：群狼之城",
           "count": 2,
-          "summary": "神作翻新遭痛批！《塞尔达时之笛》画风被吐槽；IGN:《塞尔达时之笛》是真敢冒险！和GTA6只差两周。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "女神异闻录6",
-          "count": 2,
-          "summary": "《女神异闻录6》的完整成就列表在网络上流出，引发玩家广泛解读，包含大量剧透情报。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "未眠野",
-          "count": 2,
-          "summary": "国产新游《未眠野》开启预约并首曝PV，玩法类似《塞尔达传说》，ZEALORY GAMES开发的万物交互开放世界RPG。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 2,
-          "summary": "Nexus Mods上已出现将主角科恩替换为《巫师3》杰洛特脸模的MOD，Rebel Wolves工作室确认了多部续作。",
+          "summary": "《饿狼传说：群狼之城》Nintendo Switch 2版即将发售，预购特典赠送“不知火舞”特色服装，并宣布与《东京卍复仇者》联动。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
           "count": 1,
-          "summary": "Rockstar联合制作人透露了游戏NPC行为、警察系统以及开放世界互动的新信息，NPC被枪指会反抗。",
+          "summary": "索尼推出的《GTA6》限定DualSense无线控制器现已开放预购，两款手柄将于11月19日随游戏同步发售，建议零售价639港币。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "METAL SLUG ULTIMATE COLLECTION",
+          "count": 1,
+          "summary": "《METAL SLUG ULTIMATE COLLECTION》确定发售，收录《合金弹头》历代9部作品及传说中的试玩版，现已开放愿望单。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "PUBG",
+          "count": 1,
+          "summary": "《PUBG》携手7分甜推出跨界联名活动，当“大吉大利，今晚吃鸡”遇上甜蜜果茶，双方展开合作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "制服女友3",
+          "count": 1,
+          "summary": "恋爱AVG《制服女友3》今日开售，游戏主打8个大雷剧情。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "刺客信条",
+          "count": 1,
+          "summary": "知名爆料人eXtas1发文称育碧或将很快公布《刺客信条》初代重制版，Steam后台出现相关更新。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "《剑星》Switch 2实体版确认不是密钥卡，被业界称为“清流”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "古墓丽影",
+          "count": 1,
+          "summary": "《古墓丽影》新作Switch 2实体版没能逃过密钥卡，被指为“悲报”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "合金弹头 终极合集",
+          "count": 1,
+          "summary": "SNK公布《合金弹头》系列30周年纪念合集《合金弹头 终极版合集》，将于2027年登陆Switch、Switch 2、PS5、Xbox Series X|S与Steam平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "孤岛惊魂3",
+          "count": 1,
+          "summary": "《孤岛惊魂3》双作齐登Switch 2，游戏将于2027年春季发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "封印者",
+          "count": 1,
+          "summary": "《封印者》上线全新“次元唯我A+”时装，换上笔挺制服的玩家将在辛强高中展开青春与战斗的故事。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "封神演义 逆命承天",
+          "count": 1,
+          "summary": "《封神演义 逆命承天》上线Steam，玩家将操控由藤崎龙老师绘制的全新主角，游戏将于2027年发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "幻世录 重制版",
+          "count": 1,
+          "summary": "童年神作《幻世录 重制版》正式发售，这是宇峻奥汀制作的战棋SRPG，已于9月9日正式发售。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "article_count": 158,
+      "game_count": 76,
+      "untagged_count": 37,
+      "digest": "任天堂今日公布《塞尔达传说：时之笛 重制版》将于11月5日发售，Switch 2限定机同步开售，引发黄牛炒作与玩家对美术风格的激烈争论。与此同时，《GTA6》限定手柄开启预购，官方确认双主角差异化战斗风格；《女神异闻录6》官宣Switch 2版并泄露成就列表；小岛秀夫新作《Physint》传闻锁定罗伯特·帕丁森出演。",
+      "digest_source": "llm",
+      "input_hash": "0bcf6e6d554df0f7",
+      "game_digests": [
+        {
+          "name": "塞尔达传说：时之笛 重制版",
+          "count": 19,
+          "summary": "任天堂正式公布《时之笛RE》将于2026年11月5日发售，Switch 2限定机同步开售，引发黄牛炒作与玩家对美术风格的激烈争论。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛RE",
+          "count": 6,
+          "summary": "正面对决！《时之笛RE》vs饭制虚幻引擎重制:硬碰硬；GS发文称赞《时之笛RE》新实机 画面优秀玩法进化；《时之笛RE》露朵公主新造型吸睛 玩家直呼顶级萝莉（当天共 6 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "《GTA6》限定PS5手柄正式亮相，共黑白两色可选，将于11月19日随游戏同步发售，建议零售价639港币，并于9月10日上午10点开启预购。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛",
+          "count": 4,
+          "summary": "IGN对比《时之笛》新老画面：大量新像素 画面大进化；《时之笛》三代同框！林克塞尔达德库树对比 变化明显；外媒开骂《时之笛》重制版：幼年林克太油腻像AI（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达",
+          "count": 3,
+          "summary": "曝《塞尔达》新作亚洲版无\"特殊工艺\" 连日版也没有；《塞尔达》NS2限定机售价公开！美版逼近3500元；黄牛立刻开炒！《塞尔达》限定Switch 2被炒到850刀。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达时之笛",
+          "count": 3,
+          "summary": "《塞尔达时之笛》《GTA6》大和解！网友自创AI图；神作翻新遭痛批！《塞尔达时之笛》画风被吐槽；IGN:《塞尔达时之笛》是真敢冒险！和GTA6只差两周。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "女神异闻录6",
+          "count": 3,
+          "summary": "《女神异闻录6》官宣Switch 2版本，新预告公开，完整成就列表疑似在网络上遭到提前泄露。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黎明行者之血",
+          "count": 3,
+          "summary": "IGN9分《黎明行者之血》发布首个更新补丁Hotfix 1.0.4，登陆PC、PS5及Xbox Series X|S平台，修复Bug并提升帧率。",
           "summary_source": "llm"
         },
         {
           "name": "Physint",
-          "count": 1,
-          "summary": "小岛秀夫透露罗伯特・帕丁森将出演这款谍报动作游戏的主角，粉丝们确信这是岛哥哥的新作。",
+          "count": 2,
+          "summary": "小岛秀夫新作《Physint》传闻锁定罗伯特·帕丁森出演，二人曾有交谈，粉丝认为演员正在参与制作。",
           "summary_source": "llm"
         },
         {
-          "name": "Soulframe",
-          "count": 1,
-          "summary": "游民在科隆游戏展采访了《Soulframe》社区总监，展示了狼崽子坐骑等下一步更新内容。",
+          "name": "剑星",
+          "count": 2,
+          "summary": "《剑星》官宣联动《猎天使魔女》，NS2版发售日公开，伊薇手办开订。",
           "summary_source": "llm"
         },
         {
-          "name": "仁王3",
-          "count": 1,
-          "summary": "官方发布更新预告，宣布将针对首个DLC“庆安地狱变”追加新内容，并修复游戏问题。",
+          "name": "巫师3",
+          "count": 2,
+          "summary": "《巫师3》DLC全新直播官宣将于东京游戏展2026会场播出，日区价格因旧版本整合发生变更。",
           "summary_source": "llm"
         },
         {
-          "name": "全面战争：战锤40K",
-          "count": 1,
-          "summary": "游民专访了制作总监Chris Toepker，探讨了游戏制作幕后及积极听取玩家意见。",
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "国产武侠动作游戏《影之刃零》原定今日发售，但玩家无法正式体验，官方未说明原因。",
           "summary_source": "llm"
         },
         {
-          "name": "塞尔达传说",
-          "count": 1,
-          "summary": "任天堂宣布《塞尔达传说》真人电影正式定名为《塞尔达传说》，将于2027年4月30日在全球影院上映。",
+          "name": "未眠野",
+          "count": 2,
+          "summary": "国产新游《未眠野》开启预约，首曝PV，是一款万物交互开放世界RPG。",
           "summary_source": "llm"
         },
         {
-          "name": "塞尔达传说：时之笛 重制版[",
-          "count": 1,
-          "summary": "《塞尔达传说：时之笛 重制版[》重大改动！完整配音剧情加强沉浸感。",
-          "summary_source": "rules"
+          "name": "艾尔登法环",
+          "count": 2,
+          "summary": "《艾尔登法环》发布1.17.1紧急补丁，快速封堵了一个允许玩家在未购买DLC的情况下免费获取专属道具的漏洞。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "街霸6",
+          "count": 2,
+          "summary": "《街霸6》追加角色“阿俊”将于10月13日上线，被指招式照搬。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -909,107 +1010,6 @@
           "name": "动物朋克",
           "count": 1,
           "summary": "IGN力赞国产《动物朋克》新实机：双主角合砍机甲。",
-          "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-31",
-      "article_count": 127,
-      "game_count": 52,
-      "untagged_count": 41,
-      "digest": "今日游戏行业新闻概览，涵盖了多个知名游戏及其相关动态。其中包括《GTA6》的地图规模、新截图和开发者进度更新；《鬼武者：剑之道》的媒体评分和即将到来的奖项；《黎明行者之血》的评测结果和实体版发售信息；《昭和米国物语》的试玩奖励问题及制作人致歉；《巫师3》的DLSS5技术应用和实机演示；《星际：异端先知》的发售时间曝光；《最后生还者》的DLSS5技术使用体验；《漫威金刚狼》的新片预告和PS5平台功能宣传；《007：初露锋芒》的延期消息；《2077》的画质换帧数测试结果；《BALL BOY Simulator》登陆Steam的消息；以及《BSide:Olivia Lin》的停运公告。此外，还有关于《Turok: Origins》的科隆游戏展展示和完整加长版预告的发布，以及《三国叶子戏》的商店页公开。",
-      "digest_source": "llm",
-      "input_hash": "cf63ed2b10150d6e",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 20,
-          "summary": "曝《GTA6》脱衣舞俱乐部至少5个！但去多了会影响主角关系；《GTA6》新截图曝光！双主角犯罪|亲密大赏；夸张身材女网红声称参演《GTA6》？R星口味都没这么重（当天共 20 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 6,
-          "summary": "《鬼武者：剑之道》GS 8分：半开放世界与支线略平庸；《鬼武者：剑之道》M站开分86！Boss战极其壮观；IGN 10分满分！《鬼武者：剑之道》精彩绝伦（当天共 6 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 4,
-          "summary": "《黎明行者之血》获GS8分！顶级剧情战斗紧张；《黎明行者之血》IGN 9分！今年最强开放世界之一；《黎明行者之血》M站开分87！RPG沉浸佳作（当天共 4 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "昭和米国物语",
-          "count": 3,
-          "summary": "《昭和米国物语》试玩奖励被卡！制作人致歉玩家；《昭和米国物语》制作人官宣：国内试玩要来了；《昭和米国物语》难度机制确认！猎奇名称 它太懂了。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GTA4",
-          "count": 2,
-          "summary": "DLSS5让《GTA4》直接进化！不用再等重制版了；《GTA4》赶紧打上DLSS 5 MOD！不说以为玩GTA6呢。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "巫师3",
-          "count": 2,
-          "summary": "《巫师3》DLSS5实机：叶奈法像真人 抢先玩\"重制版\"；《巫师3》新DLC或将首发XGP？官方私密视频藏玄机。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "星际：异端先知",
-          "count": 2,
-          "summary": "顽皮狗《星际：异端先知》发售时间被舅舅曝光！2027下半年见；曝索尼新发布会9月3日！《星际：异端先知》将最后一个亮相。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "最后生还者",
-          "count": 2,
-          "summary": "《最后生还者》强开DLSS5翻车：12岁小女孩变大妈；顽皮狗中国员工晒《最后生还者》DLSS 5画面：这谁啊？。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2,
-          "summary": "《漫威金刚狼》劲爆新片公开！狼叔利爪撕毁一切；《漫威金刚狼》大小曝光！80GB接近《漫威蜘蛛侠2》。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "007：初露锋芒",
-          "count": 1,
-          "summary": "《007：初露锋芒》NS2版又延期！发售窗口没了。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "2077",
-          "count": 1,
-          "summary": "画质换帧数 RTX5090运行《2077》开DLSS5帧率暴跌。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "BALL BOY Simulator",
-          "count": 1,
-          "summary": "体验棒球场下潜藏的“黑暗” 《BALL BOY Simulator》8月31日登陆Steam。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "BSide:Olivia Lin",
-          "count": 1,
-          "summary": "米哈游陪伴型新游《BSide:Olivia Lin》今日停运！上线不过两个月。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Turok: Origins",
-          "count": 1,
-          "summary": "Saber Interactive于科隆游戏展开幕之夜公布的《Turok: Origins》，现已公布完整加长版预告。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "三国叶子戏",
-          "count": 1,
-          "summary": "魂穿三国当县长，《三国叶子戏》商店页公开。",
           "summary_source": "rules"
         }
       ]

@@ -1,107 +1,208 @@
 {
-  "generated_at": "2026-09-09T04:42:36.623856+00:00",
+  "generated_at": "2026-09-10T04:44:41.545389+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-09",
-      "article_count": 27,
-      "game_count": 16,
-      "untagged_count": 1,
-      "digest": "今日游戏资讯聚焦于《塞尔达传说：时之笛重制版》的密集曝光，包括容量27GB、实体版发售及Switch 2独占等重磅消息，引发玩家对新造型的争议。此外，《GTA6》预购量达528万份，PS平台占比77%；《女神异闻录4重制版》试玩引发画面升级争议；《蜂巢：异星物语》正式发售；暴雪预热《星际争霸》新作，凯瑞甘或回归。",
+      "date": "2026-09-10",
+      "article_count": 59,
+      "game_count": 43,
+      "untagged_count": 7,
+      "digest": "今日游戏行业资讯密集，维京生存大作《英灵神殿》1.0正式版上线引发破解与玩家回流热潮，索尼终止与小岛秀夫的《Physint》合作引发业界震动。此外，多款新作如《GTA6》限定手柄、《剑星》Switch 2版及《异度之刃3》NS2版等陆续公布发售信息，Switch 2平台新作阵容进一步扩充。",
       "digest_source": "llm",
-      "input_hash": "2c59fc88ea0d3b18",
+      "input_hash": "26aa713f04dc3cc5",
       "game_digests": [
         {
-          "name": "塞尔达传说：时之笛RE",
-          "count": 6,
-          "summary": "新预告公布定档11月5日，Switch 2独占，官网同步上线并放出大量截图。",
+          "name": "英灵神殿",
+          "count": 3,
+          "summary": "历经五年抢先体验，《英灵神殿》1.0正式版上线，Steam历史同时在线峰值突破50万、销量超100万，但知名破解组Rune火速发布了该作的破解资源。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
           "count": 2,
-          "summary": "双主角战斗风格曝光，露西娅走技术流，杰森崇尚暴力输出，拥有独立近战与掩体设计。",
+          "summary": "索尼推出的《GTA6》限定版DualSense无线控制器现已开启预购，两款手柄将于11月19日与游戏同步发售，建议零售价为639港币。",
           "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 2,
+          "summary": "Switch 2《剑星》完全版确认将于11月5日正式发售，Shift Up承诺游戏内容100%完整收录在实体卡带上，并确认不采用密钥卡。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "封神演义 逆命承天",
+          "count": 2,
+          "summary": "集英社发行的类肉鸽动作游戏《封神演义：逆命承天》现已上架Steam商店页面，支持简体中文，原作累计销量突破2200万册。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "异度之刃3",
+          "count": 2,
+          "summary": "《异度之刃3 Nintendo Switch 2 Edition》正式公布，将于12月3日发售，目前已全面开启预售，新玩家可直接入坑。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "浪漫沙加3重制版",
+          "count": 2,
+          "summary": "SE经典JRPG《浪漫沙加3》完全重制版《浪漫沙加3：错综宿命》正式公布，2027年2月17日发售，Steam国区标准版售价268元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "银河战士：Ravenous",
+          "count": 2,
+          "summary": "任天堂公布《银河战士》系列新作《银河战士：Ravenous》，定档2027年1月28日发售，目前港服预购开启，售价449港币。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "饿狼传说：群狼之城",
+          "count": 2,
+          "summary": "SNK宣布《饿狼传说：群狼之城》Nintendo Switch 2版将于2026年10月22日发售，并赠送“不知火舞”特色服装，同时公布与《东京卍复仇者》联动预告。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7核心危机 重聚",
+          "count": 1,
+          "summary": "Square Enix对《最终幻想7：核心危机 重聚》Steam国区进行永久降价，标准版从298元降至198元，数字豪华版从446元降至268元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "METAL SLUG ULTIMATE COLLECTION",
+          "count": 1,
+          "summary": "SNK正式公布《合金弹头》系列30周年纪念合集《METAL SLUG ULTIMATE COLLECTION》，预计2027年登陆多平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Onyx: The Dark Grip",
+          "count": 1,
+          "summary": "Bloober Team宣布新作《Onyx：The Dark Grip》将于2027年在Nintendo Switch2平台推出数字版。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "PUBG",
+          "count": 1,
+          "summary": "战术竞技游戏《PUBG》正式宣布与茶饮品牌“7分甜”展开跨界合作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Physint",
+          "count": 1,
+          "summary": "索尼正式宣布终止与小岛秀夫合作开发谍战新作《Physint》，小岛工作室随后宣布放弃索尼合作，转而与Xbox联合开发。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Switch运动度假胜地",
+          "count": 1,
+          "summary": "任天堂直面会公布《任天堂Switch运动度假胜地》，2026年10月22日登陆Switch2，游戏主打体感多人运动。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑网3",
+          "count": 1,
+          "summary": "《剑网3》×《凡人修仙传》联动活动现已开启，异界道友韩立携同伴降临，参与活动即可获得奇趣坐骑、特效背部挂件等精美奖励。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "article_count": 105,
+      "game_count": 64,
+      "untagged_count": 12,
+      "digest": "《塞尔达传说：时之笛RE》发布，容量27GB，Switch 2独占。GTA6预购量超528万份，PS平台占比高。《女神异闻录6》战斗系统全曝光，主角团“Hex”首度曝光。《王国之心4》剧情与羁绊类成就一览，玩法体系、经典场景回归。GUNDAM 异轨征途公布，请成为王牌机师。《塞尔达传说》限定NS2和手柄公布，40周年庆典汇总。《时之笛RE》首个实机公布，实体卡带引爆热度。洛克人流星合集移除D加密，告别卡顿与延迟。潜水员戴夫全球累计销量突破1000万套。CODE VEIN 噬血代码 II扩充DLC ＂Mask of Idris＂现已发布。",
+      "digest_source": "llm",
+      "input_hash": "a4901c82e654fcdd",
+      "game_digests": [
+        {
+          "name": "塞尔达传说：时之笛RE",
+          "count": 6,
+          "summary": "《塞尔达传说：时之笛RE》容量27GB！为N64原版800倍；《塞尔达传说 时之笛RE》实体版公布！还有限量烫箔版；《塞尔达传说：时之笛RE》首个实机公布！画面精致（当天共 6 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "黎明行者之血",
+          "count": 5,
+          "summary": "《黎明行者之血》发售仅6天 开发团队已开始筹备续作；《黎明行者之血》将有多部续作！横跨不同时代与文化；《黎明行者之血》紧急热修1.0.4 卡关、帧数全修复！（当天共 5 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "曝《GTA6》预购量已达528万份！PS平台占比高达77%；《GTA6》主角战斗风格曝光!露西娅走技术 杰森纯力大；《GTA6》白色限定DualSense手柄 商品包装图片流出！（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达时之笛RE",
+          "count": 4,
+          "summary": "玩家力挺《塞尔达时之笛RE》 直言部分差评纯属博热度；《塞尔达时之笛RE》角色模型汇总：大小林克、塞尔达等；《塞尔达时之笛RE》刻意保留加载画面！致敬原版精髓（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "时之笛",
+          "count": 4,
+          "summary": "谁家的金鱼精？《时之笛》重制版幼年林克形象引争议；颜值进化史！三代《时之笛》塞尔达公主同框对比图；《时之笛》重制有实体卡带！网友集体反呛索尼与R星（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "噬血代码2",
+          "count": 3,
+          "summary": "《噬血代码2》正式移除D加密 72G游戏秒遭Rune破解；《噬血代码2》DLC「伊德里斯的面具」上线宣传片公布；《噬血代码2》推送大型2.0版本更新 移除了D加密！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "女神异闻录6",
+          "count": 3,
+          "summary": "《女神异闻录6》战斗系统全曝光!恋爱社群系统回归；《女神异闻录6》主角团\"Hex\"首度曝光!全员资料泄露；《女神异闻录6》遭“史诗级”泄露！剧情舞台首度曝光。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "王国之心4",
+          "count": 3,
+          "summary": "心与羁绊交织！《王国之心4》剧情与羁绊类成就一览；《王国之心4》玩法成就:主城探索+飞船空战+养成战斗；主线结局+世界委托！《王国之心 4》12项项成就曝光。",
+          "summary_source": "rules"
         },
         {
           "name": "GUNDAM 异轨征途",
           "count": 2,
-          "summary": "媒体试玩体验称游戏机战爽快，采访呼吁玩家成为王牌机师。",
-          "summary_source": "llm"
+          "summary": "《GUNDAM 异轨征途》采访：请成为王牌机师吧；《GUNDAM 异轨征途》试玩：机战，爽。",
+          "summary_source": "rules"
         },
         {
           "name": "塞尔达传说",
           "count": 2,
-          "summary": "40周年特别直面会涵盖游戏、电影、硬件与周边，信息量巨大。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "时之笛",
-          "count": 2,
-          "summary": "官方发布三代塞尔达公主同框对比图，展示其颜值进化史。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 2,
-          "summary": "上市仅6天，开发团队已开始筹备续作，并公布横跨不同时代与文化的发展蓝图。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "EthrA",
-          "count": 1,
-          "summary": "StoneLab Games宣布3D像素风开放世界冒险RPG《EthrA》开启众筹，计划登陆PC、PS5及Switch 2。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛重制版",
-          "count": 1,
-          "summary": "确认多名角色加入完整语音对白，林克依旧保持“哑巴”设定。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "女神异闻录4重制版",
-          "count": 1,
-          "summary": "《女神异闻录4重制版》试玩揭底:一场忠实的画面升级。",
+          "summary": "《塞尔达传说》限定NS2和手柄公布！10月29日发售；《塞尔达传说》40周年庆典汇总！直面会信息量爆炸。",
           "summary_source": "rules"
-        },
-        {
-          "name": "时之笛 重制版",
-          "count": 1,
-          "summary": "公布Switch 2专属玩法，利用录音功能实现让林克吹笛子的效果。",
-          "summary_source": "llm"
         },
         {
           "name": "时之笛RE",
-          "count": 1,
-          "summary": "能自己唱歌让林克吹！《时之笛RE》新增ns2专属玩法。",
+          "count": 2,
+          "summary": "能自己唱歌让林克吹！《时之笛RE》新增ns2专属玩法；游侠早报：《时之笛RE》实机演示 塞尔达限定主机公布。",
           "summary_source": "rules"
         },
         {
-          "name": "星际争霸",
-          "count": 1,
-          "summary": "暴雪预热新作，官网异常闪屏及通讯信号暗示莎拉·凯瑞甘或将回归。",
-          "summary_source": "llm"
+          "name": "洛克人流星合集",
+          "count": 2,
+          "summary": "《洛克人流星合集》刚摘D加密 7G游戏被TENOKE秒破；告别卡顿与延迟 卡普空移除《洛克人流星合集》D加密。",
+          "summary_source": "rules"
         },
         {
-          "name": "湮灭之潮",
-          "count": 1,
-          "summary": "斩获科隆“最具史诗感”大奖，发布纪念视频回顾线下试玩会。",
-          "summary_source": "llm"
+          "name": "潜水员戴夫",
+          "count": 2,
+          "summary": "《潜水员戴夫》全球累计销量突破1000万套；《潜水员戴夫》官宣全球累计销量已突破1000万份！。",
+          "summary_source": "rules"
         },
         {
-          "name": "英雄联盟",
+          "name": "2XKO",
           "count": 1,
-          "summary": "26.20版本加入全队语音功能，同步推出“语音皮肤”。",
-          "summary_source": "llm"
+          "summary": "《2XKO》开发受阻后 拳头或正推进买断制游戏MMO项目。",
+          "summary_source": "rules"
         },
         {
-          "name": "蜂巢：异星物语",
+          "name": "CODE VEIN 噬血代码 II",
           "count": 1,
-          "summary": "治愈系开放世界生存沙盒今日正式发售，登陆Steam、PS5及Xbox Series，Steam国区定价109元。",
-          "summary_source": "llm"
+          "summary": "《CODE VEIN 噬血代码 II》扩充DLC ＂Mask of Idris＂现已发布！。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -909,107 +1010,6 @@
           "name": "半衰期：爱莉克斯",
           "count": 1,
           "summary": "消息称Steam Frame头显用户将免费获赠该作。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-31",
-      "article_count": 71,
-      "game_count": 36,
-      "untagged_count": 16,
-      "digest": "今日游戏资讯聚焦于《GTA6》的发售争议、机制细节及开发周期，以及《鬼武者：剑之道》的高人气与《巫师4》的实体版争议。此外，《影之刃零》容量曝光、Housemarque工作室创始人离职、索尼State of Play发布会定档等消息也引发关注。",
-      "digest_source": "llm",
-      "input_hash": "b398375c1cffd209",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 13,
-          "summary": "网传预购量数据引发热议，博主曝光燃油机制，R星确认开发周期超十年。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师4",
-          "count": 3,
-          "summary": "叙事总监回应希里当主角争议，受索尼取消光盘政策影响，游戏将推出无光盘实体盒装。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 3,
-          "summary": "PS5实体版提前一周偷跑，试玩下载量突破200万，核心机制“一闪”触发次数破千万。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：狂猎 重制版",
-          "count": 2,
-          "summary": "科隆展透露将新增无障碍辅助功能，PS5 Pro光追模式稳定60帧。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 2,
-          "summary": "PC版疑似开放预载，安装窗口显示游戏本体容量约为150GB。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "死亡回归",
-          "count": 2,
-          "summary": "Housemarque联合创始人伊拉里·库伊蒂宁宣布离职，结束33年游戏行业生涯。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "007：初露锋芒",
-          "count": 1,
-          "summary": "Switch2版官宣第三次延期，原定2026年夏后半发售，目前上线时间待定。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "BUZZ or DIE",
-          "count": 1,
-          "summary": "Steam商店页面改版并公开全新主视觉图，游戏将于年内发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7：启示",
-          "count": 1,
-          "summary": "索尼官宣9月3日举办State of Play发布会，采用主会场与日本专场双直播模式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Project Motor Racing",
-          "count": 1,
-          "summary": "赛车模拟游戏付费DLC“V8 Power Pack”将于9月15日上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Turok: Origins",
-          "count": 1,
-          "summary": "Saber Interactive公布完整加长版预告，游戏将于2027年春季登陆多平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "一起来榨大果汁",
-          "count": 1,
-          "summary": "中世纪经营模拟游戏简中Demo现已开放。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三国叶子戏",
-          "count": 1,
-          "summary": "融合卡牌堆叠与模拟经营的Steam商店页面正式公开。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "专业船舶模拟器",
-          "count": 1,
-          "summary": "写实航海模拟新作将于9月16日上线Steam开启抢先体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 1,
-          "summary": "玩家反馈开启后性能大跌，5090显卡在DLSS 5下也面临挑战。",
           "summary_source": "llm"
         }
       ]

@@ -1,9 +1,9 @@
 {
-  "crawled_at": "2026-09-09T04:34:39.548486+00:00",
+  "crawled_at": "2026-09-10T04:30:07.857395+00:00",
   "days": [
     {
       "date": "2026-09-10",
-      "date_label": "09月10日 明天",
+      "date_label": "09月10日 今天",
       "games": [
         {
           "game_name": "来吧!中餐厅",
@@ -28,27 +28,11 @@
             "自走棋",
             "多端互通"
           ],
-          "score": "7.6",
+          "score": "7.4",
           "release_date": "2026-09-10",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1841952.html",
           "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "正中靶心2",
-          "categories": [
-            "Roguelike",
-            "塔防",
-            "割草",
-            "魔法"
-          ],
-          "score": "4.7",
-          "release_date": "2026-09-10",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1952835.html",
-          "publisher": "开新游戏",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         },
@@ -71,7 +55,7 @@
     },
     {
       "date": "2026-09-11",
-      "date_label": "09月11日 后天",
+      "date_label": "09月11日 明天",
       "games": [
         {
           "game_name": "热力无限赛车",
@@ -94,14 +78,14 @@
     },
     {
       "date": "2026-09-12",
-      "date_label": "09月12日 周六",
+      "date_label": "09月12日 后天",
       "games": [
         {
           "game_name": "勇士之心",
           "categories": [
             "角色扮演"
           ],
-          "score": "8.0",
+          "score": "7.8",
           "release_date": "2026-09-12",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952940.html",
@@ -176,6 +160,48 @@
           "publisher": "森灵游戏",
           "is_major_publisher": false,
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "date_label": "09月16日 下周三",
+      "games": [
+        {
+          "game_name": "小小英杰:合战天下",
+          "categories": [
+            "策略",
+            "三国",
+            "SLG",
+            "角色扮演"
+          ],
+          "score": "7.2",
+          "release_date": "2026-09-16",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1954387.html",
+          "publisher": "上海电光火石科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "宝石战争",
+          "categories": [
+            "卡牌",
+            "策略",
+            "收集",
+            "Steam移植",
+            "多平台",
+            "消除",
+            "休闲",
+            "独立游戏"
+          ],
+          "score": "9.1",
+          "release_date": "2026-09-16",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1940765.html",
+          "publisher": "中顺和盈",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
         }
       ]
     }

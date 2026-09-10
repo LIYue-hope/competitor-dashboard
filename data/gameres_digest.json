@@ -1,22 +1,69 @@
 {
-  "generated_at": "2026-09-09T04:50:06.801329+00:00",
+  "generated_at": "2026-09-10T04:52:56.606381+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-09",
-      "article_count": 5,
-      "game_count": 1,
-      "untagged_count": 4,
-      "digest": "今日游戏行业资讯共5条，主要围绕索尼音乐娱乐收购《智龙迷城》开发商GungHo约23%股份展开。索尼音乐拟斥资约286亿日元收购该股份，预计2026年底前完成交割，此举旨在深化游戏领域合作并保障GungHo的经营独立性。此外，另有4条资讯未指向具体游戏。",
+      "date": "2026-09-10",
+      "article_count": 6,
+      "game_count": 3,
+      "untagged_count": 3,
+      "digest": "今日游戏行业资讯主要聚焦于新游首曝与老作评测，成都小智游戏发布了物理与化学双引擎驱动的开放世界RPG《未眠野》，开启全平台预约；卡普空发布了刘慈欣原著授权的《流浪地球：望日》首支预告片；此外，Fami通发布了《鬼武者：剑之道》评测，肯定了该作作为系列20年正统新作的游玩满足感。",
       "digest_source": "llm",
-      "input_hash": "997bda56888309af",
+      "input_hash": "b79b4ddf3e747a9e",
       "game_digests": [
+        {
+          "name": "未眠野",
+          "count": 1,
+          "summary": "成都小智游戏打造的全新开放世界RPG《未眠野》首曝，以物理×化学双引擎驱动主打万物交互，目前已开启全平台预约。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "流浪地球：望日",
+          "count": 1,
+          "summary": "刘慈欣原著授权的《流浪地球：望日》首支预告片发布。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鬼武者：剑之道",
+          "count": 1,
+          "summary": "Fami通评测卡普空2026年9月4日发售的《鬼武者：剑之道》，肯定了该作作为系列暌违20年正统新作的游玩满足感。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "article_count": 12,
+      "game_count": 4,
+      "untagged_count": 8,
+      "digest": "今日游戏行业资讯聚焦于模拟经营与回合制手游领域，索尼音乐斥巨资收购《智龙迷城》开发商股份，腾讯展示《洛克王国：世界》强化学习AI，两款模拟经营新作《复兴吧温泉镇！》与《炼金工厂》则分别开放Demo并正式发售。",
+      "digest_source": "llm",
+      "input_hash": "bc03bd891b1890cf",
+      "game_digests": [
+        {
+          "name": "复兴吧温泉镇！",
+          "count": 1,
+          "summary": "Steam Demo现已开放，新增主线支线剧情、水田牧场经营、双视角切换及探索优化等内容，为玩家带来丰富的乡村模拟经营体验。",
+          "summary_source": "llm"
+        },
         {
           "name": "智龙迷城",
           "count": 1,
-          "summary": "索尼音乐娱乐拟斥约286亿日元收购《智龙迷城》开发商GungHo约23%股份，交割预计2026年底前完成，双方将深化游戏领域合作并保障其经营独立性。",
+          "summary": "索尼音乐拟斥约286亿日元收购开发商GungHo约23%股份成为最大股东，交割预计2026年底前完成，双方将深化游戏领域合作并保障其经营独立性。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "洛克王国：世界",
+          "count": 1,
+          "summary": "腾讯游戏在科隆游戏展开发者大会分享《洛克王国：世界》战斗AI实践，该强化学习AI已支撑数十亿场对局，可适配不同水平玩家并随版本按周迭代。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "炼金工厂",
+          "count": 1,
+          "summary": "1.0正式版现已登陆Steam，抢先体验期销量超20万份，Steam好评率89%获“特别好评”，现开启两周八折特惠，正式版新增货车物流等玩法。",
           "summary_source": "llm"
         }
       ]
@@ -126,8 +173,8 @@
       "article_count": 3,
       "game_count": 0,
       "untagged_count": 3,
-      "digest": "今日游戏行业资讯主要聚焦于游戏出海、版号审批及行业监管动态。游资网共发布3条新闻，分别涉及中国游戏厂商在海外市场的表现、国家新闻出版署关于进口网络游戏审批的公告，以及游戏行业在监管环境下的合规化发展。整体来看，行业在政策引导与市场拓展方面均有新进展。",
-      "digest_source": "llm",
+      "digest": "9月5日 游资网 共 3 条新闻，涉及 0 款游戏。另有 3 条未指向具体游戏的行业或平台资讯。当天的内容包括「十万少年逐梦电竞赛场，「一加杯」 2026 全国电竞赛总决赛燃情收官」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
       "input_hash": "6e697791bc8a2f22",
       "game_digests": []
     },
@@ -285,59 +332,6 @@
           "name": "青莲宝珠",
           "count": 1,
           "summary": "波克推出采用恶搞2D沙雕漫题材的育成小游戏《青莲宝珠》，借鉴《赛马娘》育成体系，融合模拟经营与轻度战斗策略。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-31",
-      "article_count": 14,
-      "game_count": 7,
-      "untagged_count": 7,
-      "digest": "2026年8月31日，国家新闻出版署公布209款国产及6款进口网络游戏版号获批，其中《金铲铲之战》新增PC端版号；4399推出修仙题材开箱like游戏《创造妖灵妖》测试；《剑网3》举办十七周年庆发布会，公布50级新世代「苍生铸世」将于10月29日公测；死亡游戏ADV《BUZZ or DIE》宣布年内登陆Steam；《暴走植物园》展示靶心like新解法；GTA 6发布独家前瞻；gamescom 2026大奖揭晓，《巫师3：狂猎-旧时曲》连斩三奖。",
-      "digest_source": "llm",
-      "input_hash": "219de1ff1b810d10",
-      "game_digests": [
-        {
-          "name": "2026年8月",
-          "count": 1,
-          "summary": "国家新闻出版署公布209款国产及6款进口网络游戏版号获批，含《金铲铲之战》新增PC端版号。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "BUZZ or DIE",
-          "count": 1,
-          "summary": "死亡游戏ADV《BUZZ or DIE》宣布年内登陆Steam，玩家需挖掘对手过往制作短视频赚流量求生。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA 6",
-          "count": 1,
-          "summary": "发布独家前瞻，除了“分量十足的一瞥”之外，还提供了更多新情报。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "创造妖灵妖",
-          "count": 1,
-          "summary": "4399推出修仙题材开箱like测试游戏《创造妖灵妖》，将开箱包装为熔炉打造装备，但开启自动系统后直出高品质装备，设计存矛盾。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑网3",
-          "count": 1,
-          "summary": "举办十七周年庆发布会，公布50级新世代「苍生铸世」10月29日公测，2027年将开放剑网3 2.0试玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：狂猎-旧时曲",
-          "count": 1,
-          "summary": "gamescom 2026大奖揭晓，连斩三奖。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "暴走植物园",
-          "count": 1,
-          "summary": "展示靶心like新解法，短到6分钟一局。",
           "summary_source": "llm"
         }
       ]
