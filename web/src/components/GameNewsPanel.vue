@@ -16,15 +16,16 @@ const rootRef = ref(null)
 const activeRef = computed(() => props.active)
 const { compact, remeasure } = useStickyTabs(stackRef, rootRef, activeRef)
 
-const sourceKey = ref('')
-const tab = ref('news')
-const q = ref('')
+const sharedQuery = new URLSearchParams(window.location.search)
+const sourceKey = ref(sharedQuery.get('source') || '')
+const tab = ref(sharedQuery.get('newsTab') || 'news')
+const q = ref(sharedQuery.get('q') || '')
 // 新闻窗口可能有数百条记录，默认只渲染前 15 条；筛选与统计仍基于完整命中集。
 const newsLimit = ref(15)
 const newsPage = ref(1)
 // 新闻列表用起止区间，每日总结用单日，两套状态互不影响
-const from = ref('')
-const to = ref('')
+const from = ref(sharedQuery.get('from') || '')
+const to = ref(sharedQuery.get('to') || '')
 const digestDate = ref('')
 
 const src = computed(() => props.sources.find((s) => s.key === sourceKey.value) || props.sources[0] || null)
@@ -51,6 +52,11 @@ function selectSource(key) {
 watch([sourceKey, tab, q, from, to, digestDate, newsLimit], () => {
   newsPage.value = 1
   remeasure()
+  // 筛选状态在地址栏同步，复制链接即可恢复资讯视图；空值不污染链接。
+  const url = new URL(window.location.href)
+  const values = { source: sourceKey.value, newsTab: tab.value, q: q.value, from: from.value, to: to.value }
+  Object.entries(values).forEach(([key, value]) => value ? url.searchParams.set(key, value) : url.searchParams.delete(key))
+  window.history.replaceState({}, '', url)
 })
 
 /* ---- 新闻 ---- */

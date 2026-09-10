@@ -11,7 +11,37 @@ const newsPageSize = ref(20)
 const heatPage = ref(1)
 const newsPage = ref(1)
 // 两个榜单按自身指标独立展示，避免要求同一游戏同时具备热度和资讯才可入榜。
-const heatRows = computed(() => (props.data?.heat_ranking || []).filter((row) => Number(row.heat_score) > 0))
+const allHeatRows = computed(() => (props.data?.heat_ranking || []).filter((row) => Number(row.heat_score) > 0))
+const heatWeeks = computed(() => [...new Set(allHeatRows.value.map((row) => row.week_start).filter(Boolean))].sort())
+const latestWeek = computed(() => heatWeeks.value.at(-1) || '')
+const previousWeek = computed(() => heatWeeks.value.at(-2) || '')
+const heatRows = computed(() => allHeatRows.value.filter((row) => row.week_start === latestWeek.value).sort((a, b) => Number(a.rank) - Number(b.rank)))
+const previousRows = computed(() => allHeatRows.value.filter((row) => row.week_start === previousWeek.value))
+const previousByName = computed(() => new Map(previousRows.value.map((row) => [row.name, row])))
+const consecutiveAppearances = computed(() => {
+  const rowsByWeek = new Map(heatWeeks.value.map((week) => [
+    week,
+    new Set(allHeatRows.value.filter((row) => row.week_start === week).map((row) => row.name)),
+  ]))
+  const map = new Map()
+  for (const row of heatRows.value) {
+    let count = 0
+    // 从最新周向前逐周检查；任意一周未上榜便终止，不能把历史总次数误称为连续周数。
+    for (const week of [...heatWeeks.value].reverse()) {
+      if (!rowsByWeek.get(week)?.has(row.name)) break
+      count += 1
+    }
+    map.set(row.name, count)
+  }
+  return map
+})
+function movement(row) {
+  const previous = previousByName.value.get(row.name)
+  if (!previous) return { label: '新上榜', className: 'new', heat: null }
+  const rankDelta = Number(previous.rank) - Number(row.rank)
+  const heatDelta = Number(row.heat_score) - Number(previous.heat_score)
+  return { label: rankDelta > 0 ? `↑ ${rankDelta}` : rankDelta < 0 ? `↓ ${Math.abs(rankDelta)}` : '—', className: rankDelta > 0 ? 'up' : rankDelta < 0 ? 'down' : '', heat: heatDelta }
+}
 const newsRows = computed(() => (props.data?.news_ranking || []).filter((row) => Number(row.media_count) > 0))
 
 watch(heatPageSize, () => { heatPage.value = 1 })
@@ -61,14 +91,14 @@ function articleRange(row) {
     <p v-else-if="!data" class="state"><span class="em">—</span>暂无历史数据</p>
     <template v-else>
       <div class="history-note-row">
-        <p class="hint">历史数据自 08-31 起累计：热度榜随每周成稿更新，游戏资讯榜每日更新；各榜单最多保留前 100 款游戏。</p>
+        <p class="hint">历史数据自 08-31 起累计：热度榜展示最新一周，并与前一周比较排名和热度；游戏资讯榜每日更新。</p>
       </div>
 
       <section id="history-heat-ranking" class="history-section history-heat-section">
         <div class="card-head sticky-heading">
           <h2>历史热度榜</h2>
           <span class="badge brand">{{ heatRows.length }} / 100 款</span>
-          <span class="stamp">按游戏热度排序</span>
+          <span class="stamp">{{ latestWeek ? `${latestWeek.slice(5)} 当周 · 对比前一周` : '按游戏热度排序' }}</span>
           <span class="spacer"></span>
           <label class="history-toolbar">
             <span class="stamp">每页显示</span>
@@ -86,6 +116,7 @@ function articleRange(row) {
               <span class="rank-name">{{ row.name }}</span>
               <span class="history-value"><span>{{ periods(row).join('、') }}</span><strong>热度 {{ row.heat_score }}</strong></span>
             </div>
+            <div class="heat-change"><span :class="['movement', movement(row).className]">排名 {{ movement(row).label }}</span><span v-if="movement(row).heat !== null">热度 {{ movement(row).heat > 0 ? '+' : '' }}{{ movement(row).heat.toFixed(1) }}</span><span>连续上榜 {{ consecutiveAppearances.get(row.name) || 1 }} 周</span></div>
           </li>
         </ol>
         <p v-else class="state"><span class="em">—</span>暂无历史热度榜数据</p>
@@ -163,6 +194,7 @@ select { border: 1px solid var(--border); background: var(--surface); color: var
 .history-value > span { white-space: nowrap; }
 .history-value strong { color: var(--text); font-weight: 700; white-space: nowrap; text-align: right; }
 .history-heat-section .history-value { grid-template-columns: 118px 64px; }
+.heat-change { display: flex; flex-wrap: wrap; gap: 8px 14px; margin: 5px 0 0 30px; color: var(--text-3); font-size: 12px; }.movement.up { color: var(--ok); font-weight: 650; }.movement.down { color: var(--danger); font-weight: 650; }.movement.new { color: var(--brand); font-weight: 650; }
 .history-news-section .history-value { grid-template-columns: 118px 96px; }
 @media (max-width: 640px) {
   .history-section .card-head { align-items: flex-start; flex-wrap: wrap; }

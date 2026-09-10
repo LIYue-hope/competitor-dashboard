@@ -2,7 +2,8 @@ name: 竞品数据采集
 
 on:
   schedule:
-    - cron: '7 0 * * *'
+    # GitHub Actions 的 cron 使用 UTC；UTC 22:00 即北京时间次日 06:00。
+    - cron: '0 22 * * *'
   workflow_dispatch: {}
 
 permissions:

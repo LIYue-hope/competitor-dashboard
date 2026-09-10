@@ -53,6 +53,8 @@ const DEFAULT_SECTION = 'weekly'
 // 顶层激活板块默认「上周总览」；上次选择的板块记在 localStorage，
 // 刷新（F5）后停留在刷新前的板块。非法/缺失的历史值一律回退默认板块。
 function initialSection() {
+  const shared = new URLSearchParams(window.location.search).get('section')
+  if (SECTION_KEYS.includes(shared)) return shared
   const saved = localStorage.getItem('active-section')
   return SECTION_KEYS.includes(saved) ? saved : DEFAULT_SECTION
 }
@@ -72,13 +74,10 @@ const SECTION_NAV = {
 
 function selectSection(key) {
   activeSection.value = key
-  // 一级标题本身也是导航入口；切换时同步只展开当前组，避免留下上一组的小标题。
+  // 切换一级 Tab 只替换右侧内容，保留当前滚动位置，顶部的数据概览不会被自动带走。
   expandedSection.value = key
   activeSubAnchor.value = ''
-  nextTick(() => {
-    document.getElementById(`${key}-content`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    updateActiveSubAnchor()
-  })
+  nextTick(updateActiveSubAnchor)
 }
 function toggleSection(key) {
   expandedSection.value = expandedSection.value === key ? '' : key
@@ -103,7 +102,12 @@ function updateActiveSubAnchor() {
 }
 
 // 点击切换板块时写入记忆，与主题的 localStorage 用法保持一致
-watch(activeSection, (key) => localStorage.setItem('active-section', key))
+watch(activeSection, (key) => {
+  localStorage.setItem('active-section', key)
+  const url = new URL(window.location.href)
+  url.searchParams.set('section', key)
+  window.history.replaceState({}, '', url)
+})
 watch(activeSection, () => nextTick(() => {
   // 点击子标题跨板块跳转时先保留用户刚选中的高亮，滚动事件会在抵达后继续校正。
   if (!activeSubAnchor.value) updateActiveSubAnchor()
@@ -295,6 +299,150 @@ const dailyNewsTrendData = computed(() => {
 })
 const dailyNewsTrendError = computed(() => dailyNewsTrendData.value ? '' : (errors.value.dailyNewsHistory || ''))
 
+// 首页概览以已完成采集的「昨天」为基准，避免当天滚动采集尚未完成造成误读。
+const overview = computed(() => {
+  const days = dailyNewsTrendData.value?.days || []
+  const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date())
+  const today = `${parts.find((part) => part.type === 'year').value}-${parts.find((part) => part.type === 'month').value}-${parts.find((part) => part.type === 'day').value}`
+  const dateBefore = (date, offset) => new Date(Date.parse(`${date}T00:00:00Z`) + offset * 86400000).toISOString().slice(0, 10)
+  const yesterdayDate = dateBefore(today, -1)
+  const beforeDate = dateBefore(today, -2)
+  const yesterday = days.find((day) => day.date === yesterdayDate)
+  const before = days.find((day) => day.date === beforeDate)
+  const sourceKeys = (dailyNewsTrendData.value?.sources || []).map((source) => source.key)
+  const complete = (day) => sourceKeys.length > 0 && sourceKeys.every((key) => Number.isFinite(day?.counts?.[key]))
+  const total = (day) => complete(day)
+    ? sourceKeys.reduce((sum, key) => sum + day.counts[key], 0)
+    : null
+  const yesterdayTotal = yesterday ? total(yesterday) : null
+  const beforeTotal = before ? total(before) : null
+  const change = yesterdayTotal !== null && beforeTotal !== null ? yesterdayTotal - beforeTotal : null
+  const weekStart = dateBefore(yesterdayDate, -6)
+  const week = days.filter((day) => day.date >= weekStart && day.date <= yesterdayDate)
+  const sourceTotals = new Map()
+  const completeWeek = week.length === 7 && week.every(complete)
+  if (completeWeek) for (const day of week) for (const [source, value] of Object.entries(day.counts || {})) sourceTotals.set(source, (sourceTotals.get(source) || 0) + value)
+  const peakKey = completeWeek ? [...sourceTotals.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] : null
+  const peak = dailyNewsTrendData.value?.sources?.find((source) => source.key === peakKey)?.label || '—'
+  // 仅资讯 KPI 采用昨日口径；新游仍从北京时间今天起向未来看 7 天。
+  const start = new Date(`${today}T00:00:00Z`)
+  const end = new Date(start.getTime() + 7 * 86400000)
+  const upcomingSources = [data.value.haoyou, data.value.jiuyou, data.value.p16]
+  const upcomingComplete = upcomingSources.every((source) => Array.isArray(source?.days)) && Array.isArray(data.value.taptap)
+  const upcomingDays = upcomingSources.flatMap((source) => source?.days || [])
+  const scheduled = upcomingComplete ? upcomingDays.reduce((sum, day) => {
+    const d = new Date(`${day.date || ''}T00:00:00Z`)
+    return d >= start && d < end ? sum + (day.games?.length || 0) : sum
+  }, 0) + (data.value.taptap || []).filter((game) => {
+    const d = new Date(`${game.release_date || ''}T00:00:00Z`)
+    return !Number.isNaN(d) && d >= start && d < end
+  }).length : null
+  const dynamics = Array.isArray(data.value.hot?.publishers)
+    ? data.value.hot.publishers.reduce((sum, publisher) => sum + (publisher.games || []).reduce((n, game) => n + (game.updates?.length || 0), 0), 0)
+    : null
+  return { yesterdayTotal, change, peak, scheduled, dynamics, date: yesterday?.date || '—' }
+})
+
+const PAGE_NAMES = Object.fromEntries(SECTIONS)
+
+// 导出使用浏览器原生生成的 SpreadsheetML 2003 XML：Excel 可直接打开 .xls，
+// 且能写入多个工作表，无需在前端引入存在安全审计问题的第三方解析库。
+// 行数据必须是扁平标量。保留嵌套字段内容为 JSON，避免导出时静默丢掉新闻、标签等信息。
+function exportCell(value) {
+  if (value === null || value === undefined) return ''
+  if (typeof value !== 'object') return value
+  return JSON.stringify(value)
+}
+function exportRows(rows) {
+  const keys = [...new Set(rows.flatMap((row) => Object.keys(row || {})))]
+  return rows.map((row) => Object.fromEntries(keys.map((key) => [key, exportCell(row?.[key])])) )
+}
+function fileTimestamp() {
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23',
+  }).formatToParts(new Date())
+  const get = (type) => parts.find((part) => part.type === type)?.value || '00'
+  return `${get('year')}${get('month')}${get('day')}-${get('hour')}${get('minute')}${get('second')}`
+}
+function safeSheetName(name, occupied) {
+  const base = String(name).replace(/[\\/*?:\[\]]/g, '').slice(0, 31) || '数据'
+  let candidate = base
+  let suffix = 2
+  while (occupied.has(candidate.toLocaleLowerCase())) {
+    candidate = `${base.slice(0, 28)}-${suffix++}`
+  }
+  occupied.add(candidate.toLocaleLowerCase())
+  return candidate
+}
+function downloadCurrentView() {
+  const sheets = []
+  const occupied = new Set()
+  const addSheet = (name, rows) => {
+    const values = exportRows(rows || [])
+    sheets.push({ name: safeSheetName(name, occupied), rows: values.length ? values : [{ 状态: '暂无可导出数据' }] })
+  }
+
+  if (activeSection.value === 'weekly') {
+    const weekly = data.value.weekly || {}
+    addSheet('周报综述', [{
+      周期开始: weekly.week_start, 周期结束: weekly.week_end, 文章数: weekly.article_count,
+      游戏数: weekly.game_count, 综述: weekly.digest, 综述来源: weekly.digest_source,
+      热度公式: weekly.heat_formula, 生成时间: weekly.generated_at,
+    }])
+    addSheet('综合热度榜', weekly.hot_ranking || [])
+  } else if (activeSection.value === 'history') {
+    const history = data.value.weeklyHistory || {}
+    const weeks = [...new Set((history.heat_ranking || []).map((row) => row.week_start).filter(Boolean))].sort()
+    const latestWeek = weeks.at(-1)
+    // 页面展示的是最新周热度榜，资讯榜则是历史累计榜；两个榜单始终分开写入工作表。
+    addSheet('历史热度榜', (history.heat_ranking || []).filter((row) => row.week_start === latestWeek))
+    addSheet('历史游戏资讯榜', history.news_ranking || [])
+  } else if (activeSection.value === 'new-games') {
+    addSheet('TapTap新游', data.value.taptap || [])
+    for (const [label, payload] of [['好游快爆', data.value.haoyou], ['九游', data.value.jiuyou], ['游资网', data.value.p16]]) {
+      addSheet(label, (payload?.days || []).flatMap((day) => (day.games || []).map((game) => ({ 日期: day.date, 日期说明: day.date_label, ...game }))))
+    }
+  } else if (activeSection.value === 'hot-games') {
+    const publishers = data.value.hot?.publishers || []
+    addSheet('厂商游戏概览', publishers.flatMap((publisher) => (publisher.games || []).map((game) => ({ 厂商: publisher.label, ...game, updates: undefined }))))
+    // 厂商 Tab 分表，游戏和动态类型仍以列的形式完整保留，避免把不同抓取时间的内容混在一起。
+    for (const publisher of publishers) {
+      addSheet(`${publisher.label}动态`, (publisher.games || []).flatMap((game) => (game.updates || []).map((update) => ({ 游戏: game.game_name, 厂商: publisher.label, ...update }))))
+    }
+  } else if (activeSection.value === 'news') {
+    for (const source of newsSources.value) {
+      addSheet(`${source.label}新闻`, source.news?.items || [])
+      addSheet(`${source.label}每日总结`, source.digest?.items || [])
+      if (source.showReviews) addSheet(`${source.label}${source.reviewLabel || '评测'}`, source.reviews?.items || [])
+    }
+    const trendSources = dailyNewsTrendData.value?.sources || []
+    addSheet('每日资讯趋势', (dailyNewsTrendData.value?.days || []).map((day) => {
+      const complete = trendSources.length > 0 && trendSources.every((source) => Number.isFinite(day.counts?.[source.key]))
+      return {
+        日期: day.date,
+        总量: complete ? trendSources.reduce((sum, source) => sum + day.counts[source.key], 0) : '数据不完整',
+        ...(day.counts || {}),
+      }
+    }))
+  }
+  const escapeXml = (value) => String(value ?? '')
+    .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, '')
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;')
+  const sheetXml = sheets.map(({ name, rows }) => {
+    const keys = Object.keys(rows[0] || {})
+    const rowXml = [keys, ...rows.map((row) => keys.map((key) => row[key]))]
+      .map((cells) => `<Row>${cells.map((cell) => `<Cell><Data ss:Type="String">${escapeXml(cell)}</Data></Cell>`).join('')}</Row>`).join('')
+    return `<Worksheet ss:Name="${escapeXml(name)}"><Table>${rowXml}</Table></Worksheet>`
+  }).join('')
+  const workbook = `<?xml version="1.0" encoding="UTF-8"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">${sheetXml}</Workbook>`
+  const link = document.createElement('a')
+  link.href = URL.createObjectURL(new Blob([workbook], { type: 'application/vnd.ms-excel;charset=utf-8' }))
+  link.download = `${PAGE_NAMES[activeSection.value] || '竞品看板'}-${fileTimestamp()}.xls`
+  link.click()
+  window.setTimeout(() => URL.revokeObjectURL(link.href), 0)
+}
+
 // 侧栏条目计数：让人在切板块之前就知道各板块有多少内容
 const counts = computed(() => ({
   weekly: (data.value.weekly?.hot_ranking || []).length,
@@ -357,6 +505,17 @@ const NEWS_FILES = [
     </header>
 
     <div class="layout">
+      <section v-if="!loading" class="overview-card" aria-label="数据概览">
+        <div class="overview-head"><h2>数据概览</h2><span class="stamp">统计截至 {{ overview.date }}</span><span class="spacer"></span><button class="icon-btn" @click="downloadCurrentView">导出当前页面 Excel</button></div>
+        <div class="kpi-row">
+          <div class="kpi"><div class="k">昨日资讯总量</div><div class="v">{{ overview.yesterdayTotal ?? '—' }}<small v-if="overview.yesterdayTotal !== null">条</small></div></div>
+          <div class="kpi"><div class="k">较前日变化</div><div class="v" :class="{ positive: overview.change > 0, negative: overview.change < 0 }">{{ overview.change === null ? '—' : `${overview.change > 0 ? '+' : ''}${overview.change}` }}<small v-if="overview.change !== null">条</small></div></div>
+          <div class="kpi"><div class="k">近 7 日峰值来源</div><div class="v compact-value">{{ overview.peak }}</div></div>
+          <div class="kpi"><div class="k">未来 7 日新游</div><div class="v">{{ overview.scheduled ?? '—' }}<small v-if="overview.scheduled !== null">款</small></div></div>
+          <div class="kpi"><div class="k">官方动态数</div><div class="v">{{ overview.dynamics ?? '—' }}<small v-if="overview.dynamics !== null">条</small></div></div>
+          <div class="kpi"><div class="k">最新数据时间</div><div class="v compact-value">{{ newestStamp || '—' }}</div></div>
+        </div>
+      </section>
       <nav class="rail">
         <div v-for="[key, label] in SECTIONS" :key="key" class="rail-group" :class="{ active: activeSection === key }">
           <div class="rail-btn">
@@ -503,6 +662,9 @@ const NEWS_FILES = [
   margin: 0 auto;
   padding: 24px 20px 64px;
 }
+.overview-card { grid-column: 1 / -1; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); box-shadow: var(--shadow-1); padding: 16px 20px 4px; }
+.overview-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }.overview-head h2 { margin: 0; font-size: 15px; }.overview-head .spacer { flex: 1; }
+.kpi .positive { color: var(--ok); }.kpi .negative { color: var(--danger); }.kpi .compact-value { font-size: 16px; padding-top: 3px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 .rail {
   position: sticky;
@@ -605,6 +767,7 @@ const NEWS_FILES = [
     gap: 12px;
     padding: 16px 12px 48px;
   }
+  .overview-card { padding: 14px 14px 2px; }
 
   .rail {
     position: static;
