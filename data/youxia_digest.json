@@ -1,107 +1,107 @@
 {
-  "generated_at": "2026-09-10T04:44:41.545389+00:00",
+  "generated_at": "2026-09-11T00:10:38.222767+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-09-10",
-      "article_count": 59,
-      "game_count": 43,
-      "untagged_count": 7,
-      "digest": "今日游戏行业资讯密集，维京生存大作《英灵神殿》1.0正式版上线引发破解与玩家回流热潮，索尼终止与小岛秀夫的《Physint》合作引发业界震动。此外，多款新作如《GTA6》限定手柄、《剑星》Switch 2版及《异度之刃3》NS2版等陆续公布发售信息，Switch 2平台新作阵容进一步扩充。",
+      "article_count": 99,
+      "game_count": 65,
+      "untagged_count": 20,
+      "digest": "今日游戏资讯总结《GTA6》限定版PS5手柄开售，港版价格639港币。《剑星》实体版确认不采用密钥卡，联动《猎天使魔女》。《封神演义 逆命承天》登陆Steam，2027年发售，支持简体中文。《幻世录 重制版》Steam好评如潮，即将发售。《异度之刃3》NS2版全面升级与优化，预告片公布。《最终幻想7：启示》Switch 2版同步首发，新前瞻PV曝光。《浪漫沙加3重制版》PC配置公开，预购开启。《英灵神殿》1.0版本上线，Steam玩家数量回升。《银河战士：Ravenous》正式公布，预购开启。《饿狼传说：群狼之城》Nintendo Switch 2版即将发售，东京卍复仇者参战。“触手可及”！《FC 27》大幅降低白金奖杯获取难度。《FF7核心危机 重聚》国区价格永降。Ondeh Ondeh 卡雅的美味奇味即将于2027年登场。《Onyx: The Dark Grip》公开，将于2027年在Nintendo Switch2平台推出数字版。《PUBG》跨界新茶饮，携手7分甜推出联名活动。",
       "digest_source": "llm",
-      "input_hash": "26aa713f04dc3cc5",
+      "input_hash": "147786dad6dd43a2",
       "game_digests": [
         {
-          "name": "英灵神殿",
-          "count": 3,
-          "summary": "历经五年抢先体验，《英灵神殿》1.0正式版上线，Steam历史同时在线峰值突破50万、销量超100万，但知名破解组Rune火速发布了该作的破解资源。",
-          "summary_source": "llm"
-        },
-        {
           "name": "GTA6",
-          "count": 2,
-          "summary": "索尼推出的《GTA6》限定版DualSense无线控制器现已开启预购，两款手柄将于11月19日与游戏同步发售，建议零售价为639港币。",
-          "summary_source": "llm"
+          "count": 5,
+          "summary": "《GTA6》限定版PS5手柄开启预购！港版价格639港币；《GTA6》典藏版包装疑似泄露 超大尺寸套装引玩家热议；抢疯了！《GTA6》限定PS5手柄开售 索尼官网被挤爆（当天共 5 条）",
+          "summary_source": "rules"
         },
         {
           "name": "剑星",
-          "count": 2,
-          "summary": "Switch 2《剑星》完全版确认将于11月5日正式发售，Shift Up承诺游戏内容100%完整收录在实体卡带上，并确认不采用密钥卡。",
-          "summary_source": "llm"
+          "count": 3,
+          "summary": "好评！Switch 2《剑星》实体版游戏确认不采用密钥卡；《剑星》联动《猎天使魔女》 4套战衣引爆PC与PS5；《剑星》Switch 2版预购视频官宣 11月5日全球同步！。",
+          "summary_source": "rules"
         },
         {
           "name": "封神演义 逆命承天",
           "count": 2,
-          "summary": "集英社发行的类肉鸽动作游戏《封神演义：逆命承天》现已上架Steam商店页面，支持简体中文，原作累计销量突破2200万册。",
-          "summary_source": "llm"
+          "summary": "集英社《封神演义 逆命承天》上架Steam！大量截图公开；纪念漫画30周年！漫改游戏《封神演义 逆命承天》公开。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "幻世录 重制版",
+          "count": 2,
+          "summary": "情怀游戏《幻世录 重制版》现已发售！Steam多半好评；跨越近 30 年的反逆之战！《幻世录 重制版》今日正式发售　上市限时享 9 折优惠。",
+          "summary_source": "rules"
         },
         {
           "name": "异度之刃3",
           "count": 2,
-          "summary": "《异度之刃3 Nintendo Switch 2 Edition》正式公布，将于12月3日发售，目前已全面开启预售，新玩家可直接入坑。",
-          "summary_source": "llm"
+          "summary": "全面升级与优化！《异度之刃3》NS2版 升级内容介绍；《异度之刃3》NS2版预告片公布！全新金发少女参战。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "最终幻想7：启示",
+          "count": 2,
+          "summary": "《最终幻想7：启示》官宣发售日 Switch 2版同步首发；终章重磅来袭!《最终幻想7：启示》新前瞻实机pv公布。",
+          "summary_source": "rules"
         },
         {
           "name": "浪漫沙加3重制版",
           "count": 2,
-          "summary": "SE经典JRPG《浪漫沙加3》完全重制版《浪漫沙加3：错综宿命》正式公布，2027年2月17日发售，Steam国区标准版售价268元。",
-          "summary_source": "llm"
+          "summary": "《浪漫沙加3重制版》PC配置公开：推荐GTX 1660显卡；《浪漫沙加3重制版》预购开启：Steam国区售价268元！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "英灵神殿",
+          "count": 2,
+          "summary": "维京人\"裸奔\"时刻 《英灵神殿》1.0正式版上线即破解；《英灵神殿》1.0版本上线 Steam玩家数量大幅回升！。",
+          "summary_source": "rules"
         },
         {
           "name": "银河战士：Ravenous",
           "count": 2,
-          "summary": "任天堂公布《银河战士》系列新作《银河战士：Ravenous》，定档2027年1月28日发售，目前港服预购开启，售价449港币。",
-          "summary_source": "llm"
+          "summary": "《银河战士Ravenous》正式公布！2027年1月28日发售；《银河战士：Ravenous》开启预购：港服449港币！。",
+          "summary_source": "rules"
         },
         {
           "name": "饿狼传说：群狼之城",
           "count": 2,
-          "summary": "SNK宣布《饿狼传说：群狼之城》Nintendo Switch 2版将于2026年10月22日发售，并赠送“不知火舞”特色服装，同时公布与《东京卍复仇者》联动预告。",
-          "summary_source": "llm"
+          "summary": "《饿狼传说：群狼之城》Nintendo Switch 2 版即将发售！作为预购特典，赠送“不知火舞”的特色服装！；《饿狼传说：群狼之城》东京卍复仇者参战！ 联名合作先行预告片公开。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "FC 27",
+          "count": 1,
+          "summary": "“触手可及”！《 FC 27》大幅降低白金奖杯获取难度。",
+          "summary_source": "rules"
         },
         {
           "name": "FF7核心危机 重聚",
           "count": 1,
-          "summary": "Square Enix对《最终幻想7：核心危机 重聚》Steam国区进行永久降价，标准版从298元降至198元，数字豪华版从446元降至268元。",
-          "summary_source": "llm"
+          "summary": "重温扎克斯物语!《FF7核心危机 重聚》国区价格永降。",
+          "summary_source": "rules"
         },
         {
-          "name": "METAL SLUG ULTIMATE COLLECTION",
+          "name": "Ondeh Ondeh 卡雅的美味奇缘",
           "count": 1,
-          "summary": "SNK正式公布《合金弹头》系列30周年纪念合集《METAL SLUG ULTIMATE COLLECTION》，预计2027年登陆多平台。",
-          "summary_source": "llm"
+          "summary": "一场充满节奏与谜题的温馨动作冒险！《Ondeh Ondeh 卡雅的美味奇缘》即将于2027年登场！。",
+          "summary_source": "rules"
         },
         {
           "name": "Onyx: The Dark Grip",
           "count": 1,
-          "summary": "Bloober Team宣布新作《Onyx：The Dark Grip》将于2027年在Nintendo Switch2平台推出数字版。",
-          "summary_source": "llm"
+          "summary": "可触屏互动冒险游戏《Onyx: The Dark Grip》公开。",
+          "summary_source": "rules"
         },
         {
           "name": "PUBG",
           "count": 1,
-          "summary": "战术竞技游戏《PUBG》正式宣布与茶饮品牌“7分甜”展开跨界合作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Physint",
-          "count": 1,
-          "summary": "索尼正式宣布终止与小岛秀夫合作开发谍战新作《Physint》，小岛工作室随后宣布放弃索尼合作，转而与Xbox联合开发。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Switch运动度假胜地",
-          "count": 1,
-          "summary": "任天堂直面会公布《任天堂Switch运动度假胜地》，2026年10月22日登陆Switch2，游戏主打体感多人运动。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑网3",
-          "count": 1,
-          "summary": "《剑网3》×《凡人修仙传》联动活动现已开启，异界道友韩立携同伴降临，参与活动即可获得奇趣坐骑、特效背部挂件等精美奖励。",
-          "summary_source": "llm"
+          "summary": "《PUBG》跨界新茶饮 携手7分甜推出联名活动。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -909,107 +909,6 @@
           "name": "Farming Simulator 25",
           "count": 1,
           "summary": "世嘉宣布全球销量已突破500万份；付费DLC \"Beans & Alpacas\" 将带来香蕉种植玩法。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-01",
-      "article_count": 114,
-      "game_count": 61,
-      "untagged_count": 34,
-      "digest": "今日游戏资讯聚焦于《GTA6》发售前的热度与销量预估，以及多款新作的媒体评分与发售动态。卡普空《鬼武者：剑之道》IGN满分且M站均分86，Rebel Wolves《黎明行者之血》获IGN 9分好评，Shift Up《剑星：完整版》登陆Switch 2并公布技术细节。此外，《噬血代码2》公布DLC与免费更新，Pearl Abyss《红色沙漠》推出云端试玩Demo，超写实FPS《Bodycam》Steam愿望单突破300万。",
-      "digest_source": "llm",
-      "input_hash": "cb234dfca4462cfc",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 10,
-          "summary": "曝白金奖杯需数百小时深入探索，预购量突破486万份，预估收入近4.76亿美元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 4,
-          "summary": "IGN满分盛赞，M站PS5版均分86，PS5版容量约41GB，9月2日开启预载。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 4,
-          "summary": "IGN 9分好评，M站PS5版均分87，基于虚幻5引擎，RTX 2080 Ti在1080P下仅56帧。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 2,
-          "summary": "CTO坦言被《塞尔达传说：旷野之息》点醒，登陆Switch 2支持陀螺仪与触屏解谜。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "噬血代码2",
-          "count": 2,
-          "summary": "万代南梦宫宣布9月9日配信Ver.2.0免费更新与DLC，含BOSS连战等新内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "红色沙漠",
-          "count": 2,
-          "summary": "推出无需下载141G客户端的云端试玩Demo，同步开启首次8折优惠与大型更新。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者",
-          "count": 2,
-          "summary": "官方配置保守，实测GTX 1660高画质下平均帧率可达47帧。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Bodycam",
-          "count": 1,
-          "summary": "虚幻5超写实FPS热度飙升，Steam愿望单突破300万。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7启示",
-          "count": 1,
-          "summary": "总监浜口直树分享了文森特的角色规划与战斗设计细节。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA OL",
-          "count": 1,
-          "summary": "粉丝推测《GTA6》女主角露西娅曾在《GTA OL》中出演角色。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "SPINE",
-          "count": 1,
-          "summary": "定档2027年夏季登陆PC，公布全新枪斗术系统与实机首曝。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "全面战争：战锤40000",
-          "count": 1,
-          "summary": "上海体验会将于9月5日至6日举行，Steam心愿单已开启。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星：完整版",
-          "count": 1,
-          "summary": "Switch 2版底座模式支持1080p，掌机模式720p。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑网3",
-          "count": 1,
-          "summary": "17岁之际宣布“从头再来”，一刀砍回50级。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "半衰期：爱莉克斯",
-          "count": 1,
-          "summary": "消息称Steam Frame头显用户将免费获赠该作。",
           "summary_source": "llm"
         }
       ]

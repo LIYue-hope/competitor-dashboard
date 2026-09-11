@@ -1,26 +1,9 @@
 {
-  "crawled_at": "2026-09-10T04:29:56.753023+00:00",
+  "crawled_at": "2026-09-11T00:01:11.717948+00:00",
   "days": [
     {
-      "date": "2026-09-10",
-      "date_label": "09月10日 今天",
-      "games": [
-        {
-          "game_name": "王者万象棋",
-          "categories": [
-            "动作"
-          ],
-          "score": "8.0",
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/wangzhewanxiangqi/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-11",
-      "date_label": "09月11日 明天",
+      "date_label": "09月11日 今天",
       "games": [
         {
           "game_name": "魔狩战纪",
@@ -109,6 +92,23 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/gujianqiwenlu/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "date_label": "09月17日 下周四",
+      "games": [
+        {
+          "game_name": "三国天命再临",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/sgtmzl1/",
           "has_afk_grinding_tag": false
         }
       ]
@@ -214,17 +214,6 @@
       "date_label": "09月24日",
       "games": [
         {
-          "game_name": "烈焰大荒",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "三职传世刀刀真充",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/lieyandahuang/",
-          "has_afk_grinding_tag": false
-        },
-        {
           "game_name": "光阴之外",
           "categories": [
             "模拟"
@@ -233,6 +222,17 @@
           "event_desc": "耳根正版授权",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/guangyinzhiwai/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "烈焰大荒",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "三职传世刀刀真充",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/lieyandahuang/",
           "has_afk_grinding_tag": false
         }
       ]
@@ -250,6 +250,23 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/leitinglieyan/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "date_label": "10月15日",
+      "games": [
+        {
+          "game_name": "剑侠世界4",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/jxsj4wx/",
           "has_afk_grinding_tag": false
         }
       ]

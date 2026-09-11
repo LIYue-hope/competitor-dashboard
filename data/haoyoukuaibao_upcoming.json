@@ -1,30 +1,9 @@
 {
-  "crawled_at": "2026-09-10T04:29:29.122474+00:00",
+  "crawled_at": "2026-09-11T00:00:24.441970+00:00",
   "days": [
     {
-      "date": "2026-09-10",
-      "date_label": "09月10日 今天",
-      "games": [
-        {
-          "game_name": "王者万象棋",
-          "categories": [
-            "多平台",
-            "策略",
-            "竞技"
-          ],
-          "score": "7.3",
-          "event_desc": "已开服上线！下载注册必得6Q币",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/148499.htm",
-          "publisher": null,
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-11",
-      "date_label": "09月11日 明天",
+      "date_label": "09月11日 今天",
       "games": [
         {
           "game_name": "热力无限赛车",
@@ -38,7 +17,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/198768.htm",
           "publisher": null,
-          "reservation_count": "586",
+          "reservation_count": "588",
           "has_afk_grinding_tag": false
         }
       ]
@@ -59,8 +38,23 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/184564.htm",
           "publisher": null,
-          "reservation_count": "514",
+          "reservation_count": "516",
           "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "篮下狂潮",
+          "categories": [
+            "篮球",
+            "竞技",
+            "赛博朋克"
+          ],
+          "score": null,
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/203409.htm",
+          "publisher": "成都有明堂互动科技有限公司",
+          "reservation_count": "12",
+          "has_afk_grinding_tag": false
         }
       ]
     },
@@ -80,7 +74,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/184564.htm",
           "publisher": null,
-          "reservation_count": "514",
+          "reservation_count": "516",
           "has_afk_grinding_tag": true
         },
         {
@@ -95,7 +89,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/185354.htm",
           "publisher": "中顺和盈",
-          "reservation_count": "10376",
+          "reservation_count": "10379",
           "has_afk_grinding_tag": false
         },
         {
@@ -146,7 +140,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/185354.htm",
           "publisher": "中顺和盈",
-          "reservation_count": "10376",
+          "reservation_count": "10379",
           "has_afk_grinding_tag": false
         },
         {
@@ -161,7 +155,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/197403.htm",
           "publisher": null,
-          "reservation_count": "482",
+          "reservation_count": "486",
           "has_afk_grinding_tag": false
         },
         {
@@ -193,6 +187,72 @@
           "publisher": "上海电光火石科技有限公司",
           "reservation_count": "128",
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "date_label": "09月17日 下周四",
+      "games": [
+        {
+          "game_name": "闪耀吧！噜咪",
+          "categories": [
+            "抓宠",
+            "卡牌",
+            "放置"
+          ],
+          "score": "9.4",
+          "event_desc": "正式上线，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/191535.htm",
+          "publisher": "bilibili游戏",
+          "reservation_count": "29127",
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "斗破：莫欺少年穷",
+          "categories": [
+            "即时战斗",
+            "角色扮演",
+            "国漫"
+          ],
+          "score": null,
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/197403.htm",
+          "publisher": null,
+          "reservation_count": "486",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "咬钩小队",
+          "categories": [
+            "休闲",
+            "策略",
+            "合成"
+          ],
+          "score": null,
+          "event_desc": "上线试玩，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/203089.htm",
+          "publisher": "心橙创意",
+          "reservation_count": "54",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "难上加难的野人牌",
+          "categories": [
+            "Roguelike",
+            "策略",
+            "闯关"
+          ],
+          "score": null,
+          "event_desc": "上线试玩，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/203127.htm",
+          "publisher": "C&P",
+          "reservation_count": "32",
+          "has_afk_grinding_tag": false
         }
       ]
     }

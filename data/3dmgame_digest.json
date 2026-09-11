@@ -1,106 +1,165 @@
 {
-  "generated_at": "2026-09-10T04:42:17.428910+00:00",
+  "generated_at": "2026-09-11T00:08:46.344872+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-10",
-      "article_count": 63,
-      "game_count": 51,
-      "untagged_count": 5,
-      "digest": "今日游戏资讯聚焦于多款重磅新作动态与经典IP的持续运营。R星《GTA6》典藏版疑似泄露引发热议，ZUN重构的《东方红魔乡：新典》Steam好评如潮，任天堂Switch 2平台迎来《古墓丽影：亚特兰蒂斯遗迹》新截图与《饿狼传说：群狼之城》发售预告。此外，《英灵神殿》1.0版本正式上线，小岛秀夫新作《PHYSINT》转投Xbox，PUBG与7分甜推出跨界联名，宜家也发布了《上古卷轴5》官方置物架Mod。",
+      "date": "2026-09-11",
+      "article_count": 10,
+      "game_count": 8,
+      "untagged_count": 0,
+      "digest": "今日游戏行业资讯聚焦于《GTA6》预购数据与《漫威金刚狼》评分争议，同时任天堂《塞尔达传说：时之笛》重制版画面对比引发热议，DON'T NOD工作室财务危机及多款新游公布也占据重要篇幅。",
       "digest_source": "llm",
-      "input_hash": "969f5d3d8121dbdf",
+      "input_hash": "82a70f9f9f4ea234",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 2,
-          "summary": "R星《GTA6》典藏实体版疑似泄露，据称包装尺寸比PS5还大，引发玩家对包含列奥尼达州地图等内容的猜测。",
+          "summary": "Sensor Tower数据显示《GTA6》全球预估预购总量达528万份，营收5.16亿美元，其中PS5平台占77%份额，XSX|S占23%，单日预购增幅曾高达436%。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 2,
+          "summary": "IGN与GameSpot均给出6分，Metacritic收录111家媒体后均分78分，成为失眠组过去十年媒体评分最低的一作，对比《蜘蛛侠2》的9分表现引发关注。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说：时之笛",
+          "count": 1,
+          "summary": "任天堂Switch2独占重制版实机演示发布，博主对比视频显示游戏在角色建模、环境细节及光影效果上全面进化，缓解了玩家对简单高清复刻的担忧。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "奇异人生",
+          "count": 1,
+          "summary": "开发商DON'T NOD发布财务预警，上半年营收同比暴跌56%，腾讯作为最大股东已明确拒绝追加资金，工作室面临裁员重组及2027年1月后生存的不确定性。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "愚者不灭",
+          "count": 1,
+          "summary": "动作RPG《愚者不灭》总监佐佐木荣一郎透露游戏受蚱蜢工作室影响，将于10月22日登陆PS5和Steam，现已放出可继承存档的试玩Demo。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "流浪地球：望日",
+          "count": 1,
+          "summary": "由柳叶刀工作室研发、刘慈欣监制的单机TPS游戏正式公布，取材自原著小说，故事设定在刹车时代第46年，玩家将扮演月球工程师卷入危机。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "胧村正怪奇谭",
+          "count": 1,
+          "summary": "Marvelous公布新实机演示，宣布游戏将于2027年2月4日登陆PC5、Steam、NS1和NS2，这是香草社作品首次登陆Steam平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鬼武者：剑之道",
+          "count": 1,
+          "summary": "发售后静御前与出云阿国的人物建模因缺乏二次元滤镜且偏向写实，被部分玩家吐槽像中年大妈，引发关于美术风格是否贴合历史氛围的争议。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "article_count": 103,
+      "game_count": 78,
+      "untagged_count": 13,
+      "digest": "今日游戏资讯聚焦于多款重磅新作与经典重制，任天堂《塞尔达传说：时之笛 重制版》预购引发全球eShop排队热潮，多国排队人数破纪录；集英社公布《封神演义：逆命承天》将于2027年登陆多平台；《东方红魔乡：新典》Steam发售获好评；《古墓丽影：亚特兰蒂斯遗迹》公布Switch 2新截图；《英灵神殿》1.0版本正式上线，Steam在线人数峰值突破50万；此外《饿狼传说：群狼之城》Switch 2版发售日公布，小岛秀夫新作《OD》传闻发售日及预告发布时间。",
+      "digest_source": "llm",
+      "input_hash": "ec7acd8c11c50078",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "玩家在最新截图中发现第三处疑似前作主角庄园的线索，画面右侧摩天轮后方建筑与《侠盗猎车手：罪恶都市》中的维赛迪庄园外观及位置相似，引发玩家对官方确认的猜测。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "封神演义：逆命承天",
+          "count": 3,
+          "summary": "集英社游戏宣布为纪念漫画《封神演义》连载30周年而打造的类Rogue动作游戏，将于2027年在Nintendo Switch 2、PlayStation 5及Steam平台发售。",
           "summary_source": "llm"
         },
         {
           "name": "东方红魔乡：新典",
           "count": 2,
-          "summary": "ZUN重构的《东方红魔乡：新典》于9月9日正式发售，画面升级至高分辨率，Steam好评如潮。",
+          "summary": "9月9日正式发售，Steam页面显示好评如潮，游戏对经典作品进行了视觉重制，将像素画面更新至适应现代高分辨率屏幕。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "乡野奇运",
+          "count": 2,
+          "summary": "Pocketpair Publishing宣布解谜卡车模拟游戏《Truckful / 乡野奇运》将于2026年10月9日正式发售，并同步公开了展示游戏玩法和机制的全新预告片。",
           "summary_source": "llm"
         },
         {
           "name": "古墓丽影：亚特兰蒂斯遗迹",
           "count": 2,
-          "summary": "任天堂美国分部公布Switch 2版新截图，展示劳拉与迅猛龙战斗场景，游戏已在eShop开启预购。",
+          "summary": "任天堂美国分部发布五张Switch 2版新截图，展示了劳拉探索场景、攀爬雕像及与迅猛龙战斗的画面，游戏已在任天堂eShop开启预购。",
           "summary_source": "llm"
         },
         {
-          "name": "封神演义：逆命承天",
+          "name": "塞尔达传说：时之笛 重制版",
           "count": 2,
-          "summary": "集英社公布该作预告，确认由《幻想生活》导演菅野敦成立的工作室开发，计划2027年登陆多平台。",
+          "summary": "任天堂在9月8日直面会后开放预购，数字版定价59.99美元，多国eShop及官方商店出现大规模排队现象，英国排队人数达98K+。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 2,
-          "summary": "制作人梁其伟发布长文详解“六十六天”模式，距离10月29日发售仅剩50天，游戏难度设计引发玩家讨论。",
+          "summary": "灵游坊发布长文详解“六十六天”模式，游戏发售倒计时50天，制作人梁其伟介绍了武器的养成系统及团队与玩家的创作共鸣。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "控制：共振",
+          "count": 2,
+          "summary": "Xbox英国官方社交账号疑似意外泄露，Remedy新作《控制：共振》将于首发当日加入Xbox Game Pass，游戏将于2026年9月24日登陆多平台。",
           "summary_source": "llm"
         },
         {
           "name": "英灵神殿",
           "count": 2,
-          "summary": "现象级生存建造游戏《英灵神殿》1.0版本正式上线，Steam历史同时在线人数峰值突破50万，累计销量超1000万份。",
+          "summary": "五年远征迎来终章，游戏1.0版本正式上线，Steam历史同时在线人数峰值突破50万，累计销量已突破1000万份。",
           "summary_source": "llm"
         },
         {
           "name": "饿狼传说：群狼之城",
           "count": 2,
-          "summary": "SNK宣布Switch 2版将于10月22日发售，包含Standard和Starter两种版本，并赠送不知火舞特色服装。",
+          "summary": "《饿狼传说：群狼之城》Nintendo Switch 2 版即将发售！赠送“不知火舞”的特色服装！；《饿狼传说：群狼之城》东京卍复仇者参战！ 联名合作先行预告片公开。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "ARIA BLUE I. 夏音",
+          "count": 1,
+          "summary": "Entergram与RICOL公布青春幻想视觉小说，将于2027年1月28日在日本登陆PS5、Switch及Steam平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Hela：of Mice & Magic",
+          "count": 1,
+          "summary": "Windup Games与Knights Peak宣布将于2026年12月1日全球发售，登陆Steam与Epic Games Store，Boltray Games负责中国市场发行。",
           "summary_source": "llm"
         },
         {
           "name": "METAL SLUG ULTIMATE COLLECTION",
           "count": 1,
-          "summary": "SNK宣布推出纪念系列30周年的合集，预计2027年登陆Switch 2、PS5、Xbox Series X|S及Steam。",
+          "summary": "SNK宣布推出纪念《合金弹头》系列30周年的合集作品，预计将于2027年登陆Nintendo Switch、Switch 2、PlayStation 5、Xbox Series X|S及Steam平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "OD",
+          "count": 1,
+          "summary": "小岛秀夫恐怖游戏《OD》传闻将于2027年3月26日发售，微软和小岛工作室计划于12月10日在TGA期间展示新预告片。",
           "summary_source": "llm"
         },
         {
           "name": "Onyx: The Dark Grip",
           "count": 1,
-          "summary": "任天堂公布该作预告，确认将于2027年独占登陆Switch 2，玩家将扮演神秘Entity在鬼镇中求生。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "PHYSINT",
-          "count": 1,
-          "summary": "索尼取消项目退出，小岛秀夫新作《PHYSINT》转投Xbox，双方将共同推进开发并拓展影视合作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "PUBG",
-          "count": 1,
-          "summary": "《PUBG》宣布与茶饮品牌7分甜推出联名活动，于9月10日正式启动，探索电竞消费新场景。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Super Kickmen",
-          "count": 1,
-          "summary": "回合制足球游戏《Super Kickmen》Steam试玩版上线，支持简体中文，融合牌组构筑与Roguelike元素。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴5",
-          "count": 1,
-          "summary": "宜家推出《上古卷轴5》官方置物架Mod，原型为KALLAX系列，为玩家提供移动储物功能。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "乡野奇运",
-          "count": 1,
-          "summary": "小清新画风乡村送货探索游戏《乡野奇运》将于10月10日登陆Steam，支持中文。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤4",
-          "count": 1,
-          "summary": "动视公布《使命召唤：现代战争4》预购奖励，Xbox玩家独享透明绿色M4蓝图，其他平台玩家获得通用蓝图。",
+          "summary": "任天堂公布该作预告，游戏将于2027年独占登陆Switch 2，玩家将扮演神秘Entity指引旅人探索荒凉鬼镇。",
           "summary_source": "llm"
         }
       ]
@@ -885,107 +944,6 @@
           "name": "仙境传说",
           "count": 1,
           "summary": "索尼音乐娱乐宣布以约286亿日元收购GungHo超过23%股份，成为其最大股东，双方将推动联合开发与运营。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-01",
-      "article_count": 87,
-      "game_count": 56,
-      "untagged_count": 15,
-      "digest": "9月1日游戏资讯聚焦于R星新作《GTA6》的深度爆料，详细披露了“犯罪档案”系统及杰森与露西亚的独立关系设定。此外，Rebel Wolves工作室的《黎明行者之血》获得CDPR总监祝贺，媒体评分达82至87分；索尼Aniplex接手万代《Fate/EXTRA Record》；《Bodycam》Steam愿望单突破300万；Shift Up公布《剑星》Switch 2版性能细节，并确认采用帧插值技术实现60帧；Xbox CEO表示将重振《光环》IP；CDPR公布《刺客信条：黑旗》重制版1.0.7更新内容。",
-      "digest_source": "llm",
-      "input_hash": "4a960b3ae1c92618",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 11,
-          "summary": "R星爆料新系统，杰森与露西亚拥有独立关系与犯罪档案，恋爱非强制",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 5,
-          "summary": "媒体制作通关视频，肯定战斗系统与音效，指出探索稀薄",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 3,
-          "summary": "CDPR总监发文祝贺，媒体评分82至87分，Rebel Wolves工作室新作",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Bodycam",
-          "count": 1,
-          "summary": "Reissad Studio宣布Steam愿望单突破300万，虚幻5引擎打造战术FPS",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Fate",
-          "count": 1,
-          "summary": "Aniplex接手万代《Fate/EXTRA Record》，索尼音娱将公布详情",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Hubert",
-          "count": 1,
-          "summary": "Brocap Studio宣布10月13日推出牧羊犬视角模拟游戏",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Pawned Souls",
-          "count": 1,
-          "summary": "独立游戏免费发布，将国际象棋规则改编为类魂即时战棋",
-          "summary_source": "llm"
-        },
-        {
-          "name": "TARAE The Unbound",
-          "count": 1,
-          "summary": "韩国开发商公布东方暗黑RPG新实机预告",
-          "summary_source": "llm"
-        },
-        {
-          "name": "专业船舶模拟器",
-          "count": 1,
-          "summary": "SWE Systems宣布9月16日登陆Steam抢先体验",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "Digital Legends为Switch 2开发底座模式目标60帧",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环",
-          "count": 1,
-          "summary": "Xbox CEO阿莎·夏尔马表示重振《光环》IP是当务之急",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺客信条：黑旗",
-          "count": 1,
-          "summary": "重制版1.0.7更新上线，新增隐藏武器与关闭光环选项",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 1,
-          "summary": "Shift Up公布Switch 2版细节，采用帧插值技术实现60帧",
-          "summary_source": "llm"
-        },
-        {
-          "name": "卧龙：苍天陨落 完全版",
-          "count": 1,
-          "summary": "光荣公布NS2版新视频，展示多人战Boss玩法",
-          "summary_source": "llm"
-        },
-        {
-          "name": "合金装备4",
-          "count": 1,
-          "summary": "玩家发现PS3账号因不活跃被索尼删除，数字游戏无法访问",
           "summary_source": "llm"
         }
       ]
