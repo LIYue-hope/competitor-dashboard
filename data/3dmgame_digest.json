@@ -1,64 +1,106 @@
 {
-  "generated_at": "2026-09-11T00:08:46.344872+00:00",
+  "generated_at": "2026-09-12T00:13:29.372930+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-09-11",
-      "article_count": 10,
-      "game_count": 8,
-      "untagged_count": 0,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》预购数据与《漫威金刚狼》评分争议，同时任天堂《塞尔达传说：时之笛》重制版画面对比引发热议，DON'T NOD工作室财务危机及多款新游公布也占据重要篇幅。",
+      "article_count": 104,
+      "game_count": 66,
+      "untagged_count": 17,
+      "digest": "今日游戏行业资讯聚焦于多款大作的动态与争议，外媒Skill Up批评《漫威金刚狼》设计过于直白，Rockstar庭审文件提及《GTA6》曾讨论32人在线模式，滨口直树同时监制《最终幻想7：启示》与《王国之心4》，《WARDOGS》Steam测试近50万玩家参与，而《死亡搁浅2》销量不佳导致索尼取消与小岛秀夫合作的谍战游戏《PHYSINT》。",
       "digest_source": "llm",
-      "input_hash": "82a70f9f9f4ea234",
+      "input_hash": "4e6bf6690f0606fa",
       "game_digests": [
         {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "Sensor Tower数据显示《GTA6》全球预估预购总量达528万份，营收5.16亿美元，其中PS5平台占77%份额，XSX|S占23%，单日预购增幅曾高达436%。",
-          "summary_source": "llm"
-        },
-        {
           "name": "漫威金刚狼",
+          "count": 7,
+          "summary": "外媒Skill Up批评《漫威金刚狼》设计过于直白，称其假定玩家智商，手把手引导与无法关闭的蓝色路径引发争议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 6,
+          "summary": "Rockstar庭审文件提及《GTA6》曾讨论32人在线模式，但无法确认最终上线人数上限，文件还披露了工作室严密的保密措施。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7：启示",
+          "count": 5,
+          "summary": "滨口直树同时负责《最终幻想7：启示》与《王国之心4》的开发监督，两款作品均定于2027年4月8日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "WARDOGS",
           "count": 2,
-          "summary": "IGN与GameSpot均给出6分，Metacritic收录111家媒体后均分78分，成为失眠组过去十年媒体评分最低的一作，对比《蜘蛛侠2》的9分表现引发关注。",
+          "summary": "BULKHEAD旗下百人战术FPS《WARDOGS》今日登陆Steam，此前8月封闭Beta测试吸引了近50万名玩家参与。",
           "summary_source": "llm"
         },
         {
-          "name": "塞尔达传说：时之笛",
-          "count": 1,
-          "summary": "任天堂Switch2独占重制版实机演示发布，博主对比视频显示游戏在角色建模、环境细节及光影效果上全面进化，缓解了玩家对简单高清复刻的担忧。",
+          "name": "无主之地4",
+          "count": 2,
+          "summary": "《无主之地4》更新1.10版本，新角色“黑客无爱”因性感裙装引发玩家热议，成为社区讨论度最高的内容。",
           "summary_source": "llm"
         },
         {
-          "name": "奇异人生",
-          "count": 1,
-          "summary": "开发商DON'T NOD发布财务预警，上半年营收同比暴跌56%，腾讯作为最大股东已明确拒绝追加资金，工作室面临裁员重组及2027年1月后生存的不确定性。",
+          "name": "星界战士",
+          "count": 2,
+          "summary": "Epic平台开启新一轮免费领取，《星界战士》与《天空骑兵》两款游戏永久入库，领取截止至9月17日23:00。",
           "summary_source": "llm"
         },
         {
-          "name": "愚者不灭",
-          "count": 1,
-          "summary": "动作RPG《愚者不灭》总监佐佐木荣一郎透露游戏受蚱蜢工作室影响，将于10月22日登陆PS5和Steam，现已放出可继承存档的试玩Demo。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "流浪地球：望日",
-          "count": 1,
-          "summary": "由柳叶刀工作室研发、刘慈欣监制的单机TPS游戏正式公布，取材自原著小说，故事设定在刹车时代第46年，玩家将扮演月球工程师卷入危机。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "胧村正怪奇谭",
-          "count": 1,
-          "summary": "Marvelous公布新实机演示，宣布游戏将于2027年2月4日登陆PC5、Steam、NS1和NS2，这是香草社作品首次登陆Steam平台。",
+          "name": "死亡搁浅2",
+          "count": 2,
+          "summary": "《死亡搁浅2》PS5版销量约160万套，仅在PC移植版发布后才实现盈利，索尼因此取消了与小岛秀夫合作的谍战游戏《PHYSINT》。",
           "summary_source": "llm"
         },
         {
           "name": "鬼武者：剑之道",
+          "count": 2,
+          "summary": "《鬼武者：剑之道》首周销量近10万份，PS5版卖出76,530份，Switch 2版卖出19,499份，登顶Fami通销量榜。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "麦登橄榄球27",
+          "count": 2,
+          "summary": "《麦登橄榄球27》在Xbox和Switch 2开启限时免费试玩，Xbox Series X|S玩家可玩至9月13日，Switch 2玩家至9月15日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "EA公司 美商艺电",
           "count": 1,
-          "summary": "发售后静御前与出云阿国的人物建模因缺乏二次元滤镜且偏向写实，被部分玩家吐槽像中年大妈，引发关于美术风格是否贴合历史氛围的争议。",
+          "summary": "沙特PIF正考虑合并其控股的EA与Savvy Games，打造游戏巨头，但因Savvy收购Moonton而暂时搁置。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Fairgame$",
+          "count": 1,
+          "summary": "SIE服务型游戏《Fairgame$》开启内测报名，游戏玩法为潜入窃取，需PlayStation账号，PC玩家需通过特定平台参与。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Fairgames",
+          "count": 1,
+          "summary": "索尼多人射击游戏《Fairgames》实机画面曝光，玩家需黑入金库取货并撤离，此前报道其正试图寻找独特玩法公式。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "KK官方对战平台",
+          "count": 1,
+          "summary": "暴雪嘉年华将举办TED vs TOD传奇对决，国内KK平台提供《魔兽争霸3》对战服务，吸引全球顶级War3社区关注。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "MONOPHOBIA",
+          "count": 1,
+          "summary": "双女主都市怪谈悬疑游戏《MONOPHOBIA》即将提供试玩，玩家需在充满都市传说的街道中收集线索揭开真相。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "PUBG",
+          "count": 1,
+          "summary": "《PUBG》43.1版本更新新增踢击动作、水中使用副武器功能，并提升游泳与潜水移动速度，丰富战斗与移动手段。",
           "summary_source": "llm"
         }
       ]
@@ -843,107 +885,6 @@
           "name": "另一个伊甸：起源",
           "count": 1,
           "summary": "日式RPG新作发布免费试玩，存档可继承至9月17日登陆PC和Switch的正式版。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "article_count": 89,
-      "game_count": 56,
-      "untagged_count": 17,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》PS5 Pro性能优化传闻、《巫师4》虚幻5引擎风格辟谣以及《鬼武者：剑之道》试玩热度。此外，《007：初露锋芒》销量破400万，卡普空公布《巫师3》DLC愿望单夺冠，索尼音乐娱乐收购GungHo最大股权，多款新游如《双轮成行》、《PUBG: DED.NET》及《WARDOGS》开启测试或发售。",
-      "digest_source": "llm",
-      "input_hash": "e4919c4e2167ee25",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 8,
-          "summary": "索尼要求《GTA6》在PS5 Pro上实现明显性能提升，因已获PS5 Pro Enhanced标识，外界猜测其将提供40FPS或60FPS性能模式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师4",
-          "count": 3,
-          "summary": "CDPR联席CEO表示《巫师4》不会像其他虚幻5游戏，将凭借独特引擎与Epic Games合作，保留工作室一贯的独特元素。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 3,
-          "summary": "卡普空宣布试玩版全球下载量突破200万，玩家累计获得1000万次“一闪”，官方将向全体玩家发放“赤魂・壹”作为奖励。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "007 初露锋芒",
-          "count": 2,
-          "summary": "《007：初露锋芒》销量突破400万套，IO Interactive宣布游戏将迎来首次八折优惠。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "双轮成行",
-          "count": 2,
-          "summary": "双人合作驾驶冒险游戏《双轮成行》今日正式登陆Steam，首发两周享9折优惠，支持好友通行证。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "堡垒之夜",
-          "count": 2,
-          "summary": "环球影城与Epic Games合作，在万圣节恐怖之夜推出《堡垒之夜》主题惊吓区，奥兰多和好莱坞园区将分别采用不同设计方案。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 2,
-          "summary": "科隆展Steam愿望单统计显示，《巫师3：狂猎 – 旧时曲》DLC以451,000个新增愿望单位居榜首，原作下个月将推送4K重制版。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "英雄联盟",
-          "count": 2,
-          "summary": "Gen.G以3比0击败KT，HLE、Gen.G与T1锁定《英雄联盟》全球总决赛席位，LCK仅剩最后一个名额待决。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Cozy Country",
-          "count": 1,
-          "summary": "温馨治愈个人地盘打造模拟游戏《Cozy Country》登陆Steam，玩家可绘制森林、建造村庄并自由探索。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Fenestra: my focus, her future",
-          "count": 1,
-          "summary": "专注辅助育成冒险游戏《Fenestra: my focus, her future》公布，玩家通过番茄钟记录现实专注时长推动少女成长。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "PUBG: DED.NET",
-          "count": 1,
-          "summary": "《PUBG：DED.NET》采用肉鸽式多局流程，角色可在比赛间解锁能力，单次挑战预计持续五至七场比赛。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Size Warfare",
-          "count": 1,
-          "summary": "独立游戏《Size Warfare》1.5版更新上线，优化指挥官模式并加入完整分步式新手教程。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Under a Rock",
-          "count": 1,
-          "summary": "开放世界生存制作游戏《Under a Rock》Steam免费Alpha测试启动，玩家可体验采集、烹饪与战斗。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "WARDOGS",
-          "count": 1,
-          "summary": "百人混战战术FPS《WARDOGS》最终测试将于9月4日开启，支持百名玩家参与战术枪战与建造破坏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "仙境传说",
-          "count": 1,
-          "summary": "索尼音乐娱乐宣布以约286亿日元收购GungHo超过23%股份，成为其最大股东，双方将推动联合开发与运营。",
           "summary_source": "llm"
         }
       ]
