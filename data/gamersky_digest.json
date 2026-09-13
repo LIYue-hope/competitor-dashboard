@@ -1,75 +1,206 @@
 {
-  "generated_at": "2026-09-12T00:18:30.892087+00:00",
+  "generated_at": "2026-09-13T00:11:21.136645+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-12",
-      "article_count": 2,
-      "game_count": 2,
-      "untagged_count": 0,
-      "digest": "今日游戏资讯主要聚焦于《GTA6》的物理细节展示与《杀戮尖塔2》的AI挑战。游民星空报道了《GTA6》实机中飞机螺旋桨周围水滴的惊人物理表现，引发玩家热议；同时报道了《杀戮尖塔2》AI在爬塔过程中展现出的“机械降神”般的表现，让玩家联想到柯洁的围棋对局。",
+      "date": "2026-09-13",
+      "article_count": 8,
+      "game_count": 7,
+      "untagged_count": 1,
+      "digest": "暴雪嘉年华2026今日召开，暴雪一口气公布了《星际争霸》新作、《暗黑破坏神5》、《魔兽世界》资料片“最后的泰坦”及“怀旧服+”版本《魔兽世界：Forever》等多款重磅新作，同时宣布《炉石传说》四年来首个新职业武僧及《风暴英雄》六年来首位新英雄萨拉塔斯，并上线《魔兽争霸3RE》新战役。",
       "digest_source": "llm",
-      "input_hash": "14ebbcd3af5b11ed",
+      "input_hash": "c8f29f156541cc30",
       "game_digests": [
         {
-          "name": "GTA6",
+          "name": "星际争霸",
           "count": 1,
-          "summary": "《GTA6》实机中一段航空场景引发关注，玩家称赞飞机螺旋桨周围的水滴效果细节表现十分惊人。",
+          "summary": "在BlizzCon 2026上，暴雪正式公布了《星际争霸》系列下一款开放世界射击游戏，定档2030年发售。",
           "summary_source": "llm"
         },
         {
-          "name": "杀戮尖塔2",
+          "name": "暗黑破坏神5",
           "count": 1,
-          "summary": "AI在《杀戮尖塔2》的爬塔过程中展现出“机械降神”般的表现，让玩家联想到柯洁的围棋对局。",
+          "summary": "在BlizzCon 2026上，暴雪正式公布了《暗黑破坏神》系列下一款游戏《暗黑破坏神5》，预告首曝，定档2029年发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "炉石传说",
+          "count": 1,
+          "summary": "在暴雪嘉年华上，暴雪正式公布了《炉石传说》的全新扩展包“黑帝国统治”，以及游戏四年来首个全新职业——武僧。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "风暴英雄",
+          "count": 1,
+          "summary": "在暴雪嘉年华开幕式上，暴雪宣布《风暴英雄》将迎来新角色萨拉塔斯，这将是该游戏自2020年以来的首位新英雄。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界",
+          "count": 1,
+          "summary": "在暴雪嘉年华上，暴雪正式公布了《魔兽世界》的全新资料片“最后的泰坦”，定档2027年发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界：Forever",
+          "count": 1,
+          "summary": "在暴雪嘉年华2026上，暴雪正式公布了《魔兽世界：Forever》，这是社区长期呼吁的“怀旧服+”版本，将于2026年11月4日正式上线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽争霸3RE",
+          "count": 1,
+          "summary": "暴雪今日宣布，《魔兽争霸3：重铸版》全新战役内容“遗忘之王国”正式上线，体量达30小时。",
           "summary_source": "llm"
         }
       ]
     },
     {
-      "date": "2026-09-11",
-      "article_count": 138,
-      "game_count": 61,
-      "untagged_count": 40,
-      "digest": "今日游戏资讯聚焦于索尼第一方大作《漫威金刚狼》的发售预热，IGN给出6分评价并引发定价与QTE自动完成等讨论，同时《GTA6》因黑客勒索与首发销量预测持续霸榜。此外，《最终幻想7：启示》公布超大体量与下载需求，小岛秀夫新作《PHYSINT》确认转投Xbox，卡普空《鬼武者：剑之道》登顶日本销量榜首，而《剑星》Switch 2版与《死或生6》服装调整也引发关注。",
+      "date": "2026-09-12",
+      "article_count": 101,
+      "game_count": 44,
+      "untagged_count": 38,
+      "digest": "《漫威金刚狼》遭遇批评，被指“宝宝游戏”过度引导QTE。《GTA6》的收藏版包装疑似泄露，引发玩家关注。《无主之地4》新角色和DLC推出，游戏销量表现良好。《Physint》主演确认为罗伯特·帕丁森，小岛秀夫参与播客透露新作信息。《塞尔达传说：时之笛 重制版》官方时间线更新，暗示《王国之泪》中塞尔达见证的是“第二个海拉鲁”。《影之刃零》联名手柄开售，价格优惠。《鬼武者：剑之道》首次通关解锁特殊装束，引发玩家讨论。《OD》制作人小岛秀夫表示想扫描真实鬼魂用于恐怖新作。国产游戏《不问凡尘》发布实机预告，宣布将于9月22日在Steam开启抢先体验。《剑星》贝姐战衣新图曝光，美区售价348港币。《卡莉亚的炼金工房》公开全新宣传片，明年2月发售。《古神：风里希》确认合作索尼PS，深受《战神》启发。《合金装备》“斯内克”老牌配音遭换角，引发玩家翻旧账痛批小岛秀夫。《塞尔达传说》新品公布，超帅颜值奢华打造。",
       "digest_source": "llm",
-      "input_hash": "1c1adebf2d26266c",
+      "input_hash": "5bb6d4e3d9ee00c4",
+      "game_digests": [
+        {
+          "name": "漫威金刚狼",
+          "count": 8,
+          "summary": "《漫威金刚狼》官方严肃辟谣：罗根不是同性恋；《漫威金刚狼》遭批\"宝宝游戏\" 过度引导 QTE没意义；玩家称《漫威金刚狼》冲上PS商店销量第4 M站打分78仍反超《GTA6》（当天共 8 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA6",
+          "count": 7,
+          "summary": "《GTA6》收藏版包装疑似泄露!神秘黑盒 内藏光盘位置；《GTA6》不蹭现实热点 R星：开发11年 热点早过时了；《GTA6》女主露西亚的配音演员 可能早在2019年就为《GTA Online》荷官配过音（当天共 7 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "无主之地4",
+          "count": 3,
+          "summary": "《无主之地4》突然不搞dei了？新美女角色画风突变：太顶了；《无主之地4》新秘藏猎人Loveless推出 游戏冲上Steam全球畅销榜前十；《无主之地4》新DLC角色配合免费试玩 Steam在线人数暴涨。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Physint",
+          "count": 2,
+          "summary": "蝙蝠侠出演岛哥哥新作?传《Physint》主演敲定；IGN称Xbox拿下小岛秀夫新作《Physint》风险极大！未必是爆款。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说：时之笛 重制版",
+          "count": 2,
+          "summary": "《塞尔达传说：时之笛 重制版》上线在即 任天堂官方时间线悄然确认两个海拉鲁理论；《塞尔达传说：时之笛 重制版》新作实体封面曝光！背面超帅 顶尖设计。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "盖世小鸡《影之刃零》联名手柄外观公布 现折扣549元；飞智《影之刃零》联名手柄开预约 外观已曝光。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "鬼武者：剑之道",
+          "count": 2,
+          "summary": "《鬼武者：剑之道》首次通关解锁抽象皮肤 官方:不信你不穿；Reddit玩家谈《鬼武者：剑之道》：魂系游戏或许“误导”行业十年。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "OD",
+          "count": 1,
+          "summary": "《OD》制作人小岛秀夫称想扫描真实鬼魂 恐怖新作再掀话题。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "不问凡尘",
+          "count": 1,
+          "summary": "浓浓AI味 国产游戏《不问凡尘》最新PV：9.22开EA。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "《剑星》贝姐战衣新图超涩！连体修女服曲线饱满。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "卡莉亚的炼金工房",
+          "count": 1,
+          "summary": "光荣新作《卡莉亚的炼金工房》全新宣传片曝光！JRPG类型 明年2月发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "古神：风里希",
+          "count": 1,
+          "summary": "《古神：风里希》确认合作索尼PS！深受《战神》启发。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "合金装备",
+          "count": 1,
+          "summary": "《合金装备》“斯内克”老牌配音遭换角 玩家翻旧账痛批小岛秀夫。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说",
+          "count": 1,
+          "summary": "《塞尔达传说》新品公布！超帅颜值 奢华打造。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "女神异闻录4重制版",
+          "count": 1,
+          "summary": "《女神异闻录4重制版》制作人邂逅《最终幻想7：启示》监督 和田和久与滨口直树合影引热议。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "article_count": 137,
+      "game_count": 61,
+      "untagged_count": 39,
+      "digest": "今日游戏资讯聚焦于索尼第一方大作《漫威金刚狼》的发售预热，IGN给出6分评价引发价格讨论，同时PS5 Pro性能表现及线性引导设计也成为玩家热议焦点。此外，《GTA6》因黑客泄密与潜在首发销量预测持续霸榜，而《最终幻想7：启示》公开了超大体量与下载需求，小岛秀夫新作《PHYSINT》确认转投微软，以及《剑星》登陆Switch 2等消息也备受关注。",
+      "digest_source": "llm",
+      "input_hash": "86b5fee2c71e50b5",
       "game_digests": [
         {
           "name": "漫威金刚狼",
           "count": 20,
-          "summary": "IGN给出6分评价，实体版定价引发掉价讨论，QTE自动完成功能获赞，PS5 Pro表现与路线引导设计引发玩家热议。",
+          "summary": "IGN给出6分评价引发价格讨论，PS5 Pro性能表现惊艳，但线性引导设计被指过于刻意，发售日临近引发玩家热议。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
           "count": 6,
-          "summary": "黑客勒索无人机偷拍引发保密难问题，佛罗里达度假村因疑似“裸体小镇”原型遭遇恶搞，首发销量预测达4800万份。",
+          "summary": "黑客利用无人机偷拍泄密，R星面临劳动仲裁，佛罗里达度假村因疑似游戏原型被玩家恶搞，首发销量预测达4800万份。",
           "summary_source": "llm"
         },
         {
           "name": "金刚狼",
           "count": 6,
-          "summary": "失眠组叙事总监称金刚狼与剑齿虎间存在“渴望”与“爱”，玩家吐槽女性角色外观，官方晒出琴葛蕾新图，通关时间与白金难度引讨论。",
+          "summary": "失眠组叙事总监称金刚狼与剑齿虎间存在爱与渴望，游戏晒出多张新图展示画面细节，媒体评分解禁后玩家吐槽女性角色外观。",
           "summary_source": "llm"
         },
         {
           "name": "最终幻想7：启示",
           "count": 4,
-          "summary": "主线流程约35小时，全成就需超百小时，实体版需下载130G，试玩版被评略显平庸，受大逃杀类游戏影响。",
+          "summary": "媒体预览解禁，主线流程约35小时，实体版需下载130G，试玩版被指略显平庸，开放世界规模约为前作50万倍。",
           "summary_source": "llm"
         },
         {
           "name": "PHYSINT",
           "count": 2,
-          "summary": "小岛秀夫谍战新作疑泄露演员名单，索尼宣布退出该项目，微软接手发行，IGN称这是微软的重大胜利。",
+          "summary": "索尼退出合作，小岛秀夫新作转由微软发行，演员名单疑似泄露，北野武、阿部宽、帕丁森等确认参演。",
           "summary_source": "llm"
         },
         {
           "name": "剑星",
           "count": 2,
-          "summary": "《剑星 完整版》将于11月6日登陆Switch 2并推出32GB实体卡带，白金工作室官宣联动《猎天使魔女》，伊芙将换装贝优妮塔等四套战衣。",
+          "summary": "宣布登陆Switch 2平台并推出实体版，白金工作室官宣联动《猎天使魔女》，伊芙将获得四套魔女战衣。",
           "summary_source": "llm"
         },
         {
@@ -81,7 +212,7 @@
         {
           "name": "死或生",
           "count": 2,
-          "summary": "《死或生6：最后一战》将减少大胆服装，制作人解释称因玩家不好意思使用性感皮肤。",
+          "summary": "光荣特库摩宣布减少大胆服装，制作人表示是为了回归格斗本质，因玩家不好意思使用性感皮肤。",
           "summary_source": "llm"
         },
         {
@@ -93,25 +224,25 @@
         {
           "name": "FF7启示",
           "count": 1,
-          "summary": "外媒称开放世界规模约为《最终幻想7 重生》的50万倍，小游戏全面加码。",
-          "summary_source": "llm"
+          "summary": "外媒:《FF7启示》规模是前作50万倍！小游戏全面加码。",
+          "summary_source": "rules"
         },
         {
           "name": "KK官方对战平台",
           "count": 1,
-          "summary": "暴雪嘉年华TED vs TOD传奇对决活动开启，平台撑起全球顶级War3社区。",
-          "summary_source": "llm"
+          "summary": "暴雪嘉年华TED vs TOD传奇对决！看完手痒？来《KK官方对战平台》开一局。",
+          "summary_source": "rules"
         },
         {
           "name": "MONOPHOBIA",
           "count": 1,
-          "summary": "双女主都市怪谈悬疑游戏即将提供试玩。",
+          "summary": "双女主都市怪谈悬疑游戏即将提供试玩，由《Link!Like!LoveLive!》编剧参与创作。",
           "summary_source": "llm"
         },
         {
           "name": "Onyx:The Dark Grip",
           "count": 1,
-          "summary": "《寂静岭2：重制版》厂商打造，NS2首个纯掌机游戏，电视模式不可用。",
+          "summary": "NS2首个纯掌机游戏，由《寂静岭2：重制版》开发商Bloober Team打造，仅支持掌机模式游玩。",
           "summary_source": "llm"
         },
         {
@@ -123,125 +254,125 @@
         {
           "name": "Warframe",
           "count": 1,
-          "summary": "西安活动倒计时开启，9月版本上线，举办国区玩家专属线下活动。",
+          "summary": "西安活动倒计时开启，9月版本上线在即，将举办为期两天的国区玩家专属线下活动。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-09-10",
-      "article_count": 158,
+      "article_count": 154,
       "game_count": 72,
       "untagged_count": 48,
-      "digest": "今日游戏资讯聚焦于《GTA6》的持续热度与《漫威金刚狼》的媒体评测解禁，索尼终止与小岛秀夫合作引发玩家讨论，多款新作如《幻世录 重制版》与《空之轨迹 the 2nd》陆续发售或开启预售，任天堂《塞尔达传说》相关周边与Switch 2版本引发关注。",
+      "digest": "今日游戏行业资讯聚焦多款重磅新作，漫威金刚狼与GTA6因媒体评测解禁及发售临近引发热议，Physint项目易主Xbox、FF7启示体量庞大、剑星Switch 2实体版确认等消息也占据重要版面，同时《幻世录 重制版》正式发售获好评。",
       "digest_source": "llm",
-      "input_hash": "c871be06376225e9",
+      "input_hash": "2502fae68bff4518",
       "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 10,
-          "summary": "《GTA6》限量PS5手柄今日开启预售，建议零售价为84.99美元，索尼官网因访问量过大被挤爆，Xbox玩家也可用积分兑换。",
-          "summary_source": "llm"
-        },
         {
           "name": "漫威金刚狼",
           "count": 8,
-          "summary": "《漫威金刚狼》媒体评测解禁，IGN与GameSpot均给出6分，M站均分为78分，Insomniac Games接受游民专访分享开发经验。",
+          "summary": "媒体评测解禁，gamingbolt打出满分，ScreenHub也给予5星好评，IGN与GameSpot仅获6分，M站均分78分，流程约15小时。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 7,
+          "summary": "成主机市场救星，将推动大量玩家升级机器。",
           "summary_source": "llm"
         },
         {
           "name": "PHYSINT",
           "count": 7,
-          "summary": "索尼终止与小岛秀夫合作的谍战新作《Physint》，Xbox接手开发，索尼退出后玩家集中讨论其将登陆PC和XGP平台。",
+          "summary": "看来要上PC和XGP了，PS6护航计划取消。",
           "summary_source": "llm"
         },
         {
           "name": "FF7启示",
           "count": 4,
-          "summary": "《FF7启示》实体版需要联网下载数据 官方：为了品质；拉了?《FF7启示》试玩难评：开放世界比前作还窒息；《FF7启示》变罐头?体量巨大甚至过大 全是兴趣点（当天共 4 条）",
-          "summary_source": "rules"
+          "summary": "首发没有内置外挂，导演滨口直树确认不会加入简化进程功能。",
+          "summary_source": "llm"
         },
         {
           "name": "剑星",
           "count": 4,
-          "summary": "《剑星》Switch 2实体版确认非密钥卡，官方宣布推出限量SteelBook铁盒版，玩家自制贝优妮塔MOD累计下载近8万次。",
+          "summary": "集齐游戏界“美女三幻神”，金亨泰二弟天下无敌。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达",
           "count": 2,
-          "summary": "《塞尔达》新作amiibo开卖：少年林克、塞尔达；《塞尔达》限定NS2遭黄牛围猎 玩家怒斥是行业毒瘤。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "塞尔达传说",
-          "count": 2,
-          "summary": "任天堂《塞尔达传说：时之笛》重制版少年林克与少年塞尔达amiibo上架，售价25美元，40周年纪念版Switch 2遭黄牛围猎。",
+          "summary": "限定NS2遭黄牛围猎，引发玩家不满。",
           "summary_source": "llm"
         },
         {
           "name": "幻世录 重制版",
           "count": 2,
-          "summary": "宇峻奥汀经典战棋游戏《幻世录 重制版》今日正式发售，Steam平台开启限时9折优惠，目前获得多半好评。",
+          "summary": "正式发售，Steam多半好评。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 2,
-          "summary": "国产武侠动作游戏《影之刃零》联名手柄实物照片首次展示，外媒盛赞其首通即可白金，无需反复刷取。",
+          "summary": "联名手柄首次展示，小孩曾卓君提前拿到。",
           "summary_source": "llm"
         },
         {
           "name": "最终幻想7：启示",
           "count": 2,
-          "summary": "《最终幻想7：启示》试玩版发布，外媒称其体量巨大甚至过大，开放世界设计被指比前作更令人窒息。",
+          "summary": "首发没有内置外挂，没办法当无双玩了。",
           "summary_source": "llm"
         },
         {
           "name": "未眠野",
           "count": 2,
-          "summary": "国产新二游《未眠野》首支PV发布，一日播放量破千万，游戏开启封测招募，定位为开放世界二游。",
+          "summary": "首曝PV一日播放量破千万，封测招募开启。",
           "summary_source": "llm"
         },
         {
           "name": "流浪地球：望日",
           "count": 2,
-          "summary": "柳叶刀工作室公布《流浪地球：望日》首支宣传片，改编自刘慈欣小说，刘慈欣担任监制，游戏类型为第三人称科幻射击。",
+          "summary": "游戏首曝，刘慈欣监制，柳叶刀工作室打造。",
           "summary_source": "llm"
         },
         {
           "name": "空之轨迹 the 2nd",
           "count": 2,
-          "summary": "《空之轨迹 the 2nd》Steam国区标准版售价298元，凤凰游戏商城开启预售，将于9月17日正式发售。",
+          "summary": "Steam版本开启预售，登陆PC/PS5/Switch/Switch 2平台。",
           "summary_source": "llm"
         },
         {
           "name": "金刚狼",
           "count": 2,
-          "summary": "PS5独占游戏《漫威金刚狼》实体盘被玩家偷跑，澳大利亚媒体ScreenHub为本作打出满分5星好评，流程约15小时。",
+          "summary": "玩家晒出偷跑实体盘，Insomniac Games开发的PS5独占游戏将于9月15日正式发售。",
           "summary_source": "llm"
         },
         {
           "name": "饿狼传说：群狼之城",
           "count": 2,
-          "summary": "SNK宣布《饿狼传说：群狼之城》Switch 2版即将发售，并赠送“不知火舞”特色服装，与《东京卍复仇者》开启联动。",
+          "summary": "与人气动画《东京卍复仇者》展开联动，发布联名合作先行预告片。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Hela：鼠鼠奇旅",
+          "count": 1,
+          "summary": "将于2026年12月1日全球发售，Knights Peak携手Boltray Games带来奇幻冒险。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-09-09",
-      "article_count": 151,
+      "article_count": 150,
       "game_count": 74,
       "untagged_count": 36,
-      "digest": "任天堂今日公布《塞尔达传说：时之笛 重制版》将于2026年11月5日发售，引发玩家对美术风格、角色改动及与GTA6撞档的激烈争论；同时《女神异闻录6》官宣Switch 2版，《GTA6》限定手柄与双主角差异化设计曝光；此外《影之刃零》发售日变更、Steam周销榜《黎明行者之血》登顶等资讯也备受关注。",
+      "digest": "今日游戏资讯聚焦于《塞尔达传说：时之笛 重制版》的发售定档与争议，以及《GTA6》限定手柄与战斗细节的曝光。任天堂公布《时之笛RE》将于2026年11月5日发售，引发玩家关于画风、角色建模及与《GTA6》撞档的激烈讨论。同时，《GTA6》公布限定手柄售价及双主角差异化战斗设计，《女神异闻录6》Switch 2版及《剑星》联动消息也引发关注。",
       "digest_source": "llm",
-      "input_hash": "312df14237a33b63",
+      "input_hash": "dc21d53a41b6a6bb",
       "game_digests": [
         {
           "name": "塞尔达传说：时之笛 重制版",
           "count": 19,
-          "summary": "任天堂正式公布《时之笛RE》将于2026年11月5日发售，Switch 2独占，玩家围绕美术风格、大妖精形象改动及与GTA6撞档展开激烈争论。",
+          "summary": "任天堂正式公布《时之笛RE》将于2026年11月5日发售，Switch 2独占，引发玩家关于画风、角色建模及与《GTA6》撞档的激烈讨论。",
           "summary_source": "llm"
         },
         {
@@ -259,7 +390,7 @@
         {
           "name": "GTA6",
           "count": 3,
-          "summary": "Rockstar公布《GTA6》限定PS5手柄，黑白两色售价639港币，将于11月19日发售；官方确认双主角杰森与露西娅拥有截然不同的战斗风格，NPC被枪指会反抗。",
+          "summary": "《GTA6》公布限定PS5手柄售价及发售日，双主角杰森与露西娅拥有截然不同的战斗风格，NPC被枪指会反抗。",
           "summary_source": "llm"
         },
         {
@@ -271,13 +402,7 @@
         {
           "name": "女神异闻录6",
           "count": 3,
-          "summary": "《女神异闻录6》官宣Switch 2版本，完整成就列表疑似泄露，新预告公开。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Physint",
-          "count": 2,
-          "summary": "小岛秀夫间谍新作《Physint》传闻演员阵容敲定，罗伯特·帕丁森或将出演。",
+          "summary": "《女神异闻录6》官宣Switch 2版本，完整成就列表疑似泄露，引发玩家广泛解读。",
           "summary_source": "llm"
         },
         {
@@ -289,145 +414,151 @@
         {
           "name": "塞尔达",
           "count": 2,
-          "summary": "任天堂公布《塞尔达传说》40周年纪念版Switch 2限定机，美版售价逼近3500元，10月29日发售。",
+          "summary": "任天堂公布《塞尔达传说》系列40周年纪念版Switch 2限定主机，美区售价逼近3500元，10月29日发售。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3",
           "count": 2,
-          "summary": "CD Projekt Red宣布将于9月18日推出《巫师3》DLC特别线上直播节目，并调整了日区游戏价格。",
+          "summary": "CDPR宣布将于东京游戏展推出《巫师3》特别线上直播节目，并调整了日区《巫师3》数字版售价。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 2,
-          "summary": "国产武侠动作游戏《影之刃零》原定今日发售，官方宣布发售日变更。",
+          "summary": "原定今日发售的国产武侠动作游戏《影之刃零》因故延期，玩家无法在今日体验游戏。",
           "summary_source": "llm"
         },
         {
           "name": "未眠野",
           "count": 2,
-          "summary": "国产开放世界二游《未眠野》开启预约并首曝PV。",
+          "summary": "国产新游《未眠野》开启预约并首曝PV，定位万物交互开放世界RPG。",
           "summary_source": "llm"
         },
         {
           "name": "艾尔登法环",
           "count": 2,
-          "summary": "FromSoftware发布1.17.1补丁，封堵了允许玩家免费获取DLC道具的漏洞。",
+          "summary": "《艾尔登法环》发布1.17.1补丁，封堵了允许玩家未购买DLC免费获取道具的漏洞。",
           "summary_source": "llm"
         },
         {
           "name": "街霸6",
           "count": 2,
-          "summary": "《街霸6》追加角色“阿俊”将于10月13日上线。",
+          "summary": "《街霸6》追加角色“阿俊”将于10月13日上线，因招式设计被指照搬而引发争议。",
           "summary_source": "llm"
         },
         {
           "name": "鬼武者：剑之道",
           "count": 2,
-          "summary": "《黎明行者之血》登顶Steam最新周销榜，IGN给予9分评价。",
+          "summary": "《鬼武者：剑之道》被列为今年必玩佳作之一，官方提供激活码及外设福利。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黎明行者之血",
+          "count": 2,
+          "summary": "《黎明行者之血》成功登顶Steam最新周销榜，官方确认多部续作及主角长命百岁的设定。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-09-08",
-      "article_count": 146,
+      "article_count": 145,
       "game_count": 61,
-      "untagged_count": 44,
-      "digest": "今日游戏资讯聚焦于《GTA6》的预购热度与发售细节，任天堂借40周年直面会公布《塞尔达传说：时之笛 重制版》及限定主机，卡普空新作《鬼武者：剑之道》销量与股价双高，索尼《漫威金刚狼》开启预载，此外《湮灭之潮》科隆试玩口碑出色，多款游戏迎来发售、更新或争议事件。",
+      "untagged_count": 43,
+      "digest": "今日游戏资讯聚焦于《GTA6》与《塞尔达传说：时之笛 重制版》两大重磅新作，前者预购销量破500万份并公布警察追缉系统细节，后者正式公布将于11月5日登陆Switch 2发售。此外，《漫威金刚狼》开启预载，卡普空新作《鬼武者：剑之道》销量与口碑双丰收，引发股价上涨，而《湮灭之潮》科隆试玩口碑大爆。",
       "digest_source": "llm",
-      "input_hash": "ca31681f98cf73a3",
+      "input_hash": "b31cec89f750100f",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 12,
-          "summary": "预购销量破500万份，距发售日还有两个多月，R星披露警察追缉系统细节，取消浮动图标设计。",
+          "summary": "预购销量已破500万份，R星披露警察追缉系统细节，取消浮动图标设计。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛 重制版",
           "count": 7,
-          "summary": "港服449港币美服60美元，预计登陆Switch 2平台，将于2026年11月5日发售。",
+          "summary": "任天堂公布将于11月5日登陆Switch 2发售，港服售价449港币。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达",
           "count": 5,
-          "summary": "电影定档明年4月30日上映，40周年新周边公布，联动孩之宝、乐高等品牌。",
+          "summary": "任天堂公布40周年纪念版Switch 2主机，将于10月29日发售，售价约2700元。",
           "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
           "count": 4,
-          "summary": "预载开启，79GB起步，将于9月15日正式登陆PS5平台。",
+          "summary": "Insomniac Games公布游戏将于9月15日发售，登陆PS5平台，预载已开启。",
           "summary_source": "llm"
         },
         {
           "name": "鬼武者：剑之道",
           "count": 4,
-          "summary": "卡普空股价创年内新高，首日销量破百万，M站玩家评分8.7。",
+          "summary": "卡普空新作发售首日销量破百万，玩家评分达8.7分，股价创年内新高。",
           "summary_source": "llm"
         },
         {
           "name": "黎明行者之血",
           "count": 4,
-          "summary": "已于9月3日正式发售，IGN给出9分评价，优化表现获赞，但简中翻译出现乱译问题。",
+          "summary": "Rebel Wolves新作发售，IGN给出9分评价，称赞其优化表现，但简中翻译引发争议。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达：时之笛重制版",
           "count": 3,
-          "summary": "《塞尔达：时之笛 重制版》大小约27GB 低于预估；《塞尔达：时之笛重制版》全新主视觉图:这画面太强了；《塞尔达：时之笛重制版》官网上线 超清林克帅照。",
-          "summary_source": "rules"
+          "summary": "游戏官网上线，文件大小约27GB，任天堂发布全新主视觉图。",
+          "summary_source": "llm"
         },
         {
           "name": "怪物猎人：荒野",
           "count": 3,
-          "summary": "DLC“凌越”实机公开，展示盾斧与片手武器新机制，预计2027年发售。",
+          "summary": "卡普空公开DLC“凌越”实机演示，展示盾斧与片手剑新武器机制。",
           "summary_source": "llm"
         },
         {
           "name": "湮灭之潮",
           "count": 3,
-          "summary": "科隆试玩口碑大爆，外媒称战斗系统太顶，官方PS5商店页面上线。",
+          "summary": "成都工作室开发的游戏科隆试玩口碑大爆，外媒称战斗系统太顶。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说",
           "count": 2,
-          "summary": "《塞尔达传说》40周年新周边公布 联动孩之宝 乐高等大牌；《塞尔达传说》电影定档！明年4月30日上映。",
-          "summary_source": "rules"
+          "summary": "任天堂公布《塞尔达传说》真人电影定档明年4月30日上映。",
+          "summary_source": "llm"
         },
         {
           "name": "星鸣特攻",
           "count": 2,
-          "summary": "停服两周年，玩家晒实体盘，光盘价格暴涨。",
+          "summary": "该游戏停运两周年，实体光盘价格暴涨，玩家晒出收藏品。",
           "summary_source": "llm"
         },
         {
           "name": "生化危机9",
           "count": 2,
-          "summary": "卡普空Steam大促开启，游民商城优惠至新史低，MOD制作引发玩家关注。",
+          "summary": "卡普空开启Steam大促，游民商城推出优惠新史低，MOD制作引发关注。",
           "summary_source": "llm"
         },
         {
           "name": "艾尔登法环",
           "count": 2,
-          "summary": "今日停服更新，部署全新补丁1.17.1，这是推出“褪色者包”后的首次维护。",
+          "summary": "官方宣布今日停服更新，部署全新补丁1.17.1。",
           "summary_source": "llm"
         },
         {
           "name": "鬼武者",
           "count": 2,
-          "summary": "女主出云阿国与静御前因形象设计引发部分玩家争议，被批“丑到看吐了”。",
+          "summary": "《鬼武者：剑之道》女主出云阿国与静御前因形象设计引发部分玩家争议。",
           "summary_source": "llm"
         },
         {
           "name": "OW",
           "count": 1,
-          "summary": "《OW》联动性感女团 长腿身材太诱人 挑逗感拉满。",
-          "summary_source": "rules"
+          "summary": "《守望先锋》与韩国女团LE SSERAFIM发布联动歌曲MV预告。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -832,107 +963,6 @@
           "count": 1,
           "summary": "据泄露消息，《Apex英雄》与《街霸6》将于9月16日开启联动，春丽皮肤被指太抽象。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-03",
-      "article_count": 155,
-      "game_count": 79,
-      "untagged_count": 35,
-      "digest": "今日游戏行业新闻概览《黎明行者之血》玩家因优化问题退款转玩《鬼武者》GTA6主题PS5手柄发布，共黑白两色可选《鬼武者：剑之道》发售，登顶国区热销榜IGN满分《鬼武者：剑之道》9月4日发售《黎明行者》Steam好评如潮，画面美CG过帧严重《最终幻想7：启示》预购开启，国区售价公布《卧龙：苍天陨落》全球玩家突破800万《地铁2039》首发支持带光追的4K60帧《巫师3：狂猎重制版》更新内容公开《幻世录 重制版》即将发售，添加愿望单赢激活码《怪物猎人：荒野》公开“弓”增幅动作演示《战神》演员戴夫·巴蒂斯塔为演《战神》疯狂锻炼增肌《昭和米国物语》外媒试玩前瞻，音乐梦回1980年代《生化危机》电影新预告发布，导演称暴君风衣不合理《神鬼寓言》丑女变美引争议，官方回应称没换脸模只是捏了新的",
-      "digest_source": "llm",
-      "input_hash": "e7c82aa216154e8f",
-      "game_digests": [
-        {
-          "name": "黎明行者之血",
-          "count": 10,
-          "summary": "玩家吐槽《黎明行者之血》优化翻车：30帧退款转玩《鬼武者》；《黎明行者之血》Fami通34分！仅差1分进白金；《黎明行者之血》官方回应首发问题：解决方法公布（当天共 10 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GTA6",
-          "count": 8,
-          "summary": "《GTA6》主题PS5手柄官宣！共黑白两色可选；《GTA6》旧传闻陆续应验 2023年泄露清单中的多项细节已获官方演示证实；《GTA6》PS香港商店移除大量内容 美服却毫无变动（当天共 8 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 6,
-          "summary": "《漫威金刚狼》新预告公开！反派齐亮相 狼叔开杀；《漫威金刚狼》新截图！采集日本5.6TB数据 拍摄近19万张照片；《漫威金刚狼》剧情疑似泄露：信息量真不小！（当天共 6 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 4,
-          "summary": "IGN满分《鬼武者：剑之道》登顶国区热销榜 明日发售爽快开砍；IGN10分《鬼武者：剑之道》下血本 顶级乐队打造主题曲公开；《鬼武者：剑之道》获Fami通34分！日本人自己不看好？（当天共 4 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "黎明行者",
-          "count": 4,
-          "summary": "《黎明行者》Steam多半好评:画面美 CG过场掉帧严重；《黎明行者》上线惨遭破解！PC版直接裸奔没有D加密；IGN9分实至名归?女博主赞《黎明行者》:年度游戏候选（当天共 4 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "最终幻想7：启示",
-          "count": 3,
-          "summary": "《最终幻想7：启示》预购开启！国区Steam298元；《最终幻想7：启示》10分钟新实机 大量玩法展示；《最终幻想7启示》新预告 官宣明年4月8日发售。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "卧龙：苍天陨落",
-          "count": 2,
-          "summary": "《卧龙：苍天陨落》全球玩家突破800万 完全版Switch 2版今日发售 《卧龙2》明年初登场；478港币！《卧龙：苍天陨落》NS2完全版正式发售：本体+3DLC。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "地铁2039",
-          "count": 2,
-          "summary": "《地铁2039》首发支持带光追的4K60帧！超强技术力；《地铁2039》PS5 Pro实机！废土生存 画质光影顶级。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "巫师3：狂猎重制版",
-          "count": 2,
-          "summary": "《巫师3：狂猎重制版》PS5版单纯更新！没有新奖杯；《巫师3：狂猎重制版》绝不含糊！原版移动战斗痛点全面优化。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "幻世录 重制版",
-          "count": 2,
-          "summary": "异色战棋SRPG《幻世录 重制版》上市倒数一周！游戏玩法全面公开 支援Steam工作坊!；《幻世录 重制版》即将发售 添加愿望单赢激活码！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "怪物猎人：荒野",
-          "count": 2,
-          "summary": "《怪物猎人：荒野》公开“弓”增幅动作演示 近距离爆发与全距离压制兼具；《怪物猎人：荒野》DLC“凌越”新实机视频！新动作机制公布。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "战神",
-          "count": 2,
-          "summary": "巴蒂斯塔为演《战神》疯狂锻炼增肌 已初具奎爷身材；大肌霸!新《战神》奎爷演员秀肌肉：狂抖胸肌帅老头。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "昭和米国物语",
-          "count": 2,
-          "summary": "《昭和米国物语》外媒试玩前瞻：音乐梦回1980年代；《昭和米国物语》新内容来了！荒唐度爆表 甚至说不清缝了多少。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "生化危机",
-          "count": 2,
-          "summary": "《生化危机》电影新预告发布！天降丧尸血浆爆炸；导演称暴君风衣不合理!玩家：你根本不懂《生化危机》。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "神鬼寓言",
-          "count": 2,
-          "summary": "《神鬼寓言》丑女变美引争议 官方：没换脸模只是捏了新的；《神鬼寓言》DEI伪人丑女为何变美人？官方回应了！。",
-          "summary_source": "rules"
         }
       ]
     }

@@ -1,107 +1,208 @@
 {
-  "generated_at": "2026-09-12T00:15:15.308056+00:00",
+  "generated_at": "2026-09-13T00:07:35.351415+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-11",
-      "article_count": 94,
-      "game_count": 53,
-      "untagged_count": 20,
-      "digest": "今日游戏资讯聚焦多款重磅新作，漫威金刚狼媒体评测解禁并曝出Bug，鬼武者剑之道首周销量登顶，GTA6线下营销与预购量持续走高，FF7启示公布跳伞系统与PC版开发细节，小岛新作PHYSINT与OD相关消息引发关注，巫师3重制版修复坐骑Bug，胧村正怪奇谭公布发售日与实机演示。",
+      "date": "2026-09-12",
+      "article_count": 41,
+      "game_count": 26,
+      "untagged_count": 10,
+      "digest": "今日游戏资讯聚焦于《GTA6》泄露风波与Netflix独家展示带来的用户增长，以及《塞尔达传说：时之笛RE》与《最终幻想》40周年的重磅公布。此外，《巫师3》重制版保留经典Bug、Polyarc工作室宣布关停、以及《42中队》众筹破十亿美元却延期发售等消息也引发广泛关注。",
       "digest_source": "llm",
-      "input_hash": "b2e5e90e7034ea5c",
+      "input_hash": "cd82b70a8947d357",
       "game_digests": [
         {
-          "name": "漫威金刚狼",
-          "count": 12,
-          "summary": "媒体评测解禁，主线流程约13小时，通关后立即解锁新游戏+模式，但琴·格蕾的屁气特效无法关闭引发玩家吐槽。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7启示",
-          "count": 4,
-          "summary": "导演确认首发不含简化进度功能，后续更新追加；总监证实将加入参考堡垒之夜的跳伞系统，PC版开发不低配妥协。",
-          "summary_source": "llm"
-        },
-        {
           "name": "GTA6",
-          "count": 3,
-          "summary": "落地迈阿密海滩打造“日落罪恶城”线下营销，Sensor Tower估算全球预购量达528万份，预估营收5.16亿美元。",
+          "count": 4,
+          "summary": "R星联合工作室负责人罗布·纳尔逊坦诚预告片发布时游戏尚未完全成形，Netflix独家展示带来10万美国新用户，泄露素材持续发酵。",
           "summary_source": "llm"
         },
         {
-          "name": "鬼武者：剑之道",
-          "count": 3,
-          "summary": "Fami通销量榜登顶，PS5版首周售出76530份，Switch 2版售出19499份，但写实建模引发历史美女变大妈的争议。",
+          "name": "塞尔达传说：时之笛RE",
+          "count": 2,
+          "summary": "日本线下渠道已摆出Switch2实体包装，任天堂确认将于2026年11月5日发售，并公开了4K官方截图。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想",
+          "count": 2,
+          "summary": "史克威尔艾尼克斯推出包含180种卡牌的40周年纪念卡包，定于2027年1月8日发售，东京国立博物馆表庆馆也将举办相关特展。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "42中队",
+          "count": 1,
+          "summary": "众筹已超10亿美元、开发逾十二年的《星际公民：42中队》发售窗口推迟至2027年第二季度，玩家对Bug频出的开发者直播怨声载道。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Moss",
+          "count": 1,
+          "summary": "知名VR游戏开发商Polyarc正式宣布关闭，结束近12年开发历程，工作室近期刚推出新作《Moss：被遗忘的遗物》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "官方披露与《猎天使魔女》的联动新服装截图，展示出主角皮衣加持下的完美身体曲线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "卧龙2凤火连天",
+          "count": 1,
+          "summary": "光荣特库摩放出庞统立绘，配文“卧龙凤雏，得一可安天下”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "古神：风里希",
+          "count": 1,
+          "summary": "国产神话ARPG《古神：风里希》基于虚幻5引擎打造，旨在重塑中式创世题材体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "合金弹头 终极版合集",
+          "count": 1,
+          "summary": "《合金弹头》系列30周年纪念合集现已公布，定于2027年登陆多平台，PS5商店页面已上线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说：时之笛",
+          "count": 1,
+          "summary": "任天堂正式官宣重制版，保留原作核心框架，针对操作、镜头、指引、场景及语音系统全面革新。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3",
-          "count": 2,
-          "summary": "重制版将于9月29日上线，官方修复了杰洛特爱马“萝卜”的卡地形Bug，并贴心保留了切换回原版Bug马的开关。",
+          "count": 1,
+          "summary": "《巫师3：狂猎》重制版保留经典Bug切换功能，玩家可在“新版优化萝卜”和“原版Bug萝卜”之间自由选择。",
           "summary_source": "llm"
+        },
+        {
+          "name": "异度装甲",
+          "count": 1,
+          "summary": "玩家自制重制作品上线PC，采用新引擎现代化翻新画面，兼顾原版经典画幅与剧情内核。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "无主之地4",
+          "count": 1,
+          "summary": "发售一周年之际推出新故事包DLC，新秘藏猎人“黑客无爱”因外观设计大胆迅速成为讨论焦点。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "无人深空",
+          "count": 1,
+          "summary": "PC VR版本实装眼动追踪渲染技术，通过捕捉玩家视线降低外围画面渲染精度，减轻VR高分辨率双目渲染压力。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7：启示",
+          "count": 1,
+          "summary": "据消息人士透露，本作主线时长为35小时，全收集时长为100小时。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "article_count": 119,
+      "game_count": 64,
+      "untagged_count": 28,
+      "digest": "游戏新闻综述：《漫威金刚狼》主线时长13小时，首发解锁新游戏+新功能。《FF7启示》首发不含简化进度功能，总监确认加入跳伞系统。《GTA6》线下营销活动“日落罪恶城”在迈阿密海滩举行。《鬼武者：剑之道》销量登顶日本市场，写实建模引发争议。CDPR宣布《巫师3：狂猎》DLC《旧时曲》发售日期。《死亡搁浅2》销量不佳，分析师认为可能未回本。《生化危机》30周年主题新图曝光，初代角色集体换装。《胧村正怪奇谭》PS5版售价公布，支持4K/60帧。《FF7》总监辟谣《FF7》不会升M级，目标评级与前作一致。Rockstar Games《GTA6 OL》保密级别堪比可口可乐配方。《Link！Like！LoveLive！》编剧参与创作，悬疑游戏《MONOPHOBIA》即将提供试玩。小岛秀夫新作《OD》将于TGA2026亮相、开启预购，发售日遭泄露。经典平台游戏《ONI 零～复活～》重制版定档2027年春。PHYSINT新作面部动画测试曝光，微软新主机搭载。",
+      "digest_source": "llm",
+      "input_hash": "cac5c90b85f928c2",
+      "game_digests": [
+        {
+          "name": "漫威金刚狼",
+          "count": 14,
+          "summary": "《漫威金刚狼》主线时长约13小时！首发解锁新游戏+；《漫威金刚狼》琴格蕾放屁特效卡死 玩家直呼\"辣眼\"；数毛社评测《漫威金刚狼》：帧率稳定 光追提升不大（当天共 14 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "FF7启示",
+          "count": 5,
+          "summary": "《FF7启示》首发不含简化进度功能！将后续更新追加；《FF7启示》总监确认加入跳伞系统 机制参考堡垒之夜；《FF7启示》PC版开发细节：不低配妥协 流畅度为核心（当天共 5 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA6",
+          "count": 5,
+          "summary": "\"罪恶城\"降临迈阿密海滩!《GTA6》沉浸式打造线下营销；《GTA6》预购量破500万份！终极版预购占比近九成；主机市场救星来了！《GTA6》或将促使大量玩家升级主机（当天共 5 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "鬼武者：剑之道",
+          "count": 3,
+          "summary": "《鬼武者：剑之道》开启全新冒险，ROG DIY装备助力畅享游戏体验；Fami通新一周销量榜：《鬼武者：剑之道》强势登顶！；《鬼武者：剑之道》写实建模引争议 历史美女变大妈！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3",
+          "count": 2,
+          "summary": "《巫师3》全新DLC《旧时曲》将补齐丹德里恩完整人设；《巫师3》重制版修复坐骑Bug 但玩家可切回原版Bug马。",
+          "summary_source": "rules"
         },
         {
           "name": "死亡搁浅2",
           "count": 2,
-          "summary": "Alinea Analytics估算总销量约250万份，总收入1.7亿美元，分析师称其卖太少导致索尼放弃后续谍战项目PHYSINT。",
-          "summary_source": "llm"
+          "summary": "小岛新作为何被索尼放弃?分析师:《死亡搁浅2》卖太少；曝《死亡搁浅2》总销量仅250万份！可能都还没回本。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "生化危机",
+          "count": 2,
+          "summary": "《生化危机》30周年群像新图曝光!美女主角团集体换装；时隔近30年！初代《生化危机》终于要支持双人联机？。",
+          "summary_source": "rules"
         },
         {
           "name": "胧村正怪奇谭",
           "count": 2,
-          "summary": "Marvelous公布PS5与NS2港版售价均为298港币，定于2027年2月4日发售，并发布了10分钟战斗实机演示。",
-          "summary_source": "llm"
+          "summary": "《胧村正怪奇谭》PS5版售价298港币！支持4K/60帧；《胧村正怪奇谭》10分钟实机公开！战斗玩法演示。",
+          "summary_source": "rules"
         },
         {
           "name": "FF7",
           "count": 1,
-          "summary": "滨口直树辟谣游戏不会升M级，目标评级与前作一致。",
-          "summary_source": "llm"
+          "summary": "滨口直树辟谣 《FF7》不会升M级 目标评级与前作一致。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA6 OL",
+          "count": 1,
+          "summary": "保密级别堪比可口可乐配方?R星《GTA6 OL》庭审爆料。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Link！Like！LoveLive！",
+          "count": 1,
+          "summary": "《Link！Like！LoveLive！》编剧参与创作，双女主都市怪谈悬疑游戏《MONOPHOBIA》即将提供试玩。",
+          "summary_source": "rules"
         },
         {
           "name": "OD",
           "count": 1,
-          "summary": "网传小岛秀夫新作将于TGA2026亮相并定档2027年3月26日，消息未经证实。",
-          "summary_source": "llm"
+          "summary": "传闻小岛秀夫《OD》现身TGA2026 发售日遭泄露！。",
+          "summary_source": "rules"
         },
         {
           "name": "ONI 零～复活～",
           "count": 1,
-          "summary": "重制版定档2027年春季登陆Switch平台。",
-          "summary_source": "llm"
+          "summary": "经典平台游戏《ONI 零～复活～》重制版定档2027年春。",
+          "summary_source": "rules"
         },
         {
           "name": "PHYSINT",
           "count": 1,
-          "summary": "微软展示小岛新作面部动画测试，预示Project Helix主机在次世代渲染与AI图形技术上的实力。",
-          "summary_source": "llm"
+          "summary": "小岛秀夫+微软新主机！《PHYSINT》面部动画测试曝光。",
+          "summary_source": "rules"
         },
         {
           "name": "PUBG",
           "count": 1,
-          "summary": "43.1版本更新上线，新增踢击等全新玩法。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "WARDOGS",
-          "count": 1,
-          "summary": "抢先体验后口碑急转直下，在Steam遭遇大规模差评轰炸。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Warframe",
-          "count": 1,
-          "summary": "西安活动倒计时开启，9月版本上线在即，游戏拥有8500万注册玩家。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "inZOI（云族裔）",
-          "count": 1,
-          "summary": "将在9月12日至13日玩聚节上首次公开“Canvas小镇”内容。",
-          "summary_source": "llm"
+          "summary": "《PUBG》43.1版本更新 新增踢击等全新玩法。",
+          "summary_source": "rules"
         }
       ]
     },
