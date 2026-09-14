@@ -196,6 +196,7 @@ Vue 3.4 + Vite 5，无状态管理库、无 UI 框架，组件直接 `fetch` 对
   从仓库根目录 `data/` 读盘，build 时在 `closeBundle` 把 `data/` 整个拷进 `dist/data/`。
   所以采集脚本只管往仓库根 `data/` 写，不用关心 `web/` 结构。
 - 各数据源 `Promise.allSettled` 独立加载，一个文件挂掉只影响它自己那个 Tab。
+- 看板使用 `Vision Cursor White` 的 32px PNG 光标：普通区域为箭头、可点击控件和链接为手型、文本输入为 I 型。资源位于 `web/src/assets/cursors/`，由 Vite 在构建时一并处理；CSS 同时保留系统光标回退。
 - 「更新」按钮（`RefreshButton.vue`）**不触发采集**，只从 GitHub raw 拉 main 分支上已有的
   `data/*.json`（最多重试 3 次，空数组/空对象视为异常不覆盖页面）。成功后 2 小时冷却、
   失败 30 分钟冷却，状态存在 localStorage 的 `refresh:<storageKey>` 下。

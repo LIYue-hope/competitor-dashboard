@@ -20,6 +20,11 @@
   --shadow-1: 0 1px 2px rgba(16, 24, 40, .05);
   --shadow-2: 0 4px 12px -2px rgba(16, 24, 40, .08), 0 2px 4px -2px rgba(16, 24, 40, .04);
   --font: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  /* Vision Cursor White：32px 版本在常见缩放比例下清晰，也不会遮挡卡片内容。
+     坐标为素材实际热点；末尾关键字确保图片加载失败时仍保留可用的系统光标。 */
+  --cursor-default: url("./assets/cursors/vision-pointer.png") 0 0;
+  --cursor-link: url("./assets/cursors/vision-link.png") 0 0;
+  --cursor-text: url("./assets/cursors/vision-text.png") 16 16;
   --app-bar-h: 56px;
   /* 吸顶栏专用底色：磨砂要透出下方滚动的内容，所以不能直接用不透明的 --surface。
      不透明度别再往下调——低于 .7 时正文压在 tab 文字上会明显影响可读性。 */
@@ -69,11 +74,27 @@ body {
   font-family: var(--font);
   background: var(--bg);
   color: var(--text);
+  cursor: var(--cursor-default), default;
   -webkit-font-smoothing: antialiased;
 }
 
 a {
   color: inherit;
+  cursor: var(--cursor-link), pointer;
+}
+
+input:not([type="checkbox"]):not([type="radio"]),
+textarea,
+[contenteditable="true"] {
+  cursor: var(--cursor-text), text;
+}
+
+button,
+select,
+input[type="checkbox"],
+input[type="radio"],
+label[for] {
+  cursor: var(--cursor-link), pointer;
 }
 
 /* ============ 卡片 ============ */
@@ -170,7 +191,7 @@ a {
   border: none;
   background: none;
   border-radius: 999px;
-  cursor: pointer;
+  cursor: var(--cursor-link), pointer;
   color: var(--text-2);
   font-size: 13px;
   padding: 6px 14px;
@@ -629,14 +650,14 @@ mark { background: #fef0c7; color: inherit; border-radius: 2px; }
   padding: 0 12px;
   font-size: 13px;
   font-family: var(--font);
-  cursor: pointer;
+  cursor: var(--cursor-link), pointer;
   display: inline-flex;
   align-items: center;
   gap: 6px;
 }
 
 .icon-btn:hover:not(:disabled) { border-color: var(--brand); color: var(--brand); }
-.icon-btn:disabled { cursor: default; opacity: .6; }
+.icon-btn:disabled { cursor: var(--cursor-default), default; opacity: .6; }
 
 /* ============ 加载 / 空 / 错误三态 ============ */
 .skel {

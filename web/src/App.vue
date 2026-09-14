@@ -695,7 +695,7 @@ const NEWS_FILES = [
   font-size: 14px;
   font-family: var(--font);
   color: var(--text-2);
-  cursor: pointer;
+  cursor: var(--cursor-link), pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -712,7 +712,7 @@ const NEWS_FILES = [
   border-radius: var(--r-sm);
   background: none;
   color: inherit;
-  cursor: pointer;
+  cursor: var(--cursor-link), pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -728,7 +728,7 @@ const NEWS_FILES = [
   border-radius: var(--r-sm);
   background: none;
   color: var(--text-3);
-  cursor: pointer;
+  cursor: var(--cursor-link), pointer;
   font-size: 21px;
   line-height: 1;
   transition: transform .15s ease, color .12s, background .12s;
@@ -737,7 +737,7 @@ const NEWS_FILES = [
 .rail-toggle.expanded { transform: rotate(90deg); }
 .rail-btn:has(.rail-main.active) { background: var(--brand-weak); color: var(--brand); font-weight: 600; }
 .rail-subnav { display: grid; gap: 2px; padding: 3px 4px 6px 20px; }
-.rail-subnav button { border: none; border-radius: var(--r-sm); background: none; color: var(--text-2); cursor: pointer; padding: 6px 8px; font: 12px var(--font); text-align: left; }
+.rail-subnav button { border: none; border-radius: var(--r-sm); background: none; color: var(--text-2); cursor: var(--cursor-link), pointer; padding: 6px 8px; font: 12px var(--font); text-align: left; }
 .rail-subnav button:hover, .rail-subnav button:focus-visible { color: var(--brand); background: var(--brand-weak); }
 .rail-subnav button.active { color: var(--brand); opacity: .68; font-weight: 600; }
 .section-anchor { scroll-margin-top: calc(var(--app-bar-h) + 16px); }
