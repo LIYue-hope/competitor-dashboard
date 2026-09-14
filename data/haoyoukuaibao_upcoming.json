@@ -1,30 +1,9 @@
 {
-  "crawled_at": "2026-09-12T23:57:01.169031+00:00",
+  "crawled_at": "2026-09-14T00:03:02.881329+00:00",
   "days": [
     {
-      "date": "2026-09-12",
-      "date_label": "09月12日 昨天",
-      "games": [
-        {
-          "game_name": "勇士之心",
-          "categories": [
-            "闯关",
-            "动作",
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/197162.htm",
-          "publisher": "广州亿梦科技有限公司",
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-14",
-      "date_label": "09月14日 明天",
+      "date_label": "09月14日 今天",
       "games": [
         {
           "game_name": "燃烧纪元",
@@ -38,7 +17,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/184564.htm",
           "publisher": null,
-          "reservation_count": "522",
+          "reservation_count": "546",
           "has_afk_grinding_tag": true
         },
         {
@@ -53,7 +32,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/203409.htm",
           "publisher": "成都有明堂互动科技有限公司",
-          "reservation_count": "34",
+          "reservation_count": "38",
           "has_afk_grinding_tag": false
         },
         {
@@ -68,14 +47,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/147972.htm",
           "publisher": null,
-          "reservation_count": "7161",
+          "reservation_count": "7210",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-15",
-      "date_label": "09月15日 后天",
+      "date_label": "09月15日 明天",
       "games": [
         {
           "game_name": "阿瑞斯：钢铁先锋",
@@ -89,7 +68,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/198129.htm",
           "publisher": "Com2uS Holdings",
-          "reservation_count": "410",
+          "reservation_count": "596",
           "has_afk_grinding_tag": false
         },
         {
@@ -104,7 +83,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/184564.htm",
           "publisher": null,
-          "reservation_count": "522",
+          "reservation_count": "546",
           "has_afk_grinding_tag": true
         },
         {
@@ -119,7 +98,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/185354.htm",
           "publisher": "中顺和盈",
-          "reservation_count": "10376",
+          "reservation_count": "10390",
           "has_afk_grinding_tag": false
         },
         {
@@ -149,15 +128,30 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/147972.htm",
           "publisher": null,
-          "reservation_count": "7161",
+          "reservation_count": "7210",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-16",
-      "date_label": "09月16日 下周三",
+      "date_label": "09月16日 后天",
       "games": [
+        {
+          "game_name": "闪耀吧！噜咪",
+          "categories": [
+            "抓宠",
+            "卡牌",
+            "放置"
+          ],
+          "score": "9.4",
+          "event_desc": "10:00 预下载，9月17日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/191535.htm",
+          "publisher": null,
+          "reservation_count": null,
+          "has_afk_grinding_tag": true
+        },
         {
           "game_name": "伊莫-9月23日上线",
           "categories": [
@@ -185,7 +179,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/185354.htm",
           "publisher": "中顺和盈",
-          "reservation_count": "10376",
+          "reservation_count": "10390",
           "has_afk_grinding_tag": false
         },
         {
@@ -200,7 +194,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/197403.htm",
           "publisher": null,
-          "reservation_count": "498",
+          "reservation_count": "506",
           "has_afk_grinding_tag": false
         },
         {
@@ -237,7 +231,7 @@
     },
     {
       "date": "2026-09-17",
-      "date_label": "09月17日 下周四",
+      "date_label": "09月17日 周四",
       "games": [
         {
           "game_name": "闪耀吧！噜咪",
@@ -250,8 +244,8 @@
           "event_desc": "正式上线，具体几点待定",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/191535.htm",
-          "publisher": "bilibili游戏",
-          "reservation_count": "29218",
+          "publisher": null,
+          "reservation_count": null,
           "has_afk_grinding_tag": true
         },
         {
@@ -266,7 +260,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/197403.htm",
           "publisher": null,
-          "reservation_count": "498",
+          "reservation_count": "506",
           "has_afk_grinding_tag": false
         },
         {
@@ -281,7 +275,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/203089.htm",
           "publisher": "心橙创意",
-          "reservation_count": "56",
+          "reservation_count": "54",
           "has_afk_grinding_tag": false
         },
         {
@@ -296,14 +290,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/203127.htm",
           "publisher": "C&P",
-          "reservation_count": "34",
+          "reservation_count": "36",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-18",
-      "date_label": "09月18日 下周五",
+      "date_label": "09月18日 周五",
       "games": [
         {
           "game_name": "大小姐回避2",
@@ -318,6 +312,63 @@
           "detail_url": "https://www.3839.com/a/201318.htm",
           "publisher": "GlobalGear Co. Ltd.",
           "reservation_count": "94",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "date_label": "09月19日 周六",
+      "games": [
+        {
+          "game_name": "龙吟山海",
+          "categories": [
+            "MMO",
+            "即时战斗",
+            "仙侠"
+          ],
+          "score": null,
+          "event_desc": "00:00 预下载，10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/198193.htm",
+          "publisher": "长沙卡雷豆科技有限公司",
+          "reservation_count": "82",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "date_label": "09月20日 周日",
+      "games": [
+        {
+          "game_name": "英雄防线",
+          "categories": [
+            "塔防",
+            "Roguelike",
+            "策略"
+          ],
+          "score": "8.6",
+          "event_desc": "11:00 预下载，9月21日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/186656.htm",
+          "publisher": "三狸网络",
+          "reservation_count": "1138",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "蜀山幻想志",
+          "categories": [
+            "卡牌",
+            "仙侠",
+            "策略"
+          ],
+          "score": null,
+          "event_desc": "10:00 预下载，9月21日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/190170.htm",
+          "publisher": "广州市手心网络科技有限公司",
+          "reservation_count": "124",
           "has_afk_grinding_tag": false
         }
       ]

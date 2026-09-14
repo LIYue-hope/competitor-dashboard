@@ -1,52 +1,171 @@
 {
-  "generated_at": "2026-09-13T00:07:35.351415+00:00",
+  "generated_at": "2026-09-14T00:11:57.530987+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-12",
-      "article_count": 41,
-      "game_count": 26,
-      "untagged_count": 10,
-      "digest": "今日游戏资讯聚焦于《GTA6》泄露风波与Netflix独家展示带来的用户增长，以及《塞尔达传说：时之笛RE》与《最终幻想》40周年的重磅公布。此外，《巫师3》重制版保留经典Bug、Polyarc工作室宣布关停、以及《42中队》众筹破十亿美元却延期发售等消息也引发广泛关注。",
+      "date": "2026-09-13",
+      "article_count": 26,
+      "game_count": 22,
+      "untagged_count": 3,
+      "digest": "9月13日游戏行业资讯聚焦于《漫威金刚狼》发售前的偷跑差评风波与官方辟谣，以及暴雪嘉年华2026的开幕。此外，Saber Interactive透露《星际战士2》开发策略，任天堂就《幻兽帕鲁》专利提起申诉，多款大作如《巫师3》DLC、VR战士5 R.E.V.O.及《暗黑4》合集均有新动态。",
       "digest_source": "llm",
-      "input_hash": "cd82b70a8947d357",
+      "input_hash": "639722baf0f47ef1",
+      "game_digests": [
+        {
+          "name": "漫威金刚狼",
+          "count": 2,
+          "summary": "发售前遭偷跑玩家差评，痛批战斗重复、关卡线性且技能树敷衍，引发社区广泛关注；官方随后澄清金刚狼与剑齿虎无恋爱关系，未采用漫画银狐剧情。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 1,
+          "summary": "西班牙家乐福超市在未获授权情况下循环播放4K画质预告，引发病毒式传播，甚至有顾客专程进店为游戏发售挑选新电视。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "P4R",
+          "count": 1,
+          "summary": "PAX West展会上《女神异闻录4 Revival》与《最终幻想7：启示》开发团队同框合影，Atlus官方分享后引爆玩家社区，众人疯狂许愿两大JRPG联动。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "PHYSINT",
+          "count": 1,
+          "summary": "据业内人士透露，小岛工作室开发的动作谍报游戏《PHYSINT》在遭索尼放弃后，可能无法继续使用Decima引擎。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "VR战士5 R.E.V.O. 世界舞台",
+          "count": 1,
+          "summary": "经典格斗新作《VR战士5 R.E.V.O. 世界舞台》加入XGP，媒体评分78分，仅限指定订阅档位。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "X战警",
+          "count": 1,
+          "summary": "据泄露文件显示，失眠组正筹备一款以《X战警》宇宙为背景的3A级动作游戏，计划在《漫威金刚狼》发售后无缝衔接，预算或超6亿美元，剑指PS6独占。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "垃圾日",
+          "count": 1,
+          "summary": "物理合作冒险游戏《垃圾日》定档10月14日登陆Steam，支持单人及六人联机，依托真实物理玩法搜集物资、推车闯关。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 1,
+          "summary": "《巫师3》DLC《旧时曲》实装杰洛特锁链武器，该构想早在11年前因技术受限被砍，如今CDPR攻克难题，完美还原原著设定。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "幻兽帕鲁",
+          "count": 1,
+          "summary": "任天堂不服《幻兽帕鲁》相关专利被驳回，正式提起申诉，双方由此展开专利大战。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "弹丸论破2x2",
+          "count": 1,
+          "summary": "Spike Chunsoft公布PC版配置要求，推荐配置高达RTX 4070显卡与32GB内存，引发玩家对游戏优化水平的强烈质疑。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "无主之地4",
+          "count": 1,
+          "summary": "《无主之地4》于9月10日推出全新DLC秘藏猎人“骇客无爱”，版本更新后游戏重新冲上Steam畅销榜前十。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星际争霸",
+          "count": 1,
+          "summary": "暴雪嘉年华2026开幕，正式官宣《星际争霸》新作，定位为开放世界射击游戏，计划于2030年推出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星际战士2",
+          "count": 1,
+          "summary": "开发商Saber Interactive高管揭秘，放弃高成本的北美开发转至欧洲，直言北美3A工作室月烧钱超200万美元难以为继，实现了远超传统大厂的商业回报。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑4",
+          "count": 1,
+          "summary": "暴雪确认《暗黑破坏神4》不再追加扩展包，团队将全力转向《暗黑破坏神5》开发，表示“憎恨之故事”已画上句号。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑破坏神4：憎恨时代合集",
+          "count": 1,
+          "summary": "暴雪宣布该合集将于9月15日登陆任天堂Switch 2平台，eShop美区定价69.99美元。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "article_count": 53,
+      "game_count": 30,
+      "untagged_count": 14,
+      "digest": "9月12日游戏资讯聚焦于《GTA6》泄露素材持续发酵及Netflix独家展示带来的10万美国新用户增长，同时《漫威金刚狼》发售前夕评分解禁引发争议，而《塞尔达传说：时之笛RE》与《巫师3》重制版则因实体版封面、经典Bug保留及DLC定位成为讨论热点。",
+      "digest_source": "llm",
+      "input_hash": "f06d4336d0c864eb",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 4,
-          "summary": "R星联合工作室负责人罗布·纳尔逊坦诚预告片发布时游戏尚未完全成形，Netflix独家展示带来10万美国新用户，泄露素材持续发酵。",
+          "count": 5,
+          "summary": "泄露素材持续发酵，一段“裸体小镇”片段引发玩家对佛州基西米的溯源讨论，同时Netflix 6小时独家窗口带来的27分钟加长版玩法展示，为R星换来了超过10万名美国新注册用户。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 3,
+          "summary": "IGN给出6分，M站均分78分，战斗演出获认可但玩法与关卡设计受批评，官方澄清气味追踪特效并非全程显示，预售热度高涨且榜单排名反超《GTA6》。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛RE",
           "count": 2,
-          "summary": "日本线下渠道已摆出Switch2实体包装，任天堂确认将于2026年11月5日发售，并公开了4K官方截图。",
+          "summary": "日本线下渠道已摆出实体包装，盒背宣传语“跨越时间，少年成长为英雄”引发好评，任天堂在40周年直面会上确认将于11月5日发售，并公开了4K官方截图。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 2,
+          "summary": "重制版保留经典Bug萝卜，玩家可在“新版优化萝卜”和“原版Bug萝卜”之间自由选择，总监透露新DLC“旧时曲”依托重制版技术升级开发，两项项目开发深度绑定。",
           "summary_source": "llm"
         },
         {
           "name": "最终幻想",
           "count": 2,
-          "summary": "史克威尔艾尼克斯推出包含180种卡牌的40周年纪念卡包，定于2027年1月8日发售，东京国立博物馆表庆馆也将举办相关特展。",
+          "summary": "史克威尔艾尼克斯推出“SQUARE ENIX GALLERY CARDS”收藏卡牌系列，全系列共180种卡牌、97种插画，定于2027年1月8日发售，并将在东京国立博物馆表庆馆举办40周年特展。",
           "summary_source": "llm"
         },
         {
           "name": "42中队",
           "count": 1,
-          "summary": "众筹已超10亿美元、开发逾十二年的《星际公民：42中队》发售窗口推迟至2027年第二季度，玩家对Bug频出的开发者直播怨声载道。",
+          "summary": "众筹超过10亿美元、开发约十二年，CIG宣布将其发售窗口推迟至2027年第二季度，此前一场Bug频出的开发者直播已让玩家社区怨声载道。",
           "summary_source": "llm"
         },
         {
           "name": "Moss",
           "count": 1,
-          "summary": "知名VR游戏开发商Polyarc正式宣布关闭，结束近12年开发历程，工作室近期刚推出新作《Moss：被遗忘的遗物》。",
+          "summary": "知名VR游戏开发商Polyarc正式宣布关闭，结束近12年游戏开发历程，该工作室近期刚推出新作《Moss：被遗忘的遗物》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "PHYSINT",
+          "count": 1,
+          "summary": "索尼撤出后，小岛工作室《PHYSINT》大概率无法使用Decima引擎，前期工作难以复用，项目存在延期可能，替代方案尚未敲定。",
           "summary_source": "llm"
         },
         {
           "name": "剑星",
           "count": 1,
-          "summary": "官方披露与《猎天使魔女》的联动新服装截图，展示出主角皮衣加持下的完美身体曲线。",
+          "summary": "官方披露与《猎天使魔女》的联动新装，皮衣加持下展示出主角完美的身体曲线。",
           "summary_source": "llm"
         },
         {
@@ -58,49 +177,31 @@
         {
           "name": "古神：风里希",
           "count": 1,
-          "summary": "国产神话ARPG《古神：风里希》基于虚幻5引擎打造，旨在重塑中式创世题材体验。",
+          "summary": "GameSpark披露本作由Genigods Lab基于虚幻5引擎打造，意在《黑神话：悟空》开辟的赛道之上，公开了复刻后羿射日等大量开发细节。",
           "summary_source": "llm"
         },
         {
           "name": "合金弹头 终极版合集",
           "count": 1,
-          "summary": "《合金弹头》系列30周年纪念合集现已公布，定于2027年登陆多平台，PS5商店页面已上线。",
+          "summary": "《合金弹头》系列30周年纪念合集现已公布，定于2027年登陆Switch、Switch 2、PS5、Xbox Series X|S及Steam平台，PS5商店页面已正式上线。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛",
           "count": 1,
-          "summary": "任天堂正式官宣重制版，保留原作核心框架，针对操作、镜头、指引、场景及语音系统全面革新。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 1,
-          "summary": "《巫师3：狂猎》重制版保留经典Bug切换功能，玩家可在“新版优化萝卜”和“原版Bug萝卜”之间自由选择。",
+          "summary": "新作保留原作核心框架，针对操作、镜头、指引、场景及语音系统全面革新，加入多款现代化功能，在保留经典底蕴的同时适配当代玩家游玩习惯。",
           "summary_source": "llm"
         },
         {
           "name": "异度装甲",
           "count": 1,
-          "summary": "玩家自制重制作品上线PC，采用新引擎现代化翻新画面，兼顾原版经典画幅与剧情内核。",
+          "summary": "玩家自制重制作品上线PC，采用新引擎现代化翻新画面，兼顾原版经典画幅与剧情内核，目前仍在开发阶段。",
           "summary_source": "llm"
         },
         {
-          "name": "无主之地4",
+          "name": "战狗",
           "count": 1,
-          "summary": "发售一周年之际推出新故事包DLC，新秘藏猎人“黑客无爱”因外观设计大胆迅速成为讨论焦点。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "无人深空",
-          "count": 1,
-          "summary": "PC VR版本实装眼动追踪渲染技术，通过捕捉玩家视线降低外围画面渲染精度，减轻VR高分辨率双目渲染压力。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想7：启示",
-          "count": 1,
-          "summary": "据消息人士透露，本作主线时长为35小时，全收集时长为100小时。",
+          "summary": "Steam抢先体验首发销量破百万，虽画质普通、存在bug，但开发团队真诚负责、善待玩家，凭良心运营在一众翻车3A中成功出圈。",
           "summary_source": "llm"
         }
       ]
@@ -808,208 +909,6 @@
           "name": "影子传说",
           "count": 1,
           "summary": "正式登陆PS5，港服定价62港币，日服定价800日元（约合人民币33元）。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "article_count": 121,
-      "game_count": 65,
-      "untagged_count": 31,
-      "digest": "今日游戏资讯聚焦于《最终幻想7：启示》因D加密引发争议，卡普空重启作《鬼武者：剑之道》发售首日频发故障，索尼State of Play发布会公布《GTA6》限定手柄及多款新作定档，同时《漫威金刚狼》因角色建模设计引发玩家热议。",
-      "digest_source": "llm",
-      "input_hash": "68868499ae6b89e4",
-      "game_digests": [
-        {
-          "name": "最终幻想7：启示",
-          "count": 5,
-          "summary": "Square Enix确认PC版将搭载Denuvo防篡改技术，引发玩家对3A大作依赖D加密的不满。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 4,
-          "summary": "索尼State of Play发布会公布两款以“罪恶都市”为灵感的限定版DualSense手柄，引发玩家热议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 4,
-          "summary": "卡普空重启作今日登陆Steam，因严重启动故障与功能缺失，好评率仅61%，官方尚未发布修复方案。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7：启示",
-          "count": 3,
-          "summary": "官方确认游戏将于2027年4月8日发售，作为系列三部曲的完结篇正式定档。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Fate",
-          "count": 3,
-          "summary": "《Fate/EXTRA 重制版》开启预购：PS版售价388港币！；“月之圣杯战争”再启！《Fate/EXTRA Record》官宣2027年1月28日发售；圣杯战争再临！《Fate/Extra》重制版定档27年1月。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 3,
-          "summary": "Insomniac公开新预告展示狼叔战斗风格，但新版魔形女建模因偏离经典人设引发玩家吐槽。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "红色沙漠",
-          "count": 3,
-          "summary": "Pearl Abyss公布付费DLC“未知征途”将于10月16日发售，Steam国区预购价为108元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "高达：异轨征途",
-          "count": 3,
-          "summary": "万代南梦宫公布新作预告，确认将于2027年3月5日登陆PS5、Xbox Series X|S及PC平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 3,
-          "summary": "Rebel Wolves推送1.0.2热修复补丁，修复三大任务Bug，同时玩家Mod已将30天限时机制延长至90天。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "地铁2039",
-          "count": 2,
-          "summary": "4A Games确认本作在PS5、PS5 Pro及XSX上首发即支持光追4K/60帧性能模式，定档2027年2月4日。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想：共鸣",
-          "count": 2,
-          "summary": "史克威尔艾尼克斯公布HD-2D回合制RPG新作，试玩版上线约4.8GB，确认10月22日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "食人鲨2",
-          "count": 2,
-          "summary": "Steam商店页D加密标签突然消失，引发玩家猜测开发商是否听取了反馈改变主意。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FINAL FANTASY VII REVELATION",
-          "count": 1,
-          "summary": "《FINAL FANTASY VII REVELATION》确定于 2027 年 4 月 8 日（四）上市！系列三部曲，迎来完结。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GTAOL",
-          "count": 1,
-          "summary": "R星主创马特·弗里德曼透露，团队在开发初期曾集体唱衰《GTA Online》，认为其必将失败。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GT赛车",
-          "count": 1,
-          "summary": "小米成为Vision Gran Turismo项目史上首个中国品牌，为《GT赛车7》打造纯电概念超跑。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-03",
-      "article_count": 117,
-      "game_count": 82,
-      "untagged_count": 12,
-      "digest": "万代南梦宫与Rebel Wolves联合推出的黑暗奇幻开放世界动作RPG《黎明行者之血》今日正式发售，Steam好评率仅为58%，且因未搭载Denuvo加密，上线不久后便现身盗版网站。CDPR在科隆游戏展上宣布《巫师》系列总销量突破9000万份，并公布了未来三年的战略路线图。此外，卡普空针对《龙之信条2》PS5版存档异常发布紧急修复公告，而任天堂独占双人合作冒险游戏《轨道双子星》今日正式登陆Switch 2平台。",
-      "digest_source": "llm",
-      "input_hash": "ee5c9fbdb4705590",
-      "game_digests": [
-        {
-          "name": "黎明行者之血",
-          "count": 7,
-          "summary": "《黎明行者之血》Steam评价褒贬不一，好评率仅为58%，PC版盗版资源也随即现身各大资源网站。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 6,
-          "summary": "《GTA6》的战斗系统迎来颠覆性改动，战斗期间将彻底隐藏小地图上的敌人位置，并默认采用自由瞄准模式，枪械后坐力大幅提升。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师",
-          "count": 3,
-          "summary": "CDPR联合CEO米哈尔·诺瓦科夫斯基披露了《巫师》宇宙至2028年的战略路线图，未来三年将连续推出三部体量超越前作的重磅新作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "龙之信条2",
-          "count": 3,
-          "summary": "外媒WccfTech在科隆游戏展试玩后评价，最新DLC“黑暗觉者”修复了续作最大缺陷，但战斗仍会频繁与玩家争夺控制权。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影：亚特兰蒂斯遗迹",
-          "count": 2,
-          "summary": "由Flying Wild Hog开发、Crystal Dynamics监制的《古墓丽影：亚特兰蒂斯遗迹》进行了闭门媒体演示，首批反馈并不乐观。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "堡垒之夜",
-          "count": 2,
-          "summary": "《堡垒之夜》推出《起义》专属地图，让玩家在电影上映前，沉浸式体验1381年英格兰农民起义的史诗战场。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 2,
-          "summary": "CDPR联合CEO米哈尔·诺瓦科夫斯基透露，《巫师3》全新付费DLC《旧时曲》的诞生纯属“意外”，该DLC将于2027年发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "热血无赖",
-          "count": 2,
-          "summary": "《热血无赖》前设计师透露，续作并非完全不可能，但需要“行星连珠”般的天时地利，且开发预算、团队配置与目标市场必须同时就位。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "百日战纪",
-          "count": 2,
-          "summary": "《百日战纪：最终防卫学园》战斗总监户田一宏透露，游戏的SRPG战斗系统设计理念是“火焰纹章的完全反面”，角色牺牲越多全队越强。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "赛博朋克2",
-          "count": 2,
-          "summary": "CDPR员工总数已突破千人，高层透露已公布的项目并非全部，赛博朋克宇宙还有更多惊喜。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "轨道双子星",
-          "count": 2,
-          "summary": "独立团队Shapefarm开发、Kepler Interactive发行的复古动漫风双人合作冒险游戏《轨道双子星》今日正式发售，独占登陆Nintendo Switch 2平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 2,
-          "summary": "外媒Radio Times给《鬼武者：剑之道》打出满分评价，称自《只狼：影逝二度》以来还没有哪款游戏的战斗系统能带来同等分量的震撼感。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "007：初露锋芒",
-          "count": 1,
-          "summary": "国外玩家放出《007：初露锋芒》NPC的DLSS5开关对比视频，测试为修改版本，认为技术提升真实，未来原生适配会贴合各游戏美术风格。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Another Eden Begins",
-          "count": 1,
-          "summary": "Wright Flyer Studios宣布时间旅行RPG《Another Eden Begins》免费试玩版已于2026年9月2日（星期三）23:00起正式上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "CS2",
-          "count": 1,
-          "summary": "一款第三方《CS2》追踪网站新增侮辱性词汇统计功能，为恶性歧视词汇设立排行榜，引发社区巨大争议。",
           "summary_source": "llm"
         }
       ]
