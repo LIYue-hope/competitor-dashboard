@@ -1,89 +1,202 @@
 {
-  "generated_at": "2026-09-14T00:10:53.968357+00:00",
+  "generated_at": "2026-09-15T00:39:28.690649+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-14",
-      "article_count": 14,
-      "game_count": 12,
+      "date": "2026-09-15",
+      "article_count": 16,
+      "game_count": 14,
       "untagged_count": 1,
-      "digest": "今日3DMGame新闻总计14条，涉及游戏数量达12款。具体包括《暗黑破坏神4》、《GTA6》、《一盏秋声：锦衣卫》、《不问凡尘》、《古神：风里希》、《塞尔达传说：时之笛》、《大神》、《无主之地4》、《暗黑破坏神5》、《生化危机9》和《编年史：中世纪》。这些游戏涵盖了动作、角色扮演、策略等多种类型，展现了当前游戏行业的多元化发展。详细内容：《暗黑破坏神4》**：发布野蛮人获得杰洛特主题外观的联动活动，同时宣布PC版将支持Steam预购。《GTA6》**：前V社开发者Chet Faliszek表示，R星的玩家粘性极高，暗示新作可能难以吸引玩家。《一盏秋声：锦衣卫》**：IGN评出新预告，强调其战斗机制与经典武侠电影《卧虎藏龙》相似。《不问凡尘》**：国产修仙大作，提供丰富的AI互动体验，首发于9月22日。《塞尔达传说：时之笛》**：Switch2独占版本公布，强调画面和玩法的全面革新。《大神》**：《大神》新作开发理念与卡普空高度一致，团队规模显著扩大。《无主之地4》**：更新了DLC“秘藏猎人无爱”，并提升了玩家数量。《暗黑破坏神5》**：首批概念艺术图公布，预计2029年春季发售。《生化危机9》**：推出主角艾达王的紧身战术风格服装Mod。《编年史：中世纪》**：融合全战指挥+骑砍式动作，计划2027年初上线PC平台。《英雄联盟》**：T1冠军卡牌签名版被炒至高价，引发市场关注。",
+      "digest": "今日游戏行业资讯聚焦于多款重磅新作的开发动态与发售调整，R星详解《GTA6》如何通过“时代时间胶囊”策略应对讽刺内容的时效性挑战；科乐美公布《游戏王 Tag Force GX》Steam预购开启售价198元；育碧确认《雷曼传奇：重制版》延期至12月3日发售。此外，暴雪宣布《暗黑破坏神5》立项原因及战网不会对标Steam；世嘉与Netflix达成多项改编合作；网易《无限大》公布主城重霄；KING Art Games公布《战锤40K：战争黎明4》战报演示并优化太空死灵机制；Arkane前创意总监反思《红霞岛》开发失误；Creative Assembly详解《全面战争：战锤40K》太阳系战役结构；Polygon盛赞《最终幻想7：启示》规模是前作50万倍；光荣特库摩公布《卧龙2：凤火连天》主角与庞统立绘；任天堂《塞尔达：时之笛 重制版》因城下町设计被指与《原神》相似引发争议；世嘉与Netflix推进《刺猬索尼克》新动画及电影改编；Square Enix公布《皇牌空战8：希孚之翼》剧情预告。",
       "digest_source": "llm",
-      "input_hash": "11144af9df8449f7",
+      "input_hash": "7a1ad044d83bc9a9",
       "game_digests": [
         {
-          "name": "暗黑破坏神4",
-          "count": 2,
-          "summary": "《暗黑破坏神4》野蛮人获得杰洛特主题外观 但暴雪战网独占；《暗黑破坏神4》迪卡·凯恩将以正史身份回归 亚马逊标枪数量无限制。",
-          "summary_source": "rules"
-        },
-        {
           "name": "GTA6",
-          "count": 1,
-          "summary": "前V社开发者：《GTA6》很难让玩家从GTAOL中转投过来。",
-          "summary_source": "rules"
+          "count": 2,
+          "summary": "R星开发主管罗布·纳尔逊详解本作社会讽刺内容的取舍思路，表示团队不能追逐短期热点，目标将《GTA6》打造成留存十年、二十年的“时代时间胶囊”。",
+          "summary_source": "llm"
         },
         {
-          "name": "一盏秋声：锦衣卫",
+          "name": "全面战争：战锤40K",
           "count": 1,
-          "summary": "IGN评《一盏秋声：锦衣卫》：类魂武侠 明末谍战题材潜力十足。",
-          "summary_source": "rules"
+          "summary": "Creative Assembly在科隆游戏展提供试玩，游戏将单场战役活动范围集中在一个太阳系内，团队希望玩家贴近具体世界又不会产生抽象感。",
+          "summary_source": "llm"
         },
         {
-          "name": "不问凡尘",
+          "name": "刺猬索尼克",
           "count": 1,
-          "summary": "国产修仙大作《不问凡尘》新预告 9月22日发售。",
-          "summary_source": "rules"
+          "summary": "世嘉与Netflix达成新合作，将制作另一部《刺猬索尼克》动画剧集，并改编《疯狂出租车》和《异于天堂》电影，剧本由《白头神探》重启版编剧执笔。",
+          "summary_source": "llm"
         },
         {
-          "name": "古神：风里希",
+          "name": "卧龙2：凤火连天",
           "count": 1,
-          "summary": "《古神：风里希》深受战神启发 与索尼PS合作。",
-          "summary_source": "rules"
+          "summary": "光荣特库摩公布主角立绘，主角为一名故乡被毁的无名武者，官方使用中性代词“TA”表明可自由选择性别，核心人物庞统形象也同步公开。",
+          "summary_source": "llm"
         },
         {
-          "name": "塞尔达传说：时之笛",
+          "name": "塞尔达：时之笛 重制版",
           "count": 1,
-          "summary": "《塞尔达传说：时之笛》三版本林克塞尔达形象对比。",
-          "summary_source": "rules"
+          "summary": "任天堂公布实机演示后，外网玩家将重制版城下町与《原神》蒙德城对比，指责任天堂抄袭蒙德美学，但争议核心在于两者均取材自德国古镇风貌。",
+          "summary_source": "llm"
         },
         {
-          "name": "大神",
+          "name": "战锤40K：战争黎明4",
           "count": 1,
-          "summary": "神谷英树称《大神》新作开发理念与卡普空高度一致。",
-          "summary_source": "rules"
+          "summary": "KING Art Games公布战报演示，展示多人玩法内容，开发组已根据社区反馈对太空死灵核心机制“力量矩阵”进行修改优化。",
+          "summary_source": "llm"
         },
         {
-          "name": "无主之地4",
+          "name": "无限大",
           "count": 1,
-          "summary": "《无主之地4》新美女角色太顶 玩家感慨终于回归正轨。",
-          "summary_source": "rules"
+          "summary": "网易都市开放世界RPG《无限大》公布主城重霄，城市设计融合上海、杭州风貌，官方表示每座城市将提供不少于100小时游玩内容，游戏将于2027年1月15日全球同步上线。",
+          "summary_source": "llm"
         },
         {
           "name": "暗黑破坏神5",
           "count": 1,
-          "summary": "《暗黑破坏神5》首批概念艺术图公布 2029年春季发售。",
-          "summary_source": "rules"
+          "summary": "暴雪决定制作《暗黑破坏神5》而非资料片，高级制作总监Tiffany Wat表示新作需要对游戏结构进行深层调整，现有资料片框架难以承载这些改动。",
+          "summary_source": "llm"
         },
         {
-          "name": "生化危机9",
+          "name": "暴雪战网",
           "count": 1,
-          "summary": "《生化危机9》艾达王服装Mod 穿紧身衣显身材。",
-          "summary_source": "rules"
+          "summary": "暴雪平台负责人Andrew Guerrero表示战网不会成为Steam、Epic那样的开放式第三方游戏发行平台，不会上线自助上架工具，仅执行高标准人工筛选。",
+          "summary_source": "llm"
         },
         {
-          "name": "编年史：中世纪",
+          "name": "最终幻想7：启示",
           "count": 1,
-          "summary": "《编年史：中世纪》融合全战指挥+骑砍式动作 2027年上线。",
-          "summary_source": "rules"
+          "summary": "外媒Polygon试玩后称赞本作规模是《最终幻想7：重生》50万倍，试玩章节展示了飞空艇“疾风号”及朱诺、贡加加等经典区域。",
+          "summary_source": "llm"
         },
         {
-          "name": "英雄联盟",
+          "name": "游戏王 Tag Force GX",
           "count": 1,
-          "summary": "《英雄联盟》T1冠军卡牌签名版被炒 疯狂涨价。",
-          "summary_source": "rules"
+          "summary": "科乐美公布PSP《游戏王 GX 卡片力量3》现代重制作品，本作将于2027年2月16日发售，Steam国区售价198元，收录3800张以上卡牌。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "皇牌空战8：希孚之翼",
+          "count": 1,
+          "summary": "本作公布剧情预告及原创战机FA-36“Game”，故事背景设定在2029年，玩家扮演从救生筏获救的飞行员，以“希孚之翼”身份对抗索托亚共和国。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "红霞岛",
+          "count": 1,
+          "summary": "Arkane Austin前创意总监Harvey Smith反思项目，直言团队当初不该开发服务型游戏，认为项目类型超出了团队原本擅长的沉浸式模拟领域。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "雷曼传奇：重制版",
+          "count": 1,
+          "summary": "育碧确认游戏已完成开发，但发售时间从10月1日推迟至12月3日，团队决定投入更多时间确保各项细节得到充分处理。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "article_count": 86,
+      "game_count": 61,
+      "untagged_count": 7,
+      "digest": "今日游戏行业资讯聚焦于《侠盗猎车手6》迈阿密广告获批及《暗黑破坏神5》剧情细节曝光，同时《漫威金刚狼》因评分低恐无缘TGA提名。此外，小岛新作《Physint》传闻转投Xbox，暴雪《魔兽世界：无限》加入手柄支持，国产游戏《一盏秋声：锦衣卫》获IGN好评。",
+      "digest_source": "llm",
+      "input_hash": "d2388f33a7caf221",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 8,
+          "summary": "迈阿密海滩市议会以4比3批准《侠盗猎车手6》城市广告活动，Rockstar投入300万美元，活动计划从10月15日持续至2026年年底。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑破坏神5",
+          "count": 4,
+          "summary": "《暗黑破坏神5》将于2029年春季发售，暴雪透露主角与迪亚波罗之间存在特殊纽带，游戏开场时庇护之地已沦陷，玩家需组建商队探索。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "怪物猎人：荒野",
+          "count": 3,
+          "summary": "卡普空公布《怪物猎人：荒野》大型扩展“凌越”斩斧强化动作演示，该扩展计划于2027年推出，游戏现已登陆PS5、Xbox Series及Steam平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星际争霸",
+          "count": 3,
+          "summary": "暴雪正在开发的《星际争霸》新作将是一款叙事驱动的开放世界射击游戏，项目负责人确认游戏拥有完整故事与明确结局，不会采用服务型或赛季制。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "侠盗猎车手6",
+          "count": 2,
+          "summary": "《侠盗猎车手6》故事发生在虚构的莱昂尼达州，该地区的创作原型与迈阿密存在密切联系，当地已批准开展城市广告活动。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑破坏神4",
+          "count": 2,
+          "summary": "《暗黑破坏神4》野蛮人将获得《巫师3》主角白狼杰洛特的主题外观，该外观仅向通过暴雪战网购买指定资料片的玩家提供，Steam版玩家无法获得。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 2,
+          "summary": "《漫威金刚狼》Metacritic评分暂为78分，Polygon将其称为“PS5时代最令人失望的作品”，游戏很可能无缘2026年TGA年度游戏提名。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界：无限",
+          "count": 2,
+          "summary": "暴雪将在《魔兽世界：无限》中加入完善的官方手柄支持，开发团队明确表示该功能并非为近期登陆主机或掌机所准备。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Cyan Heart",
+          "count": 1,
+          "summary": "自拍视角恐怖探索解谜冒险游戏《Cyan Heart》将于2026年10月9日登陆Steam，售价为1300日元，正式版加入了新的行动辅助系统。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "DARK MACHINE THE GAME",
+          "count": 1,
+          "summary": "机甲动作射击游戏《DARK MACHINE THE GAME》确认参展2026年东京电玩展，展位将开放最多支持7对7对战的TGS限定实机试玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Physint",
+          "count": 1,
+          "summary": "小岛秀夫新作《Physint》据称已更换合作方由PlayStation转向Xbox，项目目前仍面临开发和再次取消的风险。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Tower of Play",
+          "count": 1,
+          "summary": "索尼互动娱乐日本亚洲发布《Tower of Play》阵容视频，集中介绍《皇牌空战8：希孚之翼》《勇者斗恶龙怪兽篇：枯萎的世界》等17款游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "一盏秋声：锦衣卫",
+          "count": 1,
+          "summary": "IGN评国产明末武侠类魂动作RPG《一盏秋声：锦衣卫》战斗氛围类比《卧虎藏龙》，肯定其武术动作设计，计划于2027年登陆PC和PS5平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不问凡尘",
+          "count": 1,
+          "summary": "国产修仙大作《不问凡尘》将于9月22日在Steam开启抢先体验，首发享有八折优惠，折后售价19.9元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "中二病咨询室：第二现实译者",
+          "count": 1,
+          "summary": "共情型心理悬疑ADV《中二病咨询室：第二现实译者》将于2026年10月9日在Steam开启抢先体验，截至11月12日将以38元特别定价销售。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -493,101 +606,101 @@
     },
     {
       "date": "2026-09-09",
-      "article_count": 102,
-      "game_count": 72,
+      "article_count": 101,
+      "game_count": 71,
       "untagged_count": 14,
-      "digest": "任天堂《塞尔达传说：时之笛重制版》因美术风格遭玩家批评，同时乐高推出1750块积木的林克与伊波娜套装；R星确认《GTA6》主角可和平分手；《漫威争锋》第10赛季将上线屠神者格尔；《蜂巢：异星物语》正式发售；Game Freak新作《轮回之兽》玩家数超预期；拳头考虑推出付费买断制游戏。",
+      "digest": "今日游戏行业资讯丰富，任天堂《塞尔达传说：时之笛重制版》因美术风格引发玩家争议，同时乐高推出相关套装；R星确认《GTA6》主角关系可分手；网易《漫威争锋》第10赛季上线屠神者格尔；拳头游戏考虑推出付费买断制游戏；Frozen Way与蜗牛游戏合作的《蜂巢：异星物语》今日发售。",
       "digest_source": "llm",
-      "input_hash": "7cef78624c5a6638",
+      "input_hash": "66235a81471fb37d",
       "game_digests": [
         {
           "name": "塞尔达传说：时之笛 重制版",
           "count": 6,
-          "summary": "任天堂宣布将于11月5日发售，但大量玩家因美术风格被批为“垃圾”或“AI垃圾”，认为角色模型诡异且不如原版独特。",
+          "summary": "任天堂宣布重制版将于11月5日登陆Switch 2，但大量玩家痛批其视觉风格，认为角色模型诡异且类似AI生成作品。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
           "count": 4,
-          "summary": "R星证实杰森和露西亚的关系不一定是恋爱状态，玩家可选择让他们和平分手，之后两人仍可保持伙伴关系继续从事犯罪活动。",
+          "summary": "R星证实《GTA6》中杰森和露西亚的关系不一定要保持恋爱状态，玩家可选择让两人分手后继续合作犯罪，恋爱关系并非主线必需。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说",
           "count": 3,
-          "summary": "任天堂与乐高公布第三款主题套装“林克与伊波娜”，包含1750块积木，计划于2027年春季发售，重现成年林克骑乘伊波娜的形象。",
+          "summary": "任天堂与乐高公布第三款《塞尔达传说》套装“林克与伊波娜”，将于2027年春季发售，包含1750块积木。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛",
           "count": 2,
-          "summary": "《塞尔达传说：时之笛》主题Switch 2及配套商品因适逢系列40周年，在美国、欧洲和澳大利亚多地开始缺货，二手平台出现加价。",
+          "summary": "《塞尔达传说：时之笛》主题Switch 2及配套商品公布后，在美国、欧洲和澳大利亚多地开始缺货，二手平台出现加价情况。",
           "summary_source": "llm"
         },
         {
           "name": "漫威争锋",
           "count": 2,
-          "summary": "网易宣布第10赛季将于9月11日上线，新英雄屠神者格尔将加入，同时洛基在剧情中阵亡，游戏头像变灰。",
+          "summary": "网易宣布《漫威争锋》第10赛季将于9月11日上线，新英雄屠神者格尔登场，游戏中洛基头像变灰，PV显示其被格尔杀死。",
           "summary_source": "llm"
         },
         {
           "name": "英雄联盟",
           "count": 2,
-          "summary": "Riot Games Music时隔两年半发文，分享K/DA等虚拟乐团影像，引发关于K/DA回归的猜测。",
+          "summary": "Riot Games Music时隔两年半发文，分享五杀摇滚乐队、K/DA等虚拟乐团影像，引发K/DA回归的猜测。",
           "summary_source": "llm"
         },
         {
           "name": "蕾卡的移动工坊",
           "count": 2,
-          "summary": "Emberstorm Entertainment工作室宣布1.0版将于10月26日登陆Steam，支持中文，玩家将扮演传奇女巫芭芭雅嘎的学徒。",
+          "summary": "《蕾卡的移动工坊》1.0版将于10月26日登陆Steam，这是一款传奇女巫的生活冒险游戏，支持中文。",
           "summary_source": "llm"
         },
         {
           "name": "蜂巢：异星物语",
           "count": 2,
-          "summary": "波兰独立开发商Frozen Way与蜗牛游戏宣布，治愈系开放世界生存沙盒《蜂巢：异星物语》已于9月9日正式发售，登陆Steam、PS5及Xbox。",
+          "summary": "波兰独立开发商Frozen Way与蜗牛游戏合作的治愈系开放世界生存沙盒《蜂巢：异星物语》于今日正式发售，登陆PC、PS5及Xbox。",
           "summary_source": "llm"
         },
         {
           "name": "轮回之兽",
           "count": 2,
-          "summary": "Game Freak新作自8月发售以来玩家数远超预期，导演古岛康太表示多亏XGP和光盘销量，但团队正努力消化大量玩家反馈。",
+          "summary": "Game Freak新作《轮回之兽》玩家数远超预期，导演古岛康太表示多亏XGP和光盘销量，团队正消化大量玩家反馈。",
           "summary_source": "llm"
         },
         {
           "name": "2XKO",
           "count": 1,
-          "summary": "拳头联合创始人Marc Merrill透露，公司正在考虑打破长期以来的免费模式，开发非免费、买断制的高级游戏。",
+          "summary": "拳头游戏联合创始人表示公司正在开发非免费游戏，考虑打破长期以来的免费模式，推出付费买断制游戏。",
           "summary_source": "llm"
         },
         {
           "name": "CLUTCH",
           "count": 1,
-          "summary": "开发商Maverick Games确认，本作无意直接挑战《极限竞速：地平线6》，希望与竞品形成互补，提供不同的角色与故事体验。",
+          "summary": "《CLUTCH》开发商Maverick Games确认，该作无意直接挑战《极限竞速：地平线6》，希望与竞品形成互补。",
           "summary_source": "llm"
         },
         {
           "name": "EthrA",
           "count": 1,
-          "summary": "StoneLab Games宣布开启众筹，本作预定登陆PC、PS5及Switch 2，是一款3D像素艺术开放世界RPG。",
+          "summary": "3D像素开放世界冒险游戏《EthrA》开启众筹，计划登陆PC、PS5及Switch 2，玩家将扮演两位主角揭开千年谎言。",
           "summary_source": "llm"
         },
         {
           "name": "GTA4",
           "count": 1,
-          "summary": "玩家使用RTX 5080显卡配合DLSS 5和RTX Remix技术，展示了《GTA4》开启路径追踪后的Mission 4任务画面。",
+          "summary": "玩家使用RTX 5080显卡配合DLSS 5和路径追踪技术，展示了《GTA4》Mission 4任务，画面效果极为真实。",
           "summary_source": "llm"
         },
         {
           "name": "Godreaper",
           "count": 1,
-          "summary": "暗黑风动作冒险游戏《Godreaper》公布新预告，展示过场与战斗画面，计划于2027年登陆PC。",
+          "summary": "暗黑风动作冒险游戏《Godreaper》新预告公布，将于2027年登陆PC，背景设定在东斯拉夫神话世界。",
           "summary_source": "llm"
         },
         {
           "name": "Muv-Luv 少女庭园",
           "count": 1,
-          "summary": "系列累计销量突破80万套的新作Steam商店页上线，将于2026年第四季度发行，支持简繁中文字幕及日语配音。",
+          "summary": "《Muv-Luv 少女庭园》Steam商店页上线，将于2026年第四季度发行，支持简繁中文字幕及日语配音。",
           "summary_source": "llm"
         }
       ]
@@ -868,107 +981,6 @@
           "count": 1,
           "summary": "科幻RPG《黎明行者之血》发售两天销量成功突破100万份，在Steam平台获得“特别好评”，最高同时在线玩家人数达到约7万人。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-05",
-      "article_count": 34,
-      "game_count": 25,
-      "untagged_count": 6,
-      "digest": "《GTA6》营销新花招，迈阿密改造成罪恶都市；《最终幻想7：启示》即将登陆PS5、Xbox Series X/S、任天堂Switch 2和PC平台；东方同人系列经典《东方红魔乡：New Classic》确定9月10日发售；《塞尔达传说》40周年纪念活动即将举行；《塞尔达时之笛》重制版Switch2主机配件泄露；《大迁离》科隆游戏展试玩前瞻；《奥日》工作室CEO成立评价网站“VideoGamesCritic”；《寂静岭》系列怪物设计师伊藤畅达回忆开发经历；《无人深空》玩家期待十周年更新；《星际战甲》最新更新“Narin冰剑”上线。",
-      "digest_source": "llm",
-      "input_hash": "7f3e7b2ed467b8b1",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "《GTA6》营销新花招 迈阿密有意将一个郡县改造成罪恶都市；《GTA6》登陆PC的时间可能比想象地要更快。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "最终幻想7：启示",
-          "count": 2,
-          "summary": "史克威尔艾尼克斯TGS2026 含《最终幻想7：启示》试玩；《最终幻想7：启示》实体版全平台需额外下载游戏数据。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 2,
-          "summary": "《黎明行者之血》1.0.2热修复上线 修复任务与手柄问题；《黎明行者之血》官方迎合日本玩家呼声 日版将废除出血限制。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Beach Invasion 1944‌",
-          "count": 1,
-          "summary": "《Beach Invasion 1944‌》Epic喜加一 二战FPS。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Project ZETA",
-          "count": 1,
-          "summary": "《Project ZETA》第二次全球测试开启 KRAFTON新MOBA。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "东京电玩展",
-          "count": 1,
-          "summary": "PlayStation确认2026东京电玩展四款新作将开放现场试玩。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "东方红魔乡：New Classic",
-          "count": 1,
-          "summary": "《东方红魔乡：New Classic》9月10日发售 ZUN亲自重制。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "亚斯特尼西雅物语",
-          "count": 1,
-          "summary": "经典回归 《亚斯特尼西雅物语》2027年2月11日正式发售。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "塞尔达传说",
-          "count": 1,
-          "summary": "《塞尔达传说》40周年纪念 任天堂将举办两场直面会。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "塞尔达时之笛",
-          "count": 1,
-          "summary": "法国零售商疑似泄露《塞尔达时之笛》重制版Switch2主机配件。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "大迁离",
-          "count": 1,
-          "summary": "《大迁离》科隆展试玩前瞻 非常注重选择和掩体射击。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "奥日",
-          "count": 1,
-          "summary": "《奥日》工作室CEO揭竿而起 成立全新评价网站对抗M站。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "寂静岭",
-          "count": 1,
-          "summary": "54岁伊藤畅达回忆往事：开发《寂静岭》8年放弃找女友。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "无人深空",
-          "count": 1,
-          "summary": "肖恩·默里再发表情 暗示《无人深空》大型更新将至。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "星际战甲",
-          "count": 1,
-          "summary": "《星际战甲》最新更新“Narin冰剑”9月24日上线。",
-          "summary_source": "rules"
         }
       ]
     }

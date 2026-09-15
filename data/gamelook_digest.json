@@ -1,9 +1,48 @@
 {
-  "generated_at": "2026-09-14T00:13:49.924267+00:00",
+  "generated_at": "2026-09-15T00:46:08.187070+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-14",
+      "article_count": 11,
+      "game_count": 3,
+      "untagged_count": 8,
+      "digest": "今日游戏行业资讯聚焦于《Wardogs》上线爆火引发的争议、Smilegate创始人离婚案引发的高额财产分割，以及Cygames宣布将开发小体量游戏。腾讯弃用的英国团队新作Steam首日34万在线，韩国游戏圈天价离婚案前妻获赔127亿元，Cygames则计划转型小体量游戏开发。",
+      "digest_source": "llm",
+      "input_hash": "cf33195d13e710f4",
+      "game_digests": [
+        {
+          "name": "Wardogs",
+          "count": 1,
+          "summary": "英国工作室Bulkhead新作Steam首日34万在线，服务器因挤爆出现事故，玩家花钱买票却面临登录困难。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "穿越火线",
+          "count": 1,
+          "summary": "韩国游戏圈爆出天价离婚案，Smilegate创始人权赫彬与前妻分割财产，前妻获得127亿元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛马娘",
+          "count": 1,
+          "summary": "Cygames宣布将开发小体量游戏，公司正认真琢磨小体量游戏的生意，计划另辟蹊径。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "article_count": 1,
+      "game_count": 0,
+      "untagged_count": 1,
+      "digest": "9月13日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「2026LPL总决赛落幕，AL勇夺赛季总冠军！」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
+      "input_hash": "3c276e5db3ae437f",
+      "game_digests": []
+    },
     {
       "date": "2026-09-11",
       "article_count": 8,

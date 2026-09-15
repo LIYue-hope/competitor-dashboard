@@ -1,32 +1,9 @@
 {
-  "crawled_at": "2026-09-14T00:04:09.100036+00:00",
+  "crawled_at": "2026-09-15T00:32:12.000745+00:00",
   "days": [
     {
-      "date": "2026-09-14",
-      "date_label": "09月14日 今天",
-      "games": [
-        {
-          "game_name": "篮下狂潮",
-          "categories": [
-            "篮球",
-            "竞技",
-            "赛博朋克",
-            "横版",
-            "体育"
-          ],
-          "score": null,
-          "release_date": "2026-09-14",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1955210.html",
-          "publisher": "成都有明堂互动科技有限公司",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-15",
-      "date_label": "09月15日 明天",
+      "date_label": "09月15日 今天",
       "games": [
         {
           "game_name": "燃烧纪元",
@@ -67,6 +44,8 @@
             "MMO",
             "弹幕",
             "刷宝",
+            "Roguelike",
+            "射击",
             "像素",
             "多平台"
           ],
@@ -82,7 +61,7 @@
     },
     {
       "date": "2026-09-16",
-      "date_label": "09月16日 后天",
+      "date_label": "09月16日 明天",
       "games": [
         {
           "game_name": "小小英杰:合战天下",
@@ -92,7 +71,7 @@
             "SLG",
             "角色扮演"
           ],
-          "score": "7.1",
+          "score": "7.2",
           "release_date": "2026-09-16",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1954387.html",
@@ -148,7 +127,7 @@
     },
     {
       "date": "2026-09-17",
-      "date_label": "09月17日 周四",
+      "date_label": "09月17日 后天",
       "games": [
         {
           "game_name": "斗破:莫欺少年穷",
@@ -217,7 +196,7 @@
             "弹幕",
             "射击"
           ],
-          "score": "7.4",
+          "score": "7.2",
           "release_date": "2026-09-20",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1955318.html",
@@ -239,6 +218,30 @@
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1942652.html",
           "publisher": "万紫游戏",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "date_label": "09月21日 下周一",
+      "games": [
+        {
+          "game_name": "蜀山幻想志",
+          "categories": [
+            "卡牌",
+            "仙侠",
+            "策略",
+            "角色扮演",
+            "二次元",
+            "养成"
+          ],
+          "score": null,
+          "release_date": "2026-09-21",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1950332.html",
+          "publisher": "广州市手心网络科技有限公司",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }

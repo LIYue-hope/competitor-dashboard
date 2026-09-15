@@ -1,27 +1,21 @@
 {
-  "crawled_at": "2026-09-14T00:03:56.256492+00:00",
+  "crawled_at": "2026-09-15T00:31:58.861225+00:00",
   "days": [
     {
-      "date": "2026-09-14",
-      "date_label": "09月14日 今天",
+      "date": "2026-09-15",
+      "date_label": "09月15日 今天",
       "games": [
         {
-          "game_name": "至尊传说",
+          "game_name": "永恒烈刃",
           "categories": [
             "角色扮演"
           ],
           "score": null,
-          "event_desc": "超变传奇",
+          "event_desc": "高爆不限速传奇",
           "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zhizunchuanshuo1/",
+          "detail_url": "https://www.9game.cn/yonghenglieren/",
           "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "date_label": "09月15日 明天",
-      "games": [
+        },
         {
           "game_name": "燃烧纪元",
           "categories": [
@@ -37,7 +31,7 @@
     },
     {
       "date": "2026-09-16",
-      "date_label": "09月16日 后天",
+      "date_label": "09月16日 明天",
       "games": [
         {
           "game_name": "无尽之旅",
@@ -87,8 +81,19 @@
     },
     {
       "date": "2026-09-17",
-      "date_label": "09月17日 周四",
+      "date_label": "09月17日 后天",
       "games": [
+        {
+          "game_name": "斗破苍穹",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "正版斗破",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/dhdp/",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "三国天命再临",
           "categories": [
@@ -157,6 +162,17 @@
       "date": "2026-09-21",
       "date_label": "09月21日 下周一",
       "games": [
+        {
+          "game_name": "英雄防线",
+          "categories": [
+            "休闲"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/yingxiongfangxian/",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "蜀山幻想志",
           "categories": [
@@ -295,36 +311,19 @@
       ]
     },
     {
-      "date": "2026-10-21",
-      "date_label": "10月21日",
+      "date": "2026-10-16",
+      "date_label": "10月16日",
       "games": [
         {
-          "game_name": "守护庄园",
+          "game_name": "最传奇",
           "categories": [
             "角色扮演"
           ],
           "score": null,
-          "event_desc": null,
+          "event_desc": "复古打金传奇",
           "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/shouhuzhuangyuan/",
+          "detail_url": "https://www.9game.cn/zuichuanqi3/",
           "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "date_label": "10月23日",
-      "games": [
-        {
-          "game_name": "破日开天",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "单职业传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/porikaitian/",
-          "has_afk_grinding_tag": false
         }
       ]
     }

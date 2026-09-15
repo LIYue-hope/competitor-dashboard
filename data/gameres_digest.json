@@ -1,18 +1,37 @@
 {
-  "generated_at": "2026-09-14T00:15:16.197337+00:00",
+  "generated_at": "2026-09-15T00:46:43.804001+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-09-14",
-      "article_count": 2,
-      "game_count": 0,
-      "untagged_count": 2,
-      "digest": "9月14日 游资网 共 2 条新闻，涉及 0 款游戏。另有 2 条未指向具体游戏的行业或平台资讯。当天的内容包括「9月14日—9月20日共有29款游戏开测｜GameRes」。未指向具体游戏的内容占当天的 100%。",
-      "digest_source": "rules",
-      "input_hash": "4a2f62f3a7da775f",
-      "game_digests": []
+      "article_count": 7,
+      "game_count": 3,
+      "untagged_count": 4,
+      "digest": "三七发行的卡通魔兽风格放置MMORPG《小头盔大冒险》开启三测，采用2.5D俯视视角，设5类共15个可搭配技能，整体偏页游风，存在竞争力不足、挂机体验偏被动等问题。行业爆款焦虑之下，千万销量《戴夫》制作人参加9月11日在上海TapTap Meet the Game Creators游戏创作交流会。网易新作《无限大》在2026年8月科隆gamescom展上接受《Fami通》采访，透露将推出与大都市风格迥异的主角故乡郊区新地图，开发压力动力并存，正全力筹备上线。",
+      "digest_source": "llm",
+      "input_hash": "1426e09648398d6c",
+      "game_digests": [
+        {
+          "name": "小头盔大冒险",
+          "count": 1,
+          "summary": "三七发行的卡通魔兽风格放置MMORPG《小头盔大冒险》开启三测，采用2.5D俯视视角，设5类共15个可搭配技能，整体偏页游风，存在竞争力不足、挂机体验偏被动等问题。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "戴夫",
+          "count": 1,
+          "summary": "行业爆款焦虑之下，千万销量《戴夫》制作人参加9月11日在上海TapTap Meet the Game Creators游戏创作交流会。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "无限大",
+          "count": 1,
+          "summary": "网易新作《无限大》在2026年8月科隆gamescom展上接受《Fami通》采访，透露将推出与大都市风格迥异的主角故乡郊区新地图，开发压力动力并存，正全力筹备上线。",
+          "summary_source": "llm"
+        }
+      ]
     },
     {
       "date": "2026-09-12",
@@ -241,16 +260,6 @@
           "summary_source": "llm"
         }
       ]
-    },
-    {
-      "date": "2026-09-05",
-      "article_count": 3,
-      "game_count": 0,
-      "untagged_count": 3,
-      "digest": "9月5日 游资网 共 3 条新闻，涉及 0 款游戏。另有 3 条未指向具体游戏的行业或平台资讯。当天的内容包括「十万少年逐梦电竞赛场，「一加杯」 2026 全国电竞赛总决赛燃情收官」。未指向具体游戏的内容占当天的 100%。",
-      "digest_source": "rules",
-      "input_hash": "6e697791bc8a2f22",
-      "game_digests": []
     }
   ]
 }
