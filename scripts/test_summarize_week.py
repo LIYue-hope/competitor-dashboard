@@ -382,6 +382,36 @@ class TestWeeklyHistory(unittest.TestCase):
         self.assertEqual(payload["weeks"], ["2026-08-31"])
         self.assertEqual(len(payload["heat_ranking"]), 1)
 
+    def test_heat_history_keeps_previous_peak_until_a_higher_week_replaces_it(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            first = self._ranked(1)
+            first[0]["heat"] = 0.42
+            sw.update_weekly_history(
+                tmp, date(2026, 8, 31), date(2026, 9, 6), first, []
+            )
+
+            lower = self._ranked(1)
+            lower[0]["heat"] = 0.31
+            sw.update_weekly_history(
+                tmp, date(2026, 9, 7), date(2026, 9, 13), lower, []
+            )
+            path = os.path.join(tmp, sw.HISTORY_OUTPUT_NAME)
+            after_lower = sw.load_json(path)["heat_ranking"]
+            self.assertEqual(len(after_lower), 1)
+            self.assertEqual(after_lower[0]["week_start"], "2026-08-31")
+            self.assertEqual(after_lower[0]["heat_score"], 42.0)
+
+            higher = self._ranked(1)
+            higher[0]["heat"] = 0.57
+            sw.update_weekly_history(
+                tmp, date(2026, 9, 14), date(2026, 9, 20), higher, []
+            )
+            after_higher = sw.load_json(path)["heat_ranking"]
+
+        self.assertEqual(len(after_higher), 1)
+        self.assertEqual(after_higher[0]["week_start"], "2026-09-14")
+        self.assertEqual(after_higher[0]["heat_score"], 57.0)
+
     def test_same_archived_week_repairs_news_ranking_from_history(self):
         with tempfile.TemporaryDirectory() as tmp:
             ranked = self._ranked(2)

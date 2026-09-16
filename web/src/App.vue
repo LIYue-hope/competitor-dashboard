@@ -393,10 +393,19 @@ function downloadCurrentView() {
     addSheet('综合热度榜', weekly.hot_ranking || [])
   } else if (activeSection.value === 'history') {
     const history = data.value.weeklyHistory || {}
-    const weeks = [...new Set((history.heat_ranking || []).map((row) => row.week_start).filter(Boolean))].sort()
-    const latestWeek = weeks.at(-1)
-    // 页面展示的是最新周热度榜，资讯榜则是历史累计榜；两个榜单始终分开写入工作表。
-    addSheet('历史热度榜', (history.heat_ranking || []).filter((row) => row.week_start === latestWeek))
+    // 兼容尚未迁移的逐周旧数据：导出与页面一致，只保留每款游戏的历史最高热度。
+    const bestHeatByName = new Map()
+    for (const row of history.heat_ranking || []) {
+      const previous = bestHeatByName.get(row.name)
+      if (!previous || Number(row.heat_score) > Number(previous.heat_score) || (
+        Number(row.heat_score) === Number(previous.heat_score)
+        && (row.week_start || '') < (previous.week_start || '')
+      )) bestHeatByName.set(row.name, row)
+    }
+    const heatRanking = [...bestHeatByName.values()]
+      .sort((a, b) => Number(b.heat_score) - Number(a.heat_score) || Number(b.media_count) - Number(a.media_count) || a.name.localeCompare(b.name))
+    // 热度榜是历史单游戏峰值，资讯榜是历史资讯累计；两个榜单始终分开写入工作表。
+    addSheet('历史热度榜', heatRanking)
     addSheet('历史游戏资讯榜', history.news_ranking || [])
   } else if (activeSection.value === 'new-games') {
     addSheet('TapTap新游', data.value.taptap || [])

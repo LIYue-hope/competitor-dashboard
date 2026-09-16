@@ -686,6 +686,37 @@ def _history_row(rank, row, start, end):
     return output
 
 
+def merge_heat_history(rows):
+    """按游戏保留历史最高热度所在周，分数相同则保留较早的既有记录。"""
+    merged = {}
+    for row in rows:
+        name = row.get("name") or ""
+        if not name:
+            continue
+        previous = merged.get(name)
+        score = float(row.get("heat_score") or 0)
+        previous_score = float((previous or {}).get("heat_score") or 0)
+        # 旧文件按热度排序而非按周排序；热度相同时显式保留更早的一周，
+        # 避免迁移旧数据时因输入顺序改变原记录。
+        if previous is None or score > previous_score or (
+            score == previous_score
+            and (row.get("week_start") or "") < (previous.get("week_start") or "")
+        ):
+            merged[name] = dict(row)
+    return list(merged.values())
+
+
+def rank_heat_history(heat_history):
+    """从每款游戏的历史最高热度记录派生前 100 名展示榜。"""
+    rows = sorted(
+        heat_history,
+        key=lambda row: (-float(row.get("heat_score") or 0), -int(row.get("media_count") or 0), row.get("name") or ""),
+    )[:HISTORY_LIMIT]
+    for rank, row in enumerate(rows, start=1):
+        row["rank"] = rank
+    return rows
+
+
 def _row_periods(row):
     """兼容旧版单周期行，并统一为资讯累计榜需要的周期数组。"""
     periods = row.get("periods") or [row]
@@ -832,11 +863,12 @@ def update_weekly_history(
     if not old and not is_new_heat_week and not daily_news_rows:
         return
 
-    heat_rows = list(old.get("heat_ranking") or [])
+    # 旧版 heat_ranking 是逐周快照；下次写入时自然收敛为每游戏一条最高热度记录。
+    heat_history = merge_heat_history(old.get("heat_ranking") or [])
     if is_new_heat_week:
         rows = [_history_row(i, row, start, end) for i, row in enumerate(ranked, start=1)]
-        # 与周报候选集保持一致：即使分数恰为 0，也应保留在历史榜中。
-        heat_rows += rows
+        # 分数不高于既有记录时，merge_heat_history 会保留旧记录。
+        heat_history = merge_heat_history(heat_history + rows)
         weeks.add(week_key)
     # 每日读取滚动窗口。merge_news_history 用 URL（缺失时来源/日期/标题）去重，
     # 所以昨天的文章仍在窗口内、或同一天手动重跑，都不会重复累计。
@@ -850,7 +882,7 @@ def update_weekly_history(
             news_days.add(news_day.isoformat())
         elif news_day:
             news_days.add(str(news_day)[:10])
-    heat_rows.sort(key=lambda row: (-float(row.get("heat_score") or 0), -int(row.get("media_count") or 0), row.get("name") or ""))
+    heat_rows = rank_heat_history(heat_history)
     news_rows = rank_news_history(news_history)
     payload = {
         "history_start": HISTORY_START,
@@ -858,7 +890,7 @@ def update_weekly_history(
         "weeks": sorted(weeks),
         "news_data_version": NEWS_HISTORY_VERSION,
         "news_days": sorted(news_days),
-        "heat_ranking": heat_rows[:HISTORY_LIMIT],
+        "heat_ranking": heat_rows,
         "news_history": news_history,
         "news_ranking": news_rows[:HISTORY_LIMIT],
     }
