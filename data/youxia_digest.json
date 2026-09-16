@@ -1,106 +1,207 @@
 {
-  "generated_at": "2026-09-15T00:42:06.765958+00:00",
+  "generated_at": "2026-09-16T00:24:06.637379+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-14",
-      "article_count": 57,
-      "game_count": 29,
+      "date": "2026-09-15",
+      "article_count": 79,
+      "game_count": 50,
       "untagged_count": 19,
-      "digest": "2026年暴雪嘉年华正式公布《暗黑破坏神5》与《星际争霸》新作，暴雪确认《守望先锋》将继续联动《边缘行者》。《GTA6》试玩Demo曝光逼真油价细节，R星获批在迈阿密进行户外宣传。《魔兽世界：无限》因新种族收费引发争议，而《漫威金刚狼》则因玩法与宣发问题遭遇口碑危机。",
+      "digest": "索尼独占大作《漫威金刚狼》今日正式发售，Insomniac Games透露其主打近战肉搏与环境破坏，摒弃开放世界，PS商店评分高达4.82分；Bungie启动第三轮裁员，索尼《马拉松》宣布更新延期至年底；R星曝光《GTA6》全新偷车机制，并公布TGS 2026限定周边；Neowiz注册“Wonders of O”商标引发续作猜测；IO Interactive宣布《007：初露锋芒》Switch 2版延期至2027年3月。",
       "digest_source": "llm",
-      "input_hash": "f75220ca3745ac76",
+      "input_hash": "114ae705a382f4dd",
       "game_digests": [
         {
-          "name": "暗黑破坏神5",
-          "count": 3,
-          "summary": "暴雪在2026年暴雪嘉年华正式公布《暗黑破坏神5》，确认游戏已结束早期开发阶段，目前正处于全面制作中，并放出首批概念艺术图与三个首发职业。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7：启示",
-          "count": 2,
-          "summary": "《最终幻想7：启示》开发团队宣布将全盘重做圆桌骑士首领战，因初版战斗难度未达预期，力求还原该经典召唤兽的顶尖实力，游戏定档2027年4月发售。",
+          "name": "漫威金刚狼",
+          "count": 7,
+          "summary": "索尼独占大作《漫威金刚狼》今日正式上线，Insomniac Games透露其主打近战肉搏与环境破坏，摒弃开放世界，PS商店评分高达4.82分。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
+          "count": 3,
+          "summary": "R星官方曝光《GTA6》核心玩法革新，沿用近三十年的一键偷车机制迎来彻底重构，全新分层式车辆安保系统上线，并公布TGS 2026限定周边。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "匹诺曹的谎言",
           "count": 2,
-          "summary": "《GTA6》试玩Demo中Xero Gas加油站的详细价格表引发热议，画面显示柴油价格高达5.22美元/加仑，汽油则在4美元左右，这一极度逼真的细节让玩家猜测游戏或将引入包含不同燃油类型的真实加油系统。",
+          "summary": "韩国游戏发行商Neowiz近日在欧盟知识产权局提交“Wonders of O”商标申请，目前处于审查中，该名称与《匹诺曹的谎言》命名结构高度相似。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "马拉松",
+          "count": 2,
+          "summary": "索尼旗下Bungie工作室正式启动三年内第三轮大规模裁员，实际规模可能更大，当地媒体形容为一场“大屠杀”，索尼《马拉松》宣布更新延期至年底。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "007：初露锋芒",
+          "count": 1,
+          "summary": "IO Interactive今日宣布，詹姆斯·邦德题材动作冒险游戏《007：初露锋芒》Switch 2版将延期至2027年3月发售，具体日期后续公布。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Cyan Heart",
+          "count": 1,
+          "summary": "独立开发者塩惺瑛官宣，独特自拍视角恐怖解谜游戏《Cyan Heart》将于2026年10月9日登陆Steam，售价1300日元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FGO",
+          "count": 1,
+          "summary": "由《Fate/Grand Order》制作人盐川洋介领衔的游戏公司Fahrenheit 213正式宣布，旗下Roguelite PC卡牌游戏《冥月悸动》首个试玩版将于东京电玩展2026展出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Vanakan",
+          "count": 1,
+          "summary": "由独立游戏开发者Erik Khachatryan与Hayk Khachatryan共同制作的文字冒险游戏《Vanakan》，现正在Epic游戏商店限时开启免费“喜加一”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "云上叠叠乐",
+          "count": 1,
+          "summary": "休闲策略“爬塔”游戏《云上叠叠乐》已于9月14日登陆Steam，支持简体中文，首发售价19.5元，首发折扣持续至9月28日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "全战：战锤40K",
+          "count": 1,
+          "summary": "Creative Assembly在科隆游戏展提供了《全面战争：战锤40K》试玩，游戏将单场战役集中在一个太阳系内，玩家可在多颗星球间行动。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "卧龙2",
+          "count": 1,
+          "summary": "光荣特库摩正式公布《卧龙2：凤火连天》主角与庞统官方立绘，庞统将以义眼面具、巨型法杖的“凤雏”形象登场，将以智谋与凤火与主角并肩入局。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "古墓丽影：亚特兰蒂斯遗迹",
+          "count": 1,
+          "summary": "IGN中国发布《古墓丽影：亚特兰蒂斯遗迹》开发幕后视频，聚焦希腊区域的怪物设计，游戏定档2027年2月12日登陆多平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "同级生 2 Remake",
+          "count": 1,
+          "summary": "经典恋爱冒险游戏《同级生2 Remake》繁体中文版将登陆Steam平台，今日正式公开Steam商店页面。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "咒术回战 激斗：幸存潮汐",
+          "count": 1,
+          "summary": "集英社游戏宣布，生存乱斗新作《咒术回战 RUMBLE: SURVIVATON》由2026年顺延至2027年发售，旨在打磨游戏品质。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "咒术迴战 激斗：倖存潮汐",
+          "count": 1,
+          "summary": "集英社游戏宣布，生存大逃杀游戏《咒术回战 激斗：幸存潮汐》发售时间将变更至2027年，并公开最新第2弹预告片。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "article_count": 108,
+      "game_count": 60,
+      "untagged_count": 28,
+      "digest": "2026年9月14日游戏资讯聚焦多款大作动态，R星《GTA6》因油价细节与迈阿密宣传获批引发热议，索尼《漫威金刚狼》遭遇口碑危机与谣言风波，暴雪则公布《暗黑5》制作进度及《守望先锋》女团皮肤争议，同时《FF7：启示》重做圆桌骑士战并确认莫古利偶像设定，卡普空《鬼武者：剑之道》试玩版下载量破300万。",
+      "digest_source": "llm",
+      "input_hash": "e31e48125f45549b",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "R星《GTA6》试玩Demo中Xero Gas加油站柴油价格高达5.22美元/加仑，引发玩家对真实燃油系统的猜测，同时迈阿密海滩市委员会批准了在沙滩椅上印“VI”的户外宣传方案。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 4,
+          "summary": "知名评测博主Skill Up的负面评测视频热度飙升，两天播放量突破280万，甚至反超官方预告，工作室随后辟谣金刚狼与剑齿虎并非同性关系，但游戏仍面临严重口碑危机。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7：启示",
+          "count": 3,
+          "summary": "开发团队宣布全盘重做圆桌骑士首领战以提升难度，导演滨口直树确认莫古利家族将转型为“偶像组合”并推出舞台小游戏，Square Enix公布了TGS 2026的专属拍照点。",
           "summary_source": "llm"
         },
         {
           "name": "守望先锋",
+          "count": 3,
+          "summary": "暴雪确认猎空仍是游戏门面，宣布与《赛博朋克：边缘行者》联动，但《守望先锋2》与LE SSERAFIM的联名皮肤因超高定价引发玩家广泛抵制。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑破坏神5",
+          "count": 3,
+          "summary": "暴雪在BlizzCon 2026公布新作，确认游戏已结束早期开发进入全面制作阶段，并曝光了首批概念艺术图与三个首发职业。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界：无限",
+          "count": 3,
+          "summary": "暴雪公布新种族“天穹精灵”需单独购买29.99美元的Skyborne Hero Pack解锁，同时宣布游戏将加入完善的官方手柄支持。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
           "count": 2,
-          "summary": "暴雪在2026年暴雪嘉年华上明确回应猎空的定位，尽管她近两年在联动和宣传中的曝光有所减少，但依然是《守望先锋》的官方吉祥物，并确认将联动《边缘行者》及续作。",
+          "summary": "《剑星》完整版限量铁盒实体版官宣，体模申才恩在个人社交平台分享的线下游玩视频引发关注。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "堡垒之夜",
+          "count": 2,
+          "summary": "官方确认与《王国之心》联动，主角索拉将于本周上线，数据挖掘者爆料《海贼王》联动可能登陆本作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "控制：共振",
+          "count": 2,
+          "summary": "游戏将于9月24日上线，评测将于发售前5天解禁，实体盘延期至10月15日以完善交付。",
           "summary_source": "llm"
         },
         {
           "name": "星际争霸",
           "count": 2,
-          "summary": "《星际争霸》创意总监兼总经理Dan Hay与开发运营副经理Anna Lee Hertling在接受GameSpot采访时明确表示，将于2030年发售的开放世界射击新作《星际争霸》将“专注于单人游戏”，神族将作为可对抗阵营登场。",
+          "summary": "新作创意总监表示游戏将专注于单人游戏，不支持创建角色，总监暗示神族将作为可对抗阵营登场。",
           "summary_source": "llm"
         },
         {
           "name": "暗黑4",
           "count": 2,
-          "summary": "暴雪与CD Projekt Red联合公布《暗黑破坏神4》与《巫师3：狂猎》联动外观——一款以杰洛特为灵感的野蛮人主题皮肤，同时放出S15赛季“地狱余烬”更新规划，经典角色迪卡·凯恩以正史身份回归，亚马逊职业正式加入游戏。",
+          "summary": "暴雪与CD Projekt Red公布《巫师3》联动皮肤，S15赛季更新中亚马逊职业加入，迪卡·凯恩正史回归。",
           "summary_source": "llm"
         },
         {
-          "name": "漫威金刚狼",
+          "name": "鬼武者 剑之道",
           "count": 2,
-          "summary": "知名评测博主Skill Up对《漫威金刚狼》的负面评测视频热度飙升，仅两天播放量便突破280万，甚至反超了发布9天的官方预告片，游戏遭遇严重口碑危机与玩家负面反馈。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "魔兽世界：无限",
-          "count": 2,
-          "summary": "暴雪为《魔兽世界：无限》开启了预购，但新种族“天穹精灵”却被单独拆分，需要额外购买售价29.99美元的Skyborne Hero Pack才能解锁，这一举措立刻引发了玩家的广泛争议。",
+          "summary": "卡普空确认试玩版全球下载量突破300万，游戏将参展TGS 2026并推出特别挑战活动。",
           "summary_source": "llm"
         },
         {
           "name": "DARK MACHINE THE GAME",
           "count": 1,
-          "summary": "机甲动作射击游戏《DARK MACHINE THE GAME》确认参展“东京电玩展2026”，将于9月17日至21日在幕张展览馆开放TGS限定实机试玩。",
+          "summary": "机甲动作射击游戏确认参展东京电玩展2026。",
           "summary_source": "llm"
         },
         {
           "name": "Fairgame$",
           "count": 1,
-          "summary": "游戏测试网站Player.gg上线了一项名为“Project Espresso”的试玩活动，登陆平台为PS5和PC，Polygon指出该描述与《Fairgame$》的玩法设定高度相似，且设计风格也存在诸多雷同。",
+          "summary": "曝索尼搜打撤游戏《Fairgame$》将开启测试，登陆平台为PS5和PC。",
           "summary_source": "llm"
         },
         {
-          "name": "KEMURI",
+          "name": "Farming Simulator 25",
           "count": 1,
-          "summary": "由前《幽灵线：东京》制作人中村育美领衔的《KEMURI》目前仅确认登陆PS5和PC，面对玩家对Xbox版的期待，中村育美给出了极其硬核的拒绝理由：作为小团队，增加平台会带来巨大负担，她宁愿放弃Xbox，也绝不让员工为了开发新版本而过劳死。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Our Notes",
-          "count": 1,
-          "summary": "少女音乐企划BanG Dream! 新游戏《BanG Dream! Our Notes》全球版确定于9月24日正式上线，同时官方放出全新预告片。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "伊莫",
-          "count": 1,
-          "summary": "由爪印工作室研发的多人在线跨平台大世界捉宠RPG《伊莫》PC端预下载已正式开启，玩家可前往《伊莫》官网完成预约与PC端预下载，游戏将于9月16日上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "堡垒之夜",
-          "count": 1,
-          "summary": "《堡垒之夜》官方确认与《王国之心》展开联动，系列主角索拉将于本周正式上线游戏，同时系列新作与合集的发售计划也同步对外曝光。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达：时之笛",
-          "count": 1,
-          "summary": "《塞尔达传说：时之笛 重制版》游戏画面整体采用了怀旧写实奇幻美术风格，明显区别于《王国之泪》的卡通渲染，这一视觉转变促使玩家将N64原版、3DS版以及全新的Switch2版角色进行了横向对比。",
+          "summary": "世嘉宣布免费DLC“Pumps N' Hoses Pack”现已发布，登陆多平台。",
           "summary_source": "llm"
         }
       ]
@@ -808,107 +909,6 @@
           "name": "东方",
           "count": 1,
           "summary": "30年老游戏IP《东方》粉丝越来越年轻 过半都未满20岁，社群公布的第22回人气投票问卷结果引发热议，这款问世近30年的同人系列IP，粉丝构成呈现出惊人的“年轻化”趋势。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "article_count": 34,
-      "game_count": 20,
-      "untagged_count": 10,
-      "digest": "今日游戏资讯聚焦于《最终幻想7：启示》的TGS试玩与发售定档，以及《GTA6》关于地图探索与暴力尺度的爆料。此外，《漫威金刚狼》因内容外泄与建模争议引发关注，《星球大战：亡命之徒》遭破解，《诡秘之主》因12亿成本与捏脸功能登上热搜，多款经典与新作动态交织。",
-      "digest_source": "llm",
-      "input_hash": "c9ad042b0d27176e",
-      "game_digests": [
-        {
-          "name": "FF7启示",
-          "count": 2,
-          "summary": "游侠早报:TGS含《FF7启示》试玩 VRChat首次参展；30周年纪念之作！《FF7启示》TGS试玩开启 定档确认。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "R星新作《GTA6》被曝大幅升级血腥暴力效果，新增NPC肢解与斩首特效，并计划今年晚些时候公开更多核心内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想",
-          "count": 2,
-          "summary": "《最终幻想》系列Switch 2版130GB容量包揽游戏容量榜前四，官方宣布《最终幻想》1至6代迷你Melody TV将于2027年1月29日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2,
-          "summary": "《漫威金刚狼》距离发售仅剩两周，完整通关流程与剧情梗概已大量外泄，PS5版建模表现遭玩家吐槽。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "奥林匹斯之战",
-          "count": 1,
-          "summary": "经典动作RPG《奥林匹斯之战》重制版引发关注，原版夫妻制作人时隔38年回归。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "我的世界",
-          "count": 1,
-          "summary": "Fossil推出三款《我的世界》联名限量腕表，分别以熔岩、末地及《我的世界：地下城2》为设计灵感。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星球大战：亡命之徒",
-          "count": 1,
-          "summary": "知名破解者Voices38成功攻破《星球大战：亡命之徒》的Denuvo加密保护，并放出未加密版本。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星露谷",
-          "count": 1,
-          "summary": "《星露谷物语》1.7版本仍在开发中，尽管开发者正投入新作《闹鬼巧克力工坊》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想7",
-          "count": 1,
-          "summary": "《最终幻想7》在PlayStation平台首次问世已过去29年，即将迎来发售30周年。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想7：启示",
-          "count": 1,
-          "summary": "史克威尔艾尼克斯确认《最终幻想7：启示》将在TGS提供全程试玩，定档2027年4月8日登陆多平台，纪念原作发售30周年。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化危机",
-          "count": 1,
-          "summary": "《生化危机4》阿什莉体模PeachMilky晒出《最终幻想7》爱丽丝Cos造型，引发玩家关注。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "真人快打1",
-          "count": 1,
-          "summary": "《真人快打1》D加密被正式破解，任天堂方面也爆料了关于新3D《马里奥》游戏的动态。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "诡秘之主",
-          "count": 1,
-          "summary": "国产新游《诡秘之主》因12亿项目总成本及女版Faker复刻捏脸功能引发玩家热议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "质量效应",
-          "count": 1,
-          "summary": "《大迁离》公开恋爱系统颠覆性设计，主角可与任意性别角色发展恋情。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "赛博朋克2077",
-          "count": 1,
-          "summary": "外设品牌HORI推出两款《赛博朋克2077》主题Nintendo Switch 2配件，包括无线手柄与斜挎单肩包。",
           "summary_source": "llm"
         }
       ]

@@ -1,9 +1,38 @@
 {
-  "generated_at": "2026-09-15T00:46:08.187070+00:00",
+  "generated_at": "2026-09-16T00:28:48.463116+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-15",
+      "article_count": 8,
+      "game_count": 3,
+      "untagged_count": 5,
+      "digest": "Sensor Tower 发布 2026 年 8 月中国手游出海榜单，三七互娱《Last Asylum: Plague》跻身收入榜 Top 7；GameLook 报道《王者万象棋》上线后排名迅速攀升至畅销榜 TOP 5；同日，鬼谷八荒制作人张三在接受采访时表示《鬼谷八荒 2》体量巨大，复杂度比前作高出 100 倍。",
+      "digest_source": "llm",
+      "input_hash": "c71e603f3490379e",
+      "game_digests": [
+        {
+          "name": "Last Asylum: Plague",
+          "count": 1,
+          "summary": "Sensor Tower 发布 2026 年 8 月中国手游出海收入榜，三七互娱该作成功跻身 Top 7。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "王者万象棋",
+          "count": 1,
+          "summary": "GameLook 报道该作上线后排名迅速攀升，首日登畅销榜第九，次日便升至第五。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鬼谷八荒 2",
+          "count": 1,
+          "summary": "鬼谷制作人张三在接受采访时表示，该作体量巨大，复杂度比前作高出 100 倍。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-09-14",
       "article_count": 11,

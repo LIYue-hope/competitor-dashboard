@@ -1,101 +1,196 @@
 {
-  "generated_at": "2026-09-15T00:39:28.690649+00:00",
+  "generated_at": "2026-09-16T00:23:19.525364+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-15",
-      "article_count": 16,
-      "game_count": 14,
+      "date": "2026-09-16",
+      "article_count": 15,
+      "game_count": 13,
       "untagged_count": 1,
-      "digest": "今日游戏行业资讯聚焦于多款重磅新作的开发动态与发售调整，R星详解《GTA6》如何通过“时代时间胶囊”策略应对讽刺内容的时效性挑战；科乐美公布《游戏王 Tag Force GX》Steam预购开启售价198元；育碧确认《雷曼传奇：重制版》延期至12月3日发售。此外，暴雪宣布《暗黑破坏神5》立项原因及战网不会对标Steam；世嘉与Netflix达成多项改编合作；网易《无限大》公布主城重霄；KING Art Games公布《战锤40K：战争黎明4》战报演示并优化太空死灵机制；Arkane前创意总监反思《红霞岛》开发失误；Creative Assembly详解《全面战争：战锤40K》太阳系战役结构；Polygon盛赞《最终幻想7：启示》规模是前作50万倍；光荣特库摩公布《卧龙2：凤火连天》主角与庞统立绘；任天堂《塞尔达：时之笛 重制版》因城下町设计被指与《原神》相似引发争议；世嘉与Netflix推进《刺猬索尼克》新动画及电影改编；Square Enix公布《皇牌空战8：希孚之翼》剧情预告。",
+      "digest": "《光与影：33号远征队》发布，实现销量突破800万份。《TARA The Unbound》发布，东方暗黑RPG。《光与影：33号远征队》Boss难打，玩家反馈。《全面战争：幕府将军2》发售，支持多人合作。《全面战争：战锤40K》推出新DLC。《塞尔达：时之笛 重制版》实机演示，新增主动跳跃功能。《日在夏天》重制版公布，预定12月18日发售。《明末：渊虚之羽》回应玩家催更，表示团队会继续探索。《星空》项目野心极大，但太空科幻不是B社强项。《暗黑破坏神4》S15赛季“地狱遗赠”上线。《暗黑破坏神5》吸取了博德之门和龙腾世纪要素。《荣耀战魂》免费领取活动结束。《魔兽世界：永恒》公布，以全新路线重新演绎经典版本。",
       "digest_source": "llm",
-      "input_hash": "7a1ad044d83bc9a9",
+      "input_hash": "f58ab7288a865e7a",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 2,
-          "summary": "R星开发主管罗布·纳尔逊详解本作社会讽刺内容的取舍思路，表示团队不能追逐短期热点，目标将《GTA6》打造成留存十年、二十年的“时代时间胶囊”。",
-          "summary_source": "llm"
+          "summary": "AI生成《GTA6》短视频 性感护士在医院里行动；玩家为了能畅快游玩《GTA6》 和对象签游戏协议。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "TARAE The Unbound",
+          "count": 1,
+          "summary": "东方暗黑RPG《TARAE The Unbound》Boss难 开发者也打不过。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "光与影：33号远征队",
+          "count": 1,
+          "summary": "AA游戏需要更多像《光与影：33号远征队》这样的成功之作。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "全面战争：幕府将军2",
+          "count": 1,
+          "summary": "《全面战争：幕府将军2》完全版公布 10月13日发售登陆Steam。",
+          "summary_source": "rules"
         },
         {
           "name": "全面战争：战锤40K",
           "count": 1,
-          "summary": "Creative Assembly在科隆游戏展提供试玩，游戏将单场战役活动范围集中在一个太阳系内，团队希望玩家贴近具体世界又不会产生抽象感。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺猬索尼克",
-          "count": 1,
-          "summary": "世嘉与Netflix达成新合作，将制作另一部《刺猬索尼克》动画剧集，并改编《疯狂出租车》和《异于天堂》电影，剧本由《白头神探》重启版编剧执笔。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "卧龙2：凤火连天",
-          "count": 1,
-          "summary": "光荣特库摩公布主角立绘，主角为一名故乡被毁的无名武者，官方使用中性代词“TA”表明可自由选择性别，核心人物庞统形象也同步公开。",
-          "summary_source": "llm"
+          "summary": "手柄也能玩RTS！《全面战争：战锤40K》已有可靠方案。",
+          "summary_source": "rules"
         },
         {
           "name": "塞尔达：时之笛 重制版",
           "count": 1,
-          "summary": "任天堂公布实机演示后，外网玩家将重制版城下町与《原神》蒙德城对比，指责任天堂抄袭蒙德美学，但争议核心在于两者均取材自德国古镇风貌。",
-          "summary_source": "llm"
+          "summary": "《塞尔达：时之笛 重制版》新实机 首次加入主动跳跃功能。",
+          "summary_source": "rules"
         },
         {
-          "name": "战锤40K：战争黎明4",
+          "name": "日在夏天",
           "count": 1,
-          "summary": "KING Art Games公布战报演示，展示多人玩法内容，开发组已根据社区反馈对太空死灵核心机制“力量矩阵”进行修改优化。",
-          "summary_source": "llm"
+          "summary": "恋爱养成游戏《日在夏天》重制版公布 12月18日发售。",
+          "summary_source": "rules"
         },
         {
-          "name": "无限大",
+          "name": "明末：渊虚之羽",
           "count": 1,
-          "summary": "网易都市开放世界RPG《无限大》公布主城重霄，城市设计融合上海、杭州风貌，官方表示每座城市将提供不少于100小时游玩内容，游戏将于2027年1月15日全球同步上线。",
-          "summary_source": "llm"
+          "summary": "《明末：渊虚之羽》夏思源回应玩家催更：不急但是一定要快。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "星空",
+          "count": 1,
+          "summary": "《星空》项目野心极大 但太空科幻不是B社强项。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "暗黑破坏神4",
+          "count": 1,
+          "summary": "《暗黑破坏神4》S15赛季“地狱遗赠”现已上线。",
+          "summary_source": "rules"
         },
         {
           "name": "暗黑破坏神5",
           "count": 1,
-          "summary": "暴雪决定制作《暗黑破坏神5》而非资料片，高级制作总监Tiffany Wat表示新作需要对游戏结构进行深层调整，现有资料片框架难以承载这些改动。",
-          "summary_source": "llm"
+          "summary": "《暗黑破坏神5》吸取了博德之门和龙腾世纪要素。",
+          "summary_source": "rules"
         },
         {
-          "name": "暴雪战网",
+          "name": "荣耀战魂",
           "count": 1,
-          "summary": "暴雪平台负责人Andrew Guerrero表示战网不会成为Steam、Epic那样的开放式第三方游戏发行平台，不会上线自助上架工具，仅执行高标准人工筛选。",
-          "summary_source": "llm"
+          "summary": "育碧Connect喜加一！《荣耀战魂》PC版免费领。",
+          "summary_source": "rules"
         },
         {
-          "name": "最终幻想7：启示",
+          "name": "魔兽世界：永恒",
           "count": 1,
-          "summary": "外媒Polygon试玩后称赞本作规模是《最终幻想7：重生》50万倍，试玩章节展示了飞空艇“疾风号”及朱诺、贡加加等经典区域。",
-          "summary_source": "llm"
+          "summary": "暴雪公布《魔兽世界：永恒》，称目前难以说明为何需要《魔兽世界2》。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "article_count": 94,
+      "game_count": 62,
+      "untagged_count": 26,
+      "digest": "《漫威金刚狼》在9月15日发布，包含新角色和合作内容。《GTA6》开发团队讨论了社会讽刺内容取舍问题。《守墓人2》试玩版提供，但具体发售日期未定。《暗黑破坏神5》套装装备将在游戏内回归。《深空当铺：可能是偷的》10月28日登陆Steam。《007：初露锋芒》延期至2027年3月。《ARC Raiders》远征系统将在未来取消。《Apex英雄》暗示即将与《街头霸王》联动。《B.L.U.E. NOVA》将于2027年登陆Steam。《Dark Machine The Game》预计2027年推出。《Enigma of fear》更新中文成就，官方中文本地化即将上线。《Isle Goblin》由Pocketpair与FireshineGames联合发行。《Putty World》计划于2027年第二季度登陆Nintendo Switch 2。《TCG卡牌店模拟器》结束抢先体验并推出1.0版。《Vampire Survivors-吸血鬼幸存者》制作团队打造的新大逃杀游戏发售时期变更至2027年。",
+      "digest_source": "llm",
+      "input_hash": "0d711a8fbe101140",
+      "game_digests": [
+        {
+          "name": "漫威金刚狼",
+          "count": 3,
+          "summary": "《漫威金刚狼》片尾名单确认和Sweet Baby有合作；玩家质疑《漫威金刚狼》角色形象，主演表示自己仍为游戏感到自豪；SIE推出PS5《漫威金刚狼》 蓄满两层怒气可在生命归零时复苏。",
+          "summary_source": "rules"
         },
         {
-          "name": "游戏王 Tag Force GX",
-          "count": 1,
-          "summary": "科乐美公布PSP《游戏王 GX 卡片力量3》现代重制作品，本作将于2027年2月16日发售，Steam国区售价198元，收录3800张以上卡牌。",
-          "summary_source": "llm"
+          "name": "GTA6",
+          "count": 2,
+          "summary": "《GTA6》开发者大谈如何让讽刺内容经久不衰；《GTA6》内容太多 R星以27分钟演示取代传统预告。",
+          "summary_source": "rules"
         },
         {
-          "name": "皇牌空战8：希孚之翼",
-          "count": 1,
-          "summary": "本作公布剧情预告及原创战机FA-36“Game”，故事背景设定在2029年，玩家扮演从救生筏获救的飞行员，以“希孚之翼”身份对抗索托亚共和国。",
-          "summary_source": "llm"
+          "name": "守墓人2",
+          "count": 2,
+          "summary": "tinyBuild 在 tinyBuild Connect 发布会上公布《守墓人2》试玩版；《守墓人2》现已推出试玩版 进度可直接带入正式版。",
+          "summary_source": "rules"
         },
         {
-          "name": "红霞岛",
-          "count": 1,
-          "summary": "Arkane Austin前创意总监Harvey Smith反思项目，直言团队当初不该开发服务型游戏，认为项目类型超出了团队原本擅长的沉浸式模拟领域。",
-          "summary_source": "llm"
+          "name": "暗黑破坏神5",
+          "count": 2,
+          "summary": "玩家又要开始肝了 暴雪谈《暗黑破坏神5》的套装系统；暴雪解释《暗黑破坏神5》立项原因：结构性改动难由四代资料片实现。",
+          "summary_source": "rules"
         },
         {
-          "name": "雷曼传奇：重制版",
+          "name": "深空当铺：可能是偷的",
+          "count": 2,
+          "summary": "赛博朋克商店经营模拟游戏《深空当铺：可能是偷的》10月28日登陆Steam；赛博朋克当铺模拟游戏《深空当铺：可能是偷的》定档，支持简中。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "007：初露锋芒",
           "count": 1,
-          "summary": "育碧确认游戏已完成开发，但发售时间从10月1日推迟至12月3日，团队决定投入更多时间确保各项细节得到充分处理。",
-          "summary_source": "llm"
+          "summary": "IO Interactive宣布《007：初露锋芒》Switch 2版延期至2027年3月。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "ARC Raiders",
+          "count": 1,
+          "summary": "《ARC Raiders》远征系统暂停至2027年 未来可能直接取消。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Apex英雄",
+          "count": 1,
+          "summary": "《Apex英雄》官方强烈暗示波动拳 接下来联动《街霸》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "B.L.U.E. NOVA",
+          "count": 1,
+          "summary": "免费PvE射击新作《B.L.U.E. NOVA》公布 2027年登陆Steam。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Dark Machine The Game",
+          "count": 1,
+          "summary": "《Dark Machine The Game》亮相Steam 三种尺寸机体参与多人战斗。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Enigma of fear",
+          "count": 1,
+          "summary": "疑似泄露？Steam95%好评\"巴西独游之星\"《Enigma of fear》官中或将上线。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Isle Goblin",
+          "count": 1,
+          "summary": "《Isle Goblin》宣布由Pocketpair与FireshineGames联合发行。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Putty World",
+          "count": 1,
+          "summary": "System 3公布系列重制版《Putty World》 2027年第二季度登陆Nintendo Switch 2。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "TCG卡牌店模拟器",
+          "count": 1,
+          "summary": "《TCG卡牌店模拟器》告别抢先体验，1.0版新增近2000张卡牌。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Vampire Survivors-吸血鬼幸存者",
+          "count": 1,
+          "summary": "《Vampire Survivors-吸血鬼幸存者》制作团队打造、最多 8 人对战的全新大逃杀游戏。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -303,202 +398,202 @@
     },
     {
       "date": "2026-09-12",
-      "article_count": 37,
+      "article_count": 38,
       "game_count": 30,
-      "untagged_count": 4,
-      "digest": "今日游戏行业资讯涵盖多款热门作品，索尼放弃《PHYSINT》项目引发小岛工作室Decima引擎使用权争议；Bulkhead宣布《战狗》发售24小时销量超125万；Polyarc宣布关闭结束近12年运营；任天堂公布《塞尔达传说：时之笛》重制版；史克威尔艾尼克斯确认《最终幻想7：启示》实体版需下载额外数据；Netflix因《侠盗猎车手6》独家展示带来逾10万美国新用户。",
+      "untagged_count": 5,
+      "digest": "今日游戏行业资讯涵盖多款热门作品，GTA6因泄露内容引发现实敲诈争议，小岛新作《PHYSINT》面临引擎更换风险，Bulkhead的《战狗》发售首日销量破125万。此外，Polyarc宣布关闭，《塞尔达传说：时之笛》重制版公布，Netflix因《侠盗猎车手6》展示迎来大量新用户。",
       "digest_source": "llm",
-      "input_hash": "a2a2d7bd845acb75",
+      "input_hash": "7562f78edbe66038",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 2,
-          "summary": "粉丝找到游戏中天体度假村的现实原型佛罗里达赛普拉斯湾度假村，运营方称部分评论者正试图敲诈该场所。",
+          "summary": "泄露片段中天体度假村的画面引发玩家关注，部分粉丝找到现实原型并试图敲诈运营方。",
           "summary_source": "llm"
         },
         {
           "name": "PHYSINT",
           "count": 2,
-          "summary": "传索尼放弃该项目后，小岛工作室可能无法继续使用Decima引擎，后续需转用虚幻引擎5或其他技术方案。",
+          "summary": "传索尼放弃该项目后，小岛工作室可能失去Decima引擎使用权，后续需转用虚幻引擎5。",
           "summary_source": "llm"
         },
         {
           "name": "战狗",
           "count": 2,
-          "summary": "Bulkhead宣布《战狗》发售24小时销量超125万套，但上线初期服务器拥堵导致崩溃，团队正紧急监控修复。",
+          "summary": "多人FPS《战狗》发售24小时销量超125万套，但服务器拥堵问题导致初期评价不佳。",
           "summary_source": "llm"
         },
         {
           "name": "42中队",
           "count": 1,
-          "summary": "4chan玩家质疑该项目已获10亿美元资金却长期未完成，讨论其延期原因及众筹开发模式的管理问题。",
+          "summary": "4chan玩家质疑该项目获得10亿美元资金后仍未完成，并讨论其延期原因及开发模式。",
           "summary_source": "llm"
         },
         {
           "name": "Moss",
           "count": 1,
-          "summary": "《Moss》开发商Polyarc宣布关闭，结束近12年运营，工作室表示将逐步结束积极开发工作并与成员告别。",
+          "summary": "《Moss》开发商Polyarc宣布关闭，结束近12年运营，工作室已逐步结束开发工作。",
           "summary_source": "llm"
         },
         {
           "name": "RuneScape",
           "count": 1,
-          "summary": "OpenAI员工罗汉·瓦尔马开发的AI版《符文传说》仿作《埃尔德伍德》在收到开发商Jagex停止侵权通知后已下架。",
+          "summary": "OpenAI员工开发的AI版《符文传说》仿作《埃尔德伍德》在收到开发商停止侵权通知后已被下架。",
           "summary_source": "llm"
         },
         {
           "name": "VR战士5 R.E.V.O. 世界舞台",
           "count": 1,
-          "summary": "《VR战士5 R.E.V.O. 世界舞台》现已加入Xbox Game Pass游戏库，符合条件的PC及Xbox Series用户可订阅游玩。",
+          "summary": "世嘉格斗游戏《VR战士5 R.E.V.O. 世界舞台》现已加入Xbox Game Pass游戏库。",
           "summary_source": "llm"
         },
         {
           "name": "侠盗猎车手6",
           "count": 1,
-          "summary": "分析机构称《侠盗猎车手6》在Netflix的独家展示带来超过10万名美国新注册用户，为平台年内第三高注册峰值。",
+          "summary": "《侠盗猎车手6》的加长版玩法展示在Netflix独家上线，为该平台带来逾10万美国新用户。",
           "summary_source": "llm"
         },
         {
           "name": "垃圾日",
           "count": 1,
-          "summary": "物理合作冒险游戏《垃圾日》将于10月13日登陆Steam，支持单人及最多六人联机，计划提供简体中文界面。",
+          "summary": "物理合作冒险游戏《垃圾日》将于10月13日登陆Steam，支持最多六人联机。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛",
           "count": 1,
-          "summary": "任天堂公布重制版，保留原作框架并加入跳跃按键、自由镜头及“时光之线”指引功能，取消部分视角限制。",
+          "summary": "任天堂公布《塞尔达传说：时之笛》重制版，加入跳跃按键、自由镜头及任务指引功能。",
           "summary_source": "llm"
         },
         {
           "name": "宝可梦集换式卡牌游戏",
           "count": 1,
-          "summary": "将推出30周年超梦特别促销卡，玩家需在10月2日起于美国指定零售商消费至少15美元获取。",
+          "summary": "《宝可梦集换式卡牌游戏》将推出30周年超梦特别促销卡，玩家消费15美元即可获取。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3",
           "count": 1,
-          "summary": "CDPR透露曾考虑在《巫师3》本体中加入锁链武器，但因技术原因未实现，该功能将在重制版中通过新DLC实现。",
+          "summary": "《巫师3》曾考虑加入新DLC武器锁链，但因技术原因未能在本体中实现，重制版中已解决该问题。",
           "summary_source": "llm"
         },
         {
           "name": "无主之地手游",
           "count": 1,
-          "summary": "《无主之地手游》突然在苹果iOS上线，仅限美国地区iPhone用户，开发商为NaturalMotion，Gearbox仅以顾问身份参与。",
+          "summary": "《无主之地手游》突然在苹果iOS上开启限时测试，目前仅限美国地区iPhone用户。",
           "summary_source": "llm"
         },
         {
           "name": "最终幻想",
           "count": 1,
-          "summary": "《最终幻想》40周年纪念展“无尽的幻想世界”定档2027年1月，将在东京国立博物馆举办，回顾系列40年历史。",
+          "summary": "《最终幻想》40周年纪念展定档2027年1月，将在东京国立博物馆举办。",
           "summary_source": "llm"
         },
         {
           "name": "最终幻想7：启示",
           "count": 1,
-          "summary": "总监滨口直树称若将游戏完整装进一张光碟需牺牲终章品质，因此实体版无论如何都需要下载额外数据。",
+          "summary": "《最终幻想7：启示》总监称全光碟发售需牺牲终章品质，因此实体版仍需下载额外数据。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-09-11",
-      "article_count": 104,
+      "article_count": 105,
       "game_count": 66,
-      "untagged_count": 17,
-      "digest": "今日游戏行业资讯聚焦于多款大作的动态与争议，外媒Skill Up批评《漫威金刚狼》设计过于直白，Rockstar庭审文件提及《GTA6》曾讨论32人在线模式，滨口直树同时监制《最终幻想7：启示》与《王国之心4》，《WARDOGS》Steam测试近50万玩家参与，而《死亡搁浅2》销量不佳导致索尼取消与小岛秀夫合作的谍战游戏《PHYSINT》。",
+      "untagged_count": 18,
+      "digest": "今日游戏资讯聚焦于《漫威金刚狼》遭外媒批评设计过于手把手，以及《GTA6》庭审文件提及曾讨论32人在线模式。此外，《最终幻想7：启示》确认滨口直树将同时监制该作与《王国之心4》，《WARDOGS》登陆Steam获近50万玩家测试，而《死亡搁浅2》销量不佳导致索尼取消与小岛秀夫合作的谍战游戏《PHYSINT》。",
       "digest_source": "llm",
-      "input_hash": "4e6bf6690f0606fa",
+      "input_hash": "33139da16958482e",
       "game_digests": [
         {
           "name": "漫威金刚狼",
           "count": 7,
-          "summary": "外媒Skill Up批评《漫威金刚狼》设计过于直白，称其假定玩家智商，手把手引导与无法关闭的蓝色路径引发争议。",
+          "summary": "外媒Skill Up批评该作设计“侮辱玩家智商”，认为游戏引导过于直白，假定玩家智商不足。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
           "count": 6,
-          "summary": "Rockstar庭审文件提及《GTA6》曾讨论32人在线模式，但无法确认最终上线人数上限，文件还披露了工作室严密的保密措施。",
+          "summary": "Rockstar庭审文件提及《GTA6》曾讨论32人在线模式，但无法确认最终上线人数上限。",
           "summary_source": "llm"
         },
         {
           "name": "最终幻想7：启示",
           "count": 5,
-          "summary": "滨口直树同时负责《最终幻想7：启示》与《王国之心4》的开发监督，两款作品均定于2027年4月8日发售。",
+          "summary": "滨口直树确认将同时负责该作与《王国之心4》的开发监督，两款作品均定于2027年发售。",
           "summary_source": "llm"
         },
         {
           "name": "WARDOGS",
           "count": 2,
-          "summary": "BULKHEAD旗下百人战术FPS《WARDOGS》今日登陆Steam，此前8月封闭Beta测试吸引了近50万名玩家参与。",
+          "summary": "BULKHEAD旗下百人战术FPS《WARDOGS》今日登陆Steam，近50万玩家参与测试，峰值在线突破24万。",
           "summary_source": "llm"
         },
         {
           "name": "无主之地4",
           "count": 2,
-          "summary": "《无主之地4》更新1.10版本，新角色“黑客无爱”因性感裙装引发玩家热议，成为社区讨论度最高的内容。",
+          "summary": "《无主之地4》发布1.10更新，新增角色“黑客无爱”因性感设计引发玩家热议。",
           "summary_source": "llm"
         },
         {
           "name": "星界战士",
           "count": 2,
-          "summary": "Epic平台开启新一轮免费领取，《星界战士》与《天空骑兵》两款游戏永久入库，领取截止至9月17日23:00。",
+          "summary": "Epic平台开启新一轮免费领取，《星界战士》与《天空骑兵》两款游戏限时入库。",
           "summary_source": "llm"
         },
         {
           "name": "死亡搁浅2",
           "count": 2,
-          "summary": "《死亡搁浅2》PS5版销量约160万套，仅在PC移植版发布后才实现盈利，索尼因此取消了与小岛秀夫合作的谍战游戏《PHYSINT》。",
+          "summary": "索尼因《死亡搁浅2》销量不佳（PS5版约160万套）取消了与小岛秀夫合作的谍战游戏《PHYSINT》。",
           "summary_source": "llm"
         },
         {
           "name": "鬼武者：剑之道",
           "count": 2,
-          "summary": "《鬼武者：剑之道》首周销量近10万份，PS5版卖出76,530份，Switch 2版卖出19,499份，登顶Fami通销量榜。",
+          "summary": "卡普空新作《鬼武者：剑之道》首周销量近10万份，登顶Fami通日本周销量榜。",
           "summary_source": "llm"
         },
         {
           "name": "麦登橄榄球27",
           "count": 2,
-          "summary": "《麦登橄榄球27》在Xbox和Switch 2开启限时免费试玩，Xbox Series X|S玩家可玩至9月13日，Switch 2玩家至9月15日。",
+          "summary": "EA《麦登橄榄球27》在Xbox和Switch 2开启限时免费试玩，媒体均分78分。",
           "summary_source": "llm"
         },
         {
           "name": "EA公司 美商艺电",
           "count": 1,
-          "summary": "沙特PIF正考虑合并其控股的EA与Savvy Games，打造游戏巨头，但因Savvy收购Moonton而暂时搁置。",
-          "summary_source": "llm"
+          "summary": "沙特PIF欲打造游戏巨头 考虑合并EA与Savvy Games。",
+          "summary_source": "rules"
         },
         {
           "name": "Fairgame$",
           "count": 1,
-          "summary": "SIE服务型游戏《Fairgame$》开启内测报名，游戏玩法为潜入窃取，需PlayStation账号，PC玩家需通过特定平台参与。",
+          "summary": "SIE服务型游戏《Fairgame$》开启内测报名，定位为潜入窃取的竞技动作射击游戏。",
           "summary_source": "llm"
         },
         {
           "name": "Fairgames",
           "count": 1,
-          "summary": "索尼多人射击游戏《Fairgames》实机画面曝光，玩家需黑入金库取货并撤离，此前报道其正试图寻找独特玩法公式。",
+          "summary": "索尼多人射击游戏《Fairgames》实机画面曝光，玩法为搜打撤，目前仍在打磨中。",
           "summary_source": "llm"
         },
         {
           "name": "KK官方对战平台",
           "count": 1,
-          "summary": "暴雪嘉年华将举办TED vs TOD传奇对决，国内KK平台提供《魔兽争霸3》对战服务，吸引全球顶级War3社区关注。",
+          "summary": "暴雪嘉年华将举办TED vs TOD传奇对决，KK平台将提供《魔兽争霸3》对战服务。",
           "summary_source": "llm"
         },
         {
           "name": "MONOPHOBIA",
           "count": 1,
-          "summary": "双女主都市怪谈悬疑游戏《MONOPHOBIA》即将提供试玩，玩家需在充满都市传说的街道中收集线索揭开真相。",
+          "summary": "双女主都市怪谈悬疑游戏《MONOPHOBIA》即将提供试玩，玩家需调查都市异象。",
           "summary_source": "llm"
         },
         {
           "name": "PUBG",
           "count": 1,
-          "summary": "《PUBG》43.1版本更新新增踢击动作、水中使用副武器功能，并提升游泳与潜水移动速度，丰富战斗与移动手段。",
+          "summary": "《PUBG》43.1版本更新新增踢击动作、水中使用副武器及投掷武器功能，提升游泳与潜水速度。",
           "summary_source": "llm"
         }
       ]
@@ -606,71 +701,71 @@
     },
     {
       "date": "2026-09-09",
-      "article_count": 101,
+      "article_count": 103,
       "game_count": 71,
-      "untagged_count": 14,
-      "digest": "今日游戏行业资讯丰富，任天堂《塞尔达传说：时之笛重制版》因美术风格引发玩家争议，同时乐高推出相关套装；R星确认《GTA6》主角关系可分手；网易《漫威争锋》第10赛季上线屠神者格尔；拳头游戏考虑推出付费买断制游戏；Frozen Way与蜗牛游戏合作的《蜂巢：异星物语》今日发售。",
+      "untagged_count": 16,
+      "digest": "任天堂《塞尔达传说：时之笛重制版》因美术风格引发玩家争议，同时Switch 2主题周边缺货；R星确认《GTA6》主角可和平分手；乐高公布《塞尔达传说》第三款套装；网易《漫威争锋》第10赛季将上线屠神者格尔；Frozen Way与蜗牛游戏合作的《蜂巢：异星物语》今日发售；Game Freak新作《轮回之兽》玩家数超预期；拳头游戏考虑推出付费买断制游戏。",
       "digest_source": "llm",
-      "input_hash": "66235a81471fb37d",
+      "input_hash": "a9e19beb882c1e25",
       "game_digests": [
         {
           "name": "塞尔达传说：时之笛 重制版",
           "count": 6,
-          "summary": "任天堂宣布重制版将于11月5日登陆Switch 2，但大量玩家痛批其视觉风格，认为角色模型诡异且类似AI生成作品。",
+          "summary": "任天堂宣布将于11月5日发售，但大量玩家痛批其视觉风格，认为角色模型诡异，甚至将其称为“AI垃圾”。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
           "count": 4,
-          "summary": "R星证实《GTA6》中杰森和露西亚的关系不一定要保持恋爱状态，玩家可选择让两人分手后继续合作犯罪，恋爱关系并非主线必需。",
+          "summary": "R星证实《GTA6》中杰森和露西亚的关系不一定会保持恋爱状态，玩家可选择让他们和平分手，之后两人仍可继续一起从事犯罪活动。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说",
           "count": 3,
-          "summary": "任天堂与乐高公布第三款《塞尔达传说》套装“林克与伊波娜”，将于2027年春季发售，包含1750块积木。",
+          "summary": "任天堂与乐高公布第三款《塞尔达传说》套装，名为“林克与伊波娜”，将于2027年春季发售，包含1750块积木。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛",
           "count": 2,
-          "summary": "《塞尔达传说：时之笛》主题Switch 2及配套商品公布后，在美国、欧洲和澳大利亚多地开始缺货，二手平台出现加价情况。",
+          "summary": "《塞尔达传说：时之笛》主题Switch 2及配套商品在美国、欧洲和澳大利亚多地开始缺货，二手平台出现加价情况。",
           "summary_source": "llm"
         },
         {
           "name": "漫威争锋",
           "count": 2,
-          "summary": "网易宣布《漫威争锋》第10赛季将于9月11日上线，新英雄屠神者格尔登场，游戏中洛基头像变灰，PV显示其被格尔杀死。",
+          "summary": "网易宣布《漫威争锋》第10赛季将于9月11日上线，新英雄屠神者格尔将登场，洛基头像变灰，并推出睡衣派对系列服装。",
           "summary_source": "llm"
         },
         {
           "name": "英雄联盟",
           "count": 2,
-          "summary": "Riot Games Music时隔两年半发文，分享五杀摇滚乐队、K/DA等虚拟乐团影像，引发K/DA回归的猜测。",
+          "summary": "Riot Games Music时隔两年半发文，分享K/DA等虚拟乐团影像，引发关于《英雄联盟》K/DA回归的猜测。",
           "summary_source": "llm"
         },
         {
           "name": "蕾卡的移动工坊",
           "count": 2,
-          "summary": "《蕾卡的移动工坊》1.0版将于10月26日登陆Steam，这是一款传奇女巫的生活冒险游戏，支持中文。",
+          "summary": "Emberstorm Entertainment工作室开发的传奇女巫生活冒险游戏《蕾卡的移动工坊》1.0版将于10月26日登陆Steam。",
           "summary_source": "llm"
         },
         {
           "name": "蜂巢：异星物语",
           "count": 2,
-          "summary": "波兰独立开发商Frozen Way与蜗牛游戏合作的治愈系开放世界生存沙盒《蜂巢：异星物语》于今日正式发售，登陆PC、PS5及Xbox。",
+          "summary": "波兰独立开发商Frozen Way与蜗牛游戏合作的治愈系开放世界生存沙盒《蜂巢：异星物语》今日正式发售，登陆Steam、PS5及Xbox Series。",
           "summary_source": "llm"
         },
         {
           "name": "轮回之兽",
           "count": 2,
-          "summary": "Game Freak新作《轮回之兽》玩家数远超预期，导演古岛康太表示多亏XGP和光盘销量，团队正消化大量玩家反馈。",
+          "summary": "Game Freak新作《轮回之兽》玩家数量远超预期，导演古岛康太表示多亏XGP和光盘销量，团队正努力消化玩家反馈。",
           "summary_source": "llm"
         },
         {
           "name": "2XKO",
           "count": 1,
-          "summary": "拳头游戏联合创始人表示公司正在开发非免费游戏，考虑打破长期以来的免费模式，推出付费买断制游戏。",
+          "summary": "拳头游戏联合创始人表示公司正在开发非免费游戏，正在认真考虑打破长期以来的免费模式，推出付费买断制游戏。",
           "summary_source": "llm"
         },
         {
@@ -682,25 +777,25 @@
         {
           "name": "EthrA",
           "count": 1,
-          "summary": "3D像素开放世界冒险游戏《EthrA》开启众筹，计划登陆PC、PS5及Switch 2，玩家将扮演两位主角揭开千年谎言。",
+          "summary": "StoneLab Games工作室宣布3D像素开放世界冒险游戏《EthrA》开启众筹，预定登陆PC、PS5及Switch 2平台。",
           "summary_source": "llm"
         },
         {
           "name": "GTA4",
           "count": 1,
-          "summary": "玩家使用RTX 5080显卡配合DLSS 5和路径追踪技术，展示了《GTA4》Mission 4任务，画面效果极为真实。",
+          "summary": "玩家使用RTX 5080显卡开启DLSS 5神经渲染与路径追踪技术，展示《GTA4》的Mission 4任务，画面效果引发关注。",
           "summary_source": "llm"
         },
         {
           "name": "Godreaper",
           "count": 1,
-          "summary": "暗黑风动作冒险游戏《Godreaper》新预告公布，将于2027年登陆PC，背景设定在东斯拉夫神话世界。",
+          "summary": "暗黑风动作冒险游戏《Godreaper》新预告公布，将于2027年登陆PC平台。",
           "summary_source": "llm"
         },
         {
           "name": "Muv-Luv 少女庭园",
           "count": 1,
-          "summary": "《Muv-Luv 少女庭园》Steam商店页上线，将于2026年第四季度发行，支持简繁中文字幕及日语配音。",
+          "summary": "《Muv-Luv 少女庭园》Steam商店页上线，将于2026年第四季度发行，支持简繁中英日文及日语配音。",
           "summary_source": "llm"
         }
       ]
@@ -903,83 +998,6 @@
           "name": "古墓丽影：亚特兰蒂斯遗迹",
           "count": 1,
           "summary": "新概念图公布，玩家盛赞希腊古墓场景美术。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "article_count": 18,
-      "game_count": 11,
-      "untagged_count": 6,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》模拟器进展与暴力程度爆料，以及《Fortune’s Run》因开发权纠纷被迫取消。此外，俄罗斯方块公司维权白宫山寨版，CS2脏话追踪功能适得其反，Bungie因《命运2》销量下滑考虑转租总部大楼，而《黎明行者之血》发售两天销量破百万。",
-      "digest_source": "llm",
-      "input_hash": "9b009f7567aa15ba",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "PS5模拟器已能在KyTyPS5模拟器上以40-60帧运行PS5版《给他爱5》，网友预测这会给R星压力促使其加快推出PC版，同时R星新作据爆料将比前作更血腥暴力。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Fortune’s Run",
-          "count": 1,
-          "summary": "沉浸式模拟复古射击游戏《Fortune’s Run》因主开发者迪齐与Valve在项目控制权及9000美元款项上的纠纷，导致游戏被指控差评轰炸并彻底下架停售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "俄罗斯方块",
-          "count": 1,
-          "summary": "俄罗斯方块公司针对白宫官网收录的《筑墙》山寨版发布声明，明确表示与该行为划清界限，并强调对版权侵权持零容忍态度，威胁可能提起诉讼。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "反恐精英2",
-          "count": 1,
-          "summary": "Valve旗下《反恐精英2》推出的“脏话追踪”功能上线后适得其反，不仅未减少玩家辱骂，反而刺激大家争相在排行榜上刷屏，使用量激增。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "命运2",
-          "count": 1,
-          "summary": "Bungie因《命运2》销量下滑及三年内裁员超600人，正考虑将其位于华盛顿州贝尔维尤的总部大楼大部分空间转租出去，以适应数字化办公需求。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "大迁离",
-          "count": 1,
-          "summary": "科幻RPG《大迁离》确认恋爱系统不受性别锁定，无论主角是男性还是女性，均可与任意心仪角色发展恋情，叙事总监德鲁·卡尔皮申证实了这一设计思路。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "文明7",
-          "count": 1,
-          "summary": "2K与Firaxis Games宣布《文明7》将于9月上线1.5.0版本更新，并计划在2027年推出大型免费更新“Arc of Tomorrow”及付费资料片“地出寰宇”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "旧版符文传说",
-          "count": 1,
-          "summary": "前《符文传说》开发者“Mod Jed”安德鲁·莱克曼因利用后台权限盗取玩家游戏道具并转售牟利，被警方逮捕并正式宣判，最高将面临三年实刑。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "碧蓝幻想Relink",
-          "count": 1,
-          "summary": "Cygames为摆脱主线项目高预期包袱，推出全新发行厂牌Cygames Edge，旨在加快中小型游戏发售速度，其首个项目为《Where the Seeds Fall》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼玩人",
-          "count": 1,
-          "summary": "《鬼玩人》人气主演布鲁斯·坎贝尔确诊癌症后透露，医生给出的预期生存期约为五年，他已宣布将逐步淡出演员行业。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 1,
-          "summary": "科幻RPG《黎明行者之血》发售两天销量成功突破100万份，在Steam平台获得“特别好评”，最高同时在线玩家人数达到约7万人。",
           "summary_source": "llm"
         }
       ]

@@ -1,49 +1,10 @@
 {
-  "crawled_at": "2026-09-15T00:31:58.861225+00:00",
+  "crawled_at": "2026-09-16T00:13:51.425667+00:00",
   "days": [
     {
-      "date": "2026-09-15",
-      "date_label": "09月15日 今天",
-      "games": [
-        {
-          "game_name": "永恒烈刃",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "高爆不限速传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/yonghenglieren/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "燃烧纪元",
-          "categories": [
-            "冒险"
-          ],
-          "score": null,
-          "event_desc": "测试资格招募中",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/rsjy/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-16",
-      "date_label": "09月16日 明天",
+      "date_label": "09月16日 今天",
       "games": [
-        {
-          "game_name": "无尽之旅",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "组建你的冒险小队",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/wujinzhilu1/",
-          "has_afk_grinding_tag": true
-        },
         {
           "game_name": "宝石战争",
           "categories": [
@@ -67,6 +28,17 @@
           "has_afk_grinding_tag": false
         },
         {
+          "game_name": "无尽之旅",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "组建你的冒险小队",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/wujinzhilu1/",
+          "has_afk_grinding_tag": true
+        },
+        {
           "game_name": "古剑奇闻录",
           "categories": [
             "角色扮演"
@@ -81,7 +53,7 @@
     },
     {
       "date": "2026-09-17",
-      "date_label": "09月17日 后天",
+      "date_label": "09月17日 明天",
       "games": [
         {
           "game_name": "斗破苍穹",
@@ -89,7 +61,7 @@
             "角色扮演"
           ],
           "score": null,
-          "event_desc": "正版斗破",
+          "event_desc": "抽终身VIP",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/dhdp/",
           "has_afk_grinding_tag": false
@@ -109,7 +81,7 @@
     },
     {
       "date": "2026-09-18",
-      "date_label": "09月18日 周五",
+      "date_label": "09月18日 后天",
       "games": [
         {
           "game_name": "海岛传奇",
@@ -191,17 +163,6 @@
       "date_label": "09月22日 下周二",
       "games": [
         {
-          "game_name": "天命行者",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/tianmingxingzhe/",
-          "has_afk_grinding_tag": false
-        },
-        {
           "game_name": "西游大冒险",
           "categories": [
             "卡牌"
@@ -210,6 +171,17 @@
           "event_desc": "开局千抽悟空出山",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/xiyoudamaoxian1/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "天命行者",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/tianmingxingzhe/",
           "has_afk_grinding_tag": false
         }
       ]
@@ -272,6 +244,17 @@
           "event_desc": "蔚蓝星球",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/zhaohuanmengjiang/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "商世传奇",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/shangshichuanqi/",
           "has_afk_grinding_tag": false
         }
       ]
