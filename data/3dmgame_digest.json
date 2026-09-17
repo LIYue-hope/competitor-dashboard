@@ -1,95 +1,208 @@
 {
-  "generated_at": "2026-09-16T00:23:19.525364+00:00",
+  "generated_at": "2026-09-17T00:27:46.624642+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-16",
-      "article_count": 15,
-      "game_count": 13,
-      "untagged_count": 1,
-      "digest": "《光与影：33号远征队》发布，实现销量突破800万份。《TARA The Unbound》发布，东方暗黑RPG。《光与影：33号远征队》Boss难打，玩家反馈。《全面战争：幕府将军2》发售，支持多人合作。《全面战争：战锤40K》推出新DLC。《塞尔达：时之笛 重制版》实机演示，新增主动跳跃功能。《日在夏天》重制版公布，预定12月18日发售。《明末：渊虚之羽》回应玩家催更，表示团队会继续探索。《星空》项目野心极大，但太空科幻不是B社强项。《暗黑破坏神4》S15赛季“地狱遗赠”上线。《暗黑破坏神5》吸取了博德之门和龙腾世纪要素。《荣耀战魂》免费领取活动结束。《魔兽世界：永恒》公布，以全新路线重新演绎经典版本。",
+      "date": "2026-09-17",
+      "article_count": 16,
+      "game_count": 15,
+      "untagged_count": 0,
+      "digest": "3DMGame今日报道涵盖多款游戏动态，包括《火焰纹章：万缕千丝》公布单主角约50小时四线超100小时的流程时长；《ARC Raiders》开发商Embark计划将其运营十年并借鉴《命运》叙事模式；Denuvo母公司Irdeto首次起诉破解者voices38；R星重做《GTA6》警察系统，警方将长期记住玩家特征；国产捉宠RPG《伊莫》Steam上线峰值超12万但获特别差评；卡普空宣布《识质存在》今日免费推出“洛克人包”DLC。",
       "digest_source": "llm",
-      "input_hash": "f58ab7288a865e7a",
+      "input_hash": "e945f600671606a1",
       "game_digests": [
         {
-          "name": "GTA6",
+          "name": "火焰纹章：万缕千丝",
           "count": 2,
-          "summary": "AI生成《GTA6》短视频 性感护士在医院里行动；玩家为了能畅快游玩《GTA6》 和对象签游戏协议。",
-          "summary_source": "rules"
+          "summary": "官方公布游戏时长，单主角约50小时，体验四条故事线并完成第三部分至少需要超100小时，单主角流程长度超过《火焰纹章：风花雪月》。",
+          "summary_source": "llm"
         },
         {
-          "name": "TARAE The Unbound",
+          "name": "ARC Raiders",
           "count": 1,
-          "summary": "东方暗黑RPG《TARAE The Unbound》Boss难 开发者也打不过。",
-          "summary_source": "rules"
+          "summary": "Embark Studios为《ARC Raiders》发布重要补丁，并透露已制定十年运营计划，旨在复制《命运》系列的叙事模式。",
+          "summary_source": "llm"
         },
         {
-          "name": "光与影：33号远征队",
+          "name": "D加密",
           "count": 1,
-          "summary": "AA游戏需要更多像《光与影：33号远征队》这样的成功之作。",
-          "summary_source": "rules"
+          "summary": "Denuvo母公司Irdeto首次向美国法院起诉破解者voices38，指控其攻破近40款D加密游戏，包括《黑神话：悟空》等作品。",
+          "summary_source": "llm"
         },
         {
-          "name": "全面战争：幕府将军2",
+          "name": "GTA6",
           "count": 1,
-          "summary": "《全面战争：幕府将军2》完全版公布 10月13日发售登陆Steam。",
-          "summary_source": "rules"
+          "summary": "R星North重新设计了警察系统，警方将长期记住玩家的衣着和车辆特征，即使通缉星级消失后仍可能被识别。",
+          "summary_source": "llm"
         },
         {
-          "name": "全面战争：战锤40K",
+          "name": "伊莫",
           "count": 1,
-          "summary": "手柄也能玩RTS！《全面战争：战锤40K》已有可靠方案。",
-          "summary_source": "rules"
+          "summary": "国产捉宠RPG《伊莫》免费上线Steam，12小时内峰值超12万，但因被指有手游味、体力限制及捏脸问题，目前评价为特别差评。",
+          "summary_source": "llm"
         },
         {
-          "name": "塞尔达：时之笛 重制版",
+          "name": "另一个伊甸：起源",
           "count": 1,
-          "summary": "《塞尔达：时之笛 重制版》新实机 首次加入主动跳跃功能。",
-          "summary_source": "rules"
+          "summary": "时空旅行JRPG《另一个伊甸：起源》登陆Steam和Switch，Steam国区售价128元，首发评价为多半好评。",
+          "summary_source": "llm"
         },
         {
-          "name": "日在夏天",
+          "name": "天国：拯救",
           "count": 1,
-          "summary": "恋爱养成游戏《日在夏天》重制版公布 12月18日发售。",
-          "summary_source": "rules"
+          "summary": "《天国：拯救》总监Daniel Vávra抨击Sweet Baby参与《漫威金刚狼》的顾问工作，称其让外行指导内行。",
+          "summary_source": "llm"
         },
         {
-          "name": "明末：渊虚之羽",
+          "name": "巫师3：狂猎",
           "count": 1,
-          "summary": "《明末：渊虚之羽》夏思源回应玩家催更：不急但是一定要快。",
-          "summary_source": "rules"
+          "summary": "CDPR首席编剧Marcin Blacha表示《巫师3：狂猎》并非完美无缺，尽管销量超5000万，但仍有改进空间。",
+          "summary_source": "llm"
         },
         {
-          "name": "星空",
+          "name": "巫师3：重制版",
           "count": 1,
-          "summary": "《星空》项目野心极大 但太空科幻不是B社强项。",
-          "summary_source": "rules"
+          "summary": "CDPR公布《巫师3：重制版》将大幅改动核心体验，称玩家适应新作后很难再回头体验原版，包括重新搭建相机视角和寻路AI。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "怪物猎人：荒野",
+          "count": 1,
+          "summary": "卡普空公布DLC“凌越”新预告，确认炎王龙加入，将于2027年上线，Switch2版与DLC同步发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "神鬼寓言4",
+          "count": 1,
+          "summary": "Playground Games联合创始人透露《神鬼寓言4》开发周期接近11年，因被视为对Xbox至关重要而躲过取消命运。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "街霸6",
+          "count": 1,
+          "summary": "卡普空公布新宣传片，展示印度新角色阿俊及深红毒蛇新皮肤，并确认蒂法将于2027年初参战。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "识质存在",
+          "count": 1,
+          "summary": "卡普空宣布《识质存在》将于9月17日免费推出“洛克人包”DLC，包含洛克人与萝露主题服装及新音乐。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黎明行者之血",
+          "count": 1,
+          "summary": "续作可能不会包含计时机制，总监表示会继续研究该机制，若故事基调适合则会采用。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "龙之信条2：黑暗再临",
+          "count": 1,
+          "summary": "卡普空公布新预告，展示诺尔坎新区域及遗物系统，将于10月9日登陆多平台。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "article_count": 112,
+      "game_count": 84,
+      "untagged_count": 6,
+      "digest": "今日游戏行业资讯聚焦于《漫威金刚狼》开发成本与流程的深度分析，以及《GTA6》原声阵容的神秘暗示。此外，《战狗》在Steam周榜登顶，多款新作如《伊莫》与《符文世界：龙之荒野》迎来发售或版本更新，而《暗黑破坏神4》则开启国服免费领取活动。",
+      "digest_source": "llm",
+      "input_hash": "2e2d8303e933bb64",
+      "game_digests": [
+        {
+          "name": "漫威金刚狼",
+          "count": 8,
+          "summary": "Insomniac泄露的内部资料显示该作开发预算达3.05亿美元，叙事流程约12小时，引发对AAA开发成本的讨论。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "多名音乐人同步发布配图，暗示Keith Richards、PinkPantheress等10名艺人将参与原声阵容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "我的世界",
+          "count": 3,
+          "summary": "玩家反馈南瓜生成机制存在漏洞，可能导致驯服的猫因被方块困住而窒息死亡。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战狗",
+          "count": 3,
+          "summary": "Valve公布的Steam周收入榜显示，该作在付费游戏中排名第一，销量达200万份，同时在线人数峰值超42.8万。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Nighthawks",
+          "count": 2,
+          "summary": "Steam撤销了该游戏的仅限成人分类，此前因误判导致游戏在部分地区下架，风波反而提升了关注度。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "wardogs",
+          "count": 2,
+          "summary": "开发商BULKHEAD负责人澄清，此前关于高强度工作的言论被断章取义，否认存在强制加班。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "伊莫",
+          "count": 2,
+          "summary": "该作免费版首发吸引逾10.1万人同时在线，但用户评价很快降至“褒贬不一”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "冲就完事模拟器2",
+          "count": 2,
+          "summary": "官方宣布将推出芭比主题DLC，包含五个清洗关卡，计划于今年稍晚上线。",
+          "summary_source": "llm"
         },
         {
           "name": "暗黑破坏神4",
-          "count": 1,
-          "summary": "《暗黑破坏神4》S15赛季“地狱遗赠”现已上线。",
-          "summary_source": "rules"
+          "count": 2,
+          "summary": "国服再次开启限时30天的免费领取活动，同时S15赛季“地狱遗赠”上线。",
+          "summary_source": "llm"
         },
         {
-          "name": "暗黑破坏神5",
-          "count": 1,
-          "summary": "《暗黑破坏神5》吸取了博德之门和龙腾世纪要素。",
-          "summary_source": "rules"
+          "name": "永恒黑暗：理智的安魂曲",
+          "count": 2,
+          "summary": "Nightdive负责人暗示该作未来可能推出重制版，但尚未正式确认项目立项。",
+          "summary_source": "llm"
         },
         {
-          "name": "荣耀战魂",
-          "count": 1,
-          "summary": "育碧Connect喜加一！《荣耀战魂》PC版免费领。",
-          "summary_source": "rules"
+          "name": "符文世界：龙之荒野",
+          "count": 2,
+          "summary": "Jagex结束抢先体验并推出1.0版本，游戏同时加入9月PlayStation Plus游戏目录。",
+          "summary_source": "llm"
         },
         {
-          "name": "魔兽世界：永恒",
+          "name": "索尼克赛车：交叉世界",
+          "count": 2,
+          "summary": "世嘉确认第二年将继续免费追加角色，贝优妮塔将成为首位登场的新车手。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Apex英雄",
           "count": 1,
-          "summary": "暴雪公布《魔兽世界：永恒》，称目前难以说明为何需要《魔兽世界2》。",
-          "summary_source": "rules"
+          "summary": "EA宣布将于9月23日开启与《街头霸王6》的联动活动，包含限定玩法、皮肤及武器外观。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Legacy Code",
+          "count": 1,
+          "summary": "讲谈社物理模拟游戏《Legacy Code》Steam页面公开，入围TGS SOWN独立游戏竞赛。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Muv-Luv",
+          "count": 1,
+          "summary": "系列累计销量突破100万份，官方同步开启纪念抽奖活动。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -897,107 +1010,6 @@
           "name": "东方Project",
           "count": 1,
           "summary": "年度人气投票结果显示，15至19岁群体占参与总人数的38.17%，YouTube为主要接触渠道。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "article_count": 68,
-      "game_count": 51,
-      "untagged_count": 7,
-      "digest": "卡普空新作《鬼武者：剑之道》Steam在线人数突破8万，首日销量破百万；外媒称《GTA6》因缺乏强力对手获年度游戏提名毫无悬念；索尼与失眠组新作《漫威金刚狼》泄露但PS5破解版无法运行；CDPR确认《巫师4》丹德里恩将回归；IllFonic《月光光心慌慌》热修后疑似移除亲密互动；PLAYISM宣布《8号出口》全球销量破300万；Valve《CS2》曝出可伪造VAC封禁的严重漏洞。",
-      "digest_source": "llm",
-      "input_hash": "7f31583fc3293a37",
-      "game_digests": [
-        {
-          "name": "鬼武者：剑之道",
-          "count": 5,
-          "summary": "Steam在线人数突破8万，首日销量破百万，超越《生化危机2》和《街头霸王6》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 3,
-          "summary": "外媒称因今年游戏行业整体拉胯，该作获年度游戏提名毫无悬念。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 3,
-          "summary": "游戏本体泄露但PS5破解版无法运行，需系统固件13.60版本。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师4",
-          "count": 2,
-          "summary": "丹德里恩确认亮相，波兰配音演员已参与录制。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "月光光心慌慌",
-          "count": 2,
-          "summary": "热修后疑似移除亲密互动小游戏，官方尚未确认。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "8号出口",
-          "count": 1,
-          "summary": "全球销量突破300万份，本作及续作开启促销。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "CS2",
-          "count": 1,
-          "summary": "曝出严重漏洞，作弊者可伪造VAC封禁强行终止比赛。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Catharsis ～最后的画室～",
-          "count": 1,
-          "summary": "沉浸式艺术ADV公开Steam页面，预计2026年内发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "D加密",
-          "count": 1,
-          "summary": "黑客Voices38一口气攻破5款知名大作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Rebounder",
-          "count": 1,
-          "summary": "Aggro Crab公布发行科幻平台游戏，计划2027年推出。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "SPINE",
-          "count": 1,
-          "summary": "枪斗游戏因“枪怼脸”梗图走红，二创掀起热潮。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古世纪S",
-          "count": 1,
-          "summary": "首度曝光品牌识别与主视觉图，2027年登陆Steam。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "任天堂明星大乱斗",
-          "count": 1,
-          "summary": "舅舅党爆料正在开发全新续作，非简单移植。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 1,
-          "summary": "PC版伊芙“赛博忍者”Mod风格热辣，适配战斗与拍照模式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影：亚特兰蒂斯遗迹",
-          "count": 1,
-          "summary": "新概念图公布，玩家盛赞希腊古墓场景美术。",
           "summary_source": "llm"
         }
       ]

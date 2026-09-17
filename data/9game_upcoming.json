@@ -1,59 +1,9 @@
 {
-  "crawled_at": "2026-09-16T00:13:51.425667+00:00",
+  "crawled_at": "2026-09-17T00:20:06.817795+00:00",
   "days": [
     {
-      "date": "2026-09-16",
-      "date_label": "09月16日 今天",
-      "games": [
-        {
-          "game_name": "宝石战争",
-          "categories": [
-            "卡牌"
-          ],
-          "score": "8.5",
-          "event_desc": "三消卡牌",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/baoshizhanzheng/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "全民萌兽",
-          "categories": [
-            "策略"
-          ],
-          "score": null,
-          "event_desc": "免费领2048抽",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/qmms/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "无尽之旅",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "组建你的冒险小队",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/wujinzhilu1/",
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "古剑奇闻录",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/gujianqiwenlu/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-17",
-      "date_label": "09月17日 明天",
+      "date_label": "09月17日 今天",
       "games": [
         {
           "game_name": "斗破苍穹",
@@ -81,7 +31,7 @@
     },
     {
       "date": "2026-09-18",
-      "date_label": "09月18日 后天",
+      "date_label": "09月18日 明天",
       "games": [
         {
           "game_name": "海岛传奇",
@@ -98,7 +48,7 @@
     },
     {
       "date": "2026-09-19",
-      "date_label": "09月19日 周六",
+      "date_label": "09月19日 后天",
       "games": [
         {
           "game_name": "龙吟山海",
@@ -256,6 +206,23 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/shangshichuanqi/",
           "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "date_label": "09月28日",
+      "games": [
+        {
+          "game_name": "冒险与征途",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/maoxianyuzhengtu/",
+          "has_afk_grinding_tag": true
         }
       ]
     },

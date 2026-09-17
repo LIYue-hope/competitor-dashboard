@@ -1,9 +1,26 @@
 {
-  "generated_at": "2026-09-16T00:28:48.463116+00:00",
+  "generated_at": "2026-09-17T00:37:30.811212+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-16",
+      "article_count": 5,
+      "game_count": 1,
+      "untagged_count": 4,
+      "digest": "9月16日，游戏行业新闻汇总显示，腾讯光子工作室群的《Higame》游戏宣布扩招，同时Krafton的新游戏也即将交作业。此外，还有4条关于其他游戏的动态，但具体信息未明确指出涉及哪款游戏。",
+      "digest_source": "llm",
+      "input_hash": "9568ce8d1fc665d9",
+      "game_digests": [
+        {
+          "name": "Higame",
+          "count": 1,
+          "summary": "《Higame》游戏将推出新的挑战模式，增加更多玩法和乐趣",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-09-15",
       "article_count": 8,
@@ -67,8 +84,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "9月13日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「2026LPL总决赛落幕，AL勇夺赛季总冠军！」。未指向具体游戏的内容占当天的 100%。",
-      "digest_source": "rules",
+      "digest": "2026年9月13日，游戏行业资讯编辑在GameLook上发布了一条新闻，内容涉及某款尚未具体命名的游戏。该新闻主要报道了该游戏的发售情况，但并未提及具体的发售日期、平台或相关细节。此外，还提到了该游戏可能面临的一些争议和挑战。",
+      "digest_source": "llm",
       "input_hash": "3c276e5db3ae437f",
       "game_digests": []
     },
@@ -202,41 +219,6 @@
           "name": "鬼武者",
           "count": 1,
           "summary": "《鬼武者：剑之道》Steam平台一半玩家来自中国，外媒惊叹中国玩家成最大金主，IGN本部给出10分满分评价。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "article_count": 7,
-      "game_count": 4,
-      "untagged_count": 3,
-      "digest": "今日游戏行业资讯聚焦于独立游戏发售、老牌IP新作传闻及长青MMO运营分析。土耳其独立工作室LeftoStudio开发的合作拆弹派对游戏《BOMBANANA!》正式登陆Steam，引发关注；暴雪疑似通过官网故障暗示《星际争霸》射击新作即将到来；米哈游旗下《雨之城》开启内测，引入AI视频平台功能；此外，行业媒体还深入剖析了《梦幻西游》手游运营十一年的长青逻辑。",
-      "digest_source": "llm",
-      "input_hash": "3dae3a3c344a61dc",
-      "game_digests": [
-        {
-          "name": "BOMBANANA!",
-          "count": 1,
-          "summary": "土耳其独立工作室LeftoStudio开发的合作拆弹派对游戏《BOMBANANA!》正式登陆Steam，该作主打“3只逗比猴的混乱”玩法。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星际争霸",
-          "count": 1,
-          "summary": "暴雪疑似通过官网故障暗示《星际争霸》射击新作即将到来，引发全球老玩家对这一经典IP未来发展的猜测与关注。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "梦幻西游",
-          "count": 1,
-          "summary": "行业媒体深入剖析了《梦幻西游》手游运营十一年来稳居畅销头部的原因，探讨其在存量竞争深水区中的长跑逻辑。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "雨之城",
-          "count": 1,
-          "summary": "米哈游旗下《雨之城》开启内测，引入AI视频平台功能，允许玩家通过AI技术拍摄大片，探索“AI梦工厂”的玩法。",
           "summary_source": "llm"
         }
       ]

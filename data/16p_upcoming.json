@@ -1,55 +1,9 @@
 {
-  "crawled_at": "2026-09-16T00:14:06.519973+00:00",
+  "crawled_at": "2026-09-17T00:20:20.238772+00:00",
   "days": [
     {
-      "date": "2026-09-16",
-      "date_label": "09月16日 今天",
-      "games": [
-        {
-          "game_name": "小小英杰:合战天下",
-          "categories": [
-            "策略",
-            "三国",
-            "SLG",
-            "角色扮演"
-          ],
-          "score": "7.2",
-          "release_date": "2026-09-16",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1954387.html",
-          "publisher": "上海电光火石科技有限公司",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "全民萌兽",
-          "categories": [
-            "休闲",
-            "放置",
-            "解压",
-            "冒险",
-            "闯关",
-            "收集",
-            "探索",
-            "塔防",
-            "养成",
-            "魔幻",
-            "佛系",
-            "卡通"
-          ],
-          "score": "9.4",
-          "release_date": "2026-09-16",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1949490.html",
-          "publisher": "森灵游戏",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
       "date": "2026-09-17",
-      "date_label": "09月17日 明天",
+      "date_label": "09月17日 今天",
       "games": [
         {
           "game_name": "斗破:莫欺少年穷",
@@ -67,30 +21,12 @@
           "publisher": "37手游",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "闪耀吧!噜咪",
-          "categories": [
-            "抓宠",
-            "卡牌",
-            "放置",
-            "冒险",
-            "角色扮演",
-            "回合"
-          ],
-          "score": "8.7",
-          "release_date": "2026-09-17",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1945873.html",
-          "publisher": "bilibili游戏",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
         }
       ]
     },
     {
       "date": "2026-09-19",
-      "date_label": "09月19日 周六",
+      "date_label": "09月19日 后天",
       "games": [
         {
           "game_name": "龙吟山海",
@@ -114,9 +50,10 @@
         {
           "game_name": "弹壳战机",
           "categories": [
-            "弹幕射击",
+            "射击",
             "弹幕",
-            "射击"
+            "弹幕射击",
+            "Roguelike"
           ],
           "score": "7.2",
           "release_date": "2026-09-20",
@@ -174,6 +111,25 @@
       "date_label": "09月22日 下周二",
       "games": [
         {
+          "game_name": "塔尔战纪",
+          "categories": [
+            "社交",
+            "魔幻",
+            "地牢",
+            "刷宝",
+            "自由交易",
+            "多人联机",
+            "角色扮演"
+          ],
+          "score": "8.9",
+          "release_date": "2026-09-22",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1953910.html",
+          "publisher": "贪乐游戏",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
           "game_name": "仙战西游",
           "categories": [
             "卡牌",
@@ -196,11 +152,97 @@
             "吉卜力画风",
             "温馨治愈"
           ],
-          "score": "8.9",
+          "score": "9.0",
           "release_date": "2026-09-22",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1943551.html",
           "publisher": "游萤互娱",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "date_label": "09月23日 下周三",
+      "games": [
+        {
+          "game_name": "我本布衣:世家录",
+          "categories": [
+            "经营",
+            "模拟",
+            "养成",
+            "国风",
+            "回合制",
+            "角色扮演"
+          ],
+          "score": "9.2",
+          "release_date": "2026-09-23",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1954645.html",
+          "publisher": "侠云工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "新世界:暗影成双",
+          "categories": [
+            "互动影像",
+            "角色扮演",
+            "剧情",
+            "解谜",
+            "多人联机",
+            "Steam移植",
+            "应用"
+          ],
+          "score": "9.6",
+          "release_date": "2026-09-23",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1955629.html",
+          "publisher": "ALT Lab",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "伊莫",
+          "categories": [
+            "开放世界",
+            "抓宠",
+            "冒险",
+            "即时战斗",
+            "探索",
+            "动作",
+            "收集",
+            "养成",
+            "角色扮演",
+            "多人联机",
+            "多平台",
+            "萌宠"
+          ],
+          "score": "8.1",
+          "release_date": "2026-09-23",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1932488.html",
+          "publisher": "Pawprint Studio",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "古龙群侠录",
+          "categories": [
+            "角色扮演",
+            "回合",
+            "武侠",
+            "冒险",
+            "探索",
+            "江湖",
+            "3D"
+          ],
+          "score": "7.2",
+          "release_date": "2026-09-23",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1945816.html",
+          "publisher": "指战网络",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }

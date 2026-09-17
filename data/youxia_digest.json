@@ -1,106 +1,207 @@
 {
-  "generated_at": "2026-09-16T00:24:06.637379+00:00",
+  "generated_at": "2026-09-17T00:29:06.074194+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-15",
-      "article_count": 79,
-      "game_count": 50,
-      "untagged_count": 19,
-      "digest": "索尼独占大作《漫威金刚狼》今日正式发售，Insomniac Games透露其主打近战肉搏与环境破坏，摒弃开放世界，PS商店评分高达4.82分；Bungie启动第三轮裁员，索尼《马拉松》宣布更新延期至年底；R星曝光《GTA6》全新偷车机制，并公布TGS 2026限定周边；Neowiz注册“Wonders of O”商标引发续作猜测；IO Interactive宣布《007：初露锋芒》Switch 2版延期至2027年3月。",
+      "date": "2026-09-16",
+      "article_count": 70,
+      "game_count": 37,
+      "untagged_count": 18,
+      "digest": "今日游戏资讯聚焦于《卧龙2：凤火连天》的PS5 Pro增强、DLC及国区定价，以及《漫威金刚狼》的流程时长与调速功能讨论。此外，《战狗》销量登顶引发加班争议，《暗黑5》辟谣赶工并公布首发职业数量，《巫师3》新DLC主笔现身，多款新作如《伊莫》、《友尽大冒险》及《Legacy Code》也迎来发售或公布。",
       "digest_source": "llm",
-      "input_hash": "114ae705a382f4dd",
+      "input_hash": "1ab29f5f115662e6",
+      "game_digests": [
+        {
+          "name": "卧龙2：凤火连天",
+          "count": 7,
+          "summary": "PS5 Pro版需下载39.4GB，支持增强功能；季票包含两部DLC，国区定价298元为全球最低；黄月英新角色亮相。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 5,
+          "summary": "流程约10小时含4小时动画引发时长争议；上线自定义调速功能，支持手柄按键切换慢动作；索尼四大工作室齐贺发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 3,
+          "summary": "9年前毕业论文分析《石之心》的学生如今成为新DLC主笔；故事总监分享任务设计理念；CDPR透露重制版将告别2015版。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "卧龙2",
+          "count": 2,
+          "summary": "Eurogamer评测称其为Team Ninja集大成之作；确认将于2027年3月4日发售，PS5版开启预购。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战狗",
+          "count": 2,
+          "summary": "CEO因“反加班别来”言论引发争议；5天销量突破200万份，Steam全球及国区销量双登顶。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑5",
+          "count": 2,
+          "summary": "辟谣赶工拼凑，项目已秘密开发三年；首发职业数量将超过系列任何一款作品，预计2029年初发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Apex英雄",
+          "count": 1,
+          "summary": "宣布联动《街头霸王6》，公布八款传奇皮肤，活动将于9月22日上线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 1,
+          "summary": "或将引入《大镖客2》“死亡之眼”枪战机制。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Legacy Code",
+          "count": 1,
+          "summary": "Steam页面公开，入围TGS SOWN，搭载独创“牵线木偶引擎”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "以太与铁",
+          "count": 1,
+          "summary": "复古未来叙事RPG将于2027年登陆PlayStation及Xbox，新增剧情更新并享八折优惠。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "伊莫",
+          "count": 1,
+          "summary": "PC端及云游戏今日上午10:00正式上线，玩家可前往艾德尔大陆开启捉宠冒险。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "友尽大冒险",
+          "count": 1,
+          "summary": "双人联机卡牌游戏今日正式发售，首发八折优惠后36.8元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "双人成行",
+          "count": 1,
+          "summary": "NS 2版将于10月15日发售，部分地区可免费升级。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "城市：天际线2",
+          "count": 1,
+          "summary": "第二季扩展通行证发布，包含市中心市场及多款内容包，售价44.99美元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "天国：拯救2",
+          "count": 1,
+          "summary": "制作人实测DLSS 5，称正确调校可还原细节，反驳AI垃圾质疑。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "article_count": 111,
+      "game_count": 65,
+      "untagged_count": 27,
+      "digest": "今日游戏行业资讯聚焦索尼独占大作《漫威金刚狼》正式发售引发媒体热议，同时《GTA6》盗车机制革新与《007：初露锋芒》Switch版延期等消息引发关注，此外《匹诺曹的谎言》续作商标注册、黑影职业重做及《暗黑4》Switch 2版实装等动态也占据重要篇幅。",
+      "digest_source": "llm",
+      "input_hash": "10090965bc30f0e8",
       "game_digests": [
         {
           "name": "漫威金刚狼",
-          "count": 7,
-          "summary": "索尼独占大作《漫威金刚狼》今日正式上线，Insomniac Games透露其主打近战肉搏与环境破坏，摒弃开放世界，PS商店评分高达4.82分。",
+          "count": 11,
+          "summary": "索尼独占大作《漫威金刚狼》正式上线，外媒调侃独占优势，Insomniac Games揭秘主打近战肉搏与环境破坏，PS商店评分显示92%玩家打出五星好评。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
           "count": 3,
-          "summary": "R星官方曝光《GTA6》核心玩法革新，沿用近三十年的一键偷车机制迎来彻底重构，全新分层式车辆安保系统上线，并公布TGS 2026限定周边。",
+          "summary": "R星官方曝光《GTA6》全新偷车机制，彻底重构沿用近三十年的一键盗车系统，索尼TGS 2026展台将提供《GTA6》限定周边免费领取。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "007：初露锋芒",
+          "count": 2,
+          "summary": "IO Interactive宣布《007：初露锋芒》Switch 2版延期至2027年3月发售，同时路径追踪技术实装并公布PC配置表。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "WARDOGS",
+          "count": 2,
+          "summary": "多人战术射击游戏《WARDOGS》销量突破200万份，Steam抢先体验开启后出现“蓝队歧视”现象，峰值同时在线人数约43万。",
           "summary_source": "llm"
         },
         {
           "name": "匹诺曹的谎言",
           "count": 2,
-          "summary": "韩国游戏发行商Neowiz近日在欧盟知识产权局提交“Wonders of O”商标申请，目前处于审查中，该名称与《匹诺曹的谎言》命名结构高度相似。",
+          "summary": "发行商Neowiz在韩国注册“Wonders of O”商标，被广泛猜测与《匹诺曹的谎言》续作有关，该名称结构高度相似且指向《绿野仙踪》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "守望先锋",
+          "count": 2,
+          "summary": "暴雪嘉年华访谈曝光《守望先锋》黑影将转型支援位，该改动随第五赛季于10月6日上线，同时猎空早期“双眼射激光”的幕后秘闻被曝光。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑4",
+          "count": 2,
+          "summary": "《暗黑破坏神4：憎恨时代合集》Switch 2版实体包装曝光，盒内仅含78GB安装容量的数字下载码，官方FAQ公开了双模式运行细节。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "火焰纹章：万缕千丝",
+          "count": 2,
+          "summary": "任天堂公开Switch 2版《火焰纹章：万缕千丝》介绍视频，游戏将于9月17日发售，港服实体版售价549港币，支持简体中文。",
           "summary_source": "llm"
         },
         {
           "name": "马拉松",
           "count": 2,
-          "summary": "索尼旗下Bungie工作室正式启动三年内第三轮大规模裁员，实际规模可能更大，当地媒体形容为一场“大屠杀”，索尼《马拉松》宣布更新延期至年底。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "007：初露锋芒",
-          "count": 1,
-          "summary": "IO Interactive今日宣布，詹姆斯·邦德题材动作冒险游戏《007：初露锋芒》Switch 2版将延期至2027年3月发售，具体日期后续公布。",
+          "summary": "索尼旗下Bungie工作室启动第三轮裁员，实际规模可能更大，同时《马拉松》宣布将更新延后到年底，取消过去固定的一季一更赛季模式。",
           "summary_source": "llm"
         },
         {
           "name": "Cyan Heart",
           "count": 1,
-          "summary": "独立开发者塩惺瑛官宣，独特自拍视角恐怖解谜游戏《Cyan Heart》将于2026年10月9日登陆Steam，售价1300日元。",
+          "summary": "独立恐怖解谜游戏《Cyan Heart》将于10月9日登陆Steam，售价1300日元，游戏以受限自拍镜头为核心玩法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Enigma of fear",
+          "count": 1,
+          "summary": "Steam好评如潮的巴西生存恐怖神作《Enigma Of Fear》突现中文成就更新，被玩家视为官方中文即将上线的信号。",
           "summary_source": "llm"
         },
         {
           "name": "FGO",
           "count": 1,
-          "summary": "由《Fate/Grand Order》制作人盐川洋介领衔的游戏公司Fahrenheit 213正式宣布，旗下Roguelite PC卡牌游戏《冥月悸动》首个试玩版将于东京电玩展2026展出。",
+          "summary": "《Fate/Grand Order》制作人盐川洋介领衔的新作《冥月悸动》公开，首个试玩版将于东京电玩展2026展出，四位声优阵容同步公布。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "P5X",
+          "count": 1,
+          "summary": "《女神异闻录：夜幕魅影》公开与《女神异闻录3 携带版》联动OP动画，确认P3P女性主人公“汐见琴音”将于9月24日登场。",
           "summary_source": "llm"
         },
         {
           "name": "Vanakan",
           "count": 1,
-          "summary": "由独立游戏开发者Erik Khachatryan与Hayk Khachatryan共同制作的文字冒险游戏《Vanakan》，现正在Epic游戏商店限时开启免费“喜加一”。",
+          "summary": "文字冒险游戏《Vanakan》现正在Epic游戏商店限时免费领取。",
           "summary_source": "llm"
         },
         {
-          "name": "云上叠叠乐",
+          "name": "不义联盟3",
           "count": 1,
-          "summary": "休闲策略“爬塔”游戏《云上叠叠乐》已于9月14日登陆Steam，支持简体中文，首发售价19.5元，首发折扣持续至9月28日。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "全战：战锤40K",
-          "count": 1,
-          "summary": "Creative Assembly在科隆游戏展提供了《全面战争：战锤40K》试玩，游戏将单场战役集中在一个太阳系内，玩家可在多颗星球间行动。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "卧龙2",
-          "count": 1,
-          "summary": "光荣特库摩正式公布《卧龙2：凤火连天》主角与庞统官方立绘，庞统将以义眼面具、巨型法杖的“凤雏”形象登场，将以智谋与凤火与主角并肩入局。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影：亚特兰蒂斯遗迹",
-          "count": 1,
-          "summary": "IGN中国发布《古墓丽影：亚特兰蒂斯遗迹》开发幕后视频，聚焦希腊区域的怪物设计，游戏定档2027年2月12日登陆多平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "同级生 2 Remake",
-          "count": 1,
-          "summary": "经典恋爱冒险游戏《同级生2 Remake》繁体中文版将登陆Steam平台，今日正式公开Steam商店页面。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "咒术回战 激斗：幸存潮汐",
-          "count": 1,
-          "summary": "集英社游戏宣布，生存乱斗新作《咒术回战 RUMBLE: SURVIVATON》由2026年顺延至2027年发售，旨在打磨游戏品质。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "咒术迴战 激斗：倖存潮汐",
-          "count": 1,
-          "summary": "集英社游戏宣布，生存大逃杀游戏《咒术回战 激斗：幸存潮汐》发售时间将变更至2027年，并公开最新第2弹预告片。",
+          "summary": "神秘3A格斗游戏新作招募测试，因风格过于像《不义联盟3》引发玩家猜测是NetherRealm新作。",
           "summary_source": "llm"
         }
       ]
@@ -808,107 +909,6 @@
           "name": "博德3",
           "count": 1,
           "summary": "玩家自制mod解锁原版隐藏的9环法术“毁灭真言”，打破原版法术强度限制。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "article_count": 91,
-      "game_count": 45,
-      "untagged_count": 23,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》的深度机制解析与角色背景揭秘，以及《鬼武者：剑之道》发售后的市场热度。此外，《英雄联盟》海斗大赛四强战队访谈、《巫师4》全面制作阶段确认、以及《赛博朋克2077》MOD开发者的技术突破也是今日报道的重点。",
-      "digest_source": "llm",
-      "input_hash": "77d1e97752433e2c",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 9,
-          "summary": "玩家自制PS2版《GTA6》截图：秒回《罪恶都市》时代，一名Reddit用户将《GTA6》实机中的Vice City场景按2004年前后的技术水准重新制作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "英雄联盟",
-          "count": 7,
-          "summary": "《英雄联盟》全民赛道四强DYGL战队访谈：不留遗憾，放手一搏，这支由普通大乱斗爱好者组成的队伍，没有明星选手光环，凭着对游戏的热爱晋级四强。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 5,
-          "summary": "《鬼武者：剑之道》首发热度火爆 Steam在线人数破8万，卡普空经典IP新作发售之后市场反响热烈，Steam同时在线峰值达到81500人。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "P4R",
-          "count": 2,
-          "summary": "《P4R》玛丽登场方式大改！打造更自然流畅初见体验，制作人和田和久透露，游戏将大幅优化玛丽的出场方式，不同于《黄金版》中略显突兀的“空降”，新作将让玛丽从一开始就自然融入主线故事。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "女神异闻录4：重制版",
-          "count": 2,
-          "summary": "《女神异闻录4：重制版》将是一款“完全重制”的作品，Atlus《女神异闻录》系列制作人和田和久透露，在《女神异闻录3：Reload》之后，团队正将全部精力投入到《女神异闻录4：黄金版》的完全重制上。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师4",
-          "count": 2,
-          "summary": "CDPR确认《巫师4》进入全面制作阶段!目标2028年发售，在CDPR 2026上半年财报投资者问答会上，联合CEO米哈乌・诺瓦科夫斯基确认《巫师4》已进入全面制作阶段。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "神鬼寓言",
-          "count": 2,
-          "summary": "《神鬼寓言》所有NPC均为人工设计，拒绝AI与随机生成，游戏总监Ralph Fulton在接受外媒GamesRadar+采访时透露，本作中每一名NPC均由开发团队单独设计。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "赛博朋克2077",
-          "count": 2,
-          "summary": "《赛博朋克2077》第三人称MOD上线 支持无缝切换！由模组作者CybrDrake打造的“Immersive Third Person”MOD现已发布，为《赛博朋克2077》加入了完成度极高的第三人称视角。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "8号出口",
-          "count": 1,
-          "summary": "恐怖游戏《8号出口》销量突破300万份 Steam开启促销，开发商KOTAKE CREATE宣布，心理恐怖解谜游戏《8号出口》全球累计销量已突破300万份。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Catharsis ～最后的画室～",
-          "count": 1,
-          "summary": "沉浸式艺术ADV《Catharsis ～最后的画室～》公开Steam页面，讲谈社Game Creators' Lab今日正式公开了新作《Catharsis ～最后的画室～》的Steam商店页面。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Dungeon Picnic",
-          "count": 1,
-          "summary": "超可爱魔女闯地城！RPG肉鸽《Dungeon Picnic》推出试玩，独立开发者Lapismine于今日在Steam推出PC游戏《Dungeon Picnic》的体验版。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA",
-          "count": 1,
-          "summary": "前R星员工揭秘《GTA》开发流程：发售前全员通关找Bug，前Rockstar North技术总监奥贝·维梅伊发文透露，在开发《GTA3》《GTA4》等作品时，团队会在游戏正式发售前两周暂停开发工作，全员从头到尾完整通关一遍游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6 OL",
-          "count": 1,
-          "summary": "外媒推测《GTA6 OL》不随本体上线!或将延期两年推出，相关分析报道显示，《GTA6》线上模式或将不会跟随游戏本体同步发售，最坏情况下延期时长可达两年。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Scavland",
-          "count": 1,
-          "summary": "多半好评！硬核生存RPG《Scavland》推出抢先体验版，NoShadow与UNSUBSCRIBE于2026年9月5日在Steam平台推出新作《Scavland》的抢先体验版。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "东方",
-          "count": 1,
-          "summary": "30年老游戏IP《东方》粉丝越来越年轻 过半都未满20岁，社群公布的第22回人气投票问卷结果引发热议，这款问世近30年的同人系列IP，粉丝构成呈现出惊人的“年轻化”趋势。",
           "summary_source": "llm"
         }
       ]
