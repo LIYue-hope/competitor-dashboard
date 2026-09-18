@@ -1,106 +1,207 @@
 {
-  "generated_at": "2026-09-17T00:29:06.074194+00:00",
+  "generated_at": "2026-09-18T00:15:16.865964+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-16",
-      "article_count": 70,
-      "game_count": 37,
-      "untagged_count": 18,
-      "digest": "今日游戏资讯聚焦于《卧龙2：凤火连天》的PS5 Pro增强、DLC及国区定价，以及《漫威金刚狼》的流程时长与调速功能讨论。此外，《战狗》销量登顶引发加班争议，《暗黑5》辟谣赶工并公布首发职业数量，《巫师3》新DLC主笔现身，多款新作如《伊莫》、《友尽大冒险》及《Legacy Code》也迎来发售或公布。",
+      "date": "2026-09-17",
+      "article_count": 89,
+      "game_count": 60,
+      "untagged_count": 20,
+      "digest": "9月17日游戏行业资讯密集，多款重磅新作发售引发关注，包括《火焰纹章：万缕千丝》《空之轨迹 the 2nd》等，同时《GTA6》持续引爆市场，PS5 Pro二手价飙升，而《战狗》CEO加班言论翻车，《漫威金刚狼》发售遇两极口碑。",
       "digest_source": "llm",
-      "input_hash": "1ab29f5f115662e6",
+      "input_hash": "74d881b7f02107cb",
       "game_digests": [
         {
-          "name": "卧龙2：凤火连天",
-          "count": 7,
-          "summary": "PS5 Pro版需下载39.4GB，支持增强功能；季票包含两部DLC，国区定价298元为全球最低；黄月英新角色亮相。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 5,
-          "summary": "流程约10小时含4小时动画引发时长争议；上线自定义调速功能，支持手柄按键切换慢动作；索尼四大工作室齐贺发售。",
+          "name": "GTA6",
+          "count": 4,
+          "summary": "《GTA6》加长版实机演示放出后热度引爆海外主机市场，PS5 Pro现货供应收紧，二手与第三方倒卖价格大幅上涨，Rockstar更在洛杉矶、迈阿密和纽约投放印有Spotify标志的大型广告牌，展示与多位国际音乐人合作的艺术画作。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3",
-          "count": 3,
-          "summary": "9年前毕业论文分析《石之心》的学生如今成为新DLC主笔；故事总监分享任务设计理念；CDPR透露重制版将告别2015版。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "卧龙2",
           "count": 2,
-          "summary": "Eurogamer评测称其为Team Ninja集大成之作；确认将于2027年3月4日发售，PS5版开启预购。",
+          "summary": "俄罗斯知名Coser Fishy Cosplay发布了一组《巫师3：狂猎》中希里的Cosplay新作，惊艳众多粉丝；同时《巫师3》全球销量突破5000万份，首席编剧坦言游戏并不完美仍有改进空间。",
           "summary_source": "llm"
         },
         {
           "name": "战狗",
           "count": 2,
-          "summary": "CEO因“反加班别来”言论引发争议；5天销量突破200万份，Steam全球及国区销量双登顶。",
+          "summary": "百人对战新游《战狗》抢先体验上线一周，Steam同时在线人数较峰值回落超10万，开发商针对玩家反馈开启意见征集通道，但CEO Joe Brammer因\"查社交媒体\"\"轻度加班\"等言论引发巨大争议，尽管首发5天销量破200万份，道歉也未能挽回口碑。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 2,
+          "summary": "索尼发布的《漫威金刚狼》真人宣传片因内容问题在评论区引发超千条吐槽，而游戏发售后的口碑呈现两极分化，PS商店玩家评分高达4.85星，但M站媒体均分仅为77分。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "火焰纹章：万缕千丝",
+          "count": 2,
+          "summary": "《火焰纹章：万缕千丝》今日正式发售，媒体评分解禁后M站开分89分，外媒盛赞其为系列全新标杆之作，游戏体量庞大，单主角通关约50小时，体验全部四条故事线并推进至第三部分至少需100小时。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "空之轨迹 the 2nd",
+          "count": 2,
+          "summary": "由Nihon Falcom开发的角色扮演游戏《空之轨迹 the 2nd》今日正式登陆Steam，截至发稿前Steam共收录73条用户评测，全部为\"特别好评\"，好评率高达98%，游戏首周享九折优惠，标准版折后268.2元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "龙之信条2",
+          "count": 2,
+          "summary": "卡普空官方宣布《龙之信条2》角色创建应用迎来重要更新，新增多款发型和刺青选项，并公开了首个大型DLC\"黑暗觉者\"的主预告，定档10月9日发售，将解锁极北冰雪区域\"诺尔坎\"。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "ARC Raiders",
+          "count": 1,
+          "summary": "Embark Studios透露《ARC Raiders》已制定了十年开发计划，主要灵感源自《命运》系列，旨在复刻Bungie的成功模式，并发布了为10月8日\"冰封之路\"大型更新做准备的重要补丁。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Another+Eden+Begins",
+          "count": 1,
+          "summary": "面向Nintendo Switch™ 2/Nintendo Switch™/Steam®平台的新作时空穿越RPG《Another Eden Begins》今日正式发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "COD：黑色行动2",
+          "count": 1,
+          "summary": "动视今年夏季推出的《使命召唤：黑色行动2》移植版上线后热度飙升，当前人气已超越多款系列新作，令不少玩家感到意外。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FC 27",
+          "count": 1,
+          "summary": "海外知名主播甲亢哥（IShowSpeed）直播体验《EA FC 27》全新官方自由世界模式，当场直言这款足球新作的观感就像《GTA》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7启示",
+          "count": 1,
+          "summary": "东京电玩展2026现场开放《最终幻想VII 启示录》实机试玩，本作解锁原版全部八名可操作角色，展示希德全新战斗机制与WEAR职业换装新系统，游戏定档2027年4月8日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "KEMURI",
+          "count": 1,
+          "summary": "前《幽灵线：东京》创意总监中村育美创立的UNSEEN工作室多名资深总监与核心设计师已相继离职，此前中村育美曾以\"不想让工程师过劳死\"为由拒绝移植Xbox平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "PHYSINT",
+          "count": 1,
+          "summary": "小岛秀夫晒出与Remedy传播总监等人的合影，引发玩家猜测其新作《PHYSINT》或将使用Remedy自研的Northlight引擎。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Space Menace",
+          "count": 1,
+          "summary": "科幻太空即时战略游戏《太空威胁》限时免费领取，原价29元，活动截止至9月23日。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "article_count": 111,
+      "game_count": 59,
+      "untagged_count": 25,
+      "digest": "9月16日游戏资讯聚焦多款大作动态，《卧龙2：凤火连天》公布PS5 Pro增强与国区低价，GTA6预告引入死亡之眼机制，漫威金刚狼发售引发时长争议，暗黑4新赛季炸服延期，而《伊莫》与《战狗》则凭借免费模式与高销量登顶Steam。",
+      "digest_source": "llm",
+      "input_hash": "e98b5c3974f16eba",
+      "game_digests": [
+        {
+          "name": "卧龙2：凤火连天",
+          "count": 7,
+          "summary": "《卧龙2：凤火连天》α体验版今日推出，PS5 Pro版需下载39.4GB，确认支持PS5 Pro增强；国区标准版定价298元，为全球最低价；季票包含两部DLC，涵盖新剧情、敌人及装备。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 5,
+          "summary": "《GTA6》最新消息显示将引入与《荒野大镖客2》高度相似的“死亡之眼”枪战机制，标志着Rockstar开放世界公式的重大进化；游戏将于2026年11月首发主机版，PC版尚未官宣。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 5,
+          "summary": "《漫威金刚狼》9月15日登陆PS5，博主上传完整流程视频引发热议，经计算平均流程约10小时，其中约4小时为过场动画；游戏支持自定义调速功能，玩家可绑定手柄按键切换慢动作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 4,
+          "summary": "《巫师3》新DLC《旧时曲》主笔Paula Mejsner曾于9年前以《石之心》为题写毕业论文，如今亲续杰洛特故事；故事总监Marcin Blacha分享了对完美任务设计的理解，确认新DLC将延续该设计。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑4",
+          "count": 3,
+          "summary": "《暗黑4》第15赛季原定9月16日上线遭遇大面积登录故障，暴雪宣布延期，连马斯克发文吐槽；为庆祝暗黑30周年，Steam提前开启《暗黑4》免费周末活动，截止9月22日上午1点。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "伊莫",
+          "count": 2,
+          "summary": "多人在线跨平台大世界捉宠RPG《伊莫》PC端及云游戏于9月16日上午10:00正式上线，上线3小时在线人数突破10万。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "全面战争：幕府将军2",
+          "count": 2,
+          "summary": "SEGA与CA公布《全面战争：幕府将军2 完整版》，将于10月13日登陆PC，收录全部DLC并升级画面与中文配音，新增势力与模组支持。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "卧龙2",
+          "count": 2,
+          "summary": "Eurogamer媒体试玩《卧龙2：凤火连天》五小时后盛赞其为Team Ninja集大成之作，融入《忍龙》立体空战与《死或生》格斗技式；游戏官宣将于2027年3月4日发售，PS5版预购开启。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战狗",
+          "count": 2,
+          "summary": "《战狗》开发商CEO Joe Brammer直言“反加班的别来”，引发争议；游戏5天销量突破200万份，Steam全球及国区销量双登顶。",
           "summary_source": "llm"
         },
         {
           "name": "暗黑5",
           "count": 2,
-          "summary": "辟谣赶工拼凑，项目已秘密开发三年；首发职业数量将超过系列任何一款作品，预计2029年初发售。",
+          "summary": "暴雪澄清《暗黑5》并非赶工拼凑，该项目早在2023年9月就已启动预生产，目前已进入全面制作阶段，预计2029年初发售；游戏首发职业数量将超过系列任何一款作品。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "火焰纹章：万缕千丝",
+          "count": 2,
+          "summary": "《火焰纹章：万缕千丝》评分解禁，GS给出9分，IGN给出满分10分，获评系列全新标杆之作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "空之轨迹 2nd",
+          "count": 2,
+          "summary": "《空之轨迹 the 2nd》媒体评分正式解禁，OpenCritic平台均分为93分，M站PC版均分94分，PS5版均分92分。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "龙之荒野",
+          "count": 2,
+          "summary": "开放世界生存建造新作《符文世界：龙之荒野》登陆PS5，上线24小时收获近2000条评价，拿到4.58/5的高分。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Afterworld",
+          "count": 1,
+          "summary": "P社即将推出的末日题材大战略游戏《Afterworld》构思超10年，采用“虚拟历史学家”系统，每局重写200年历史。",
           "summary_source": "llm"
         },
         {
           "name": "Apex英雄",
           "count": 1,
-          "summary": "宣布联动《街头霸王6》，公布八款传奇皮肤，活动将于9月22日上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 1,
-          "summary": "或将引入《大镖客2》“死亡之眼”枪战机制。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Legacy Code",
-          "count": 1,
-          "summary": "Steam页面公开，入围TGS SOWN，搭载独创“牵线木偶引擎”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "以太与铁",
-          "count": 1,
-          "summary": "复古未来叙事RPG将于2027年登陆PlayStation及Xbox，新增剧情更新并享八折优惠。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "伊莫",
-          "count": 1,
-          "summary": "PC端及云游戏今日上午10:00正式上线，玩家可前往艾德尔大陆开启捉宠冒险。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "友尽大冒险",
-          "count": 1,
-          "summary": "双人联机卡牌游戏今日正式发售，首发八折优惠后36.8元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "双人成行",
-          "count": 1,
-          "summary": "NS 2版将于10月15日发售，部分地区可免费升级。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "城市：天际线2",
-          "count": 1,
-          "summary": "第二季扩展通行证发布，包含市中心市场及多款内容包，售价44.99美元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "天国：拯救2",
-          "count": 1,
-          "summary": "制作人实测DLSS 5，称正确调校可还原细节，反驳AI垃圾质疑。",
+          "summary": "《Apex 英雄》将联动《街头霸王6》，活动于9月22日至10月13日上线，公布八款传奇皮肤。",
           "summary_source": "llm"
         }
       ]
@@ -809,107 +910,6 @@
           "count": 1,
           "summary": "《CODE VEIN 噬血代码 II》扩充DLC ＂Mask of Idris＂现已发布！。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "article_count": 87,
-      "game_count": 56,
-      "untagged_count": 21,
-      "digest": "今日游戏资讯聚焦于《GTA6》的发售预热与周边热度，以及《漫威金刚狼》发售前的实体泄露与系统爆料。此外，《地平线6》官方辟谣延期传闻并上线新活动，NC新作《Like or Die》亮相科隆展，AI模型GPT-6 Astra成功通关《传送门》，而《勇气默示录》移除D加密后迅速被破解引发争议。",
-      "digest_source": "llm",
-      "input_hash": "eb14ae32a3c5c2a7",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 7,
-          "summary": "距离正式发售仅剩数月，玩家自制立体模型获赞，社区对比R星足部模型细节引发热议，女主露西娅演员分享庆祝生日的近照。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "地平线6",
-          "count": 3,
-          "summary": "开发商Playground Games确认游戏仍按计划于2026年登陆PS5，官方辟谣延期传闻，并上线“英伦汽车庆典”更新及漂移计分赛。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2,
-          "summary": "发售前一周实体版被偷跑，失眠组公布战斗系统详情，核心围绕怒气三档分级机制展开，并配备两套独立成长体系。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "艾尔登法环",
-          "count": 2,
-          "summary": "官方发布服务器维护公告，同步上线1.17.1版本补丁，这是近期推出“褪色者包”后的首次维护。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "1666：阿姆斯特丹",
-          "count": 1,
-          "summary": "自开启PC抢先体验后口碑遇冷，暗黑巫术题材新作与发售前的亮眼期待形成巨大反差。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7启示",
-          "count": 1,
-          "summary": "重制三部曲收官之作实体版展示盒照片曝光，三部曲实体收藏终迎“闭环”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GT赛车8",
-          "count": 1,
-          "summary": "Polyphony Digital开放多达18个技术岗位，为系列史上最大规模技术升级储备人手。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Like or Die",
-          "count": 1,
-          "summary": "NC新作在科隆展公开，设定于平行宇宙首尔，玩家化身主播在16人4v4对抗中通过点赞机制赢取奖励。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "PUBG",
-          "count": 1,
-          "summary": "宣布与《咒术回战》联动，PC版9月10日上线，全地图变身咒术战场，出现五条悟石像及无量空处。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三国志 14 with 威力加强传承版",
-          "count": 1,
-          "summary": "天津团队制作人接受专访，分享新作开发相关内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "传送门",
-          "count": 1,
-          "summary": "OpenAI旗舰模型GPT-6 Astra在零人工干预下自主通关游戏，耗时近24小时思考决策，标志着AI在空间推理上取得突破。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺客信条",
-          "count": 1,
-          "summary": "官方推出爱德华・肯维1/2比例收藏雕像，定价2999美元，全球限量500尊，迎接系列20周年。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑网3",
-          "count": 1,
-          "summary": "与《凡人修仙传》联动将于9月10日上线，以“凡人不凡，执剑为侠”为主题。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "勇气默示录",
-          "count": 1,
-          "summary": "移除Denuvo保护后仅3小时便被破解组织TENOKE发布补丁，引发关于D加密反伤正版玩家的讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "博德3",
-          "count": 1,
-          "summary": "玩家自制mod解锁原版隐藏的9环法术“毁灭真言”，打破原版法术强度限制。",
-          "summary_source": "llm"
         }
       ]
     }

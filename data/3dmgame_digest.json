@@ -1,106 +1,206 @@
 {
-  "generated_at": "2026-09-17T00:27:46.624642+00:00",
+  "generated_at": "2026-09-18T00:14:23.516553+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-17",
-      "article_count": 16,
-      "game_count": 15,
+      "date": "2026-10-10",
+      "article_count": 1,
+      "game_count": 1,
       "untagged_count": 0,
-      "digest": "3DMGame今日报道涵盖多款游戏动态，包括《火焰纹章：万缕千丝》公布单主角约50小时四线超100小时的流程时长；《ARC Raiders》开发商Embark计划将其运营十年并借鉴《命运》叙事模式；Denuvo母公司Irdeto首次起诉破解者voices38；R星重做《GTA6》警察系统，警方将长期记住玩家特征；国产捉宠RPG《伊莫》Steam上线峰值超12万但获特别差评；卡普空宣布《识质存在》今日免费推出“洛克人包”DLC。",
+      "digest": "Denuvo母公司Irdeto向美国加州联邦法院提起诉讼，指控破解大神voices38违反DMCA《数字千年版权法》1201反规避条款，破解了近40款商业游戏的Denuvo防篡改保护系统，voices38回应称一切正常，将继续破解。Denuvo计划追加Valve、Reddit、Discord等平台为被告。",
       "digest_source": "llm",
-      "input_hash": "e945f600671606a1",
+      "input_hash": "cbd3cfa5bd41d101",
       "game_digests": [
         {
+          "name": "D加密",
+          "count": 1,
+          "summary": "大神voices38回应Denuvo诉讼：一切正常 继续破解。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "article_count": 14,
+      "game_count": 12,
+      "untagged_count": 2,
+      "digest": "Take-Two确认《GTAOL》将在《GTA6》发售后继续运营，动视公布《使命召唤：现代战争4》战役预告，微软公布《战争机器：事变日》PC配置需求，暴雪解释新作直接命名《星际争霸》意在IP拓展，Soulframe调侃《影之刃零》愿望单突破三百万，Game Freak为《轮回之兽》更新增加跳过动画功能。",
+      "digest_source": "llm",
+      "input_hash": "f830b23042c13a20",
+      "game_digests": [
+        {
+          "name": "GTAOL",
+          "count": 1,
+          "summary": "Take-Two确认《GTAOL》将在《GTA6》发售后继续运营，公司计划在新作推出后继续为现有在线模式提供支持。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 1,
+          "summary": "动视公布《使命召唤：现代战争4》新预告，展示战役模式剧情内容，本作将于10月23日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "卧龙2：凤火连天",
+          "count": 1,
+          "summary": "巴哈姆特放出《卧龙2：凤火连天》试玩实机演示，Alpha体验版开放时间为9月16日-9月30日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "古神：风里希",
+          "count": 1,
+          "summary": "国产第三人称单机ARPG《古神：风里希》新预告公布，展示了游戏角色建模、艺术图和战斗场景等。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "《影之刃零》愿望单突破三百万，制作人Soulframe发文调侃“取消愿望单”引发玩家热议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战争机器：事变日",
+          "count": 1,
+          "summary": "微软公布《战争机器：事变日》最终PC配置需求，所有配置档位均需要115GB固态硬盘空间。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "拉吉：暗黑纪元",
+          "count": 1,
+          "summary": "印度游戏《拉吉：暗黑纪元》新预告公布，展示了游戏玩法以及其独特之处。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星际争霸",
+          "count": 1,
+          "summary": "暴雪总裁解释新作直接命名《星际争霸》是IP拓展，不会背离RTS传统。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑破坏神5",
+          "count": 1,
+          "summary": "《暗黑破坏神5》游戏总监披露职业规划，本作将于2029年春季登陆PC和主机平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 1,
+          "summary": "PS5独占动作游戏《漫威金刚狼》已发售，IGN放出游戏27分钟开场实机演示。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "给他爱5",
+          "count": 1,
+          "summary": "《给他爱5》迎来发售13周年纪念日，累计销量已达2.3亿份。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "轮回之兽",
+          "count": 1,
+          "summary": "《轮回之兽》1.010版本更新上线，允许玩家跳过几乎所有事件动画。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "article_count": 117,
+      "game_count": 90,
+      "untagged_count": 16,
+      "digest": "9月17日游戏行业资讯丰富，Take-Two重申《GTA6》发售前将展开大规模营销，R星同步公布收录34首曲目的音乐专辑；任天堂在《火焰纹章：万缕千丝》发售前夕发布35页英文序章漫画并公布单主角约50小时的游玩时长；PlayStack确认《小丑牌》的成功为其提供了更多融资空间；Bulkhead针对《战狗》Steam在线人数回落超10万的情况征集玩家意见；Insomniac Games回应《漫威金刚狼》玩家评价分化问题；Dragami Games与Nada Holdings宣布《电锯甜心2 Back2Back》将于2027年登陆PS5；Falcom公布《空之轨迹 the 2nd》PC版获93分暂居年度新作榜首；Embark Studios透露《ARC Raiders》计划运营十年并借鉴《命运》叙事模式；Denuvo母公司Irdeto首次起诉破解者voices38；Kojima Productions确认比尔·斯卡斯加德主演《Physint》。",
+      "digest_source": "llm",
+      "input_hash": "ff5201ccb9af9cc9",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "Take-Two首席执行官施特劳斯·泽尔尼克表示《GTA6》虽知名度高但仍需大规模营销，近期公布的27分钟展示兼具教学功能，并借鉴电影《芭比》的推广策略将玩家认知转化为热情。",
+          "summary_source": "llm"
+        },
+        {
           "name": "火焰纹章：万缕千丝",
+          "count": 3,
+          "summary": "任天堂在发售前夕推出35页英文序章漫画登陆Nintendo Today!，并公布单主角约50小时、四线超100小时的游玩时长，四名主角配音演员也已公开。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "小丑牌",
           "count": 2,
-          "summary": "官方公布游戏时长，单主角约50小时，体验四条故事线并完成第三部分至少需要超100小时，单主角流程长度超过《火焰纹章：风花雪月》。",
+          "summary": "PlayStack确认《小丑牌》的成功拓宽了项目融资空间，增强了公司承担创意风险的信心，但表示不会因此转向单一类型发行，今年预计发行约8款游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战狗",
+          "count": 2,
+          "summary": "《战狗》Steam在线人数较峰值回落超10万，开发商Bulkhead向玩家征集意见，并确认第二赛季将带来大量新内容和改动。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 2,
+          "summary": "《漫威金刚狼》发售后玩家评价出现分化，Metacritic用户评分为6.6分，低于媒体综合评分，部分玩家认为游戏线性程度较高、战斗容易重复且主线流程较短。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "电锯甜心2 Back2Back",
+          "count": 2,
+          "summary": "Dragami Games与Nada Holdings宣布《电锯甜心2 Back2Back》将于2027年登陆PS5，TGS 2026现场开放试玩，制作团队包括田畑端和结城正弘。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "空之轨迹 the 2nd",
+          "count": 2,
+          "summary": "《空之轨迹 the 2nd》PC版在Metacritic获得93分暂居2026年新作榜首，PS5版92分，Switch 2版84分，是日本Falcom推进系列重制计划的第二部作品。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "英灵神殿",
+          "count": 2,
+          "summary": "《英灵神殿》1.0版开发者命令指南公布，详细介绍了PC Steam版控制台开启方法及各类指令，包括角色、生存、建造、传送等功能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黎明行者之血",
+          "count": 2,
+          "summary": "《黎明行者之血》续作未必保留争议计时机制，游戏总监表示团队将根据具体故事需要决定是否使用该系统，团队会继续试验以适应不同剧情。",
           "summary_source": "llm"
         },
         {
           "name": "ARC Raiders",
           "count": 1,
-          "summary": "Embark Studios为《ARC Raiders》发布重要补丁，并透露已制定十年运营计划，旨在复制《命运》系列的叙事模式。",
+          "summary": "Embark Studios透露《ARC Raiders》计划运营十年，并借鉴《命运》系列精心构建的叙事方式，已发布补丁为10月8日上线的“冰封之路”大型更新做准备。",
           "summary_source": "llm"
         },
         {
           "name": "D加密",
           "count": 1,
-          "summary": "Denuvo母公司Irdeto首次向美国法院起诉破解者voices38，指控其攻破近40款D加密游戏，包括《黑神话：悟空》等作品。",
+          "summary": "Denuvo母公司Irdeto首次起诉破解者voices38，指控其规避技术保护措施，voices38在近一年内攻破近40款D加密游戏。",
           "summary_source": "llm"
         },
         {
-          "name": "GTA6",
+          "name": "Fate",
           "count": 1,
-          "summary": "R星North重新设计了警察系统，警方将长期记住玩家的衣着和车辆特征，即使通缉星级消失后仍可能被识别。",
+          "summary": "《Fate/EXTRA Record》将在TGS2026开放试玩，现场展示了牌组构筑式指令战斗系统，玩家可选择剑兵、弓兵和术士三名从者进行对决。",
           "summary_source": "llm"
         },
         {
-          "name": "伊莫",
+          "name": "GTA6：音乐专辑",
           "count": 1,
-          "summary": "国产捉宠RPG《伊莫》免费上线Steam，12小时内峰值超12万，但因被指有手游味、体力限制及捏脸问题，目前评价为特别差评。",
+          "summary": "R星与Atlantic Records宣布推出《GTA6：音乐专辑》，收录34首原创曲目，定于2026年11月19日与游戏本体同步发行。",
           "summary_source": "llm"
         },
         {
-          "name": "另一个伊甸：起源",
+          "name": "Physint",
           "count": 1,
-          "summary": "时空旅行JRPG《另一个伊甸：起源》登陆Steam和Switch，Steam国区售价128元，首发评价为多半好评。",
+          "summary": "Xbox Game Studios和Kojima Productions确认比尔·斯卡斯加德将主演动作谍战游戏《Physint》，小岛秀夫表示双方已进行服装试穿、扫描和拍摄测试。",
           "summary_source": "llm"
         },
         {
-          "name": "天国：拯救",
+          "name": "Space Menace",
           "count": 1,
-          "summary": "《天国：拯救》总监Daniel Vávra抨击Sweet Baby参与《漫威金刚狼》的顾问工作，称其让外行指导内行。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：狂猎",
-          "count": 1,
-          "summary": "CDPR首席编剧Marcin Blacha表示《巫师3：狂猎》并非完美无缺，尽管销量超5000万，但仍有改进空间。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：重制版",
-          "count": 1,
-          "summary": "CDPR公布《巫师3：重制版》将大幅改动核心体验，称玩家适应新作后很难再回头体验原版，包括重新搭建相机视角和寻路AI。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "怪物猎人：荒野",
-          "count": 1,
-          "summary": "卡普空公布DLC“凌越”新预告，确认炎王龙加入，将于2027年上线，Switch2版与DLC同步发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "神鬼寓言4",
-          "count": 1,
-          "summary": "Playground Games联合创始人透露《神鬼寓言4》开发周期接近11年，因被视为对Xbox至关重要而躲过取消命运。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "街霸6",
-          "count": 1,
-          "summary": "卡普空公布新宣传片，展示印度新角色阿俊及深红毒蛇新皮肤，并确认蒂法将于2027年初参战。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "识质存在",
-          "count": 1,
-          "summary": "卡普空宣布《识质存在》将于9月17日免费推出“洛克人包”DLC，包含洛克人与萝露主题服装及新音乐。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 1,
-          "summary": "续作可能不会包含计时机制，总监表示会继续研究该机制，若故事基调适合则会采用。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "龙之信条2：黑暗再临",
-          "count": 1,
-          "summary": "卡普空公布新预告，展示诺尔坎新区域及遗物系统，将于10月9日登陆多平台。",
+          "summary": "Only4Gamers在Steam开启《Space Menace》限时免费领取活动，截止时间为9月24日2时，续作《Space Menace2》同期开启四折促销。",
           "summary_source": "llm"
         }
       ]
@@ -909,107 +1009,6 @@
           "name": "Muv-Luv 少女庭园",
           "count": 1,
           "summary": "《Muv-Luv 少女庭园》Steam商店页上线，将于2026年第四季度发行，支持简繁中英日文及日语配音。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "article_count": 86,
-      "game_count": 65,
-      "untagged_count": 14,
-      "digest": "今日游戏资讯聚焦于《GTA6》发售前的温情故事与《塞尔达传说：时之笛 重制版》的实机演示，同时《生化危机：安魂曲》因演员表演获赞引发热议，此外《漫威蜘蛛侠》八周年回顾及《CS2》聊天监测工具引发争议也占据重要版面。",
-      "digest_source": "llm",
-      "input_hash": "3ea0ec8db66e1849",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 5,
-          "summary": "丹麦未婚妻为支持玩家预购终极版并承诺包揽家务，该暖心故事在社交平台引发热议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛 重制版",
-          "count": 2,
-          "summary": "任天堂在40周年直面会公布新实机演示，确认将于2026年11月5日登陆Switch2。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威蜘蛛侠",
-          "count": 2,
-          "summary": "发售八周年之际，该作仍被视为漫威单人英雄游戏的重要起点，Insomniac Games对其角色塑造与玩法进行了回顾。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化危机：安魂曲",
-          "count": 2,
-          "summary": "TGA发起年度最佳表演投票，安杰拉·圣塔尔巴诺饰演的格蕾丝因表现力获赞，被粉丝认为已“一骑绝尘”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "2XKO",
-          "count": 1,
-          "summary": "拳头创始人梅里尔承认游戏玩家规模不足，无法形成长期发展的社区，但表示不会将其定义为错误。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "3D马里奥",
-          "count": 1,
-          "summary": "任天堂多款新作泄露消息曝光，其中全新《3D马里奥》游戏预计将于明年推出。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "CS2",
-          "count": 1,
-          "summary": "第三方工具Slur Tracker公开统计侮辱性用语，导致部分玩家故意使用脏话争夺榜单排名。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GT赛车8",
-          "count": 1,
-          "summary": "开发商Polyphony Digital疑似启动新作开发，正在招聘车辆模拟程序员以改进引擎技术。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Invokyr",
-          "count": 1,
-          "summary": "恐怖解谜游戏《Invokyr》将于10月8日登陆Steam，支持最多6人联机合作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "MD引擎",
-          "count": 1,
-          "summary": "无需编程的MD游戏制作工具《MD引擎》上线Steam，支持导出多种平台ROM。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "SMILE GAME BUILDER",
-          "count": 1,
-          "summary": "该3D游戏制作工具开启10周年史低二折促销，主打零基础制作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Soul Chained",
-          "count": 1,
-          "summary": "魂系合作战斗游戏《Soul Chained》正式登陆Steam，玩家需通过锁链魔法与团队合作战斗。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "TBH：塔斯克巴·英雄",
-          "count": 1,
-          "summary": "放置肉鸽RPG《TBH：塔斯克巴·英雄》上线“瘟疫之地”更新，新增地区与90级道具。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "like or die",
-          "count": 1,
-          "summary": "剑灵开发商NC公开FPS新作《点赞或死亡》，玩家需通过直播比赛争取观众点赞与赞助。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "东方Project",
-          "count": 1,
-          "summary": "年度人气投票结果显示，15至19岁群体占参与总人数的38.17%，YouTube为主要接触渠道。",
           "summary_source": "llm"
         }
       ]

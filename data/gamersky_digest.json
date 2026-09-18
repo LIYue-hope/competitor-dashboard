@@ -1,208 +1,309 @@
 {
-  "generated_at": "2026-09-17T00:35:17.678892+00:00",
+  "generated_at": "2026-09-18T00:16:56.347218+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-16",
-      "article_count": 138,
-      "game_count": 50,
-      "untagged_count": 37,
-      "digest": "今日游戏圈热点集中在《卧龙2：凤火连天》定档2027年3月4日及公布季票内容，同时《空之轨迹the 2nd》与《火焰纹章：万缕千丝》媒体评分解禁并获高分好评，而《暗黑破坏神4》第15赛季上线后因服务器问题短暂延期，顽皮狗新作《漫威金刚狼》发售引发媒体评分与玩家口碑的讨论。",
+      "date": "2026-09-17",
+      "article_count": 133,
+      "game_count": 54,
+      "untagged_count": 34,
+      "digest": "今日游戏资讯聚焦于《GTA6》实体专辑开启预购及黄牛炒作，索尼独占大作《漫威金刚狼》发售后口碑两极分化，任天堂新作《火焰纹章：万缕千丝》在NS2平台发售并引发帧率争议，卡普空宣布《怪物猎人：荒野》取消捏脸付费，Nihon Falcom经典RPG《空之轨迹 the 2nd》全平台发售获好评，小岛新作《PHYSINT》公布主演，以及《生化危机》电影口碑与票房双丰收。",
       "digest_source": "llm",
-      "input_hash": "02b7021b663146e2",
+      "input_hash": "0e3db1ffb25325f7",
       "game_digests": [
         {
-          "name": "卧龙2：凤火连天",
-          "count": 9,
-          "summary": "Team Ninja制作的光荣特库摩动作游戏官宣定档2027年3月4日，登陆PC/PS5/Xbox/NS2平台，并公开了包含两弹DLC的季票内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "卧龙2",
-          "count": 8,
-          "summary": "《卧龙2：凤火连天》PS5预购开启，标准版528港币豪华版738港币，公开了试玩版实机演示、新机制“凝神”以及PS5 Pro的帧率/画质双模式支持。",
+          "name": "GTA6",
+          "count": 11,
+          "summary": "Rockstar Games公布《Grand Theft Auto VI: The Album》实体版原声专辑，共推出CD、黑胶唱片和限量版黑胶三种版本，开启预购后黄牛转卖溢价超6000元。",
           "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
           "count": 8,
-          "summary": "顽皮狗中国员工晒玩《漫威金刚狼》截图引发网友调侃，游戏发售日PS商店评分高达4.85，但M站媒体均分仅为77分，过场动画占比过高引发玩家讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "空之轨迹 the 2nd",
-          "count": 6,
-          "summary": "媒体评分解禁，IGN与RPG Site均给出9分和满分评价，游民商城现货9折热卖中，官方公布了包含泳装妈妈的DLC服装。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "空之轨迹2nd",
-          "count": 5,
-          "summary": "媒体评分公布，PC版均分94分、PS5版均分92分，多家外媒给出满分评价，称赞其为JRPG神作。",
+          "summary": "索尼第一方工作室Insomniac Games打造的PS5独占动作冒险游戏于9月15日发售，M站玩家评分6.6，因12国配音无中文及魔改反派剑齿虎引发玩家争议。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
-          "count": 4,
-          "summary": "飞智与盖世小鸡分别推出售价249元和549元的《影之刃零》联名款手柄，并公布了售价899元的八爪鱼6 Pro联名礼盒。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "暗黑破坏神4",
-          "count": 4,
-          "summary": "国服本体免费领取活动再次开放，第15赛季“地狱遗产”正式上线，此前因服务器登录故障短暂延期，官方随后宣布赛季推迟。",
+          "count": 6,
+          "summary": "飞智与盖世小鸡分别公布八爪鱼6 Pro与天王星8K联名手柄，官方宣布全平台愿望单突破300万，确认将于10月29日发售。",
           "summary_source": "llm"
         },
         {
           "name": "火焰纹章：万缕千丝",
-          "count": 4,
-          "summary": "媒体评分解禁，M站均分89分，IGN等13家媒体给出满分评价，IGN发布10分好评并公布新预告，游戏将于明日发售。",
+          "count": 6,
+          "summary": "任天堂《火焰纹章》系列新作在NS2平台独占发售，IGN给出10分好评，但锁30帧的设定引发玩家不满，媒体评分开局89分。",
           "summary_source": "llm"
         },
         {
-          "name": "金刚狼",
+          "name": "卧龙2",
           "count": 4,
-          "summary": "《金刚狼》男主真人宣发被喷上千楼！评论区彻底失控；IGN骚操作看懵玩家 给《金刚狼》6分 转头为它换头像；残疾人怒喷《金刚狼》烂完了：不用碰手柄也能过关（当天共 4 条）",
+          "summary": "光荣特库摩在Xbox东京电玩展2026上公布新Boss“凿齿”，并开放Alpha测试版实机演示，剧情曝光主角庞统小村被烧。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "空之轨迹 the 2nd",
+          "count": 4,
+          "summary": "Nihon Falcom开发的经典RPG于今日登陆PC/PS5/Switch/Switch 2平台，首发全球好评率99%，IGN给出9分，游民商城现货9折热卖。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "怪猎：荒野",
+          "count": 3,
+          "summary": "卡普空宣布随即将推出的Ascendance扩展将取消角色编辑券付费，玩家可免费更改外观，NS2版设置曝光有锁30帧开关。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7：启示",
+          "count": 3,
+          "summary": "Square Enix公布TGS试玩新画面，展示蒂法黑魔导士新装，确认将于2027年4月8日发售，PS5版性能曝光4K 60帧不可兼得。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化危机：爆发夜",
+          "count": 3,
+          "summary": "改编自游戏系列的恐怖电影即将于9月18日上映，烂番茄评分97分，IGN给出8分力荐，预测首映票房最高5个亿。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7启示",
+          "count": 2,
+          "summary": "《FF7启示》Demo画面曝光 主机确认三种模式；《FF7启示》实机大搞男同?克劳德萨菲罗斯亲密贴贴。",
           "summary_source": "rules"
         },
         {
-          "name": "GTA6",
-          "count": 3,
-          "summary": "R星通过艺人发布的新艺术图预热游戏原声带，玩家社区围绕“是否等待PC版”展开讨论，有消息称PS5版可尝试曲线救国冲60帧。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "007 初露锋芒",
+          "name": "PHYSINT",
           "count": 2,
-          "summary": "Switch 2版延期至2027年3月，官方表示将利用多出时间优化性能表现，PC版加入完整光追支持但硬件需求较高。",
+          "summary": "小岛秀夫在Xbox东京电玩展发布会上公布新作《PHYSINT》主演，称这是其四十年集大成之作，并公开了《OD》与《PHYSINT》的最新开发进展。",
           "summary_source": "llm"
         },
         {
           "name": "怪物猎人：荒野",
           "count": 2,
-          "summary": "DLC“凌越”公开太刀演示，玩家热议其动作设计像《鬼泣》，并发布了16分钟全武器实机合集。",
+          "summary": "《怪物猎人：荒野》官宣重大改进！卡普空为玩家省钱；《怪物猎人：荒野》这一DLC将下架！马上白送 可无限次使用。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "最终幻想：共鸣",
+          "count": 2,
+          "summary": "系列最新作品公开最终宣传影片，制作人澄清并非手游移植版，展示了大量精美画面。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化危机",
+          "count": 2,
+          "summary": "《生化危机》电影口碑首曝：紧张感拉满 像在玩游戏；《生化危机》新电影现里昂·S·肯尼迪彩蛋 浣熊市枪店招牌引热议。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "空之轨迹2nd",
+          "count": 2,
+          "summary": "《空之轨迹2nd》堪称系列巅峰！满分测评玩到落泪；高分续作《空之轨迹2nd》JRPG巅峰之一！速来入坑。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "article_count": 131,
+      "game_count": 49,
+      "untagged_count": 37,
+      "digest": "9月16日游戏资讯聚焦多款重磅新作，光荣特库摩动作游戏《卧龙2：凤火连天》官宣定档2027年3月4日并公布试玩版，卡普空《怪物猎人：荒野》DLC展示太刀华丽动作，任天堂《火焰纹章：万缕千丝》获多家媒体满分好评，索尼《漫威金刚狼》发售引发玩家评分与媒体评分的巨大争议，而《空之轨迹the 2nd》重制版媒体评分解禁，IGN与RPG Site均给出高分，暴雪《暗黑破坏神4》则因服务器故障导致新赛季延期。",
+      "digest_source": "llm",
+      "input_hash": "bc7920f9f4fa647c",
+      "game_digests": [
+        {
+          "name": "卧龙2：凤火连天",
+          "count": 8,
+          "summary": "光荣特库摩今日官宣动作游戏《卧龙2：凤火连天》将于2027年3月4日发售，登陆PC/PS5/Xbox/NS2平台，并公开了试玩版供玩家体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 8,
+          "summary": "索尼旗下顽皮狗开发的《漫威金刚狼》于昨日正式发售，发售日当天PS商店评分高达4.85，但IGN仅给出6分，媒体均分77分，引发玩家与媒体口碑的巨大争议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "卧龙2",
+          "count": 6,
+          "summary": "标准版528港币 豪华版738港币 《卧龙2》PS预购来了；《卧龙2》实机：神兽系统首曝 操作上限接近忍龙；《卧龙2》动作系统再进化！新机制\"凝神\"首曝（当天共 6 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "空之轨迹 the 2nd",
+          "count": 6,
+          "summary": "《空之轨迹the 2nd》媒体评分解禁，IGN打出9分高分，RPG Site更是给出满分评价，称赞其在剧情、角色塑造及重制表现方面出色。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑破坏神4",
+          "count": 4,
+          "summary": "《暗黑破坏神4》国服本体再次免费领取，原价128元现价0元，同时第15赛季因服务器登录故障被迫延期，随后官方宣布新赛季正式上线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "火焰纹章：万缕千丝",
+          "count": 4,
+          "summary": "任天堂《火焰纹章：万缕千丝》媒体评分解禁，目前M站均分89分，收获13家媒体满分评价，IGN也给出了10分的高分好评。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "空之轨迹2nd",
+          "count": 4,
+          "summary": "《空之轨迹the 2nd》媒体评分持续走高，PC版均分94分，PS5版本均分92分，媒体称赞其为JRPG神作，剧情不拖沓。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "金刚狼",
+          "count": 4,
+          "summary": "《漫威金刚狼》发售引发两极分化，IGN给出6分评价，但PS玩家评分逆袭，男主真人宣发及摩托车追逐戏因操作过于简单在社交平台引发热议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "R星公布更多《GTA6》情报，多位重磅巨星加盟，同时玩家社区围绕“要不要直接等PC版”的讨论升温，PS5版能否冲60帧也成为话题。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 3,
+          "summary": "国产动作游戏《影之刃零》与外设品牌盖世小鸡合作的联名款手柄正式开售，售价549元，引发玩家抢购。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "007 初露锋芒",
+          "count": 2,
+          "summary": "IO Interactive宣布《007 First Light》Switch 2版延期至2027年3月，官方表示将利用多出的时间优化Switch 2上的性能表现。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "怪物猎人：荒野",
+          "count": 2,
+          "summary": "卡普空公开《怪物猎人：荒野》DLC“凌越”实机演示，其中太刀动作设计华丽，被玩家评价为像《鬼泣》系列。",
           "summary_source": "llm"
         },
         {
           "name": "控制：共振",
           "count": 2,
-          "summary": "Remedy制作的新作将于9月24日发售，官方公布PS5版能实现60帧，主线流程约30小时，Pro版有进一步优化。",
+          "summary": "Remedy制作的新作《控制：共振》将于9月24日发售，官方公布PS5版能实现60帧，主线流程约30小时。",
           "summary_source": "llm"
         },
         {
           "name": "暗黑4",
           "count": 2,
-          "summary": "NS2版性能公开，1440p与40帧不可兼得，此前因服务器问题导致第15赛季上线计划推迟。",
+          "summary": "《暗黑破坏神4》NS2版性能公开，在开启完整光追的情况下，1K分辨率与60帧不可兼得，需5070显卡才能跑满。",
           "summary_source": "llm"
         },
         {
           "name": "火纹",
           "count": 2,
-          "summary": "IGN与VGC均对《火焰纹章：万缕千丝》打出满分评价，称赞其故事线封神，游戏将于9月17日正式发售。",
+          "summary": "《火焰纹章：万缕千丝》即将于9月17日发售，媒体口碑解禁，VGC打出满分评价，称赞其故事线封神。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-09-15",
-      "article_count": 130,
+      "article_count": 127,
       "game_count": 54,
-      "untagged_count": 39,
-      "digest": "《漫威金刚狼》在发售后收到负面评价，开发商Insomniac Games表示将积极整改。《GTA6》新消息即将发布，T2大会将于9月17日召开。《金刚狼》粉丝对游戏画面和角色设计有不同看法。《星际争霸》新作采用第三人称视角的开放世界射击游戏。《007 初露锋芒》PC版更新上线，Nintendo Switch 2版本延期至2027年3月推出。《仁王3》实机演示视频引发玩家关注，Steam平台全新捆绑包“Team NINJA Samurai & Ninja Collection”正式上线。《影之刃零》手柄开箱视频首次公开联名款手柄外观设计细节。《战狗》销量突破200万份，新手玩家社区出现排斥Lonestar阵营现象。《暗黑破坏神5》听取玩家意见，公布三个职业和程序生成世界。《GTA6 OL》或让玩家赚真钱，赛博商人准备变现。《LOL》Caps入选名人堂，外媒误将其讣告描述为圣光太像遗照。Atlus尚未忘记《P3》，即将推出女性主角回归的新作。《使命召唤》僵尸模式之父参与《星际争霸》新作，暴雪给了他归宿。《光与影：33号远征队》总监透露续作情报，可能不受欢迎。《全球使命3》作为老牌端游为何也做\"搜打撤\"？",
+      "untagged_count": 38,
+      "digest": "今日游戏资讯聚焦于索尼第一方大作《漫威金刚狼》的发售与评价争议，引发媒体与玩家两极分化讨论。此外，Take-Two宣布将于9月17日召开股东大会，再次点燃玩家对《GTA6》的期待。其他热点还包括FPS黑马《战狗》发售5天销量破200万，以及《星际争霸》新作在暴雪嘉年华公布等。",
       "digest_source": "llm",
-      "input_hash": "2ab27d9c04b4d1dc",
+      "input_hash": "007f6ff04a86c985",
       "game_digests": [
         {
           "name": "漫威金刚狼",
-          "count": 24,
-          "summary": "外媒分析《漫威金刚狼》评价两级分化：角度不同而已；《漫威金刚狼》确认收到负面评价！承诺积极整改；《漫威金刚狼》正式发售！娘化Cos性感身材超棒（当天共 24 条）",
-          "summary_source": "rules"
+          "count": 23,
+          "summary": "索尼第一方动作游戏《漫威金刚狼》于今日正式发售，媒体与玩家评价呈现明显分裂，开发商Insomniac Games已承诺积极整改。",
+          "summary_source": "llm"
         },
         {
           "name": "GTA6",
           "count": 5,
-          "summary": "知名rapper发《GTA6》夜店图片！官宣回归新作电台？；《GTA6》新消息要来了？T2新大会即将召开；《GTA6》又一女演员疑被挖 印度大长腿模特（当天共 5 条）",
-          "summary_source": "rules"
+          "summary": "Take-Two宣布将于9月17日召开年度股东大会，引发玩家对《GTA6》新消息的猜测，同时有玩家就首发主机帧率是否为30帧展开激烈讨论。",
+          "summary_source": "llm"
         },
         {
           "name": "金刚狼",
           "count": 4,
-          "summary": "粉丝给失眠组《金刚狼》洗地被摆实例狂喷：就是丑！；新旧《金刚狼》对比！画面升级 但老作细节依旧能打；DEI侵蚀太狠！《金刚狼》被扒水蛭演员是\"变装皇后\"（当天共 4 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "星际争霸",
-          "count": 3,
-          "summary": "《星际争霸》新游陷争议！怎么这里也有太空女光头？；《星际争霸》新作官方高清图 \"剧情驱动开放世界射击\"；《星际争霸》大量细节曝光：主打单人 非赛季制。",
-          "summary_source": "rules"
+          "summary": "粉丝试图为《漫威金刚狼》洗地被指摆实例狂喷，新旧版本对比显示画面升级但老作细节依旧能打，且被扒出水蛭演员身份引发争议。",
+          "summary_source": "llm"
         },
         {
           "name": "007 初露锋芒",
           "count": 2,
-          "summary": "最高需要5090！《007 初露锋芒》路径追踪更新上线；《007 初露锋芒》新平台官宣延期！明年见 近期可试玩。",
-          "summary_source": "rules"
+          "summary": "PC版路径追踪更新上线，Switch 2版本官宣延期至2027年3月，近期可试玩。",
+          "summary_source": "llm"
         },
         {
           "name": "仁王3",
           "count": 2,
-          "summary": "《仁王3》全新实机致敬隼龙！但极其短小\"没活硬整\"；558块！动作大作最新捆绑包:《仁王3》|《忍龙4》|《浪人崛起》。",
-          "summary_source": "rules"
+          "summary": "官方发布7秒实机演示致敬隼龙，Steam推出含《仁王3》《忍龙4》等捆绑包售价558元。",
+          "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 2,
-          "summary": "《影之刃零》手柄开箱来了！内含礼品及双握把面壳；飞智《影之刃零》联名手柄外观曝光 特色剑痕十分帅气。",
-          "summary_source": "rules"
+          "summary": "盖世小鸡与飞智分别发布手柄开箱视频及外观展示，展示联名款手柄设计细节。",
+          "summary_source": "llm"
         },
         {
           "name": "战狗",
           "count": 2,
-          "summary": "FPS黑马新游《战狗》官宣200万销量!发售仅5天 42万在线峰值；大量新手被嫌弃！FPS黑马新游《战狗》新手甚至开不了游戏。",
-          "summary_source": "rules"
+          "summary": "军事FPS《战狗》发售仅5天销量突破200万，但IGN报道称部分玩家因嫌弃新手多而刻意避开Lonestar阵营。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星际争霸",
+          "count": 2,
+          "summary": "暴雪嘉年华公布《星际争霸》IP衍生新作，为采用第三人称视角的开放世界射击游戏。",
+          "summary_source": "llm"
         },
         {
           "name": "暗黑破坏神5",
           "count": 2,
-          "summary": "《暗黑破坏神5》是系列规模之最！充分倾听玩家意见；《暗黑破坏神5》最全情报！三个职业公开 程序生成世界。",
-          "summary_source": "rules"
+          "summary": "暴雪在嘉年华公布新作，确认其为系列规模之最，包含程序生成世界及三个职业。",
+          "summary_source": "llm"
         },
         {
           "name": "GTA6 OL",
           "count": 1,
-          "summary": "《GTA6 OL》或让玩家赚真钱！赛博商人准备开始变现。",
-          "summary_source": "rules"
+          "summary": "《GTA6 OL》或将允许玩家通过赛博商人赚取真钱。",
+          "summary_source": "llm"
         },
         {
           "name": "LOL",
           "count": 1,
-          "summary": "《LOL》Caps入选名人堂 老外错当讣告:圣光太像遗照。",
-          "summary_source": "rules"
+          "summary": "《LOL》选手Caps入选名人堂，因照片风格被老外误读为讣告。",
+          "summary_source": "llm"
         },
         {
           "name": "P3",
           "count": 1,
-          "summary": "Atlus还没忘！《P3》女性主角\"回归\" 即将登场P5X。",
-          "summary_source": "rules"
+          "summary": "Atlus发布联动宣传片，汐见琴音将作为女性主角登场《女神异闻录：夜幕魅影》。",
+          "summary_source": "llm"
         },
         {
           "name": "使命召唤",
           "count": 1,
-          "summary": "《使命召唤》僵尸模式之父参与《星际争霸》新作：暴雪给了我归宿。",
-          "summary_source": "rules"
+          "summary": "《星际争霸》新作副设计总监Jesse Snyder确认曾参与《使命召唤》僵尸模式开发。",
+          "summary_source": "llm"
         },
         {
           "name": "光与影：33号远征队",
           "count": 1,
-          "summary": "《光与影：33号远征队》总监透露续作情报：很大胆 可能不受欢迎！。",
-          "summary_source": "rules"
+          "summary": "总监透露续作情报，表示新作可能因过于大胆而面临不受欢迎的风险。",
+          "summary_source": "llm"
         },
         {
           "name": "全球使命3",
           "count": 1,
-          "summary": "老牌端游《全球使命3》为何也做\"搜打撤\"？。",
-          "summary_source": "rules"
+          "summary": "老牌端游新作探讨“搜打撤”玩法，与过去十年射击游戏主流的“见面就刚”形成对比。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -809,107 +910,6 @@
           "count": 2,
           "summary": "《黎明行者之血》成功登顶Steam最新周销榜，官方确认多部续作及主角长命百岁的设定。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "article_count": 144,
-      "game_count": 61,
-      "untagged_count": 42,
-      "digest": "今日游戏资讯聚焦于《GTA6》的持续热度与《塞尔达传说：时之笛 重制版》的正式公布，任天堂借此机会发布了40周年纪念版Switch 2主机及电影预告。此外，卡普空新作《鬼武者：剑之道》凭借首日百万销量提振股价，而《漫威金刚狼》因实机演示引发争议，多款大作如《湮灭之潮》与《黎明行者之血》也均有新动态。",
-      "digest_source": "llm",
-      "input_hash": "f0df75c604be213a",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 12,
-          "summary": "预购销量已破500万份，R星披露警察追缉系统细节，并宣布取消小地图浮动图标设计。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛 重制版",
-          "count": 7,
-          "summary": "任天堂正式公布本作将于11月5日发售，港服售价449港币，实体版预购已开启。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达",
-          "count": 5,
-          "summary": "任天堂公布40周年纪念版Switch 2主机，日本售价约2700元，手柄售价570元，将于10月29日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 4,
-          "summary": "Insomniac Games公布游戏发售日为9月15日，预载已开启，但新实机演示因浮夸风格遭玩家群嘲。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 4,
-          "summary": "卡普空股价创年内新高，游戏首日销量破百万，玩家评分达8.7分，中配口碑获赞。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 4,
-          "summary": "Rebel Wolves新作发售，IGN给出9分评价，称其优化表现优于预期，但简中翻译出现人名乱译。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达：时之笛重制版",
-          "count": 3,
-          "summary": "游戏官网上线，文件大小约27GB，任天堂发布了全新的主视觉图。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "怪物猎人：荒野",
-          "count": 3,
-          "summary": "卡普空公开DLC“凌越”实机演示，展示了盾斧与单手剑的新机制，引发玩家对“粪怪”的担忧。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 3,
-          "summary": "成都工作室开发的骑士幻想动作游戏科隆试玩口碑大爆，外媒称赞战斗系统出色。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说",
-          "count": 2,
-          "summary": "任天堂公布《塞尔达传说》真人电影定档明年4月30日上映，并发布了40周年新周边。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星鸣特攻",
-          "count": 2,
-          "summary": "该游戏停运两周年，实体光盘价格暴涨，玩家晒出收藏品。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化危机9",
-          "count": 2,
-          "summary": "卡普空开启Steam大促，游民商城推出《生化危机9》新史低优惠，MOD制作也引发关注。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "艾尔登法环",
-          "count": 2,
-          "summary": "官方今日停服更新，部署1.17.1补丁，这是“褪色者包”后的首次维护。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者",
-          "count": 2,
-          "summary": "《鬼武者：剑之道》女主出云阿国与静御前的形象设计引发部分玩家争议，被批“丑到看吐”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "OW",
-          "count": 1,
-          "summary": "《OW》联动性感女团 长腿身材太诱人 挑逗感拉满。",
-          "summary_source": "rules"
         }
       ]
     }

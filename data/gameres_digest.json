@@ -1,9 +1,26 @@
 {
-  "generated_at": "2026-09-17T00:39:40.706760+00:00",
+  "generated_at": "2026-09-18T00:18:08.066462+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-17",
+      "article_count": 6,
+      "game_count": 1,
+      "untagged_count": 5,
+      "digest": "今日游戏行业资讯共6条，其中5条未指向具体游戏，1条指向《轮回保险公司 R.I.P》。该作于9月17日正式发售1.0版本，在Steam平台首发享30%折扣，并新增近战干员“凌”、终焉之战、无尽模式等内容，还包含海量神话装备与套装契约构筑玩法。",
+      "digest_source": "llm",
+      "input_hash": "f694b83380b1d6ce",
+      "game_digests": [
+        {
+          "name": "轮回保险公司 R.I.P",
+          "count": 1,
+          "summary": "《轮回保险公司 R.I.P》1.0正式版上线Steam，首发享30%折扣，新增近战干员“凌”、终焉之战、无尽模式等内容，还有海量神话装备与套装契约构筑玩法。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-09-16",
       "article_count": 20,
@@ -275,71 +292,6 @@
           "name": "炼金工厂",
           "count": 1,
           "summary": "1.0正式版现已登陆Steam，抢先体验期销量超20万份，Steam好评率89%获“特别好评”，现开启两周八折特惠，正式版新增货车物流等玩法。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "article_count": 14,
-      "game_count": 9,
-      "untagged_count": 5,
-      "digest": "9月8日游戏行业资讯聚焦新作发售与评测，卡普空《鬼武者：剑之道》首日销售额近3亿元，Steam上线《骰途酒馆·Farkle Roguelike》首发8折34.4元，4399《曙光纪元》开启二测优化流程，Fami通评测《黎明行者之血》与《队长小翼2：世界群星》，科隆展试玩《乐高天际线》，主创访谈《巫师3：狂猎 重制版》，Steam页面封禁一年多后《杀死影子》上线首周销量仅1万份。",
-      "digest_source": "llm",
-      "input_hash": "a96eb869cfbe1bfc",
-      "game_digests": [
-        {
-          "name": "乐高天际线",
-          "count": 1,
-          "summary": "科隆游戏展试玩，带来玩具质感的正经城市建造体验，被称梦中情游。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "和平精英",
-          "count": 1,
-          "summary": "上线高规格真人大片与动画，推动游戏升级为“玩法+内容”双驱动模式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师 3：狂猎 重制版",
-          "count": 1,
-          "summary": "主创访谈，强调绝不只是高清复刻，将踏上新土地破解谜团。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "曙光纪元",
-          "count": 1,
-          "summary": "4399发行，开启二测优化流程与数值，兼具营地模拟与枪械养成。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "杀死影子",
-          "count": 1,
-          "summary": "坞光岚影工作室耗时四年半打造，上线首周销量仅1万份难回本。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "队长小翼 2：世界群星",
-          "count": 1,
-          "summary": "评测获7分，新增多位置必杀技与对峙系统，提升刺激感。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "骰途酒馆·Farkle Roguelike",
-          "count": 1,
-          "summary": "9月8日上线Steam，首发限时8折34.4元，适配Steam Deck。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 1,
-          "summary": "卡普空经典IP回归，首日销售额近3亿元，获89家媒体均分85。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 1,
-          "summary": "Fami通评测，以半吸血鬼科恩救家人为核心，重玩性高。",
           "summary_source": "llm"
         }
       ]

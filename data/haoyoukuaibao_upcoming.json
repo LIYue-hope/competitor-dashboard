@@ -1,60 +1,9 @@
 {
-  "crawled_at": "2026-09-17T00:19:15.890245+00:00",
+  "crawled_at": "2026-09-18T00:06:30.539656+00:00",
   "days": [
     {
-      "date": "2026-09-17",
-      "date_label": "09月17日 今天",
-      "games": [
-        {
-          "game_name": "闪耀吧！噜咪-预下载",
-          "categories": [
-            "抓宠",
-            "卡牌",
-            "放置"
-          ],
-          "score": "9.0",
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/191535.htm",
-          "publisher": "bilibili游戏",
-          "reservation_count": null,
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "斗破：莫欺少年穷-预下载",
-          "categories": [
-            "即时战斗",
-            "角色扮演",
-            "国漫"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/197403.htm",
-          "publisher": null,
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "难上加难的野人牌",
-          "categories": [
-            "Roguelike",
-            "策略",
-            "闯关"
-          ],
-          "score": null,
-          "event_desc": "上线试玩，具体几点待定",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/203127.htm",
-          "publisher": "C&P",
-          "reservation_count": "50",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-18",
-      "date_label": "09月18日 明天",
+      "date_label": "09月18日 今天",
       "games": [
         {
           "game_name": "大小姐回避2",
@@ -75,7 +24,7 @@
     },
     {
       "date": "2026-09-19",
-      "date_label": "09月19日 后天",
+      "date_label": "09月19日 明天",
       "games": [
         {
           "game_name": "龙吟山海",
@@ -89,15 +38,30 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/198193.htm",
           "publisher": "长沙卡雷豆科技有限公司",
-          "reservation_count": "88",
+          "reservation_count": "90",
           "has_afk_grinding_tag": true
         }
       ]
     },
     {
       "date": "2026-09-20",
-      "date_label": "09月20日 周日",
+      "date_label": "09月20日 后天",
       "games": [
+        {
+          "game_name": "蓝色星原：旅谣(官服)",
+          "categories": [
+            "编辑推荐",
+            "多平台",
+            "萌宠"
+          ],
+          "score": "8.7",
+          "event_desc": "现已开测！9月20日看直播赢资格",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/164274.htm",
+          "publisher": "蛮啾网络",
+          "reservation_count": "55.7万",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "英雄防线",
           "categories": [
@@ -110,7 +74,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/186656.htm",
           "publisher": "三狸网络",
-          "reservation_count": "1138",
+          "reservation_count": "1140",
           "has_afk_grinding_tag": false
         },
         {
@@ -125,7 +89,22 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/190170.htm",
           "publisher": "广州市手心网络科技有限公司",
-          "reservation_count": "134",
+          "reservation_count": "136",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "烽火望长安",
+          "categories": [
+            "卡牌",
+            "模拟经营",
+            "策略"
+          ],
+          "score": null,
+          "event_desc": "0:00预下载，10:00 上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/173077.htm",
+          "publisher": "星河奇遇",
+          "reservation_count": "611",
           "has_afk_grinding_tag": false
         }
       ]
@@ -134,6 +113,21 @@
       "date": "2026-09-21",
       "date_label": "09月21日 下周一",
       "games": [
+        {
+          "game_name": "蓝色星原：旅谣(官服)",
+          "categories": [
+            "编辑推荐",
+            "多平台",
+            "萌宠"
+          ],
+          "score": "8.7",
+          "event_desc": "14:00 观看直播赢测试资格",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/164274.htm",
+          "publisher": "蛮啾网络",
+          "reservation_count": "55.7万",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "英雄防线",
           "categories": [
@@ -146,7 +140,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/186656.htm",
           "publisher": "三狸网络",
-          "reservation_count": "1138",
+          "reservation_count": "1140",
           "has_afk_grinding_tag": false
         },
         {
@@ -161,7 +155,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/190170.htm",
           "publisher": "广州市手心网络科技有限公司",
-          "reservation_count": "134",
+          "reservation_count": "136",
           "has_afk_grinding_tag": false
         },
         {
@@ -176,7 +170,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202792.htm",
           "publisher": null,
-          "reservation_count": "320",
+          "reservation_count": "348",
           "has_afk_grinding_tag": false
         }
       ]
@@ -185,6 +179,21 @@
       "date": "2026-09-22",
       "date_label": "09月22日 下周二",
       "games": [
+        {
+          "game_name": "炼金与魔法-9月22日上线",
+          "categories": [
+            "沙盒",
+            "生存",
+            "冒险"
+          ],
+          "score": "8.7",
+          "event_desc": "10:30 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/90432.htm",
+          "publisher": "量子艺界（QUANTUM ARTS）",
+          "reservation_count": "19.4万",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "BanG Dream!交织的乐章",
           "categories": [
@@ -197,7 +206,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/193284.htm",
           "publisher": null,
-          "reservation_count": "20566",
+          "reservation_count": "20601",
           "has_afk_grinding_tag": false
         },
         {
@@ -212,7 +221,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/187924.htm",
           "publisher": "游萤互娱",
-          "reservation_count": "940",
+          "reservation_count": "948",
           "has_afk_grinding_tag": false
         },
         {
@@ -227,7 +236,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/198727.htm",
           "publisher": null,
-          "reservation_count": "2109",
+          "reservation_count": "2158",
           "has_afk_grinding_tag": false
         },
         {
@@ -242,7 +251,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/187368.htm",
           "publisher": "指战网络",
-          "reservation_count": "560",
+          "reservation_count": "576",
           "has_afk_grinding_tag": false
         },
         {
@@ -257,7 +266,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202792.htm",
           "publisher": null,
-          "reservation_count": "320",
+          "reservation_count": "348",
           "has_afk_grinding_tag": false
         }
       ]
@@ -274,11 +283,11 @@
             "冒险"
           ],
           "score": "8.3",
-          "event_desc": "移动端正式上线，具体几点待定",
+          "event_desc": "10:00 移动端正式上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/183580.htm",
           "publisher": "爪印工作室",
-          "reservation_count": "66.8万",
+          "reservation_count": "66.9万",
           "has_afk_grinding_tag": false
         },
         {
@@ -293,7 +302,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/198727.htm",
           "publisher": null,
-          "reservation_count": "2109",
+          "reservation_count": "2158",
           "has_afk_grinding_tag": false
         },
         {
@@ -308,7 +317,148 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/187368.htm",
           "publisher": "指战网络",
-          "reservation_count": "560",
+          "reservation_count": "576",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "幻想时空探险",
+          "categories": [
+            "解谜",
+            "密室逃脱",
+            "悬疑"
+          ],
+          "score": null,
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/203080.htm",
+          "publisher": null,
+          "reservation_count": "34",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "date_label": "09月24日 下周四",
+      "games": [
+        {
+          "game_name": "破烂水手-正版移植手游",
+          "categories": [
+            "编辑推荐",
+            "派对游戏",
+            "生存"
+          ],
+          "score": "9.0",
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/138522.htm",
+          "publisher": "十英工作室",
+          "reservation_count": "26.2万",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "王国保卫战6",
+          "categories": [
+            "策略",
+            "动作",
+            "建造"
+          ],
+          "score": "8.9",
+          "event_desc": "海外上线移动端和PC",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/195083.htm",
+          "publisher": "西安西品网络科技有限公司",
+          "reservation_count": "19471",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "BanG Dream!交织的乐章",
+          "categories": [
+            "动漫改编",
+            "音游",
+            "剧情"
+          ],
+          "score": "6.9",
+          "event_desc": "海外上线，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/193284.htm",
+          "publisher": null,
+          "reservation_count": "20601",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "五行游-国风三消对弈",
+          "categories": [
+            "策略",
+            "回合",
+            "极简"
+          ],
+          "score": "9.4",
+          "event_desc": "15:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/195153.htm",
+          "publisher": null,
+          "reservation_count": "556",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "控制：共振",
+          "categories": [
+            "PC游戏",
+            "第三人称",
+            "动作"
+          ],
+          "score": "9.1",
+          "event_desc": "PC端上线,快爆已支持预购",
+          "status_tag": "PC/主机",
+          "detail_url": "https://www.3839.com/a/191649.htm",
+          "publisher": "Remedy Entertainment Plc",
+          "reservation_count": "804",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "露娜：蓝色大陆",
+          "categories": [
+            "角色扮演",
+            "MMO",
+            "社交"
+          ],
+          "score": null,
+          "event_desc": "10:00 预下载，9月25日正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/195293.htm",
+          "publisher": "郑州游梦想科技有限公司",
+          "reservation_count": "782",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "前进吧！团子",
+          "categories": [
+            "冒险",
+            "休闲",
+            "闯关"
+          ],
+          "score": null,
+          "event_desc": "20:00 上线试玩",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/201938.htm",
+          "publisher": null,
+          "reservation_count": "86",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "光阴之外",
+          "categories": [
+            "模拟经营",
+            "水墨",
+            "修仙"
+          ],
+          "score": "7.7",
+          "event_desc": "正式上线，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/194403.htm",
+          "publisher": "宾麒网络",
+          "reservation_count": "1900",
           "has_afk_grinding_tag": false
         }
       ]

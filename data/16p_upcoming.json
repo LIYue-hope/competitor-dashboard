@@ -1,24 +1,25 @@
 {
-  "crawled_at": "2026-09-17T00:20:20.238772+00:00",
+  "crawled_at": "2026-09-18T00:07:36.773746+00:00",
   "days": [
     {
-      "date": "2026-09-17",
-      "date_label": "09月17日 今天",
+      "date": "2026-09-18",
+      "date_label": "09月18日 今天",
       "games": [
         {
-          "game_name": "斗破:莫欺少年穷",
+          "game_name": "灵武世界",
           "categories": [
-            "即时战斗",
-            "角色扮演",
-            "国漫",
-            "3D",
-            "唯美"
+            "Roguelike",
+            "冒险",
+            "探索",
+            "剧情",
+            "割草",
+            "社交"
           ],
-          "score": null,
-          "release_date": "2026-09-17",
+          "score": "7.1",
+          "release_date": "2026-09-18",
           "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1950151.html",
-          "publisher": "37手游",
+          "detail_url": "https://www.16p.com/1935286.html",
+          "publisher": "贵州梦轩",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }
@@ -26,7 +27,7 @@
     },
     {
       "date": "2026-09-19",
-      "date_label": "09月19日 后天",
+      "date_label": "09月19日 明天",
       "games": [
         {
           "game_name": "龙吟山海",
@@ -45,24 +46,8 @@
     },
     {
       "date": "2026-09-20",
-      "date_label": "09月20日 周日",
+      "date_label": "09月20日 后天",
       "games": [
-        {
-          "game_name": "弹壳战机",
-          "categories": [
-            "射击",
-            "弹幕",
-            "弹幕射击",
-            "Roguelike"
-          ],
-          "score": "7.2",
-          "release_date": "2026-09-20",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1955318.html",
-          "publisher": "猩球游戏",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
         {
           "game_name": "烽火望长安",
           "categories": [
@@ -77,6 +62,22 @@
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1942652.html",
           "publisher": "万紫游戏",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "弹壳战机",
+          "categories": [
+            "射击",
+            "弹幕",
+            "弹幕射击",
+            "Roguelike"
+          ],
+          "score": "7.8",
+          "release_date": "2026-09-20",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1955318.html",
+          "publisher": "猩球游戏",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }
@@ -110,6 +111,28 @@
       "date": "2026-09-22",
       "date_label": "09月22日 下周二",
       "games": [
+        {
+          "game_name": "炼金与魔法",
+          "categories": [
+            "魔法",
+            "冒险",
+            "移植",
+            "像素",
+            "动作",
+            "单机",
+            "休闲",
+            "2D",
+            "多人联机",
+            "支持Steam家庭共享"
+          ],
+          "score": "8.5",
+          "release_date": "2026-09-22",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1285197.html",
+          "publisher": "量子艺界",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "塔尔战纪",
           "categories": [
@@ -219,7 +242,7 @@
             "多平台",
             "萌宠"
           ],
-          "score": "8.1",
+          "score": "7.8",
           "release_date": "2026-09-23",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1932488.html",
@@ -243,6 +266,88 @@
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1945816.html",
           "publisher": "指战网络",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "date_label": "09月24日 下周四",
+      "games": [
+        {
+          "game_name": "五行游",
+          "categories": [
+            "休闲",
+            "独立",
+            "策略"
+          ],
+          "score": "9.4",
+          "release_date": "2026-09-24",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1765689.html",
+          "publisher": "Candleman Games",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "破烂水手",
+          "categories": [
+            "编辑推荐",
+            "派对游戏",
+            "生存",
+            "多人联机",
+            "Steam移植",
+            "休闲",
+            "冒险",
+            "角色扮演",
+            "海战",
+            "闯关",
+            "手绘",
+            "卡通",
+            "买断制",
+            "独立游戏",
+            "多平台"
+          ],
+          "score": "8.9",
+          "release_date": "2026-09-24",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1877041.html",
+          "publisher": "十英工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "爆裂防线",
+          "categories": [
+            "射击",
+            "塔防",
+            "策略",
+            "休闲",
+            "Roguelike"
+          ],
+          "score": "8.8",
+          "release_date": "2026-09-24",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952401.html",
+          "publisher": "小花工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "光阴之外",
+          "categories": [
+            "模拟经营",
+            "水墨",
+            "修仙",
+            "卡牌",
+            "中国风"
+          ],
+          "score": "9.1",
+          "release_date": "2026-09-24",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952337.html",
+          "publisher": "宾麒网络",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }

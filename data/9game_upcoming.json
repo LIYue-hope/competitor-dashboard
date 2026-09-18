@@ -1,37 +1,9 @@
 {
-  "crawled_at": "2026-09-17T00:20:06.817795+00:00",
+  "crawled_at": "2026-09-18T00:07:19.629440+00:00",
   "days": [
     {
-      "date": "2026-09-17",
-      "date_label": "09月17日 今天",
-      "games": [
-        {
-          "game_name": "斗破苍穹",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "抽终身VIP",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/dhdp/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "三国天命再临",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/sgtmzl1/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-18",
-      "date_label": "09月18日 明天",
+      "date_label": "09月18日 今天",
       "games": [
         {
           "game_name": "海岛传奇",
@@ -48,7 +20,7 @@
     },
     {
       "date": "2026-09-19",
-      "date_label": "09月19日 后天",
+      "date_label": "09月19日 明天",
       "games": [
         {
           "game_name": "龙吟山海",
@@ -65,7 +37,7 @@
     },
     {
       "date": "2026-09-20",
-      "date_label": "09月20日 周日",
+      "date_label": "09月20日 后天",
       "games": [
         {
           "game_name": "铸剑师",
@@ -274,6 +246,40 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/zuichuanqi3/",
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "date_label": "10月21日",
+      "games": [
+        {
+          "game_name": "守护庄园",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/shouhuzhuangyuan/",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "date_label": "10月23日",
+      "games": [
+        {
+          "game_name": "破日开天",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "单职业传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/porikaitian/",
+          "has_afk_grinding_tag": false
         }
       ]
     }

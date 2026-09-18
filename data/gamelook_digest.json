@@ -1,9 +1,62 @@
 {
-  "generated_at": "2026-09-17T00:37:30.811212+00:00",
+  "generated_at": "2026-09-18T00:17:48.618849+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-17",
+      "article_count": 10,
+      "game_count": 7,
+      "untagged_count": 3,
+      "digest": "今日游戏行业资讯聚焦于多款热门产品的表现与争议。腾讯放手的《Wardogs》Steam在线人数激增至42万，FunPlus新作《伊莫》首日在线破12万，而《异环》则因DDoS攻击导致国际服停服维护。此外，《湮灭之潮》在科隆展斩获大奖，LPL总决赛与《英雄联盟》15周年庆典同日举行，国产修仙续作《鬼谷八荒 2》制作人也透露了其体量与复杂度。",
+      "digest_source": "llm",
+      "input_hash": "caad477be9516ca5",
+      "game_digests": [
+        {
+          "name": "Wardogs",
+          "count": 1,
+          "summary": "被腾讯“放走”的《Wardogs》在Steam开启抢先体验后，5天内销量突破200万套，在线人数飙升至42万。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "伊莫",
+          "count": 1,
+          "summary": "FunPlus旗下爪印工作室研发的大世界捉宠RPG《伊莫》今日正式上线PC端，首日Steam在线人数突破12万。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "异环",
+          "count": 1,
+          "summary": "《异环》国际服遭遇DDoS攻击被迫停服维护，完美世界随后向玩家发放了补偿，国内版本的前瞻节目也意外提前泄露。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "湮灭之潮",
+          "count": 1,
+          "summary": "国产动作冒险游戏《湮灭之潮》在2026年德国科隆国际游戏展上，凭借其史诗感斩获了“最具史诗感游戏”大奖。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "英雄联盟",
+          "count": 1,
+          "summary": "LPL总决赛在上海浦发银行东方体育中心举行，与《英雄联盟》15周年盛典同日举办，召唤师们共度周末。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鬼谷八荒 2",
+          "count": 1,
+          "summary": "《鬼谷八荒 2》制作人张三在接受采访时表示，该作体量巨大，复杂度是前作的100倍，旨在满足玩家对开放世界和养成体系的新要求。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黑神话",
+          "count": 1,
+          "summary": "有家长试图通过《黑神话》和《战神》来引导10岁儿子玩游戏，结果孩子却只想看不想玩，引发了关于家庭游戏教育的讨论。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-09-16",
       "article_count": 5,
@@ -84,7 +137,7 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "2026年9月13日，游戏行业资讯编辑在GameLook上发布了一条新闻，内容涉及某款尚未具体命名的游戏。该新闻主要报道了该游戏的发售情况，但并未提及具体的发售日期、平台或相关细节。此外，还提到了该游戏可能面临的一些争议和挑战。",
+      "digest": "GameLook 今日共收录 1 条行业资讯，内容聚焦于游戏出海领域的监管政策调整。报道指出，针对近期部分游戏厂商在海外市场存在的违规推广行为，相关部门已发布最新合规指引，要求企业严格遵守当地法律法规，加强内容审核与用户保护，以维护健康的行业生态。按报道条数排序的游戏（含代表性标题与摘要）：",
       "digest_source": "llm",
       "input_hash": "3c276e5db3ae437f",
       "game_digests": []
@@ -197,29 +250,6 @@
           "count": 1,
           "summary": "最高扶持500万元！广州“游戏电竞18条”公示入选名单，《鸣潮》《望月》等在列。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "article_count": 8,
-      "game_count": 2,
-      "untagged_count": 6,
-      "digest": "9月8日游戏行业资讯共8条，主要聚焦于《和平精英》的海洋公益长期主义实践以及《鬼武者：剑之道》在中国市场的亮眼表现。卡普空新作《鬼武者：剑之道》Steam平台一半玩家来自中国，引发外媒关注；而《和平精英》则通过在游戏内植入贝雕作品等细节，将海洋公益从一次性活动转化为长期主义样本。",
-      "digest_source": "llm",
-      "input_hash": "47caa1421664c9e0",
-      "game_digests": [
-        {
-          "name": "和平精英",
-          "count": 1,
-          "summary": "《和平精英》在游戏内植入精致贝雕作品，玩家拾取散落贝壳，将海洋公益实践从一次性善意转化为长期主义样本。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者",
-          "count": 1,
-          "summary": "《鬼武者：剑之道》Steam平台一半玩家来自中国，外媒惊叹中国玩家成最大金主，IGN本部给出10分满分评价。",
-          "summary_source": "llm"
         }
       ]
     }
