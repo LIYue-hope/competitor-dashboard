@@ -61,6 +61,7 @@ import logging
 import os
 import re
 from datetime import datetime, timedelta, timezone
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -127,6 +128,7 @@ PUBLISHERS = [
 #   "preternatural" -> 超自然行动组官网列表接口（list_url + category_types）
 #   "biligame"   -> B 站发行游戏新闻接口（list_url + type_names + detail_url_tpl）
 #   "silverpalace"  -> 白银之城官网列表接口（list_url + category_types + max_pages）
+#   "official_html" -> 官网 SSR 新闻列表（list_url + dom）
 #   "pending" -> 仅展示官网链接，不自动采集
 #
 # 可选字段 company：该发行商 tab 下多家公司混排时（鹰角/库洛/叠纸），前端在
@@ -204,6 +206,24 @@ GAMES = [
             "?game=nap&game_biz=nap_cn&lang=zh-cn&bundle_id=nap_cn&channel_id=1"
             "&level=60&platform=pc&region=prod_gf_cn&uid=100000000"
         ),
+    },
+    {
+        "game_name": "星布谷地",
+        "publisher": "米哈游",
+        "publisher_key": "mihoyo",
+        "official_url": "https://planet.mihoyo.com/news?tab=0",
+        # 新官网未复用原神/星铁 content_v2 CMS；按新闻页 SSR 列表采集。若官网
+        # 改为纯客户端渲染，解析失败会明确降级为 error，不会伪报"近 7 天 0 条"。
+        "source": "official_html",
+        "list_url": "https://planet.mihoyo.com/news?tab=0",
+        "dom": {
+            "item": ".news-list a, .news_list a, .news-item a, a.news-item",
+            "date_sel": ".date, .time, .news-date, time",
+            "date_fmt": "%Y-%m-%d",
+            "title_sel": ".title, .news-title, h3, h2",
+            "label_sel": ".tag, .type, .category",
+            "summary_sel": ".desc, .summary, .news-desc",
+        },
     },
     # ---------------- 网易 ----------------
     {
@@ -755,6 +775,23 @@ GAMES = [
         "category_types": {"2": "新闻", "6": "公告", "3": "活动"},
     },
     {
+        "game_name": "蓝色星原：旅谣",
+        "publisher": "蛮啾网络",
+        "publisher_key": "other",
+        "company": "蛮啾",
+        "official_url": "https://azurpromilia.manjuu.com/home/news/",
+        "source": "official_html",
+        "list_url": "https://azurpromilia.manjuu.com/home/news/",
+        "dom": {
+            "item": ".news-list a, .news_list a, .news-item a, .news-item",
+            "date_sel": ".date, .time, .news-date, time",
+            "date_fmt": "%Y-%m-%d",
+            "title_sel": ".title, .news-title, h3, h2",
+            "label_sel": ".tag, .type, .category",
+            "summary_sel": ".desc, .summary, .news-desc",
+        },
+    },
+    {
         "game_name": "命运-冠位指定",
         "publisher": "哔哩哔哩",
         "publisher_key": "other",
@@ -786,6 +823,24 @@ GAMES = [
         # 该站无独立详情路由（/nslg/news* 全 404），详情走首页的 query 参数。
         "detail_url_tpl": "https://game.bilibili.com/nslg/?news_detail_id={id}",
         "type_names": {"1": "公告", "2": "新闻", "3": "新闻", "4": "活动", "5": "新闻"},
+    },
+    {
+        "game_name": "闪耀吧！噜咪",
+        "publisher": "哔哩哔哩",
+        "publisher_key": "other",
+        "company": "B站",
+        "official_url": "https://game.bilibili.com/lumi/news",
+        # 直接解析官网列表详情链接，避免依赖尚未公开确认的 gameExtensionId。
+        "source": "official_html",
+        "list_url": "https://game.bilibili.com/lumi/news",
+        "dom": {
+            "item": ".news-list a, .news_list a, .news-item a, a.news-item",
+            "date_sel": ".date, .time, .news-date, time",
+            "date_fmt": "%Y-%m-%d",
+            "title_sel": ".title, .news-title, h3, h2",
+            "label_sel": ".tag, .type, .category",
+            "summary_sel": ".desc, .summary, .news-desc",
+        },
     },
     {
         "game_name": "白银之城",
@@ -1128,9 +1183,12 @@ def _netease_update(game, item, ann_date):
         title = item.get_text(" ", strip=True)
     title = re.sub(r"\s+", " ", title).strip()
 
-    # 链接。href 有 '//' 协议相对与绝对 https 两种形态。
-    href = item.get("href", "") or ""
-    url = href if href.startswith("http") else ("https:" + href if href else game["official_url"])
+    # 候选条目既可能是 <a>，也可能是包着链接的 <article>/<li>。后者必须优先
+    # 取内部详情链接，不能因为容器自身没有 href 而错误回退官网首页。
+    link_node = item if item.name == "a" else item.select_one("a[href]")
+    # 链接兼容绝对、协议相对与站内相对路径；后两者都要以当前列表页为基准。
+    href = link_node.get("href", "") if link_node else ""
+    url = urljoin(game.get("list_url") or game["official_url"], href) if href else game["official_url"]
 
     # 摘要
     summary = ""
@@ -1197,6 +1255,60 @@ def fetch_netease_updates(game):
             seen.add(update["url"])
             updates.append(update)
     return updates
+
+
+def parse_official_html_updates(game, html, cutoff=None):
+    """解析配置驱动的游戏官网 SSR 新闻列表，供 official_html 及单测共用。
+
+    只保留能从每个候选条目提取出发布日期的链接，页面菜单、轮播入口等即使
+    命中宽松的 CSS 选择器也会被丢弃。``cutoff`` 允许测试固定时间窗口。
+    """
+    if not html:
+        raise RuntimeError("official_html 新闻页为空")
+    dom = game["dom"]
+    soup = BeautifulSoup(html, "html.parser")
+    cutoff = cutoff or _cutoff_date()
+    updates = []
+    seen = set()
+    for item in soup.select(dom["item"]):
+        date_node = item.select_one(dom["date_sel"]) if dom.get("date_sel") else None
+        raw_date = date_node.get_text(" ", strip=True) if date_node else ""
+        ann_date = _parse_netease_date(raw_date, dom.get("date_fmt", "%Y-%m-%d"))
+        if not ann_date or ann_date < cutoff:
+            continue
+        update = _netease_update(game, item, ann_date)
+        if update["url"] in seen:
+            continue
+        seen.add(update["url"])
+        updates.append(update)
+    return updates
+
+
+def fetch_official_html_updates(game):
+    """抓取游戏官网 SSR 新闻页；无任何可识别列表项视为解析失败。
+
+    这样网页改成纯客户端渲染时会在前端显示「本次采集失败」，而不是把真实
+    的动态误显示成「近 7 天暂无官方动态」。
+    """
+    soup = _netease_soup(game, game["list_url"])
+    items = soup.select(game["dom"]["item"])
+    if not items:
+        raise RuntimeError("official_html 未找到新闻列表，页面可能已改为客户端渲染")
+    # 有列表容器但所有候选项都没有可解析日期，通常表示选择器命中了导航/轮播，
+    # 同样属于结构失配。若能解析到日期但它们都早于窗口，则可正常返回空列表。
+    dom = game["dom"]
+    has_dated_item = any(
+        _parse_netease_date(
+            item.select_one(dom["date_sel"]).get_text(" ", strip=True)
+            if dom.get("date_sel") and item.select_one(dom["date_sel"])
+            else "",
+            dom.get("date_fmt", "%Y-%m-%d"),
+        )
+        for item in items
+    )
+    if not has_dated_item:
+        raise RuntimeError("official_html 新闻条目缺少可解析日期，页面结构可能已变更")
+    return parse_official_html_updates(game, str(soup))
 
 
 def fetch_nsh_updates(game):
@@ -2273,6 +2385,7 @@ SOURCE_FETCHERS = {
     "preternatural": fetch_preternatural_updates,
     "biligame": fetch_biligame_updates,
     "silverpalace": fetch_silverpalace_updates,
+    "official_html": fetch_official_html_updates,
 }
 
 

@@ -299,6 +299,66 @@ const dailyNewsTrendData = computed(() => {
 })
 const dailyNewsTrendError = computed(() => dailyNewsTrendData.value ? '' : (errors.value.dailyNewsHistory || ''))
 
+// 概览里的「挂机/搬砖新游」按游戏名和实际上架日归并：同一游戏当天在多个站点出现时，
+// 只显示一行平台列表；若各站点的上架日不同，则保留为同一游戏下的多行时间。
+// 好游快爆的日期格偶尔是预下载日，优先从活动文案中提取明确的「x 月 x 日上线」日期。
+function displayGameName(name = '') {
+  return String(name).trim().replace(/[-—]\s*(?:预下载|(?:(?:\d{1,2}月\d{1,2}日)?(?:正式)?上线))\s*$/, '')
+}
+function gameKey(name = '') {
+  return displayGameName(name)
+    .toLocaleLowerCase()
+    .replace(/[\s!！:：,，.。'"“”‘’()（）\-—_]/g, '')
+}
+function haoyouReleaseDate(dayDate, eventDesc = '') {
+  const match = String(eventDesc).match(/(\d{1,2})月(\d{1,2})日[^。；，,]*(?:正式)?上线/)
+  if (!match || !/^\d{4}-\d{2}-\d{2}$/.test(dayDate || '')) return dayDate
+  return `${dayDate.slice(0, 4)}-${match[1].padStart(2, '0')}-${match[2].padStart(2, '0')}`
+}
+function shortDate(date = '') {
+  const match = String(date).match(/^\d{4}-(\d{2})-(\d{2})$/)
+  return match ? `${match[1]}月${match[2]}日` : date
+}
+
+const afkUpcomingGames = computed(() => {
+  const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date())
+  const today = `${parts.find((part) => part.type === 'year').value}-${parts.find((part) => part.type === 'month').value}-${parts.find((part) => part.type === 'day').value}`
+  const dateBefore = (date, offset) => new Date(Date.parse(`${date}T00:00:00Z`) + offset * 86400000).toISOString().slice(0, 10)
+  const end = dateBefore(today, 7)
+  const entries = [
+    ...(data.value.taptap || []).map((game) => ({ ...game, date: game.release_date, platform: 'TapTap', url: game.source_url })),
+    ...((data.value.haoyou?.days || []).flatMap((day) => (day.games || []).map((game) => ({
+      ...game, date: haoyouReleaseDate(day.date, game.event_desc), platform: '好游快爆', url: game.detail_url,
+    })))),
+    ...((data.value.jiuyou?.days || []).flatMap((day) => (day.games || []).map((game) => ({
+      ...game, date: day.date, platform: '九游', url: game.detail_url,
+    })))),
+    ...((data.value.p16?.days || []).flatMap((day) => (day.games || []).map((game) => ({
+      ...game, date: game.release_date || day.date, platform: '游资网', url: game.detail_url,
+    })))),
+  ].filter((game) => game.has_afk_grinding_tag && game.date >= today && game.date < end)
+
+  const games = new Map()
+  for (const entry of entries) {
+    const name = displayGameName(entry.game_name)
+    const key = gameKey(name)
+    if (!key) continue
+    if (!games.has(key)) games.set(key, { name, dates: new Map() })
+    const game = games.get(key)
+    const dateEntry = game.dates.get(entry.date) || { date: entry.date, platforms: [], url: entry.url }
+    if (!dateEntry.platforms.includes(entry.platform)) dateEntry.platforms.push(entry.platform)
+    // 同一站点可能同时有预下载和正式上线两条，保留同日的一条即可。
+    if (!dateEntry.url && entry.url) dateEntry.url = entry.url
+    game.dates.set(entry.date, dateEntry)
+  }
+  return [...games.values()]
+    .map((game) => {
+      const dates = [...game.dates.values()].sort((a, b) => a.date.localeCompare(b.date))
+      return { ...game, dates, url: dates.find((entry) => entry.url)?.url || '' }
+    })
+    .sort((a, b) => a.dates[0].date.localeCompare(b.dates[0].date) || a.name.localeCompare(b.name, 'zh-CN'))
+})
+
 // 首页概览以已完成采集的「昨天」为基准，避免当天滚动采集尚未完成造成误读。
 const overview = computed(() => {
   const days = dailyNewsTrendData.value?.days || []
@@ -524,6 +584,25 @@ const NEWS_FILES = [
           <div class="kpi"><div class="k">官方动态数</div><div class="v">{{ overview.dynamics ?? '—' }}<small v-if="overview.dynamics !== null">条</small></div></div>
           <div class="kpi"><div class="k">最新数据时间</div><div class="v compact-value">{{ newestStamp || '—' }}</div></div>
         </div>
+        <section class="afk-upcoming" aria-label="未来七日可挂机或搬砖游戏">
+          <div class="afk-upcoming-head">
+            <h3>未来 7 日可挂机/搬砖游戏</h3>
+            <span class="stamp">{{ afkUpcomingGames.length }} 款</span>
+          </div>
+          <p v-if="!afkUpcomingGames.length" class="afk-empty">暂无符合条件的游戏</p>
+          <div v-else class="afk-game-list">
+            <div v-for="game in afkUpcomingGames" :key="game.name" class="afk-game">
+              <a v-if="game.url" class="afk-game-name" :href="game.url" target="_blank" rel="noopener noreferrer">{{ game.name }}</a>
+              <span v-else class="afk-game-name">{{ game.name }}</span>
+              <div class="afk-schedules">
+                <div v-for="schedule in game.dates" :key="schedule.date" class="afk-schedule">
+                  <time :datetime="schedule.date">{{ shortDate(schedule.date) }}</time>
+                  <span>{{ schedule.platforms.join('、') }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
       <nav class="rail">
         <div v-for="[key, label] in SECTIONS" :key="key" class="rail-group" :class="{ active: activeSection === key }">
@@ -674,6 +753,12 @@ const NEWS_FILES = [
 .overview-card { grid-column: 1 / -1; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); box-shadow: var(--shadow-1); padding: 16px 20px 4px; }
 .overview-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }.overview-head h2 { margin: 0; font-size: 15px; }.overview-head .spacer { flex: 1; }
 .kpi .positive { color: var(--ok); }.kpi .negative { color: var(--danger); }.kpi .compact-value { font-size: 16px; padding-top: 3px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.afk-upcoming { margin: 0 0 12px; border-top: 1px solid var(--border); padding-top: 12px; }
+.afk-upcoming-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }.afk-upcoming-head h3 { margin: 0; font-size: 13px; }.afk-empty { margin: 0; color: var(--text-3); font-size: 13px; }
+.afk-game-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 8px 14px; }
+.afk-game { display: flex; align-items: flex-start; gap: 9px; min-width: 0; padding: 8px 10px; border: 1px solid var(--border); border-radius: var(--r-sm); background: var(--surface-2); }
+.afk-game-name { flex: none; max-width: 46%; overflow: hidden; color: var(--brand); font-size: 13px; font-weight: 600; line-height: 1.5; text-decoration: none; text-overflow: ellipsis; white-space: nowrap; }.afk-game-name:hover, .afk-game-name:focus-visible { text-decoration: underline; }
+.afk-schedules { display: grid; min-width: 0; gap: 3px; font-size: 12px; line-height: 1.5; color: var(--text-2); }.afk-schedule { display: flex; gap: 5px; min-width: 0; }.afk-schedule time { flex: none; color: var(--text-3); font-variant-numeric: tabular-nums; }.afk-schedule span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 .rail {
   position: sticky;
