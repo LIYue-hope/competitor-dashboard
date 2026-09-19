@@ -1,34 +1,43 @@
 {
-  "crawled_at": "2026-09-18T00:07:36.773746+00:00",
+  "crawled_at": "2026-09-19T00:09:33.242307+00:00",
   "days": [
     {
-      "date": "2026-09-18",
-      "date_label": "09月18日 今天",
+      "date": "2026-09-19",
+      "date_label": "09月19日 今天",
       "games": [
         {
-          "game_name": "灵武世界",
+          "game_name": "天境",
           "categories": [
-            "Roguelike",
-            "冒险",
-            "探索",
-            "剧情",
-            "割草",
-            "社交"
+            "角色扮演"
           ],
-          "score": "7.1",
-          "release_date": "2026-09-18",
+          "score": "8.9",
+          "release_date": "2026-09-19",
           "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1935286.html",
-          "publisher": "贵州梦轩",
+          "detail_url": "https://www.16p.com/1956047.html",
+          "publisher": "锦鲤游戏工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "纯白和弦",
+          "categories": [
+            "养成",
+            "策略",
+            "剧情",
+            "冒险",
+            "卡牌",
+            "二次元",
+            "轻度Roguelike",
+            "美少女"
+          ],
+          "score": "7.0",
+          "release_date": "2026-09-19",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1753569.html",
+          "publisher": "xulinling",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-09-19",
-      "date_label": "09月19日 明天",
-      "games": [
+        },
         {
           "game_name": "龙吟山海",
           "categories": [
@@ -46,7 +55,7 @@
     },
     {
       "date": "2026-09-20",
-      "date_label": "09月20日 后天",
+      "date_label": "09月20日 明天",
       "games": [
         {
           "game_name": "烽火望长安",
@@ -73,20 +82,14 @@
             "弹幕射击",
             "Roguelike"
           ],
-          "score": "7.8",
+          "score": "7.9",
           "release_date": "2026-09-20",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1955318.html",
           "publisher": "猩球游戏",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-09-21",
-      "date_label": "09月21日 下周一",
-      "games": [
+        },
         {
           "game_name": "蜀山幻想志",
           "categories": [
@@ -98,10 +101,50 @@
             "养成"
           ],
           "score": null,
-          "release_date": "2026-09-21",
+          "release_date": "2026-09-20",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1950332.html",
           "publisher": "广州市手心网络科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "date_label": "09月21日 后天",
+      "games": [
+        {
+          "game_name": "西游大冒险",
+          "categories": [
+            "卡牌",
+            "角色扮演",
+            "西游",
+            "竖屏",
+            "中国风"
+          ],
+          "score": null,
+          "release_date": "2026-09-21",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1953466.html",
+          "publisher": "湛江市杰游网络科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "英雄防线",
+          "categories": [
+            "塔防",
+            "Roguelike",
+            "策略",
+            "弹幕",
+            "割草"
+          ],
+          "score": "8.6",
+          "release_date": "2026-09-21",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1942895.html",
+          "publisher": "三狸网络",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }
@@ -190,6 +233,23 @@
       "date_label": "09月23日 下周三",
       "games": [
         {
+          "game_name": "幻想时空探险",
+          "categories": [
+            "解谜",
+            "密室逃脱",
+            "悬疑",
+            "推理",
+            "益智"
+          ],
+          "score": null,
+          "release_date": "2026-09-23",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1956027.html",
+          "publisher": null,
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
           "game_name": "我本布衣:世家录",
           "categories": [
             "经营",
@@ -276,6 +336,22 @@
       "date_label": "09月24日 下周四",
       "games": [
         {
+          "game_name": "BanG Dream!交织的乐章",
+          "categories": [
+            "动漫改编",
+            "音游",
+            "剧情",
+            "休闲"
+          ],
+          "score": "6.9",
+          "release_date": "2026-09-24",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1955373.html",
+          "publisher": null,
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
           "game_name": "五行游",
           "categories": [
             "休闲",
@@ -348,6 +424,25 @@
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952337.html",
           "publisher": "宾麒网络",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "date_label": "09月25日 下周五",
+      "games": [
+        {
+          "game_name": "贝克兰德纪事",
+          "categories": [
+            "文字"
+          ],
+          "score": null,
+          "release_date": "2026-09-25",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1955771.html",
+          "publisher": "真我工作室",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }

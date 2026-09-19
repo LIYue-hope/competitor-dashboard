@@ -1,107 +1,208 @@
 {
-  "generated_at": "2026-09-18T00:15:16.865964+00:00",
+  "generated_at": "2026-09-19T00:19:47.505155+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-17",
-      "article_count": 89,
-      "game_count": 60,
-      "untagged_count": 20,
-      "digest": "9月17日游戏行业资讯密集，多款重磅新作发售引发关注，包括《火焰纹章：万缕千丝》《空之轨迹 the 2nd》等，同时《GTA6》持续引爆市场，PS5 Pro二手价飙升，而《战狗》CEO加班言论翻车，《漫威金刚狼》发售遇两极口碑。",
+      "date": "2026-09-18",
+      "article_count": 83,
+      "game_count": 52,
+      "untagged_count": 17,
+      "digest": "今日游戏资讯聚焦于《GTA6》发售前的热度预测与支持承诺，以及《最终幻想7：启示》容量与画质细节的曝光。此外，《漫威金刚狼》发售引发评分与配音争议，《战争机器：事变日》定档发售，多款新作如《控制：共振》、《电锯糖心2》及《Bloomwalker》公布发售或独占信息。",
       "digest_source": "llm",
-      "input_hash": "74d881b7f02107cb",
+      "input_hash": "7475797e57bdd0d6",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 4,
-          "summary": "《GTA6》加长版实机演示放出后热度引爆海外主机市场，PS5 Pro现货供应收紧，二手与第三方倒卖价格大幅上涨，Rockstar更在洛杉矶、迈阿密和纽约投放印有Spotify标志的大型广告牌，展示与多位国际音乐人合作的艺术画作。",
+          "summary": "Twitch CEO预计游戏多人模式上线后热度将超本体首发，Take-Two确认《GTA OL》不会下线，中国台湾地区已通过PS版过审。",
           "summary_source": "llm"
         },
         {
-          "name": "巫师3",
-          "count": 2,
-          "summary": "俄罗斯知名Coser Fishy Cosplay发布了一组《巫师3：狂猎》中希里的Cosplay新作，惊艳众多粉丝；同时《巫师3》全球销量突破5000万份，首席编剧坦言游戏并不完美仍有改进空间。",
+          "name": "最终幻想7：启示",
+          "count": 4,
+          "summary": "导演滨口直树透露游戏容量约200GB，PS5版支持4K与60帧三种性能模式，查德利角色戏份增加，蒂法新造型引发热议。",
           "summary_source": "llm"
         },
         {
-          "name": "战狗",
+          "name": "不朽遗志",
           "count": 2,
-          "summary": "百人对战新游《战狗》抢先体验上线一周，Steam同时在线人数较峰值回落超10万，开发商针对玩家反馈开启意见征集通道，但CEO Joe Brammer因\"查社交媒体\"\"轻度加班\"等言论引发巨大争议，尽管首发5天销量破200万份，道歉也未能挽回口碑。",
+          "summary": "开发商One More Level公布国区Steam售价168元，取消预购机制，定价39.99美元，包含约20小时剧情内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战争机器：事变日",
+          "count": 2,
+          "summary": "开发商The Coalition宣布游戏已完成开发进入压盘阶段，将于10月6日发售，登陆Xbox Series X|S与PC平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "控制：共振",
+          "count": 2,
+          "summary": "Remedy公布发售预告片，游戏将于9月24日全球同步发售，PS5版豪华版用户享有48小时限时独占体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛",
+          "count": 2,
+          "summary": "PC移植项目Ship of Harkinian开发团队承认使用AI工具辅助开发，引发关于1998年游戏是否“抄袭”2020年《原神》的争议。",
           "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
           "count": 2,
-          "summary": "索尼发布的《漫威金刚狼》真人宣传片因内容问题在评论区引发超千条吐槽，而游戏发售后的口碑呈现两极分化，PS商店玩家评分高达4.85星，但M站媒体均分仅为77分。",
+          "summary": "发售仅两天M站用户评分跌至6.3分，支持12国配音却无中文引发玩家热议，被指流程线性、战斗重复。",
           "summary_source": "llm"
+        },
+        {
+          "name": "现代战争4",
+          "count": 2,
+          "summary": "丹麦影星麦斯·米科尔森确认加盟饰演反派“弓箭手”，动视称其为“现代战争”传奇的史诗终章，将于10月23日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "电锯糖心2",
+          "count": 2,
+          "summary": "公布商店页面并确认PS5限时独占，女主朱丽叶新造型因身材曲线被抹去遭玩家怒批，被指预算被砍。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "遗忘之海",
+          "count": 2,
+          "summary": "全平台预约量达3600万，游戏摒弃体力值设定，允许玩家自主决定航行时长与路线，主打慢节奏航海探索。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Apex英雄",
+          "count": 1,
+          "summary": "与《街霸6》梦幻联动，9月22日上线“外卡接管”活动，玩家可借用角色标志性招式作战。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Bloomwalker",
+          "count": 1,
+          "summary": "确认登陆Switch 2，纳入Level-5《二之国》宇宙，以净化而非征服为核心理念，登陆PS5、Switch 2及Switch平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Faraday Blues",
+          "count": 1,
+          "summary": "预计2027年发售，登陆PC、PS及Xbox Series X|S，计划支持日语，由《心跳文学部！》画师Satchely担任主美。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GACHIAKUTA",
+          "count": 1,
+          "summary": "改编自人气动画的动作RPG《GACHIAKUTA：BREAKOUT》公开实机游玩影片，由Com2uS负责制作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "OD",
+          "count": 1,
+          "summary": "小岛秀夫分享恐怖新作《OD》进展，受罢工影响的表演捕捉与ADR录制已恢复，项目重回正轨按原计划推进。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "article_count": 106,
+      "game_count": 64,
+      "untagged_count": 27,
+      "digest": "今日游戏行业新闻总计106条，涉及64款不同游戏。其中，GTA6、漫威金刚狼、PHYSINT、卧龙2、巫师3等热门游戏均有新动态。具体如下：**GTA6**：热度爆炸，PS5现货供应中，二手与第三方倒卖价格显著上涨。**漫威金刚狼**：真人宣传片引发争议，玩家评价两极分化。**PHYSINT**：小岛秀夫的新作可能采用Remedy引擎，全员大咖参演。**卧龙2**：开发组自曝前作\"攻略幅太窄\"，开放战场。**巫师3**：俄罗斯小姐姐还原希里，首席编剧坦言游戏不完美。**战狗**：Steam在线热度回落超10万，CEO言论引发争议。**火焰纹章：万缕千丝**：媒体评分解禁后M站开分89，体量揭晓！单线50小时，全通破百。**空之轨迹 the 2nd**：Steam特别好评，重返利贝尔王国。**龙之信条2**：捏脸工具大更新，首个大型DLC“黑暗觉者”新宣传片曝光。**ARC Raiders**：开发团队透露已制定了十年开发计划。**Another+Eden+Begins**：正式发售，人气超越多款系列新作。**COD:黑色行动2**：移植版推出后热度竟超过系列新作。**FC 27**：甲亢哥直播玩《FC 27》官方自由世界模式，全新换装系统实机试玩开放。**FF7启示**：亮相东京电玩展，全新换装系统实机试玩开放。**KEMURI**：拒上Xbox之后unseen多名资深设计师出走。",
+      "digest_source": "llm",
+      "input_hash": "f44ad54f006f5bf0",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 7,
+          "summary": "《GTA6》热度爆炸!致PS5 Pro二手价格比官价还高2千；《GTA6》营销全面升级！联名广告牌席卷美国三大城市；前R星动画师:《GTA6》界面仍有优化空间 可长线发展（当天共 7 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 3,
+          "summary": "索尼《漫威金刚狼》真人宣传片翻车 评论区吐槽超千条；两极口碑！《漫威金刚狼》玩家好评拉满 媒体分数偏低；《漫威金刚狼》建模对比演员形象 失眠组建模引发争议。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "PHYSINT",
+          "count": 2,
+          "summary": "小岛秀夫新作《PHYSINT》或将采用Remedy自研引擎？；全员大咖参演！小岛秀夫新作《Physint》主角动捕官宣。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "卧龙2",
+          "count": 2,
+          "summary": "《卧龙2》开发组自曝：前作\"攻略幅太窄\" 改开放战场；重磅！《卧龙2》登上Xbox发布会 中国神话新BOSS登场。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3",
+          "count": 2,
+          "summary": "俄罗斯小姐姐还原《巫师3》希里：颜值身材双双在线；《巫师3》首席编剧坦言游戏并不完美 仍有改进空间。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战狗",
+          "count": 2,
+          "summary": "《战狗》Steam在线热度回落超10万 官方征集优化建议；《战狗》CEO\"加班有回报\"言论翻车 道歉也救不回口碑。",
+          "summary_source": "rules"
         },
         {
           "name": "火焰纹章：万缕千丝",
           "count": 2,
-          "summary": "《火焰纹章：万缕千丝》今日正式发售，媒体评分解禁后M站开分89分，外媒盛赞其为系列全新标杆之作，游戏体量庞大，单主角通关约50小时，体验全部四条故事线并推进至第三部分至少需100小时。",
-          "summary_source": "llm"
+          "summary": "《火焰纹章：万缕千丝》M站89分开局 年度游戏竞争者；《火焰纹章:万缕千丝》体量揭晓！单线50小时 全通破百。",
+          "summary_source": "rules"
         },
         {
           "name": "空之轨迹 the 2nd",
           "count": 2,
-          "summary": "由Nihon Falcom开发的角色扮演游戏《空之轨迹 the 2nd》今日正式登陆Steam，截至发稿前Steam共收录73条用户评测，全部为\"特别好评\"，好评率高达98%，游戏首周享九折优惠，标准版折后268.2元。",
-          "summary_source": "llm"
+          "summary": "《空之轨迹 the 2nd》Steam特别好评！好评率高达98%；重返利贝尔王国 王道剧情RPG《空之轨迹 the 2nd》已正式发售！。",
+          "summary_source": "rules"
         },
         {
           "name": "龙之信条2",
           "count": 2,
-          "summary": "卡普空官方宣布《龙之信条2》角色创建应用迎来重要更新，新增多款发型和刺青选项，并公开了首个大型DLC\"黑暗觉者\"的主预告，定档10月9日发售，将解锁极北冰雪区域\"诺尔坎\"。",
-          "summary_source": "llm"
+          "summary": "《龙之信条2》捏脸工具大更新！Switch2也能提前捏人；《龙之信条2》\"黑暗觉者\"新宣传片曝光！定档10月9日。",
+          "summary_source": "rules"
         },
         {
           "name": "ARC Raiders",
           "count": 1,
-          "summary": "Embark Studios透露《ARC Raiders》已制定了十年开发计划，主要灵感源自《命运》系列，旨在复刻Bungie的成功模式，并发布了为10月8日\"冰封之路\"大型更新做准备的重要补丁。",
-          "summary_source": "llm"
+          "summary": "《ARC Raiders》开发团队透露已制定了十年开发计划！。",
+          "summary_source": "rules"
         },
         {
           "name": "Another+Eden+Begins",
           "count": 1,
-          "summary": "面向Nintendo Switch™ 2/Nintendo Switch™/Steam®平台的新作时空穿越RPG《Another Eden Begins》今日正式发售。",
-          "summary_source": "llm"
+          "summary": "《Another+Eden+Begins》今日正式发售！。",
+          "summary_source": "rules"
         },
         {
           "name": "COD：黑色行动2",
           "count": 1,
-          "summary": "动视今年夏季推出的《使命召唤：黑色行动2》移植版上线后热度飙升，当前人气已超越多款系列新作，令不少玩家感到意外。",
-          "summary_source": "llm"
+          "summary": "《COD:黑色行动2》移植版推出后热度竟超过系列新作。",
+          "summary_source": "rules"
         },
         {
           "name": "FC 27",
           "count": 1,
-          "summary": "海外知名主播甲亢哥（IShowSpeed）直播体验《EA FC 27》全新官方自由世界模式，当场直言这款足球新作的观感就像《GTA》。",
-          "summary_source": "llm"
+          "summary": "像GTA一样!甲亢哥直播玩《FC 27》官方自由世界模式。",
+          "summary_source": "rules"
         },
         {
           "name": "FF7启示",
           "count": 1,
-          "summary": "东京电玩展2026现场开放《最终幻想VII 启示录》实机试玩，本作解锁原版全部八名可操作角色，展示希德全新战斗机制与WEAR职业换装新系统，游戏定档2027年4月8日。",
-          "summary_source": "llm"
+          "summary": "《FF7启示》亮相东京电玩展 全新换装系统实机试玩开放。",
+          "summary_source": "rules"
         },
         {
           "name": "KEMURI",
           "count": 1,
-          "summary": "前《幽灵线：东京》创意总监中村育美创立的UNSEEN工作室多名资深总监与核心设计师已相继离职，此前中村育美曾以\"不想让工程师过劳死\"为由拒绝移植Xbox平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "PHYSINT",
-          "count": 1,
-          "summary": "小岛秀夫晒出与Remedy传播总监等人的合影，引发玩家猜测其新作《PHYSINT》或将使用Remedy自研的Northlight引擎。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Space Menace",
-          "count": 1,
-          "summary": "科幻太空即时战略游戏《太空威胁》限时免费领取，原价29元，活动截止至9月23日。",
-          "summary_source": "llm"
+          "summary": "《KEMURI》拒上Xbox之后 unseen多名资深设计师出走。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -809,107 +910,6 @@
           "count": 1,
           "summary": "《EA Sports FC 27》奖杯与成就完整清单正式公布，移除了俱乐部模式相关奖杯，白金奖杯获取难度显著下降。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "article_count": 105,
-      "game_count": 64,
-      "untagged_count": 12,
-      "digest": "《塞尔达传说：时之笛RE》发布，容量27GB，Switch 2独占。GTA6预购量超528万份，PS平台占比高。《女神异闻录6》战斗系统全曝光，主角团“Hex”首度曝光。《王国之心4》剧情与羁绊类成就一览，玩法体系、经典场景回归。GUNDAM 异轨征途公布，请成为王牌机师。《塞尔达传说》限定NS2和手柄公布，40周年庆典汇总。《时之笛RE》首个实机公布，实体卡带引爆热度。洛克人流星合集移除D加密，告别卡顿与延迟。潜水员戴夫全球累计销量突破1000万套。CODE VEIN 噬血代码 II扩充DLC ＂Mask of Idris＂现已发布。",
-      "digest_source": "llm",
-      "input_hash": "a4901c82e654fcdd",
-      "game_digests": [
-        {
-          "name": "塞尔达传说：时之笛RE",
-          "count": 6,
-          "summary": "《塞尔达传说：时之笛RE》容量27GB！为N64原版800倍；《塞尔达传说 时之笛RE》实体版公布！还有限量烫箔版；《塞尔达传说：时之笛RE》首个实机公布！画面精致（当天共 6 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 5,
-          "summary": "《黎明行者之血》发售仅6天 开发团队已开始筹备续作；《黎明行者之血》将有多部续作！横跨不同时代与文化；《黎明行者之血》紧急热修1.0.4 卡关、帧数全修复！（当天共 5 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GTA6",
-          "count": 4,
-          "summary": "曝《GTA6》预购量已达528万份！PS平台占比高达77%；《GTA6》主角战斗风格曝光!露西娅走技术 杰森纯力大；《GTA6》白色限定DualSense手柄 商品包装图片流出！（当天共 4 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "塞尔达时之笛RE",
-          "count": 4,
-          "summary": "玩家力挺《塞尔达时之笛RE》 直言部分差评纯属博热度；《塞尔达时之笛RE》角色模型汇总：大小林克、塞尔达等；《塞尔达时之笛RE》刻意保留加载画面！致敬原版精髓（当天共 4 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "时之笛",
-          "count": 4,
-          "summary": "谁家的金鱼精？《时之笛》重制版幼年林克形象引争议；颜值进化史！三代《时之笛》塞尔达公主同框对比图；《时之笛》重制有实体卡带！网友集体反呛索尼与R星（当天共 4 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "噬血代码2",
-          "count": 3,
-          "summary": "《噬血代码2》正式移除D加密 72G游戏秒遭Rune破解；《噬血代码2》DLC「伊德里斯的面具」上线宣传片公布；《噬血代码2》推送大型2.0版本更新 移除了D加密！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "女神异闻录6",
-          "count": 3,
-          "summary": "《女神异闻录6》战斗系统全曝光!恋爱社群系统回归；《女神异闻录6》主角团\"Hex\"首度曝光!全员资料泄露；《女神异闻录6》遭“史诗级”泄露！剧情舞台首度曝光。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "王国之心4",
-          "count": 3,
-          "summary": "心与羁绊交织！《王国之心4》剧情与羁绊类成就一览；《王国之心4》玩法成就:主城探索+飞船空战+养成战斗；主线结局+世界委托！《王国之心 4》12项项成就曝光。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GUNDAM 异轨征途",
-          "count": 2,
-          "summary": "《GUNDAM 异轨征途》采访：请成为王牌机师吧；《GUNDAM 异轨征途》试玩：机战，爽。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "塞尔达传说",
-          "count": 2,
-          "summary": "《塞尔达传说》限定NS2和手柄公布！10月29日发售；《塞尔达传说》40周年庆典汇总！直面会信息量爆炸。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "时之笛RE",
-          "count": 2,
-          "summary": "能自己唱歌让林克吹！《时之笛RE》新增ns2专属玩法；游侠早报：《时之笛RE》实机演示 塞尔达限定主机公布。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "洛克人流星合集",
-          "count": 2,
-          "summary": "《洛克人流星合集》刚摘D加密 7G游戏被TENOKE秒破；告别卡顿与延迟 卡普空移除《洛克人流星合集》D加密。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "潜水员戴夫",
-          "count": 2,
-          "summary": "《潜水员戴夫》全球累计销量突破1000万套；《潜水员戴夫》官宣全球累计销量已突破1000万份！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "2XKO",
-          "count": 1,
-          "summary": "《2XKO》开发受阻后 拳头或正推进买断制游戏MMO项目。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "CODE VEIN 噬血代码 II",
-          "count": 1,
-          "summary": "《CODE VEIN 噬血代码 II》扩充DLC ＂Mask of Idris＂现已发布！。",
-          "summary_source": "rules"
         }
       ]
     }

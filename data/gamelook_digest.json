@@ -1,9 +1,50 @@
 {
-  "generated_at": "2026-09-18T00:17:48.618849+00:00",
+  "generated_at": "2026-09-19T00:24:43.840226+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-18",
+      "article_count": 8,
+      "game_count": 5,
+      "untagged_count": 3,
+      "digest": "今日游戏行业资讯聚焦二次元新作与海外爆款，NEXON新作《FAREIDOLIA》亮相并宣称对标跨端二游，硬核军事射击游戏《Wardogs》销量破200万份，索尼大作《马拉松》因在线人数下滑取消赛季制并推迟PvE内容，Remedy新作《控制：共振》制作人飞赴中国宣传，蛮啾《蓝色星原：旅谣》开启三测。",
+      "digest_source": "llm",
+      "input_hash": "c516a86e5af26cdb",
+      "game_digests": [
+        {
+          "name": "FAREIDOLIA",
+          "count": 1,
+          "summary": "NEXON制作人表示该作是“BA接班人”，并宣称对手是所有跨端二次元手游。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Wardogs",
+          "count": 1,
+          "summary": "该作CEO因“不招不加班的人”言论引发争议，随后回应称公司曾实行4天工作制。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "控制：共振",
+          "count": 1,
+          "summary": "Remedy制作人飞赴中国接受采访，介绍新作从TPS向动作ARPG转型的变化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "蓝色星原：旅谣",
+          "count": 1,
+          "summary": "蛮啾《蓝色星原：旅谣》于9月17日开启限量计费删档的“旅迹测试”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "马拉松",
+          "count": 1,
+          "summary": "索尼大作《马拉松》因在线人数大幅滑坡，宣布取消赛季制并将PvE内容延至年底。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-09-17",
       "article_count": 10,
@@ -137,8 +178,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "GameLook 今日共收录 1 条行业资讯，内容聚焦于游戏出海领域的监管政策调整。报道指出，针对近期部分游戏厂商在海外市场存在的违规推广行为，相关部门已发布最新合规指引，要求企业严格遵守当地法律法规，加强内容审核与用户保护，以维护健康的行业生态。按报道条数排序的游戏（含代表性标题与摘要）：",
-      "digest_source": "llm",
+      "digest": "9月13日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「2026LPL总决赛落幕，AL勇夺赛季总冠军！」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
       "input_hash": "3c276e5db3ae437f",
       "game_digests": []
     },
@@ -221,35 +262,6 @@
           "count": 1,
           "summary": "小游戏《核爆模拟器》全球爆火，伊朗、美国、韩国和日本成为挨炸次数最多的国家。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "article_count": 7,
-      "game_count": 3,
-      "untagged_count": 4,
-      "digest": "9月9日，游戏行业新闻汇总显示，《Bodycam》更新爆卖，玩家痛呼“远离战争珍惜和平”；《甄嬛传》新游戏乱战；《鸣潮》最高扶持500万元。同时，广州“游戏电竞18条”公示入选名单，涉及《鸣潮》《望月》等游戏。",
-      "digest_source": "llm",
-      "input_hash": "85acbfe3763fdb3b",
-      "game_digests": [
-        {
-          "name": "Bodycam",
-          "count": 1,
-          "summary": "“照片级FPS游戏”技惊四座！《Bodycam》更新爆卖，玩家痛呼“远离战争珍惜和平”。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "甄嬛传",
-          "count": 1,
-          "summary": "三款《甄嬛传》新游戏乱战！时隔12年，国民级宫斗IP杀回游戏圈？。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "鸣潮",
-          "count": 1,
-          "summary": "最高扶持500万元！广州“游戏电竞18条”公示入选名单，《鸣潮》《望月》等在列。",
-          "summary_source": "rules"
         }
       ]
     }
