@@ -1,58 +1,165 @@
 {
-  "generated_at": "2026-09-19T00:19:47.505155+00:00",
+  "generated_at": "2026-09-20T00:14:38.356627+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-18",
-      "article_count": 83,
-      "game_count": 52,
-      "untagged_count": 17,
-      "digest": "今日游戏资讯聚焦于《GTA6》发售前的热度预测与支持承诺，以及《最终幻想7：启示》容量与画质细节的曝光。此外，《漫威金刚狼》发售引发评分与配音争议，《战争机器：事变日》定档发售，多款新作如《控制：共振》、《电锯糖心2》及《Bloomwalker》公布发售或独占信息。",
+      "date": "2026-09-19",
+      "article_count": 29,
+      "game_count": 20,
+      "untagged_count": 6,
+      "digest": "TGS2026展会期间，多款重磅新作动态密集，其中《最终幻想7：启示》总监滨口直树确认全流程可达100小时，IGN评价其探索自由度提升；《魔兽世界：无限》Beta测试因玩家涌入导致服务器崩溃，暴雪称数据为17年来最疯狂；《漫威金刚狼》发售三天营收达8.7亿，逼近190万销量；《控制：共鸣》性能测试显示RTX 5090在极端负载下仅48帧。",
       "digest_source": "llm",
-      "input_hash": "7475797e57bdd0d6",
+      "input_hash": "2edc72b11f6c6a78",
+      "game_digests": [
+        {
+          "name": "FF7启示",
+          "count": 2,
+          "summary": "碍事梨体模现场试玩《FF7启示》：粉色超短裙穿搭亮相；游侠早报：《FF7启示》流程百小时《金刚狼》已赚8亿。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "最终幻想7：启示",
+          "count": 2,
+          "summary": "TGS2026现场《生化危机4》体模试玩Demo，总监滨口直树确认全流程含支线可达100小时，IGN评价其探索自由度提升。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界：无限",
+          "count": 2,
+          "summary": "Beta测试因玩家涌入导致服务器崩溃，暴雪称这是入职17年来见过的最疯狂数据，并确认将严控游戏经济。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 1,
+          "summary": "BambooHR数据显示，发售日美国员工带薪休假申请较平均水平高出9%至17%。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤",
+          "count": 1,
+          "summary": "反作弊团队RICOCHET已干扰375个作弊实体，促使31家主要外挂供应商关停。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "卧龙2",
+          "count": 1,
+          "summary": "游侠晚报：《卧龙2》新实机 《WOW无限》B测上线崩溃。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "卧龙2：凤火连天",
+          "count": 1,
+          "summary": "光荣特库摩公布新地图探索实机演示，展示飞檐走壁动作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 1,
+          "summary": "外媒报道，CDPR首席编剧论文题目竟是《石之心》，游戏至今仍被视为最佳RPG之一。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 1,
+          "summary": "CDPR联合CEO透露，从REDengine转向虚幻5的契机是《黑客帝国》演示。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "怪物猎人：荒野",
+          "count": 1,
+          "summary": "Switch 2版全模式锁30帧，光线追踪功能关闭。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "控制：共振",
+          "count": 1,
+          "summary": "《控制: 共振》性能拉了：RTX 5090也只能跑48帧！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "控制：共鸣",
+          "count": 1,
+          "summary": "TechPowerUp实测显示RTX 5090在极端负载下仅48帧，游戏将于9月24日全球解锁。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑破坏神5",
+          "count": 1,
+          "summary": "执行制作人透露团队以打造“史上最佳战役”为目标，定档2029年发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "浪漫沙加2",
+          "count": 1,
+          "summary": "SE今日开启TGS特卖，多款作品享折扣。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 1,
+          "summary": "Insider Gaming数据显示，发售三天营收约8.7亿人民币，销量逼近190万份。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "article_count": 101,
+      "game_count": 63,
+      "untagged_count": 20,
+      "digest": "9月18日游戏资讯聚焦多款重磅新作，Twitch CEO丹·克兰西预测《GTA6》在线模式热度将超本体，Take-Two确认《GTA OL》不会关服；Remedy新作《控制：共振》IGN评分8.8分，将于9月24日发售；微软《战争机器：事变日》PC配置公布，最低需RTX 2060显卡；索尼PS5独占《漫威金刚狼》发售两天用户评分跌至6.3分，引发无中文配音争议。",
+      "digest_source": "llm",
+      "input_hash": "de3023080c611c08",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 4,
-          "summary": "Twitch CEO预计游戏多人模式上线后热度将超本体首发，Take-Two确认《GTA OL》不会下线，中国台湾地区已通过PS版过审。",
+          "count": 5,
+          "summary": "Twitch CEO丹·克兰西预计游戏多人模式上线后热度将超本体，Take-Two确认《GTA OL》不会关服，中国台湾地区已过审。",
           "summary_source": "llm"
         },
         {
           "name": "最终幻想7：启示",
           "count": 4,
-          "summary": "导演滨口直树透露游戏容量约200GB，PS5版支持4K与60帧三种性能模式，查德利角色戏份增加，蒂法新造型引发热议。",
+          "summary": "导演滨口直树透露游戏容量约200GB，PS5版支持4K与60帧模式，蒂法新造型及查德利回归获关注，钢琴小游戏将大幅扩充回归。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "控制：共振",
+          "count": 3,
+          "summary": "IGN评分8.8分，将于9月24日全球发售，PS5版限时独占48小时仅限豪华版用户。",
           "summary_source": "llm"
         },
         {
           "name": "不朽遗志",
           "count": 2,
-          "summary": "开发商One More Level公布国区Steam售价168元，取消预购机制，定价39.99美元，包含约20小时剧情内容。",
+          "summary": "开发商One More Level宣布游戏取消预购机制，售价39.99美元，包含约20小时剧情内容，剧情DLC将于2027年推出。",
           "summary_source": "llm"
         },
         {
           "name": "战争机器：事变日",
           "count": 2,
-          "summary": "开发商The Coalition宣布游戏已完成开发进入压盘阶段，将于10月6日发售，登陆Xbox Series X|S与PC平台。",
+          "summary": "游戏已完成开发进入压盘阶段，将于10月6日发售，PC配置最低要求RTX 2060显卡。",
           "summary_source": "llm"
         },
         {
-          "name": "控制：共振",
+          "name": "无尽帝国2",
           "count": 2,
-          "summary": "Remedy公布发售预告片，游戏将于9月24日全球同步发售，PS5版豪华版用户享有48小时限时独占体验。",
+          "summary": "PC版于9月17日发售，知名破解团队RUNE发布了11.79GB的破解版本，引发策略游戏圈广泛关注。",
           "summary_source": "llm"
         },
         {
           "name": "时之笛",
           "count": 2,
-          "summary": "PC移植项目Ship of Harkinian开发团队承认使用AI工具辅助开发，引发关于1998年游戏是否“抄袭”2020年《原神》的争议。",
+          "summary": "PC移植项目Ship of Harkinian的开发团队Harbour Masters承认部分开发者多年来一直在使用ChatGPT、GitHub Copilot等AI工具辅助开发。",
           "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
           "count": 2,
-          "summary": "发售仅两天M站用户评分跌至6.3分，支持12国配音却无中文引发玩家热议，被指流程线性、战斗重复。",
+          "summary": "发售仅两天Metacritic用户评分跌至6.3分，支持12国配音却无中文，引发玩家对索尼不重视中文市场的热议。",
           "summary_source": "llm"
         },
         {
@@ -64,43 +171,37 @@
         {
           "name": "电锯糖心2",
           "count": 2,
-          "summary": "公布商店页面并确认PS5限时独占，女主朱丽叶新造型因身材曲线被抹去遭玩家怒批，被指预算被砍。",
+          "summary": "新作《电锯糖心2：Back2Back》商店页面上线，女主朱丽叶新造型因身材曲线被抹去遭玩家怒批。",
           "summary_source": "llm"
         },
         {
           "name": "遗忘之海",
           "count": 2,
-          "summary": "全平台预约量达3600万，游戏摒弃体力值设定，允许玩家自主决定航行时长与路线，主打慢节奏航海探索。",
+          "summary": "全平台预约量达3600万，游戏摒弃体力值设定，单次航行时长、路线与探索目标完全由玩家自主决定。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "金刚狼",
+          "count": 2,
+          "summary": "游戏是索尼2026年秋季唯一PS5独占游戏，隐藏彩蛋显示地狱金刚狼战衣可变身恶灵骑士。",
           "summary_source": "llm"
         },
         {
           "name": "Apex英雄",
           "count": 1,
-          "summary": "与《街霸6》梦幻联动，9月22日上线“外卡接管”活动，玩家可借用角色标志性招式作战。",
+          "summary": "与《街霸6》梦幻联动正式公布，9月22日全平台上线，限时活动“外卡接管”将奥林匹斯改造成街霸主题战场。",
           "summary_source": "llm"
         },
         {
           "name": "Bloomwalker",
           "count": 1,
-          "summary": "确认登陆Switch 2，纳入Level-5《二之国》宇宙，以净化而非征服为核心理念，登陆PS5、Switch 2及Switch平台。",
+          "summary": "确认登陆Switch 2，并纳入Level-5《二之国》宇宙，登陆PS5、Switch 2及Switch平台。",
           "summary_source": "llm"
         },
         {
-          "name": "Faraday Blues",
+          "name": "FF7：启示",
           "count": 1,
-          "summary": "预计2027年发售，登陆PC、PS及Xbox Series X|S，计划支持日语，由《心跳文学部！》画师Satchely担任主美。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GACHIAKUTA",
-          "count": 1,
-          "summary": "改编自人气动画的动作RPG《GACHIAKUTA：BREAKOUT》公开实机游玩影片，由Com2uS负责制作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "OD",
-          "count": 1,
-          "summary": "小岛秀夫分享恐怖新作《OD》进展，受罢工影响的表演捕捉与ADR录制已恢复，项目重回正轨按原计划推进。",
+          "summary": "总监滨口直树公布钢琴小游戏将大幅扩充回归，解锁蒂法更多故事。",
           "summary_source": "llm"
         }
       ]
@@ -808,107 +909,6 @@
           "name": "PHYSINT",
           "count": 1,
           "summary": "曝光面部动画测试画面，微软下一代Xbox主机“Project Helix”迎来首款第一方游戏。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-10",
-      "article_count": 121,
-      "game_count": 78,
-      "untagged_count": 24,
-      "digest": "今日游戏资讯聚焦多款重磅新作发售与公布，R星《GTA6》限定手柄开启预购引发官网挤爆，Shift Up《剑星》Switch 2版确认不采用密钥卡，Valheim《英灵神殿》1.0正式版上线即遭破解，集英社《封神演义 逆命承天》公布，宇峻奥汀《幻世录 重制版》发售获多半好评，卡普空《怪物猎人：荒野》确认登陆Switch 2，Remedy《控制：共振》公布PC配置，Hello Games《无人深空》发布十周年更新，Square Enix公布《最终幻想7：启示》发售日，SE公布《浪漫沙加3重制版》配置与售价，Insomniac发布《漫威金刚狼》真人宣传视频，任天堂公布《银河战士：Ravenous》与《饿狼传说：群狼之城》Switch 2版信息，EA公布《FC 27》白金奖杯难度调整。",
-      "digest_source": "llm",
-      "input_hash": "50d5892e3dfbaeda",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 5,
-          "summary": "Fami通采访R星透露《GTA6》男女主角可同床，男主还掀被子，细节过于真实引发关注。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 3,
-          "summary": "Shift Up正式宣布《剑星：完全版》将于11月5日登陆Nintendo Switch 2平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "英灵神殿",
-          "count": 3,
-          "summary": "《英灵神殿》于2026年9月9日正式推出1.0版本，Steam历史同时在线峰值突破50万。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "封神演义 逆命承天",
-          "count": 2,
-          "summary": "集英社游戏在任天堂直面会上公布了新作游戏《封神演义：逆命承天》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "幻世录 重制版",
-          "count": 2,
-          "summary": "宇峻奥汀旗下经典异色战棋SRPG《幻世录 重制版》今（10）日正式于Steam平台及UJ商城发售，上市限时享9折优惠。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "异度之刃3",
-          "count": 2,
-          "summary": "《异度之刃3》Switch 2版全新预告片公布，曝光全新金发少女参战。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "怪物猎人：荒野",
-          "count": 2,
-          "summary": "卡普空宣布《怪物猎人：荒野》Switch 2版在12月4日首发后，将提供为期一个多月的限时特惠，12月19日前仅需29.99美元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "控制：共振",
-          "count": 2,
-          "summary": "Xbox英国官号出现操作失误，提前泄露《控制：共振》或将首发登陆XGP的消息，游戏定档2026年9月24日多平台发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "无人深空",
-          "count": 2,
-          "summary": "《无人深空》十周年更新“宇宙”正式上线，游戏迈入第二个十年。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想7：启示",
-          "count": 2,
-          "summary": "《最终幻想7：启示》放出全新实机前瞻PV，预计2027年4月8日正式发售，登陆多平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "浪漫沙加3重制版",
-          "count": 2,
-          "summary": "《浪漫沙加3：错综宿命》预购现已开启，Steam国区标准版268元，豪华版348元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2,
-          "summary": "《漫威金刚狼》发售前夕实体盘提前偷跑，玩家晒盘纠结能否游玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "银河战士：Ravenous",
-          "count": 2,
-          "summary": "本作的预购现已开启，港服售价449港币。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "饿狼传说：群狼之城",
-          "count": 2,
-          "summary": "SNK宣布《饿狼传说：群狼之城》将与《东京卍复仇者》展开联动，佐野万次郎及龙宫寺坚将作为季票3的DLC角色上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FC 27",
-          "count": 1,
-          "summary": "《EA Sports FC 27》奖杯与成就完整清单正式公布，移除了俱乐部模式相关奖杯，白金奖杯获取难度显著下降。",
           "summary_source": "llm"
         }
       ]

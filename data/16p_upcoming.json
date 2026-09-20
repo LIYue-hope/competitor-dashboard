@@ -1,61 +1,9 @@
 {
-  "crawled_at": "2026-09-19T00:09:33.242307+00:00",
+  "crawled_at": "2026-09-20T00:06:56.887447+00:00",
   "days": [
     {
-      "date": "2026-09-19",
-      "date_label": "09月19日 今天",
-      "games": [
-        {
-          "game_name": "天境",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": "8.9",
-          "release_date": "2026-09-19",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1956047.html",
-          "publisher": "锦鲤游戏工作室",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "纯白和弦",
-          "categories": [
-            "养成",
-            "策略",
-            "剧情",
-            "冒险",
-            "卡牌",
-            "二次元",
-            "轻度Roguelike",
-            "美少女"
-          ],
-          "score": "7.0",
-          "release_date": "2026-09-19",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1753569.html",
-          "publisher": "xulinling",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "龙吟山海",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": "7.6",
-          "release_date": "2026-09-19",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1954865.html",
-          "publisher": "卡雷豆工作室",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-20",
-      "date_label": "09月20日 明天",
+      "date_label": "09月20日 今天",
       "games": [
         {
           "game_name": "烽火望长安",
@@ -112,7 +60,7 @@
     },
     {
       "date": "2026-09-21",
-      "date_label": "09月21日 后天",
+      "date_label": "09月21日 明天",
       "games": [
         {
           "game_name": "西游大冒险",
@@ -152,7 +100,7 @@
     },
     {
       "date": "2026-09-22",
-      "date_label": "09月22日 下周二",
+      "date_label": "09月22日 后天",
       "games": [
         {
           "game_name": "炼金与魔法",
@@ -187,7 +135,7 @@
             "多人联机",
             "角色扮演"
           ],
-          "score": "8.9",
+          "score": "8.7",
           "release_date": "2026-09-22",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1953910.html",
@@ -201,7 +149,7 @@
             "卡牌",
             "策略"
           ],
-          "score": "8.7",
+          "score": "8.6",
           "release_date": "2026-09-22",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1954646.html",
@@ -232,6 +180,23 @@
       "date": "2026-09-23",
       "date_label": "09月23日 下周三",
       "games": [
+        {
+          "game_name": "一念长安",
+          "categories": [
+            "策略",
+            "放置",
+            "回合",
+            "养成",
+            "萌宠"
+          ],
+          "score": null,
+          "release_date": "2026-09-23",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952378.html",
+          "publisher": "猪笼草网络科技",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        },
         {
           "game_name": "幻想时空探险",
           "categories": [
@@ -343,7 +308,7 @@
             "剧情",
             "休闲"
           ],
-          "score": "6.9",
+          "score": "7.0",
           "release_date": "2026-09-24",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1955373.html",
@@ -419,7 +384,7 @@
             "卡牌",
             "中国风"
           ],
-          "score": "9.1",
+          "score": "9.2",
           "release_date": "2026-09-24",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952337.html",
@@ -445,6 +410,27 @@
           "publisher": "真我工作室",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "date_label": "09月26日 下周六",
+      "games": [
+        {
+          "game_name": "伯吉的温馨厨房",
+          "categories": [
+            "放置",
+            "模拟经营",
+            "休闲"
+          ],
+          "score": "8.8",
+          "release_date": "2026-09-26",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952889.html",
+          "publisher": "萝卜游戏工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
         }
       ]
     }

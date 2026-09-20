@@ -1,22 +1,183 @@
 {
-  "generated_at": "2026-09-19T00:17:11.050612+00:00",
+  "generated_at": "2026-09-20T00:13:49.434306+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-19",
-      "article_count": 7,
-      "game_count": 5,
+      "date": "2026-09-20",
+      "article_count": 20,
+      "game_count": 14,
       "untagged_count": 0,
-      "digest": "R星详解《GTA6》实时动画重定向系统，称NPC身高体型差异将超系列以往，动作衔接更自然。Team Ninja发布《卧龙2》试玩版，吕布以更强形态回归。前任天堂高管称《塞尔达：时之笛重制版》错峰发售明智，11月5日登陆Switch 2。Capcom表示将调整《怪物猎人：荒野》终局难度以兼顾新老玩家。《黎明行者之血》由网易投资，预算4000万美元，发售2天销量破100万。",
+      "digest": "9月20日游戏行业资讯聚焦多款重磅新作与老牌IP续作。Take-Two确认《GTA6》将按当地时间零点解锁，新西兰玩家将率先进入；Square Enix公布《最终幻想7：启示》将实现完整星球级纵向探索。此外，卡普空制作人辻本良三回应《怪物猎人：荒野》PC首发争议，Insomniac否认《漫威金刚狼》使用AI素材，CDPR详解《赛博朋克2077》夜之城手工构建细节。",
       "digest_source": "llm",
-      "input_hash": "7c95dd675b082afb",
+      "input_hash": "4b2b7e85f4b00b7b",
       "game_digests": [
         {
           "name": "GTA6",
+          "count": 6,
+          "summary": "Take-Two确认《GTA6》将于11月19日按各地区当地时间零点解锁，新西兰玩家将率先进入游戏，首发仅提供单人内容，在线模式最早可能要到2027年才会加入。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7：启示",
+          "count": 2,
+          "summary": "滨口直树公布《最终幻想7：启示》将实现完整星球级开放世界探索，重点叠加纵向高低差维度，玩家可借助飞空艇“海温德号”和跳伞空降机制自由游历。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Grim Hope",
+          "count": 1,
+          "summary": "动作游戏《Grim Hope》上架Steam，由前《Apex英雄》职业选手创立的工作室推出，玩家将操控多名外形出众的女性精英战士在哥特式衰败世界中展开高速砍杀。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "kingmakers",
+          "count": 1,
+          "summary": "动作战略沙盒游戏《Kingmakers》公布12分钟实机演示，支持最多4人联机，玩家可穿越回1403年威尔士起义时代，融合第三人称射击与即时战略玩法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 1,
+          "summary": "动视确认《使命召唤：现代战争4》将是“现代战争”重启系列的终结章，也是该系列自2013年《幽灵》以来首个原创系列作品，将于一个月后发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "古墓丽影：亚特兰蒂斯遗迹",
+          "count": 1,
+          "summary": "Crystal Dynamics透露《古墓丽影：亚特兰蒂斯遗迹》不存在初代游戏遗留的旧源代码，全部基于虚幻5引擎从零构建，并定制开发了劳拉的长发动态效果。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "怪物猎人：荒野",
+          "count": 1,
+          "summary": "辻本良三表示不后悔让《怪物猎人：荒野》PC与主机版同步首发，尽管首发后出现性能不佳和崩溃问题，但他认为这是团队必须面对的挑战。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星际争霸",
+          "count": 1,
+          "summary": "暴雪公布《星际争霸》射击新作，将于2030年春季登陆PC和Xbox，玩家将扮演泰伦自治领陆战队员，体验剧情驱动的开放世界射击生存经历。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想：共鸣",
+          "count": 1,
+          "summary": "制作人确认《最终幻想：共鸣》不是简单移植，而是完全重构的HD-2D风格单机RPG，买断制无抽卡内购，剧情保留FFBE第一季内核并大幅重写。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 1,
+          "summary": "Insomniac Games否认《漫威金刚狼》使用生成式AI，表示厕所标识异常源于UV贴图错误，官方已准备修复补丁。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "火焰纹章：万缕千丝",
+          "count": 1,
+          "summary": "《火焰纹章：万缕千丝》提供超过50名可操作角色，阵容规模为系列之最，玩家选择不同剧情路线后，部分角色的招募条件也会随之变化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "空之轨迹the 2nd",
+          "count": 1,
+          "summary": "《空之轨迹the 2nd》已正式发售，Falcom展示DLC服装在游戏内的实际穿戴效果，其中雪拉的泳装套装引发热议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛博朋克2077",
+          "count": 1,
+          "summary": "CDPR美术总监详解《赛博朋克2077》夜之城制作过程，表示城市几乎全部由团队手工搭建，旨在打造一个让玩家愿意停留其中的生活沙盒。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界：无限",
+          "count": 1,
+          "summary": "暴雪回应三款游戏登陆Xbox可能性，确认《魔兽争霸3》《魔兽世界：永恒》和《风暴英雄》现阶段工作重点仍在PC端，但未完全排除主机版本。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "article_count": 44,
+      "game_count": 30,
+      "untagged_count": 6,
+      "digest": "东京电玩展现场《GTA6》展台因排队人数过多仅10分钟便紧急关闭，限定T恤在二手市场被高价倒卖。R星详解了《GTA6》的实时动画重定向系统。Remedy公布了《控制：共鸣》全球解锁时间及PS5数字豪华版提前48小时的福利。暴雪在《魔兽世界：无限》中明确禁用GDKP机制以维护游戏经济。",
+      "digest_source": "llm",
+      "input_hash": "a084e046fe45f528",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "TGS现场《GTA6》展台因排队人数过多仅10分钟便紧急关闭，限定T恤在二手市场被高价倒卖。R星随后详解了该作采用的实时动画重定向系统。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
           "count": 3,
-          "summary": "R星详解该作实时动画重定向系统，称NPC身高体型差异将超系列以往，动作衔接更自然。",
+          "summary": "玩家对比《漫威金刚狼》与《鬼武者：剑之道》后，形容后者体验如同“从开心乐园餐换成牛排”，认为其质感更接近PlayStation第一方作品。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "控制：共振",
+          "count": 2,
+          "summary": "媒体评分显示《控制：共振》均分为84分，略高于初代，但无缘2026年度二十佳榜单。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "控制：共鸣",
+          "count": 2,
+          "summary": "Remedy公布《控制：共鸣》将于9月24日全球解锁，PS5数字豪华版可提前48小时游玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界：无限",
+          "count": 2,
+          "summary": "暴雪在《魔兽世界：无限》中明确禁用GDKP机制，高级游戏设计师表示不会开放该系统。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "ARC Raiders",
+          "count": 1,
+          "summary": "Embark Studios将于9月23日公开《ARC突袭者》“冰封之路”更新前瞻，该更新定于10月8日上线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤",
+          "count": 1,
+          "summary": "《使命召唤》反作弊团队RICOCHET已干扰375个作弊相关实体运营，并促使31家主要外挂供应商关闭。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：黑色行动7",
+          "count": 1,
+          "summary": "《使命召唤：黑色行动7》第六赛季上线，推出与《毁灭战士》联动的活动通行证及新地图“量子”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "侠盗猎车手VI",
+          "count": 1,
+          "summary": "BambooHR数据显示，《侠盗猎车手VI》发售当周美国员工休假申请较往年高出9%至17%。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "光辉者",
+          "count": 1,
+          "summary": "《光辉者》角色配音遭质疑使用AI，创意总监Keith Kolod澄清声音来自其妻子Mikell，这是她首次参与配音。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "军团要塞2",
+          "count": 1,
+          "summary": "V社前编剧切特·法利谢克表示，负责《军团要塞2》的团队常惊讶于小更新也能获得良好反响。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "卡莉亚的炼金工房 ～夜之王国与追忆之道标～",
+          "count": 1,
+          "summary": "制作团队公开了进食、调合、战斗及探索系统的联动设计，炼金道具将改变角色能力与外观。",
           "summary_source": "llm"
         },
         {
@@ -26,21 +187,15 @@
           "summary_source": "llm"
         },
         {
-          "name": "塞尔达：时之笛重制版",
+          "name": "另一个伊甸：起源",
           "count": 1,
-          "summary": "前任天堂高管称该作错峰发售明智，11月5日登陆Switch 2，比《GTA6》提前两周。",
+          "summary": "《另一个伊甸：起源》宣布从手游改编为买断制JRPG，制作人表示此举是为了摆脱服务型游戏停服的宿命。",
           "summary_source": "llm"
         },
         {
-          "name": "怪物猎人：荒野-凌越",
+          "name": "命运",
           "count": 1,
-          "summary": "总监表示将调整终局难度，在避免吓跑新玩家的同时满足老玩家的高难挑战需求。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 1,
-          "summary": "该游戏由网易投资，预算4000万美元，发售2天销量突破100万。",
+          "summary": "《命运/新章 记录》公开试玩内容，将原有猜拳式战斗改为卡组构筑指令战斗，以强化策略性。",
           "summary_source": "llm"
         }
       ]
@@ -849,107 +1004,6 @@
           "name": "PUBG",
           "count": 1,
           "summary": "《PUBG》43.1版本更新新增踢击动作、水中使用副武器及投掷武器功能，提升游泳与潜水速度。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-10",
-      "article_count": 103,
-      "game_count": 78,
-      "untagged_count": 13,
-      "digest": "今日游戏资讯聚焦于多款重磅新作与经典重制，任天堂《塞尔达传说：时之笛 重制版》预购引发全球eShop排队热潮，多国排队人数破纪录；集英社公布《封神演义：逆命承天》将于2027年登陆多平台；《东方红魔乡：新典》Steam发售获好评；《古墓丽影：亚特兰蒂斯遗迹》公布Switch 2新截图；《英灵神殿》1.0版本正式上线，Steam在线人数峰值突破50万；此外《饿狼传说：群狼之城》Switch 2版发售日公布，小岛秀夫新作《OD》传闻发售日及预告发布时间。",
-      "digest_source": "llm",
-      "input_hash": "ec7acd8c11c50078",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 3,
-          "summary": "玩家在最新截图中发现第三处疑似前作主角庄园的线索，画面右侧摩天轮后方建筑与《侠盗猎车手：罪恶都市》中的维赛迪庄园外观及位置相似，引发玩家对官方确认的猜测。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "封神演义：逆命承天",
-          "count": 3,
-          "summary": "集英社游戏宣布为纪念漫画《封神演义》连载30周年而打造的类Rogue动作游戏，将于2027年在Nintendo Switch 2、PlayStation 5及Steam平台发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "东方红魔乡：新典",
-          "count": 2,
-          "summary": "9月9日正式发售，Steam页面显示好评如潮，游戏对经典作品进行了视觉重制，将像素画面更新至适应现代高分辨率屏幕。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "乡野奇运",
-          "count": 2,
-          "summary": "Pocketpair Publishing宣布解谜卡车模拟游戏《Truckful / 乡野奇运》将于2026年10月9日正式发售，并同步公开了展示游戏玩法和机制的全新预告片。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影：亚特兰蒂斯遗迹",
-          "count": 2,
-          "summary": "任天堂美国分部发布五张Switch 2版新截图，展示了劳拉探索场景、攀爬雕像及与迅猛龙战斗的画面，游戏已在任天堂eShop开启预购。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛 重制版",
-          "count": 2,
-          "summary": "任天堂在9月8日直面会后开放预购，数字版定价59.99美元，多国eShop及官方商店出现大规模排队现象，英国排队人数达98K+。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 2,
-          "summary": "灵游坊发布长文详解“六十六天”模式，游戏发售倒计时50天，制作人梁其伟介绍了武器的养成系统及团队与玩家的创作共鸣。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "控制：共振",
-          "count": 2,
-          "summary": "Xbox英国官方社交账号疑似意外泄露，Remedy新作《控制：共振》将于首发当日加入Xbox Game Pass，游戏将于2026年9月24日登陆多平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "英灵神殿",
-          "count": 2,
-          "summary": "五年远征迎来终章，游戏1.0版本正式上线，Steam历史同时在线人数峰值突破50万，累计销量已突破1000万份。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "饿狼传说：群狼之城",
-          "count": 2,
-          "summary": "《饿狼传说：群狼之城》Nintendo Switch 2 版即将发售！赠送“不知火舞”的特色服装！；《饿狼传说：群狼之城》东京卍复仇者参战！ 联名合作先行预告片公开。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "ARIA BLUE I. 夏音",
-          "count": 1,
-          "summary": "Entergram与RICOL公布青春幻想视觉小说，将于2027年1月28日在日本登陆PS5、Switch及Steam平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Hela：of Mice & Magic",
-          "count": 1,
-          "summary": "Windup Games与Knights Peak宣布将于2026年12月1日全球发售，登陆Steam与Epic Games Store，Boltray Games负责中国市场发行。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "METAL SLUG ULTIMATE COLLECTION",
-          "count": 1,
-          "summary": "SNK宣布推出纪念《合金弹头》系列30周年的合集作品，预计将于2027年登陆Nintendo Switch、Switch 2、PlayStation 5、Xbox Series X|S及Steam平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "OD",
-          "count": 1,
-          "summary": "小岛秀夫恐怖游戏《OD》传闻将于2027年3月26日发售，微软和小岛工作室计划于12月10日在TGA期间展示新预告片。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Onyx: The Dark Grip",
-          "count": 1,
-          "summary": "任天堂公布该作预告，游戏将于2027年独占登陆Switch 2，玩家将扮演神秘Entity指引旅人探索荒凉鬼镇。",
           "summary_source": "llm"
         }
       ]

@@ -1,37 +1,9 @@
 {
-  "crawled_at": "2026-09-19T00:09:11.855376+00:00",
+  "crawled_at": "2026-09-20T00:06:35.217741+00:00",
   "days": [
     {
-      "date": "2026-09-19",
-      "date_label": "09月19日 今天",
-      "games": [
-        {
-          "game_name": "龙吟山海",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "登录送顶奢时装",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/longyinshanhai/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "风之痕迹",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "风起之誓",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/fengzhihenji/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-20",
-      "date_label": "09月20日 明天",
+      "date_label": "09月20日 今天",
       "games": [
         {
           "game_name": "雄征之战",
@@ -70,7 +42,7 @@
     },
     {
       "date": "2026-09-21",
-      "date_label": "09月21日 后天",
+      "date_label": "09月21日 明天",
       "games": [
         {
           "game_name": "英雄防线",
@@ -98,7 +70,7 @@
     },
     {
       "date": "2026-09-22",
-      "date_label": "09月22日 下周二",
+      "date_label": "09月22日 后天",
       "games": [
         {
           "game_name": "西游大冒险",
@@ -249,6 +221,74 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/leitinglieyan/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "date_label": "10月15日",
+      "games": [
+        {
+          "game_name": "剑侠世界4",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/jxsj4wx/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "date_label": "10月16日",
+      "games": [
+        {
+          "game_name": "最传奇",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "复古打金传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/zuichuanqi3/",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "date_label": "10月21日",
+      "games": [
+        {
+          "game_name": "守护庄园",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/shouhuzhuangyuan/",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "date_label": "10月23日",
+      "games": [
+        {
+          "game_name": "破日开天",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "单职业传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/porikaitian/",
           "has_afk_grinding_tag": false
         }
       ]
