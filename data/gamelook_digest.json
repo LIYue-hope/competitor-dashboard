@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T00:18:42.968777+00:00",
+  "generated_at": "2026-09-21T00:19:45.667420+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
@@ -182,53 +182,6 @@
       "digest_source": "rules",
       "input_hash": "3c276e5db3ae437f",
       "game_digests": []
-    },
-    {
-      "date": "2026-09-11",
-      "article_count": 8,
-      "game_count": 6,
-      "untagged_count": 2,
-      "digest": "索尼终止与小岛工作室合作砍掉《PHYSINT》，米哈游因AI盗用《原神》63位角色声音获赔75万元，灵游坊梁其伟发文详解《影之刃零》难度与共创，刘慈欣IP《流浪地球：望日》引发热议，腾讯《王者万象棋》首日登畅销榜第9，网易《阴阳师》开服十周年。",
-      "digest_source": "llm",
-      "input_hash": "c9f4cdfb9ba4f145",
-      "game_digests": [
-        {
-          "name": "PHYSINT",
-          "count": 1,
-          "summary": "索尼宣布终止与小岛工作室合作，砍掉该游戏项目。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "原神",
-          "count": 1,
-          "summary": "米哈游因63位角色声音被AI盗用获赔75万元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "灵游坊梁其伟发文详解游戏难度设计与玩家共创。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "流浪地球：望日",
-          "count": 1,
-          "summary": "《流浪地球：望日》游戏登上热搜引发热议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "王者万象棋",
-          "count": 1,
-          "summary": "7000万玩家涌入首日登畅销榜第9。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "阴阳师",
-          "count": 1,
-          "summary": "网易《阴阳师》开服十周年引发玩家怀旧。",
-          "summary_source": "llm"
-        }
-      ]
     }
   ]
 }

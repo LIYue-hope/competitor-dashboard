@@ -1,9 +1,32 @@
 {
-  "generated_at": "2026-09-20T00:18:42.970367+00:00",
+  "generated_at": "2026-09-21T00:21:03.757231+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-20",
+      "article_count": 6,
+      "game_count": 2,
+      "untagged_count": 4,
+      "digest": "2026年9月20日，游戏行业新闻汇总显示，《记忆管理局》和《达巴》成为当天的焦点。前者作为中国动画史上值得记录的作品，其上线引发了广泛关注；后者则因腾讯的投资而备受期待，制作人表示将努力提升游戏体验。此外，还有4条关于其他游戏的新闻，但具体内容未详述。",
+      "digest_source": "llm",
+      "input_hash": "548924e9fc42b00a",
+      "game_digests": [
+        {
+          "name": "记忆管理局",
+          "count": 1,
+          "summary": "《记忆管理局》为何后劲儿大？丨触乐。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "达巴",
+          "count": 1,
+          "summary": "获腾讯投资，对话《达巴》制作人：准备玩个大的。",
+          "summary_source": "rules"
+        }
+      ]
+    },
     {
       "date": "2026-09-18",
       "article_count": 13,
@@ -247,29 +270,6 @@
           "count": 1,
           "summary": "从场景复刻到玩法转译：北京环球度假区如何在线下重塑《第五人格》与实景娱乐的边界。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "article_count": 8,
-      "game_count": 2,
-      "untagged_count": 6,
-      "digest": "今日游戏行业资讯聚焦于《原神》著作权侵权案终审落定及《奇幻果园》测试阶段争议。除上述两款游戏外，另有6条资讯未指向具体游戏。整体来看，行业关注点集中在游戏版权保护与女性向游戏题材创新上。",
-      "digest_source": "llm",
-      "input_hash": "24838cd992f16b9b",
-      "game_digests": [
-        {
-          "name": "原神",
-          "count": 1,
-          "summary": "因商业化使用《原神》角色配音素材引发的著作权侵权及不正当竞争纠纷案终审结果正式落定。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "奇幻果园",
-          "count": 1,
-          "summary": "女性向模拟经营小游戏《奇幻果园》尚处测试阶段，属《我的花园世界》Like产品，沿用成熟种植合成经营框架，仅将鲜花题材换为古风水果，底层以付费比拼为核心驱动。",
-          "summary_source": "llm"
         }
       ]
     }

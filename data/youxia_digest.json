@@ -1,9 +1,110 @@
 {
-  "generated_at": "2026-09-20T00:14:38.356627+00:00",
+  "generated_at": "2026-09-21T00:15:11.560948+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-20",
+      "article_count": 89,
+      "game_count": 56,
+      "untagged_count": 22,
+      "digest": "9月20日游戏资讯聚焦于《GTA6》的实机泄露与玩家请愿、《剑星》与《猎天使魔女》联动及Switch 2版发售，同时《生化危机》新电影因无DEI元素引发争议，多款大作如《刺客信条：幻景》移除加密、FF7重制终章容量升级等也备受关注。",
+      "digest_source": "llm",
+      "input_hash": "f6e9e7f3c2109101",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "国外大神将早期地图移植进《给他爱5》PC版，目前可运行；Reddit用户为肺癌父亲请愿提前体验，R星尚未回应；枪战系统进化，半自动手枪取消射速限制，物理反馈大幅提升。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 3,
+          "summary": "TGS2026公布与《猎天使魔女》联动，金亨泰设计4套贝姐服装及原创服装，11月5日上线；完整版试玩Demo在Switch 2 eShop开放，11月发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化危机",
+          "count": 3,
+          "summary": "新电影无DEI元素获好评但被批恐怖感缺失；导演否认IP圈钱，强调还原原作氛围；里昂演员肯定电影赋予的“操控感”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7启示",
+          "count": 2,
+          "summary": "总监确认克劳德为核心主角，支持全队角色自由切换，预估容量约200GB；钢琴小游戏大幅扩展，加入蒂法相关内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "刺客信条：幻景",
+          "count": 2,
+          "summary": "移除D加密后性能飙升，1080p下平均帧率提升14%至186FPS；黑客组织RUNE彻底剥离双重加密，还原2.5万个函数体。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "怪物猎人：荒野",
+          "count": 2,
+          "summary": "DLC“凌越”总监称主线剧情难度不大；PC版首发性能问题遭诟病，Steam评价一度为“多半差评”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "空之轨迹 the 2nd",
+          "count": 2,
+          "summary": "媒体评分92分暂居年度第二；DLC服装展示，登陆Switch 2、PS5及Steam平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "COD23",
+          "count": 1,
+          "summary": "东京电玩展官宣《COD23：现代战争4》为重启系列终章，将于2026年发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Deadshot",
+          "count": 1,
+          "summary": "复古FPS《Deadshot》在Steam限时免费领取，原价22元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA：东京",
+          "count": 1,
+          "summary": "R星已取消项目《GTA：东京》，前总监披露其本为系列首部非美国背景正传。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Grim Hope",
+          "count": 1,
+          "summary": "美少女动作游戏《Grim Hope》上架Steam，暂不支持中文。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Muv-Luv 少女庭园",
+          "count": 1,
+          "summary": "系列新作《Muv-Luv 少女庭园》免费Demo在Steam上线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Project ZETA",
+          "count": 1,
+          "summary": "韩国新游《Project ZETA》Steam全球测试报名开放，融合MOBA与大逃杀元素。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Warframe",
+          "count": 1,
+          "summary": "中国首次TennoVIP落地西安，嫦娥国风战甲即将面世。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "三国志15",
+          "count": 1,
+          "summary": "光荣确认开发《三国志15》，涩泽光表态会严控品质。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-09-19",
       "article_count": 29,
@@ -808,107 +909,6 @@
           "name": "战狗",
           "count": 1,
           "summary": "Steam抢先体验首发销量破百万，虽画质普通、存在bug，但开发团队真诚负责、善待玩家，凭良心运营在一众翻车3A中成功出圈。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "article_count": 120,
-      "game_count": 64,
-      "untagged_count": 28,
-      "digest": "今日游戏资讯聚焦于《漫威金刚狼》媒体评测解禁，揭示主线约13小时及NG+解锁机制，同时琴·格蕾放屁特效卡死引发玩家争议；Square Enix确认《FF7启示》首发不含简化进度功能，将后续追加，并官宣跳伞系统；R星落地迈阿密海滩举办“日落罪恶城”线下沉浸式营销，官方透露《GTA6》预购量破500万份，线上模式保密等级堪比可口可乐配方。",
-      "digest_source": "llm",
-      "input_hash": "fe3377c4eef2db26",
-      "game_digests": [
-        {
-          "name": "漫威金刚狼",
-          "count": 14,
-          "summary": "媒体评测解禁，主线时长约13小时，通关后立即解锁新游戏+模式；更新后琴·格蕾放屁特效无法关闭，卡在背景中引发玩家争议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7启示",
-          "count": 5,
-          "summary": "导演确认首发不含简化进度功能，将后续更新追加；总监证实加入跳伞系统，灵感借鉴《堡垒之夜》，PC版不低配妥协。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 5,
-          "summary": "落地迈阿密海滩举办“日落罪恶城”线下沉浸式营销；预购量破500万份，预估营收5.16亿美元，线上模式保密等级堪比可口可乐配方。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 3,
-          "summary": "Fami通销量榜登顶，PS5版首周售出76530份，Switch 2版售出19499份；写实建模让历史美女角色引发争议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Warframe",
-          "count": 2,
-          "summary": "西安活动倒计时开启，9月版本上线在即，游戏拥有8500万注册玩家。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 2,
-          "summary": "重制版将于9月29日上线，修复坐骑Bug，但允许玩家切回原版Bug马；全新DLC《旧时曲》定于2027年发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "死亡搁浅2",
-          "count": 2,
-          "summary": "分析师估算总销量约250万份，总收入1.7亿美元，对比初代回报明显下滑。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化危机",
-          "count": 2,
-          "summary": "30周年群像新图曝光，初代五位核心角色集体换装；初代将支持线上联机合作功能。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "胧村正怪奇谭",
-          "count": 2,
-          "summary": "PS5与NS2港版售价均为298港币，定于2027年2月4日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7",
-          "count": 1,
-          "summary": "滨口直树辟谣不会升M级，目标评级与前作一致。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6 OL",
-          "count": 1,
-          "summary": "庭审披露曾进行32人联机内部测试，保密等级堪比可口可乐配方。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Link！Like！LoveLive！",
-          "count": 1,
-          "summary": "编剧参与创作，双女主都市怪谈悬疑游戏《MONOPHOBIA》即将提供试玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "OD",
-          "count": 1,
-          "summary": "传闻将于TGA2026亮相、开启预购，定档2027年3月26日。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "ONI 零～复活～",
-          "count": 1,
-          "summary": "重制版定档2027年春季。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "PHYSINT",
-          "count": 1,
-          "summary": "曝光面部动画测试画面，微软下一代Xbox主机“Project Helix”迎来首款第一方游戏。",
           "summary_source": "llm"
         }
       ]

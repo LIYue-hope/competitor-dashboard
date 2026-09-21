@@ -1,156 +1,46 @@
 {
-  "generated_at": "2026-09-14T00:16:22.181439+00:00",
-  "week_start": "2026-09-07",
-  "week_end": "2026-09-13",
-  "article_count": 2126,
-  "game_count": 288,
-  "digest": "在2026年9月7日至13日的周期内，游戏行业经历了一系列引人注目的事件。首先，《闪耀吧！噜咪》以其高达28万的预约量和无公开资讯源的特点脱颖而出，尽管其热度榜排名垫底，但预约情况显示了其潜在的市场吸引力。紧随其后的是《伯吉的温馨厨房》，以49万的预约量和4个资讯源的报道，位列榜单第四位，显示出玩家对这款游戏的高度期待。另一方面，《原神》则因上海首例AI声音侵权案而备受关注，该案件涉及《原神》角色声音被AI公司盗用，导致米哈游获得75万元赔偿。此外，国内玩家在《原神》中创造了震撼外网的内容，进一步证明了游戏的广泛影响力和玩家的创造力。在动作冒险游戏领域，《GTA6》的关注度持续高涨，尽管有裁员仲裁和版权争议等负面新闻，但其加长展示限时独播为Netflix带来的新用户注册数超过10万，显示了其强大的市场吸引力。同时，《漫威金刚狼》也因其独特的设计受到批评，但销量喜人，为卡普空带来了年内新高的股票表现。国产新作《鬼武者：剑之道》凭借首周近10万的销量登顶Fami通销量榜，展现了国产游戏在国际市场上的竞争力。此外，《未眠野》作为一款开放世界二游，以其涌现式设计挑战“大世界疲劳”困境，吸引了大量关注。在角色扮演游戏方面，《黎明行者之血》以其出色的销量表现和即将推出的续作，预示着未来可能的多项目并行开发，展示了其在RPG领域的强劲势头。最后，《星际争霸》的新作预计将在2030年推出，由《孤岛惊魂》负责人掌舵，预示着这一经典RTS游戏的复兴。同时，《PHYSINT》项目的取消也引发了关于游戏开发和项目管理的讨论，突显了行业内对于高质量游戏开发的持续追求。",
+  "generated_at": "2026-09-21T00:22:11.227335+00:00",
+  "week_start": "2026-09-14",
+  "week_end": "2026-09-20",
+  "article_count": 2271,
+  "game_count": 283,
+  "digest": "在2026年9月14日至9月20日的周期内，游戏行业经历了一系列引人注目的事件。首先，《控制：共振》以其卓越的画质和性能引起了广泛关注，尽管M站评分超前作但未能进入年度二十佳榜单。此外，国产RPG游戏《伊莫》免费上线Steam后，吸引了大量玩家同时在线，尽管初始伙伴选择引发争议，但其PC端及云游戏版本今日上线，为玩家提供了新的游戏体验。漫威金刚狼作为一款ARPG游戏，首发销量达到200万，实体销量占比22%，其厕所标识引发的争议也引发了玩家的热烈讨论。此外，《GTA6》的热修复降低了气味轨迹透明度，而《无限大》则宣布不设角色卡池，每座城市提供100小时探索内容。网易新游《无限大》正式官宣，不设角色卡池，外观将付费。最后，《卧龙2：凤火连天》的新实机演示和主角立绘图公布，展示了游戏中的灵神神兽系统。在综合热度排行榜上，《控制：共振》以32条相关资讯位居榜首，其次是《伊莫》和《漫威金刚狼》，分别有9条和112条相关资讯。这三款游戏在玩家中引起了广泛的讨论和关注。",
   "digest_source": "llm",
   "heat_formula": "热度 = 资讯量 30% + 跨源覆盖 15% + 预约量 18% + 社区（周内新增关注/评价/讨论）15% + TapTap 榜单名次 12% + 官方动态 7% + 评测讨论 3%；各项先对数归一（资讯满格 200 条），缺测的维度计 0、不倒扣，满分 100。",
-  "input_hash": "55d38a54ddfe431d",
+  "input_hash": "a8c03bb337a11ea8",
   "hot_ranking": [
     {
       "rank": 1,
-      "name": "闪耀吧！噜咪",
-      "heat_score": 41.4,
-      "media_count": 0,
-      "source_count": 0,
-      "reservation_label": "28万",
-      "follow_delta_label": "4万",
-      "best_rank": 1,
-      "rank_lists": [
-        "reserve"
-      ],
+      "name": "控制：共振",
+      "heat_score": 43.9,
+      "media_count": 32,
+      "source_count": 4,
+      "reservation_label": "812",
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
       "official_count": 0,
-      "news": []
+      "news": [
+        {
+          "title": "《控制：共振》性能测试：画质拉满5090也到不了60帧",
+          "url": "https://www.gamersky.com/news/202609/2212492.shtml",
+          "source": "游民星空",
+          "published_at": "2026-09-19"
+        },
+        {
+          "title": "《控制：共振》评测泄露！近战眼花缭乱似鬼泣 表现稳定",
+          "url": "https://www.gamersky.com/news/202609/2212001.shtml",
+          "source": "游民星空",
+          "published_at": "2026-09-18"
+        }
+      ]
     },
     {
       "rank": 2,
-      "name": "伯吉的温馨厨房",
-      "heat_score": 41.3,
-      "media_count": 0,
-      "source_count": 0,
-      "reservation_label": "49万",
-      "follow_delta_label": "4万",
-      "best_rank": 4,
-      "rank_lists": [
-        "reserve"
-      ],
-      "official_count": 0,
-      "news": []
-    },
-    {
-      "rank": 3,
-      "name": "原神",
-      "heat_score": 41.3,
-      "media_count": 4,
-      "source_count": 4,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": 4,
-      "rank_lists": [
-        "hot"
-      ],
-      "official_count": 12,
-      "news": [
-        {
-          "title": "商业化使用《原神》角色配音素材，著作权侵权及不正当竞争纠纷案终审落定",
-          "url": "https://mp.weixin.qq.com/s/0UEaoZY4NoFZ7tPS7BQW-g",
-          "source": "游资网",
-          "published_at": "2026-09-11"
-        },
-        {
-          "title": "国内玩家在《原神》内做出《空洞骑士》 震撼外网",
-          "url": "https://www.gamersky.com/news/202609/2207696.shtml",
-          "source": "游民星空",
-          "published_at": "2026-09-11"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "name": "GTA6",
-      "heat_score": 38.1,
-      "media_count": 114,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《GTA6》潜在机制疑似曝光！R星无意间\"泄露\"",
-          "url": "https://www.gamersky.com/news/202609/2208070.shtml",
-          "source": "游民星空",
-          "published_at": "2026-09-13"
-        },
-        {
-          "title": "《GTA6》收藏版包装疑似泄露!神秘黑盒 内藏光盘位置",
-          "url": "https://www.gamersky.com/news/202609/2207038.shtml",
-          "source": "游民星空",
-          "published_at": "2026-09-12"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "name": "漫威金刚狼",
-      "heat_score": 36.4,
-      "media_count": 77,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "玩家称《漫威金刚狼》冲上PS商店销量第4 M站打分78仍反超《GTA6》",
-          "url": "https://www.gamersky.com/news/202609/2208496.shtml",
-          "source": "游民星空",
-          "published_at": "2026-09-12"
-        },
-        {
-          "title": "IGN6分！《漫威金刚狼》释出琴葛蕾新图 游戏即将发售",
-          "url": "https://www.ali213.net/news/html/2026-9/1039061.html",
-          "source": "游侠网",
-          "published_at": "2026-09-12"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "name": "鬼武者：剑之道",
-      "heat_score": 35.9,
-      "media_count": 39,
-      "source_count": 4,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《鬼武者：剑之道》登顶日本周销量榜 首发实体版售出96029份",
-          "url": "https://www.gamersky.com/news/202609/2208056.shtml",
-          "source": "游民星空",
-          "published_at": "2026-09-11"
-        },
-        {
-          "title": "《鬼武者：剑之道》首周近10万！登顶Fami通销量榜",
-          "url": "https://www.3dmgame.com/news/202609/3953021.html",
-          "source": "3DMGame",
-          "published_at": "2026-09-11"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "name": "未眠野",
-      "heat_score": 34.0,
-      "media_count": 6,
-      "source_count": 3,
+      "name": "伊莫",
+      "heat_score": 43.5,
+      "media_count": 9,
+      "source_count": 5,
       "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": 2,
@@ -160,19 +50,40 @@
       "official_count": 0,
       "news": [
         {
-          "title": "国产新作《未眠野》开启预约！开放世界二游",
-          "url": "https://www.gamersky.com/news/202609/2206046.shtml",
+          "title": "国产捉宠RPG《伊莫》免费上线Steam 峰值超12万但特别差评",
+          "url": "https://www.3dmgame.com/news/202609/3953478.html",
+          "source": "3DMGame",
+          "published_at": "2026-09-17"
+        },
+        {
+          "title": "《伊莫》PC端及云游戏今日上线，快前往艾德尔大陆开启联结冒险",
+          "url": "https://www.gamersky.com/news/202609/2210610.shtml",
           "source": "游民星空",
-          "published_at": "2026-09-09"
+          "published_at": "2026-09-16"
         }
       ]
     },
     {
-      "rank": 8,
-      "name": "黎明行者之血",
-      "heat_score": 32.7,
-      "media_count": 22,
-      "source_count": 4,
+      "rank": 3,
+      "name": "伯吉的温馨厨房",
+      "heat_score": 40.3,
+      "media_count": 0,
+      "source_count": 0,
+      "reservation_label": "52万",
+      "follow_delta_label": "3万",
+      "best_rank": 7,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": []
+    },
+    {
+      "rank": 4,
+      "name": "漫威金刚狼",
+      "heat_score": 38.0,
+      "media_count": 112,
+      "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": null,
@@ -180,53 +91,109 @@
       "official_count": 0,
       "news": [
         {
-          "title": "媒体好评无争议 《黎明行者之血》发布赞誉宣传片 IGN 9分 GameSpot 8分",
-          "url": "https://www.gamersky.com/news/202609/2208785.shtml",
+          "title": "实体版真不行了？《漫威金刚狼》190万销量仅23%为实体版",
+          "url": "https://www.gamersky.com/news/202609/2212738.shtml",
           "source": "游民星空",
-          "published_at": "2026-09-13"
+          "published_at": "2026-09-20"
         },
         {
-          "title": "好评无争议！《黎明行者之血》发媒体赞誉视频",
-          "url": "https://www.gamersky.com/news/202609/2208437.shtml",
+          "title": "《漫威金刚狼》细节出错引争议还被博主调侃 官方回应",
+          "url": "https://www.gamersky.com/news/202609/2212676.shtml",
           "source": "游民星空",
-          "published_at": "2026-09-12"
+          "published_at": "2026-09-20"
         }
       ]
     },
     {
-      "rank": 9,
-      "name": "星际争霸",
-      "heat_score": 32.6,
-      "media_count": 17,
+      "rank": 5,
+      "name": "GTA6",
+      "heat_score": 37.6,
+      "media_count": 105,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "R星提醒《GTA6》演员：保密协议仍有效 发售前不准公开自己参演",
+          "url": "https://www.gamersky.com/news/202609/2213423.shtml",
+          "source": "游民星空",
+          "published_at": "2026-09-20"
+        },
+        {
+          "title": "《GTA6》PC版提前上线真有戏？母公司CEO释放最新信号",
+          "url": "https://www.gamersky.com/news/202609/2212494.shtml",
+          "source": "游民星空",
+          "published_at": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "无限大",
+      "heat_score": 34.3,
+      "media_count": 5,
       "source_count": 4,
       "reservation_label": null,
       "follow_delta_label": null,
-      "best_rank": 46,
+      "best_rank": 13,
       "rank_lists": [
         "reserve"
       ],
       "official_count": 0,
       "news": [
         {
-          "title": "《星际争霸》新作承诺4年后发售 开放世界是重要内容",
-          "url": "https://www.gamersky.com/news/202609/2208562.shtml",
-          "source": "游民星空",
-          "published_at": "2026-09-13"
+          "title": "网易新游《无限大》不设任何角色卡池 纯外观付费",
+          "url": "https://www.3dmgame.com/news/202609/3953238.html",
+          "source": "3DMGame",
+          "published_at": "2026-09-15"
         },
         {
-          "title": "《星际争霸》新作由《孤岛惊魂》负责人掌舵 有信心2030年发售",
-          "url": "https://www.3dmgame.com/news/202609/3953119.html",
-          "source": "3DMGame",
-          "published_at": "2026-09-13"
+          "title": "网易《无限大》正式官宣：不设角色卡池，外观将付费",
+          "url": "https://www.ali213.net/news/html/2026-9/1039913.html",
+          "source": "游侠网",
+          "published_at": "2026-09-15"
         }
       ]
     },
     {
-      "rank": 10,
-      "name": "PHYSINT",
-      "heat_score": 32.5,
-      "media_count": 21,
-      "source_count": 4,
+      "rank": 7,
+      "name": "循环勇士",
+      "heat_score": 31.4,
+      "media_count": 0,
+      "source_count": 0,
+      "reservation_label": "3.3万",
+      "follow_delta_label": "6000",
+      "best_rank": 21,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": []
+    },
+    {
+      "rank": 8,
+      "name": "破烂水手",
+      "heat_score": 30.0,
+      "media_count": 0,
+      "source_count": 0,
+      "reservation_label": "10万",
+      "follow_delta_label": "3000",
+      "best_rank": 29,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": []
+    },
+    {
+      "rank": 9,
+      "name": "卧龙2：凤火连天",
+      "heat_score": 30.0,
+      "media_count": 24,
+      "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": null,
@@ -234,16 +201,42 @@
       "official_count": 0,
       "news": [
         {
-          "title": "小岛秀夫谍报新作《PHYSINT》疑泄露！虚幻5开发 北野武阿部宽帕丁森等参演",
-          "url": "https://www.gamersky.com/news/202609/2208107.shtml",
+          "title": "《卧龙2：凤火连天》α体验版上线 晒截图得京东卡",
+          "url": "https://www.gamersky.com/news/202609/2211944.shtml",
           "source": "游民星空",
-          "published_at": "2026-09-11"
+          "published_at": "2026-09-18"
         },
         {
-          "title": "小岛秀夫+微软新主机！《PHYSINT》面部动画测试曝光",
-          "url": "https://www.ali213.net/news/html/2026-9/1038843.html",
-          "source": "游侠网",
-          "published_at": "2026-09-11"
+          "title": "光荣《卧龙2：凤火连天》2027年3月4日正式发售",
+          "url": "https://www.3dmgame.com/news/202609/3953367.html",
+          "source": "3DMGame",
+          "published_at": "2026-09-16"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "最终幻想7：启示",
+      "heat_score": 29.9,
+      "media_count": 26,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《最终幻想7：启示》将加入更多纵向探索内容 探索整个星球",
+          "url": "https://www.3dmgame.com/news/202609/3953836.html",
+          "source": "3DMGame",
+          "published_at": "2026-09-20"
+        },
+        {
+          "title": "《最终幻想7：启示》仍由克劳德担任主角 将增加队友个人内容",
+          "url": "https://www.3dmgame.com/news/202609/3953822.html",
+          "source": "3DMGame",
+          "published_at": "2026-09-20"
         }
       ]
     }

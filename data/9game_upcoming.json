@@ -1,55 +1,16 @@
 {
-  "crawled_at": "2026-09-20T00:06:35.217741+00:00",
+  "crawled_at": "2026-09-21T00:06:36.790767+00:00",
   "days": [
     {
-      "date": "2026-09-20",
-      "date_label": "09月20日 今天",
-      "games": [
-        {
-          "game_name": "雄征之战",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "高爆传奇玩到爽",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/xiongzhengzhizhan/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "铸剑师",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "三职业合击传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zhujianshi2/",
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "重生觉醒异能",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zswjxwxyn/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-21",
-      "date_label": "09月21日 明天",
+      "date_label": "09月21日 今天",
       "games": [
         {
           "game_name": "英雄防线",
           "categories": [
             "休闲"
           ],
-          "score": "6.7",
+          "score": null,
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/yingxiongfangxian/",
@@ -65,12 +26,23 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/shushanhuanxiangzhi/",
           "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "荣耀与勇士",
+          "categories": [
+            "卡牌"
+          ],
+          "score": "7.0",
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/ryyys/",
+          "has_afk_grinding_tag": true
         }
       ]
     },
     {
       "date": "2026-09-22",
-      "date_label": "09月22日 后天",
+      "date_label": "09月22日 明天",
       "games": [
         {
           "game_name": "西游大冒险",
@@ -98,8 +70,19 @@
     },
     {
       "date": "2026-09-23",
-      "date_label": "09月23日 下周三",
+      "date_label": "09月23日 后天",
       "games": [
+        {
+          "game_name": "古龙群侠录",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/glqxl/",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "大王请上阵",
           "categories": [
@@ -117,7 +100,7 @@
             "角色扮演"
           ],
           "score": null,
-          "event_desc": "万象跑跑西游记",
+          "event_desc": "万象版・星脉觉醒",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/paopaoxiyouji/",
           "has_afk_grinding_tag": true
@@ -126,7 +109,7 @@
     },
     {
       "date": "2026-09-24",
-      "date_label": "09月24日 下周四",
+      "date_label": "09月24日 周四",
       "games": [
         {
           "game_name": "光阴之外",
@@ -137,6 +120,17 @@
           "event_desc": "耳根正版授权",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/guangyinzhiwai/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "一念长安",
+          "categories": [
+            "回合"
+          ],
+          "score": null,
+          "event_desc": "进长安城送VIP",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/ynza/",
           "has_afk_grinding_tag": false
         },
         {
@@ -154,7 +148,7 @@
     },
     {
       "date": "2026-09-25",
-      "date_label": "09月25日 下周五",
+      "date_label": "09月25日 周五",
       "games": [
         {
           "game_name": "召唤萌将",
@@ -182,7 +176,7 @@
     },
     {
       "date": "2026-09-28",
-      "date_label": "09月28日",
+      "date_label": "09月28日 下周一",
       "games": [
         {
           "game_name": "冒险与征途",
@@ -199,7 +193,7 @@
     },
     {
       "date": "2026-09-29",
-      "date_label": "09月29日",
+      "date_label": "09月29日 下周二",
       "games": [
         {
           "game_name": "勇者秘域",
@@ -226,69 +220,18 @@
       ]
     },
     {
-      "date": "2026-10-15",
-      "date_label": "10月15日",
+      "date": "2026-10-13",
+      "date_label": "10月13日",
       "games": [
         {
-          "game_name": "剑侠世界4",
+          "game_name": "乱世龙魂",
           "categories": [
             "角色扮演"
           ],
           "score": null,
           "event_desc": null,
           "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/jxsj4wx/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "date_label": "10月16日",
-      "games": [
-        {
-          "game_name": "最传奇",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "复古打金传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zuichuanqi3/",
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "date_label": "10月21日",
-      "games": [
-        {
-          "game_name": "守护庄园",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/shouhuzhuangyuan/",
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "date_label": "10月23日",
-      "games": [
-        {
-          "game_name": "破日开天",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "单职业传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/porikaitian/",
+          "detail_url": "https://www.9game.cn/lslh/",
           "has_afk_grinding_tag": false
         }
       ]
