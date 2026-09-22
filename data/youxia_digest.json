@@ -1,106 +1,207 @@
 {
-  "generated_at": "2026-09-21T00:15:11.560948+00:00",
+  "generated_at": "2026-09-22T00:55:49.250985+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-20",
-      "article_count": 89,
-      "game_count": 56,
-      "untagged_count": 22,
-      "digest": "9月20日游戏资讯聚焦于《GTA6》的实机泄露与玩家请愿、《剑星》与《猎天使魔女》联动及Switch 2版发售，同时《生化危机》新电影因无DEI元素引发争议，多款大作如《刺客信条：幻景》移除加密、FF7重制终章容量升级等也备受关注。",
+      "date": "2026-09-21",
+      "article_count": 74,
+      "game_count": 52,
+      "untagged_count": 13,
+      "digest": "R星针对《GTA6》发布严苛mod新规引发全球玩家强烈不满，同时联合8家国际巨头展开史无前例的营销攻势。SHIFT UP披露《剑星》开发曾陷入资金危机，仅够维持3个月工资，且Switch2版Demo因性能问题引发争议。IO Interactive确认《007：初露锋芒》Switch2版锁定30帧运行，并延期至2027年3月发售。",
       "digest_source": "llm",
-      "input_hash": "f6e9e7f3c2109101",
+      "input_hash": "cbcbbdbe1e32f79b",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 4,
-          "summary": "国外大神将早期地图移植进《给他爱5》PC版，目前可运行；Reddit用户为肺癌父亲请愿提前体验，R星尚未回应；枪战系统进化，半自动手枪取消射速限制，物理反馈大幅提升。",
+          "count": 5,
+          "summary": "R星公布严苛mod管理准则，全面收紧创作权限，引发全球玩家与创作者强烈不满。",
           "summary_source": "llm"
         },
         {
           "name": "剑星",
           "count": 3,
-          "summary": "TGS2026公布与《猎天使魔女》联动，金亨泰设计4套贝姐服装及原创服装，11月5日上线；完整版试玩Demo在Switch 2 eShop开放，11月发售。",
+          "summary": "Switch2版Demo因帧率低、输入延迟明显被玩家批评，总监金亨泰透露开发期曾陷入资金危机。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "007：初露锋芒",
+          "count": 2,
+          "summary": "Switch2版锁定30帧运行，经历第三次延期后确认将于2027年3月发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF14",
+          "count": 2,
+          "summary": "与《FF15》联动活动“英雄的夜想曲”复刻，9月24日上线国际服。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "球比伦战记",
+          "count": 2,
+          "summary": "Devolver Digital公布大型付费DLC「升天球比伦」首部预告片，并在TGS连发多款新作信息。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "AC幻景",
+          "count": 1,
+          "summary": "外媒实测移除D加密后性能几乎无变化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "DJMAX RESPECT V",
+          "count": 1,
+          "summary": "宣布10月10日在首尔举办线下音乐会“MIRACLE 10.10”，时长约250分钟。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Fate",
+          "count": 1,
+          "summary": "《Fate/EXTRA Record》确认参展2026年广州动漫游戏盛典并提供试玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA",
+          "count": 1,
+          "summary": "民间爱好者将《GTA3》《GTA：罪恶都市》及《GTA：自由城故事》移植至New 3DS。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "OD",
+          "count": 1,
+          "summary": "《OD》开发工作顺利推进中，但《心之眼》开发商或将永久关闭。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "P4R",
+          "count": 1,
+          "summary": "删除原作中“久慈川理世导航语音全收集”奖杯，理世导航全语音重录并新增内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Sugar Lies",
+          "count": 1,
+          "summary": "成人级恋爱视觉小说《Sugar Lies》今日上线Steam。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "WOW无限",
+          "count": 1,
+          "summary": "《魔兽世界：永恒》测试火爆，带过40人团本被称成职场预备班。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不败：创世",
+          "count": 1,
+          "summary": "超能飞行与行星探索动作RPG试玩版上线Steam。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "东京弹珠物语",
+          "count": 1,
+          "summary": "弹珠Roguelike游戏正式发售，首发优惠-25%。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "article_count": 117,
+      "game_count": 65,
+      "untagged_count": 33,
+      "digest": "2026年9月20日游戏资讯聚焦于《GTA6》的实机泄露与玩家请愿、《Physint》开发进展及索尼终止合作传闻、《剑星》与《猎天使魔女》联动及登陆Switch 2，同时《生化危机》新电影口碑两极分化，《刺客信条：幻景》移除D加密后性能大幅提升，国产《影之刃零》愿望单破300万，以及《空之轨迹 the 2nd》获媒体92分高分。",
+      "digest_source": "llm",
+      "input_hash": "b5812c60987ba032",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 6,
+          "summary": "《GTA6》枪战系统进化，半自动手枪取消射速硬限制、移除屏幕震动，物理反馈细节直逼《》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Physint",
+          "count": 5,
+          "summary": "小岛秀夫首度揭秘《Physint》担忧工作室倒闭，回应外界传言。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 3,
+          "summary": "《剑星》完整版登陆Switch 2，Demo抢先体验开放。",
           "summary_source": "llm"
         },
         {
           "name": "生化危机",
           "count": 3,
-          "summary": "新电影无DEI元素获好评但被批恐怖感缺失；导演否认IP圈钱，强调还原原作氛围；里昂演员肯定电影赋予的“操控感”。",
+          "summary": "《生化危机：爆发夜》导演否认IP圈钱，强调影片注重还原原作恐怖氛围。",
           "summary_source": "llm"
         },
         {
           "name": "FF7启示",
           "count": 2,
-          "summary": "总监确认克劳德为核心主角，支持全队角色自由切换，预估容量约200GB；钢琴小游戏大幅扩展，加入蒂法相关内容。",
+          "summary": "《FF7启示》总监确认克劳德为主角，支持自由切换角色，预估容量约200GB。",
           "summary_source": "llm"
         },
         {
           "name": "刺客信条：幻景",
           "count": 2,
-          "summary": "移除D加密后性能飙升，1080p下平均帧率提升14%至186FPS；黑客组织RUNE彻底剥离双重加密，还原2.5万个函数体。",
+          "summary": "知名破解组织RUNE发布《刺客信条：幻景》概念验证版破解，彻底剥离双重加密。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "《影之刃零》领衔Steam十月新游推荐，深圳京东MALL将举办专属发售活动。",
           "summary_source": "llm"
         },
         {
           "name": "怪物猎人：荒野",
           "count": 2,
-          "summary": "DLC“凌越”总监称主线剧情难度不大；PC版首发性能问题遭诟病，Steam评价一度为“多半差评”。",
+          "summary": "《怪物猎人：荒野》PC版发售初期因性能问题和频繁崩溃遭到玩家诟病，Steam评价一度为“多半差评”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 2,
+          "summary": "《漫威金刚狼》结局暗藏续作伏笔，官方暂未官宣续作。",
           "summary_source": "llm"
         },
         {
           "name": "空之轨迹 the 2nd",
           "count": 2,
-          "summary": "媒体评分92分暂居年度第二；DLC服装展示，登陆Switch 2、PS5及Steam平台。",
+          "summary": "《空之轨迹the 2nd》DLC服装展示，登陆Switch 2、Switch、PS5和Steam平台。",
           "summary_source": "llm"
         },
         {
           "name": "COD23",
           "count": 1,
-          "summary": "东京电玩展官宣《COD23：现代战争4》为重启系列终章，将于2026年发售。",
+          "summary": "《COD23：现代战争4》官宣为重启系列终章，将于2026年发售。",
           "summary_source": "llm"
         },
         {
           "name": "Deadshot",
           "count": 1,
-          "summary": "复古FPS《Deadshot》在Steam限时免费领取，原价22元。",
+          "summary": "复古FPS《Deadshot》正在Steam开启限时免费领取，原价22元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7",
+          "count": 1,
+          "summary": "《FF7》斩获TGS2026日本游戏大赏特色奖，浜口直树发文致谢。",
           "summary_source": "llm"
         },
         {
           "name": "GTA：东京",
           "count": 1,
-          "summary": "R星已取消项目《GTA：东京》，前总监披露其本为系列首部非美国背景正传。",
+          "summary": "前Rockstar North技术总监披露已取消项目《GTA：东京》规划细节。",
           "summary_source": "llm"
         },
         {
           "name": "Grim Hope",
           "count": 1,
-          "summary": "美少女动作游戏《Grim Hope》上架Steam，暂不支持中文。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Muv-Luv 少女庭园",
-          "count": 1,
-          "summary": "系列新作《Muv-Luv 少女庭园》免费Demo在Steam上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Project ZETA",
-          "count": 1,
-          "summary": "韩国新游《Project ZETA》Steam全球测试报名开放，融合MOBA与大逃杀元素。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Warframe",
-          "count": 1,
-          "summary": "中国首次TennoVIP落地西安，嫦娥国风战甲即将面世。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三国志15",
-          "count": 1,
-          "summary": "光荣确认开发《三国志15》，涩泽光表态会严控品质。",
+          "summary": "美少女动作游戏《Grim Hope》Steam商店页面已上线，暂不支持中文。",
           "summary_source": "llm"
         }
       ]
@@ -808,107 +909,6 @@
           "name": "无主之地4",
           "count": 1,
           "summary": "《无主之地4》于9月10日更新后推出全新DLC秘藏猎人“骇客无爱”，重新冲上Steam畅销榜前十。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "article_count": 53,
-      "game_count": 30,
-      "untagged_count": 14,
-      "digest": "9月12日游戏资讯聚焦于《GTA6》泄露素材持续发酵及Netflix独家展示带来的10万美国新用户增长，同时《漫威金刚狼》发售前夕评分解禁引发争议，而《塞尔达传说：时之笛RE》与《巫师3》重制版则因实体版封面、经典Bug保留及DLC定位成为讨论热点。",
-      "digest_source": "llm",
-      "input_hash": "f06d4336d0c864eb",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 5,
-          "summary": "泄露素材持续发酵，一段“裸体小镇”片段引发玩家对佛州基西米的溯源讨论，同时Netflix 6小时独家窗口带来的27分钟加长版玩法展示，为R星换来了超过10万名美国新注册用户。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 3,
-          "summary": "IGN给出6分，M站均分78分，战斗演出获认可但玩法与关卡设计受批评，官方澄清气味追踪特效并非全程显示，预售热度高涨且榜单排名反超《GTA6》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛RE",
-          "count": 2,
-          "summary": "日本线下渠道已摆出实体包装，盒背宣传语“跨越时间，少年成长为英雄”引发好评，任天堂在40周年直面会上确认将于11月5日发售，并公开了4K官方截图。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 2,
-          "summary": "重制版保留经典Bug萝卜，玩家可在“新版优化萝卜”和“原版Bug萝卜”之间自由选择，总监透露新DLC“旧时曲”依托重制版技术升级开发，两项项目开发深度绑定。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想",
-          "count": 2,
-          "summary": "史克威尔艾尼克斯推出“SQUARE ENIX GALLERY CARDS”收藏卡牌系列，全系列共180种卡牌、97种插画，定于2027年1月8日发售，并将在东京国立博物馆表庆馆举办40周年特展。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "42中队",
-          "count": 1,
-          "summary": "众筹超过10亿美元、开发约十二年，CIG宣布将其发售窗口推迟至2027年第二季度，此前一场Bug频出的开发者直播已让玩家社区怨声载道。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Moss",
-          "count": 1,
-          "summary": "知名VR游戏开发商Polyarc正式宣布关闭，结束近12年游戏开发历程，该工作室近期刚推出新作《Moss：被遗忘的遗物》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "PHYSINT",
-          "count": 1,
-          "summary": "索尼撤出后，小岛工作室《PHYSINT》大概率无法使用Decima引擎，前期工作难以复用，项目存在延期可能，替代方案尚未敲定。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 1,
-          "summary": "官方披露与《猎天使魔女》的联动新装，皮衣加持下展示出主角完美的身体曲线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "卧龙2凤火连天",
-          "count": 1,
-          "summary": "光荣特库摩放出庞统立绘，配文“卧龙凤雏，得一可安天下”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古神：风里希",
-          "count": 1,
-          "summary": "GameSpark披露本作由Genigods Lab基于虚幻5引擎打造，意在《黑神话：悟空》开辟的赛道之上，公开了复刻后羿射日等大量开发细节。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "合金弹头 终极版合集",
-          "count": 1,
-          "summary": "《合金弹头》系列30周年纪念合集现已公布，定于2027年登陆Switch、Switch 2、PS5、Xbox Series X|S及Steam平台，PS5商店页面已正式上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛",
-          "count": 1,
-          "summary": "新作保留原作核心框架，针对操作、镜头、指引、场景及语音系统全面革新，加入多款现代化功能，在保留经典底蕴的同时适配当代玩家游玩习惯。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "异度装甲",
-          "count": 1,
-          "summary": "玩家自制重制作品上线PC，采用新引擎现代化翻新画面，兼顾原版经典画幅与剧情内核，目前仍在开发阶段。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战狗",
-          "count": 1,
-          "summary": "Steam抢先体验首发销量破百万，虽画质普通、存在bug，但开发团队真诚负责、善待玩家，凭良心运营在一众翻车3A中成功出圈。",
           "summary_source": "llm"
         }
       ]

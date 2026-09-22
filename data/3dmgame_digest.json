@@ -1,106 +1,207 @@
 {
-  "generated_at": "2026-09-21T00:14:35.468049+00:00",
+  "generated_at": "2026-09-22T00:54:53.530954+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-21",
-      "article_count": 22,
-      "game_count": 19,
+      "date": "2026-09-22",
+      "article_count": 19,
+      "game_count": 15,
       "untagged_count": 2,
-      "digest": "小岛秀夫新作《Physint》因索尼终止合作转投Epic引擎，其另一作《OD》确认罢工后开发恢复；Shift UP公布《剑星》NS2版优化细节；任天堂《塞尔达：时之笛 重制版》角色设计引发文化争议；Build a Rocket Boy工作室关闭，其作品《心之眼》发售后口碑不佳；此外《暗黑破坏神5》定下史诗级战役目标，《星际争霸》射击新作定于2030年发售。",
+      "digest": "3DMGame今日共报道19条新闻，涵盖15款游戏。焦点集中在《最终幻想7：启示》总监滨口直树透露自己已通关46次，以及《GTA6》发布Mod规范限制剧情修改与跨作品移植。此外，《不义联盟3》动作捕捉开启，《亲爱的乘客》Steam愿望单升至第三，Crystal Dynamics宣布《凯恩的遗产：挑战 重制版》11月发售，Bungie恢复《命运2》入库内容，安杰伊·萨普科夫斯基确认创作新杰洛特小说，卡普空公布《暗黑破坏神5》三线叙事与恐惧统帅系统，波希米亚互动回顾《武装突袭》模组生态，前Valve编剧质疑超大团队效率，外媒分析《漫威金刚狼》线性流程减负，Dusk Golem爆料《生化危机：维罗妮卡》或推迟至2027年秋季，玩家绘制《生化奇兵》销魂城剖面图，暴雪确认《魔兽世界：无限》保留任务敌人争抢机制。",
       "digest_source": "llm",
-      "input_hash": "7c048c3e2c04ab2a",
+      "input_hash": "0a845623602535f0",
       "game_digests": [
         {
-          "name": "Physint",
-          "count": 2,
-          "summary": "小岛秀夫新作《Physint》因索尼终止Decima引擎合作，转而采用Epic的MetaHuman技术进行开发。",
+          "name": "最终幻想7：启示",
+          "count": 3,
+          "summary": "总监滨口直树确认自己已通关46次，并表示单次完整游玩可轻松超过100小时，内容规模可能超过《最终幻想7：重生》。",
           "summary_source": "llm"
         },
         {
-          "name": "OD",
+          "name": "GTA6",
           "count": 1,
-          "summary": "小岛秀夫确认《OD》已摆脱美国演员工会罢工影响，动捕与音频录制全面重启，开发按计划稳步推进。",
+          "summary": "R星发布Mod规范，禁止改写官方剧情及跨作品移植，此前“自由城保护计划”已被下架。",
           "summary_source": "llm"
         },
         {
-          "name": "剑星",
+          "name": "不义联盟3",
           "count": 1,
-          "summary": "SHIFT UP表示《剑星》NS2版将重点优化操作手感与帧率，力求在多数场景维持60帧，并计划推出《剑星：血雨》。",
+          "summary": "新爆料称动作捕捉已展开，超级少女和蝙蝠女侠可能成为首批曝光的可玩角色。",
           "summary_source": "llm"
         },
         {
-          "name": "塞尔达：时之笛 重制版",
+          "name": "亲爱的乘客",
           "count": 1,
-          "summary": "《塞尔达：时之笛 重制版》角色蜡质肤感与关节设计引发争议，被指借鉴日本木偶戏风格。",
+          "summary": "航空喜剧合作游戏《亲爱的乘客》升至Steam愿望单排行榜第三名，开发商Flexus此前未在平台发售过游戏。",
           "summary_source": "llm"
         },
         {
-          "name": "心之眼",
+          "name": "凯恩的遗产：挑战 重制版",
           "count": 1,
-          "summary": "前GTA制作人创立的Build a Rocket Boy工作室经历多轮裁员后即将永久关停，其作品《心之眼》发售后因Bug和性能问题遭批。",
+          "summary": "Crystal Dynamics宣布实体版将于11月13日发售，登陆PS5、XSX/S、XboxOne和Switch。",
           "summary_source": "llm"
         },
         {
-          "name": "我的世界",
+          "name": "古墓丽影：亚特兰蒂斯遗迹",
           "count": 1,
-          "summary": "OpenAI最新模型GPT‑6 Astra在《我的世界》中进行了141小时自主游戏测试，虽成功搭建农场并收集物资，但被苦力怕炸毁营地进度。",
+          "summary": "最新展示聚焦埃及场景与谜题陷阱设计，游戏将于2027年2月12日发售。",
           "summary_source": "llm"
         },
         {
-          "name": "星际争霸",
+          "name": "命运2",
           "count": 1,
-          "summary": "《星际争霸》射击新作将于2030年发售，采用第三人称射击玩法，强调真实紧张感与战争残酷性。",
+          "summary": "Bungie启动入库内容回归计划，恢复此前移除的战役、地点和突袭，以回应玩家信任问题。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师",
+          "count": 1,
+          "summary": "作者安杰伊·萨普科夫斯基确认开始创作以杰洛特为主角的新小说，目标2027年完成书稿。",
           "summary_source": "llm"
         },
         {
           "name": "暗黑破坏神5",
           "count": 1,
-          "summary": "《暗黑破坏神5》执行制作人表示团队将以《暗黑4》为起点，打造系列史上最佳剧情战役。",
+          "summary": "游戏总监Joe Shely介绍三线并行叙事，恐惧统帅可重塑区域生态，迪亚波罗已夺取庇护之地。",
           "summary_source": "llm"
         },
         {
-          "name": "沙漠中的美丽怪胎",
+          "name": "武装突袭",
           "count": 1,
-          "summary": "FPS新作《沙漠中的美丽怪胎》在2026年PC游戏秀公布，计划于2026年第四季度发售，主打快节奏跑跳射击。",
+          "summary": "波希米亚互动回顾《武装突袭》模组生态，指出《僵尸末日》《绝地求生》等游戏均源于此。",
           "summary_source": "llm"
         },
         {
-          "name": "波比的游戏时间",
+          "name": "求生之路2",
           "count": 1,
-          "summary": "衍生作《逃离玩具工厂》将于10月21日开启Steam抢先体验，玩家需合作解谜并控制音量潜行逃生。",
+          "summary": "前Valve编剧切特·法利谢克质疑超大开发团队效率，认为《求生之路2》仅由45人打造。",
           "summary_source": "llm"
         },
         {
-          "name": "消逝",
+          "name": "漫威金刚狼",
           "count": 1,
-          "summary": "战术肉鸽游戏《消逝》在2026年PC游戏秀公布，玩家将探索考古学家德克兰·韦恩衰退的记忆。",
+          "summary": "外媒分析紧凑线性流程为厌倦百小时大作的玩家减负，通过明确攀爬点引导玩家前进。",
           "summary_source": "llm"
         },
         {
-          "name": "清扫至天明",
+          "name": "生化危机：维罗妮卡",
           "count": 1,
-          "summary": "恐怖清洁游戏《清扫至天明》公布，将打扫玩法与恐怖元素结合，并采用《寂静岭》作曲家山冈晃的音乐。",
+          "summary": "知名爆料人Dusk Golem称该作内部档期有较高概率延至2027年秋季，可能与重制版规模变化有关。",
           "summary_source": "llm"
         },
         {
-          "name": "真三国无双2猛将传复刻版",
+          "name": "生化奇兵",
           "count": 1,
-          "summary": "《真三国无双2猛将传复刻版》新实机展示，新增战斗机制与武器合成系统，线上联机功能将于明年更新。",
+          "summary": "玩家艺术家绘制《生化奇兵》销魂城剖面图，呈现水下都市的内部结构与细节。",
           "summary_source": "llm"
         },
         {
-          "name": "真菌朋克",
+          "name": "魔兽世界：无限",
           "count": 1,
-          "summary": "任务驱动合作FPS《真菌朋克》将于10月20日结束抢先体验并正式发售，首日加入PS Plus游戏目录。",
+          "summary": "暴雪确认将保留任务敌人争抢机制，不采用共享击杀归属，以促进玩家组队。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "article_count": 121,
+      "game_count": 93,
+      "untagged_count": 12,
+      "digest": "今日游戏资讯聚焦于《GTA6》的实体音乐发行争议与演员保密协议，以及《Physint》因索尼停止资助转投Xbox的突发变动。此外，《剑星》获白金工作室社长盛赞，《寂静岭：小镇陷落》制作人称其有望超越《寂静岭2》，而《漫威金刚狼》则因离谱Bug引发玩家对3亿美元制作成本的质疑。",
+      "digest_source": "llm",
+      "input_hash": "ff8be5ed0292673b",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "油管博主制作视频嘲讽《漫威金刚狼》的放屁气体与QTE设计，并将其恶搞为《GTA6》风格；Rockstar确认盒装版仅附下载码，引发独立店铺抵制。",
           "summary_source": "llm"
         },
         {
-          "name": "神偷：暗黑计划 重制版",
+          "name": "Physint",
+          "count": 3,
+          "summary": "小岛秀夫透露SIE于6月突然停止资助，项目转由Xbox接手发行，他称当时毫无预警且脑中一片空白，主角将由瑞典演员比尔·斯卡斯加德饰演。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 3,
+          "summary": "Shift Up邀请Coser天川星夏在TGS上演绎贝姐，白金工作室社长稻叶敦志称赞《剑星》是游戏制作范例，肯定其战斗与内容密度。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "寂静岭：小镇陷落",
+          "count": 3,
+          "summary": "科乐美制作人冈本基表示新作有望超越《寂静岭2》，成为系列重启标杆，并称其将采用首次出现的第一人称视角。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 3,
+          "summary": "玩家发现游戏存在穿模Bug，金刚狼被卡在半空中，网友质疑3亿美元制作成本与首发即出现严重Bug的品质不符。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "007：初露锋芒",
+          "count": 2,
+          "summary": "IO Interactive确认Switch 2版仅支持30帧运行，开发团队因测试未成功而放弃60帧方案，并采用网格着色渲染优化性能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "东京电玩展",
+          "count": 2,
+          "summary": "2026年TGS四天总到场人数为257642人，受台风影响取消21日线下活动，2027年将举办五天。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "侠盗猎车手6",
+          "count": 2,
+          "summary": "据称R星致函演员要求在11月19日前不得公开参演身份，若属实则发售前预告片与专访可能不会出现。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "奇迹工厂",
+          "count": 2,
+          "summary": "AI辅助无传送带工厂游戏《奇迹工厂》亮相TGS并同步发售，玩家只需用文字指令AI生成自动化生产线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想14",
+          "count": 2,
+          "summary": "将于9月24日重开《最终幻想15》联动活动，四人座雷迦利亚坐骑限时返场，玩家可用金碟币兑换。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "DJMAX RESPECT V",
           "count": 1,
-          "summary": "Nightdive公布《神偷：暗黑计划 重制版》新预告，展示了潜入场景与物品轮盘操作。",
+          "summary": "NEOWIZ宣布线下音乐会“MIRACLE 10.10”门票将于9月21日晚6点开售，活动包含限定周边与粉丝见面会。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Fate",
+          "count": 1,
+          "summary": "Aniplex公布《Fate/Extra Record》直播时间及四城试玩计划。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Mechjestic",
+          "count": 1,
+          "summary": "《Mechjestic》在TGS试玩展示蒸汽朋克机甲改装战斗，玩家需消耗燃料打出卡牌攻击，并使用“攻击”和“能力”行动。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "OD",
+          "count": 1,
+          "summary": "小岛秀夫公布《OD》最新进展，确认项目摆脱美国演员工会罢工影响，动捕与音频录制工作全面重启，演员表现获其高度夸赞。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Your Liar",
+          "count": 1,
+          "summary": "MAgaming宣布四人隐藏身份派对游戏《Your Liar》将于9月24日登陆PC，售价580日元，含拆弹、驾驶等9种小游戏。",
           "summary_source": "llm"
         }
       ]
@@ -910,107 +1011,6 @@
           "count": 1,
           "summary": "Roblox开发者大会 博主穿儿童权益标语T恤冲台遭制伏。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "article_count": 38,
-      "game_count": 30,
-      "untagged_count": 5,
-      "digest": "今日游戏行业资讯涵盖多款热门作品，GTA6因泄露内容引发现实敲诈争议，小岛新作《PHYSINT》面临引擎更换风险，Bulkhead的《战狗》发售首日销量破125万。此外，Polyarc宣布关闭，《塞尔达传说：时之笛》重制版公布，Netflix因《侠盗猎车手6》展示迎来大量新用户。",
-      "digest_source": "llm",
-      "input_hash": "7562f78edbe66038",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "泄露片段中天体度假村的画面引发玩家关注，部分粉丝找到现实原型并试图敲诈运营方。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "PHYSINT",
-          "count": 2,
-          "summary": "传索尼放弃该项目后，小岛工作室可能失去Decima引擎使用权，后续需转用虚幻引擎5。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战狗",
-          "count": 2,
-          "summary": "多人FPS《战狗》发售24小时销量超125万套，但服务器拥堵问题导致初期评价不佳。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "42中队",
-          "count": 1,
-          "summary": "4chan玩家质疑该项目获得10亿美元资金后仍未完成，并讨论其延期原因及开发模式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Moss",
-          "count": 1,
-          "summary": "《Moss》开发商Polyarc宣布关闭，结束近12年运营，工作室已逐步结束开发工作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "RuneScape",
-          "count": 1,
-          "summary": "OpenAI员工开发的AI版《符文传说》仿作《埃尔德伍德》在收到开发商停止侵权通知后已被下架。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "VR战士5 R.E.V.O. 世界舞台",
-          "count": 1,
-          "summary": "世嘉格斗游戏《VR战士5 R.E.V.O. 世界舞台》现已加入Xbox Game Pass游戏库。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "侠盗猎车手6",
-          "count": 1,
-          "summary": "《侠盗猎车手6》的加长版玩法展示在Netflix独家上线，为该平台带来逾10万美国新用户。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "垃圾日",
-          "count": 1,
-          "summary": "物理合作冒险游戏《垃圾日》将于10月13日登陆Steam，支持最多六人联机。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛",
-          "count": 1,
-          "summary": "任天堂公布《塞尔达传说：时之笛》重制版，加入跳跃按键、自由镜头及任务指引功能。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "宝可梦集换式卡牌游戏",
-          "count": 1,
-          "summary": "《宝可梦集换式卡牌游戏》将推出30周年超梦特别促销卡，玩家消费15美元即可获取。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 1,
-          "summary": "《巫师3》曾考虑加入新DLC武器锁链，但因技术原因未能在本体中实现，重制版中已解决该问题。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "无主之地手游",
-          "count": 1,
-          "summary": "《无主之地手游》突然在苹果iOS上开启限时测试，目前仅限美国地区iPhone用户。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想",
-          "count": 1,
-          "summary": "《最终幻想》40周年纪念展定档2027年1月，将在东京国立博物馆举办。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想7：启示",
-          "count": 1,
-          "summary": "《最终幻想7：启示》总监称全光碟发售需牺牲终章品质，因此实体版仍需下载额外数据。",
-          "summary_source": "llm"
         }
       ]
     }

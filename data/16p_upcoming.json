@@ -1,28 +1,10 @@
 {
-  "crawled_at": "2026-09-21T00:07:00.479425+00:00",
+  "crawled_at": "2026-09-22T00:48:06.490927+00:00",
   "days": [
     {
-      "date": "2026-09-21",
-      "date_label": "09月21日 今天",
+      "date": "2026-09-22",
+      "date_label": "09月22日 今天",
       "games": [
-        {
-          "game_name": "开派大祖师",
-          "categories": [
-            "国风",
-            "模拟经营",
-            "修仙",
-            "养成",
-            "放置",
-            "模拟"
-          ],
-          "score": "7.8",
-          "release_date": "2026-09-21",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1955381.html",
-          "publisher": "浩瀚星火",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        },
         {
           "game_name": "西游大冒险",
           "categories": [
@@ -33,7 +15,7 @@
             "中国风"
           ],
           "score": null,
-          "release_date": "2026-09-21",
+          "release_date": "2026-09-22",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1953466.html",
           "publisher": "湛江市杰游网络科技有限公司",
@@ -41,35 +23,11 @@
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "蜀山幻想志",
-          "categories": [
-            "卡牌",
-            "仙侠",
-            "策略",
-            "角色扮演",
-            "二次元",
-            "养成"
-          ],
-          "score": "9.1",
-          "release_date": "2026-09-21",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1950332.html",
-          "publisher": "广州市手心网络科技有限公司",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "date_label": "09月22日 明天",
-      "games": [
-        {
           "game_name": "天命行者",
           "categories": [
             "角色扮演"
           ],
-          "score": "7.7",
+          "score": "7.6",
           "release_date": "2026-09-22",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1956139.html",
@@ -98,35 +56,16 @@
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "西游大冒险",
-          "categories": [
-            "卡牌",
-            "角色扮演",
-            "西游",
-            "竖屏",
-            "中国风"
-          ],
-          "score": null,
-          "release_date": "2026-09-22",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1953466.html",
-          "publisher": "湛江市杰游网络科技有限公司",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
           "game_name": "炼金与魔法",
           "categories": [
-            "魔法",
-            "冒险",
-            "移植",
-            "像素",
-            "动作",
-            "单机",
-            "休闲",
-            "2D",
+            "沙盒",
             "多人联机",
-            "支持Steam家庭共享"
+            "像素",
+            "2D",
+            "休闲",
+            "单机",
+            "动作",
+            "冒险"
           ],
           "score": "8.5",
           "release_date": "2026-09-22",
@@ -147,7 +86,7 @@
             "多人联机",
             "角色扮演"
           ],
-          "score": "8.7",
+          "score": "8.5",
           "release_date": "2026-09-22",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1953910.html",
@@ -159,9 +98,10 @@
           "game_name": "仙战西游",
           "categories": [
             "卡牌",
-            "策略"
+            "策略",
+            "放置"
           ],
-          "score": "8.6",
+          "score": "8.4",
           "release_date": "2026-09-22",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1954646.html",
@@ -190,7 +130,7 @@
     },
     {
       "date": "2026-09-23",
-      "date_label": "09月23日 后天",
+      "date_label": "09月23日 明天",
       "games": [
         {
           "game_name": "一念长安",
@@ -268,7 +208,8 @@
             "解谜",
             "多人联机",
             "Steam移植",
-            "应用"
+            "应用",
+            "买断制"
           ],
           "score": "9.6",
           "release_date": "2026-09-23",
@@ -325,7 +266,7 @@
     },
     {
       "date": "2026-09-24",
-      "date_label": "09月24日 周四",
+      "date_label": "09月24日 后天",
       "games": [
         {
           "game_name": "BanG Dream!交织的乐章",
@@ -339,26 +280,9 @@
           "release_date": "2026-09-24",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1955373.html",
-          "publisher": null,
+          "publisher": "Bushiroad Inc.",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "一念长安",
-          "categories": [
-            "策略",
-            "放置",
-            "回合",
-            "养成",
-            "萌宠"
-          ],
-          "score": null,
-          "release_date": "2026-09-24",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1952378.html",
-          "publisher": "猪笼草网络科技",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
         },
         {
           "game_name": "五行游",
@@ -432,7 +356,7 @@
             "卡牌",
             "中国风"
           ],
-          "score": "9.1",
+          "score": "9.2",
           "release_date": "2026-09-24",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952337.html",
@@ -446,6 +370,19 @@
       "date": "2026-09-25",
       "date_label": "09月25日 周五",
       "games": [
+        {
+          "game_name": "一哨封神:篮球金哨生涯",
+          "categories": [
+            "模拟"
+          ],
+          "score": null,
+          "release_date": "2026-09-25",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1956238.html",
+          "publisher": "人间观察者工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "贝克兰德纪事",
           "categories": [
@@ -479,6 +416,62 @@
           "publisher": "萝卜游戏工作室",
           "is_major_publisher": false,
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "date_label": "09月28日 下周一",
+      "games": [
+        {
+          "game_name": "英雄防线",
+          "categories": [
+            "塔防",
+            "Roguelike",
+            "策略",
+            "弹幕",
+            "割草"
+          ],
+          "score": "8.6",
+          "release_date": "2026-09-28",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1942895.html",
+          "publisher": "三狸网络",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "心动都市",
+          "categories": [
+            "建造",
+            "节奏",
+            "经营",
+            "模拟",
+            "模拟经营",
+            "休闲",
+            "都市",
+            "恋爱"
+          ],
+          "score": null,
+          "release_date": "2026-09-28",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1955079.html",
+          "publisher": "kiwigames",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "诡偶",
+          "categories": [
+            "益智"
+          ],
+          "score": "9.7",
+          "release_date": "2026-09-28",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952920.html",
+          "publisher": "勾陈一工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
         }
       ]
     }

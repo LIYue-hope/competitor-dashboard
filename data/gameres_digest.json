@@ -1,9 +1,38 @@
 {
-  "generated_at": "2026-09-21T00:21:03.757231+00:00",
+  "generated_at": "2026-09-22T00:58:43.824195+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-21",
+      "article_count": 8,
+      "game_count": 3,
+      "untagged_count": 5,
+      "digest": "今日游戏资讯聚焦于三国题材与动作游戏领域，UCG专访金亨泰披露《剑星》IP未来规划，贝姐联动细节公开；刘豫斌回顾《傲世三国》到《秦殇》的创作历程；媒体评测指出《蔚蓝远征》虽融合赵云阿斗Like元素，但复刻痕迹较重且缺乏特色。",
+      "digest_source": "llm",
+      "input_hash": "9ffc44127a0d5b49",
+      "game_digests": [
+        {
+          "name": "傲世三国",
+          "count": 1,
+          "summary": "刘豫斌接受访谈，回顾从《傲世三国》到《秦殇》及《刀剑封魔录》的创作起源。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "金亨泰在TGS2026专访中公开贝姐联动细节，并透露了《剑星》IP未来的规划。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "蔚蓝远征",
+          "count": 1,
+          "summary": "媒体评测指出该冬日三国塔防游戏复刻痕迹较重，虽融合赵云阿斗Like元素，但缺乏自身特色。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-09-20",
       "article_count": 6,
@@ -253,23 +282,6 @@
           "count": 1,
           "summary": "网易新作《无限大》在2026年8月科隆gamescom展上接受《Fami通》采访，透露将推出与大都市风格迥异的主角故乡郊区新地图，开发压力动力并存，正全力筹备上线。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "article_count": 1,
-      "game_count": 1,
-      "untagged_count": 0,
-      "digest": "北京环球度假区“惊彩”活动正式引入《第五人格》IP，通过场景复刻、叙事还原、玩法转译及O2O闭环设计，探索游戏IP落地实景娱乐的创新路径。第五人格｜北京环球度假区“惊彩”活动引入《第五人格》IP，通过场景复刻、叙事还原、玩法转译及O2O闭环设计，探索游戏IP落地实景娱乐的创新路径。",
-      "digest_source": "llm",
-      "input_hash": "11b35dcb01432f51",
-      "game_digests": [
-        {
-          "name": "第五人格",
-          "count": 1,
-          "summary": "从场景复刻到玩法转译：北京环球度假区如何在线下重塑《第五人格》与实景娱乐的边界。",
-          "summary_source": "rules"
         }
       ]
     }

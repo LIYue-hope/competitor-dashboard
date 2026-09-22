@@ -1,9 +1,44 @@
 {
-  "generated_at": "2026-09-21T00:19:45.667420+00:00",
+  "generated_at": "2026-09-22T00:58:24.606687+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-21",
+      "article_count": 7,
+      "game_count": 4,
+      "untagged_count": 3,
+      "digest": "今日资讯聚焦于多款游戏的新动态，涵盖《Warframe》线下活动、网易《无限大》定档、NCsoft新游《阿索拉》亮相以及《黎明行者之血》获网易投资。此外，还涉及《望月》制作人卸任及《蔚蓝档案》相关争议。",
+      "digest_source": "llm",
+      "input_hash": "9ca2a73ea83679da",
+      "game_digests": [
+        {
+          "name": "Warframe",
+          "count": 1,
+          "summary": "TennoVIP中国首站暨天诺学院校园行在西安老城根G park水晶广场落幕。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "望月",
+          "count": 1,
+          "summary": "诗悦二游《望月》制作人卸任，引发关于网易《无限大》加速定档1月的猜测。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "阿索拉",
+          "count": 1,
+          "summary": "NCsoft二游《阿索拉》在TGS露出真身，制作人详解游戏内容，引发对《蔚蓝档案》相关争议的关注。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黎明行者之血",
+          "count": 1,
+          "summary": "CEO强调“不加班不乱改不堆人”，Rebel Wolves新作获网易4000万美元投资。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-09-18",
       "article_count": 8,

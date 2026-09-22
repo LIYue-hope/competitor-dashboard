@@ -1,61 +1,25 @@
 {
-  "crawled_at": "2026-09-21T00:05:52.531206+00:00",
+  "crawled_at": "2026-09-22T00:47:31.435694+00:00",
   "days": [
     {
-      "date": "2026-09-21",
-      "date_label": "09月21日 今天",
+      "date": "2026-09-22",
+      "date_label": "09月22日 今天",
       "games": [
         {
-          "game_name": "蓝色星原：旅谣(官服)",
+          "game_name": "伊莫-预下载",
           "categories": [
-            "编辑推荐",
-            "多平台",
-            "萌宠"
+            "开放世界",
+            "抓宠",
+            "冒险"
           ],
-          "score": "8.6",
-          "event_desc": "14:00 观看直播赢测试资格",
+          "score": "8.2",
+          "event_desc": "预下载已开启,9月23日10点上线",
           "status_tag": null,
-          "detail_url": "https://www.3839.com/a/164274.htm",
-          "publisher": "蛮啾网络",
-          "reservation_count": "56.1万",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "蜀山幻想志-预下载",
-          "categories": [
-            "卡牌",
-            "仙侠",
-            "策略"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/190170.htm",
-          "publisher": "广州市手心网络科技有限公司",
+          "detail_url": "https://www.3839.com/a/183580.htm",
+          "publisher": "爪印工作室",
           "reservation_count": null,
           "has_afk_grinding_tag": false
         },
-        {
-          "game_name": "西游大冒险",
-          "categories": [
-            "卡牌",
-            "角色扮演",
-            "西游"
-          ],
-          "score": null,
-          "event_desc": "10:00 预下载，9月22日上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/202792.htm",
-          "publisher": null,
-          "reservation_count": "410",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "date_label": "09月22日 明天",
-      "games": [
         {
           "game_name": "炼金与魔法-9月22日上线",
           "categories": [
@@ -68,7 +32,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/90432.htm",
           "publisher": "量子艺界（QUANTUM ARTS）",
-          "reservation_count": "19.5万",
+          "reservation_count": "19.6万",
           "has_afk_grinding_tag": false
         },
         {
@@ -83,22 +47,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/193284.htm",
           "publisher": null,
-          "reservation_count": "20762",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "万界绮园：逐光筑梦手札",
-          "categories": [
-            "模拟经营",
-            "休闲",
-            "装饰&装修"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/187924.htm",
-          "publisher": "游萤互娱",
-          "reservation_count": "970",
+          "reservation_count": "20883",
           "has_afk_grinding_tag": false
         },
         {
@@ -113,26 +62,41 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/198727.htm",
           "publisher": null,
-          "reservation_count": "2385",
+          "reservation_count": "2473",
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "古龙群侠录",
+          "game_name": "万界绮园：逐光筑梦手札",
           "categories": [
-            "角色扮演",
-            "回合",
-            "武侠"
+            "模拟经营",
+            "休闲",
+            "装饰&装修"
           ],
           "score": null,
-          "event_desc": "10:00 预下载，9月23日上线",
+          "event_desc": "10:00 正式上线",
           "status_tag": null,
-          "detail_url": "https://www.3839.com/a/187368.htm",
+          "detail_url": "https://www.3839.com/a/187924.htm",
+          "publisher": "游萤互娱",
+          "reservation_count": "986",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "仙战西游-预下载",
+          "categories": [
+            "策略",
+            "卡牌",
+            "自走棋"
+          ],
+          "score": null,
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/196219.htm",
           "publisher": null,
           "reservation_count": null,
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "西游大冒险",
+          "game_name": "西游大冒险-预下载",
           "categories": [
             "卡牌",
             "角色扮演",
@@ -143,28 +107,43 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202792.htm",
           "publisher": null,
-          "reservation_count": "410",
+          "reservation_count": null,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "古龙群侠录",
+          "categories": [
+            "角色扮演",
+            "回合",
+            "武侠"
+          ],
+          "score": null,
+          "event_desc": "18:00 预下载，9月23日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/187368.htm",
+          "publisher": "指战网络",
+          "reservation_count": "618",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-23",
-      "date_label": "09月23日 后天",
+      "date_label": "09月23日 明天",
       "games": [
         {
-          "game_name": "伊莫-9月23日上线",
+          "game_name": "伊莫-预下载",
           "categories": [
             "开放世界",
             "抓宠",
             "冒险"
           ],
           "score": "8.2",
-          "event_desc": "10:00 移动端正式上线",
+          "event_desc": "10:00 移动端上线,预下载已开启",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/183580.htm",
           "publisher": "爪印工作室",
-          "reservation_count": "67.3万",
+          "reservation_count": null,
           "has_afk_grinding_tag": false
         },
         {
@@ -179,7 +158,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/198727.htm",
           "publisher": null,
-          "reservation_count": "2385",
+          "reservation_count": "2473",
           "has_afk_grinding_tag": false
         },
         {
@@ -193,8 +172,8 @@
           "event_desc": "10:00 正式上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/187368.htm",
-          "publisher": null,
-          "reservation_count": null,
+          "publisher": "指战网络",
+          "reservation_count": "618",
           "has_afk_grinding_tag": false
         },
         {
@@ -213,6 +192,21 @@
           "has_afk_grinding_tag": true
         },
         {
+          "game_name": "光阴之外",
+          "categories": [
+            "模拟经营",
+            "水墨",
+            "修仙"
+          ],
+          "score": "7.7",
+          "event_desc": "10:00 预下载，9月24日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/194403.htm",
+          "publisher": "宾麒网络",
+          "reservation_count": "2539",
+          "has_afk_grinding_tag": false
+        },
+        {
           "game_name": "幻想时空探险",
           "categories": [
             "解谜",
@@ -224,14 +218,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/203080.htm",
           "publisher": null,
-          "reservation_count": "44",
+          "reservation_count": "52",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-24",
-      "date_label": "09月24日 周四",
+      "date_label": "09月24日 后天",
       "games": [
         {
           "game_name": "破烂水手-正版移植手游",
@@ -241,11 +235,11 @@
             "生存"
           ],
           "score": "9.0",
-          "event_desc": "10:00 正式上线",
+          "event_desc": "距9月24日早10点上线仅剩2天",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/138522.htm",
           "publisher": "十英工作室",
-          "reservation_count": "26.3万",
+          "reservation_count": "26.4万",
           "has_afk_grinding_tag": false
         },
         {
@@ -260,7 +254,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/195083.htm",
           "publisher": "西安西品网络科技有限公司",
-          "reservation_count": "19528",
+          "reservation_count": "19546",
           "has_afk_grinding_tag": false
         },
         {
@@ -275,7 +269,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/193284.htm",
           "publisher": null,
-          "reservation_count": "20762",
+          "reservation_count": "20883",
           "has_afk_grinding_tag": false
         },
         {
@@ -290,7 +284,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201773.htm",
           "publisher": "小花工作室",
-          "reservation_count": "11174",
+          "reservation_count": "11366",
           "has_afk_grinding_tag": false
         },
         {
@@ -305,7 +299,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/195153.htm",
           "publisher": null,
-          "reservation_count": "572",
+          "reservation_count": "584",
           "has_afk_grinding_tag": false
         },
         {
@@ -320,7 +314,7 @@
           "status_tag": "PC/主机",
           "detail_url": "https://www.3839.com/a/191649.htm",
           "publisher": "Remedy Entertainment Plc",
-          "reservation_count": "812",
+          "reservation_count": "814",
           "has_afk_grinding_tag": false
         },
         {
@@ -361,11 +355,11 @@
             "修仙"
           ],
           "score": "7.7",
-          "event_desc": "正式上线，具体几点待定",
+          "event_desc": "10:00 正式上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/194403.htm",
           "publisher": "宾麒网络",
-          "reservation_count": "1948",
+          "reservation_count": "2539",
           "has_afk_grinding_tag": false
         }
       ]
@@ -382,7 +376,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202498.htm",
           "publisher": null,
-          "reservation_count": "9634",
+          "reservation_count": "9736",
           "has_afk_grinding_tag": false
         },
         {
@@ -418,7 +412,73 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/186656.htm",
           "publisher": "三狸网络",
-          "reservation_count": "1286",
+          "reservation_count": "1942",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "date_label": "09月28日 下周一",
+      "games": [
+        {
+          "game_name": "心动都市",
+          "categories": [
+            "建造",
+            "节奏",
+            "经营"
+          ],
+          "score": null,
+          "event_desc": "00:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/203353.htm",
+          "publisher": null,
+          "reservation_count": "34",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "英雄防线",
+          "categories": [
+            "塔防",
+            "Roguelike",
+            "策略"
+          ],
+          "score": "8.6",
+          "event_desc": "11:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/186656.htm",
+          "publisher": "三狸网络",
+          "reservation_count": "1942",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "巅峰激战",
+          "categories": [
+            "动作",
+            "角色扮演",
+            "格斗"
+          ],
+          "score": null,
+          "event_desc": "10:00 预下载，9月29日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/200802.htm",
+          "publisher": null,
+          "reservation_count": "1204",
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "鸿蒙天道",
+          "categories": [
+            "策略",
+            "模拟经营",
+            "修仙"
+          ],
+          "score": null,
+          "event_desc": "上线试玩，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/189136.htm",
+          "publisher": "天道梦工作室",
+          "reservation_count": "210",
           "has_afk_grinding_tag": false
         }
       ]
