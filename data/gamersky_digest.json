@@ -1,123 +1,195 @@
 {
-  "generated_at": "2026-09-22T00:57:23.405669+00:00",
+  "generated_at": "2026-09-23T00:32:02.181573+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-09-22",
-      "article_count": 3,
-      "game_count": 3,
-      "untagged_count": 0,
-      "digest": "今日游戏圈动态聚焦于《羊蹄山》的DLC预热、《血源》动画电影的前期口碑争议以及《黎明行者》的首个大型更新。这三款游戏分别代表了动作RPG、经典IP改编与生存恐怖领域的最新进展，引发了玩家群体的广泛关注与讨论。",
+      "article_count": 153,
+      "game_count": 67,
+      "untagged_count": 57,
+      "digest": "今日游戏资讯聚焦于《GTA6》的发售预热与周边联动，动视正式接管《光环》IP引发系列开发方向讨论，以及《控制：共振》与《最终幻想7：启示》临近发售的技术与性能细节曝光。此外，《漫威金刚狼》销量未公开引发玩家不满，而《命运2》宣布恢复旧内容以挽回玩家信任，暴雪则面临裁员传闻与《暗黑5》新机制曝光。",
       "digest_source": "llm",
-      "input_hash": "a623f4155dc0f7e0",
+      "input_hash": "8edab8bbe5b72ce9",
       "game_digests": [
         {
-          "name": "羊蹄山",
-          "count": 1,
-          "summary": "突发29GB大补丁！为DLC铺路 新模式提前抢跑",
+          "name": "GTA6",
+          "count": 8,
+          "summary": "Virgin Media O2推出36期分期预购方案，宝马官方发布游戏风格海报，R星更新商店页面，前Valve编剧认为大团队仅适用于《GTA6》。",
           "summary_source": "llm"
         },
         {
-          "name": "血源",
-          "count": 1,
-          "summary": "拍成动画电影先挨喷！80%反馈都在批评",
+          "name": "光环",
+          "count": 4,
+          "summary": "动视正式接管《光环》系列未来开发，原主导工作室Halo Studios被降级支持，Xbox大重组传闻称《光环》IP将转移至动视暴雪旗下。",
           "summary_source": "llm"
         },
         {
-          "name": "黎明行者",
-          "count": 1,
-          "summary": "IGN9分 《黎明行者》首个大更新来了！难度调整|锁敌优化",
+          "name": "控制：共振",
+          "count": 4,
+          "summary": "外媒实测为游戏部署DLSS 5技术，官方恳求玩家勿剧透，IGN评测确认PS5 Pro性能模式为4K60帧或4K30帧光追。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 4,
+          "summary": "索尼未公布销量引发玩家吐槽，IGN 6分获Fami通白金殿堂，热补更新引发外媒批评，PS港服推出限定手柄活动，部分版本被指审查LGBT元素。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7启示",
+          "count": 3,
+          "summary": "总监滨口直树辟谣蒂法暴力狂设定，确认PS5 Pro独占4K 60帧模式，游戏含大量多周目内容，一周目预计耗时100小时。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界：无限",
+          "count": 3,
+          "summary": "测试期间AMD玩家遭遇黑屏崩溃，知名主播Asmongold回归引发欢迎，服务器因爆火出现负载过高问题。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "命运2",
+          "count": 2,
+          "summary": "棒鸡宣布逐步恢复此前移除的旧内容，承认工作室失去方向并失去玩家信任，宣布进行重启更新。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "寂静岭",
+          "count": 2,
+          "summary": "《寂静岭：小镇陷落》发售一周后遭玩家吐槽场景互动极少，PS5与PS5 Pro版本评测显示帧率均不稳定。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星际争霸",
+          "count": 2,
+          "summary": "前UE5截图被扒出或为新作画面风格，暴雪确认新作不做Xbox独占，是否登陆PS5尚不确定。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑5",
+          "count": 2,
+          "summary": "暴雪曝光三线叙事与地图动态变化新机制，Xbox与暴雪本周可能迎来新一轮裁员传闻。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7：启示",
+          "count": 2,
+          "summary": "总监滨口直树转发PS5 Pro性能报道并推荐，确认游戏在PS5 Pro上可实现4K 60帧。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "火焰纹章：万缕千丝",
+          "count": 2,
+          "summary": "游戏因仅支持单一存档文件遭差评，但整体完成度与打磨水准获业界好评，被评价为系列优质新作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "街头霸王",
+          "count": 2,
+          "summary": "真人电影春丽演员晒幕后视频回应特效质疑，新片场照片曝光战损造型。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "金刚狼",
+          "count": 2,
+          "summary": "PS港服活动：答题可得《金刚狼》限定手柄 主机护盖；PS《金刚狼》和谐女同元素 有人不满有人叫好。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "黎明行者之血",
+          "count": 2,
+          "summary": "续作或将取消时间限制以服务剧情，IGN 9分评价称游戏可能加入完全跳过战斗的剧情模式。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-09-21",
-      "article_count": 143,
+      "article_count": 139,
       "game_count": 54,
-      "untagged_count": 51,
-      "digest": "今日游戏资讯聚焦于《寂静岭：Townfall》媒体评分解禁获高分好评，以及《GTA6》临近发售日引发黄牛炒作与MOD规则调整。索尼互动娱乐退出小岛秀夫新作《PHYSINT》项目引发行业关注，而《剑星》Switch 2版Demo因性能问题引发争议。此外，《漫威金刚狼》因解谜设计遭诟病，多款大作如《最终幻想7：启示》、《怪物猎人：荒野》及国产《影之刃零》均有新动态发布。",
+      "untagged_count": 49,
+      "digest": "今日游戏资讯聚焦索尼独占新作《漫威金刚狼》与《寂静岭：Townfall》，前者因关卡BUG、画质争议及独占属性引发热议，后者则获IGN日本8分及媒体高分好评。此外，《剑星》Switch 2版Demo性能翻车，《最终幻想7：启示》容量高达200GB，小岛秀夫新作《PHYSINT》转投Xbox，以及《GTA6》T恤被炒至200美元等消息也占据主要版面。",
       "digest_source": "llm",
-      "input_hash": "a70baabe64c4f897",
+      "input_hash": "b6c38ec4e2bbdea1",
       "game_digests": [
-        {
-          "name": "寂静岭Townfall",
-          "count": 8,
-          "summary": "IGN日本与GameSpot均给出8分好评，盛赞其硬核潜行与高难解谜，称其构成寂静岭回归三部曲，但IGN日本也指出了三处不足。",
-          "summary_source": "llm"
-        },
         {
           "name": "漫威金刚狼",
           "count": 8,
-          "summary": "YouTube博主展示玩家可离开关卡边界、抵达地图边缘，引发对游戏设计的讨论，同时知名博主质疑游戏解谜设计侮辱玩家智商。",
+          "summary": "YouTube博主Turned发布视频展示玩家在游戏中离开关卡边界抵达地图边缘，同时实体版二手价格大幅跳水，知名博主Pirat_Nation发文质疑游戏解谜设计侮辱玩家智商，Nandan则对比视频指出其水体效果不如2008年游戏《功夫熊猫》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "寂静岭Townfall",
+          "count": 7,
+          "summary": "IGN日本给予8分评价，盛赞硬核潜行与高难解谜；PC GamesN给出满分评价；媒体评分解禁后口碑炸裂，但IGN日本也指出三处不足；M站收录媒体评分获81分，部分外媒认为氛围无敌但有致命伤。",
           "summary_source": "llm"
         },
         {
           "name": "剑星",
           "count": 6,
-          "summary": "Switch 2版《剑星》试玩Demo登陆eShop，将于2026年11月5日发售，但实机表现引发玩家社群激烈讨论，有玩家直言画面与性能表现是一个“错误”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 4,
-          "summary": "随着发售日临近，R星官宣更改MOD规则，同时TGS展台免费发放的《GTA6》T恤被黄牛炒到219.99美元一件。",
+          "summary": "TGS访谈中总监金亨泰秒答坚持伊芙身材，详解服装与身材刻画；Switch 2版Demo登陆eShop，官方确认将于2026年11月5日发售，但实机表现引发玩家社群激烈讨论，有玩家直言性能表现是一个“错误”。",
           "summary_source": "llm"
         },
         {
           "name": "寂静岭",
           "count": 4,
-          "summary": "日媒满分盛赞新作解谜超难故事精彩，IGN给出8分M站82分，但亦有外媒打出6分及格分，指出其有致命伤。",
+          "summary": "日媒满分盛赞新作解谜超难故事精彩；IGN给出8分M站82分；外媒评价6分刚及格指出氛围无敌但有致命伤；OC站82分评价为合格但不惊艳，指出角色剧情薄弱。",
           "summary_source": "llm"
         },
         {
           "name": "最终幻想7：启示",
           "count": 4,
-          "summary": "作为重制三部曲最终篇章，游戏容量高达200GB，总监滨口直树确认主角仍是克劳德，并透露将引入自动升级机制。",
+          "summary": "总监滨口直树确认主角仍是克劳德，引入可选自动升级机制；游戏容量高达200GB，成为系列规模最大作品之一；将于2027年4月8日正式发售登陆PC/PS。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "TGS展台免费发放的《GTA6》T恤被黄牛以219.99美元价格转售；博主分享2015年开发画面与网飞预告片的光影材质对比；展台10分钟被挤到关门，T恤被炒近1500元。",
           "summary_source": "llm"
         },
         {
           "name": "PHYSINT",
           "count": 3,
-          "summary": "索尼突然宣布退出该项目，小岛秀夫表示对索尼没有不满，但希望至少提前通气，随后Xbox宣布接手发行。",
+          "summary": "小岛秀夫接受IGN采访表示对索尼退出项目没有不满，但希望至少提前通气；分析称索尼或早就怀疑项目；Xbox宣布将负责发行并计划拍摄电影和动画。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 3,
-          "summary": "Steam愿望单突破300万，官方宣布与吉考斯工业达成联名合作，将于10月末推出联名服饰商品。",
+          "summary": "Steam愿望单数量突破300万；官方宣布与吉考斯工业联名推出系列服饰商品；合作品牌盖世小鸡宣布联名款手柄发货时间提前。",
           "summary_source": "llm"
         },
         {
           "name": "金刚狼",
           "count": 3,
-          "summary": "Insomniac Games否认游戏中卫生间标牌使用AI作图，但玩家对此表示怀疑，同时男主杀青送PS2小礼物感谢全组。",
+          "summary": "博主质疑卫生间标牌疑似AI作图，Insomniac Games否认；男主杀青送PS2小礼物感谢全组；中东土豪因素导致游戏女同元素被删。",
           "summary_source": "llm"
         },
         {
           "name": "卧龙2 凤火连天",
           "count": 2,
-          "summary": "日媒GameSpark分享新实机，夸赞《卧龙2：凤火连天》战斗系统进化，新机制下化劲更爽。",
+          "summary": "新实机展示“凝神凰之力”红光反杀爽感；日媒GameSpark分享战斗系统进化内容，称赞化劲机制更爽。",
           "summary_source": "llm"
         },
         {
           "name": "怪物猎人：荒野",
           "count": 2,
-          "summary": "卡普空宣布在DLC“凌越”中调整难度设计思路，并针对TGS活动终止补偿玩家，公开了特别影像。",
+          "summary": "Capcom计划在DLC“凌越”中调整难度设计思路；官方针对TGS活动终止补偿玩家，公开展台特别影像。",
           "summary_source": "llm"
         },
         {
           "name": "木木屋",
           "count": 2,
-          "summary": "Steam首发好评率高达99%，被外媒比作《动物森友会》，是一款以手工木质立体模型为核心玩法的休闲解谜游戏。",
+          "summary": "Steam首发99%好评，被外媒比作《动物森友会》；是一款以手工木质立体模型为核心玩法的休闲解谜游戏。",
           "summary_source": "llm"
         },
         {
           "name": "血源",
           "count": 2,
-          "summary": "玩家破解PS4 Pro并打补丁，可在720p下解锁60帧并可关闭动态模糊，PS4越狱破解新进展让更多玩家能60帧运行。",
+          "summary": "玩家破解PS4 Pro并打补丁，在720p下解锁60帧并可关闭动态模糊；PS4越狱破解新方案发布，更多玩家可60帧运行游戏。",
           "summary_source": "llm"
         },
         {
@@ -129,79 +201,73 @@
         {
           "name": "DJMAX RESPECT V",
           "count": 1,
-          "summary": "NEOWIZ宣布线下音乐会“MIRACLE 10.10”将于10月10日在首尔举行，门票将于9月21日晚6点开售。",
+          "summary": "NEOWIZ宣布线下音乐会“MIRACLE 10.10”将于10月10日在首尔举行，门票将于北京时间9月21日晚6点独家发售。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-09-20",
-      "article_count": 126,
+      "article_count": 123,
       "game_count": 52,
-      "untagged_count": 45,
-      "digest": "今日游戏资讯聚焦于《GTA6》与《漫威金刚狼》两大热门话题，前者因实机预告拉新及演员保密协议引发关注，后者则因销量数据、结局伏笔及细节争议成为焦点。此外，《魔兽世界：无限》Beta测试火爆，小岛新作《PHYSINT》备受期待，多款经典游戏如《寂静岭：Townfall》与《生化危机：爆发夜》亦传出发售与泄露消息。",
+      "untagged_count": 44,
+      "digest": "9月20日，游戏行业新闻动态丰富，涉及52款游戏和14个厂商。其中，《GTA6》实机预告引发关注，老美的新增订阅人数达到10万，暗示了游戏的热度。同时，R星提醒《GTA6》演员的保密协议有效期至11月19日发售当天，此前已有演员破例自曝。此外，法媒对《GTA6》的质疑“过度觉醒”以及内部可能已生变的报道引起了玩家的关注。漫威金刚狼的结局被开发团队透露为为未来的变种人故事发展留下空间，而《漫威金刚狼》的雪地脚印细节视频引发了热议。此外，《漫威金刚狼》与《虐杀原型2》、《声名狼藉 次子》的对比视频也显示了其画面的进步。《魔兽世界：无限》服务器爆了，暴雪都没想到这么火，Beta上线后新版光影更新引玩家疯狂截图。暴雪在直播中表态将严惩买金与金币拍团，违规者或永久封号。小岛秀夫的新作《PHYSINT》有望取得大成功，大量玩家涌入服务器导致掉线、延迟等问题。《剑星》与《猎天使魔女》联动中的第四套服装正式公开，《剑星》Switch 2版的试玩Demo现已在Nintendo eShop上线。《卧龙2》妖魔曹仁成TGS拦路虎，仅14%玩家通关。主角身世曝光，复仇大反派曹操终结乱世。《寂静岭：Townfall》遭遇偷跑，87分钟完整内容被直播泄露。《巫师》新书正在路上，目标2027年杰洛特会回归吗？原作者称新作目标明年完成，杰洛特再当主角。《生化危机：爆发夜》导演扎克·克雷格坦言：即便还原游戏，粉丝恐怕照样失望。《FF7启示》钢琴游戏将有新玩法，媒体认为重制三部曲最终章展现出令人期待的内容。《GTA圣安地列斯》DLSS 5演示：画质像换了新游戏。《刺客信条幻景》移除D加密后性能暴涨，帧率提升76%。《塞尔达传说：旷野之息》通关后玩《王国之泪》劝退？玩家电子阳痿了！《女神异闻录》30周年直播，制作人有意重制或复刻初代与《女神异闻录2》。",
       "digest_source": "llm",
-      "input_hash": "c18e4e2a5d64dbcd",
+      "input_hash": "ebaa17aa28ed4340",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 11,
-          "summary": "R星提醒《GTA6》演员保密协议生效至发售日，并透露角色多样性超越以往作品，引发法媒关于“过度觉醒”的争议。",
-          "summary_source": "llm"
+          "count": 10,
+          "summary": "《GTA6》实机预告疯狂拉新！老美新增10万订阅；R星提醒《GTA6》演员：保密协议仍有效 发售前不准公开自己参演；R星：《GTA6》的角色多样性超过以前任何作品（当天共 10 条）",
+          "summary_source": "rules"
         },
         {
           "name": "漫威金刚狼",
           "count": 8,
-          "summary": "《漫威金刚狼》实体版销量占比仅23%，开发团队暗示结局为续作留白，同时因雪地脚印、断手端酒杯等细节引发玩家热议。",
-          "summary_source": "llm"
+          "summary": "《漫威金刚狼》结局暗示续作？失眠组亲述未来计划；《漫威金刚狼》雪地脚印会慢慢被填上 但被质疑不真实；《漫威金刚狼》对比《虐杀原型2》《声名狼藉 次子》 细节太难绷（当天共 8 条）",
+          "summary_source": "rules"
         },
         {
           "name": "魔兽世界：无限",
           "count": 4,
-          "summary": "《魔兽世界：无限》Beta测试服务器因玩家过多而爆满，暴雪宣布将严惩金币交易行为，新版光影系统也受到玩家追捧。",
-          "summary_source": "llm"
+          "summary": "《魔兽世界：无限》服务器爆了！暴雪都没想到这么火；《魔兽世界：无限》Beta上线 新版光影更新引玩家疯狂截图；《魔兽世界：无限》重拳整治金币交易 买金或将面临永久封禁（当天共 4 条）",
+          "summary_source": "rules"
         },
         {
           "name": "PHYSINT",
           "count": 3,
-          "summary": "小岛秀夫确认新作《PHYSINT》将是他销量最高的作品，并透露暂未更换开发引擎，将继续尝试XBOX黑科技。",
-          "summary_source": "llm"
+          "summary": "小岛认定新作《PHYSINT》必卖爆！将是自己销量最高的作品；小岛秀夫死磕新作《PHYSINT》：从没失去信心！间谍游戏咋都好玩；小岛秀夫新作《PHYSINT》暂未更换开发引擎！先试试XBOX黑科技。",
+          "summary_source": "rules"
         },
         {
           "name": "剑星",
           "count": 3,
-          "summary": "《剑星》官方公布与《猎天使魔女》联动的第四套服装，Switch 2版试玩Demo上线，强调力求还原原版手感。",
-          "summary_source": "llm"
+          "summary": "金亨泰亲制！《剑星》与《猎天使魔女》联动中的第四套服装正式公开；《剑星》完整版NS2 demo上线 性感伊芙老婆免费试玩；《剑星》NS2力求原版\"手感\"！贝姐皮裤黑丝涩到爆。",
+          "summary_source": "rules"
         },
         {
           "name": "卧龙2",
           "count": 2,
-          "summary": "《卧龙2》妖魔曹仁成为TGS拦路虎，通关率仅345人，同时官方曝光主角身世，揭示其与曹操的复仇关系。",
-          "summary_source": "llm"
+          "summary": "《卧龙2》妖魔曹仁成TGS拦路虎！仅14%玩家通关；《卧龙2》主角身世曝光！复仇大反派曹操 终结乱世。",
+          "summary_source": "rules"
         },
         {
           "name": "寂静岭：Townfall",
           "count": 2,
-          "summary": "《寂静岭：Townfall》因PS5实体盘偷跑导致87分钟内容被直播泄露，随后公布将于9月24日发售并公开日语配音阵容。",
-          "summary_source": "llm"
+          "summary": "《寂静岭：Townfall》惨遭偷跑！87分钟完整内容被直播泄露；《寂静岭：Townfall》定档9月24日 日语配音阵容公开：大塚明夫参演。",
+          "summary_source": "rules"
         },
         {
           "name": "巫师",
           "count": 2,
-          "summary": "《巫师》新书计划于2027年完成，原作者确认杰洛特将继续担任主角。",
-          "summary_source": "llm"
+          "summary": "《巫师》新书正在路上！目标2027年 杰洛特会回归吗；《巫师》原作者称新作目标明年完成 杰洛特再当主角。",
+          "summary_source": "rules"
         },
         {
           "name": "生化危机：爆发夜",
           "count": 2,
-          "summary": "《生化危机：爆发夜》导演坦言即便忠实还原游戏粉丝仍可能失望，且影片遭遇大规模枪版资源泄露。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 2,
-          "summary": "《黎明行者之血》因包含男同等内容被反DEI网站打分，续作或将取消时间限制以服务剧情。",
-          "summary_source": "llm"
+          "summary": "《生化危机：爆发夜》导演扎克·克雷格坦言：即便还原游戏 粉丝恐怕照样失望；《生化危机：爆发夜》枪版资源大规模泄露！9000人同时观看。",
+          "summary_source": "rules"
         },
         {
           "name": "FF7启示",
@@ -212,126 +278,132 @@
         {
           "name": "GTA圣安地列斯",
           "count": 1,
-          "summary": "《GTA圣安地列斯》DLSS 5演示引发关注，画质提升显著被称像换了新游戏。",
-          "summary_source": "llm"
+          "summary": "《GTA圣安地列斯》DLSS 5演示：画质像换了新游戏！。",
+          "summary_source": "rules"
         },
         {
           "name": "PT",
           "count": 1,
-          "summary": "小岛秀夫回忆PS撤资事件，表示不想再重现《PT》往事，工作室曾经历裁员与关停。",
-          "summary_source": "llm"
+          "summary": "PS突然撤资给小岛干懵圈了:不想再重现《PT》往事了。",
+          "summary_source": "rules"
         },
         {
           "name": "刺客信条幻景",
           "count": 1,
-          "summary": "《刺客信条：幻景》移除D加密后性能大幅提升，帧率提升76%。",
-          "summary_source": "llm"
+          "summary": "《刺客信条幻景》移除D加密后性能暴涨 帧率提升76%。",
+          "summary_source": "rules"
         },
         {
           "name": "塞尔达传说：旷野之息",
           "count": 1,
-          "summary": "玩家反馈通关《塞尔达传说：旷野之息》后再玩《王国之泪》提不起劲，引发关于“电子阳痿”的讨论。",
-          "summary_source": "llm"
+          "summary": "通关《塞尔达传说：旷野之息》续玩《王国之泪》劝退？玩家：电子阳痿了！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "女神异闻录",
+          "count": 1,
+          "summary": "《女神异闻录》30周年直播：制作人表态有意重制或复刻初代与《女神异闻录2》。",
+          "summary_source": "rules"
         }
       ]
     },
     {
       "date": "2026-09-19",
-      "article_count": 98,
+      "article_count": 94,
       "game_count": 54,
-      "untagged_count": 18,
-      "digest": "今日游戏资讯聚焦于《控制：共振》媒体评分解禁引发两极评价，以及《GTA6》在TGS2026展会上备受瞩目。此外，《最终幻想7：启示》确认两部DLC计划，索尼与Aniplex探讨《Fate》新作，而《漫威金刚狼》发售三日销量破190万份。",
+      "untagged_count": 16,
+      "digest": "2026年9月19日游戏行业资讯密集，GTA6相关话题热度居高不下，涉及粉丝请愿、Steam上架传闻及TGS索尼展台宣传；控制：共振因IGN比荷卢10分与M站唯一差评引发评分争议；最终幻想7：启示确认两部DLC计划及总监通关46次；漫威金刚狼销量破190万；生化危机电影好评如潮且三上真司入选DICE名人堂；此外，Fate新作、GTA东京、偶像大师主机新作等消息也备受关注。",
       "digest_source": "llm",
-      "input_hash": "533e4e497125742c",
+      "input_hash": "c3b23db4e3b7622e",
       "game_digests": [
-        {
-          "name": "控制：共振",
-          "count": 7,
-          "summary": "IGN比荷卢为《控制：共振》打10分 史上最佳RPG之一；《控制：共振》M站唯一差评遭指责 不客观太自我；玩家分享《控制：共振》超震撼场景 这关甚至不是最惊掉下巴的（当天共 7 条）",
-          "summary_source": "rules"
-        },
         {
           "name": "GTA6",
           "count": 6,
-          "summary": "索尼TGS2026展台以《GTA6》领衔，网友热议Gabe Newell考虑允许其在Steam上架，并关注绝症父亲求提前体验的请愿。",
+          "summary": "女儿为绝症父亲求《GTA6》提前体验：只剩数周生命",
+          "summary_source": "llm"
+        },
+        {
+          "name": "控制：共振",
+          "count": 6,
+          "summary": "IGN8分《控制：共振》主机PC同步解锁 24日10点开玩",
           "summary_source": "llm"
         },
         {
           "name": "最终幻想7：启示",
           "count": 5,
-          "summary": "游戏总监滨口直树确认将推出两部围绕萨菲罗斯和文森特的DLC，TGS试玩画面展示蒂法黑魔导士新装引发热议。",
+          "summary": "《最终幻想7：启示》总监已通关46次!随身携带手柄开玩",
           "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
           "count": 5,
-          "summary": "失眠组新作发售仅三天销量接近190万份，索尼多次强调其独占登陆PS平台，玩家关注气味追踪机制更新。",
+          "summary": "真不上PC？索尼多次强调《漫威金刚狼》是独占游戏",
           "summary_source": "llm"
         },
         {
           "name": "生化危机",
           "count": 3,
-          "summary": "新版电影烂番茄新鲜度达96%，系列之父三上真司入选DICE名人堂，导演回应粉丝对原创主角的期待。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7启示",
-          "count": 2,
-          "summary": "滨口直树辟谣蒂法动作设计争议，IGN称游戏规模超乎想象但担忧内容臃肿。",
+          "summary": "《生化危机》之父 三上真司入选DICE名人堂",
           "summary_source": "llm"
         },
         {
           "name": "Fate",
           "count": 2,
-          "summary": "Aniplex在TGS透露积极考量《Fate》后续游戏新作，并展示《Fate/Extra》重制版全新面貌。",
+          "summary": "《Fate/Extra》重制版游民采访：全新方式重现原作",
           "summary_source": "llm"
         },
         {
           "name": "GTA：东京",
           "count": 2,
-          "summary": "《GTA：东京》细节曝光，重点展示武士刀玩法并效仿《恶霸鲁尼》。",
+          "summary": "《GTA:东京》细节披露:重点武士刀 效仿《恶霸鲁尼》",
           "summary_source": "llm"
         },
         {
           "name": "怪物猎人：荒野",
           "count": 2,
-          "summary": "DLC总监透露难度调整方向，官方确认主题怪“雷霆龙”并非核心，主要怪物仍在保密中。",
+          "summary": "《怪物猎人：荒野》DLC主题怪还在藏！古龙会融入剧情",
           "summary_source": "llm"
         },
         {
           "name": "给他爱5",
           "count": 2,
-          "summary": "R星曾开发“特工崔佛”DLC完成近半后被取消，约80%素材改入线上模式《末日豪劫》。",
+          "summary": "《给他爱5》旧泄露源代码重现 含扩张自由城与《GTA6》早期代码",
           "summary_source": "llm"
         },
         {
           "name": "FC 27",
           "count": 1,
-          "summary": "《EA Sports FC 27》M站75分开局，玩法改动引发玩家喜忧参半。",
+          "summary": "年货大作《FC 27》M站75分开局 玩法改动喜忧参半",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7启示",
+          "count": 1,
+          "summary": "IGN称《FF7启示》规模超乎想象 担忧容易太臃肿",
           "summary_source": "llm"
         },
         {
           "name": "三国志15",
           "count": 1,
-          "summary": "光荣特库摩在TGS举办40周年特别舞台，确认《三国志15》相关动向。",
+          "summary": "《三国志15》确认！涩泽光放话 态度端正",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤23：现代战争4",
           "count": 1,
-          "summary": "动视称其为重启系列的“史诗终章”，并在TGS公布新剧情预告。",
+          "summary": "动视称《使命召唤23：现代战争4》为史诗终章 重启子系列或就此完结",
           "summary_source": "llm"
         },
         {
           "name": "偶像大师",
           "count": 1,
-          "summary": "万代南梦宫公布《偶像大师 SideM》主机新作，登陆Switch及Switch2平台。",
+          "summary": "《偶像大师》主机新作公布！任天堂独占 含49名偶像",
           "summary_source": "llm"
         },
         {
           "name": "刺客信条4：黑旗 记忆重置",
           "count": 1,
-          "summary": "育碧40周年庆开启，该作迎来发售后的首次折扣。",
+          "summary": "育碧40周年献礼！《刺客信条4：黑旗 记忆重置》首次折扣来了",
           "summary_source": "llm"
         }
       ]
@@ -838,107 +910,6 @@
           "count": 1,
           "summary": "Shift Up官宣推出限量SteelBook铁盒实体版，售价70美元。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-13",
-      "article_count": 89,
-      "game_count": 37,
-      "untagged_count": 30,
-      "digest": "9月13日，游民星空新闻总计发布了89条关于游戏行业的动态。这些新闻覆盖了从《星际争霸》新作的发布、《暗黑破坏神5》的发售日期确认，到《魔兽世界》、《魔兽争霸3：重制版》等多款游戏的更新和发行信息。此外，还有关于《黎明行者之血》和《X战警》系列的新动向的报道。整体来看，这一日的游戏行业新闻涵盖了多个重要项目和即将到来的游戏发布，显示了业界的活跃度和玩家社区的期待。",
-      "digest_source": "llm",
-      "input_hash": "fc38b9698d51130c",
-      "game_digests": [
-        {
-          "name": "星际争霸",
-          "count": 7,
-          "summary": "2030年大饼你可接得住？《星际争霸》怕是下个老滚6；《星际争霸》新作官宣定档2030 要等四年或刚开做？；《星际争霸》新作承诺4年后发售 开放世界是重要内容（当天共 7 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "暗黑破坏神5",
-          "count": 5,
-          "summary": "《暗黑破坏神5》官宣2029年发售!这回是真有货还是又画饼?；《暗黑破坏神5》会加倍黑暗绝望 氛围更阴郁压抑；《暗黑破坏神5》物品装备更像《暗黑2》 对味了（当天共 5 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GTA6",
-          "count": 4,
-          "summary": "《GTA6》每日女友大赛：能分手我必选哥特女孩！；《GTA6》潜在机制疑似曝光！R星无意间\"泄露\"；玩家建议《GTA6》设24小时直播摄像头 无需实机细节自现（当天共 4 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "魔兽世界",
-          "count": 3,
-          "summary": "《魔兽世界》女高管惊艳四座！从游戏中走出的女神；《魔兽世界》要登主机平台？现已支持手柄游玩；《魔兽世界》资料片\"最后的泰坦\"公布！定档2027。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "魔兽争霸3：重制版",
-          "count": 3,
-          "summary": "《魔兽争霸3：重制版》新战役“被遗忘的王国”上线 战役老粉直呼提前过年；暴雪又做父马可亲的决定？《魔兽争霸3：重制版》移除局域网功能；《魔兽争霸3重制版》新DLC获盛赞 暴雪终于又做RTS。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "时之笛RE",
-          "count": 2,
-          "summary": "《时之笛RE》性能曝光:1080P跑60帧 唯独缺了DLSS；《时之笛RE》世界地图曝光！布局相似但有新细节。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "星际",
-          "count": 2,
-          "summary": "暴雪总裁回应《星际》新作公布太早：为了给玩家信心；《星际》改做FPS定档2030 这个大饼玩家会买账吗？。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "暗黑破坏神4",
-          "count": 2,
-          "summary": "《暗黑破坏神4》不会再有DLC！用剧情铺垫《暗黑5》；《暗黑破坏神4》官宣9月16日登陆NS2！掌上爽刷。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "风暴英雄",
-          "count": 2,
-          "summary": "让《风暴英雄》正式活过来 《星际争霸2》彻底死？玩家吵翻；《风暴英雄》“复活”了!六年来首个新英雄官宣。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 2,
-          "summary": "媒体好评无争议 《黎明行者之血》发布赞誉宣传片 IGN 9分 GameSpot 8分；160人打造顶尖RPG佳作！IGN 9分力作《黎明行者之血》堪称黑马。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "X战警",
-          "count": 1,
-          "summary": "失眠组《X战警》系列预算或超6亿美元 新作将登PS6。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "不心动才有鬼",
-          "count": 1,
-          "summary": "黑丝豹纹裙反差女老师喵爪攻击 《不心动才有鬼》花絮。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "使命召唤",
-          "count": 1,
-          "summary": "这下完了！R星十年老兵当上《使命召唤》反作弊总监。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "傀纪元：悟道",
-          "count": 1,
-          "summary": "鬼谷子是女的？国产开放世界新作《傀纪元：悟道》Steam页面开放。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "只狗：路边一条",
-          "count": 1,
-          "summary": "《只狗：路边一条》发布首支开发进度汇报 自研战斗录制器打磨战斗系统。",
-          "summary_source": "rules"
         }
       ]
     }

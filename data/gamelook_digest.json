@@ -1,9 +1,32 @@
 {
-  "generated_at": "2026-09-22T00:58:24.606687+00:00",
+  "generated_at": "2026-09-23T00:32:39.088330+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-22",
+      "article_count": 7,
+      "game_count": 2,
+      "untagged_count": 5,
+      "digest": "GameLook今日共报道7条新闻，涉及2款游戏。Shift Up公司创始人金亨泰在采访中透露，公司因《剑星》项目面临严重财务危机，不仅投资人劝阻开发，自己甚至面临仅剩三个月工资的困境。另一条新闻则聚焦于游戏改编电影，由《生化危机》IP改编的动画电影《生化危机：爆发夜》票房突破1亿美元，获得玩家好评。",
+      "digest_source": "llm",
+      "input_hash": "e9d8457898daf525",
+      "game_digests": [
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "Shift Up创始人金亨泰自曝公司因该项目陷入困境，投资人劝阻开发，他本人面临仅剩三个月工资的窘境。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化危机：爆发夜",
+          "count": 1,
+          "summary": "改编自知名游戏IP的动画电影《生化危机：爆发夜》票房突破1亿美元，获得玩家集体叫好。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-09-21",
       "article_count": 7,
@@ -207,16 +230,6 @@
           "summary_source": "llm"
         }
       ]
-    },
-    {
-      "date": "2026-09-13",
-      "article_count": 1,
-      "game_count": 0,
-      "untagged_count": 1,
-      "digest": "9月13日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「2026LPL总决赛落幕，AL勇夺赛季总冠军！」。未指向具体游戏的内容占当天的 100%。",
-      "digest_source": "rules",
-      "input_hash": "3c276e5db3ae437f",
-      "game_digests": []
     }
   ]
 }

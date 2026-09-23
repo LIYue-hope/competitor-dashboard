@@ -1,106 +1,207 @@
 {
-  "generated_at": "2026-09-22T00:55:49.250985+00:00",
+  "generated_at": "2026-09-23T00:28:06.148098+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-21",
-      "article_count": 74,
+      "date": "2026-09-22",
+      "article_count": 78,
       "game_count": 52,
-      "untagged_count": 13,
-      "digest": "R星针对《GTA6》发布严苛mod新规引发全球玩家强烈不满，同时联合8家国际巨头展开史无前例的营销攻势。SHIFT UP披露《剑星》开发曾陷入资金危机，仅够维持3个月工资，且Switch2版Demo因性能问题引发争议。IO Interactive确认《007：初露锋芒》Switch2版锁定30帧运行，并延期至2027年3月发售。",
+      "untagged_count": 22,
+      "digest": "东京电玩展期间，Square Enix的《最终幻想7：启示》试玩反响热烈，总监滨口直树回应了PS5 Pro性能及开放世界指引问题；索尼与Rockstar Games方面则分别面临《漫威金刚狼》销量沉默及《三男一狗》与《GTA6》泄露资料被下架的争议；此外，Take-Two要求平台下架《三男一狗》与《GTA6》早期泄露资料，NetherRealm Studios疑似正在秘密开发《不义联盟3》。",
       "digest_source": "llm",
-      "input_hash": "cbcbbdbe1e32f79b",
+      "input_hash": "d17efd7bb3849071",
       "game_digests": [
         {
-          "name": "GTA6",
-          "count": 5,
-          "summary": "R星公布严苛mod管理准则，全面收紧创作权限，引发全球玩家与创作者强烈不满。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
+          "name": "FF7启示",
           "count": 3,
-          "summary": "Switch2版Demo因帧率低、输入延迟明显被玩家批评，总监金亨泰透露开发期曾陷入资金危机。",
-          "summary_source": "llm"
+          "summary": "《FF7启示》试玩好评如潮 总监：感谢媒体与粉丝！；滨口直树确认《FF7:启示》在PS5 Pro上可以4K+60帧！；《FF7启示》开放世界指引被批太保姆?滨口直树回应。",
+          "summary_source": "rules"
         },
         {
-          "name": "007：初露锋芒",
+          "name": "GTA6",
           "count": 2,
-          "summary": "Switch2版锁定30帧运行，经历第三次延期后确认将于2027年3月发售。",
+          "summary": "英国移动网络运营商Virgin Media O2推出36期零利率分期预购方案，宝马官方也发布了一张《GTA6》风格的E30敞篷车海报。",
           "summary_source": "llm"
         },
         {
-          "name": "FF14",
+          "name": "漫威金刚狼",
           "count": 2,
-          "summary": "与《FF15》联动活动“英雄的夜想曲”复刻，9月24日上线国际服。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "球比伦战记",
-          "count": 2,
-          "summary": "Devolver Digital公布大型付费DLC「升天球比伦」首部预告片，并在TGS连发多款新作信息。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "AC幻景",
-          "count": 1,
-          "summary": "外媒实测移除D加密后性能几乎无变化。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "DJMAX RESPECT V",
-          "count": 1,
-          "summary": "宣布10月10日在首尔举办线下音乐会“MIRACLE 10.10”，时长约250分钟。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Fate",
-          "count": 1,
-          "summary": "《Fate/EXTRA Record》确认参展2026年广州动漫游戏盛典并提供试玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA",
-          "count": 1,
-          "summary": "民间爱好者将《GTA3》《GTA：罪恶都市》及《GTA：自由城故事》移植至New 3DS。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "OD",
-          "count": 1,
-          "summary": "《OD》开发工作顺利推进中，但《心之眼》开发商或将永久关闭。",
+          "summary": "索尼与Insomniac Games至今未公布首发销量，外媒则称赞其紧凑的线性流程为厌倦百小时大作的玩家提供了轻松选择。",
           "summary_source": "llm"
         },
         {
           "name": "P4R",
           "count": 1,
-          "summary": "删除原作中“久慈川理世导航语音全收集”奖杯，理世导航全语音重录并新增内容。",
+          "summary": "《P4R》评级从C降回B级竟是因为入浴场景稍显刺激？。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "PICK A BOO",
+          "count": 1,
+          "summary": "Brave group旗下Game & Co公布了首款发行游戏《PICK A BOO》，这是一款由トイジアム开发的最多支持6人联机的球形角色合作游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Potato Please",
+          "count": 1,
+          "summary": "Golden Horn Studios公布了PC平台第一人称模拟游戏《Potato Please》，并放出首发公布预告片。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "三男一狗",
+          "count": 1,
+          "summary": "T2动手了！《三男一狗》《GTA6》早期泄露资料全面下架。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "不义联盟3",
+          "count": 1,
+          "summary": "外媒报道《不义联盟3》正由NetherRealm Studios秘密制作，一名特技演员的简历疑似提前曝光了超级少女与蝙蝠女两名角色。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仁王3",
+          "count": 1,
+          "summary": "光荣特库摩在东京电玩展期间开启Steam史低价特惠，直降43%至198元，但本作整体口碑因付费DLC呈现两极分化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "伊莫",
+          "count": 1,
+          "summary": "开放世界RPG《伊莫》Steam同时在线人数突破16.6万，成功超越《幻兽帕鲁》登顶同类宝可梦风格作品榜首。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "你嫂子",
+          "count": 1,
+          "summary": "桌面伴侣游戏《你嫂子》已于9月17日上线，目前好评率达97%，评价为\"好评如潮\"，登上Steam热门搜索榜单。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤",
+          "count": 1,
+          "summary": "内容创作者发起请愿，希望在非排位大厅移除SBMM机制，上线一小时收获超500签名，恰逢新作发售前夕。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星完整版",
+          "count": 1,
+          "summary": "Shift Up在东京电玩展期间宣布《剑星 完整版》NS2免费Demo上线，所有Switch 2玩家均可免费下载，试玩进度可继承至正式版。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑网一",
+          "count": 1,
+          "summary": "经典武侠网游《剑网一》2026年度大版本《杨门降世》9月22日正式上线，新服于14时热开。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "古墓丽影",
+          "count": 1,
+          "summary": "《古墓丽影》粉丝成功筹集33314英镑，用于在英格兰德比安装一座劳拉·克罗夫特雕像。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "article_count": 101,
+      "game_count": 69,
+      "untagged_count": 19,
+      "digest": "R星针对《GTA6》发布严苛mod新规引发全球玩家强烈不满，同时联合8家国际巨头展开史无前例的营销攻势。SHIFT UP总监金亨泰透露《剑星》开发曾陷入资金危机，Switch2版Demo因性能问题遭玩家批评。IO Interactive确认《007：初露锋芒》延期至2027年3月发售，并锁定30帧运行。此外，《Fate/EXTRA Record》参展广州动漫游戏盛典，Aniplex透露《Fate/EXTRA 重制版》不显示伤害数值以降低门槛。",
+      "digest_source": "llm",
+      "input_hash": "edbfe5e5f747e880",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 6,
+          "summary": "R星公布严苛mod管理准则引发全球玩家与创作者强烈不满，同时联合奔驰、宝马等8家国际巨头展开史无前例的营销攻势。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 4,
+          "summary": "Switch2版Demo因帧率低和输入延迟明显被玩家批评，总监金亨泰透露开发期间公司曾陷入资金危机，仅够维持3个月工资。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "007：初露锋芒",
+          "count": 2,
+          "summary": "IO Interactive确认游戏延期至2027年3月发售，Switch2版锁定30帧运行，并在TGS2026提供约15分钟试玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF14",
+          "count": 2,
+          "summary": "与《FF15》的联动活动“英雄的夜想曲”将于9月24日上线国际服，经典四人坐骑G型皇家座驾将再度返场。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Fate",
+          "count": 2,
+          "summary": "《Fate/EXTRA Record》将于10月2日至5日参展广州动漫游戏盛典并提供现场试玩，Aniplex透露《Fate/EXTRA 重制版》不显示伤害数值以降低门槛。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "寂静岭：小镇陷落",
+          "count": 2,
+          "summary": "外媒Digital Spy给出5/5满分，称其成功融合《异形：隔离》与《生化危机》元素，打造出既熟悉又全新的恐怖体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "球比伦战记",
+          "count": 2,
+          "summary": "Devolver Digital公布大型付费DLC「升天球比伦」首部预告片，并在东京游戏展期间连发四款游戏新内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "AC幻景",
+          "count": 1,
+          "summary": "RUNE团队完全攻破《刺客信条：幻景》的Denuvo与VMProtect两层加密。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "DJMAX RESPECT V",
+          "count": 1,
+          "summary": "NEOWIZ宣布线下音乐会“MIRACLE 10.10”将于10月10日在首尔举行，时长约250分钟。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7：启示",
+          "count": 1,
+          "summary": "滨口直树确认本作将加入可选自动升级机制，以解决前作《重生》中玩家诟病的刷级负担问题。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA",
+          "count": 1,
+          "summary": "爱好者EpicReds0817将《GTA 3》《GTA：罪恶都市》及《GTA：自由城故事》移植至New Nintendo 3DS运行。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "OD",
+          "count": 1,
+          "summary": "《心之眼》开发商或将永久关闭，而《OD》的开发工作正在顺利推进中。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "P4R",
+          "count": 1,
+          "summary": "导演矢岛大亮宣布删除原作中著名的“久慈川理世导航语音全收集”奖杯，制作人透露儿子曾吐槽该奖杯最折磨人。",
           "summary_source": "llm"
         },
         {
           "name": "Sugar Lies",
           "count": 1,
-          "summary": "成人级恋爱视觉小说《Sugar Lies》今日上线Steam。",
+          "summary": "工画堂工作室恋爱视觉小说新作《Sugar Lies》Steam商店页面今日上线，以“谎言”为核心主题。",
           "summary_source": "llm"
         },
         {
           "name": "WOW无限",
           "count": 1,
-          "summary": "《魔兽世界：永恒》测试火爆，带过40人团本被称成职场预备班。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "不败：创世",
-          "count": 1,
-          "summary": "超能飞行与行星探索动作RPG试玩版上线Steam。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "东京弹珠物语",
-          "count": 1,
-          "summary": "弹珠Roguelike游戏正式发售，首发优惠-25%。",
+          "summary": "暴雪《魔兽世界：永恒》测试火爆，玩家带过40人团本的能力被戏称为职场预备班。",
           "summary_source": "llm"
         }
       ]
@@ -808,107 +909,6 @@
           "name": "Farming Simulator 25",
           "count": 1,
           "summary": "世嘉宣布免费DLC“Pumps N' Hoses Pack”现已发布，登陆多平台。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-13",
-      "article_count": 45,
-      "game_count": 30,
-      "untagged_count": 10,
-      "digest": "2026年9月13日游戏资讯聚焦于《GTA6》线下营销与暴雪嘉年华的重磅发布，涵盖《星际争霸》新作、P4R与FF7联动、以及《漫威金刚狼》发售争议等热点。此外，多款大作如《无主之地4》销量回升，而《恶魂RE》PC优化取得突破。",
-      "digest_source": "llm",
-      "input_hash": "df7b12378f99417f",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "西班牙家乐福超市循环播放预告引发病毒式传播，完美展示4K画质并吸引顾客专程进店挑选新电视。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "P4R",
-          "count": 2,
-          "summary": "《女神异闻录4 Revival》与《最终幻想7：启示》开发团队在PAX West展会上同框合影，玩家集体许愿联动。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战争机器：事变日",
-          "count": 2,
-          "summary": "Xbox发布全新预告片，展示跳跃滑铲爽快感，游戏将于2026年10月6日登陆Xbox Series X|S与PC平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星际争霸",
-          "count": 2,
-          "summary": "暴雪嘉年华开幕，正式官宣《星际争霸》新作为开放世界射击游戏，计划于2030年推出。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2,
-          "summary": "发售前遭偷跑玩家差评，官方随后澄清金刚狼与剑齿虎为兄弟挚友，未采用漫画银狐相关剧情设定。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "PHYSINT",
-          "count": 1,
-          "summary": "据业内人士透露，小岛工作室开发的动作谍报游戏《PHYSINT》可能无法继续使用Decima引擎。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "VR战士5 R.E.V.O. 世界舞台",
-          "count": 1,
-          "summary": "经典格斗新作加入XGP，媒体评分78分，仅限指定订阅档位。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "X战警",
-          "count": 1,
-          "summary": "据泄露文件显示，失眠组正筹备一款以《X战警》宇宙为背景的3A级动作游戏，预算或超6亿美元，剑指PS6。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "垃圾日",
-          "count": 1,
-          "summary": "物理合作冒险游戏《垃圾日》定档10月14日登陆Steam，支持单人及六人联机。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "守望先锋",
-          "count": 1,
-          "summary": "在暴雪嘉年华上公布第54位英雄“血律”，黑影转为支援位，路霸迎来重做，全新地图“监测站：格里姆火山”上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 1,
-          "summary": "《巫师3》DLC《旧时曲》实装锁链武器，这一构想早在11年前因技术受限被砍，如今已攻克难题。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "幻兽帕鲁",
-          "count": 1,
-          "summary": "任天堂不服《幻兽帕鲁》相关专利被驳回，正式提起申诉。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "弹丸论破2x2",
-          "count": 1,
-          "summary": "PC版配置曝光，推荐配置高达RTX 4070显卡与32GB内存，引发玩家对优化水平的强烈质疑。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "恶魂RE",
-          "count": 1,
-          "summary": "《恶魔之魂RE》PC版优化补丁发布，单日从2帧优化至30帧。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "无主之地4",
-          "count": 1,
-          "summary": "《无主之地4》于9月10日更新后推出全新DLC秘藏猎人“骇客无爱”，重新冲上Steam畅销榜前十。",
           "summary_source": "llm"
         }
       ]

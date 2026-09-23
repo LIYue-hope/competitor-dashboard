@@ -1,76 +1,9 @@
 {
-  "crawled_at": "2026-09-21T00:06:36.790767+00:00",
+  "crawled_at": "2026-09-23T00:19:06.826180+00:00",
   "days": [
     {
-      "date": "2026-09-21",
-      "date_label": "09月21日 今天",
-      "games": [
-        {
-          "game_name": "英雄防线",
-          "categories": [
-            "休闲"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/yingxiongfangxian/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "蜀山幻想志",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": "小阵大谋",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/shushanhuanxiangzhi/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "荣耀与勇士",
-          "categories": [
-            "卡牌"
-          ],
-          "score": "7.0",
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/ryyys/",
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "date_label": "09月22日 明天",
-      "games": [
-        {
-          "game_name": "西游大冒险",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": "开局千抽悟空出山",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/xiyoudamaoxian1/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "天命行者",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/tianmingxingzhe/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-23",
-      "date_label": "09月23日 后天",
+      "date_label": "09月23日 今天",
       "games": [
         {
           "game_name": "古龙群侠录",
@@ -78,7 +11,7 @@
             "角色扮演"
           ],
           "score": null,
-          "event_desc": null,
+          "event_desc": "上线领千抽",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/glqxl/",
           "has_afk_grinding_tag": false
@@ -109,7 +42,7 @@
     },
     {
       "date": "2026-09-24",
-      "date_label": "09月24日 周四",
+      "date_label": "09月24日 明天",
       "games": [
         {
           "game_name": "光阴之外",
@@ -148,7 +81,7 @@
     },
     {
       "date": "2026-09-25",
-      "date_label": "09月25日 周五",
+      "date_label": "09月25日 后天",
       "games": [
         {
           "game_name": "召唤萌将",
@@ -232,6 +165,23 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/lslh/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "date_label": "10月15日",
+      "games": [
+        {
+          "game_name": "剑侠世界4",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/jxsj4wx/",
           "has_afk_grinding_tag": false
         }
       ]
