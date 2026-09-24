@@ -1,17 +1,118 @@
 {
-  "generated_at": "2026-09-23T00:28:06.148098+00:00",
+  "generated_at": "2026-09-24T00:39:01.180968+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-22",
-      "article_count": 78,
-      "game_count": 52,
-      "untagged_count": 22,
-      "digest": "东京电玩展期间，Square Enix的《最终幻想7：启示》试玩反响热烈，总监滨口直树回应了PS5 Pro性能及开放世界指引问题；索尼与Rockstar Games方面则分别面临《漫威金刚狼》销量沉默及《三男一狗》与《GTA6》泄露资料被下架的争议；此外，Take-Two要求平台下架《三男一狗》与《GTA6》早期泄露资料，NetherRealm Studios疑似正在秘密开发《不义联盟3》。",
+      "date": "2026-09-23",
+      "article_count": 68,
+      "game_count": 51,
+      "untagged_count": 10,
+      "digest": "R星确认《GTA6》首发仅含单人模式无线上模块，PC版暂无官方公示；Remedy《控制：共振》发售日临近引发争议，魔形女Cosplay与《漫威金刚狼》销量下滑引发关注；Shift Up披露《剑星》开发危机，小岛秀夫谈《Physint》转投Xbox，Xbox接管《光环》主导权。",
       "digest_source": "llm",
-      "input_hash": "d17efd7bb3849071",
+      "input_hash": "3d23a66943ba4fd6",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "R星官方确认首发仅有单人模式无线上模块，PC版暂无官方公示，网传Steam页面泄露不实。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "控制：共振",
+          "count": 3,
+          "summary": "Remedy宣布游戏将于9月24日全球发售，预购奖励拉满，但因PS5独占48小时引发其他平台玩家不满。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 3,
+          "summary": "实体版价格大跌，魔形女Cosplay因偏离经典形象引发争议，销量出现显著下滑。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 2,
+          "summary": "Shift Up CEO披露公司财务危机差点让游戏胎死腹中，总监强调伊芙身材的勒肉感与晃动真实感。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Apex英雄",
+          "count": 1,
+          "summary": "与《街霸6》跨界联动活动登陆全平台，外卡模式登陆奥林匹斯地图，推出街霸能量与传奇皮肤。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "CS",
+          "count": 1,
+          "summary": "“Gooseman”回忆在Valve任职期间与G胖共事的趣事，爆出G胖在办公室的各种怪人行为。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7",
+          "count": 1,
+          "summary": "滨口直树称《FF7》重制三部曲体量巨大，未来难有游戏匹敌。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "P.O.N.",
+          "count": 1,
+          "summary": "联机恐怖新作采用反派视角，让玩家扮演地下犯罪团伙成员体验惊险的被狩猎式玩法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Physint",
+          "count": 1,
+          "summary": "小岛秀夫首次公开动作谍战新作从PlayStation转投Xbox背后的内幕。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不朽遗志",
+          "count": 1,
+          "summary": "IGN发布前瞻视频，介绍由《幽灵行者》团队打造的第一人称类魂动作游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "中土世界",
+          "count": 1,
+          "summary": "《中土世界：暗影魔多》与《战争之影》捆绑包上架Switch，预购享5折优惠。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "为了吾王2",
+          "count": 1,
+          "summary": "公开付费DLC4角色包“尘埃落定”，包含两位新角色及全新冒险篇章。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "余烬之镇 Emberville",
+          "count": 1,
+          "summary": "宣布将于10月27日登陆Steam抢先体验，10月19日至26日开放Demo。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "光环",
+          "count": 1,
+          "summary": "动视将全面接管《光环》系列未来开发，把Rare和World’s Edge纳入管理版图。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "刀锋战士",
+          "count": 1,
+          "summary": "马赫沙拉·阿里自曝因档期冲突推掉大量角色，坦言为备战该片导致膝盖受伤。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "article_count": 87,
+      "game_count": 58,
+      "untagged_count": 25,
+      "digest": "东京电玩展期间，多款大作动态引发关注。《最终幻想7：启示》试玩好评如潮，总监滨口直树确认PS5 Pro版支持4K+60帧，并回应了开放世界指引过于保姆的争议。索尼与Insomniac Games对《漫威金刚狼》首发销量保持沉默，引发玩家热议。此外，《GTA6》在英国推出36期零利率分期预购方案，宝马官方也发布风格海报进行互动。Take-Two要求下架《三男一狗》与《GTA6》泄露资料，而《仁王3》Steam史低价特惠引发口碑分化。《最终幻想7：启示》总监滨口直树发文感谢媒体与粉丝对TGS试玩版的热烈反响，并确认PS5 Pro版支持4K+60帧，同时回应了开放世界指引过于保姆的争议。《GTA6》在英国推出36期零利率分期预购方案，玩家首付20英镑即可预购，非O2现有客户也能参与，宝马官方随后发布风格海报进行互动。《漫威金刚狼》自9月15日发售以来，索尼与Insomniac Games至今未公布首发销量，引发玩家对索尼宣传策略的关注。外媒发文称赞《漫威金刚狼》的紧凑线性流程为厌倦百小时大作的玩家提供了轻松选择，尽管评价不突出，但其节奏明确、篇幅精简的体验令人耳目一新。《女神异闻录4重制版》导演矢岛大亮在TGS采访中透露，原版P4为B级，而P4G因入浴场景稍显刺激被评C级，重制版修改了该场景后分级回到B级。Brave group旗下Game & Co公开首款发行游戏《PICK A BOO》，这是一款由トイジアム开发的球形角色合作游戏，预计登陆Steam平台，最多支持6人联机。Golden Horn Studios公布了PC平台第一人称模拟游戏《Potato Please》，并放出首发公布预告片。开发者拉多·克拉萨打造的《一百万颗土豆》与金角工作室推出的《拜托，土豆》因高度重合的第一人称物理玩法引发行业争议。Take-Two Interactive要求平台删除一批与《三男一狗》和《GTA6》泄露资料相关的内容，主要针对流出的图片、音频片段及其他开发资料。据外媒报道，《不义联盟3》正由NetherRealm Studios秘密制作，一名特技演员简历疑似提前曝光了超级少女与蝙蝠女两名角色。《仁王3》在东京电玩展期间上线Steam周末特惠，直降43%至198元，创下历史新低价，但本作整体玩家评价褒贬不一，DLC口碑两极分化显著。开放世界RPG《伊莫》Steam同时在线人数突破16.6万，成功超越《幻兽帕鲁》，登顶同类宝可梦风格作品榜首。桌面伴侣游戏《你嫂子》已于9月17日上线，目前好评率达97%，评价为\"好评如潮\"，成为近期桌面伴侣品类中的热门新作。《使命召唤》内容创作者发起请愿，希望在非排位大厅移除SBMM机制，仅排位保留，上线一小时收获超500签名。Shift Up在东京电玩展期间宣布，《剑星 完整版》Nintendo Switch 2试玩Demo已上线，所有玩家均可免费下载，试玩进度可继承至正式版。经典武侠网游《剑网一》2026年度大版本《杨门降世》于9月22日正式上线，新服14时热开。",
+      "digest_source": "llm",
+      "input_hash": "2ec1e7259931434a",
       "game_digests": [
         {
           "name": "FF7启示",
@@ -22,14 +123,14 @@
         {
           "name": "GTA6",
           "count": 2,
-          "summary": "英国移动网络运营商Virgin Media O2推出36期零利率分期预购方案，宝马官方也发布了一张《GTA6》风格的E30敞篷车海报。",
-          "summary_source": "llm"
+          "summary": "《GTA6》在英国还能分期购买：可分36期 还是零利率；宝马官方发布《GTA6》风格海报：老旧敞篷很有年代感。",
+          "summary_source": "rules"
         },
         {
           "name": "漫威金刚狼",
           "count": 2,
-          "summary": "索尼与Insomniac Games至今未公布首发销量，外媒则称赞其紧凑的线性流程为厌倦百小时大作的玩家提供了轻松选择。",
-          "summary_source": "llm"
+          "summary": "索尼迟迟不公布《漫威金刚狼》销量引发玩家热议！；外媒点赞《漫威金刚狼》：线性流程很紧凑 时间压力小。",
+          "summary_source": "rules"
         },
         {
           "name": "P4R",
@@ -40,14 +141,20 @@
         {
           "name": "PICK A BOO",
           "count": 1,
-          "summary": "Brave group旗下Game & Co公布了首款发行游戏《PICK A BOO》，这是一款由トイジアム开发的最多支持6人联机的球形角色合作游戏。",
-          "summary_source": "llm"
+          "summary": "碰瓷蛋仔？新球形角色合作游戏《PICK A BOO》公布。",
+          "summary_source": "rules"
         },
         {
           "name": "Potato Please",
           "count": 1,
-          "summary": "Golden Horn Studios公布了PC平台第一人称模拟游戏《Potato Please》，并放出首发公布预告片。",
-          "summary_source": "llm"
+          "summary": "沉浸式削土豆 第一人称模拟游戏《Potato Please》公开。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "一百万颗土豆",
+          "count": 1,
+          "summary": "创意撞车还是抄袭?《一百万颗土豆》控诉《拜托,土豆》。",
+          "summary_source": "rules"
         },
         {
           "name": "三男一狗",
@@ -58,50 +165,44 @@
         {
           "name": "不义联盟3",
           "count": 1,
-          "summary": "外媒报道《不义联盟3》正由NetherRealm Studios秘密制作，一名特技演员的简历疑似提前曝光了超级少女与蝙蝠女两名角色。",
-          "summary_source": "llm"
+          "summary": "曝《不义联盟3》秘密制作中！超级少女与蝙蝠女将登场。",
+          "summary_source": "rules"
         },
         {
           "name": "仁王3",
           "count": 1,
-          "summary": "光荣特库摩在东京电玩展期间开启Steam史低价特惠，直降43%至198元，但本作整体口碑因付费DLC呈现两极分化。",
-          "summary_source": "llm"
+          "summary": "《仁王3》Steam开启史低价特惠 本体与DLC口碑分化明显。",
+          "summary_source": "rules"
         },
         {
           "name": "伊莫",
           "count": 1,
-          "summary": "开放世界RPG《伊莫》Steam同时在线人数突破16.6万，成功超越《幻兽帕鲁》登顶同类宝可梦风格作品榜首。",
-          "summary_source": "llm"
+          "summary": "《伊莫》Steam在线人数突破16.6万！超越《幻兽帕鲁》。",
+          "summary_source": "rules"
         },
         {
           "name": "你嫂子",
           "count": 1,
-          "summary": "桌面伴侣游戏《你嫂子》已于9月17日上线，目前好评率达97%，评价为\"好评如潮\"，登上Steam热门搜索榜单。",
-          "summary_source": "llm"
+          "summary": "大尺度美女桌宠《你嫂子》Steam好评如潮！好评率97%。",
+          "summary_source": "rules"
         },
         {
           "name": "使命召唤",
           "count": 1,
-          "summary": "内容创作者发起请愿，希望在非排位大厅移除SBMM机制，上线一小时收获超500签名，恰逢新作发售前夕。",
-          "summary_source": "llm"
+          "summary": "《使命召唤》玩家发起请愿：非排位大厅移除SBMM机制。",
+          "summary_source": "rules"
         },
         {
           "name": "剑星完整版",
           "count": 1,
-          "summary": "Shift Up在东京电玩展期间宣布《剑星 完整版》NS2免费Demo上线，所有Switch 2玩家均可免费下载，试玩进度可继承至正式版。",
-          "summary_source": "llm"
+          "summary": "130种风格伊芙可选!《剑星完整版》NS2免费Demo上线。",
+          "summary_source": "rules"
         },
         {
           "name": "剑网一",
           "count": 1,
-          "summary": "经典武侠网游《剑网一》2026年度大版本《杨门降世》9月22日正式上线，新服于14时热开。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影",
-          "count": 1,
-          "summary": "《古墓丽影》粉丝成功筹集33314英镑，用于在英格兰德比安装一座劳拉·克罗夫特雕像。",
-          "summary_source": "llm"
+          "summary": "《剑网一》年度大版本9月22日上线，杨门降世再启江湖新篇，新服14时热开，邀您来战！。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -808,107 +909,6 @@
           "name": "不义联盟3",
           "count": 1,
           "summary": "神秘3A格斗游戏新作招募测试，因风格过于像《不义联盟3》引发玩家猜测是NetherRealm新作。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "article_count": 108,
-      "game_count": 60,
-      "untagged_count": 28,
-      "digest": "2026年9月14日游戏资讯聚焦多款大作动态，R星《GTA6》因油价细节与迈阿密宣传获批引发热议，索尼《漫威金刚狼》遭遇口碑危机与谣言风波，暴雪则公布《暗黑5》制作进度及《守望先锋》女团皮肤争议，同时《FF7：启示》重做圆桌骑士战并确认莫古利偶像设定，卡普空《鬼武者：剑之道》试玩版下载量破300万。",
-      "digest_source": "llm",
-      "input_hash": "e31e48125f45549b",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 4,
-          "summary": "R星《GTA6》试玩Demo中Xero Gas加油站柴油价格高达5.22美元/加仑，引发玩家对真实燃油系统的猜测，同时迈阿密海滩市委员会批准了在沙滩椅上印“VI”的户外宣传方案。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 4,
-          "summary": "知名评测博主Skill Up的负面评测视频热度飙升，两天播放量突破280万，甚至反超官方预告，工作室随后辟谣金刚狼与剑齿虎并非同性关系，但游戏仍面临严重口碑危机。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7：启示",
-          "count": 3,
-          "summary": "开发团队宣布全盘重做圆桌骑士首领战以提升难度，导演滨口直树确认莫古利家族将转型为“偶像组合”并推出舞台小游戏，Square Enix公布了TGS 2026的专属拍照点。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "守望先锋",
-          "count": 3,
-          "summary": "暴雪确认猎空仍是游戏门面，宣布与《赛博朋克：边缘行者》联动，但《守望先锋2》与LE SSERAFIM的联名皮肤因超高定价引发玩家广泛抵制。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "暗黑破坏神5",
-          "count": 3,
-          "summary": "暴雪在BlizzCon 2026公布新作，确认游戏已结束早期开发进入全面制作阶段，并曝光了首批概念艺术图与三个首发职业。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "魔兽世界：无限",
-          "count": 3,
-          "summary": "暴雪公布新种族“天穹精灵”需单独购买29.99美元的Skyborne Hero Pack解锁，同时宣布游戏将加入完善的官方手柄支持。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 2,
-          "summary": "《剑星》完整版限量铁盒实体版官宣，体模申才恩在个人社交平台分享的线下游玩视频引发关注。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "堡垒之夜",
-          "count": 2,
-          "summary": "官方确认与《王国之心》联动，主角索拉将于本周上线，数据挖掘者爆料《海贼王》联动可能登陆本作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "控制：共振",
-          "count": 2,
-          "summary": "游戏将于9月24日上线，评测将于发售前5天解禁，实体盘延期至10月15日以完善交付。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星际争霸",
-          "count": 2,
-          "summary": "新作创意总监表示游戏将专注于单人游戏，不支持创建角色，总监暗示神族将作为可对抗阵营登场。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "暗黑4",
-          "count": 2,
-          "summary": "暴雪与CD Projekt Red公布《巫师3》联动皮肤，S15赛季更新中亚马逊职业加入，迪卡·凯恩正史回归。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者 剑之道",
-          "count": 2,
-          "summary": "卡普空确认试玩版全球下载量突破300万，游戏将参展TGS 2026并推出特别挑战活动。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "DARK MACHINE THE GAME",
-          "count": 1,
-          "summary": "机甲动作射击游戏确认参展东京电玩展2026。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Fairgame$",
-          "count": 1,
-          "summary": "曝索尼搜打撤游戏《Fairgame$》将开启测试，登陆平台为PS5和PC。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Farming Simulator 25",
-          "count": 1,
-          "summary": "世嘉宣布免费DLC“Pumps N' Hoses Pack”现已发布，登陆多平台。",
           "summary_source": "llm"
         }
       ]

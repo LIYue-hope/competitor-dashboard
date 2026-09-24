@@ -1,82 +1,207 @@
 {
-  "generated_at": "2026-09-23T00:26:02.577557+00:00",
+  "generated_at": "2026-09-24T00:37:03.606487+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-23",
-      "article_count": 15,
-      "game_count": 11,
+      "date": "2026-09-24",
+      "article_count": 28,
+      "game_count": 25,
       "untagged_count": 2,
-      "digest": "R星在采访中透露《GTA6》将引入实时动画重定向系统以解决NPC体型差异导致的动作错位问题。动视公布《Apex英雄》与《街霸6》的跨界联动活动，同时动视总裁表示将组建独立团队打造“史上最伟大”的《光环》新作。此外，微软计划关闭因收购失败而出售未果的Ninja Theory工作室。",
+      "digest": "游戏行业动态：《最终幻想7：启示》总监辟谣性感蒂法不会变暴力，角色设计调整聚焦于战斗。B社确认黑曜石调整至旗下后将继续保留创作特色。《GTA6》露西亚演员关注角色身份未确认。SPINE发布新作《SPINE》，美女功夫游戏愿望单破60万。《光环》失去行业影响力，但游戏仍受期待。《全面战争：战锤3》更新9.0版本，重塑超凡帝国中后期节奏。《剑星》金亨泰表示对美腿造型的执着。《卡莉亚的炼金工房》新视频展示激烈战斗画面。《卧龙2：凤火连天》新实机演示，攻防博弈机制备受期待。《地狱之刃》注册“Senua”商标，IP延续可能性存疑。《女神异闻录4：复兴版》更换沐浴片段后评级降至CERO B。《寂静岭2》PS5模拟器运行成功，但内容显示有延迟。CDPR公布《巫师3：狂猎》重制版与原版对比视频，引发玩家质疑。《影之刃零》Steam十月发售，国产大作领衔。《战锤40K：战争黎明4》开发商遭遇高难度AI兽人挑战。",
       "digest_source": "llm",
-      "input_hash": "1e19c8b9b7e09b8b",
+      "input_hash": "56c548d7bb242448",
+      "game_digests": [
+        {
+          "name": "最终幻想7：启示",
+          "count": 2,
+          "summary": "《最终幻想7：启示》总监辟谣 性感蒂法不会变暴力狂；《最终幻想7：启示》部分支线随主角变化 单周目无法体验全部内容。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "B社",
+          "count": 1,
+          "summary": "B社确认黑曜石调整至旗下后 仍将保留创作特色。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA6",
+          "count": 1,
+          "summary": "《GTA6》露西亚传闻演员回应关注 角色身份仍未确认。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "SPINE",
+          "count": 1,
+          "summary": "美女功夫游戏《SPINE》愿望单破60万 2027夏季发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "光环",
+          "count": 1,
+          "summary": "GameSpot称《光环》在Bungie离开后失去行业影响力。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "全面战争：战锤3",
+          "count": 1,
+          "summary": "《全面战争：战锤3》9.0更新重塑超凡帝国战役中后期。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "金亨泰：制作《剑星》伊芙时 我最看重的就是逼真身体。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "卡莉亚的炼金工房",
+          "count": 1,
+          "summary": "《卡莉亚的炼金工房》新视频 展示激烈战斗画面。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "卧龙2：凤火连天",
+          "count": 1,
+          "summary": "《卧龙2：凤火连天》新实机演示 全新攻防博弈机制。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "地狱之刃",
+          "count": 1,
+          "summary": "Xbox注册“Senua”商标 关闭忍者理论后或将保留《地狱之刃》IP。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "女神异闻录4：复兴版",
+          "count": 1,
+          "summary": "《女神异闻录4：复兴版》更换沐浴片段后评级降至CERO B。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "寂静岭2",
+          "count": 1,
+          "summary": "PS5模拟器使用Radeon 840核显运行《寂静岭2》重制版。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3",
+          "count": 1,
+          "summary": "CDPR公布《巫师3》重制版与原版对比视频 画面变化引发质疑。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "Steam十月发售游戏推荐 国产大作《影之刃零》领衔。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战锤40K：战争黎明4",
+          "count": 1,
+          "summary": "《战锤40K：战争黎明4》困难难度不是开玩笑 开发者组队遭兽人AI虐杀。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "article_count": 89,
+      "game_count": 67,
+      "untagged_count": 11,
+      "digest": "今日游戏行业资讯聚焦于《GTA6》发售临近引发的行业动态，包括《彩虹六号：围攻》确认不暂停更新、Halo工作室员工遭遇裁员风波，以及《守墓人2》与《黎明门前的吹笛人》等新作的发售。此外，Bulkhead Interactive公布《战狗》涨价计划，SNK宣布NEOGEO AES+复刻主机追加游戏，Square Enix为《FF7启示》增加引导提示，土耳其独立游戏《BOMBANANA!》十日销量破百万，以及《三角洲行动》开启二周年庆并官宣吴彦祖代言。",
+      "digest_source": "llm",
+      "input_hash": "09da49d015614973",
       "game_digests": [
         {
           "name": "GTA6",
+          "count": 6,
+          "summary": "不为《GTA6》让路！《彩虹六号：围攻》第四赛季同期上线；NBA中锋警告全联盟：《GTA 6》会导致11月数据集体下滑；警长反对也没用 《GTA6》广告牌亮相迈阿密（当天共 6 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "光环",
           "count": 3,
-          "summary": "R星称本作将拥有R星史上体型差异最丰富的NPC群体，团队开发了实时动画重定向系统以解决不同身高体型角色共用动画资源导致的动作错位问题。",
+          "summary": "Halo Studios一名员工在裁员前一天刚获得晋升，结果第二天便被解雇，该员工已在Xbox体系内工作了11年。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "侠盗猎车手VI",
+          "count": 2,
+          "summary": "由于发售时间晚于第44届金摇杆奖典礼8天，该作将无缘在2026/27赛季追平《博德之门3》创下的五大年度游戏奖纪录。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "守墓人2",
+          "count": 2,
+          "summary": "热门独立游戏续作《守墓人2》于9月22日正式登陆PC平台，Steam愿望单已突破100万份。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战狗",
+          "count": 2,
+          "summary": "Bulkhead Interactive公布涨价计划，游戏现价39.99美元，预计在约12个月后推进至0.5版本时升至49.99美元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黎明门前的吹笛人",
+          "count": 2,
+          "summary": "由骨钉工作室打造的克苏鲁经营游戏《黎明门前的吹笛人》今日在Steam发售，定价42元，首发享10%折扣。",
           "summary_source": "llm"
         },
         {
           "name": "Apex英雄",
           "count": 1,
-          "summary": "《Apex英雄》VS《街霸6》活动现已上线，玩家可在外卡模式中体验以卡普空传奇世界为灵感的地图、街霸人物形态战斗机制及波动拳等新内容。",
+          "summary": "《Apex英雄》VS《街霸6》活动现已上线，玩家可在外卡模式中体验隆、春丽等角色的战斗风格及《街霸6》主题外观。",
           "summary_source": "llm"
         },
         {
-          "name": "使命召唤：现代战争4",
+          "name": "BOMBANANA!",
           "count": 1,
-          "summary": "动视公开行业数据称游戏作弊市场规模达85亿美元，并指出《使命召唤》系列深受外挂困扰，作弊已形成包含外挂开发者、供应商及账号贩子的完整产业链。",
+          "summary": "土耳其独立游戏《BOMBANANA!》发售十日内销量突破一百万，上线前Steam愿望单数量也突破100万。",
           "summary_source": "llm"
         },
         {
-          "name": "光环",
+          "name": "DC",
           "count": 1,
-          "summary": "动视总裁罗布・科斯蒂奇表示，在Xbox对光环工作室裁员268人后，团队的目标是打造“史上最伟大的《光环》游戏”，并组建独立于《使命召唤》开发团队的专项小组推进项目。",
+          "summary": "评论指出DC集中推广“狂笑之蝠”导致角色遭遇反弹，认为其并未像部分读者记忆中那样在2018年至2020年间广泛出现。",
           "summary_source": "llm"
         },
         {
-          "name": "卡莉亚的炼金工房",
+          "name": "FF7启示",
           "count": 1,
-          "summary": "光荣特库摩公布《卡莉亚的炼金工房》新情报，将调合系统重新放回设计中心，并加入超级冲刺机制，允许玩家将调合道具投掷使用以触发元素法阵。",
+          "summary": "Square Enix为《最终幻想7 启示》增加大量屏幕视觉提示，以帮助不习惯大型开放世界的玩家避免迷路。",
           "summary_source": "llm"
         },
         {
-          "name": "卧龙2：凤火连天",
+          "name": "RO仙境传说3",
           "count": 1,
-          "summary": "《卧龙2：凤火连天》剧情曝光，故事发生在公元208年，主角与好友庞统居住的村庄遭曹操军攻击，游戏将于2027年3月4日发售并首发加入XGP。",
+          "summary": "MMORPG《RO仙境传说3》公开新玩法“卡普拉·生存者之战”，五人小队需在限定时间内携带宝藏撤离。",
           "summary_source": "llm"
         },
         {
-          "name": "地狱之刃",
+          "name": "SNK",
           "count": 1,
-          "summary": "外媒报道称由于出售Ninja Theory的两份收购协议均宣告失败，Xbox计划关闭这家知名工作室，目前微软正在与Arkane工作室进行协商谈判。",
+          "summary": "SNK宣布NEOGEO AES+复刻主机追加5款经典游戏，其中包括从未登陆NEOGEO的未售版秘藏游戏《零翼战机》。",
           "summary_source": "llm"
         },
         {
-          "name": "战神：劳菲",
+          "name": "SOMNIUS",
           "count": 1,
-          "summary": "《战神：劳菲》新神祇形象曝光，概念图中出现红脸、头戴华丽宝冠的异域神祇，此前官方已确认蒙古战神贝格策和埃及战争女神塞赫美特将会登场。",
+          "summary": "合作逃生游戏《SOMNIUS》于9月22日在Steam开启抢先体验，玩家需利用真空枪收集物体维持传送门。",
           "summary_source": "llm"
         },
         {
-          "name": "最终幻想7：启示",
+          "name": "三角洲行动",
           "count": 1,
-          "summary": "总监滨口直树透露游戏将于2027年4月8日发售后，推出萨菲罗斯主题篇章和《文森特与塔克斯》篇章两款DLC，计划于2027年冬至2028年春季推出。",
+          "summary": "《三角洲行动》二周年庆开启，吴彦祖担任代言人，游戏同步推出专属合作任务与免费福利。",
           "summary_source": "llm"
         },
         {
-          "name": "电锯甜心2 Back2Back",
+          "name": "中土世界：暗影同捆包",
           "count": 1,
-          "summary": "开发团队表示新作将守护原作精髓，故事是原作结局的直接续篇，舞台将来到重建后的贾里德伍德，朱丽叶将卷入由神秘导演制造的僵尸电影危机。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "魔兽世界：无限",
-          "count": 1,
-          "summary": "《魔兽世界：无限》Beta测试因海量玩家涌入导致服务器崩溃，暴雪怀旧服团队高级游戏设计师称这是其工作17年来见过的最疯狂的数据。",
+          "summary": "Aspyr宣布《中土世界：暗影同捆包》登陆Switch 2平台，包含《中土世界：暗影魔多》年度版和《中土世界：战争之影》终极版，将于9月30日发售。",
           "summary_source": "llm"
         }
       ]
@@ -886,107 +1011,6 @@
           "count": 1,
           "summary": "《Vampire Survivors-吸血鬼幸存者》制作团队打造、最多 8 人对战的全新大逃杀游戏。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "article_count": 86,
-      "game_count": 61,
-      "untagged_count": 7,
-      "digest": "今日游戏行业资讯聚焦于《侠盗猎车手6》迈阿密广告获批及《暗黑破坏神5》剧情细节曝光，同时《漫威金刚狼》因评分低恐无缘TGA提名。此外，小岛新作《Physint》传闻转投Xbox，暴雪《魔兽世界：无限》加入手柄支持，国产游戏《一盏秋声：锦衣卫》获IGN好评。",
-      "digest_source": "llm",
-      "input_hash": "d2388f33a7caf221",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 8,
-          "summary": "迈阿密海滩市议会以4比3批准《侠盗猎车手6》城市广告活动，Rockstar投入300万美元，活动计划从10月15日持续至2026年年底。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "暗黑破坏神5",
-          "count": 4,
-          "summary": "《暗黑破坏神5》将于2029年春季发售，暴雪透露主角与迪亚波罗之间存在特殊纽带，游戏开场时庇护之地已沦陷，玩家需组建商队探索。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "怪物猎人：荒野",
-          "count": 3,
-          "summary": "卡普空公布《怪物猎人：荒野》大型扩展“凌越”斩斧强化动作演示，该扩展计划于2027年推出，游戏现已登陆PS5、Xbox Series及Steam平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星际争霸",
-          "count": 3,
-          "summary": "暴雪正在开发的《星际争霸》新作将是一款叙事驱动的开放世界射击游戏，项目负责人确认游戏拥有完整故事与明确结局，不会采用服务型或赛季制。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "侠盗猎车手6",
-          "count": 2,
-          "summary": "《侠盗猎车手6》故事发生在虚构的莱昂尼达州，该地区的创作原型与迈阿密存在密切联系，当地已批准开展城市广告活动。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "暗黑破坏神4",
-          "count": 2,
-          "summary": "《暗黑破坏神4》野蛮人将获得《巫师3》主角白狼杰洛特的主题外观，该外观仅向通过暴雪战网购买指定资料片的玩家提供，Steam版玩家无法获得。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2,
-          "summary": "《漫威金刚狼》Metacritic评分暂为78分，Polygon将其称为“PS5时代最令人失望的作品”，游戏很可能无缘2026年TGA年度游戏提名。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "魔兽世界：无限",
-          "count": 2,
-          "summary": "暴雪将在《魔兽世界：无限》中加入完善的官方手柄支持，开发团队明确表示该功能并非为近期登陆主机或掌机所准备。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Cyan Heart",
-          "count": 1,
-          "summary": "自拍视角恐怖探索解谜冒险游戏《Cyan Heart》将于2026年10月9日登陆Steam，售价为1300日元，正式版加入了新的行动辅助系统。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "DARK MACHINE THE GAME",
-          "count": 1,
-          "summary": "机甲动作射击游戏《DARK MACHINE THE GAME》确认参展2026年东京电玩展，展位将开放最多支持7对7对战的TGS限定实机试玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Physint",
-          "count": 1,
-          "summary": "小岛秀夫新作《Physint》据称已更换合作方由PlayStation转向Xbox，项目目前仍面临开发和再次取消的风险。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Tower of Play",
-          "count": 1,
-          "summary": "索尼互动娱乐日本亚洲发布《Tower of Play》阵容视频，集中介绍《皇牌空战8：希孚之翼》《勇者斗恶龙怪兽篇：枯萎的世界》等17款游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "一盏秋声：锦衣卫",
-          "count": 1,
-          "summary": "IGN评国产明末武侠类魂动作RPG《一盏秋声：锦衣卫》战斗氛围类比《卧虎藏龙》，肯定其武术动作设计，计划于2027年登陆PC和PS5平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "不问凡尘",
-          "count": 1,
-          "summary": "国产修仙大作《不问凡尘》将于9月22日在Steam开启抢先体验，首发享有八折优惠，折后售价19.9元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "中二病咨询室：第二现实译者",
-          "count": 1,
-          "summary": "共情型心理悬疑ADV《中二病咨询室：第二现实译者》将于2026年10月9日在Steam开启抢先体验，截至11月12日将以38元特别定价销售。",
-          "summary_source": "llm"
         }
       ]
     }

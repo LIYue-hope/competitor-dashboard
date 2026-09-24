@@ -1,9 +1,85 @@
 {
-  "generated_at": "2026-09-23T00:34:11.378456+00:00",
+  "generated_at": "2026-09-24T00:47:15.178223+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-24",
+      "article_count": 5,
+      "game_count": 3,
+      "untagged_count": 2,
+      "digest": "2026年9月24日，游戏行业新闻汇总显示，EA Sports FC 27作为一款足球开放世界、模拟收纳与断舍离的游戏，在触乐的评测中被提及。同时，4399推出的塔防割草新游《嘎嘎特攻》下载量超过500万，但复刻《KingShot》并非易事，引发了对《Duck Survival》与《嘎嘎特攻》之间差异的讨论。此外，长文分析了游戏商业化的核心问题，指出其本质是匹配用户需求与产品价值，强调目标用户定位的重要性及用户画像构建方法。",
+      "digest_source": "llm",
+      "input_hash": "f0fca2f3b42f37b1",
+      "game_digests": [
+        {
+          "name": "EA Sports FC 27",
+          "count": 1,
+          "summary": "《EA Sports FC 27》：足球开放世界、模拟收纳与断舍离丨触乐。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "嘎嘎特攻",
+          "count": 1,
+          "summary": "4399下场做塔防割草新游，《嘎嘎特攻》月下载超500万。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "长文",
+          "count": 1,
+          "summary": "【长文】游戏商业化分析：卖给谁、卖什么、卖什么价、怎么卖。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "article_count": 13,
+      "game_count": 6,
+      "untagged_count": 7,
+      "digest": "2026年9月23日，游戏行业新闻汇总显示，土耳其独立PC游戏《BOMBANANA!》在发售十天内销量突破百万，标志着当地游戏产业从手游向PC的扩展趋势。此外，《不思议林中漫游》作为一款治愈系3D平台解谜游戏，今日正式发售，首周提供折扣。同时，《五行游》和《午夜轮班》两款游戏也分别于9月24日和7月发售，前者支持跨平台联机，后者由澳21岁开发者单人打造，创意曾搁置一年。最后，《超级小英雄》作为一款玩法测试向的羁绊肉鸽游戏，采用简约美术风格，融合割草玩法，设双层策略与双线养成体系，割草体验爽快，玩法体系较为健全。",
+      "digest_source": "llm",
+      "input_hash": "0c4549203dcd6277",
+      "game_digests": [
+        {
+          "name": "BOMBANANA!",
+          "count": 1,
+          "summary": "土耳其独立PC游戏崭露头角，《BOMBANANA!》十日销量破百万。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "一周游语Vol.160",
+          "count": 1,
+          "summary": "【一周游语Vol.160】未来所有新益智休闲玩法都会融合ASMR爽感加成吗？Hexa、Sort、贪吃蛇、Color Block Jam……。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "不思议林中漫游",
+          "count": 1,
+          "summary": "治愈系3D平台解谜游戏《不思议林中漫游》今日正式发售！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "五行游",
+          "count": 1,
+          "summary": "五行三消法术对战游戏《五行游》9月24日发售，支持跨平台联机。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "午夜轮班",
+          "count": 1,
+          "summary": "专访《午夜轮班》制作人：吃灰一年的点子卖爆百万份，40%玩家来自中国。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "超级小英雄",
+          "count": 1,
+          "summary": "小青蛙+羁绊肉鸽！《超级小英雄》的割草策略有点东西。",
+          "summary_source": "rules"
+        }
+      ]
+    },
     {
       "date": "2026-09-22",
       "article_count": 12,
@@ -323,35 +399,6 @@
           "name": "鬼谷八荒 2",
           "count": 1,
           "summary": "《鬼谷八荒2》体量大幅扩容、NPC系统复杂度暴涨百倍，工作室同时开发上古神话题材卡牌肉鸽新作《上古河图》。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "article_count": 7,
-      "game_count": 3,
-      "untagged_count": 4,
-      "digest": "三七发行的卡通魔兽风格放置MMORPG《小头盔大冒险》开启三测，采用2.5D俯视视角，设5类共15个可搭配技能，整体偏页游风，存在竞争力不足、挂机体验偏被动等问题。行业爆款焦虑之下，千万销量《戴夫》制作人参加9月11日在上海TapTap Meet the Game Creators游戏创作交流会。网易新作《无限大》在2026年8月科隆gamescom展上接受《Fami通》采访，透露将推出与大都市风格迥异的主角故乡郊区新地图，开发压力动力并存，正全力筹备上线。",
-      "digest_source": "llm",
-      "input_hash": "1426e09648398d6c",
-      "game_digests": [
-        {
-          "name": "小头盔大冒险",
-          "count": 1,
-          "summary": "三七发行的卡通魔兽风格放置MMORPG《小头盔大冒险》开启三测，采用2.5D俯视视角，设5类共15个可搭配技能，整体偏页游风，存在竞争力不足、挂机体验偏被动等问题。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "戴夫",
-          "count": 1,
-          "summary": "行业爆款焦虑之下，千万销量《戴夫》制作人参加9月11日在上海TapTap Meet the Game Creators游戏创作交流会。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "无限大",
-          "count": 1,
-          "summary": "网易新作《无限大》在2026年8月科隆gamescom展上接受《Fami通》采访，透露将推出与大都市风格迥异的主角故乡郊区新地图，开发压力动力并存，正全力筹备上线。",
           "summary_source": "llm"
         }
       ]

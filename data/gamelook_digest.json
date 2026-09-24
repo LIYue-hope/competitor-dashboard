@@ -1,9 +1,50 @@
 {
-  "generated_at": "2026-09-23T00:32:39.088330+00:00",
+  "generated_at": "2026-09-24T00:44:55.577544+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-23",
+      "article_count": 8,
+      "game_count": 5,
+      "untagged_count": 3,
+      "digest": "2026年9月23日，游戏行业新闻汇总显示，日本手游应用内购（IAP）收入超过100亿美元，位居亚洲市场第二。此外，《Wardogs》在Steam上的表现超越其他两款游戏，成为大黑马。FunPlus的《伊莫》在移动端预下载中表现惊人，登顶包括中国大陆地区在内的18国。Bungie宣布《命运2》复活，而《马拉松》则被冷处理。中国游戏纪录片《理想的存档》开播，记录了游戏行业的十年变迁。",
+      "digest_source": "llm",
+      "input_hash": "4481af27b2c225c7",
+      "game_digests": [
+        {
+          "name": "2026年日本游戏市场洞察报告",
+          "count": 1,
+          "summary": "《2026年日本游戏市场洞察报告》：日本手游应用内购（IAP）收入超过100亿美元。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Wardogs",
+          "count": 1,
+          "summary": "大黑马《Wardogs》数据复盘：Steam首发成绩超越”Arc Raider、绝地潜兵2″。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "伊莫",
+          "count": 1,
+          "summary": "“捉宠打败旗舰二游”？FunPlus《伊莫》中美韩18国登顶，全球预下载表现惊人。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "命运2",
+          "count": 1,
+          "summary": "Bungie不瞎折腾了？官宣《命运2》复活,《马拉松》冷处理。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "理想的存档",
+          "count": 1,
+          "summary": "大佬云集！中国游戏纪录片《理想的存档》开播，TapTap给这十年“存了档”。",
+          "summary_source": "rules"
+        }
+      ]
+    },
     {
       "date": "2026-09-22",
       "article_count": 7,
@@ -198,35 +239,6 @@
           "name": "鬼谷八荒 2",
           "count": 1,
           "summary": "鬼谷制作人张三在接受采访时表示，该作体量巨大，复杂度比前作高出 100 倍。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "article_count": 11,
-      "game_count": 3,
-      "untagged_count": 8,
-      "digest": "今日游戏行业资讯聚焦于《Wardogs》上线爆火引发的争议、Smilegate创始人离婚案引发的高额财产分割，以及Cygames宣布将开发小体量游戏。腾讯弃用的英国团队新作Steam首日34万在线，韩国游戏圈天价离婚案前妻获赔127亿元，Cygames则计划转型小体量游戏开发。",
-      "digest_source": "llm",
-      "input_hash": "cf33195d13e710f4",
-      "game_digests": [
-        {
-          "name": "Wardogs",
-          "count": 1,
-          "summary": "英国工作室Bulkhead新作Steam首日34万在线，服务器因挤爆出现事故，玩家花钱买票却面临登录困难。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "穿越火线",
-          "count": 1,
-          "summary": "韩国游戏圈爆出天价离婚案，Smilegate创始人权赫彬与前妻分割财产，前妻获得127亿元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "赛马娘",
-          "count": 1,
-          "summary": "Cygames宣布将开发小体量游戏，公司正认真琢磨小体量游戏的生意，计划另辟蹊径。",
           "summary_source": "llm"
         }
       ]
