@@ -1,48 +1,9 @@
 {
-  "crawled_at": "2026-09-24T00:28:09.703796+00:00",
+  "crawled_at": "2026-09-25T00:29:44.992965+00:00",
   "days": [
     {
-      "date": "2026-09-24",
-      "date_label": "09月24日 今天",
-      "games": [
-        {
-          "game_name": "光阴之外",
-          "categories": [
-            "模拟"
-          ],
-          "score": null,
-          "event_desc": "登录送百抽",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/guangyinzhiwai/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "一念长安",
-          "categories": [
-            "回合"
-          ],
-          "score": null,
-          "event_desc": "进长安城送VIP",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/ynza/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "烈焰大荒",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "三职传世刀刀真充",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/lieyandahuang/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-25",
-      "date_label": "09月25日 明天",
+      "date_label": "09月25日 今天",
       "games": [
         {
           "game_name": "召唤萌将",
@@ -121,6 +82,40 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/dianfengjizhan/",
           "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "date_label": "09月30日 下周三",
+      "games": [
+        {
+          "game_name": "无极侠士",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": "论剑巅峰",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/wujixiashi/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "date_label": "10月01日 下周四",
+      "games": [
+        {
+          "game_name": "三国之定江山",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/sanguozhidingjiangshan1/",
+          "has_afk_grinding_tag": true
         }
       ]
     },

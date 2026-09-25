@@ -1,35 +1,65 @@
 {
-  "generated_at": "2026-09-24T00:47:15.178223+00:00",
+  "generated_at": "2026-09-25T00:44:02.066815+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-09-24",
-      "article_count": 5,
-      "game_count": 3,
-      "untagged_count": 2,
-      "digest": "2026年9月24日，游戏行业新闻汇总显示，EA Sports FC 27作为一款足球开放世界、模拟收纳与断舍离的游戏，在触乐的评测中被提及。同时，4399推出的塔防割草新游《嘎嘎特攻》下载量超过500万，但复刻《KingShot》并非易事，引发了对《Duck Survival》与《嘎嘎特攻》之间差异的讨论。此外，长文分析了游戏商业化的核心问题，指出其本质是匹配用户需求与产品价值，强调目标用户定位的重要性及用户画像构建方法。",
+      "article_count": 12,
+      "game_count": 8,
+      "untagged_count": 4,
+      "digest": "今日游戏行业资讯涵盖多品类新作，包括EA Sports FC 27的开放世界探讨、SQOOL发布的桌面宠物应用Sill Dogs、4399塔防割草游戏嘎嘎特攻、未眠野实机PV及技术保密测试开启、爱谱雷与三七合作的宫斗IP游戏梦回甄嬛传、登陆多平台的行船模拟游戏海员人生、以及炼金与魔法家园系统更新，另有游戏商业化分析长文。",
       "digest_source": "llm",
-      "input_hash": "f0fca2f3b42f37b1",
+      "input_hash": "2cd99a5cfe054238",
       "game_digests": [
         {
           "name": "EA Sports FC 27",
           "count": 1,
-          "summary": "《EA Sports FC 27》：足球开放世界、模拟收纳与断舍离丨触乐。",
-          "summary_source": "rules"
+          "summary": "触乐发文探讨该作足球开放世界、模拟收纳与断舍离，分析其是否更大更复杂或只是换层包装。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Sill Dogs",
+          "count": 1,
+          "summary": "株式会社SQOOL于9月23日在Steam发布基本免费的桌面常驻像素宠物应用，含2种基础犬及付费DLC。",
+          "summary_source": "llm"
         },
         {
           "name": "嘎嘎特攻",
           "count": 1,
-          "summary": "4399下场做塔防割草新游，《嘎嘎特攻》月下载超500万。",
-          "summary_source": "rules"
+          "summary": "4399新作复刻KingShot玩法，上线首月下载量已超500万。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "未眠野",
+          "count": 1,
+          "summary": "实机PV重磅首发，物理化学双引擎重构涌现式大世界，技术保密测试于9月24日开启。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "梦回甄嬛传",
+          "count": 1,
+          "summary": "爱谱雷与三七合作试水二合赛道，绑定甄嬛传宫斗IP，以宫女视角推进剧情，但数值与剧情衔接存在不足。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "海员人生：行船模拟",
+          "count": 1,
+          "summary": "今日正式发售，登陆PC、PS5及Xbox Series X|S，支持中文与跨平台联机，含剧情战役及合作多人模式。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "炼金与魔法",
+          "count": 1,
+          "summary": "推出“苟命手册之搭建家园”更新，帮助玩家告别露宿荒野。",
+          "summary_source": "llm"
         },
         {
           "name": "长文",
           "count": 1,
-          "summary": "【长文】游戏商业化分析：卖给谁、卖什么、卖什么价、怎么卖。",
-          "summary_source": "rules"
+          "summary": "分析游戏商业化四大核心问题，指出本质是匹配用户需求与产品价值，强调目标用户定位及用户画像构建。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -353,53 +383,6 @@
           "count": 1,
           "summary": "随节拍开火！节奏弹幕射击 Roguelike《音序核心》Steam 试玩版现已上线。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "article_count": 14,
-      "game_count": 6,
-      "untagged_count": 8,
-      "digest": "今日游戏行业资讯聚焦于多款新作动态与厂商动向。网易停运《射雕》并推出复用技术的独立产品《千里之路》；卡普空前《生化危机6》制作人小林裕幸离职创业，新作《愚者不灭》定档10月22日；TapTap玩聚节上，《鬼谷八荒2》制作人透露其体量与NPC复杂度将大幅提升；《蕾卡的移动工坊》定档10月26日发售；触乐专访《洛克王国：世界》叙事负责人，该作S4赛季登顶iOS畅销榜Top2并公布国际服首测信息。",
-      "digest_source": "llm",
-      "input_hash": "9df8fd89aaaed013",
-      "game_digests": [
-        {
-          "name": "孤山独影",
-          "count": 1,
-          "summary": "《孤山独影》保留现实失误惩罚，让玩家在攀爬中反复面对失误，于紧绷状态下生出源自迟疑、压力的发热感。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "射雕",
-          "count": 1,
-          "summary": "网易停运《射雕》相关的新版号产品《千里之路》，项目方称其为独立产品，仅复用《射雕》的UE技术、美术积累，因IP授权到期未用射雕IP。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "洛克王国：世界",
-          "count": 1,
-          "summary": "《洛克王国：世界》S4赛季上线即登iOS畅销榜Top2，近期于科隆游戏展公布国际服首支预告，定档10月27日海外首测。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化危机6",
-          "count": 1,
-          "summary": "曾制作《生化危机6》等作品、在卡普空任职27年的小林裕幸离职创立工作室，其首款新作《愚者不灭》将于10月22日发售，已上线可继承存档的试玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "蕾卡的移动工坊",
-          "count": 1,
-          "summary": "魔女探索冒险游戏《蕾卡的移动工坊》1.0正式版10月26日发售，松竹游戏负责亚洲地区发行。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼谷八荒 2",
-          "count": 1,
-          "summary": "《鬼谷八荒2》体量大幅扩容、NPC系统复杂度暴涨百倍，工作室同时开发上古神话题材卡牌肉鸽新作《上古河图》。",
-          "summary_source": "llm"
         }
       ]
     }

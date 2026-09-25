@@ -1,22 +1,141 @@
 {
-  "generated_at": "2026-09-24T00:37:03.606487+00:00",
+  "generated_at": "2026-09-25T00:38:27.627187+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-24",
-      "article_count": 28,
-      "game_count": 25,
-      "untagged_count": 2,
-      "digest": "游戏行业动态：《最终幻想7：启示》总监辟谣性感蒂法不会变暴力，角色设计调整聚焦于战斗。B社确认黑曜石调整至旗下后将继续保留创作特色。《GTA6》露西亚演员关注角色身份未确认。SPINE发布新作《SPINE》，美女功夫游戏愿望单破60万。《光环》失去行业影响力，但游戏仍受期待。《全面战争：战锤3》更新9.0版本，重塑超凡帝国中后期节奏。《剑星》金亨泰表示对美腿造型的执着。《卡莉亚的炼金工房》新视频展示激烈战斗画面。《卧龙2：凤火连天》新实机演示，攻防博弈机制备受期待。《地狱之刃》注册“Senua”商标，IP延续可能性存疑。《女神异闻录4：复兴版》更换沐浴片段后评级降至CERO B。《寂静岭2》PS5模拟器运行成功，但内容显示有延迟。CDPR公布《巫师3：狂猎》重制版与原版对比视频，引发玩家质疑。《影之刃零》Steam十月发售，国产大作领衔。《战锤40K：战争黎明4》开发商遭遇高难度AI兽人挑战。",
+      "date": "2026-09-25",
+      "article_count": 12,
+      "game_count": 8,
+      "untagged_count": 3,
+      "digest": "R星公布《GTA6》399.99美元周边收藏套装不含游戏本体，引发对游戏定价的讨论。任天堂据称否决了育碧米兰开发的《塞尔达传说》衍生游戏原型。CDPR表示《巫师4》将延续道德灰度叙事，前B社设计师质疑《星空》推出续作的可能性，而《最终幻想7：启示》白金奖杯预计比前作更容易取得。",
       "digest_source": "llm",
-      "input_hash": "56c548d7bb242448",
+      "input_hash": "8db8d13391e549bb",
       "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 2,
+          "summary": "R星公布售价399.99美元的《GTA6：欢乐之州 罪恶都市收藏套装》，该套装不含游戏本体，仅包含周边物品，已于R星商店开放预购。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说",
+          "count": 1,
+          "summary": "任天堂据称否决了育碧米兰开发的《塞尔达传说》衍生游戏原型，该项目原计划由全新角色担任主角，后改为加侬多夫，最终在2023年11月下旬被否决。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 1,
+          "summary": "CDPR联席首席执行官亚当·巴多夫斯基表示，《巫师4》将继续打磨系列擅长的道德灰度叙事，通过有歧义的选择及其后果给玩家留下深刻印象，并强调团队不会追逐潮流。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战犬",
+          "count": 1,
+          "summary": "《战犬》负责人乔·布拉默认为游戏售价需要提高，并认为《GTA6》本有机会推动这一变化，但他指出游戏卖得太便宜，开发成本却太高。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星空",
+          "count": 1,
+          "summary": "前B社首席系统设计师库尔特·库尔曼认为《星空》推出续作的可能性不大，因为游戏并没有成功到足以让工作室制作第二部的程度。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7：启示",
+          "count": 1,
+          "summary": "《最终幻想7：启示》白金奖杯将比《最终幻想7：重生》更容易取得，开发团队预计约20%甚至更多玩家能够拿到这座奖杯。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7：重制版",
+          "count": 1,
+          "summary": "《最终幻想7：重制版》系列总监滨口直树表示，将原作改编为三部曲是一项伴随商业风险的创作决定，如果首作表现不佳，后续作品开发将面临难题。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "超越善恶2",
+          "count": 1,
+          "summary": "育碧确认《超越善恶2》仍在开发中，游戏总监再次确认项目状态，参与《刺客信条：影》创作的编剧Rik Godwin近日发文称自己也在参与该作工作。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "article_count": 132,
+      "game_count": 102,
+      "untagged_count": 18,
+      "digest": "游戏行业动态：《GTA6》实体盒照片流出，英国门店陈列。欧盟筹备强化未成年人网络保护措施。《光环》系列转向动视后可能迎来全面重启。《全境封锁2》推出“红月升起”更新，加入新装备和暗区活动。《剑星》采用不同服装扫描七至八名模特展示。《堡垒之夜》推出新内容，包括新角色和武器。《宝可梦》发布联名鞋款，采用立体闪电图案设计。《最终幻想7：启示》总监辟谣性感蒂法不会变暴力狂。《辐射》将于10月22日在涩谷开设限时联名咖啡馆。《魔兽世界：无限》下个补丁中增强部分区域天气效果。《ARC突袭者》推出“冰封之路”大型更新，包含雪地地图和新敌人等。B社确认黑曜石调整至旗下后仍将保留创作特色。Discord自动判断用户年龄，被判定为青少年将受到限制。Mihira: The Eternal Arc公布核心玩法，同一地点藏着两条时间线。Nintendo Switch 2欢迎之旅推出1.1.1版修复问题。",
+      "digest_source": "llm",
+      "input_hash": "aaa1e5b0ed09ff73",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "《GTA6》实体盒照片流传 英国门店陈列的是无盘展示盒；欧盟筹备强化未成年人网络保护，《GTA6》或需核验年龄；《GTA6》露西亚传闻演员回应关注 角色身份仍未确认。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "控制：共振",
+          "count": 3,
+          "summary": "《控制：共振》发售当天推出首个热修复，下调敌人生命值并增强迪伦战力；《控制：共振》首发遭破解 部分玩家称愿意购买正版以支持Remedy；墙壁和天花板都能走，《控制：共振》改造开放世界移动。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "光环",
+          "count": 2,
+          "summary": "传闻动视计划全面重塑《光环》系列，新作将脱离现有世界观；GameSpot称《光环》在Bungie离开后失去行业影响力。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "全境封锁2",
+          "count": 2,
+          "summary": "《全境封锁2》推出“红月升起”更新，开放暗区活动并加入两件装备；《全境封锁2》9月24日至28日开放免费试玩。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "剑星",
+          "count": 2,
+          "summary": "金亨泰：《剑星》为不同服装扫描约七至八名模特；金亨泰：制作《剑星》伊芙时 我最看重的就是逼真身体。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "堡垒之夜",
+          "count": 2,
+          "summary": "从公开求皮肤到正式联动，麦迪逊·比尔加入《堡垒之夜》；《堡垒之夜》上线《玩具总动员5：大营救》限时体验。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "宝可梦",
+          "count": 2,
+          "summary": "adidas日本推出《宝可梦》皮卡丘联名鞋，鞋面采用立体闪电图案；宝可梦公司公布《宝可梦》30周年赛富豪纯金摆件及金箔雕像。",
+          "summary_source": "rules"
+        },
         {
           "name": "最终幻想7：启示",
           "count": 2,
           "summary": "《最终幻想7：启示》总监辟谣 性感蒂法不会变暴力狂；《最终幻想7：启示》部分支线随主角变化 单周目无法体验全部内容。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "辐射",
+          "count": 2,
+          "summary": "《辐射》将于10月22日在涩谷开设限时联名咖啡馆；《辐射》主创蒂姆·凯恩披露避难所小子与SPECIAL诞生关联。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "魔兽世界：无限",
+          "count": 2,
+          "summary": "暴雪将在《魔兽世界：无限》下个补丁中增强部分区域天气效果；暴雪称《魔兽世界：无限》将忠实还原原版体验。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "ARC突袭者",
+          "count": 1,
+          "summary": "《ARC突袭者》“冰封之路”大型更新确定10月8日推出。",
           "summary_source": "rules"
         },
         {
@@ -26,81 +145,21 @@
           "summary_source": "rules"
         },
         {
-          "name": "GTA6",
+          "name": "Discord",
           "count": 1,
-          "summary": "《GTA6》露西亚传闻演员回应关注 角色身份仍未确认。",
+          "summary": "Discord自动判断用户年龄，被判为青少年将受到限制。",
           "summary_source": "rules"
         },
         {
-          "name": "SPINE",
+          "name": "Mihira: The Eternal Arc",
           "count": 1,
-          "summary": "美女功夫游戏《SPINE》愿望单破60万 2027夏季发售。",
+          "summary": "同一地点藏着两条时间线 《Mihira: The Eternal Arc》公布核心玩法。",
           "summary_source": "rules"
         },
         {
-          "name": "光环",
+          "name": "Nintendo Switch 2欢迎之旅",
           "count": 1,
-          "summary": "GameSpot称《光环》在Bungie离开后失去行业影响力。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "全面战争：战锤3",
-          "count": 1,
-          "summary": "《全面战争：战锤3》9.0更新重塑超凡帝国战役中后期。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "剑星",
-          "count": 1,
-          "summary": "金亨泰：制作《剑星》伊芙时 我最看重的就是逼真身体。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "卡莉亚的炼金工房",
-          "count": 1,
-          "summary": "《卡莉亚的炼金工房》新视频 展示激烈战斗画面。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "卧龙2：凤火连天",
-          "count": 1,
-          "summary": "《卧龙2：凤火连天》新实机演示 全新攻防博弈机制。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "地狱之刃",
-          "count": 1,
-          "summary": "Xbox注册“Senua”商标 关闭忍者理论后或将保留《地狱之刃》IP。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "女神异闻录4：复兴版",
-          "count": 1,
-          "summary": "《女神异闻录4：复兴版》更换沐浴片段后评级降至CERO B。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "寂静岭2",
-          "count": 1,
-          "summary": "PS5模拟器使用Radeon 840核显运行《寂静岭2》重制版。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "巫师3",
-          "count": 1,
-          "summary": "CDPR公布《巫师3》重制版与原版对比视频 画面变化引发质疑。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "Steam十月发售游戏推荐 国产大作《影之刃零》领衔。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "战锤40K：战争黎明4",
-          "count": 1,
-          "summary": "《战锤40K：战争黎明4》困难难度不是开玩笑 开发者组队遭兽人AI虐杀。",
+          "summary": "VRR更新之后 《Nintendo Switch 2欢迎之旅》又推出1.1.1版修复问题。",
           "summary_source": "rules"
         }
       ]
@@ -910,107 +969,6 @@
           "count": 1,
           "summary": "系列累计销量突破100万份，官方同步开启纪念抽奖活动。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "article_count": 94,
-      "game_count": 62,
-      "untagged_count": 26,
-      "digest": "《漫威金刚狼》在9月15日发布，包含新角色和合作内容。《GTA6》开发团队讨论了社会讽刺内容取舍问题。《守墓人2》试玩版提供，但具体发售日期未定。《暗黑破坏神5》套装装备将在游戏内回归。《深空当铺：可能是偷的》10月28日登陆Steam。《007：初露锋芒》延期至2027年3月。《ARC Raiders》远征系统将在未来取消。《Apex英雄》暗示即将与《街头霸王》联动。《B.L.U.E. NOVA》将于2027年登陆Steam。《Dark Machine The Game》预计2027年推出。《Enigma of fear》更新中文成就，官方中文本地化即将上线。《Isle Goblin》由Pocketpair与FireshineGames联合发行。《Putty World》计划于2027年第二季度登陆Nintendo Switch 2。《TCG卡牌店模拟器》结束抢先体验并推出1.0版。《Vampire Survivors-吸血鬼幸存者》制作团队打造的新大逃杀游戏发售时期变更至2027年。",
-      "digest_source": "llm",
-      "input_hash": "0d711a8fbe101140",
-      "game_digests": [
-        {
-          "name": "漫威金刚狼",
-          "count": 3,
-          "summary": "《漫威金刚狼》片尾名单确认和Sweet Baby有合作；玩家质疑《漫威金刚狼》角色形象，主演表示自己仍为游戏感到自豪；SIE推出PS5《漫威金刚狼》 蓄满两层怒气可在生命归零时复苏。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "《GTA6》开发者大谈如何让讽刺内容经久不衰；《GTA6》内容太多 R星以27分钟演示取代传统预告。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "守墓人2",
-          "count": 2,
-          "summary": "tinyBuild 在 tinyBuild Connect 发布会上公布《守墓人2》试玩版；《守墓人2》现已推出试玩版 进度可直接带入正式版。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "暗黑破坏神5",
-          "count": 2,
-          "summary": "玩家又要开始肝了 暴雪谈《暗黑破坏神5》的套装系统；暴雪解释《暗黑破坏神5》立项原因：结构性改动难由四代资料片实现。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "深空当铺：可能是偷的",
-          "count": 2,
-          "summary": "赛博朋克商店经营模拟游戏《深空当铺：可能是偷的》10月28日登陆Steam；赛博朋克当铺模拟游戏《深空当铺：可能是偷的》定档，支持简中。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "007：初露锋芒",
-          "count": 1,
-          "summary": "IO Interactive宣布《007：初露锋芒》Switch 2版延期至2027年3月。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "ARC Raiders",
-          "count": 1,
-          "summary": "《ARC Raiders》远征系统暂停至2027年 未来可能直接取消。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Apex英雄",
-          "count": 1,
-          "summary": "《Apex英雄》官方强烈暗示波动拳 接下来联动《街霸》。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "B.L.U.E. NOVA",
-          "count": 1,
-          "summary": "免费PvE射击新作《B.L.U.E. NOVA》公布 2027年登陆Steam。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Dark Machine The Game",
-          "count": 1,
-          "summary": "《Dark Machine The Game》亮相Steam 三种尺寸机体参与多人战斗。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Enigma of fear",
-          "count": 1,
-          "summary": "疑似泄露？Steam95%好评\"巴西独游之星\"《Enigma of fear》官中或将上线。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Isle Goblin",
-          "count": 1,
-          "summary": "《Isle Goblin》宣布由Pocketpair与FireshineGames联合发行。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Putty World",
-          "count": 1,
-          "summary": "System 3公布系列重制版《Putty World》 2027年第二季度登陆Nintendo Switch 2。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "TCG卡牌店模拟器",
-          "count": 1,
-          "summary": "《TCG卡牌店模拟器》告别抢先体验，1.0版新增近2000张卡牌。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Vampire Survivors-吸血鬼幸存者",
-          "count": 1,
-          "summary": "《Vampire Survivors-吸血鬼幸存者》制作团队打造、最多 8 人对战的全新大逃杀游戏。",
-          "summary_source": "rules"
         }
       ]
     }

@@ -1,106 +1,207 @@
 {
-  "generated_at": "2026-09-24T00:39:01.180968+00:00",
+  "generated_at": "2026-09-25T00:41:15.032373+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-23",
-      "article_count": 68,
-      "game_count": 51,
-      "untagged_count": 10,
-      "digest": "R星确认《GTA6》首发仅含单人模式无线上模块，PC版暂无官方公示；Remedy《控制：共振》发售日临近引发争议，魔形女Cosplay与《漫威金刚狼》销量下滑引发关注；Shift Up披露《剑星》开发危机，小岛秀夫谈《Physint》转投Xbox，Xbox接管《光环》主导权。",
+      "date": "2026-09-24",
+      "article_count": 91,
+      "game_count": 66,
+      "untagged_count": 23,
+      "digest": "2026年9月24日，游戏行业新闻内容丰富，涉及多款游戏和厂商。控制：共振在发售前一天遭到泄露，而《查无此地》的抢先体验版发布，以及《ARC Raiders》的1.47.0补丁更新解决了关键问题。此外，《CS》之父透露了关于G胖的有趣信息，《even if TEMPEST 黄昏中魔女如是说》登陆Steam，独立游戏工作室公布了新作《东京城塞都市》，Epic CEO支持微软重组，《兰斯7：战国兰斯》将于10月2日登陆Steam，《剑星》Switch 2紧急加入帧生成功能，《半条命》的冷知识揭示了Steam的起源，《地平线6》遭遇UGC审核风波，《地狱之刃》Xbox注册了“Senua”商标，《堕落之主2》公布新敌人Hysterics设定并邀请玩家命名，《堡垒之夜》官宣流行歌手麦迪逊·比尔加盟偶像系列。",
       "digest_source": "llm",
-      "input_hash": "3d23a66943ba4fd6",
+      "input_hash": "df189deea022753c",
+      "game_digests": [
+        {
+          "name": "控制：共振",
+          "count": 2,
+          "summary": "游侠早报：《控制:共振》泄露！《超越善恶2》开发中；《控制：共振》发售前一天惨遭泄露！游戏无D加密。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "查无此地",
+          "count": 2,
+          "summary": "《查无此地》超自然搜打撤预告曝光！支持4人联机游玩；成为超自然维度勘探特工！俯视角PVE搜打撤《查无此地》Steam发售定档10月14日抢先体验开启。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "ARC Raiders",
+          "count": 1,
+          "summary": "《ARC Raiders》1.47.0补丁上线 PS5频繁崩溃已解决。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "CS",
+          "count": 1,
+          "summary": "呼麦/收藏/锻刀《CS》之父黎明眼中怪异的G胖。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "FF7：重制版",
+          "count": 1,
+          "summary": "外媒评《FF7:重制版》：喜剧元素介入削弱了严肃基调。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "even if TEMPEST 黄昏中魔女如是说",
+          "count": 1,
+          "summary": "大热乙游《even if TEMPEST 黄昏中魔女如是说》今日登陆Steam！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "东京城塞都市",
+          "count": 1,
+          "summary": "独立游戏工作室公布潜行动作新作《东京城塞都市》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "光环",
+          "count": 1,
+          "summary": "Epic CEO力挺微软重组!认为《光环》交给动视合情合理。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "兰斯7：战国兰斯",
+          "count": 1,
+          "summary": "绅士们别错过！《兰斯7：战国兰斯》10月2日登陆Steam。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "回应Demo差评！《剑星》Switch 2紧急加入帧生成！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "半条命",
+          "count": 1,
+          "summary": "冷知识！Steam创立的起因 竟是和《半条命》发行商闹掰。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "地平线6",
+          "count": 1,
+          "summary": "日本舞台却封杀痛车？《地平线6》UGC审核风波升级。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "地狱之刃",
+          "count": 1,
+          "summary": "微软不打算放弃《地狱之刃》？Xbox锁定\"Senua\"商标。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "堕落之主2",
+          "count": 1,
+          "summary": "《堕落之主2》新情报 亮相诡异怪物 官方邀玩家命名。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "堡垒之夜",
+          "count": 1,
+          "summary": "复刻维密秀造型 麦迪逊·比尔加盟《堡垒之夜》偶像系列。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "article_count": 91,
+      "game_count": 61,
+      "untagged_count": 20,
+      "digest": "今日游戏资讯聚焦于《GTA6》首发仅含单人模式、PC版暂无消息及路人NPC技术细节；《控制：共振》发售临近且PS独占引发争议；《漫威金刚狼》实体销量遇冷、魔形女造型引热议；《光环》主导权移交动视及前高管言论遭批；此外《剑星》开发幕后故事曝光，小岛秀夫新作转投Xbox，《CS2》静默换弹机制更新，以及《Apex英雄》与《街霸6》联动上线。",
+      "digest_source": "llm",
+      "input_hash": "d0b18b9c9e631f2b",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 3,
-          "summary": "R星官方确认首发仅有单人模式无线上模块，PC版暂无官方公示，网传Steam页面泄露不实。",
+          "count": 4,
+          "summary": "R星官方确认首发仅含单人模式，无线上模块，PC版暂无官方公示，网传Steam页面泄露不实。",
           "summary_source": "llm"
         },
         {
           "name": "控制：共振",
           "count": 3,
-          "summary": "Remedy宣布游戏将于9月24日全球发售，预购奖励拉满，但因PS5独占48小时引发其他平台玩家不满。",
+          "summary": "Remedy宣布游戏将于9月24日发售，预购奖励丰富，但因PS5独占48小时引发其他平台玩家不满。",
           "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
           "count": 3,
-          "summary": "实体版价格大跌，魔形女Cosplay因偏离经典形象引发争议，销量出现显著下滑。",
+          "summary": "实体版价格大跌，二手成交价仅270元，魔形女Cosplay走红引发争议，销量出现显著下滑。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "光环",
+          "count": 2,
+          "summary": "动视将全面接管《光环》系列开发，Xbox内部重组计划将Rare和World’s Edge纳入动视管理版图。",
           "summary_source": "llm"
         },
         {
           "name": "剑星",
           "count": 2,
-          "summary": "Shift Up CEO披露公司财务危机差点让游戏胎死腹中，总监强调伊芙身材的勒肉感与晃动真实感。",
+          "summary": "Shift Up CEO披露游戏险些因财务危机被取消，总监强调角色伊芙身材的“勒肉感”与真实晃动是核心设计。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "金刚狼",
+          "count": 2,
+          "summary": "叙事总监解释罗根必须比剑齿虎矮一截的深层情感考量，数据显示数字版收入占比近八成，实体盘遇冷。",
           "summary_source": "llm"
         },
         {
           "name": "Apex英雄",
           "count": 1,
-          "summary": "与《街霸6》跨界联动活动登陆全平台，外卡模式登陆奥林匹斯地图，推出街霸能量与传奇皮肤。",
+          "summary": "与《街霸6》的跨界联动活动现已登陆全平台，外卡模式登陆奥林匹斯地图，推出多款传奇皮肤。",
           "summary_source": "llm"
         },
         {
           "name": "CS",
           "count": 1,
-          "summary": "“Gooseman”回忆在Valve任职期间与G胖共事的趣事，爆出G胖在办公室的各种怪人行为。",
+          "summary": "G胖爱呼麦?《CS》之父爆G胖在办公室的各种怪人行为。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "CS2",
+          "count": 1,
+          "summary": "推出“尖峰时刻”版本，时隔15年上线静默换弹机制，彻底打破游戏对局逻辑。",
           "summary_source": "llm"
         },
         {
           "name": "FF7",
           "count": 1,
-          "summary": "滨口直树称《FF7》重制三部曲体量巨大，未来难有游戏匹敌。",
+          "summary": "滨口直树表示《FF7》重制三部曲体量巨大，未来难有游戏匹敌。",
           "summary_source": "llm"
         },
         {
           "name": "P.O.N.",
           "count": 1,
-          "summary": "联机恐怖新作采用反派视角，让玩家扮演地下犯罪团伙成员体验惊险的被狩猎式玩法。",
+          "summary": "独立恐怖游戏《P.O.N.》今日发售，采用反派视角的沉浸式狩猎玩法。",
           "summary_source": "llm"
         },
         {
           "name": "Physint",
           "count": 1,
-          "summary": "小岛秀夫首次公开动作谍战新作从PlayStation转投Xbox背后的内幕。",
+          "summary": "小岛秀夫新作从PlayStation转投Xbox，Xbox赞其企划前所未见。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不义联盟3",
+          "count": 1,
+          "summary": "NetherRealm工作室辟谣《不义联盟3》与《真人快打13》内测传闻，称其为百分百假消息。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不思议林中漫游",
+          "count": 1,
+          "summary": "治愈系3D平台解谜游戏今日正式发售，玩家需旋转传送门寻找归途。",
           "summary_source": "llm"
         },
         {
           "name": "不朽遗志",
           "count": 1,
-          "summary": "IGN发布前瞻视频，介绍由《幽灵行者》团队打造的第一人称类魂动作游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "中土世界",
-          "count": 1,
-          "summary": "《中土世界：暗影魔多》与《战争之影》捆绑包上架Switch，预购享5折优惠。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "为了吾王2",
-          "count": 1,
-          "summary": "公开付费DLC4角色包“尘埃落定”，包含两位新角色及全新冒险篇章。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "余烬之镇 Emberville",
-          "count": 1,
-          "summary": "宣布将于10月27日登陆Steam抢先体验，10月19日至26日开放Demo。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环",
-          "count": 1,
-          "summary": "动视将全面接管《光环》系列未来开发，把Rare和World’s Edge纳入管理版图。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刀锋战士",
-          "count": 1,
-          "summary": "马赫沙拉·阿里自曝因档期冲突推掉大量角色，坦言为备战该片导致膝盖受伤。",
+          "summary": "IGN发布前瞻视频，介绍这款第一人称类魂游戏以拿破仑平行时代为背景的玩法。",
           "summary_source": "llm"
         }
       ]
@@ -808,107 +909,6 @@
           "name": "Apex英雄",
           "count": 1,
           "summary": "《Apex 英雄》将联动《街头霸王6》，活动于9月22日至10月13日上线，公布八款传奇皮肤。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "article_count": 111,
-      "game_count": 65,
-      "untagged_count": 27,
-      "digest": "今日游戏行业资讯聚焦索尼独占大作《漫威金刚狼》正式发售引发媒体热议，同时《GTA6》盗车机制革新与《007：初露锋芒》Switch版延期等消息引发关注，此外《匹诺曹的谎言》续作商标注册、黑影职业重做及《暗黑4》Switch 2版实装等动态也占据重要篇幅。",
-      "digest_source": "llm",
-      "input_hash": "10090965bc30f0e8",
-      "game_digests": [
-        {
-          "name": "漫威金刚狼",
-          "count": 11,
-          "summary": "索尼独占大作《漫威金刚狼》正式上线，外媒调侃独占优势，Insomniac Games揭秘主打近战肉搏与环境破坏，PS商店评分显示92%玩家打出五星好评。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 3,
-          "summary": "R星官方曝光《GTA6》全新偷车机制，彻底重构沿用近三十年的一键盗车系统，索尼TGS 2026展台将提供《GTA6》限定周边免费领取。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "007：初露锋芒",
-          "count": 2,
-          "summary": "IO Interactive宣布《007：初露锋芒》Switch 2版延期至2027年3月发售，同时路径追踪技术实装并公布PC配置表。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "WARDOGS",
-          "count": 2,
-          "summary": "多人战术射击游戏《WARDOGS》销量突破200万份，Steam抢先体验开启后出现“蓝队歧视”现象，峰值同时在线人数约43万。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "匹诺曹的谎言",
-          "count": 2,
-          "summary": "发行商Neowiz在韩国注册“Wonders of O”商标，被广泛猜测与《匹诺曹的谎言》续作有关，该名称结构高度相似且指向《绿野仙踪》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "守望先锋",
-          "count": 2,
-          "summary": "暴雪嘉年华访谈曝光《守望先锋》黑影将转型支援位，该改动随第五赛季于10月6日上线，同时猎空早期“双眼射激光”的幕后秘闻被曝光。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "暗黑4",
-          "count": 2,
-          "summary": "《暗黑破坏神4：憎恨时代合集》Switch 2版实体包装曝光，盒内仅含78GB安装容量的数字下载码，官方FAQ公开了双模式运行细节。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "火焰纹章：万缕千丝",
-          "count": 2,
-          "summary": "任天堂公开Switch 2版《火焰纹章：万缕千丝》介绍视频，游戏将于9月17日发售，港服实体版售价549港币，支持简体中文。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "马拉松",
-          "count": 2,
-          "summary": "索尼旗下Bungie工作室启动第三轮裁员，实际规模可能更大，同时《马拉松》宣布将更新延后到年底，取消过去固定的一季一更赛季模式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Cyan Heart",
-          "count": 1,
-          "summary": "独立恐怖解谜游戏《Cyan Heart》将于10月9日登陆Steam，售价1300日元，游戏以受限自拍镜头为核心玩法。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Enigma of fear",
-          "count": 1,
-          "summary": "Steam好评如潮的巴西生存恐怖神作《Enigma Of Fear》突现中文成就更新，被玩家视为官方中文即将上线的信号。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FGO",
-          "count": 1,
-          "summary": "《Fate/Grand Order》制作人盐川洋介领衔的新作《冥月悸动》公开，首个试玩版将于东京电玩展2026展出，四位声优阵容同步公布。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "P5X",
-          "count": 1,
-          "summary": "《女神异闻录：夜幕魅影》公开与《女神异闻录3 携带版》联动OP动画，确认P3P女性主人公“汐见琴音”将于9月24日登场。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Vanakan",
-          "count": 1,
-          "summary": "文字冒险游戏《Vanakan》现正在Epic游戏商店限时免费领取。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "不义联盟3",
-          "count": 1,
-          "summary": "神秘3A格斗游戏新作招募测试，因风格过于像《不义联盟3》引发玩家猜测是NetherRealm新作。",
           "summary_source": "llm"
         }
       ]
