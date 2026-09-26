@@ -1,38 +1,21 @@
 {
-  "crawled_at": "2026-09-25T00:29:44.992965+00:00",
+  "crawled_at": "2026-09-26T00:30:25.111615+00:00",
   "days": [
     {
-      "date": "2026-09-25",
-      "date_label": "09月25日 今天",
+      "date": "2026-09-28",
+      "date_label": "09月28日 后天",
       "games": [
         {
-          "game_name": "召唤萌将",
+          "game_name": "英雄冒险家",
           "categories": [
-            "休闲"
-          ],
-          "score": "7.2",
-          "event_desc": "蔚蓝星球",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zhaohuanmengjiang/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "商世传奇",
-          "categories": [
-            "角色扮演"
+            "卡牌"
           ],
           "score": null,
           "event_desc": null,
           "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/shangshichuanqi/",
+          "detail_url": "https://www.9game.cn/yxmxj/",
           "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-09-28",
-      "date_label": "09月28日 下周一",
-      "games": [
+        },
         {
           "game_name": "冒险与征途",
           "categories": [
@@ -132,6 +115,125 @@
           "event_desc": "零氪送万抽",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/xiaoyaojiuzhongtian/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "date_label": "10月10日",
+      "games": [
+        {
+          "game_name": "超级新宠物",
+          "categories": [
+            "模拟"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/cjxcw/",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "date_label": "10月13日",
+      "games": [
+        {
+          "game_name": "乱世龙魂",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/lslh/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "date_label": "10月14日",
+      "games": [
+        {
+          "game_name": "龙之谷：启程",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": "7.0",
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/lzgqc/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "date_label": "10月15日",
+      "games": [
+        {
+          "game_name": "剑侠世界4",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/jxsj4wx/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "date_label": "10月16日",
+      "games": [
+        {
+          "game_name": "最传奇",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "复古打金传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/zuichuanqi3/",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "date_label": "10月21日",
+      "games": [
+        {
+          "game_name": "守护庄园",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/shouhuzhuangyuan/",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "date_label": "10月22日",
+      "games": [
+        {
+          "game_name": "深空之劫",
+          "categories": [
+            "策略"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/shenkongzhijie/",
           "has_afk_grinding_tag": false
         }
       ]

@@ -1,41 +1,9 @@
 {
-  "crawled_at": "2026-09-25T00:30:08.366597+00:00",
+  "crawled_at": "2026-09-26T00:30:41.118052+00:00",
   "days": [
     {
-      "date": "2026-09-25",
-      "date_label": "09月25日 今天",
-      "games": [
-        {
-          "game_name": "权倾天下",
-          "categories": [
-            "休闲"
-          ],
-          "score": null,
-          "release_date": "2026-09-25",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1956462.html",
-          "publisher": "白菜",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "贝克兰德纪事",
-          "categories": [
-            "文字"
-          ],
-          "score": null,
-          "release_date": "2026-09-25",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1955771.html",
-          "publisher": "真我工作室",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-09-26",
-      "date_label": "09月26日 明天",
+      "date_label": "09月26日 今天",
       "games": [
         {
           "game_name": "伯吉的温馨厨房",
@@ -56,7 +24,7 @@
     },
     {
       "date": "2026-09-28",
-      "date_label": "09月28日 下周一",
+      "date_label": "09月28日 后天",
       "games": [
         {
           "game_name": "诡偶",
@@ -264,6 +232,29 @@
           "publisher": "木子时代",
           "is_major_publisher": false,
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "date_label": "10月02日 下周五",
+      "games": [
+        {
+          "game_name": "萌宠拆拆乐",
+          "categories": [
+            "多平台",
+            "休闲",
+            "多人联机",
+            "竞技",
+            "策略"
+          ],
+          "score": "8.6",
+          "release_date": "2026-10-02",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1889216.html",
+          "publisher": "气态喵游戏",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
         }
       ]
     }

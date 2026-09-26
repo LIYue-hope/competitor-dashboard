@@ -1,9 +1,32 @@
 {
-  "generated_at": "2026-09-25T00:44:02.066815+00:00",
+  "generated_at": "2026-09-26T00:40:01.348838+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-25",
+      "article_count": 7,
+      "game_count": 2,
+      "untagged_count": 5,
+      "digest": "今日游戏行业资讯主要聚焦于两款新晋热门独立游戏，其中《针影裁梦》凭借3人团队开发的制衣玩法在Steam大获成功，登顶全球畅销榜第八并收获96%好评；另一款《正中靶心2》则被分析为具备爆款潜力的黑白简笔塔防续作。",
+      "digest_source": "llm",
+      "input_hash": "483bb1f2bf01390c",
+      "game_digests": [
+        {
+          "name": "潜力佳作",
+          "count": 1,
+          "summary": "【潜力佳作】黑白简笔塔防续作，团队作战能否爆火？- 《正中靶心2》产品分析。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "针影裁梦",
+          "count": 1,
+          "summary": "3人团队开发的制衣游戏登陆Steam，发售首日登全球畅销榜第八，好评率达96%》",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-09-24",
       "article_count": 12,
@@ -312,77 +335,6 @@
           "count": 1,
           "summary": "哔哩哔哩游戏自研异世界冒险捉宠RPG手游全球公测，推出捉宠玩法、公测福利、多IP联动及百万创作激励。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "article_count": 20,
-      "game_count": 10,
-      "untagged_count": 10,
-      "digest": "2026年9月16日，游戏行业动态丰富多样。Adjust发布了《2026年日本移动应用趋势报告》，揭示了金融应用领跑增长、卡牌游戏和短剧爆发的市场趋势。Legacy Code作为讲谈社推出的物理模拟新游，入围TGS SOWN最终8强，主打创造-战斗-收集循环玩法。inZOI经历了系统改版甚至重制，希望玩家能在游戏中获得现实生活的勇气。大司马与呆妹领衔的《剑侠世界 4：无限》将于10月15日公测，开启大江湖冒险。以《绝区零》限时活动体验为引，探讨影响玩家参与限时活动的核心因素。中国儒意的游戏版图逐渐浮出水面，《未眠野》切入开放世界赛道，构建SLG、体育、顶流IP三大战线。成都日食边缘工作室的国产动作冒险游戏《湮灭之潮》获科隆游戏展“最具史诗感游戏”奖，监制陈琦称选亚瑟王题材源于团队对动作游戏的热爱。One or Eight旗下村庄建设动作RPG《笑拉了，我家旁边是魔王城666》将于2026年11月13日开启Steam抢先体验。Gamirror Games公布《骰子浪游者》核心团队新作——节奏弹幕射击Roguelike《音序核心》，Steam试玩版现已上线，正式版计划2027年发售。",
-      "digest_source": "llm",
-      "input_hash": "73b0d26e8a2e2add",
-      "game_digests": [
-        {
-          "name": "2026年日本移动应用趋势报告",
-          "count": 1,
-          "summary": "Adjust 发布《2026年日本移动应用趋势报告》。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Legacy Code",
-          "count": 1,
-          "summary": "讲谈社物理新游《Legacy Code》Steam页面公开！入围TGS SOWN！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "inZOI",
-          "count": 1,
-          "summary": "《inZOI》制作人群访：做得艰难但不后悔。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "伊莫",
-          "count": 1,
-          "summary": "《伊莫》PC端及云游戏今日上线，快前往艾德尔大陆开启联结冒险。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "剑侠世界 4：无限",
-          "count": 1,
-          "summary": "大司马VS呆妹领衔！《剑侠世界 4：无限》10月15日公测共赴大江湖。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "明明想要，为什么还是放弃？限时活动什么时候能真正促活",
-          "count": 1,
-          "summary": "《明明想要，为什么还是放弃？限时活动什么时候能真正促活》。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "未眠野",
-          "count": 1,
-          "summary": "不止《未眠野》，中国儒意的游戏版图逐渐浮出水面。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 1,
-          "summary": "对话《湮灭之潮》陈琦：一支成都团队为何要死磕亚瑟王？。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "笑拉了，我家旁边是魔王城666",
-          "count": 1,
-          "summary": "《笑拉了，我家旁边是魔王城666》11月13日Steam EA发售，确认参展TGS！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "音序核心",
-          "count": 1,
-          "summary": "随节拍开火！节奏弹幕射击 Roguelike《音序核心》Steam 试玩版现已上线。",
-          "summary_source": "rules"
         }
       ]
     }

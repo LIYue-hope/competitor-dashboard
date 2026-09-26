@@ -1,64 +1,171 @@
 {
-  "generated_at": "2026-09-25T00:38:27.627187+00:00",
+  "generated_at": "2026-09-26T00:36:53.239880+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-25",
-      "article_count": 12,
-      "game_count": 8,
-      "untagged_count": 3,
-      "digest": "R星公布《GTA6》399.99美元周边收藏套装不含游戏本体，引发对游戏定价的讨论。任天堂据称否决了育碧米兰开发的《塞尔达传说》衍生游戏原型。CDPR表示《巫师4》将延续道德灰度叙事，前B社设计师质疑《星空》推出续作的可能性，而《最终幻想7：启示》白金奖杯预计比前作更容易取得。",
+      "date": "2026-09-26",
+      "article_count": 11,
+      "game_count": 9,
+      "untagged_count": 1,
+      "digest": "今日游戏行业资讯涵盖多款热门作品，GTA6移植Switch 2面临技术挑战，Bungie为《失落星船：马拉松》过难致歉并计划调整，CDPR公布《巫师3》重制版画面引发争议但确认原版可玩，暴雪就《暗黑破坏神4》第15赛季问题致歉并发放材料，卡普空确认《生化危机9》收入破5亿美元，B社前开发者解释为何不制作《上古卷轴》衍生作，Rebel Wolves调整《黎明行者之血》时间限制，Hound13因秋夕公告争议遭中国玩家差评。",
       "digest_source": "llm",
-      "input_hash": "8db8d13391e549bb",
+      "input_hash": "73d4bc6f61534a53",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 2,
-          "summary": "R星公布售价399.99美元的《GTA6：欢乐之州 罪恶都市收藏套装》，该套装不含游戏本体，仅包含周边物品，已于R星商店开放预购。",
+          "summary": "前R星开发者称移植Switch 2难度高，但通过串流在手机上游玩存在可能，游戏原生运行可能需技术妥协。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "失落星船：马拉松",
+          "count": 1,
+          "summary": "Bungie承认游戏难度过高未吸引大众，计划加入PvE模式和团队对战以扩大起始区域帮助新玩家。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "宝可梦集换式卡牌游戏",
+          "count": 1,
+          "summary": "30周年系列卡价下跌，玩家开包数据显示高稀有卡出现频率远高于近期海外系列。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3：重制版",
+          "count": 1,
+          "summary": "公布新旧画面对比引发争议，CDPR确认原版仍可继续游玩，新版将于9月29日推出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑破坏神4",
+          "count": 1,
+          "summary": "暴雪就第15赛季服务器问题致歉，部分玩家收到稀有材料“璀璨火花”，发放范围尚不明确。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化危机9",
+          "count": 1,
+          "summary": "Alinea Analytics估算总收入已超5亿美元，Xbox版销量占比约8.6%，销售速度快于系列此前任何作品。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "辐射：新维加斯",
+          "count": 1,
+          "summary": "前首席开发者库尔曼表示B社对《上古卷轴》交给外部团队十分谨慎，不想让系列出现类似《辐射：新维加斯》的局面。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黎明行者之血",
+          "count": 1,
+          "summary": "开发团队因玩家担忧放宽时间限制，将游戏主体部分的时间安排调整得更宽松。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "龙之剑：觉醒",
+          "count": 1,
+          "summary": "因公告称“秋夕自古以来便是韩国的传统节日”引发中国玩家不满，Steam上出现大量差评。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "article_count": 49,
+      "game_count": 35,
+      "untagged_count": 9,
+      "digest": "今日游戏行业资讯聚焦于《GTA6》周边礼盒发售引发争议、Epic遭荷兰组织追索1亿欧元诱导未成年人消费，以及任天堂公布70款《塞尔达传说》周边、动视确认《使命召唤：战区》干员皮肤显示开关等动态。",
+      "digest_source": "llm",
+      "input_hash": "29a082ca549a1e36",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "Rockstar Games公布售价400美元的《侠盗猎车6：欢乐之州——罪恶都市典藏》礼盒，内含周边不含游戏本体，将于11月19日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "堡垒之夜",
+          "count": 2,
+          "summary": "荷兰消费者组织SMC指控《堡垒之夜》商城诱导未成年人消费，向Epic Games追索1亿欧元，并援引针对1000名青少年的研究数据。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说",
+          "count": 2,
+          "summary": "任天堂公布约70款《塞尔达传说》系列周边，将于10月2日起在日本Animate销售，包含15款虹彩亚克力摆件等商品。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7：启示",
+          "count": 2,
+          "summary": "《最终幻想7：启示录》计划推出聚焦萨菲罗斯及文森特的两部剧情DLC，评论认为巴雷特和蒂法更值得成为主角。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "企鹅殖民地",
           "count": 1,
-          "summary": "任天堂据称否决了育碧米兰开发的《塞尔达传说》衍生游戏原型，该项目原计划由全新角色担任主角，后改为加侬多夫，最终在2023年11月下旬被否决。",
+          "summary": "ORIGAME DIGITAL宣布《企鹅殖民地》PC版延期至10月17日发售，PS5与Switch 2版计划于2027年推出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：战区",
+          "count": 1,
+          "summary": "动视确认《使命召唤：战区》第一赛季将加入干员皮肤显示开关，玩家开启后可将自己看到的其他玩家皮肤替换为《现代战争4》外观。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "侠盗猎车手",
+          "count": 1,
+          "summary": "法国媒体回顾《侠盗猎车手》系列电话设计，认为《侠盗猎车手6》将延续对数字文化的讽刺，从公用电话亭演变至移动电话。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "光环",
+          "count": 1,
+          "summary": "Halo Fest仍将于2026年12月11日至13日在美国西雅图举行，纪念《光环》系列25周年，活动日期和地点均未改变。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "双人成行",
+          "count": 1,
+          "summary": "《双人成行》Steam版限时降价70%，售价从39.99欧元降至11.99欧元，活动截至9月28日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "反恐精英2",
+          "count": 1,
+          "summary": "《反恐精英2》选手donk在FACEIT第9赛季突破5000 Elo，刷新个人纪录，成为本赛季首位达到该分数的选手。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "天国：拯救2",
+          "count": 1,
+          "summary": "《天国：拯救2》商贩认出失窃商品并举报的细节引发玩家讨论，认为这种处理方式增强了游戏的代入感。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "女神异闻录3 Reload",
+          "count": 1,
+          "summary": "世嘉与Atlus开启Steam促销，《女神异闻录3 Reload》标准版降价70%，从7678日元降至2303日元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "宝可梦卡牌",
+          "count": 1,
+          "summary": "美国72岁宝可梦卡牌收藏者因在配送员车底安装GPS追踪器被判有罪，试图掌握卡牌补货路线。",
           "summary_source": "llm"
         },
         {
           "name": "巫师4",
           "count": 1,
-          "summary": "CDPR联席首席执行官亚当·巴多夫斯基表示，《巫师4》将继续打磨系列擅长的道德灰度叙事，通过有歧义的选择及其后果给玩家留下深刻印象，并强调团队不会追逐潮流。",
+          "summary": "CDPR联席首席执行官亚当·巴多夫斯基表示，《巫师4》将以充满道德灰度的选择及后果打动玩家，延续《巫师3：狂猎》的叙事特色。",
           "summary_source": "llm"
         },
         {
-          "name": "战犬",
+          "name": "帝国时代",
           "count": 1,
-          "summary": "《战犬》负责人乔·布拉默认为游戏售价需要提高，并认为《GTA6》本有机会推动这一变化，但他指出游戏卖得太便宜，开发成本却太高。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星空",
-          "count": 1,
-          "summary": "前B社首席系统设计师库尔特·库尔曼认为《星空》推出续作的可能性不大，因为游戏并没有成功到足以让工作室制作第二部的程度。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想7：启示",
-          "count": 1,
-          "summary": "《最终幻想7：启示》白金奖杯将比《最终幻想7：重生》更容易取得，开发团队预计约20%甚至更多玩家能够拿到这座奖杯。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想7：重制版",
-          "count": 1,
-          "summary": "《最终幻想7：重制版》系列总监滨口直树表示，将原作改编为三部曲是一项伴随商业风险的创作决定，如果首作表现不佳，后续作品开发将面临难题。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "超越善恶2",
-          "count": 1,
-          "summary": "育碧确认《超越善恶2》仍在开发中，游戏总监再次确认项目状态，参与《刺客信条：影》创作的编剧Rik Godwin近日发文称自己也在参与该作工作。",
+          "summary": "微软新一轮裁员导致World’s Edge工作室大幅缩减，负责《帝国时代》重制项目的核心人物离职，全新正统续作或已胎死腹中。",
           "summary_source": "llm"
         }
       ]
@@ -867,107 +974,6 @@
           "name": "Space Menace",
           "count": 1,
           "summary": "《Space Menace》现已在Steam限时免费赠送，续作《Space Menace2》同步开启四折促销。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "article_count": 112,
-      "game_count": 84,
-      "untagged_count": 6,
-      "digest": "今日游戏行业资讯聚焦于《漫威金刚狼》开发成本与流程的深度分析，以及《GTA6》原声阵容的神秘暗示。此外，《战狗》在Steam周榜登顶，多款新作如《伊莫》与《符文世界：龙之荒野》迎来发售或版本更新，而《暗黑破坏神4》则开启国服免费领取活动。",
-      "digest_source": "llm",
-      "input_hash": "2e2d8303e933bb64",
-      "game_digests": [
-        {
-          "name": "漫威金刚狼",
-          "count": 8,
-          "summary": "Insomniac泄露的内部资料显示该作开发预算达3.05亿美元，叙事流程约12小时，引发对AAA开发成本的讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 4,
-          "summary": "多名音乐人同步发布配图，暗示Keith Richards、PinkPantheress等10名艺人将参与原声阵容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "我的世界",
-          "count": 3,
-          "summary": "玩家反馈南瓜生成机制存在漏洞，可能导致驯服的猫因被方块困住而窒息死亡。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战狗",
-          "count": 3,
-          "summary": "Valve公布的Steam周收入榜显示，该作在付费游戏中排名第一，销量达200万份，同时在线人数峰值超42.8万。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Nighthawks",
-          "count": 2,
-          "summary": "Steam撤销了该游戏的仅限成人分类，此前因误判导致游戏在部分地区下架，风波反而提升了关注度。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "wardogs",
-          "count": 2,
-          "summary": "开发商BULKHEAD负责人澄清，此前关于高强度工作的言论被断章取义，否认存在强制加班。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "伊莫",
-          "count": 2,
-          "summary": "该作免费版首发吸引逾10.1万人同时在线，但用户评价很快降至“褒贬不一”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "冲就完事模拟器2",
-          "count": 2,
-          "summary": "官方宣布将推出芭比主题DLC，包含五个清洗关卡，计划于今年稍晚上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "暗黑破坏神4",
-          "count": 2,
-          "summary": "国服再次开启限时30天的免费领取活动，同时S15赛季“地狱遗赠”上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "永恒黑暗：理智的安魂曲",
-          "count": 2,
-          "summary": "Nightdive负责人暗示该作未来可能推出重制版，但尚未正式确认项目立项。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "符文世界：龙之荒野",
-          "count": 2,
-          "summary": "Jagex结束抢先体验并推出1.0版本，游戏同时加入9月PlayStation Plus游戏目录。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "索尼克赛车：交叉世界",
-          "count": 2,
-          "summary": "世嘉确认第二年将继续免费追加角色，贝优妮塔将成为首位登场的新车手。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Apex英雄",
-          "count": 1,
-          "summary": "EA宣布将于9月23日开启与《街头霸王6》的联动活动，包含限定玩法、皮肤及武器外观。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Legacy Code",
-          "count": 1,
-          "summary": "讲谈社物理模拟游戏《Legacy Code》Steam页面公开，入围TGS SOWN独立游戏竞赛。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Muv-Luv",
-          "count": 1,
-          "summary": "系列累计销量突破100万份，官方同步开启纪念抽奖活动。",
           "summary_source": "llm"
         }
       ]
