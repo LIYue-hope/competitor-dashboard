@@ -1,9 +1,19 @@
 {
-  "generated_at": "2026-09-26T00:39:44.190828+00:00",
+  "generated_at": "2026-09-27T00:37:37.627055+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-26",
+      "article_count": 1,
+      "game_count": 0,
+      "untagged_count": 1,
+      "digest": "2026年9月26日，游戏行业资讯编辑在GameLook上发布了1条新闻。该新闻主要关注了某款新发布的游戏，但并未提及具体的游戏名称和发售日期。此外，还提到了该游戏的更新内容以及玩家对其的反馈情况。",
+      "digest_source": "llm",
+      "input_hash": "7790300b3c26f484",
+      "game_digests": []
+    },
     {
       "date": "2026-09-24",
       "article_count": 7,
@@ -169,59 +179,6 @@
           "name": "马拉松",
           "count": 1,
           "summary": "索尼大作《马拉松》因在线人数大幅滑坡，宣布取消赛季制并将PvE内容延至年底。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "article_count": 10,
-      "game_count": 7,
-      "untagged_count": 3,
-      "digest": "今日游戏行业资讯聚焦于多款热门产品的表现与争议。腾讯放手的《Wardogs》Steam在线人数激增至42万，FunPlus新作《伊莫》首日在线破12万，而《异环》则因DDoS攻击导致国际服停服维护。此外，《湮灭之潮》在科隆展斩获大奖，LPL总决赛与《英雄联盟》15周年庆典同日举行，国产修仙续作《鬼谷八荒 2》制作人也透露了其体量与复杂度。",
-      "digest_source": "llm",
-      "input_hash": "caad477be9516ca5",
-      "game_digests": [
-        {
-          "name": "Wardogs",
-          "count": 1,
-          "summary": "被腾讯“放走”的《Wardogs》在Steam开启抢先体验后，5天内销量突破200万套，在线人数飙升至42万。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "伊莫",
-          "count": 1,
-          "summary": "FunPlus旗下爪印工作室研发的大世界捉宠RPG《伊莫》今日正式上线PC端，首日Steam在线人数突破12万。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "异环",
-          "count": 1,
-          "summary": "《异环》国际服遭遇DDoS攻击被迫停服维护，完美世界随后向玩家发放了补偿，国内版本的前瞻节目也意外提前泄露。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 1,
-          "summary": "国产动作冒险游戏《湮灭之潮》在2026年德国科隆国际游戏展上，凭借其史诗感斩获了“最具史诗感游戏”大奖。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "英雄联盟",
-          "count": 1,
-          "summary": "LPL总决赛在上海浦发银行东方体育中心举行，与《英雄联盟》15周年盛典同日举办，召唤师们共度周末。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼谷八荒 2",
-          "count": 1,
-          "summary": "《鬼谷八荒 2》制作人张三在接受采访时表示，该作体量巨大，复杂度是前作的100倍，旨在满足玩家对开放世界和养成体系的新要求。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黑神话",
-          "count": 1,
-          "summary": "有家长试图通过《黑神话》和《战神》来引导10岁儿子玩游戏，结果孩子却只想看不想玩，引发了关于家庭游戏教育的讨论。",
           "summary_source": "llm"
         }
       ]

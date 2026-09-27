@@ -1,70 +1,165 @@
 {
-  "generated_at": "2026-09-26T00:36:53.239880+00:00",
+  "generated_at": "2026-09-27T00:33:37.362062+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "article_count": 11,
-      "game_count": 9,
+      "game_count": 8,
       "untagged_count": 1,
-      "digest": "今日游戏行业资讯涵盖多款热门作品，GTA6移植Switch 2面临技术挑战，Bungie为《失落星船：马拉松》过难致歉并计划调整，CDPR公布《巫师3》重制版画面引发争议但确认原版可玩，暴雪就《暗黑破坏神4》第15赛季问题致歉并发放材料，卡普空确认《生化危机9》收入破5亿美元，B社前开发者解释为何不制作《上古卷轴》衍生作，Rebel Wolves调整《黎明行者之血》时间限制，Hound13因秋夕公告争议遭中国玩家差评。",
+      "digest": "今日游戏资讯聚焦于小岛秀夫新作《Physint》的预算传闻、Xbox对《我的世界》长线运营的回顾，以及《GTA6》的玩法争议。此外，CDPR继续更新《巫师3》并开发新资料片，B社确认《辐射5》的后续计划，同时《生化危机4：重制版》在iPhone 18 Pro上的性能表现引发关注。",
       "digest_source": "llm",
-      "input_hash": "73d4bc6f61534a53",
+      "input_hash": "d50f0a110e898d53",
       "game_digests": [
         {
-          "name": "GTA6",
+          "name": "Physint",
           "count": 2,
-          "summary": "前R星开发者称移植Switch 2难度高，但通过串流在手机上游玩存在可能，游戏原生运行可能需技术妥协。",
+          "summary": "Xbox与小岛秀夫合作预算传闻引关注，知情人士称实际金额远低于4亿美元，此前GameBusiness曾报道该预算高达4亿美元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "我的世界",
+          "count": 2,
+          "summary": "Xbox负责人透露该游戏日均超30万人首次游玩，累计销量已突破4.25亿份，并展示了首个新维度及Switch 2版本相关内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 1,
+          "summary": "外媒担忧新作可能重现前作问题，指出警察追捕机制过于机械、任务设计线性且建筑无法进入，希望新作给予玩家更多自由度。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 1,
+          "summary": "官方确认游戏已推出16项免费追加内容，包括新外观、战斗动作及剧情线，同时宣布第三部大型剧情资料片仍在开发中。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7：启示",
+          "count": 1,
+          "summary": "负责人滨口直树表示玩家无需先玩原版也能享受重制版三部曲，认为现代技术能更强烈触动玩家，剧情理解没有唯一正确顺序。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化危机4：重制版",
+          "count": 1,
+          "summary": "iPhone 18 Pro测试显示游戏多数时候保持60帧，性能较iPhone 17 Pro提升近50%，测试采用2346×1080分辨率及混合画质设置。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛博朋克2077：往日之影",
+          "count": 1,
+          "summary": "开发者透露资料片中的奇美拉首领战经过约两年反复打磨，设计灵感源自《攻壳机动队》，旨在平衡玩法、叙事与美术。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "辐射5",
+          "count": 1,
+          "summary": "陶德·霍华德确认该作将接棒《上古卷轴6》成为B社下一款游戏，预计在《上古卷轴6》之后推出，目前工作室主要精力仍集中在后者。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "article_count": 59,
+      "game_count": 42,
+      "untagged_count": 9,
+      "digest": "万代南梦宫历经七年等待终于发售《皇牌空战8：希孚之翼》，媒体评价其空战场面精彩且叙事体验出色。Capcom公布《生化危机》系列过去一年销量数据，重制版与《生化危机9：安魂曲》表现亮眼。R星确认《GTA6》将作为Game Informer杂志封面，并曝光新细节，同时黄牛将收藏盒炒至1500美元以上。此外，《女神异闻录6》位列《Fami通》期待榜第二，Bungie承认《失落星船：马拉松》难度过高并计划调整。",
+      "digest_source": "llm",
+      "input_hash": "c4d8ddc3a5c5d3d3",
+      "game_digests": [
+        {
+          "name": "皇牌空战8",
+          "count": 5,
+          "summary": "万代南梦宫历经七年等待正式发售《皇牌空战8：希孚之翼》，媒体评价其空战场面精彩且叙事体验出色。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "R星确认《GTA6》将作为Game Informer杂志封面，并曝光新细节，同时黄牛将收藏盒炒至1500美元以上。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化危机",
+          "count": 2,
+          "summary": "Capcom公布《生化危机》系列过去一年销量数据，重制版与《生化危机9：安魂曲》表现亮眼。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "007",
+          "count": 1,
+          "summary": "《007：初露锋芒》与《大步同行》领跑2026年金摇杆奖提名，均获五项提名。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Apex英雄",
+          "count": 1,
+          "summary": "《Apex英雄》PS5版推出1.000.136更新，修复了非英语语音报错问题。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "EA足球27",
+          "count": 1,
+          "summary": "《EA足球27》开发团队表示近期不会调整核心玩法平衡，将处理漏洞和非预期行为。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "三角洲行动",
+          "count": 1,
+          "summary": "《三角洲行动》两周年赛季“Reorientation”现已上线，公布后续更新计划。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "任天堂明星大乱斗DX",
+          "count": 1,
+          "summary": "《任天堂明星大乱斗DX》非官方PC移植版加入对NVIDIA DLSS 5神经渲染的实验性支持。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "堡垒之夜",
+          "count": 1,
+          "summary": "苏格兰祖母Cath Bowie获吉尼斯认证，成为全球最年长的《堡垒之夜》女性主播。",
           "summary_source": "llm"
         },
         {
           "name": "失落星船：马拉松",
           "count": 1,
-          "summary": "Bungie承认游戏难度过高未吸引大众，计划加入PvE模式和团队对战以扩大起始区域帮助新玩家。",
+          "summary": "Bungie承认《失落星船：马拉松》因难度过高未吸引广泛玩家，计划加入PvE模式和团队对战。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "女神异闻录6",
+          "count": 1,
+          "summary": "《女神异闻录6》位列《Fami通》期待榜第二，排在《塞尔达传说：时之笛 重制版》之前。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "宝可梦集换式卡牌Pocket",
+          "count": 1,
+          "summary": "《宝可梦集换式卡牌游戏：口袋版》下载量已超过1.5亿次，玩家在游戏中收集的卡牌超过1000亿张。",
           "summary_source": "llm"
         },
         {
           "name": "宝可梦集换式卡牌游戏",
           "count": 1,
-          "summary": "30周年系列卡价下跌，玩家开包数据显示高稀有卡出现频率远高于近期海外系列。",
+          "summary": "《宝可梦集换式卡牌游戏》30周年纪念系列上市后，部分热门单卡报价迅速下跌。",
           "summary_source": "llm"
         },
         {
-          "name": "巫师3：重制版",
+          "name": "巫师3",
           "count": 1,
-          "summary": "公布新旧画面对比引发争议，CDPR确认原版仍可继续游玩，新版将于9月29日推出。",
+          "summary": "玩家认为Switch 2便携模式让《巫师3：狂猎》等长篇游戏更易融入日常。",
           "summary_source": "llm"
         },
         {
-          "name": "暗黑破坏神4",
+          "name": "巫师3：狂猎",
           "count": 1,
-          "summary": "暴雪就第15赛季服务器问题致歉，部分玩家收到稀有材料“璀璨火花”，发放范围尚不明确。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化危机9",
-          "count": 1,
-          "summary": "Alinea Analytics估算总收入已超5亿美元，Xbox版销量占比约8.6%，销售速度快于系列此前任何作品。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "辐射：新维加斯",
-          "count": 1,
-          "summary": "前首席开发者库尔曼表示B社对《上古卷轴》交给外部团队十分谨慎，不想让系列出现类似《辐射：新维加斯》的局面。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 1,
-          "summary": "开发团队因玩家担忧放宽时间限制，将游戏主体部分的时间安排调整得更宽松。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "龙之剑：觉醒",
-          "count": 1,
-          "summary": "因公告称“秋夕自古以来便是韩国的传统节日”引发中国玩家不满，Steam上出现大量差评。",
+          "summary": "CDPR确认《巫师3：狂猎》重制版免费更新即将推出，Steam/PS5/Xbox平台下载量约45GB。",
           "summary_source": "llm"
         }
       ]
@@ -873,107 +968,6 @@
           "name": "DECAPOLICE",
           "count": 1,
           "summary": "《DECAPOLICE》在东京电玩展2026开放试玩，展示案件任务和街区巡逻流程，玩家将扮演新人警察调查巨型犯罪都市的案子。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "article_count": 118,
-      "game_count": 91,
-      "untagged_count": 16,
-      "digest": "9月17日游戏行业资讯丰富，GTA6公布34首原创音乐专辑并确认将展开大规模营销；任天堂在《火焰纹章：万缕千丝》发售前夕发布35页英文序章漫画；PlayStack确认《小丑牌》的成功拓宽了融资空间；《战狗》Steam在线人数较峰值回落超10万；Insomniac Games确认《漫威金刚狼》玩家评价出现分化；Dragami Games宣布《电锯甜心2 Back2Back》将于2027年登陆PS5；Falcom重制作《空之轨迹 the 2nd》获M站93分暂居年度榜首；Embark Studios计划将《ARC Raiders》运营十年并借鉴《命运》叙事模式；Denuvo母公司首次起诉破解者voices38；Kojima Productions确认比尔·斯卡斯加德主演《Physint》。",
-      "digest_source": "llm",
-      "input_hash": "4bd12427f1fe03be",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 3,
-          "summary": "Take-Two首席执行官泽尔尼克表示《GTA6》虽知名度高但仍需大规模营销，近期公布的27分钟展示兼具教学功能。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "火焰纹章：万缕千丝",
-          "count": 3,
-          "summary": "任天堂在发售前夕推出35页英文序章漫画登陆Nintendo Today!，邀请玩家在Nintendo Switch 2上继续冒险。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "小丑牌",
-          "count": 2,
-          "summary": "PlayStack确认《小丑牌》的成功拓宽了项目融资空间，增强了公司承担创意风险的信心，未来仍将保持多类型发行。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战狗",
-          "count": 2,
-          "summary": "《战狗》进入抢先体验一周后Steam在线人数较峰值回落超10万，开发商Bulkhead正在征集玩家意见以确定赛季中期调整方向。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2,
-          "summary": "《漫威金刚狼》发售后的玩家评价出现分化，Metacritic用户评分6.6分低于媒体综合评分，PlayStation Store评分约4.83分。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "电锯甜心2 Back2Back",
-          "count": 2,
-          "summary": "Dragami Games宣布《电锯甜心2 Back2Back》将于2027年登陆PS5，制作团队包括田畑端和结城正弘。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "空之轨迹 the 2nd",
-          "count": 2,
-          "summary": "《空之轨迹 the 2nd》PC版在Metacritic获得93分，暂时成为该站2026年评分最高的新作，媒体评价积极。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "英灵神殿",
-          "count": 2,
-          "summary": "《英灵神殿》1.0版开发者命令指南公布，详细介绍了PC Steam版控制台开启方法及各类指令。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 2,
-          "summary": "《黎明行者之血》续作未必保留争议计时机制，团队将根据具体故事需要决定是否使用该系统。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "ARC Raiders",
-          "count": 1,
-          "summary": "Embark Studios计划将《ARC Raiders》运营十年，并借鉴《命运》系列的叙事模式构建游戏未来。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "D加密",
-          "count": 1,
-          "summary": "Denuvo母公司Irdeto首次起诉破解者voices38，指控其规避技术保护措施，voices38曾攻破近40款D加密游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Fate",
-          "count": 1,
-          "summary": "《Fate/EXTRA Record》将在TGS2026开放试玩，展示牌组构筑式指令战斗系统及竞技场玩法。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6：音乐专辑",
-          "count": 1,
-          "summary": "《GTA6：音乐专辑》公布 收录34首原创曲目、和游戏本体同步发行。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Physint",
-          "count": 1,
-          "summary": "Kojima Productions确认比尔·斯卡斯加德将在动作谍战游戏《Physint》中担任男主角。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Space Menace",
-          "count": 1,
-          "summary": "《Space Menace》现已在Steam限时免费赠送，续作《Space Menace2》同步开启四折促销。",
           "summary_source": "llm"
         }
       ]
