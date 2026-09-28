@@ -1,3 +1,9 @@
+# 竞品看板
+https://liyue-hope.github.io/competitor-dashboard/
+游戏行业竞品资讯监测看板。GitHub Actions 每天定时跑一批采集脚本，把结果写成 `data/*.json`
+提交回仓库，再构建 Vue3 静态站部署到 GitHub Pages。整个系统没有后端、没有数据库，
+数据文件本身就是"数据库"，页面只读 JSON。
+
 ## 后续更新安排
 
 - [x] 将上周预览中的综合热度榜固定为上一周数据，不随日期每日更新变动（已实现，2026-09-02）
@@ -9,16 +15,6 @@
 
 第 1 条已由本周改动落地：`weekly_digest.json` 按自然周成稿即冻结、同周不再重写；
 默认板块改为「上周总览」并记忆选择。详见下文「数据文件」「CI 工作流」与看板板块说明。
-
-# 竞品看板
-
-游戏行业竞品资讯监测看板。GitHub Actions 每天定时跑一批采集脚本，把结果写成 `data/*.json`
-提交回仓库，再构建 Vue3 静态站部署到 GitHub Pages。整个系统没有后端、没有数据库，
-数据文件本身就是"数据库"，页面只读 JSON。
-
-- 仓库：`git@github.com:LIYue-hope/competitor-dashboard.git`
-- 线上：GitHub Pages，Vite `base` 为 `/competitor-dashboard/`
-  （`https://<user>.github.io/competitor-dashboard/`）
 
 ## 看板包含什么
 
