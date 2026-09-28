@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T00:37:37.627055+00:00",
+  "generated_at": "2026-09-28T00:44:19.824472+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
@@ -9,7 +9,7 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "2026年9月26日，游戏行业资讯编辑在GameLook上发布了1条新闻。该新闻主要关注了某款新发布的游戏，但并未提及具体的游戏名称和发售日期。此外，还提到了该游戏的更新内容以及玩家对其的反馈情况。",
+      "digest": "2026年9月26日，游戏行业资讯编辑在GameLook上发布了1条新闻。该新闻主要关注了某款新发布的游戏，但并未提及具体的游戏名称和发售日期。此外，该新闻还提到了游戏的更新内容和销量情况，但具体细节并未详细描述。",
       "digest_source": "llm",
       "input_hash": "7790300b3c26f484",
       "game_digests": []
@@ -138,47 +138,6 @@
           "name": "黎明行者之血",
           "count": 1,
           "summary": "CEO强调“不加班不乱改不堆人”，Rebel Wolves新作获网易4000万美元投资。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "article_count": 8,
-      "game_count": 5,
-      "untagged_count": 3,
-      "digest": "今日游戏行业资讯聚焦二次元新作与海外爆款，NEXON新作《FAREIDOLIA》亮相并宣称对标跨端二游，硬核军事射击游戏《Wardogs》销量破200万份，索尼大作《马拉松》因在线人数下滑取消赛季制并推迟PvE内容，Remedy新作《控制：共振》制作人飞赴中国宣传，蛮啾《蓝色星原：旅谣》开启三测。",
-      "digest_source": "llm",
-      "input_hash": "c516a86e5af26cdb",
-      "game_digests": [
-        {
-          "name": "FAREIDOLIA",
-          "count": 1,
-          "summary": "NEXON制作人表示该作是“BA接班人”，并宣称对手是所有跨端二次元手游。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Wardogs",
-          "count": 1,
-          "summary": "该作CEO因“不招不加班的人”言论引发争议，随后回应称公司曾实行4天工作制。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "控制：共振",
-          "count": 1,
-          "summary": "Remedy制作人飞赴中国接受采访，介绍新作从TPS向动作ARPG转型的变化。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "蓝色星原：旅谣",
-          "count": 1,
-          "summary": "蛮啾《蓝色星原：旅谣》于9月17日开启限量计费删档的“旅迹测试”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "马拉松",
-          "count": 1,
-          "summary": "索尼大作《马拉松》因在线人数大幅滑坡，宣布取消赛季制并将PvE内容延至年底。",
           "summary_source": "llm"
         }
       ]

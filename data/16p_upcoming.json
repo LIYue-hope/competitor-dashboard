@@ -1,40 +1,10 @@
 {
-  "crawled_at": "2026-09-27T00:26:48.808917+00:00",
+  "crawled_at": "2026-09-28T00:32:29.800382+00:00",
   "days": [
     {
       "date": "2026-09-28",
-      "date_label": "09月28日 明天",
+      "date_label": "09月28日 今天",
       "games": [
-        {
-          "game_name": "诡偶",
-          "categories": [
-            "益智"
-          ],
-          "score": "9.7",
-          "release_date": "2026-09-28",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1952920.html",
-          "publisher": "勾陈一工作室",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "英雄防线",
-          "categories": [
-            "塔防",
-            "Roguelike",
-            "策略",
-            "弹幕",
-            "割草"
-          ],
-          "score": "8.6",
-          "release_date": "2026-09-28",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1942895.html",
-          "publisher": "三狸网络",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
         {
           "game_name": "心动都市",
           "categories": [
@@ -54,13 +24,66 @@
           "publisher": "kiwigames",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "水银疗养院",
+          "categories": [
+            "多平台",
+            "解谜",
+            "剧情",
+            "像素",
+            "单机",
+            "Furry",
+            "悬疑"
+          ],
+          "score": "9.6",
+          "release_date": "2026-09-28",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1935743.html",
+          "publisher": "Wise Games",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "英雄防线",
+          "categories": [
+            "塔防",
+            "Roguelike",
+            "策略",
+            "弹幕",
+            "割草"
+          ],
+          "score": "8.6",
+          "release_date": "2026-09-28",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1942895.html",
+          "publisher": "三狸网络",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-09-29",
-      "date_label": "09月29日 后天",
+      "date_label": "09月29日 明天",
       "games": [
+        {
+          "game_name": "勇者秘域",
+          "categories": [
+            "卡牌",
+            "放置",
+            "竖屏",
+            "中国风",
+            "休闲"
+          ],
+          "score": null,
+          "release_date": "2026-09-29",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1956898.html",
+          "publisher": null,
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        },
         {
           "game_name": "武士零",
           "categories": [
@@ -143,7 +166,7 @@
     },
     {
       "date": "2026-09-30",
-      "date_label": "09月30日 下周三",
+      "date_label": "09月30日 后天",
       "games": [
         {
           "game_name": "他出轨了吗",
@@ -162,7 +185,7 @@
     },
     {
       "date": "2026-10-01",
-      "date_label": "10月01日 下周四",
+      "date_label": "10月01日 周四",
       "games": [
         {
           "game_name": "循环勇士",
@@ -202,7 +225,7 @@
     },
     {
       "date": "2026-10-02",
-      "date_label": "10月02日 下周五",
+      "date_label": "10月02日 周五",
       "games": [
         {
           "game_name": "萌宠拆拆乐",

@@ -1,64 +1,207 @@
 {
-  "generated_at": "2026-09-27T00:33:37.362062+00:00",
+  "generated_at": "2026-09-28T00:40:05.969844+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-27",
-      "article_count": 11,
-      "game_count": 8,
-      "untagged_count": 1,
-      "digest": "今日游戏资讯聚焦于小岛秀夫新作《Physint》的预算传闻、Xbox对《我的世界》长线运营的回顾，以及《GTA6》的玩法争议。此外，CDPR继续更新《巫师3》并开发新资料片，B社确认《辐射5》的后续计划，同时《生化危机4：重制版》在iPhone 18 Pro上的性能表现引发关注。",
+      "date": "2026-09-28",
+      "article_count": 23,
+      "game_count": 20,
+      "untagged_count": 3,
+      "digest": "《GTA6》的初步印象是令人兴奋的，尽管开发进度和细节尚未完全公开。《上古卷轴OL》在裁员后更新延期至2027年，团队正在重新评估开发计划。《光环：初次反击》由Halo Studios开发，预计推出独立战役和重制版。《卧龙2：凤火连天》由光荣特库摩开发，月英角色介绍及两套特典服装发布。《守望先锋》总监讨论了每赛季推出新英雄对玩家体验的影响。《巫师3：狂猎》的“血腥男爵”任务编剧确认，游戏将提供多个战役任务和交火模式。《恶魔之魂》PS5模拟器KyTy成功达到50帧，展示了硬件潜力。《战狗》销量超过300万份，获得金摇杆奖提名。Bulkhead Studios的《战狗》因玩家长时间占据地盘而取得超300万份的惊人成绩。《控制：共振》提醒委员会关注玩家不推进主线的问题。《最终幻想7：启示录》宣布为DLC追加内容，引发外界争议。《木乃伊4》拍摄现场照片曝光，蕾切尔·薇兹回归饰演伊芙琳·奥康奈尔。《死或生沙滩排球：女神假期》推出SSR泳装，并有活动货币兑换专属动作道具。外媒分析游戏改编电影应重现原作氛围，不应仅依赖IP热度。Playground Games在伦敦Xbox FanFest首次开放《神鬼寓言4》试玩，玩家称赞战斗系统流畅直观。A20 Pro在iPhone 18 Pro Max上模拟运行《给他爱5》，市区平均帧率为66帧。",
       "digest_source": "llm",
-      "input_hash": "d50f0a110e898d53",
+      "input_hash": "d211d9af3379d909",
       "game_digests": [
-        {
-          "name": "Physint",
-          "count": 2,
-          "summary": "Xbox与小岛秀夫合作预算传闻引关注，知情人士称实际金额远低于4亿美元，此前GameBusiness曾报道该预算高达4亿美元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "我的世界",
-          "count": 2,
-          "summary": "Xbox负责人透露该游戏日均超30万人首次游玩，累计销量已突破4.25亿份，并展示了首个新维度及Switch 2版本相关内容。",
-          "summary_source": "llm"
-        },
         {
           "name": "GTA6",
           "count": 1,
-          "summary": "外媒担忧新作可能重现前作问题，指出警察追捕机制过于机械、任务设计线性且建筑无法进入，希望新作给予玩家更多自由度。",
-          "summary_source": "llm"
+          "summary": "法媒分享《GTA6》初步印象：初次进入游戏堪比首看《阿凡达》。",
+          "summary_source": "rules"
         },
         {
-          "name": "巫师3",
+          "name": "上古卷轴OL",
           "count": 1,
-          "summary": "官方确认游戏已推出16项免费追加内容，包括新外观、战斗动作及剧情线，同时宣布第三部大型剧情资料片仍在开发中。",
-          "summary_source": "llm"
+          "summary": "《上古卷轴OL》裁员后部分更新延期至2027年：不愿为赶进度牺牲体验。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "光环：初次反击",
+          "count": 1,
+          "summary": "Halo工作室曾规划《光环：初次反击》改编战役 并考虑《光环2/3》重制版。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "卧龙2：凤火连天",
+          "count": 1,
+          "summary": "《卧龙2：凤火连天》月英角色介绍 荆州才女文武双全。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "守望先锋",
+          "count": 1,
+          "summary": "《守望先锋》总监谈每赛季推出新英雄：让玩家重新学习部分玩法。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3：狂猎",
+          "count": 1,
+          "summary": "《巫师3：狂猎》“血腥男爵”编剧重返CDPR 成为全职编剧。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "恶魔之魂",
+          "count": 1,
+          "summary": "PS5模拟器KyTy重大突破 《恶魔之魂》重制版达50帧。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战狗",
+          "count": 1,
+          "summary": "《战狗》销量超300万 获金摇杆奖最佳抢先体验游戏提名。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "控制：共振",
+          "count": 1,
+          "summary": "《控制：共振》玩家久做支线任务 委员会会责备迪伦并催他返回主线。",
+          "summary_source": "rules"
         },
         {
           "name": "最终幻想7：启示",
           "count": 1,
-          "summary": "负责人滨口直树表示玩家无需先玩原版也能享受重制版三部曲，认为现代技术能更强烈触动玩家，剧情理解没有唯一正确顺序。",
+          "summary": "《最终幻想7：启示》总监解释为何这么早确认推出DLC。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "木乃伊4",
+          "count": 1,
+          "summary": "《木乃伊4》片场照曝光：蕾切尔·薇兹回归饰演伊芙琳·奥康奈尔。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "死或生沙滩排球：女神假期",
+          "count": 1,
+          "summary": "《死或生沙滩排球：女神假期》推出SSR泳装 沾水后外观会变化。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "生化危机 影视",
+          "count": 1,
+          "summary": "外媒谈游戏改编电影：照搬剧情未必奏效 高预算也不能只靠IP。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "神鬼寓言4",
+          "count": 1,
+          "summary": "《神鬼寓言4》伦敦首次开放试玩 战斗配音获玩家称赞。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "给他爱5",
+          "count": 1,
+          "summary": "A20 Pro在iPhone 18 Pro Max模拟运行《给他爱5》 市区平均66帧。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "article_count": 53,
+      "game_count": 35,
+      "untagged_count": 8,
+      "digest": "今日游戏行业资讯聚焦于《GTA6》收藏版因不含本体引发育碧调侃，以及《我的世界》公布2027年新维度“筛界”。此外，小岛秀夫新作《Physint》预算传闻引关注，《恶魔城》四十周年免费送初代，而《赛博朋克2077：往日之影》团队回顾三周年剧情改写细节。",
+      "digest_source": "llm",
+      "input_hash": "0597234b56f0915a",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "育碧调侃《GTA6》400美元收藏版不含游戏本体，引发玩家不满。",
           "summary_source": "llm"
         },
         {
-          "name": "生化危机4：重制版",
-          "count": 1,
-          "summary": "iPhone 18 Pro测试显示游戏多数时候保持60帧，性能较iPhone 17 Pro提升近50%，测试采用2346×1080分辨率及混合画质设置。",
+          "name": "侠盗猎车手6",
+          "count": 3,
+          "summary": "收藏套装含银色调酒勺等周边，售价399.99美元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "我的世界",
+          "count": 3,
+          "summary": "Mojang确认2027年加入第四维度“筛界”，覆盖Java版和基岩版。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Physint",
+          "count": 2,
+          "summary": "消息称Xbox与小岛秀夫合作预算传闻4亿美元，知情人士称远低于此。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "恶魔城",
+          "count": 2,
+          "summary": "科乐美为庆祝系列四十周年，在移动端免费赠送FC版初代作品。",
           "summary_source": "llm"
         },
         {
           "name": "赛博朋克2077：往日之影",
-          "count": 1,
-          "summary": "开发者透露资料片中的奇美拉首领战经过约两年反复打磨，设计灵感源自《攻壳机动队》，旨在平衡玩法、叙事与美术。",
+          "count": 2,
+          "summary": "团队回顾三周年开发历程，称围绕结局抉择反复改写剧情。",
           "summary_source": "llm"
         },
         {
-          "name": "辐射5",
+          "name": "EA Sports FC 27",
           "count": 1,
-          "summary": "陶德·霍华德确认该作将接棒《上古卷轴6》成为B社下一款游戏，预计在《上古卷轴6》之后推出，目前工作室主要精力仍集中在后者。",
+          "summary": "该作升至Steam全球热销榜首，超越《CS2》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "万圣节：游戏版",
+          "count": 1,
+          "summary": "2026年9月重点PS5游戏中，仅此作未支持PS5 Pro增强。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴2：匕首雨",
+          "count": 1,
+          "summary": "爱好者推出多人项目，支持浏览器联机。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "勇者斗恶龙怪物仙境4",
+          "count": 1,
+          "summary": "公布快速侦察收服与联合战斗两大系统，12月3日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "堡垒之夜",
+          "count": 1,
+          "summary": "上线《女神异闻录5 皇家版》联动装扮及《生化危机》角色皮肤回归。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说：时之笛 重制版",
+          "count": 1,
+          "summary": "分析估算重制版昼夜循环或由4分钟延长至约6分钟。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "天外世界2",
+          "count": 1,
+          "summary": "黑曜石确认剧情DLC仍在开发中，近期将公布新消息。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "奇异贤伴：爱达之歌",
+          "count": 1,
+          "summary": "确认2027年5月终止在线服务，将转型为离线版本。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "如龙7",
+          "count": 1,
+          "summary": "该作将在10月中旬退出PS Plus Extra和Premium游戏库。",
           "summary_source": "llm"
         }
       ]
@@ -867,107 +1010,6 @@
           "name": "命运",
           "count": 1,
           "summary": "《命运/新章 记录》公开试玩内容，将原有猜拳式战斗改为卡组构筑指令战斗，以强化策略性。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "article_count": 121,
-      "game_count": 95,
-      "untagged_count": 9,
-      "digest": "今日游戏资讯聚焦于《给他爱5》泄露的“自由城”DLC细节引发对《GTA6》地图的猜测，Take-TwoCEO泽尔尼克回应股东质疑，以及《漫威金刚狼》遭遇差评轰炸。此外，《不朽遗志》公布国区售价，动视宣布《使命召唤：现代战争4》为系列终章，育碧更新《波斯王子：Rogue》，卡普空公布《生化危机》30周年票选结果，SpiralAI开启《苏菲聊天：AI》预约，Level-5公布《DECAPOLICE》试玩内容。",
-      "digest_source": "llm",
-      "input_hash": "f160a38114890ea7",
-      "game_digests": [
-        {
-          "name": "给他爱5",
-          "count": 4,
-          "summary": "泄露的《给他爱5》源代码文件曝光，其中包含被取消的“自由城”DLC布局，玩家据此猜测自由城可能被加入《GTA6》地图。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "侠盗猎车手6",
-          "count": 3,
-          "summary": "Take-TwoCEO泽尔尼克在股东会议上回应质疑，表示如果公司经营表现持续不佳，他赞成更换高级管理人员，并对比了2007年的公司状况。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 3,
-          "summary": "《漫威金刚狼》在Metacritic遭遇差评轰炸，玩家评分仅为6.4分，超过34%的评论为负面，理由包括Sweet Baby Inc.参与制作及引导过多。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "Rockstar预告《GTA6》将升级音乐体验，采用动态原声系统并进化电台，此前传闻DJ Khaled和Drake可能拥有电台，且女主角露西亚佩戴耳机引发猜测。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "不朽遗志",
-          "count": 2,
-          "summary": "One More Level公布《不朽遗志》国区Steam售价为168元，豪华版包含专属武器外观及大型剧情DLC，主线剧情约20小时。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 2,
-          "summary": "动视将《使命召唤：现代战争4》称为“现代战争”传奇的“史诗终章”，并公布由麦斯·米科尔森出演的战役预告片，游戏将于10月23日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "尼瓦利斯之夜",
-          "count": 2,
-          "summary": "《尼瓦利斯之夜》在Steam愿望单数量突破100万，游戏将于9月29日发售，由《Cloudpunk》开发商打造。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：狂猎",
-          "count": 2,
-          "summary": "《巫师3：狂猎》十周年音乐会日本场公布票价，首轮门票抽选申请已开启，重制版将于9月29日上线，原玩家可免费升级。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战争机器：事变日",
-          "count": 2,
-          "summary": "《战争机器：事变日》完成开发，将于9月29日开放预载，10月6日发售，登陆Xbox Series X/S和PC。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想7：启示",
-          "count": 2,
-          "summary": "《最终幻想7：启示》导演滨口直树公布游戏容量约200GB，将推出两部剧情DLC，所有实体版需额外下载内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "波斯王子：Rogue",
-          "count": 2,
-          "summary": "育碧发布“周年纪念”更新，新增冰元素、新工具和竞技场挑战，调整难度与平衡性，并优化了跑墙充能和区域流程。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化危机",
-          "count": 2,
-          "summary": "卡普空公布《生化危机》30周年票选结果，里昂与威斯克分获英雄与反派榜首，艾达王排名引发部分玩家不满。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "苏菲聊天：AI",
-          "count": 2,
-          "summary": "SpiralAI开启《苏菲聊天：AI》预约，玩家通过对话体验旅行、调合与战斗，游戏已获得光荣特库摩授权。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Apex英雄",
-          "count": 1,
-          "summary": "EA与Respawn公布《Apex英雄》VS《街霸6》联动活动，将于9月22日上线，玩家可借用格斗家战斗风格并探索主题地图。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "DECAPOLICE",
-          "count": 1,
-          "summary": "《DECAPOLICE》在东京电玩展2026开放试玩，展示案件任务和街区巡逻流程，玩家将扮演新人警察调查巨型犯罪都市的案子。",
           "summary_source": "llm"
         }
       ]

@@ -1,77 +1,49 @@
 {
-  "generated_at": "2026-09-21T00:22:11.227335+00:00",
-  "week_start": "2026-09-14",
-  "week_end": "2026-09-20",
-  "article_count": 2271,
-  "game_count": 283,
-  "digest": "在2026年9月14日至9月20日的周期内，游戏行业经历了一系列引人注目的事件。首先，《控制：共振》以其卓越的画质和性能引起了广泛关注，尽管M站评分超前作但未能进入年度二十佳榜单。此外，国产RPG游戏《伊莫》免费上线Steam后，吸引了大量玩家同时在线，尽管初始伙伴选择引发争议，但其PC端及云游戏版本今日上线，为玩家提供了新的游戏体验。漫威金刚狼作为一款ARPG游戏，首发销量达到200万，实体销量占比22%，其厕所标识引发的争议也引发了玩家的热烈讨论。此外，《GTA6》的热修复降低了气味轨迹透明度，而《无限大》则宣布不设角色卡池，每座城市提供100小时探索内容。网易新游《无限大》正式官宣，不设角色卡池，外观将付费。最后，《卧龙2：凤火连天》的新实机演示和主角立绘图公布，展示了游戏中的灵神神兽系统。在综合热度排行榜上，《控制：共振》以32条相关资讯位居榜首，其次是《伊莫》和《漫威金刚狼》，分别有9条和112条相关资讯。这三款游戏在玩家中引起了广泛的讨论和关注。",
+  "generated_at": "2026-09-28T00:45:35.623108+00:00",
+  "week_start": "2026-09-21",
+  "week_end": "2026-09-27",
+  "article_count": 1873,
+  "game_count": 230,
+  "digest": "在2026年9月的一周内，游戏行业经历了一系列引人注目的事件。首先，《剑星》这款游戏因其逼真的身体扫描技术而受到关注，尽管曾因财务问题面临取消风险，但最终得到了索尼吉田修平的支持得以继续开发。此外，《失落城堡2》和《霓虹深渊2》分别以52万预约量和11万预约量位列榜单前列，显示出玩家对这两款游戏的极高期待。同时，《GTA6》的发售引起了广泛的讨论，育碧调侃其四百美元的收藏版不含游戏本体，引发了玩家对于游戏内容真实性的关注。此外，《GTA6》的发布也影响了PS5 Pro的供货情况，预计到2027年初将有所缓解。在独立游戏领域，《漫威金刚狼》的更新和实体版销售情况受到了玩家和评论家的广泛关注，尽管存在一些Bug，但整体上为玩家提供了丰富的游戏体验。此外，《伊莫》在Steam平台上的表现也非常出色，在线人数突破了16.6万大关，超越了《幻兽帕鲁》。在经典游戏方面，《最终幻想7：启示》的重制版三部曲受到了玩家的热烈欢迎，白金奖杯的获取难度相对较低，使得玩家更容易体验到游戏的乐趣。同时，《光环》系列的新作也在筹备中，预计将带来全新的多人模式体验。最后，《寂静岭：小镇陷落》作为系列首次全程采用第一人称的作品，受到了玩家的高度评价，媒体评分也达到了81分以上。尽管存在武器易损和子弹稀缺的问题，但避战成为玩家的重要选择。总的来说，这一周的游戏行业充满了各种亮点和挑战，无论是独立游戏还是大型IP，都展现出了各自的特色和魅力。",
   "digest_source": "llm",
   "heat_formula": "热度 = 资讯量 30% + 跨源覆盖 15% + 预约量 18% + 社区（周内新增关注/评价/讨论）15% + TapTap 榜单名次 12% + 官方动态 7% + 评测讨论 3%；各项先对数归一（资讯满格 200 条），缺测的维度计 0、不倒扣，满分 100。",
-  "input_hash": "a8c03bb337a11ea8",
+  "input_hash": "96e27d9a13765647",
   "hot_ranking": [
     {
       "rank": 1,
-      "name": "控制：共振",
-      "heat_score": 43.9,
-      "media_count": 32,
-      "source_count": 4,
-      "reservation_label": "812",
+      "name": "剑星",
+      "heat_score": 37.8,
+      "media_count": 28,
+      "source_count": 5,
+      "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": null,
       "rank_lists": [],
       "official_count": 0,
       "news": [
         {
-          "title": "《控制：共振》性能测试：画质拉满5090也到不了60帧",
-          "url": "https://www.gamersky.com/news/202609/2212492.shtml",
+          "title": "《剑星》还会持续更新！金亨泰回应：续作发售有惊喜",
+          "url": "https://www.gamersky.com/news/202609/2216177.shtml",
           "source": "游民星空",
-          "published_at": "2026-09-19"
+          "published_at": "2026-09-23"
         },
         {
-          "title": "《控制：共振》评测泄露！近战眼花缭乱似鬼泣 表现稳定",
-          "url": "https://www.gamersky.com/news/202609/2212001.shtml",
-          "source": "游民星空",
-          "published_at": "2026-09-18"
+          "title": "《剑星》Nintendo Switch 2免费试玩版现已全球上线",
+          "url": "https://www.3dmgame.com/news/202609/3954109.html",
+          "source": "3DMGame",
+          "published_at": "2026-09-22"
         }
       ]
     },
     {
       "rank": 2,
-      "name": "伊莫",
-      "heat_score": 43.5,
-      "media_count": 9,
-      "source_count": 5,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": 2,
-      "rank_lists": [
-        "reserve"
-      ],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "国产捉宠RPG《伊莫》免费上线Steam 峰值超12万但特别差评",
-          "url": "https://www.3dmgame.com/news/202609/3953478.html",
-          "source": "3DMGame",
-          "published_at": "2026-09-17"
-        },
-        {
-          "title": "《伊莫》PC端及云游戏今日上线，快前往艾德尔大陆开启联结冒险",
-          "url": "https://www.gamersky.com/news/202609/2210610.shtml",
-          "source": "游民星空",
-          "published_at": "2026-09-16"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "name": "伯吉的温馨厨房",
-      "heat_score": 40.3,
+      "name": "失落城堡2",
+      "heat_score": 36.5,
       "media_count": 0,
       "source_count": 0,
       "reservation_label": "52万",
-      "follow_delta_label": "3万",
-      "best_rank": 7,
+      "follow_delta_label": "1万",
+      "best_rank": 17,
       "rank_lists": [
         "reserve"
       ],
@@ -79,10 +51,10 @@
       "news": []
     },
     {
-      "rank": 4,
-      "name": "漫威金刚狼",
-      "heat_score": 38.0,
-      "media_count": 112,
+      "rank": 3,
+      "name": "GTA6",
+      "heat_score": 36.2,
+      "media_count": 82,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -91,24 +63,46 @@
       "official_count": 0,
       "news": [
         {
-          "title": "实体版真不行了？《漫威金刚狼》190万销量仅23%为实体版",
-          "url": "https://www.gamersky.com/news/202609/2212738.shtml",
-          "source": "游民星空",
-          "published_at": "2026-09-20"
+          "title": "演员泄露参演《GTA6》 R星提醒配音演员仍受保密协议约束",
+          "url": "https://www.3dmgame.com/news/202609/3954695.html",
+          "source": "3DMGame",
+          "published_at": "2026-09-27"
         },
         {
-          "title": "《漫威金刚狼》细节出错引争议还被博主调侃 官方回应",
-          "url": "https://www.gamersky.com/news/202609/2212676.shtml",
+          "title": "《GTA6》发售在即 美国或有150万人请假 你会请几天？",
+          "url": "https://www.gamersky.com/news/202609/2216959.shtml",
           "source": "游民星空",
-          "published_at": "2026-09-20"
+          "published_at": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "霓虹深渊2",
+      "heat_score": 36.0,
+      "media_count": 2,
+      "source_count": 2,
+      "reservation_label": "11万",
+      "follow_delta_label": null,
+      "best_rank": 18,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "新增多种游戏模式!《霓虹深渊 2》10月8日全平台上线",
+          "url": "https://www.ali213.net/news/html/2026-9/1041885.html",
+          "source": "游侠网",
+          "published_at": "2026-09-21"
         }
       ]
     },
     {
       "rank": 5,
-      "name": "GTA6",
-      "heat_score": 37.6,
-      "media_count": 105,
+      "name": "控制：共振",
+      "heat_score": 31.8,
+      "media_count": 37,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -117,81 +111,78 @@
       "official_count": 0,
       "news": [
         {
-          "title": "R星提醒《GTA6》演员：保密协议仍有效 发售前不准公开自己参演",
-          "url": "https://www.gamersky.com/news/202609/2213423.shtml",
+          "title": "《控制：共振》更新计划：10月NG++ 11月照片模式",
+          "url": "https://www.gamersky.com/news/202609/2217330.shtml",
           "source": "游民星空",
-          "published_at": "2026-09-20"
+          "published_at": "2026-09-27"
         },
         {
-          "title": "《GTA6》PC版提前上线真有戏？母公司CEO释放最新信号",
-          "url": "https://www.gamersky.com/news/202609/2212494.shtml",
+          "title": "《控制：共振》更新计划公开！两大新功能 主角新衣",
+          "url": "https://www.gamersky.com/news/202609/2217538.shtml",
           "source": "游民星空",
-          "published_at": "2026-09-20"
+          "published_at": "2026-09-26"
         }
       ]
     },
     {
       "rank": 6,
-      "name": "无限大",
-      "heat_score": 34.3,
-      "media_count": 5,
-      "source_count": 4,
+      "name": "漫威金刚狼",
+      "heat_score": 31.7,
+      "media_count": 36,
+      "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
-      "best_rank": 13,
-      "rank_lists": [
-        "reserve"
-      ],
+      "best_rank": null,
+      "rank_lists": [],
       "official_count": 0,
       "news": [
         {
-          "title": "网易新游《无限大》不设任何角色卡池 纯外观付费",
-          "url": "https://www.3dmgame.com/news/202609/3953238.html",
-          "source": "3DMGame",
-          "published_at": "2026-09-15"
+          "title": "\"屁味\"终于能关了！《漫威金刚狼》重磅更新",
+          "url": "https://www.gamersky.com/news/202609/2217348.shtml",
+          "source": "游民星空",
+          "published_at": "2026-09-26"
         },
         {
-          "title": "网易《无限大》正式官宣：不设角色卡池，外观将付费",
-          "url": "https://www.ali213.net/news/html/2026-9/1039913.html",
-          "source": "游侠网",
-          "published_at": "2026-09-15"
+          "title": "《漫威金刚狼》推出更新，加入感官提示开关并修复多项问题",
+          "url": "https://www.3dmgame.com/news/202609/3954632.html",
+          "source": "3DMGame",
+          "published_at": "2026-09-26"
         }
       ]
     },
     {
       "rank": 7,
-      "name": "循环勇士",
-      "heat_score": 31.4,
-      "media_count": 0,
-      "source_count": 0,
-      "reservation_label": "3.3万",
-      "follow_delta_label": "6000",
-      "best_rank": 21,
+      "name": "伊莫",
+      "heat_score": 31.1,
+      "media_count": 3,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": 1,
       "rank_lists": [
-        "reserve"
+        "hot",
+        "new"
       ],
       "official_count": 0,
-      "news": []
+      "news": [
+        {
+          "title": "“捉宠打败旗舰二游”？FunPlus《伊莫》中美韩18国登顶，全球预下载表现惊人",
+          "url": "http://www.gamelook.com.cn/2026/09/602736/",
+          "source": "GameLook",
+          "published_at": "2026-09-23"
+        },
+        {
+          "title": "《伊莫》Steam同时在线超16.6万人 超过《幻兽帕鲁》",
+          "url": "https://www.3dmgame.com/news/202609/3954178.html",
+          "source": "3DMGame",
+          "published_at": "2026-09-22"
+        }
+      ]
     },
     {
       "rank": 8,
-      "name": "破烂水手",
-      "heat_score": 30.0,
-      "media_count": 0,
-      "source_count": 0,
-      "reservation_label": "10万",
-      "follow_delta_label": "3000",
-      "best_rank": 29,
-      "rank_lists": [
-        "reserve"
-      ],
-      "official_count": 0,
-      "news": []
-    },
-    {
-      "rank": 9,
-      "name": "卧龙2：凤火连天",
-      "heat_score": 30.0,
+      "name": "最终幻想7：启示",
+      "heat_score": 29.5,
       "media_count": 24,
       "source_count": 3,
       "reservation_label": null,
@@ -201,24 +192,24 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《卧龙2：凤火连天》α体验版上线 晒截图得京东卡",
-          "url": "https://www.gamersky.com/news/202609/2211944.shtml",
+          "title": "《最终幻想7：启示》试玩进步很大:全新战斗系统 首章剧情曝光",
+          "url": "https://www.gamersky.com/news/202609/2217596.shtml",
           "source": "游民星空",
-          "published_at": "2026-09-18"
+          "published_at": "2026-09-27"
         },
         {
-          "title": "光荣《卧龙2：凤火连天》2027年3月4日正式发售",
-          "url": "https://www.3dmgame.com/news/202609/3953367.html",
+          "title": "《最终幻想7：启示》负责人：没玩过原版也能享受重制版三部曲",
+          "url": "https://www.3dmgame.com/news/202609/3954659.html",
           "source": "3DMGame",
-          "published_at": "2026-09-16"
+          "published_at": "2026-09-27"
         }
       ]
     },
     {
-      "rank": 10,
-      "name": "最终幻想7：启示",
-      "heat_score": 29.9,
-      "media_count": 26,
+      "rank": 9,
+      "name": "光环",
+      "heat_score": 28.2,
+      "media_count": 19,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -227,16 +218,42 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《最终幻想7：启示》将加入更多纵向探索内容 探索整个星球",
-          "url": "https://www.3dmgame.com/news/202609/3953836.html",
-          "source": "3DMGame",
-          "published_at": "2026-09-20"
+          "title": "知名爆料人汤姆·亨德森称《光环》系列正被重启",
+          "url": "https://www.gamersky.com/news/202609/2217547.shtml",
+          "source": "游民星空",
+          "published_at": "2026-09-26"
         },
         {
-          "title": "《最终幻想7：启示》仍由克劳德担任主角 将增加队友个人内容",
-          "url": "https://www.3dmgame.com/news/202609/3953822.html",
-          "source": "3DMGame",
-          "published_at": "2026-09-20"
+          "title": "哪些游戏系列衰落最为严重？《光环》《使命召唤》等经典IP被点名",
+          "url": "https://www.gamersky.com/news/202609/2217529.shtml",
+          "source": "游民星空",
+          "published_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "寂静岭：小镇陷落",
+      "heat_score": 27.3,
+      "media_count": 16,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《寂静岭：小镇陷落》发售首日讨论冷清 玩家归结：题材小众 主角不合口味",
+          "url": "https://www.gamersky.com/news/202609/2216364.shtml",
+          "source": "游民星空",
+          "published_at": "2026-09-24"
+        },
+        {
+          "title": "《寂静岭：小镇陷落》新作正式发售 Steam国区褒贬不一",
+          "url": "https://www.gamersky.com/news/202609/2216683.shtml",
+          "source": "游民星空",
+          "published_at": "2026-09-24"
         }
       ]
     }
