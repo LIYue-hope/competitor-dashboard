@@ -1,5 +1,6 @@
 # 竞品看板
 https://liyue-hope.github.io/competitor-dashboard/
+
 游戏行业竞品资讯监测看板。GitHub Actions 每天定时跑一批采集脚本，把结果写成 `data/*.json`
 提交回仓库，再构建 Vue3 静态站部署到 GitHub Pages。整个系统没有后端、没有数据库，
 数据文件本身就是"数据库"，页面只读 JSON。
