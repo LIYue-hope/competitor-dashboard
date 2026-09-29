@@ -1,15 +1,61 @@
 {
-  "generated_at": "2026-09-28T00:44:19.824472+00:00",
+  "generated_at": "2026-09-29T02:11:36.586152+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
+      "date": "2026-09-29",
+      "article_count": 4,
+      "game_count": 1,
+      "untagged_count": 3,
+      "digest": "2026年9月29日，GameLook共收录4条行业资讯，其中3条未指向具体游戏，1条聚焦米哈游《崩坏》系列。当天行业热点集中在AI技术在游戏领域的深度应用，特别是米哈游在云栖大会上展示了基于Agent技术的游戏开发新范式，引发业界对游戏制作流程变革的广泛关注。",
+      "digest_source": "llm",
+      "input_hash": "c290177126edc257",
+      "game_digests": [
+        {
+          "name": "崩坏",
+          "count": 1,
+          "summary": "米哈游AI大佬在云栖大会上揭秘，展示了会说话的NPC与会做游戏的Agent技术，并提及《崩坏》系列已先行一步。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "article_count": 8,
+      "game_count": 3,
+      "untagged_count": 5,
+      "digest": "今日游戏行业资讯聚焦于《守墓人2》与《未眠野》两款新作，以及米哈游CEO关于《雨城》测试与AI大模型发展的相关动态。其中《守墓人2》Steam在线人数突破5万，引发市场关注；米哈游CEO在交大演讲中透露《雨城》将于年底进行测试，并强调AI大模型将冲击行业第一梯队。",
+      "digest_source": "llm",
+      "input_hash": "9516e37b953adf8d",
+      "game_digests": [
+        {
+          "name": "守墓人2",
+          "count": 1,
+          "summary": "《守墓人2》Steam在线人数突破5万人，游戏制作团队Lark Games回归，玩家评价其玩法荒诞又上头。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "未眠野",
+          "count": 1,
+          "summary": "GameLook发布了《未眠野》试玩体验报道，重点介绍了游戏在开放世界中赋予玩家的自由探索机制。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "雨城",
+          "count": 1,
+          "summary": "米哈游CEO在交大演讲中透露，《雨城》将于今年年底进行测试，同时米哈游正致力于将AI大模型技术提升至行业第一梯队。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
       "date": "2026-09-26",
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "2026年9月26日，游戏行业资讯编辑在GameLook上发布了1条新闻。该新闻主要关注了某款新发布的游戏，但并未提及具体的游戏名称和发售日期。此外，该新闻还提到了游戏的更新内容和销量情况，但具体细节并未详细描述。",
+      "digest": "9月26日游戏行业资讯主要集中在宏观政策与市场动态方面，GameLook当日仅收录1条行业新闻，未涉及具体游戏厂商或产品的动态报道，整体行业关注点偏向政策解读与市场趋势分析。按报道条数排序的游戏（含代表性标题与摘要）：",
       "digest_source": "llm",
       "input_hash": "7790300b3c26f484",
       "game_digests": []

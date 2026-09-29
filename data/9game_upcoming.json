@@ -1,37 +1,9 @@
 {
-  "crawled_at": "2026-09-28T00:32:16.124770+00:00",
+  "crawled_at": "2026-09-29T01:45:05.038713+00:00",
   "days": [
     {
-      "date": "2026-09-28",
-      "date_label": "09月28日 今天",
-      "games": [
-        {
-          "game_name": "英雄冒险家",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/yxmxj/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "冒险与征途",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/maoxianyuzhengtu/",
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
       "date": "2026-09-29",
-      "date_label": "09月29日 明天",
+      "date_label": "09月29日 今天",
       "games": [
         {
           "game_name": "雷霆烈焰",
@@ -45,17 +17,6 @@
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "勇者秘域",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": "登陆送千抽",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/yongzhemiyu/",
-          "has_afk_grinding_tag": true
-        },
-        {
           "game_name": "巅峰激战",
           "categories": [
             "动作"
@@ -65,12 +26,23 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/dianfengjizhan/",
           "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "勇者秘域",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": "登陆送千抽",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/yongzhemiyu/",
+          "has_afk_grinding_tag": true
         }
       ]
     },
     {
       "date": "2026-09-30",
-      "date_label": "09月30日 后天",
+      "date_label": "09月30日 明天",
       "games": [
         {
           "game_name": "无极侠士",
@@ -87,7 +59,7 @@
     },
     {
       "date": "2026-10-01",
-      "date_label": "10月01日 周四",
+      "date_label": "10月01日 后天",
       "games": [
         {
           "game_name": "三国之定江山",
@@ -218,6 +190,23 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/shouhuzhuangyuan/",
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "date_label": "10月22日",
+      "games": [
+        {
+          "game_name": "深空之劫",
+          "categories": [
+            "策略"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/shenkongzhijie/",
+          "has_afk_grinding_tag": false
         }
       ]
     }

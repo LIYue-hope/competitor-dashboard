@@ -1,75 +1,212 @@
 {
-  "generated_at": "2026-09-28T00:43:39.922471+00:00",
+  "generated_at": "2026-09-29T02:10:14.304943+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-28",
-      "article_count": 1,
-      "game_count": 1,
-      "untagged_count": 0,
-      "digest": "2026年9月28日，游戏行业资讯聚焦于《无畏契约》2026上海全球冠军赛，中国战队表现低迷，四支参赛队伍全部未能取胜。赛事方面，JDG战队在昨日的比赛中以0-2的比分惨遭FUT横扫，导致中国队在本次冠军赛上遭遇全0-2的尴尬局面。",
+      "date": "2026-09-29",
+      "article_count": 14,
+      "game_count": 7,
+      "untagged_count": 5,
+      "digest": "2026年9月29日，游戏行业新闻汇总显示，多款热门游戏迎来重要更新和动态。其中，《巫师3：狂猎重制版》发布与PC原版的对比视频，展示了重制版在视觉与光照方面的显著提升；《美末》项目确认两个正在开发中，将扩展故事体系；《巫师3RE》免费升级至4K光追，吸引玩家关注；《暗黑5》获得业界认可，被看好其发展方向；《最后生还者》推出免费领取代码，庆祝“最后生还者日”；《皇牌空战8 希孚之翼》预购火爆，登顶美国畅销榜；《羊蹄山之魂》宣布联动《最后生还者》，为即将推出的完整版加入主题护甲。这些更新和动态不仅提升了游戏的吸引力，也为玩家带来了新的游戏体验。",
       "digest_source": "llm",
-      "input_hash": "4adf445e974e57bc",
+      "input_hash": "c7282048d67ed081",
       "game_digests": [
         {
-          "name": "无畏契约",
+          "name": "巫师3：狂猎重制版",
+          "count": 2,
+          "summary": "《巫师3：狂猎重制版》对比原版提升巨大！光照翻新但阴沉缺位；杰洛特换发型了!《巫师3：狂猎重制版》新增短发略显杀马特。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "美末",
+          "count": 2,
+          "summary": "顽皮狗确认两个《美末》项目！玩家：不就是美末3吗；尼尔终于爆猛料！《美末》两大新项目|光头新作明年见。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3re",
           "count": 1,
-          "summary": "在《无畏契约》2026上海全球冠军赛上，随着JDG遭FUT以0-2的横扫，四支中国队全部出师不利，遭遇全0-2的尴尬局面。",
-          "summary_source": "llm"
+          "summary": "《巫师3re》正式发售:免费升级 5080才能挑战4K光追。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "暗黑5",
+          "count": 1,
+          "summary": "竞争对手都认可！业内大佬看好《暗黑5》：方向对了。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "最后生还者",
+          "count": 1,
+          "summary": "《最后生还者》送出免费福利了！全球玩家可领。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "皇牌空战8 希孚之翼",
+          "count": 1,
+          "summary": "粉毛老婆太猛!《皇牌空战8 希孚之翼》预购爆了:登顶老美畅销榜。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "羊蹄山之魂",
+          "count": 1,
+          "summary": "《羊蹄山之魂》官宣联动《最后生还者》！帅气新衣国庆爽玩。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "article_count": 109,
+      "game_count": 45,
+      "untagged_count": 38,
+      "digest": "9月28日，游戏行业新闻数量众多，涉及45款游戏，包括《战神》、《巫师3RE》等多个知名作品。具体如下：《战神劳菲》特典灵感是贪玩蓝月？系兄弟就来砍我——《战神劳菲》的特典灵感被指与《贪玩蓝月》相似。《战神：慈悲》预购奖励为豪华版和数字豪华版内容，包含新装备和游戏内资源。《巫师3RE》M站开分95分，经久不衰的杰洛特就是神。《控制：共振》支线任务过多会“吐槽”玩家时间管理。《GTA6》高级天气系统被证实，将包含飓风、海啸等极端天气。《巫师3：狂猎重制版》官网实机截图公布，所有已拥有原版游戏的玩家均可免费升级。《魔兽世界：无限》因角色命名争议引发玩家关注。《卧龙2》展示武技短实机演示，双节棍加入武器种类。《地平线6》DLSS5超逼真演示，座舱视角像真人驾驶。《寂静岭》新作在显卡基准测试中表现优异，但M站用户评分下降。《巫师3重制版》开场30分钟实机演示惊艳画质，系统革新。《幻兽帕鲁》成为今年Steam最高好评游戏。《我的世界地下城2》IGN评分仅6分，单薄无玩点。《最后生还者2》变性演员确认加盟第三季，艾比演员加盟第三季饰演伊丽莎白。《漫威金刚狼》1.001.006版本更新加入关闭金刚狼感官标记的选项。《皇牌空战8》豪华版明早6点解锁，发售预告发布。",
+      "digest_source": "llm",
+      "input_hash": "7b1f17afe9f0d0df",
+      "game_digests": [
+        {
+          "name": "战神：劳菲",
+          "count": 5,
+          "summary": "《战神劳菲》特典灵感是贪玩蓝月？系兄弟就来砍我；《战神劳菲》明日开预购：小道消息是真的？降价必买；《战神：劳菲》全新实机 多功能蛇弓 超强装备自定义（当天共 5 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3RE",
+          "count": 4,
+          "summary": "《巫师3RE》M站开分95分！经久不衰 杰洛特就是神；《巫师3RE》狮鹫Boss战实机公开！画面彻底焕新 超帅；《巫师3RE》不是一款新游戏！而是现有游戏全局更新（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "控制：共振",
+          "count": 4,
+          "summary": "《控制：共振》本地化遭批！翻译质量被指不如繁中；《控制:共振》支线玩太久会被\"官方\"吐槽 玩会主线吧；《控制：共振》巨大成功:销量口碑双丰收 破工作室历史（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "《GTA6》高级天气系统证实 或将包含飓风 海啸等；《GTA6》首发当日恐必迎剧情泄露 会毁了兴致吗；《GTA6》实体版疑似提前曝光！封面与包装细节流出。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3：狂猎重制版",
+          "count": 3,
+          "summary": "《巫师3：狂猎重制版》官网实机截图：PS5+PC实机录制；《巫师3：狂猎重制版》改动汇总：技能与战斗重做|动画改进等；《巫师3：狂猎重制版》评测解禁时间定了！全新内容与玩法马上来。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "魔兽世界：无限",
+          "count": 3,
+          "summary": "《魔兽世界：无限》饭制食人魔爆红！这雷玩家遭不住了；《魔兽世界：无限》DLSS5实机 5090跑4K 光影效果优秀；《魔兽世界：无限》大量玩家被封禁 暴雪制作人回怼。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "卧龙2",
+          "count": 2,
+          "summary": "《卧龙2》武技短实机 拥有18种以上武器 双节棍加入；老婆好润！《卧龙2》月英故乡叕被烧了 跟着我打妖怪。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "地平线6",
+          "count": 2,
+          "summary": "DLSS 5太夸张了！《地平线6》座舱视角像真人驾驶；分不清游戏还是现实！《地平线6》DLSS5超逼真演示。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "寂静岭",
+          "count": 2,
+          "summary": "《寂静岭》新作神奇优化：RX 580比GTX 1060表现好；《寂静岭》新作M站用户评分拉了 剧情战斗优化都不行。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3重制版",
+          "count": 2,
+          "summary": "《巫师3重制版》开场30分钟实机演示 惊艳画质 系统革新；《巫师3重制版》NS2与PC画质对比 NS2表现远超预期。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "幻兽帕鲁",
+          "count": 2,
+          "summary": "2026年Steam口碑最好游戏！46万人为《幻兽帕鲁》打出好评；《幻兽帕鲁》成今年Steam最高好评游戏！但不期望拿奖。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "我的世界：地下城2",
+          "count": 2,
+          "summary": "《我的世界地下城2》IGN仅6分：单薄！没有玩的理由；《我的世界：地下城2》M站评分75 改进充足 原创欠缺。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "最后生还者2",
+          "count": 2,
+          "summary": "《最后生还者2》变性演员参演剧版第三季 演变性新角；《最后生还者2》艾比演员确认加盟第三季 这次不演艾比。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 2,
+          "summary": "听劝!《漫威金刚狼》修改争议功能 有人称赞有人嫌晚；《漫威金刚狼》能在PC运行了！但5090也仅2帧。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "皇牌空战8",
+          "count": 2,
+          "summary": "《皇牌空战8》解锁时间：豪华版明早6点起飞；《皇牌空战8》发售预告：粉毛老婆要来了！准备起飞。",
+          "summary_source": "rules"
         }
       ]
     },
     {
       "date": "2026-09-27",
-      "article_count": 91,
+      "article_count": 90,
       "game_count": 44,
-      "untagged_count": 32,
-      "digest": "今日游戏资讯聚焦于《GTA6》热度与股价的背离、Remedy新作《控制：共振》的口碑争议与翻译讨论，以及《宝可梦：风/波》的地图泄露与发售计划。此外，顽皮狗预热《最后生还者》纪念日，CDPR回顾《2077》DLC三周年，Build A Rocket Boy因《Everywhere》项目陷入破产管理，以及《卧龙2》角色设定曝光。",
+      "untagged_count": 31,
+      "digest": "今日游戏资讯聚焦于《GTA6》热度与股价背离、Remedy新作口碑两极分化以及《宝可梦：风/波》持续泄露等热点话题，同时涉及《最后生还者》系列预热、《赛博朋克2077》DLC三周年回顾及多款新作发售计划公布。",
       "digest_source": "llm",
-      "input_hash": "f69d68a04fd89f08",
+      "input_hash": "ef782e1ac134ae59",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 10,
-          "summary": "《GTA6》热度爆表却救不了股价：T2市值蒸发60亿，外媒批《GTA》老作品大量消失，PS5上16款作品中11款无法游玩。",
+          "summary": "热度爆表却救不了股价：T2市值蒸发60亿，外媒批《GTA》老作品大量消失，PS5上16款作品中11款无法游玩。",
           "summary_source": "llm"
         },
         {
           "name": "控制：共振",
           "count": 5,
-          "summary": "《控制：共振》\"红\"到辣眼，玩家吐槽战斗无聊只会一路平砍，盗版玩家玩完想补票，官方公布10月NG++与11月照片模式更新计划。",
+          "summary": "媒体试玩反馈疑曝光开场震撼如初见《阿凡达》，玩家吐槽战斗重复只会一路平砍，繁中把“王牌”译成“大棒”引发争议。",
           "summary_source": "llm"
         },
         {
           "name": "宝可梦：风/波",
           "count": 2,
-          "summary": "泄露完整地图显示以东南亚为原型，包含澳大利亚北领地一角，测试版再遭泄露，地图、草属性道馆与疑似冠军曝光。",
+          "summary": "泄露完整地图显示以东南亚为原型包含澳大利亚北领地一角，测试版再遭泄露地图、草属性道馆与疑似冠军曝光。",
           "summary_source": "llm"
         },
         {
           "name": "最后生还者",
           "count": 2,
-          "summary": "顽皮狗官方发文庆祝《最后生还者》日，为PS5推出最新主题背景，承诺9月28日公布更多系列相关消息。",
+          "summary": "顽皮狗官方发文庆祝《最后生还者》日，为PS5玩家免费推出主题动态背景，承诺将于9月28日公布更多系列相关消息。",
           "summary_source": "llm"
         },
         {
           "name": "2077",
           "count": 1,
-          "summary": "《2077》DLC三周年，总监坦言无法掩盖游戏首发失败。",
+          "summary": "《赛博朋克2077》资料片“往日之影”迎来发售三周年，总监坦言无法掩盖游戏首发失败。",
           "summary_source": "llm"
         },
         {
           "name": "Dungeon Treaders",
           "count": 1,
-          "summary": "经典3D迷宫探索RPG《Dungeon Treaders》已在Steam推出试玩版，支持英日双语，计划2027年发售。",
+          "summary": "经典3D迷宫探索RPG已在Steam推出试玩版，支持英日双语，计划2027年发售。",
           "summary_source": "llm"
         },
         {
           "name": "Everywhere",
           "count": 1,
-          "summary": "《Everywhere》《MindsEye》开发商Build A Rocket Boy正式进入破产管理。",
+          "summary": "开发商Build A Rocket Boy正式进入破产管理，《Everywhere》《MindsEye》前途未卜。",
           "summary_source": "llm"
         },
         {
@@ -87,31 +224,31 @@
         {
           "name": "上古卷轴OL",
           "count": 1,
-          "summary": "《上古卷轴OL》仍在凭热爱坚持，此前大裁员重创，新内容延期。",
+          "summary": "开发团队在经历项目取消、裁员以及内容延期后，目前仍在继续推进游戏后续开发工作。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤23：现代战争4",
           "count": 1,
-          "summary": "官方试玩返图显示现场众人6v6，游戏已亮相英国伦敦举办的Xbox FanFest活动，10月23发售。",
+          "summary": "官方试玩返图显示现场众人6v6，游戏已亮相英国伦敦举办的Xbox FanFest活动。",
           "summary_source": "llm"
         },
         {
           "name": "卧龙2",
           "count": 1,
-          "summary": "《卧龙2》曹老板好大儿曹丕曝光：偏激狂岂能坐等十年？",
+          "summary": "曹丕角色形象曝光，被描述为偏激狂。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达：时之笛",
           "count": 1,
-          "summary": "挑战老任，AI仅500小时从零重制《塞尔达：时之笛》。",
+          "summary": "一个AI Agent项目用超过500小时，完全从零重建了《塞尔达传说：时之笛》。",
           "summary_source": "llm"
         },
         {
           "name": "宝可梦风波",
           "count": 1,
-          "summary": "《宝可梦：风/波》大量泄露，地图规模、角色模型全被扒。",
+          "summary": "《宝可梦：风/波》近期又有一批泄露情报曝光，包括游戏地图、角色模型、道馆以及疑似冠军角色等内容。",
           "summary_source": "llm"
         },
         {
@@ -124,12 +261,12 @@
     },
     {
       "date": "2026-09-26",
-      "article_count": 99,
-      "game_count": 45,
+      "article_count": 97,
+      "game_count": 44,
       "untagged_count": 30,
-      "digest": "今日游戏资讯聚焦于《GTA6》发售前的玩家热议与实体收藏炒作，以及Remedy新作《控制：共振》发售后Steam在线人数与口碑的双丰收。此外，国产武侠动作游戏《影之刃零》宣布与《三角洲行动》联动，而《皇牌空战8：希孚之翼》IGN评分创系列历史新高。",
+      "digest": "Remedy新作《控制：共振》Steam首发同时在线破3.4万，获特别好评；国产武侠《影之刃零》宣布与《三角洲行动》联动；《皇牌空战8：希孚之翼》IGN9分创系列20年M站最高分；GTA6相关新闻占据头条，涉及实体收藏黄牛炒作、女主造型及发售情报。",
       "digest_source": "llm",
-      "input_hash": "ceca2692e7de22e2",
+      "input_hash": "a118a7377c93790b",
       "game_digests": [
         {
           "name": "GTA6",
@@ -140,43 +277,37 @@
         {
           "name": "控制：共振",
           "count": 5,
-          "summary": "疑似合作类SweetBaby机构！也搞DEI？",
+          "summary": "《控制：共振》疑似合作类SweetBaby机构！也搞DEI？",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 4,
-          "summary": "联动《三角洲行动》！来自中秋的意外惊喜。",
+          "summary": "《影之刃零》联动《三角洲行动》！来自中秋的意外惊喜。",
           "summary_source": "llm"
         },
         {
           "name": "光环",
           "count": 2,
-          "summary": "Reddit热议哪些游戏系列衰落最严重，《光环》《使命召唤》《黑道圣徒》《龙腾世纪》被高频点名。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "卧龙2",
-          "count": 2,
-          "summary": "《卧龙2》有女娲战衣！创世女神 还原东方神话。",
+          "summary": "哪些游戏系列衰落最为严重？《光环》《使命召唤》等经典IP被点名。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3：狂猎重制版",
           "count": 2,
-          "summary": "已经有博主可以玩了！9.29上线 正体验光追。",
+          "summary": "《巫师3：狂猎重制版》已经有博主可以玩了！9.29上线 正体验光追。",
           "summary_source": "llm"
         },
         {
           "name": "控制",
           "count": 2,
-          "summary": "《控制：共振》未来更新计划官宣！新模式 玩家体验升级。",
+          "summary": "《控制》新作未来更新计划官宣！新模式 玩家体验升级。",
           "summary_source": "llm"
         },
         {
           "name": "最终幻想7：启示",
           "count": 2,
-          "summary": "白金超简单！总监回应 成就感依旧。",
+          "summary": "《最终幻想7：启示》白金超简单！总监回应 成就感依旧。",
           "summary_source": "llm"
         },
         {
@@ -206,7 +337,7 @@
         {
           "name": "魔兽世界：无限",
           "count": 2,
-          "summary": "《魔兽世界：无限》就是做给老玩家 坚持经典原汁原味。",
+          "summary": "《魔兽世界无限》就是做给老玩家 坚持经典原汁原味。",
           "summary_source": "llm"
         },
         {
@@ -219,6 +350,12 @@
           "name": "GTA SA",
           "count": 1,
           "summary": "IGN重评《GTA SA》：22年前的神作如今依旧能打！",
+          "summary_source": "llm"
+        },
+        {
+          "name": "OMEGA：The Dead Planet",
+          "count": 1,
+          "summary": "《OMEGA：The Dead Planet》玩法机制实机预告。",
           "summary_source": "llm"
         }
       ]
@@ -825,107 +962,6 @@
           "name": "女神异闻录",
           "count": 1,
           "summary": "《女神异闻录》30周年直播：制作人表态有意重制或复刻初代与《女神异闻录2》。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-19",
-      "article_count": 94,
-      "game_count": 54,
-      "untagged_count": 16,
-      "digest": "2026年9月19日游戏行业资讯密集，GTA6相关话题热度居高不下，涉及粉丝请愿、Steam上架传闻及TGS索尼展台宣传；控制：共振因IGN比荷卢10分与M站唯一差评引发评分争议；最终幻想7：启示确认两部DLC计划及总监通关46次；漫威金刚狼销量破190万；生化危机电影好评如潮且三上真司入选DICE名人堂；此外，Fate新作、GTA东京、偶像大师主机新作等消息也备受关注。",
-      "digest_source": "llm",
-      "input_hash": "c3b23db4e3b7622e",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 6,
-          "summary": "女儿为绝症父亲求《GTA6》提前体验：只剩数周生命",
-          "summary_source": "llm"
-        },
-        {
-          "name": "控制：共振",
-          "count": 6,
-          "summary": "IGN8分《控制：共振》主机PC同步解锁 24日10点开玩",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想7：启示",
-          "count": 5,
-          "summary": "《最终幻想7：启示》总监已通关46次!随身携带手柄开玩",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 5,
-          "summary": "真不上PC？索尼多次强调《漫威金刚狼》是独占游戏",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化危机",
-          "count": 3,
-          "summary": "《生化危机》之父 三上真司入选DICE名人堂",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Fate",
-          "count": 2,
-          "summary": "《Fate/Extra》重制版游民采访：全新方式重现原作",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA：东京",
-          "count": 2,
-          "summary": "《GTA:东京》细节披露:重点武士刀 效仿《恶霸鲁尼》",
-          "summary_source": "llm"
-        },
-        {
-          "name": "怪物猎人：荒野",
-          "count": 2,
-          "summary": "《怪物猎人：荒野》DLC主题怪还在藏！古龙会融入剧情",
-          "summary_source": "llm"
-        },
-        {
-          "name": "给他爱5",
-          "count": 2,
-          "summary": "《给他爱5》旧泄露源代码重现 含扩张自由城与《GTA6》早期代码",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FC 27",
-          "count": 1,
-          "summary": "年货大作《FC 27》M站75分开局 玩法改动喜忧参半",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7启示",
-          "count": 1,
-          "summary": "IGN称《FF7启示》规模超乎想象 担忧容易太臃肿",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三国志15",
-          "count": 1,
-          "summary": "《三国志15》确认！涩泽光放话 态度端正",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤23：现代战争4",
-          "count": 1,
-          "summary": "动视称《使命召唤23：现代战争4》为史诗终章 重启子系列或就此完结",
-          "summary_source": "llm"
-        },
-        {
-          "name": "偶像大师",
-          "count": 1,
-          "summary": "《偶像大师》主机新作公布！任天堂独占 含49名偶像",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺客信条4：黑旗 记忆重置",
-          "count": 1,
-          "summary": "育碧40周年献礼！《刺客信条4：黑旗 记忆重置》首次折扣来了",
           "summary_source": "llm"
         }
       ]
