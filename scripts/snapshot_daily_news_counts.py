@@ -40,7 +40,7 @@ def now_beijing():
     return datetime.now(zone)
 
 
-def source_counts(filename):
+def source_counts(filename, latest_date):
     """Return a source's visible counts, or ``None`` when its input is unusable.
 
     An absent or malformed crawler output does not mean the source had zero
@@ -59,7 +59,7 @@ def source_counts(filename):
         if not isinstance(item, dict):
             continue
         date = str(item.get("published_at") or "")[:10]
-        if date >= START_DATE:
+        if START_DATE <= date <= latest_date:
             counts[date] += 1
     return counts
 
@@ -68,8 +68,15 @@ def main():
     previous = read_json(OUTPUT)
     if not isinstance(previous, dict):
         previous = {}
-    days = {entry.get("date"): dict(entry.get("counts") or {}) for entry in previous.get("days", []) if entry.get("date") >= START_DATE}
-    all_counts = {key: source_counts(filename) for key, _label, filename in SOURCES}
+    today = now_beijing().date().isoformat()
+    # 旧快照也要重新套用上限：这样历史文件中已被污染的未来日期会在下一次
+    # 运行时自愈，而不是只拦截本次刚读到的原始新闻。
+    days = {
+        str(entry.get("date") or ""): dict(entry.get("counts") or {})
+        for entry in previous.get("days", [])
+        if START_DATE <= str(entry.get("date") or "") <= today
+    }
+    all_counts = {key: source_counts(filename, today) for key, _label, filename in SOURCES}
     available_counts = [counts for counts in all_counts.values() if counts is not None]
     visible_dates = set().union(*(counts.keys() for counts in available_counts))
 
@@ -81,7 +88,6 @@ def main():
             if counts is not None:
                 row[key] = counts[date]
 
-    today = now_beijing().date().isoformat()
     if today >= START_DATE and available_counts:
         # 即使所有可用站点当天均无新文章，也要留下这一天，曲线才是连续的每日记录。
         # 不可用来源不写入 0：缺失键表示“本次没有可信读数”，与真实的 0 条区分。

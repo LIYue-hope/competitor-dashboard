@@ -256,21 +256,21 @@ const dailyNewsTrendData = computed(() => {
   const sourceMeta = snapshot?.sources?.length
     ? snapshot.sources
     : newsSources.value.map(({ key, label }) => ({ key, label }))
-  const rows = new Map((snapshot?.days || []).map((day) => [
-    day.date,
-    { date: day.date, counts: { ...(day.counts || {}) } },
-  ]))
   const todayParts = new Intl.DateTimeFormat('en-US', {
     timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit',
   }).formatToParts(new Date())
   const today = `${todayParts.find((part) => part.type === 'year').value}-${todayParts.find((part) => part.type === 'month').value}-${todayParts.find((part) => part.type === 'day').value}`
+  const rows = new Map((snapshot?.days || []).map((day) => [
+    day.date,
+    { date: day.date, counts: { ...(day.counts || {}) } },
+  ]).filter(([date]) => date <= today))
   for (const source of newsSources.value) {
     // 只有成功加载且结构有效的来源才覆盖快照，避免一次刷新失败把历史值改成 0。
     if (!Array.isArray(source.news?.items)) continue
     const counts = {}
     for (const item of source.news.items) {
       const date = String(item.published_at || '').slice(0, 10)
-      if (!date || date < DAILY_NEWS_START_DATE) continue
+      if (!date || date < DAILY_NEWS_START_DATE || date > today) continue
       counts[date] = (counts[date] || 0) + 1
     }
     // 成功读取但当天没有文章时也要明确记录 0；读取失败的来源在上面的 guard 已跳过。

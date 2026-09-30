@@ -60,7 +60,22 @@ watch([sourceKey, tab, q, from, to, digestDate, newsLimit], () => {
 })
 
 /* ---- 新闻 ---- */
-const newsItems = computed(() => src.value?.news?.items || [])
+function beijingToday() {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit',
+  }).formatToParts(new Date())
+  return `${parts.find((part) => part.type === 'year').value}-${parts.find((part) => part.type === 'month').value}-${parts.find((part) => part.type === 'day').value}`
+}
+
+// 资讯列表是滚动窗口，展示层也拦截未来发布日期，防止旧数据或手动刷新到的
+// 异常日期把“最新日期”推到采集日之后（例如 10 月 10 日）。
+const newsItems = computed(() => {
+  const today = beijingToday()
+  return (src.value?.news?.items || []).filter((item) => {
+    const date = String(item.published_at || '').slice(0, 10)
+    return date && date <= today
+  })
+})
 
 const dateCounts = computed(() => {
   const m = new Map()

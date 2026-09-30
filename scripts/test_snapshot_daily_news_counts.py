@@ -124,6 +124,16 @@ class TestDailyNewsSnapshot(unittest.TestCase):
         days = {row["date"]: row["counts"] for row in self._history()["days"]}
         self.assertEqual(days["2026-09-09"]["dm"], 2)
 
+    def test_future_publication_dates_are_ignored_and_removed_from_history(self):
+        self._save_history([{"date": "2026-10-10", "counts": {"dm": 1}}])
+        self._write_all_sources(
+            {"dm": [{"published_at": "2026-10-10 06:28:32"}]}
+        )
+        snapshot.main()
+        dates = {row["date"] for row in self._history()["days"]}
+        self.assertNotIn("2026-10-10", dates)
+        self.assertIn("2026-09-10", dates)
+
 
 if __name__ == "__main__":
     unittest.main()

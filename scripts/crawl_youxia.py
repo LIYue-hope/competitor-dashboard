@@ -64,6 +64,7 @@ from bs4 import BeautifulSoup
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from game_name import derive_game_name  # noqa: E402
+from news_dates import beijing_today, is_within_news_window  # noqa: E402
 from utils import DEFAULT_HEADERS  # noqa: E402
 
 logging.basicConfig(
@@ -409,8 +410,8 @@ def crawl_news_supplement(window_start, max_game_id):
     return supplement_items
 
 
-def merge_and_filter(old_items, new_items, window_start):
-    """按 url 去重合并新旧条目，只保留窗口内的，按发布时间降序。"""
+def merge_and_filter(old_items, new_items, window_start, latest_date=None):
+    """按 url 去重合并，只保留窗口内且不晚于采集日的条目。"""
     merged = {}
     for item in old_items:
         url = item.get("url")
@@ -421,17 +422,16 @@ def merge_and_filter(old_items, new_items, window_start):
         if url:
             merged[url] = item  # 同一 url 用最新抓到的那条覆盖旧的
 
-    window_start_str = window_start.isoformat()
     filtered = [
         item
         for item in merged.values()
-        if item.get("published_at", "")[:10] >= window_start_str
+        if is_within_news_window(item.get("published_at"), window_start, latest_date)
     ]
     filtered.sort(key=lambda item: item.get("published_at", ""), reverse=True)
     return filtered
 
 
-def merge_news(old_items, new_items, window_start, game_urls, min_game_id, max_game_id):
+def merge_news(old_items, new_items, window_start, game_urls, min_game_id, max_game_id, latest_date=None):
     """合并新旧新闻条目，并剔除已证伪的历史补充条目。
 
     自愈逻辑：旧数据里 supplemented=true 的条目，如果它的文章 id 落在本次 game
@@ -457,7 +457,7 @@ def merge_news(old_items, new_items, window_start, game_urls, min_game_id, max_g
         kept_old.append(item)
     if dropped:
         logger.info("剔除 %d 条已证伪的历史补充条目（非游戏资讯）", dropped)
-    return merge_and_filter(kept_old, new_items, window_start)
+    return merge_and_filter(kept_old, new_items, window_start, latest_date)
 
 
 def parse_review_page(html):
@@ -668,7 +668,7 @@ def run_reviews(window_start):
 
 
 def main():
-    today = date.today()
+    today = beijing_today()
     # 新闻与评测窗口长度不同，各自单独算窗口起始日期
     news_window_start = today - timedelta(days=NEWS_WINDOW_DAYS - 1)
     reviews_window_start = today - timedelta(days=REVIEWS_WINDOW_DAYS - 1)

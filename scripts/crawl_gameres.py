@@ -61,6 +61,7 @@ from bs4 import BeautifulSoup
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from game_name import derive_game_name  # noqa: E402
+from news_dates import beijing_today, is_within_news_window  # noqa: E402
 from utils import DEFAULT_HEADERS  # noqa: E402
 
 logging.basicConfig(
@@ -279,8 +280,8 @@ def crawl_news(window_start):
     return items, raw_count, allowed_count, min(page, MAX_PAGES)
 
 
-def merge_and_filter(old_items, new_items, window_start):
-    """按 url 去重合并新旧条目，只保留窗口内的，按发布时间降序。"""
+def merge_and_filter(old_items, new_items, window_start, latest_date=None):
+    """按 url 去重合并，只保留窗口内且不晚于采集日的条目。"""
     merged = {}
     for item in old_items:
         url = item.get("url")
@@ -291,11 +292,10 @@ def merge_and_filter(old_items, new_items, window_start):
         if url:
             merged[url] = item  # 同一 url 用最新抓到的那条覆盖旧的
 
-    window_start_str = window_start.isoformat()
     filtered = [
         item
         for item in merged.values()
-        if item.get("published_at", "")[:10] >= window_start_str
+        if is_within_news_window(item.get("published_at"), window_start, latest_date)
     ]
     filtered.sort(key=lambda item: item.get("published_at", ""), reverse=True)
     return filtered
@@ -353,7 +353,7 @@ def run_news(window_start):
 
 
 def main():
-    today = date.today()
+    today = beijing_today()
     window_start = today - timedelta(days=NEWS_WINDOW_DAYS - 1)
     logger.info(
         "开始抓取游资网新闻，窗口 %s ~ %s（%d 天）",

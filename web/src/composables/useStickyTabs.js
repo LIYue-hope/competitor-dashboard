@@ -4,7 +4,7 @@ import { ref, watch, onMounted, onUnmounted, nextTick } from 'vue'
  * 多级吸顶 Tab 栏的滚动行为，供新游监测 / 热门动态 / 游戏资讯三个板块共用。
  *
  * 做两件事：
- *   1. 向下滚过阈值给吸顶栏加 compact：多行折成一行，把垂直空间还给内容；
+ *   1. 吸顶栏真正滑到 app-bar 下方后才加 compact：多行折成一行，把垂直空间还给内容；
  *   2. 日期锚点做 scroll spy，高亮当前视口顶部所在的那一段。
  *
  * 折叠会让吸顶栏矮几十像素，而它是 in-flow 的 sticky 元素，高度一变整个文档就缩。
@@ -23,8 +23,10 @@ import { ref, watch, onMounted, onUnmounted, nextTick } from 'vue'
  * 只有当前显示的板块才响应滚动、才拥有 body 补偿，否则多个实例会互相覆盖。
  */
 
-const COMPACT_ON = 170 // 向下滚过这里才折叠
-const COMPACT_OFF = 90 // 向上退回这里才展开；中间 80px 是死区，避免临界抖动
+// 折叠阈值必须相对当前 tab-stack 的文档位置计算，不能使用全局 scrollY。
+// 概览卡里的“未来 7 日可挂机/搬砖游戏”本身可能很长，固定 scrollY 阈值会让
+// 用户还在看概览时就把后面的来源/日期/筛选栏折叠掉。
+const COMPACT_OFF_GAP = 72 // 向上离开吸顶位置 72px 才展开，避免临界抖动
 const SPY_LINE = 150 // scroll spy 判定线，约等于折叠后吸顶栏底边
 
 export function useStickyTabs(stackRef, rootRef, activeRef) {
@@ -94,14 +96,25 @@ export function useStickyTabs(stackRef, rootRef, activeRef) {
     })
   }
 
+  function appBarHeight() {
+    const raw = getComputedStyle(document.documentElement)
+      .getPropertyValue('--app-bar-h')
+      .trim()
+    const value = Number.parseFloat(raw)
+    return Number.isFinite(value) ? value : 56
+  }
+
   function apply() {
     queued = false
     if (!activeRef.value) return
 
-    const y = window.scrollY
-    if (!compact.value && y > COMPACT_ON) {
+    // rootRef 与 tab-stack 同一位置，不能读 sticky 元素自己的 top：sticky 生效后
+    // 它会一直返回 app-bar 底边，无法区分“还没滑到”与“已经吸顶”。
+    const rootTop = rootRef.value?.getBoundingClientRect().top ?? Number.POSITIVE_INFINITY
+    const stickyTop = appBarHeight()
+    if (!compact.value && rootTop <= stickyTop) {
       setCompact(true)
-    } else if (compact.value && y < COMPACT_OFF) {
+    } else if (compact.value && rootTop > stickyTop + COMPACT_OFF_GAP) {
       setCompact(false)
     }
 
