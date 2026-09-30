@@ -1,49 +1,21 @@
 {
-  "crawled_at": "2026-09-29T01:45:05.038713+00:00",
+  "crawled_at": "2026-09-30T01:14:43.278149+00:00",
   "days": [
     {
-      "date": "2026-09-29",
-      "date_label": "09月29日 今天",
+      "date": "2026-09-30",
+      "date_label": "09月30日 今天",
       "games": [
         {
-          "game_name": "雷霆烈焰",
+          "game_name": "梦幻甬城",
           "categories": [
             "角色扮演"
           ],
           "score": null,
-          "event_desc": null,
+          "event_desc": "玩点不一样的三国",
           "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/leitinglieyan/",
+          "detail_url": "https://www.9game.cn/menghuanyongcheng/",
           "has_afk_grinding_tag": false
         },
-        {
-          "game_name": "巅峰激战",
-          "categories": [
-            "动作"
-          ],
-          "score": null,
-          "event_desc": "热血地下城格斗",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/dianfengjizhan/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "勇者秘域",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": "登陆送千抽",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/yongzhemiyu/",
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "date_label": "09月30日 明天",
-      "games": [
         {
           "game_name": "无极侠士",
           "categories": [
@@ -59,7 +31,7 @@
     },
     {
       "date": "2026-10-01",
-      "date_label": "10月01日 后天",
+      "date_label": "10月01日 明天",
       "games": [
         {
           "game_name": "三国之定江山",
@@ -76,7 +48,7 @@
     },
     {
       "date": "2026-10-02",
-      "date_label": "10月02日 周五",
+      "date_label": "10月02日 后天",
       "games": [
         {
           "game_name": "逍遥九重天",
@@ -206,6 +178,23 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/shenkongzhijie/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "date_label": "10月23日",
+      "games": [
+        {
+          "game_name": "破日开天",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "单职业传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/porikaitian/",
           "has_afk_grinding_tag": false
         }
       ]

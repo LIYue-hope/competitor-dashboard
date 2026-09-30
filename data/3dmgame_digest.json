@@ -1,107 +1,208 @@
 {
-  "generated_at": "2026-09-29T01:59:20.577375+00:00",
+  "generated_at": "2026-09-30T01:22:48.058250+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-29",
-      "article_count": 27,
-      "game_count": 21,
-      "untagged_count": 1,
-      "digest": "【综述：游戏行业动态】9月29日，3DMGame新闻总数达到27条。涉及的游戏包括《巫师3：重制版》、《星际：异端先知》、《GTA6》等，其中《巫师3：重制版》和《星际：异端先知》的销量表现突出。同时，育碧宣布取消《U计划》游戏截图流出事件，并讨论了AI工具在游戏开发中的应用前景。此外，《女神异闻录3》系列销量突破500万份，而《宝可梦：风/波》疑似地图曝光。其他游戏如《尼尔：机械纪元》由横尾太郎回忆开发过程，强调自由创作的重要性。同时，《异形：火力精英2》开发商裁员但游戏开发继续。IGN对《我的世界：地下城2》给出6分评价，而《暗黑破坏神5》推出后《暗黑破坏神4》仍将继续新赛季。最终幻想7：重制版有望七年完结，但开发节奏难以再现。《漫威金刚狼》已可通过PS5模拟器启动，但实际游玩尚需时间。生化危机2：重制版中玩家用布莱恩的造型替换里昂的复古皮肤。",
+      "date": "2026-09-30",
+      "article_count": 32,
+      "game_count": 15,
+      "untagged_count": 3,
+      "digest": "2026年9月30日共发布32条游戏资讯，涉及15款游戏，未指向具体游戏类新闻3条。其中游戏类资讯覆盖GTA6新图与区域扩展、巫师3重制版画面争议及玩法短板分析、007推出免费DLC、ARC突袭者调整更新节奏、使命召唤推出PC限定“连带”模式、塞尔达时之笛重制版玩法变化、怪物猎人荒野掌机移植优化、战争机器事变日首发销售与Game Pass压力、战地系列发展回顾、战锤40K星际战士2推出混沌围攻PvE及武器调整、暗黑破坏神5聚焦配装规划、模拟山羊3新DLC发行并与GTA6发售日撞期、生化危机销量因电影带动上涨及系列增长、龙珠推出首款积木套装等，整体呈现多款游戏在发售、更新、销售及玩法方向等方面动态推进。",
       "digest_source": "llm",
-      "input_hash": "9ebd7c761bac780e",
+      "input_hash": "350fb05bc21404f0",
       "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 11,
+          "summary": "《GTA6》新截图展示罪恶都市周边 动作场面与天气画面；《GTA6》利奥尼达州包含六大区域 罪恶都市完成重建与扩展；《GTA6》因发行时间无缘2026年金摇杆年度游戏 五奖横扫无望（当天共 11 条）",
+          "summary_source": "rules"
+        },
         {
           "name": "巫师3：重制版",
           "count": 5,
-          "summary": "《巫师3：重制版》今天发售 官方完整新增内容介绍来了；《巫师3：重制版》新截图欣赏 画面看起来相当不错；《巫师3：重制版》将于今日推出 资料片与《巫师4》随后接续（当天共 5 条）",
+          "summary": "《巫师3：重制版》画面被指发白模糊 关闭Bloom可改善PC版清晰度与对比度；《巫师3：重制版》DLSS5实机：面部细节增多 性能下降约26%至30%；《巫师3：重制版》NS2与NS版对比视频 画面大提升（当天共 5 条）",
           "summary_source": "rules"
         },
         {
-          "name": "星际：异端先知",
-          "count": 2,
-          "summary": "顽皮狗确认2027年完整公开《星际：异端先知》 展示女主冒险；贝克称《星际：异端先知》乔丹是《最后生还者》艾莉的精神继承者。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GTA6",
+          "name": "007：初露锋芒",
           "count": 1,
-          "summary": "在游戏里凭社交动态线下真实？《GTA6》社交动态将连通罪恶都市。",
+          "summary": "《007：初露锋芒》预告免费DLC 10月1日推出。",
           "summary_source": "rules"
         },
         {
-          "name": "U计划",
+          "name": "ARC突袭者",
           "count": 1,
-          "summary": "育碧已取消《U计划》游戏截图流出 展示PvE画面。",
+          "summary": "《ARC突袭者》团队承受更新压力 转向低频大更新。",
           "summary_source": "rules"
         },
         {
-          "name": "上古卷轴",
+          "name": "使命召唤：现代战争4",
           "count": 1,
-          "summary": "前Bethesda编剧称《上古卷轴》重要时间线设定可能源于一处笔误。",
+          "summary": "《使命召唤：现代战争4》将推出PC限定“连带”模式 加入回合间购装。",
           "summary_source": "rules"
         },
         {
-          "name": "奥日",
+          "name": "塞尔达：时之笛",
           "count": 1,
-          "summary": "《奥日》系列开发者马勒认为，未来几年AI难以独立做出完整游戏。",
+          "summary": "《塞尔达：时之笛》重制版对比原作：主动跳跃游泳与自由视角等变化。",
           "summary_source": "rules"
         },
         {
-          "name": "女神异闻录3",
+          "name": "巫师3",
           "count": 1,
-          "summary": "《女神异闻录3》系列销量500万份 《女神异闻录4》系列销量570万份。",
+          "summary": "CDPR坦言战斗玩法是《巫师3》最大短板 重制版大规模重做。",
           "summary_source": "rules"
         },
         {
-          "name": "宝可梦：风/波",
+          "name": "怪物猎人：荒野",
           "count": 1,
-          "summary": "《宝可梦：风/波》疑似地图曝光，草属性道馆画面同时流出。",
+          "summary": "《怪物猎人：荒野》Switch 2版以掌机四人狩猎稳定30帧为目标，部分素材与着色器重新制作。",
           "summary_source": "rules"
         },
         {
-          "name": "尼尔：机械纪元",
+          "name": "战争机器：事变日",
           "count": 1,
-          "summary": "横尾太郎回忆《尼尔：机械纪元》开发：躲着SE做自己心目中游戏。",
+          "summary": "《战争机器：事变日》Steam已售超12万 首发Game Pass将挤压Xbox版收入。",
           "summary_source": "rules"
         },
         {
-          "name": "异形：火力精英2",
+          "name": "战地",
           "count": 1,
-          "summary": "《异形：火力精英2》开发商裁员 游戏开发继续。",
+          "summary": "《战地》系列发售顺序回顾：20多年战争FPS的发展历程。",
           "summary_source": "rules"
         },
         {
-          "name": "我的世界：地下城2",
+          "name": "战锤40K：星际战士2",
           "count": 1,
-          "summary": "《我的世界：地下城2》评分出炉 IGN 6分 GameSpot 7分。",
+          "summary": "《战锤40K：星际战士2》拟推混沌围攻 混沌阵营首进PvE。",
           "summary_source": "rules"
         },
         {
           "name": "暗黑破坏神5",
           "count": 1,
-          "summary": "《暗黑破坏神5》推出后《暗黑破坏神4》仍将继续更新赛季。",
+          "summary": "《暗黑破坏神5》总监称战斗仍重视配装规划，合适构筑可克服任何挑战。",
           "summary_source": "rules"
         },
         {
-          "name": "最终幻想7：重制版",
+          "name": "模拟山羊3",
           "count": 1,
-          "summary": "《最终幻想7：重制版》三部曲有望七年完结，外媒称开发节奏难再现。",
+          "summary": "《模拟山羊3》新DLC于11月19日推出 与GTA6发售日撞期。",
           "summary_source": "rules"
+        },
+        {
+          "name": "生化危机",
+          "count": 1,
+          "summary": "《生化危机》游戏系列借电影口碑热度 游戏销量大幅上涨。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "龙珠",
+          "count": 1,
+          "summary": "乐高公布首款《龙珠》套装“神龙与悟空” 11月4日开售。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "article_count": 88,
+      "game_count": 59,
+      "untagged_count": 6,
+      "digest": "9月29日游戏资讯聚焦于《巫师3：重制版》MOD首发、多款新作评测及部分游戏延期或取消的消息。CD Projekt RED宣布《巫师3：重制版》在PS5平台首发时提供超过40款MOD，但启用后无法获得奖杯；顽皮狗确认《星际：异端先知》将于2027年完整公开；育碧取消的PvE项目《U计划》流出截图；非官方Switch移植团队宣布将于10月3日关闭《给他爱5》项目。",
+      "digest_source": "llm",
+      "input_hash": "a1cfc1fcf1c1b1ad",
+      "game_digests": [
+        {
+          "name": "巫师3：重制版",
+          "count": 7,
+          "summary": "该作在PS5平台首发时提供超过40款MOD，玩家可移植PC版内容，但启用后无法获得奖杯。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3：狂猎",
+          "count": 6,
+          "summary": "重制版评测显示地面鸟类纹理得到改善，但为优化性能保留了原版中高空飞鸟的低模设计。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "我的世界：地下城2",
+          "count": 4,
+          "summary": "海外媒体评测出炉，合作玩法获赞，Destructoid给出90分，但部分媒体认为续作缺少新意。",
+          "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
-          "count": 1,
-          "summary": "PS5模拟器已可启动《漫威金刚狼》 但无法实际游玩。",
-          "summary_source": "rules"
+          "count": 4,
+          "summary": "一段对比视频显示，主角金刚狼砍树效果不如《合金装备崛起：复仇》中的雷电，后者能将树干砍成碎片。",
+          "summary_source": "llm"
         },
         {
-          "name": "生化危机2：重制版",
+          "name": "GTA6",
+          "count": 2,
+          "summary": "游戏内社交动态将与开放世界联动，玩家可追踪角色在罪恶都市的线下位置，融入社交媒体元素。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "控制：共振",
+          "count": 2,
+          "summary": "续作战斗风格被拿来与《虐杀原形》比较，主角迪伦使用冷兵器，且能破坏汽车等物体。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星际：异端先知",
+          "count": 2,
+          "summary": "顽皮狗确认将在2027年完整公开该作，展示主角乔丹的科幻冒险，此前未透露更多内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑破坏神5",
+          "count": 2,
+          "summary": "暴雪确认《暗黑破坏神4》在《暗黑破坏神5》推出后仍将继续更新赛季，但不再推出资料片。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "真三国无双2 with 猛将传 Remastered",
+          "count": 2,
+          "summary": "该作体验版于9月24日开放下载，玩家可在虎牢关体验特别剧情。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "给他爱5",
+          "count": 2,
+          "summary": "非官方Switch移植团队Paralympics Productions宣布将于10月3日关闭，此前Rockstar采取了法律行动。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "EA SPORTS FC 27",
           "count": 1,
-          "summary": "《生化危机2：重制版》皮肤Mod 电影版布莱恩替换里昂。",
-          "summary_source": "rules"
+          "summary": "推出免费轻量版，玩家可试玩多种模式，且购买完整版后可继承轻量版的进度。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "SLAM TANK",
+          "count": 1,
+          "summary": "坦克动作游戏Steam商店开放五天，愿望单登记数已超过5万，主打近距离战斗。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "U计划",
+          "count": 1,
+          "summary": "育碧已取消的PvE游戏流出一张玩法截图，展示多支四人队伍与敌人战斗的画面。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴",
+          "count": 1,
+          "summary": "前Bethesda编剧称系列“龙破”设定可能源于一处笔误，该设定解释了《匕首雨》多个结局同时成立。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴OL",
+          "count": 1,
+          "summary": "公布“传闻”系统玩法，首批15项谜题不设目标标记，旨在让玩家自行寻找线索。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -909,107 +1010,6 @@
           "name": "Your Liar",
           "count": 1,
           "summary": "MAgaming宣布四人隐藏身份派对游戏《Your Liar》将于9月24日登陆PC，售价580日元，含拆弹、驾驶等9种小游戏。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "article_count": 100,
-      "game_count": 67,
-      "untagged_count": 12,
-      "digest": "今日3DMGame共收录100条资讯，涵盖67款游戏。GTA6因时区差异新西兰玩家将率先解锁，Shift Up公布《剑星》Switch 2版及《猎天使魔女》联动，卡普空确认《怪物猎人：荒野》Switch 2版开发中。此外，东京电玩展2026公众开放日吸引大量角色扮演者，多款新作公布新内容或试玩。",
-      "digest_source": "llm",
-      "input_hash": "ba9e2937dfdbd03b",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 6,
-          "summary": "Rockstar确认游戏将于11月19日按各地区当地时间零点解锁，新西兰玩家将率先进入游戏，首发仅提供单人内容，在线模式最早可能要到2027年。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 3,
-          "summary": "Shift Up在东京电玩展展出《剑星：完全版》Switch 2版，邀请性感Coser演绎贝姐，并公布与《猎天使魔女》联动，追加4套纳米衣联名服装，将于11月6日同步开放下载。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 3,
-          "summary": "开发团队表示《漫威金刚狼》结局有意为地球-1048宇宙变种人后续发展铺路，天启在片尾彩蛋中现身并任命剑齿虎为新的战争骑士，但续作目前尚未正式公布。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "火焰纹章：万缕千丝",
-          "count": 3,
-          "summary": "评论作者认为本作队伍构筑与战术系统适合加入独立的双人对战，建议设置单独的多人菜单，让玩家从已解锁角色中选择成员配置队伍并在专用地图上交锋。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "wardogs",
-          "count": 2,
-          "summary": "Bulkhead计划在约三周后推出《wardogs》第二赛季，将加入大量新内容及调整平衡性，此前删减的部分内容也将陆续实装，并已开始筹备第三赛季。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "东京电玩展",
-          "count": 2,
-          "summary": "东京电玩展2026于9月19日迎来首个公众开放日，现场聚集大量角色扮演者，涵盖《浪漫沙加3：命运联合》《虚实万象》《街头霸王6》等作品，热门作品角色排队拍摄。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "侠盗猎车手VI",
-          "count": 2,
-          "summary": "一份制作于2014年至2015年的《侠盗猎车手VI》早期概念地图已被移植进《侠盗猎车手5》PC版，目前可在游戏中运行，但画面仍处于粗糙的概念阶段。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说",
-          "count": 2,
-          "summary": "HORI公布《塞尔达传说》40周年主题配件系列，包含五款面向Nintendo Switch 2的产品，主打Wireless Horipad Turbo无线手柄，配备TMR摇杆等配置，定价8980日元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "女神异闻录",
-          "count": 2,
-          "summary": "Netflix正在筹备根据《女神异闻录》系列改编的剧集，Story Kitchen与21 Laps将参与制作，克里斯托弗·蒙费特已确定担任编剧、执行制片人和剧集主创。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "怪物猎人：荒野",
-          "count": 2,
-          "summary": "卡普空已确认推出《怪物猎人：荒野》Nintendo Switch 2版，相关工作于2025年6月前后启动，团队主要目标是避免游戏在新平台上出现明显缩水。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星际争霸",
-          "count": 2,
-          "summary": "暴雪在BlizzCon 2026公布《星际争霸》重启方向后，外媒设想将《星际争霸》转型为第三人称射击游戏，玩家将在开放世界中扮演具体角色推进故事。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想7：启示",
-          "count": 2,
-          "summary": "《最终幻想7：启示》总监滨口直树公布游戏将实现完整星球级开放世界探索，登陆PC、PS5、XSX|S和Switch2平台，重点叠加纵向高低差探索维度。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "空之轨迹 the 2nd",
-          "count": 2,
-          "summary": "《空之轨迹 the 2nd》于9月17日发售，在OpenCritic获得92分，暂列2026年游戏评分榜第二位，仅次于获得93分的《神话配对》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "龙之信条2：黑暗觉者",
-          "count": 2,
-          "summary": "《龙之信条2：黑暗觉者》在东京电玩展提供三类现场试玩，公开新魔物、困难模式及12座地下城内容，Nintendo Switch 2版也在会场开放体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "13Z：生肖试炼",
-          "count": 1,
-          "summary": "3D动作肉鸽游戏《13Z：生肖试炼》在东京电玩展提供现场试玩，展示了简易连招、精准招架、招式切换和动物变身探索等玩法，计划于2027年1月14日登陆Switch 2和PS5。",
           "summary_source": "llm"
         }
       ]
