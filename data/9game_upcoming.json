@@ -1,37 +1,9 @@
 {
-  "crawled_at": "2026-09-30T01:14:43.278149+00:00",
+  "crawled_at": "2026-10-01T01:12:51.113061+00:00",
   "days": [
     {
-      "date": "2026-09-30",
-      "date_label": "09月30日 今天",
-      "games": [
-        {
-          "game_name": "梦幻甬城",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "玩点不一样的三国",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/menghuanyongcheng/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "无极侠士",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": "论剑巅峰",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/wujixiashi/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-10-01",
-      "date_label": "10月01日 明天",
+      "date_label": "10月01日 今天",
       "games": [
         {
           "game_name": "三国之定江山",
@@ -48,7 +20,7 @@
     },
     {
       "date": "2026-10-02",
-      "date_label": "10月02日 后天",
+      "date_label": "10月02日 明天",
       "games": [
         {
           "game_name": "逍遥九重天",
@@ -186,6 +158,17 @@
       "date": "2026-10-23",
       "date_label": "10月23日",
       "games": [
+        {
+          "game_name": "飞跃巅峰",
+          "categories": [
+            "策略"
+          ],
+          "score": null,
+          "event_desc": "首日送200抽",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/lqsnfydf/",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "破日开天",
           "categories": [

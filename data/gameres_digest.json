@@ -1,9 +1,44 @@
 {
-  "generated_at": "2026-09-30T01:28:36.937123+00:00",
+  "generated_at": "2026-10-01T01:30:27.961194+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-09-30",
+      "article_count": 11,
+      "game_count": 4,
+      "untagged_count": 7,
+      "digest": "国家新闻出版署公布9月版号审批结果，206款国产游戏与3款进口游戏过审。Mipumi Games公布百万销量挖洞游戏续作《掘地求财：铲友齐上阵》，支持4人跨平台联机。3D动作肉鸽《无尽幻樱阁》定档11月4日发售，开放Demo试玩。俯视角动作射击游戏《科恩 1939》正式上线Steam，定价52元。",
+      "digest_source": "llm",
+      "input_hash": "51c823d3319ebe9e",
+      "game_digests": [
+        {
+          "name": "2026年9月",
+          "count": 1,
+          "summary": "【2026年9月】206款国产网络游戏、3款进口网络游戏版号获批。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "掘地求财：铲友齐上阵",
+          "count": 1,
+          "summary": "Mipumi Games公布百万销量挖洞游戏续作，支持最多4人跨平台联机挖宝，预计2026年冬季登陆多平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "无尽幻樱阁",
+          "count": 1,
+          "summary": "3D动作肉鸽《无尽幻樱阁》定档11月4日发售，玩家操控双刀少女探索迷宫，开放免费试玩Demo。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "科恩 1939",
+          "count": 1,
+          "summary": "俯视角快节奏动作射击游戏《科恩 1939》正式上线Steam，定价52元，首发享10%优惠。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-09-29",
       "article_count": 11,
@@ -91,8 +126,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "今日游戏行业资讯聚焦于游戏资本市场的动态，游资网报道了游戏股在二级市场的表现，指出当日游戏板块整体走势平稳，部分头部厂商股价微涨，而中小型游戏公司则面临一定的市场波动压力，资金流向呈现出分化态势。按报道条数排序的游戏（含代表性标题与摘要）：",
-      "digest_source": "llm",
+      "digest": "9月26日 游资网 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「TES登顶！RSG、IBG分列二三，2026三角洲行动烽火职业联赛夏季赛重庆收官」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
       "input_hash": "35b4179a40532060",
       "game_digests": []
     },
@@ -292,35 +327,6 @@
           "name": "针影裁梦",
           "count": 1,
           "summary": "Cozy Lives推出的沉浸式裁缝模拟游戏《针影裁梦》现已登陆PC及Mac端Steam，Steam愿望单超40万。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-21",
-      "article_count": 8,
-      "game_count": 3,
-      "untagged_count": 5,
-      "digest": "今日游戏资讯聚焦于三国题材与动作游戏领域，UCG专访金亨泰披露《剑星》IP未来规划，贝姐联动细节公开；刘豫斌回顾《傲世三国》到《秦殇》的创作历程；媒体评测指出《蔚蓝远征》虽融合赵云阿斗Like元素，但复刻痕迹较重且缺乏特色。",
-      "digest_source": "llm",
-      "input_hash": "9ffc44127a0d5b49",
-      "game_digests": [
-        {
-          "name": "傲世三国",
-          "count": 1,
-          "summary": "刘豫斌接受访谈，回顾从《傲世三国》到《秦殇》及《刀剑封魔录》的创作起源。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 1,
-          "summary": "金亨泰在TGS2026专访中公开贝姐联动细节，并透露了《剑星》IP未来的规划。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "蔚蓝远征",
-          "count": 1,
-          "summary": "媒体评测指出该冬日三国塔防游戏复刻痕迹较重，虽融合赵云阿斗Like元素，但缺乏自身特色。",
           "summary_source": "llm"
         }
       ]

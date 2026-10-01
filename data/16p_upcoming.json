@@ -1,29 +1,38 @@
 {
-  "crawled_at": "2026-09-30T01:14:53.639792+00:00",
+  "crawled_at": "2026-10-01T01:13:04.988690+00:00",
   "days": [
     {
-      "date": "2026-09-30",
-      "date_label": "09月30日 今天",
+      "date": "2026-10-01",
+      "date_label": "10月01日 今天",
       "games": [
         {
-          "game_name": "他出轨了吗",
+          "game_name": "名将冲突",
           "categories": [
-            "休闲"
+            "策略",
+            "放置",
+            "卡牌"
+          ],
+          "score": "9.6",
+          "release_date": "2026-10-01",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1955085.html",
+          "publisher": "嗨嗨嗨工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "经营手机公司",
+          "categories": [
+            "模拟"
           ],
           "score": null,
-          "release_date": "2026-09-30",
+          "release_date": "2026-10-01",
           "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1956617.html",
-          "publisher": "鱼水游工作室",
+          "detail_url": "https://www.16p.com/1957396.html",
+          "publisher": "玖悦工作室",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-10-01",
-      "date_label": "10月01日 明天",
-      "games": [
+        },
         {
           "game_name": "江湖英杰传",
           "categories": [
@@ -43,7 +52,8 @@
             "休闲",
             "角色扮演",
             "互动影像",
-            "剧情"
+            "剧情",
+            "应用"
           ],
           "score": null,
           "release_date": "2026-10-01",
@@ -91,7 +101,7 @@
     },
     {
       "date": "2026-10-02",
-      "date_label": "10月02日 后天",
+      "date_label": "10月02日 明天",
       "games": [
         {
           "game_name": "萌宠拆拆乐",
@@ -109,6 +119,28 @@
           "publisher": "气态喵游戏",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "date_label": "10月03日 后天",
+      "games": [
+        {
+          "game_name": "冒险之旅",
+          "categories": [
+            "闯关",
+            "放置",
+            "卡牌",
+            "冒险"
+          ],
+          "score": "7.5",
+          "release_date": "2026-10-03",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952322.html",
+          "publisher": "戒不掉工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
         }
       ]
     }
