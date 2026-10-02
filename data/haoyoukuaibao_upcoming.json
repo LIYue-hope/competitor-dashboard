@@ -1,75 +1,9 @@
 {
-  "crawled_at": "2026-10-01T01:12:21.200402+00:00",
+  "crawled_at": "2026-10-02T01:34:53.728627+00:00",
   "days": [
     {
-      "date": "2026-10-01",
-      "date_label": "10月01日 今天",
-      "games": [
-        {
-          "game_name": "艾希：续-高口碑神游续作",
-          "categories": [
-            "动作",
-            "角色扮演",
-            "meta"
-          ],
-          "score": "9.9",
-          "event_desc": "开启众筹，最新实机PV公布",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/204304.htm",
-          "publisher": null,
-          "reservation_count": "5476",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "心动陷阱",
-          "categories": [
-            "休闲",
-            "角色扮演",
-            "互动影像"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/203489.htm",
-          "publisher": null,
-          "reservation_count": "164",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "正中靶心2",
-          "categories": [
-            "Roguelike",
-            "塔防",
-            "割草"
-          ],
-          "score": null,
-          "event_desc": "正式上线，具体几点待定",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/202553.htm",
-          "publisher": "开新游戏",
-          "reservation_count": "106",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "RemaindeR",
-          "categories": [
-            "解谜",
-            "休闲",
-            "极简"
-          ],
-          "score": null,
-          "event_desc": "上线试玩，具体几点待定",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/204115.htm",
-          "publisher": "千鳥詩織的工作室",
-          "reservation_count": "46",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-10-03",
-      "date_label": "10月03日 后天",
+      "date_label": "10月03日 明天",
       "games": [
         {
           "game_name": "牌筑堡垒",
@@ -83,7 +17,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/204111.htm",
           "publisher": "小鱼game工作室",
-          "reservation_count": "34",
+          "reservation_count": "40",
           "has_afk_grinding_tag": false
         }
       ]
@@ -104,7 +38,28 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/203521.htm",
           "publisher": "玖悦工作室",
-          "reservation_count": "72",
+          "reservation_count": "76",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "date_label": "10月08日 下周四",
+      "games": [
+        {
+          "game_name": "多可比世界",
+          "categories": [
+            "MMO",
+            "策略",
+            "冒险"
+          ],
+          "score": null,
+          "event_desc": "将于海外上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/198918.htm",
+          "publisher": "kakao games",
+          "reservation_count": "76",
           "has_afk_grinding_tag": false
         }
       ]

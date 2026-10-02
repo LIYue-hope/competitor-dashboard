@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T01:23:28.346724+00:00",
+  "generated_at": "2026-10-02T01:43:35.343303+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
@@ -110,99 +110,99 @@
       "article_count": 87,
       "game_count": 54,
       "untagged_count": 20,
-      "digest": "9月29日 游侠网 共 87 条新闻，涉及 54 款游戏。报道最集中的是《巫师3》（4 条）、《空战奇兵8》（4 条）、《巫师3RE》（3 条）。另有 20 条未指向具体游戏的行业或平台资讯。另外还有《战神：劳菲》（3 条）、《巫师3：狂猎 — 重制版》（2 条）、《控制：共振》（2 条）也有报道。",
-      "digest_source": "rules",
+      "digest": "今日游戏资讯聚焦于《巫师3：狂猎 重制版》Switch 2版与PC版的画质对比及发售，以及《空战奇兵8 希孚之翼》的Steam口碑与Denuvo破解争议。此外，《战神：劳菲》开启预购，CDPR公布RTX 5080运行《巫师3RE》的配置要求，Remedy新作《控制：共振》公布辅助模式与探索设计，暴雪确认《暗黑4》赛季更新将持续，Bungie《光环》重启传闻引发正史争议。",
+      "digest_source": "llm",
       "input_hash": "58e73cd514836a28",
       "game_digests": [
         {
           "name": "巫师3",
           "count": 4,
-          "summary": "NS2版《巫师3》对比原版简直换皮！纹理 帧率全起飞；差距一目了然！NS2与PC《巫师3》重制版画质深度对比；《巫师3》重制版推出直播掉落活动 火马套装看就送（当天共 4 条）",
-          "summary_source": "rules"
+          "summary": "Switch 2版《巫师3》重制版相比原版提升明显，光照阴影更真实，纹理细节更精细，分辨率更高，帧率目标提升至30-40 FPS并支持VRR，已拥有Switch原版游戏的玩家可免费升级。",
+          "summary_source": "llm"
         },
         {
           "name": "空战奇兵8",
           "count": 4,
-          "summary": "《空战奇兵8》D加密防线告急 ARTIFACT发布绕过工具；《空战奇兵8》Steam褒贬不一：游戏优化是个大问题！；《空战奇兵8》全球解锁时间公布！豪华版游戏现已解锁（当天共 4 条）",
-          "summary_source": "rules"
+          "summary": "《空战奇兵8 希孚之翼》Steam豪华版已开启抢先体验，首批玩家评价为“褒贬不一”好评率仅为59%，PC版Denuvo保护再度成为焦点，ARTIFACT已发布针对该作的实验性Hypervisor绕过工具。",
+          "summary_source": "llm"
         },
         {
           "name": "巫师3RE",
           "count": 3,
-          "summary": "关掉帧生成！RTX5080运行《巫师3RE》居然只有30帧；《巫师3RE》新截图公布！路径追踪 光照画面全面翻新；感觉脚伸我脸上了《巫师3RE》最高画质复刻杰洛特泡澡。",
-          "summary_source": "rules"
+          "summary": "CDPR公布《巫师3：重制版》最新截图，宣布重制版正式发售，所有拥有原版的玩家均可免费升级，并更新配置要求显示4K路径追踪需要RTX 5080，该卡目前最低约1650美元。",
+          "summary_source": "llm"
         },
         {
           "name": "战神：劳菲",
           "count": 3,
-          "summary": "《战神：劳菲》新护甲遭玩家吐槽：设计像男装太敷衍；《战神 劳菲》港服价格定了！索尼第一方价格开始松动；《战神：劳菲》开启预购 预购奖励与豪华版情报公布。",
-          "summary_source": "rules"
+          "summary": "《战神：劳菲》今日正式开启预购，港服数字标准版定价388港币，豪华版438港币，将于2027年2月16日登陆PS5，预购奖励包含“最后愿望”护甲套装及菲的全新武器“蛇弓”。",
+          "summary_source": "llm"
         },
         {
           "name": "巫师3：狂猎 — 重制版",
           "count": 2,
-          "summary": "《巫师3：狂猎 — 重制版》现已推出！；《巫师3：狂猎—重制版》试玩报告：白狼的故事，仍在继续。",
-          "summary_source": "rules"
+          "summary": "CD PROJEKT RED今日正式推出《巫师3：狂猎 — 重制版》，所有已拥有《巫师3：狂猎》玩家均可免费升级，体验这款传奇角色扮演游戏的一系列现代化升级与改进。",
+          "summary_source": "llm"
         },
         {
           "name": "控制：共振",
           "count": 2,
-          "summary": "《控制：共振》取消传统难度 辅助模式也不锁成就！；拒绝黄色指引!《控制共振》总监:探索要靠玩家自己发掘。",
-          "summary_source": "rules"
+          "summary": "《控制：共振》没有传统难度等级，而是用“辅助模式”替代，玩家可随时开启或关闭，官方强调使用辅助模式不会锁定奖杯或成就，且游戏不使用醒目的黄色高亮标记引导玩家。",
+          "summary_source": "llm"
         },
         {
           "name": "暗黑5",
           "count": 2,
-          "summary": "业内人士点赞《暗黑5》：它正在朝正确的方向前进！；暴雪确认《暗黑5》推出后 《暗黑4》赛季更新仍会继续。",
-          "summary_source": "rules"
+          "summary": "《暗黑破坏神5》虽定于2029年春季发售，但已引发同行关注，暴雪证实《暗黑4》的赛季更新仍会延续，只是不再推出新的资料片。",
+          "summary_source": "llm"
         },
         {
           "name": "GTA 2",
           "count": 1,
-          "summary": "《GTA 2》RTX Remix模组发布：霓虹灯、爆炸全带光追。",
-          "summary_source": "rules"
+          "summary": "Mod作者gebdag发布《GTA 2》RTX Remix模组，为这款1999年俯视角经典加入完整路径追踪、动态昼夜光照、16:9宽屏与帧生成，项目已在GitHub开源。",
+          "summary_source": "llm"
         },
         {
           "name": "GTA6",
           "count": 1,
-          "summary": "《GTA6》与《罪恶都市》同场景对比炸裂 判若两城！。",
-          "summary_source": "rules"
+          "summary": "社区流出《GTA VI》与2002年《GTA：罪恶都市》逐帧画面对比，涵盖超市、住宅、海星岛入口、城市高架和日落景观，24年技术演进让同一座城市呈现出截然不同的质感。",
+          "summary_source": "llm"
         },
         {
           "name": "上古卷轴",
           "count": 1,
-          "summary": "《上古卷轴》外传为何从未出现?前贝塞斯达开发者揭秘。",
-          "summary_source": "rules"
+          "summary": "前贝塞斯达资深设计师库尔特·库尔曼透露，《上古卷轴》系列始终没有像《辐射：新维加斯》那样交由外部工作室开发外传，根本原因在于陶德·霍华德对该IP“保护欲极强”。",
+          "summary_source": "llm"
         },
         {
           "name": "不朽遗志",
           "count": 1,
-          "summary": "《不朽遗志》豪华配音阵容：文森特·卡索饰演拿破仑。",
-          "summary_source": "rules"
+          "summary": "《不朽遗志》正式公布配音阵容，文森特·卡索将为拿破仑·波拿巴献声，詹妮弗·英格利什饰演“The Shrike”，亚当·“Nergal”·达斯基也将参与配音。",
+          "summary_source": "llm"
         },
         {
           "name": "交错战线",
           "count": 1,
-          "summary": "曾靠“送丝袜”火出圈的《交错战线》，因“老毛病”又双叒叕全方面关闭了。",
-          "summary_source": "rules"
+          "summary": "“仰卧起坐”冠军《交错战线》，这次又因为飙车吃罚单了。",
+          "summary_source": "llm"
         },
         {
           "name": "光环",
           "count": 1,
-          "summary": "《光环》重启传闻引爆社区!Bungie正史去留成最大争议。",
-          "summary_source": "rules"
+          "summary": "微软将《光环》开发主导权移交动视后，一则“可能彻底重启世界观”的传闻迅速点燃粉丝社区，争论的核心是Bungie时代的正史是否不可动摇。",
+          "summary_source": "llm"
         },
         {
           "name": "全面战争：战锤3",
           "count": 1,
-          "summary": "《全面战争:战锤3》\"帝国\"唤醒回归潮！十万玩家回流。",
-          "summary_source": "rules"
+          "summary": "《全面战争：战锤3》推出系列十年来最大DLC“终焉之主”，带来四位新传奇领主、50余个新单位，并首次允许玩家购买DLC后直接解锁“超凡帝国”战役。",
+          "summary_source": "llm"
         },
         {
           "name": "原神",
           "count": 1,
-          "summary": "《原神》迎上市六周年放出六周年主题曲《风的来信》。",
-          "summary_source": "rules"
+          "summary": "《原神》迎来上线六周年，放出六周年主题曲《风的来信》。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -809,107 +809,6 @@
           "count": 1,
           "summary": "IGN发布前瞻视频，介绍这款第一人称类魂游戏以拿破仑平行时代为背景的玩法。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "article_count": 87,
-      "game_count": 58,
-      "untagged_count": 25,
-      "digest": "东京电玩展期间，多款大作动态引发关注。《最终幻想7：启示》试玩好评如潮，总监滨口直树确认PS5 Pro版支持4K+60帧，并回应了开放世界指引过于保姆的争议。索尼与Insomniac Games对《漫威金刚狼》首发销量保持沉默，引发玩家热议。此外，《GTA6》在英国推出36期零利率分期预购方案，宝马官方也发布风格海报进行互动。Take-Two要求下架《三男一狗》与《GTA6》泄露资料，而《仁王3》Steam史低价特惠引发口碑分化。《最终幻想7：启示》总监滨口直树发文感谢媒体与粉丝对TGS试玩版的热烈反响，并确认PS5 Pro版支持4K+60帧，同时回应了开放世界指引过于保姆的争议。《GTA6》在英国推出36期零利率分期预购方案，玩家首付20英镑即可预购，非O2现有客户也能参与，宝马官方随后发布风格海报进行互动。《漫威金刚狼》自9月15日发售以来，索尼与Insomniac Games至今未公布首发销量，引发玩家对索尼宣传策略的关注。外媒发文称赞《漫威金刚狼》的紧凑线性流程为厌倦百小时大作的玩家提供了轻松选择，尽管评价不突出，但其节奏明确、篇幅精简的体验令人耳目一新。《女神异闻录4重制版》导演矢岛大亮在TGS采访中透露，原版P4为B级，而P4G因入浴场景稍显刺激被评C级，重制版修改了该场景后分级回到B级。Brave group旗下Game & Co公开首款发行游戏《PICK A BOO》，这是一款由トイジアム开发的球形角色合作游戏，预计登陆Steam平台，最多支持6人联机。Golden Horn Studios公布了PC平台第一人称模拟游戏《Potato Please》，并放出首发公布预告片。开发者拉多·克拉萨打造的《一百万颗土豆》与金角工作室推出的《拜托，土豆》因高度重合的第一人称物理玩法引发行业争议。Take-Two Interactive要求平台删除一批与《三男一狗》和《GTA6》泄露资料相关的内容，主要针对流出的图片、音频片段及其他开发资料。据外媒报道，《不义联盟3》正由NetherRealm Studios秘密制作，一名特技演员简历疑似提前曝光了超级少女与蝙蝠女两名角色。《仁王3》在东京电玩展期间上线Steam周末特惠，直降43%至198元，创下历史新低价，但本作整体玩家评价褒贬不一，DLC口碑两极分化显著。开放世界RPG《伊莫》Steam同时在线人数突破16.6万，成功超越《幻兽帕鲁》，登顶同类宝可梦风格作品榜首。桌面伴侣游戏《你嫂子》已于9月17日上线，目前好评率达97%，评价为\"好评如潮\"，成为近期桌面伴侣品类中的热门新作。《使命召唤》内容创作者发起请愿，希望在非排位大厅移除SBMM机制，仅排位保留，上线一小时收获超500签名。Shift Up在东京电玩展期间宣布，《剑星 完整版》Nintendo Switch 2试玩Demo已上线，所有玩家均可免费下载，试玩进度可继承至正式版。经典武侠网游《剑网一》2026年度大版本《杨门降世》于9月22日正式上线，新服14时热开。",
-      "digest_source": "llm",
-      "input_hash": "2ec1e7259931434a",
-      "game_digests": [
-        {
-          "name": "FF7启示",
-          "count": 3,
-          "summary": "《FF7启示》试玩好评如潮 总监：感谢媒体与粉丝！；滨口直树确认《FF7:启示》在PS5 Pro上可以4K+60帧！；《FF7启示》开放世界指引被批太保姆?滨口直树回应。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "《GTA6》在英国还能分期购买：可分36期 还是零利率；宝马官方发布《GTA6》风格海报：老旧敞篷很有年代感。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2,
-          "summary": "索尼迟迟不公布《漫威金刚狼》销量引发玩家热议！；外媒点赞《漫威金刚狼》：线性流程很紧凑 时间压力小。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "P4R",
-          "count": 1,
-          "summary": "《P4R》评级从C降回B级竟是因为入浴场景稍显刺激？。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "PICK A BOO",
-          "count": 1,
-          "summary": "碰瓷蛋仔？新球形角色合作游戏《PICK A BOO》公布。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Potato Please",
-          "count": 1,
-          "summary": "沉浸式削土豆 第一人称模拟游戏《Potato Please》公开。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "一百万颗土豆",
-          "count": 1,
-          "summary": "创意撞车还是抄袭?《一百万颗土豆》控诉《拜托,土豆》。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "三男一狗",
-          "count": 1,
-          "summary": "T2动手了！《三男一狗》《GTA6》早期泄露资料全面下架。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "不义联盟3",
-          "count": 1,
-          "summary": "曝《不义联盟3》秘密制作中！超级少女与蝙蝠女将登场。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "仁王3",
-          "count": 1,
-          "summary": "《仁王3》Steam开启史低价特惠 本体与DLC口碑分化明显。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "伊莫",
-          "count": 1,
-          "summary": "《伊莫》Steam在线人数突破16.6万！超越《幻兽帕鲁》。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "你嫂子",
-          "count": 1,
-          "summary": "大尺度美女桌宠《你嫂子》Steam好评如潮！好评率97%。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "使命召唤",
-          "count": 1,
-          "summary": "《使命召唤》玩家发起请愿：非排位大厅移除SBMM机制。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "剑星完整版",
-          "count": 1,
-          "summary": "130种风格伊芙可选!《剑星完整版》NS2免费Demo上线。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "剑网一",
-          "count": 1,
-          "summary": "《剑网一》年度大版本9月22日上线，杨门降世再启江湖新篇，新服14时热开，邀您来战！。",
-          "summary_source": "rules"
         }
       ]
     }
