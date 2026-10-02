@@ -419,6 +419,12 @@ function highlight(text) {
 </template>
 
 <style scoped>
+/* 缩小资讯条目的放大幅度，减少框线向外扩张、越过底栏的情况。 */
+.news-item,
+.rank-row {
+  --focus-scale: 1.02;
+}
+
 /* 评分占位比日期宽一点，字号也大一档，让色阶成为列表的视觉锚点 */
 .news-date.score {
   width: 46px;
