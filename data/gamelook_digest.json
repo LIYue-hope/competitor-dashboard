@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T01:51:55.831613+00:00",
+  "generated_at": "2026-10-03T01:13:42.331376+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
@@ -90,8 +90,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "9月26日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「TES登顶2026三角洲行动烽火职业联赛夏季赛，烽火世界杯出征名单出炉」。未指向具体游戏的内容占当天的 100%。",
-      "digest_source": "rules",
+      "digest": "GameLook 今日共收录 1 条行业资讯，内容聚焦于 2026 年中国游戏市场在政策与监管层面的最新动态，未涉及具体游戏产品的动态报道。按报道条数排序的游戏（含代表性标题与摘要）：",
+      "digest_source": "llm",
       "input_hash": "7790300b3c26f484",
       "game_digests": []
     },
@@ -121,47 +121,6 @@
           "count": 1,
           "summary": "一款由3人团队开发的女性向制衣游戏《针影裁梦》好评率高达96%，Steam在线人数突破万人，被玩家称为“让女玩家做裙子的游戏”。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "article_count": 8,
-      "game_count": 5,
-      "untagged_count": 3,
-      "digest": "2026年9月23日，游戏行业新闻汇总显示，日本手游应用内购（IAP）收入超过100亿美元，位居亚洲市场第二。此外，《Wardogs》在Steam上的表现超越其他两款游戏，成为大黑马。FunPlus的《伊莫》在移动端预下载中表现惊人，登顶包括中国大陆地区在内的18国。Bungie宣布《命运2》复活，而《马拉松》则被冷处理。中国游戏纪录片《理想的存档》开播，记录了游戏行业的十年变迁。",
-      "digest_source": "llm",
-      "input_hash": "4481af27b2c225c7",
-      "game_digests": [
-        {
-          "name": "2026年日本游戏市场洞察报告",
-          "count": 1,
-          "summary": "《2026年日本游戏市场洞察报告》：日本手游应用内购（IAP）收入超过100亿美元。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Wardogs",
-          "count": 1,
-          "summary": "大黑马《Wardogs》数据复盘：Steam首发成绩超越”Arc Raider、绝地潜兵2″。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "伊莫",
-          "count": 1,
-          "summary": "“捉宠打败旗舰二游”？FunPlus《伊莫》中美韩18国登顶，全球预下载表现惊人。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "命运2",
-          "count": 1,
-          "summary": "Bungie不瞎折腾了？官宣《命运2》复活,《马拉松》冷处理。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "理想的存档",
-          "count": 1,
-          "summary": "大佬云集！中国游戏纪录片《理想的存档》开播，TapTap给这十年“存了档”。",
-          "summary_source": "rules"
         }
       ]
     }

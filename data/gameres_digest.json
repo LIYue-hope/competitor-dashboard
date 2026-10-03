@@ -1,9 +1,26 @@
 {
-  "generated_at": "2026-10-02T01:53:22.674174+00:00",
+  "generated_at": "2026-10-03T01:14:33.474860+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-02",
+      "article_count": 3,
+      "game_count": 1,
+      "untagged_count": 2,
+      "digest": "今日游戏行业资讯聚焦国产AI陪伴游戏《妹居物语》，该作因制作人彩奈之名被玩家联想到《素晴日》角色而引发关注。游戏TapTap预约量突破65万，Steam Demo激活量达41万，显示出玩家社群的高活跃度。开发者彩奈在访谈中分享了创作初心、AI游戏研发难点以及国产AI陪伴游戏的市场机遇与局限。",
+      "digest_source": "llm",
+      "input_hash": "0ccf293d7d8825d3",
+      "game_digests": [
+        {
+          "name": "妹居物语",
+          "count": 1,
+          "summary": "AI陪伴游戏《妹居物语》TapTap预约破65万、Steam Demo激活量达41万，玩家社群活跃度高，开发者彩奈在访谈中分享了创作初心、AI游戏研发及国产AI陪伴游戏的机遇局限。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-10-01",
       "article_count": 2,
@@ -143,8 +160,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "今日游戏行业资讯主要聚焦于监管层面的动态，未涉及具体游戏产品的更新或发售信息。据游资网报道，针对游戏行业的监管政策再次成为关注焦点，相关部门发布了关于规范游戏行业发展的最新指导意见，旨在进一步优化市场环境，引导行业健康有序发展，该消息引发了行业内的广泛讨论与关注。按报道条数排序的游戏（含代表性标题与摘要）：",
-      "digest_source": "llm",
+      "digest": "9月26日 游资网 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「TES登顶！RSG、IBG分列二三，2026三角洲行动烽火职业联赛夏季赛重庆收官」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
       "input_hash": "35b4179a40532060",
       "game_digests": []
     },
@@ -227,53 +244,6 @@
           "count": 1,
           "summary": "分析游戏商业化四大核心问题，指出本质是匹配用户需求与产品价值，强调目标用户定位及用户画像构建。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "article_count": 13,
-      "game_count": 6,
-      "untagged_count": 7,
-      "digest": "2026年9月23日，游戏行业新闻汇总显示，土耳其独立PC游戏《BOMBANANA!》在发售十天内销量突破百万，标志着当地游戏产业从手游向PC的扩展趋势。此外，《不思议林中漫游》作为一款治愈系3D平台解谜游戏，今日正式发售，首周提供折扣。同时，《五行游》和《午夜轮班》两款游戏也分别于9月24日和7月发售，前者支持跨平台联机，后者由澳21岁开发者单人打造，创意曾搁置一年。最后，《超级小英雄》作为一款玩法测试向的羁绊肉鸽游戏，采用简约美术风格，融合割草玩法，设双层策略与双线养成体系，割草体验爽快，玩法体系较为健全。",
-      "digest_source": "llm",
-      "input_hash": "0c4549203dcd6277",
-      "game_digests": [
-        {
-          "name": "BOMBANANA!",
-          "count": 1,
-          "summary": "土耳其独立PC游戏崭露头角，《BOMBANANA!》十日销量破百万。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "一周游语Vol.160",
-          "count": 1,
-          "summary": "【一周游语Vol.160】未来所有新益智休闲玩法都会融合ASMR爽感加成吗？Hexa、Sort、贪吃蛇、Color Block Jam……。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "不思议林中漫游",
-          "count": 1,
-          "summary": "治愈系3D平台解谜游戏《不思议林中漫游》今日正式发售！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "五行游",
-          "count": 1,
-          "summary": "五行三消法术对战游戏《五行游》9月24日发售，支持跨平台联机。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "午夜轮班",
-          "count": 1,
-          "summary": "专访《午夜轮班》制作人：吃灰一年的点子卖爆百万份，40%玩家来自中国。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "超级小英雄",
-          "count": 1,
-          "summary": "小青蛙+羁绊肉鸽！《超级小英雄》的割草策略有点东西。",
-          "summary_source": "rules"
         }
       ]
     }

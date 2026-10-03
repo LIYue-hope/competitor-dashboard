@@ -1,28 +1,206 @@
 {
-  "generated_at": "2026-10-02T01:43:35.343303+00:00",
+  "generated_at": "2026-10-03T01:11:42.365423+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-09-30",
-      "article_count": 68,
-      "game_count": 42,
-      "untagged_count": 16,
-      "digest": "今日游戏资讯聚焦于《巫师3：狂猎 重制版》登陆Switch2引发MOD热潮与实体卡免费领取活动，以及《GTA6》官方确认地图规模翻倍并曝光利奥尼达州六大区域细节。此外，《尼瓦利斯之夜》与《夜城狂想》两款赛博朋克题材游戏同日发售，而《战争机器：事变日》Steam销量突破12万份，多款游戏则公布了新版本更新或联动活动。",
+      "date": "2026-10-02",
+      "article_count": 14,
+      "game_count": 11,
+      "untagged_count": 2,
+      "digest": "2026年10月2日游戏行业资讯密集，多款新作发售或上市引发关注。韩国独立骰子构筑游戏《Seferia Matrix》定档11月10日；经典空战续作《空战奇兵8 希孚之翼》今日全球上线；系列销量突破5000万的《地铁2033》与《最后之光》将免费升级至4K与120帧。此外，《归零巡礼》导演剪辑版与《真三国无双2猛将传RE》发售即遭破解，而《战争机器：事变日》因砍掉经典功能引发玩家吐槽。",
       "digest_source": "llm",
-      "input_hash": "d04bc44d26272cbd",
+      "input_hash": "b924522a9b520e0c",
       "game_digests": [
         {
           "name": "巫师3",
-          "count": 5,
-          "summary": "《巫师3：狂猎 重制版》登陆Switch2，mod.io平台首发MOD数量达90款位居第一，持有Switch版实体卡的玩家可免费获取重制版。",
+          "count": 2,
+          "summary": "《巫师3》引爆模组平台大战 mod.io下载量反超Nexus；游侠早报：两款大作遭破解 《巫师3》引爆模组大战！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Seferia Matrix",
+          "count": 1,
+          "summary": "韩国独立工作室SurvivalTaktix开发的骰子Roguelike构筑游戏《Seferia Matrix》将于2026年11月10日发售，玩家将使用五颗骰子替代传统卡牌释放法术。",
           "summary_source": "llm"
         },
         {
+          "name": "博德3",
+          "count": 1,
+          "summary": "《博德3》发行总监力挺《黎明行者之血》时限机制！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "地铁2033",
+          "count": 1,
+          "summary": "《地铁2033》《最后之光》免费升级！4K画质+120帧。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "归零巡礼",
+          "count": 1,
+          "summary": "《归零巡礼：亡谍镇魂曲》导演剪辑版上线不久，RUNE版破解资源已在社区出现，体积约11.3GB，该版本追加约4万字新剧情、幕后模式及新服装。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战争机器 E-Day",
+          "count": 1,
+          "summary": "经典机制被砍？《战争机器 E-Day》缺经典功能遭吐槽。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战神：劳菲",
+          "count": 1,
+          "summary": "《战神：劳菲》公布后，部分玩家对女主劳菲形象表达不满，曾与黛博拉·安·沃尔合作《夜魔侠》的文森特·多诺费奥公开回应，称赞她美丽、有才华且是个十足的极客。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "杀死影子",
+          "count": 1,
+          "summary": "国产社会派悬疑推理游戏《杀死影子》现已加入Steam秋季特卖，限时9折仅需58.5元，并携手多款游戏推出捆绑包。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "真三国无双2猛将传RE",
+          "count": 1,
+          "summary": "《真三国无双2猛将传复刻版》于10月1日正式发售，登陆PC、PS5、Xbox Series X|S及Switch 2，发售不久后社区出现TENOKE发布的11.3GB破解版本。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "空战奇兵8 希孚之翼",
+          "count": 1,
+          "summary": "《空战奇兵8 希孚之翼》今日全球正式上线，作为系列时隔七年的首部正统续作，本作采用虚幻引擎5打造，登陆PS5、Xbox Series X|S与Steam平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "逃离鸭科夫",
+          "count": 1,
+          "summary": "国产俯视角搜打撤游戏《逃离鸭科夫》迎来上线一周年，10月2日至23日参与Steam秋促，各平台限时7折，Steam国区折后40.6元，创下历史新低。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "article_count": 25,
+      "game_count": 17,
+      "untagged_count": 8,
+      "digest": "今日游戏资讯聚焦于多款新作动态与老游戏续作，任天堂与宝可梦公司公布《宝可梦传说：Z-A》实体合集将于10月29日发售，科乐美《恶魔城：贝尔蒙特的诅咒》试玩版上线多平台，Falcom为《空之轨迹 the 2nd》推出第三波DLC。此外，CDPR《巫师3重制版》发售并公布壁纸，光荣特库摩《真三国无双2猛将传复刻版》登陆多平台，暴雪公开《暗黑破坏神5》战斗系统设计方向，而《生化5&6》重制传闻被否认，《星球大战绝地：3》预计2027年末发售。",
+      "digest_source": "llm",
+      "input_hash": "2ab1da54260b996f",
+      "game_digests": [
+        {
+          "name": "No Law",
+          "count": 1,
+          "summary": "外媒点评认为《No Law》有望实现高自由度赛博开放世界体验，但小团队开发存在隐患。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "宝可梦ZA",
+          "count": 1,
+          "summary": "任天堂与宝可梦公司公布《宝可梦传说：Z-A》实体合集，含本体与DLC，10月29日发售，卡带可在初代Switch运行。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "寂静岭",
+          "count": 1,
+          "summary": "开发商Screen Burn推出《寂静岭：小镇陷落》PC补丁，修复着色器预编译造成的卡顿，并计划调整怪物平衡性。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3重制版",
+          "count": 1,
+          "summary": "CDPR打造的《巫师3：狂猎重制版》已于9月29日发售，官方上线多款精美艺术壁纸供玩家免费下载。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "异度之刃2",
+          "count": 1,
+          "summary": "任天堂宣布《异度之刃2 Nintendo Switch 2 Edition》实体版今日正式发售，数字版与升级通行证同步上线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "恶魔城：贝尔蒙特的诅咒",
+          "count": 1,
+          "summary": "科乐美《恶魔城：贝尔蒙特的诅咒》试玩版今日正式上线PS5、Switch和Xbox Series X|S平台，Steam版本将于今日13:00开启。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战争机器",
+          "count": 1,
+          "summary": "Reddit网友爆料《卫报》提前泄露《战争机器：事变日》评测，仅获3星，批评收集品提示音效打断剧情。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "无尽幻樱阁",
+          "count": 1,
+          "summary": "美少女动作肉鸽《无尽幻樱阁》定档11月4日发售，玩家将操控粉毛少女“瑞特拉”在迷宫中战斗。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星球大战绝地3",
+          "count": 1,
+          "summary": "爆料人透露《星球大战绝地：3》开发稳步推进，预计发售时间落在2027年末至2028年初。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑破坏神5",
+          "count": 1,
+          "summary": "暴雪游戏总监Joe Shely在X平台聊了战斗系统设计方向，暗示本作将回归系列根源。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "机动战士高达：激战任务3",
+          "count": 1,
+          "summary": "SteamDB数据库新增《机动战士高达 激战任务3》网络测试版本条目，AppID为4946920。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化5&6",
+          "count": 1,
+          "summary": "知名爆料人Dusk Golem否认《生化危机5》和《生化危机6》重制版正在开发，称至少5年内不会发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "皇牌空战8",
+          "count": 1,
+          "summary": "泰国coser Sena发布《皇牌空战8：希孚之翼》角色“塔莎”的cos照，还原度极高。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "真三国无双2RE",
+          "count": 1,
+          "summary": "《真三国无双2猛将传复刻版》已于10月1日发售，登陆PC、PS5、Switch2和XSX平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "空之轨迹 the 2nd",
+          "count": 1,
+          "summary": "中文发行商云豹娱乐宣布《空之轨迹 the 2nd》第三波追加DLC现已上线。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "article_count": 82,
+      "game_count": 49,
+      "untagged_count": 21,
+      "digest": "9月30日游戏资讯聚焦于《GTA6》地图规模与细节曝光、《巫师3》重制版登陆Switch2引发MOD热潮及画面争议，同时《尼瓦利斯之夜》《夜城狂想》等新作发售，多款游戏公布独占信息或DLC内容。",
+      "digest_source": "llm",
+      "input_hash": "f938ce371ac67a40",
+      "game_digests": [
+        {
           "name": "GTA6",
-          "count": 4,
-          "summary": "Rockstar官方确认《GTA6》地图规模至少为前作两倍，将以虚构的「莱昂尼达州」为舞台，并首次全面披露六大区域地图细节。",
+          "count": 5,
+          "summary": "Rockstar官方确认地图至少两倍于前作，将以虚构的莱昂尼达州为舞台，并尽可能多地加入可进入的室内场景。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 5,
+          "summary": "《巫师3：狂猎 重制版》登陆Switch2，mod.io平台首发MOD数量达90款位居第一，且持有Switch版实体卡的玩家可免费获取重制版。",
           "summary_source": "llm"
         },
         {
@@ -34,7 +212,7 @@
         {
           "name": "巫师3：重制版",
           "count": 2,
-          "summary": "IGN中国发布53分钟实机演示，以PC平台4K画质完整呈现杰洛特追踪狮鹫及Boss战全过程，针对画面模糊问题玩家可尝试关闭Bloom效果。",
+          "summary": "IGN中国发布53分钟实机演示，以PC平台4K画质完整呈现杰洛特追踪狮鹫及Boss战全过程，针对画面发白问题玩家可尝试关闭Bloom效果。",
           "summary_source": "llm"
         },
         {
@@ -44,9 +222,15 @@
           "summary_source": "llm"
         },
         {
+          "name": "战神：劳菲",
+          "count": 2,
+          "summary": "官方确认《战神：劳菲》为PS5独占作品，定档2027年2月，港服定价388港币，是系列首款纯PS5独占正传。",
+          "summary_source": "llm"
+        },
+        {
           "name": "007 初露锋芒",
           "count": 1,
-          "summary": "IO Interactive打造的间谍题材游戏《007 初露锋芒》已在PC平台正式发售，免费DLC定档国庆，新跑车有望登场。",
+          "summary": "《007 初露锋芒》免费DLC定档国庆，新跑车有望登场，该作由《杀手》系列开发商IO Interactive打造。",
           "summary_source": "llm"
         },
         {
@@ -64,43 +248,37 @@
         {
           "name": "三国杀名将传",
           "count": 1,
-          "summary": "《三国杀名将传》携手无锡三国城举办的「这就是三国」联动线下活动圆满收官，活动设置了七大打卡点并兑换限定周边。",
+          "summary": "《三国杀名将传》X无锡三国城联动线下活动圆满收官，活动在94版央视《三国演义》核心取景地设置七大打卡点。",
           "summary_source": "llm"
         },
         {
           "name": "三国群英传：策定九州",
           "count": 1,
-          "summary": "《三国群英传：策定九州》周年庆典暨年度剧本「风起潮涌」即将上线，新增水陆地图、八大进阶战船及袁绍武将。",
+          "summary": "周年庆典版本「风起潮涌」即将上线，新增水陆地图、八大进阶战船及年度武将袁绍，联动非遗木船技艺。",
           "summary_source": "llm"
         },
         {
           "name": "上古卷轴OL",
           "count": 1,
-          "summary": "《上古卷轴OL》第一赛季“盗贼公会回归”于2026年7月8日上线，是ESO告别“章节+DLC”模式后的首个完整赛季。",
+          "summary": "第一赛季“盗贼公会回归”于2026年7月8日上线，是ESO正式告别“章节+DLC”模式后的首个完整赛季。",
           "summary_source": "llm"
         },
         {
           "name": "喵乐迪：律动幸存者",
           "count": 1,
-          "summary": "《喵乐迪：律动幸存者》入围2026 indiePlay中国独立游戏大赛最佳听觉效果奖项，支持自定义音乐导入。",
+          "summary": "入围2026 indiePlay中国独立游戏大赛，从全球700余部作品中突围，成功入围最佳听觉效果奖项。",
           "summary_source": "llm"
         },
         {
           "name": "堡垒之夜",
           "count": 1,
-          "summary": "Epic公布万圣节活动主视觉，海报藏有多个恐怖IP联动线索，确认《Five Nights at Freddy's》联动，活动将于10月1日开启。",
+          "summary": "Epic公布万圣节活动主视觉，海报藏多个IP联动线索，包含《Five Nights at Freddy's》联动及吸血鬼精灵等战利品。",
           "summary_source": "llm"
         },
         {
           "name": "夜城狂想",
           "count": 1,
-          "summary": "赛博朋克生活模拟游戏《夜城狂想》已登陆Steam平台，发行商505 Games与独立开发团队ION LANDS宣布游戏发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3RE",
-          "count": 1,
-          "summary": "《巫师3：狂猎 重制版》上线后DLSS 5神经渲染成为最大视觉看点，网友分享的实机效果显示叶奈法形象精致，皮肤白皙通透。",
+          "summary": "赛博朋克生活模拟游戏《夜城狂想》登Steam，发行商宣布其愿望单已超100万。",
           "summary_source": "llm"
         }
       ]
@@ -708,107 +886,6 @@
           "count": 1,
           "summary": "主机平台“SEGA九月特惠”开跑!《人中之龙 极3 / 人中之龙3外传 Dark Ties》《超级忍 反攻的斩击》加入促销阵容！。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "article_count": 91,
-      "game_count": 61,
-      "untagged_count": 20,
-      "digest": "今日游戏资讯聚焦于《GTA6》首发仅含单人模式、PC版暂无消息及路人NPC技术细节；《控制：共振》发售临近且PS独占引发争议；《漫威金刚狼》实体销量遇冷、魔形女造型引热议；《光环》主导权移交动视及前高管言论遭批；此外《剑星》开发幕后故事曝光，小岛秀夫新作转投Xbox，《CS2》静默换弹机制更新，以及《Apex英雄》与《街霸6》联动上线。",
-      "digest_source": "llm",
-      "input_hash": "d0b18b9c9e631f2b",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 4,
-          "summary": "R星官方确认首发仅含单人模式，无线上模块，PC版暂无官方公示，网传Steam页面泄露不实。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "控制：共振",
-          "count": 3,
-          "summary": "Remedy宣布游戏将于9月24日发售，预购奖励丰富，但因PS5独占48小时引发其他平台玩家不满。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 3,
-          "summary": "实体版价格大跌，二手成交价仅270元，魔形女Cosplay走红引发争议，销量出现显著下滑。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环",
-          "count": 2,
-          "summary": "动视将全面接管《光环》系列开发，Xbox内部重组计划将Rare和World’s Edge纳入动视管理版图。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 2,
-          "summary": "Shift Up CEO披露游戏险些因财务危机被取消，总监强调角色伊芙身材的“勒肉感”与真实晃动是核心设计。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "金刚狼",
-          "count": 2,
-          "summary": "叙事总监解释罗根必须比剑齿虎矮一截的深层情感考量，数据显示数字版收入占比近八成，实体盘遇冷。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Apex英雄",
-          "count": 1,
-          "summary": "与《街霸6》的跨界联动活动现已登陆全平台，外卡模式登陆奥林匹斯地图，推出多款传奇皮肤。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "CS",
-          "count": 1,
-          "summary": "G胖爱呼麦?《CS》之父爆G胖在办公室的各种怪人行为。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "CS2",
-          "count": 1,
-          "summary": "推出“尖峰时刻”版本，时隔15年上线静默换弹机制，彻底打破游戏对局逻辑。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7",
-          "count": 1,
-          "summary": "滨口直树表示《FF7》重制三部曲体量巨大，未来难有游戏匹敌。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "P.O.N.",
-          "count": 1,
-          "summary": "独立恐怖游戏《P.O.N.》今日发售，采用反派视角的沉浸式狩猎玩法。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Physint",
-          "count": 1,
-          "summary": "小岛秀夫新作从PlayStation转投Xbox，Xbox赞其企划前所未见。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "不义联盟3",
-          "count": 1,
-          "summary": "NetherRealm工作室辟谣《不义联盟3》与《真人快打13》内测传闻，称其为百分百假消息。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "不思议林中漫游",
-          "count": 1,
-          "summary": "治愈系3D平台解谜游戏今日正式发售，玩家需旋转传送门寻找归途。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "不朽遗志",
-          "count": 1,
-          "summary": "IGN发布前瞻视频，介绍这款第一人称类魂游戏以拿破仑平行时代为背景的玩法。",
-          "summary_source": "llm"
         }
       ]
     }
