@@ -1,4 +1,5 @@
 <script setup>
+import GameLink from './GameLink.vue'
 import { computed } from 'vue'
 
 // TapTap / 好游快爆 / 九游 三个来源共用同一张卡片：字段有多有少，缺的行直接不渲染。
@@ -8,8 +9,6 @@ const props = defineProps({
     required: true,
   },
 })
-
-const url = computed(() => props.game.source_url || props.game.detail_url || '')
 
 const rows = computed(() => {
   const g = props.game
@@ -28,8 +27,8 @@ const rows = computed(() => {
   <article class="g-card">
     <div class="g-top">
       <h3 class="g-name">
-        <a v-if="url" :href="url" target="_blank" rel="noopener">{{ game.game_name || '未知游戏' }}</a>
-        <template v-else>{{ game.game_name || '未知游戏' }}</template>
+        <GameLink :name="game.game_name" />
+
       </h3>
       <span v-if="game.score" class="g-score">{{ game.score }}</span>
     </div>

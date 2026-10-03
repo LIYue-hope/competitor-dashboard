@@ -71,7 +71,7 @@ watch([range, showShare, showAverage], () => {
   url.searchParams.set('trendRange', range.value)
   showShare.value ? url.searchParams.set('trendShare', '1') : url.searchParams.delete('trendShare')
   showAverage.value ? url.searchParams.set('trendAverage', '1') : url.searchParams.delete('trendAverage')
-  window.history.replaceState({}, '', url)
+  if (!new URLSearchParams(window.location.search).has('game')) window.history.replaceState(window.history.state, '', url)
 })
 function segmentedPath(values) {
   const segments = []

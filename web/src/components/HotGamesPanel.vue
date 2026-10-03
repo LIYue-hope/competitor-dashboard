@@ -1,4 +1,5 @@
 <script setup>
+import GameLink from './GameLink.vue'
 import { ref, computed, watch } from 'vue'
 import { useStickyTabs } from '../composables/useStickyTabs.js'
 
@@ -143,7 +144,7 @@ function stamp(iso) {
       </div>
 
       <div class="card-head sticky-heading">
-        <h2>{{ game ? game.game_name : '' }}</h2>
+        <h2><GameLink v-if="game" :name="game.game_name" style="text-decoration: underline; text-underline-offset: 3px" /></h2>
         <!-- 同一 tab 下多家公司混排时（鹰角/库洛/叠纸）才有 company -->
         <span v-if="game && game.company" class="stamp">（{{ game.company }}）</span>
         <span

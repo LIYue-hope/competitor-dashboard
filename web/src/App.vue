@@ -7,6 +7,10 @@ import DailyNewsTrend from './components/DailyNewsTrend.vue'
 import WeeklyDigestPanel from './components/WeeklyDigestPanel.vue'
 import HistoryDataPanel from './components/HistoryDataPanel.vue'
 import RefreshButton from './components/RefreshButton.vue'
+import GameDetailPanel from './components/GameDetailPanel.vue'
+import GameLink from './components/GameLink.vue'
+import { useGameDetailNavigation } from './composables/useGameDetailNavigation.js'
+import { buildGameIndex, getGameDetail } from './utils/gameDetail.js'
 
 // 各数据源分开加载与展示，一个失败不影响其它板块的可用性。
 // key 与 data/*.json 的对应关系集中在这张表里，加减来源只改这里。
@@ -55,10 +59,16 @@ const DEFAULT_SECTION = 'weekly'
 function initialSection() {
   const shared = new URLSearchParams(window.location.search).get('section')
   if (SECTION_KEYS.includes(shared)) return shared
+  if (new URLSearchParams(window.location.search).has('game')) return DEFAULT_SECTION
   const saved = localStorage.getItem('active-section')
   return SECTION_KEYS.includes(saved) ? saved : DEFAULT_SECTION
 }
 const activeSection = ref(initialSection())
+const { gameKey: detailGameKey, closeDetail, exitDetail } = useGameDetailNavigation({
+  activeSection, sectionKeys: SECTION_KEYS, defaultSection: DEFAULT_SECTION,
+})
+const gameIndex = computed(() => buildGameIndex(data.value, errors.value))
+const gameDetail = computed(() => getGameDetail(gameIndex.value, detailGameKey.value))
 const expandedSection = ref('')
 const activeSubAnchor = ref('')
 
@@ -73,6 +83,7 @@ const SECTION_NAV = {
 }
 
 function selectSection(key) {
+  exitDetail()
   activeSection.value = key
   // 切换一级 Tab 只替换右侧内容，保留当前滚动位置，顶部的数据概览不会被自动带走。
   expandedSection.value = key
@@ -83,6 +94,7 @@ function toggleSection(key) {
   expandedSection.value = expandedSection.value === key ? '' : key
 }
 function jumpToSection(key, anchor) {
+  exitDetail()
   activeSection.value = key
   expandedSection.value = key
   activeSubAnchor.value = anchor
@@ -91,6 +103,7 @@ function jumpToSection(key, anchor) {
 
 // 滚动到某个内容锚点时同步高亮侧栏小标题；阈值避开顶栏和资讯面板吸顶栏。
 function updateActiveSubAnchor() {
+  if (detailGameKey.value) return
   const anchors = SECTION_NAV[activeSection.value] || []
   const threshold = 90
   let current = ''
@@ -106,7 +119,7 @@ watch(activeSection, (key) => {
   localStorage.setItem('active-section', key)
   const url = new URL(window.location.href)
   url.searchParams.set('section', key)
-  window.history.replaceState({}, '', url)
+  window.history.replaceState(window.history.state, '', url)
 })
 watch(activeSection, () => nextTick(() => {
   // 点击子标题跨板块跳转时先保留用户刚选中的高亮，滚动事件会在抵达后继续校正。
@@ -574,7 +587,7 @@ const NEWS_FILES = [
     </header>
 
     <div class="layout">
-      <section v-if="!loading" class="overview-card" aria-label="数据概览">
+      <section v-show="!detailGameKey" v-if="!loading" class="overview-card" aria-label="数据概览">
         <div class="overview-head"><h2>数据概览</h2><span class="stamp">统计截至 {{ overview.date }}</span><span class="spacer"></span><button class="icon-btn" @click="downloadCurrentView">导出当前页面 Excel</button></div>
         <div class="kpi-row">
           <div class="kpi"><div class="k">昨日资讯总量</div><div class="v">{{ overview.yesterdayTotal ?? '—' }}<small v-if="overview.yesterdayTotal !== null">条</small></div></div>
@@ -592,8 +605,7 @@ const NEWS_FILES = [
           <p v-if="!afkUpcomingGames.length" class="afk-empty">暂无符合条件的游戏</p>
           <div v-else class="afk-game-list">
             <div v-for="game in afkUpcomingGames" :key="game.name" class="afk-game">
-              <a v-if="game.url" class="afk-game-name" :href="game.url" target="_blank" rel="noopener noreferrer">{{ game.name }}</a>
-              <span v-else class="afk-game-name">{{ game.name }}</span>
+              <GameLink class="afk-game-name" :name="game.name" />
               <div class="afk-schedules">
                 <div v-for="schedule in game.dates" :key="schedule.date" class="afk-schedule">
                   <time :datetime="schedule.date">{{ shortDate(schedule.date) }}</time>
@@ -632,7 +644,10 @@ const NEWS_FILES = [
         </div>
 
         <template v-else>
-          <section id="weekly-content" v-show="activeSection === 'weekly'" class="card section-anchor">
+          <GameDetailPanel v-if="detailGameKey" :detail="gameDetail" :loading="loading" @back="closeDetail">
+            <template #actions><RefreshButton :files="Object.values(FILES)" storage-key="game-detail" @refreshed="onRefreshed" /></template>
+          </GameDetailPanel>
+          <section id="weekly-content" v-show="!detailGameKey && activeSection === 'weekly'" class="card section-anchor">
             <div class="card-head sticky-heading">
               <h2>上周总览</h2>
               <span class="spacer"></span>
@@ -645,7 +660,7 @@ const NEWS_FILES = [
             <div id="weekly-overview"><WeeklyDigestPanel :data="data.weekly" :error="errors.weekly || ''" /></div>
           </section>
 
-          <section id="new-games-content" v-show="activeSection === 'new-games'" class="card section-anchor">
+          <section id="new-games-content" v-show="!detailGameKey && activeSection === 'new-games'" class="card section-anchor">
             <div class="card-head sticky-heading">
               <h2>新游监测</h2>
               <span class="spacer"></span>
@@ -661,11 +676,11 @@ const NEWS_FILES = [
               :jiuyou="data.jiuyou"
               :p16="data.p16"
               :errors="newGameErrors"
-              :active="activeSection === 'new-games'"
+              :active="!detailGameKey && activeSection === 'new-games'"
             />
           </section>
 
-          <section id="history-content" v-show="activeSection === 'history'" class="card section-anchor">
+          <section id="history-content" v-show="!detailGameKey && activeSection === 'history'" class="card section-anchor">
             <div class="card-head sticky-heading">
               <h2>历史数据</h2>
               <span class="spacer"></span>
@@ -678,7 +693,7 @@ const NEWS_FILES = [
             <HistoryDataPanel :data="data.weeklyHistory" :error="errors.weeklyHistory || ''" />
           </section>
 
-          <section id="hot-games-content" v-show="activeSection === 'hot-games'" class="card section-anchor">
+          <section id="hot-games-content" v-show="!detailGameKey && activeSection === 'hot-games'" class="card section-anchor">
             <div class="card-head sticky-heading">
               <h2>热门游戏动态监测</h2>
               <span class="spacer"></span>
@@ -691,17 +706,17 @@ const NEWS_FILES = [
             <HotGamesPanel
               :data="data.hot"
               :error="errors.hot || ''"
-              :active="activeSection === 'hot-games'"
+              :active="!detailGameKey && activeSection === 'hot-games'"
             />
           </section>
 
-          <section id="news-content" v-show="activeSection === 'news'" class="card section-anchor">
+          <section id="news-content" v-show="!detailGameKey && activeSection === 'news'" class="card section-anchor">
             <div class="card-head sticky-heading">
               <h2>游戏资讯</h2>
               <span class="spacer"></span>
               <RefreshButton :files="NEWS_FILES" storage-key="game-news" @refreshed="onRefreshed" />
             </div>
-            <GameNewsPanel :sources="newsSources" :active="activeSection === 'news'" />
+            <GameNewsPanel :sources="newsSources" :active="!detailGameKey && activeSection === 'news'" />
             <DailyNewsTrend :data="dailyNewsTrendData" :error="dailyNewsTrendError" />
           </section>
         </template>

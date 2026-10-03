@@ -1,4 +1,5 @@
 <script setup>
+import GameLink from './GameLink.vue'
 import { ref, computed, watch } from 'vue'
 import { useStickyTabs } from '../composables/useStickyTabs.js'
 
@@ -53,10 +54,11 @@ watch([sourceKey, tab, q, from, to, digestDate, newsLimit], () => {
   newsPage.value = 1
   remeasure()
   // 筛选状态在地址栏同步，复制链接即可恢复资讯视图；空值不污染链接。
+  if (!props.active) return
   const url = new URL(window.location.href)
   const values = { source: sourceKey.value, newsTab: tab.value, q: q.value, from: from.value, to: to.value }
   Object.entries(values).forEach(([key, value]) => value ? url.searchParams.set(key, value) : url.searchParams.delete(key))
-  window.history.replaceState({}, '', url)
+  window.history.replaceState(window.history.state, '', url)
 })
 
 /* ---- 新闻 ---- */
@@ -306,7 +308,7 @@ function highlight(text) {
         <p v-if="src.note" class="hint">{{ src.note }}</p>
         <p v-if="topGames.length" class="hint">
           当日热点：
-          <span v-for="[n, c] in topGames" :key="n" class="badge brand" style="margin-right: 4px">{{ n }} {{ c }}</span>
+          <span v-for="[n, c] in topGames" :key="n" class="badge brand" style="margin-right: 4px"><GameLink :name="n" /> {{ c }}</span>
         </p>
         <p v-if="!filteredNews.length" class="state">
           <span class="em">—</span>{{ q ? '没有匹配的新闻' : `近 ${src.news?.window_days || 0} 天暂无新闻` }}
@@ -315,8 +317,8 @@ function highlight(text) {
           <li v-for="(it, i) in shownNews" :key="it.url || i" class="news-item">
             <span class="news-date">{{ md(it.published_at) }}</span>
             <div class="news-main">
+              <GameLink v-if="it.game_name" :name="it.game_name" class="news-game" />
               <component :is="it.url ? 'a' : 'span'" class="news-title" :href="it.url || null" target="_blank" rel="noopener"
-                ><span v-if="it.game_name" class="news-game">{{ it.game_name }}</span
                 ><template v-for="(p, pi) in highlight(it.title)" :key="pi"
                   ><mark v-if="p.hit">{{ p.t }}</mark><template v-else>{{ p.t }}</template
                 ></template
@@ -375,7 +377,7 @@ function highlight(text) {
           <li v-for="(g, i) in digestGames" :key="g.name" class="rank-row">
             <div class="rank-top">
               <span class="rank-no">{{ i + 1 }}</span>
-              <span class="rank-name">{{ g.name }}</span>
+              <GameLink class="rank-name" :name="g.name" />
               <span class="spacer" style="flex: 1"></span>
               <span
                 v-if="g.summary_source"
@@ -401,6 +403,7 @@ function highlight(text) {
         <li v-for="(it, i) in reviewItems" :key="it.url || i" class="news-item">
           <span class="news-date score" :style="{ color: scoreColor(it.score) }">{{ it.score || '—' }}</span>
           <div class="news-main">
+            <GameLink v-if="it.game_name" :name="it.game_name" class="news-game" />
             <a v-if="it.url" class="news-title" :href="it.url" target="_blank" rel="noopener">{{ it.title }}</a>
             <span v-else class="news-title">{{ it.title }}</span>
             <div class="news-tags">
@@ -451,4 +454,3 @@ function highlight(text) {
 .news-pager .pager-page.active { border-color: var(--brand); background: var(--brand-weak); color: var(--brand); }
 .pager-gap { color: var(--text-3); line-height: 28px; }
 </style>
-

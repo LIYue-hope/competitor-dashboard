@@ -1,4 +1,5 @@
 <script setup>
+import GameLink from './GameLink.vue'
 import { computed } from 'vue'
 
 const props = defineProps({
@@ -84,7 +85,7 @@ function stamp(iso) {
         >
           <div class="rank-top">
             <span class="rank-no">{{ r.rank }}</span>
-            <span class="rank-name">{{ r.name }}</span>
+            <GameLink class="rank-name" :name="r.name" />
             <span class="heat-bar"><i :style="{ width: (r.heat_score / maxHeat * 100).toFixed(1) + '%' }"></i></span>
             <span class="heat-val">{{ r.heat_score }}</span>
           </div>

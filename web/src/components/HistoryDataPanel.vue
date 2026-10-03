@@ -1,4 +1,5 @@
 <script setup>
+import GameLink from './GameLink.vue'
 import { computed, ref, watch } from 'vue'
 
 const props = defineProps({
@@ -97,7 +98,7 @@ function articleRange(row) {
           <li v-for="(row, index) in heatShown" :key="`${row.week_start}-${row.name}`" class="rank-row" :class="{ top: (heatPage - 1) * heatPageSize + index < 3 }">
             <div class="rank-top">
               <span class="rank-no">{{ (heatPage - 1) * heatPageSize + index + 1 }}</span>
-              <span class="rank-name">{{ row.name }}</span>
+              <GameLink class="rank-name" :name="row.name" />
               <span class="history-value"><span>{{ periods(row).join('、') }}</span><strong>热度 {{ row.heat_score }}</strong></span>
             </div>
           </li>
@@ -139,7 +140,7 @@ function articleRange(row) {
           <li v-for="(row, index) in newsShown" :key="`${row.name}-${articleRange(row)}`" class="rank-row" :class="{ top: (newsPage - 1) * newsPageSize + index < 3 }">
             <div class="rank-top">
               <span class="rank-no">{{ (newsPage - 1) * newsPageSize + index + 1 }}</span>
-              <span class="rank-name">{{ row.name }}</span>
+              <GameLink class="rank-name" :name="row.name" />
               <span class="history-value"><span>{{ articleRange(row) }}</span><strong>累计资讯 {{ row.media_count }} 条</strong></span>
             </div>
           </li>
@@ -172,6 +173,7 @@ function articleRange(row) {
 select { border: 1px solid var(--border); background: var(--surface); color: var(--text); border-radius: var(--r-sm); padding: 5px 8px; font: 12px var(--font); }
 .history-section { --card-padding: 14px; border: 1px solid var(--border); border-radius: var(--r-md); padding: var(--card-padding); margin-top: 14px; background: var(--surface); }
 .history-section .card-head { margin-bottom: 10px; }
+.history-section .sticky-heading { margin-left: calc(-1 * (var(--card-padding) + 12px)); padding-left: calc(var(--card-padding) + 12px); }
 .news-pager { display: flex; justify-content: flex-end; align-items: center; gap: 6px; margin-top: 12px; flex-wrap: wrap; }
 .news-pager .icon-btn { height: 28px; padding: 0 9px; font-size: 12px; }
 .news-pager .pager-page { min-width: 28px; justify-content: center; padding: 0 6px; }
