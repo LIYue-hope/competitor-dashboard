@@ -1,82 +1,159 @@
 {
-  "generated_at": "2026-10-03T01:11:42.365423+00:00",
+  "generated_at": "2026-10-04T00:35:56.113827+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "article_count": 14,
-      "game_count": 11,
-      "untagged_count": 2,
-      "digest": "2026年10月2日游戏行业资讯密集，多款新作发售或上市引发关注。韩国独立骰子构筑游戏《Seferia Matrix》定档11月10日；经典空战续作《空战奇兵8 希孚之翼》今日全球上线；系列销量突破5000万的《地铁2033》与《最后之光》将免费升级至4K与120帧。此外，《归零巡礼》导演剪辑版与《真三国无双2猛将传RE》发售即遭破解，而《战争机器：事变日》因砍掉经典功能引发玩家吐槽。",
+      "game_count": 10,
+      "untagged_count": 3,
+      "digest": "今日游戏资讯聚焦于《GTA6》的分级细节与时尚大片曝光，以及《战地6》在Steam平台的史低价促销。此外，Nerial工作室宣布进入休眠模式，绿美迪娱乐被曝秘密开发新项目，滨口直树表达了对《巫师3》重制版的兴趣，B社前首席设计师则呼吁《老滚6》加入海战系统。亚运会《英雄联盟》决赛中，中国台北队不敌韩国队。同时，《魔兽世界：永恒》测试服更新，Epic开启免费领游戏福利，黑神话零售店推出国庆新品。",
       "digest_source": "llm",
-      "input_hash": "b924522a9b520e0c",
+      "input_hash": "b75c4987a73a8f7d",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 2,
+          "summary": "该作分级细节揭晓为成人M级，包含强烈涩涩内容，确认将于下个月登陆PS5和Xbox Series X|S平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 1,
+          "summary": "《最终幻想7：重制版》三部曲负责人滨口直树表示，他很乐意看到《巫师3：狂猎》推出完整重制版，甚至愿意购买游玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "心灵杀手2",
+          "count": 1,
+          "summary": "绿美迪娱乐曝光全新神秘游戏项目，据悉《心灵杀手2》联合总监凯尔·罗利已秘密主导该项目近两年时间。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战地6",
+          "count": 1,
+          "summary": "该作在Steam平台迎来价格永久下调，标准版原价268元现降至198元，同时开启新史低折扣，折后仅需99元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "王权",
+          "count": 1,
+          "summary": "开发团队Nerial发布公告，宣布工作室即将进入休眠模式。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "网络奇兵2RE",
+          "count": 1,
+          "summary": "Epic游戏商城开启免费领福利，玩家可在10月8日前免费领取《网络奇兵2：25周年纪念重制版》与《深埋之星》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "老滚6",
+          "count": 1,
+          "summary": "B社前首席设计师布鲁斯·内史密斯在访谈中分享了对《上古卷轴6》的核心玩法构想，呼吁新作加入船只航行与海战系统。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "英雄联盟",
+          "count": 1,
+          "summary": "2026亚运会《英雄联盟》金牌战开打，上届决赛组合中国台北队与韩国队再度交手，最终中国台北队0:3不敌韩国队。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界：永恒",
+          "count": 1,
+          "summary": "测试服迎来重磅版本更新，除常规漏洞修复与职业数值微调外，多项核心内容上线，吸引玩家重返游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黑神话",
+          "count": 1,
+          "summary": "国庆期间黑神话零售店推出多款新品，涵盖糕点礼盒、巧克力礼盒、陶瓷杯及饰品吊坠等多个品类。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "article_count": 19,
+      "game_count": 12,
+      "untagged_count": 6,
+      "digest": "2026年10月2日游戏圈热点频出，大作新作与破解事件并存。《巫师3：狂猎 重制版》发售后引发模组平台大战，mod.io下载量反超Nexus；《空战奇兵8 希孚之翼》作为系列时隔七年的新作正式上线；同时《归零巡礼》导演剪辑版与《真三国无双2猛将传RE》发售即遭破解，RUNE与TENOKE分别发布了相关版本。",
+      "digest_source": "llm",
+      "input_hash": "5bae243d1526f457",
       "game_digests": [
         {
           "name": "巫师3",
           "count": 2,
-          "summary": "《巫师3》引爆模组平台大战 mod.io下载量反超Nexus；游侠早报：两款大作遭破解 《巫师3》引爆模组大战！。",
-          "summary_source": "rules"
+          "summary": "《巫师3：狂猎 重制版》发售后引发模组平台大战，mod.io下载量反超Nexus，8月30日至9月30日获得约82万次下载，关键差异在于mod.io已直接集成进游戏，主机玩家也能在游戏内浏览、订阅和管理模组。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "MXGP 26",
+          "count": 1,
+          "summary": "越野摩托竞速游戏《MXGP 26》破解版正式登陆，由知名破解组RUNE操刀发布，游戏容量26GB，支持Steam平台，玩家无需购买即可体验2026赛季的官方授权赛事。",
+          "summary_source": "llm"
         },
         {
           "name": "Seferia Matrix",
           "count": 1,
-          "summary": "韩国独立工作室SurvivalTaktix开发的骰子Roguelike构筑游戏《Seferia Matrix》将于2026年11月10日发售，玩家将使用五颗骰子替代传统卡牌释放法术。",
+          "summary": "韩国独立工作室 SurvivalTaktix 开发的骰子 Roguelike 构筑游戏《Seferia Matrix》将于2026年11月10日发售，游戏以五颗骰子替代传统卡牌，通过Lock & Roll组合骰面释放法术。",
           "summary_source": "llm"
         },
         {
           "name": "博德3",
           "count": 1,
-          "summary": "《博德3》发行总监力挺《黎明行者之血》时限机制！。",
-          "summary_source": "rules"
+          "summary": "《博德之门3》发行总监Michael Douse公开回应《黎明行者之血》时限机制引发的争议，称其为“精心编织的叙事工具”，鼓励玩家用不同于《巫师3》的方式体验游戏，并表示看好Rebel Wolves将其打造成系列大作。",
+          "summary_source": "llm"
         },
         {
           "name": "地铁2033",
           "count": 1,
-          "summary": "《地铁2033》《最后之光》免费升级！4K画质+120帧。",
-          "summary_source": "rules"
+          "summary": "《地铁2033 Redux》与《最后之光 Redux》即将迎来次世代免费更新，登陆PC、PS5及Xbox Series X|S平台，更新涵盖4K纹理、60至120帧画质提升、DLSS/PSSR/TSR超分辨率支持及DualSense自适应扳机等功能。",
+          "summary_source": "llm"
         },
         {
           "name": "归零巡礼",
           "count": 1,
-          "summary": "《归零巡礼：亡谍镇魂曲》导演剪辑版上线不久，RUNE版破解资源已在社区出现，体积约11.3GB，该版本追加约4万字新剧情、幕后模式及新服装。",
+          "summary": "《极乐迪斯科》精神续作《归零巡礼：亡谍镇魂曲》导演剪辑版上线不久，RUNE版破解资源已在社区出现，体积约11.3GB，该版本追加约4万字新剧情、幕后模式、新服装与系统优化。",
           "summary_source": "llm"
         },
         {
           "name": "战争机器 E-Day",
           "count": 1,
-          "summary": "经典机制被砍？《战争机器 E-Day》缺经典功能遭吐槽。",
-          "summary_source": "rules"
+          "summary": "《战争机器：事变日》首发版本缺少肉盾、电锯决斗、部分经典武器、私人房间、排行榜和排位对战等功能，The Coalition解释称游戏基于虚幻引擎5从零重建，旧机制无法直接移植。",
+          "summary_source": "llm"
         },
         {
           "name": "战神：劳菲",
           "count": 1,
-          "summary": "《战神：劳菲》公布后，部分玩家对女主劳菲形象表达不满，曾与黛博拉·安·沃尔合作《夜魔侠》的文森特·多诺费奥公开回应，称赞她美丽、有才华且是个十足的极客。",
+          "summary": "《战神：劳菲》公布后，部分玩家对黛博拉·安·沃尔饰演的劳菲形象与装备设计表达不满，曾与她合作《夜魔侠》的文森特·多诺费奥公开回应，称赞她美丽、有才华、善良且“是个十足的极客”。",
           "summary_source": "llm"
         },
         {
           "name": "杀死影子",
           "count": 1,
-          "summary": "国产社会派悬疑推理游戏《杀死影子》现已加入Steam秋季特卖，限时9折仅需58.5元，并携手多款游戏推出捆绑包。",
+          "summary": "国产社会派悬疑推理游戏《杀死影子》自8月上线以来收获Steam“特别好评”，现已加入Steam秋季特卖，限时9折仅需58.5元，并携手多款游戏推出捆绑包。",
           "summary_source": "llm"
         },
         {
           "name": "真三国无双2猛将传RE",
           "count": 1,
-          "summary": "《真三国无双2猛将传复刻版》于10月1日正式发售，登陆PC、PS5、Xbox Series X|S及Switch 2，发售不久后社区出现TENOKE发布的11.3GB破解版本。",
+          "summary": "《真三国无双2猛将传复刻版》于10月1日正式发售，登陆PC、PS5、Xbox Series X|S及Switch 2，发售不久后社区出现TENOKE发布的破解版本，体积约11.3GB。",
           "summary_source": "llm"
         },
         {
           "name": "空战奇兵8 希孚之翼",
           "count": 1,
-          "summary": "《空战奇兵8 希孚之翼》今日全球正式上线，作为系列时隔七年的首部正统续作，本作采用虚幻引擎5打造，登陆PS5、Xbox Series X|S与Steam平台。",
+          "summary": "《空战奇兵8 希孚之翼》今日全球正式上线，作为系列时隔七年的首部正统续作，本作采用虚幻引擎5打造极致空战体验，登陆PS5、Xbox Series X|S与Steam平台。",
           "summary_source": "llm"
         },
         {
           "name": "逃离鸭科夫",
           "count": 1,
-          "summary": "国产俯视角搜打撤游戏《逃离鸭科夫》迎来上线一周年，10月2日至23日参与Steam秋促，各平台限时7折，Steam国区折后40.6元，创下历史新低。",
+          "summary": "国产俯视角搜打撤游戏《逃离鸭科夫》迎来上线一周年，官方发布回顾视频复盘成长历程，游戏10月2日至23日参与Steam秋促，各平台限时7折，Steam国区折后40.6元，创下历史新低。",
           "summary_source": "llm"
         }
       ]
@@ -785,107 +862,6 @@
           "count": 1,
           "summary": "《龙之信条2》新DLC“黑暗觉者”容量售价曝光，确定将于10月9日正式推出。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "article_count": 137,
-      "game_count": 90,
-      "untagged_count": 36,
-      "digest": "今日游戏资讯共涉及137条，其中《控制：共振》泄露事件、《GTA6》即将发售的消息以及《光环》系列的最新动态成为焦点。此外，《寂静岭》电影改编计划曝光、《巫师3》重制版对比视频引发争议、《查无此地》的抢先体验版发布、《漫威金刚狼》媒体评分下滑、《ARC Raiders》技术更新修复问题、《CS》之父透露G胖趣闻、《FF7：重制版》新内容预告、《P6》活动预热、《STRANGER THAN HEAVEN》角色介绍更新、《even if TEMPEST 黄昏中魔女如是说》登陆Steam、《东京城塞都市》独立游戏工作室公布新作、《人中之龙 极3》主机平台特惠活动等消息也占据了重要位置。",
-      "digest_source": "llm",
-      "input_hash": "40275b58ae0ddc64",
-      "game_digests": [
-        {
-          "name": "控制：共振",
-          "count": 5,
-          "summary": "游侠早报：《控制:共振》泄露！《超越善恶2》开发中；《控制：共振》发售前一天惨遭泄露！游戏无D加密；《控制：共振》首发遭破解  少玩家表示仍愿意入手正版（当天共 5 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GTA6",
-          "count": 3,
-          "summary": "R星憋大招！《GTA6》后台挖出55款周边 产品线曝光；不止手柄音乐专辑！《GTA6》海量隐藏周边被玩家挖掘；NBA球星调侃：《GTA6》或将令11月职业球员状态下滑。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "光环",
-          "count": 2,
-          "summary": "Epic CEO力挺微软重组!认为《光环》交给动视合情合理；曝《光环》转交动视暴雪后 工作室仅剩约20人近乎解散。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "寂静岭",
-          "count": 2,
-          "summary": "《寂静岭》电影改编计划曝光 罗伊·李将担任制片人；《寂静岭》新作Steam首发翻车!DLC解锁异常 官方致歉。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "巫师3",
-          "count": 2,
-          "summary": "高清进化！《巫师3》重制版新视频公布 新旧画面对比；重制不如原版？CDPR《巫师3》重制版对比视频遭群嘲。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "查无此地",
-          "count": 2,
-          "summary": "《查无此地》超自然搜打撤预告曝光！支持4人联机游玩；成为超自然维度勘探特工！俯视角PVE搜打撤《查无此地》Steam发售定档10月14日抢先体验开启。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2,
-          "summary": "PS5独占大作《漫威金刚狼》M站媒体评分下滑至76分！；《漫威金刚狼》黑胶30美元开启预订 实体媒介尚存市场。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "ARC Raiders",
-          "count": 1,
-          "summary": "《ARC Raiders》1.47.0补丁上线 PS5频繁崩溃已解决。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "CS",
-          "count": 1,
-          "summary": "呼麦/收藏/锻刀《CS》之父黎明眼中怪异的G胖。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "FF7：重制版",
-          "count": 1,
-          "summary": "外媒评《FF7:重制版》：喜剧元素介入削弱了严肃基调。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "P6",
-          "count": 1,
-          "summary": "期待拉满！Atlus举办新活动 《P6》有望放出全新内容。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "STRANGER THAN HEAVEN",
-          "count": 1,
-          "summary": "《STRANGER THAN HEAVEN》最新角色介绍公开 风云变幻的时代中，大东与他相识的人们。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "even if TEMPEST 黄昏中魔女如是说",
-          "count": 1,
-          "summary": "大热乙游《even if TEMPEST 黄昏中魔女如是说》今日登陆Steam！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "东京城塞都市",
-          "count": 1,
-          "summary": "独立游戏工作室公布潜行动作新作《东京城塞都市》。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "人中之龙 极3",
-          "count": 1,
-          "summary": "主机平台“SEGA九月特惠”开跑!《人中之龙 极3 / 人中之龙3外传 Dark Ties》《超级忍 反攻的斩击》加入促销阵容！。",
-          "summary_source": "rules"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T01:13:42.331376+00:00",
+  "generated_at": "2026-10-04T00:38:08.990035+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
@@ -90,39 +90,10 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "GameLook 今日共收录 1 条行业资讯，内容聚焦于 2026 年中国游戏市场在政策与监管层面的最新动态，未涉及具体游戏产品的动态报道。按报道条数排序的游戏（含代表性标题与摘要）：",
+      "digest": "今日游戏行业资讯主要聚焦于宏观政策与市场动态，暂无具体游戏产品的动态更新或发售信息。GameLook 当日共收录 1 条行业新闻，内容涉及未指向具体游戏的市场观察或行业分析，未发现具体游戏厂商或产品的相关报道。按报道条数排序的游戏（含代表性标题与摘要）：",
       "digest_source": "llm",
       "input_hash": "7790300b3c26f484",
       "game_digests": []
-    },
-    {
-      "date": "2026-09-24",
-      "article_count": 7,
-      "game_count": 3,
-      "untagged_count": 4,
-      "digest": "今日游戏行业资讯聚焦于叠纸新作《恋与深空》的运营表现、NCsoft与盛趣游戏合作引进的《永恒之塔2》Steam测试热度，以及独立游戏《针影裁梦》凭借独特的女性向制衣玩法在Steam平台爆火的现象。",
-      "digest_source": "llm",
-      "input_hash": "f0d741d725ba3307",
-      "game_digests": [
-        {
-          "name": "恋与深空",
-          "count": 1,
-          "summary": "叠纸旗下恋爱互动手游《恋与深空》上线五星思念限时UP许愿活动「如若午夜无眠」，据七麦数据显示，活动开启后游戏表现强劲。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "永恒之塔2",
-          "count": 1,
-          "summary": "韩国游戏巨头NCsoft与盛趣游戏再度携手引进《永恒之塔2》至中国大陆市场，该作Steam测试期间热度爆火，引发玩家热议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "针影裁梦",
-          "count": 1,
-          "summary": "一款由3人团队开发的女性向制衣游戏《针影裁梦》好评率高达96%，Steam在线人数突破万人，被玩家称为“让女玩家做裙子的游戏”。",
-          "summary_source": "llm"
-        }
-      ]
     }
   ]
 }

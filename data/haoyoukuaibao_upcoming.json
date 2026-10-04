@@ -1,30 +1,9 @@
 {
-  "crawled_at": "2026-10-03T01:04:32.908550+00:00",
+  "crawled_at": "2026-10-04T00:29:06.460141+00:00",
   "days": [
     {
-      "date": "2026-10-03",
-      "date_label": "10月03日 今天",
-      "games": [
-        {
-          "game_name": "牌筑堡垒",
-          "categories": [
-            "策略",
-            "闯关",
-            "节奏"
-          ],
-          "score": null,
-          "event_desc": "上线试玩",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/204111.htm",
-          "publisher": "小鱼game工作室",
-          "reservation_count": "52",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-10-05",
-      "date_label": "10月05日 后天",
+      "date_label": "10月05日 明天",
       "games": [
         {
           "game_name": "问鼎2027",
@@ -38,7 +17,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/203521.htm",
           "publisher": "玖悦工作室",
-          "reservation_count": "76",
+          "reservation_count": "74",
           "has_afk_grinding_tag": false
         }
       ]
@@ -59,7 +38,28 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/198918.htm",
           "publisher": "kakao games",
-          "reservation_count": "94",
+          "reservation_count": "96",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "date_label": "10月10日 下周六",
+      "games": [
+        {
+          "game_name": "乡野奇运",
+          "categories": [
+            "动作",
+            "交通运输",
+            "冒险"
+          ],
+          "score": null,
+          "event_desc": "海外上线安卓和iOS",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/203486.htm",
+          "publisher": "Pocketpair Publishing",
+          "reservation_count": "104",
           "has_afk_grinding_tag": false
         }
       ]

@@ -1,9 +1,19 @@
 {
-  "generated_at": "2026-10-03T01:14:33.474860+00:00",
+  "generated_at": "2026-10-04T00:39:00.175745+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-03",
+      "article_count": 1,
+      "game_count": 0,
+      "untagged_count": 1,
+      "digest": "10月3日 游资网 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「米哈游等不及了，年内还要炸一次？」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
+      "input_hash": "868bada6a939a5a8",
+      "game_digests": []
+    },
     {
       "date": "2026-10-02",
       "article_count": 3,
@@ -160,8 +170,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "9月26日 游资网 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「TES登顶！RSG、IBG分列二三，2026三角洲行动烽火职业联赛夏季赛重庆收官」。未指向具体游戏的内容占当天的 100%。",
-      "digest_source": "rules",
+      "digest": "今日游戏行业资讯较为平淡，仅有一条未指向具体游戏名称的行业动态。该报道主要聚焦于游戏行业在经历暑期档的短暂爆发后，正面临新一轮的调整与挑战，行业整体进入冷静期，市场对后续表现保持观望态度。按报道条数排序的游戏（含代表性标题与摘要）：",
+      "digest_source": "llm",
       "input_hash": "35b4179a40532060",
       "game_digests": []
     },
@@ -184,65 +194,6 @@
           "name": "针影裁梦",
           "count": 1,
           "summary": "3人团队开发的制衣游戏登陆Steam，发售首日登全球畅销榜第八，好评率达96%》",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "article_count": 12,
-      "game_count": 8,
-      "untagged_count": 4,
-      "digest": "今日游戏行业资讯涵盖多品类新作，包括EA Sports FC 27的开放世界探讨、SQOOL发布的桌面宠物应用Sill Dogs、4399塔防割草游戏嘎嘎特攻、未眠野实机PV及技术保密测试开启、爱谱雷与三七合作的宫斗IP游戏梦回甄嬛传、登陆多平台的行船模拟游戏海员人生、以及炼金与魔法家园系统更新，另有游戏商业化分析长文。",
-      "digest_source": "llm",
-      "input_hash": "2cd99a5cfe054238",
-      "game_digests": [
-        {
-          "name": "EA Sports FC 27",
-          "count": 1,
-          "summary": "触乐发文探讨该作足球开放世界、模拟收纳与断舍离，分析其是否更大更复杂或只是换层包装。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Sill Dogs",
-          "count": 1,
-          "summary": "株式会社SQOOL于9月23日在Steam发布基本免费的桌面常驻像素宠物应用，含2种基础犬及付费DLC。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "嘎嘎特攻",
-          "count": 1,
-          "summary": "4399新作复刻KingShot玩法，上线首月下载量已超500万。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "未眠野",
-          "count": 1,
-          "summary": "实机PV重磅首发，物理化学双引擎重构涌现式大世界，技术保密测试于9月24日开启。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "梦回甄嬛传",
-          "count": 1,
-          "summary": "爱谱雷与三七合作试水二合赛道，绑定甄嬛传宫斗IP，以宫女视角推进剧情，但数值与剧情衔接存在不足。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "海员人生：行船模拟",
-          "count": 1,
-          "summary": "今日正式发售，登陆PC、PS5及Xbox Series X|S，支持中文与跨平台联机，含剧情战役及合作多人模式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "炼金与魔法",
-          "count": 1,
-          "summary": "推出“苟命手册之搭建家园”更新，帮助玩家告别露宿荒野。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "长文",
-          "count": 1,
-          "summary": "分析游戏商业化四大核心问题，指出本质是匹配用户需求与产品价值，强调目标用户定位及用户画像构建。",
           "summary_source": "llm"
         }
       ]
