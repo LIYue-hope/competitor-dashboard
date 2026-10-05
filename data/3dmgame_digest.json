@@ -1,106 +1,207 @@
 {
-  "generated_at": "2026-10-04T00:34:56.104360+00:00",
+  "generated_at": "2026-10-05T00:48:15.792452+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-04",
-      "article_count": 27,
-      "game_count": 16,
-      "untagged_count": 5,
-      "digest": "今日游戏资讯聚焦于《战争机器：事变日》玩家利用Mod启用DLSS5提升画质但导致帧率下降，以及《GTA6》确认双主角关系可选但无法决裂。此外，久多良木健呼吁游戏行业重拾好奇心，前PS高管吉田修平认为只有《GTA7》能超越《GTA6》，索尼洽谈《战地》电影改编权，以及《塞尔达：时之笛重制版》两款面具需扫描amiibo解锁。",
+      "date": "2026-10-05",
+      "article_count": 26,
+      "game_count": 21,
+      "untagged_count": 2,
+      "digest": "今日3DMGame共报道26条资讯，涵盖21款游戏。R星透露《GTA6》开发初期曾考虑四名主角，后因故事拥挤改为双人叙事；育碧新作《刺客信条：女巫》曝光女主家庭背景；Paradox新作《后世更序》试玩反馈易上手；此外还有《巫师3：重制版》Steam在线人数创新高、《战神：劳菲》预购打破纪录等动态。",
       "digest_source": "llm",
-      "input_hash": "2d4d74c9e29ec5c8",
+      "input_hash": "ed65ba5ee6195876",
       "game_digests": [
         {
-          "name": "战争机器：事变日",
-          "count": 4,
-          "summary": "玩家通过Mod为游戏启用DLSS5，认为画面明显改善，但测试显示帧率低于未启用时，测试设备包括RTX 5080和5090显卡。",
-          "summary_source": "llm"
-        },
-        {
           "name": "GTA6",
-          "count": 2,
-          "summary": "外媒披露杰森与露西亚拥有独立关系数值系统，玩家可自由选择培养成恋人或犯罪搭档，但无论玩家如何操作，二人无法决裂或被踢出故事。",
+          "count": 4,
+          "summary": "R星联合负责人罗布·尼尔森透露开发初期曾考虑设置四名可操控主角，后因故事拥挤、理解难度大而放弃，重写剧本将重点放在杰森与露西亚的双人关系上。",
           "summary_source": "llm"
         },
         {
-          "name": "最终幻想7：启示",
-          "count": 2,
-          "summary": "远藤辉树表示团队在《最终幻想7：启示》中仍无法给出回合制与实时操作的唯一理想平衡，FITS系统旨在明确角色定位而非削弱培养自由度。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "索尼PSN",
-          "count": 2,
-          "summary": "久多良木健认为现代游戏陷入停滞，呼吁开发者跳出固有思维框架大胆创新，重拾好奇心，认为游戏行业正处在重大转折点。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA7",
+          "name": "上古卷轴5：天际特别版",
           "count": 1,
-          "summary": "前PS高管吉田修平表示，鉴于GTA系列体量庞大，未来只有《GTA7》才有可能达到与《GTA6》同等的热度。",
+          "summary": "社交平台出现借助Claude生成代码的跨游戏Mod演示，将《魔兽世界》等内容放入《上古卷轴5：天际》，引发作者对创意与素材授权的讨论。",
           "summary_source": "llm"
         },
         {
-          "name": "上古卷轴5",
+          "name": "使命召唤：现代战争4",
           "count": 1,
-          "summary": "前《上古卷轴5》设计师Bruce Nesmith回忆，约30%的玩家在逃出地牢后没有沿主线前往河木镇，而是走向野外自行探索。",
+          "summary": "《使命召唤：现代战争4》发布DMZ模式新预告，展示Hajin地区任务，玩家需搜集资源阻止朝鲜部队取得化学、生物和核武器，并应对“Rogue”悬赏机制。",
           "summary_source": "llm"
         },
         {
-          "name": "使命召唤6：现代战争2",
+          "name": "全面战争：战锤40K",
           "count": 1,
-          "summary": "借助生成式工具重建的《使命召唤：现代战争2》项目视频被移除，托管代码的网站访问遭阻断，版权方Bethesda已采取行动。",
+          "summary": "《全面战争：战锤40K》负责人加雷思·埃德蒙森承诺主机版不会牺牲任何内容，新引擎Warcore在架构阶段就纳入了主机支持，关键战场信息也会保留。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "刺客信条：女巫",
+          "count": 1,
+          "summary": "外媒曝光《刺客信条：女巫》女主阿妮卡的家庭剧情，其父亲康拉德被爆料竟是刽子手，本作设定在16世纪德意志猎巫审判浪潮中，将抛弃RPG机制转向线性叙事。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "后世更序",
+          "count": 1,
+          "summary": "Paradox废土战略游戏《后世更序》试玩约30分钟，作者认为游戏开局推进较快，界面清晰减轻了管理压力，游戏总监有意提高作品的易上手程度。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达：时之笛重制版",
           "count": 1,
-          "summary": "游戏有两款取材于原版造型的外观面具，需扫描对应的年轻林克和年轻塞尔达amiibo解锁，两款人偶税前合计49.98美元。",
+          "summary": "外媒jeuxvideo编辑表示尽管关注《GTA6》，但更期待《塞尔达传说：时之笛 重制版》，希望能以新画面重新体验1998年原作中跨越七年的海拉鲁冒险。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "天国：拯救",
+          "count": 1,
+          "summary": "《天国：拯救》创始人Martin Klima接受采访，表示自己厌倦了RPG中反复出现的“天选之人”拯救世界的公式，认为发行商往往倾向于重复已经奏效的做法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "寂静岭P.T.",
+          "count": 1,
+          "summary": "《寂静岭 P.T.》粉丝PC移植项目公布新实机画面，目前移植工作约完成97%，视频展示的版本已能从头玩到尾，且无需借助PS4模拟器。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 1,
+          "summary": "外媒jeuxvideo编辑重玩《巫师3：狂猎》后认为，其支线故事如“血腥男爵”等仍比《红色沙漠》中体验到的部分任务更令人难忘，尽管后者场面出色。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3：重制版",
           "count": 1,
-          "summary": "官方表示游戏推出后技术支持收到的求助请求比平时更多，回复时间可能延长，团队正在分析问题并纳入后续修复工作。",
+          "summary": "《巫师3：重制版》在Steam的同时在线人数达到137724人，刷新了此前由《猎魔人》剧集带动的峰值，位列Steam每周畅销榜第26名。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "我的世界：地下城2",
+          "count": 1,
+          "summary": "《我的世界：地下城2》玩家反映在Nintendo Switch 2上，豪华版追加内容似乎只有购买它的eShop账号可以使用，同机其他账号无法使用。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战地6",
+          "count": 1,
+          "summary": "有爆料称《战地6》第五赛季或迎《战地风云：叛逆连队2》小队回归，并在一次秘密行动中前往51区，目前消息尚未得到EA或DICE确认。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战神：劳菲",
+          "count": 1,
+          "summary": "尽管《战神：劳菲》因更换主角和仅推出数字版遭粉丝批评，但预购表现打破纪录，外媒推测全新背景设定和系列吸引力促成了这一成绩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战神：斯巴达之子",
+          "count": 1,
+          "summary": "开发者OverkillLabs2公开SoS-PS5项目，借助AnyPS5工具让《战神：斯巴达之子》在Windows电脑上运行，GeForce RTX 5070 Ti测试下主菜单和游戏过程约为每秒60帧。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "article_count": 47,
+      "game_count": 31,
+      "untagged_count": 6,
+      "digest": "今日游戏行业资讯聚焦于《战争机器：事变日》因片尾名单出现争议顾问公司引发玩家抵制，以及《GTA6》因R星总裁个人原因取消独家专访。此外，《最终幻想7：启示》导演回应实体光盘版仅为启动盘，动视贝塞斯达打击AI生成《辐射：纽约》与《使命召唤6：现代战争2》重建项目，久多良木健呼吁行业重拾好奇心，前PS高管吉田修平认为只有《GTA7》有望超越《GTA6》。",
+      "digest_source": "llm",
+      "input_hash": "584fb5c012c549a6",
+      "game_digests": [
+        {
+          "name": "战争机器：事变日",
+          "count": 5,
+          "summary": "片尾名单中出现顾问公司Hit Detection引发玩家抵制，该公司被指为SBI 2.0，其顾问Jacob Geller承认性侵犯罪并称“没有游戏玩家，世界会更好”，此外游戏中出现的彩虹旗及限制政治标签标签也招致批评。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "R星总裁山姆·豪泽因“个人原因”取消原定于本周的《GTA6》独家专访，此前工作室一直保持低调，仅在近期开始陆续接受媒体采访。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7：启示",
+          "count": 3,
+          "summary": "导演滨口直树回应粉丝推出完整光盘版的诉求，表示已“尽最大努力”推动实体介质发行，但PS5与Xbox Series X玩家插入光盘仍需下载大容量游戏数据。",
           "summary_source": "llm"
         },
         {
           "name": "战地",
-          "count": 1,
-          "summary": "索尼据称正洽谈取得《战地》系列的电影改编权，克里斯托弗·麦奎里拟担任编剧、导演及制片，迈克尔·B·乔丹拟担任制片人。",
+          "count": 2,
+          "summary": "战地工作室副总裁Rebecka Coutaz回应系列常被指抄袭《使命召唤》，认为竞争能促使开发者承担更多风险、发挥创意并尝试创新，开发更看重玩家反馈。",
           "summary_source": "llm"
         },
         {
-          "name": "漫威金刚狼",
-          "count": 1,
-          "summary": "在KytyPS5模拟器中测试，游戏多数场景帧率仅6至9帧，峰值约20帧，显卡显存几乎被用尽。",
+          "name": "索尼PSN",
+          "count": 2,
+          "summary": "PlayStation之父久多良木健认为现代游戏行业已陷入停滞，呼吁开发者跳出固有思维框架，重拾好奇心以推动行业迈向全新发展阶段。",
           "summary_source": "llm"
         },
         {
-          "name": "王国之心1～3合集",
+          "name": "GTA7",
           "count": 1,
-          "summary": "PS5将于10月8日迎来九款游戏，其中包括《王国之心1～3合集》和《霓虹深渊2》。",
+          "summary": "前PlayStation高管吉田修平表示，鉴于GTA系列如今体量庞大，未来大概只有《GTA7》才有可能超越《GTA6》的市场号召力。",
           "summary_source": "llm"
         },
         {
-          "name": "疾速成真",
+          "name": "MW2",
           "count": 1,
-          "summary": "Nomion Games公布首批概念图，展示粗野主义赛博朋克美术风格，游戏旨在重新思考玩家在竞技射击游戏中的行动动机。",
+          "summary": "动视贝塞斯达针对AI生成《MW2》重建项目采取行动，移除了相关视频并阻断托管代码网站的访问，此前该项目由Claude Opus 5.5编写代码生成。",
           "summary_source": "llm"
         },
         {
-          "name": "神鬼寓言4",
+          "name": "上古卷轴5",
           "count": 1,
-          "summary": "开发团队透露战斗系统延续易上手思路，加入针对敌人身体部位的命中反馈，部分任务可通过对话或探索推进。",
+          "summary": "前《上古卷轴5：天际》首席设计师Bruce Nesmith透露，约30%的玩家在逃出游戏初始地牢后没有沿主线前往河木镇，而是走向野外自行探索。",
           "summary_source": "llm"
         },
         {
-          "name": "符文之境：重燃",
+          "name": "人工智能",
           "count": 1,
-          "summary": "Jagex宣布游戏定于12月2日上线，所有重燃角色从3级起步，采用全新经济体系，重燃角色在前10天可免费访问会员内容。",
+          "summary": "OpenAI的GPT-6 Astra在《星际争霸》AI对战赛事中屡战屡败，恼羞成怒后竟在赛事中途改换策略选择作弊。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤6：现代战争2",
+          "count": 1,
+          "summary": "使用生成式工具重建的《使命召唤6：现代战争2》项目遭遇版权方打击，相关视频被移除，托管代码的网站访问遭阻断。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "光与影：33号远征队",
+          "count": 1,
+          "summary": "《光与影：33号远征队》将于10月15日退出Game Pass游戏库，这是2025年的最佳游戏之一，也是首发同步加入Game Pass的最优质第三方作品之一。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达：时之笛重制版",
+          "count": 1,
+          "summary": "两款取材于原版林克和塞尔达造型的外观面具需扫描amiibo解锁，两款人偶税前合计49.98美元，游戏定于11月5日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 1,
+          "summary": "《巫师3》重制版上线后Steam同时在线人数创历史新高，峰值达到123359人，相比今年8月的峰值有显著提升。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3：重制版",
+          "count": 1,
+          "summary": "《巫师3》重制版推出后技术支持收到的求助请求激增，官方表示玩家等待回复的时间可能因此延长，并感谢玩家耐心等待。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "异锁",
+          "count": 1,
+          "summary": "《异锁》新英雄“鼠王”上线，该坦克职业拥有超过100条专属语音台词，其中126条用于技能“鼠群”，游戏内总语音台词达1534条。",
           "summary_source": "llm"
         }
       ]
@@ -910,107 +1011,6 @@
           "count": 1,
           "summary": "CDPR确认《巫师3：狂猎》重制版免费更新即将推出，Steam/PS5/Xbox平台下载量约45GB。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "article_count": 50,
-      "game_count": 35,
-      "untagged_count": 10,
-      "digest": "今日游戏行业新闻概览中，我们关注了多个热门游戏的动态和相关厂商的举措。以下是一些主要信息点：**《GTA6》**：Rockstar Games宣布《GTA6》的全新收藏盒售价为400美元，不含游戏本体，引发玩家褒贬不一的反响。**《堡垒之夜》**：Epic Games确认将推出《堡垒之夜》的DLC，包含干员皮肤显示开关功能，以及新的剧情DLC。**《塞尔达传说》**：任天堂公布约70款《塞尔达传说》系列周边，包括虹彩亚克力摆件等。**《最终幻想7：启示》**：史克威尔艾尼克斯确认《最终幻想7：启示录》的两部剧情DLC将分别聚焦萨菲罗斯与文森特。**《企鹅殖民地》**：开发商ORIGA DIGITAL与发行方Fellow Traveller宣布《企鹅殖民地》PC版延期至10月17日，PS5与Switch 2平台则延至2027年。**《使命召唤：战区》**：动视确认《使命召唤：战区》将加入干员皮肤显示开关功能。**《巫师4》**：CDPR表示《巫师4》将继续打磨道德灰度叙事，并强调游戏中有歧义的选择及其后果。**《帝国时代》**：微软新一轮裁员可能扼杀《帝国时代》系列的全新正统续作。",
-      "digest_source": "llm",
-      "input_hash": "d8eb87352d968007",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 3,
-          "summary": "《GTA6》四百美元收藏盒不含游戏 粉丝盼主角却等来鳄鱼；R星公布《GTA6》399.99美元收藏套装 不含游戏；《GTA6》预购被指偏向PS5 引发Xbox方面担忧。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "堡垒之夜",
-          "count": 2,
-          "summary": "荷兰消费者组织SMC指控《堡垒之夜》商城诱导未成年人消费，并追索1亿欧元；爆料称《堡垒之夜》或以《海贼王》联动迷你赛季为第七章收官。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "塞尔达传说",
-          "count": 2,
-          "summary": "任天堂公布约70款《塞尔达传说》系列周边，10月2日起在日本Animate销售；消息称任天堂否决育碧米兰《塞尔达传说》衍生游戏原型。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "最终幻想7：启示",
-          "count": 2,
-          "summary": "《最终幻想7：启示》两部DLC聚焦萨菲罗斯与文森特，评论更想看巴雷特和蒂法；《最终幻想7：启示》白金奖杯将比《最终幻想7：重生》更易取得。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "企鹅殖民地",
-          "count": 1,
-          "summary": "《企鹅殖民地》PC版延期至10月17日，PS5与Switch 2版2027年推出。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "使命召唤：战区",
-          "count": 1,
-          "summary": "动视确认《使命召唤：战区》第一赛季将加入其他玩家干员外观替换开关。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "侠盗猎车手",
-          "count": 1,
-          "summary": "法国媒体回顾《侠盗猎车手》电话设计，认为《侠盗猎车手6》将延续手机文化讽刺。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "光环",
-          "count": 1,
-          "summary": "纪念《光环》系列25周年的Halo Fest仍将于2026年12月在西雅图举行。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "双人成行",
-          "count": 1,
-          "summary": "《双人成行》Steam版限时降价70%，售价降至11.99欧元。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "反恐精英2",
-          "count": 1,
-          "summary": "《反恐精英2》选手donk在FACEIT第9赛季突破5000 Elo，刷新个人纪录。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "天国：拯救2",
-          "count": 1,
-          "summary": "《天国：拯救2》商贩认出失窃商品并举报，细节引发玩家讨论。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "女神异闻录3 Reload",
-          "count": 1,
-          "summary": "世嘉与Atlus开启Steam促销，《女神异闻录3 Reload》等。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "宝可梦卡牌",
-          "count": 1,
-          "summary": "美国72岁宝可梦卡牌收藏者在配送员车底安装追踪器获罪。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "巫师4",
-          "count": 1,
-          "summary": "CDPR称《巫师4》将以充满道德灰度的选择及后果打动玩家。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "帝国时代",
-          "count": 1,
-          "summary": "微软新一轮裁员或扼杀《帝国时代》全新正统续作。",
-          "summary_source": "rules"
         }
       ]
     }

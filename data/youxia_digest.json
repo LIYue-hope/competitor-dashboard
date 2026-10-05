@@ -1,76 +1,195 @@
 {
-  "generated_at": "2026-10-04T00:35:56.113827+00:00",
+  "generated_at": "2026-10-05T00:50:12.567779+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-03",
-      "article_count": 14,
-      "game_count": 10,
-      "untagged_count": 3,
-      "digest": "今日游戏资讯聚焦于《GTA6》的分级细节与时尚大片曝光，以及《战地6》在Steam平台的史低价促销。此外，Nerial工作室宣布进入休眠模式，绿美迪娱乐被曝秘密开发新项目，滨口直树表达了对《巫师3》重制版的兴趣，B社前首席设计师则呼吁《老滚6》加入海战系统。亚运会《英雄联盟》决赛中，中国台北队不敌韩国队。同时，《魔兽世界：永恒》测试服更新，Epic开启免费领游戏福利，黑神话零售店推出国庆新品。",
+      "date": "2026-10-04",
+      "article_count": 22,
+      "game_count": 13,
+      "untagged_count": 8,
+      "digest": "2026年10月4日，行业资讯整体呈现多线发展态势，围绕游戏内容评价、版本动态、发行变动及玩家反馈展开，涉及游侠网22条新闻、13款游戏，涵盖多品类游戏的相关动态，整体围绕游戏行业热点议题持续发布资讯。游戏｜《战争机器：事变日》当日发生内容更新，该游戏已面向预购高级版玩家开放抢先体验，虽首发支持DLSS、FSR及Intel XeSS，但玩家已通过第三方Mod启用尚未推广的NVIDIA DLSS 5。游戏｜《FF7启示》相关动态为战斗平衡探讨，随着发售临近，重制三部曲战斗总监披露尚未找到回合制指令与实时操作的最佳配比。游戏｜《P.T.》移植版进展明确，该被科乐美抹除的恐怖神作将以原生方式推进PC移植，开发者正通过C++与Vulkan API重建游戏逻辑与渲染管线，完成度达约97%。游戏｜《博德之门3》发布动态涉及价格调整及新内容曝光，工作室宣布其Steam中国区标准售价在本轮促销后永久下调至268元，并公开《神鬼寓言4》战斗设计及索尼主机新技术信息。游戏｜《战地6》动态聚焦销量突破与厂商回应，首发三天销量突破700万套并登顶2025年度美国最畅销游戏，工作室副总裁回应重生方向及竞品追赶质疑。游戏｜《暗影同捆包》平台拓展明确，该中土世界系列包终于登陆任天堂平台，覆盖《暗影魔多》与《战争之影》两款作品。游戏｜《泰坦陨落2》动态为VR模组更新，玩家佩戴VR头显时可体验高速战斗，开发者发布的模组对游戏交互进行了深度重写。游戏｜《生化危机》相关进展引发玩家讨论，相关报道称贝拉·拉姆齐与A24、索尼影业有洽谈意向，其角色有望参演续集。游戏｜《神鬼寓言4》动态包含内容设计发布，副总监确认本作将延续“易上手”传统，并依托“风格编织”系统拓展深度玩法。游戏｜《识质存在》内容亮相为形象公布，女主角戴安娜的1:1等身全身像在上海Wonder Festival正式展出。游戏｜《辐射76》更新规划明确，官方公布下一阶段路线图，涵盖2026年冬季至2027年夏季，包含世界宠物、藏身处与乌鸦岩三大更新。游戏｜《马里奥赛车世界》商品落地确定，任天堂宣布于2026年10月推出Switch 2套装，内含主机、数字版及3个月NSO会员。",
       "digest_source": "llm",
-      "input_hash": "b75c4987a73a8f7d",
+      "input_hash": "eabb4c59bd70511c",
+      "game_digests": [
+        {
+          "name": "战争机器：事变日",
+          "count": 2,
+          "summary": "DEI分析账号将《战争机器：事变日》升级为\"确认DEI\"；《战争机器：事变日》DLSS5抢先实测!画质逼近次世代。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "FF7启示",
+          "count": 1,
+          "summary": "远藤辉树谈《FF7启示》战斗：仍未找到平衡的最优解。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "P.T.",
+          "count": 1,
+          "summary": "小岛秀夫绝版神作《P.T.》移植版将完成！需自备本体。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "博德3",
+          "count": 1,
+          "summary": "游侠早报：《博德3》价格永降 《神鬼寓言4》战斗曝光。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "博德之门3",
+          "count": 1,
+          "summary": "《博德之门3》价格永降！拉瑞安以诚意回馈中国玩家。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战地6",
+          "count": 1,
+          "summary": "不追竞品 只追玩家!战地工作室副总裁谈《战地6》重生。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "暗影同捆包",
+          "count": 1,
+          "summary": "《暗影同捆包》登陆NS2!中土世界系列首次登陆任天堂。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "泰坦陨落2",
+          "count": 1,
+          "summary": "《泰坦陨落2》免费VR模组发布！能扛住晕动症才算赢。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "生化危机",
+          "count": 1,
+          "summary": "传贝拉·拉姆齐或加盟《生化危机》新片 玩家集体破防。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "神鬼寓言4",
+          "count": 1,
+          "summary": "新手友好 老手另有空间！《神鬼寓言4》战斗设计曝光。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "识质存在",
+          "count": 1,
+          "summary": "《识质存在》戴安娜等身像亮相上海！裸足蓝衣引围观。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "辐射76",
+          "count": 1,
+          "summary": "《辐射76》路线图公布!2027年夏季首都废土重返乌鸦岩。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "马里奥赛车世界",
+          "count": 1,
+          "summary": "任天堂《马里奥赛车世界》套装10月登场！会员免费送。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "article_count": 34,
+      "game_count": 23,
+      "untagged_count": 9,
+      "digest": "今日游戏资讯聚焦于《GTA6》的分级细节与时尚大片曝光，以及《巫师3》重制版补丁修复BUG与滨口直树对重制版的看法。此外，动视《光环》项目传闻考虑重启，暴雪创始人联手打造新工作室，战马工作室希望《GTA6》开启涨价，Nerial宣布工作室休眠，以及《战地6》Steam史低促销等动态引发关注。",
+      "digest_source": "llm",
+      "input_hash": "a2561d1318998995",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 2,
-          "summary": "该作分级细节揭晓为成人M级，包含强烈涩涩内容，确认将于下个月登陆PS5和Xbox Series X|S平台。",
+          "summary": "LOVE杂志发布全新人物渲染图，颠覆硬核实机风格，同时分级细节揭晓为成人M级，包含强烈涩涩内容。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3",
-          "count": 1,
-          "summary": "《最终幻想7：重制版》三部曲负责人滨口直树表示，他很乐意看到《巫师3：狂猎》推出完整重制版，甚至愿意购买游玩。",
+          "count": 2,
+          "summary": "滨口直树表示很乐意看到《巫师3》推出完整重制版，甚至愿意购买游玩，但坦言自己不敢亲自做，因为工作量太大。",
           "summary_source": "llm"
+        },
+        {
+          "name": "FF7启示",
+          "count": 1,
+          "summary": "滨口直树透露自己全力争取为本作保留实体光盘版本，只为坚守对实体游戏介质的热爱。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Gang of Dragon",
+          "count": 1,
+          "summary": "名越工作室证实《Gang of Dragon》已无力回天，团队首款作品面临开发困境。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "光环",
+          "count": 1,
+          "summary": "据爆料者RebsGaming消息，动视《光环》项目正在考虑完整重启系列，并以士官长起源为重点。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "命运2",
+          "count": 1,
+          "summary": "暴雪创始人Margaret Stohl联手打造新工作室Stone Kite，并公布首个IP《One Zero One》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "天国",
+          "count": 1,
+          "summary": "战马工作室联合创始人克利马希望《GTA6》为游戏行业开启涨价浪潮，尽管他本人无意游玩该系列。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3RE",
+          "count": 1,
+          "summary": "玩家制作趣味mod《Low-Poly Pigeon - The Revenge》，将游戏内全部狮鹫兽替换成经典低模方块鸽子。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "弧光劫掠者",
+          "count": 1,
+          "summary": "Nexon公布《ARC Raiders》限时免费游玩活动，时间为10月8日至12日，多平台可参与。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "心灵杀手",
+          "count": 1,
+          "summary": "游侠晚报：《心灵杀手》新项目曝光 《光环》或将重启。",
+          "summary_source": "rules"
         },
         {
           "name": "心灵杀手2",
           "count": 1,
-          "summary": "绿美迪娱乐曝光全新神秘游戏项目，据悉《心灵杀手2》联合总监凯尔·罗利已秘密主导该项目近两年时间。",
+          "summary": "绿美迪娱乐曝光全新神秘游戏项目，据悉《心灵杀手2》联合总监凯尔·罗利已秘密主导该项目近两年。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "我的世界",
+          "count": 1,
+          "summary": "前NFL知名教练迈克·汤姆林公开耗时12年精心打造的《我的世界》巨型城市作品，实现跨界破圈。",
           "summary_source": "llm"
         },
         {
           "name": "战地6",
           "count": 1,
-          "summary": "该作在Steam平台迎来价格永久下调，标准版原价268元现降至198元，同时开启新史低折扣，折后仅需99元。",
+          "summary": "《战地6》在Steam平台标准版永久降至198元，开启新史低折扣，折后仅需99元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "无畏契约",
+          "count": 1,
+          "summary": "一名玩家购买二手AMD锐龙7 5800X3D处理器后，启动《无畏契约》遭永封，疑因硬件暗藏\"前科\"。",
           "summary_source": "llm"
         },
         {
           "name": "王权",
           "count": 1,
-          "summary": "开发团队Nerial发布公告，宣布工作室即将进入休眠模式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "网络奇兵2RE",
-          "count": 1,
-          "summary": "Epic游戏商城开启免费领福利，玩家可在10月8日前免费领取《网络奇兵2：25周年纪念重制版》与《深埋之星》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "老滚6",
-          "count": 1,
-          "summary": "B社前首席设计师布鲁斯·内史密斯在访谈中分享了对《上古卷轴6》的核心玩法构想，呼吁新作加入船只航行与海战系统。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "英雄联盟",
-          "count": 1,
-          "summary": "2026亚运会《英雄联盟》金牌战开打，上届决赛组合中国台北队与韩国队再度交手，最终中国台北队0:3不敌韩国队。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "魔兽世界：永恒",
-          "count": 1,
-          "summary": "测试服迎来重磅版本更新，除常规漏洞修复与职业数值微调外，多项核心内容上线，吸引玩家重返游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黑神话",
-          "count": 1,
-          "summary": "国庆期间黑神话零售店推出多款新品，涵盖糕点礼盒、巧克力礼盒、陶瓷杯及饰品吊坠等多个品类。",
+          "summary": "《王权》开发团队Nerial宣布工作室进入休眠模式。",
           "summary_source": "llm"
         }
       ]
@@ -761,107 +880,6 @@
           "count": 1,
           "summary": "《巫师3：狂猎重制版》容量大小公开：PC版约45GB。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "article_count": 24,
-      "game_count": 16,
-      "untagged_count": 7,
-      "digest": "今日游戏资讯聚焦于《刺客信条：CODENAME HEXE》或登陆Switch2的猜测、暴雪《魔兽世界：无限》的画质升级与天气系统优化，以及《勇者斗恶龙11S》NS2版获10好评1中评的85分成绩。此外，Rockstar公布售价400美元的《GTA6》收藏盒引发争议，而《狂野历险》精神续作《武装幻想》则确认终止开发。",
-      "digest_source": "llm",
-      "input_hash": "7649c595f773fa8f",
-      "game_digests": [
-        {
-          "name": "刺客信条",
-          "count": 2,
-          "summary": "育碧蒙特利尔针对《刺客信条：CODENAME HEXE》的3D程序员招聘信息，引发玩家关于新作或登陆Switch2的猜想。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "BanG Dream! Our Notes",
-          "count": 1,
-          "summary": "五支少女乐队全新物语正式启幕，上线纪念 MV 与多项开服活动同步登场。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "DQ11",
-          "count": 1,
-          "summary": "《勇者斗恶龙11S》NS2版媒体评测解禁，目前M站开分85分，共收录11篇评测，其中10篇好评、1篇中评。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 1,
-          "summary": "Rockstar公布售价400美元的《GTA6》收藏盒，盒内不含游戏本体，仅收录欧克利太阳镜、烈酒杯、乙烯基雕像等周边。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "WOW 无限",
-          "count": 1,
-          "summary": "暴雪在《魔兽世界：无限》官方Reddit账号发文称，测试服部分区域即将上线强化天气效果。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "勇者斗恶龙11S",
-          "count": 1,
-          "summary": "《勇者斗恶龙11S：寻觅逝去的时光 决定版》NS2版媒体评测已于今日正式解禁，目前M站开分85分。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说",
-          "count": 1,
-          "summary": "任天堂公布约70款《塞尔达传说》系列原创周边，将于2026年10月2日起在日本各地Animate门店销售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "宝可梦",
-          "count": 1,
-          "summary": "抗癌《宝可梦》小粉丝病逝，家人公开其最后一支卡包影片。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "炽焰界（IGNISPHERE）",
-          "count": 1,
-          "summary": "Monochrome与GOOD SMILE COMPANY于今日正式公布全新IP品牌《炽焰界（IGNISPHERE）》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "狂野历险",
-          "count": 1,
-          "summary": "由《狂野历险》系列创作者金子彰史领衔的《武装幻想》已被发行商确认终止开发。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "长安幻想",
-          "count": 1,
-          "summary": "《长安幻想》全新「合宠·轻享」系列服今日重磅开启。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "阿斯特赖亚",
-          "count": 1,
-          "summary": "Epic游戏商城本周免费游戏阵容公布，送出《阿斯特赖亚》和《钢铁指挥官》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "魔兽世界：无限",
-          "count": 1,
-          "summary": "数毛社评测指出《魔兽世界：无限》凭借光追、体积光、动态阴影与PBR水面，迎来系列最大视觉升级。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黄昏血族",
-          "count": 1,
-          "summary": "由宫崎英高担任总监的《黄昏血族》再传延期，舅舅党消息称或推迟至2027年初。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "龙之信条2",
-          "count": 1,
-          "summary": "《龙之信条2》新DLC“黑暗觉者”容量售价曝光，确定将于10月9日正式推出。",
-          "summary_source": "llm"
         }
       ]
     }
