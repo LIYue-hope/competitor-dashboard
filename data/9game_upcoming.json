@@ -1,6 +1,40 @@
 {
-  "crawled_at": "2026-10-05T00:42:54.974354+00:00",
+  "crawled_at": "2026-10-06T02:17:45.892947+00:00",
   "days": [
+    {
+      "date": "2026-10-01",
+      "date_label": "10月01日",
+      "games": [
+        {
+          "game_name": "三国之定江山",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/sanguozhidingjiangshan1/",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "date_label": "10月02日",
+      "games": [
+        {
+          "game_name": "逍遥九重天",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": "零氪送万抽",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/xiaoyaojiuzhongtian/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
     {
       "date": "2026-10-10",
       "date_label": "10月10日 周六",
@@ -155,6 +189,73 @@
           "event_desc": "单职业传奇",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/porikaitian/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2027-09-29",
+      "date_label": "09月29日",
+      "games": [
+        {
+          "game_name": "勇者秘域",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": "登陆送千抽",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/yongzhemiyu/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "雷霆烈焰",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/leitinglieyan/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "巅峰激战",
+          "categories": [
+            "动作"
+          ],
+          "score": null,
+          "event_desc": "热血地下城格斗",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/dianfengjizhan/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2027-09-30",
+      "date_label": "09月30日",
+      "games": [
+        {
+          "game_name": "梦幻甬城",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "玩点不一样的三国",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/menghuanyongcheng/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "无极侠士",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": "论剑巅峰",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/wujixiashi/",
           "has_afk_grinding_tag": false
         }
       ]

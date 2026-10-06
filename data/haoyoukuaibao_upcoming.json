@@ -1,30 +1,9 @@
 {
-  "crawled_at": "2026-10-05T00:42:25.375953+00:00",
+  "crawled_at": "2026-10-06T02:17:02.512243+00:00",
   "days": [
     {
-      "date": "2026-10-05",
-      "date_label": "10月05日 今天",
-      "games": [
-        {
-          "game_name": "问鼎2027",
-          "categories": [
-            "策略",
-            "闯关",
-            "回合"
-          ],
-          "score": null,
-          "event_desc": "上线试玩，具体几点待定",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/203521.htm",
-          "publisher": "玖悦工作室",
-          "reservation_count": "78",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-10-08",
-      "date_label": "10月08日 周四",
+      "date_label": "10月08日 后天",
       "games": [
         {
           "game_name": "多可比世界",
@@ -38,7 +17,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/198918.htm",
           "publisher": "kakao games",
-          "reservation_count": "104",
+          "reservation_count": "122",
           "has_afk_grinding_tag": false
         }
       ]
@@ -59,7 +38,43 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/203486.htm",
           "publisher": "Pocketpair Publishing",
-          "reservation_count": "108",
+          "reservation_count": "112",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "date_label": "10月12日 下周一",
+      "games": [
+        {
+          "game_name": "九个国王",
+          "categories": [
+            "Roguelike",
+            "策略",
+            "卡牌"
+          ],
+          "score": "8.3",
+          "event_desc": "海外上线安卓和iOS",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/180763.htm",
+          "publisher": "Playdigious",
+          "reservation_count": "28370",
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "师父手游",
+          "categories": [
+            "Steam移植",
+            "第三人称",
+            "动作"
+          ],
+          "score": "9.8",
+          "event_desc": "海外上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/204350.htm",
+          "publisher": "Kepler Interactive",
+          "reservation_count": "11041",
           "has_afk_grinding_tag": false
         }
       ]
