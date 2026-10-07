@@ -1,9 +1,9 @@
 {
-  "crawled_at": "2026-10-06T02:17:02.512243+00:00",
+  "crawled_at": "2026-10-07T01:24:41.520926+00:00",
   "days": [
     {
       "date": "2026-10-08",
-      "date_label": "10月08日 后天",
+      "date_label": "10月08日 明天",
       "games": [
         {
           "game_name": "多可比世界",
@@ -17,7 +17,28 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/198918.htm",
           "publisher": "kakao games",
-          "reservation_count": "122",
+          "reservation_count": "178",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "date_label": "10月09日 后天",
+      "games": [
+        {
+          "game_name": "深鸢",
+          "categories": [
+            "二次元",
+            "策略",
+            "日系"
+          ],
+          "score": "6.4",
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/166062.htm",
+          "publisher": null,
+          "reservation_count": "11406",
           "has_afk_grinding_tag": false
         }
       ]
@@ -38,7 +59,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/203486.htm",
           "publisher": "Pocketpair Publishing",
-          "reservation_count": "112",
+          "reservation_count": "122",
           "has_afk_grinding_tag": false
         }
       ]
@@ -59,7 +80,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/180763.htm",
           "publisher": "Playdigious",
-          "reservation_count": "28370",
+          "reservation_count": "28384",
           "has_afk_grinding_tag": true
         },
         {
@@ -74,7 +95,28 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/204350.htm",
           "publisher": "Kepler Interactive",
-          "reservation_count": "11041",
+          "reservation_count": "13277",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "date_label": "10月13日 下周二",
+      "games": [
+        {
+          "game_name": "英雄请出战",
+          "categories": [
+            "JRPG",
+            "剧情",
+            "像素"
+          ],
+          "score": "8.6",
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/188076.htm",
+          "publisher": "大鱼好游",
+          "reservation_count": "140",
           "has_afk_grinding_tag": false
         }
       ]

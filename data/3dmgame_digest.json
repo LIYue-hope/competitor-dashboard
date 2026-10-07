@@ -1,107 +1,208 @@
 {
-  "generated_at": "2026-10-06T02:22:56.237634+00:00",
+  "generated_at": "2026-10-07T01:36:29.751511+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-06",
-      "article_count": 33,
-      "game_count": 27,
-      "untagged_count": 1,
-      "digest": "今日游戏行业资讯涵盖多款热门作品，GTA6编剧透露将聚焦阴谋论与日常荒诞而非具体政客；使命召唤现代战争4公布DMZ模式回归Hajin地图的PvPvE撤离玩法；塞尔达时之笛重制版因渐冻症玩家通关心愿引发关注；战争机器事变日上线前修复多项联机与战役故障；FF7启示确认放弃独占登陆全平台；此外小岛秀夫确认OD仍在开发并透露Physint谍战新作细节，NBA 2K25宣布停服，冰汽时代登陆Switch，古墓丽影重制版移除D加密，地狱之刃开发商裁员，以及塞尔达旷野之息在破解PS5上运行。",
+      "date": "2026-10-07",
+      "article_count": 27,
+      "game_count": 16,
+      "untagged_count": 5,
+      "digest": "2026年10月7日市场资讯整体呈现内容聚焦游戏新品动态及战略动向，涵盖多款主流游戏开发动态、市场销量突破及竞品竞争分析，共计涉及16款游戏，主要围绕发售时间、版本更新、销量数据及合作布局等方面展开，市场对游戏内容与竞争格局的关注度持续。",
       "digest_source": "llm",
-      "input_hash": "6199bd7b72cb5f7d",
+      "input_hash": "9ab084f7ff494513",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 3,
-          "summary": "编剧透露新作将聚焦阴谋论与日常荒诞，不再着重影射具体政客或政治运动，佛罗里达式政治氛围将通过竞选标牌、电台广告等元素呈现。",
-          "summary_source": "llm"
+          "count": 4,
+          "summary": "《GTA6》LOVE杂志实物图 露西亚穿黑丝网袜很性感；专家：任天堂拥有高忠诚度粉丝 所以敢硬刚《GTA6》；《GTA6》分级信息引发适龄讨论 撤下的PEGI页面细节待核实（当天共 4 条）",
+          "summary_source": "rules"
         },
         {
-          "name": "使命召唤：现代战争4",
+          "name": "战地6",
           "count": 2,
-          "summary": "公布DMZ模式玩法，回归以撤离为核心的PvPvE体验，玩家可在Hajin地图搜集装备并尝试撤离，设有独立成长线与前线作战基地。",
-          "summary_source": "llm"
+          "summary": "《战地6》S5赛季实机宣传片 和《死亡空间》限时联动带来PvE体验；《战地6》第五赛季计划10月13日推出 将加入三张新地图。",
+          "summary_source": "rules"
         },
         {
-          "name": "塞尔达：时之笛重制版",
+          "name": "给他爱5",
           "count": 2,
-          "summary": "患渐冻症玩家Blake希望通关该作完成多年心愿，重制版将于2026年11月5日登陆Switch 2。",
-          "summary_source": "llm"
+          "summary": "《给他爱5》出现非官方浏览器运行项目 玩家进入任务后遭遇报错；《给他爱5》非官方项目展示浏览器运行开场，随后据称被下架。",
+          "summary_source": "rules"
         },
         {
-          "name": "战争机器：事变日",
+          "name": "腐烂国度3",
           "count": 2,
-          "summary": "上线前推出补丁修复联机服务、分屏暂停登出及战役多项故障，改进了稳定性与硬件兼容性。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7：启示",
-          "count": 1,
-          "summary": "导演滨口直树确认放弃PS5独占，将发售首日登陆多平台，表示这是顺应玩家不再被单一硬件绑定的必然趋势。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA4",
-          "count": 1,
-          "summary": "玩家通过模拟器让Xbox 360版在破解PS5上运行，游戏脚本与物理系统已能工作，但帧率和画面仍存在问题。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "NBA 2K25",
-          "count": 1,
-          "summary": "将于2026年10月30日从PS商店下架，2027年1月1日关闭服务器，届时MyCareer生涯模式将无法游玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "OD",
-          "count": 1,
-          "summary": "小岛秀夫确认游戏仍在开发，后期配音工作将延续至2027年，此前因消息少被外界猜测项目停滞。",
-          "summary_source": "llm"
+          "summary": "《腐烂国度3》为何过早公布？负责人称团队当时担忧Xbox未来计划；《腐烂国度3》筹备Beta测试：首轮向PC开放 主机玩家需等待。",
+          "summary_source": "rules"
         },
         {
           "name": "Physint",
           "count": 1,
-          "summary": "小岛秀夫透露将打造不同于《合金装备》的谍战动作体验，剧本已写好，演员包括Bill Skarsgård等人。",
-          "summary_source": "llm"
+          "summary": "仅凭小岛秀夫作品 能否吸引玩家改写Xbox竞争格局？。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 1,
+          "summary": "英伟达发布617.42驱动 支持《使命召唤：现代战争4》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "侠盗猎车手：圣安地列斯",
+          "count": 1,
+          "summary": "《侠盗猎车手：圣安地列斯》据称以不足1000万美元开发！发售约16个月销量超1200万份。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "刃牙道：无敌武士",
+          "count": 1,
+          "summary": "《刃牙道：无敌武士》官网公开浮世绘风格新视觉图，呈现刃牙与宫本武藏对决。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "寂静岭f",
+          "count": 1,
+          "summary": "《寂静岭f》《零》主创谈日式恐怖：民居布局与女角如何塑造恐惧。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3：重制版",
+          "count": 1,
+          "summary": "《巫师3：重制版》部分玩家遇人物显示Bug 角色只剩眼睛牙齿。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "怪物猎人：崛起",
+          "count": 1,
+          "summary": "卡普空宣布《怪物猎人：崛起》累计销量突破2000万份。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "恐龙危机",
+          "count": 1,
+          "summary": "盘点PS1消逝经典《恐龙危机》等 它们为何销声匿迹。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "星际争霸",
+          "count": 1,
+          "summary": "AI也会耍小聪明 《星际争霸》测试上演GPT6作弊名场面。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "看门狗",
+          "count": 1,
+          "summary": "育碧称《看门狗》仍很重要 但别指望很快会有新作。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "神秘海域",
+          "count": 1,
+          "summary": "德雷克配音演员：110%愿意回归《神秘海域》新作。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "article_count": 54,
+      "game_count": 40,
+      "untagged_count": 5,
+      "digest": "2026年10月6日，游戏行业资讯方面整体报道围绕多款热门游戏动态展开，涵盖射击、策略、模拟及衍生等方向，涉及游戏总数达40款，同时包含部分无具体指向的游戏信息，行业动态整体呈现多元化发展态势。",
+      "digest_source": "llm",
+      "input_hash": "990800d81b1ac6cb",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "《GTA6》叙事主管称杰森军旅背景并非刻意表态；《GTA6》编剧谈讽刺方向：不着重影射具体政客 转向阴谋论与日常荒诞；《GTA6》采用八周开发节点 整合游戏内容并按反馈修改（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战争机器：事变日",
+          "count": 3,
+          "summary": "《战争机器：事变日》借用Xbox Series S内置SSD，腾出约1GB内存实现60帧；《战争机器：事变日》上线前推出补丁 修复联机与战役多项故障；《战争机器：事变日》巧用SSD 保障XSS流畅运行。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 2,
+          "summary": "《使命召唤：现代战争4》DMZ玩法：Hajin地图回归PvPvE撤离；《使命召唤：现代战争4》DMZ定位动作撤离射击 设四档AI强化交战。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达：时之笛重制版",
+          "count": 2,
+          "summary": "患渐冻症玩家希望通关《塞尔达：时之笛重制版》 完成多年心愿；审美争议！重新审视《塞尔达：时之笛重制版》林克新形象。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "策定九州",
+          "count": 2,
+          "summary": "月卡玩家玩了一年《策定九州》，说说最真实的体验：这游戏真的不逼氪；《策定九州》周年庆零氪入坑指南：百元预算玩转三国策略。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "英雄联盟",
+          "count": 2,
+          "summary": "《英雄联盟》S16全球总决赛赛程出炉 国内观赛时间不友好；Team Liquid以3:1击败LYON 夺得2026 LCS夏季赛冠军。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Arc Raiders",
+          "count": 1,
+          "summary": "《Arc Raiders》《The Finals》均将推出影视改编作品。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "FF7：启示",
+          "count": 1,
+          "summary": "滨口直树称《FF7：启示》放弃PS5独占是必然趋势。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA4",
+          "count": 1,
+          "summary": "玩家用模拟器在破解PS5运行《GTA4》 帧率画面仍有问题。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "NBA 2K25",
+          "count": 1,
+          "summary": "《NBA 2K25》10月底从PS商店下架 明年停服后生涯模式无法游玩。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "OD",
+          "count": 1,
+          "summary": "小岛秀夫确认《OD》仍在开发 后期配音延续至2027年。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Physint",
+          "count": 1,
+          "summary": "小岛秀夫谈《Physint》：将打造不一样的谍战动作体验。",
+          "summary_source": "rules"
         },
         {
           "name": "光芒行动",
           "count": 1,
-          "summary": "计划2026年12月在Steam开启抢先体验，玩家可扮演异常生物干扰撤离小队，争夺地图上的神器。",
-          "summary_source": "llm"
+          "summary": "《光芒行动》计划2026年12月开启Steam抢先体验，玩家可扮异常生物干扰撤离。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "共鸣：瘟疫传说传承",
+          "count": 1,
+          "summary": "《共鸣：瘟疫传说传承》推出1.003更新，针对卡顿、音频和章节进度问题。",
+          "summary_source": "rules"
         },
         {
           "name": "冰汽时代",
           "count": 1,
-          "summary": "将于10月19日登陆初代Switch，推出收录三部扩展内容的完整版，售价45美元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "博德之门3",
-          "count": 1,
-          "summary": "腾讯以该作和《艾尔登法环》为标杆，立志培育能打造顶级细分品类游戏的开发者。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影：亚特兰蒂斯遗迹",
-          "count": 1,
-          "summary": "Steam页面移除D加密标注，游戏将于2027年2月12日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "地狱之刃",
-          "count": 1,
-          "summary": "开发商Ninja Theory开始裁员，多名开发者离职，涉及游戏玩法程序员、技术总监及声音设计师等。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：旷野之息",
-          "count": 1,
-          "summary": "玩家通过非官方模拟器在破解PS5上运行该作，画面据称达到4K，Switch2版则以1440p运行。",
-          "summary_source": "llm"
+          "summary": "《冰汽时代》10月19日登陆初代Switch 完整版收录三部扩展内容。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -910,107 +1011,6 @@
           "count": 1,
           "summary": "《伊莫》试玩展示怪物收集、拍照换装与分支进化玩法。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "article_count": 54,
-      "game_count": 35,
-      "untagged_count": 9,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》收藏版因不含本体引发育碧调侃，以及《我的世界》官宣2027年新增“筛界”维度。此外，《赛博朋克2077：往日之影》团队回顾了三周年剧情改写过程，而《EA Sports FC 27》则登顶Steam热销榜首。",
-      "digest_source": "llm",
-      "input_hash": "0fdf7fe7f465b04d",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 4,
-          "summary": "育碧与《雷曼》调侃该作400美元收藏版不含游戏本体，仅含周边，引发玩家不满。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "侠盗猎车手6",
-          "count": 3,
-          "summary": "玩家推测新作可能采用实体弹道，但Rockstar尚未确认。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "我的世界",
-          "count": 3,
-          "summary": "Mojang确认将于2027年加入第四维度“筛界”，覆盖Java版和基岩版。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Physint",
-          "count": 2,
-          "summary": "消息人士称Xbox与小岛秀夫合作预算远低于4亿美元传闻。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "恶魔城",
-          "count": 2,
-          "summary": "科乐美在移动端免费赠送FC版初代《恶魔城》以庆贺系列四十周年。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "赛博朋克2077：往日之影",
-          "count": 2,
-          "summary": "团队回顾三周年开发历程，称围绕结局抉择反复改写剧情。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "EA Sports FC 27",
-          "count": 1,
-          "summary": "该作升至Steam全球热销榜首，超越《CS2》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "万圣节：游戏版",
-          "count": 1,
-          "summary": "2026年9月推出的PS5重磅游戏中，仅此作未支持PS5 Pro增强。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴2：匕首雨",
-          "count": 1,
-          "summary": "爱好者推出多人项目，支持浏览器联机，让该作可进行最多4人组队。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "勇者斗恶龙怪物仙境4",
-          "count": 1,
-          "summary": "公布快速侦察收服与联合战斗两大系统，定于2026年12月3日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "堡垒之夜",
-          "count": 1,
-          "summary": "上线《女神异闻录5 皇家版》联动装扮，并让《生化危机》角色皮肤时隔1250天回归。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛 重制版",
-          "count": 1,
-          "summary": "分析估算重制版昼夜循环或由原版4分钟延长至约6分钟。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "天外世界2",
-          "count": 1,
-          "summary": "黑曜石确认剧情DLC仍在开发中，近期将公布新消息。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "奇异贤伴：爱达之歌",
-          "count": 1,
-          "summary": "万代南梦宫确认该作将于2027年5月终止在线服务，转而打造离线版。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "如龙7",
-          "count": 1,
-          "summary": "该作将在10月中旬退出PS Plus Extra和Premium游戏库。",
-          "summary_source": "llm"
         }
       ]
     }
