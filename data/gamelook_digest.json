@@ -1,9 +1,26 @@
 {
-  "generated_at": "2026-10-07T01:49:19.824537+00:00",
+  "generated_at": "2026-10-08T01:58:14.851813+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-08",
+      "article_count": 3,
+      "game_count": 1,
+      "untagged_count": 2,
+      "digest": "2026年10月8日，当日GameLook共发布3条新闻，涉及游戏1款，未指向具体游戏的2条。具体为206款国产游戏及3款进口游戏获得版号，其中米哈游《源初之结》与祖龙《诡秘之主：愚者》通过版审，游戏行业审批信息更新，相关游戏动态持续引发关注。",
+      "digest_source": "llm",
+      "input_hash": "cd990cef0c0f974a",
+      "game_digests": [
+        {
+          "name": "源初之结",
+          "count": 1,
+          "summary": "206款国产3款进口游戏获版号：米哈游《源初之结》祖龙《诡秘之主：愚者》过审。",
+          "summary_source": "rules"
+        }
+      ]
+    },
     {
       "date": "2026-09-30",
       "article_count": 7,
@@ -52,35 +69,6 @@
           "name": "星布谷地",
           "count": 1,
           "summary": "米哈游李嫣然在云栖大会上分享了《星布谷地》AI NPC的开发经验，重点阐述了如何通过“活人感”来俘获玩家。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-28",
-      "article_count": 8,
-      "game_count": 3,
-      "untagged_count": 5,
-      "digest": "今日游戏行业资讯聚焦于《守墓人2》与《未眠野》两款新作，以及米哈游CEO关于《雨城》测试与AI大模型发展的相关动态。其中《守墓人2》Steam在线人数突破5万，引发市场关注；米哈游CEO在交大演讲中透露《雨城》将于年底进行测试，并强调AI大模型将冲击行业第一梯队。",
-      "digest_source": "llm",
-      "input_hash": "9516e37b953adf8d",
-      "game_digests": [
-        {
-          "name": "守墓人2",
-          "count": 1,
-          "summary": "《守墓人2》Steam在线人数突破5万人，游戏制作团队Lark Games回归，玩家评价其玩法荒诞又上头。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "未眠野",
-          "count": 1,
-          "summary": "GameLook发布了《未眠野》试玩体验报道，重点介绍了游戏在开放世界中赋予玩家的自由探索机制。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "雨城",
-          "count": 1,
-          "summary": "米哈游CEO在交大演讲中透露，《雨城》将于今年年底进行测试，同时米哈游正致力于将AI大模型技术提升至行业第一梯队。",
           "summary_source": "llm"
         }
       ]

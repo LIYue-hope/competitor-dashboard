@@ -1,28 +1,9 @@
 {
-  "crawled_at": "2026-10-07T01:27:06.194282+00:00",
+  "crawled_at": "2026-10-08T01:46:05.191813+00:00",
   "days": [
     {
-      "date": "2026-10-07",
-      "date_label": "10月07日 今天",
-      "games": [
-        {
-          "game_name": "山海仙宗录",
-          "categories": [
-            "模拟"
-          ],
-          "score": null,
-          "release_date": "2026-10-07",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1957750.html",
-          "publisher": "海山工作室",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-10-08",
-      "date_label": "10月08日 明天",
+      "date_label": "10月08日 今天",
       "games": [
         {
           "game_name": "霓虹深渊2",
@@ -45,7 +26,7 @@
     },
     {
       "date": "2026-10-10",
-      "date_label": "10月10日 周六",
+      "date_label": "10月10日 后天",
       "games": [
         {
           "game_name": "九万亩",
@@ -89,6 +70,55 @@
           "publisher": "Sad Socket, INSTINCT3",
           "is_major_publisher": false,
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "date_label": "10月14日 下周三",
+      "games": [
+        {
+          "game_name": "秩序:新曙光",
+          "categories": [
+            "建造",
+            "像素",
+            "策略",
+            "角色扮演",
+            "模拟经营",
+            "经营",
+            "探索",
+            "SLG",
+            "支持Steam家庭共享",
+            "2D",
+            "末日",
+            "单人",
+            "合作"
+          ],
+          "score": "8.5",
+          "release_date": "2026-10-14",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1891059.html",
+          "publisher": "外层空间工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "梦镜仙缘",
+          "categories": [
+            "策略",
+            "回合",
+            "冒险",
+            "收集",
+            "养成",
+            "西游"
+          ],
+          "score": null,
+          "release_date": "2026-10-14",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1954467.html",
+          "publisher": "小娱网络",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
         }
       ]
     }

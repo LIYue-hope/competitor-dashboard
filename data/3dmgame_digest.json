@@ -1,107 +1,208 @@
 {
-  "generated_at": "2026-10-07T01:36:29.751511+00:00",
+  "generated_at": "2026-10-08T01:52:47.619776+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-07",
-      "article_count": 27,
-      "game_count": 16,
-      "untagged_count": 5,
-      "digest": "2026年10月7日市场资讯整体呈现内容聚焦游戏新品动态及战略动向，涵盖多款主流游戏开发动态、市场销量突破及竞品竞争分析，共计涉及16款游戏，主要围绕发售时间、版本更新、销量数据及合作布局等方面展开，市场对游戏内容与竞争格局的关注度持续。",
+      "date": "2026-10-08",
+      "article_count": 34,
+      "game_count": 21,
+      "untagged_count": 3,
+      "digest": "今日游戏行业资讯聚焦于《GTA6》的NPC行为机制与分级争议，以及微软对暴雪战网的投入调整。此外，《魔兽世界：无限》公布种族外观调整，Embark工作室宣布放缓更新节奏，索尼向Meta转让VR专利，P.T.移植项目获小岛秀夫转发，以及《机甲战士5：雇佣兵》推出新DLC。",
       "digest_source": "llm",
-      "input_hash": "9ab084f7ff494513",
+      "input_hash": "9433ed93825f53d7",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 4,
-          "summary": "《GTA6》LOVE杂志实物图 露西亚穿黑丝网袜很性感；专家：任天堂拥有高忠诚度粉丝 所以敢硬刚《GTA6》；《GTA6》分级信息引发适龄讨论 撤下的PEGI页面细节待核实（当天共 4 条）",
-          "summary_source": "rules"
+          "count": 8,
+          "summary": "R星负责人Rob Nelson介绍新作NPC拥有独立行动动机，玩家行为将引发动态反应，力量博弈机制升级，部分路人会携带武器制止玩家，并加入犯罪档案系统。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA",
+          "count": 2,
+          "summary": "ESRB最新评级显示《GTA6》包含血腥内容，20年前《GTA：圣安地列斯》因“Hot Coffee”mod被重新评级并禁售，如今《GTA6》即将登陆主机平台引发怀旧讨论。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暴雪战网",
+          "count": 2,
+          "summary": "微软Xbox负责人Asha Sharma表示将加大对PC端战网的投入，简化开发者发行流程，并指出战网用户留存表现接近Steam，目前《巫师3：狂猎》已作为第三方游戏入驻。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界：无限",
+          "count": 2,
+          "summary": "暴雪公布新种族“天裔”外观调整计划，将减少柔和渐变与光滑感，让羽毛毛发呈现更鲜明线条，以贴近早期《魔兽世界》视觉风格，标准画质模型调整预计明年初推出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "ARC突袭者",
+          "count": 1,
+          "summary": "执行制作人Aleksander Grøndal表示团队正放缓连续更新节奏，鼓励玩完内容的玩家休息，定于10月8日上线“冰封之路”大型内容包。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Arc Raiders",
+          "count": 1,
+          "summary": "开发商Embark调整更新节奏，计划约半年推出一次大型内容包，团队已接受玩家人数可能在一段时期内减少，并希望留出更多时间用于测试和修正游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "P.T.",
+          "count": 1,
+          "summary": "小岛秀夫转发粉丝制作的《P.T.》PC原生移植项目，该项目完成度约97%，不通过模拟器运行，保留了原版房屋场景、循环、事件和语音识别部分。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "PSVR2",
+          "count": 1,
+          "summary": "索尼在2026年6月至9月间向Meta转让了43项美国VR相关专利，涉及增强现实、虚拟现实及头戴显示设备，媒体据此判断索尼对PSVR2的支持可能继续减少。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3：狂猎",
+          "count": 1,
+          "summary": "CD Projekt RED全球公关总监Radek Grabowski回顾了《巫师3：狂猎》11年评分历程，2026年重制版在四平台早期均分分别为93、94、90和92。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "异形：隔离",
+          "count": 1,
+          "summary": "外媒将《异形：隔离》的异形与《生化危机2》的暴君等列为恐怖游戏中最难对付的敌人，强调其无法消灭的追击方式和带来的无力感。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战锤40K：战争黎明4",
+          "count": 1,
+          "summary": "开发商King Art Games创意总监Jan Theysen表示本作将提供四个单人战役，兽人战役全部路线约有18个任务，单次游玩约经历14或15个任务。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星球大战：零号连队",
+          "count": 1,
+          "summary": "开发商Bit Reactor已开始让部分此前停薪休假的员工返岗，首席执行官Greg Foertsch表示团队将继续支持这款游戏，返岗人数已超过停薪休假前规模的一半。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最后的生还者2",
+          "count": 1,
+          "summary": "乔尔演员Troy Baker透露，艾莉演员Ashley Johnson建议删去拥抱情节，团队最终将对话留到了游戏最末尾，两人试图修复因前作事件产生的关系。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想",
+          "count": 1,
+          "summary": "盘点《最终幻想》系列五组隐藏强敌，将《最终幻想11》的绝对美德排在榜首，其他还包括《最终幻想9》的奥兹玛、《最终幻想7》的翡翠兵器等。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "机甲战士5：雇佣兵",
+          "count": 1,
+          "summary": "Piranha Games于10月7日推出付费DLC《灰烬与飞升》，加入18关剧情战役和13台氏族机甲，同步推出免费更新调整驾驶员特性。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "article_count": 78,
+      "game_count": 51,
+      "untagged_count": 14,
+      "digest": "今日游戏资讯聚焦于《GTA6》的串流争议与《战地6》S5赛季预告，微软澄清该作不会通过Xbox云游戏串流至PC端，引发玩家讨论。此外，《战地6》公布与《死亡空间》联动及拉斯维加斯地图，同时《英雄联盟》26.21版本计划为极地大乱斗增加五项强化效果。其他方面，《腐烂国度3》负责人回应提前公布原因，RuneScape开发商致歉并重新评估拆分计划，Windows 10扩展安全更新将于10月13日结束，而《命运尽头》发售窗口推迟至2027年。",
+      "digest_source": "llm",
+      "input_hash": "625307ba32fee8f5",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 10,
+          "summary": "微软澄清该作不会通过Xbox云游戏串流到PC端，PC玩家无法通过此方式游玩。",
+          "summary_source": "llm"
         },
         {
           "name": "战地6",
           "count": 2,
-          "summary": "《战地6》S5赛季实机宣传片 和《死亡空间》限时联动带来PvE体验；《战地6》第五赛季计划10月13日推出 将加入三张新地图。",
-          "summary_source": "rules"
+          "summary": "《战地6》S5赛季将于10月13日上线，发布拉斯维加斯大道等3张新地图，并公布与《死亡空间》联动及PVE活动。",
+          "summary_source": "llm"
         },
         {
           "name": "给他爱5",
           "count": 2,
-          "summary": "《给他爱5》出现非官方浏览器运行项目 玩家进入任务后遭遇报错；《给他爱5》非官方项目展示浏览器运行开场，随后据称被下架。",
-          "summary_source": "rules"
+          "summary": "网上出现可在浏览器标签页中运行《给他爱5》的非官方项目，已有用户成功加载并进入任务，但过程中出现报错和图形异常。",
+          "summary_source": "llm"
         },
         {
           "name": "腐烂国度3",
           "count": 2,
-          "summary": "《腐烂国度3》为何过早公布？负责人称团队当时担忧Xbox未来计划；《腐烂国度3》筹备Beta测试：首轮向PC开放 主机玩家需等待。",
-          "summary_source": "rules"
+          "summary": "Undead Labs负责人解释团队在开发初期就公布新作，是因为担忧Xbox未来的收购计划，担心项目未展示便面临业务整合。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "英雄联盟",
+          "count": 2,
+          "summary": "26.21版本计划为极地大乱斗“狂欢”模式加入五项强化效果，包括金克丝火箭、Brass Blast等，涉及进攻、控场和支援。",
+          "summary_source": "llm"
         },
         {
           "name": "Physint",
           "count": 1,
-          "summary": "仅凭小岛秀夫作品 能否吸引玩家改写Xbox竞争格局？。",
-          "summary_source": "rules"
+          "summary": "小岛秀夫透露恐怖游戏《OD》和谍战题材作品《Physint》均按计划推进，微软无需收购小岛工作室，也能借助其影响力改善观感。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "RuneScape",
+          "count": 1,
+          "summary": "开发商Jagex就《RuneScape：重燃》计划致歉，承认忽视老玩家，目前正重新评估该计划。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Win11",
+          "count": 1,
+          "summary": "Windows 10面向个人用户的付费扩展安全更新将于10月13日结束，部分玩家因顾虑隐私和功能不愿升级至Windows 11。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴II：匕首雨",
+          "count": 1,
+          "summary": "开发回顾显示项目工作量远超排期，团队曾每周工作七天，上市版本仍带有大量漏洞。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴OL",
+          "count": 1,
+          "summary": "游戏将弱化战斗占比，主推《晨风》式探索玩法，尽管贝塞斯达面临裁员，总监确认游戏将持续运营。",
+          "summary_source": "llm"
         },
         {
           "name": "使命召唤：现代战争4",
           "count": 1,
-          "summary": "英伟达发布617.42驱动 支持《使命召唤：现代战争4》。",
-          "summary_source": "rules"
+          "summary": "英伟达发布617.42驱动，为《使命召唤：现代战争4》提供支持，并修复了《刺客信条：影》的退出桌面问题。",
+          "summary_source": "llm"
         },
         {
           "name": "侠盗猎车手：圣安地列斯",
           "count": 1,
-          "summary": "《侠盗猎车手：圣安地列斯》据称以不足1000万美元开发！发售约16个月销量超1200万份。",
-          "summary_source": "rules"
+          "summary": "据称该作以不足1000万美元开发，发售约16个月后销量已超1200万份。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "冰上的尤里",
+          "count": 1,
+          "summary": "开播十周年推出新周边与蓝光，但此前公布的维克托前传电影已于2024年4月取消。",
+          "summary_source": "llm"
         },
         {
           "name": "刃牙道：无敌武士",
           "count": 1,
-          "summary": "《刃牙道：无敌武士》官网公开浮世绘风格新视觉图，呈现刃牙与宫本武藏对决。",
-          "summary_source": "rules"
+          "summary": "官网公开浮世绘风格新视觉图，呈现刃牙与宫本武藏对决，为动画播出造势。",
+          "summary_source": "llm"
         },
         {
-          "name": "寂静岭f",
+          "name": "命运尽头",
           "count": 1,
-          "summary": "《寂静岭f》《零》主创谈日式恐怖：民居布局与女角如何塑造恐惧。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "巫师3：重制版",
-          "count": 1,
-          "summary": "《巫师3：重制版》部分玩家遇人物显示Bug 角色只剩眼睛牙齿。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "怪物猎人：崛起",
-          "count": 1,
-          "summary": "卡普空宣布《怪物猎人：崛起》累计销量突破2000万份。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "恐龙危机",
-          "count": 1,
-          "summary": "盘点PS1消逝经典《恐龙危机》等 它们为何销声匿迹。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "星际争霸",
-          "count": 1,
-          "summary": "AI也会耍小聪明 《星际争霸》测试上演GPT6作弊名场面。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "看门狗",
-          "count": 1,
-          "summary": "育碧称《看门狗》仍很重要 但别指望很快会有新作。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "神秘海域",
-          "count": 1,
-          "summary": "德雷克配音演员：110%愿意回归《神秘海域》新作。",
-          "summary_source": "rules"
+          "summary": "发售窗口从2026年推迟至2027年，PC试玩版现已登陆Steam，玩家可先行体验。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -511,101 +612,101 @@
     },
     {
       "date": "2026-10-02",
-      "article_count": 68,
-      "game_count": 50,
+      "article_count": 69,
+      "game_count": 51,
       "untagged_count": 4,
-      "digest": "今日游戏资讯聚焦于《GTA6》的地图规模与天气系统细节，以及《战争机器：事变日》的高配置需求与发售信息。此外，《巫师3：重制版》修复了存档与性能问题，《柯娜：科斯莫拉的伤痕》延期至2027年，而《永恒之塔2》全球上线前夕Steam畅销榜表现强劲。",
+      "digest": "今日游戏资讯聚焦于《GTA6》的地图规模与天气系统细节，以及《战争机器：事变日》的硬件配置需求。此外，《巫师3：重制版》修复了存档与性能问题，《柯娜：科斯莫拉的伤痕》宣布延期至2027年，而《永恒之塔2》全球上线前夕在Steam畅销榜表现强劲。",
       "digest_source": "llm",
-      "input_hash": "d99dd621936262f0",
+      "input_hash": "024a51318f812e34",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 6,
-          "summary": "外媒GameInformer放出重磅独家封面专题，披露R星确认的全新情报，地图面积约为《GTA5》的两倍，包含六大区域，并实装动态极端天气系统。",
+          "summary": "外媒GameInformer放出重磅独家封面专题，披露了雷奥尼达州六大区域、两倍于前作的地图面积以及包含飓风在内的动态极端天气系统。",
           "summary_source": "llm"
         },
         {
           "name": "战争机器：事变日",
           "count": 5,
-          "summary": "将于10月6日正式发售，The Coalition公布配置需求，在4K分辨率下需RTX 5070 Ti或RX 7900 XT显卡，并支持DLSS 4.5、FSR 4及XeSS 3.0。",
+          "summary": "发售前夕公布完整配置需求，在4K极致画质下需RTX 5070 Ti或RX 7900 XT显卡，并支持DLSS 4.5、FSR 4及XeSS 3.0超分技术。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3：重制版",
           "count": 3,
-          "summary": "PC版推出5.00c更新，修复了存档路径含特殊字符无法保存的问题，回退了导致HairWorks性能下降的改动，并修复了配音音量异常及成就显示问题。",
+          "summary": "PC版推出5.00c更新，修复了含特殊字符的存档路径问题，回退了导致HairWorks性能下降的改动，并优化了威伦地区的画面表现。",
           "summary_source": "llm"
         },
         {
           "name": "侠盗猎车手VI",
           "count": 2,
-          "summary": "主线据称不会走遍整张地图，部分区域留待玩家探索，同时纽约布鲁克林出现主题墙绘，展示了杰森与露西亚的轮廓。",
+          "summary": "据称主线流程不会走遍全图，部分区域留待探索，且布鲁克林已出现主题墙绘，主角杰森与露西亚的轮廓现身。",
           "summary_source": "llm"
         },
         {
           "name": "柯娜：科斯莫拉的伤痕",
           "count": 2,
-          "summary": "延期至2027年登陆PS5和PC，新作规模超过前作，包含四种文化相关的神庙及大型犬类坐骑。",
+          "summary": "Ember Lab宣布发售延期至2027年，并公布了包含四种文化神庙、大型犬类坐骑以及更广阔开放区域的新设定。",
           "summary_source": "llm"
         },
         {
           "name": "永恒之塔2",
           "count": 2,
-          "summary": "全球上线在即，凭借创始礼包热卖登顶Steam畅销榜，本周营收已超过《EA FC 27》《皇牌空战8》及《战争机器：事变日》。",
+          "summary": "全球上线在即，凭借创始礼包热卖登顶Steam畅销榜，其营收已超过《EA FC 27》《皇牌空战8》及《战争机器：事变日》。",
           "summary_source": "llm"
         },
         {
           "name": "007：初露锋芒",
           "count": 1,
-          "summary": "免费DLC“扩展行动”上线，新增驾驶挑战、独立任务、拍照模式及新游戏+，并加入“00”难度。",
+          "summary": "免费DLC“扩展行动”上线，新增驾驶挑战、丛林劫案任务、拍照模式及新游戏+模式，并加入Jack宠物与多种新武器。",
           "summary_source": "llm"
         },
         {
           "name": "Arc Raiders",
           "count": 1,
-          "summary": "Embark工作室宣布将全力打击作弊行为，对违规玩家实施永久封禁，无警告无二次机会。",
+          "summary": "Embark工作室宣布将严厉打击作弊行为，对违规玩家实施永久封禁，无警告无二次机会，以维护游戏公平性。",
           "summary_source": "llm"
         },
         {
           "name": "Entropy",
           "count": 1,
-          "summary": "开发者谈队伍RPG中的永久死亡机制，称随机生成雇佣兵系统旨在提升游戏的挑战性和风险权重。",
+          "summary": "开发者谈队伍RPG设定，强调将加入永久死亡机制，旨在提升游戏的挑战性和风险权重，致敬《辐射1》等经典作品。",
           "summary_source": "llm"
         },
         {
           "name": "Physint",
           "count": 1,
-          "summary": "转由微软支持，Xbox负责人表示竞争与合作并存，该协议金额可能低于2亿美元。",
+          "summary": "微软接手提供支持，Xbox负责人表示竞争与合作并存，该协议金额可能低于2亿美元，且涉及电影和电视权利。",
           "summary_source": "llm"
         },
         {
           "name": "V社",
           "count": 1,
-          "summary": "为Steam Frame VR头显推出SteamOS 0.4.3更新，续航最高提升12%，并加入“仅追踪主导眼”选项。",
+          "summary": "为Steam Frame VR头显推出SteamOS 0.4.3更新，续航最高提升12%，并新增“仅追踪主导眼”选项，改善抓取与缩放手柄体验。",
           "summary_source": "llm"
         },
         {
           "name": "余烬之城",
           "count": 1,
-          "summary": "制作人表示将根据预先测试反馈，降低游戏初期及多人共享室外区域的难度。",
+          "summary": "制作人透露将根据预先测试反馈降低游戏初期及室外区域难度，以解决部分玩家在开头受阻的问题。",
           "summary_source": "llm"
         },
         {
           "name": "光环：战斗进化",
           "count": 1,
-          "summary": "开发者成功将其移植至网页浏览器，支持完整多人联机，基于反编译工程，支持128人联机。",
+          "summary": "开发者成功将其移植至网页浏览器，支持完整多人联机，基于反编译工程打造，支持128人联机及多平台操作。",
           "summary_source": "llm"
         },
         {
           "name": "克罗克2：哥布王国",
           "count": 1,
-          "summary": "复刻版定于10月29日登陆PC及多款主机，包含高清重建、复古视觉模式及游戏内博物馆。",
+          "summary": "复刻版定于10月29日登陆PC及多款主机，画面进行高清重建，并加入复古视觉模式与游戏内博物馆。",
           "summary_source": "llm"
         },
         {
           "name": "凯娜：科斯莫拉之痕",
           "count": 1,
-          "summary": "延期至2027年登陆PS5和PC，开发团队表示希望新作品质超过前作，并实现更大规模。",
+          "summary": "延期至2027年登陆PS5和PC，开发团队表示新作规模超过前作，将包含精灵向导神殿与大型水晶狼坐骑。",
           "summary_source": "llm"
         }
       ]
@@ -910,107 +1011,6 @@
           "count": 1,
           "summary": "公布“传闻”系统玩法，首批15项谜题不设目标标记，旨在让玩家自行寻找线索。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-28",
-      "article_count": 97,
-      "game_count": 79,
-      "untagged_count": 14,
-      "digest": "《综述：今日游戏行业动态》9月28日，3DMGame新闻总数达到97条，涉及游戏79款。其中，未指向具体游戏的14条新闻中，有1条关于法国《CSGO》前职业选手Malek Bennouioua的去世，引发粉丝悼念。同时，《巫师3：狂猎》的“血腥男爵”编剧重返CDPR，成为全职编剧。此外，《幻兽帕鲁》与《符文世界：龙之荒野》的捆绑包已于今日在Steam平台发售。《我的世界》全球首家官方酒店与首座过山车公布，计划于2027年开放。此外，《我的世界》直播确认Switch2版发售日，并发布冰洞及系列后续计划。在独立游戏方面，《巫师3：狂猎》的“血腥男爵”编剧回归，带来新作；《幻兽帕鲁》和《符文世界：龙之荒野》推出捆绑包；《我的世界》宣布全球首家官方酒店和首座过山车将于2027年开放；《CSGO》前职业选手Malek Bennouioua去世，引发粉丝悼念；《伊莫》试玩展示了怪物收集、拍照换装和分支进化玩法。此外，还有多款游戏如《GTA6》、《Tower Tactics 2》、《フロアーⅩⅢの心象～S》、《三角洲行动》、《上古卷轴OL》、《井中居民》等的动态更新或发行信息。",
-      "digest_source": "llm",
-      "input_hash": "8216f3be6c283705",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "传《GTA6》之后R星将开发《黑色洛城2》 2030年发售；法媒分享《GTA6》初步印象：初次进入游戏堪比首看《阿凡达》。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "巫师3：狂猎",
-          "count": 2,
-          "summary": "粉丝制作《巫师3：狂猎》昆特牌重制模组！计划加入逾500张卡牌；《巫师3：狂猎》“血腥男爵”编剧重返CDPR 成为全职编剧。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "幻兽帕鲁",
-          "count": 2,
-          "summary": "《幻兽帕鲁》与《符文世界：龙之荒野》的捆绑包已于今日在 Steam平台发售！；Steam250将《幻兽帕鲁》列为2026年评价最高游戏 Pocketpair表示意外。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "我的世界",
-          "count": 2,
-          "summary": "《我的世界》全球首家官方酒店与首座过山车公布，计划2027年开放；《我的世界》直播确认Switch2版发售日，公布冰洞及系列后续计划。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "CSGO",
-          "count": 1,
-          "summary": "法国《CSGO》前职业选手兼主播Malek去世，年仅35岁。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "EA Sports FC 27",
-          "count": 1,
-          "summary": "一边宣布解散，一边出现新署名：《EA Sports FC 27》绕过方案进入测试。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Hyperboard Extreme",
-          "count": 1,
-          "summary": "SlyBalto推出免费竞速游戏《Hyperboard Extreme》 支持最多四人本地分屏。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "MECCHA LIAR",
-          "count": 1,
-          "summary": "HEXIT宣布PC新作《MECCHA LIAR》 Steam商店页面现已开放。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Milo",
-          "count": 1,
-          "summary": "《Milo》10月29日开启Steam抢先体验 首发支持四人合作打僵尸。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Tower Tactics 2",
-          "count": 1,
-          "summary": "当牌组构建遇上塔防！《Tower Tactics 2》抢先体验将于10月8日开启。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "フロアーⅩⅢの心象～S",
-          "count": 1,
-          "summary": "《フロアーⅩⅢの心象～S》在Steam发售 整理分支后重述公寓十三层谜案。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "三角洲行动",
-          "count": 1,
-          "summary": "腾讯《三角洲行动》官宣联动国产武侠《影之刃零》。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "上古卷轴OL",
-          "count": 1,
-          "summary": "《上古卷轴OL》裁员后部分更新延期至2027年：不愿为赶进度牺牲体验。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "井中居民",
-          "count": 1,
-          "summary": "《井中居民》首发加入Xbox Game Pass！91分暂列2026年Metacritic第三。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "伊莫",
-          "count": 1,
-          "summary": "《伊莫》试玩展示怪物收集、拍照换装与分支进化玩法。",
-          "summary_source": "rules"
         }
       ]
     }

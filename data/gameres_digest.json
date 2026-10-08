@@ -1,9 +1,32 @@
 {
-  "generated_at": "2026-10-07T01:50:31.240346+00:00",
+  "generated_at": "2026-10-08T01:59:11.607496+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-08",
+      "article_count": 4,
+      "game_count": 2,
+      "untagged_count": 1,
+      "digest": "今日资讯聚焦于游戏研发工具与AI乙女游戏领域。游资网报道了《游戏项目系统工程手册》合订本vol.7与vol.8的更新，详细介绍了需求拆分、架构设计及验收标准等内容；同时，前《妙鸭》核心团队宣布跨界创业，推出一款AI乙女游戏。",
+      "digest_source": "llm",
+      "input_hash": "8aeaf99e0590f983",
+      "game_digests": [
+        {
+          "name": "游戏项目系统工程手册",
+          "count": 2,
+          "summary": "《游戏项目系统工程手册》合订本vol.8；《游戏项目系统工程手册》合订本vol.7。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "妙鸭",
+          "count": 1,
+          "summary": "前《妙鸭》核心团队创业，跨界做了一款AI乙女游戏。",
+          "summary_source": "rules"
+        }
+      ]
+    },
     {
       "date": "2026-10-05",
       "article_count": 1,
@@ -26,8 +49,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "10月3日 游资网 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「米哈游等不及了，年内还要炸一次？」。未指向具体游戏的内容占当天的 100%。",
-      "digest_source": "rules",
+      "digest": "今日游戏行业资讯主要聚焦于市场动态与厂商动向，暂无具体游戏产品的发售或更新动态报道。市场层面，游戏板块整体表现平稳，未出现显著的市场波动或重大行业事件，行业整体处于常规运营状态。按报道条数排序的游戏（含代表性标题与摘要）：",
+      "digest_source": "llm",
       "input_hash": "868bada6a939a5a8",
       "game_digests": []
     },
@@ -155,29 +178,6 @@
           "name": "雨城",
           "count": 1,
           "summary": "米哈游董事长刘伟在交大演讲中透露，AI大模型目标第一梯队、《雨城》年底测试、《原神》将有大动作，现场人气火爆，合影时突现的小猫被同学们调侃。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-28",
-      "article_count": 6,
-      "game_count": 2,
-      "untagged_count": 4,
-      "digest": "4399在SLG赛道推出新作《城堡大作战》，采用3D LowPoly美术风格，融合吞吞城堡玩法与沙漠生存题材，整体完成度与品质在线。另一款游戏《纵横修仙界》全平台预约开启，主打轻量化修仙体验，特邀谢君豪推荐。",
-      "digest_source": "llm",
-      "input_hash": "bd2034fedae3c760",
-      "game_digests": [
-        {
-          "name": "城堡大作战",
-          "count": 1,
-          "summary": "4399发行新SLG《城堡大作战》，采用3D LowPoly美术风格，融合吞吞城堡玩法与沙漠生存题材，整体完成度与品质在线，是其在SLG赛道的新尝试。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "纵横修仙界",
-          "count": 1,
-          "summary": "《纵横修仙界》全平台预约开启，游戏以「爽修」为核心玩法主张，特邀\"酒剑仙\"谢君豪倾力推荐，主打\"红颜伴身侧、离线涨修为、挂机即飞升\"的轻量化修仙体验。",
           "summary_source": "llm"
         }
       ]

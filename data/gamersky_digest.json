@@ -1,124 +1,231 @@
 {
-  "generated_at": "2026-10-07T01:49:19.822644+00:00",
+  "generated_at": "2026-10-08T01:57:11.647929+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-07",
-      "article_count": 11,
-      "game_count": 6,
-      "untagged_count": 5,
-      "digest": "今日游戏资讯主要围绕多款重磅作品的发售、更新及新情报展开。Xbox平台迎来《战争机器：事变日》正式发售，创下系列在线峰值新纪录；小岛秀夫转发《P.T.》PC移植消息引发关注；此外，GTA6曝出新的电视广告条目，PS官方为庆祝《蜘蛛侠4》电影上线推出会员福利，独立游戏《月霜》也宣布将于10月13日登陆Steam。",
+      "date": "2026-10-08",
+      "article_count": 16,
+      "game_count": 7,
+      "untagged_count": 7,
+      "digest": "今日游戏资讯聚焦于《龙之信条2》DLC媒体评分解禁，M站均分89分，IGN给出8分好评；小岛秀夫转发《P.T.》PC移植项目引发关注；此外《剑星血雨》泄露新画面，《艾希：续》众筹突破3000万元，以及《火影忍者》开发商对光盘的看法和《羊蹄山》预算传闻也引发讨论。",
       "digest_source": "llm",
-      "input_hash": "68f314a8a124febf",
+      "input_hash": "0febb45e3586a18e",
       "game_digests": [
+        {
+          "name": "龙之信条2",
+          "count": 3,
+          "summary": "《龙之信条2》DLC“黑暗觉者”媒体评分解禁，M站均分89分，IGN打8分，多家媒体给出满分评价，10月9日发售。",
+          "summary_source": "llm"
+        },
         {
           "name": "GTA6",
           "count": 1,
-          "summary": "Reddit用户分享节目编排表截图，其中出现“GTA VI TV SPOT”条目，但尚未标注具体播出日期。",
+          "summary": "IGN公开《GTA6》大量新情报，暗藏“热咖啡”式游戏内容。",
           "summary_source": "llm"
         },
         {
           "name": "P.T.",
           "count": 1,
-          "summary": "小岛秀夫亲自转发《P.T.》PC移植消息，引发开发者及玩家高度关注。",
+          "summary": "小岛秀夫注意到了一款由粉丝制作的《P.T.》PC移植项目，并亲自转发，让这一项目获得了更多关注。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星血雨",
+          "count": 1,
+          "summary": "《剑星血雨》全新画面意外泄露，启动界面与Boss设计稿流出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "火影忍者",
+          "count": 1,
+          "summary": "《火影忍者》开发商直言没有光盘太好了：注定失败！",
+          "summary_source": "llm"
+        },
+        {
+          "name": "羊蹄山",
+          "count": 1,
+          "summary": "曝《羊蹄山》预算仅6000万美元？估计只是个零头。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "艾希：续",
+          "count": 1,
+          "summary": "《艾希：续》众筹突破3000万元，超20万人参与。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "article_count": 107,
+      "game_count": 47,
+      "untagged_count": 37,
+      "digest": "今日游戏行业资讯聚焦于《GTA6》的细节爆料与宣发预热，以及《影之刃零》与《战争机器：事变日》的发售动态。此外，《生化危机》系列30周年周边发布，而《空之轨迹 the 2nd》销量突破千万，带动Falcom上调业绩预期。",
+      "digest_source": "llm",
+      "input_hash": "92f14fed30542497",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 9,
+          "summary": "据IGN报道，今年8月对Rockstar的采访透露了主角有时一丝不挂等有趣细节，Reddit用户还曝出GTA VI TV SPOT节目编排表截图，暗示宣发攻势即将展开。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 4,
+          "summary": "ROG公布与灵游坊动作游戏的联名产品，包含迷你主机等5款设备，开启预购，价格高达3.4万元；外媒试玩后称其为横扫年度奖项的首选。",
           "summary_source": "llm"
         },
         {
           "name": "战争机器",
-          "count": 1,
-          "summary": "Xbox平台第三人称射击游戏《战争机器：事变日》于10月6日正式发售，上线后在线峰值创纪录，远超前作成为系列第一。",
+          "count": 3,
+          "summary": "Xbox CEO阿莎·夏尔马复盘业务回暖态势，新作恐怖感拉满，怪物直扑玩家脸，开局销量强劲，在线峰值创系列记录。",
           "summary_source": "llm"
         },
         {
-          "name": "星露谷物语",
-          "count": 1,
-          "summary": "独立游戏工作室Oxalis Games宣布，治愈系社区重建模拟游戏《月霜》将于10月13日凌晨1:00登陆Steam抢先体验。",
+          "name": "战争机器：事变日",
+          "count": 3,
+          "summary": "The Coalition开发的第三人称射击游戏于10月6日发售，Steam全球畅销榜第一，但首发即被破解，目前Steam评价为“多半好评”。",
           "summary_source": "llm"
         },
         {
-          "name": "漫威金刚狼",
-          "count": 1,
-          "summary": "《漫威金刚狼》更新调整了气味轨迹机制，不再强制引导玩家行动。",
+          "name": "生化危机9：安魂曲",
+          "count": 3,
+          "summary": "知名爆料人Dusk Golem透露，DLC剧本撰写中，目标窗口定为2027年末，内容将重回初代洋馆。",
           "summary_source": "llm"
         },
         {
-          "name": "蜘蛛侠4",
+          "name": "永恒之塔2",
+          "count": 2,
+          "summary": "NCsoft出品的MMO登陆PC，其高度可自定义的捏人系统因角色胸部尺寸引发玩家热议，在社交媒体上爆火。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "沉星之序",
+          "count": 2,
+          "summary": "传奇制作人乔纳森·布洛耗时10年打造的冒险解谜游戏M站开分86，GS给出8分力荐，将于10月9日登陆多平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化危机",
+          "count": 2,
+          "summary": "卡普空与能量饮料品牌G Fuel合作，推出庆祝系列诞生30周年的联名水杯，包含艾达王等角色形象。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "皇牌空战8：希孚之翼",
+          "count": 2,
+          "summary": "游戏登顶Steam周销榜，IGN给出9分，总监河野一聪发文感谢玩家，称每晚都感动落泪。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "空之轨迹 the 2nd",
+          "count": 2,
+          "summary": "Falcom官宣《轨迹》系列全系列销量破1000万本，新作与重制版双线热销，公司高调上调2026年9月财年预期。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "银松镇",
+          "count": 2,
+          "summary": "恐怖冒险游戏M站均分85，PS5版评分高达91，媒体盛赞其各方面表现完美，将于10月9日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7启示",
           "count": 1,
-          "summary": "PlayStation宣布，PS Plus会员可限时通过Sony Pictures Core应用解锁《蜘蛛侠：崭新的一天》主题头像。",
+          "summary": "总监再谈《最终幻想7：启示》不再PS独占，强调最重要的不是平台，游戏将成为重制系列首款首日多平台同步发售的作品。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "LOL",
+          "count": 1,
+          "summary": "《英雄联盟》高人气皮肤回归，亚索、阿卡丽等英雄的真实伤害皮肤引发关注。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "OW",
+          "count": 1,
+          "summary": "《守望先锋》国服上线“圣邪颂歌”系列皮肤，D.Mon皮肤因独特设计在老外社群中引发广泛关注。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "P.T.",
+          "count": 1,
+          "summary": "小岛秀夫亲自转发《P.T.》PC移植消息，开发者对此表示非常激动。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-10-06",
-      "article_count": 124,
+      "article_count": 122,
       "game_count": 48,
-      "untagged_count": 53,
-      "digest": "10月6日 游民星空 共 124 条新闻，涉及 48 款游戏。报道最集中的是《GTA6》（5 条）、《永恒之塔2》（5 条）、《龙之信条2》（4 条）。另有 53 条未指向具体游戏的行业或平台资讯。另外还有《明末》（3 条）、《漫威金刚狼》（3 条）、《Physint》（2 条）也有报道。",
-      "digest_source": "rules",
-      "input_hash": "a6bf439388c8fd4b",
+      "untagged_count": 51,
+      "digest": "今日游戏资讯聚焦于《GTA6》的发售预热与热度分析，以及《永恒之塔2》上线后的爆火与争议。此外，《龙之信条2》公布DLC与优化更新，《战争机器：事变日》正式发售并获IGN 10分好评，《黑神话：悟空》销量突破3000万，多款大作与国产游戏均有动态更新。",
+      "digest_source": "llm",
+      "input_hash": "7b906bad79a17c73",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 5,
-          "summary": "《GTA6》至少近90款车型！所有已出现车辆名单来了；世人都怕了《GTA6》？专家：只有任天堂无惧挑战！；《GTA6》30帧画面被夸流畅 表现远超以往30FPS游戏（当天共 5 条）",
-          "summary_source": "rules"
+          "summary": "玩家社区已从预告片和实机演示中确认了至少89款可驾驶车辆，专家指出11月发售日已引发行业“流量黑洞”，多数厂商调整档期避其锋芒。",
+          "summary_source": "llm"
         },
         {
           "name": "永恒之塔2",
           "count": 5,
-          "summary": "《永恒之塔2》Steam峰值破40万！角色胸部随便调；《永恒之塔2》角色创建实机 胸部大小自由调节；韩国大作《永恒之塔2》没中文！Steam简中多半好评（当天共 5 条）",
-          "summary_source": "rules"
+          "summary": "NCSoft旗下MMORPG《永恒之塔2》正式上线全球服，Steam峰值破40万，角色胸部调整功能引发热议，但游戏目前暂无中文。",
+          "summary_source": "llm"
         },
         {
           "name": "龙之信条2",
           "count": 4,
-          "summary": "《龙之信条2》官宣升级版PSSR！PS5 Pro玩家有福了；《龙之信条2》官宣大型更新！困难模式+海量优化；《龙之信条2》DLC解锁时间公布！PS玩家凌晨就能玩（当天共 4 条）",
-          "summary_source": "rules"
+          "summary": "卡普空宣布《龙之信条2》将于10月9日推出包含困难模式、存档继承及性能优化的4.0大型更新，并同步公布DLC“黑暗觉者”解锁时间。",
+          "summary_source": "llm"
         },
         {
           "name": "明末",
           "count": 3,
-          "summary": "《明末》官方答谢性感新图 这酥胸美腿谁不爱啊；PC端PS5模拟器成功运行《明末》 但视觉严重损坏；国产制作人再谈《明末》:转发却被骂蹭热度。",
-          "summary_source": "rules"
+          "summary": "国产游戏《明末：渊虚之羽》PS5版已在模拟器构建版本中获得“In game”状态，官方X账号分享了玩家摄影作品。",
+          "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
           "count": 3,
-          "summary": "《漫威金刚狼》卖爆了？零售员工反驳：没啥人买；《漫威金刚狼》实体跌到近200元！数字还卖548港币；《漫威金刚狼》走楼梯离谱穿模：3亿美元预算就这？。",
-          "summary_source": "rules"
+          "summary": "索尼第一方工作室“失眠组”打造的《漫威金刚狼》已于9月15日发售，目前实体版价格跌至近200元，数字版售价548港币。",
+          "summary_source": "llm"
         },
         {
           "name": "Physint",
           "count": 2,
-          "summary": "小岛新作《Physint》演员多是小岛粉丝 大量新想法 致敬合金装备；小岛秀夫展示《Physint》更多重磅演员！大约还有7位明星。",
-          "summary_source": "rules"
+          "summary": "小岛秀夫在播客中展示新作《Physint》更多重磅演员，除已公布的比尔·斯卡斯加德等人外，预计还有约7位明星加盟。",
+          "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 2,
-          "summary": "曝《影之刃零》无实体光盘！知名零售商发邮确认：只有数字版；外网博主爆料：《影之刃零》大量精彩内容未公开。",
-          "summary_source": "rules"
+          "summary": "灵游坊制作的国产武侠动作游戏《影之刃零》将于10月29日发售，知名零售商确认该作仅推出数字版，外网博主爆料其有大量未公开内容。",
+          "summary_source": "llm"
         },
         {
           "name": "战争机器：事变日",
           "count": 2,
-          "summary": "《战争机器：事变日》IGN分部10分！系列巅峰 独特魅力；《战争机器：事变日》更新官宣！诸多优化 体验大加强。",
-          "summary_source": "rules"
+          "summary": "The Coalition开发的第三人称射击游戏《战争机器：事变日》于10月6日正式发售，IGN分部给出10分评价称其为系列巅峰。",
+          "summary_source": "llm"
         },
         {
           "name": "皇牌空战8",
           "count": 2,
-          "summary": "《皇牌空战8》M站玩家评分8.8！评分超高 总监很激动；《皇牌空战8》优化真不行 5090来了也得降画质。",
-          "summary_source": "rules"
+          "summary": "经典空战模拟系列新作《皇牌空战8：希孚之翼》M站玩家评分高达8.8，但IGN测试指出PC版优化表现吃紧。",
+          "summary_source": "llm"
         },
         {
           "name": "看门狗",
           "count": 2,
-          "summary": "《看门狗》未来会有新作吗？育碧总裁终于回应；育碧确认没有放弃《看门狗》！重要IP 但新作得等。",
-          "summary_source": "rules"
+          "summary": "育碧CEO伊夫·吉列莫在股东大会上回应称《看门狗》是重要IP，但新作短期内无法推出，同时确认《看门狗：军团》导演剪辑版将于2027年上半年发售。",
+          "summary_source": "llm"
         },
         {
           "name": "看门狗 军团",
@@ -129,227 +236,227 @@
         {
           "name": "神秘海域5",
           "count": 2,
-          "summary": "老外希望《神秘海域5》来秦始皇陵 这个想法靠谱不？；内森德雷克演员有意回归《神秘海域5》！但有个条件。",
-          "summary_source": "rules"
+          "summary": "《神秘海域》系列演员诺兰·诺斯表示若推出新作愿意“110%”回归，老外玩家则希望新作能前往秦始皇陵取景。",
+          "summary_source": "llm"
         },
         {
           "name": "黑神话：悟空",
           "count": 2,
-          "summary": "《黑神话：悟空》二郎神脸模结婚了！新郎新娘甜度拉满；央视报道《黑神话：悟空》销量3000万！前无古人 会后有来者吗。",
-          "summary_source": "rules"
+          "summary": "央视报道《黑神话：悟空》全球累计销量已突破3000万份，二郎神脸模扮演者王国豪杰在国庆期间举办婚礼，玩家送上祝福。",
+          "summary_source": "llm"
         },
         {
           "name": "007",
           "count": 1,
-          "summary": "《007》绝美壁纸免费领！邦女郎深V礼服 大雷太性感。",
-          "summary_source": "rules"
+          "summary": "为庆祝“詹姆斯·邦德日”，《007 初露锋芒》官方公布DLC“扩展行动”福利，玩家可免费领取邦女郎深V礼服壁纸。",
+          "summary_source": "llm"
         },
         {
           "name": "Angelian Trigger",
           "count": 1,
-          "summary": "前Switch独占美少女射击爽游《Angelian Trigger》登陆PS5！2027年发售。",
-          "summary_source": "rules"
+          "summary": "日本开发商PiXEL宣布伪3D射击游戏《Angelian Trigger》Steam版将于12月10日推出，PS5版本计划在2027年发售。",
+          "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-10-05",
-      "article_count": 95,
-      "game_count": 43,
+      "article_count": 93,
+      "game_count": 42,
       "untagged_count": 35,
-      "digest": "10月5日行业动态整体呈现多方关注并存态势，游戏领域围绕多款代表作展开多项动态，同时核心剧情类与流行游戏各有发布、更新、宣传、口碑等进展，整体信息覆盖度较高，行业互动与玩家反馈活跃。",
+      "digest": "今日资讯聚焦于《GTA6》的地图细节、杂志封面及PC首发猜测，以及《战争机器》新作引发的争议与好评。此外，国产游戏《抵抗者》接受日媒采访，而《艾希：续》众筹成功突破2500万元，引发主创回应进度争议。其他方面还包括《黑神话：悟空》的PS5模拟器表现、大冢明夫呼吁新作《合金装备》以及《巫师3：狂猎重制版》打破销售纪录等动态。",
       "digest_source": "llm",
-      "input_hash": "5136f687dbd10841",
+      "input_hash": "5ef8c477817f8abe",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 8,
-          "summary": "《GTA6》泄密者\"葱哥\"复活了！神秘投票重新出山；《GTA6》绝不无聊！开放世界永远有事情发生；《GTA6》全部地点图标汇总 高跟鞋等娱乐场所众多（当天共 8 条）",
-          "summary_source": "rules"
+          "count": 7,
+          "summary": "《GTA6》泄密者\"葱哥\"复活引发关注，杂志实物图曝光男女主角，玩家热议PC首发可能性及游戏地图细节。",
+          "summary_source": "llm"
         },
         {
           "name": "战争机器",
           "count": 4,
-          "summary": "粉毛老婆给《战争机器》\"大妈\"秒成渣！老外遭不住了；《战争机器》片尾看到自己名字！一对女同相拥痛哭；IGN9分《战争机器》有黑科技!PC无需漫长编译着色器（当天共 4 条）",
-          "summary_source": "rules"
+          "summary": "新作引发两极评价，IGN9分肯定PC版技术优化，同时有博主批评游戏内容引发玩家不满。",
+          "summary_source": "llm"
         },
         {
           "name": "抵抗者",
           "count": 3,
-          "summary": "国产抗日FPS《抵抗者》向日本玩家寄语！有些事不能忘；国产抗日《抵抗者》玩法不止大战场 重视日本本地化；日媒采访国产抗日《抵抗者》 大量考究还原真实历史。",
-          "summary_source": "rules"
+          "summary": "国产抗日FPS《抵抗者》接受日本媒体GameSpark采访，制作人孔禹衡介绍游戏玩法及历史考究细节。",
+          "summary_source": "llm"
         },
         {
           "name": "艾希：续",
           "count": 3,
-          "summary": "国产新作《艾希：续》众筹2500万巨大成功 主创感谢但压力巨大；《艾希：续》已经做完只差打磨？制作人本人回应；2500万元！《艾希：续》成摩点众筹金额最高项目。",
-          "summary_source": "rules"
+          "summary": "《艾希：续》众筹金额突破2500万元，制作人老马克肖回应玩家关于开发进度的讨论，称游戏尚未完成。",
+          "summary_source": "llm"
         },
         {
           "name": "黑神话：悟空",
           "count": 3,
-          "summary": "《黑神话：悟空》PS5版跑进模拟器！目前仅4至6帧；无毛版《黑神话：悟空》大圣太辣眼 竟还神似《黑袍》屠夫；《黑神话：悟空》《影之刃零》3D负责人晒帅图！主角魂1:1&1:3雕像曝光。",
-          "summary_source": "rules"
+          "summary": "PS5版在模拟器上运行仅4至6帧，玩家制作的无毛版大圣引发热议，同时《影之刃零》3D负责人晒出相关雕像。",
+          "summary_source": "llm"
         },
         {
           "name": "巫师3：狂猎重制版",
           "count": 2,
-          "summary": "《巫师3：狂猎重制版》猎奇Bug太诡异 谁把我特莉丝皮剥了；《巫师3：狂猎重制版》又打破纪录！时隔不到1周 国庆+周末发力了。",
-          "summary_source": "rules"
+          "summary": "游戏出现猎奇Bug，同时凭借免费升级策略打破销售纪录，国庆期间销量持续发力。",
+          "summary_source": "llm"
         },
         {
           "name": "兰斯",
           "count": 1,
-          "summary": "知名R18游戏《兰斯》全年龄版 男主见女人就亲。",
-          "summary_source": "rules"
+          "summary": "AliceSoft在Steam推出经典SLG《战国兰斯》全年龄版本。",
+          "summary_source": "llm"
         },
         {
           "name": "刺客信条：Hexe",
           "count": 1,
-          "summary": "《刺客信条：Hexe》大量剧情和角色泄露！摒弃RPG 回归传统线性。",
-          "summary_source": "rules"
+          "summary": "育碧新作《刺客信条：Hexe》大量剧情和角色细节泄露，据称将摒弃RPG元素回归传统线性玩法。",
+          "summary_source": "llm"
         },
         {
           "name": "剑星",
           "count": 1,
-          "summary": "《剑星》BOSS挑战模式宣传片 这次你还能打得过吗？。",
-          "summary_source": "rules"
+          "summary": "官方发布BOSS挑战模式宣传片，展示高难度战斗内容。",
+          "summary_source": "llm"
         },
         {
           "name": "原神",
           "count": 1,
-          "summary": "牌面拉满！米哈游《原神》登上央视：约一半玩家来自海外。",
-          "summary_source": "rules"
+          "summary": "米哈游《原神》登上央视报道，数据显示约一半玩家来自海外。",
+          "summary_source": "llm"
         },
         {
           "name": "古墓丽影",
           "count": 1,
-          "summary": "PC玩家狂喜!《古墓丽影》新作发售前4月前移除D加密。",
-          "summary_source": "rules"
+          "summary": "PC版新作发售前4个月前移除D加密技术，利好玩家体验。",
+          "summary_source": "llm"
         },
         {
           "name": "合金装备",
           "count": 1,
-          "summary": "大冢明夫再喊话：为了粉丝再做一部《合金装备》吧。",
-          "summary_source": "rules"
+          "summary": "声优大冢明夫再度呼吁制作新作，表示为了粉丝应推出新《合金装备》。",
+          "summary_source": "llm"
         },
         {
           "name": "哀鸿",
           "count": 1,
-          "summary": "《哀鸿》主创感叹《艾希》众筹超自己20倍：白月光的力量。",
-          "summary_source": "rules"
+          "summary": "制作人嵇零在评论区感叹《艾希：续》众筹金额超自己作品20倍。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：旷野之息",
           "count": 1,
-          "summary": "PS5《塞尔达传说：旷野之息》运行实机 效果超棒相当流畅。",
-          "summary_source": "rules"
+          "summary": "PS5上运行模拟器效果流畅，YouTube博主分享实机演示视频。",
+          "summary_source": "llm"
         },
         {
           "name": "天国",
           "count": 1,
-          "summary": "《天国》主创吐槽RPG主角\"天选\"设定 我这个就很棒。",
-          "summary_source": "rules"
+          "summary": "《天国：拯救》创始人Martin Klíma吐槽RPG游戏中反复出现的\"天选之子\"设定。",
+          "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-10-04",
-      "article_count": 80,
+      "article_count": 79,
       "game_count": 37,
       "untagged_count": 28,
-      "digest": "今日游戏资讯聚焦于《GTA6》18+评级与四人主角传闻引发热议，微软《战争机器》新作因角色设定及独占立场遭玩家争议，CDPR《巫师3：狂猎》重制版销量与日活数据亮眼，同时《恶魔城》新作发售日临近，多款大作及独立游戏均有新动态。",
+      "digest": "今日游戏资讯聚焦于《GTA6》的18+评级、新主角设定及开发早期四人主角方案等猛料，同时《战争机器》新作因角色设定引发玩家争议。此外，《巫师3：狂猎》重制版销量与日活数据亮眼，而《恶魔城》新作预载信息公布，多款大作及独立游戏均有相关动态。",
       "digest_source": "llm",
-      "input_hash": "df83075dba0d7128",
+      "input_hash": "17d27bcc4623eadf",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 8,
-          "summary": "《GTA6》获18+评级并曝出四人主角方案，Rockstar确认天气系统升级，假版本安装程序仅0字节引发关注。",
+          "summary": "18+评级引发关注，时尚杂志将发布主角新画面，开发早期曾考虑四人主角方案。",
           "summary_source": "llm"
         },
         {
           "name": "战争机器",
-          "count": 6,
-          "summary": "《战争机器：事变日》回归Xbox独占，新主角玛格斯·卡特为黑人女同，因角色造型及LGBT内容引发玩家争议。",
+          "count": 5,
+          "summary": "新作因角色LGBT设定及造型引发玩家争议，开发者表示对回归Xbox独占感到自豪。",
           "summary_source": "llm"
         },
         {
           "name": "博德之门3",
           "count": 2,
-          "summary": "玩家讨论CRPG制作水准是否被拉高，Invoke Studios新作《Warlock: Dungeons & Dragons》曝光主打机制。",
+          "summary": "玩家讨论CRPG制作水准是否被拉高，Invoke Studios新作被曝主打机制。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3：狂猎",
           "count": 2,
-          "summary": "CDPR确认游戏不再支持Windows10，仅限新系统，重制版首日售出13万份，日活达238万。",
+          "summary": "CDPR确认不再支持Win10，分析机构统计重制版首日售出13万份。",
           "summary_source": "llm"
         },
         {
           "name": "恶魔城",
           "count": 2,
-          "summary": "系列复兴加速，制作人宣布告别十年一作，新作《恶魔城：贝尔蒙特的诅咒》PS5版仅需7.1GB。",
+          "summary": "系列复兴加速，新作PS5版仅需7.1GB，将于10月15日发售。",
           "summary_source": "llm"
         },
         {
           "name": "D1AL-ogue",
           "count": 1,
-          "summary": "续作开发日志更新，虎鲸娘仿生人奥尔卡新动画完成，团队确认已敲定发行商。",
+          "summary": "续作开发日志更新，虎鲸娘仿生人奥尔卡动画完成，团队确认敲定发行商。",
           "summary_source": "llm"
         },
         {
           "name": "FF7启示",
           "count": 1,
-          "summary": "滨口直树透露曾尽全力保住实体盘，但仅保住了头，并讨论了实体游戏未来的发展。",
+          "summary": "总监滨口直树接受采访，谈及保住实体盘头部的努力。",
           "summary_source": "llm"
         },
         {
           "name": "GT7",
           "count": 1,
-          "summary": "小米发布概念车《GT7》实机首曝，展示了Xiaomi Vision Gran Turismo的驾驶影像。",
+          "summary": "小米发布概念车《GT7》实机首曝，展示首款中国GT驾驶影像。",
           "summary_source": "llm"
         },
         {
           "name": "GTA",
           "count": 1,
-          "summary": "R星联合创始人丹·豪瑟新作细节首曝，以失控AI为核心，并与韩国厂商合作开发。",
+          "summary": "R星联合创始人丹豪瑟新作细节首曝，核心为失控AI，将与韩国厂商合作。",
           "summary_source": "llm"
         },
         {
           "name": "传奇",
           "count": 1,
-          "summary": "恺英网络通过子公司收购娱美德创始人朴瓘镐持有的39.33%股份，掌管IP。",
+          "summary": "恺英网络收购娱美德创始人朴瓘镐持有的39.33%股份，掌管IP。",
           "summary_source": "llm"
         },
         {
           "name": "全面战争：战锤40K",
           "count": 1,
-          "summary": "主机版不缩水，将与PC版一样完整。",
+          "summary": "主机版不缩水，将与PC版内容保持一致。",
           "summary_source": "llm"
         },
         {
           "name": "命运",
           "count": 1,
-          "summary": "《命运》创始人联手打造新工作室，计划涉及游戏、漫画及影视领域。",
+          "summary": "创始人联手打造新工作室，涉足游戏、漫画及影视领域。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3：狂猎重制版",
           "count": 1,
-          "summary": "免费更新上线后，因画面过于真实被批没生气，各大平台均遭玩家批评。",
+          "summary": "免费更新上线，虽提升画面精度但遭批过于真实没生气。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 1,
-          "summary": "主角1:1半身像首次展出，手持双剑引发关注。",
+          "summary": "主角1:1半身像首次展出，手持双剑。",
           "summary_source": "llm"
         },
         {
           "name": "我的世界",
           "count": 1,
-          "summary": "玩家晒出三十年后仍与丈夫双屏联机《我的世界》的场景，引发关于成年后是否该戒掉游戏的讨论。",
+          "summary": "玩家晒出三十年后仍联机场景，引发关于成年后是否戒掉游戏的讨论。",
           "summary_source": "llm"
         }
       ]
@@ -457,101 +564,101 @@
     },
     {
       "date": "2026-10-02",
-      "article_count": 119,
-      "game_count": 48,
+      "article_count": 118,
+      "game_count": 47,
       "untagged_count": 41,
-      "digest": "今日游戏圈热点集中在《战争机器：事变日》发售前的LGBTQ+争议与Steam在线纪录，以及《皇牌空战8：希孚之翼》与《羊蹄山之魂 完整版》的正式发售。此外，《GTA6》评级公布及《金刚狼》PS5模拟器破解也引发关注。",
+      "digest": "今日游戏资讯聚焦于《战争机器：事变日》发售前的争议与热度，该作Steam抢先体验同时在线人数突破2万，刷新系列纪录，但LGBTQ+相关内容引发大量玩家批评。此外，《皇牌空战8：希孚之翼》正式发售，Steam同接人数达3.7万，但PC版优化问题严重。索尼独占《羊蹄山之魂 完整版》获M站18家媒体满分评价，成为索尼今年第二高分。",
       "digest_source": "llm",
-      "input_hash": "873a2f051e22c19b",
+      "input_hash": "2be8366b81065a28",
       "game_digests": [
         {
           "name": "战争机器：事变日",
           "count": 8,
-          "summary": "该作发售前因加入LGBTQ+相关内容引发玩家激烈争议，海报被破坏，同时Steam抢先体验在线人数达20374人，打破系列纪录。",
+          "summary": "《战争机器：事变日》Steam抢先体验同时在线达20374人，打破系列纪录，超越前作《战争机器5》，但加入的20种LGBT相关内容引发玩家强烈批评。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
           "count": 5,
-          "summary": "澳大利亚和新西兰的PlayStation商店页面更新了该作评级为M级，索尼为普通PS5推出的AI超分QSSR技术被曝或将跟进支持。",
+          "summary": "《GTA6》澳大利亚和新西兰评级更新为M级，索尼为普通PS5推出AI超分QSSR，官方致歉并修复了《皇牌空战8》PC预购特典需安装150GB本体才能玩的问题。",
           "summary_source": "llm"
         },
         {
           "name": "战争机器",
           "count": 5,
-          "summary": "The Coalition工作室为游戏加入的LGBTQ+主题个人资料徽章以及多种与“骄傲”相关的身份选项，引发玩家不买账的争议。",
+          "summary": "《战争机器：事变日》被海外玩家吐槽缺乏场景互动，且因强调战争恐怖氛围却加入LGBTQ+主题个人资料徽章，引发玩家不买账的争议。",
           "summary_source": "llm"
         },
         {
           "name": "羊蹄山之魂 完整版",
           "count": 5,
-          "summary": "该作收录全新剧情DLC弦续关原与战斗生存模式——无尽追缉，已于10月1日正式发售，获18家媒体满分评价。",
+          "summary": "《羊蹄山之魂 完整版》收录全新剧情DLC“弦续关原”及生存模式，M站18家媒体给出满分评价，成为索尼今年第二高分游戏。",
           "summary_source": "llm"
         },
         {
           "name": "皇牌空战8",
           "count": 4,
-          "summary": "该作机型大量借鉴中国歼-20战斗机，琳西·斯特林化身飞行员用小提琴演绎主题曲，Steam首发同接达3.7万，评价“略褒”。",
+          "summary": "《皇牌空战8：希孚之翼》今日正式发售，Steam首发同接人数突破3.7万，约为前作三倍，但PC版优化问题严重导致频繁崩溃。",
           "summary_source": "llm"
         },
         {
           "name": "皇牌空战8：希孚之翼",
           "count": 3,
-          "summary": "该作登陆PC/PS5/XSX平台，已于10月2日正式发售，但被吐槽太难且优化一坨，PC预购特典引争议后官方致歉。",
+          "summary": "《皇牌空战8：希孚之翼》被吐槽游戏难度过高，且PC版优化一坨，官方致歉并修复了PC预购特典需安装150GB本体才能玩的问题。",
           "summary_source": "llm"
         },
         {
           "name": "羊蹄山之魂",
           "count": 3,
-          "summary": "PS日本发布新登场角色长门实机演示，官方配文称其“实在太撩人了，令人困扰”。",
+          "summary": "《羊蹄山之魂 完全版》新增剧情DLC“弦续关原”及Roguelike模式“Most Wanted”，PS日本发布新角色长门实机演示，称其“实在太撩人了，令人困扰”。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3：狂猎重制版",
           "count": 2,
-          "summary": "该作联动《赛博朋克2077》，所有已拥有原版游戏的玩家均可免费升级，官方回应后续更新BUG多需排队。",
+          "summary": "《巫师3：狂猎重制版》联动《赛博朋克2077》推出免费皮肤，官方回应后续更新将排队修复BUG，目前游戏已正式上线。",
           "summary_source": "llm"
         },
         {
           "name": "战神：劳菲",
           "count": 2,
-          "summary": "奎托斯的配音演员表示该作将连接希腊传奇时代与《战神2018》，游戏现已开启预购。",
+          "summary": "《战神：劳菲》官宣开启预购，奎托斯配音演员表示该作将连接希腊时代与《战神2018》，预购价格为388港币。",
           "summary_source": "llm"
         },
         {
           "name": "最终幻想7：启示",
           "count": 2,
-          "summary": "该作总监对质疑声表示失望，强调优化没问题，游戏将于2027年4月8日发售。",
+          "summary": "《最终幻想7：启示》总监回应质疑，表示优化没问题，游戏将于2027年4月8日发售，登陆PC/PS5/Switch 2/Xbox平台。",
           "summary_source": "llm"
         },
         {
           "name": "金刚狼",
           "count": 2,
-          "summary": "一款名为KytyPs5的PS5模拟器成功在PC上运行了该作，PS5 Slim新内部型号在限定版主机拆解中被发现。",
+          "summary": "PS5模拟器KytyPs5成功在PC上运行了索尼独占游戏《漫威金刚狼》，PS5 Slim新内部型号在《金刚狼》限定版主机拆解中被发现。",
           "summary_source": "llm"
         },
         {
           "name": "007 初露锋芒",
           "count": 1,
-          "summary": "首个内容更新“扩展行动”上线，包含五个新任务和新武器。",
+          "summary": "《007 初露锋芒》首个内容更新“扩展行动”上线，包含五个新任务和新武器。",
           "summary_source": "llm"
         },
         {
           "name": "2077",
           "count": 1,
-          "summary": "油管频道发布了一段配合DLSS 5的8K分辨率画质演示视频。",
+          "summary": "油管Digital Dreams频道发布《赛博朋克2077》8K分辨率画质演示，配合使用UltraPunk画质MOD、自定义AdaptiveVision着色器以及DLSS 5。",
           "summary_source": "llm"
         },
         {
           "name": "FC 27",
           "count": 1,
-          "summary": "EA大作发售后有玩家反馈女性角色模型在特定过场动画中会出现未穿球衣的情况，官方回应马上修。",
+          "summary": "EA体育游戏《FC 27》发售后，部分女性角色在特定过场动画中会出现没有穿着球衣、仅穿黑色内衣的情况，官方回应将尽快修复。",
           "summary_source": "llm"
         },
         {
           "name": "PUBG",
           "count": 1,
-          "summary": "该作风波韩国大胜越南，游戏已移除越南语。",
+          "summary": "《PUBG》风波韩国大胜越南，游戏已移除越南语。",
           "summary_source": "llm"
         }
       ]
@@ -855,107 +962,6 @@
           "name": "卧龙2",
           "count": 1,
           "summary": "《卧龙2：凤火连天》确定于2027年3月4日发售，此前全球累计玩家数已突破800万。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-28",
-      "article_count": 102,
-      "game_count": 44,
-      "untagged_count": 37,
-      "digest": "今日游戏资讯聚焦于《战神：劳菲》的预购开启与实机细节公布，以及《巫师3：狂猎 重制版》即将于明日发售的预热。此外，《GTA6》的天气系统与实体版信息引发热议，《控制：共振》销量口碑双丰收，而《我的世界：地下城2》与《卧龙2》等新作也各有动态。",
-      "digest_source": "llm",
-      "input_hash": "82266dc5cb665143",
-      "game_digests": [
-        {
-          "name": "战神：劳菲",
-          "count": 5,
-          "summary": "圣莫尼卡工作室公布《战神：劳菲》战斗系统细节及预购奖励，游戏将于北京时间9月29日上午10点开启预购。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3RE",
-          "count": 4,
-          "summary": "CD Projekt Red公布《巫师3：狂猎 重制版》各平台下载容量及狮鹫Boss战实机，媒体评分将于9月28日18点解禁。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 3,
-          "summary": "《GTA6》高级天气系统及实体版封面细节被证实或曝光，首发当日恐面临剧情泄露风险。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：狂猎重制版",
-          "count": 3,
-          "summary": "《巫师3：狂猎 重制版》将于9月29日正式上线，所有拥有原版游戏的玩家均可免费升级。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "控制：共振",
-          "count": 3,
-          "summary": "《控制：共振》发售后Steam同时在线玩家峰值超4万人，成为Remedy在Steam平台首发规模最大的作品。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "卧龙2",
-          "count": 2,
-          "summary": "《卧龙2：凤火连天》官方发布武技实机演示，展示了双节棍等武器及角色月英的介绍。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "地平线6",
-          "count": 2,
-          "summary": "创作者分享《极限竞速：地平线6》应用DLSS 5 Ultra后的4K超真实画质演示。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "寂静岭",
-          "count": 2,
-          "summary": "《寂静岭：小镇陷落》显卡基准测试显示RX 580表现优于GTX 1060，但M站用户评分拉胯。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3重制版",
-          "count": 2,
-          "summary": "IGN发布《巫师3：狂猎 重制版》前30分钟实机演示及Switch 2与PC版画质对比视频。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "幻兽帕鲁",
-          "count": 2,
-          "summary": "据Steam250统计，《幻兽帕鲁》是2026年Steam平台用户评价最高的发行作品。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "我的世界：地下城2",
-          "count": 2,
-          "summary": "《我的世界：地下城2》媒体评分解禁，IGN给出6分，M站评分75分。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最后生还者2",
-          "count": 2,
-          "summary": "HBO《最后生还者》第三季确认引入劳拉·贝利饰演新角色，原版演员继续参演。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "皇牌空战8",
-          "count": 2,
-          "summary": "《皇牌空战8：希孚之翼》豪华版将于明早6点解锁，官方发布发售预告。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "2077",
-          "count": 1,
-          "summary": "《赛博朋克2077》最烧钱BOSS战经过近两年打磨，成品被评价为堪称艺术。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三角洲",
-          "count": 1,
-          "summary": "《三角洲行动》大战场新地图“天际线”上出现巨型海啸，震撼老外玩家。",
           "summary_source": "llm"
         }
       ]

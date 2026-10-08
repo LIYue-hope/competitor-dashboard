@@ -1,9 +1,9 @@
 {
-  "crawled_at": "2026-10-07T01:24:41.520926+00:00",
+  "crawled_at": "2026-10-08T01:45:28.972640+00:00",
   "days": [
     {
       "date": "2026-10-08",
-      "date_label": "10月08日 明天",
+      "date_label": "10月08日 今天",
       "games": [
         {
           "game_name": "多可比世界",
@@ -17,14 +17,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/198918.htm",
           "publisher": "kakao games",
-          "reservation_count": "178",
+          "reservation_count": "308",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-10-09",
-      "date_label": "10月09日 后天",
+      "date_label": "10月09日 明天",
       "games": [
         {
           "game_name": "深鸢",
@@ -38,14 +38,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/166062.htm",
           "publisher": null,
-          "reservation_count": "11406",
+          "reservation_count": "11445",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-10-10",
-      "date_label": "10月10日 周六",
+      "date_label": "10月10日 后天",
       "games": [
         {
           "game_name": "乡野奇运",
@@ -80,7 +80,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/180763.htm",
           "publisher": "Playdigious",
-          "reservation_count": "28384",
+          "reservation_count": "28397",
           "has_afk_grinding_tag": true
         },
         {
@@ -95,7 +95,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/204350.htm",
           "publisher": "Kepler Interactive",
-          "reservation_count": "13277",
+          "reservation_count": "15237",
           "has_afk_grinding_tag": false
         }
       ]
@@ -116,7 +116,58 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/188076.htm",
           "publisher": "大鱼好游",
-          "reservation_count": "140",
+          "reservation_count": "146",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "date_label": "10月14日 下周三",
+      "games": [
+        {
+          "game_name": "剑侠世界4：无限",
+          "categories": [
+            "MMO",
+            "中国风",
+            "江湖"
+          ],
+          "score": "5.7",
+          "event_desc": "10:00 预下载，10月15日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/187934.htm",
+          "publisher": "海南西山居娱乐互动科技有限公司",
+          "reservation_count": "6813",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "查无此地",
+          "categories": [
+            "动作",
+            "冒险",
+            "射击"
+          ],
+          "score": "9.0",
+          "event_desc": "在Steam平台上线抢先体验版本",
+          "status_tag": "PC/主机",
+          "detail_url": "https://www.3839.com/a/182083.htm",
+          "publisher": null,
+          "reservation_count": "8391",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "梦镜仙缘",
+          "categories": [
+            "策略",
+            "回合",
+            "冒险"
+          ],
+          "score": null,
+          "event_desc": "正式上线，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/203047.htm",
+          "publisher": "小娱网络",
+          "reservation_count": "58",
           "has_afk_grinding_tag": false
         }
       ]

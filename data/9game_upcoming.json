@@ -1,9 +1,9 @@
 {
-  "crawled_at": "2026-10-07T01:27:00.460896+00:00",
+  "crawled_at": "2026-10-08T01:45:58.869123+00:00",
   "days": [
     {
       "date": "2026-10-10",
-      "date_label": "10月10日 周六",
+      "date_label": "10月10日 后天",
       "games": [
         {
           "game_name": "超级新宠物",
@@ -44,7 +44,7 @@
           "categories": [
             "角色扮演"
           ],
-          "score": null,
+          "score": "7.0",
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/lzgqc/",
@@ -82,7 +82,7 @@
           "event_desc": "复古打金传奇",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/zuichuanqi3/",
-          "has_afk_grinding_tag": false
+          "has_afk_grinding_tag": true
         }
       ]
     },

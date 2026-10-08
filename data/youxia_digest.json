@@ -1,9 +1,104 @@
 {
-  "generated_at": "2026-10-07T01:42:35.679766+00:00",
+  "generated_at": "2026-10-08T01:53:12.084609+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-07",
+      "article_count": 30,
+      "game_count": 14,
+      "untagged_count": 14,
+      "digest": "今日游戏资讯聚焦于《GTA6》泄密风波与《战争机器：事变日》创纪录的在线人数，同时《最终幻想16》Steam Deck认证与《生化危机9》DLC规划等消息引发关注。此外，《天国：拯救》制作人拒玩《GTA6》引发热议，《影之刃零》仅推数字版、育碧新作及《寂静岭f》对谈等资讯也占据一定篇幅。",
+      "digest_source": "llm",
+      "input_hash": "12c09dd90a9dfb07",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 2,
+          "summary": "沉寂数月的黑客组织Cyberleek疑似重新上线，曾泄露实机内容的“葱哥”疑似复活；LOVE杂志实物图流出，曝光杰森与露西亚黑白同框的新造型。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战争机器 事变日",
+          "count": 2,
+          "summary": "团队转用虚幻5并回归系列起源“事变日”以强化不安感；Steam高级版抢先体验阶段刷新系列历史最高在线人数纪录。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA：圣安地列斯",
+          "count": 1,
+          "summary": "随着《GTA6》发售临近，该作2004年不足1000万美元的成本与超1200万销量引发感慨。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "全境封锁",
+          "count": 1,
+          "summary": "育碧Massive Entertainment通过招聘信息透露，正在开发一款未公开的新作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "天国：拯救",
+          "count": 1,
+          "summary": "制作人Martin Klima表示自己对《GTA6》毫无兴趣，若非被逼无奈绝不会游玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "寂静岭f",
+          "count": 1,
+          "summary": "制作人冈本基与《零》导演柴田诚在联动对谈中分享了日式恐怖创作心得。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "Reddit用户爆料，有海外零售商确认《影之刃零》将无实体光盘，仅推出数字版。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想16",
+          "count": 1,
+          "summary": "官方宣布游戏已通过Steam Deck认证，支持在掌机上流畅运行，Steam平台开启最高六折限时特惠。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "极限竞速：地平线6",
+          "count": 1,
+          "summary": "Playground Games发布公开信，承认与玩家沟通频次未达预期，并关注各类反馈。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "毁灭战士：黑暗时代",
+          "count": 1,
+          "summary": "PS5版港服价格永降至358港币，并迎来价格与技术的双重更新。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化危机9",
+          "count": 1,
+          "summary": "知名爆料人透露DLC剧本正在创作中，预计将于2027年末推出，将重回初代洋馆。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化危机：爆发夜",
+          "count": 1,
+          "summary": "多地影城发布观影提示，提醒未成年人谨慎观看正在热映的惊悚片。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "神秘海域",
+          "count": 1,
+          "summary": "诺兰·诺斯透露自己“110%愿意”回归出演系列新作，但目前尚未收到相关消息。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "策定九州",
+          "count": 1,
+          "summary": "玩家分享国庆假期入坑《三国群英传：策定九州》的7天体验报告，探讨2026年入坑是否晚。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-10-06",
       "article_count": 35,
@@ -790,107 +885,6 @@
           "name": "原神",
           "count": 1,
           "summary": "《原神》迎来上线六周年，放出六周年主题曲《风的来信》。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-28",
-      "article_count": 96,
-      "game_count": 63,
-      "untagged_count": 23,
-      "digest": "9月28日游戏行业资讯聚焦于《战狗》销量破300万及金摇杆提名引发的进度重置争议，同时《GTA6》因股价下跌与网红系统曝光引发关注，此外《控制：共振》因红光画面与NPC吐槽机制、以及《巫师3》重制版评测解禁临近也成为热点。",
-      "digest_source": "llm",
-      "input_hash": "da598d2ac15f06f3",
-      "game_digests": [
-        {
-          "name": "战狗",
-          "count": 4,
-          "summary": "BULKHEAD宣布《战狗》第二赛季上线并引入动态天气，但玩家因等级段位被清零而引发强烈争议，该作累计销量已突破300万份并入围金摇杆奖。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 3,
-          "summary": "《GTA6》曝光了包含身份标记与犯罪评价系统的全新HUD界面，并深度复刻了当代网红文化与社交媒体生态，将于11月19日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "控制：共振",
-          "count": 3,
-          "summary": "Remedy公布后续更新路线图，计划在10月上线“新游戏++”模式，同时游戏因大量红光特效被玩家吐槽辣眼睛，且NPC会吐槽玩家摸鱼。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "守望先锋",
-          "count": 2,
-          "summary": "游戏总监Aaron Keller透露，每赛季推出新英雄的策略旨在让玩家“重新学习游戏”，团队正在讨论将竞技铭牌永久化。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 2,
-          "summary": "为配合重制版上线，CDPR开启五折促销，媒体评分将于北京时间9月28日18点解禁，本次重制版将重构战斗系统与怪物AI。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "我的世界",
-          "count": 2,
-          "summary": "Xbox负责人公布数据显示，该作日均新增玩家超30万，同时确认Switch 2版发售日，并曝光了冰洞群系与寒地僵尸等新内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Abandoned",
-          "count": 1,
-          "summary": "Blue Box Game Studios开发的恐怖游戏《Abandoned》在PS商店上架，确认将于2027年发售，此前曾因“小岛秀夫参与”传闻引发争议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "CS",
-          "count": 1,
-          "summary": "《反恐精英》联合创始人闵·李爆料，Valve创始人G胖私下是资深冷兵器爱好者，不仅收藏海量刃具，还自学掌握了兵器锻造技艺。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Daytona USA",
-          "count": 1,
-          "summary": "一位reddit网友成功复刻了世嘉经典街机《Daytona USA》的原版联机系统，该设备由四台电脑组成，用于参加蒙特利尔复古电脑节。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "EA SportsFC27",
-          "count": 1,
-          "summary": "该作强势登顶Steam全球热销榜榜首，本周榜单迎来大幅变动，多款游戏名次涨跌明显。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FC 27",
-          "count": 1,
-          "summary": "神秘组织ARTIFACT发布了针对《EA SPORTS FC 27》的实验性Hypervisor绕过补丁，正值DenuvOwO因诉讼案解散之际。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7：启示",
-          "count": 1,
-          "summary": "游戏导演滨口直树回应了关于DLC可能影响本体的争议，承诺玩家无需购买DLC也能完整体验本篇故事。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA VI",
-          "count": 1,
-          "summary": "Game Informer宣布将推出《GTA VI》主题期刊，数字版定价约268元，旨在为粉丝打造实体艺术收藏品。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Muv-Luv",
-          "count": 1,
-          "summary": "《Muv-Luv》原作者吉宗钢纪在社交平台与粉丝互动时，意外引发了一场“教原作者做人”的乌龙。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "万缕千丝",
-          "count": 1,
-          "summary": "一名玩家完成《火焰纹章：万缕千丝》极限挑战，全程不招募四名核心角色焰之领主，依旧打通了主线。",
           "summary_source": "llm"
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-10-07T01:24:36.040237+00:00",
+  "crawled_at": "2026-10-08T01:45:22.192527+00:00",
   "window_days": 7,
   "publishers": [
     {
@@ -48,7 +48,15 @@
           "publisher_key": "tencent",
           "official_url": "https://pvp.qq.com/",
           "source_status": "ok",
-          "updates": [],
+          "updates": [
+            {
+              "title": "10月8日版本更新公告",
+              "type": "更新公告",
+              "date": "2026-10-07",
+              "summary": "",
+              "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=810034"
+            }
+          ],
           "has_afk_grinding_tag": false
         },
         {
@@ -154,11 +162,11 @@
           "source_status": "ok",
           "updates": [
             {
-              "title": "《逆水寒》10月1日更新公告",
-              "type": "更新公告",
-              "date": "2026-10-01",
-              "summary": "为了保证服务器的运行稳定和服务质量，《逆水寒》将于2026年10月1日早8时停机进行维护工作，预计维护到上午10时。",
-              "url": "https://n.163.com/news/update/20260930/29094_1315735.html"
+              "title": "长白归信概率公示",
+              "type": "公告",
+              "date": "2026-10-08",
+              "summary": "长白归信概率公示",
+              "url": "https://n.163.com/news/update/20260930/29094_1315601.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -247,6 +255,13 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "《原神》剧情PV-「往日」",
+              "type": "新闻",
+              "date": "2026-10-07",
+              "summary": "在「溯见之镜」中，你见到了一段关于友人的回忆，一段有罪之人的过往。 你得以窥见「祝福」与「诅咒」的同一性，以及二者之间不可避免的裂痕… CV： 「贤者」海洛塔帝——周健 艾弗提尔维特——符冲 关于《原神》 《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作…",
+              "url": "https://ys.mihoyo.com/main/news/detail/166561"
+            },
+            {
               "title": "《原神》过场动画-「生的印记」",
               "type": "新闻",
               "date": "2026-10-06",
@@ -308,6 +323,13 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "生日快乐伊芙琳丨嗯呢！您呼叫的用户暂时无法接通",
+              "type": "新闻",
+              "date": "2026-10-07",
+              "summary": "「小姐，这只是件装饰品...不过确实挺有意思的。」",
+              "url": "https://zzz.mihoyo.com/news/166579"
+            },
+            {
               "title": "《绝区零》3.3版本「重返天空的旅程」前瞻特别节目预告",
               "type": "版本前瞻",
               "date": "2026-10-05",
@@ -327,13 +349,6 @@
               "date": "2026-10-02",
               "summary": "亲爱的绳匠，欢迎下载&使用10月月历壁纸~",
               "url": "https://zzz.mihoyo.com/news/166576"
-            },
-            {
-              "title": "「跛脚乌鸦奇探录」活动说明",
-              "type": "新活动",
-              "date": "2026-10-01",
-              "summary": "完成活动委托，即可获得[菲林]、[邦布券]和各类养成材料奖励。",
-              "url": "https://zzz.mihoyo.com/news/166570"
             }
           ],
           "has_afk_grinding_tag": false
@@ -361,6 +376,13 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "[明日方舟]10月09日06:00版本更新停机维护公告",
+              "type": "更新公告",
+              "date": "2026-10-07",
+              "summary": "感谢您对《明日方舟》的关注与支持，《明日方舟》新版本预下载现已开启，玩家可提前下载PC端的部分游戏资源，在版本更新维护结束后，更快地进入游戏。此外，《明日方舟》计划将于2026年10月09日06:00",
+              "url": "https://ak.hypergryph.com/news/6242"
+            },
+            {
               "title": "[活动预告]SideStory「昨日海」限时活动即将开启",
               "type": "新活动",
               "date": "2026-10-03",
@@ -378,6 +400,13 @@
           "official_url": "https://endfield.hypergryph.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "「丹青渡」版本研发通讯",
+              "type": "新闻",
+              "date": "2026-10-07",
+              "summary": "亲爱的管理员：这里是《明日方舟：终末地》项目组。秋景现，丹青垂。《明日方舟：终末地》新版本「丹青渡」将于10月15日开启。通过本期研发通讯，我们将为管理员介绍即将在此版本中上线的一系列优化与调整。「新",
+              "url": "https://endfield.hypergryph.com/news/3805"
+            },
             {
               "title": "「丹青渡」新版本导览上线，浏览领嵌晶玉！",
               "type": "新闻",
@@ -519,13 +548,6 @@
               "date": "2026-10-02",
               "summary": "",
               "url": "https://www.chaoziran.com/news/793"
-            },
-            {
-              "title": "每周趣闻速递！公司掀起后空翻锻炼风潮",
-              "type": "新闻",
-              "date": "2026-10-01",
-              "summary": "",
-              "url": "https://www.chaoziran.com/news/792"
             }
           ],
           "has_afk_grinding_tag": false,
