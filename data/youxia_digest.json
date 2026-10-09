@@ -1,101 +1,202 @@
 {
-  "generated_at": "2026-10-08T01:53:12.084609+00:00",
+  "generated_at": "2026-10-09T02:08:37.380349+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
+      "date": "2026-10-08",
+      "article_count": 61,
+      "game_count": 43,
+      "untagged_count": 12,
+      "digest": "10月8日游戏行业资讯丰富，国产动作游戏《影之刃零》热度持续，ROG公布联名外设，制作人晒出主角雕像；R星新作《GTA6》细节曝光，底盘建模与NPC行为机制引发讨论；卡普空《龙之信条2》DLC获IGN 8分好评；《AION2》因角色外观自定义功能上线引热议；此外《P.T.》PC版移植获小岛秀夫转发，《冰汽时代》宣布登陆Switch 2等。",
+      "digest_source": "llm",
+      "input_hash": "9b4417f27ae27ab9",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 4,
+          "summary": "ROG公布联名限定装备阵容，涵盖显示器、键盘等外设；制作人晒出主角“魂”的1:1与1:3比例雕像；WF2026展会展出该雕像并获好评；官方确认游戏无实体光盘。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "R星新作底盘细节对比引发讨论，车辆悬挂等区域采用完整3D建模；开发团队为呈现亲密关系反复打磨“涩涩”内容；NPC行为机制更新，部分场景下男主可能全身赤裸。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "龙之信条2",
+          "count": 2,
+          "summary": "IGN为即将于10月9日发售的DLC“黑暗觉者”打出8分，评价内容扎实后期略显乏味。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "AION2",
+          "count": 1,
+          "summary": "《永恒之塔2》因角色外观自定义功能中胸部滑块范围过大引发玩家社区热议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Atomfall",
+          "count": 1,
+          "summary": "生存动作游戏《Atomfall》Denuvo反作弊保护被社区破解者voices38攻破。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "P.T.",
+          "count": 1,
+          "summary": "粉丝自制《P.T.》PC原生移植项目获小岛秀夫转发，开发者称这对自己意义重大。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不朽遗志",
+          "count": 1,
+          "summary": "距离发售仅剩不到两周，官方发布全新玩法概览预告并公开完整配音阵容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "光遇",
+          "count": 1,
+          "summary": "《我的世界》与《光·遇》联动活动“点亮星空”上线，美西螈成为活动最大黑马。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "全小将",
+          "count": 1,
+          "summary": "历史题材视觉小说《全小将》Demo于10月2日上线Steam，同时公开全新玩法PV。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "冰汽时代",
+          "count": 1,
+          "summary": "11位工作室宣布经典生存游戏《冰汽时代》将于10月19日登陆Nintendo Switch和Switch 2。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "刺客信条：黑旗",
+          "count": 1,
+          "summary": "育碧官方转发了一台由粉丝定制的《刺客信条：黑旗》主题PC主机。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑侠世界端游",
+          "count": 1,
+          "summary": "游戏迎来十八周年，首个“生态服”新服【仗剑天涯】将于10月13日开服。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星：血雨",
+          "count": 1,
+          "summary": "知名歌手The Weeknd现身开发商Shift Up总部，公开了游戏启动画面与新怪物影像。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "四海兄弟2&3",
+          "count": 1,
+          "summary": "《四海兄弟2 最终版》与《四海兄弟3 最终版》已通过ESRB评级，预计登陆本世代主机。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "城市天际线",
+          "count": 1,
+          "summary": "经典城市建造游戏《城市天际线》Expanded Edition将于10月29日登陆Switch 2，该版本为NS2独占。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
       "date": "2026-10-07",
-      "article_count": 30,
+      "article_count": 31,
       "game_count": 14,
       "untagged_count": 14,
-      "digest": "今日游戏资讯聚焦于《GTA6》泄密风波与《战争机器：事变日》创纪录的在线人数，同时《最终幻想16》Steam Deck认证与《生化危机9》DLC规划等消息引发关注。此外，《天国：拯救》制作人拒玩《GTA6》引发热议，《影之刃零》仅推数字版、育碧新作及《寂静岭f》对谈等资讯也占据一定篇幅。",
+      "digest": "2026年10月7日，行业资讯覆盖14款游戏动态，涉及GTA系列、生化危机、战争机器、全境封锁等知名项目，多款游戏在发售、更新及衍生动态上持续发布，整体呈现游戏产品迭代与热度交织发展的态势。",
       "digest_source": "llm",
-      "input_hash": "12c09dd90a9dfb07",
+      "input_hash": "09049fdffcc1b9ef",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 2,
-          "summary": "沉寂数月的黑客组织Cyberleek疑似重新上线，曾泄露实机内容的“葱哥”疑似复活；LOVE杂志实物图流出，曝光杰森与露西亚黑白同框的新造型。",
-          "summary_source": "llm"
+          "summary": "沉寂后卷土重来？泄密《GTA6》实机的\"葱哥\"疑似复活；《GTA6》杂志实物图流出：露西亚穿网袜造型很吸睛！。",
+          "summary_source": "rules"
         },
         {
           "name": "战争机器 事变日",
           "count": 2,
-          "summary": "团队转用虚幻5并回归系列起源“事变日”以强化不安感；Steam高级版抢先体验阶段刷新系列历史最高在线人数纪录。",
-          "summary_source": "llm"
+          "summary": "《战争机器：事变日》强化了不安感 让玩家直面恐惧；新作刷新纪录！《战争机器 事变日》在线峰值远超前作。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "生化危机9",
+          "count": 2,
+          "summary": "曝《生化危机9》DLC 2027年末推出！将重回初代洋馆；游侠晚报：《生化危机9》DLC爆料！XGP拖累了XBOX。",
+          "summary_source": "rules"
         },
         {
           "name": "GTA：圣安地列斯",
           "count": 1,
-          "summary": "随着《GTA6》发售临近，该作2004年不足1000万美元的成本与超1200万销量引发感慨。",
-          "summary_source": "llm"
+          "summary": "GTA6哭了!《GTA:圣安地列斯》成本还不到1000万美元。",
+          "summary_source": "rules"
         },
         {
           "name": "全境封锁",
           "count": 1,
-          "summary": "育碧Massive Entertainment通过招聘信息透露，正在开发一款未公开的新作。",
-          "summary_source": "llm"
+          "summary": "Snowdrop引擎开发！《全境封锁》工作室新项目曝光。",
+          "summary_source": "rules"
         },
         {
           "name": "天国：拯救",
           "count": 1,
-          "summary": "制作人Martin Klima表示自己对《GTA6》毫无兴趣，若非被逼无奈绝不会游玩。",
-          "summary_source": "llm"
+          "summary": "《天国:拯救》制作人：除非被逼 否则绝不玩《GTA6》。",
+          "summary_source": "rules"
         },
         {
           "name": "寂静岭f",
           "count": 1,
-          "summary": "制作人冈本基与《零》导演柴田诚在联动对谈中分享了日式恐怖创作心得。",
-          "summary_source": "llm"
+          "summary": "《寂静岭f》制作人和《零》导演谈日式恐怖的创作方法。",
+          "summary_source": "rules"
         },
         {
           "name": "影之刃零",
           "count": 1,
-          "summary": "Reddit用户爆料，有海外零售商确认《影之刃零》将无实体光盘，仅推出数字版。",
-          "summary_source": "llm"
+          "summary": "零售商爆料：《影之刃零》将无实体光盘 仅推出数字版。",
+          "summary_source": "rules"
         },
         {
           "name": "最终幻想16",
           "count": 1,
-          "summary": "官方宣布游戏已通过Steam Deck认证，支持在掌机上流畅运行，Steam平台开启最高六折限时特惠。",
-          "summary_source": "llm"
+          "summary": "掌机爽玩！《最终幻想16》官宣通过Steam Deck认证。",
+          "summary_source": "rules"
         },
         {
           "name": "极限竞速：地平线6",
           "count": 1,
-          "summary": "Playground Games发布公开信，承认与玩家沟通频次未达预期，并关注各类反馈。",
-          "summary_source": "llm"
+          "summary": "《极限竞速:地平线6》官方承认与玩家之间的沟通不理想。",
+          "summary_source": "rules"
         },
         {
           "name": "毁灭战士：黑暗时代",
           "count": 1,
-          "summary": "PS5版港服价格永降至358港币，并迎来价格与技术的双重更新。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化危机9",
-          "count": 1,
-          "summary": "知名爆料人透露DLC剧本正在创作中，预计将于2027年末推出，将重回初代洋馆。",
-          "summary_source": "llm"
+          "summary": "《毁灭战士：黑暗时代》PS5版港服价格永降至358港币。",
+          "summary_source": "rules"
         },
         {
           "name": "生化危机：爆发夜",
           "count": 1,
-          "summary": "多地影城发布观影提示，提醒未成年人谨慎观看正在热映的惊悚片。",
-          "summary_source": "llm"
+          "summary": "小朋友看《生化危机：爆发夜》被吓哭！家长当场带离。",
+          "summary_source": "rules"
         },
         {
           "name": "神秘海域",
           "count": 1,
-          "summary": "诺兰·诺斯透露自己“110%愿意”回归出演系列新作，但目前尚未收到相关消息。",
-          "summary_source": "llm"
+          "summary": "德雷克配音演员表示110%愿意回归《神秘海域》新作！。",
+          "summary_source": "rules"
         },
         {
           "name": "策定九州",
           "count": 1,
-          "summary": "玩家分享国庆假期入坑《三国群英传：策定九州》的7天体验报告，探讨2026年入坑是否晚。",
-          "summary_source": "llm"
+          "summary": "2026年才入坑《策定九州》晚了吗？新手玩家7天体验报告。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -784,107 +885,6 @@
           "name": "夜城狂想",
           "count": 1,
           "summary": "赛博朋克生活模拟游戏《夜城狂想》登Steam，发行商宣布其愿望单已超100万。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "article_count": 87,
-      "game_count": 54,
-      "untagged_count": 20,
-      "digest": "今日游戏资讯聚焦于《巫师3：狂猎 重制版》Switch 2版与PC版的画质对比及发售，以及《空战奇兵8 希孚之翼》的Steam口碑与Denuvo破解争议。此外，《战神：劳菲》开启预购，CDPR公布RTX 5080运行《巫师3RE》的配置要求，Remedy新作《控制：共振》公布辅助模式与探索设计，暴雪确认《暗黑4》赛季更新将持续，Bungie《光环》重启传闻引发正史争议。",
-      "digest_source": "llm",
-      "input_hash": "58e73cd514836a28",
-      "game_digests": [
-        {
-          "name": "巫师3",
-          "count": 4,
-          "summary": "Switch 2版《巫师3》重制版相比原版提升明显，光照阴影更真实，纹理细节更精细，分辨率更高，帧率目标提升至30-40 FPS并支持VRR，已拥有Switch原版游戏的玩家可免费升级。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "空战奇兵8",
-          "count": 4,
-          "summary": "《空战奇兵8 希孚之翼》Steam豪华版已开启抢先体验，首批玩家评价为“褒贬不一”好评率仅为59%，PC版Denuvo保护再度成为焦点，ARTIFACT已发布针对该作的实验性Hypervisor绕过工具。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3RE",
-          "count": 3,
-          "summary": "CDPR公布《巫师3：重制版》最新截图，宣布重制版正式发售，所有拥有原版的玩家均可免费升级，并更新配置要求显示4K路径追踪需要RTX 5080，该卡目前最低约1650美元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战神：劳菲",
-          "count": 3,
-          "summary": "《战神：劳菲》今日正式开启预购，港服数字标准版定价388港币，豪华版438港币，将于2027年2月16日登陆PS5，预购奖励包含“最后愿望”护甲套装及菲的全新武器“蛇弓”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：狂猎 — 重制版",
-          "count": 2,
-          "summary": "CD PROJEKT RED今日正式推出《巫师3：狂猎 — 重制版》，所有已拥有《巫师3：狂猎》玩家均可免费升级，体验这款传奇角色扮演游戏的一系列现代化升级与改进。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "控制：共振",
-          "count": 2,
-          "summary": "《控制：共振》没有传统难度等级，而是用“辅助模式”替代，玩家可随时开启或关闭，官方强调使用辅助模式不会锁定奖杯或成就，且游戏不使用醒目的黄色高亮标记引导玩家。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "暗黑5",
-          "count": 2,
-          "summary": "《暗黑破坏神5》虽定于2029年春季发售，但已引发同行关注，暴雪证实《暗黑4》的赛季更新仍会延续，只是不再推出新的资料片。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA 2",
-          "count": 1,
-          "summary": "Mod作者gebdag发布《GTA 2》RTX Remix模组，为这款1999年俯视角经典加入完整路径追踪、动态昼夜光照、16:9宽屏与帧生成，项目已在GitHub开源。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 1,
-          "summary": "社区流出《GTA VI》与2002年《GTA：罪恶都市》逐帧画面对比，涵盖超市、住宅、海星岛入口、城市高架和日落景观，24年技术演进让同一座城市呈现出截然不同的质感。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴",
-          "count": 1,
-          "summary": "前贝塞斯达资深设计师库尔特·库尔曼透露，《上古卷轴》系列始终没有像《辐射：新维加斯》那样交由外部工作室开发外传，根本原因在于陶德·霍华德对该IP“保护欲极强”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "不朽遗志",
-          "count": 1,
-          "summary": "《不朽遗志》正式公布配音阵容，文森特·卡索将为拿破仑·波拿巴献声，詹妮弗·英格利什饰演“The Shrike”，亚当·“Nergal”·达斯基也将参与配音。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "交错战线",
-          "count": 1,
-          "summary": "“仰卧起坐”冠军《交错战线》，这次又因为飙车吃罚单了。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环",
-          "count": 1,
-          "summary": "微软将《光环》开发主导权移交动视后，一则“可能彻底重启世界观”的传闻迅速点燃粉丝社区，争论的核心是Bungie时代的正史是否不可动摇。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "全面战争：战锤3",
-          "count": 1,
-          "summary": "《全面战争：战锤3》推出系列十年来最大DLC“终焉之主”，带来四位新传奇领主、50余个新单位，并首次允许玩家购买DLC后直接解锁“超凡帝国”战役。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "原神",
-          "count": 1,
-          "summary": "《原神》迎来上线六周年，放出六周年主题曲《风的来信》。",
           "summary_source": "llm"
         }
       ]

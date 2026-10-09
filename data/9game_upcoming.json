@@ -1,9 +1,9 @@
 {
-  "crawled_at": "2026-10-08T01:45:58.869123+00:00",
+  "crawled_at": "2026-10-09T01:56:34.075496+00:00",
   "days": [
     {
       "date": "2026-10-10",
-      "date_label": "10月10日 后天",
+      "date_label": "10月10日 明天",
       "games": [
         {
           "game_name": "超级新宠物",
@@ -83,6 +83,23 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/zuichuanqi3/",
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "date_label": "10月20日",
+      "games": [
+        {
+          "game_name": "长夜守卫者",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/zhangyeshouweizhe/",
+          "has_afk_grinding_tag": false
         }
       ]
     },

@@ -1,23 +1,46 @@
 {
-  "generated_at": "2026-10-08T01:58:14.851813+00:00",
+  "generated_at": "2026-10-09T02:18:02.878639+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-08",
-      "article_count": 3,
+      "date": "2026-10-09",
+      "article_count": 5,
       "game_count": 1,
-      "untagged_count": 2,
-      "digest": "2026年10月8日，当日GameLook共发布3条新闻，涉及游戏1款，未指向具体游戏的2条。具体为206款国产游戏及3款进口游戏获得版号，其中米哈游《源初之结》与祖龙《诡秘之主：愚者》通过版审，游戏行业审批信息更新，相关游戏动态持续引发关注。",
+      "untagged_count": 4,
+      "digest": "今日游戏行业资讯聚焦于韩国MMORPG《永恒之塔2》，该作在Steam平台上线后表现极为亮眼，不仅打破了韩国游戏出海的沉寂，更以40万玩家同时在线的数据震惊业界，引发了对韩国MMORPG复兴的广泛讨论。",
       "digest_source": "llm",
-      "input_hash": "cd990cef0c0f974a",
+      "input_hash": "4a385b3221e2775c",
       "game_digests": [
+        {
+          "name": "永恒之塔2",
+          "count": 1,
+          "summary": "《永恒之塔2》Steam爆红，40万人在线，被外媒称为“最小C杯”老外震惊",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "article_count": 5,
+      "game_count": 2,
+      "untagged_count": 3,
+      "digest": "10月8日GameLook共报道5条资讯，涉及2款游戏。主要聚焦于10月游戏上线计划及9月版号发放情况，其中西山居《剑侠世界4：无限》领衔10月15款新游上线，米哈游《源初之结》等206款国产及3款进口游戏获批版号。",
+      "digest_source": "llm",
+      "input_hash": "6b0ae48977ea66fd",
+      "game_digests": [
+        {
+          "name": "剑侠世界4：无限",
+          "count": 1,
+          "summary": "10月预计15款新游戏上线，该作领衔，Steam游戏反攻手游。",
+          "summary_source": "llm"
+        },
         {
           "name": "源初之结",
           "count": 1,
-          "summary": "206款国产3款进口游戏获版号：米哈游《源初之结》祖龙《诡秘之主：愚者》过审。",
-          "summary_source": "rules"
+          "summary": "206款国产及3款进口游戏获版号，米哈游《源初之结》过审。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -40,35 +63,6 @@
           "name": "角色屋",
           "count": 1,
           "summary": "独立游戏《角色屋》凭借Steam近3万人在线的惊人热度，成为同人社区与桌宠游戏领域的焦点。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "article_count": 7,
-      "game_count": 3,
-      "untagged_count": 4,
-      "digest": "9月29日游戏行业资讯聚焦于米哈游旗下两款产品的AI技术应用与一款新游的预约热度。米哈游在云栖大会上分享了《崩坏》系列与《星布谷地》的AI NPC开发经验，而《亲爱的乘客》则凭借Steam预约突破250万人的成绩引发关注。",
-      "digest_source": "llm",
-      "input_hash": "84f1db04ab05af95",
-      "game_digests": [
-        {
-          "name": "亲爱的乘客",
-          "count": 1,
-          "summary": "Steam愿望清单榜上出现“不速之客”，该作预约人数突破250万人，位列全球第三。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "崩坏",
-          "count": 1,
-          "summary": "米哈游AI大佬在云栖大会上揭秘，分享了《崩坏》系列在会说话NPC与游戏Agent方面的开发进展。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星布谷地",
-          "count": 1,
-          "summary": "米哈游李嫣然在云栖大会上分享了《星布谷地》AI NPC的开发经验，重点阐述了如何通过“活人感”来俘获玩家。",
           "summary_source": "llm"
         }
       ]
