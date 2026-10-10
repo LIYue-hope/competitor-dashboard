@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-10-09T01:56:00.864434+00:00",
+  "crawled_at": "2026-10-10T01:38:24.357803+00:00",
   "window_days": 7,
   "publishers": [
     {
@@ -12,7 +12,15 @@
           "publisher_key": "tencent",
           "official_url": "https://df.qq.com/",
           "source_status": "ok",
-          "updates": [],
+          "updates": [
+            {
+              "title": "10月10日更新公告丨季中平衡性调整＆极星守望即将上线！",
+              "type": "更新公告",
+              "date": "2026-10-09",
+              "summary": "（本条为图片公告，正文无文字内容，点击查看原文）",
+              "url": "https://df.qq.com/cp/a20240906main/newsdetail.html?id=7231585209390316729"
+            }
+          ],
           "has_afk_grinding_tag": false
         },
         {
@@ -50,6 +58,34 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "10月9日挂车行为专项打击处罚公告",
+              "type": "公告",
+              "date": "2026-10-09",
+              "summary": "",
+              "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=810600"
+            },
+            {
+              "title": "10月9日言语违规专项打击处罚公告",
+              "type": "公告",
+              "date": "2026-10-09",
+              "summary": "",
+              "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=810599"
+            },
+            {
+              "title": "10月9日“演员”行为专项打击处罚公告",
+              "type": "公告",
+              "date": "2026-10-09",
+              "summary": "",
+              "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=810598"
+            },
+            {
+              "title": "10月9日外挂专项打击处罚公告",
+              "type": "公告",
+              "date": "2026-10-09",
+              "summary": "",
+              "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=810597"
+            },
+            {
               "title": "【种个苹安果】活动开启公告",
               "type": "新活动",
               "date": "2026-10-08",
@@ -72,7 +108,15 @@
           "publisher_key": "tencent",
           "official_url": "https://jcc.qq.com/",
           "source_status": "ok",
-          "updates": [],
+          "updates": [
+            {
+              "title": "《金铲铲之战》10月9日更新 问题修复公告",
+              "type": "更新公告",
+              "date": "2026-10-09",
+              "summary": "",
+              "url": "https://jcc.qq.com/#/news/1863136227753834989"
+            }
+          ],
           "has_afk_grinding_tag": false
         },
         {
@@ -128,13 +172,6 @@
               "date": "2026-10-05",
               "summary": "",
               "url": "https://codm.qq.com/gicp/news/887/18906020.html"
-            },
-            {
-              "title": "瘦普假期系列活动收官之作！（还有礼）",
-              "type": "新活动",
-              "date": "2026-10-03",
-              "summary": "",
-              "url": "https://codm.qq.com/gicp/news/887/18906024.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -185,7 +222,15 @@
           "publisher_key": "netease",
           "official_url": "https://party.163.com/",
           "source_status": "ok",
-          "updates": [],
+          "updates": [
+            {
+              "title": "《蛋仔派对》10月10日不停服更新维护公告",
+              "type": "更新公告",
+              "date": "2026-10-09",
+              "summary": "亲爱的蛋仔们： 为保证蛋仔们的游戏体验，我们已于 10月10日8:00~8:30 完成不停服维护， 本次更新的内容如下： 【玩法更新】 一、<蛋仔城> 更新时间：10月10日10:00 1.新增了6套拼豆模板。",
+              "url": "https://party.163.com/update/20261009/35182_1316170.html"
+            }
+          ],
           "has_afk_grinding_tag": false
         },
         {
@@ -196,11 +241,25 @@
           "source_status": "ok",
           "updates": [
             {
-              "title": "【捕色绘影】江湖风光壁纸放送",
+              "title": "10月9日2.8.5版本「平澜起风波」更新公告",
+              "type": "更新公告",
+              "date": "2026-10-09",
+              "summary": "10月9日2.8.5版本「平澜起风波」更新公告",
+              "url": "https://www.yysls.cn/news/update/20261009/40412_1316018.html"
+            },
+            {
+              "title": "十月相约，祗候君至",
               "type": "新闻",
-              "date": "2026-10-03",
-              "summary": "【捕色绘影】江湖风光壁纸放送",
-              "url": "https://www.yysls.cn/news/official/20261003/37780_1315831.html"
+              "date": "2026-10-08",
+              "summary": "一封神秘的邀约",
+              "url": "https://www.yysls.cn/news/official/20261009/37780_1316159.html"
+            },
+            {
+              "title": "新礼包【风风虎虎】上架，战令外观【鹊踏枝】返场",
+              "type": "新活动",
+              "date": "2026-10-05",
+              "summary": "全新玩法活动【百司直聘】本周开启",
+              "url": "https://www.yysls.cn/news/official/20261009/37780_1316155.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -211,7 +270,15 @@
           "publisher_key": "netease",
           "official_url": "https://yys.163.com/",
           "source_status": "ok",
-          "updates": [],
+          "updates": [
+            {
+              "title": "《阴阳师》手游10月10日维护更新公告",
+              "type": "更新公告",
+              "date": "2026-10-09",
+              "summary": "※维护时间 2026年10月10日7:00-9:00 ※亲爱的阴阳师大人： 为了给大家带来更好的游戏体验，服务器将进行停服维护，期间暂时无法进入游戏。若未能按时完成维护，则开服时间将会顺延，给各位带来的不便敬请谅解，非常感谢大家的支持和理解！",
+              "url": "https://yys.163.com/news/update/20261009/23024_1316181.html"
+            }
+          ],
           "has_afk_grinding_tag": false
         },
         {
@@ -261,7 +328,15 @@
           "publisher_key": "netease",
           "official_url": "https://mc.163.com/",
           "source_status": "ok",
-          "updates": [],
+          "updates": [
+            {
+              "title": "《我的世界》9月违规行为处罚公告",
+              "type": "新闻",
+              "date": "2026-10-09",
+              "summary": "《我的世界》9月违规行为处罚公告",
+              "url": "https://mc.163.com/news/20261009/29175_1316132.html"
+            }
+          ],
           "has_afk_grinding_tag": false
         },
         {
@@ -321,6 +396,20 @@
           "official_url": "https://ys.mihoyo.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "行秋生日快乐 | 「秋水映故人，残卷落晚枫。」",
+              "type": "新闻",
+              "date": "2026-10-09",
+              "summary": "我方才正对着这满院秋色出神，想着书中有什么诗句可以与之相衬。 结果一听到你的脚步声，立刻就有了不少灵感。 「秋水映故人，残卷落晚枫。」你觉得这两句如何？ 反正闲着也无趣，你就陪我对一对诗嘛，或者，我给你讲讲这最新版的武侠传记？ 感谢画师：BiBi绘制贺图 关于《原神》 《原神》是…",
+              "url": "https://ys.mihoyo.com/main/news/detail/166642"
+            },
+            {
+              "title": "《原神》过场动画-「『死』，从不讲道理」",
+              "type": "新闻",
+              "date": "2026-10-09",
+              "summary": "终有一日，死亡也会质问高天，质问规则的缄默不言。 她早该知道，所谓死亡的权与理，从来不是由她而定。 CV： 「死之执政」若娜瓦——Selene 「丑角」皮耶罗——符冲 戴因斯雷布——孙晔 空——鹿喑 瓦列里——淦子齐 关于《原神》 《原神》是由米哈游自研的一款开放世界冒险RPG。…",
+              "url": "https://ys.mihoyo.com/main/news/detail/166565"
+            },
             {
               "title": "「神铸赋形」祈愿：「单手剑·苍耀」「长柄武器·香韵奏者」概率UP！",
               "type": "新闻",
@@ -411,6 +500,13 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "《绝区零》3.3版本「重返天空的旅程」前瞻特别节目",
+              "type": "版本前瞻",
+              "date": "2026-10-09",
+              "summary": "全新S级代理人「菲欧妮」、「赛维里安」即将登场！",
+              "url": "https://zzz.mihoyo.com/news/166652"
+            },
+            {
               "title": "生日快乐伊芙琳丨嗯呢！您呼叫的用户暂时无法接通",
               "type": "新闻",
               "date": "2026-10-07",
@@ -457,18 +553,18 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "「昨日海」创作征集活动开启",
+              "type": "新活动",
+              "date": "2026-10-09",
+              "summary": "「昨日海」创作征集进行中《明日方舟》「昨日海」创作征集活动现已在多平台进行中。各位博士可在哔哩哔哩、抖音、微博、小红书、快手、微信游戏圈、QQ频道等平台按活动要求进行内容创作，即可参与创作瓜分、作品评",
+              "url": "https://ak.hypergryph.com/news/3033"
+            },
+            {
               "title": "[明日方舟]10月09日06:00版本更新停机维护公告",
               "type": "更新公告",
               "date": "2026-10-07",
               "summary": "感谢您对《明日方舟》的关注与支持，《明日方舟》新版本预下载现已开启，玩家可提前下载PC端的部分游戏资源，在版本更新维护结束后，更快地进入游戏。此外，《明日方舟》计划将于2026年10月09日06:00",
               "url": "https://ak.hypergryph.com/news/6242"
-            },
-            {
-              "title": "[活动预告]SideStory「昨日海」限时活动即将开启",
-              "type": "新活动",
-              "date": "2026-10-03",
-              "summary": "一、全新SideStory「昨日海」，活动关卡开启活动时间：10月09日 12:00 - 10月30日 03:59解锁条件：通关主线1-10活动说明：活动期间将开放「昨日海」活动关卡，玩家可通过活动关",
-              "url": "https://ak.hypergryph.com/news/5101"
             }
           ],
           "has_afk_grinding_tag": false,
@@ -514,6 +610,34 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "《无限暖暖》2.10版本「金羽的裁决」 | 商城限时上架",
+              "type": "新活动",
+              "date": "2026-10-09",
+              "summary": "《无限暖暖》2.10版本「金羽的裁决」现已全球同步开启！",
+              "url": "https://infinitynikki.nuanpaper.com/news/1065"
+            },
+            {
+              "title": "《无限暖暖》「缘起绘笔万念生」限定共鸣复刻开启",
+              "type": "新闻",
+              "date": "2026-10-09",
+              "summary": "《无限暖暖》2.10版本「金羽的裁决」现已全球同步开启！",
+              "url": "https://infinitynikki.nuanpaper.com/news/1064"
+            },
+            {
+              "title": "《无限暖暖》奇想衣橱 | 永眠的伫望",
+              "type": "新闻",
+              "date": "2026-10-09",
+              "summary": "《无限暖暖》2.10版本「金羽的裁决」现已全球同步开启！",
+              "url": "https://infinitynikki.nuanpaper.com/news/1063"
+            },
+            {
+              "title": "《无限暖暖》奇想衣橱 | 幽影嬉夜时",
+              "type": "新闻",
+              "date": "2026-10-09",
+              "summary": "《无限暖暖》2.10版本「金羽的裁决」现已全球同步开启！",
+              "url": "https://infinitynikki.nuanpaper.com/news/1062"
+            },
+            {
               "title": "《无限暖暖》RED LAND奇想乐园 | 精彩回顾",
               "type": "新闻",
               "date": "2026-10-06",
@@ -530,7 +654,15 @@
           "publisher_key": "hg_kuro_pape",
           "official_url": "https://nikki4.papegames.cn/",
           "source_status": "ok",
-          "updates": [],
+          "updates": [
+            {
+              "title": "【闪耀暖暖】各渠道更新包体下载地址",
+              "type": "新闻",
+              "date": "2026-10-09",
+              "summary": "",
+              "url": "https://nikki4.papegames.cn/news/101811"
+            }
+          ],
           "has_afk_grinding_tag": false,
           "company": "叠纸"
         },
@@ -588,6 +720,13 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "神秘新员工制作进度汇报！",
+              "type": "新闻",
+              "date": "2026-10-09",
+              "summary": "",
+              "url": "https://www.chaoziran.com/news/800"
+            },
+            {
               "title": "长生......到底是馈赠还是牢笼。",
               "type": "新闻",
               "date": "2026-10-08",
@@ -600,34 +739,6 @@
               "date": "2026-10-08",
               "summary": "",
               "url": "https://www.chaoziran.com/news/798"
-            },
-            {
-              "title": "童趣风美妆【幻彩泡泡】爆料",
-              "type": "新闻",
-              "date": "2026-10-03",
-              "summary": "",
-              "url": "https://www.chaoziran.com/news/797"
-            },
-            {
-              "title": "【米娅-纯真不锈】演绎动画展示",
-              "type": "新闻",
-              "date": "2026-10-03",
-              "summary": "",
-              "url": "https://www.chaoziran.com/news/796"
-            },
-            {
-              "title": "丫够燥的！【琵琶-棱彩吉他】爆料",
-              "type": "新闻",
-              "date": "2026-10-03",
-              "summary": "",
-              "url": "https://www.chaoziran.com/news/795"
-            },
-            {
-              "title": "米娅【纯真不锈】耀世时装细节展示",
-              "type": "新闻",
-              "date": "2026-10-03",
-              "summary": "",
-              "url": "https://www.chaoziran.com/news/794"
             }
           ],
           "has_afk_grinding_tag": false,
@@ -649,7 +760,15 @@
           "publisher_key": "other",
           "official_url": "https://game.bilibili.com/fgo/news.html",
           "source_status": "ok",
-          "updates": [],
+          "updates": [
+            {
+              "title": "【限时】「Final Order Project [Ordeal Call III]通关应援纪念活动」举办！",
+              "type": "新活动",
+              "date": "2026-10-09",
+              "summary": "",
+              "url": "https://game.bilibili.com/fgo/news.html#!news/0/1/18439"
+            }
+          ],
           "has_afk_grinding_tag": false,
           "company": "B站"
         },

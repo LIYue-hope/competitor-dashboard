@@ -1,23 +1,58 @@
 {
-  "generated_at": "2026-10-09T02:24:19.322204+00:00",
+  "generated_at": "2026-10-10T01:57:22.893643+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-09",
-      "article_count": 3,
+      "date": "2026-10-10",
+      "article_count": 5,
       "game_count": 1,
-      "untagged_count": 2,
-      "digest": "2026年10月9日，游资网当天发布3条新闻，涉及1款游戏《沉星之序》，包括其登陆多平台、含丰富手工谜题及后续追加中文配音等内容，整体呈现该游戏多平台首发及持续推进相关动态的情况。游戏名｜《沉星之序》这款游戏当天的动态是该游戏现已登陆PC、Nintendo Switch 2与PlayStation 5，游戏由Jonathan Blow领衔打造，包含千余项手工谜题，现已公布相应定价与配音阵容，后续也将追加中文配音，相关动态推进展开清晰。",
-      "digest_source": "llm",
-      "input_hash": "926e3bcca31f34ad",
+      "untagged_count": 4,
+      "digest": "10月10日 游资网 共 5 条新闻，涉及 1 款游戏。报道最集中的是《重返未来：1999》（1 条）。另有 4 条未指向具体游戏的行业或平台资讯。《重返未来：1999》方面的报道有「独家对话《重返未来：1999》制作人丨最有品味的二游，是怎么赌出来的？」。",
+      "digest_source": "rules",
+      "input_hash": "714ae037dee43ce6",
       "game_digests": [
+        {
+          "name": "重返未来：1999",
+          "count": 1,
+          "summary": "独家对话《重返未来：1999》制作人丨最有品味的二游，是怎么赌出来的？。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "article_count": 7,
+      "game_count": 4,
+      "untagged_count": 3,
+      "digest": "今日游戏资讯聚焦于多款新游的试玩体验与发售动态，涵盖深海潜艇冒险、合成肉鸽塔防、硬核动作及解谜冒险等类型。Abylight Studios宣布《S.O.N.A.R.潜艇菜鸟团》Demo于9月30日登陆Steam，完整版定档10月29日；触乐分享了《影之刃零》近发售版闭门试玩体验，肯定了其探索与战斗水准；《合合守卫》展示了融合合成与肉鸽玩法的回合制塔防设计；Jonathan Blow领衔的《沉星之序》则已登陆PC、Switch 2及PS5平台。",
+      "digest_source": "llm",
+      "input_hash": "ccb17c3e20166f9c",
+      "game_digests": [
+        {
+          "name": "S.O.N.A.R.潜艇菜鸟团",
+          "count": 1,
+          "summary": "Abylight Studios宣布该作免费试玩Demo于9月30日登陆Steam，含单人教程与两项精选任务，完整版将于10月29日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "合合守卫",
+          "count": 1,
+          "summary": "这款融合合成与肉鸽玩法的回合制塔防游戏支持同品质同英雄合成晋升，拥有火+风=火旋风等惊艳元素反应，搭配格子管理策略与大梦系养成。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "触乐参加该作近发售版闭门试玩，5小时体验覆盖多章节剧情、关卡与Boss战，肯定了游戏在探索与战斗方面的水准，整体质量令人安心。",
+          "summary_source": "llm"
+        },
         {
           "name": "沉星之序",
           "count": 1,
-          "summary": "《沉星之序》现已登陆 PC、Nintendo Switch 2 与 PlayStation 5。",
-          "summary_source": "rules"
+          "summary": "Jonathan Blow领衔打造的大型谜题冒险游戏现已登陆PC、Nintendo Switch 2与PlayStation 5，包含千余手工谜题，后续将追加中文配音。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -96,8 +131,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "2026年10月3日，当日游资网发布资讯仅1条，涉及游戏数量为0款，资讯主要聚焦于未指向具体游戏的相关内容，整体市场动态缺乏具体的游戏类相关进展信息。游戏｜无具体游戏相关动态记录。",
-      "digest_source": "llm",
+      "digest": "10月3日 游资网 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「米哈游等不及了，年内还要炸一次？」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
       "input_hash": "868bada6a939a5a8",
       "game_digests": []
     },
@@ -131,47 +166,6 @@
           "name": "英雄不再",
           "count": 1,
           "summary": "草蜢工作室宣布脱离网易游戏，重新独立运营，成为第4家友好脱离网易、保留团队独立运营的海外工作室",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "article_count": 12,
-      "game_count": 5,
-      "untagged_count": 7,
-      "digest": "9月30日游戏行业资讯聚焦版号审批与多款新作动态，国家新闻出版署公布9月206款国产及3款进口网游版号获批，另有15款游戏变更审批信息；Steam愿望单榜第三的独立游戏《亲爱的乘客》预约突破250万；挖洞游戏续作《掘地求财：铲友齐上阵》公开，支持4人跨平台联机；美少女动作肉鸽《无尽幻樱阁》定档11月4日发售；俯视角动作射击游戏《科恩 1939》正式上线Steam，定价52元。",
-      "digest_source": "llm",
-      "input_hash": "547d49e0d4362b21",
-      "game_digests": [
-        {
-          "name": "2026年9月",
-          "count": 1,
-          "summary": "【2026年9月】206款国产网络游戏、3款进口网络游戏版号获批。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "亲爱的乘客",
-          "count": 1,
-          "summary": "Steam愿望单榜第三，预约突破250万，超过《影之刃零》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "掘地求财：铲友齐上阵",
-          "count": 1,
-          "summary": "百万销量挖洞游戏续作正式公开，支持4人跨平台联机挖宝。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "无尽幻樱阁",
-          "count": 1,
-          "summary": "3D动作肉鸽游戏定档11月4日上线Steam，开放免费试玩Demo。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "科恩 1939",
-          "count": 1,
-          "summary": "俯视角快节奏动作射击游戏正式发售，定价52元，首发享10%优惠。",
           "summary_source": "llm"
         }
       ]

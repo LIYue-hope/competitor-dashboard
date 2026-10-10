@@ -1,9 +1,9 @@
 {
-  "crawled_at": "2026-10-09T01:56:34.075496+00:00",
+  "crawled_at": "2026-10-10T01:39:05.474476+00:00",
   "days": [
     {
       "date": "2026-10-10",
-      "date_label": "10月10日 明天",
+      "date_label": "10月10日 今天",
       "games": [
         {
           "game_name": "超级新宠物",
@@ -22,6 +22,17 @@
       "date": "2026-10-13",
       "date_label": "10月13日 下周二",
       "games": [
+        {
+          "game_name": "我叫MT",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/wjmtjq/",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "乱世龙魂",
           "categories": [
@@ -66,23 +77,6 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/jxsj4wx/",
           "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "date_label": "10月16日 下周五",
-      "games": [
-        {
-          "game_name": "最传奇",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "复古打金传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zuichuanqi3/",
-          "has_afk_grinding_tag": true
         }
       ]
     },
@@ -172,6 +166,23 @@
           "event_desc": "单职业传奇",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/porikaitian/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "date_label": "11月06日",
+      "games": [
+        {
+          "game_name": "巴雄天下",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "超爽传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/baxiongtianxia1/",
           "has_afk_grinding_tag": false
         }
       ]

@@ -1,22 +1,45 @@
 {
-  "generated_at": "2026-10-09T02:18:02.878639+00:00",
+  "generated_at": "2026-10-10T01:54:48.520510+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-09",
-      "article_count": 5,
+      "date": "2026-10-10",
+      "article_count": 1,
       "game_count": 1,
-      "untagged_count": 4,
-      "digest": "今日游戏行业资讯聚焦于韩国MMORPG《永恒之塔2》，该作在Steam平台上线后表现极为亮眼，不仅打破了韩国游戏出海的沉寂，更以40万玩家同时在线的数据震惊业界，引发了对韩国MMORPG复兴的广泛讨论。",
+      "untagged_count": 0,
+      "digest": "2026年10月10日当日仅有 GameLook 发布 1 条游戏相关报道，涉及游戏为《剑侠世界4：无限》，整体发布与内容更新信息尚待进一步明确，行业动态整体较为简洁，市场相关热度与具体表现暂未充分显现。游戏名｜这款游戏当天的动态：《剑侠世界4：无限》围绕末法时代背景展开，郭炜炜离场，作品发布相关“小作文”，后续或将在内容推进上加强相关表现，具体表现及后续推进细节暂未披露。",
       "digest_source": "llm",
-      "input_hash": "4a385b3221e2775c",
+      "input_hash": "0dfaaf9211b82585",
+      "game_digests": [
+        {
+          "name": "剑侠世界4：无限",
+          "count": 1,
+          "summary": "末法时代的MMO：郭炜炜离场,《剑侠世界4：无限》发“小作文”下周拼命！。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "article_count": 7,
+      "game_count": 2,
+      "untagged_count": 5,
+      "digest": "今日GameLook共报道7条资讯，聚焦韩国MMORPG《永恒之塔2》与国产独立游戏《艾希：续》。前者在Steam上线后表现火爆，后者在众筹活动中获得玩家巨额资金支持，引发行业对独游开发模式的关注。",
+      "digest_source": "llm",
+      "input_hash": "72315ce6d5852e1a",
       "game_digests": [
         {
           "name": "永恒之塔2",
           "count": 1,
-          "summary": "《永恒之塔2》Steam爆红，40万人在线，被外媒称为“最小C杯”老外震惊",
+          "summary": "《永恒之塔2》在Steam上线后爆红，韩国MMORPG市场关注度提升，游戏在线人数达到40万，被玩家称为“最小C杯”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "艾希：续",
+          "count": 1,
+          "summary": "国产独立游戏《艾希：续》开启众筹，玩家疯狂充值总额达3000万，制作人表示这辈子都不敢再众筹。",
           "summary_source": "llm"
         }
       ]
@@ -40,29 +63,6 @@
           "name": "源初之结",
           "count": 1,
           "summary": "206款国产及3款进口游戏获版号，米哈游《源初之结》过审。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "article_count": 7,
-      "game_count": 2,
-      "untagged_count": 5,
-      "digest": "2026年9月30日，游戏行业资讯聚焦于腾讯大作定档与独立游戏热度。腾讯确认《异人之下》与《怪物猎人: 旅人》定档收官，而独立游戏《角色屋》凭借Steam近3万人在线的亮眼数据引发关注。",
-      "digest_source": "llm",
-      "input_hash": "90e65cc169c1a2a5",
-      "game_digests": [
-        {
-          "name": "异人之下",
-          "count": 1,
-          "summary": "腾讯确认《异人之下》与《怪物猎人: 旅人》定档，作为腾讯收官大戏备受期待。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "角色屋",
-          "count": 1,
-          "summary": "独立游戏《角色屋》凭借Steam近3万人在线的惊人热度，成为同人社区与桌宠游戏领域的焦点。",
           "summary_source": "llm"
         }
       ]

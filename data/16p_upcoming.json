@@ -1,10 +1,40 @@
 {
-  "crawled_at": "2026-10-09T01:56:43.332334+00:00",
+  "crawled_at": "2026-10-10T01:39:20.213087+00:00",
   "days": [
     {
       "date": "2026-10-10",
-      "date_label": "10月10日 明天",
+      "date_label": "10月10日 今天",
       "games": [
+        {
+          "game_name": "我在废土开超市",
+          "categories": [
+            "模拟",
+            "模拟经营",
+            "废土",
+            "末日"
+          ],
+          "score": "7.8",
+          "release_date": "2026-10-10",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1958094.html",
+          "publisher": "精力有限工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "我是伪人:同化世界",
+          "categories": [
+            "TapTap制造",
+            "策略"
+          ],
+          "score": "8.5",
+          "release_date": "2026-10-10",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1958070.html",
+          "publisher": "叉子工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "九万亩",
           "categories": [
@@ -14,7 +44,7 @@
             "模拟经营",
             "多人联机"
           ],
-          "score": "8.6",
+          "score": "8.5",
           "release_date": "2026-10-10",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1953738.html",
@@ -26,7 +56,7 @@
     },
     {
       "date": "2026-10-12",
-      "date_label": "10月12日 下周一",
+      "date_label": "10月12日 后天",
       "games": [
         {
           "game_name": "九个国王",
@@ -55,6 +85,24 @@
       "date_label": "10月13日 下周二",
       "games": [
         {
+          "game_name": "江湖我最牛",
+          "categories": [
+            "角色扮演",
+            "武侠",
+            "放置",
+            "像素",
+            "国风",
+            "养成"
+          ],
+          "score": "8.8",
+          "release_date": "2026-10-13",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1953478.html",
+          "publisher": "飞升研究所",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        },
+        {
           "game_name": "我叫MT:崛起",
           "categories": [
             "角色扮演",
@@ -63,7 +111,7 @@
             "放置",
             "刷宝"
           ],
-          "score": "7.5",
+          "score": "7.6",
           "release_date": "2026-10-13",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952836.html",
@@ -201,6 +249,48 @@
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1948230.html",
           "publisher": "金山世游卓立",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "date_label": "10月16日 下周五",
+      "games": [
+        {
+          "game_name": "勇者乱斗",
+          "categories": [
+            "策略",
+            "PVP",
+            "竞技",
+            "合成",
+            "自走棋",
+            "休闲"
+          ],
+          "score": "7.7",
+          "release_date": "2026-10-16",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1956039.html",
+          "publisher": "电梦网络",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "问剑长生",
+          "categories": [
+            "修仙",
+            "放置",
+            "3D",
+            "国风",
+            "多人联机",
+            "角色扮演"
+          ],
+          "score": "7.4",
+          "release_date": "2026-10-16",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952945.html",
+          "publisher": "雷霆游戏",
           "is_major_publisher": false,
           "has_afk_grinding_tag": true
         }

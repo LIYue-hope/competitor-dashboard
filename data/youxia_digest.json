@@ -1,106 +1,207 @@
 {
-  "generated_at": "2026-10-09T02:08:37.380349+00:00",
+  "generated_at": "2026-10-10T01:48:59.195129+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-08",
-      "article_count": 61,
-      "game_count": 43,
-      "untagged_count": 12,
-      "digest": "10月8日游戏行业资讯丰富，国产动作游戏《影之刃零》热度持续，ROG公布联名外设，制作人晒出主角雕像；R星新作《GTA6》细节曝光，底盘建模与NPC行为机制引发讨论；卡普空《龙之信条2》DLC获IGN 8分好评；《AION2》因角色外观自定义功能上线引热议；此外《P.T.》PC版移植获小岛秀夫转发，《冰汽时代》宣布登陆Switch 2等。",
+      "date": "2026-10-09",
+      "article_count": 60,
+      "game_count": 40,
+      "untagged_count": 13,
+      "digest": "10月9日游戏资讯聚焦于《影之刃零》公布武器系统与二周目设计，以及《GTA6》泄露新演示与截图。此外，3i计划发布会公布《叫魂》《土豆兄弟：史前惧兽》等新作，EA发布《Apex 英雄：血之契约》活动预告，2K宣布《四海兄弟3》十周年更新支持60帧，索尼官宣《对马岛之魂》衍生动画2028年上线。",
       "digest_source": "llm",
-      "input_hash": "9b4417f27ae27ab9",
+      "input_hash": "93c7636b18c81823",
       "game_digests": [
         {
           "name": "影之刃零",
           "count": 4,
-          "summary": "ROG公布联名限定装备阵容，涵盖显示器、键盘等外设；制作人晒出主角“魂”的1:1与1:3比例雕像；WF2026展会展出该雕像并获好评；官方确认游戏无实体光盘。",
+          "summary": "灵游坊公布武器系统设计思路，最弱木剑理论上也能通关，总监梁其伟表示游戏不会强制频繁切换武器，保留自由度，且Boss均设二阶段，二周目不会锁大量新内容。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
           "count": 3,
-          "summary": "R星新作底盘细节对比引发讨论，车辆悬挂等区域采用完整3D建模；开发团队为呈现亲密关系反复打磨“涩涩”内容；NPC行为机制更新，部分场景下男主可能全身赤裸。",
+          "summary": "葱哥再泄露《GTA6》全新25分钟演示，R星同步披露三张新截图，展示出色光影效果，此前还泄露了包含第一人称和果体内容的剧情演示。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "叫魂",
+          "count": 2,
+          "summary": "电影化叙事第一人称心理恐怖游戏《叫魂》正式公布，设定在世纪末中国小镇，预计2027年登陆PC和PS5。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "警目如炬",
+          "count": 2,
+          "summary": "超现实沉浸式模拟游戏《警目如炬》在3i计划发布会上公布新预告，首个试玩版现已上线Steam。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Apex 英雄：血之契约",
+          "count": 1,
+          "summary": "EA与Respawn发布活动官方预告片，本次《血之契约》活动将于太平洋时间10月13日至11月2日期间开启。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7启示",
+          "count": 1,
+          "summary": "《FF7启示》配音团队亮相纽约漫展，多位英文声优分享幕后细节，并曝光了克劳德与爱丽丝有重磅对手戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "S.O.N.A.R.潜艇菜鸟团",
+          "count": 1,
+          "summary": "独立游戏《S.O.N.A.R.潜艇菜鸟团》免费Demo于9月30日登陆Steam。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Tropico 7",
+          "count": 1,
+          "summary": "发行商Kalypso Media发布《Tropico 7》故事预告片，展现战役模式内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "四海兄弟3",
+          "count": 1,
+          "summary": "2K官方发布2026年10月重大更新，PC版全面优化修复，PS5与Xbox Series X|S版支持60帧，PS4玩家可免费升级至PS5版本。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "土豆兄弟：史前惧兽",
+          "count": 1,
+          "summary": "《土豆兄弟：史前惧兽》新预告公布，官方宣布将于11月2日登陆Steam、Epic和GOG。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塔罗斯法则3",
+          "count": 1,
+          "summary": "《塔罗斯法则3》首支实机演示公开，游戏将于2027年登陆PC和PlayStation 5。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说：时之笛",
+          "count": 1,
+          "summary": "媒体重新评估1998年经典，指出其在镜头、操作及时间机制上仍有不足。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "寂静岭：小镇陷落",
+          "count": 1,
+          "summary": "游戏推出1.4.0版本更新，大幅削弱最强怪物“重压”，优化敌人AI并修复阻碍进度的BUG。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "对马岛之魂 冥人奇谭",
+          "count": 1,
+          "summary": "索尼在纽约漫展Crunchyroll专场正式官宣衍生动画《对马岛之魂 冥人奇谭》定档2028年上线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "小马岛",
+          "count": 1,
+          "summary": "悬疑解谜游戏《小马岛》现可在Steam免费领取。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "article_count": 97,
+      "game_count": 61,
+      "untagged_count": 26,
+      "digest": "今日游戏资讯聚焦于《GTA6》的车辆建模细节与露骨内容讨论，以及《影之刃零》的联名外设与雕像展示。此外，《战地风云6》确认将加入XGP订阅库，国产音游《动物城咖啡店》定档10月13日，而《兰斯7：战国兰斯》登陆Steam好评如潮。",
+      "digest_source": "llm",
+      "input_hash": "5b9b9fa79ca8a358",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 5,
+          "summary": "R星负责人Rob Nelson介绍《GTA6》NPC行为机制，称NPC会主动攻击玩家，且男主有时会全身赤裸。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 4,
+          "summary": "《影之刃零》确认没有实体光盘，此前有玩家收到相关回复。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "动物城咖啡店",
+          "count": 2,
+          "summary": "国产直觉系节奏音游《动物城咖啡店》现已定档10月13日在Steam正式上线，主打呆萌、搞怪、接地气的风格。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战地风云6",
+          "count": 2,
+          "summary": "业内爆料消息显示，《战地风云6》年度版或将于10月13日推出，售价定为100欧元，老玩家或可花费30欧元升级版本。",
           "summary_source": "llm"
         },
         {
           "name": "龙之信条2",
           "count": 2,
-          "summary": "IGN为即将于10月9日发售的DLC“黑暗觉者”打出8分，评价内容扎实后期略显乏味。",
+          "summary": "IGN为《龙之信条2》DLC“黑暗觉者”打出8分评价，称其内容丰富扎实，但后期略显乏味。",
           "summary_source": "llm"
         },
         {
           "name": "AION2",
           "count": 1,
-          "summary": "《永恒之塔2》因角色外观自定义功能中胸部滑块范围过大引发玩家社区热议。",
+          "summary": "《永恒之塔2》在欧美、日本等地区正式上线，其角色外观自定义功能迅速成为焦点，吸引近40万人涌入体验。",
           "summary_source": "llm"
         },
         {
           "name": "Atomfall",
           "count": 1,
-          "summary": "生存动作游戏《Atomfall》Denuvo反作弊保护被社区破解者voices38攻破。",
+          "summary": "生存动作游戏《Atomfall》于当地时间10月7日在CrackWatch出现Denuvo Anti-Tamper保护被绕过的版本，发布者署名为voices38。",
           "summary_source": "llm"
         },
         {
           "name": "P.T.",
           "count": 1,
-          "summary": "粉丝自制《P.T.》PC原生移植项目获小岛秀夫转发，开发者称这对自己意义重大。",
+          "summary": "小岛秀夫近日在社交平台转发了粉丝自制的《P.T.》PC原生移植项目，开发者LoreanXavier表示这对他意义重大。",
           "summary_source": "llm"
         },
         {
           "name": "不朽遗志",
           "count": 1,
-          "summary": "距离发售仅剩不到两周，官方发布全新玩法概览预告并公开完整配音阵容。",
+          "summary": "《不朽遗志》发布全新官方玩法概览预告，完整配音阵容同步公开，距离正式发售仅剩不到两周。",
           "summary_source": "llm"
         },
         {
           "name": "光遇",
           "count": 1,
-          "summary": "《我的世界》与《光·遇》联动活动“点亮星空”上线，美西螈成为活动最大黑马。",
+          "summary": "《我的世界》与《光·遇》重磅联动活动“点亮星空”火热上线，来自MC的人气萌物美西螈强势出圈，成功俘获大批光遇玩家。",
           "summary_source": "llm"
         },
         {
           "name": "全小将",
           "count": 1,
-          "summary": "历史题材视觉小说《全小将》Demo于10月2日上线Steam，同时公开全新玩法PV。",
+          "summary": "历史题材人生养成视觉小说《全小将》Demo现已上线，此前已于10月2日在Steam推出免费试玩 Demo。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "兰斯7：战国兰斯",
+          "count": 1,
+          "summary": "AliceSoft经典SLG《兰斯7：战国兰斯》登陆Steam，支持简中，首发特惠55.2元，收获好评如潮。",
           "summary_source": "llm"
         },
         {
           "name": "冰汽时代",
           "count": 1,
-          "summary": "11位工作室宣布经典生存游戏《冰汽时代》将于10月19日登陆Nintendo Switch和Switch 2。",
+          "summary": "11位工作室宣布《冰汽时代》将于10月19日登陆Nintendo Switch和Nintendo Switch 2。",
           "summary_source": "llm"
         },
         {
           "name": "刺客信条：黑旗",
           "count": 1,
-          "summary": "育碧官方转发了一台由粉丝定制的《刺客信条：黑旗》主题PC主机。",
+          "summary": "育碧官方账号转发了一台《刺客信条：黑旗》主题定制PC，该作品由Ultra.pcgamers与Z Games UAE合作打造。",
           "summary_source": "llm"
         },
         {
           "name": "剑侠世界端游",
           "count": 1,
-          "summary": "游戏迎来十八周年，首个“生态服”新服【仗剑天涯】将于10月13日开服。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星：血雨",
-          "count": 1,
-          "summary": "知名歌手The Weeknd现身开发商Shift Up总部，公开了游戏启动画面与新怪物影像。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "四海兄弟2&3",
-          "count": 1,
-          "summary": "《四海兄弟2 最终版》与《四海兄弟3 最终版》已通过ESRB评级，预计登陆本世代主机。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "城市天际线",
-          "count": 1,
-          "summary": "经典城市建造游戏《城市天际线》Expanded Edition将于10月29日登陆Switch 2，该版本为NS2独占。",
+          "summary": "《剑侠世界端游》迎来十八周年，首个“生态服”新服【仗剑天涯】将于10月13日19点正式开服，预约现已开启。",
           "summary_source": "llm"
         }
       ]
@@ -784,107 +885,6 @@
           "name": "空之轨迹 the 2nd",
           "count": 1,
           "summary": "中文发行商云豹娱乐宣布《空之轨迹 the 2nd》第三波追加DLC现已上线。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "article_count": 82,
-      "game_count": 49,
-      "untagged_count": 21,
-      "digest": "9月30日游戏资讯聚焦于《GTA6》地图规模与细节曝光、《巫师3》重制版登陆Switch2引发MOD热潮及画面争议，同时《尼瓦利斯之夜》《夜城狂想》等新作发售，多款游戏公布独占信息或DLC内容。",
-      "digest_source": "llm",
-      "input_hash": "f938ce371ac67a40",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 5,
-          "summary": "Rockstar官方确认地图至少两倍于前作，将以虚构的莱昂尼达州为舞台，并尽可能多地加入可进入的室内场景。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 5,
-          "summary": "《巫师3：狂猎 重制版》登陆Switch2，mod.io平台首发MOD数量达90款位居第一，且持有Switch版实体卡的玩家可免费获取重制版。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "尼瓦利斯之夜",
-          "count": 2,
-          "summary": "赛博朋克生活模拟游戏《尼瓦利斯之夜》今日正式登陆Steam，国区首发价88.2元，但社区出现疑似RUNE发布的破解镜像版。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：重制版",
-          "count": 2,
-          "summary": "IGN中国发布53分钟实机演示，以PC平台4K画质完整呈现杰洛特追踪狮鹫及Boss战全过程，针对画面发白问题玩家可尝试关闭Bloom效果。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战争机器：事变日",
-          "count": 2,
-          "summary": "八位堂官宣《战争机器：事变日》限定版Xbox键鼠套装，分析师指出该作Steam销量已超12万份、收入破700万美元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战神：劳菲",
-          "count": 2,
-          "summary": "官方确认《战神：劳菲》为PS5独占作品，定档2027年2月，港服定价388港币，是系列首款纯PS5独占正传。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "007 初露锋芒",
-          "count": 1,
-          "summary": "《007 初露锋芒》免费DLC定档国庆，新跑车有望登场，该作由《杀手》系列开发商IO Interactive打造。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "DJMAX RESPECT V",
-          "count": 1,
-          "summary": "NEOWIZ宣布首部官方画集将于9月30日起通过YES24开启独家预售，预售特典包含限量初版2027年日历及迷你磁带造型钥匙扣。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "LOL",
-          "count": 1,
-          "summary": "拳头游戏宣布虚拟嘻哈组合“真实伤害”回归，将演唱2026英雄联盟全球总决赛主题曲《Know My Name》，定于10月9日发布。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三国杀名将传",
-          "count": 1,
-          "summary": "《三国杀名将传》X无锡三国城联动线下活动圆满收官，活动在94版央视《三国演义》核心取景地设置七大打卡点。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三国群英传：策定九州",
-          "count": 1,
-          "summary": "周年庆典版本「风起潮涌」即将上线，新增水陆地图、八大进阶战船及年度武将袁绍，联动非遗木船技艺。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴OL",
-          "count": 1,
-          "summary": "第一赛季“盗贼公会回归”于2026年7月8日上线，是ESO正式告别“章节+DLC”模式后的首个完整赛季。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "喵乐迪：律动幸存者",
-          "count": 1,
-          "summary": "入围2026 indiePlay中国独立游戏大赛，从全球700余部作品中突围，成功入围最佳听觉效果奖项。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "堡垒之夜",
-          "count": 1,
-          "summary": "Epic公布万圣节活动主视觉，海报藏多个IP联动线索，包含《Five Nights at Freddy's》联动及吸血鬼精灵等战利品。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "夜城狂想",
-          "count": 1,
-          "summary": "赛博朋克生活模拟游戏《夜城狂想》登Steam，发行商宣布其愿望单已超100万。",
           "summary_source": "llm"
         }
       ]
