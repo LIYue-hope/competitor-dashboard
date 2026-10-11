@@ -1,23 +1,41 @@
 {
-  "generated_at": "2026-10-10T01:57:22.893643+00:00",
+  "generated_at": "2026-10-11T01:05:45.156724+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-10-10",
-      "article_count": 5,
-      "game_count": 1,
-      "untagged_count": 4,
-      "digest": "10月10日 游资网 共 5 条新闻，涉及 1 款游戏。报道最集中的是《重返未来：1999》（1 条）。另有 4 条未指向具体游戏的行业或平台资讯。《重返未来：1999》方面的报道有「独家对话《重返未来：1999》制作人丨最有品味的二游，是怎么赌出来的？」。",
-      "digest_source": "rules",
-      "input_hash": "714ae037dee43ce6",
+      "article_count": 12,
+      "game_count": 4,
+      "untagged_count": 8,
+      "digest": "今日游戏行业资讯共12条，涵盖4款具体游戏。其中《Truckful / 乡野奇运》于10月10日在Steam正式发售，开启九折首发优惠及捆绑包活动；《妖怪之国》在东京电玩展开放试玩后，篝火营地发布制作人专访，探讨志怪氛围与华丽战斗；《重返未来：1999》发布制作人独家对话，强调保持初心；《银松镇》作为新晋全平台生存恐怖游戏，Mien Wind发布评测文章。",
+      "digest_source": "llm",
+      "input_hash": "2726c3670b39238c",
       "game_digests": [
+        {
+          "name": "Truckful",
+          "count": 1,
+          "summary": "驰骋崎岖弯道，克服重重意外！ 真实物理引擎× 送货冒险游戏《Truckful / 乡野奇运》今日在 Steam 正式发售！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "妖怪之国",
+          "count": 1,
+          "summary": "和风动作冒险游戏《妖怪之国》在东京电玩展开放试玩后，篝火营地发布制作人专访，探讨志怪氛围与华丽战斗，谈及创意原点与开发重心。",
+          "summary_source": "llm"
+        },
         {
           "name": "重返未来：1999",
           "count": 1,
-          "summary": "独家对话《重返未来：1999》制作人丨最有品味的二游，是怎么赌出来的？。",
-          "summary_source": "rules"
+          "summary": "《重返未来：1999》发布制作人独家对话，强调“没人能颠覆时代，但至少我们可以选择保持初心”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "银松镇",
+          "count": 1,
+          "summary": "新晋全平台生存恐怖游戏《银松镇》上线，Mien Wind发布评测文章，探讨如何以游戏语言致敬大卫·林奇的影视逻辑。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -149,23 +167,6 @@
           "name": "妹居物语",
           "count": 1,
           "summary": "AI陪伴游戏《妹居物语》TapTap预约破65万、Steam Demo激活量达41万，玩家社群活跃度高，开发者彩奈在访谈中分享了创作初心、AI游戏研发及国产AI陪伴游戏的机遇局限。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-01",
-      "article_count": 2,
-      "game_count": 1,
-      "untagged_count": 1,
-      "digest": "今日游戏行业资讯聚焦于网易旗下海外工作室的独立运营动态，草蜢工作室宣布脱离网易游戏并重新独立运营，成为第4家友好脱离网易且保留团队独立运营的海外工作室，引发行业对网易海外布局调整的关注。",
-      "digest_source": "llm",
-      "input_hash": "573311c2a2a6816d",
-      "game_digests": [
-        {
-          "name": "英雄不再",
-          "count": 1,
-          "summary": "草蜢工作室宣布脱离网易游戏，重新独立运营，成为第4家友好脱离网易、保留团队独立运营的海外工作室",
           "summary_source": "llm"
         }
       ]

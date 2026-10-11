@@ -1,62 +1,30 @@
 {
-  "crawled_at": "2026-10-10T01:39:20.213087+00:00",
+  "crawled_at": "2026-10-11T00:48:23.794214+00:00",
   "days": [
     {
-      "date": "2026-10-10",
-      "date_label": "10月10日 今天",
+      "date": "2026-10-11",
+      "date_label": "10月11日 今天",
       "games": [
         {
-          "game_name": "我在废土开超市",
+          "game_name": "英雄问天",
           "categories": [
-            "模拟",
-            "模拟经营",
-            "废土",
-            "末日"
+            "竖屏",
+            "放置",
+            "角色扮演"
           ],
-          "score": "7.8",
-          "release_date": "2026-10-10",
+          "score": "9.8",
+          "release_date": "2026-10-11",
           "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1958094.html",
-          "publisher": "精力有限工作室",
+          "detail_url": "https://www.16p.com/1957146.html",
+          "publisher": "胜酷游戏",
           "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "我是伪人:同化世界",
-          "categories": [
-            "TapTap制造",
-            "策略"
-          ],
-          "score": "8.5",
-          "release_date": "2026-10-10",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1958070.html",
-          "publisher": "叉子工作室",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "九万亩",
-          "categories": [
-            "策略",
-            "SLG",
-            "像素",
-            "模拟经营",
-            "多人联机"
-          ],
-          "score": "8.5",
-          "release_date": "2026-10-10",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1953738.html",
-          "publisher": "两英里科技",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
+          "has_afk_grinding_tag": true
         }
       ]
     },
     {
       "date": "2026-10-12",
-      "date_label": "10月12日 后天",
+      "date_label": "10月12日 明天",
       "games": [
         {
           "game_name": "九个国王",
@@ -82,8 +50,25 @@
     },
     {
       "date": "2026-10-13",
-      "date_label": "10月13日 下周二",
+      "date_label": "10月13日 后天",
       "games": [
+        {
+          "game_name": "我叫MT:崛起",
+          "categories": [
+            "角色扮演",
+            "卡牌",
+            "回合",
+            "放置",
+            "刷宝"
+          ],
+          "score": "7.7",
+          "release_date": "2026-10-13",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952836.html",
+          "publisher": "海南祺曜互动",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        },
         {
           "game_name": "江湖我最牛",
           "categories": [
@@ -94,28 +79,11 @@
             "国风",
             "养成"
           ],
-          "score": "8.8",
+          "score": "8.9",
           "release_date": "2026-10-13",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1953478.html",
           "publisher": "飞升研究所",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "我叫MT:崛起",
-          "categories": [
-            "角色扮演",
-            "卡牌",
-            "回合",
-            "放置",
-            "刷宝"
-          ],
-          "score": "7.6",
-          "release_date": "2026-10-13",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1952836.html",
-          "publisher": "海南祺曜互动",
           "is_major_publisher": false,
           "has_afk_grinding_tag": true
         }
@@ -291,6 +259,29 @@
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952945.html",
           "publisher": "雷霆游戏",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "date_label": "10月17日 下周六",
+      "games": [
+        {
+          "game_name": "修仙王朝模拟器",
+          "categories": [
+            "模拟",
+            "修仙",
+            "放置",
+            "文字",
+            "经营"
+          ],
+          "score": "7.8",
+          "release_date": "2026-10-17",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1955643.html",
+          "publisher": "SKY工作室",
           "is_major_publisher": false,
           "has_afk_grinding_tag": true
         }

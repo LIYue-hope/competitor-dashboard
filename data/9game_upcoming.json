@@ -1,26 +1,9 @@
 {
-  "crawled_at": "2026-10-10T01:39:05.474476+00:00",
+  "crawled_at": "2026-10-11T00:48:09.984078+00:00",
   "days": [
     {
-      "date": "2026-10-10",
-      "date_label": "10月10日 今天",
-      "games": [
-        {
-          "game_name": "超级新宠物",
-          "categories": [
-            "模拟"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/cjxcw/",
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
       "date": "2026-10-13",
-      "date_label": "10月13日 下周二",
+      "date_label": "10月13日 后天",
       "games": [
         {
           "game_name": "我叫MT",
@@ -31,7 +14,7 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/wjmtjq/",
-          "has_afk_grinding_tag": false
+          "has_afk_grinding_tag": true
         },
         {
           "game_name": "乱世龙魂",
@@ -68,6 +51,17 @@
       "date_label": "10月15日 下周四",
       "games": [
         {
+          "game_name": "合战天下",
+          "categories": [
+            "策略"
+          ],
+          "score": null,
+          "event_desc": "合战天下",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/xxyjhztx/",
+          "has_afk_grinding_tag": false
+        },
+        {
           "game_name": "剑侠世界4",
           "categories": [
             "角色扮演"
@@ -84,6 +78,17 @@
       "date": "2026-10-20",
       "date_label": "10月20日",
       "games": [
+        {
+          "game_name": "点点山海",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": "万抽开局",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/diandianshanhai/",
+          "has_afk_grinding_tag": true
+        },
         {
           "game_name": "长夜守卫者",
           "categories": [

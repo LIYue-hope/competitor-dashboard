@@ -1,23 +1,47 @@
 {
-  "generated_at": "2026-10-10T01:54:48.520510+00:00",
+  "generated_at": "2026-10-11T01:02:59.033097+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-10-10",
-      "article_count": 1,
-      "game_count": 1,
-      "untagged_count": 0,
-      "digest": "2026年10月10日当日仅有 GameLook 发布 1 条游戏相关报道，涉及游戏为《剑侠世界4：无限》，整体发布与内容更新信息尚待进一步明确，行业动态整体较为简洁，市场相关热度与具体表现暂未充分显现。游戏名｜这款游戏当天的动态：《剑侠世界4：无限》围绕末法时代背景展开，郭炜炜离场，作品发布相关“小作文”，后续或将在内容推进上加强相关表现，具体表现及后续推进细节暂未披露。",
+      "article_count": 7,
+      "game_count": 5,
+      "untagged_count": 2,
+      "digest": "今日游戏行业资讯聚焦于多款产品的表现与变动，涵盖《三角洲行动》DAU突破5800万、《皇牌空战8》首周销量破100万套创纪录、《彩虹六号手游》海外停运以及《剑侠世界4：无限》发布“小作文”应对市场挑战，同时《精英军团》空降微信畅销榜Top 20。",
       "digest_source": "llm",
-      "input_hash": "0dfaaf9211b82585",
+      "input_hash": "b3d1e90380a4b056",
       "game_digests": [
+        {
+          "name": "三角洲",
+          "count": 1,
+          "summary": "DAU破5800万！海外搜打撤集体翻车，《三角洲》却杀疯了？。",
+          "summary_source": "rules"
+        },
         {
           "name": "剑侠世界4：无限",
           "count": 1,
-          "summary": "末法时代的MMO：郭炜炜离场,《剑侠世界4：无限》发“小作文”下周拼命！。",
-          "summary_source": "rules"
+          "summary": "发布“小作文”应对市场挑战，称下周将拼命。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "彩虹六号手游",
+          "count": 1,
+          "summary": "发布仅8个月，育碧宣布停止海外运营。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "皇牌空战8",
+          "count": 1,
+          "summary": "首周销量突破100万套，创下系列销售记录。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "精英军团",
+          "count": 1,
+          "summary": "空降微信小游戏畅销榜Top 20。",
+          "summary_source": "llm"
         }
       ]
     },

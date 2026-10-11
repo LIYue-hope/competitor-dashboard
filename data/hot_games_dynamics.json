@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-10-10T01:38:24.357803+00:00",
+  "crawled_at": "2026-10-11T00:47:32.746285+00:00",
   "window_days": 7,
   "publishers": [
     {
@@ -13,6 +13,13 @@
           "official_url": "https://df.qq.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "违规行为处罚公告(9.24~10.7)",
+              "type": "安全公告",
+              "date": "2026-10-10",
+              "summary": "（本条为图片公告，正文无文字内容，点击查看原文）",
+              "url": "https://df.qq.com/cp/a20240906main/newsdetail.html?id=11770033228689037036"
+            },
             {
               "title": "10月10日更新公告丨季中平衡性调整＆极星守望即将上线！",
               "type": "更新公告",
@@ -47,7 +54,15 @@
           "publisher_key": "tencent",
           "official_url": "https://world.qq.com/",
           "source_status": "ok",
-          "updates": [],
+          "updates": [
+            {
+              "title": "世界有你，剑心不灭",
+              "type": "公告",
+              "date": "2026-10-10",
+              "summary": "10月24日至25日，王者荣耀2026周年庆嘉年华，与李白共赴寻剑心之旅",
+              "url": "https://world.qq.com/web202603/newsDetail.html?newsid=18909942"
+            }
+          ],
           "has_afk_grinding_tag": false
         },
         {
@@ -57,6 +72,13 @@
           "official_url": "https://pvp.qq.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "10月10日体验服不停机更新公告",
+              "type": "更新公告",
+              "date": "2026-10-10",
+              "summary": "",
+              "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=810733"
+            },
             {
               "title": "10月9日挂车行为专项打击处罚公告",
               "type": "公告",
@@ -152,6 +174,13 @@
           "official_url": "https://codm.qq.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "前方到达新战场：福尔丹斯克",
+              "type": "公告",
+              "date": "2026-10-09",
+              "summary": "",
+              "url": "https://codm.qq.com/gicp/news/887/18909284.html"
+            },
             {
               "title": "选择你的阵营！S9「猩红月影」纷争即将开启！",
               "type": "公告",
@@ -272,11 +301,46 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "全新版本活动「拾此一瞬」10月10日开启！",
+              "type": "新活动",
+              "date": "2026-10-09",
+              "summary": "黑红色的浪潮漫过荒野，虚无吞没岩那伽的长夜，封存记忆的琥珀微光明灭，将其投入黄金河流和咲耶一同溯流而上，集结于磐长神殿——",
+              "url": "https://yys.163.com/news/official/20261010/22592_1316195.html"
+            },
+            {
+              "title": "「塔罗之邀」限定大赏10月10日开启！参与活动抱走精彩奖励！",
+              "type": "新活动",
+              "date": "2026-10-09",
+              "summary": "日辉送暖照万物，蛇影缠轮窥命里，「塔罗之邀」限定大赏即将开启！ 参与活动即可抱走天照动态头像礼，八岐大蛇动态头像礼等超多奖励！",
+              "url": "https://yys.163.com/news/official/20261010/22592_1316196.html"
+            },
+            {
+              "title": "旅途的尽头，会如她所愿地凝驻永恒吗？全新SSR阶式神咲耶10月10日降临平安京！",
+              "type": "新闻",
+              "date": "2026-10-09",
+              "summary": "昔年之约镌于最初的梦，凭「刹那」神力穿梭。远行中的千瞬须臾皆凝光入珀，她的双眼已看遍万境千秋，最后孤注一掷的相逢一瞬，是否能凝驻此瞬永恒？",
+              "url": "https://yys.163.com/news/official/20261010/22592_1316192.html"
+            },
+            {
+              "title": "「星谕秘境」系列新皮肤第二弹即将上线！皮肤情报已送达~",
+              "type": "新闻",
+              "date": "2026-10-09",
+              "summary": "「星谕秘境」系列新皮肤第二弹即将上线！皮肤情报已送达~",
+              "url": "https://yys.163.com/news/official/20261010/22592_1316193.html"
+            },
+            {
               "title": "《阴阳师》手游10月10日维护更新公告",
               "type": "更新公告",
               "date": "2026-10-09",
               "summary": "※维护时间 2026年10月10日7:00-9:00 ※亲爱的阴阳师大人： 为了给大家带来更好的游戏体验，服务器将进行停服维护，期间暂时无法进入游戏。若未能按时完成维护，则开服时间将会顺延，给各位带来的不便敬请谅解，非常感谢大家的支持和理解！",
               "url": "https://yys.163.com/news/update/20261009/23024_1316181.html"
+            },
+            {
+              "title": "拾此一瞬，抵万千秋，全新SSR阶式神咲耶CG展卷！",
+              "type": "新闻",
+              "date": "2026-10-08",
+              "summary": "昔日的永恒光景已成旧迹，神木上沉睡着唯一一朵「金磐长」。无数瞬间汇聚其中，她乘风踏开浪潮，一次次地向前奔跑，终抵达万千刹那之中——",
+              "url": "https://yys.163.com/news/official/20261010/22592_1316191.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -288,6 +352,13 @@
           "official_url": "https://n.163.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "四服首次大互通！追赶补领即将开启",
+              "type": "新闻",
+              "date": "2026-10-09",
+              "summary": "江湖风起，擂鼓将鸣！还有10天，黄金畅玩服X9明星赛就将正式拉开帷幕！",
+              "url": "https://n.163.com/news/20261010/26225_1316238.html"
+            },
             {
               "title": "长白归信概率公示",
               "type": "公告",
@@ -312,6 +383,13 @@
           "official_url": "https://www.yjwujian.cn/news/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "《永劫无间》千机赛季结算公告",
+              "type": "公告",
+              "date": "2026-10-09",
+              "summary": "亲爱的玩家： 千机赛季即将在 2026年北京时间10月09日8:00 结束，届时会对本赛季的段位进行结算。感谢玩家们在千机赛季中提供的宝贵建议，我们将继续努力为玩家提供更好的竞技体验！ 一、赛季奖励： （1）排位赛：根据玩家在千机赛季的排位赛单排、双排、三排中所达到的赛季最高段位…",
+              "url": "https://www.yjwujian.cn/news/update/20261010/33456_1316200.html"
+            },
             {
               "title": "《永劫无间》10月9日更新公告",
               "type": "更新公告",
@@ -365,11 +443,25 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "《梦幻西游》手游轻享服新服“运来”今日火热开启！",
+              "type": "公告",
+              "date": "2026-10-07",
+              "summary": "祥云瑞气笼罩长安，金秋的微风送来了最真挚的期盼。《梦幻西游》手游全新轻享服【运来】，于10月7日12:00带着满满的福气正式开启。",
+              "url": "https://my.163.com/news/activity/20261008/23108_1315947.html"
+            },
+            {
               "title": "2026年10月07日维护公告：唤灵奇旅持续进行中，唤灵牌第三章开启",
               "type": "更新公告",
               "date": "2026-10-06",
               "summary": "亲爱的玩家朋友： 为保障各位玩家朋友在国庆假期能畅享游戏乐趣，《梦幻西游》手游及电脑端版本（《梦幻西游：时空》）正式服所有服务器将于2026年10月7日进行不停机维护。预计维护时间为8:00～9:00。",
               "url": "https://my.163.com/news/news/20260930/16741_1315640.html"
+            },
+            {
+              "title": "13000+伤害直接秒杀！这个被动特殊技能究竟强在哪？",
+              "type": "公告",
+              "date": "2026-10-05",
+              "summary": "最近灵儿看到一只铜臂，两拳共计打出超过13000点物理伤害，直接将对战方龙宫击倒，攻势十足。 能打出如此出色的伤害，靠的正是\"借力\"这个特殊被动技能；今天灵儿就和少侠们一起来看看借力强在哪，又与哪些攻击型召唤灵最适配。",
+              "url": "https://my.163.com/news/cwu/20261008/23106_1315934.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -396,6 +488,27 @@
           "official_url": "https://ys.mihoyo.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "特训时间，准备好了吗？——丝柯克·近闻",
+              "type": "新闻",
+              "date": "2026-10-10",
+              "summary": "旅行者好呀！ 来自星海的孤独剑士丝柯克，一直为未竟的目标磨砺剑锋。经历了之前事件后，她对自己的道路似乎也有了新的思考。这里有一则关于丝柯克的近闻，一起来看看吧~ 「虚星临渡」活动祈愿将于2026年10月13日18:00开启，届时，限定5星角色「虚渊暗星·丝柯克(冰)」的祈愿获取概…",
+              "url": "https://ys.mihoyo.com/main/news/detail/166659"
+            },
+            {
+              "title": "「判测胜券本征」活动：战局胜负预测",
+              "type": "新活动",
+              "date": "2026-10-10",
+              "summary": "〓活动奖励〓 〓活动时间〓 赛事持续期：2026/10/12 10:00 ~ 2026/10/20 09:59 结果公示期：2026/10/20 10:00 ~ 2026/10/23 09:59 *本次活动时间较为特殊，旅行者可参考活动界面相关时间，及时参与活动！ 〓参与条件〓…",
+              "url": "https://ys.mihoyo.com/main/news/detail/166657"
+            },
+            {
+              "title": "《原神》过场动画-「遗赠」",
+              "type": "新闻",
+              "date": "2026-10-10",
+              "summary": "唯有直面死亡才能理解其中的感受，死神也不例外。 她将这份「感受」留给整个世界，无人能阻止它的蔓延… CV： 「死之执政」若娜瓦——Selene 关于《原神》 《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。 在这广阔的世界中，你可以…",
+              "url": "https://ys.mihoyo.com/main/news/detail/166566"
+            },
             {
               "title": "行秋生日快乐 | 「秋水映故人，残卷落晚枫。」",
               "type": "新闻",
@@ -472,13 +585,6 @@
               "date": "2026-10-05",
               "summary": "遇见难得的对手，意在试探的小游戏也难免令人沉迷。 此时，总是需要一个及时叫停的人。 CV： 空——鹿喑 达妮卡——朱婧 薇斯纳——龟娘 关于《原神》 《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。 在这广阔的世界中，你可以踏遍七国…",
               "url": "https://ys.mihoyo.com/main/news/detail/166559"
-            },
-            {
-              "title": "死使一切平等",
-              "type": "新闻",
-              "date": "2026-10-04",
-              "summary": "「死使一切平等。宛如久病之人得赠的良药，宛如乌云散尽后见到的晴空，这就是死亡的譬喻。」 ——「预言家」维瑟弗尼尔 关于《原神》 《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。 在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独…",
-              "url": "https://ys.mihoyo.com/main/news/detail/166580"
             }
           ],
           "has_afk_grinding_tag": false
@@ -500,11 +606,32 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "养成指南上新丨菲欧妮养成材料预告",
+              "type": "新闻",
+              "date": "2026-10-10",
+              "summary": "前往养成指南，使用养成材料计算功能，可以提前了解菲欧妮所需养成材料的类型和总量，以及还需获取的数量。",
+              "url": "https://zzz.mihoyo.com/news/166661"
+            },
+            {
+              "title": "《绝区零》☆Zenless LIVE 2026——FES专场",
+              "type": "新闻",
+              "date": "2026-10-10",
+              "summary": "绝区零 2026 ZLIVE FES专场将于11月27日-11月29日在杭州大会展中心举办，更多活动细节将会陆续公布，敬请期待~",
+              "url": "https://zzz.mihoyo.com/news/166660"
+            },
+            {
               "title": "《绝区零》3.3版本「重返天空的旅程」前瞻特别节目",
               "type": "版本前瞻",
               "date": "2026-10-09",
               "summary": "全新S级代理人「菲欧妮」、「赛维里安」即将登场！",
               "url": "https://zzz.mihoyo.com/news/166652"
+            },
+            {
+              "title": "情报总览丨《绝区零》3.3版本「重返天空的旅程」",
+              "type": "新闻",
+              "date": "2026-10-09",
+              "summary": "全新S级代理人「菲欧妮」、「赛维里安」即将登场！",
+              "url": "https://zzz.mihoyo.com/news/166654"
             },
             {
               "title": "生日快乐伊芙琳丨嗯呢！您呼叫的用户暂时无法接通",
@@ -519,13 +646,6 @@
               "date": "2026-10-05",
               "summary": "亲爱的绳匠，《绝区零》3.3版本「重返天空的旅程」前瞻特别节目，将于10月9日 19:30正式开播！",
               "url": "https://zzz.mihoyo.com/news/166583"
-            },
-            {
-              "title": "生日快乐莱卡恩丨夕阳下的守望",
-              "type": "新闻",
-              "date": "2026-10-04",
-              "summary": "「当然，守护心中的正义，也是我的职责所在。」",
-              "url": "https://zzz.mihoyo.com/news/166578"
             }
           ],
           "has_afk_grinding_tag": false
@@ -581,7 +701,7 @@
               "title": "【2026年10月08日】封禁处理公示",
               "type": "公告",
               "date": "2026-10-08",
-              "summary": "亲爱的管理员： 感谢您对《明日方舟：终末地》的关注与支持。自游戏正式运营以来，我们一直致力于维护绿色、公平的游戏坏境。拒绝容忍使用外挂、第三方工具以及任何不正当方式破坏游戏公平性等行为。对此行为也将进",
+              "summary": "亲爱的管理员： 感谢您对《明日方舟：终末地》的关注与支持。自游戏正式运营以来，我们一直致力于维护绿色、公平的游戏环境。拒绝容忍使用外挂、第三方工具以及任何不正当方式破坏游戏公平性等行为。对此行为也将进",
               "url": "https://endfield.hypergryph.com/news/9339"
             },
             {
@@ -609,6 +729,20 @@
           "official_url": "https://infinitynikki.nuanpaper.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "《无限暖暖》10月12日更新预告",
+              "type": "更新公告",
+              "date": "2026-10-10",
+              "summary": "《无限暖暖》2.10版本「金羽的裁决」现已全球同步开启！",
+              "url": "https://infinitynikki.nuanpaper.com/news/1067"
+            },
+            {
+              "title": "《无限暖暖》2.10版本「金羽的裁决」| 活动开启提醒",
+              "type": "新活动",
+              "date": "2026-10-10",
+              "summary": "《无限暖暖》2.10版本「金羽的裁决」现已全球同步开启！",
+              "url": "https://infinitynikki.nuanpaper.com/news/1066"
+            },
             {
               "title": "《无限暖暖》2.10版本「金羽的裁决」 | 商城限时上架",
               "type": "新活动",
@@ -672,7 +806,22 @@
           "publisher_key": "hg_kuro_pape",
           "official_url": "https://evol.papegames.cn/",
           "source_status": "ok",
-          "updates": [],
+          "updates": [
+            {
+              "title": "【浮华纪元·首席恶徒】真假一线，胜负一念",
+              "type": "公告",
+              "date": "2026-10-10",
+              "summary": "",
+              "url": "https://evol.papegames.cn/news/918"
+            },
+            {
+              "title": "【同游山水间】活动抽奖名单公示",
+              "type": "新活动",
+              "date": "2026-10-10",
+              "summary": "",
+              "url": "https://evol.papegames.cn/news/917"
+            }
+          ],
           "has_afk_grinding_tag": false,
           "company": "叠纸"
         },
@@ -719,6 +868,13 @@
           "official_url": "https://www.chaoziran.com/news",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "没有什么是永恒的，除了【野生狗奶】免费皮",
+              "type": "新闻",
+              "date": "2026-10-10",
+              "summary": "",
+              "url": "https://www.chaoziran.com/news/801"
+            },
             {
               "title": "神秘新员工制作进度汇报！",
               "type": "新闻",
@@ -778,7 +934,22 @@
           "publisher_key": "other",
           "official_url": "https://game.bilibili.com/nslg/",
           "source_status": "ok",
-          "updates": [],
+          "updates": [
+            {
+              "title": "合服结果公告（10月10日）",
+              "type": "公告",
+              "date": "2026-10-09",
+              "summary": "",
+              "url": "https://game.bilibili.com/nslg/?news_detail_id=18442"
+            },
+            {
+              "title": "合服结果公告（10月3日）",
+              "type": "公告",
+              "date": "2026-10-09",
+              "summary": "",
+              "url": "https://game.bilibili.com/nslg/?news_detail_id=18441"
+            }
+          ],
           "has_afk_grinding_tag": false,
           "company": "B站"
         },
