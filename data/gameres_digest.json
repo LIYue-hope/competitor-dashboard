@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T01:05:45.156724+00:00",
+  "generated_at": "2026-10-12T01:25:36.964496+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
@@ -153,23 +153,6 @@
       "digest_source": "rules",
       "input_hash": "868bada6a939a5a8",
       "game_digests": []
-    },
-    {
-      "date": "2026-10-02",
-      "article_count": 3,
-      "game_count": 1,
-      "untagged_count": 2,
-      "digest": "今日游戏行业资讯聚焦国产AI陪伴游戏《妹居物语》，该作因制作人彩奈之名被玩家联想到《素晴日》角色而引发关注。游戏TapTap预约量突破65万，Steam Demo激活量达41万，显示出玩家社群的高活跃度。开发者彩奈在访谈中分享了创作初心、AI游戏研发难点以及国产AI陪伴游戏的市场机遇与局限。",
-      "digest_source": "llm",
-      "input_hash": "0ccf293d7d8825d3",
-      "game_digests": [
-        {
-          "name": "妹居物语",
-          "count": 1,
-          "summary": "AI陪伴游戏《妹居物语》TapTap预约破65万、Steam Demo激活量达41万，玩家社群活跃度高，开发者彩奈在访谈中分享了创作初心、AI游戏研发及国产AI陪伴游戏的机遇局限。",
-          "summary_source": "llm"
-        }
-      ]
     }
   ]
 }

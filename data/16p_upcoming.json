@@ -1,56 +1,9 @@
 {
-  "crawled_at": "2026-10-11T00:48:23.794214+00:00",
+  "crawled_at": "2026-10-12T01:10:01.829392+00:00",
   "days": [
     {
-      "date": "2026-10-11",
-      "date_label": "10月11日 今天",
-      "games": [
-        {
-          "game_name": "英雄问天",
-          "categories": [
-            "竖屏",
-            "放置",
-            "角色扮演"
-          ],
-          "score": "9.8",
-          "release_date": "2026-10-11",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1957146.html",
-          "publisher": "胜酷游戏",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "date_label": "10月12日 明天",
-      "games": [
-        {
-          "game_name": "九个国王",
-          "categories": [
-            "Roguelike",
-            "策略",
-            "卡牌",
-            "单机",
-            "像素",
-            "城市建造",
-            "Steam移植",
-            "多平台"
-          ],
-          "score": "8.5",
-          "release_date": "2026-10-12",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1930009.html",
-          "publisher": "Sad Socket, INSTINCT3",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
       "date": "2026-10-13",
-      "date_label": "10月13日 后天",
+      "date_label": "10月13日 明天",
       "games": [
         {
           "game_name": "我叫MT:崛起",
@@ -91,8 +44,26 @@
     },
     {
       "date": "2026-10-14",
-      "date_label": "10月14日 下周三",
+      "date_label": "10月14日 后天",
       "games": [
+        {
+          "game_name": "龙之谷：启程",
+          "categories": [
+            "角色扮演",
+            "多人联机",
+            "动作",
+            "冒险",
+            "MMO",
+            "3D"
+          ],
+          "score": null,
+          "release_date": "2026-10-14",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952259.html",
+          "publisher": "三九互娱",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "秩序:新曙光",
           "categories": [
@@ -140,8 +111,24 @@
     },
     {
       "date": "2026-10-15",
-      "date_label": "10月15日 下周四",
+      "date_label": "10月15日 周四",
       "games": [
+        {
+          "game_name": "小小英杰:合战天下",
+          "categories": [
+            "策略",
+            "三国",
+            "SLG",
+            "角色扮演"
+          ],
+          "score": "6.9",
+          "release_date": "2026-10-15",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1954387.html",
+          "publisher": "上海电光火石科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "宝贝星球",
           "categories": [
@@ -153,7 +140,7 @@
           "release_date": "2026-10-15",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1957584.html",
-          "publisher": null,
+          "publisher": "卓韵四方",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         },
@@ -196,35 +183,12 @@
           "publisher": "海南西山居娱乐互动科技有限公司",
           "is_major_publisher": true,
           "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "猫咪和汤:魔法与美食",
-          "categories": [
-            "休闲",
-            "模拟人生",
-            "装饰&装修",
-            "经营",
-            "模拟",
-            "独立游戏",
-            "放置",
-            "模拟经营",
-            "收集",
-            "养成",
-            "温馨治愈"
-          ],
-          "score": "8.2",
-          "release_date": "2026-10-15",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1948230.html",
-          "publisher": "金山世游卓立",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
         }
       ]
     },
     {
       "date": "2026-10-16",
-      "date_label": "10月16日 下周五",
+      "date_label": "10月16日 周五",
       "games": [
         {
           "game_name": "勇者乱斗",
@@ -266,7 +230,7 @@
     },
     {
       "date": "2026-10-17",
-      "date_label": "10月17日 下周六",
+      "date_label": "10月17日 周六",
       "games": [
         {
           "game_name": "修仙王朝模拟器",
@@ -277,7 +241,7 @@
             "文字",
             "经营"
           ],
-          "score": "7.8",
+          "score": "7.9",
           "release_date": "2026-10-17",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1955643.html",

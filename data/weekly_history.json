@@ -1,12 +1,13 @@
 {
   "history_start": "2026-08-31",
-  "updated_at": "2026-10-11T01:05:59.930704+00:00",
+  "updated_at": "2026-10-12T01:26:50.903733+00:00",
   "weeks": [
     "2026-08-31",
     "2026-09-07",
     "2026-09-14",
     "2026-09-21",
-    "2026-09-28"
+    "2026-09-28",
+    "2026-10-05"
   ],
   "news_data_version": 3,
   "news_days": [
@@ -43,7 +44,8 @@
     "2026-10-08",
     "2026-10-09",
     "2026-10-10",
-    "2026-10-11"
+    "2026-10-11",
+    "2026-10-12"
   ],
   "heat_ranking": [
     {
@@ -103,6 +105,23 @@
     },
     {
       "rank": 5,
+      "name": "绿梦：时空之声",
+      "heat_score": 42.4,
+      "media_count": 0,
+      "source_count": 0,
+      "reservation_label": "123万",
+      "follow_delta_label": "3万",
+      "best_rank": 3,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": [],
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
+    },
+    {
+      "rank": 6,
       "name": "闪耀吧！噜咪",
       "heat_score": 41.4,
       "media_count": 0,
@@ -119,7 +138,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "原神",
       "heat_score": 41.3,
       "media_count": 4,
@@ -149,7 +168,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "伯吉的温馨厨房",
       "heat_score": 41.3,
       "media_count": 0,
@@ -166,24 +185,35 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 8,
-      "name": "绿梦：时空之声",
-      "heat_score": 40.6,
-      "media_count": 0,
-      "source_count": 0,
-      "reservation_label": "120万",
-      "follow_delta_label": "2万",
-      "best_rank": 8,
-      "rank_lists": [
-        "reserve"
-      ],
+      "rank": 9,
+      "name": "影之刃零",
+      "heat_score": 40.8,
+      "media_count": 86,
+      "source_count": 4,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
       "official_count": 0,
-      "news": [],
-      "week_start": "2026-09-28",
-      "week_end": "2026-10-04"
+      "news": [
+        {
+          "title": "假如《影之刃零》发售七天销量破千万 会带来什么影响？",
+          "url": "https://www.gamersky.com/news/202610/2225761.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-11"
+        },
+        {
+          "title": "《影之刃零》销量能到多少？粉丝预期首月1500万份",
+          "url": "https://www.gamersky.com/news/202610/2225610.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-11"
+        }
+      ],
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "黎明行者之血",
       "heat_score": 39,
       "media_count": 68,
@@ -192,7 +222,24 @@
       "week_end": "2026-09-06"
     },
     {
-      "rank": 10,
+      "rank": 11,
+      "name": "失落城堡2",
+      "heat_score": 38.2,
+      "media_count": 0,
+      "source_count": 0,
+      "reservation_label": "56万",
+      "follow_delta_label": "2万",
+      "best_rank": 14,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": [],
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
+    },
+    {
+      "rank": 12,
       "name": "漫威金刚狼",
       "heat_score": 38.0,
       "media_count": 112,
@@ -220,7 +267,7 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 11,
+      "rank": 13,
       "name": "剑星",
       "heat_score": 37.8,
       "media_count": 28,
@@ -248,7 +295,7 @@
       "week_end": "2026-09-27"
     },
     {
-      "rank": 12,
+      "rank": 14,
       "name": "无限大",
       "heat_score": 37.8,
       "media_count": 6,
@@ -257,7 +304,7 @@
       "week_end": "2026-09-06"
     },
     {
-      "rank": 13,
+      "rank": 15,
       "name": "鬼武者：剑之道",
       "heat_score": 37.1,
       "media_count": 82,
@@ -266,24 +313,7 @@
       "week_end": "2026-09-06"
     },
     {
-      "rank": 14,
-      "name": "失落城堡2",
-      "heat_score": 36.5,
-      "media_count": 0,
-      "source_count": 0,
-      "reservation_label": "52万",
-      "follow_delta_label": "1万",
-      "best_rank": 17,
-      "rank_lists": [
-        "reserve"
-      ],
-      "official_count": 0,
-      "news": [],
-      "week_start": "2026-09-21",
-      "week_end": "2026-09-27"
-    },
-    {
-      "rank": 15,
+      "rank": 16,
       "name": "霓虹深渊2",
       "heat_score": 36.0,
       "media_count": 2,
@@ -307,24 +337,24 @@
       "week_end": "2026-09-27"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "name": "篮球少女：飞跃巅峰",
-      "heat_score": 34.2,
+      "heat_score": 36.0,
       "media_count": 0,
       "source_count": 0,
-      "reservation_label": "15万",
-      "follow_delta_label": "2万",
-      "best_rank": 24,
+      "reservation_label": "16万",
+      "follow_delta_label": "1万",
+      "best_rank": 13,
       "rank_lists": [
         "reserve"
       ],
       "official_count": 0,
       "news": [],
-      "week_start": "2026-09-28",
-      "week_end": "2026-10-04"
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "name": "未眠野",
       "heat_score": 34.0,
       "media_count": 6,
@@ -348,7 +378,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "name": "星际争霸",
       "heat_score": 32.6,
       "media_count": 17,
@@ -378,7 +408,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "name": "PHYSINT",
       "heat_score": 32.5,
       "media_count": 21,
@@ -406,7 +436,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "name": "战神：劳菲",
       "heat_score": 32.4,
       "media_count": 41,
@@ -428,7 +458,7 @@
       "week_end": "2026-10-04"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "name": "战争机器：事变日",
       "heat_score": 32.4,
       "media_count": 37,
@@ -456,7 +486,7 @@
       "week_end": "2026-10-04"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "name": "塞尔达传说：时之笛 重制版",
       "heat_score": 32.3,
       "media_count": 40,
@@ -484,7 +514,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "name": "巫师3：重制版",
       "heat_score": 32.2,
       "media_count": 36,
@@ -512,7 +542,7 @@
       "week_end": "2026-10-04"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "name": "绝区零",
       "heat_score": 31.9,
       "media_count": 3,
@@ -542,7 +572,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "name": "鬼武者",
       "heat_score": 31.5,
       "media_count": 35,
@@ -551,7 +581,7 @@
       "week_end": "2026-09-06"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "name": "循环勇士",
       "heat_score": 31.4,
       "media_count": 0,
@@ -568,7 +598,35 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 27,
+      "rank": 28,
+      "name": "永恒之塔2",
+      "heat_score": 31.0,
+      "media_count": 16,
+      "source_count": 4,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《永恒之塔2》全球服上线 角色捏脸身材调整功能引发热议",
+          "url": "https://www.gamersky.com/news/202610/2225697.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-11"
+        },
+        {
+          "title": "Steam新一周全球销量榜：《永恒之塔2》登顶榜首！",
+          "url": "https://www.gamersky.com/news/202610/2224673.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-09"
+        }
+      ],
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
+    },
+    {
+      "rank": 29,
       "name": "巫师3：狂猎重制版",
       "heat_score": 30.9,
       "media_count": 31,
@@ -596,7 +654,7 @@
       "week_end": "2026-10-04"
     },
     {
-      "rank": 28,
+      "rank": 30,
       "name": "流浪地球：望日",
       "heat_score": 30.5,
       "media_count": 7,
@@ -624,35 +682,37 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 29,
-      "name": "影之刃零",
-      "heat_score": 30.3,
-      "media_count": 14,
-      "source_count": 4,
+      "rank": 31,
+      "name": "艾希：续",
+      "heat_score": 30.2,
+      "media_count": 7,
+      "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
+      "best_rank": 21,
+      "rank_lists": [
+        "reserve"
+      ],
       "official_count": 0,
       "news": [
         {
-          "title": "飞智《影之刃零》联名手柄开预约 外观已曝光",
-          "url": "https://www.gamersky.com/news/202609/2208327.shtml",
-          "source": "游民星空",
-          "published_at": "2026-09-12"
+          "title": "独游《艾希:续》众筹、玩家疯狂充值3000万，制作人：“这辈子都不敢众筹了”！",
+          "url": "http://www.gamelook.com.cn/2026/10/603445/",
+          "source": "GameLook",
+          "published_at": "2026-10-09"
         },
         {
-          "title": "盖世小鸡《影之刃零》联名手柄开启预约 售价549元",
-          "url": "https://www.gamersky.com/news/202609/2207603.shtml",
+          "title": "《艾希：续》众筹突破3000万元！超20万人参与",
+          "url": "https://www.gamersky.com/news/202610/2222815.shtml",
           "source": "游民星空",
-          "published_at": "2026-09-11"
+          "published_at": "2026-10-08"
         }
       ],
-      "week_start": "2026-09-07",
-      "week_end": "2026-09-13"
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
     },
     {
-      "rank": 30,
+      "rank": 32,
       "name": "卧龙2：凤火连天",
       "heat_score": 30.0,
       "media_count": 24,
@@ -680,7 +740,7 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 31,
+      "rank": 33,
       "name": "破烂水手",
       "heat_score": 30.0,
       "media_count": 0,
@@ -697,7 +757,7 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 32,
+      "rank": 34,
       "name": "最终幻想7：启示",
       "heat_score": 29.9,
       "media_count": 26,
@@ -706,7 +766,7 @@
       "week_end": "2026-09-06"
     },
     {
-      "rank": 33,
+      "rank": 35,
       "name": "火焰纹章：万缕千丝",
       "heat_score": 29.9,
       "media_count": 26,
@@ -734,7 +794,7 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 34,
+      "rank": 36,
       "name": "怪物猎人：荒野",
       "heat_score": 29.5,
       "media_count": 24,
@@ -756,7 +816,7 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 35,
+      "rank": 37,
       "name": "战争机器",
       "heat_score": 29.2,
       "media_count": 23,
@@ -784,7 +844,7 @@
       "week_end": "2026-10-04"
     },
     {
-      "rank": 36,
+      "rank": 38,
       "name": "巫师3",
       "heat_score": 28.7,
       "media_count": 21,
@@ -812,7 +872,7 @@
       "week_end": "2026-10-04"
     },
     {
-      "rank": 37,
+      "rank": 39,
       "name": "空之轨迹 the 2nd",
       "heat_score": 28.7,
       "media_count": 21,
@@ -840,7 +900,7 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 38,
+      "rank": 40,
       "name": "Wardogs",
       "heat_score": 28.6,
       "media_count": 10,
@@ -868,7 +928,7 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 39,
+      "rank": 41,
       "name": "卧龙2",
       "heat_score": 28.5,
       "media_count": 20,
@@ -896,7 +956,7 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 40,
+      "rank": 42,
       "name": "光环",
       "heat_score": 28.2,
       "media_count": 19,
@@ -924,7 +984,7 @@
       "week_end": "2026-09-27"
     },
     {
-      "rank": 41,
+      "rank": 43,
       "name": "巫师3：狂猎",
       "heat_score": 28.2,
       "media_count": 19,
@@ -952,7 +1012,7 @@
       "week_end": "2026-10-04"
     },
     {
-      "rank": 42,
+      "rank": 44,
       "name": "战狗",
       "heat_score": 28.2,
       "media_count": 19,
@@ -980,7 +1040,7 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 43,
+      "rank": 45,
       "name": "暗黑破坏神5",
       "heat_score": 28.2,
       "media_count": 19,
@@ -1008,7 +1068,7 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 44,
+      "rank": 46,
       "name": "魔兽世界：无限",
       "heat_score": 28.2,
       "media_count": 19,
@@ -1036,7 +1096,7 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 45,
+      "rank": 47,
       "name": "生化危机",
       "heat_score": 27.9,
       "media_count": 18,
@@ -1064,7 +1124,35 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 46,
+      "rank": 48,
+      "name": "龙之信条2",
+      "heat_score": 27.9,
+      "media_count": 18,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《龙之信条2》登陆NS2 能插帧到60 超出预期",
+          "url": "https://www.gamersky.com/news/202610/2224829.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-10"
+        },
+        {
+          "title": "褒贬不一！《龙之信条2》黑暗觉者上线 定价引玩家不满",
+          "url": "https://www.ali213.net/news/html/2026-10/1045263.html",
+          "source": "游侠网",
+          "published_at": "2026-10-10"
+        }
+      ],
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
+    },
+    {
+      "rank": 49,
       "name": "皇牌空战8",
       "heat_score": 27.6,
       "media_count": 17,
@@ -1092,7 +1180,7 @@
       "week_end": "2026-10-04"
     },
     {
-      "rank": 47,
+      "rank": 50,
       "name": "寂静岭：小镇陷落",
       "heat_score": 27.3,
       "media_count": 16,
@@ -1120,7 +1208,7 @@
       "week_end": "2026-09-27"
     },
     {
-      "rank": 48,
+      "rank": 51,
       "name": "英雄联盟",
       "heat_score": 26.9,
       "media_count": 15,
@@ -1148,7 +1236,35 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 49,
+      "rank": 52,
+      "name": "银松镇",
+      "heat_score": 26.8,
+      "media_count": 7,
+      "source_count": 4,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "恐怖游戏《银松镇》现已发售！早期Metacritic评分达到85%",
+          "url": "https://www.3dmgame.com/news/202610/3955929.html",
+          "source": "3DMGame",
+          "published_at": "2026-10-10"
+        },
+        {
+          "title": "生存恐怖游戏《银松镇》发售后口碑炸裂!Steam特别好评",
+          "url": "https://www.ali213.net/news/html/2026-10/1045287.html",
+          "source": "游侠网",
+          "published_at": "2026-10-10"
+        }
+      ],
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
+    },
+    {
+      "rank": 53,
       "name": "暗黑破坏神4",
       "heat_score": 26.6,
       "media_count": 14,
@@ -1176,31 +1292,7 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 50,
-      "name": "艾希：续",
-      "heat_score": 25.9,
-      "media_count": 5,
-      "source_count": 1,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": 1,
-      "rank_lists": [
-        "reserve"
-      ],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "国产横版动作游戏《艾希：续》摩点众筹2373万元 2027年发售",
-          "url": "https://www.gamersky.com/news/202610/2221601.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-04"
-        }
-      ],
-      "week_start": "2026-09-28",
-      "week_end": "2026-10-04"
-    },
-    {
-      "rank": 51,
+      "rank": 54,
       "name": "塞尔达传说",
       "heat_score": 25.8,
       "media_count": 12,
@@ -1228,7 +1320,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 52,
+      "rank": 55,
       "name": "底特律：化身为人",
       "heat_score": 25.8,
       "media_count": 12,
@@ -1256,7 +1348,7 @@
       "week_end": "2026-09-27"
     },
     {
-      "rank": 53,
+      "rank": 56,
       "name": "我的世界",
       "heat_score": 25.8,
       "media_count": 12,
@@ -1284,7 +1376,7 @@
       "week_end": "2026-09-27"
     },
     {
-      "rank": 54,
+      "rank": 57,
       "name": "三角洲行动",
       "heat_score": 25.7,
       "media_count": 3,
@@ -1308,7 +1400,7 @@
       "week_end": "2026-09-27"
     },
     {
-      "rank": 55,
+      "rank": 58,
       "name": "白银之城",
       "heat_score": 25.7,
       "media_count": 2,
@@ -1338,7 +1430,7 @@
       "week_end": "2026-09-27"
     },
     {
-      "rank": 56,
+      "rank": 59,
       "name": "巫师3RE",
       "heat_score": 25.5,
       "media_count": 23,
@@ -1366,7 +1458,7 @@
       "week_end": "2026-10-04"
     },
     {
-      "rank": 57,
+      "rank": 60,
       "name": "时之笛",
       "heat_score": 25.3,
       "media_count": 11,
@@ -1388,7 +1480,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 58,
+      "rank": 61,
       "name": "羊蹄山之魂",
       "heat_score": 25.3,
       "media_count": 11,
@@ -1410,7 +1502,35 @@
       "week_end": "2026-10-04"
     },
     {
-      "rank": 59,
+      "rank": 62,
+      "name": "冰汽时代",
+      "heat_score": 25.1,
+      "media_count": 5,
+      "source_count": 4,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《冰汽时代》10月登陆 Nintendo Switch定义社会生存游戏类型的《冰汽时代》将于 10 月 19 日登陆 Nintendo Switch同时全面支持 Nintendo Switch 2",
+          "url": "https://www.gameres.com/901203126.html",
+          "source": "游资网",
+          "published_at": "2026-10-08"
+        },
+        {
+          "title": "新伦敦的存亡掌握在你手中！ 《冰汽时代》10月登陆 Nintendo Switch",
+          "url": "https://www.3dmgame.com/news/202610/3955670.html",
+          "source": "3DMGame",
+          "published_at": "2026-10-08"
+        }
+      ],
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
+    },
+    {
+      "rank": 63,
       "name": "命运2",
       "heat_score": 25.1,
       "media_count": 5,
@@ -1438,7 +1558,7 @@
       "week_end": "2026-09-27"
     },
     {
-      "rank": 60,
+      "rank": 64,
       "name": "守墓人2",
       "heat_score": 25.1,
       "media_count": 5,
@@ -1466,7 +1586,7 @@
       "week_end": "2026-09-27"
     },
     {
-      "rank": 61,
+      "rank": 65,
       "name": "最终幻想：共鸣",
       "heat_score": 25.1,
       "media_count": 5,
@@ -1494,7 +1614,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 62,
+      "rank": 66,
       "name": "针影裁梦",
       "heat_score": 25.1,
       "media_count": 5,
@@ -1522,7 +1642,7 @@
       "week_end": "2026-09-27"
     },
     {
-      "rank": 63,
+      "rank": 67,
       "name": "守望先锋",
       "heat_score": 24.8,
       "media_count": 10,
@@ -1550,7 +1670,7 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 64,
+      "rank": 68,
       "name": "战神",
       "heat_score": 24.8,
       "media_count": 10,
@@ -1578,7 +1698,35 @@
       "week_end": "2026-10-04"
     },
     {
-      "rank": 65,
+      "rank": 69,
+      "name": "极限竞速：地平线6",
+      "heat_score": 24.8,
+      "media_count": 10,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "IGN满分佳作《极限竞速：地平线6》官宣大型新内容！同步PS5版发售",
+          "url": "https://www.gamersky.com/news/202610/2225527.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-11"
+        },
+        {
+          "title": "《极限竞速：地平线6》PS5版2027年1月26日发售，首款扩展包1月21日上线",
+          "url": "https://www.3dmgame.com/news/202610/3955823.html",
+          "source": "3DMGame",
+          "published_at": "2026-10-09"
+        }
+      ],
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
+    },
+    {
+      "rank": 70,
       "name": "英灵神殿",
       "heat_score": 24.8,
       "media_count": 10,
@@ -1606,7 +1754,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 66,
+      "rank": 71,
       "name": "星布谷地",
       "heat_score": 24.8,
       "media_count": 2,
@@ -1636,7 +1784,7 @@
       "week_end": "2026-10-04"
     },
     {
-      "rank": 67,
+      "rank": 72,
       "name": "艾希",
       "heat_score": 24.7,
       "media_count": 6,
@@ -1660,7 +1808,7 @@
       "week_end": "2026-10-04"
     },
     {
-      "rank": 68,
+      "rank": 73,
       "name": "金刚狼",
       "heat_score": 24.4,
       "media_count": 19,
@@ -1688,7 +1836,7 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 69,
+      "rank": 74,
       "name": "Physint",
       "heat_score": 24.3,
       "media_count": 9,
@@ -1716,7 +1864,7 @@
       "week_end": "2026-09-27"
     },
     {
-      "rank": 70,
+      "rank": 75,
       "name": "我的世界：地下城2",
       "heat_score": 24.3,
       "media_count": 9,
@@ -1744,7 +1892,35 @@
       "week_end": "2026-10-04"
     },
     {
-      "rank": 71,
+      "rank": 76,
+      "name": "沉星之序",
+      "heat_score": 24.3,
+      "media_count": 9,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "乔纳森·布洛新作《沉星之序》正式发售 Steam首日获特别好评",
+          "url": "https://www.gamersky.com/news/202610/2224758.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-09"
+        },
+        {
+          "title": "《沉星之序》现已登陆 PC、Nintendo Switch 2 与 PlayStation 5",
+          "url": "https://www.3dmgame.com/news/202610/3955835.html",
+          "source": "3DMGame",
+          "published_at": "2026-10-09"
+        }
+      ],
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
+    },
+    {
+      "rank": 77,
       "name": "给他爱5",
       "heat_score": 24.3,
       "media_count": 9,
@@ -1772,7 +1948,7 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 72,
+      "rank": 78,
       "name": "胧村正怪奇谭",
       "heat_score": 24.3,
       "media_count": 9,
@@ -1794,7 +1970,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 73,
+      "rank": 79,
       "name": "复兴吧温泉镇！",
       "heat_score": 24.1,
       "media_count": 4,
@@ -1822,7 +1998,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 74,
+      "rank": 80,
       "name": "科恩 1939",
       "heat_score": 24.1,
       "media_count": 4,
@@ -1850,7 +2026,7 @@
       "week_end": "2026-10-04"
     },
     {
-      "rank": 75,
+      "rank": 81,
       "name": "骰途酒馆·Farkle Roguelike",
       "heat_score": 24.1,
       "media_count": 4,
@@ -1878,7 +2054,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 76,
+      "rank": 82,
       "name": "FF7启示",
       "heat_score": 23.7,
       "media_count": 8,
@@ -1906,7 +2082,7 @@
       "week_end": "2026-09-27"
     },
     {
-      "rank": 77,
+      "rank": 83,
       "name": "博德之门3",
       "heat_score": 23.7,
       "media_count": 8,
@@ -1934,7 +2110,7 @@
       "week_end": "2026-10-04"
     },
     {
-      "rank": 78,
+      "rank": 84,
       "name": "塞尔达：时之笛",
       "heat_score": 23.7,
       "media_count": 8,
@@ -1962,7 +2138,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 79,
+      "rank": 85,
       "name": "女神异闻录6",
       "heat_score": 23.7,
       "media_count": 8,
@@ -1990,7 +2166,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 80,
+      "rank": 86,
       "name": "异于天堂",
       "heat_score": 23.7,
       "media_count": 8,
@@ -2012,7 +2188,63 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 81,
+      "rank": 87,
+      "name": "怪物猎人：崛起",
+      "heat_score": 23.7,
+      "media_count": 8,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "卡普空《怪物猎人：崛起》官方手游突然上线！网飞会员才能玩",
+          "url": "https://www.gamersky.com/news/202610/2224605.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-09"
+        },
+        {
+          "title": "《怪物猎人：崛起》登陆iOS/安卓！操作重新设计适配手机",
+          "url": "https://www.gamersky.com/news/202610/2222828.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-08"
+        }
+      ],
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
+    },
+    {
+      "rank": 88,
+      "name": "战地6",
+      "heat_score": 23.7,
+      "media_count": 8,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "XGP 10月第一批新阵容公布 《战地6》领衔",
+          "url": "https://www.gamersky.com/news/202610/2225333.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-10"
+        },
+        {
+          "title": "《战地6》第5赛季10月13日开启 加入三张地图及《死亡空间》主题PvE",
+          "url": "https://www.3dmgame.com/news/202610/3955890.html",
+          "source": "3DMGame",
+          "published_at": "2026-10-10"
+        }
+      ],
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
+    },
+    {
+      "rank": 89,
       "name": "无主之地4",
       "heat_score": 23.7,
       "media_count": 8,
@@ -2040,7 +2272,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 82,
+      "rank": 90,
       "name": "王国之心4",
       "heat_score": 23.7,
       "media_count": 8,
@@ -2068,7 +2300,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 83,
+      "rank": 91,
       "name": "艾尔登法环",
       "heat_score": 23.7,
       "media_count": 8,
@@ -2096,8 +2328,8 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 84,
-      "name": "龙之信条2",
+      "rank": 92,
+      "name": "黑神话：悟空",
       "heat_score": 23.7,
       "media_count": 8,
       "source_count": 3,
@@ -2108,23 +2340,45 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《龙之信条2》DLC“黑暗觉者”确认没有新职业 官方回应 外媒力挺",
-          "url": "https://www.gamersky.com/news/202609/2217655.shtml",
+          "title": "央视报道《黑神话：悟空》销量3000万！前无古人 会后有来者吗",
+          "url": "https://www.gamersky.com/news/202610/2221808.shtml",
           "source": "游民星空",
-          "published_at": "2026-09-27"
-        },
-        {
-          "title": "卡普空《龙之信条2》称东西方玩家差异大!西方玩家更硬核",
-          "url": "https://www.gamersky.com/news/202609/2215456.shtml",
-          "source": "游民星空",
-          "published_at": "2026-09-25"
+          "published_at": "2026-10-06"
         }
       ],
-      "week_start": "2026-09-21",
-      "week_end": "2026-09-27"
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
     },
     {
-      "rank": 85,
+      "rank": 93,
+      "name": "龙之信条2：黑暗觉者",
+      "heat_score": 23.7,
+      "media_count": 8,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《龙之信条2：黑暗觉者》GameSpot 8分 更容易上手却少了几分原作的硬核",
+          "url": "https://www.3dmgame.com/news/202610/3956015.html",
+          "source": "3DMGame",
+          "published_at": "2026-10-10"
+        },
+        {
+          "title": "《龙之信条2：黑暗觉者》PS5与Switch 2画面对比：掌机阴影和水面细节较弱",
+          "url": "https://www.3dmgame.com/news/202610/3955996.html",
+          "source": "3DMGame",
+          "published_at": "2026-10-10"
+        }
+      ],
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
+    },
+    {
+      "rank": 94,
       "name": "鸣潮",
       "heat_score": 23.4,
       "media_count": 2,
@@ -2154,7 +2408,7 @@
       "week_end": "2026-09-27"
     },
     {
-      "rank": 86,
+      "rank": 95,
       "name": "塞尔达",
       "heat_score": 23.2,
       "media_count": 15,
@@ -2176,7 +2430,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 87,
+      "rank": 96,
       "name": "007 初露锋芒",
       "heat_score": 23.0,
       "media_count": 7,
@@ -2204,7 +2458,63 @@
       "week_end": "2026-09-20"
     },
     {
-      "rank": 88,
+      "rank": 97,
+      "name": "叫魂",
+      "heat_score": 23.0,
+      "media_count": 7,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "中国舞台恐怖新游《叫魂》新PV！2027年发售",
+          "url": "https://www.gamersky.com/news/202610/2223972.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-09"
+        },
+        {
+          "title": "中式恐怖游戏《叫魂》正式公布！2027年登陆PC和PS5",
+          "url": "https://www.ali213.net/news/html/2026-10/1045027.html",
+          "source": "游侠网",
+          "published_at": "2026-10-09"
+        }
+      ],
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
+    },
+    {
+      "rank": 98,
+      "name": "寂静岭",
+      "heat_score": 23.0,
+      "media_count": 7,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《寂静岭》新作削弱怪物和解谜 老玩家又说太简单",
+          "url": "https://www.gamersky.com/news/202610/2225253.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-10"
+        },
+        {
+          "title": "《寂静岭》之父新作情报曝光！《死魂曲》复活？",
+          "url": "https://www.gamersky.com/news/202610/2224893.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-10"
+        }
+      ],
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11"
+    },
+    {
+      "rank": 99,
       "name": "封神演义 逆命承天",
       "heat_score": 23.0,
       "media_count": 7,
@@ -2232,7 +2542,7 @@
       "week_end": "2026-09-13"
     },
     {
-      "rank": 89,
+      "rank": 100,
       "name": "巫师3重制版",
       "heat_score": 23.0,
       "media_count": 7,
@@ -2252,289 +2562,12 @@
       ],
       "week_start": "2026-09-21",
       "week_end": "2026-09-27"
-    },
-    {
-      "rank": 90,
-      "name": "湮灭之潮",
-      "heat_score": 23.0,
-      "media_count": 7,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《湮灭之潮》PS5商店页面上线！超帅实机截图公开",
-          "url": "https://www.gamersky.com/news/202609/2205543.shtml",
-          "source": "游民星空",
-          "published_at": "2026-09-08"
-        }
-      ],
-      "week_start": "2026-09-07",
-      "week_end": "2026-09-13"
-    },
-    {
-      "rank": 91,
-      "name": "水银疗养院",
-      "heat_score": 22.6,
-      "media_count": 0,
-      "source_count": 0,
-      "reservation_label": "5.8万",
-      "follow_delta_label": "1000",
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [],
-      "week_start": "2026-09-07",
-      "week_end": "2026-09-13"
-    },
-    {
-      "rank": 92,
-      "name": "寂静岭：Townfall",
-      "heat_score": 22.5,
-      "media_count": 12,
-      "source_count": 2,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《寂静岭Townfall》官宣更新!专为PC玩家解决运行问题",
-          "url": "https://www.ali213.net/news/html/2026-9/1042709.html",
-          "source": "游侠网",
-          "published_at": "2026-09-24"
-        },
-        {
-          "title": "离发售还有2天 《寂静岭：Townfall》遭RUNE破解！",
-          "url": "https://www.ali213.net/news/html/2026-9/1042079.html",
-          "source": "游侠网",
-          "published_at": "2026-09-22"
-        }
-      ],
-      "week_start": "2026-09-21",
-      "week_end": "2026-09-27"
-    },
-    {
-      "rank": 93,
-      "name": "暗黑4",
-      "heat_score": 22.4,
-      "media_count": 13,
-      "source_count": 2,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《暗黑4》新赛季正式上线 此前因服务器问题短暂延期",
-          "url": "https://www.gamersky.com/news/202609/2211184.shtml",
-          "source": "游民星空",
-          "published_at": "2026-09-16"
-        },
-        {
-          "title": "开服直接炸服！《暗黑4》新赛季上线暴雷 官方紧急延期",
-          "url": "https://www.ali213.net/news/html/2026-9/1040439.html",
-          "source": "游侠网",
-          "published_at": "2026-09-16"
-        }
-      ],
-      "week_start": "2026-09-14",
-      "week_end": "2026-09-20"
-    },
-    {
-      "rank": 94,
-      "name": "Apex英雄",
-      "heat_score": 22.3,
-      "media_count": 6,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "准备好在全新《Apex英雄》VS《街霸6》活动中大打出手",
-          "url": "https://www.3dmgame.com/news/202609/3953668.html",
-          "source": "3DMGame",
-          "published_at": "2026-09-18"
-        },
-        {
-          "title": "准备好在全新《Apex英雄》VS《街霸6》活动中大打出手",
-          "url": "https://www.ali213.net/news/html/2026-9/1040937.html",
-          "source": "游侠网",
-          "published_at": "2026-09-18"
-        }
-      ],
-      "week_start": "2026-09-14",
-      "week_end": "2026-09-20"
-    },
-    {
-      "rank": 95,
-      "name": "PUBG",
-      "heat_score": 22.3,
-      "media_count": 6,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《PUBG》43.1版本更新 新增踢击等全新玩法",
-          "url": "https://www.3dmgame.com/news/202609/3952994.html",
-          "source": "3DMGame",
-          "published_at": "2026-09-11"
-        },
-        {
-          "title": "《PUBG》43.1版本更新 新增踢击等全新玩法",
-          "url": "https://www.ali213.net/news/html/2026-9/1038815.html",
-          "source": "游侠网",
-          "published_at": "2026-09-11"
-        }
-      ],
-      "week_start": "2026-09-07",
-      "week_end": "2026-09-13"
-    },
-    {
-      "rank": 96,
-      "name": "堡垒之夜",
-      "heat_score": 22.3,
-      "media_count": 6,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "虚拟主播的《堡垒之夜》联动曲目封面暗藏AI水印 团队称将换人工重绘版",
-          "url": "https://www.gamersky.com/news/202610/2221290.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-03"
-        },
-        {
-          "title": "瘦长鬼影登场？《堡垒之夜》万圣节海报藏多个IP联动",
-          "url": "https://www.ali213.net/news/html/2026-9/1044105.html",
-          "source": "游侠网",
-          "published_at": "2026-09-30"
-        }
-      ],
-      "week_start": "2026-09-28",
-      "week_end": "2026-10-04"
-    },
-    {
-      "rank": 97,
-      "name": "塞尔达传说：时之笛",
-      "heat_score": 22.3,
-      "media_count": 6,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《塞尔达传说：时之笛》重制版幼年林克新形象引争议 谁家金鱼精！",
-          "url": "https://www.3dmgame.com/news/202609/3952726.html",
-          "source": "3DMGame",
-          "published_at": "2026-09-09"
-        }
-      ],
-      "week_start": "2026-09-07",
-      "week_end": "2026-09-13"
-    },
-    {
-      "rank": 98,
-      "name": "巫师4",
-      "heat_score": 22.3,
-      "media_count": 6,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "别猜错了！《巫师4》转虚幻5 CDPR否认赛博朋克翻车所致",
-          "url": "https://www.ali213.net/news/html/2026-9/1041237.html",
-          "source": "游侠网",
-          "published_at": "2026-09-20"
-        },
-        {
-          "title": "CDPR称《巫师4》弃用REDengine换虚幻引擎5与《赛博朋克2077》技术问题无关",
-          "url": "https://www.gamersky.com/news/202609/2212657.shtml",
-          "source": "游民星空",
-          "published_at": "2026-09-19"
-        }
-      ],
-      "week_start": "2026-09-14",
-      "week_end": "2026-09-20"
-    },
-    {
-      "rank": 99,
-      "name": "幻兽帕鲁",
-      "heat_score": 22.3,
-      "media_count": 6,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《幻兽帕鲁》与《符文世界：龙之荒野》的捆绑包已于今日在 Steam平台发售！",
-          "url": "https://www.3dmgame.com/news/202609/3954806.html",
-          "source": "3DMGame",
-          "published_at": "2026-09-28"
-        }
-      ],
-      "week_start": "2026-09-28",
-      "week_end": "2026-10-04"
-    },
-    {
-      "rank": 100,
-      "name": "恶魔城：贝尔蒙特的诅咒",
-      "heat_score": 22.3,
-      "media_count": 6,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《恶魔城：贝尔蒙特的诅咒》试玩版上线 存档可继承至正式版",
-          "url": "https://www.3dmgame.com/news/202610/3955138.html",
-          "source": "3DMGame",
-          "published_at": "2026-10-02"
-        },
-        {
-          "title": "《恶魔城：贝尔蒙特的诅咒》试玩版上线！大战黑化圣女贞德",
-          "url": "https://www.gamersky.com/news/202610/2220636.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-01"
-        }
-      ],
-      "week_start": "2026-09-28",
-      "week_end": "2026-10-04"
     }
   ],
   "news_history": [
     {
       "name": "GTA6",
-      "media_count": 716,
+      "media_count": 733,
       "source_count": 4,
       "article_ids": [
         "3dmgame:https://www.3dmgame.com/news/202609/3952531.html",
@@ -3252,10 +3285,27 @@
         "gamersky:https://www.gamersky.com/news/202610/2225393.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225355.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225311.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2225298.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2225298.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956056.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956059.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956051.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956037.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956025.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225797.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225796.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225753.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225748.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225693.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225669.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225668.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225645.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225639.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225607.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225588.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225587.shtml"
       ],
       "first_article_date": "2026-08-31",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-12",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -3970,7 +4020,7 @@
     },
     {
       "name": "最终幻想7：启示",
-      "media_count": 116,
+      "media_count": 118,
       "source_count": 3,
       "article_ids": [
         "3dmgame:https://www.3dmgame.com/news/202609/3952486.html",
@@ -4088,10 +4138,12 @@
         "3dmgame:https://www.3dmgame.com/news/202610/3955896.html",
         "gamersky:https://www.gamersky.com/news/202610/2225396.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225307.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2224842.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2224842.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225675.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225635.shtml"
       ],
       "first_article_date": "2026-08-31",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -4263,7 +4315,7 @@
     },
     {
       "name": "巫师3",
-      "media_count": 73,
+      "media_count": 74,
       "source_count": 3,
       "article_ids": [
         "3dmgame:https://www.3dmgame.com/news/202609/3952330.html",
@@ -4338,10 +4390,11 @@
         "gamersky:https://www.gamersky.com/news/202610/2222038.shtml",
         "youxia:https://www.ali213.net/news/html/2026-10/1044441.html",
         "gamersky:https://www.gamersky.com/news/202610/2222846.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044961.html"
+        "youxia:https://www.ali213.net/news/html/2026-10/1044961.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225652.shtml"
       ],
       "first_article_date": "2026-08-31",
-      "last_article_date": "2026-10-08",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -4560,7 +4613,7 @@
     },
     {
       "name": "星际：异端先知",
-      "media_count": 17,
+      "media_count": 18,
       "source_count": 3,
       "article_ids": [
         "3dmgame:https://www.3dmgame.com/news/202609/3952356.html",
@@ -4579,10 +4632,11 @@
         "3dmgame:https://www.3dmgame.com/news/202609/3954851.html",
         "3dmgame:https://www.3dmgame.com/news/202609/3954847.html",
         "youxia:https://www.ali213.net/news/html/2026-9/1043651.html",
-        "gamersky:https://www.gamersky.com/news/202609/2219541.shtml"
+        "gamersky:https://www.gamersky.com/news/202609/2219541.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956048.html"
       ],
       "first_article_date": "2026-08-31",
-      "last_article_date": "2026-09-29",
+      "last_article_date": "2026-10-12",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -4839,7 +4893,7 @@
     },
     {
       "name": "生化危机",
-      "media_count": 63,
+      "media_count": 67,
       "source_count": 3,
       "article_ids": [
         "youxia:https://www.ali213.net/news/html/2026-9/1037393.html",
@@ -4904,10 +4958,14 @@
         "youxia:https://www.ali213.net/news/html/2026-10/1044743.html",
         "gamersky:https://www.gamersky.com/news/202610/2223413.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2223216.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955878.html"
+        "3dmgame:https://www.3dmgame.com/news/202610/3955878.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956043.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225808.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225638.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225622.shtml"
       ],
       "first_article_date": "2026-08-31",
-      "last_article_date": "2026-10-09",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -5078,7 +5136,7 @@
     },
     {
       "name": "给他爱5",
-      "media_count": 32,
+      "media_count": 34,
       "source_count": 3,
       "article_ids": [
         "3dmgame:https://www.3dmgame.com/news/202609/3952138.html",
@@ -5112,10 +5170,12 @@
         "youxia:https://www.ali213.net/news/html/2026-10/1044629.html",
         "gamersky:https://www.gamersky.com/news/202610/2222278.shtml",
         "3dmgame:https://www.3dmgame.com/news/202610/3955627.html",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044773.html"
+        "youxia:https://www.ali213.net/news/html/2026-10/1044773.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956060.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956045.html"
       ],
       "first_article_date": "2026-09-02",
-      "last_article_date": "2026-10-08",
+      "last_article_date": "2026-10-12",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -5258,7 +5318,7 @@
     },
     {
       "name": "最后生还者",
-      "media_count": 24,
+      "media_count": 25,
       "source_count": 3,
       "article_ids": [
         "3dmgame:https://www.3dmgame.com/news/202609/3952367.html",
@@ -5284,10 +5344,11 @@
         "gamersky:https://www.gamersky.com/news/202609/2218868.shtml",
         "3dmgame:https://www.3dmgame.com/news/202609/3954895.html",
         "youxia:https://www.ali213.net/news/html/2026-9/1043687.html",
-        "gamersky:https://www.gamersky.com/news/202609/2219726.shtml"
+        "gamersky:https://www.gamersky.com/news/202609/2219726.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225598.shtml"
       ],
       "first_article_date": "2026-08-31",
-      "last_article_date": "2026-09-30",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -5377,7 +5438,7 @@
     },
     {
       "name": "地铁2039",
-      "media_count": 8,
+      "media_count": 10,
       "source_count": 3,
       "article_ids": [
         "3dmgame:https://www.3dmgame.com/news/202609/3952332.html",
@@ -5387,10 +5448,12 @@
         "gamersky:https://www.gamersky.com/news/202609/2202827.shtml",
         "gamersky:https://www.gamersky.com/news/202609/2202789.shtml",
         "gamersky:https://www.gamersky.com/news/202609/2205147.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1037759.html"
+        "youxia:https://www.ali213.net/news/html/2026-9/1037759.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956017.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225670.shtml"
       ],
       "first_article_date": "2026-08-31",
-      "last_article_date": "2026-09-08",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "gamersky",
         "3dmgame",
@@ -5536,7 +5599,7 @@
     },
     {
       "name": "影之刃零",
-      "media_count": 134,
+      "media_count": 146,
       "source_count": 5,
       "article_ids": [
         "youxia:https://www.ali213.net/news/html/2026-8/1035495.html",
@@ -5672,10 +5735,22 @@
         "gamersky:https://www.gamersky.com/news/202610/2225403.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225382.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225282.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2225051.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2225051.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225761.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225672.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225665.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225658.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225657.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225649.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225644.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225640.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225616.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225610.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225609.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225595.shtml"
       ],
       "first_article_date": "2026-08-31",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -5879,7 +5954,7 @@
     },
     {
       "name": "黑神话",
-      "media_count": 15,
+      "media_count": 16,
       "source_count": 4,
       "article_ids": [
         "3dmgame:https://www.3dmgame.com/news/202609/3952091.html",
@@ -5896,10 +5971,11 @@
         "gamersky:https://www.gamersky.com/news/202609/2218623.shtml",
         "gamersky:https://www.gamersky.com/news/202609/2219009.shtml",
         "youxia:https://www.ali213.net/news/html/2026-10/1044261.html",
-        "gamersky:https://www.gamersky.com/news/202610/2221339.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2221339.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225605.shtml"
       ],
       "first_article_date": "2026-09-02",
-      "last_article_date": "2026-10-04",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "gamersky",
         "3dmgame",
@@ -6036,7 +6112,7 @@
         "gamersky:https://www.gamersky.com/news/202610/2225527.shtml"
       ],
       "first_article_date": "2026-09-01",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -6478,7 +6554,7 @@
     },
     {
       "name": "皇牌空战8",
-      "media_count": 48,
+      "media_count": 49,
       "source_count": 4,
       "article_ids": [
         "youxia:https://www.ali213.net/news/html/2026-9/1036167.html",
@@ -6528,10 +6604,11 @@
         "gamersky:https://www.gamersky.com/news/202610/2222366.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2224013.shtml",
         "3dmgame:https://www.3dmgame.com/news/202610/3955740.html",
-        "gamelook:http://www.gamelook.com.cn/2026/10/603469/"
+        "gamelook:http://www.gamelook.com.cn/2026/10/603469/",
+        "gamersky:https://www.gamersky.com/news/202610/2225694.shtml"
       ],
       "first_article_date": "2026-09-02",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame",
         "youxia",
@@ -7791,7 +7868,7 @@
     },
     {
       "name": "塞尔达传说：时之笛",
-      "media_count": 17,
+      "media_count": 18,
       "source_count": 4,
       "article_ids": [
         "3dmgame:https://www.3dmgame.com/news/202609/3952299.html",
@@ -7810,10 +7887,11 @@
         "3dmgame:https://www.3dmgame.com/news/202610/3955720.html",
         "3dmgame:https://www.3dmgame.com/news/202610/3955636.html",
         "3dmgame:https://www.3dmgame.com/news/202610/3955872.html",
-        "youxia:https://www.ali213.net/news/html/2026-10/1045069.html"
+        "youxia:https://www.ali213.net/news/html/2026-10/1045069.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956076.html"
       ],
       "first_article_date": "2026-09-03",
-      "last_article_date": "2026-10-09",
+      "last_article_date": "2026-10-12",
       "source_keys": [
         "3dmgame",
         "gamelook",
@@ -8066,7 +8144,7 @@
     },
     {
       "name": "巫师3：狂猎重制版",
-      "media_count": 53,
+      "media_count": 55,
       "source_count": 4,
       "article_ids": [
         "gamersky:https://www.gamersky.com/news/202609/2200882.shtml",
@@ -8121,10 +8199,12 @@
         "gamersky:https://www.gamersky.com/news/202610/2223888.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225287.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225377.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2225531.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2225531.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225601.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225596.shtml"
       ],
       "first_article_date": "2026-09-02",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "gameres",
         "gamersky",
@@ -9295,7 +9375,7 @@
         "gamersky:https://www.gamersky.com/news/202610/2225530.shtml"
       ],
       "first_article_date": "2026-09-03",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame",
         "youxia",
@@ -9325,7 +9405,7 @@
     },
     {
       "name": "漫威斗魂",
-      "media_count": 6,
+      "media_count": 7,
       "source_count": 3,
       "article_ids": [
         "youxia:https://www.ali213.net/news/html/2026-8/1035619.html",
@@ -9333,10 +9413,11 @@
         "3dmgame:https://www.3dmgame.com/news/202609/3953360.html",
         "3dmgame:https://www.3dmgame.com/news/202609/3954440.html",
         "3dmgame:https://www.3dmgame.com/news/202610/3955480.html",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044931.html"
+        "youxia:https://www.ali213.net/news/html/2026-10/1044931.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956080.html"
       ],
       "first_article_date": "2026-08-31",
-      "last_article_date": "2026-10-08",
+      "last_article_date": "2026-10-12",
       "source_keys": [
         "gameres",
         "3dmgame",
@@ -9702,7 +9783,7 @@
     },
     {
       "name": "生化危机9：安魂曲",
-      "media_count": 12,
+      "media_count": 14,
       "source_count": 3,
       "article_ids": [
         "gamersky:https://www.gamersky.com/news/202609/2203890.shtml",
@@ -9716,10 +9797,12 @@
         "gamersky:https://www.gamersky.com/news/202610/2222637.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2222689.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2222653.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2224809.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2224809.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225703.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225627.shtml"
       ],
       "first_article_date": "2026-09-02",
-      "last_article_date": "2026-10-09",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "gamersky",
         "youxia",
@@ -10023,7 +10106,7 @@
     },
     {
       "name": "巫师3：重制版",
-      "media_count": 59,
+      "media_count": 60,
       "source_count": 3,
       "article_ids": [
         "3dmgame:https://www.3dmgame.com/news/202609/3952238.html",
@@ -10084,10 +10167,11 @@
         "3dmgame:https://www.3dmgame.com/news/202610/3955454.html",
         "3dmgame:https://www.3dmgame.com/news/202610/3955727.html",
         "youxia:https://www.ali213.net/news/html/2026-10/1044969.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955902.html"
+        "3dmgame:https://www.3dmgame.com/news/202610/3955902.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225612.shtml"
       ],
       "first_article_date": "2026-09-01",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -10585,17 +10669,18 @@
     },
     {
       "name": "GTA4",
-      "media_count": 5,
+      "media_count": 6,
       "source_count": 2,
       "article_ids": [
         "gamersky:https://www.gamersky.com/news/202608/2199338.shtml",
         "gamersky:https://www.gamersky.com/news/202608/2199337.shtml",
         "3dmgame:https://www.3dmgame.com/news/202609/3952716.html",
         "gamersky:https://www.gamersky.com/news/202609/2220208.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955388.html"
+        "3dmgame:https://www.3dmgame.com/news/202610/3955388.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225806.shtml"
       ],
       "first_article_date": "2026-08-31",
-      "last_article_date": "2026-10-06",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame",
         "gamersky"
@@ -12028,7 +12113,7 @@
     },
     {
       "name": "光与影：33号远征队",
-      "media_count": 6,
+      "media_count": 7,
       "source_count": 2,
       "article_ids": [
         "gamersky:https://www.gamersky.com/news/202608/2199575.shtml",
@@ -12036,10 +12121,11 @@
         "3dmgame:https://www.3dmgame.com/news/202609/3953345.html",
         "gamersky:https://www.gamersky.com/news/202609/2209974.shtml",
         "3dmgame:https://www.3dmgame.com/news/202609/3953677.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955306.html"
+        "3dmgame:https://www.3dmgame.com/news/202610/3955306.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225661.shtml"
       ],
       "first_article_date": "2026-08-31",
-      "last_article_date": "2026-10-04",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame",
         "gamersky"
@@ -12977,14 +13063,15 @@
     },
     {
       "name": "乐高积木",
-      "media_count": 2,
+      "media_count": 3,
       "source_count": 1,
       "article_ids": [
         "3dmgame:https://www.3dmgame.com/news/202609/3952349.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955090.html"
+        "3dmgame:https://www.3dmgame.com/news/202610/3955090.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956020.html"
       ],
       "first_article_date": "2026-09-04",
-      "last_article_date": "2026-10-01",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame"
       ],
@@ -14332,15 +14419,16 @@
     },
     {
       "name": "生化危机：代号维罗妮卡 重制版",
-      "media_count": 3,
+      "media_count": 4,
       "source_count": 1,
       "article_ids": [
         "gamersky:https://www.gamersky.com/news/202609/2204096.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2222652.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2223538.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2223538.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225760.shtml"
       ],
       "first_article_date": "2026-09-06",
-      "last_article_date": "2026-10-08",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "gamersky"
       ],
@@ -14902,20 +14990,22 @@
     },
     {
       "name": "铁拳8",
-      "media_count": 5,
-      "source_count": 2,
+      "media_count": 6,
+      "source_count": 3,
       "article_ids": [
         "youxia:https://www.ali213.net/news/html/2026-9/1036985.html",
         "3dmgame:https://www.3dmgame.com/news/202609/3953037.html",
         "3dmgame:https://www.3dmgame.com/news/202609/3953064.html",
         "youxia:https://www.ali213.net/news/html/2026-9/1041231.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955946.html"
+        "3dmgame:https://www.3dmgame.com/news/202610/3955946.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225818.shtml"
       ],
       "first_article_date": "2026-09-04",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-12",
       "source_keys": [
         "youxia",
-        "3dmgame"
+        "3dmgame",
+        "gamersky"
       ],
       "heat_score": 0.0
     },
@@ -15316,7 +15406,7 @@
     },
     {
       "name": "星空",
-      "media_count": 10,
+      "media_count": 11,
       "source_count": 3,
       "article_ids": [
         "gamersky:https://www.gamersky.com/news/202609/2204042.shtml",
@@ -15328,10 +15418,11 @@
         "gamersky:https://www.gamersky.com/news/202609/2217124.shtml",
         "3dmgame:https://www.3dmgame.com/news/202610/3956014.html",
         "3dmgame:https://www.3dmgame.com/news/202610/3956004.html",
-        "gamersky:https://www.gamersky.com/news/202610/2225378.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2225378.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225611.shtml"
       ],
       "first_article_date": "2026-09-06",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "gamersky",
         "youxia",
@@ -15524,7 +15615,7 @@
     },
     {
       "name": "血源",
-      "media_count": 13,
+      "media_count": 14,
       "source_count": 3,
       "article_ids": [
         "gamersky:https://www.gamersky.com/news/202609/2202132.shtml",
@@ -15539,10 +15630,11 @@
         "gamersky:https://www.gamersky.com/news/202610/2222680.shtml",
         "3dmgame:https://www.3dmgame.com/news/202610/3955719.html",
         "youxia:https://www.ali213.net/news/html/2026-10/1044741.html",
-        "gamersky:https://www.gamersky.com/news/202610/2223377.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2223377.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225755.shtml"
       ],
       "first_article_date": "2026-09-03",
-      "last_article_date": "2026-10-09",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "gamersky",
         "youxia",
@@ -16065,7 +16157,7 @@
     },
     {
       "name": "战争机器：事变日",
-      "media_count": 75,
+      "media_count": 76,
       "source_count": 3,
       "article_ids": [
         "youxia:https://www.ali213.net/news/html/2026-9/1037535.html",
@@ -16142,10 +16234,11 @@
         "gamersky:https://www.gamersky.com/news/202610/2225376.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225346.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225286.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2225133.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2225133.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225648.shtml"
       ],
       "first_article_date": "2026-09-07",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "youxia",
         "3dmgame",
@@ -18548,7 +18641,7 @@
     },
     {
       "name": "漫威争锋",
-      "media_count": 16,
+      "media_count": 17,
       "source_count": 3,
       "source_keys": [
         "3dmgame",
@@ -18573,10 +18666,11 @@
         "gamersky:https://www.gamersky.com/news/202609/2217426.shtml",
         "youxia:https://www.ali213.net/news/html/2026-9/1043405.html",
         "3dmgame:https://www.3dmgame.com/news/202610/3955614.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955952.html"
+        "3dmgame:https://www.3dmgame.com/news/202610/3955952.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956036.html"
       ],
       "first_article_date": "2026-09-08",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "heat_score": 0.0
     },
     {
@@ -19512,7 +19606,7 @@
     },
     {
       "name": "胧村正怪奇谭",
-      "media_count": 15,
+      "media_count": 17,
       "source_count": 3,
       "source_keys": [
         "gamersky",
@@ -19536,10 +19630,12 @@
         "3dmgame:https://www.3dmgame.com/news/202609/3955004.html",
         "gamersky:https://www.gamersky.com/news/202610/2223526.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2223399.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955768.html"
+        "3dmgame:https://www.3dmgame.com/news/202610/3955768.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956067.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225667.shtml"
       ],
       "first_article_date": "2026-09-09",
-      "last_article_date": "2026-10-09",
+      "last_article_date": "2026-10-12",
       "heat_score": 0.0
     },
     {
@@ -20765,7 +20861,7 @@
     },
     {
       "name": "永恒之塔2",
-      "media_count": 22,
+      "media_count": 24,
       "source_count": 4,
       "source_keys": [
         "gamersky",
@@ -20797,10 +20893,12 @@
         "gamersky:https://www.gamersky.com/news/202610/2223317.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2222985.shtml",
         "gamelook:http://www.gamelook.com.cn/2026/10/603407/",
-        "gamersky:https://www.gamersky.com/news/202610/2224673.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2224673.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956047.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225697.shtml"
       ],
       "first_article_date": "2026-09-08",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-12",
       "heat_score": 0.0
     },
     {
@@ -23160,7 +23258,7 @@
     },
     {
       "name": "火影忍者",
-      "media_count": 2,
+      "media_count": 5,
       "source_count": 2,
       "source_keys": [
         "3dmgame",
@@ -23170,10 +23268,13 @@
       "week_end": null,
       "article_ids": [
         "3dmgame:https://www.3dmgame.com/news/202609/3953066.html",
-        "gamersky:https://www.gamersky.com/news/202610/2222813.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2222813.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956061.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225819.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225586.shtml"
       ],
       "first_article_date": "2026-09-12",
-      "last_article_date": "2026-10-08",
+      "last_article_date": "2026-10-12",
       "heat_score": 0.0
     },
     {
@@ -23803,7 +23904,7 @@
         "gamersky:https://www.gamersky.com/news/202610/2225335.shtml"
       ],
       "first_article_date": "2026-09-13",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "heat_score": 0.0
     },
     {
@@ -25624,20 +25725,22 @@
     },
     {
       "name": "雨中冒险2",
-      "media_count": 2,
-      "source_count": 2,
+      "media_count": 3,
+      "source_count": 3,
       "source_keys": [
         "youxia",
-        "gamersky"
+        "gamersky",
+        "3dmgame"
       ],
       "week_start": null,
       "week_end": null,
       "article_ids": [
         "youxia:https://www.ali213.net/news/html/2026-9/1039879.html",
-        "gamersky:https://www.gamersky.com/news/202610/2223939.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2223939.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956029.html"
       ],
       "first_article_date": "2026-09-15",
-      "last_article_date": "2026-10-09",
+      "last_article_date": "2026-10-11",
       "heat_score": 0.0
     },
     {
@@ -28812,7 +28915,7 @@
     },
     {
       "name": "不朽遗志",
-      "media_count": 8,
+      "media_count": 9,
       "source_count": 3,
       "source_keys": [
         "3dmgame",
@@ -28829,10 +28932,11 @@
         "gamersky:https://www.gamersky.com/news/202609/2211950.shtml",
         "youxia:https://www.ali213.net/news/html/2026-9/1042443.html",
         "youxia:https://www.ali213.net/news/html/2026-9/1043757.html",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044803.html"
+        "youxia:https://www.ali213.net/news/html/2026-10/1044803.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225626.shtml"
       ],
       "first_article_date": "2026-09-18",
-      "last_article_date": "2026-10-08",
+      "last_article_date": "2026-10-11",
       "heat_score": 0.0
     },
     {
@@ -28885,7 +28989,7 @@
     },
     {
       "name": "万智牌",
-      "media_count": 1,
+      "media_count": 2,
       "source_count": 1,
       "source_keys": [
         "3dmgame"
@@ -28893,10 +28997,11 @@
       "week_start": null,
       "week_end": null,
       "article_ids": [
-        "3dmgame:https://www.3dmgame.com/news/202609/3953687.html"
+        "3dmgame:https://www.3dmgame.com/news/202609/3953687.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956077.html"
       ],
       "first_article_date": "2026-09-18",
-      "last_article_date": "2026-09-18",
+      "last_article_date": "2026-10-12",
       "heat_score": 0.0
     },
     {
@@ -29699,7 +29804,7 @@
     },
     {
       "name": "战争机器",
-      "media_count": 36,
+      "media_count": 37,
       "source_count": 3,
       "source_keys": [
         "gamersky",
@@ -29744,10 +29849,11 @@
         "gamersky:https://www.gamersky.com/news/202610/2222834.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2224818.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225035.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2225275.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2225275.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225666.shtml"
       ],
       "first_article_date": "2026-09-18",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "heat_score": 0.0
     },
     {
@@ -32846,7 +32952,7 @@
     },
     {
       "name": "权力的游戏：维斯特洛之战",
-      "media_count": 1,
+      "media_count": 2,
       "source_count": 1,
       "source_keys": [
         "3dmgame"
@@ -32854,10 +32960,11 @@
       "week_start": null,
       "week_end": null,
       "article_ids": [
-        "3dmgame:https://www.3dmgame.com/news/202609/3954170.html"
+        "3dmgame:https://www.3dmgame.com/news/202609/3954170.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956050.html"
       ],
       "first_article_date": "2026-09-22",
-      "last_article_date": "2026-09-22",
+      "last_article_date": "2026-10-12",
       "heat_score": 0.0
     },
     {
@@ -33363,18 +33470,20 @@
     },
     {
       "name": "生化维罗妮卡RE",
-      "media_count": 1,
-      "source_count": 1,
+      "media_count": 2,
+      "source_count": 2,
       "source_keys": [
-        "youxia"
+        "youxia",
+        "gamersky"
       ],
       "week_start": null,
       "week_end": null,
       "article_ids": [
-        "youxia:https://www.ali213.net/news/html/2026-9/1041921.html"
+        "youxia:https://www.ali213.net/news/html/2026-9/1041921.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225604.shtml"
       ],
       "first_article_date": "2026-09-22",
-      "last_article_date": "2026-09-22",
+      "last_article_date": "2026-10-11",
       "heat_score": 0.0
     },
     {
@@ -35832,7 +35941,7 @@
     },
     {
       "name": "使命召唤：战区",
-      "media_count": 1,
+      "media_count": 2,
       "source_count": 1,
       "source_keys": [
         "3dmgame"
@@ -35840,10 +35949,11 @@
       "week_start": null,
       "week_end": null,
       "article_ids": [
-        "3dmgame:https://www.3dmgame.com/news/202609/3954545.html"
+        "3dmgame:https://www.3dmgame.com/news/202609/3954545.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956065.html"
       ],
       "first_article_date": "2026-09-25",
-      "last_article_date": "2026-09-25",
+      "last_article_date": "2026-10-12",
       "heat_score": 0.0
     },
     {
@@ -40486,7 +40596,7 @@
     },
     {
       "name": "Arc Raiders",
-      "media_count": 8,
+      "media_count": 9,
       "source_count": 2,
       "source_keys": [
         "3dmgame",
@@ -40502,10 +40612,11 @@
         "3dmgame:https://www.3dmgame.com/news/202610/3955421.html",
         "3dmgame:https://www.3dmgame.com/news/202610/3955562.html",
         "3dmgame:https://www.3dmgame.com/news/202610/3955877.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955757.html"
+        "3dmgame:https://www.3dmgame.com/news/202610/3955757.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956035.html"
       ],
       "first_article_date": "2026-09-24",
-      "last_article_date": "2026-10-09",
+      "last_article_date": "2026-10-11",
       "heat_score": 0.0
     },
     {
@@ -44145,7 +44256,7 @@
     },
     {
       "name": "漫威蜘蛛侠3",
-      "media_count": 1,
+      "media_count": 2,
       "source_count": 1,
       "source_keys": [
         "gamersky"
@@ -44153,10 +44264,11 @@
       "week_start": null,
       "week_end": null,
       "article_ids": [
-        "gamersky:https://www.gamersky.com/news/202610/2223197.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2223197.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225633.shtml"
       ],
       "first_article_date": "2026-10-08",
-      "last_article_date": "2026-10-08",
+      "last_article_date": "2026-10-11",
       "heat_score": 0.0
     },
     {
@@ -46016,12 +46128,364 @@
       "first_article_date": "2026-10-10",
       "last_article_date": "2026-10-10",
       "heat_score": 0.0
+    },
+    {
+      "name": "极限竞速：地平线2",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "3dmgame"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202610/3956081.html"
+      ],
+      "first_article_date": "2026-10-12",
+      "last_article_date": "2026-10-12",
+      "heat_score": 0.0
+    },
+    {
+      "name": "战地之王：重生",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "3dmgame"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202610/3956075.html"
+      ],
+      "first_article_date": "2026-10-12",
+      "last_article_date": "2026-10-12",
+      "heat_score": 0.0
+    },
+    {
+      "name": "星际公民：42中队",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "3dmgame"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202610/3956070.html"
+      ],
+      "first_article_date": "2026-10-12",
+      "last_article_date": "2026-10-12",
+      "heat_score": 0.0
+    },
+    {
+      "name": "最终幻想水晶编年史：时之回响",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "3dmgame"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202610/3956066.html"
+      ],
+      "first_article_date": "2026-10-12",
+      "last_article_date": "2026-10-12",
+      "heat_score": 0.0
+    },
+    {
+      "name": "乐高哈利波特合集",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "3dmgame"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202610/3956064.html"
+      ],
+      "first_article_date": "2026-10-12",
+      "last_article_date": "2026-10-12",
+      "heat_score": 0.0
+    },
+    {
+      "name": "银河飞将3",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "3dmgame"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202610/3956063.html"
+      ],
+      "first_article_date": "2026-10-12",
+      "last_article_date": "2026-10-12",
+      "heat_score": 0.0
+    },
+    {
+      "name": "超凡马里奥",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "3dmgame"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202610/3956049.html"
+      ],
+      "first_article_date": "2026-10-12",
+      "last_article_date": "2026-10-12",
+      "heat_score": 0.0
+    },
+    {
+      "name": "小宫的审讯室",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "3dmgame"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202610/3956046.html"
+      ],
+      "first_article_date": "2026-10-12",
+      "last_article_date": "2026-10-12",
+      "heat_score": 0.0
+    },
+    {
+      "name": "DOTA2",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "3dmgame"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202610/3956042.html"
+      ],
+      "first_article_date": "2026-10-11",
+      "last_article_date": "2026-10-11",
+      "heat_score": 0.0
+    },
+    {
+      "name": "上古卷轴3",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "3dmgame"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202610/3956040.html"
+      ],
+      "first_article_date": "2026-10-11",
+      "last_article_date": "2026-10-11",
+      "heat_score": 0.0
+    },
+    {
+      "name": "最终幻想15：Windows版",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "3dmgame"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202610/3956039.html"
+      ],
+      "first_article_date": "2026-10-11",
+      "last_article_date": "2026-10-11",
+      "heat_score": 0.0
+    },
+    {
+      "name": "一拳超人",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "3dmgame"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202610/3956023.html"
+      ],
+      "first_article_date": "2026-10-11",
+      "last_article_date": "2026-10-11",
+      "heat_score": 0.0
+    },
+    {
+      "name": "星际公民",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "3dmgame"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202610/3956019.html"
+      ],
+      "first_article_date": "2026-10-11",
+      "last_article_date": "2026-10-11",
+      "heat_score": 0.0
+    },
+    {
+      "name": "战争机器E-Day",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "youxia"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "youxia:https://www.ali213.net/news/html/2026-10/1044833.html"
+      ],
+      "first_article_date": "2026-10-08",
+      "last_article_date": "2026-10-08",
+      "heat_score": 0.0
+    },
+    {
+      "name": "死或生沙滩排球",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "gamersky"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "gamersky:https://www.gamersky.com/news/202610/2225787.shtml"
+      ],
+      "first_article_date": "2026-10-11",
+      "last_article_date": "2026-10-11",
+      "heat_score": 0.0
+    },
+    {
+      "name": "FF15",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "gamersky"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "gamersky:https://www.gamersky.com/news/202610/2225754.shtml"
+      ],
+      "first_article_date": "2026-10-11",
+      "last_article_date": "2026-10-11",
+      "heat_score": 0.0
+    },
+    {
+      "name": "权力的游戏：征战维斯特洛",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "gamersky"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "gamersky:https://www.gamersky.com/news/202610/2225702.shtml"
+      ],
+      "first_article_date": "2026-10-11",
+      "last_article_date": "2026-10-11",
+      "heat_score": 0.0
+    },
+    {
+      "name": "只狼：影逝二度",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "gamersky"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "gamersky:https://www.gamersky.com/news/202610/2225677.shtml"
+      ],
+      "first_article_date": "2026-10-11",
+      "last_article_date": "2026-10-11",
+      "heat_score": 0.0
+    },
+    {
+      "name": "生化4",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "gamersky"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "gamersky:https://www.gamersky.com/news/202610/2225623.shtml"
+      ],
+      "first_article_date": "2026-10-11",
+      "last_article_date": "2026-10-11",
+      "heat_score": 0.0
+    },
+    {
+      "name": "战神三部曲：重制版",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "gamersky"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "gamersky:https://www.gamersky.com/news/202610/2225619.shtml"
+      ],
+      "first_article_date": "2026-10-11",
+      "last_article_date": "2026-10-11",
+      "heat_score": 0.0
+    },
+    {
+      "name": "FF共鸣",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "gamersky"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "gamersky:https://www.gamersky.com/news/202610/2225599.shtml"
+      ],
+      "first_article_date": "2026-10-11",
+      "last_article_date": "2026-10-11",
+      "heat_score": 0.0
+    },
+    {
+      "name": "古剑",
+      "media_count": 1,
+      "source_count": 1,
+      "source_keys": [
+        "gamersky"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "gamersky:https://www.gamersky.com/news/202610/2225591.shtml"
+      ],
+      "first_article_date": "2026-10-11",
+      "last_article_date": "2026-10-11",
+      "heat_score": 0.0
     }
   ],
   "news_ranking": [
     {
       "name": "GTA6",
-      "media_count": 716,
+      "media_count": 733,
       "source_count": 4,
       "article_ids": [
         "3dmgame:https://www.3dmgame.com/news/202609/3952531.html",
@@ -46739,10 +47203,27 @@
         "gamersky:https://www.gamersky.com/news/202610/2225393.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225355.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225311.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2225298.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2225298.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956056.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956059.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956051.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956037.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956025.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225797.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225796.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225753.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225748.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225693.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225669.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225668.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225645.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225639.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225607.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225588.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225587.shtml"
       ],
       "first_article_date": "2026-08-31",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-12",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -47052,7 +47533,7 @@
     },
     {
       "name": "影之刃零",
-      "media_count": 134,
+      "media_count": 146,
       "source_count": 5,
       "article_ids": [
         "youxia:https://www.ali213.net/news/html/2026-8/1035495.html",
@@ -47188,10 +47669,22 @@
         "gamersky:https://www.gamersky.com/news/202610/2225403.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225382.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225282.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2225051.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2225051.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225761.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225672.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225665.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225658.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225657.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225649.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225644.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225640.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225616.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225610.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225609.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225595.shtml"
       ],
       "first_article_date": "2026-08-31",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -47353,7 +47846,7 @@
     },
     {
       "name": "最终幻想7：启示",
-      "media_count": 116,
+      "media_count": 118,
       "source_count": 3,
       "article_ids": [
         "3dmgame:https://www.3dmgame.com/news/202609/3952486.html",
@@ -47471,10 +47964,12 @@
         "3dmgame:https://www.3dmgame.com/news/202610/3955896.html",
         "gamersky:https://www.gamersky.com/news/202610/2225396.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225307.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2224842.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2224842.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225675.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225635.shtml"
       ],
       "first_article_date": "2026-08-31",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -47835,7 +48330,7 @@
     },
     {
       "name": "战争机器：事变日",
-      "media_count": 75,
+      "media_count": 76,
       "source_count": 3,
       "article_ids": [
         "youxia:https://www.ali213.net/news/html/2026-9/1037535.html",
@@ -47912,10 +48407,11 @@
         "gamersky:https://www.gamersky.com/news/202610/2225376.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225346.shtml",
         "gamersky:https://www.gamersky.com/news/202610/2225286.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2225133.shtml"
+        "gamersky:https://www.gamersky.com/news/202610/2225133.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225648.shtml"
       ],
       "first_article_date": "2026-09-07",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "youxia",
         "3dmgame",
@@ -47925,7 +48421,7 @@
     },
     {
       "name": "巫师3",
-      "media_count": 73,
+      "media_count": 74,
       "source_count": 3,
       "article_ids": [
         "3dmgame:https://www.3dmgame.com/news/202609/3952330.html",
@@ -48000,10 +48496,93 @@
         "gamersky:https://www.gamersky.com/news/202610/2222038.shtml",
         "youxia:https://www.ali213.net/news/html/2026-10/1044441.html",
         "gamersky:https://www.gamersky.com/news/202610/2222846.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044961.html"
+        "youxia:https://www.ali213.net/news/html/2026-10/1044961.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225652.shtml"
       ],
       "first_article_date": "2026-08-31",
-      "last_article_date": "2026-10-08",
+      "last_article_date": "2026-10-11",
+      "source_keys": [
+        "3dmgame",
+        "gamersky",
+        "youxia"
+      ],
+      "heat_score": 0.0
+    },
+    {
+      "name": "生化危机",
+      "media_count": 67,
+      "source_count": 3,
+      "article_ids": [
+        "youxia:https://www.ali213.net/news/html/2026-9/1037393.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1036493.html",
+        "youxia:https://www.ali213.net/news/html/2026-8/1035649.html",
+        "gamersky:https://www.gamersky.com/news/202609/2204061.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2203748.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2203064.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2203005.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2202788.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2202418.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3952857.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3952824.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1038401.html",
+        "gamersky:https://www.gamersky.com/news/202609/2206868.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1038711.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3953060.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1039095.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1039025.html",
+        "gamersky:https://www.gamersky.com/news/202609/2208345.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2209120.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2209947.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3953465.html",
+        "gamersky:https://www.gamersky.com/news/202609/2211191.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2210921.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3953551.html",
+        "gamersky:https://www.gamersky.com/news/202609/2211503.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3953755.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3953696.html",
+        "gamersky:https://www.gamersky.com/news/202609/2211288.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2211780.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2212612.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2212564.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2212500.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1041385.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1041251.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1041243.html",
+        "gamersky:https://www.gamersky.com/news/202609/2213023.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1042101.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954258.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1042411.html",
+        "gamersky:https://www.gamersky.com/news/202609/2215209.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954593.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954592.html",
+        "gamersky:https://www.gamersky.com/news/202609/2217467.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2217401.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1043167.html",
+        "gamersky:https://www.gamersky.com/news/202609/2218048.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954957.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955053.html",
+        "gamersky:https://www.gamersky.com/news/202609/2220607.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2220504.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1044149.html",
+        "gamersky:https://www.gamersky.com/news/202610/2220942.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-10/1044361.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955436.html",
+        "youxia:https://www.ali213.net/news/html/2026-10/1044519.html",
+        "gamersky:https://www.gamersky.com/news/202610/2222417.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2222755.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2222685.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955596.html",
+        "youxia:https://www.ali213.net/news/html/2026-10/1044743.html",
+        "gamersky:https://www.gamersky.com/news/202610/2223413.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2223216.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955878.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956043.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225808.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225638.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225622.shtml"
+      ],
+      "first_article_date": "2026-08-31",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -48091,85 +48670,7 @@
         "gamersky:https://www.gamersky.com/news/202610/2225335.shtml"
       ],
       "first_article_date": "2026-09-13",
-      "last_article_date": "2026-10-10",
-      "heat_score": 0.0
-    },
-    {
-      "name": "生化危机",
-      "media_count": 63,
-      "source_count": 3,
-      "article_ids": [
-        "youxia:https://www.ali213.net/news/html/2026-9/1037393.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1036493.html",
-        "youxia:https://www.ali213.net/news/html/2026-8/1035649.html",
-        "gamersky:https://www.gamersky.com/news/202609/2204061.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2203748.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2203064.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2203005.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2202788.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2202418.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3952857.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3952824.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1038401.html",
-        "gamersky:https://www.gamersky.com/news/202609/2206868.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1038711.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3953060.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1039095.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1039025.html",
-        "gamersky:https://www.gamersky.com/news/202609/2208345.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2209120.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2209947.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3953465.html",
-        "gamersky:https://www.gamersky.com/news/202609/2211191.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2210921.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3953551.html",
-        "gamersky:https://www.gamersky.com/news/202609/2211503.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3953755.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3953696.html",
-        "gamersky:https://www.gamersky.com/news/202609/2211288.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2211780.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2212612.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2212564.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2212500.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1041385.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1041251.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1041243.html",
-        "gamersky:https://www.gamersky.com/news/202609/2213023.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1042101.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954258.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1042411.html",
-        "gamersky:https://www.gamersky.com/news/202609/2215209.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954593.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954592.html",
-        "gamersky:https://www.gamersky.com/news/202609/2217467.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2217401.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1043167.html",
-        "gamersky:https://www.gamersky.com/news/202609/2218048.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954957.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955053.html",
-        "gamersky:https://www.gamersky.com/news/202609/2220607.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2220504.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1044149.html",
-        "gamersky:https://www.gamersky.com/news/202610/2220942.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044361.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955436.html",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044519.html",
-        "gamersky:https://www.gamersky.com/news/202610/2222417.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2222755.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2222685.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955596.html",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044743.html",
-        "gamersky:https://www.gamersky.com/news/202610/2223413.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2223216.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955878.html"
-      ],
-      "first_article_date": "2026-08-31",
-      "last_article_date": "2026-10-09",
-      "source_keys": [
-        "3dmgame",
-        "gamersky",
-        "youxia"
-      ],
+      "last_article_date": "2026-10-11",
       "heat_score": 0.0
     },
     {
@@ -48250,7 +48751,7 @@
     },
     {
       "name": "巫师3：重制版",
-      "media_count": 59,
+      "media_count": 60,
       "source_count": 3,
       "article_ids": [
         "3dmgame:https://www.3dmgame.com/news/202609/3952238.html",
@@ -48311,10 +48812,11 @@
         "3dmgame:https://www.3dmgame.com/news/202610/3955454.html",
         "3dmgame:https://www.3dmgame.com/news/202610/3955727.html",
         "youxia:https://www.ali213.net/news/html/2026-10/1044969.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955902.html"
+        "3dmgame:https://www.3dmgame.com/news/202610/3955902.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225612.shtml"
       ],
       "first_article_date": "2026-09-01",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -48395,6 +48897,77 @@
       "heat_score": 0.0
     },
     {
+      "name": "巫师3：狂猎重制版",
+      "media_count": 55,
+      "source_count": 4,
+      "article_ids": [
+        "gamersky:https://www.gamersky.com/news/202609/2200882.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2202226.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2201059.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2205259.shtml",
+        "gameres:https://mp.weixin.qq.com/s/gsrJI_uoOyeNWujMjrMeeg",
+        "gamersky:https://www.gamersky.com/news/202609/2210671.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2216154.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954512.html",
+        "gamersky:https://www.gamersky.com/news/202609/2216385.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2216839.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2217367.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2217537.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954673.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1043071.html",
+        "gamersky:https://www.gamersky.com/news/202609/2218878.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2218871.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2218190.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2218113.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2217898.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954931.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1043701.html",
+        "gamersky:https://www.gamersky.com/news/202609/2218920.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2218907.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2219699.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2219659.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2219618.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2219337.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2220606.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2219831.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2219768.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2220573.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2220421.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2220319.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2220284.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2220269.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2219945.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2219755.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2219738.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2220647.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2220778.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2220783.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2220906.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221234.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221225.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221484.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2222030.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221701.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2222695.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2223892.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2223888.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225287.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225377.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225531.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225601.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225596.shtml"
+      ],
+      "first_article_date": "2026-09-02",
+      "last_article_date": "2026-10-11",
+      "source_keys": [
+        "gameres",
+        "gamersky",
+        "3dmgame",
+        "youxia"
+      ],
+      "heat_score": 0.0
+    },
+    {
       "name": "战神：劳菲",
       "media_count": 54,
       "source_count": 3,
@@ -48460,75 +49033,6 @@
         "gamersky",
         "youxia",
         "3dmgame"
-      ],
-      "heat_score": 0.0
-    },
-    {
-      "name": "巫师3：狂猎重制版",
-      "media_count": 53,
-      "source_count": 4,
-      "article_ids": [
-        "gamersky:https://www.gamersky.com/news/202609/2200882.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2202226.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2201059.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2205259.shtml",
-        "gameres:https://mp.weixin.qq.com/s/gsrJI_uoOyeNWujMjrMeeg",
-        "gamersky:https://www.gamersky.com/news/202609/2210671.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2216154.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954512.html",
-        "gamersky:https://www.gamersky.com/news/202609/2216385.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2216839.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2217367.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2217537.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954673.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1043071.html",
-        "gamersky:https://www.gamersky.com/news/202609/2218878.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2218871.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2218190.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2218113.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2217898.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954931.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1043701.html",
-        "gamersky:https://www.gamersky.com/news/202609/2218920.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2218907.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2219699.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2219659.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2219618.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2219337.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2220606.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2219831.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2219768.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2220573.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2220421.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2220319.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2220284.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2220269.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2219945.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2219755.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2219738.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2220647.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2220778.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2220783.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2220906.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221234.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221225.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221484.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2222030.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221701.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2222695.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2223892.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2223888.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2225287.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2225377.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2225531.shtml"
-      ],
-      "first_article_date": "2026-09-02",
-      "last_article_date": "2026-10-10",
-      "source_keys": [
-        "gameres",
-        "gamersky",
-        "3dmgame",
-        "youxia"
       ],
       "heat_score": 0.0
     },
@@ -48865,6 +49369,71 @@
       "heat_score": 0.0
     },
     {
+      "name": "皇牌空战8",
+      "media_count": 49,
+      "source_count": 4,
+      "article_ids": [
+        "youxia:https://www.ali213.net/news/html/2026-9/1036167.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1036115.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3952591.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1037667.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1037839.html",
+        "gamersky:https://www.gamersky.com/news/202609/2205459.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3952960.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1038699.html",
+        "gamersky:https://www.gamersky.com/news/202609/2209481.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2211149.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1040445.html",
+        "gamersky:https://www.gamersky.com/news/202609/2217128.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2217342.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2217335.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2217334.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2217333.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954647.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954646.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954630.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954591.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954589.html",
+        "gamersky:https://www.gamersky.com/news/202609/2217392.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2217672.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954843.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1043199.html",
+        "gamersky:https://www.gamersky.com/news/202609/2218828.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2218816.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2218928.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2219664.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955037.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3955029.html",
+        "gamersky:https://www.gamersky.com/news/202610/2220751.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2220696.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2220686.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955202.html",
+        "youxia:https://www.ali213.net/news/html/2026-10/1044203.html",
+        "gamersky:https://www.gamersky.com/news/202610/2220970.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221018.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221011.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2220936.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221150.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955337.html",
+        "gamersky:https://www.gamersky.com/news/202610/2222173.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2222374.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2222366.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2224013.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955740.html",
+        "gamelook:http://www.gamelook.com.cn/2026/10/603469/",
+        "gamersky:https://www.gamersky.com/news/202610/2225694.shtml"
+      ],
+      "first_article_date": "2026-09-02",
+      "last_article_date": "2026-10-11",
+      "source_keys": [
+        "3dmgame",
+        "youxia",
+        "gamersky",
+        "gamelook"
+      ],
+      "heat_score": 0.0
+    },
+    {
       "name": "PHYSINT",
       "media_count": 48,
       "source_count": 4,
@@ -48928,70 +49497,6 @@
       ],
       "first_article_date": "2026-09-09",
       "last_article_date": "2026-09-27",
-      "heat_score": 0.0
-    },
-    {
-      "name": "皇牌空战8",
-      "media_count": 48,
-      "source_count": 4,
-      "article_ids": [
-        "youxia:https://www.ali213.net/news/html/2026-9/1036167.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1036115.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3952591.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1037667.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1037839.html",
-        "gamersky:https://www.gamersky.com/news/202609/2205459.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3952960.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1038699.html",
-        "gamersky:https://www.gamersky.com/news/202609/2209481.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2211149.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1040445.html",
-        "gamersky:https://www.gamersky.com/news/202609/2217128.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2217342.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2217335.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2217334.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2217333.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954647.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954646.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954630.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954591.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954589.html",
-        "gamersky:https://www.gamersky.com/news/202609/2217392.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2217672.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954843.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1043199.html",
-        "gamersky:https://www.gamersky.com/news/202609/2218828.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2218816.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2218928.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2219664.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955037.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3955029.html",
-        "gamersky:https://www.gamersky.com/news/202610/2220751.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2220696.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2220686.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955202.html",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044203.html",
-        "gamersky:https://www.gamersky.com/news/202610/2220970.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221018.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221011.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2220936.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221150.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955337.html",
-        "gamersky:https://www.gamersky.com/news/202610/2222173.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2222374.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2222366.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2224013.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955740.html",
-        "gamelook:http://www.gamelook.com.cn/2026/10/603469/"
-      ],
-      "first_article_date": "2026-09-02",
-      "last_article_date": "2026-10-10",
-      "source_keys": [
-        "3dmgame",
-        "youxia",
-        "gamersky",
-        "gamelook"
-      ],
       "heat_score": 0.0
     },
     {
@@ -49463,6 +49968,60 @@
       "heat_score": 0.0
     },
     {
+      "name": "战争机器",
+      "media_count": 37,
+      "source_count": 3,
+      "source_keys": [
+        "gamersky",
+        "youxia",
+        "3dmgame"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "gamersky:https://www.gamersky.com/news/202609/2212098.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1043887.html",
+        "gamersky:https://www.gamersky.com/news/202610/2220846.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2220835.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2220820.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2220816.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955176.html",
+        "youxia:https://www.ali213.net/news/html/2026-10/1044153.html",
+        "gamersky:https://www.gamersky.com/news/202610/2220869.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221020.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2220979.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2220962.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2220944.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2220924.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2220888.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2220877.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221194.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221112.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221089.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221647.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221641.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221489.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221337.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221334.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2222195.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2222120.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2221993.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-10/1044425.html",
+        "youxia:https://www.ali213.net/news/html/2026-10/1044417.html",
+        "gamersky:https://www.gamersky.com/news/202610/2222546.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2223923.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2223698.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2222834.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2224818.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225035.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225275.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225666.shtml"
+      ],
+      "first_article_date": "2026-09-18",
+      "last_article_date": "2026-10-11",
+      "heat_score": 0.0
+    },
+    {
       "name": "巫师3：狂猎",
       "media_count": 36,
       "source_count": 3,
@@ -49511,59 +50070,6 @@
         "gamersky",
         "youxia"
       ],
-      "heat_score": 0.0
-    },
-    {
-      "name": "战争机器",
-      "media_count": 36,
-      "source_count": 3,
-      "source_keys": [
-        "gamersky",
-        "youxia",
-        "3dmgame"
-      ],
-      "week_start": null,
-      "week_end": null,
-      "article_ids": [
-        "gamersky:https://www.gamersky.com/news/202609/2212098.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1043887.html",
-        "gamersky:https://www.gamersky.com/news/202610/2220846.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2220835.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2220820.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2220816.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955176.html",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044153.html",
-        "gamersky:https://www.gamersky.com/news/202610/2220869.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221020.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2220979.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2220962.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2220944.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2220924.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2220888.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2220877.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221194.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221112.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221089.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221647.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221641.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221489.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221337.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221334.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2222195.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2222120.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2221993.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044425.html",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044417.html",
-        "gamersky:https://www.gamersky.com/news/202610/2222546.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2223923.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2223698.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2222834.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2224818.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2225035.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2225275.shtml"
-      ],
-      "first_article_date": "2026-09-18",
-      "last_article_date": "2026-10-10",
       "heat_score": 0.0
     },
     {
@@ -49721,6 +50227,55 @@
       "heat_score": 0.0
     },
     {
+      "name": "给他爱5",
+      "media_count": 34,
+      "source_count": 3,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202609/3952138.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1036323.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1036347.html",
+        "gamersky:https://www.gamersky.com/news/202609/2204171.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2204159.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2204006.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2201560.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3952577.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3952966.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3953627.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3953757.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3953756.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3953708.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1040829.html",
+        "gamersky:https://www.gamersky.com/news/202609/2212457.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2211992.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2212619.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1041447.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954219.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954128.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954434.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954712.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954824.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1042923.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954879.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1043733.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955450.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955440.html",
+        "youxia:https://www.ali213.net/news/html/2026-10/1044629.html",
+        "gamersky:https://www.gamersky.com/news/202610/2222278.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955627.html",
+        "youxia:https://www.ali213.net/news/html/2026-10/1044773.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956060.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956045.html"
+      ],
+      "first_article_date": "2026-09-02",
+      "last_article_date": "2026-10-12",
+      "source_keys": [
+        "3dmgame",
+        "gamersky",
+        "youxia"
+      ],
+      "heat_score": 0.0
+    },
+    {
       "name": "塞尔达传说",
       "media_count": 33,
       "source_count": 3,
@@ -49856,53 +50411,6 @@
       ],
       "first_article_date": "2026-09-02",
       "last_article_date": "2026-10-10",
-      "source_keys": [
-        "3dmgame",
-        "gamersky",
-        "youxia"
-      ],
-      "heat_score": 0.0
-    },
-    {
-      "name": "给他爱5",
-      "media_count": 32,
-      "source_count": 3,
-      "article_ids": [
-        "3dmgame:https://www.3dmgame.com/news/202609/3952138.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1036323.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1036347.html",
-        "gamersky:https://www.gamersky.com/news/202609/2204171.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2204159.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2204006.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2201560.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3952577.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3952966.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3953627.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3953757.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3953756.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3953708.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1040829.html",
-        "gamersky:https://www.gamersky.com/news/202609/2212457.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2211992.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2212619.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1041447.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954219.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954128.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954434.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954712.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954824.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1042923.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954879.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1043733.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955450.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955440.html",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044629.html",
-        "gamersky:https://www.gamersky.com/news/202610/2222278.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955627.html",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044773.html"
-      ],
-      "first_article_date": "2026-09-02",
-      "last_article_date": "2026-10-08",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -50297,6 +50805,46 @@
       "heat_score": 0.0
     },
     {
+      "name": "最后生还者",
+      "media_count": 25,
+      "source_count": 3,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202609/3952367.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1036947.html",
+        "gamersky:https://www.gamersky.com/news/202609/2204093.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2203857.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2203306.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2202855.shtml",
+        "gamersky:https://www.gamersky.com/news/202608/2199792.shtml",
+        "gamersky:https://www.gamersky.com/news/202608/2199393.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2206245.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3953632.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1040873.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3953782.html",
+        "gamersky:https://www.gamersky.com/news/202609/2213367.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1041797.html",
+        "gamersky:https://www.gamersky.com/news/202609/2215147.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954700.html",
+        "gamersky:https://www.gamersky.com/news/202609/2217650.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2217585.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1043353.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1043213.html",
+        "gamersky:https://www.gamersky.com/news/202609/2218868.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954895.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1043687.html",
+        "gamersky:https://www.gamersky.com/news/202609/2219726.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225598.shtml"
+      ],
+      "first_article_date": "2026-08-31",
+      "last_article_date": "2026-10-11",
+      "source_keys": [
+        "3dmgame",
+        "gamersky",
+        "youxia"
+      ],
+      "heat_score": 0.0
+    },
+    {
       "name": "怪猎荒野",
       "media_count": 24,
       "source_count": 2,
@@ -50335,42 +50883,45 @@
       "heat_score": 0.0
     },
     {
-      "name": "最后生还者",
+      "name": "永恒之塔2",
       "media_count": 24,
-      "source_count": 3,
-      "article_ids": [
-        "3dmgame:https://www.3dmgame.com/news/202609/3952367.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1036947.html",
-        "gamersky:https://www.gamersky.com/news/202609/2204093.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2203857.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2203306.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2202855.shtml",
-        "gamersky:https://www.gamersky.com/news/202608/2199792.shtml",
-        "gamersky:https://www.gamersky.com/news/202608/2199393.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2206245.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3953632.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1040873.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3953782.html",
-        "gamersky:https://www.gamersky.com/news/202609/2213367.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1041797.html",
-        "gamersky:https://www.gamersky.com/news/202609/2215147.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954700.html",
-        "gamersky:https://www.gamersky.com/news/202609/2217650.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2217585.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1043353.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1043213.html",
-        "gamersky:https://www.gamersky.com/news/202609/2218868.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954895.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1043687.html",
-        "gamersky:https://www.gamersky.com/news/202609/2219726.shtml"
-      ],
-      "first_article_date": "2026-08-31",
-      "last_article_date": "2026-09-30",
+      "source_count": 4,
       "source_keys": [
-        "3dmgame",
         "gamersky",
-        "youxia"
+        "3dmgame",
+        "youxia",
+        "gamelook"
       ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "gamersky:https://www.gamersky.com/news/202609/2205335.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3953414.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1040321.html",
+        "gamelook:http://www.gamelook.com.cn/2026/09/602892/",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955035.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955111.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955178.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955381.html",
+        "youxia:https://www.ali213.net/news/html/2026-10/1044599.html",
+        "gamersky:https://www.gamersky.com/news/202610/2222235.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2222234.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2222383.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2222377.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2222436.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955514.html",
+        "gamersky:https://www.gamersky.com/news/202610/2222563.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2222783.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-10/1044863.html",
+        "gamersky:https://www.gamersky.com/news/202610/2223317.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2222985.shtml",
+        "gamelook:http://www.gamelook.com.cn/2026/10/603407/",
+        "gamersky:https://www.gamersky.com/news/202610/2224673.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956047.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225697.shtml"
+      ],
+      "first_article_date": "2026-09-08",
+      "last_article_date": "2026-10-12",
       "heat_score": 0.0
     },
     {
@@ -50553,52 +51104,12 @@
         "gamersky:https://www.gamersky.com/news/202610/2225527.shtml"
       ],
       "first_article_date": "2026-09-01",
-      "last_article_date": "2026-10-10",
+      "last_article_date": "2026-10-11",
       "source_keys": [
         "3dmgame",
         "gamersky",
         "youxia"
       ],
-      "heat_score": 0.0
-    },
-    {
-      "name": "永恒之塔2",
-      "media_count": 22,
-      "source_count": 4,
-      "source_keys": [
-        "gamersky",
-        "3dmgame",
-        "youxia",
-        "gamelook"
-      ],
-      "week_start": null,
-      "week_end": null,
-      "article_ids": [
-        "gamersky:https://www.gamersky.com/news/202609/2205335.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3953414.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1040321.html",
-        "gamelook:http://www.gamelook.com.cn/2026/09/602892/",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955035.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955111.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955178.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955381.html",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044599.html",
-        "gamersky:https://www.gamersky.com/news/202610/2222235.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2222234.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2222383.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2222377.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2222436.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955514.html",
-        "gamersky:https://www.gamersky.com/news/202610/2222563.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2222783.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044863.html",
-        "gamersky:https://www.gamersky.com/news/202610/2223317.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2222985.shtml",
-        "gamelook:http://www.gamelook.com.cn/2026/10/603407/",
-        "gamersky:https://www.gamersky.com/news/202610/2224673.shtml"
-      ],
-      "first_article_date": "2026-09-08",
-      "last_article_date": "2026-10-10",
       "heat_score": 0.0
     },
     {
@@ -51096,6 +51607,40 @@
       "heat_score": 0.0
     },
     {
+      "name": "塞尔达传说：时之笛",
+      "media_count": 18,
+      "source_count": 4,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202609/3952299.html",
+        "gamersky:https://www.gamersky.com/news/202609/2203981.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2203835.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3952783.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3952726.html",
+        "gamelook:http://www.gamelook.com.cn/2026/09/601821/",
+        "3dmgame:https://www.3dmgame.com/news/202609/3952948.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3953080.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1039163.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3953151.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954207.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1042193.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955486.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955720.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955636.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955872.html",
+        "youxia:https://www.ali213.net/news/html/2026-10/1045069.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956076.html"
+      ],
+      "first_article_date": "2026-09-03",
+      "last_article_date": "2026-10-12",
+      "source_keys": [
+        "3dmgame",
+        "gamelook",
+        "gamersky",
+        "youxia"
+      ],
+      "heat_score": 0.0
+    },
+    {
       "name": "寂静岭：Townfall",
       "media_count": 18,
       "source_count": 2,
@@ -51157,6 +51702,39 @@
         "3dmgame",
         "youxia",
         "gamersky"
+      ],
+      "heat_score": 0.0
+    },
+    {
+      "name": "星际：异端先知",
+      "media_count": 18,
+      "source_count": 3,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202609/3952356.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3951962.html",
+        "3dmgame:https://www.3dmgame.com/news/202608/3951874.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1035683.html",
+        "youxia:https://www.ali213.net/news/html/2026-8/1035595.html",
+        "gamersky:https://www.gamersky.com/news/202609/2202875.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2202442.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2201616.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2200185.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2199969.shtml",
+        "gamersky:https://www.gamersky.com/news/202608/2199486.shtml",
+        "gamersky:https://www.gamersky.com/news/202608/2199340.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2215772.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954851.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3954847.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1043651.html",
+        "gamersky:https://www.gamersky.com/news/202609/2219541.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956048.html"
+      ],
+      "first_article_date": "2026-08-31",
+      "last_article_date": "2026-10-12",
+      "source_keys": [
+        "3dmgame",
+        "gamersky",
+        "youxia"
       ],
       "heat_score": 0.0
     },
@@ -51261,39 +51839,6 @@
       "heat_score": 0.0
     },
     {
-      "name": "塞尔达传说：时之笛",
-      "media_count": 17,
-      "source_count": 4,
-      "article_ids": [
-        "3dmgame:https://www.3dmgame.com/news/202609/3952299.html",
-        "gamersky:https://www.gamersky.com/news/202609/2203981.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2203835.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3952783.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3952726.html",
-        "gamelook:http://www.gamelook.com.cn/2026/09/601821/",
-        "3dmgame:https://www.3dmgame.com/news/202609/3952948.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3953080.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1039163.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3953151.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954207.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1042193.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955486.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955720.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955636.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955872.html",
-        "youxia:https://www.ali213.net/news/html/2026-10/1045069.html"
-      ],
-      "first_article_date": "2026-09-03",
-      "last_article_date": "2026-10-09",
-      "source_keys": [
-        "3dmgame",
-        "gamelook",
-        "gamersky",
-        "youxia"
-      ],
-      "heat_score": 0.0
-    },
-    {
       "name": "无畏契约",
       "media_count": 17,
       "source_count": 3,
@@ -51318,38 +51863,6 @@
       ],
       "first_article_date": "2026-09-01",
       "last_article_date": "2026-10-10",
-      "source_keys": [
-        "3dmgame",
-        "gamersky",
-        "youxia"
-      ],
-      "heat_score": 0.0
-    },
-    {
-      "name": "星际：异端先知",
-      "media_count": 17,
-      "source_count": 3,
-      "article_ids": [
-        "3dmgame:https://www.3dmgame.com/news/202609/3952356.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3951962.html",
-        "3dmgame:https://www.3dmgame.com/news/202608/3951874.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1035683.html",
-        "youxia:https://www.ali213.net/news/html/2026-8/1035595.html",
-        "gamersky:https://www.gamersky.com/news/202609/2202875.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2202442.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2201616.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2200185.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2199969.shtml",
-        "gamersky:https://www.gamersky.com/news/202608/2199486.shtml",
-        "gamersky:https://www.gamersky.com/news/202608/2199340.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2215772.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954851.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3954847.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1043651.html",
-        "gamersky:https://www.gamersky.com/news/202609/2219541.shtml"
-      ],
-      "first_article_date": "2026-08-31",
-      "last_article_date": "2026-09-29",
       "source_keys": [
         "3dmgame",
         "gamersky",
@@ -51388,6 +51901,74 @@
       ],
       "first_article_date": "2026-09-13",
       "last_article_date": "2026-10-01",
+      "heat_score": 0.0
+    },
+    {
+      "name": "漫威争锋",
+      "media_count": 17,
+      "source_count": 3,
+      "source_keys": [
+        "3dmgame",
+        "gamersky",
+        "youxia"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202609/3952741.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3952712.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1037975.html",
+        "gamersky:https://www.gamersky.com/news/202609/2205389.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1038949.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1040691.html",
+        "gamersky:https://www.gamersky.com/news/202609/2211550.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2212382.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1041119.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1042113.html",
+        "gamersky:https://www.gamersky.com/news/202609/2216943.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2217459.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2217426.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1043405.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955614.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955952.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956036.html"
+      ],
+      "first_article_date": "2026-09-08",
+      "last_article_date": "2026-10-11",
+      "heat_score": 0.0
+    },
+    {
+      "name": "胧村正怪奇谭",
+      "media_count": 17,
+      "source_count": 3,
+      "source_keys": [
+        "gamersky",
+        "youxia",
+        "3dmgame"
+      ],
+      "week_start": null,
+      "week_end": null,
+      "article_ids": [
+        "youxia:https://www.ali213.net/news/html/2026-9/1038291.html",
+        "gamersky:https://www.gamersky.com/news/202609/2206517.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202609/3952944.html",
+        "gamersky:https://www.gamersky.com/news/202609/2207315.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1038765.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1038709.html",
+        "gamersky:https://www.gamersky.com/news/202609/2207522.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2208482.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1039199.html",
+        "gamersky:https://www.gamersky.com/news/202609/2217276.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1043141.html",
+        "3dmgame:https://www.3dmgame.com/news/202609/3955004.html",
+        "gamersky:https://www.gamersky.com/news/202610/2223526.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2223399.shtml",
+        "3dmgame:https://www.3dmgame.com/news/202610/3955768.html",
+        "3dmgame:https://www.3dmgame.com/news/202610/3956067.html",
+        "gamersky:https://www.gamersky.com/news/202610/2225667.shtml"
+      ],
+      "first_article_date": "2026-09-09",
+      "last_article_date": "2026-10-12",
       "heat_score": 0.0
     },
     {
@@ -51454,39 +52035,6 @@
       ],
       "first_article_date": "2026-09-11",
       "last_article_date": "2026-10-05",
-      "heat_score": 0.0
-    },
-    {
-      "name": "漫威争锋",
-      "media_count": 16,
-      "source_count": 3,
-      "source_keys": [
-        "3dmgame",
-        "gamersky",
-        "youxia"
-      ],
-      "week_start": null,
-      "week_end": null,
-      "article_ids": [
-        "3dmgame:https://www.3dmgame.com/news/202609/3952741.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3952712.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1037975.html",
-        "gamersky:https://www.gamersky.com/news/202609/2205389.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1038949.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1040691.html",
-        "gamersky:https://www.gamersky.com/news/202609/2211550.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2212382.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1041119.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1042113.html",
-        "gamersky:https://www.gamersky.com/news/202609/2216943.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2217459.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2217426.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1043405.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955614.html",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955952.html"
-      ],
-      "first_article_date": "2026-09-08",
-      "last_article_date": "2026-10-10",
       "heat_score": 0.0
     },
     {
@@ -51580,6 +52128,38 @@
       "source_keys": [
         "gamersky",
         "youxia"
+      ],
+      "heat_score": 0.0
+    },
+    {
+      "name": "黑神话",
+      "media_count": 16,
+      "source_count": 4,
+      "article_ids": [
+        "3dmgame:https://www.3dmgame.com/news/202609/3952091.html",
+        "youxia:https://www.ali213.net/news/html/2026-9/1037359.html",
+        "gamersky:https://www.gamersky.com/news/202609/2204032.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2203264.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2204336.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-9/1038013.html",
+        "gamersky:https://www.gamersky.com/news/202609/2207970.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2208619.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2209089.shtml",
+        "gamelook:http://www.gamelook.com.cn/2026/09/602411/",
+        "gamersky:https://www.gamersky.com/news/202609/2217557.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2218623.shtml",
+        "gamersky:https://www.gamersky.com/news/202609/2219009.shtml",
+        "youxia:https://www.ali213.net/news/html/2026-10/1044261.html",
+        "gamersky:https://www.gamersky.com/news/202610/2221339.shtml",
+        "gamersky:https://www.gamersky.com/news/202610/2225605.shtml"
+      ],
+      "first_article_date": "2026-09-02",
+      "last_article_date": "2026-10-11",
+      "source_keys": [
+        "gamersky",
+        "3dmgame",
+        "youxia",
+        "gamelook"
       ],
       "heat_score": 0.0
     },
@@ -51853,38 +52433,6 @@
       "heat_score": 0.0
     },
     {
-      "name": "胧村正怪奇谭",
-      "media_count": 15,
-      "source_count": 3,
-      "source_keys": [
-        "gamersky",
-        "youxia",
-        "3dmgame"
-      ],
-      "week_start": null,
-      "week_end": null,
-      "article_ids": [
-        "youxia:https://www.ali213.net/news/html/2026-9/1038291.html",
-        "gamersky:https://www.gamersky.com/news/202609/2206517.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202609/3952944.html",
-        "gamersky:https://www.gamersky.com/news/202609/2207315.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1038765.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1038709.html",
-        "gamersky:https://www.gamersky.com/news/202609/2207522.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2208482.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1039199.html",
-        "gamersky:https://www.gamersky.com/news/202609/2217276.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1043141.html",
-        "3dmgame:https://www.3dmgame.com/news/202609/3955004.html",
-        "gamersky:https://www.gamersky.com/news/202610/2223526.shtml",
-        "gamersky:https://www.gamersky.com/news/202610/2223399.shtml",
-        "3dmgame:https://www.3dmgame.com/news/202610/3955768.html"
-      ],
-      "first_article_date": "2026-09-09",
-      "last_article_date": "2026-10-09",
-      "heat_score": 0.0
-    },
-    {
       "name": "轮回之兽",
       "media_count": 15,
       "source_count": 3,
@@ -51911,37 +52459,6 @@
         "3dmgame",
         "gamersky",
         "youxia"
-      ],
-      "heat_score": 0.0
-    },
-    {
-      "name": "黑神话",
-      "media_count": 15,
-      "source_count": 4,
-      "article_ids": [
-        "3dmgame:https://www.3dmgame.com/news/202609/3952091.html",
-        "youxia:https://www.ali213.net/news/html/2026-9/1037359.html",
-        "gamersky:https://www.gamersky.com/news/202609/2204032.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2203264.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2204336.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-9/1038013.html",
-        "gamersky:https://www.gamersky.com/news/202609/2207970.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2208619.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2209089.shtml",
-        "gamelook:http://www.gamelook.com.cn/2026/09/602411/",
-        "gamersky:https://www.gamersky.com/news/202609/2217557.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2218623.shtml",
-        "gamersky:https://www.gamersky.com/news/202609/2219009.shtml",
-        "youxia:https://www.ali213.net/news/html/2026-10/1044261.html",
-        "gamersky:https://www.gamersky.com/news/202610/2221339.shtml"
-      ],
-      "first_article_date": "2026-09-02",
-      "last_article_date": "2026-10-04",
-      "source_keys": [
-        "gamersky",
-        "3dmgame",
-        "youxia",
-        "gamelook"
       ],
       "heat_score": 0.0
     },
