@@ -1,10 +1,28 @@
 {
-  "crawled_at": "2026-10-12T01:10:01.829392+00:00",
+  "crawled_at": "2026-10-13T03:05:44.460138+00:00",
   "days": [
     {
       "date": "2026-10-13",
-      "date_label": "10月13日 明天",
+      "date_label": "10月13日 今天",
       "games": [
+        {
+          "game_name": "幸福甜点咖啡店",
+          "categories": [
+            "模拟经营",
+            "放置",
+            "可爱",
+            "治愈",
+            "美食",
+            "模拟"
+          ],
+          "score": null,
+          "release_date": "2026-10-13",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1958447.html",
+          "publisher": "kiwigames",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        },
         {
           "game_name": "我叫MT:崛起",
           "categories": [
@@ -14,7 +32,7 @@
             "放置",
             "刷宝"
           ],
-          "score": "7.7",
+          "score": "7.8",
           "release_date": "2026-10-13",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952836.html",
@@ -32,7 +50,7 @@
             "国风",
             "养成"
           ],
-          "score": "8.9",
+          "score": "8.8",
           "release_date": "2026-10-13",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1953478.html",
@@ -44,7 +62,7 @@
     },
     {
       "date": "2026-10-14",
-      "date_label": "10月14日 后天",
+      "date_label": "10月14日 明天",
       "games": [
         {
           "game_name": "龙之谷：启程",
@@ -85,7 +103,7 @@
           "release_date": "2026-10-14",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1891059.html",
-          "publisher": "外层空间工作室",
+          "publisher": "Outer Space Workshop",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         },
@@ -111,24 +129,8 @@
     },
     {
       "date": "2026-10-15",
-      "date_label": "10月15日 周四",
+      "date_label": "10月15日 后天",
       "games": [
-        {
-          "game_name": "小小英杰:合战天下",
-          "categories": [
-            "策略",
-            "三国",
-            "SLG",
-            "角色扮演"
-          ],
-          "score": "6.9",
-          "release_date": "2026-10-15",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1954387.html",
-          "publisher": "上海电光火石科技有限公司",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
         {
           "game_name": "宝贝星球",
           "categories": [
@@ -191,6 +193,22 @@
       "date_label": "10月16日 周五",
       "games": [
         {
+          "game_name": "我在海上有小岛",
+          "categories": [
+            "跑酷",
+            "探索",
+            "策略",
+            "修仙"
+          ],
+          "score": "9.6",
+          "release_date": "2026-10-16",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1950154.html",
+          "publisher": "远山见月工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
           "game_name": "勇者乱斗",
           "categories": [
             "策略",
@@ -200,7 +218,7 @@
             "自走棋",
             "休闲"
           ],
-          "score": "7.7",
+          "score": "7.6",
           "release_date": "2026-10-16",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1956039.html",

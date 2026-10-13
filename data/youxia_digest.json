@@ -1,28 +1,325 @@
 {
-  "generated_at": "2026-10-12T01:17:38.936288+00:00",
+  "generated_at": "2026-10-13T03:18:32.137143+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-10",
-      "article_count": 35,
-      "game_count": 19,
-      "untagged_count": 11,
-      "digest": "今日游戏行业资讯聚焦多款重磅新作与老牌IP动态。R星《GTA6》持续引发热议，编剧解析双主角人设并确认发售日；Bulkhead Interactive的《战狗》9月销量登顶PC榜首并公布第2赛季内容；微软《战争机器：事变日》首周销量仅23万份表现疲软；育碧宣布《彩虹六号》手游将停运；此外，索尼确认《地平线6》推出PS5实体盘，卡普空透露《生化危机9》曾考虑改为网游模式。",
+      "date": "2026-10-13",
+      "article_count": 15,
+      "game_count": 11,
+      "untagged_count": 3,
+      "digest": "今日游戏资讯聚焦多款大作，R星《GTA6》因实体版附赠地图传闻及任务开放化革新引发热议；卡普空《街头霸王6》宣布与电影联动免费服装将于16日上线；Hello Games宣布《无人深空》将于28日登陆iOS；此外《古墓丽影RE》发布中国风水墨海报，世嘉推出限量50件的索尼克有田烧瓷像，以及《ARC Raiders》更新后Steam在线人数回升至18万以上。",
       "digest_source": "llm",
-      "input_hash": "fa271213d3a43fd1",
+      "input_hash": "5f486f973f63964d",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 5,
-          "summary": "R星回应巴西玩家邮件索要海报并寄出实物，编剧解析双主角露西亚与杰森人设兼具优缺点与脆弱面，定于2026年11月19日发售。",
+          "count": 2,
+          "summary": "外媒指出《GTA6》最大革新在于任务开放化，相比R星以往作品高度脚本化的任务设计，游戏在自由度方面进行了显著提升。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "ARC Raiders",
+          "count": 1,
+          "summary": "更新后玩家数暴增！Steam在线超18万，自推出“冰封之路”更新并开放免费试玩后，Steam同时在线人数明显回升，近期一个周末峰值达到185443人。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不朽遗志",
+          "count": 1,
+          "summary": "媒体评测现已正式解禁，GameSpot打出6分的成绩，评价指出游戏弹反手感出色但系统臃肿。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "古墓丽影RE",
+          "count": 1,
+          "summary": "发布一张以中国风水墨风格重新绘制的劳拉海报，官方在文中写道：“这次我们用中国风水墨重绘劳拉”，向中国玩家致以问候。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "Boss战支持分段重试！无须反复过一阶段，近期披露的多阶段Boss战重试规则引发关注：Boss战按阶段保留进度，玩家若在第二阶段阵亡，重试时可直接从第二阶段开始。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "无人深空",
+          "count": 1,
+          "summary": "将登陆iOS!完整安装包不到5GB，Hello Games宣布将于2026年10月28日登陆iOS，支持iPhone与iPad，预订已在App Store开启。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "猛鬼追魂",
+          "count": 1,
+          "summary": "回归线性单人叙事！不愿做多人 只做沉浸，当经典恐怖IP改编游戏纷纷扎堆“非对称多人”时，该作选择了一条反潮流的路线：不做多人，只讲一个人的故事。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "索尼克",
+          "count": 1,
+          "summary": "推出《索尼克》35周年最贵周边！全球限量50件，世嘉与日本瓷器品牌YOYOYO合作推出“Infinite Blue”，有田烧瓷像。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "羊蹄山",
+          "count": 1,
+          "summary": "PS5模拟器玩《羊蹄山》取得新突破：帧数达到11帧！目前已能进入实际游戏场景并进行BOSS战，虽然运行效率极低，RTX 4090显卡下仅约11帧，且存在渲染错误。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "街头霸王6",
+          "count": 1,
+          "summary": "将与新版《街头霸王》电影展开联动，于2026年10月16日同步上线免费联动服装，玩家可使用专属兑换码解锁，同日电影也将登陆院线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛博朋克2077",
+          "count": 1,
+          "summary": "民间合作模组“Cyberpunk 2077 COOP MOD”将于10月19日公测，支持多人共推任务、共享进度。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "article_count": 51,
+      "game_count": 32,
+      "untagged_count": 15,
+      "digest": "2026年10月12日游戏行业资讯整体活跃，当日游侠网发布总新闻51条、涉及游戏32款，信息覆盖发行、开发、争议及玩法等多元动态，多款热门游戏相继发布新玩法、调整措施或发布重要动态，行业竞争与更新节奏持续推进。",
+      "digest_source": "llm",
+      "input_hash": "cc6d5daa91513269",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 2,
+          "summary": "《GTA6》女主全裸5分钟视频流出 因NPC无反应被质疑；盯上女主了！葱哥下次泄露《GTA6》露西亚全裸4K视频。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "三国群英传Online",
+          "count": 2,
+          "summary": "《三国群英传Online》蜀汉之志，麒麟之心 北伐续汉祚，再战五丈原！全新伺服器「龙吟九霄」开放！；《三国群英传Online》战国之道 天下布武   日本战国武将强势加入！全新伺服器「龙吟九霄」开放！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "永恒之塔2",
+          "count": 2,
+          "summary": "《永恒之塔2》重拳出击 近5000账号因外挂打金被限制；《永恒之塔2》捏人被网友玩坏： 身材一个比一个夸张！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "王国之心",
+          "count": 2,
+          "summary": "游侠早报:《王国之心》价格永降 《42中队》新截图曝光；《王国之心》系列Steam价格永降！368元集齐核心正传。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "42中队",
+          "count": 1,
+          "summary": "《42中队》Steam页面新截图曝光!电影级画面展示太空。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "DQ12",
+          "count": 1,
+          "summary": "堀井雄二半小时AI速成新作！玩家担忧AI侵蚀《DQ12》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA",
+          "count": 1,
+          "summary": "复刻30年前原型！初代《GTA》开发者放出驾驶物理演示。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA4",
+          "count": 1,
+          "summary": "开发者将《GTA4》移植到安卓！代码几乎全由AI生成。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "上古卷轴3",
+          "count": 1,
+          "summary": "颠覆认知！CRT屏幕完美适配《上古卷轴3》原生美术风格。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "全境封锁2",
+          "count": 1,
+          "summary": "腾讯代理《全境封锁2》国服宣布停运！上线不到三年。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "剑士",
+          "count": 1,
+          "summary": "《剑士》引擎重制项目推出Alpha版本 可加载各类模组。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "堕落之主2",
+          "count": 1,
+          "summary": "《堕落之主2》开发新阶段曝光！玩家参与战斗系统重做。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "声名狼藉：私生子",
+          "count": 1,
+          "summary": "《声名狼藉：私生子》民间PC移植版开发中 已实现60帧。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "复联5",
+          "count": 1,
+          "summary": "没我复仇者大概率要落败！鹰眼自曝不参演《复联5》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "《影之刃零》动捕录制时间超1000小时！不完美就重拍。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "article_count": 50,
+      "game_count": 27,
+      "untagged_count": 19,
+      "digest": "今日游戏资讯聚焦多款大作，前顽皮狗员工对《GTA6》规模表示压力，该作追捕逻辑将因三星通缉等级改变；卡普空正为《生化：维罗妮卡RE》开发独立DLC；Mod作者为《星空》重构引擎实现零加载；Square Enix确认《FF7启示》Switch2版画质将超越《重生》；《星际公民》衍生作《42中队》上架Steam。",
+      "digest_source": "llm",
+      "input_hash": "b15015a8431f6b15",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 2,
+          "summary": "《GTA6》将彻底改变系列延续二十余年的警方追捕逻辑，当玩家通缉等级达到三星后，最有效的逃脱方式是跳下载具徒步钻进小巷。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "地铁2039",
+          "count": 2,
+          "summary": "据坤哥爆料，《地铁2039》将于10月13日开启预购，三个版本的欧元售价同步流出，官方社交媒体账号目前仅表示预购将在本周开放。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星空",
+          "count": 2,
+          "summary": "爆料人称《星空》Switch2版开发受阻，移植工作因庞大的游戏体量存在搁置风险。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化：维罗妮卡RE",
+          "count": 2,
+          "summary": "爆料人称卡普空或将推出《维罗妮卡重制版》独立剧情DLC，体量对标系列既往DLC，或聚焦威斯克故事。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7启示",
+          "count": 1,
+          "summary": "《最终幻想7：启示》Switch 2版导演滨口直树透露，Square Enix将把Switch 2版画质做到比《重生》更高的水平。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "P.T.",
+          "count": 1,
+          "summary": "民间原生PC移植《P.T.》可在Steam Machine流畅运行，新增光追阴影、增强纹理等现代图形功能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Skate",
+          "count": 1,
+          "summary": "开发商Full Circle回应称支持社区创意，但反对绕过付费外观、解锁未发布内容或从中获利，并透露正在开发官方创作工具。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "THE FINALS",
+          "count": 1,
+          "summary": "第12赛季将迎来完整HUD与UI刷新，重做大厅与导航界面，新增侧边栏和快捷设置，并支持HUD缩放、超宽屏比例适配。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "养鬼吃人：复苏",
+          "count": 1,
+          "summary": "油管主播j0nathan对画面做模糊处理后上传《猛鬼追魂：复苏》实机，频道遭永久封禁，该作Steam口碑极佳。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3：狂猎重制版",
+          "count": 1,
+          "summary": "Digital Foundry发布推荐画质设置，相比Ultra+预设，这套方案最高提升约85%性能，不建议开启光线追踪阴影。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3：重制版",
+          "count": 1,
+          "summary": "有玩家分享《巫师3：狂猎 重制版》叶奈法外观异常的BUG，在部分剧情过场中，叶奈法会出现身体裸露、衣物未正常加载的情况。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战争机器",
+          "count": 1,
+          "summary": "官方解释《战争机器》主角团肌肉身材夸张，是因为每天吃6000大卡。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战神",
+          "count": 1,
+          "summary": "博主推测《战神》希腊重制三部曲将于2028年发售，登陆PS6。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星际公民",
+          "count": 1,
+          "summary": "《星际公民》宇宙下的单人太空冒险游戏《42中队》现已上线Steam商店页面，预计2027年第二季度发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想15",
+          "count": 1,
+          "summary": "破解组织RUNE放出《最终幻想15》微软商店版破解，该版本无D加密，事件再次引发玩家争议Steam版多年仍保留Denuvo加密是否影响游戏性能。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "article_count": 79,
+      "game_count": 45,
+      "untagged_count": 24,
+      "digest": "今日游戏资讯聚焦多款大作动态，《GTA6》持续引发社区热议，编剧解析双主角人设并定档11月19日发售，巴西玩家更收到官方寄送的实物海报；《战狗》9月PC销量登顶且突破300万份，确认10月15日上线第二赛季；卡普空《龙之信条2》DLC上线后在线人数重回三万，Steam好评率达86%；此外《战地6》S5赛季与《FF7：启示》联动官宣，Telltale《与狼同行 重制版》实体版定档2027年。",
+      "digest_source": "llm",
+      "input_hash": "7aba85eb5b4bdb92",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 6,
+          "summary": "编剧解析双主角露西亚与杰森兼具优缺点，游戏定于2026年11月19日正式发售，巴西玩家发邮件索要海报后收到实物。",
           "summary_source": "llm"
         },
         {
           "name": "战狗",
+          "count": 3,
+          "summary": "9月PC游戏销量榜第一且总销量突破300万份，第2赛季将于10月15日上线，新增武器载具及降雨雷暴天气系统。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
           "count": 2,
-          "summary": "《战狗》9月PC平台销量冠军，总销量突破300万份，第2赛季将于10月15日上线，新增武器载具及降雨雷暴天气系统。",
+          "summary": "《影之刃零》主线25-30小时 梁其伟确认敌人不会重生；打过《影之刃零》第一章，似乎理解了啥是武侠朋克。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战地6",
+          "count": 2,
+          "summary": "S5赛季“围攻维加斯”将于10月13日上线，10月20日还将推出与《死亡空间》的联动内容，新增受恐怖系列启发的PvE模式。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "龙之信条2",
+          "count": 2,
+          "summary": "黑暗觉者DLC上线后在线人数重回三万，拓展包玩家好评率达86%，但因新旧玩家定价差距过大引发国区玩家不满。",
           "summary_source": "llm"
         },
         {
@@ -32,75 +329,57 @@
           "summary_source": "rules"
         },
         {
+          "name": "FF7：启示",
+          "count": 1,
+          "summary": "官宣与《索尼克赛车》开启联动合作，为游戏正式发售全面预热。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "万缕千丝",
+          "count": 1,
+          "summary": "千万别蓄满能量条！《万缕千丝》暗藏致命惩罚机制。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "与狼同行 重制版",
+          "count": 1,
+          "summary": "实体版官宣定档2027年第一季度，数字版将于2026年10月29日登陆多平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "四海兄弟3",
+          "count": 1,
+          "summary": "主机端推出原生60帧，为纪念发售十周年上线次世代主机原生版本与Steam端优化补丁。",
+          "summary_source": "llm"
+        },
+        {
           "name": "四海兄弟3最终版",
           "count": 1,
-          "summary": "PS4版用户可免费升级至PS5版本《四海兄弟3：最终版》，无需按30美元价格重新购买。",
+          "summary": "PS4版用户可免费升级至PS5版本，无需按30美元价格重新购买。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "圣安地列斯",
+          "count": 1,
+          "summary": "IGN评析指出“家族团聚”关卡是R星电影化叙事风格的起点，为《GTA6》创作提供参考。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "地块梦战",
+          "count": 1,
+          "summary": "Team Instant Defeat公布快节奏俯视角动作Roguelike新作，每一块地块都至关重要。",
           "summary_source": "llm"
         },
         {
           "name": "地平线6",
           "count": 1,
-          "summary": "官方确认PS5版本将推出实体光盘版，实体盘于2027年1月27日上架，现已开启预购。",
+          "summary": "确认推出PS5实体盘，完整游戏需联网下载，实体盘于2027年1月27日上架。",
           "summary_source": "llm"
         },
         {
           "name": "寂静岭",
           "count": 1,
-          "summary": "制作人冈本基透露团队正研究系列后续项目，初代重制交由《寂静岭2》重制开发组。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "彩虹六号",
-          "count": 1,
-          "summary": "育碧宣布《彩虹六号》手游将于2027年1月停运，距离全球正式上线不到一年。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "总监梁其伟确认主线流程约25-30小时，游戏中敌人被击败后不会重生。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战争机器：事变日",
-          "count": 1,
-          "summary": "微软3A大作首周销量仅23万份（Steam 16.8万、Xbox生态6.2万），对旗舰作品而言表现疲软。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 1,
-          "summary": "Insomniac开发的PS5独占游戏9月累计销量约216万份，成为当月PS5平台第二畅销游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化9",
-          "count": 1,
-          "summary": "游侠早报：PS6发售时间爆料 《生化9》差点做成网游。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "生化危机9",
-          "count": 1,
-          "summary": "卡普空制作人透露《生化危机9：安魂歌》开发过程中差点做成网游，最终回归单人恐怖模式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "索尼克赛车：交叉世界",
-          "count": 1,
-          "summary": "世嘉公布第二年更新路线图，将于2026年11月3日启动，包含免费一对一对决模式及付费联动DLC。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "羊蹄山之魂 完整版",
-          "count": 1,
-          "summary": "评测指出游戏聚焦日本雨姐的古今情事。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "血源诅咒",
-          "count": 1,
-          "summary": "国外高手让《血源诅咒》PS4版在PC运行，支持4K 120FPS。",
+          "summary": "制作人透露正研究系列后续项目，首批重制作品已上线，团队认为单一重制不足以复兴IP。",
           "summary_source": "llm"
         }
       ]
@@ -702,107 +981,6 @@
           "count": 1,
           "summary": "白金确认《猎天使魔女》将有新作 缺少初代核心主创团队。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "article_count": 34,
-      "game_count": 23,
-      "untagged_count": 9,
-      "digest": "今日游戏资讯聚焦于《GTA6》的分级细节与时尚大片曝光，以及《巫师3》重制版补丁修复BUG与滨口直树对重制版的看法。此外，动视《光环》项目传闻考虑重启，暴雪创始人联手打造新工作室，战马工作室希望《GTA6》开启涨价，Nerial宣布工作室休眠，以及《战地6》Steam史低促销等动态引发关注。",
-      "digest_source": "llm",
-      "input_hash": "a2561d1318998995",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "LOVE杂志发布全新人物渲染图，颠覆硬核实机风格，同时分级细节揭晓为成人M级，包含强烈涩涩内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 2,
-          "summary": "滨口直树表示很乐意看到《巫师3》推出完整重制版，甚至愿意购买游玩，但坦言自己不敢亲自做，因为工作量太大。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7启示",
-          "count": 1,
-          "summary": "滨口直树透露自己全力争取为本作保留实体光盘版本，只为坚守对实体游戏介质的热爱。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Gang of Dragon",
-          "count": 1,
-          "summary": "名越工作室证实《Gang of Dragon》已无力回天，团队首款作品面临开发困境。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环",
-          "count": 1,
-          "summary": "据爆料者RebsGaming消息，动视《光环》项目正在考虑完整重启系列，并以士官长起源为重点。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "命运2",
-          "count": 1,
-          "summary": "暴雪创始人Margaret Stohl联手打造新工作室Stone Kite，并公布首个IP《One Zero One》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "天国",
-          "count": 1,
-          "summary": "战马工作室联合创始人克利马希望《GTA6》为游戏行业开启涨价浪潮，尽管他本人无意游玩该系列。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3RE",
-          "count": 1,
-          "summary": "玩家制作趣味mod《Low-Poly Pigeon - The Revenge》，将游戏内全部狮鹫兽替换成经典低模方块鸽子。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "弧光劫掠者",
-          "count": 1,
-          "summary": "Nexon公布《ARC Raiders》限时免费游玩活动，时间为10月8日至12日，多平台可参与。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "心灵杀手",
-          "count": 1,
-          "summary": "游侠晚报：《心灵杀手》新项目曝光 《光环》或将重启。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "心灵杀手2",
-          "count": 1,
-          "summary": "绿美迪娱乐曝光全新神秘游戏项目，据悉《心灵杀手2》联合总监凯尔·罗利已秘密主导该项目近两年。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "我的世界",
-          "count": 1,
-          "summary": "前NFL知名教练迈克·汤姆林公开耗时12年精心打造的《我的世界》巨型城市作品，实现跨界破圈。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战地6",
-          "count": 1,
-          "summary": "《战地6》在Steam平台标准版永久降至198元，开启新史低折扣，折后仅需99元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "无畏契约",
-          "count": 1,
-          "summary": "一名玩家购买二手AMD锐龙7 5800X3D处理器后，启动《无畏契约》遭永封，疑因硬件暗藏\"前科\"。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "王权",
-          "count": 1,
-          "summary": "《王权》开发团队Nerial宣布工作室进入休眠模式。",
-          "summary_source": "llm"
         }
       ]
     }

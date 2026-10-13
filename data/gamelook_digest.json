@@ -1,9 +1,61 @@
 {
-  "generated_at": "2026-10-12T01:24:51.238630+00:00",
+  "generated_at": "2026-10-13T03:24:41.846157+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-13",
+      "article_count": 8,
+      "game_count": 4,
+      "untagged_count": 4,
+      "digest": "2026年10月13日游戏行业资讯主要聚焦于腾讯系产品表现及新品动态。腾讯旗下《火影忍者》宣布出海引发关注，魔方游戏借此迎来关键节点；腾讯投资的《ARC Raiders》2.0版本“霜痕小径”上线后Steam在线人数暴涨10倍至18万人，腾讯国服代理前景被看好；此外，《ROBLOX》跻身9月全球手游收入榜前五，紫龙游戏新作《极境：垂钓者》则引发市场对战棋品类生存空间的讨论。",
+      "digest_source": "llm",
+      "input_hash": "913c0354eb30e93f",
+      "game_digests": [
+        {
+          "name": "ARC Raiders",
+          "count": 1,
+          "summary": "腾讯投资的《ARC Raiders》2.0大版本“霜痕小径”正式上线，全平台免费畅玩，Steam同时在线人数暴涨10倍至18万人，腾讯国服代理前景被看好。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "ROBLOX",
+          "count": 1,
+          "summary": "《ROBLOX》在2026年9月全球手游收入排行榜中表现强劲，跻身全球收入榜前五。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "极境：垂钓者",
+          "count": 1,
+          "summary": "紫龙游戏新作《极境：垂钓者》引发市场关注，游戏圈讨论战棋品类在2026年的生存空间。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "火影忍者",
+          "count": 1,
+          "summary": "《火影忍者》官宣出海，魔方游戏借此迎来“赛点时刻”，老外欢呼“苦等10年”。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "article_count": 7,
+      "game_count": 1,
+      "untagged_count": 6,
+      "digest": "10月12日 GameLook 共 7 条新闻，涉及 1 款游戏。报道最集中的是《教妹妹开车》（1 条）。另有 6 条未指向具体游戏的行业或平台资讯。《教妹妹开车》方面的报道有「奇葩独游《教妹妹开车》测试火爆，开发者穷疯了：“每天AI账单7000元、贷款续命”」。",
+      "digest_source": "rules",
+      "input_hash": "fc2f7fe5a55d260d",
+      "game_digests": [
+        {
+          "name": "教妹妹开车",
+          "count": 1,
+          "summary": "奇葩独游《教妹妹开车》测试火爆，开发者穷疯了：“每天AI账单7000元、贷款续命”。",
+          "summary_source": "rules"
+        }
+      ]
+    },
     {
       "date": "2026-10-10",
       "article_count": 7,
