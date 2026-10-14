@@ -1,68 +1,9 @@
 {
-  "crawled_at": "2026-10-13T03:05:44.460138+00:00",
+  "crawled_at": "2026-10-14T01:04:47.764538+00:00",
   "days": [
     {
-      "date": "2026-10-13",
-      "date_label": "10月13日 今天",
-      "games": [
-        {
-          "game_name": "幸福甜点咖啡店",
-          "categories": [
-            "模拟经营",
-            "放置",
-            "可爱",
-            "治愈",
-            "美食",
-            "模拟"
-          ],
-          "score": null,
-          "release_date": "2026-10-13",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1958447.html",
-          "publisher": "kiwigames",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "我叫MT:崛起",
-          "categories": [
-            "角色扮演",
-            "卡牌",
-            "回合",
-            "放置",
-            "刷宝"
-          ],
-          "score": "7.8",
-          "release_date": "2026-10-13",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1952836.html",
-          "publisher": "海南祺曜互动",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "江湖我最牛",
-          "categories": [
-            "角色扮演",
-            "武侠",
-            "放置",
-            "像素",
-            "国风",
-            "养成"
-          ],
-          "score": "8.8",
-          "release_date": "2026-10-13",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1953478.html",
-          "publisher": "飞升研究所",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
       "date": "2026-10-14",
-      "date_label": "10月14日 明天",
+      "date_label": "10月14日 今天",
       "games": [
         {
           "game_name": "龙之谷：启程",
@@ -99,29 +40,11 @@
             "单人",
             "合作"
           ],
-          "score": "8.5",
+          "score": "8.6",
           "release_date": "2026-10-14",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1891059.html",
           "publisher": "Outer Space Workshop",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "梦镜仙缘",
-          "categories": [
-            "策略",
-            "回合",
-            "冒险",
-            "收集",
-            "养成",
-            "西游"
-          ],
-          "score": null,
-          "release_date": "2026-10-14",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1954467.html",
-          "publisher": "小娱网络",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }
@@ -129,7 +52,7 @@
     },
     {
       "date": "2026-10-15",
-      "date_label": "10月15日 后天",
+      "date_label": "10月15日 明天",
       "games": [
         {
           "game_name": "宝贝星球",
@@ -164,7 +87,7 @@
           "release_date": "2026-10-15",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1901564.html",
-          "publisher": "绿梦工作室",
+          "publisher": "Shanghai Epieplay Technology Co., Ltd",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         },
@@ -178,7 +101,7 @@
             "角色扮演",
             "多平台"
           ],
-          "score": "7.8",
+          "score": "7.7",
           "release_date": "2026-10-15",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1943457.html",
@@ -190,7 +113,7 @@
     },
     {
       "date": "2026-10-16",
-      "date_label": "10月16日 周五",
+      "date_label": "10月16日 后天",
       "games": [
         {
           "game_name": "我在海上有小岛",
@@ -264,6 +187,83 @@
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1955643.html",
           "publisher": "SKY工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "date_label": "10月20日 下周二",
+      "games": [
+        {
+          "game_name": "征战王权",
+          "categories": [
+            "策略",
+            "竞技",
+            "卡牌",
+            "三国",
+            "3D"
+          ],
+          "score": null,
+          "release_date": "2026-10-20",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1954465.html",
+          "publisher": "游小爱",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "长夜守卫者",
+          "categories": [
+            "多人联机",
+            "哥特风",
+            "暗黑",
+            "中世纪",
+            "生存"
+          ],
+          "score": "8.5",
+          "release_date": "2026-10-20",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1953471.html",
+          "publisher": "LeekBox Studio",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "英雄请出战",
+          "categories": [
+            "冒险",
+            "像素",
+            "三国",
+            "角色扮演",
+            "竖屏",
+            "回合制",
+            "策略",
+            "养成"
+          ],
+          "score": "7.8",
+          "release_date": "2026-10-20",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1955319.html",
+          "publisher": "北京集英舍软件科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "守护庄园",
+          "categories": [
+            "冒险",
+            "角色扮演",
+            "像素",
+            "卡牌",
+            "Roguelike"
+          ],
+          "score": null,
+          "release_date": "2026-10-20",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1937399.html",
+          "publisher": "南京清风流域通信科技有限公司",
           "is_major_publisher": false,
           "has_afk_grinding_tag": true
         }

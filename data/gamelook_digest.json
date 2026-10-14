@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T03:24:41.846157+00:00",
+  "generated_at": "2026-10-14T01:21:29.948196+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
@@ -44,15 +44,15 @@
       "article_count": 7,
       "game_count": 1,
       "untagged_count": 6,
-      "digest": "10月12日 GameLook 共 7 条新闻，涉及 1 款游戏。报道最集中的是《教妹妹开车》（1 条）。另有 6 条未指向具体游戏的行业或平台资讯。《教妹妹开车》方面的报道有「奇葩独游《教妹妹开车》测试火爆，开发者穷疯了：“每天AI账单7000元、贷款续命”」。",
-      "digest_source": "rules",
+      "digest": "生成式AI技术驱动下，游戏行业正兴起利用大语言模型打造实时交互体验的新风潮。其中，独立游戏《教妹妹开车》因测试火爆引发关注，开发者透露因AI账单高昂面临巨大经济压力，甚至需要贷款续命。",
+      "digest_source": "llm",
       "input_hash": "fc2f7fe5a55d260d",
       "game_digests": [
         {
           "name": "教妹妹开车",
           "count": 1,
-          "summary": "奇葩独游《教妹妹开车》测试火爆，开发者穷疯了：“每天AI账单7000元、贷款续命”。",
-          "summary_source": "rules"
+          "summary": "奇葩独游《教妹妹开车》测试火爆，开发者透露每天AI账单高达7000元，因资金压力面临贷款续命。",
+          "summary_source": "llm"
         }
       ]
     },
