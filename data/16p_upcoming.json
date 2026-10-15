@@ -1,58 +1,9 @@
 {
-  "crawled_at": "2026-10-14T01:04:47.764538+00:00",
+  "crawled_at": "2026-10-15T00:28:18.850210+00:00",
   "days": [
     {
-      "date": "2026-10-14",
-      "date_label": "10月14日 今天",
-      "games": [
-        {
-          "game_name": "龙之谷：启程",
-          "categories": [
-            "角色扮演",
-            "多人联机",
-            "动作",
-            "冒险",
-            "MMO",
-            "3D"
-          ],
-          "score": null,
-          "release_date": "2026-10-14",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1952259.html",
-          "publisher": "三九互娱",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "秩序:新曙光",
-          "categories": [
-            "建造",
-            "像素",
-            "策略",
-            "角色扮演",
-            "模拟经营",
-            "经营",
-            "探索",
-            "SLG",
-            "支持Steam家庭共享",
-            "2D",
-            "末日",
-            "单人",
-            "合作"
-          ],
-          "score": "8.6",
-          "release_date": "2026-10-14",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1891059.html",
-          "publisher": "Outer Space Workshop",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-10-15",
-      "date_label": "10月15日 明天",
+      "date_label": "10月15日 今天",
       "games": [
         {
           "game_name": "宝贝星球",
@@ -81,9 +32,10 @@
             "解谜",
             "科幻",
             "冒险",
-            "末日"
+            "末日",
+            "支持手柄"
           ],
-          "score": "8.5",
+          "score": "8.7",
           "release_date": "2026-10-15",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1901564.html",
@@ -101,7 +53,7 @@
             "角色扮演",
             "多平台"
           ],
-          "score": "7.7",
+          "score": "7.5",
           "release_date": "2026-10-15",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1943457.html",
@@ -113,7 +65,7 @@
     },
     {
       "date": "2026-10-16",
-      "date_label": "10月16日 后天",
+      "date_label": "10月16日 明天",
       "games": [
         {
           "game_name": "我在海上有小岛",
@@ -141,7 +93,7 @@
             "自走棋",
             "休闲"
           ],
-          "score": "7.6",
+          "score": "7.8",
           "release_date": "2026-10-16",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1956039.html",
@@ -171,7 +123,7 @@
     },
     {
       "date": "2026-10-17",
-      "date_label": "10月17日 周六",
+      "date_label": "10月17日 后天",
       "games": [
         {
           "game_name": "修仙王朝模拟器",
@@ -266,6 +218,64 @@
           "publisher": "南京清风流域通信科技有限公司",
           "is_major_publisher": false,
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "date_label": "10月21日 下周三",
+      "games": [
+        {
+          "game_name": "美职篮奇迹梦之队",
+          "categories": [
+            "体育",
+            "篮球",
+            "模拟经营",
+            "NBA",
+            "养成"
+          ],
+          "score": "8.1",
+          "release_date": "2026-10-21",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1958256.html",
+          "publisher": "苦柚Games",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "拳皇",
+          "categories": [
+            "格斗",
+            "多人联机",
+            "动作",
+            "竞技",
+            "3D"
+          ],
+          "score": "8.2",
+          "release_date": "2026-10-21",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952318.html",
+          "publisher": "Wanda Game",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "蜀山幻想志",
+          "categories": [
+            "卡牌",
+            "仙侠",
+            "策略",
+            "角色扮演",
+            "二次元",
+            "养成"
+          ],
+          "score": "8.4",
+          "release_date": "2026-10-21",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1950332.html",
+          "publisher": "广州市手心网络科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
         }
       ]
     }

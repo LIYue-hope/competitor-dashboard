@@ -1,107 +1,196 @@
 {
-  "generated_at": "2026-10-14T01:18:12.576471+00:00",
+  "generated_at": "2026-10-15T00:36:32.448422+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "article_count": 27,
-      "game_count": 20,
-      "untagged_count": 2,
-      "digest": "今日游戏资讯聚焦于《GTA6》剧情截图引发的玩家对结局的猜测，以及《影之刃零》IGN宣传片展示机械魔躯外观与IGN盛赞其战斗手感。此外，《战地6》推出30美元终极捷径包引发玩家讨论，而《EA SPORTS大学橄榄球》因球员授权费用暴涨面临关停风险，开发商4A Games则公布了《地铁2039》的预购信息与定价。",
+      "game_count": 13,
+      "untagged_count": 1,
+      "digest": "2026年10月15日游戏行业动态整体活跃，共涉及13款游戏，资讯总数达27条，整体围绕发售节点、更新内容、销量表现及技术适配等方向展开，涉及《GTA6》《塞尔达：时之笛 重制版》《使命召唤：现代战争4》等多款主流及热门游戏，相关动态涵盖发售调整、玩法更新、销量数据及平台适配等，行业竞争焦点较为多元。",
       "digest_source": "llm",
-      "input_hash": "3eef956027f73973",
+      "input_hash": "313252b8c0cbade4",
       "game_digests": [
         {
           "name": "GTA6",
+          "count": 10,
+          "summary": "《GTA6》PC版发售日仍未公布 业内人士称计划于2027年初推出；曝《GTA6》评测将于11月19日发售前发布 解禁日期未公开；西班牙拟于11月11日举行总罢工 《GTA6》当地配送或受扰（当天共 10 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达：时之笛 重制版",
           "count": 4,
-          "summary": "Rockstar公布的一张截图引发玩家对杰森与露西亚结局的猜测，画面中两人靠近彼此似乎即将亲吻，周围还有直升机和载有持枪警员的数艘警艇，让部分玩家联想到“邦妮与克莱德”式的悲剧收尾。",
+          "summary": "《塞尔达：时之笛 重制版》新预告 新增大厅可与怪物再战；《塞尔达：时之笛 重制版 》试玩观察到29处变化 涉及谜题与战斗；《塞尔达：时之笛 重制版》试玩：手动跳跃与奔跑让探索更敏捷（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 2,
+          "summary": "《使命召唤：现代战争4》第一赛季11月6日开启；《使命召唤：现代战争4》登陆NS2 或将令任天堂威胁PS与Xbox格局。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "007：初露锋芒",
+          "count": 1,
+          "summary": "《007：初露锋芒》NS2版定档3月18日 预购已开放。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "不朽遗志",
+          "count": 1,
+          "summary": "《不朽遗志》10月14日发售，登陆PC、PS5及Xbox Series。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "刺客信条：黑旗 记忆重置",
+          "count": 1,
+          "summary": "《刺客信条：黑旗 记忆重置》大卖 参与开发工作室反遭裁员。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "地铁2039",
+          "count": 1,
+          "summary": "《地铁2039》开启预购 美国多店收藏版缺货。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "堡垒之夜",
+          "count": 1,
+          "summary": "Epic计划通过新版启动器将《堡垒之夜》带到Linux，仍需适配反作弊。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "幕府将军2：全面战争",
+          "count": 1,
+          "summary": "《幕府将军2：全面战争推出后Steam差评如潮 与原版评价形成反差。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "《影之刃零》快节奏战斗与相连世界设计 被外媒拿来对照。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战地6",
+          "count": 1,
+          "summary": "《战地6》第5赛季“51区”UFO彩蛋已破解，解谜可获武器挂件。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "死或生：女神假期",
+          "count": 1,
+          "summary": "《死或生：女神假期》7.5周年活动 推出新泳装并提供免费抽卡。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "魔兽世界：无限",
+          "count": 1,
+          "summary": "《魔兽世界：无限》测试版加入临时经济限制 调查可疑金币交易。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "article_count": 138,
+      "game_count": 90,
+      "untagged_count": 18,
+      "digest": "今日游戏资讯聚焦于R星对《GTA6》夜总会细节的深度挖掘，以及《战地6》年度版发售与涨价预告。此外，《不朽遗志》正式发售，而《全面战争：幕府将军2》重制版因AI画面与Bug遭遇差评潮。多款经典与新作如《地铁2039》、《影之刃零》及《塞尔达传说：时之笛》Switch 2版均有相关动态更新。",
+      "digest_source": "llm",
+      "input_hash": "c66b54fe79982814",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 12,
+          "summary": "R星透露美术师曾随警员巡逻、走访夜总会，为打造真实聚会场所收集素材，夜总会灯光系统将随音乐同步变化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战地6",
+          "count": 5,
+          "summary": "《战地6》推出年度游戏版，PC版现售59.99欧元，将于10月20日涨价至99.99欧元，S5赛季上线新狙击枪ELR-40。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "动物园之星2",
+          "count": 3,
+          "summary": "人气模拟续作《动物园之星2》正式揭晓，首次收录纯水生物种与飞行物种，并推出全球保育项目玩法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "地铁2039",
+          "count": 3,
+          "summary": "游戏现已开启预购，将于2027年2月5日登陆PS5、Xbox Series X|S及PC平台，预购玩家可获得专家组合包。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "PEAK",
+          "count": 2,
+          "summary": "合作登山游戏《PEAK》PS5版现身ESRB评级网站，PC版累计销量近2000万份，但官方尚未确认移植计划。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不朽遗志",
+          "count": 2,
+          "summary": "由《幽灵行者》团队打造的第一人称类魂游戏《不朽遗志》于10月14日发售，登陆PS5、Xbox Series X|S及Steam。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "全面战争：幕府将军2 完全版",
+          "count": 2,
+          "summary": "《全面战争：幕府将军2》重制版完全版因AI生成画面、大量Bug及优化问题，Steam好评率仅18%。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说：时之笛",
+          "count": 2,
+          "summary": "《塞尔达传说：时之笛》Switch 2版与40周年设计Pro手柄套装在亚马逊接受预订，包含支架和收纳包。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "宝可梦：Pokopia",
+          "count": 2,
+          "summary": "雷蛇皮卡丘与伊布联名外设在英国发售，键盘售价119.99英镑，比普通版高出50英镑，获外观好评。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3：狂猎",
+          "count": 2,
+          "summary": "玩家使用社区工具注入双重DLSS 5后，角色面容变化引发争议，有人误以为角色变老，也有人觉得面容浮肿。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 2,
-          "summary": "IGN独家宣传片曝光了豪华版专属的机械魔躯主角外观皮肤，该外观拥有半机械改造面部与赤红发光双眼，IGN盛赞游戏流畅的战斗手感与弹反机制，称其为2026年最酷的动作游戏之一。",
+          "summary": "IGN发布独家宣传片，展示豪华版专属机械魔躯主角外观皮肤，媒体盛赞其战斗手感与弹反机制。",
           "summary_source": "llm"
         },
         {
-          "name": "战地6",
+          "name": "最终幻想14",
           "count": 2,
-          "summary": "《战地6》推出售价30美元的终极捷径包，玩家购买后可立即解锁四大兵种武器精通进度及部分载具精通，无需逐步升级，该捷径包作为独立商品出售，也收录在年度游戏版套装中。",
+          "summary": "日服开放区域内自由匹配功能，四个数据中心玩家可跨中心匹配，制作人提醒玩家在新资料片上线前检查游戏设置。",
           "summary_source": "llm"
         },
         {
-          "name": "EA SPORTS大学橄榄球",
-          "count": 1,
-          "summary": "《EA SPORTS大学橄榄球》系列因球员授权费用持续暴涨面临长期运营压力，报道称《EA SPORTS大学橄榄球25》向每名入选球员支付600美元，而《EA SPORTS大学橄榄球27》的金额提高至每人1500美元。",
+          "name": "生化危机4：重制版",
+          "count": 2,
+          "summary": "《生化危机4：重制版》Switch 2版掌机模式频繁卡顿，接入底座后画面明显改善，但仍有加载瑕疵。",
           "summary_source": "llm"
         },
         {
-          "name": "地铁2039",
-          "count": 1,
-          "summary": "开发商4A Games公布了《地铁2039》的预购信息，Steam国区普通版定价298元，豪华版定价427元，预购任一版本均可获得免费的“专家包”，游戏将于2027年2月4日登陆多平台。",
+          "name": "给他爱5",
+          "count": 2,
+          "summary": "《给他爱5》将于11月17日退出PS Plus Extra，恰逢《GTA6》推出前两天，Rockstar此前曾短暂上架后下架该作。",
           "summary_source": "llm"
         },
         {
-          "name": "堡垒之夜",
-          "count": 1,
-          "summary": "前《堡垒之夜》制作人Aakash Gupta认为Epic Games提出“AI优先”的做法并不意外，他表示Epic已将Claude和Gemini等模型接入虚幻引擎，这将推动相关功能在实际开发工作中得到使用。",
+          "name": "英雄联盟",
+          "count": 2,
+          "summary": "虚拟团体K/DA发布新宣传图，疑似预告10月20日公布新歌《Start A Fire》，正值2026年全球总决赛开赛前。",
           "summary_source": "llm"
-        },
-        {
-          "name": "寂静岭：小镇陷落",
-          "count": 1,
-          "summary": "科乐美制作人冈本基接受采访，谈及《寂静岭：小镇陷落》开发思路，称首批三款主力作品加上免费短篇内容现已全部推出，官方已着手筹备第二波、第三波新项目，依旧会以多部作品打包形式推进。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：重制版",
-          "count": 1,
-          "summary": "CDPR于10月13日向《巫师3：重制版》PS5和PS5 Pro版本推送5.01b热修复，官方称此次更新加入多项稳定性改进，旨在提高游戏运行的可靠性，但仍有玩家反馈游戏崩溃、掉帧及卡顿。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "师父",
-          "count": 1,
-          "summary": "Sloclap开发的动作游戏《师父》现已登陆iOS和安卓平台，移动版售价7.99美元，提供完整剧情流程，开发团队为适应移动设备加入了触屏控制、改进情境交互并重新设计了镜头系统。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "恶霸鲁尼",
-          "count": 1,
-          "summary": "R星元老Dan Houser回顾《恶霸鲁尼》开发经历时表示，围绕游戏名称出现的争议分散了团队的注意力，导致游戏没有得到应有的关注，团队不得不花费大量精力让商店愿意进货并避免上市前遭到抗议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "愚者不灭",
-          "count": 1,
-          "summary": "法米通推出发售前专题报道解析《愚者不灭》玩法，该作将于10月22日登陆PS5和Steam，官方已放出“初次噬咬”免费体验版，游戏主打独特的爆速成长循环，拒绝做成高难度受苦类魂系作品。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星际争霸",
-          "count": 1,
-          "summary": "本·阿弗莱克在播客中回忆，刚成名时他曾有约三年在家玩《星际争霸》，如今他仍玩《无畏契约》，但经常被从小接触这类游戏的年轻玩家压制，他也提到与马特·达蒙编写《心灵捕手》剧本期间会暂停工作去玩《毁灭战士》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星际：异端先知",
-          "count": 1,
-          "summary": "前顽皮狗动画师Rico Flores认为《星际：异端先知》的战斗可能接近现代《战神》，还预计游戏会加入更多物理互动，他依据现有画面提出这一预测，顽皮狗目前确认的是游戏的动作比重。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "木卫四协议",
-          "count": 1,
-          "summary": "《木卫四协议》制作人Glen Schofield在访谈中表示，发行方Krafton曾答应再给工作室三个月开发时间，随后又收回承诺，团队因此必须按原计划推出游戏，他回忆这一变化发生在疫情期间。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "毁灭公爵3D",
-          "count": 1,
-          "summary": "《毁灭公爵3D》关卡设计师RichardGray去世 享年68岁。",
-          "summary_source": "rules"
         }
       ]
     },
@@ -392,60 +481,60 @@
     },
     {
       "date": "2026-10-10",
-      "article_count": 111,
-      "game_count": 72,
+      "article_count": 112,
+      "game_count": 73,
       "untagged_count": 24,
-      "digest": "2026-10-10当日在游戏行业资讯平台上共发布111条新闻，覆盖72款游戏，涉及解雇争议、版本更新、销量爆发及平台活动等多类动态，整体呈现游戏迭代加速、内容质量争议及运营管理问题并存的态势。",
+      "digest": "今日游戏行业资讯聚焦于《GTA6》解雇案记者身份争议、多款新作发售与更新动态。Rockstar前员工解雇案在格拉斯哥劳动法庭听证，记者Jason Schreier的身份成为焦点，涉及《GTA6》开发保密信息及工会活动指控。此外，《战犬》蓝队胜率过低引发开发商调整，Bulkhead计划在第二赛季修改出生点并给予蓝队奖励；《Truckful / 乡野奇运》今日在Steam正式发售，Pocketpair发行部门发布了全新预告片。其他动态还包括《影之刃零》总监透露敌人不重生机制、《星空》Switch 2版开发遇阻、以及《万智牌》漫威新系列《黑暗神书命运》定档2027年4月等。",
       "digest_source": "llm",
-      "input_hash": "515390b149a45302",
+      "input_hash": "c50b860f2f909c42",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 10,
-          "summary": "《GTA6》相关解雇案出现记者身份争议，听证一度短暂停顿；约90段未完成画面曾外流，《GTA6》泄露案中的嫌犯将受审；巴西玩家写信索要《GTA6》海报，随后收到Rockstar寄来的实物（当天共 10 条）",
-          "summary_source": "rules"
+          "summary": "Rockstar前员工解雇案在格拉斯哥劳动法庭听证，记者Jason Schreier的身份及与员工联系引发关注，涉及《GTA6》开发保密争议及工会活动指控。",
+          "summary_source": "llm"
         },
         {
           "name": "战犬",
           "count": 3,
-          "summary": "《战犬》蓝队胜率明显偏低，第二赛季计划调整出生点并提供奖励；《战犬》第2赛季定于10月15日上线，资金重置并加入新武器与载具；《战犬》登顶9月PC销量榜，跨平台销量仅次于《EA体育足球俱乐部27》。",
-          "summary_source": "rules"
+          "summary": "开发商Bulkhead确认蓝队胜率偏低，计划在第二赛季调整出生点并提供现金、经验值奖励，以改善蓝队“总会输”的局面。",
+          "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 2,
-          "summary": "《影之刃零》敌人击败后不会重生 总监希望玩家持续接触新内容；《影之刃零》PC版20分钟实机演示 战斗非常激烈。",
-          "summary_source": "rules"
+          "summary": "总监梁其伟透露敌人被击败后不会重生，团队希望玩家关注推进故事和探索世界，主线完整通关时长约25‑30小时。",
+          "summary_source": "llm"
         },
         {
           "name": "星空",
           "count": 2,
-          "summary": "《星空》Switch 2移植版开发遇难题 可能被彻底搁置；《星空》玩家模组展示行星起降飞船往返太空与地表未见加载画面。",
-          "summary_source": "rules"
+          "summary": "知名爆料人NateTheHate指出《星空》Switch 2版开发陷入困境，移植工作可能已被彻底搁置，外界认为游戏体量庞大导致移植困难。",
+          "summary_source": "llm"
         },
         {
           "name": "神奇蜘蛛侠",
           "count": 2,
-          "summary": "评论认为《神奇蜘蛛侠》第1000期给玛丽·简的篇幅不足！削弱纪念意义；1978年Mego蜘蛛侠人偶即将拍卖！浩克卡背同版仅三件获评级。",
-          "summary_source": "rules"
+          "summary": "评论认为《神奇蜘蛛侠》第1000期给玛丽·简的篇幅不足，未充分讲述她与彼得·帕克的关系，削弱了纪念意义。",
+          "summary_source": "llm"
         },
         {
           "name": "龙之信条2：黑暗觉者",
           "count": 2,
-          "summary": "《龙之信条2：黑暗觉者》GameSpot 8分 更容易上手却少了几分原作的硬核；《龙之信条2：黑暗觉者》PS5与Switch 2画面对比：掌机阴影和水面细节较弱。",
-          "summary_source": "rules"
+          "summary": "《龙之信条2：黑暗觉者》获得GameSpot 8分好评，拥有超过20小时内容，虽让游戏更易上手但也削弱了原作冒险体验。",
+          "summary_source": "llm"
         },
         {
           "name": "GT赛车7",
           "count": 1,
-          "summary": "《GT赛车7》玩家增长推动Spec IV更新：分两阶段加入两条赛道和12辆车。",
-          "summary_source": "rules"
+          "summary": "制作人山内一典表示玩家增长促使团队推出Spec IV更新，计划于10月15日和12月分两阶段加入Sportsland SUGO赛道和Autumn Ring等。",
+          "summary_source": "llm"
         },
         {
           "name": "Hytale",
           "count": 1,
-          "summary": "《Hytale》破咒者版持有者在1.0版前每逢新章节发布可获赠一份标准版。",
-          "summary_source": "rules"
+          "summary": "Hypixel创始人Simon Collins-Laflamme宣布，1.0版前每发布一个新章节，破咒者版持有者可获赠一份标准版用于赠送亲友。",
+          "summary_source": "llm"
         },
         {
           "name": "Truckful",
@@ -454,40 +543,40 @@
           "summary_source": "rules"
         },
         {
+          "name": "万智牌",
+          "count": 1,
+          "summary": "《万智牌》漫威主题系列《黑暗神书命运》定于2027年4月9日推出，将围绕奇异博士、索尔等英雄对抗多玛姆与海拉展开原创故事。",
+          "summary_source": "llm"
+        },
+        {
           "name": "世界计划 缤纷舞台！feat. 初音未来",
           "count": 1,
-          "summary": "《世界计划 缤纷舞台！feat. 初音未来》新增《绣球花》，同步公开3D音乐视频。",
-          "summary_source": "rules"
+          "summary": "游戏新增歌曲《绣球花》并公开3D音乐视频，该曲属于六周年纪念活动，提供巡音流歌与歌爱雪两个版本。",
+          "summary_source": "llm"
         },
         {
           "name": "使命召唤：现代战争4",
           "count": 1,
-          "summary": "《使命召唤：现代战争4》数字版预购玩家可于10月20日提前体验DMZ。",
-          "summary_source": "rules"
+          "summary": "数字版预购玩家将于10月20日提前体验DMZ模式，该模式包含撤离玩法、装备管理和叙事线索，游戏定于10月23日发售。",
+          "summary_source": "llm"
         },
         {
           "name": "侠盗猎车手",
           "count": 1,
-          "summary": "《侠盗猎车手》初代车辆系统开发者公开驾驶物理系统！。",
-          "summary_source": "rules"
+          "summary": "参与初代《侠盗猎车手》车辆系统开发的程序员Pat Kerr公开了驾驶物理系统演示，用JavaScript重新呈现了约30年前的原型思路。",
+          "summary_source": "llm"
         },
         {
           "name": "僵尸毁灭工程",
           "count": 1,
-          "summary": "《僵尸毁灭工程》大型更新上线后 销量迎来大爆发。",
-          "summary_source": "rules"
+          "summary": "大型更新Build 42上线后，游戏9月在Steam售出30.5万份，位列当月畅销游戏第十，玩家人数升至新高。",
+          "summary_source": "llm"
         },
         {
           "name": "兔兔秘密花园2",
           "count": 1,
-          "summary": "《兔兔秘密花园2》主题线上抽奖商品开售！单抽880日元，10月12日截止。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "养鬼吃人：复苏",
-          "count": 1,
-          "summary": "《养鬼吃人：复苏》尺度太大 国外Up上传实机演示后被封号。",
-          "summary_source": "rules"
+          "summary": "Team Entertainment正在销售主题线上抽奖商品，单抽含税880日元，截至10月12日，奖品包括亚克力立牌、Enter键帽等。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -892,107 +981,6 @@
           "count": 1,
           "summary": "《冰汽时代》10月19日登陆初代Switch 完整版收录三部扩展内容。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "article_count": 47,
-      "game_count": 36,
-      "untagged_count": 5,
-      "digest": "10月5日游戏资讯聚焦于R星为《GTA6》组建专职编剧团队以丰富城市叙事，以及《战争机器：事变日》因发售故障向玩家发放15000金币补偿。此外，万代南梦宫在WF上海公开全新高达品牌GUNDAM XMX，Paradox公布废土战略新作《后世更序》试玩，粉丝PC移植版《寂静岭P.T.》进度达97%，《天国：拯救2》演员在布拉格开设主题酒吧，格斗新作《尚武誌》公布并计划于2027年Q1发售。",
-      "digest_source": "llm",
-      "input_hash": "303bae24c5ee1bc8",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 6,
-          "summary": "R星为《GTA6》安排专职编剧，撰写城市行人对话及广告喜剧内容，团队聚集不同背景创作者，旨在将此类内容视为玩家置身游戏世界的体验组成部分。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战争机器：事变日",
-          "count": 2,
-          "summary": "《战争机器：事变日》因发售故障向受影响玩家发放15000枚金币，该补偿不计入每周金币获取上限，官方已修复“马库斯-骑兵”错误并回应了“进入时间过早”的提示问题。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "万代南梦宫",
-          "count": 1,
-          "summary": "万代模型在WF上海现场公开全新高达品牌GUNDAM XMX，该品牌专为内地玩家推出，旨在成为年轻人的第一台高达模型。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴5：天际特别版",
-          "count": 1,
-          "summary": "社交平台出现借助Claude生成代码的跨游戏Mod演示，引发作者对创意与素材授权的讨论，部分长期制作Mod的作者表达反感，认为这股风潮缺乏创意。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "《使命召唤：现代战争4》发布DMZ模式新预告，展示Hajin地区任务，玩家需搜集资源阻止朝鲜部队取得化学、生物和核武器，并面临Rogue名声与悬赏机制。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "侠盗猎车手6",
-          "count": 1,
-          "summary": "《GTA6》编剧Alexa D’Agostino表示，她希望主角露西亚能像亚瑟·摩根和尼科·贝利奇一样成为标志性角色，并以自己的母亲为原型塑造这个桀骜不驯的女性角色。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "全面战争：战锤40K",
-          "count": 1,
-          "summary": "《全面战争：战锤40K》负责人加雷思·埃德蒙森承诺主机版不会牺牲任何内容，新引擎Warcore在架构阶段就纳入了主机支持，并采用专门设计的界面。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺客信条：女巫",
-          "count": 1,
-          "summary": "《刺客信条：女巫》女主阿妮卡・阿德勒被诬陷施展巫术，其父亲被曝设定为刽子手，本作据传将抛弃RPG机制，转向传统线性叙事。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "合金装备",
-          "count": 1,
-          "summary": "《合金装备》配音演员大塚明夫表示，他希望Konomi继续开发该系列，但自己不会参与没有小岛秀夫参与的《合金装备》游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "后世更序",
-          "count": 1,
-          "summary": "Paradox废土战略新作《后世更序》试玩开启，作者认为游戏开局推进较快，界面清晰减轻了管理压力，游戏总监有意提高作品易上手程度。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达：时之笛重制版",
-          "count": 1,
-          "summary": "外媒编辑表示更期待《塞尔达传说：时之笛 重制版》而非《GTA6》，他希望能以新画面重新体验原作中跨越七年的海拉鲁冒险。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "天国：拯救",
-          "count": 1,
-          "summary": "《天国：拯救》创始人Martin Klima表示厌倦了RPG中反复出现的“天选之人”式任务，认为发行商往往倾向于重复已奏效的做法，他批评了《刺客信条》等公式化作品。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "天国：拯救2",
-          "count": 1,
-          "summary": "《天国：拯救2》中汉斯·卡彭的扮演者卢克·戴利在布拉格开设了名为“贵族酒馆”的中世纪主题酒吧，开业当天人气火爆，需排队两小时。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "寂静岭P.T.",
-          "count": 1,
-          "summary": "《寂静岭P.T.》粉丝PC移植版进度约完成97%，演示视频已能从头玩到尾，计划在完整版中加入FSR、DLSS及多种控制器输入方式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "尚武誌",
-          "count": 1,
-          "summary": "格斗新作《尚武誌》公布，以民国初年上海滩武林为背景，计划于2027年Q1登陆PC Steam，试玩DEMO将于10月9日上线。",
-          "summary_source": "llm"
         }
       ]
     }

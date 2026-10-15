@@ -1,9 +1,32 @@
 {
-  "generated_at": "2026-10-14T01:21:29.948196+00:00",
+  "generated_at": "2026-10-15T00:46:30.733091+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-14",
+      "article_count": 7,
+      "game_count": 2,
+      "untagged_count": 5,
+      "digest": "国家新闻出版署正式印发《出版业发展“十五五”规划》，网络游戏首次被系统性纳入国家级出版业五年规划框架，为未来五年出版业发展定下基调。灵游坊在北京举办《影之刃零》全球媒体线下闭门试玩与预览活动，距离10月29日发售还有两周冲刺时间。",
+      "digest_source": "llm",
+      "input_hash": "573c3a1c8ee3ca3c",
+      "game_digests": [
+        {
+          "name": "出版业发展“十五五”规划",
+          "count": 1,
+          "summary": "版署印发《出版业发展“十五五”规划》：网游首次纳入国家五年规划，游戏业迎新风口。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "灵游坊于北京举办全球媒体线下闭门试玩与预览活动，距离10月29日发售还有两周冲刺时间。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-10-13",
       "article_count": 8,

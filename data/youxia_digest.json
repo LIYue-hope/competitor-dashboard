@@ -1,207 +1,308 @@
 {
-  "generated_at": "2026-10-14T01:19:15.195862+00:00",
+  "generated_at": "2026-10-15T00:41:04.668060+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-13",
-      "article_count": 59,
-      "game_count": 39,
-      "untagged_count": 14,
-      "digest": "10月13日游戏资讯聚焦于《GTA6》泄露容量超200GB及实体版赠品传闻，同时《生化危机》演员谈角色塑造与电影选角引发关注。此外，《不朽遗志》与《影之刃零》等新作发售引发评测讨论，《ARC Raiders》更新后Steam在线人数回升至18万以上，多款游戏如《BUZZ or DIE》、《动物城咖啡店》等也迎来发售或更新。",
+      "date": "2026-10-14",
+      "article_count": 96,
+      "game_count": 54,
+      "untagged_count": 23,
+      "digest": "10月14日游戏行业资讯聚焦于《GTA6》的深度叙事与营销预算曝光，以及《不朽遗志》的发售与破解风波。此外，《地铁2039》开启预购，《全面战争：幕府将军2》完全版发售后Steam好评率低迷，而《动物园之星2》与《战地6》则分别展示了新作发售盛况与订阅服务内容。",
       "digest_source": "llm",
-      "input_hash": "ac8dab1dc892773f",
+      "input_hash": "35d041e84a9540dd",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 3,
-          "summary": "外媒指出本作最大革新在于任务开放化，泄密者透露可游玩版本容量已超过200GB，实体版附赠收藏地图的传闻引发玩家猜测。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化危机",
-          "count": 3,
-          "summary": "《生化危机 安魂曲》演员安吉拉·圣阿尔巴诺谈如何塑造会恐惧却依然挺身而出的新主角格蕾丝，传祖国人男星或加盟电影续集饰演威斯克。",
+          "count": 9,
+          "summary": "R星叙事高管接受采访，透露新作将聚焦普通人难以实现“还清房贷”的现实困境，同时曝光该作营销预算已超1.5亿美元。",
           "summary_source": "llm"
         },
         {
           "name": "不朽遗志",
-          "count": 2,
-          "summary": "媒体评测解禁，打出80分均分，游戏于10月13日登陆多平台，战斗惊艳但叙事与优化仍有遗憾。",
+          "count": 3,
+          "summary": "由《幽灵行者》团队打造的第一人称魂类动作游戏于10月14日正式发售，PC版首日即遭RUNE破解流出，体积约39GB。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "地铁2039",
+          "count": 3,
+          "summary": "Deep Silver与4A Games宣布《地铁》系列新作《地铁2039》正式开启预购，Steam国区售价298元，定于2027年2月4日发售。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
+          "count": 3,
+          "summary": "IGN独家发布新预告片，首次曝光主角迎战新Boss的战斗片段及数字豪华版专属“机械魔躯”外观。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "全面战争：幕府将军2",
           "count": 2,
-          "summary": "Boss战支持分段重试，玩家若在第二阶段阵亡可直接从第二阶段开始，某位Boss拥有四个阶段。",
+          "summary": "世嘉发布的完全版整合原版及全部内容，支持中文全语音及现代化操作，但发售后Steam好评率仅19%。",
           "summary_source": "llm"
         },
         {
-          "name": "2077",
-          "count": 1,
-          "summary": "派拉蒙已拿到《赛博朋克2077》真人电影改编授权，将呈现怎样的“夜之城”传奇引发关注。",
+          "name": "动物园之星 2",
+          "count": 2,
+          "summary": "人气模拟续作今日正式发售，上线数小时在线峰值便超越前作，并首次收录纯水生物种与飞行物种。",
           "summary_source": "llm"
         },
         {
-          "name": "ARC Raiders",
-          "count": 1,
-          "summary": "更新后玩家数暴增，Steam在线人数达到185443人，为3月以来未见的高度。",
+          "name": "战地6",
+          "count": 2,
+          "summary": "EA宣布游戏正式加入EA Play与Xbox Game Pass，Xbox用户可无限畅玩，同步开启第5赛季“围攻维加斯”内容。",
           "summary_source": "llm"
         },
         {
-          "name": "BUZZ or DIE",
-          "count": 1,
-          "summary": "短视频制作死亡游戏ADV《BUZZ or DIE》定档10月28日发售，免费试玩版已上线。",
+          "name": "毁灭公爵3D",
+          "count": 2,
+          "summary": "参与《毁灭公爵3D》关卡制作的传奇设计师理查德・格雷不幸辞世，享年68岁，引发业内同行悼念。",
           "summary_source": "llm"
         },
         {
-          "name": "COD23现代战争4",
-          "count": 1,
-          "summary": "PS5版容量大小曝光，本体下载约28.7GB，战役包约42.2GB，多人游戏包约20.8GB。",
+          "name": "深馅地牢",
+          "count": 2,
+          "summary": "瑞典独立游戏《深馅地牢》于10月13日登陆Xbox与PC平台，支持Xbox Game Pass订阅。",
           "summary_source": "llm"
         },
         {
-          "name": "Hytale",
+          "name": "1666：阿姆斯特丹",
           "count": 1,
-          "summary": "官方公布第一章更新内容宣传片，游戏现已正式加入抢先体验。",
+          "summary": "《刺客信条》创始人Patrice Désilets透露，其新作目前每天产出15至20个内部构建版本，预计再用一年时间打磨。",
           "summary_source": "llm"
         },
         {
-          "name": "VRChat",
+          "name": "1999TOKOYO Building",
           "count": 1,
-          "summary": "虚拟世界遭遇“AI垃圾”洪灾，流水线式AI劣质内容大量涌入，挤占原创作品曝光位置。",
+          "summary": "讲谈社怀旧恐怖冒险游戏确定于2026年11月10日发售，试玩版现已发布。",
           "summary_source": "llm"
         },
         {
-          "name": "动物城咖啡店",
+          "name": "FF7",
           "count": 1,
-          "summary": "直觉系音游《动物城咖啡店》现已正式上线Steam，首周购买可享10%优惠。",
+          "summary": "乐高玩家改造PS套装，将主机地形延伸为战斗场景，在主机上重现《最终幻想7》战斗画面。",
           "summary_source": "llm"
         },
         {
-          "name": "古墓丽影8",
+          "name": "Project Motor Racing",
           "count": 1,
-          "summary": "Weta Workshop公布以《古墓丽影：地下世界》为灵感的劳拉·克劳馥1:4雕像，限量750件。",
+          "summary": "世嘉宣布赛车模拟游戏将于11月10日推出新DLC“World Endurance Pack”，介绍跨越时代的耐力赛。",
           "summary_source": "llm"
         },
         {
-          "name": "古墓丽影RE",
+          "name": "s&box",
           "count": 1,
-          "summary": "官方发布中国风水墨风格重绘的劳拉海报，重视中国市场。",
+          "summary": "Facepunch宣布该作将于2026年底转型免费游戏，地图内容将迁移至Steam创意工坊，已购玩家将获补偿。",
           "summary_source": "llm"
         },
         {
-          "name": "合金装备",
+          "name": "上古卷轴5",
           "count": 1,
-          "summary": "俄罗斯知名Coser Lada Lyumos发布了一组“狙击雪狼”的Cosplay作品。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "喵门镖局",
-          "count": 1,
-          "summary": "合作动作肉鸽游戏《喵门镖局》推出重大更新，新增永久成长系统与按键自定义功能。",
+          "summary": "英伟达计划通过SkyrimNET接入《上古卷轴5》，利用AI NPC模型，相关功能将于10月23日上线。",
           "summary_source": "llm"
         }
       ]
     },
     {
+      "date": "2026-10-13",
+      "article_count": 70,
+      "game_count": 46,
+      "untagged_count": 16,
+      "digest": "10月13日 游侠网 共 70 条新闻，涉及 46 款游戏。报道最集中的是《GTA6》（3 条）、《生化危机》（3 条）、《不朽遗志》（2 条）。另有 16 条未指向具体游戏的行业或平台资讯。另外还有《影之刃零》（2 条）、《暗喻幻想：ReFantazio》（2 条）、《索尼克赛车 交叉世界》（2 条）也有报道。",
+      "digest_source": "rules",
+      "input_hash": "efd1b4cdcef774ae",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "《GTA6》实体版将附赠收藏地图？门店宣传告示引猜测；自由度up！外媒指出《GTA6》最大革新在于任务开放化；曝《GTA6》泄露版本容量超200GB！你的硬盘能撑住吗。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "生化危机",
+          "count": 3,
+          "summary": "《生化危机》里昂演员谈老去的英雄！51岁的最后一战；《生化危机》演员谈如何塑造格蕾丝！让恐惧被看见；传祖国人男星或加盟《生化危机》电影续集 饰演威斯克。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "不朽遗志",
+          "count": 2,
+          "summary": "类魂新作《不朽遗志》GS 6分：弹反手感出色但系统臃肿；战斗惊艳但叙事与优化仍有遗憾!《不朽遗志》评测解禁。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "《影之刃零》Boss战支持分段重试！无须反复过一阶段；《影之刃零》某位Boss有四个阶段！老外感叹简直疯狂。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "暗喻幻想：ReFantazio",
+          "count": 2,
+          "summary": "《暗喻幻想ReFantazio》NS2试玩版上线：容量约30GB；Nintendo Switch™ 2版《暗喻幻想：ReFantazio》序章试玩版现已发布！存档可继承至正式版。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "索尼克赛车 交叉世界",
+          "count": 2,
+          "summary": "《索尼克赛车:交叉世界》Steam永降！DLC路线图公开；《索尼克赛车 交叉世界》赛季2最新资讯发布！全新付费联动DLC“Virtual Sanrio Puroland”“FINAL FANTASY VII Remake Series”等确定登场！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "2077",
+          "count": 1,
+          "summary": "《2077》电影 派拉蒙的\"夜之城\"将上演怎样的传奇?。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "ARC Raiders",
+          "count": 1,
+          "summary": "《ARC Raiders》更新后玩家数暴增！Steam在线超18万。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "BUZZ or DIE",
+          "count": 1,
+          "summary": "不爆火就处刑！讲谈社死亡新游《BUZZ or DIE》定档10.28，免费试玩版已上线！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "COD23现代战争4",
+          "count": 1,
+          "summary": "《COD23现代战争4》PS5版容量大小曝光：超100GB。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Hytale",
+          "count": 1,
+          "summary": "像素沙盒冒险新作《Hytale》第一章更新内容宣传片！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Triple-A",
+          "count": 1,
+          "summary": "把扫雷做成3A大作？免费网页讽刺游戏《Triple-A》上线。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "VRChat",
+          "count": 1,
+          "summary": "虚拟世界遭遇\"AI垃圾\" 洪灾！《VRChat》玩家集体抗议。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "动物城咖啡店",
+          "count": 1,
+          "summary": "将节拍融入进生活的烟火气：呆萌、搞怪、接地气的直觉系音游《动物城咖啡店》现已正式上线。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "古墓丽影8",
+          "count": 1,
+          "summary": "《古墓丽影8》劳拉1/4雕像亮相：潜水服造型 肉腿超绝。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
       "date": "2026-10-12",
-      "article_count": 77,
+      "article_count": 78,
       "game_count": 46,
       "untagged_count": 19,
-      "digest": "今日游戏资讯聚焦于《GTA6》的泄露风波与开发幕后，以及《影之刃零》的制作细节与索尼高层会面故事。此外，《恐鬼症》销量突破3000万，《三国群英传Online》与《永恒之塔2》分别开启新服与打击外挂，小岛工作室与《毁灭战士》配乐师也分别推出周边与表态。",
+      "digest": "今日游戏资讯聚焦于《GTA6》女主全裸视频流出引发争议、R星强调NPC叙事投入，以及《影之刃零》动捕超千小时与索尼高层会面的开发历程。此外，《恐鬼症》销量破3000万开启万圣节活动，《铁拳8》公布范马勇次郎与袋鼠RogerJr.新实机，小岛工作室推出十周年联名周边，堀井雄二发布30分钟AI推理游戏引发玩家担忧。",
       "digest_source": "llm",
-      "input_hash": "7f95f1aa0467b8bf",
+      "input_hash": "c40e792980d487b1",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 4,
-          "summary": "R星为《GTA6》组建专属创作团队，专门负责路人NPC对话撰写，揭开游戏环境叙事背后的庞大投入。",
+          "summary": "知名爆料人Cyberleek发布约5分钟全裸视频，因NPC无反应被质疑为模组制作，他宣称下段泄露将是4K版本。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
-          "count": 3,
-          "summary": "梁其伟讲述《影之刃零》IP沉淀二十余年，转向AAA主机开发处处是难题。",
+          "count": 4,
+          "summary": "外媒披露动捕录制超1000小时且不完美重拍，制作人梁其伟讲述借力本土外包与年轻开发者克服开发难题。",
           "summary_source": "llm"
         },
         {
           "name": "三国群英传Online",
           "count": 2,
-          "summary": "宣布进行大型改版，日本战国武将强势加入，全新伺服器「龙吟九霄」开放。",
+          "summary": "宣布开放全新服务器「龙吟九霄」，推出北伐续汉祚与日本战国武将强势加入的大型改版内容。",
           "summary_source": "llm"
         },
         {
           "name": "恐鬼症",
           "count": 2,
-          "summary": "年度万圣节活动“猩红之眼”同步开启，带来血月机制与多档奖励。",
+          "summary": "Kinetic Games公布累计销量突破3000万份，同步开启至11月1日的万圣节“猩红之眼”活动，并透露1.0正式版定档2027年下半年。",
           "summary_source": "llm"
         },
         {
           "name": "死亡搁浅",
           "count": 2,
-          "summary": "小岛工作室与Casetify联合推出《死亡搁浅》主题联名配件系列，计划于2026年10月15日开售。",
+          "summary": "小岛工作室与Casetify联合推出十周年联名手机壳，计划于10月15日开售，购买可获赠限量收藏卡。",
           "summary_source": "llm"
         },
         {
           "name": "毁灭战士",
           "count": 2,
-          "summary": "配乐师Mick Gordon在PAX Australia接受采访，表示愿意回归但需满足条件，并直言反感生成式AI。",
+          "summary": "配乐师Mick Gordon在PAX Australia表示愿意回归，但强调反感生成式AI，称需满足一系列条件才考虑合作。",
           "summary_source": "llm"
         },
         {
           "name": "永恒之塔2",
           "count": 2,
-          "summary": "全球服登陆Steam正式上线，但首轮讨论焦点是角色创建系统中的身体调整功能。",
+          "summary": "NCsoft宣布限制4996个使用外挂打金的违规账号，同时指出角色捏人系统因身材夸张引发玩家热议。",
           "summary_source": "llm"
         },
         {
           "name": "王国之心",
           "count": 2,
-          "summary": "Square Enix正式宣布，Steam平台《王国之心》系列数字版迎来永久性价格调整。",
+          "summary": "Square Enix宣布Steam平台国区主要作品价格永久下调，368元即可集齐核心正传系列。",
           "summary_source": "llm"
         },
         {
           "name": "铁拳8",
           "count": 2,
-          "summary": "万代南梦宫放出回归角色RogerJr.实机演示，该角色归入第三赛季内容，11月12日开启抢先体验。",
+          "summary": "万代南梦宫公布范马勇次郎全新PV与袋鼠RogerJr.实机演示，RogerJr.归入第三赛季，11月12日开启抢先体验。",
           "summary_source": "llm"
         },
         {
           "name": "42中队",
           "count": 1,
-          "summary": "《星际公民：42中队》正式上线Steam商店页面，确认将于2027年第二季度发售。",
+          "summary": "《星际公民：42中队》Steam页面上线，确认将于2027年第二季度发售，并展示电影级画面与多元玩法。",
           "summary_source": "llm"
         },
         {
           "name": "DQ12",
           "count": 1,
-          "summary": "《勇者斗恶龙》之父堀井雄二发布一款AI制作的推理小游戏，仅耗费约30分钟完成。",
+          "summary": "《勇者斗恶龙》之父堀井雄二发布仅耗时30分钟完成的AI推理小游戏，引发玩家对AI侵蚀作品的担忧。",
           "summary_source": "llm"
         },
         {
           "name": "GTA",
           "count": 1,
-          "summary": "初代《GTA》核心开发者Pat Kerr用JavaScript重制并公开了经典车辆物理演示。",
+          "summary": "初代《GTA》核心开发者Pat Kerr用JavaScript重制并公开驾驶物理演示，还原1996年原版载具手感。",
           "summary_source": "llm"
         },
         {
           "name": "GTA4",
           "count": 1,
-          "summary": "开发者vaduur在GitHub发布《GTA4》安卓移植项目LibertyRecompAndroid，代码几乎全由AI生成。",
+          "summary": "开发者vaduur基于开源工程将《GTA4》移植至安卓，代码几乎全由AI生成，无需运行模拟器。",
           "summary_source": "llm"
         },
         {
           "name": "MBTW",
           "count": 1,
-          "summary": "《MELTY BLOOD: TWI-LUMINA》官方宣布，游戏将于今年11月迎来新一轮情报公布。",
+          "summary": "《MELTY BLOOD: TWI-LUMINA》官方宣布将于11月迎来新一轮情报公布，游戏节奏加快。",
           "summary_source": "llm"
         },
         {
           "name": "上古卷轴3",
           "count": 1,
-          "summary": "网友分享CRT屏幕完美适配《上古卷轴3》原生美术风格，引发热议。",
+          "summary": "网友分享CRT屏幕完美适配《上古卷轴3》原生美术风格，独特成像效果引发玩家体验褒贬不一。",
           "summary_source": "llm"
         }
       ]
@@ -803,107 +904,6 @@
           "count": 1,
           "summary": "小岛秀夫回应游戏因英伟达DLSS 5效果陷入的争议，表示对AI介入艺术表达保持警惕，担忧其背离创作意图。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "article_count": 35,
-      "game_count": 25,
-      "untagged_count": 3,
-      "digest": "2026年10月5日，游戏行业资讯围绕多款主流游戏动态展开，涵盖发售、更新、销量及争议等多领域内容，整体行业热度持续受关注，行业动态呈多元化发展态势。游戏名｜GTA6当日围绕废案曝光、操作改动等核心动态持续推进，参与方为R星及《GTA》系列核心团队，对玩家玩法的优化调整及关注态度引发市场讨论。游戏名｜空战奇兵8当天以Steam在线峰值突破5.2万、创系列新高及玩家对内容呈现的争议争议为主，涉及万代南梦宫与新作，动态呈现热度与玩家反馈的交织。游戏名｜Apex英雄发生反作弊体系重大更新，EA自研“标枪”全面接替EAC，反映游戏行业针对作弊问题的迭代升级。游戏名｜COD现代战争4公开全新战役预告，场景转向朝鲜半岛及海外区域，展现新作内容拓展方向。游戏名｜FF7官宣蒂法可动手办新品发售，引发FF7粉丝收藏市场关注，呈现经典IP衍生产品的新增动向。游戏名｜PUBG新作“黑域”因开发方向问题终止，涉及KRAFTON旗下IP运营调整，反映对开发路径的判断及迭代调整。游戏名｜上古卷轴公开系列首发坎坷与逆袭历程，作为顶级开放世界RPG，其发展路径与市场表现存在特殊经历，展现系列IP发展态势。游戏名｜光与影与瘟疫传说公布XGP离库预告，8款游戏将在10月15日退出订阅库，涉及主机及PC多端影响，呈现订阅生态调整动向。游戏名｜刺客信条：女巫发布女主家庭背景泄露信息，核心内容聚焦角色设定与剧情设定，引发玩家对选角设定关注。游戏名｜博德之门3围绕CRPG门槛争议展开讨论，涉及玩法设定对玩家期待的影响，呈现社区观点分歧。游戏名｜天国：拯救提及汉斯演员相关中世纪风格店铺开业，呈现经典IP衍生场景拓展动态。游戏名｜小马岛曝光Steam免费入库福利，涉及解谜游戏运营优惠及入库规则，预示作品推广及用户获取新动向。游戏名｜异环展示国产游戏新角色Cos作品推出，以哥特暗黑美学呈现新内容，反映玩家互动内容创作趋势。游戏名｜战争机器：事变日披露PC版着色器编译技术降效，呈现技术优化及性能表现动态，体现游戏技术迭代进展。游戏名｜战神发布新作PC端登陆动态，提及无需模拟器即可60帧运行及兼容BUG待优化，展现游戏多端适配进展。",
-      "digest_source": "llm",
-      "input_hash": "0e48233f2d3e4b57",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 7,
-          "summary": "坚决不\"偷看\"！R星元老刻意避坑《GTA6》专心做游戏；游侠早报:《GTA6》废案曝光 《黎明杀机》开发商新作；网传《GTA6》冲刺操作迎来改动 改用按下左摇杆触发（当天共 7 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "空战奇兵8",
-          "count": 2,
-          "summary": "《空战奇兵8》Steam在线峰值突破5.2万！创系列新高；空战变助眠?玩家笑称《空战奇兵8》本质让人\"颅内高潮\"。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Apex英雄",
-          "count": 1,
-          "summary": "《Apex英雄》告别EAC！EA自研\"标枪\"反作弊全面接棒。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "COD现代战争4",
-          "count": 1,
-          "summary": "《COD现代战争4》新预告曝光!朝鲜入侵韩国 战友追捕。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "FF7",
-          "count": 1,
-          "summary": "重磅新品来袭!《FF7》官宣蒂法全新可动手办27年发售。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "PUBG",
-          "count": 1,
-          "summary": "《PUBG》新作\"黑域\"终止开发！官方承认方向难以为继。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "上古卷轴",
-          "count": 1,
-          "summary": "首发惨败到百亿IP!揭秘《上古卷轴》系列坎坷逆袭之路。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "光与影",
-          "count": 1,
-          "summary": "XGP新一轮离库预告!《光与影》《瘟疫传说》即将退订。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "刺客信条：女巫",
-          "count": 1,
-          "summary": "《刺客信条:女巫》女主家庭背景泄露！父亲竟是刽子手。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "博德之门3",
-          "count": 1,
-          "summary": "《博德之门3》拉高CRPG门槛！小体量RPG还能活吗？。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "天国：拯救",
-          "count": 1,
-          "summary": "《天国：拯救》汉斯演员在布拉格的\"贵族的聚会地\"开业。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "小马岛",
-          "count": 1,
-          "summary": "Steam福利提前曝光!解谜游戏《小马岛》有望免费入库。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "异环",
-          "count": 1,
-          "summary": "Yasal还原《异环》新角色黑羽！哥特魔女造型惊艳破圈。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "战争机器：事变日",
-          "count": 1,
-          "summary": "《战争机器:事变日》黑科技落地！着色器编译暴降95%。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "战神",
-          "count": 1,
-          "summary": "《战神》新作登陆PC！不用模拟器即可直接60帧游玩。",
-          "summary_source": "rules"
         }
       ]
     }

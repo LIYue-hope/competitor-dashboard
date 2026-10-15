@@ -1,45 +1,9 @@
 {
-  "crawled_at": "2026-10-14T01:03:59.683091+00:00",
+  "crawled_at": "2026-10-15T00:27:36.795193+00:00",
   "days": [
     {
-      "date": "2026-10-14",
-      "date_label": "10月14日 今天",
-      "games": [
-        {
-          "game_name": "剑侠世界4：无限",
-          "categories": [
-            "MMO",
-            "中国风",
-            "江湖"
-          ],
-          "score": "5.6",
-          "event_desc": "10:00 预下载，10月15日上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/187934.htm",
-          "publisher": "海南西山居娱乐互动科技有限公司",
-          "reservation_count": "8111",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "查无此地",
-          "categories": [
-            "动作",
-            "冒险",
-            "射击"
-          ],
-          "score": "9.0",
-          "event_desc": "在Steam平台上线抢先体验版本",
-          "status_tag": "PC/主机",
-          "detail_url": "https://www.3839.com/a/182083.htm",
-          "publisher": null,
-          "reservation_count": "8566",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-10-15",
-      "date_label": "10月15日 明天",
+      "date_label": "10月15日 今天",
       "games": [
         {
           "game_name": "绿梦：时空之声-预下载",
@@ -49,7 +13,7 @@
             "动作"
           ],
           "score": "8.5",
-          "event_desc": "10:00 正式上线",
+          "event_desc": "10:00 正式上线,预下载已开启",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/145381.htm",
           "publisher": null,
@@ -57,34 +21,19 @@
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "剑侠世界4：无限",
+          "game_name": "剑侠世界4：无限-预下载",
           "categories": [
             "MMO",
             "中国风",
             "江湖"
           ],
-          "score": "5.6",
+          "score": "5.0",
           "event_desc": "10:00 正式上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/187934.htm",
           "publisher": "海南西山居娱乐互动科技有限公司",
-          "reservation_count": "8111",
+          "reservation_count": null,
           "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "小小英杰：合战天下",
-          "categories": [
-            "SLG",
-            "策略",
-            "闯关"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/200713.htm",
-          "publisher": "上海电光火石科技有限公司",
-          "reservation_count": "190",
-          "has_afk_grinding_tag": true
         },
         {
           "game_name": "宝贝星球",
@@ -98,7 +47,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/190071.htm",
           "publisher": "卓韵四方",
-          "reservation_count": "64",
+          "reservation_count": null,
           "has_afk_grinding_tag": false
         }
       ]
@@ -119,7 +68,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/165124.htm",
           "publisher": null,
-          "reservation_count": "18429",
+          "reservation_count": "18441",
           "has_afk_grinding_tag": false
         },
         {
@@ -200,7 +149,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/203099.htm",
           "publisher": null,
-          "reservation_count": "176",
+          "reservation_count": "178",
           "has_afk_grinding_tag": true
         },
         {
@@ -230,8 +179,89 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/163493.htm",
           "publisher": "Blue Brain Games s.r.o.",
-          "reservation_count": "10072",
+          "reservation_count": "10079",
           "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "date_label": "10月21日 下周三",
+      "games": [
+        {
+          "game_name": "饥困荒野-10.21首发定档",
+          "categories": [
+            "编辑推荐",
+            "多人联机",
+            "沙盒"
+          ],
+          "score": "7.2",
+          "event_desc": "将公布正式上线时间",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/124032.htm",
+          "publisher": "腾讯",
+          "reservation_count": "119万",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "星途天城",
+          "categories": [
+            "策略",
+            "异世界",
+            "蒸汽朋克"
+          ],
+          "score": "6.2",
+          "event_desc": "开启预下载，10月22日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/202870.htm",
+          "publisher": null,
+          "reservation_count": "17750",
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "失落城堡2-10月22日上线",
+          "categories": [
+            "多平台",
+            "Roguelike",
+            "Steam移植"
+          ],
+          "score": "8.2",
+          "event_desc": "00:00 预下载，10月22日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/170282.htm",
+          "publisher": "雷霆游戏",
+          "reservation_count": "83850",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "拳皇·命运",
+          "categories": [
+            "格斗",
+            "多人联机",
+            "动作"
+          ],
+          "score": "8.4",
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/199085.htm",
+          "publisher": null,
+          "reservation_count": "16578",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "守护庄园",
+          "categories": [
+            "冒险",
+            "角色扮演",
+            "像素"
+          ],
+          "score": null,
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/184427.htm",
+          "publisher": null,
+          "reservation_count": "136",
+          "has_afk_grinding_tag": true
         }
       ]
     }
