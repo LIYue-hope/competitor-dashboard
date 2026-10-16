@@ -1,34 +1,6 @@
 {
-  "crawled_at": "2026-10-15T00:28:04.821680+00:00",
+  "crawled_at": "2026-10-16T00:15:35.987901+00:00",
   "days": [
-    {
-      "date": "2026-10-15",
-      "date_label": "10月15日 今天",
-      "games": [
-        {
-          "game_name": "剑侠世界4",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/jxsj4wx/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "宝贝星球",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/baobeixingqiu1/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
     {
       "date": "2026-10-19",
       "date_label": "10月19日 下周一",
@@ -71,6 +43,17 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/zhangyeshouweizhe/",
           "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "暗黑烈刃",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/anheilieren/",
+          "has_afk_grinding_tag": false
         }
       ]
     },
@@ -78,6 +61,17 @@
       "date": "2026-10-21",
       "date_label": "10月21日 下周三",
       "games": [
+        {
+          "game_name": "奇迹梦之队",
+          "categories": [
+            "体育"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/mzlqjmzd/",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "西游降妖记",
           "categories": [
@@ -112,7 +106,7 @@
             "策略"
           ],
           "score": null,
-          "event_desc": "合战天下",
+          "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/xxyjhztx/",
           "has_afk_grinding_tag": false

@@ -1,95 +1,208 @@
 {
-  "generated_at": "2026-10-15T00:36:32.448422+00:00",
+  "generated_at": "2026-10-16T00:23:39.447184+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-15",
-      "article_count": 27,
-      "game_count": 13,
-      "untagged_count": 1,
-      "digest": "2026年10月15日游戏行业动态整体活跃，共涉及13款游戏，资讯总数达27条，整体围绕发售节点、更新内容、销量表现及技术适配等方向展开，涉及《GTA6》《塞尔达：时之笛 重制版》《使命召唤：现代战争4》等多款主流及热门游戏，相关动态涵盖发售调整、玩法更新、销量数据及平台适配等，行业竞争焦点较为多元。",
-      "digest_source": "llm",
-      "input_hash": "313252b8c0cbade4",
+      "date": "2026-10-16",
+      "article_count": 29,
+      "game_count": 20,
+      "untagged_count": 3,
+      "digest": "10月16日 3DMGame 共 29 条新闻，涉及 20 款游戏。报道最集中的是《GTA6》（4 条）、《使命召唤》（3 条）、《魔兽世界：无限》（2 条）。另有 3 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "246919cd4d12c593",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 10,
-          "summary": "《GTA6》PC版发售日仍未公布 业内人士称计划于2027年初推出；曝《GTA6》评测将于11月19日发售前发布 解禁日期未公开；西班牙拟于11月11日举行总罢工 《GTA6》当地配送或受扰（当天共 10 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "塞尔达：时之笛 重制版",
           "count": 4,
-          "summary": "《塞尔达：时之笛 重制版》新预告 新增大厅可与怪物再战；《塞尔达：时之笛 重制版 》试玩观察到29处变化 涉及谜题与战斗；《塞尔达：时之笛 重制版》试玩：手动跳跃与奔跑让探索更敏捷（当天共 4 条）",
+          "summary": "《GTA6》引爆数字平台热度 G2A相关页面流量暴涨65倍；《GTA6》预告引出R星作品回顾：展示重点走向人物叙事；《GTA6》由Justice创作原创配乐 官方专辑收录34首专为游戏创作的歌曲（当天共 4 条）",
           "summary_source": "rules"
         },
         {
-          "name": "使命召唤：现代战争4",
-          "count": 2,
-          "summary": "《使命召唤：现代战争4》第一赛季11月6日开启；《使命召唤：现代战争4》登陆NS2 或将令任天堂威胁PS与Xbox格局。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "007：初露锋芒",
-          "count": 1,
-          "summary": "《007：初露锋芒》NS2版定档3月18日 预购已开放。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "不朽遗志",
-          "count": 1,
-          "summary": "《不朽遗志》10月14日发售，登陆PC、PS5及Xbox Series。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "刺客信条：黑旗 记忆重置",
-          "count": 1,
-          "summary": "《刺客信条：黑旗 记忆重置》大卖 参与开发工作室反遭裁员。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "地铁2039",
-          "count": 1,
-          "summary": "《地铁2039》开启预购 美国多店收藏版缺货。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "堡垒之夜",
-          "count": 1,
-          "summary": "Epic计划通过新版启动器将《堡垒之夜》带到Linux，仍需适配反作弊。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "幕府将军2：全面战争",
-          "count": 1,
-          "summary": "《幕府将军2：全面战争推出后Steam差评如潮 与原版评价形成反差。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "《影之刃零》快节奏战斗与相连世界设计 被外媒拿来对照。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "战地6",
-          "count": 1,
-          "summary": "《战地6》第5赛季“51区”UFO彩蛋已破解，解谜可获武器挂件。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "死或生：女神假期",
-          "count": 1,
-          "summary": "《死或生：女神假期》7.5周年活动 推出新泳装并提供免费抽卡。",
+          "name": "使命召唤",
+          "count": 3,
+          "summary": "动视称《使命召唤》后续作品须创新 玩家希望有新的体验；动视确认《使命召唤》将推出全新子系列 相关工作已经启动；动视称《使命召唤》长期保持庞大受众 制作投入因此较少受到关注。",
           "summary_source": "rules"
         },
         {
           "name": "魔兽世界：无限",
-          "count": 1,
-          "summary": "《魔兽世界：无限》测试版加入临时经济限制 调查可疑金币交易。",
+          "count": 2,
+          "summary": "《魔兽世界：无限》宣传视频遭生成式AI质疑 暴雪员工公开否认；《魔兽世界：无限》首发加入千余任务与四个区域。",
           "summary_source": "rules"
+        },
+        {
+          "name": "Hadar项目",
+          "count": 1,
+          "summary": "《Hadar项目》仍处于早期阶段 CDPR谨慎对待巫师多人新作。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "NBA 2K25",
+          "count": 1,
+          "summary": "以《NBA 2K25》停服安排为例 美国议员拟提法案保障离线游玩。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "SPINE",
+          "count": 1,
+          "summary": "美女功夫游戏《SPINE》新预告 致命艳妆太诱惑。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 1,
+          "summary": "《使命召唤：现代战争4》首发不进XGP 预计明年底加入。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤：黑色行动7",
+          "count": 1,
+          "summary": "动视承认《使命召唤：黑色行动7》未达预期 《现代战争4》将更好。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "全面战争：幕府将军2完全版",
+          "count": 1,
+          "summary": "《全面战争：幕府将军2完全版》问题频出 世嘉拟暂停售卖并恢复原版销售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "刺客信条：命运",
+          "count": 1,
+          "summary": "曝秦朝背景《刺客信条：命运》已取消 早期玩法视频曝光。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说：王国之泪",
+          "count": 1,
+          "summary": "《塞尔达传说：王国之泪》非官方PC原生移植已能运行 还需两至四周完成。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "夜勤病栋OL：新行动",
+          "count": 1,
+          "summary": "《夜勤病栋OL：新行动》公布 医院探索与自动卡牌对战构成主要玩法。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "守望先锋",
+          "count": 1,
+          "summary": "《守望先锋》开发者谈长期运营：要持续提供新鲜感。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3：重制版",
+          "count": 1,
+          "summary": "《巫师3：重制版》5.01b热修复 XSS改用FSR处理画面模糊。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "恶魔城：贝尔蒙特的诅咒",
+          "count": 1,
+          "summary": "科乐美充分放权 《恶魔城：贝尔蒙特的诅咒》兼顾传承与创新。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "article_count": 123,
+      "game_count": 83,
+      "untagged_count": 14,
+      "digest": "R星发布《GTA6》发售宣传片并公布原声专辑，任天堂公布《塞尔达：时之笛 重制版》新预告与试玩细节，动视公布《使命召唤：现代战争4》战役抢先体验开启时间。此外，Epic计划将《堡垒之夜》带到Linux，DICE修复《战地6》声音中断问题，KONAMI宣布《Castlevania: Belmont's Curse》今日发售。",
+      "digest_source": "llm",
+      "input_hash": "e583a6fa481f6b63",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 14,
+          "summary": "R星发布《GTA6》发售宣传片，距离正式发售还有一个月多一点的时间，预告片使用了Justice的全新音乐，该单曲收录于《GTA6：原声专辑》中，专辑现已在各大音乐流媒体平台开放预存。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达：时之笛 重制版",
+          "count": 4,
+          "summary": "任天堂发布《塞尔达：时之笛 重制版》新预告，展示更新后的海拉鲁场景与玩法，新加入“陨落英雄大厅”可与怪物再战，试玩画面据称以每秒60帧运行。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 3,
+          "summary": "《使命召唤：现代战争4》战役抢先体验将于10月16日开启，Infinity Ward发文呼吁社区禁止剧透，本作还将在10月20日开启DMZ抢先体验，并于10月23日正式发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "堡垒之夜",
+          "count": 2,
+          "summary": "Epic计划通过新版启动器将《堡垒之夜》带到Linux，有玩家称已实现从Steam启动《堡垒之夜》，启动时无需打开Epic完整界面，开发者称最困难的是把游戏必需的组件与平台其余部分区分开来。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说：时之笛",
+          "count": 2,
+          "summary": "《塞尔达传说：时之笛》重制版新增“娜薇的想法”收集物，藏在海拉鲁各地，玩家找到后可读到她留下的隐藏留言，游戏计划于2026年11月5日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战地6",
+          "count": 2,
+          "summary": "DICE发布1.000.035热修复，解决《战地6》第5赛季声音突然中断的问题，并暂时关闭了REDSEC模式Rapid Royale中运行异常的空袭功能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战犬",
+          "count": 2,
+          "summary": "独立百人FPS《战犬》登顶9月Steam新作榜，狂揽1.1亿美元，截至9月底约350万份的Steam销量位居当月新作销量榜首，日常同时在线人数约为20万。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "火焰纹章 万缕千丝",
+          "count": 2,
+          "summary": "任天堂公布了《火焰纹章 万缕千丝》的三弹追加内容，首弹武器现已上线，后两弹分别预计于2026年冬季和2027年推出，涉及武器、可招募角色、服装和新剧情。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "英雄联盟",
+          "count": 2,
+          "summary": "《英雄联盟》LCP晋升资格战将于11月10日至13日在越南胡志明市举行，争夺2027年LCP的两个参赛席位，Ground Zero Gaming和DetonatioN FocusMe将分别捍卫自己的参赛资格。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛博朋克2",
+          "count": 2,
+          "summary": "《赛博朋克2》总监Gabe Amatangelo表示，随着团队扩充，最初构想不断演变，他想探索非人化的概念，随着更多人加入，项目正逐渐成为参与者的“反映”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "超级马力欧64",
+          "count": 2,
+          "summary": "玩家将《超级马力欧64》移植到微软Zune HD，让这款便携媒体播放器可以通过触摸屏运行游戏，并支持声音和存档，项目作者称游戏“大部分时间”可以全速运行。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "007：初露锋芒",
+          "count": 1,
+          "summary": "IO Interactive宣布《007：初露锋芒》Switch2版将于2027年3月18日推出，现已开放预购，游戏此前于2026年5月27日登陆PS5、XSX/S和PC平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "3DMark",
+          "count": 1,
+          "summary": "3DMark发布2.32.8919版，更新重点是加强对Windows on Arm平台的支持，Night Raid面向集成显卡和入门级显卡，也可在Arm版Windows环境中使用。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Acts of Blood",
+          "count": 1,
+          "summary": "《Acts of Blood》PC版将于12月4日登陆Steam和Microsoft Store，PlayStation 5及Xbox Series版定于2027年推出，这是一款以近身搏斗为核心的动作游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Castlevania: Belmont's Curse",
+          "count": 1,
+          "summary": "《Castlevania: Belmont's Curse》今日登陆PlayStation®5、Nintendo Switch™、Xbox Series X|S、Xbox on PC及Steam®等平台，玩家手持圣鞭“吸血鬼杀手”猎杀邪恶怪物。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -880,107 +993,6 @@
           "count": 1,
           "summary": "发售窗口推迟至2027年，PC试玩版现已登陆Steam，玩家可先行体验。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-06",
-      "article_count": 54,
-      "game_count": 40,
-      "untagged_count": 5,
-      "digest": "2026年10月6日，游戏行业资讯方面整体报道围绕多款热门游戏动态展开，涵盖射击、策略、模拟及衍生等方向，涉及游戏总数达40款，同时包含部分无具体指向的游戏信息，行业动态整体呈现多元化发展态势。",
-      "digest_source": "llm",
-      "input_hash": "990800d81b1ac6cb",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 4,
-          "summary": "《GTA6》叙事主管称杰森军旅背景并非刻意表态；《GTA6》编剧谈讽刺方向：不着重影射具体政客 转向阴谋论与日常荒诞；《GTA6》采用八周开发节点 整合游戏内容并按反馈修改（当天共 4 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "战争机器：事变日",
-          "count": 3,
-          "summary": "《战争机器：事变日》借用Xbox Series S内置SSD，腾出约1GB内存实现60帧；《战争机器：事变日》上线前推出补丁 修复联机与战役多项故障；《战争机器：事变日》巧用SSD 保障XSS流畅运行。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 2,
-          "summary": "《使命召唤：现代战争4》DMZ玩法：Hajin地图回归PvPvE撤离；《使命召唤：现代战争4》DMZ定位动作撤离射击 设四档AI强化交战。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "塞尔达：时之笛重制版",
-          "count": 2,
-          "summary": "患渐冻症玩家希望通关《塞尔达：时之笛重制版》 完成多年心愿；审美争议！重新审视《塞尔达：时之笛重制版》林克新形象。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "策定九州",
-          "count": 2,
-          "summary": "月卡玩家玩了一年《策定九州》，说说最真实的体验：这游戏真的不逼氪；《策定九州》周年庆零氪入坑指南：百元预算玩转三国策略。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "英雄联盟",
-          "count": 2,
-          "summary": "《英雄联盟》S16全球总决赛赛程出炉 国内观赛时间不友好；Team Liquid以3:1击败LYON 夺得2026 LCS夏季赛冠军。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Arc Raiders",
-          "count": 1,
-          "summary": "《Arc Raiders》《The Finals》均将推出影视改编作品。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "FF7：启示",
-          "count": 1,
-          "summary": "滨口直树称《FF7：启示》放弃PS5独占是必然趋势。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GTA4",
-          "count": 1,
-          "summary": "玩家用模拟器在破解PS5运行《GTA4》 帧率画面仍有问题。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "NBA 2K25",
-          "count": 1,
-          "summary": "《NBA 2K25》10月底从PS商店下架 明年停服后生涯模式无法游玩。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "OD",
-          "count": 1,
-          "summary": "小岛秀夫确认《OD》仍在开发 后期配音延续至2027年。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Physint",
-          "count": 1,
-          "summary": "小岛秀夫谈《Physint》：将打造不一样的谍战动作体验。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "光芒行动",
-          "count": 1,
-          "summary": "《光芒行动》计划2026年12月开启Steam抢先体验，玩家可扮异常生物干扰撤离。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "共鸣：瘟疫传说传承",
-          "count": 1,
-          "summary": "《共鸣：瘟疫传说传承》推出1.003更新，针对卡顿、音频和章节进度问题。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "冰汽时代",
-          "count": 1,
-          "summary": "《冰汽时代》10月19日登陆初代Switch 完整版收录三部扩展内容。",
-          "summary_source": "rules"
         }
       ]
     }
