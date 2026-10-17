@@ -1,9 +1,44 @@
 {
-  "generated_at": "2026-10-16T00:27:34.774564+00:00",
+  "generated_at": "2026-10-17T00:31:26.385551+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-16",
+      "article_count": 7,
+      "game_count": 4,
+      "untagged_count": 3,
+      "digest": "10月15日游戏圈热闹非凡，西山居《剑侠世界4：无限》上线，鹰角《明日方舟：终末地》新版本《丹青渡》开启Steam国际服，完美《异环》联动下半版本同步上线，完美《绿梦》公测登顶畅销榜第4，拳头《英雄联盟》停运经典模式，独立游戏《车水马龙》以90年代天津为背景上线引发关注。",
+      "digest_source": "llm",
+      "input_hash": "c0f642cefaa21529",
+      "game_digests": [
+        {
+          "name": "剑侠世界4：无限",
+          "count": 1,
+          "summary": "西山居二游《剑侠世界4：无限》于10月15日上线，与二次元阵营产品同日竞争。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "终末地",
+          "count": 1,
+          "summary": "鹰角《明日方舟：终末地》新版本《丹青渡》于10月15日开启Steam国际服。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "英雄联盟",
+          "count": 1,
+          "summary": "拳头《英雄联盟》上线3个月后停运经典模式。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "车水马龙",
+          "count": 1,
+          "summary": "独立游戏《车水马龙》于10月15日上线，以90年代天津为背景。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-10-15",
       "article_count": 7,

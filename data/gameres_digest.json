@@ -1,9 +1,44 @@
 {
-  "generated_at": "2026-10-16T00:27:54.564594+00:00",
+  "generated_at": "2026-10-17T00:32:01.160597+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-16",
+      "article_count": 12,
+      "game_count": 4,
+      "untagged_count": 8,
+      "digest": "今日游戏行业资讯涵盖休闲手游、3A大作及独立游戏。Voodoo《Castle Busters》素材创意引发关注，腾讯休闲SLG新游开启预约期买量；Rockstar《GTA 6》曝光八年开发细节，公司扩张至4711人，成本超10亿美金；SayGames休闲游戏《BagMaster Isekai》上线两月内购月入25万美元；《夜血W：割喉之狼》10月16日上线Steam，首发8折。",
+      "digest_source": "llm",
+      "input_hash": "512277f43b27bd7b",
+      "game_digests": [
+        {
+          "name": "BagMaster Isekai",
+          "count": 1,
+          "summary": "休闲游戏《BagMaster Isekai》上线两月内购月入25万美元，小团队成功打造全球产品。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Castle Busters",
+          "count": 1,
+          "summary": "9月手游月报分析显示，休闲类在投App数量居首，益智解谜类广告投放量领先，涉及腾讯休闲SLG新游买量及Voodoo《Castle Busters》素材创意。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA 6",
+          "count": 1,
+          "summary": "Rockstar《GTA 6》八年开发细节曝光，公司扩张至4711人，开发成本超10亿美金，涉及两次延期、泄密打击及加班工作模式。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "夜血W：割喉之狼",
+          "count": 1,
+          "summary": "2D横版赛博朋克像素动作游戏《夜血W：割喉之狼》10月16日上线Steam，首发8折，含高速钩索、无限制空连等特色。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-10-15",
       "article_count": 10,
