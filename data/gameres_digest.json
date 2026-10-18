@@ -1,40 +1,57 @@
 {
-  "generated_at": "2026-10-17T00:32:01.160597+00:00",
+  "generated_at": "2026-10-18T00:09:58.850895+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-16",
-      "article_count": 12,
-      "game_count": 4,
-      "untagged_count": 8,
-      "digest": "今日游戏行业资讯涵盖休闲手游、3A大作及独立游戏。Voodoo《Castle Busters》素材创意引发关注，腾讯休闲SLG新游开启预约期买量；Rockstar《GTA 6》曝光八年开发细节，公司扩张至4711人，成本超10亿美金；SayGames休闲游戏《BagMaster Isekai》上线两月内购月入25万美元；《夜血W：割喉之狼》10月16日上线Steam，首发8折。",
+      "date": "2026-10-17",
+      "article_count": 1,
+      "game_count": 1,
+      "untagged_count": 0,
+      "digest": "今日游戏行业资讯聚焦于独立游戏领域，Lo-Fi风格与心理悬疑题材的《Rain98》Steam体验版正式上线，同步公开新预告片并公布声优阵容。游戏游玩时长约3小时，为玩家提供了约3小时的试玩体验。",
       "digest_source": "llm",
-      "input_hash": "512277f43b27bd7b",
+      "input_hash": "76e218a84af5c160",
+      "game_digests": [
+        {
+          "name": "Rain98",
+          "count": 1,
+          "summary": "Lo-Fi×心理悬疑冒险游戏《Rain98》Steam体验版正式上线，游玩时长约3小时，同步公开新预告片，能登麻美子确定配音新角色夜濑京子。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "article_count": 13,
+      "game_count": 4,
+      "untagged_count": 9,
+      "digest": "今日游戏行业资讯聚焦于休闲手游的商业化成功、头部大作的幕后开发细节以及新游的上线发售。越南小团队SayGames的《BagMaster Isekai》上线两月内购月入25万美元，Voodoo的《Castle Busters》在9月休闲买量市场中表现活跃，Rockstar的《GTA 6》曝光了4711人团队与超10亿美金成本等开发细节，而《夜血W：割喉之狼》则在Steam开启8折首发。",
+      "digest_source": "llm",
+      "input_hash": "046781e50fb36207",
       "game_digests": [
         {
           "name": "BagMaster Isekai",
           "count": 1,
-          "summary": "休闲游戏《BagMaster Isekai》上线两月内购月入25万美元，小团队成功打造全球产品。",
+          "summary": "休闲游戏《BagMaster Isekai》上线两月内购月入25万美元，小团队SayGames展示了越南团队的全球产品开发案例。",
           "summary_source": "llm"
         },
         {
           "name": "Castle Busters",
           "count": 1,
-          "summary": "9月手游月报分析显示，休闲类在投App数量居首，益智解谜类广告投放量领先，涉及腾讯休闲SLG新游买量及Voodoo《Castle Busters》素材创意。",
+          "summary": "9月全球手游海外买量分析显示，休闲类在投App数量居首，益智解谜类广告投放领先，Voodoo《Castle Busters》素材创意备受关注。",
           "summary_source": "llm"
         },
         {
           "name": "GTA 6",
           "count": 1,
-          "summary": "Rockstar《GTA 6》八年开发细节曝光，公司扩张至4711人，开发成本超10亿美金，涉及两次延期、泄密打击及加班工作模式。",
+          "summary": "Rockstar《GTA 6》曝光了4711人团队规模与超10亿美金开发成本，透露了两次延期发售、泄密打击及加班工作模式等幕后细节。",
           "summary_source": "llm"
         },
         {
           "name": "夜血W：割喉之狼",
           "count": 1,
-          "summary": "2D横版赛博朋克像素动作游戏《夜血W：割喉之狼》10月16日上线Steam，首发8折，含高速钩索、无限制空连等特色。",
+          "summary": "2D横版赛博朋克像素动作游戏《夜血W：割喉之狼》10月16日上线Steam，首发享8折优惠，包含高速钩索、无限制空连等特色。",
           "summary_source": "llm"
         }
       ]
@@ -275,59 +292,6 @@
           "name": "沉星之序",
           "count": 1,
           "summary": "Jonathan Blow领衔打造的大型谜题冒险游戏现已登陆PC、Nintendo Switch 2与PlayStation 5，包含千余手工谜题，后续将追加中文配音。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-08",
-      "article_count": 12,
-      "game_count": 7,
-      "untagged_count": 4,
-      "digest": "2026年10月8日整体游戏行业资讯覆盖7款相关游戏，同时涉及7条游戏报道，新闻总数达12条，行业动态较为丰富，涵盖多类型游戏发展相关内容。游戏项目类、策略类、生存类、肉鸽类、AI游戏及机甲飞行类游戏均有最新动态发布，为游戏行业运营与布局提供参考。",
-      "digest_source": "llm",
-      "input_hash": "882e452972233352",
-      "game_digests": [
-        {
-          "name": "游戏项目系统工程手册",
-          "count": 2,
-          "summary": "《游戏项目系统工程手册》合订本vol.8、vol.7相继发布，分别收录章节内容，讲解需求拆分、方案设计等实操方法，面向游戏研发人员，助力研发相关工作开展。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三角洲行动",
-          "count": 1,
-          "summary": "《三角洲行动》国服日活跃用户数突破5800万，反映出玩家活跃度持续提升。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "冰汽时代",
-          "count": 1,
-          "summary": "《冰汽时代》10月19日登陆Nintendo Switch并全面支持Switch 2，推出含三款DLC的完整版，首发享折扣并已开放预购，试玩版上线，展现出该生存类游戏的市场拓展前景。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "勇者小队全灭了。",
-          "count": 1,
-          "summary": "15万愿望单达成！剧情驱动肉鸽RPG《勇者小队全灭了。》11月10日正式发售。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "太吾异世劫",
-          "count": 1,
-          "summary": "墨境团队开发、太吾IP授权，肉鸽幸存者刷宝游戏《太吾异世劫》10月15日登陆Steam，具备双IP特色，支持最多4人联机，国区定价38元，首发14天享八折。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "妙鸭",
-          "count": 1,
-          "summary": "前《妙鸭》核心团队跨界推出AI乙女游戏，相关动态反映AI在游戏内容消费及关系构建上的新应用探索。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "蛋壳战机",
-          "count": 1,
-          "summary": "猩球游戏推出蛋壳特工队系列新品《蛋壳战机》，融合打飞机与肉鸽玩法，整体画风清新明亮，打飞机玩法成熟，肉鸽玩法具备多样弹道与割草爽感，核心养成围绕装备合成与词条抽取，具备长线运营潜力。",
           "summary_source": "llm"
         }
       ]

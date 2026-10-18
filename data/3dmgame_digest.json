@@ -1,9 +1,110 @@
 {
-  "generated_at": "2026-10-17T00:26:21.683243+00:00",
+  "generated_at": "2026-10-18T00:04:09.453133+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-17",
+      "article_count": 48,
+      "game_count": 29,
+      "untagged_count": 5,
+      "digest": "10月17日 3DMGame 共 48 条新闻，涉及 29 款游戏。报道最集中的是《GTA6》（7 条）、《使命召唤：现代战争4》（6 条）、《影之刃零》（2 条）。另有 5 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "e3b40b36c07e8ec1",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 7,
+          "summary": "《GTA6》被评18禁 两大主角可携带并随时吸食违禁品；《GTA6》日本评级确定为CERO Z 是否删改尚未公布；时隔十八年GTA6或将终修复R星自GTA4遗留的画面BUG（当天共 7 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 6,
+          "summary": "完美谢幕 《使命召唤：现代战争4》Steam特别好评；《使命召唤：现代战争4》Switch 2版战役支持DLSS 画面和流畅度都有提升；动视称任天堂借《使命召唤：现代战争4》扩大受众，支持跨平台联机（当天共 6 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "《影之刃零》PS5版超134GB 10月27日开启预载；S-Game已有《影之刃零》续作等构想，商业表现决定后续投入。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "恶意不息",
+          "count": 2,
+          "summary": "《恶意不息》新职业系统和1.0版本强化细节公开；《恶意不息》PS5版和1.0正式版2027年3月推出 规模翻倍。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战地6",
+          "count": 2,
+          "summary": "《战地6》第5赛季或加入《质量效应》《死亡空间》饰品；DICE回应《战地6》皮肤争议：袖章错字将修复。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Arc Raiders",
+          "count": 1,
+          "summary": "《Arc Raiders》影视改编补游戏不足 世界观沃土孕各类故事。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "DayZ",
+          "count": 1,
+          "summary": "《DayZ》创作者称行业腐朽AI加剧 联顶尖开发者革新游戏制作。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "V社",
+          "count": 1,
+          "summary": "前V社编剧称加布·纽维尔将Steam按一款MMO设计。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "不朽遗志",
+          "count": 1,
+          "summary": "《不朽遗志》首个正式更新上线，修复两章进度阻断问题。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "任天堂明星大乱斗",
+          "count": 1,
+          "summary": "樱井政博称传统一对一规则可能让《任天堂明星大乱斗》无法问世。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "卡莉亚的炼金工房",
+          "count": 1,
+          "summary": "《卡莉亚的炼金工房》据称将在粉丝投票后加入体重机制。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达时之笛",
+          "count": 1,
+          "summary": "《塞尔达时之笛》重制版新增支线 细节调整重燃游玩兴趣。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师4",
+          "count": 1,
+          "summary": "BioWare前制作人警告：推进《巫师4》的CDPR已进入危险区间。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "我的世界",
+          "count": 1,
+          "summary": "《我的世界》上线《降世神通：传奇》附加包，可修习四元素能力。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战争机器",
+          "count": 1,
+          "summary": "前《战争机器》制作人称马库斯在《事变日》中被边缘化。",
+          "summary_source": "rules"
+        }
+      ]
+    },
     {
       "date": "2026-10-16",
       "article_count": 135,
@@ -790,107 +891,6 @@
           "name": "英雄联盟",
           "count": 2,
           "summary": "《英雄联盟》2026全球总决赛主题曲《Know My Name》MV公开，总决赛将于11月14日在纽约举行。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-08",
-      "article_count": 147,
-      "game_count": 114,
-      "untagged_count": 17,
-      "digest": "今日游戏资讯聚焦于《GTA6》与《极限竞速：地平线6》的车辆细节对比引发热议，以及《堡垒之夜》玩家因语音威胁警方被拘的争议事件。此外，《战争机器：事变日》CEO透露新作开发周期将缩短，微软宣布将加大对PC端暴雪战网的投入，同时《Apex英雄》开启跨平台匹配测试，多款游戏更新与动态引发关注。",
-      "digest_source": "llm",
-      "input_hash": "5879e3e939708bcf",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 10,
-          "summary": "Reddit上流传的车辆底盘对比截图引发玩家讨论，部分人认为《侠盗猎车手6》的机械结构细节多于《极限竞速：地平线6》，但也有人指出现代汽车底盘常被空气动力学面板覆盖，不能单凭截图断定细节不足。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "堡垒之夜",
-          "count": 3,
-          "summary": "美国阿拉巴马州一名29岁居民因在《堡垒之夜》语音中多次威胁执法人员，被FBI拘捕。Epic Games已封禁其账号，该账号在阿拉巴马州有超过1700次登录记录，涉事者否认有罪，面临最高五年监禁。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA",
-          "count": 2,
-          "summary": "ESRB最新评级显示《侠盗猎车手6》包含大量血腥内容，回顾20年前《GTA：圣安地列斯》因“Hot Coffee”mod被重评级并禁售的历史，对比当下《GTA6》即将登陆主机平台的情况。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤",
-          "count": 2,
-          "summary": "《使命召唤》联赛解说Maven宣布暂时离开联赛，他透露自己正与搭档MerK的前妻交往，并表示这段关系“不寻常”，感谢观众支持并希望未来能回归。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战争机器：事变日",
-          "count": 2,
-          "summary": "CEO Mike Crump表示新作开发周期将不再像《事变日》那样长，因为该作为Xbox单人游戏全球在线人数第一，为系列奠定了良好基础。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "暴雪战网",
-          "count": 2,
-          "summary": "微软Xbox负责人Asha Sharma在内部会议上表示，将加大对PC端暴雪战网的投入，并简化开发者发行流程，认为战网用户留存表现接近Steam。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "魔兽世界：无限",
-          "count": 2,
-          "summary": "暴雪公布“天裔”外观调整计划，旨在让新种族更贴近早期《魔兽世界》的视觉风格，减少柔和渐变，使羽毛和毛发呈现更鲜明线条。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "2XKO",
-          "count": 1,
-          "summary": "Riot Games宣布免费组队格斗游戏《2XKO》将于10月27日加入莎弥拉与瑟提，两人成为可玩角色，游戏已登陆PS5、Xbox Series和PC。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "ARC突袭者",
-          "count": 1,
-          "summary": "执行制作人Aleksander Grøndal表示团队正放缓更新节奏，鼓励玩完内容的玩家休息，并计划通过10月8日上线的“冰封之路”推出体量更大的内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Apex 英雄：血之契约",
-          "count": 1,
-          "summary": "EA与Respawn正式发布活动预告，该活动将于太平洋时间10月13日至11月2日开启，玩家将选择野兽或恶魔阵营，获得狼人能力。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Apex英雄",
-          "count": 1,
-          "summary": "官方发布3.22更新，修复破碎之月地图地形漏洞，并宣布从10月7日起在美西服务器测试主机玩家默认开启跨平台匹配。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Arc Raiders",
-          "count": 1,
-          "summary": "开发商Embark表示接受降频可能导致玩家减少，计划约每六个月推出一次大型内容包，以重新吸引玩家。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Laica",
-          "count": 1,
-          "summary": "由Santa Studio开发的3D生存恐怖游戏《Laica》Steam页面与首支预告片公开，预计于2027年发售，支持多语言。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "P.T.",
-          "count": 1,
-          "summary": "小岛秀夫转发粉丝制作的《P.T.》PC原生移植项目，该项目完成度约97%，不通过模拟器运行，旨在让Windows玩家体验原版内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "PSVR2",
-          "count": 1,
-          "summary": "索尼在2026年6月至9月间向Meta转让了43项VR相关专利，媒体据此推测索尼对PSVR2的支持可能继续减少。",
           "summary_source": "llm"
         }
       ]
