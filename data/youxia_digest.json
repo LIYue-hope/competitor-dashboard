@@ -1,40 +1,266 @@
 {
-  "generated_at": "2026-10-18T00:04:09.457356+00:00",
+  "generated_at": "2026-10-19T00:18:46.145325+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-16",
-      "article_count": 97,
-      "game_count": 62,
-      "untagged_count": 25,
-      "digest": "R星《GTA6》线下宣发全面启动，巴黎巨幅海报因被删枪支引发热议，媒体分析淋浴片段强化人物关系真实性，情侣系统细节曝光；动视确认《使命召唤》重返任天堂Switch 2，瞄准高龄用户并启动联合营销；ROG公布《影之刃零》联名迷你主机与外设，将于10月26日开售；KONAMI《恶魔城：贝尔蒙特的诅咒》发售，RUNE版约6.4GB；《007 初露锋芒》Steam新史低178元；动视启动《COD》全新子系列开发；CS2选手假赛遭终身禁赛；WWE 2K26公布与《街霸》联动DLC。",
+      "date": "2026-10-18",
+      "article_count": 32,
+      "game_count": 22,
+      "untagged_count": 4,
+      "digest": "今日游戏资讯聚焦于《GTA6》泄露后续影响及多款新作动态。Rockstar总监回顾泄露事件带来的侵入感，网红主播xQc怒喷Epic新版启动器，玩家则澄清《GTA6》预告片画质降级实为滤镜错觉。国产武侠动作游戏《影之刃零》Steam预购预估销量达47万份，国内玩家占比超八成。此外，《战神：劳菲》实体盘亮相，被视作系列光盘绝唱；《使命召唤：现代战争4》凭借战役模式重回巅峰，获评15年来最佳COD战役。",
       "digest_source": "llm",
-      "input_hash": "0fa6cc56bff47fd2",
+      "input_hash": "1e95f00830c2d636",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 8,
-          "summary": "R星全球线下宣发全面启动，巴黎莱梅库里亚尔大厦巨幅海报因一处特殊修改迅速走红，媒体分析淋浴片段强化人物关系真实性，情侣系统细节曝光。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤",
-          "count": 2,
-          "summary": "动视确认《使命召唤》重返任天堂Switch 2，瞄准高龄用户群体，双方已启动联合营销，微软与任天堂的10年合作协议正式落地。",
+          "count": 4,
+          "summary": "玩家指出《GTA6》新预告画质降级是错觉，实际上是Rockstar发布的全新发售预告片，距离计划发售仅剩一个多月。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 2,
-          "summary": "ROG与国产武侠动作游戏《影之刃零》联名系列正式开启预约，涵盖迷你主机、机箱、显示器及多款外设，两款联名迷你主机于10月26日正式开售。",
+          "summary": "第三方数据平台Gamalytic更新显示，国产武侠动作游戏《影之刃零》Steam预购预估销量约47.35万份，国内玩家占比超八成。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战神：劳菲",
+          "count": 2,
+          "summary": "拥有约10万粉丝的游戏博主Genki在X平台晒出《战神：劳菲》实体盘展示盒，被媒体视为系列实体光盘的绝唱。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "现代战争4",
+          "count": 2,
+          "summary": "媒体与玩家普遍评价《使命召唤：现代战争4》战役为系列历史上最好的战役之一，被誉为15年来最好的COD战役。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不朽遗志",
+          "count": 1,
+          "summary": "开发商One More Level于10月16日上线首个正式更新，重点修复流程阻断、程序崩溃与图形异常等问题，并新增PC驱动检测功能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "亚利桑那阳光",
+          "count": 1,
+          "summary": "开发商Vertigo Games宣布重制版将于2027年1月22日登陆PS5、Xbox Series X|S、Switch 2及PC平台，无需头显也能玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说：时之笛RE",
+          "count": 1,
+          "summary": "《塞尔达传说：时之笛》重制版将在Switch 2上加入三种显示模式，硬核玩家对此表示狂喜。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "太鼓达人",
+          "count": 1,
+          "summary": "日本知名玩家なつみかん在直播中挑战高难度段位“超人”，期间被旁边小孩闯入并粉碎了其神话记录。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "家庭时光",
+          "count": 1,
+          "summary": "休闲养娃模拟游戏《家庭时光》因爆火惨遭同名作品抄袭，玩家需指挥“狼娘”妻子养育数千只狼崽并搭建庇护所。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3：狂猎RE",
+          "count": 1,
+          "summary": "玩家分享实机视频展示《巫师3：狂猎重制版》叶奈法重逢场景，DLSS 5效果引发关注，叶奈法形象美到出圈。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "怪物史瑞克2",
+          "count": 1,
+          "summary": "Xbox商店曾短暂泄露《怪物史瑞克2：游戏版》重制版，2004年的经典游戏将由Aspyr负责登陆现代平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "怪猎荒野",
+          "count": 1,
+          "summary": "卡普空确认DLC“凌越”不会新增第15种武器，而是推出新的武器系统“增幅动作”，现有14种武器已能满足需求。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "恶意不息",
+          "count": 1,
+          "summary": "开发主管托马斯·马勒透露，游戏正式版将提供超过4万亿种可能的构筑组合，基于24个动态职业和数百项可继承特质。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "惩罚者",
+          "count": 1,
+          "summary": "恶搞账号Culture Cave称育碧正在开发开放世界《惩罚者》游戏，目标2028年发售，引发玩家在评论区集体求饶。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战地风云6",
+          "count": 1,
+          "summary": "开发团队针对第五赛季争议皮肤作出回应，确认麦克尼尔皮肤臂章将“security”错写成“secuty”，并拒绝移除五枪套设计。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "article_count": 50,
+      "game_count": 28,
+      "untagged_count": 18,
+      "digest": "今日游戏资讯聚焦于《GTA6》发售前的最后冲刺，韩国与日本评级相继锁定，开发团队仍在进行发售前的最后优化。此外，《影之刃零》公布PS5版容量并开启预载，《战地6》Steam试玩延长，而《战争机器：事变日》则因前作主创批评新角色抢戏引发争议。",
+      "digest_source": "llm",
+      "input_hash": "ff6e533582408143",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "韩国与日本评级相继锁定，开发团队仍在进行发售前的最后优化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "PS5版容量公布为134.85GB，将于10月27日开启预载。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战争机器",
+          "count": 2,
+          "summary": "前作主创批评新作《事变日》中马库斯被边缘化，削弱了兄弟情谊。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Rain98",
+          "count": 1,
+          "summary": "Steam体验版正式上线，游玩时长超过3小时，并公开了新预告片。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Samson",
+          "count": 1,
+          "summary": "瑞典开发商Liquid Swords确认破产，正在寻找买家。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "与狼同行重制版",
+          "count": 1,
+          "summary": "Switch版突发延期，具体上线时间尚未公布。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "余烬与刃",
+          "count": 1,
+          "summary": "定档2027年1月8日开启PC抢先体验，Demo2.0重构了战斗框架。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "古墓丽影：亚特兰蒂斯遗迹",
+          "count": 1,
+          "summary": "公开了劳拉经典“地中海潜水服”的游戏内实机画面。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "恶魔城",
+          "count": 1,
+          "summary": "新作角色设计引发热议，开发者承认特意把角色设计得更有魅力。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战地6",
+          "count": 1,
+          "summary": "官宣Steam免费试玩延长至世界标准时间10月20日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战神：劳菲",
+          "count": 1,
+          "summary": "典藏版神谕卡牌预览曝光，新女主形象登场。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛",
+          "count": 1,
+          "summary": "重制版将加入全新支线任务，打靶挑战得到升级。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最后的生还者",
+          "count": 1,
+          "summary": "主创旧采访再度走红，揭秘角色叙事构思起源。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "末世神枪",
+          "count": 1,
+          "summary": "定档12月8日登陆多平台，强调弹药管理与敌人研究。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "永恒传说 Remastered",
+          "count": 1,
+          "summary": "回归次日遭破解，首次提供官方简体中文。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "article_count": 122,
+      "game_count": 69,
+      "untagged_count": 38,
+      "digest": "R星全球宣发全面启动，GTA6多款巨型壁画亮相巴黎，淋浴片段获外媒好评，情侣系统引发热议；动视确认《使命召唤》重返任天堂Switch 2，瞄准高龄用户；《地铁2039》因实体版需联网解锁及PS商店定价问题遭玩家抵制；ROG公布《影之刃零》联名外设与迷你主机；《恶魔城：贝尔蒙特的诅咒》发售，RUNE版约6.4GB；《教团1886》PC原生运行项目画面还原佳但帧数波动；IGN试玩《时之笛》重制版，暗黑林克预告引爆全网；《漫威争锋》欧洲分级升至16+并升级反作弊；《007 初露锋芒》Steam新史低178元；动视确认《COD》全新子系列开发已启动；CS2选手操纵比赛获终身禁赛。",
+      "digest_source": "llm",
+      "input_hash": "d754464fef8bc058",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 9,
+          "summary": "R星全球线下宣发全面启动，巴黎莱梅库里亚尔大厦巨幅海报因一处特殊修改走红，淋浴片段获外媒好评，情侣系统引发玩家热议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤",
+          "count": 2,
+          "summary": "动视确认《使命召唤》重返任天堂Switch 2，瞄准高龄用户，双方已启动联合营销，微软与任天堂的10年合作协议正式落地。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "地铁2039",
+          "count": 2,
+          "summary": "《地铁2039》PS商店预购价格高于Steam引发玩家不满，实体版因光盘容量限制首次启动需联网解锁，后续可离线游玩，遭玩家抵制与退款。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "ROG与《影之刃零》联名外设系列开启预约，包含键盘、鼠标、耳机等四款产品，均于10月16日开启预约，10月26日正式售卖。",
           "summary_source": "llm"
         },
         {
           "name": "恶魔城：贝尔蒙特的诅咒",
           "count": 2,
-          "summary": "《恶魔城：贝尔蒙特的诅咒》现已正式发售，RUNE版约6.4GB，登陆PC、PS5、Xbox Series X|S和Switch，是系列40周年纪念作品。",
+          "summary": "《恶魔城：贝尔蒙特的诅咒》现已正式发售，通关需20小时，白金需50小时，PC端已出现约6.4GB的RUNE发布资源。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "教团：1886",
+          "count": 2,
+          "summary": "曾移植战神3的开发者成功让《教团1886》原生在PC运行，画面还原度不错，但早期版本仅平均30帧，卡顿问题待优化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛",
+          "count": 2,
+          "summary": "IGN试玩《塞尔达传说：时之笛》Switch2重制版，称赞其经典关卡设计影响诸多名作，新增跳跃键，暗黑林克预告迅速引爆全网。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威争锋",
+          "count": 2,
+          "summary": "《漫威争锋》欧洲PEGI分级升至16+，各大游戏商店页面的分级标识已同步更新，同时加强对可能带来竞技优势Mod的打击。",
           "summary_source": "llm"
         },
         {
@@ -46,61 +272,37 @@
         {
           "name": "COD",
           "count": 1,
-          "summary": "动视在采访中证实《使命召唤》全新子系列筹备已经启动，项目意在打造长线续作IP，系列各类核心信息仍处于保密阶段。",
+          "summary": "动视在采访中证实《使命召唤》全新子系列开发已启动，项目意在打造长线续作IP，当下官方主推《现代战争4》。",
           "summary_source": "llm"
         },
         {
           "name": "CS2",
           "count": 1,
-          "summary": "ESIC公布重磅处罚结果，前MOUZ选手kzy因操纵比赛被判处终身禁赛，NOMERCY其余四名队员同样遭到处罚。",
+          "summary": "前MOUZ选手kzy因操纵比赛被判处终身禁赛，NOMERCY其余四名队员同样遭到处罚，案件发生在今年3月的罗马帝国杯VII线下赛事。",
           "summary_source": "llm"
         },
         {
           "name": "Hela：鼠鼠奇旅",
           "count": 1,
-          "summary": "童话风格冒险新作《Hela: 鼠鼠奇旅》试玩Demo现已限时登陆Steam新品节。",
+          "summary": "《Hela：鼠鼠奇旅》试玩Demo现已限时登陆Steam新品节，邀玩家开启奇幻冒险。",
           "summary_source": "llm"
         },
         {
           "name": "PEAK",
           "count": 1,
-          "summary": "合作攀登游戏《PEAK》将于10月22日登陆PS5、Xbox Series X|S和Switch 2，主机版首发即支持跨平台联机。",
+          "summary": "合作攀登游戏《PEAK》将于10月22日登陆PS5、Xbox Series X|S和Switch 2，主机版首发即支持跨平台联机，并打包Gloom、Mesa、Roots三项更新。",
           "summary_source": "llm"
         },
         {
           "name": "ROLL一下勇士",
           "count": 1,
-          "summary": "战棋肉鸽游戏《ROLL一下勇士》Demo试玩报告发布，玩法被形容为在棋盘上开赌场。",
+          "summary": "《ROLL一下勇士》试玩报告称其玩法像在棋盘上开赌场，把阵型、肉鸽和骰子技能搅成一锅。",
           "summary_source": "llm"
         },
         {
-          "name": "WWE 2K26",
+          "name": "SPINE",
           "count": 1,
-          "summary": "2K Games与卡普空正式公布《WWE 2K26》×《街头霸王》精英组合包将于10月28日上线，带来摔角与经典格斗IP的重磅跨界联动。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Zombie Police～凛冽盛夏的新年～",
-          "count": 1,
-          "summary": "推理冒险游戏《Zombie Police ～凛冽盛夏的新年～》将于2026年11月22日正式发售，Steam新品节提供免费试玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "万物皆可捏",
-          "count": 1,
-          "summary": "3D自由DIY捉迷藏游戏《万物皆可捏》现已正式发售，支持多人联机游玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴4：湮灭",
-          "count": 1,
-          "summary": "GOG平台已将2006年发行的《上古卷轴4：湮灭》原版年度版游戏纳入其保存计划，并于10月15日推送了更新。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "余影",
-          "count": 1,
-          "summary": "心理恐怖解谜游戏《余影》试玩Demo现已上线Steam，以梦核千禧年小镇为背景。",
+          "summary": "赛博朋克枪斗动作游戏《SPINE》官方公布角色自定义系统情报，一口气曝光4套新皮肤。",
           "summary_source": "llm"
         }
       ]
@@ -708,107 +910,6 @@
           "count": 1,
           "summary": "制作人透露正研究系列后续项目，首批重制作品已上线，团队认为单一重制不足以复兴IP。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "article_count": 81,
-      "game_count": 49,
-      "untagged_count": 22,
-      "digest": "2026年10月9日，当天游戏行业资讯总量达81条、涉及49款游戏，涵盖主流及新游动态，包括多款游戏发售、更新、试玩及剧情、功能等关键进展，行业内容呈现丰富多元且围绕玩家体验、玩法优化及版本更新等方向展开。游戏名｜GTA6当日公布三张全新光影效果截图，以及全新演示剧情泄露、Epic喜加二多游戏，引发行业关注。游戏名｜影之刃零发布最强木剑通关、各BOSS二阶段设计及不锁定新内容等玩法相关内容，为玩家提供多元游戏体验。游戏名｜叫魂公布回到世纪末小镇的恐怖新游，预计年内登陆PC与PS5，展现中式心理恐怖玩法探索方向。游戏名｜警目如炬上线试玩版并公布巨物恐怖新预告，定位超现实沉浸式模拟与巨物恐怖逃生玩法。游戏名｜Apex英雄血之契约活动预告上线，明确活动时间及参与范围，推动相关玩家内容运营。游戏名｜FF7启示曝光克劳德与爱丽丝重磅对手戏，呈现声优合作及新剧情信息。游戏名｜FF7重生回应小游戏数量争议，强调体验重要性并保留重制系列小游戏传统。游戏名｜S.O.N.A.R.潜艇菜鸟团公布免费Demo登陆，主打深海冒险玩法，吸引玩家体验。游戏名｜Tropico7发布故事预告片展现战役模式走向，呈现政治权谋剧情及发展主线。游戏名｜双点博物馆推出《失落游乐园》DLC，提供全新场景体验。游戏名｜四海兄弟3完成十月大更新，修复并优化帧率、升级版本及全平台支持，优化玩家游玩体验。游戏名｜土豆兄弟史前惧兽公布新预告，规划11月2日发售时间。游戏名｜堡垒之夜曝出蝙蝠侠演员玩梗被玩家嘲讽，引发互动话题讨论。游戏名｜塔罗斯法则3公开首支实机演示并规划2027年发售，推进玩法内容落地。游戏名｜塞尔达传说时之笛经历全新重新评估，指出镜头、操作及时间机制不足等优化方向。",
-      "digest_source": "llm",
-      "input_hash": "224f5abf93e703ec",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 6,
-          "summary": "《GTA6》公布三张新截图：夜晚的光影效果太炸裂了！；游侠早报：葱哥泄露《GTA6》全新演示 Epic游戏喜加二；《GTA6》全新演示泄露游戏剧情！有第一人称和果体（当天共 6 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "影之刃零",
-          "count": 4,
-          "summary": "一把木剑打穿武林？《影之刃零》最弱木剑也能通关！；《影之刃零》所有BOSS都有二阶段！死了可跳过一阶段；《影之刃零》不把新内容锁在二周目 白金一周目就能拿（当天共 4 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "叫魂",
-          "count": 2,
-          "summary": "新游《叫魂》正式公布：回到世纪末前的中国小镇；中式恐怖游戏《叫魂》正式公布！2027年登陆PC和PS5。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "警目如炬",
-          "count": 2,
-          "summary": "他注视着你。超现实沉浸式模拟游戏《警目如炬》全新试玩版今日上线；巨物恐怖逃生《警目如炬》新预告公布！Steam开放试玩。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Apex 英雄：血之契约",
-          "count": 1,
-          "summary": "《Apex 英雄：血之契约》活动即将上线 | 10 月 13 日–11 月 2 日。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "FF7启示",
-          "count": 1,
-          "summary": "《FF7启示》配音爆料：克劳德与爱丽丝有重磅对手戏。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "FF7重生",
-          "count": 1,
-          "summary": "《FF7重生》总监谈小游戏:数量不是重点 好玩才重要。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "S.O.N.A.R.潜艇菜鸟团",
-          "count": 1,
-          "summary": "开启一场难忘的深海冒险！《S.O.N.A.R.潜艇菜鸟团》免费 Demo 登陆 Steam。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Tropico 7",
-          "count": 1,
-          "summary": "《Tropico 7》故事预告片：书写历史。由你做主。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "双点博物馆",
-          "count": 1,
-          "summary": "《双点博物馆》惊险刺激的全新DLC《失落游乐园》现已正式发售！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "四海兄弟3",
-          "count": 1,
-          "summary": "《四海兄弟3》十月大更新 修复+60帧+免费升级全平台。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "土豆兄弟：史前惧兽",
-          "count": 1,
-          "summary": "《土豆兄弟：史前惧兽》新预告公布！11月2日发售。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "堡垒之夜",
-          "count": 1,
-          "summary": "蝙蝠侠演员自爆!玩《堡垒之夜》被12岁孩童嘲讽玩的菜。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "塔罗斯法则3",
-          "count": 1,
-          "summary": "《塔罗斯法则3》首支实机演示公开！2027年发售。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "塞尔达传说：时之笛",
-          "count": 1,
-          "summary": "当年的《塞尔达传说：时之笛》并非完美 缺点也挺多的。",
-          "summary_source": "rules"
         }
       ]
     }

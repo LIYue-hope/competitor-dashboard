@@ -1,34 +1,19 @@
 {
-  "generated_at": "2026-10-12T01:26:50.884058+00:00",
-  "week_start": "2026-10-05",
-  "week_end": "2026-10-11",
-  "article_count": 1781,
-  "game_count": 220,
-  "digest": "2026年10月5日至10月11日，周期内共生成四源新闻1781条，涉及游戏220款，未指向具体游戏451条。整体游戏热度排行情况显示，绿梦时空之声以预约123万位居热度榜，影之刃零以86条资讯占据较高热度，GTA6以127条资讯处于热度前列，失落城堡2热度值为56万，篮球少女为16万，永恒之塔2上线人气高涨且相关内容引发争议，艾希续以10周年相关的2400万元众筹及3000万元突破的销量表现为核心热度，战争机器事变日销量表现突出但评价存在分歧，龙之信条2大更新及DLC上线带来讨论热度，银松镇作为恐怖新游发售并获较高评分。在此期间，《影之刃零》先后发布敌人击败不重生、PC版20分钟实机演示、动捕场景展示与IGN试玩评价等动态；《GTA6》围绕杰森裸体场景热议、加密货币相关爆料、解雇案记者身份争议、未完成画面外流及巴西玩家索要海报等事件持续引发讨论；《永恒之塔2》上线人气高，涉及氪金与AI争议、地图规模、角色调整及Steam在线人数表现等动态；《艾希：续》开启众筹、突破2400万元及3000万元超量参与等进展受关注；《战争机器：事变日》有销量数据、Steam评价及系列开发规划相关讨论；《龙之信条2》有难度与DLC机制拓展、黑暗觉者上线及4.0版本大更新的内容动态；《银松镇》发售时具备早期Metacritic评分85分、生存恐怖类型适配及口碑评价等表现。",
+  "generated_at": "2026-10-19T00:24:13.695764+00:00",
+  "week_start": "2026-10-12",
+  "week_end": "2026-10-18",
+  "article_count": 2182,
+  "game_count": 273,
+  "digest": "本周（2026年10月12日至10月18日）游戏行业整体资讯共2182条，涉及游戏273款，仅577条未指向具体游戏。按综合热度排序的各款游戏关键动态与整体情况如下：GTA6围绕回归、彩蛋、评级等表现，官方预告确认特警组织回归，服装彩蛋引发情感猜测，被评18禁并涉及非法道具，日本评级为CERO Z且是否删改待公布，并有望时隔十八年修复R星遗留画面BUG；影之刃零在PS5版推出超134GB预载，并涉及续作构想与国内外表现对比及宣传片动态；篮球少女维持低热度状态；失落城堡2预约58万且榜单14位；明日方舟：终末地Steam版正式上线并支持跨平台共享账号数据，获Steam特别好评但存在锁国区限制；恶魔城：贝尔蒙特的诅咒以首日好评率59%、主创提议设热爸奖、发售前评测均分86分等表现形成良好口碑，但试玩存在操作难题；战地6推进赛季更新，涉及饰品加入、皮肤与经验收益争议、热修复及周末降价试玩等动态；不朽遗志正式发售，针对进度阻断等修复首版更新，登陆多平台且Steam特别好评、媒体均分77分；地铁2039开启预购并引发多平台存储差异讨论，PC配置与参数错误等引发关注；无限大预约达382万且榜单9位，整体热度处于高位。",
   "digest_source": "llm",
   "heat_formula": "热度 = 资讯量 30% + 跨源覆盖 15% + 预约量 18% + 社区（周内新增关注/评价/讨论）15% + TapTap 榜单名次 12% + 官方动态 7% + 评测讨论 3%；各项先对数归一（资讯满格 200 条），缺测的维度计 0、不倒扣，满分 100。",
-  "input_hash": "8cfbc24c7aee8aa4",
+  "input_hash": "5c7cb824a678db27",
   "hot_ranking": [
     {
       "rank": 1,
-      "name": "绿梦：时空之声",
-      "heat_score": 42.4,
-      "media_count": 0,
-      "source_count": 0,
-      "reservation_label": "123万",
-      "follow_delta_label": "3万",
-      "best_rank": 3,
-      "rank_lists": [
-        "reserve"
-      ],
-      "official_count": 0,
-      "news": []
-    },
-    {
-      "rank": 2,
-      "name": "影之刃零",
-      "heat_score": 40.8,
-      "media_count": 86,
+      "name": "GTA6",
+      "heat_score": 44.8,
+      "media_count": 193,
       "source_count": 4,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -37,25 +22,25 @@
       "official_count": 0,
       "news": [
         {
-          "title": "假如《影之刃零》发售七天销量破千万 会带来什么影响？",
-          "url": "https://www.gamersky.com/news/202610/2225761.shtml",
+          "title": "11月新游盘点：竟有游戏敢和《GTA6》同天发售",
+          "url": "https://www.gamersky.com/news/202610/2230348.shtml",
           "source": "游民星空",
-          "published_at": "2026-10-11"
+          "published_at": "2026-10-18"
         },
         {
-          "title": "《影之刃零》销量能到多少？粉丝预期首月1500万份",
-          "url": "https://www.gamersky.com/news/202610/2225610.shtml",
+          "title": "R星再谈《GTA6》泄露：半成品曝光太丢人！",
+          "url": "https://www.gamersky.com/news/202610/2228579.shtml",
           "source": "游民星空",
-          "published_at": "2026-10-11"
+          "published_at": "2026-10-18"
         }
       ]
     },
     {
-      "rank": 3,
-      "name": "GTA6",
-      "heat_score": 38.7,
-      "media_count": 127,
-      "source_count": 3,
+      "rank": 2,
+      "name": "影之刃零",
+      "heat_score": 39.7,
+      "media_count": 78,
+      "source_count": 4,
       "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": null,
@@ -63,18 +48,33 @@
       "official_count": 0,
       "news": [
         {
-          "title": "黑客Cyberleek宣称《GTA6》下一段泄露为露西亚4K视频 并挂出募捐目标",
-          "url": "https://www.gamersky.com/news/202610/2225753.shtml",
+          "title": "《影之刃零》Steam预估预售销量47万份 收入近1.9亿",
+          "url": "https://www.gamersky.com/news/202610/2230272.shtml",
           "source": "游民星空",
-          "published_at": "2026-10-11"
+          "published_at": "2026-10-18"
         },
         {
-          "title": "《GTA6》登陆Switch 2悬了？任天堂至今没有答案",
-          "url": "https://www.gamersky.com/news/202610/2225645.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-11"
+          "title": "游侠晚报：《影之刃零》预估销量 R星谈《GTA6》泄露",
+          "url": "https://www.ali213.net/news/html/2026-10/1047421.html",
+          "source": "游侠网",
+          "published_at": "2026-10-18"
         }
       ]
+    },
+    {
+      "rank": 3,
+      "name": "篮球少女：飞跃巅峰",
+      "heat_score": 39.5,
+      "media_count": 0,
+      "source_count": 0,
+      "reservation_label": "20万",
+      "follow_delta_label": "4万",
+      "best_rank": 7,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": []
     },
     {
       "rank": 4,
@@ -82,7 +82,7 @@
       "heat_score": 38.2,
       "media_count": 0,
       "source_count": 0,
-      "reservation_label": "56万",
+      "reservation_label": "58万",
       "follow_delta_label": "2万",
       "best_rank": 14,
       "rank_lists": [
@@ -93,25 +93,38 @@
     },
     {
       "rank": 5,
-      "name": "篮球少女：飞跃巅峰",
-      "heat_score": 36.0,
-      "media_count": 0,
-      "source_count": 0,
-      "reservation_label": "16万",
-      "follow_delta_label": "1万",
+      "name": "明日方舟：终末地",
+      "heat_score": 33.0,
+      "media_count": 3,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
       "best_rank": 13,
       "rank_lists": [
-        "reserve"
+        "hot"
       ],
-      "official_count": 0,
-      "news": []
+      "official_count": 7,
+      "news": [
+        {
+          "title": "《明日方舟：终末地》Steam版正式上线 支持跨平台共享账号数据",
+          "url": "https://www.3dmgame.com/news/202610/3956597.html",
+          "source": "3DMGame",
+          "published_at": "2026-10-15"
+        },
+        {
+          "title": "《明日方舟：终末地》今日上线Steam 支持跨平台存档",
+          "url": "https://www.ali213.net/news/html/2026-10/1046777.html",
+          "source": "游侠网",
+          "published_at": "2026-10-15"
+        }
+      ]
     },
     {
       "rank": 6,
-      "name": "永恒之塔2",
-      "heat_score": 31.0,
-      "media_count": 16,
-      "source_count": 4,
+      "name": "恶魔城：贝尔蒙特的诅咒",
+      "heat_score": 29.8,
+      "media_count": 23,
+      "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": null,
@@ -119,52 +132,24 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《永恒之塔2》全球服上线 角色捏脸身材调整功能引发热议",
-          "url": "https://www.gamersky.com/news/202610/2225697.shtml",
+          "title": "GS 10分《恶魔城：贝尔蒙特的诅咒》PS商城4.18分！今日正式发售",
+          "url": "https://www.gamersky.com/news/202610/2228016.shtml",
           "source": "游民星空",
-          "published_at": "2026-10-11"
+          "published_at": "2026-10-15"
         },
         {
-          "title": "Steam新一周全球销量榜：《永恒之塔2》登顶榜首！",
-          "url": "https://www.gamersky.com/news/202610/2224673.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-09"
+          "title": "《恶魔城：贝尔蒙特的诅咒》发售前PS5版收录44篇评测，均分86分",
+          "url": "https://www.3dmgame.com/news/202610/3956336.html",
+          "source": "3DMGame",
+          "published_at": "2026-10-13"
         }
       ]
     },
     {
       "rank": 7,
-      "name": "艾希：续",
-      "heat_score": 30.2,
-      "media_count": 7,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": 21,
-      "rank_lists": [
-        "reserve"
-      ],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "独游《艾希:续》众筹、玩家疯狂充值3000万，制作人：“这辈子都不敢众筹了”！",
-          "url": "http://www.gamelook.com.cn/2026/10/603445/",
-          "source": "GameLook",
-          "published_at": "2026-10-09"
-        },
-        {
-          "title": "《艾希：续》众筹突破3000万元！超20万人参与",
-          "url": "https://www.gamersky.com/news/202610/2222815.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-08"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "name": "战争机器：事变日",
-      "heat_score": 29.9,
-      "media_count": 26,
+      "name": "战地6",
+      "heat_score": 28.7,
+      "media_count": 21,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -173,23 +158,23 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《战争机器：事变日》销量太惨！传微软临时取消PS5版遭质疑",
-          "url": "https://www.gamersky.com/news/202610/2225648.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-11"
+          "title": "DICE回应《战地6》皮肤争议：袖章错字将修复",
+          "url": "https://www.3dmgame.com/news/202610/3956830.html",
+          "source": "3DMGame",
+          "published_at": "2026-10-17"
         },
         {
-          "title": "《战争机器：事变日》Xbox版销量仅6万 但GamePass玩家170万",
-          "url": "https://www.3dmgame.com/news/202610/3956012.html",
+          "title": "《战地6》第5赛季热修复更新 解决声音突然中断",
+          "url": "https://www.3dmgame.com/news/202610/3956661.html",
           "source": "3DMGame",
-          "published_at": "2026-10-10"
+          "published_at": "2026-10-15"
         }
       ]
     },
     {
-      "rank": 9,
-      "name": "龙之信条2",
-      "heat_score": 27.9,
+      "rank": 8,
+      "name": "不朽遗志",
+      "heat_score": 28.4,
       "media_count": 18,
       "source_count": 3,
       "reservation_label": null,
@@ -199,25 +184,25 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《龙之信条2》登陆NS2 能插帧到60 超出预期",
-          "url": "https://www.gamersky.com/news/202610/2224829.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-10"
+          "title": "《不朽遗志》推送首个正式更新 修复大量流程与崩溃BUG",
+          "url": "https://www.ali213.net/news/html/2026-10/1047423.html",
+          "source": "游侠网",
+          "published_at": "2026-10-18"
         },
         {
-          "title": "褒贬不一！《龙之信条2》黑暗觉者上线 定价引玩家不满",
-          "url": "https://www.ali213.net/news/html/2026-10/1045263.html",
-          "source": "游侠网",
-          "published_at": "2026-10-10"
+          "title": "类魂新作《不朽遗志》体验糟糕官方紧急更新！致歉玩家 承诺还会修",
+          "url": "https://www.gamersky.com/news/202610/2230109.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-17"
         }
       ]
     },
     {
-      "rank": 10,
-      "name": "银松镇",
-      "heat_score": 26.8,
-      "media_count": 7,
-      "source_count": 4,
+      "rank": 9,
+      "name": "地铁2039",
+      "heat_score": 28.2,
+      "media_count": 19,
+      "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": null,
@@ -225,18 +210,27 @@
       "official_count": 0,
       "news": [
         {
-          "title": "恐怖游戏《银松镇》现已发售！早期Metacritic评分达到85%",
-          "url": "https://www.3dmgame.com/news/202610/3955929.html",
-          "source": "3DMGame",
-          "published_at": "2026-10-10"
-        },
-        {
-          "title": "生存恐怖游戏《银松镇》发售后口碑炸裂!Steam特别好评",
-          "url": "https://www.ali213.net/news/html/2026-10/1045287.html",
+          "title": "《地铁2039》 Epic页面配置标错?开发者临近发售再公布",
+          "url": "https://www.ali213.net/news/html/2026-10/1046367.html",
           "source": "游侠网",
-          "published_at": "2026-10-10"
+          "published_at": "2026-10-14"
         }
       ]
+    },
+    {
+      "rank": 10,
+      "name": "无限大",
+      "heat_score": 28.1,
+      "media_count": 0,
+      "source_count": 0,
+      "reservation_label": "382万",
+      "follow_delta_label": null,
+      "best_rank": 9,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": []
     }
   ]
 }

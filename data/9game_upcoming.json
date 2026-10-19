@@ -1,93 +1,9 @@
 {
-  "crawled_at": "2026-10-17T23:58:08.056386+00:00",
+  "crawled_at": "2026-10-19T00:09:23.675126+00:00",
   "days": [
     {
-      "date": "2026-10-13",
-      "date_label": "10月13日 周二",
-      "games": [
-        {
-          "game_name": "我叫MT",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": "登录送千抽",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/wjmtjq/",
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "终极英雄变身",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": "7.8",
-          "event_desc": "复古三职业传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zjyxbs/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "乱世龙魂",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/lslh/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "date_label": "10月14日 周三",
-      "games": [
-        {
-          "game_name": "龙之谷：启程",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/lzgqc/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "date_label": "10月15日 周四",
-      "games": [
-        {
-          "game_name": "剑侠世界4",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/jxsj4wx/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "宝贝星球",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/baobeixingqiu1/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "date_label": "10月18日 明天",
+      "date": "2026-10-19",
+      "date_label": "10月19日 今天",
       "games": [
         {
           "game_name": "最强帮主",
@@ -103,20 +19,9 @@
       ]
     },
     {
-      "date": "2026-10-19",
-      "date_label": "10月19日 后天",
+      "date": "2026-10-20",
+      "date_label": "10月20日 明天",
       "games": [
-        {
-          "game_name": "点点山海",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": "万抽开局",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/diandianshanhai/",
-          "has_afk_grinding_tag": true
-        },
         {
           "game_name": "长夜守卫者",
           "categories": [
@@ -129,6 +34,17 @@
           "has_afk_grinding_tag": false
         },
         {
+          "game_name": "点点山海",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": "万抽开局",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/diandianshanhai/",
+          "has_afk_grinding_tag": true
+        },
+        {
           "game_name": "暗黑烈刃",
           "categories": [
             "卡牌"
@@ -138,12 +54,23 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/anheilieren/",
           "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "大武林",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/dawulin/",
+          "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-10-21",
-      "date_label": "10月21日 下周三",
+      "date_label": "10月21日 后天",
       "games": [
         {
           "game_name": "奇迹梦之队",
@@ -182,7 +109,7 @@
     },
     {
       "date": "2026-10-22",
-      "date_label": "10月22日 下周四",
+      "date_label": "10月22日 周四",
       "games": [
         {
           "game_name": "合战天下",
@@ -221,7 +148,7 @@
     },
     {
       "date": "2026-10-23",
-      "date_label": "10月23日 下周五",
+      "date_label": "10月23日 周五",
       "games": [
         {
           "game_name": "飞跃巅峰",
@@ -260,7 +187,7 @@
     },
     {
       "date": "2026-10-27",
-      "date_label": "10月27日",
+      "date_label": "10月27日 下周二",
       "games": [
         {
           "game_name": "仙域传说",
@@ -277,7 +204,7 @@
     },
     {
       "date": "2026-10-28",
-      "date_label": "10月28日",
+      "date_label": "10月28日 下周三",
       "games": [
         {
           "game_name": "魔神英雄传",
@@ -294,7 +221,7 @@
     },
     {
       "date": "2026-10-30",
-      "date_label": "10月30日",
+      "date_label": "10月30日 下周五",
       "games": [
         {
           "game_name": "纯白轨迹",
