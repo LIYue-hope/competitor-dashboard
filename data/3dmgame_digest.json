@@ -1,100 +1,207 @@
 {
-  "generated_at": "2026-10-19T00:16:41.183512+00:00",
+  "generated_at": "2026-10-20T01:14:12.315668+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-19",
-      "article_count": 24,
-      "game_count": 14,
-      "untagged_count": 7,
-      "digest": "2026年10月19日游戏行业资讯聚焦于多款重磅大作的最新动态与发售信息。动视营销总监泰勒·鲍尔将《使命召唤：现代战争4》与《GTA6》视为2026年推动玩家回归主机的关键作品，并透露《使命召唤》将登陆Switch 2且不首发进入Game Pass。此外，《最终幻想：共鸣》公布了Switch 2与Switch双平台的发售日期、售价及容量，而《影之刃零》则凭借超300万份愿望单进入Steam热门即将推出榜前十。",
+      "date": "2026-10-20",
+      "article_count": 26,
+      "game_count": 20,
+      "untagged_count": 1,
+      "digest": "2026年10月20日，当天3DMGame新闻共26条，涉及20款游戏，整体围绕游戏动态更新、联名发布、引擎应用及项目规划展开，涉及GTA6、影之刃零、使命召唤：现代战争4、匹诺曹的谎言等游戏的相关动态。",
       "digest_source": "llm",
-      "input_hash": "fe6bc76dab04e09e",
+      "input_hash": "7902f1919e939dde",
       "game_digests": [
         {
           "name": "GTA6",
+          "count": 5,
+          "summary": "《GTA6》美术团队约65人 为《给他爱5》时期十倍以上；《GTA6》预告三天播放量超过《给他爱5》13年累计；《GTA6》发售预告三天播放量 超过前作13年成绩（当天共 5 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
           "count": 2,
-          "summary": "曝《GTA6》拥有数百个可探索室内空间，数量超过R星此前任何作品，开发团队为这些建筑投入大量时间进行手工打造，有望提高罪恶都市的空间密度。",
-          "summary_source": "llm"
+          "summary": "《影之刃零》全新联名系列公开 衬衫卫衣棉服等很帅；《影之刃零》PS5下载容量约134.857GB 10月27日开放预载。",
+          "summary_source": "rules"
         },
         {
           "name": "使命召唤：现代战争4",
-          "count": 2,
-          "summary": "动视营销总监认为本作与《GTA6》是2026年最重要的两款游戏，将推动玩家回归主机，并确认本作将登陆Switch 2且不首发进入Game Pass。",
+          "count": 1,
+          "summary": "无需高端主机和PC 玩家也能游玩《使命召唤：现代战争4》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "匹诺曹的谎言",
+          "count": 1,
+          "summary": "《匹诺曹的谎言》续作或将采用虚幻5引擎开发。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "古墓丽影：亚特兰蒂斯遗迹",
+          "count": 1,
+          "summary": "《古墓丽影：亚特兰蒂斯遗迹》将保留记忆点并调整旧作细节。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "命运2",
+          "count": 1,
+          "summary": "Bungie重新为《命运2》招聘交互设计师 继续投入后续维护。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3：重制版",
+          "count": 1,
+          "summary": "《巫师3：重制版》5.01更新改善Switch 2画质与存档。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师：传承",
+          "count": 1,
+          "summary": "桌游《巫师：传承》确定2027年夏季推出 支持四人合作。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫火",
+          "count": 1,
+          "summary": "《巫火》团队拒绝多方投资保持独立 导致开发周期近十年。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "愚者不灭",
+          "count": 1,
+          "summary": "《愚者不灭》评测：朋克美术亮眼，迟钝战斗拖累11种变身。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "星球大战",
+          "count": 1,
+          "summary": "卢卡斯与大小伙伴探索多种《星球大战》游戏。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "星球大战：前线3",
+          "count": 1,
+          "summary": "传卢卡斯接触DICE与Bungie评估开发《星球大战：前线3》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "最后生还者",
+          "count": 1,
+          "summary": "前卡普空高管称《最后生还者》推动《生化危机7》转向叙事恐怖。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "最终幻想7：启示",
+          "count": 1,
+          "summary": "《最终幻想7：启示》困难模式首周目开放并重新设计。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "灰烬之城",
+          "count": 1,
+          "summary": "《灰烬之城》新预告详解战术装备 载具及单人合作玩法。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "article_count": 95,
+      "game_count": 64,
+      "untagged_count": 18,
+      "digest": "10月19日游戏行业资讯涵盖多款热门作品动态，包括《使命召唤：现代战争4》玩家挑战一命通关YOLO模式、《GTA6》引发关于虚拟恋爱的社会调查、以及《塞尔达：时之笛》重制版周边预购开启等。此外，还有《上古卷轴4：湮灭重制版》性能模组优化、万智牌联动延期、以及《中世纪崛起》参展Steam新品节等消息。",
+      "digest_source": "llm",
+      "input_hash": "55b6d8348d57d874",
+      "game_digests": [
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 6,
+          "summary": "玩家自述通关YOLO一命模式，该模式要求一命通关且无法在初次进入时选择，需先完成任意难度战役解锁，采用写实伤害规则，友军误伤也会导致重置。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 5,
+          "summary": "YouGov调查显示约6%英国受访者认为伴侣在游戏中与虚构角色恋爱是出轨，该讨论与游戏主角关系机制有关，但具体机制尚未获开发商完整确认。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达：时之笛 重制版",
+          "count": 3,
+          "summary": "HORI推出授权电子陶笛，支持游戏声音识别功能，含自由演奏与自动演奏12首曲目两种模式，定于11月5日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说：时之笛",
           "count": 2,
-          "summary": "曝重制版可能不只升级画面，还会新增小规模支线互动，并调整射击小游戏和森林神殿布局，为熟悉旧版流程的玩家带来新挑战。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "双人成行",
-          "count": 1,
-          "summary": "面向Switch2推出的免费升级出现异常，原有Switch版持有者暂时无法按正常路径完成升级，开发商已知悉问题并准备修复。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "幻兽帕鲁",
-          "count": 1,
-          "summary": "团队表示新增帕鲁不会以凑数量为目标，每只新成员都至少要有一项能被玩家记住的特点，并强调随着阵容扩大整体平衡会更加复杂。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "在发售前进入Steam商店首页“热门即将推出游戏”前十，厂商确认本作在所有可用商店平台的愿望单总量已经超过300万。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想：共鸣",
-          "count": 1,
-          "summary": "将于2026年10月22日登陆Switch 2和Switch，标准版售价59.99欧元，Switch 2版需要11.7GB存储空间，Switch版为8.8GB。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "火焰纹章：万缕千丝",
-          "count": 1,
-          "summary": "与《塞尔达传说：时之笛》一同入围2026年金摇杆奖最佳主机游戏候选名单，投票将于10月23日截止。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "火焰纹章：觉醒",
-          "count": 1,
-          "summary": "通过休闲模式和角色关系系统降低上手门槛，最终销量超过200万份，帮助一度面临停产危机的战棋系列完成复兴。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "科乐美",
-          "count": 1,
-          "summary": "社长早川英树在财报中判断AI可能不会显著改变游戏市场，认为即使AI能提高开发效率，人与创作者仍是打造有趣、富有创新性电子游戏的关键。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "辐射：新维加斯",
-          "count": 1,
-          "summary": "RTX模组上线，采用经过修改的NVIDIA RTX Remix版本为游戏加入路径追踪光照以及新的天空和天气系统。",
+          "summary": "外媒回忆该作1998年登陆N64时的震撼，但作者如今更偏爱系列其他作品，认为当年的评价或许受硬件条件和业界摸索3D设计的影响。",
           "summary_source": "llm"
         },
         {
           "name": "逃生",
-          "count": 1,
-          "summary": "创始人回忆测试者因作品的强烈恐怖内容哭着离开，此后没有再回到工作室，如今团队会在招聘面试中提前说明作品的创作尺度。",
+          "count": 2,
+          "summary": "发售五个月后销量达到40万份，联合创始人回顾了团队曾面临的融资困难与发行困境，当时团队仅有10人。",
           "summary_source": "llm"
         },
         {
-          "name": "醉酒女神：反流",
+          "name": "GT赛车：SPORT",
           "count": 1,
-          "summary": "原定于10月19日开放的公开试玩被取消，改为仅向有限数量的参与者提供封闭线上试玩，开发者担心独立游戏创意遭到快速复制。",
+          "summary": "非官方PC移植项目已在GitHub提供，针对着色器卡顿问题提供预编译、暂停编译及批量预编译三种处理方案。",
           "summary_source": "llm"
         },
         {
-          "name": "黑暗之魂2",
+          "name": "Monster Hunter Puzzles: Felyne Isles",
           "count": 1,
-          "summary": "数据挖掘者Doneda展示了开发早期废弃的大型原型区域，包括巨型竞技场、矿井、地下高塔和墓穴等部分。",
+          "summary": "官方宣布将于2027年1月14日停止所有联网功能，但会推出单机版以保留玩家进度。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Rain98",
+          "count": 1,
+          "summary": "Lo-Fi心理悬疑冒险游戏Steam体验版正式上线，游玩时长超过3小时，支持9种语言。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "War Robots",
+          "count": 1,
+          "summary": "Steam版八年半收入达5000万美元，平台玩家超310万，该作在所有平台上的总收入已于2025年2月超过10亿美元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "XXXX",
+          "count": 1,
+          "summary": "高难度射击动作游戏开放试玩，玩家只能接住蓝色子弹反击首领，PC版计划于2026年内推出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "万智牌",
+          "count": 1,
+          "summary": "威世智确认“星际迷航”联动系列多地区供货延期，北美指挥官套牌可能无法赶上发售日，欧洲、中东、非洲及亚太地区部分产品也受影响。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴4：湮灭重制版",
+          "count": 1,
+          "summary": "玩家制作的开源性能模组测试显示平均帧率提升超40%，主要缓解CPU瓶颈及卡顿问题。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴5：天际",
+          "count": 1,
+          "summary": "英国小报将一起动物园死亡事件与该作联系起来，引发关于游戏影响现实行为的争议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "中世纪崛起",
+          "count": 1,
+          "summary": "参展Steam新品节，免费试玩版10月19日至26日开放，支持Windows、macOS和Linux。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：黑色行动7",
+          "count": 1,
+          "summary": "据称遭破解，剧情战役可离线启动，黑客程序还能本地加载僵尸、多人游戏和《使命召唤：战争地带》等模式。",
           "summary_source": "llm"
         }
       ]
@@ -202,160 +309,160 @@
     },
     {
       "date": "2026-10-17",
-      "article_count": 48,
-      "game_count": 29,
+      "article_count": 50,
+      "game_count": 31,
       "untagged_count": 5,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》因频繁毒品使用获18+评级引发争议，以及《使命召唤：现代战争4》Steam好评收官。此外，《影之刃零》公布PS5版134GB容量与发售信息，《恶意不息》展示1.0版职业系统，而《战地6》第5赛季或联动《质量效应》与《死亡空间》。",
+      "digest": "今日游戏行业资讯聚焦于《GTA6》因毒品使用频繁突出获PEGI 18+评级引发争议，以及《使命召唤：现代战争4》Steam好评如潮被赞系列巅峰。此外，《影之刃零》PS5版容量超134GB即将发售，《恶意不息》公布1.0版本职业系统，多款大作与独立游戏均有新动态。",
       "digest_source": "llm",
-      "input_hash": "e3b40b36c07e8ec1",
+      "input_hash": "a33d99003a4cbe54",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 7,
-          "summary": "《GTA6》获PEGI 18+评级，新增频繁且突出的毒品使用内容，玩家可随时携带并吸食违禁品。",
+          "summary": "《GTA6》因毒品使用频繁且突出获PEGI 18+评级，玩家可随时携带并吸食可卡因，引发关于游戏内容尺度的讨论。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤：现代战争4",
           "count": 6,
-          "summary": "《使命召唤：现代战争4》Steam特别好评，被誉系列最佳，标志着线性玩法回归。",
+          "summary": "《使命召唤：现代战争4》Steam特别好评，媒体与粉丝赞誉其单人战役回归系列巅峰，剧情丰富且黑暗。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 2,
-          "summary": "《影之刃零》PS5版容量达134.857GB，10月27日开启预载，10月29日发售。",
+          "summary": "《影之刃零》PS5版下载容量为134.857GB，10月27日开启预载，10月29日发售，Steam国区标准版售价268元。",
           "summary_source": "llm"
         },
         {
           "name": "恶意不息",
           "count": 2,
-          "summary": "《恶意不息》公开1.0版本职业系统，移除属性限制，玩家拾取武器即可选择24个职业。",
+          "summary": "Moon Studios公布《恶意不息》1.0版本新职业系统，移除属性限制，玩家拾取武器即可选择24个职业并转移特性。",
           "summary_source": "llm"
         },
         {
           "name": "战地6",
           "count": 2,
-          "summary": "《战地6》第5赛季或加入《质量效应》与《死亡空间》联动饰品，预计11月7日前后推出。",
+          "summary": "《战地6》第5赛季疑似将加入《质量效应》与《死亡空间》联动饰品，相关物品可能在11月7日前后推出。",
           "summary_source": "llm"
         },
         {
           "name": "Arc Raiders",
           "count": 1,
-          "summary": "《Arc Raiders》影视改编将偏向角色驱动叙事，游戏叙事感较弱，仅靠碎片化信息补充。",
+          "summary": "《Arc Raiders》影视改编将偏向角色驱动的叙事，以弥补原作游戏叙事感较弱的不足。",
           "summary_source": "llm"
         },
         {
           "name": "DayZ",
           "count": 1,
-          "summary": "《DayZ》创作者迪恩·霍尔开源名为“Brutal”的C#框架，旨在帮助开发者摆脱Unity与虚幻引擎束缚。",
+          "summary": "《DayZ》创作者迪恩·霍尔认为AI主导的开发流程加速了行业腐朽，并开源名为“Brutal”的C#框架以替代Unity。",
           "summary_source": "llm"
         },
         {
           "name": "V社",
           "count": 1,
-          "summary": "前V社编剧称加布·纽维尔将Steam设计为一款MMO，通过账号升级、掉落和交易卡等功能增强用户黏性。",
+          "summary": "前V社编剧称加布·纽维尔将Steam按一款MMO设计，通过账号升级、游戏掉落和交易卡等功能增强用户黏性。",
           "summary_source": "llm"
         },
         {
           "name": "不朽遗志",
           "count": 1,
-          "summary": "《不朽遗志》首个正式更新上线，修复第4、12章进度阻断及多平台崩溃问题。",
+          "summary": "《不朽遗志》首个正式更新上线，修复了第4、12章进度阻断、过场未触发及Xbox版图形异常等问题。",
           "summary_source": "llm"
         },
         {
           "name": "任天堂明星大乱斗",
           "count": 1,
-          "summary": "樱井政博称若沿用传统一对一规则，系列可能无法问世，原创性对企划至关重要。",
+          "summary": "樱井政博称若初代沿用传统一对一规则，该作可能无法问世，强调原创性对游戏企划的重要性。",
           "summary_source": "llm"
         },
         {
           "name": "卡莉亚的炼金工房",
           "count": 1,
-          "summary": "《卡莉亚的炼金工房》据称将加入体重机制，该调整源自粉丝投票，支持意见占优。",
+          "summary": "《卡莉亚的炼金工房》据称将加入与角色体重相关的玩法机制，该调整源自粉丝投票。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达时之笛",
           "count": 1,
-          "summary": "《时之笛》重制版将加入全新支线任务，如药水店老板的虫子委托及难度更高的打靶小游戏。",
+          "summary": "《塞尔达时之笛》重制版将加入全新支线任务，并推出难度更高的打靶小游戏，细节调整重燃老玩家兴趣。",
           "summary_source": "llm"
         },
         {
           "name": "巫师4",
           "count": 1,
-          "summary": "BioWare前制作人警告CDPR进入超大型游戏危险区间，游戏需售出1500万至2000万份才能盈利。",
+          "summary": "BioWare前制作人Mark Darrah警告CDPR已进入超大型游戏危险区间，认为《GTA6》等超大规模项目影响了行业方向。",
           "summary_source": "llm"
         },
         {
           "name": "我的世界",
           "count": 1,
-          "summary": "《我的世界》上线《降世神通：传奇》附加包，玩家可修习水、火、气、土四种元素能力。",
+          "summary": "《我的世界》上线《降世神通：传奇》附加包，玩家可修习水、火、气、土四种元素能力并对抗敌人。",
           "summary_source": "llm"
         },
         {
           "name": "战争机器",
           "count": 1,
-          "summary": "前《战争机器》制作人认为《事变日》中马库斯被边缘化，剧情高光时刻多由其他角色获得。",
+          "summary": "前《战争机器》制作人劳拉·弗莱尔认为《战争机器：事变日》中主角马库斯被边缘化，剧情高光时刻被其他角色占据。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-10-16",
-      "article_count": 135,
+      "article_count": 139,
       "game_count": 91,
-      "untagged_count": 14,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》的HDR画面技术争议、微星与动视合作推出《使命召唤：现代战争4》联名显卡，以及《塞尔达传说：时之笛》重制版在法国的预购赠品活动。此外，《魔兽世界：无限》宣传视频引发AI质疑但遭员工否认，而《霜港迷城》PC版正式上线并宣布新作公开测试。",
+      "untagged_count": 18,
+      "digest": "今日游戏资讯聚焦于《GTA6》画面技术争议、微星推出《使命召唤：现代战争4》联名显卡以及《塞尔达传说：时之笛》重制版预购赠品等热点。此外，《魔兽世界：无限》否认使用AI制作宣传视频，而《霜港迷城》PC版正式上线，多款游戏更新与发售动态也占据重要版面。",
       "digest_source": "llm",
-      "input_hash": "2ea4df4572fd712e",
+      "input_hash": "786a3029e51fa708",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 10,
-          "summary": "《GTA6》发售预告公布后，其HDR画面处理受到质疑，分析者认为预告的HDR高光并未比SDR素材呈现更多细节，怀疑影像可能由SDR逆向映射而来。",
+          "summary": "《GTA6》发售预告公布后，其HDR画面处理受到质疑，分析者认为预告的HDR高光并未比SDR素材呈现更多细节，怀疑是SDR逆向映射，泳池场景出现偏紫与渐变断层。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤：现代战争4",
           "count": 5,
-          "summary": "微星与动视合作推出了GeForce RTX 5080 16G COD MW4 EDITION OC显卡，这是一款以黑黄配色、幽灵图案为特色的限量版显卡，将于10月23日发售。",
+          "summary": "微星与动视合作推出GeForce RTX 5080 16G COD MW4 EDITION OC限量版显卡，以黑黄配色和定制散热系统为特色，将于10月23日发售。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤",
           "count": 3,
-          "summary": "动视首席营销官Tyler Bahl表示《使命召唤》后续作品需要创新，系列应随着行业环境和受众需求变化作出调整，目前尚无具体的新机制或发行安排。",
+          "summary": "动视首席营销官Tyler Bahl表示《使命召唤》后续作品需要创新，系列应随行业环境变化调整，目前尚无具体新机制或发行安排，动视已确认启动全新子系列工作。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛",
           "count": 3,
-          "summary": "法国连锁店Micromania将为预购《塞尔达传说：时之笛》重制版的顾客提供一款以原版N64欧版包装为原型的复制盒，游戏计划于11月5日登陆Switch 2。",
+          "summary": "法国Micromania将为预购《塞尔达传说：时之笛》重制版的顾客提供一款N64欧版包装复制盒，游戏计划于11月5日登陆Nintendo Switch 2。",
           "summary_source": "llm"
         },
         {
           "name": "宝可梦：Pokopia",
           "count": 3,
-          "summary": "宝可梦公司公布了圣诞主题周边“圣诞准备中！”，日本宝可梦中心线上商店将于10月22日10时开售，包含皮卡丘、巨蔓藤等角色的节日装扮商品。",
+          "summary": "宝可梦公司公布圣诞主题周边“圣诞准备中！”，日本宝可梦中心线上商店将于10月22日10时开售，包含皮卡丘、巨蔓藤等角色的节日装扮商品。",
           "summary_source": "llm"
         },
         {
           "name": "英雄联盟",
           "count": 3,
-          "summary": "《英雄联盟》2026全球总决赛入围赛首场系列赛由欧洲赛区的Karmine Corp对阵北美赛区的Cloud9，双方打满五局，Karmine Corp最终以3比2获胜。",
+          "summary": "《英雄联盟》2026全球总决赛入围赛首场，Karmine Corp以3比2击败Cloud9，双方打满五局，Karmine Corp中单kyeahoo使用阿狸成为取胜关键。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤：黑色行动7",
           "count": 2,
-          "summary": "Treyarch与Raven Software确认，本次1.109更新也是《使命召唤：黑色行动7》僵尸模式的最后一次游戏更新，同时修复了武器及玩法问题。",
+          "summary": "Treyarch与Raven Software确认，1.109更新也是《使命召唤：黑色行动7》僵尸模式的最后一次游戏更新，并修复了寻路、瞄具显示等技术问题。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说",
           "count": 2,
-          "summary": "Skull & Co旗下Savage Raven推出《塞尔达传说》风格的FissionGrip限定版Switch 2握把壳，现已开放预购，标价为55.99美元。",
+          "summary": "Skull & Co旗下Savage Raven推出《塞尔达传说》风格FissionGrip限定版Switch 2握把壳，现已开放预购，标价55.99美元。",
           "summary_source": "llm"
         },
         {
@@ -367,191 +474,191 @@
         {
           "name": "恶魔城：贝尔蒙特的诅咒",
           "count": 2,
-          "summary": "《恶魔城：贝尔蒙特的诅咒》于10月15日上线，发售约10小时后好评率为59%，同时Steam最高在线人数刷新了系列纪录。",
+          "summary": "《恶魔城：贝尔蒙特的诅咒》于10月15日上线，发售约10小时好评率为59%，同时在线人数刷新系列纪录，达到17896人。",
           "summary_source": "llm"
         },
         {
           "name": "战地6",
           "count": 2,
-          "summary": "《战地6》第5赛季上线后出现经验获取效率下降的问题，Battlefield Studios确认异常源于后台配置变更，目前已回滚相关配置。",
+          "summary": "《战地6》第5赛季上线后出现经验获取效率下降问题，Battlefield Studios确认异常源于后台配置变更，目前已回滚相关配置。",
           "summary_source": "llm"
         },
         {
           "name": "杀手5：赦免",
           "count": 2,
-          "summary": "《杀手5：赦免》将于10月22日登陆Nintendo Switch 2，Switch版玩家可限时免费升级至Switch 2版。",
+          "summary": "《杀手5：赦免》Nintendo Switch 2版定于10月22日推出，Switch版玩家可限时免费升级。",
           "summary_source": "llm"
         },
         {
           "name": "生化危机",
           "count": 2,
-          "summary": "Switch2于10月16日迎来六款游戏，其中三款《生化危机》作品可在主机本机运行，无须依赖云端，本次以旧作移植为主。",
+          "summary": "Switch2于10月16日迎来六款游戏，其中三款《生化危机》作品可在主机本机运行，无须依赖云端。",
           "summary_source": "llm"
         },
         {
           "name": "霜港迷城",
           "count": 2,
-          "summary": "《霜港迷城》PC 1.0 正式版今日上线，并公开全新发售宣传片，发行商Arc Games同时宣布新作《Nautus》开启公开测试。",
+          "summary": "《霜港迷城》PC 1.0正式版今日上线，Arc Games还宣布全新水下冒险游戏Nautus即刻开启公开测试。",
           "summary_source": "llm"
         },
         {
           "name": "魔兽世界：无限",
           "count": 2,
-          "summary": "《魔兽世界：无限》宣传视频遭质疑使用生成式AI，暴雪两名员工随后公开否认，称视频脚本由团队撰写，画面由团队获取和剪辑。",
+          "summary": "《魔兽世界：无限》宣传视频遭质疑使用生成式AI，暴雪两名员工公开否认，称视频脚本由团队撰写，画面由团队获取和剪辑。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-10-15",
-      "article_count": 123,
+      "article_count": 125,
       "game_count": 83,
-      "untagged_count": 14,
-      "digest": "R星发布《GTA6》发售宣传片并公布原声专辑，任天堂公布《塞尔达：时之笛 重制版》新预告与试玩细节，动视公布《使命召唤：现代战争4》战役抢先体验开启时间。此外，Epic计划将《堡垒之夜》带到Linux，DICE修复《战地6》声音中断问题，KONAMI宣布《Castlevania: Belmont's Curse》今日发售。",
+      "untagged_count": 16,
+      "digest": "R星发布《GTA6》发售宣传片并公布原声专辑，任天堂公布《塞尔达：时之笛 重制版》新预告与试玩细节，动视公布《使命召唤：现代战争4》战役抢先体验开启时间。此外，Epic计划将《堡垒之夜》带到Linux，DICE发布《战地6》第5赛季热修复，独立FPS《战犬》登顶Steam新作榜，IO Interactive公布《007：初露锋芒》NS2版发售日，KONAMI宣布《Castlevania: Belmont's Curse》发售。",
       "digest_source": "llm",
-      "input_hash": "e583a6fa481f6b63",
+      "input_hash": "3a6615ba91ff915a",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 14,
-          "summary": "R星发布《GTA6》发售宣传片，距离正式发售还有一个月多一点的时间，预告片使用了Justice的全新音乐，该单曲收录于《GTA6：原声专辑》中，专辑现已在各大音乐流媒体平台开放预存。",
+          "summary": "R星发布《GTA6》发售宣传片，原声专辑开放预存，Justice新单曲收录其中。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达：时之笛 重制版",
           "count": 4,
-          "summary": "任天堂发布《塞尔达：时之笛 重制版》新预告，展示更新后的海拉鲁场景与玩法，新加入“陨落英雄大厅”可与怪物再战，试玩画面据称以每秒60帧运行。",
+          "summary": "任天堂发布新预告，展示海拉鲁场景与“陨落英雄大厅”玩法，IGN试玩称画面以60帧运行。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤：现代战争4",
           "count": 3,
-          "summary": "《使命召唤：现代战争4》战役抢先体验将于10月16日开启，Infinity Ward发文呼吁社区禁止剧透，本作还将在10月20日开启DMZ抢先体验，并于10月23日正式发售。",
+          "summary": "官方发文呼吁社区禁止剧透，战役抢先体验将于10月16日开启，DMZ与正式发售时间已定。",
           "summary_source": "llm"
         },
         {
           "name": "堡垒之夜",
           "count": 2,
-          "summary": "Epic计划通过新版启动器将《堡垒之夜》带到Linux，有玩家称已实现从Steam启动《堡垒之夜》，启动时无需打开Epic完整界面，开发者称最困难的是把游戏必需的组件与平台其余部分区分开来。",
+          "summary": "Epic计划通过新版启动器将游戏带到Linux，有玩家称已实现从Steam启动游戏。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛",
           "count": 2,
-          "summary": "《塞尔达传说：时之笛》重制版新增“娜薇的想法”收集物，藏在海拉鲁各地，玩家找到后可读到她留下的隐藏留言，游戏计划于2026年11月5日发售。",
+          "summary": "重制版新增“娜薇的想法”收集物，支持旧款amiibo，发售日定于2026年11月5日。",
           "summary_source": "llm"
         },
         {
           "name": "战地6",
           "count": 2,
-          "summary": "DICE发布1.000.035热修复，解决《战地6》第5赛季声音突然中断的问题，并暂时关闭了REDSEC模式Rapid Royale中运行异常的空袭功能。",
+          "summary": "DICE发布热修复补丁解决声音中断问题，51区地图UFO彩蛋被破解可获武器挂件。",
           "summary_source": "llm"
         },
         {
           "name": "战犬",
           "count": 2,
-          "summary": "独立百人FPS《战犬》登顶9月Steam新作榜，狂揽1.1亿美元，截至9月底约350万份的Steam销量位居当月新作销量榜首，日常同时在线人数约为20万。",
+          "summary": "独立百人FPS《战犬》登顶9月Steam新作榜，Steam销量约350万份，总收入约1.1亿美元。",
           "summary_source": "llm"
         },
         {
           "name": "火焰纹章 万缕千丝",
           "count": 2,
-          "summary": "任天堂公布了《火焰纹章 万缕千丝》的三弹追加内容，首弹武器现已上线，后两弹分别预计于2026年冬季和2027年推出，涉及武器、可招募角色、服装和新剧情。",
+          "summary": "任天堂公布三弹追加内容，首弹武器现已上线，后续内容预计于2026年冬季和2027年推出。",
           "summary_source": "llm"
         },
         {
           "name": "英雄联盟",
           "count": 2,
-          "summary": "《英雄联盟》LCP晋升资格战将于11月10日至13日在越南胡志明市举行，争夺2027年LCP的两个参赛席位，Ground Zero Gaming和DetonatioN FocusMe将分别捍卫自己的参赛资格。",
+          "summary": "官方公布LCP晋升资格战安排，将于11月10日至13日在越南举行，争夺2027年两个参赛席位。",
           "summary_source": "llm"
         },
         {
           "name": "赛博朋克2",
           "count": 2,
-          "summary": "《赛博朋克2》总监Gabe Amatangelo表示，随着团队扩充，最初构想不断演变，他想探索非人化的概念，随着更多人加入，项目正逐渐成为参与者的“反映”。",
+          "summary": "总监Gabe Amatangelo谈续作创作，表示随着团队扩充，最初构想正不断演变。",
           "summary_source": "llm"
         },
         {
           "name": "超级马力欧64",
           "count": 2,
-          "summary": "玩家将《超级马力欧64》移植到微软Zune HD，让这款便携媒体播放器可以通过触摸屏运行游戏，并支持声音和存档，项目作者称游戏“大部分时间”可以全速运行。",
+          "summary": "玩家将游戏移植到微软Zune HD，支持触控、声音与存档，大部分时间可全速运行。",
           "summary_source": "llm"
         },
         {
           "name": "007：初露锋芒",
           "count": 1,
-          "summary": "IO Interactive宣布《007：初露锋芒》Switch2版将于2027年3月18日推出，现已开放预购，游戏此前于2026年5月27日登陆PS5、XSX/S和PC平台。",
+          "summary": "IO Interactive宣布NS2版将于2027年3月18日推出，现已开放预购。",
           "summary_source": "llm"
         },
         {
           "name": "3DMark",
           "count": 1,
-          "summary": "3DMark发布2.32.8919版，更新重点是加强对Windows on Arm平台的支持，Night Raid面向集成显卡和入门级显卡，也可在Arm版Windows环境中使用。",
+          "summary": "发布2.32.8919版，更新重点是加强对Windows on Arm平台的支持。",
           "summary_source": "llm"
         },
         {
           "name": "Acts of Blood",
           "count": 1,
-          "summary": "《Acts of Blood》PC版将于12月4日登陆Steam和Microsoft Store，PlayStation 5及Xbox Series版定于2027年推出，这是一款以近身搏斗为核心的动作游戏。",
+          "summary": "PC版定于12月4日推出，PS5和Xbox Series版定于2027年上线。",
           "summary_source": "llm"
         },
         {
           "name": "Castlevania: Belmont's Curse",
           "count": 1,
-          "summary": "《Castlevania: Belmont's Curse》今日登陆PlayStation®5、Nintendo Switch™、Xbox Series X|S、Xbox on PC及Steam®等平台，玩家手持圣鞭“吸血鬼杀手”猎杀邪恶怪物。",
+          "summary": "KONAMI宣布游戏现已登陆PS5、Switch、Xbox Series X|S、Xbox on PC及Steam等平台。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-10-14",
-      "article_count": 138,
+      "article_count": 140,
       "game_count": 90,
-      "untagged_count": 18,
-      "digest": "今日游戏资讯聚焦于R星对《GTA6》夜总会细节的深度挖掘，以及《战地6》年度版发售与涨价预告。此外，《不朽遗志》正式发售，而《全面战争：幕府将军2》重制版因AI画面与Bug遭遇差评潮。多款经典与新作如《地铁2039》、《影之刃零》及《塞尔达传说：时之笛》Switch 2版均有相关动态更新。",
+      "untagged_count": 20,
+      "digest": "今日游戏行业资讯聚焦于R星新作《GTA6》的美术细节揭秘、育碧《战地6》推出年度版及新赛季，以及《不朽遗志》正式发售。此外，《全面战争：幕府将军2》重制版因画质与优化问题遭遇差评，而《塞尔达传说：时之笛》Switch 2版及《给他爱5》退出PS Plus等消息也引发关注。",
       "digest_source": "llm",
-      "input_hash": "c66b54fe79982814",
+      "input_hash": "2bb2ecb9fe1da030",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 12,
-          "summary": "R星透露美术师曾随警员巡逻、走访夜总会，为打造真实聚会场所收集素材，夜总会灯光系统将随音乐同步变化。",
+          "summary": "R星美术师透露团队曾前往迈阿密考察夜总会，为游戏设计真实依据，并制作了随音乐同步变化的灯光系统，强调细节“一层又一层”。",
           "summary_source": "llm"
         },
         {
           "name": "战地6",
           "count": 5,
-          "summary": "《战地6》推出年度游戏版，PC版现售59.99欧元，将于10月20日涨价至99.99欧元，S5赛季上线新狙击枪ELR-40。",
+          "summary": "《战地6》推出年度游戏版，PC版现售59.99欧元，将于10月20日涨价至99.99欧元，并包含Battlefield Pro通行证及70余件武器。",
           "summary_source": "llm"
         },
         {
           "name": "动物园之星2",
           "count": 3,
-          "summary": "人气模拟续作《动物园之星2》正式揭晓，首次收录纯水生物种与飞行物种，并推出全球保育项目玩法。",
+          "summary": "人气模拟续作《动物园之星2》正式揭晓，首次收录纯水生物种与飞行物种，并推出跨平台创意工坊与全球保育项目。",
           "summary_source": "llm"
         },
         {
           "name": "地铁2039",
           "count": 3,
-          "summary": "游戏现已开启预购，将于2027年2月5日登陆PS5、Xbox Series X|S及PC平台，预购玩家可获得专家组合包。",
+          "summary": "《地铁2039》现已开启预购，将于2027年2月5日登陆PS5、Xbox Series X|S及PC平台，预购玩家可获得专家组合包。",
           "summary_source": "llm"
         },
         {
           "name": "PEAK",
           "count": 2,
-          "summary": "合作登山游戏《PEAK》PS5版现身ESRB评级网站，PC版累计销量近2000万份，但官方尚未确认移植计划。",
+          "summary": "合作登山游戏《PEAK》PS5版现身ESRB评级网站，开发团队尚未确认移植计划，PC版累计销量已接近2000万份。",
           "summary_source": "llm"
         },
         {
           "name": "不朽遗志",
           "count": 2,
-          "summary": "由《幽灵行者》团队打造的第一人称类魂游戏《不朽遗志》于10月14日发售，登陆PS5、Xbox Series X|S及Steam。",
+          "summary": "由《幽灵行者》团队打造的第一人称类魂游戏《不朽遗志》已于10月14日发售，登陆PS5、Xbox Series X|S、Xbox Game Pass及Steam。",
           "summary_source": "llm"
         },
         {
           "name": "全面战争：幕府将军2 完全版",
           "count": 2,
-          "summary": "《全面战争：幕府将军2》重制版完全版因AI生成画面、大量Bug及优化问题，Steam好评率仅18%。",
+          "summary": "《全面战争：幕府将军2》重制版在Steam遭遇差评，1855条评论中仅有18%好评，玩家批评AI生成画面及大量Bug。",
           "summary_source": "llm"
         },
         {
@@ -563,43 +670,43 @@
         {
           "name": "宝可梦：Pokopia",
           "count": 2,
-          "summary": "雷蛇皮卡丘与伊布联名外设在英国发售，键盘售价119.99英镑，比普通版高出50英镑，获外观好评。",
+          "summary": "雷蛇皮卡丘与伊布联名外设获外观好评，但英国售价均高于普通版，键盘售价119.99英镑，鼠标60英镑。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3：狂猎",
           "count": 2,
-          "summary": "玩家使用社区工具注入双重DLSS 5后，角色面容变化引发争议，有人误以为角色变老，也有人觉得面容浮肿。",
+          "summary": "玩家使用社区工具进行双重DLSS 5注入测试，画面中角色面容变化引发争议，有人误以为角色变老，也有人觉得浮肿。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 2,
-          "summary": "IGN发布独家宣传片，展示豪华版专属机械魔躯主角外观皮肤，媒体盛赞其战斗手感与弹反机制。",
+          "summary": "IGN发布独家宣传片，展示豪华版专属机械魔躯外观及激烈BOSS战，媒体盛赞其战斗手感，将于10月29日登陆PC和PS5。",
           "summary_source": "llm"
         },
         {
           "name": "最终幻想14",
           "count": 2,
-          "summary": "日服开放区域内自由匹配功能，四个数据中心玩家可跨中心匹配，制作人提醒玩家在新资料片上线前检查游戏设置。",
+          "summary": "《最终幻想14》日本区开放区域内自由匹配，四个数据中心玩家可跨中心匹配，制作人提醒玩家在新资料片上线前检查游戏设置。",
           "summary_source": "llm"
         },
         {
           "name": "生化危机4：重制版",
           "count": 2,
-          "summary": "《生化危机4：重制版》Switch 2版掌机模式频繁卡顿，接入底座后画面明显改善，但仍有加载瑕疵。",
+          "summary": "《生化危机4：重制版》Switch 2版掌机模式频繁卡顿，底座模式明显改善，Polygon体验后认为底座模式表现更佳。",
           "summary_source": "llm"
         },
         {
           "name": "给他爱5",
           "count": 2,
-          "summary": "《给他爱5》将于11月17日退出PS Plus Extra，恰逢《GTA6》推出前两天，Rockstar此前曾短暂上架后下架该作。",
+          "summary": "《给他爱5》将于11月17日退出PS Plus Extra，Rockstar此前两款游戏均短暂加入后下架，预计该作也会回归。",
           "summary_source": "llm"
         },
         {
           "name": "英雄联盟",
           "count": 2,
-          "summary": "虚拟团体K/DA发布新宣传图，疑似预告10月20日公布新歌《Start A Fire》，正值2026年全球总决赛开赛前。",
+          "summary": "虚拟团体K/DA发布新宣传图，疑似预告10月20日公布新歌《Start A Fire》，正值2026年世界大赛开赛前。",
           "summary_source": "llm"
         }
       ]
@@ -885,107 +992,6 @@
           "name": "雨中冒险2",
           "count": 1,
           "summary": "新DLC“万象归衡”上线后获特别好评，平台84%用户给出好评，Gearbox接手运营后口碑逐步回升。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "article_count": 112,
-      "game_count": 73,
-      "untagged_count": 24,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》解雇案记者身份争议、多款新作发售与更新动态。Rockstar前员工解雇案在格拉斯哥劳动法庭听证，记者Jason Schreier的身份成为焦点，涉及《GTA6》开发保密信息及工会活动指控。此外，《战犬》蓝队胜率过低引发开发商调整，Bulkhead计划在第二赛季修改出生点并给予蓝队奖励；《Truckful / 乡野奇运》今日在Steam正式发售，Pocketpair发行部门发布了全新预告片。其他动态还包括《影之刃零》总监透露敌人不重生机制、《星空》Switch 2版开发遇阻、以及《万智牌》漫威新系列《黑暗神书命运》定档2027年4月等。",
-      "digest_source": "llm",
-      "input_hash": "c50b860f2f909c42",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 10,
-          "summary": "Rockstar前员工解雇案在格拉斯哥劳动法庭听证，记者Jason Schreier的身份及与员工联系引发关注，涉及《GTA6》开发保密争议及工会活动指控。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战犬",
-          "count": 3,
-          "summary": "开发商Bulkhead确认蓝队胜率偏低，计划在第二赛季调整出生点并提供现金、经验值奖励，以改善蓝队“总会输”的局面。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 2,
-          "summary": "总监梁其伟透露敌人被击败后不会重生，团队希望玩家关注推进故事和探索世界，主线完整通关时长约25‑30小时。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星空",
-          "count": 2,
-          "summary": "知名爆料人NateTheHate指出《星空》Switch 2版开发陷入困境，移植工作可能已被彻底搁置，外界认为游戏体量庞大导致移植困难。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "神奇蜘蛛侠",
-          "count": 2,
-          "summary": "评论认为《神奇蜘蛛侠》第1000期给玛丽·简的篇幅不足，未充分讲述她与彼得·帕克的关系，削弱了纪念意义。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "龙之信条2：黑暗觉者",
-          "count": 2,
-          "summary": "《龙之信条2：黑暗觉者》获得GameSpot 8分好评，拥有超过20小时内容，虽让游戏更易上手但也削弱了原作冒险体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GT赛车7",
-          "count": 1,
-          "summary": "制作人山内一典表示玩家增长促使团队推出Spec IV更新，计划于10月15日和12月分两阶段加入Sportsland SUGO赛道和Autumn Ring等。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Hytale",
-          "count": 1,
-          "summary": "Hypixel创始人Simon Collins-Laflamme宣布，1.0版前每发布一个新章节，破咒者版持有者可获赠一份标准版用于赠送亲友。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Truckful",
-          "count": 1,
-          "summary": "真实物理引擎× 送货冒险游戏《Truckful / 乡野奇运》今日在 Steam 正式发售！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "万智牌",
-          "count": 1,
-          "summary": "《万智牌》漫威主题系列《黑暗神书命运》定于2027年4月9日推出，将围绕奇异博士、索尔等英雄对抗多玛姆与海拉展开原创故事。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "世界计划 缤纷舞台！feat. 初音未来",
-          "count": 1,
-          "summary": "游戏新增歌曲《绣球花》并公开3D音乐视频，该曲属于六周年纪念活动，提供巡音流歌与歌爱雪两个版本。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "数字版预购玩家将于10月20日提前体验DMZ模式，该模式包含撤离玩法、装备管理和叙事线索，游戏定于10月23日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "侠盗猎车手",
-          "count": 1,
-          "summary": "参与初代《侠盗猎车手》车辆系统开发的程序员Pat Kerr公开了驾驶物理系统演示，用JavaScript重新呈现了约30年前的原型思路。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "僵尸毁灭工程",
-          "count": 1,
-          "summary": "大型更新Build 42上线后，游戏9月在Steam售出30.5万份，位列当月畅销游戏第十，玩家人数升至新高。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "兔兔秘密花园2",
-          "count": 1,
-          "summary": "Team Entertainment正在销售主题线上抽奖商品，单抽含税880日元，截至10月12日，奖品包括亚克力立牌、Enter键帽等。",
           "summary_source": "llm"
         }
       ]

@@ -1,9 +1,9 @@
 {
-  "crawled_at": "2026-10-19T00:08:33.159114+00:00",
+  "crawled_at": "2026-10-20T01:02:23.961604+00:00",
   "days": [
     {
-      "date": "2026-10-19",
-      "date_label": "10月19日 今天",
+      "date": "2026-10-20",
+      "date_label": "10月20日 今天",
       "games": [
         {
           "game_name": "长夜守卫者-预下载",
@@ -12,35 +12,29 @@
             "哥特风",
             "暗黑"
           ],
-          "score": "10.0",
-          "event_desc": "00:00 预下载，10月20日上线",
+          "score": "9.0",
+          "event_desc": "10:00 正式上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202663.htm",
-          "publisher": "LeekBox Studio",
+          "publisher": null,
           "reservation_count": null,
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "我不是胖虎：小岛大当家",
+          "game_name": "美职篮奇迹梦之队",
           "categories": [
-            "模拟经营",
-            "休闲",
-            "养成"
+            "篮球",
+            "体育",
+            "经营"
           ],
-          "score": "7.4",
-          "event_desc": "20:00 预下载，10月22日上线",
+          "score": null,
+          "event_desc": "18:00 预下载，10月21日上线",
           "status_tag": null,
-          "detail_url": "https://www.3839.com/a/165124.htm",
-          "publisher": null,
-          "reservation_count": "18526",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-10-20",
-      "date_label": "10月20日 明天",
-      "games": [
+          "detail_url": "https://www.3839.com/a/201857.htm",
+          "publisher": "苦柚Games",
+          "reservation_count": "124",
+          "has_afk_grinding_tag": true
+        },
         {
           "game_name": "守护庄园",
           "categories": [
@@ -53,7 +47,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/184427.htm",
           "publisher": null,
-          "reservation_count": "154",
+          "reservation_count": "166",
           "has_afk_grinding_tag": true
         },
         {
@@ -68,22 +62,37 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/188076.htm",
           "publisher": "大鱼好游",
-          "reservation_count": "192",
+          "reservation_count": "210",
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "长夜守卫者-预下载",
+          "game_name": "大武林",
           "categories": [
-            "多人联机",
-            "哥特风",
-            "暗黑"
+            "放置",
+            "角色扮演",
+            "卡牌"
           ],
-          "score": "10.0",
+          "score": null,
           "event_desc": "10:00 正式上线",
           "status_tag": null,
-          "detail_url": "https://www.3839.com/a/202663.htm",
-          "publisher": "LeekBox Studio",
-          "reservation_count": null,
+          "detail_url": "https://www.3839.com/a/194434.htm",
+          "publisher": "蝉翼游戏",
+          "reservation_count": "88",
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "拳皇·命运",
+          "categories": [
+            "格斗",
+            "多人联机",
+            "动作"
+          ],
+          "score": "8.3",
+          "event_desc": "10:00 预下载，10月21日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/199085.htm",
+          "publisher": null,
+          "reservation_count": "16847",
           "has_afk_grinding_tag": false
         },
         {
@@ -98,7 +107,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/203099.htm",
           "publisher": null,
-          "reservation_count": "186",
+          "reservation_count": "194",
           "has_afk_grinding_tag": true
         },
         {
@@ -128,14 +137,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/163493.htm",
           "publisher": "Blue Brain Games s.r.o.",
-          "reservation_count": "10096",
+          "reservation_count": "10110",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-10-21",
-      "date_label": "10月21日 后天",
+      "date_label": "10月21日 明天",
       "games": [
         {
           "game_name": "饥困荒野-10.21首发定档",
@@ -145,11 +154,11 @@
             "沙盒"
           ],
           "score": "7.2",
-          "event_desc": "将公布正式上线时间",
+          "event_desc": "19:30 将公布正式上线时间",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/124032.htm",
           "publisher": "腾讯",
-          "reservation_count": "119.6万",
+          "reservation_count": "119.7万",
           "has_afk_grinding_tag": false
         },
         {
@@ -160,11 +169,11 @@
             "蒸汽朋克"
           ],
           "score": "6.5",
-          "event_desc": "10:00 开启预下载,10.22早9点上线",
+          "event_desc": "10:00 开启预下载，10月22日上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202870.htm",
           "publisher": null,
-          "reservation_count": "19289",
+          "reservation_count": "19576",
           "has_afk_grinding_tag": true
         },
         {
@@ -175,12 +184,27 @@
             "末日"
           ],
           "score": "8.5",
-          "event_desc": "10:00 预下载开启,10.22上线",
+          "event_desc": "10:00 开启预下载，10月22日上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/186698.htm",
           "publisher": "格零游戏",
-          "reservation_count": "28192",
+          "reservation_count": "28213",
           "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "美职篮奇迹梦之队",
+          "categories": [
+            "篮球",
+            "体育",
+            "经营"
+          ],
+          "score": null,
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/201857.htm",
+          "publisher": "苦柚Games",
+          "reservation_count": "124",
+          "has_afk_grinding_tag": true
         },
         {
           "game_name": "拳皇·命运",
@@ -194,7 +218,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/199085.htm",
           "publisher": null,
-          "reservation_count": "16748",
+          "reservation_count": "16847",
           "has_afk_grinding_tag": false
         },
         {
@@ -209,45 +233,15 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/184427.htm",
           "publisher": null,
-          "reservation_count": "154",
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "龙魂大陆",
-          "categories": [
-            "角色扮演",
-            "中国风",
-            "策略"
-          ],
-          "score": null,
-          "event_desc": "10:00 预下载，10月22日上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/195709.htm",
-          "publisher": "湛江燃启网络科技有限公司",
-          "reservation_count": "162",
+          "reservation_count": "166",
           "has_afk_grinding_tag": true
         }
       ]
     },
     {
       "date": "2026-10-22",
-      "date_label": "10月22日 周四",
+      "date_label": "10月22日 后天",
       "games": [
-        {
-          "game_name": "失落城堡2-10月22日上线",
-          "categories": [
-            "多平台",
-            "Roguelike",
-            "Steam移植"
-          ],
-          "score": "8.3",
-          "event_desc": "正式上线，具体时间待定",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/170282.htm",
-          "publisher": "雷霆游戏",
-          "reservation_count": "84460",
-          "has_afk_grinding_tag": false
-        },
         {
           "game_name": "星途天城",
           "categories": [
@@ -260,7 +254,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202870.htm",
           "publisher": null,
-          "reservation_count": "19289",
+          "reservation_count": "19576",
           "has_afk_grinding_tag": true
         },
         {
@@ -275,7 +269,22 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/165124.htm",
           "publisher": null,
-          "reservation_count": "18526",
+          "reservation_count": null,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "失落城堡2-10月22日上线",
+          "categories": [
+            "多平台",
+            "Roguelike",
+            "Steam移植"
+          ],
+          "score": "8.3",
+          "event_desc": "正式上线，具体时间待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/170282.htm",
+          "publisher": "雷霆游戏",
+          "reservation_count": "84641",
           "has_afk_grinding_tag": false
         },
         {
@@ -290,23 +299,8 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/186698.htm",
           "publisher": "格零游戏",
-          "reservation_count": "28192",
+          "reservation_count": "28213",
           "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "龙魂大陆",
-          "categories": [
-            "角色扮演",
-            "中国风",
-            "策略"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/195709.htm",
-          "publisher": "湛江燃启网络科技有限公司",
-          "reservation_count": "162",
-          "has_afk_grinding_tag": true
         }
       ]
     },
@@ -326,7 +320,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/181765.htm",
           "publisher": "广州灵犀互动娱乐有限公司",
-          "reservation_count": "5416",
+          "reservation_count": "6564",
           "has_afk_grinding_tag": false
         },
         {
@@ -341,7 +335,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/198962.htm",
           "publisher": "Bandai Namco Entertainment Inc.",
-          "reservation_count": "480",
+          "reservation_count": "486",
           "has_afk_grinding_tag": false
         },
         {
@@ -356,8 +350,29 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/203099.htm",
           "publisher": null,
-          "reservation_count": "186",
+          "reservation_count": "194",
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "date_label": "10月26日 下周一",
+      "games": [
+        {
+          "game_name": "莉莉的衣橱冒险",
+          "categories": [
+            "休闲",
+            "闯关",
+            "换装"
+          ],
+          "score": null,
+          "event_desc": "10:00 上线试玩",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/204986.htm",
+          "publisher": null,
+          "reservation_count": "46",
+          "has_afk_grinding_tag": false
         }
       ]
     }

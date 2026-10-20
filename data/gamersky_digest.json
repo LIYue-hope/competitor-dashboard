@@ -1,9 +1,139 @@
 {
-  "generated_at": "2026-10-19T00:22:53.186227+00:00",
+  "generated_at": "2026-10-20T01:16:04.057887+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-20",
+      "article_count": 5,
+      "game_count": 3,
+      "untagged_count": 2,
+      "digest": "今日游戏资讯主要围绕《命运2》的补救计划、《消光困兽》停止大型更新以及《追逐末日之光》开放试玩版展开。游戏厂商在运营策略上呈现两极分化，既有针对老牌大作的补救动作，也有对独立游戏试玩版的积极推广。",
+      "digest_source": "llm",
+      "input_hash": "3c3d7145f2bad344",
+      "game_digests": [
+        {
+          "name": "命运2",
+          "count": 1,
+          "summary": "下周公布回归计划，开始补救",
+          "summary_source": "llm"
+        },
+        {
+          "name": "消光困兽",
+          "count": 1,
+          "summary": "宣布不再有大型更新，称从未承诺过长期支持",
+          "summary_source": "llm"
+        },
+        {
+          "name": "追逐末日之光",
+          "count": 1,
+          "summary": "参加Steam新品节，10月20日至27日开放试玩版",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "article_count": 133,
+      "game_count": 52,
+      "untagged_count": 55,
+      "digest": "今日游戏资讯聚焦于《GTA6》的倒计时预热与《影之刃零》的周边联动，同时《赛博朋克：边缘行者2》媒体评测解禁，而《使命召唤23：现代战争4》则因抢先体验开启而登顶Steam畅销榜。",
+      "digest_source": "llm",
+      "input_hash": "4b87bf7480190795",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 11,
+          "summary": "外媒称《GTA6》首季能卖4000万份，引发玩家讨论，同时确认数百处可探索室内空间，TGA宣布进入一个月倒计时。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 10,
+          "summary": "PS官方发布重庆主题墙绘宣传视频，S-GAME计划将首作打造成系列品牌并构思续作与动画，联名手柄推出三款新中盖。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛博朋克：边缘行者2",
+          "count": 3,
+          "summary": "媒体评价解禁，Fami通爆赞其为杰作，IGN给出9分，官方宣布将于10月20日上线全季10集。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "边缘行者2",
+          "count": 3,
+          "summary": "官方公布播出安排，将于10月20日北京时间下午三点在Netflix独家上线，小岛秀夫确认将在剧中饰演“大岛秀吉”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤",
+          "count": 2,
+          "summary": "数毛社称《使命召唤》新作NS2版表现良好 稳30帧；《使命召唤》新作已有人完成一命最高难度！全靠躲。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤23：现代战争4",
+          "count": 2,
+          "summary": "麦斯·米科尔森谈加盟原因，游戏登顶Steam全球畅销榜，战役抢先体验开启，10月23日正式发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛博朋克2077",
+          "count": 2,
+          "summary": "沉浸式第三人称MOD迎来2.0.0更新，除战斗外已能完整以第三人称游玩，联机MOD NightCoop发布宣传片展示双人同屏体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "COD23",
+          "count": 1,
+          "summary": "《COD23》战役演员确认！“嘎子”幻想中的自己。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "COD现代战争4",
+          "count": 1,
+          "summary": "《COD现代战争4》战役惨遭破解！离线就能玩。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "FF7启示",
+          "count": 1,
+          "summary": "《FF7启示》大量新情报 开局就有高难度 终局内容多。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "LOL",
+          "count": 1,
+          "summary": "K/DA女团时隔6年回归，发布新单曲《FIRESTARTER》MV。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不朽遗志",
+          "count": 1,
+          "summary": "类魂新作发售后体验糟糕，官方紧急更新致歉，承诺会持续修复游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：现代战争",
+          "count": 1,
+          "summary": "外媒称《使命召唤：现代战争》系列可能还有续作！并未明确完结。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "凡人",
+          "count": 1,
+          "summary": "大屏追番更震撼！海信电视小墨E5SPro带你沉浸式入局《凡人》修仙宇宙。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "官方发布照片模式宣传内容，展示NS版《剑星 完整版》的拍照功能，邀请玩家晒图。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-10-18",
       "article_count": 89,
@@ -107,54 +237,54 @@
     },
     {
       "date": "2026-10-17",
-      "article_count": 111,
-      "game_count": 47,
-      "untagged_count": 35,
-      "digest": "今日游戏资讯聚焦于《GTA6》的发售倒计时与细节曝光，包括韩国19+分级、角色出汗机制及日本版删减传闻；国产动作游戏《影之刃零》公布PS5版134G容量及10月27日预载；《使命召唤23：现代战争4》开启战役抢先体验并登顶Steam预购榜；此外《赛博朋克2077》DLSS 5效果引发热议，《街头霸王》真人电影因角色塑造问题遭IGN批评，而《Rain98》体验版上线Steam。",
+      "article_count": 106,
+      "game_count": 46,
+      "untagged_count": 33,
+      "digest": "今日资讯聚焦《GTA6》临近发售，韩国开出19+分级，彭博社曝出汗机制及日本版删减传闻；动视力挺《GTA6》与《使命召唤》为年度大作。此外，《影之刃零》PS5版134G容量公布，多款游戏开启预载或评测。",
       "digest_source": "llm",
-      "input_hash": "31f7c606ee7d748a",
+      "input_hash": "1306741ec16f3335",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 15,
-          "summary": "韩国开出19+分级，游戏将于11月19日发售，彭博社爆料角色会根据运动量出汗，日本版恐有删减。",
+          "count": 14,
+          "summary": "韩国开出19+分级，彭博社曝角色会根据运动量出汗，日本版恐有删减。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 9,
-          "summary": "PS5版下载容量为134.857GB，将于10月27日开启预载，Wiki网站上线，古怪新奇武器未公开。",
+          "summary": "PS5版下载容量为134.857GB，10月27日开启预载，Wiki网站正式上线。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤23：现代战争4",
-          "count": 4,
-          "summary": "登顶Steam预购榜，战役抢先体验已开启，将于10月23日正式发售，Steam国区褒贬不一。",
+          "count": 3,
+          "summary": "NS2实体版仅含下载码，Steam国区褒贬不一，NS2版战役锁30帧。",
           "summary_source": "llm"
         },
         {
           "name": "2077",
           "count": 2,
-          "summary": "启用DLSS 5后朱迪效果惊艳，社区发现酒店女员工裙下空空如也的细节。",
+          "summary": "启用DLSS 5后朱迪画面效果惊艳，社区发现酒店女员工裙下空空如也的细节。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤23",
           "count": 2,
-          "summary": "IGN打出8分称战役是重启后最好的一部，GameSpot打出7分认为最终决战有点拉。",
-          "summary_source": "llm"
+          "summary": "IGN 8分！《使命召唤23》战役：重启后最好的一部；《使命召唤23》战役GS打出7分 最终决战有点拉。",
+          "summary_source": "rules"
         },
         {
           "name": "街头霸王",
           "count": 2,
-          "summary": "电影嘉米被批乱改，IGN锐评叙事凌乱，演员卡莉娜·梁透露为还原角色压力巨大。",
+          "summary": "电影嘉米被批乱改，IGN批评电影叙事凌乱，演员卡莉娜·梁透露为还原角色压力巨大。",
           "summary_source": "llm"
         },
         {
           "name": "街霸",
           "count": 2,
-          "summary": "华裔演员卡莉娜·梁自曝压力巨大，古烈演员科迪·罗兹想与《真人快打》联动。",
-          "summary_source": "llm"
+          "summary": "《街霸》华裔春丽自曝压力巨大！暴吃鸡蛋猛训练只为还原；M站44分《街霸》演员谈续集 想和《真人快打》联动。",
+          "summary_source": "rules"
         },
         {
           "name": "COD23",
@@ -165,7 +295,7 @@
         {
           "name": "Muv-Luv Presents 2026",
           "count": 1,
-          "summary": "情报节目定档10月22日，简中字幕版月底上线B站，Steam特惠低至4折。",
+          "summary": "情报节目定档10月22日，Steam特惠低至4折，简中字幕版月底上线B站。",
           "summary_source": "llm"
         },
         {
@@ -177,132 +307,132 @@
         {
           "name": "Rain98",
           "count": 1,
-          "summary": "Lo-Fi心理悬疑冒险游戏体验版正式上线Steam，游玩时长超过3小时。",
+          "summary": "Lo-Fi心理悬疑冒险游戏Steam体验版正式上线，游玩时长超过3小时。",
           "summary_source": "llm"
         },
         {
           "name": "Samson",
           "count": 1,
-          "summary": "Liquid Swords工作室宣告破产，首款游戏发售后数月未发出工资。",
+          "summary": "Liquid Swords工作室宣告破产，首款游戏发售后数月未发工资，近30名员工获政府补偿。",
           "summary_source": "llm"
         },
         {
           "name": "Swords & Slippers",
           "count": 1,
-          "summary": "童话白雪公主新作公布实机预告，展示角色团队配合与即时切换机制。",
+          "summary": "童话白雪公主新作公布实机预告，展示角色即时切换战斗机制。",
           "summary_source": "llm"
         },
         {
           "name": "上古卷轴5",
           "count": 1,
-          "summary": "英国媒体在报道男子闯入动物园身亡事件时将话题引向《上古卷轴5》，引发争议。",
+          "summary": "英国媒体在报道玩家闯入动物园身亡事件时，将话题引向《上古卷轴5》引发争议。",
           "summary_source": "llm"
         },
         {
-          "name": "不朽遗志",
+          "name": "使命召唤",
           "count": 1,
-          "summary": "类魂新作体验糟糕，官方紧急更新致歉并承诺继续修复。",
+          "summary": "动视高管表示《GTA6》和《使命召唤》才是年度大作，认为《塞尔达》靠边站。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-10-16",
-      "article_count": 123,
+      "article_count": 122,
       "game_count": 54,
-      "untagged_count": 43,
-      "digest": "今日游戏资讯聚焦于《GTA6》的发售预热与营销，包括女主新造型引发热议、时代广场广告牌亮相及PS5实机录制确认，同时《恶魔城：贝尔蒙特的诅咒》获GS满分评价与M站87分，而《街霸》真人电影口碑不佳仅获IGN 6分，腾讯《刺客信条》秦朝新作遭取消，以及《影之刃零》ROG外设开启预约。",
+      "untagged_count": 42,
+      "digest": "今日游戏资讯聚焦于《GTA6》的宣发热度与争议，Konami新作《恶魔城：贝尔蒙特的诅咒》获GS满分好评，卡普空《街霸》真人电影口碑崩盘仅获IGN 6分，腾讯《刺客信条》秦朝项目遭取消，以及《影之刃零》主机联名定价引发讨论。",
       "digest_source": "llm",
-      "input_hash": "4fe5bea16be193f1",
+      "input_hash": "07312801bee89774",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 15,
-          "summary": "《GTA6》女主露西娅新造型引发关注，美国时代广场出现巨型广告牌，官方确认发售预告片在基础版PS5上实机录制。",
+          "summary": "Rockstar在纽约时代广场投放巨型广告牌，但因枪械元素被和谐，新预告片确认使用基础版PS5录制，引发玩家关于是否请假的激烈讨论。",
           "summary_source": "llm"
         },
         {
           "name": "恶魔城：贝尔蒙特的诅咒",
           "count": 4,
-          "summary": "《恶魔城：贝尔蒙特的诅咒》获GS满分评价，M站评分87分，通关需20小时，白金需50小时。",
+          "summary": "GS媒体给出10分满分评价，称赞其超越系列以往作品足以载入经典，媒体试玩通关需20小时，白金难度较高。",
           "summary_source": "llm"
         },
         {
           "name": "街霸",
           "count": 4,
-          "summary": "《街霸》真人电影口碑翻车，IGN仅给出6分，烂番茄新鲜度44%，春丽和嘉米选角被指与玩家心中的形象差距过大。",
+          "summary": "卡普空真人电影上映后口碑翻车，IGN仅给6分，烂番茄新鲜度44%，春丽和嘉米真人选角被批毁IP。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 3,
-          "summary": "ROG与《影之刃零》联名外设开启预约，鼠标949元、耳机1399元，主机价格5070款26999元。",
+          "summary": "ROG公布主机联名款定价为26999元，外设鼠标949元、耳机1399元，同时媒体试玩曝光敌人不刷新的跑图细节引发热议。",
           "summary_source": "llm"
         },
         {
           "name": "刺客信条",
           "count": 2,
-          "summary": "腾讯主导的秦朝背景《刺客信条》正统新作在项目起步阶段遭取消，引发玩家遗憾。",
+          "summary": "腾讯天美主导的秦朝背景正统新作在项目起步阶段遭取消，玩家对此表示遗憾，认为中国历史背景若推出会很有趣。",
           "summary_source": "llm"
         },
         {
           "name": "地铁2039",
           "count": 2,
-          "summary": "《地铁2039》实体版因容量超限，首次游玩前需联网下载解锁，引发玩家抵制。",
+          "summary": "实体版因容量超限，玩家首次启动游戏前必须联网下载解锁内容，这一强制联网要求遭到玩家抵制并引发退款潮。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达",
           "count": 2,
-          "summary": "《塞尔达传说：时之笛 重制版》试玩获好评，画面与操作体验现代化改造，实体版推出特殊烫箔工艺限量版。",
+          "summary": "《塞尔达传说：时之笛 重制版》试玩获好评，画面与操作现代化改造让海拉鲁世界更鲜活，实体版推出特殊烫箔工艺限量版。",
           "summary_source": "llm"
         },
         {
           "name": "异于天堂",
           "count": 2,
-          "summary": "如龙团队打造的动作冒险游戏《异于天堂》公布小仓篇剧情预告，定档2027年1月15日。",
+          "summary": "如龙团队新作公布小仓篇剧情预告，定档2027年1月15日发售，晒愿望单截图可获京东卡奖励。",
           "summary_source": "llm"
         },
         {
           "name": "007",
           "count": 1,
-          "summary": "《007 初露锋芒》在Steam连续三次新史低，当前售价6折。",
+          "summary": "《007 初露锋芒》在Steam连续三次新史低，目前售价已6折。",
           "summary_source": "llm"
         },
         {
           "name": "2077",
           "count": 1,
-          "summary": "CD Projekt确认《赛博朋克2077》真人电影不会照搬游戏剧情。",
+          "summary": "CD Projekt确认《赛博朋克2077》真人电影将不会照搬游戏剧情，而是讲述全新故事。",
           "summary_source": "llm"
         },
         {
           "name": "EVILBANE",
           "count": 1,
-          "summary": "合作动作RPG《EVILBANE》开启Steam首次测试，支持最多4人联机。",
+          "summary": "合作动作RPG开启Steam首次测试，支持最多4人联机。",
           "summary_source": "llm"
         },
         {
           "name": "Hela：鼠鼠奇旅",
           "count": 1,
-          "summary": "《Hela：鼠鼠奇旅》试玩Demo限时登陆Steam新品节。",
+          "summary": "奇幻冒险游戏试玩Demo限时登陆Steam新品节。",
           "summary_source": "llm"
         },
         {
           "name": "Ondeh Ondeh 卡雅的美味奇缘",
           "count": 1,
-          "summary": "万代南梦宫邀请试玩即将于2027年上线的东南亚童话冒险游戏《Ondeh Ondeh 卡雅的美味奇缘》。",
+          "summary": "万代南梦宫邀请媒体试玩，这是一款将于2027年上线的东南亚童话冒险游戏。",
           "summary_source": "llm"
         },
         {
           "name": "SPINE",
           "count": 1,
-          "summary": "《SPINE》公布4套角色皮肤，将于2027年夏季发售。",
+          "summary": "公布4套角色皮肤，包括红色连衣裙、皮革装、恶魔面具与鹦鹉套装，定于2027年夏季发售。",
           "summary_source": "llm"
         },
         {
           "name": "Tempo Point",
           "count": 1,
-          "summary": "拳头游戏与路易威登携手出版《Tempo Point》，聚焦K/DA虚拟流行天团。",
+          "summary": "拳头游戏携手路易威登推出K/DA“游记”《Tempo Point》，聚焦虚拟流行天团K/DA。",
           "summary_source": "llm"
         }
       ]
@@ -809,107 +939,6 @@
           "count": 1,
           "summary": "国产《古剑》新试玩规模曝光 国产旗舰手柄全程助力。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "article_count": 104,
-      "game_count": 42,
-      "untagged_count": 38,
-      "digest": "10月10日游戏资讯聚焦于《影之刃零》的媒体试玩与高难度挑战，以及《GTA6》发售倒计时与争议话题。此外，《战争机器：事变日》销量低迷引发讨论，《寂静岭》系列复兴计划曝光，《最终幻想7：启示》获媒体盛赞，而《巫师3》重制版与《魔兽世界：无限》则迎来更新与开发动态。",
-      "digest_source": "llm",
-      "input_hash": "308adfe4ca850d3c",
-      "game_digests": [
-        {
-          "name": "影之刃零",
-          "count": 10,
-          "summary": "甄子丹金面具周边曝光，海外媒体MeuPlayStation进行了报道。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 4,
-          "summary": "任天堂美国总裁回应NS2能否运行GTA6，采访发表于《Variety》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战争机器：事变日",
-          "count": 4,
-          "summary": "口碑创系列十年新高，但销量数据引发玩家呼吁登陆PS5。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "寂静岭",
-          "count": 3,
-          "summary": "科乐美规划系列第二、第三波新作阵容，宣布将推出多款作品。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战争机器",
-          "count": 3,
-          "summary": "重制游戏PS5版首发销量领先新作Xbox版约9倍。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想7：启示",
-          "count": 3,
-          "summary": "将于2027年4月8日发售，登陆PC/PS5/Switch 2/Xbox平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：狂猎重制版",
-          "count": 2,
-          "summary": "玩家分享开启DLSS5后的画面对比视频，展示角色外观变化。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "索尼克赛车 交叉世界",
-          "count": 2,
-          "summary": "第二赛季试玩内容曝光，包含EVA哥斯拉大作战。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "魔兽世界：无限",
-          "count": 2,
-          "summary": "暴雪透露游戏体量翻倍，原计划保守现难以把持。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "CS2",
-          "count": 1,
-          "summary": "V社疑似更新反作弊系统，大量对局被砍，绿玩也被封禁。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GT赛车7",
-          "count": 1,
-          "summary": "山内一典称该作是系列最成功作品，销量超预期故持续更新。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Life Below",
-          "count": 1,
-          "summary": "游民试玩评测，称其为TGS中最悠闲放松的海底养珊瑚游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤23：现代战争4",
-          "count": 1,
-          "summary": "游民商城开启9折预售，金币抵扣享折上折。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影：亚特兰蒂斯遗迹",
-          "count": 1,
-          "summary": "官方公布劳拉经典传奇造型高清图，展示新旧对比。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "地块梦战",
-          "count": 1,
-          "summary": "独立工作室公布快节奏俯视角动作Roguelike新作，发布首支预告片。",
-          "summary_source": "llm"
         }
       ]
     }

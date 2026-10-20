@@ -1,9 +1,54 @@
 {
-  "generated_at": "2026-10-19T00:22:53.189149+00:00",
+  "generated_at": "2026-10-20T01:18:06.993739+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-20",
+      "article_count": 1,
+      "game_count": 0,
+      "untagged_count": 1,
+      "digest": "10月20日 游资网 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「为什么原神和绝区零都是三渲二，很多人却觉得三渲二游戏消失了？」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
+      "input_hash": "c77a021f5bd2c151",
+      "game_digests": []
+    },
+    {
+      "date": "2026-10-19",
+      "article_count": 7,
+      "game_count": 4,
+      "untagged_count": 3,
+      "digest": "今日游戏资讯聚焦于独立游戏与电竞赛事，SCS 2026年度总决赛在成都落幕，SNK选手MadkoF、XiaoHai分获《拳皇15》《饿狼传说：群狼之城》冠军。此外，独立游戏领域有《塔防进化》因高难度与广告机制引发关注，《杀戮尖塔》被主流大模型挑战最高难度，而《狂热运输3》则获简评肯定。",
+      "digest_source": "llm",
+      "input_hash": "002dd5ebe9f1c0fc",
+      "game_digests": [
+        {
+          "name": "塔防进化",
+          "count": 1,
+          "summary": "《塔防进化》是一款二合+塔防融合的微恐题材小游戏，无养成系统，首关或需看广告，以难度驱动激发玩家挑战欲。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "拳皇15",
+          "count": 1,
+          "summary": "SCS 2026年度总决赛在成都举行，SNK选手MadkoF、XiaoHai分获《拳皇15》《饿狼传说：群狼之城》冠军，揭晓SWC 2026直通资格。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "杀戮尖塔",
+          "count": 1,
+          "summary": "主流大模型挑战《杀戮尖塔》最高难度，结果全都死于太过稳健，被评价为“血量只有快没有的时候才是有用的资源”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "狂热运输3",
+          "count": 1,
+          "summary": "《狂热运输3》获简评肯定，被评价为深耕交通运输模拟品类的瑞士独立工作室Urban Games推出的自成一派的交通运输模拟佳作。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-10-17",
       "article_count": 1,
@@ -222,41 +267,6 @@
           "name": "疯狂出租车",
           "count": 1,
           "summary": "《疯狂出租车：极速环游》主创接受专访，探讨如何将童年经典《疯狂出租车》转型为开放世界“大作”。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "article_count": 12,
-      "game_count": 4,
-      "untagged_count": 8,
-      "digest": "今日游戏行业资讯共12条，涵盖4款具体游戏。其中《Truckful / 乡野奇运》于10月10日在Steam正式发售，开启九折首发优惠及捆绑包活动；《妖怪之国》在东京电玩展开放试玩后，篝火营地发布制作人专访，探讨志怪氛围与华丽战斗；《重返未来：1999》发布制作人独家对话，强调保持初心；《银松镇》作为新晋全平台生存恐怖游戏，Mien Wind发布评测文章。",
-      "digest_source": "llm",
-      "input_hash": "2726c3670b39238c",
-      "game_digests": [
-        {
-          "name": "Truckful",
-          "count": 1,
-          "summary": "驰骋崎岖弯道，克服重重意外！ 真实物理引擎× 送货冒险游戏《Truckful / 乡野奇运》今日在 Steam 正式发售！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "妖怪之国",
-          "count": 1,
-          "summary": "和风动作冒险游戏《妖怪之国》在东京电玩展开放试玩后，篝火营地发布制作人专访，探讨志怪氛围与华丽战斗，谈及创意原点与开发重心。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "重返未来：1999",
-          "count": 1,
-          "summary": "《重返未来：1999》发布制作人独家对话，强调“没人能颠覆时代，但至少我们可以选择保持初心”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "银松镇",
-          "count": 1,
-          "summary": "新晋全平台生存恐怖游戏《银松镇》上线，Mien Wind发布评测文章，探讨如何以游戏语言致敬大卫·林奇的影视逻辑。",
           "summary_source": "llm"
         }
       ]

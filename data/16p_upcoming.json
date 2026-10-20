@@ -1,39 +1,36 @@
 {
-  "crawled_at": "2026-10-19T00:09:37.392171+00:00",
+  "crawled_at": "2026-10-20T01:03:16.933620+00:00",
   "days": [
     {
       "date": "2026-10-20",
-      "date_label": "10月20日 明天",
+      "date_label": "10月20日 今天",
       "games": [
+        {
+          "game_name": "大武林",
+          "categories": [
+            "角色扮演",
+            "卡牌"
+          ],
+          "score": "9.2",
+          "release_date": "2026-10-20",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1946205.html",
+          "publisher": "蝉翼游戏",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "桃园:将帅录",
           "categories": [
             "角色扮演"
           ],
-          "score": "9.2",
+          "score": "9.5",
           "release_date": "2026-10-20",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1959194.html",
           "publisher": "三九互娱",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "征战王权",
-          "categories": [
-            "策略",
-            "竞技",
-            "卡牌",
-            "三国",
-            "3D"
-          ],
-          "score": null,
-          "release_date": "2026-10-20",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1954465.html",
-          "publisher": "游小爱",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
         },
         {
           "game_name": "长夜守卫者",
@@ -44,7 +41,7 @@
             "中世纪",
             "生存"
           ],
-          "score": "8.5",
+          "score": "8.1",
           "release_date": "2026-10-20",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1953471.html",
@@ -71,29 +68,12 @@
           "publisher": "北京集英舍软件科技有限公司",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "守护庄园",
-          "categories": [
-            "冒险",
-            "角色扮演",
-            "像素",
-            "卡牌",
-            "Roguelike"
-          ],
-          "score": null,
-          "release_date": "2026-10-20",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1937399.html",
-          "publisher": "南京清风流域通信科技有限公司",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
         }
       ]
     },
     {
       "date": "2026-10-21",
-      "date_label": "10月21日 后天",
+      "date_label": "10月21日 明天",
       "games": [
         {
           "game_name": "造物锅",
@@ -110,22 +90,6 @@
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "龙魂大陆",
-          "categories": [
-            "角色扮演",
-            "中国风",
-            "策略",
-            "养成"
-          ],
-          "score": null,
-          "release_date": "2026-10-21",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1946060.html",
-          "publisher": "湛江燃启网络科技有限公司",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        },
-        {
           "game_name": "美职篮奇迹梦之队",
           "categories": [
             "体育",
@@ -134,7 +98,7 @@
             "NBA",
             "养成"
           ],
-          "score": "8.2",
+          "score": "8.0",
           "release_date": "2026-10-21",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1958256.html",
@@ -158,13 +122,63 @@
           "publisher": "Wanda Game",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "守护庄园",
+          "categories": [
+            "冒险",
+            "角色扮演",
+            "像素",
+            "卡牌",
+            "Roguelike"
+          ],
+          "score": null,
+          "release_date": "2026-10-21",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1937399.html",
+          "publisher": "南京清风流域通信科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
         }
       ]
     },
     {
       "date": "2026-10-22",
-      "date_label": "10月22日 周四",
+      "date_label": "10月22日 后天",
       "games": [
+        {
+          "game_name": "莫奈的花园",
+          "categories": [
+            "聚光灯GameJam",
+            "休闲"
+          ],
+          "score": null,
+          "release_date": "2026-10-22",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1959415.html",
+          "publisher": "森郁工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "我不是胖虎:小岛大当家",
+          "categories": [
+            "模拟经营",
+            "休闲",
+            "养成",
+            "收集",
+            "温馨治愈",
+            "模拟",
+            "种田"
+          ],
+          "score": "8.8",
+          "release_date": "2026-10-22",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1935292.html",
+          "publisher": "胖布丁游戏",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "失落城堡2",
           "categories": [
@@ -196,7 +210,7 @@
             "卡牌",
             "SLG"
           ],
-          "score": "8.1",
+          "score": "8.0",
           "release_date": "2026-10-22",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1953472.html",
@@ -214,7 +228,7 @@
             "策略",
             "角色扮演"
           ],
-          "score": "8.1",
+          "score": "8.2",
           "release_date": "2026-10-22",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1953737.html",
@@ -229,6 +243,23 @@
       "date_label": "10月23日 周五",
       "games": [
         {
+          "game_name": "征战王权",
+          "categories": [
+            "策略",
+            "竞技",
+            "卡牌",
+            "三国",
+            "3D"
+          ],
+          "score": null,
+          "release_date": "2026-10-23",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1954465.html",
+          "publisher": "游小爱",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        },
+        {
           "game_name": "篮球少女:飞跃巅峰",
           "categories": [
             "策略",
@@ -242,7 +273,7 @@
             "体育",
             "多平台"
           ],
-          "score": "9.0",
+          "score": "8.9",
           "release_date": "2026-10-23",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1943404.html",

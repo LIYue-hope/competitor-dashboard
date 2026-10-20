@@ -1,38 +1,10 @@
 {
-  "crawled_at": "2026-10-19T00:09:23.675126+00:00",
+  "crawled_at": "2026-10-20T01:03:00.970746+00:00",
   "days": [
     {
-      "date": "2026-10-19",
-      "date_label": "10月19日 今天",
-      "games": [
-        {
-          "game_name": "最强帮主",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": "7.0",
-          "event_desc": "神兵传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zuiqiangbangzhu/",
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
       "date": "2026-10-20",
-      "date_label": "10月20日 明天",
+      "date_label": "10月20日 今天",
       "games": [
-        {
-          "game_name": "长夜守卫者",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zhangyeshouweizhe/",
-          "has_afk_grinding_tag": false
-        },
         {
           "game_name": "点点山海",
           "categories": [
@@ -45,11 +17,22 @@
           "has_afk_grinding_tag": true
         },
         {
+          "game_name": "长夜守卫者",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/zhangyeshouweizhe/",
+          "has_afk_grinding_tag": false
+        },
+        {
           "game_name": "暗黑烈刃",
           "categories": [
             "卡牌"
           ],
-          "score": null,
+          "score": "7.7",
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/anheilieren/",
@@ -70,7 +53,7 @@
     },
     {
       "date": "2026-10-21",
-      "date_label": "10月21日 后天",
+      "date_label": "10月21日 明天",
       "games": [
         {
           "game_name": "奇迹梦之队",
@@ -109,7 +92,7 @@
     },
     {
       "date": "2026-10-22",
-      "date_label": "10月22日 周四",
+      "date_label": "10月22日 后天",
       "games": [
         {
           "game_name": "合战天下",
@@ -186,23 +169,6 @@
       ]
     },
     {
-      "date": "2026-10-27",
-      "date_label": "10月27日 下周二",
-      "games": [
-        {
-          "game_name": "仙域传说",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/xianyuchuanshuo/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-10-28",
       "date_label": "10月28日 下周三",
       "games": [
@@ -235,6 +201,17 @@
           "has_afk_grinding_tag": false
         },
         {
+          "game_name": "艾尔指挥官",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": "7.0",
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/aierzhihuiguan/",
+          "has_afk_grinding_tag": false
+        },
+        {
           "game_name": "孤者传奇",
           "categories": [
             "角色扮演"
@@ -256,7 +233,7 @@
           "categories": [
             "角色扮演"
           ],
-          "score": null,
+          "score": "7.5",
           "event_desc": "超爽传奇",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/baxiongtianxia1/",
