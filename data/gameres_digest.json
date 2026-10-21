@@ -1,18 +1,61 @@
 {
-  "generated_at": "2026-10-20T01:18:06.993739+00:00",
+  "generated_at": "2026-10-21T00:47:26.894496+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-10-20",
-      "article_count": 1,
-      "game_count": 0,
-      "untagged_count": 1,
-      "digest": "10月20日 游资网 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「为什么原神和绝区零都是三渲二，很多人却觉得三渲二游戏消失了？」。未指向具体游戏的内容占当天的 100%。",
-      "digest_source": "rules",
-      "input_hash": "c77a021f5bd2c151",
-      "game_digests": []
+      "article_count": 11,
+      "game_count": 7,
+      "untagged_count": 4,
+      "digest": "今日游戏资讯聚焦于多款新作发售与老游迭代，莉莉丝新品《WarLine》以FPS+4X模式获关注，螺舟授权的《太吾异世劫》EA版12小时销量破1.5万份，益世界《疯狂水世界》iOS畅销榜升至第17名，散爆《少前2》持续更新“静默突触”版本，乡村模拟经营《复兴吧温泉镇！》定档12月7日EA，SLG《我在古代有座城》因同质化受质疑，同时《GTA6》引发行业流量讨论。",
+      "digest_source": "llm",
+      "input_hash": "c21a33f833b79736",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 1,
+          "summary": "行业讨论聚焦于《GTA6》的流量海啸，分析谁能从中分得一杯羹。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "WarLine",
+          "count": 1,
+          "summary": "莉莉丝新品《WarLine》采用战役FPS切入4X策略赛道，4个月下载超2000万。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "复兴吧温泉镇！",
+          "count": 1,
+          "summary": "乡村模拟经营新作《复兴吧温泉镇！》将于12月7日登陆Steam开启EA，10月Steam新品节开放试玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "太吾异世劫",
+          "count": 1,
+          "summary": "太吾IP衍生刷宝肉鸽游戏《太吾异世劫》由墨境团队操刀，EA版发售12小时销量破1.5万份。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "少前2",
+          "count": 1,
+          "summary": "《少女前线2：追放》近期联动《暗区突围：无限》，秋季版本“静默突触”带来多项新内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "我在古代有座城",
+          "count": 1,
+          "summary": "SLG游戏《我在古代有座城》属Last Asylum like品类，底层架构沿用该模式，与同类产品差异度极低，同质化体验强烈。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "疯狂水世界",
+          "count": 1,
+          "summary": "益世界旗下《疯狂水世界》上线近一年强势冲榜，iOS游戏畅销榜最高升至第17名，游戏内可追AI短剧。",
+          "summary_source": "llm"
+        }
+      ]
     },
     {
       "date": "2026-10-19",

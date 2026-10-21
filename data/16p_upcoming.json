@@ -1,80 +1,27 @@
 {
-  "crawled_at": "2026-10-20T01:03:16.933620+00:00",
+  "crawled_at": "2026-10-21T00:34:36.425952+00:00",
   "days": [
     {
-      "date": "2026-10-20",
-      "date_label": "10月20日 今天",
-      "games": [
-        {
-          "game_name": "大武林",
-          "categories": [
-            "角色扮演",
-            "卡牌"
-          ],
-          "score": "9.2",
-          "release_date": "2026-10-20",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1946205.html",
-          "publisher": "蝉翼游戏",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "桃园:将帅录",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": "9.5",
-          "release_date": "2026-10-20",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1959194.html",
-          "publisher": "三九互娱",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "长夜守卫者",
-          "categories": [
-            "多人联机",
-            "哥特风",
-            "暗黑",
-            "中世纪",
-            "生存"
-          ],
-          "score": "8.1",
-          "release_date": "2026-10-20",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1953471.html",
-          "publisher": "LeekBox Studio",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "英雄请出战",
-          "categories": [
-            "冒险",
-            "像素",
-            "三国",
-            "角色扮演",
-            "竖屏",
-            "回合制",
-            "策略",
-            "养成"
-          ],
-          "score": "7.9",
-          "release_date": "2026-10-20",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1955319.html",
-          "publisher": "北京集英舍软件科技有限公司",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-10-21",
-      "date_label": "10月21日 明天",
+      "date_label": "10月21日 今天",
       "games": [
+        {
+          "game_name": "美职篮奇迹梦之队",
+          "categories": [
+            "篮球",
+            "体育",
+            "经营",
+            "养成",
+            "策略"
+          ],
+          "score": "7.5",
+          "release_date": "2026-10-21",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1955763.html",
+          "publisher": "苦柚Games",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "造物锅",
           "categories": [
@@ -90,23 +37,6 @@
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "美职篮奇迹梦之队",
-          "categories": [
-            "体育",
-            "篮球",
-            "模拟经营",
-            "NBA",
-            "养成"
-          ],
-          "score": "8.0",
-          "release_date": "2026-10-21",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1958256.html",
-          "publisher": "苦柚Games",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
           "game_name": "拳皇",
           "categories": [
             "格斗",
@@ -115,7 +45,7 @@
             "竞技",
             "3D"
           ],
-          "score": "8.2",
+          "score": "8.1",
           "release_date": "2026-10-21",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952318.html",
@@ -144,13 +74,18 @@
     },
     {
       "date": "2026-10-22",
-      "date_label": "10月22日 后天",
+      "date_label": "10月22日 明天",
       "games": [
         {
           "game_name": "莫奈的花园",
           "categories": [
-            "聚光灯GameJam",
-            "休闲"
+            "模拟经营",
+            "休闲",
+            "治愈",
+            "沙盒",
+            "建造",
+            "收集",
+            "聚光灯GameJam"
           ],
           "score": null,
           "release_date": "2026-10-22",
@@ -175,7 +110,7 @@
           "release_date": "2026-10-22",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1935292.html",
-          "publisher": "胖布丁游戏",
+          "publisher": "上海胖布丁网络科技有限公司",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         },
@@ -240,7 +175,7 @@
     },
     {
       "date": "2026-10-23",
-      "date_label": "10月23日 周五",
+      "date_label": "10月23日 后天",
       "games": [
         {
           "game_name": "征战王权",
@@ -310,6 +245,55 @@
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1958448.html",
           "publisher": "百里嘻声的工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "date_label": "10月27日 下周二",
+      "games": [
+        {
+          "game_name": "炫龙记",
+          "categories": [
+            "放置",
+            "角色扮演",
+            "养成",
+            "山海经",
+            "冒险"
+          ],
+          "score": "10.0",
+          "release_date": "2026-10-27",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1958882.html",
+          "publisher": null,
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "余烬之镇Emberville",
+          "categories": [
+            "动作",
+            "冒险",
+            "角色扮演",
+            "像素",
+            "ARPG",
+            "上帝视角",
+            "刷宝",
+            "工艺",
+            "探索",
+            "迷宫",
+            "支持Steam家庭共享",
+            "模拟",
+            "剧情",
+            "2D"
+          ],
+          "score": null,
+          "release_date": "2026-10-27",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1956614.html",
+          "publisher": "心动",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }
