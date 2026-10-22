@@ -1,23 +1,52 @@
 {
-  "generated_at": "2026-10-21T00:47:06.144206+00:00",
+  "generated_at": "2026-10-22T00:59:13.437465+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
+      "date": "2026-10-21",
+      "article_count": 9,
+      "game_count": 3,
+      "untagged_count": 6,
+      "digest": "网易参投的瑞典游戏工作室Liquid Swords宣布破产，其由《正当防卫》前总监创立的项目宣告失败；2026《荒野乱斗》LCQ广州站落幕，NAVI与Team Heretics成功突围；《赛博朋克：边缘行者2》全球热播，仅15分钟就让玩家感到震撼。",
+      "digest_source": "llm",
+      "input_hash": "32215413b627161e",
+      "game_digests": [
+        {
+          "name": "正当防卫",
+          "count": 1,
+          "summary": "网易参投的瑞典游戏公司Liquid Swords破产，由《正当防卫》前总监创立的项目宣告失败。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "荒野乱斗",
+          "count": 1,
+          "summary": "2026《荒野乱斗》LCQ广州站落幕，NAVI与Team Heretics成功突围。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛博朋克：边缘行者2",
+          "count": 1,
+          "summary": "《赛博朋克：边缘行者2》全球热播，仅15分钟就让玩家感到震撼。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
       "date": "2026-10-20",
       "article_count": 7,
       "game_count": 1,
       "untagged_count": 6,
-      "digest": "10月20日 GameLook 共 7 条新闻，涉及 1 款游戏。报道最集中的是《艾希》（1 条）。另有 6 条未指向具体游戏的行业或平台资讯。《艾希》方面的报道有「众筹超3700万，《艾希》爆火十年后，中国爆款独游仍为生计发愁？」。",
-      "digest_source": "rules",
+      "digest": "GameLook今日共收录7条资讯，主要聚焦于国产独立游戏《艾希》的众筹情况。报道指出，在众筹金额突破3700万元人民币后，该游戏制作人因生计问题公开发声劝阻玩家继续捐款，引发行业对爆款独游商业化困境的关注。",
+      "digest_source": "llm",
       "input_hash": "4371c9f99dcd0974",
       "game_digests": [
         {
           "name": "艾希",
           "count": 1,
-          "summary": "众筹超3700万，《艾希》爆火十年后，中国爆款独游仍为生计发愁？。",
-          "summary_source": "rules"
+          "summary": "众筹金额突破3700万元人民币，制作人因生计问题劝阻玩家继续捐款，引发行业对爆款独游商业化困境的关注。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -162,23 +191,6 @@
           "name": "火影忍者",
           "count": 1,
           "summary": "《火影忍者》官宣出海，魔方游戏借此迎来“赛点时刻”，老外欢呼“苦等10年”。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "article_count": 7,
-      "game_count": 1,
-      "untagged_count": 6,
-      "digest": "生成式AI技术驱动下，游戏行业正兴起利用大语言模型打造实时交互体验的新风潮。其中，独立游戏《教妹妹开车》因测试火爆引发关注，开发者透露因AI账单高昂面临巨大经济压力，甚至需要贷款续命。",
-      "digest_source": "llm",
-      "input_hash": "fc2f7fe5a55d260d",
-      "game_digests": [
-        {
-          "name": "教妹妹开车",
-          "count": 1,
-          "summary": "奇葩独游《教妹妹开车》测试火爆，开发者透露每天AI账单高达7000元，因资金压力面临贷款续命。",
           "summary_source": "llm"
         }
       ]

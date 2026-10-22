@@ -1,9 +1,62 @@
 {
-  "generated_at": "2026-10-21T00:47:26.894496+00:00",
+  "generated_at": "2026-10-22T01:00:50.925729+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-21",
+      "article_count": 12,
+      "game_count": 7,
+      "untagged_count": 5,
+      "digest": "10月21日 游资网 共 12 条新闻，涉及 7 款游戏。报道最集中的是《HR.SOS》（1 条）、《TapTap制造》（1 条）、《人间异想计划》（1 条）。另有 5 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "b38f37dba365272f",
+      "game_digests": [
+        {
+          "name": "HR.SOS",
+          "count": 1,
+          "summary": "自动化机制叠加双视角解谜，《HR.SOS》试玩版亮相Steam新品节。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "TapTap制造",
+          "count": 1,
+          "summary": "【TapTap制造】两个敢发布的和五个嗷嗷待哺的。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "人间异想计划",
+          "count": 1,
+          "summary": "腾讯怪谈新游《人间异想计划》首曝 跳出行业常规公式。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "我的末日房车",
+          "count": 1,
+          "summary": "豪腾《我的末日房车》登顶抖小新游榜：一辆房车里的“模拟经营+塔防”实验。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "掘地求财：铲友齐上阵",
+          "count": 1,
+          "summary": "团结力量大，一起挖更欢乐！《掘地求财：铲友齐上阵》预计12月4日正式发行！跨平台四人联机挖到底！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "无光绝境",
+          "count": 1,
+          "summary": "《无光绝境》多人合作测试开启，支持最多四人共同探索火星地底，预计2026年12月2日推出抢先体验版本。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "魔域",
+          "count": 1,
+          "summary": "《魔域》金秋幻兽「澜境君·镜汐」全爆料：上线时间、至臻榜单、灵蕴获取与助战玩法。",
+          "summary_source": "rules"
+        }
+      ]
+    },
     {
       "date": "2026-10-20",
       "article_count": 11,
@@ -269,47 +322,6 @@
           "name": "短评",
           "count": 1,
           "summary": "《控制：共振》视觉奇观独特有格调，游玩期待感强，但战斗数值失衡、敌人种类少、boss设计欠佳，可通过辅助模式调节。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "article_count": 10,
-      "game_count": 5,
-      "untagged_count": 5,
-      "digest": "2026年10月12日，游戏行业资讯聚焦于长青IP新作、独游爆火背后的资金困境、玩法融合尝试及经典IP新作开发。其中《三国杀》推出新武将并联动猪猪侠，《教妹妹开车》因AI成本濒临破产，《末世战车》融合探索与卡牌玩法，《狂热运输3》即将上线，而《疯狂出租车》新作正转型开放世界。",
-      "digest_source": "llm",
-      "input_hash": "b7f46fe6f7f96f5a",
-      "game_digests": [
-        {
-          "name": "三国杀",
-          "count": 1,
-          "summary": "2026年国庆，《三国杀》IP推出全新武将，并联动文旅、非遗及猪猪侠IP，打造多元文化触达场景。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "教妹妹开车",
-          "count": 1,
-          "summary": "独立游戏《教妹妹开车》测试版爆火，因角色语音由云端大模型实时生成，日均AI开销约7000元，4人团队资金链濒临断裂。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "末世战车",
-          "count": 1,
-          "summary": "末世题材游戏《末世战车》主打探索+卡牌融合玩法，杂糅第一人称战斗、AI辅助剧情等元素，但玩法较依赖数值验证。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "狂热运输3",
-          "count": 1,
-          "summary": "瑞士独立工作室Urban Games新作《狂热运输3》将于9月30日上线，2026东京电玩展期间工作室发行经理接受访谈聊新作变与不变。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "疯狂出租车",
-          "count": 1,
-          "summary": "《疯狂出租车：极速环游》主创接受专访，探讨如何将童年经典《疯狂出租车》转型为开放世界“大作”。",
           "summary_source": "llm"
         }
       ]

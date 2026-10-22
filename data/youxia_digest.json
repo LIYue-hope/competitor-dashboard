@@ -1,46 +1,153 @@
 {
-  "generated_at": "2026-10-21T00:42:58.203746+00:00",
+  "generated_at": "2026-10-22T00:51:26.139044+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-20",
-      "article_count": 51,
-      "game_count": 35,
-      "untagged_count": 15,
-      "digest": "2026年10月20日游戏资讯聚焦于《GTA6》的内部开发细节泄露与PS5固件破解传闻，以及多款新作在Steam新品节亮相。R星高层坦言因员工自主权过大导致游戏细节难以掌控，黑客则声称已突破PS5 14.10固件，引发盗版担忧。此外，《ASTELLIA2》全球预约破百万，NEXUS生态合作开启；多款独立游戏如《HR.SOS》、《余烬之镇》及《地城安保公司》等在Steam新品节公开试玩，涵盖模拟经营、动作RPG及塔防等类型。",
+      "date": "2026-10-21",
+      "article_count": 64,
+      "game_count": 46,
+      "untagged_count": 12,
+      "digest": "2026年10月21日行业整体进展较快，多款游戏在发售、联动或促销方面动态活跃，涉及游戏规模较广，整体市场关注持续升温，具体动态涵盖发行、玩法更新与促销等内容。游戏｜GTA6当日围绕发售近况、区域地标还原与系列虚构内容审核等动态展开，涉及海外市场宣传与开发者商业化尝试；游戏｜战地风云6动态集中于赛季联动上线、跨作品活动调整与评价争议，凸显玩法合作及口碑调控的动向；游戏｜AKIBA LOST当日上线且配首发优惠，体现新增作品的市场跟进举措；游戏｜FF：共鸣、LOL、THE FINALS等更新与联动动态凸显精品内容进展与竞技活动更新；游戏｜Tropico 7开启预购、WAifuCurator推出免费试玩版及人中之龙套装包促销，反映不同品类在发行与体验层面的开发节奏。",
       "digest_source": "llm",
-      "input_hash": "38461d9090326bc3",
+      "input_hash": "09920f165dbce0ce",
       "game_digests": [
         {
           "name": "GTA6",
+          "count": 6,
+          "summary": "虚实难辨！《GTA6》罪恶城与迈阿密18处地标对比；《GTA6》罪城啤酒先\"过审\"了?三款酒标获美国联邦批准；\"罪恶都市\"车队现身迈阿密!《GTA6》疑似拍摄真人预告（当天共 6 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战地风云 6",
           "count": 2,
-          "summary": "黑客Gezine发布视频，声称已突破索尼PS5最新14.10系统固件，展示进入主机开发者菜单能力，引发盗版担忧。",
+          "summary": "《战地风云 6》x《死亡空间》活动今日上线；《战地风云6》联动《死亡空间》预告:评价两极分化。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "AKIBA LOST（秋叶原迷踪）",
+          "count": 1,
+          "summary": "《AKIBA LOST（秋叶原迷踪）》Steam版因审核等原因延期后，于今日10月21日正式上线！ 8折首发优惠回馈耐心等待的玩家，另赠像素角色壁纸！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "FF：共鸣",
+          "count": 1,
+          "summary": "游侠早报:《FF:共鸣》评分解禁 《GTA6》NPC体量超大。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "LOL",
+          "count": 1,
+          "summary": "《LOL》K/DA全新皮肤上线 两款神话皮肤拥有专属奖池。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "THE FINALS",
+          "count": 1,
+          "summary": "《THE FINALS》更新：最大规模破坏系统升级来了！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Tropico 7",
+          "count": 1,
+          "summary": "《Tropico 7》预购今日开启：与总统阁下一同提前统治——立省10%。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "WaifuCurator",
+          "count": 1,
+          "summary": "《WaifuCurator》免费试玩!420尊美少女模型等你来玩。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "人中之龙 极&人中之龙 极2套装包",
+          "count": 1,
+          "summary": "主机平台“SEGA万圣节促销”开跑！《人中之龙　极&人中之龙　极2套装包》《P3R》特价来袭！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "任天堂明星大乱斗",
+          "count": 1,
+          "summary": "《任天堂明星大乱斗》非官方原生PC版发布！支持60帧。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 1,
+          "summary": "有进步！外媒评测《使命召唤：现代战争4》新版DMZ。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "偏差，谬误与他的独白",
+          "count": 1,
+          "summary": "《偏差，谬误与他的独白》亮相 Steam 新品节 Demo 现已开放试玩，在“100%正确”之前重新思考真相。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "凯娜",
+          "count": 1,
+          "summary": "独立神作版权易主?曝索尼或已获得《凯娜》系列的版权。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "匹诺曹的谎言",
+          "count": 1,
+          "summary": "《匹诺曹的谎言》续作硬核招聘条件 不玩游戏的别来。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "咔哒！机械乱斗派对",
+          "count": 1,
+          "summary": "《咔哒！机械乱斗派对》即将亮相 Steam 新品节，Demo 现已开放试玩。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "article_count": 67,
+      "game_count": 45,
+      "untagged_count": 18,
+      "digest": "今日资讯聚焦《GTA6》发售前的最后动态，黑客破解PS5固件引发盗版担忧，R星高层坦言开发细节模糊，武器轮盘设计亦遭曝光。此外，Bungie宣布重启《命运2》运营，模拟经营新作《动物园之星2》口碑急转直下，多款独立游戏如《余烬之镇》、《地城安保公司》等亮相Steam新品节。",
+      "digest_source": "llm",
+      "input_hash": "806653cd9ca6960d",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 5,
+          "summary": "R星高层坦言因开发者自主权过大导致细节模糊，PS5最新固件被破解引发盗版担忧，武器轮盘设计遭曝光。",
           "summary_source": "llm"
         },
         {
           "name": "ASTELLIA2",
           "count": 1,
-          "summary": "携手NEXUS开启全球预约，将经典MMORPG玩法与ONEchain生态结合，支持移动端与PC跨平台，全球预约人数突破40万。",
+          "summary": "携手NEXUS开启全球预约，将经典MMORPG玩法与ONEchain生态结合，支持移动端与PC跨平台。",
           "summary_source": "llm"
         },
         {
           "name": "HR.SOS",
           "count": 1,
-          "summary": "自动化与解谜结合的模拟经营游戏《HR.SOS》亮相Steam新品节，玩家需扮演CEO与HR重构公司流程。",
+          "summary": "自动化与解谜结合的模拟经营游戏《HR.SOS》试玩版亮相Steam新品节，玩家将扮演CEO与HR重构公司流程。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "POE",
+          "count": 1,
+          "summary": "前无畏契约制作人乔·齐格勒透露游玩时长已达3437小时，称赞《POE》提供了ARPG品类里自由度最高的角色构筑体验。",
           "summary_source": "llm"
         },
         {
           "name": "Sil and the Fading World",
           "count": 1,
-          "summary": "Steam新品节试玩版迎来重大更新，新增“Dunevault”团队副本及刺客专精，支持单人挑战大型副本。",
+          "summary": "Steam新品节试玩版迎来重大更新，全新“Dunevault”团队副本及刺客专精上线。",
           "summary_source": "llm"
         },
         {
           "name": "Spirit Crossing灵渡之境",
           "count": 1,
-          "summary": "《Cozy Grove》团队打造的治愈系多人生活模拟新作亮相Steam新品节，中文试玩版免费开放至11月9日。",
+          "summary": "光遇与动森结合的治愈系多人生活模拟游戏《Spirit Crossing灵渡之境》中文试玩版亮相Steam新品节，将于11月发售。",
           "summary_source": "llm"
         },
         {
@@ -52,84 +159,78 @@
         {
           "name": "余烬之镇",
           "count": 1,
-          "summary": "地牢刷宝融合小镇种田的像素动作冒险RPG在Steam新品节公开试玩，11月27日开启抢先体验。",
+          "summary": "地牢刷宝融合小镇种田的像素动作冒险RPG《余烬之镇》10月20日新品节公开试玩，11月27日开启抢先体验。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤：现代战争4",
           "count": 1,
-          "summary": "Switch 2版移植评测指出，启用NVIDIA DLSS时画面完整性优于Filmic SMAA档位，画质方案成为技术重点。",
+          "summary": "数毛社评NS2版移植画质，启用NVIDIA DLSS时画面完整性优于Filmic SMAA档位。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "动物园之星2",
+          "count": 1,
+          "summary": "首发一周后口碑急转直下，Steam好评率跌至六成，Metacritic媒体评分85分但玩家体验出现明显反转。",
           "summary_source": "llm"
         },
         {
           "name": "古墓丽影RE",
           "count": 1,
-          "summary": "创意总监米哈尔·库克确认将保留初代经典场景与情绪锚点，仅对难以自洽的旧设计做局部调整。",
+          "summary": "创意总监确认将保留初代经典场景与情绪锚点，仅对受画面写实度提升后难以自洽的旧设计做局部调整。",
           "summary_source": "llm"
         },
         {
           "name": "吸血鬼：避世血族",
           "count": 1,
-          "summary": "据Reddit爆料，2004年经典RPG《吸血鬼：避世血族》正在开发新版，据称是复刻而非完全重制。",
+          "summary": "据Reddit爆料人士透露，2004年经典RPG《吸血鬼：避世血族》正在开发新版，是复刻而非完全重制。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "命运2",
+          "count": 1,
+          "summary": "Bungie裁员后重启招聘，联合索尼调整规划决定重启长线运营，推出具备实质内容的版本更新。",
           "summary_source": "llm"
         },
         {
           "name": "圣兽之王",
           "count": 1,
-          "summary": "出现非官方原生PC运行方案，开发者hachi23在GitHub发布基于PS4版构建的开源程序，支持4K及低配电脑运行。",
+          "summary": "出现非官方原生PC运行方案，基于PS4版构建，支持Windows与Linux，需用户自备兼容的PS4游戏镜像。",
           "summary_source": "llm"
         },
         {
           "name": "地城安保公司",
           "count": 1,
-          "summary": "融合轻度Rogue与地下城建造玩法的游戏参加Steam十月新品节，Demo已更新官中。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "地渊珠宝匠",
-          "count": 1,
-          "summary": "赌石与做珠宝玩法结合，新品节试玩版现已免费开放。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "城堡漂流记",
-          "count": 1,
-          "summary": "新品节期间Demo进行重大更新，新增多人异步联机与圣器系统。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说",
-          "count": 1,
-          "summary": "欧洲任天堂官方商店新增12款系列周边，涵盖服饰、随身用品及家居，售价14.99至59.99欧元。",
+          "summary": "轻肉鸽塔防X基建X自走棋游戏参加Steam十月新品节，Demo已更新官中。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-10-19",
-      "article_count": 95,
-      "game_count": 54,
+      "article_count": 96,
+      "game_count": 55,
       "untagged_count": 28,
-      "digest": "今日游戏资讯聚焦于《GTA6》发售前的热度发酵，BBC对其虚拟恋爱的讨论及彭博社预估的4000万份销量引发热议，TGA官方同步开启倒计时。此外，《使命召唤》系列新作频传破解消息，而《塞尔达传说：时之笛》重制版因缺货问题引发任天堂致歉，多款热门游戏与主机同步面临供应挑战。",
+      "digest": "今日游戏资讯聚焦于《GTA6》发售前的热度发酵，BBC与彭博社接连发布相关报道引发热议，TGA官方同步开启倒计时。此外，《使命召唤》系列新作遭遇破解与争议，而《塞尔达传说：时之笛》重制版因缺货问题引发玩家不满，多款热门游戏同步更新或推出联动内容。",
       "digest_source": "llm",
-      "input_hash": "f46d906dff3f364f",
+      "input_hash": "345b66e2df184669",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 11,
-          "summary": "BBC发布报道讨论玩家在游戏中与双主角杰森和露西娅的虚拟恋情是否等同于现实出轨，TGA官方开启发售倒计时，彭博社预估其首季度销量可达4000万份。",
+          "summary": "BBC发布报道探讨玩家在游戏中与双主角恋爱的伦理问题，彭博社预估其首季度销量可达4000万份，TGA官方开启发售倒计时。",
           "summary_source": "llm"
         },
         {
           "name": "现代战争4",
           "count": 3,
-          "summary": "PC版因光追与DLSS叠加导致画面失真被开发组锁定超分选项，单人战役模式遭破解可离线启动，抢先体验开放后通关时间约8小时。",
+          "summary": "开发组回应锁DLSS问题称叠加技术会导致画面失真，单人战役模式遭破解可离线启动，官方确认战役通关奖励可用于DMZ模式。",
           "summary_source": "llm"
         },
         {
           "name": "给他爱5",
           "count": 2,
-          "summary": "玩家GearOS Plays复刻《GTA6》首发预告片，直观展现画面差距，同时NPCTalk AI模组让NPC能进行无脚本实时对话。",
+          "summary": "玩家复刻《GTA6》首发预告片引发画面差距讨论，AI模组NPCTalk让NPC可进行无脚本实时对话。",
           "summary_source": "llm"
         },
         {
@@ -141,67 +242,67 @@
         {
           "name": "FF14",
           "count": 1,
-          "summary": "日服出现大量异常登录行为，SE发布公告提醒玩家检查账号安全，避免使用容易被猜测的邮箱与密码组合。",
+          "summary": "日服出现大量异常登录行为，SE提醒玩家检查账号安全，避免使用容易被猜测的邮箱与密码组合。",
           "summary_source": "llm"
         },
         {
           "name": "FF7：启示",
           "count": 1,
-          "summary": "总监滨口直树确认游戏将支持从开局直接选择Hard Mode，不再将高难度体验锁定在通关后，玩家第一周目即可挑战。",
+          "summary": "总监滨口直树确认游戏将支持从开局直接选择Hard Mode，且玩法机制与前两部完全不同。",
           "summary_source": "llm"
         },
         {
           "name": "FIRESTARTER",
           "count": 1,
-          "summary": "K/DA时隔六年携新单〈FIRESTARTER〉回归，官方MV今日上线，但因泄露消息提前一天发布。",
+          "summary": "K/DA携新单曲〈FIRESTARTER〉MV提前一天上线，因造型、合作歌手及线下联动消息提前遭泄露。",
           "summary_source": "llm"
         },
         {
           "name": "GT赛车",
           "count": 1,
-          "summary": "PS4独占赛车游戏《驾驶俱乐部》通过民间重编译项目在PC上原生运行，支持8K、超宽屏及解锁帧率，但仍在早期阶段。",
+          "summary": "PS4独占赛车游戏《驾驶俱乐部》通过民间重编译项目在PC上原生运行，支持8K、超宽屏及DLAA与FSR 3.1。",
           "summary_source": "llm"
         },
         {
           "name": "STRANGER THAN HEAVEN",
           "count": 1,
-          "summary": "世嘉公开系列剧情预告片第一部“福冈·小仓篇”，介绍大东真抵达日本后的第一座城市。",
+          "summary": "世嘉公开系列剧情预告片第一部“福冈·小仓”，介绍大东真抵达日本后的第一座城市。",
           "summary_source": "llm"
         },
         {
           "name": "上古卷轴4RE",
           "count": 1,
-          "summary": "Reddit用户借助Claude AI开发的同名开源性能模组，在未牺牲画质的前提下实现平均帧率提升超40%。",
+          "summary": "民间大神借助AI完成开源性能模组，在未牺牲画质的前提下，于多项基准测试中实现平均帧率提升超40%。",
           "summary_source": "llm"
         },
         {
           "name": "光环",
           "count": 1,
-          "summary": "外媒爆料代号Project Tatanka/Ekur的多人项目因人力抽调等原因惨遭取消，融合大逃杀、搜打撤玩法的项目全部告吹。",
+          "summary": "外媒爆料代号Project Tatanka/Ekur的多人项目因人力抽调等原因惨遭取消，融合的大逃杀玩法全部告吹。",
           "summary_source": "llm"
         },
         {
           "name": "刺猬索尼克4",
           "count": 1,
-          "summary": "EIDR数据库显示该片长可能约为120分钟，但该信息尚未得到片方正式确认。",
+          "summary": "EIDR数据库显示电影片长可能约为120分钟，但该信息尚未得到片方正式确认。",
           "summary_source": "llm"
         },
         {
           "name": "双点博物馆",
           "count": 1,
-          "summary": "推出与《小猫咪大城市》的联动内容，登陆PS5、Xbox Series X|S、Switch 2及PC平台。",
+          "summary": "推出与《小猫咪大城市》的联动内容，登陆PS5、XBOX Series X|S、Nintendo Switch™ 2与PC平台。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛",
           "count": 1,
-          "summary": "任天堂拉丁美洲副总裁承认低估了重制版的市场需求，目前游戏预购热度触及供应上限，Switch2主机与Pro手柄也在多地售罄。",
+          "summary": "任天堂拉丁美洲副总裁承认低估了重制版的市场需求，目前游戏预购热度已触及供应上限，Switch2主机和Pro手柄也在多地售罄。",
           "summary_source": "llm"
         },
         {
           "name": "守望先锋",
           "count": 1,
-          "summary": "国服皮肤设计大赛获奖作品接连被指控AI生成、抄袭及复用旧作，引发赛事风波。",
+          "summary": "第二届国服皮肤设计大赛获奖作品接连被指控AI生成、抄袭及复用旧作，引发关于AI创作的争议。",
           "summary_source": "llm"
         }
       ]
@@ -808,107 +909,6 @@
           "name": "古墓丽影8",
           "count": 1,
           "summary": "Weta Workshop公布以《古墓丽影：地下世界》为灵感的全新劳拉·克劳馥1:4雕像，限量750件。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "article_count": 78,
-      "game_count": 46,
-      "untagged_count": 19,
-      "digest": "今日游戏资讯聚焦于《GTA6》女主全裸视频流出引发争议、R星强调NPC叙事投入，以及《影之刃零》动捕超千小时与索尼高层会面的开发历程。此外，《恐鬼症》销量破3000万开启万圣节活动，《铁拳8》公布范马勇次郎与袋鼠RogerJr.新实机，小岛工作室推出十周年联名周边，堀井雄二发布30分钟AI推理游戏引发玩家担忧。",
-      "digest_source": "llm",
-      "input_hash": "c40e792980d487b1",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 4,
-          "summary": "知名爆料人Cyberleek发布约5分钟全裸视频，因NPC无反应被质疑为模组制作，他宣称下段泄露将是4K版本。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 4,
-          "summary": "外媒披露动捕录制超1000小时且不完美重拍，制作人梁其伟讲述借力本土外包与年轻开发者克服开发难题。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三国群英传Online",
-          "count": 2,
-          "summary": "宣布开放全新服务器「龙吟九霄」，推出北伐续汉祚与日本战国武将强势加入的大型改版内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "恐鬼症",
-          "count": 2,
-          "summary": "Kinetic Games公布累计销量突破3000万份，同步开启至11月1日的万圣节“猩红之眼”活动，并透露1.0正式版定档2027年下半年。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "死亡搁浅",
-          "count": 2,
-          "summary": "小岛工作室与Casetify联合推出十周年联名手机壳，计划于10月15日开售，购买可获赠限量收藏卡。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "毁灭战士",
-          "count": 2,
-          "summary": "配乐师Mick Gordon在PAX Australia表示愿意回归，但强调反感生成式AI，称需满足一系列条件才考虑合作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "永恒之塔2",
-          "count": 2,
-          "summary": "NCsoft宣布限制4996个使用外挂打金的违规账号，同时指出角色捏人系统因身材夸张引发玩家热议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "王国之心",
-          "count": 2,
-          "summary": "Square Enix宣布Steam平台国区主要作品价格永久下调，368元即可集齐核心正传系列。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "铁拳8",
-          "count": 2,
-          "summary": "万代南梦宫公布范马勇次郎全新PV与袋鼠RogerJr.实机演示，RogerJr.归入第三赛季，11月12日开启抢先体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "42中队",
-          "count": 1,
-          "summary": "《星际公民：42中队》Steam页面上线，确认将于2027年第二季度发售，并展示电影级画面与多元玩法。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "DQ12",
-          "count": 1,
-          "summary": "《勇者斗恶龙》之父堀井雄二发布仅耗时30分钟完成的AI推理小游戏，引发玩家对AI侵蚀作品的担忧。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA",
-          "count": 1,
-          "summary": "初代《GTA》核心开发者Pat Kerr用JavaScript重制并公开驾驶物理演示，还原1996年原版载具手感。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA4",
-          "count": 1,
-          "summary": "开发者vaduur基于开源工程将《GTA4》移植至安卓，代码几乎全由AI生成，无需运行模拟器。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "MBTW",
-          "count": 1,
-          "summary": "《MELTY BLOOD: TWI-LUMINA》官方宣布将于11月迎来新一轮情报公布，游戏节奏加快。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴3",
-          "count": 1,
-          "summary": "网友分享CRT屏幕完美适配《上古卷轴3》原生美术风格，独特成像效果引发玩家体验褒贬不一。",
           "summary_source": "llm"
         }
       ]

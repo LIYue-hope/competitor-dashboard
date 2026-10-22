@@ -1,208 +1,309 @@
 {
-  "generated_at": "2026-10-21T00:40:27.598299+00:00",
+  "generated_at": "2026-10-22T00:47:55.490817+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-21",
-      "article_count": 26,
-      "game_count": 15,
-      "untagged_count": 6,
-      "digest": "R星在迈阿密投放《GTA6》实景广告，展示Weazel新闻台及虚构品牌标语；微软宣布《最终幻想7：重制版 Intergrade》加入XGP；CDPR确认《赛博朋克2077》将于10月22日更新至2.5版本，新增双持玩法及动画相关内容。",
+      "date": "2026-10-22",
+      "article_count": 25,
+      "game_count": 18,
+      "untagged_count": 5,
+      "digest": "2026年10月22日，行业资讯报道数量较前期增加，涵盖游戏发售、技术驱动更新、销量突破及厂商调整等多方面动态，涉及游戏数量达18款，内容聚焦近期新作进展、技术赋能游戏与版次发布及部分厂商业务调整，整体呈现游戏市场动态活跃并伴随运营调整、技术迭代持续推进的状态。",
       "digest_source": "llm",
-      "input_hash": "d69d33afa790e083",
+      "input_hash": "683699bf51795fd0",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 5,
-          "summary": "R星在迈阿密投放实景广告，展示Weazel新闻台采访车及Pfister、Kowalski等虚构品牌标语，还原游戏内戏谑风格。",
-          "summary_source": "llm"
+          "count": 2,
+          "summary": "男子称泄露价值400万美元《GTA6》广告物料后遭解雇；《GTA6》首个电视广告仅展示PlayStation标识。",
+          "summary_source": "rules"
         },
         {
           "name": "使命召唤：现代战争4",
           "count": 2,
-          "summary": "新版DMZ试玩强化任务与撤离关联，行动基地功能分散，主要战区哈金规模庞大且AI威胁提升。",
-          "summary_source": "llm"
+          "summary": "英伟达驱动更新 COD和2077迎来 DLSS4.5加持；《使命召唤：现代战争4》PC在线模式要求兼容版TPM固件。",
+          "summary_source": "rules"
         },
         {
-          "name": "使命召唤：黑色行动1/2",
+          "name": "GTA3",
           "count": 1,
-          "summary": "原作团队Gavin Goslin批评两作在2026年重新发行后持续创造收入，但参与开发的实际创作者未获得新增报酬。",
-          "summary_source": "llm"
+          "summary": "《GTA3》25周年回顾：玩家自由比暴力争议影响更深。",
+          "summary_source": "rules"
         },
         {
-          "name": "反恐精英2",
+          "name": "VANRAN",
           "count": 1,
-          "summary": "职业选手Aleksib因涉嫌未申报贴纸销售收入面临严重税务欺诈指控，可能被判处四个月缓刑。",
-          "summary_source": "llm"
+          "summary": "韩国奇幻ARPG《VANRAN》延期至2027年初 可攀爬巨型BOSS。",
+          "summary_source": "rules"
         },
         {
-          "name": "塞尔达：时之笛 重制版",
+          "name": "bioware",
           "count": 1,
-          "summary": "Switch 2版容量据称达27GB，是1998年原版卡带容量的800倍以上，相关数字来自日本商店下载卡照片。",
-          "summary_source": "llm"
+          "summary": "CDPR发声缅怀传奇工作室BioWare 感念昔日相助。",
+          "summary_source": "rules"
         },
         {
-          "name": "寂静岭2：重制版",
+          "name": "塞尔达传说：时之笛",
           "count": 1,
-          "summary": "开发商Bloober Team CEO表示游戏画质提升已接近瓶颈，行业应将资源从单纯视觉堆砌转向故事与玩法。",
-          "summary_source": "llm"
+          "summary": "任天堂公布《塞尔达传说：时之笛》重制版数字版早购奖励。",
+          "summary_source": "rules"
         },
         {
-          "name": "恶霸鲁尼",
+          "name": "异于天堂",
           "count": 1,
-          "summary": "玩家借助AI以虚幻5.8重制该作，发起者Ashen公开演示视频，称项目非官方非商业，允许其他爱好者加入。",
-          "summary_source": "llm"
+          "summary": "《异于天堂》试玩：叙事与时代氛围亮眼 战斗仍显繁琐。",
+          "summary_source": "rules"
         },
         {
-          "name": "最终幻想7：重制版 Intergrade",
+          "name": "影之刃零",
           "count": 1,
-          "summary": "该作入选XGP十月第二批阵容，玩家可在购买《最终幻想7：重生》前完整体验。",
-          "summary_source": "llm"
+          "summary": "英伟达发布621.01驱动 升级《影之刃零》等游戏支持。",
+          "summary_source": "rules"
         },
         {
-          "name": "消逝的光芒：困兽",
+          "name": "指环王：力量之戒",
           "count": 1,
-          "summary": "Techland不再为该作制作大型新内容，创始人称其定位为完整独立作品，支持将止步于现有内容。",
-          "summary_source": "llm"
+          "summary": "《指环王：力量之戒》第三季新预告聚焦索隆与至尊魔戒。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "极速滑板",
+          "count": 1,
+          "summary": "EA缩编《极速滑板》工作室 多名资深开发者岗位取消。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "永生咒魇",
+          "count": 1,
+          "summary": "恐龙生存恐怖游戏《永生咒魇》登陆PC抢先体验。",
+          "summary_source": "rules"
         },
         {
           "name": "猛鬼追魂：复苏",
           "count": 1,
-          "summary": "原作者克莱夫·巴克点赞游戏保留了激烈尺度，游戏在Steam获得93%好评，但部分内容曾触及平台审核边界。",
-          "summary_source": "llm"
+          "summary": "《猛鬼追魂：复苏》开发组：非正式目标是遭某地封禁。",
+          "summary_source": "rules"
         },
         {
-          "name": "绝地潜兵2",
+          "name": "生化危机9",
           "count": 1,
-          "summary": "官方宣布切换至EAC反作弊系统，部分外观Mod可能失效，团队表示此举旨在限制影响公平游玩的修改。",
-          "summary_source": "llm"
+          "summary": "《生化危机9》PS5实体版收入超过Xbox全版本总和1.8倍。",
+          "summary_source": "rules"
         },
         {
-          "name": "缄默祸运",
+          "name": "英雄萨姆：三次出击",
           "count": 1,
-          "summary": "Steam特别好评心理恐怖游戏将于10月29日登陆PS5、PS4、Xbox Series X|S和Switch平台。",
-          "summary_source": "llm"
+          "summary": "《英雄萨姆：三次出击》正式公布 游戏预告和截图欣赏。",
+          "summary_source": "rules"
         },
         {
-          "name": "群星",
+          "name": "质量效应",
           "count": 1,
-          "summary": "玩家通过叠加机制将Cybrex Beta星系恒星月产能推至1万，主要增量来自击败远古无人机获得的“勘探者”遗珍。",
-          "summary_source": "llm"
+          "summary": "EA关闭BioWare工作室 《质量效应》新作开发取消。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "article_count": 111,
+      "game_count": 75,
+      "untagged_count": 22,
+      "digest": "10月21日 3DMGame 共 111 条新闻，涉及 75 款游戏。报道最集中的是《GTA6》（8 条）、《使命召唤：现代战争4》（4 条）、《英雄联盟》（4 条）。另有 22 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "1996960683fc3b55",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 8,
+          "summary": "经济学家估算《GTA6/侠盗猎车6》发售或致美国150万人缺勤！；“像《GTA6/侠盗猎车6》的《军团要塞2》”领衔一周小众游戏动态；Justice谈《GTA6/侠盗猎车6》配乐：淡化期待并融合未来感与80年代风味（当天共 8 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 4,
+          "summary": "《使命召唤：现代战争4》主机性能模式要求同时开启120Hz与VRR；游戏发售前瞻：《使命召唤：现代战争4》10月23日推出；《使命召唤：现代战争4》DMZ试玩强化任务与撤离关联（当天共 4 条）",
+          "summary_source": "rules"
         },
         {
           "name": "英雄联盟",
-          "count": 1,
-          "summary": "26.21版本调整25名英雄，录像下载改为每小时10次，凯特琳、金克丝等遭削弱，阿兹尔、德莱厄斯等获增强。",
-          "summary_source": "llm"
+          "count": 4,
+          "summary": "《英雄联盟》K/DA公布四曲迷你专辑及系列官方周边！；《英雄联盟》全球总决赛入围赛MVK再胜FUR晋级决胜战！；《英雄联盟》K/DA新皮肤公布！两款神话皮肤采用独立奖池（当天共 4 条）",
+          "summary_source": "rules"
         },
         {
-          "name": "赛博朋克2077",
+          "name": "无畏契约",
+          "count": 2,
+          "summary": "《无畏契约》公开中国籍新决斗者“哈什”！当地时间10月27日登场；Shopify Rebellion落选VCT合作队伍！无畏契约称可能退出《无畏契约》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "AKIBA LOST",
           "count": 1,
-          "summary": "2.5更新定档10月22日，官方预告义体外观定制、双持玩法及动画第二季相关内容，泄露视频提前披露部分清单。",
-          "summary_source": "llm"
+          "summary": "《AKIBA LOST》Steam版因审核等原因延期后， 于今日10月21日正式上线！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "EA SPORTS FC 27",
+          "count": 1,
+          "summary": "PEGI收紧付费随机奖励评级 《EA SPORTS FC 27》升至16岁。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Ebbtide",
+          "count": 1,
+          "summary": "ProjectAlive公开《Ebbtide》Steam页面 救援成果将转化为全球战役兵力。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Graytail",
+          "count": 1,
+          "summary": "孤岛解谜动作游戏《Graytail》公布新预告 计划2027年底发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "MECCHA LIAR",
+          "count": 1,
+          "summary": "HEXIT新作《MECCHA LIAR》发售 判断失误会累积处刑惩罚。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Magenta Down",
+          "count": 1,
+          "summary": "科幻氛围冒险游戏《Magenta Down》公布 登陆PC和Xbox。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Mangrove Express",
+          "count": 1,
+          "summary": "配送冒险游戏《Mangrove Express》推出试玩版 可自由规划航线。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Please Remain Dead",
+          "count": 1,
+          "summary": "《Please Remain Dead》开放Steam页面 玩家需装死欺骗验尸员。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "SKROLL",
+          "count": 1,
+          "summary": "短视频生存游戏《SKROLL》试玩版上线Steam 正式版暂定2027年推出。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "不朽遗志",
+          "count": 1,
+          "summary": "第一人称类魂游戏《不朽遗志》发售7天回本并开始盈利。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "乱斗骑士",
+          "count": 1,
+          "summary": "《乱斗骑士》10月27日开启抢先体验并转向合作PvE。",
+          "summary_source": "rules"
         }
       ]
     },
     {
       "date": "2026-10-20",
-      "article_count": 134,
+      "article_count": 138,
       "game_count": 106,
-      "untagged_count": 11,
-      "digest": "今日游戏资讯聚焦于《GTA6》发售预告播放量突破5100万，远超前作13年累计数据，同时PS5破解风险引发关注；独立游戏方面，《余烬之镇》、《地城安保公司》等在Steam新品节开放试玩；此外《赛博朋克2077》公布2.5版更新，《最终幻想：共鸣》媒体评分出炉，而《EA SPORTS FC 27》继续霸占英国实体游戏销量榜首位。",
+      "untagged_count": 15,
+      "digest": "2026年10月20日行业动态较丰富，整体呈现多游戏厂商在发售、更新与销量表现上多有动作，涵盖3DMGame 138条新闻、涉及游戏106款，多数游戏在游戏市场进行发售、更新或上线活动，部分产品因内容与策略调整获得正向反馈，部分合作或项目推进情况受限制。",
       "digest_source": "llm",
-      "input_hash": "3266ba553d047b8a",
+      "input_hash": "d3b8777d611e0770",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 8,
-          "summary": "《GTA6》发售预告四天播放量破5100万，超越《GTA5》13年累计数据，同时PS5主机最新固件被曝存在破解风险。",
-          "summary_source": "llm"
+          "summary": "《GTA6》发售宣传片四天播放量破5100万 比前作13年累计数据还高；《GTA6》有被盗版风险 最新固件PS5主机已被破解；消息称《GTA6/侠盗猎车6》街道更窄车流更密并限制武器携带（当天共 8 条）",
+          "summary_source": "rules"
         },
         {
           "name": "使命召唤：现代战争4",
           "count": 3,
-          "summary": "《使命召唤：现代战争4》剧情战役推出后，玩家热议约翰·普莱斯在原版与重启版中的不同形象，认为本作收束了重启版角色弧线。",
-          "summary_source": "llm"
+          "summary": "《使命召唤：现代战争4》收束普莱斯角色弧线！两版形象获玩家比较；《使命召唤：现代战争4》首更上线！部分玩家称战役无法载入；无需高端主机和PC 玩家也能游玩《使命召唤：现代战争4》。",
+          "summary_source": "rules"
         },
         {
           "name": "余烬之镇",
           "count": 2,
-          "summary": "《余烬之镇》参加Steam十月新品节并公开试玩，玩家可在序章中体验地牢刷宝与小镇重建的玩法，游戏将于10月27日开启抢先体验。",
-          "summary_source": "llm"
+          "summary": "地牢刷宝融合小镇种田，人气新游《余烬之镇》10月20日新品节公开试玩；城镇重建动作RPG《余烬之镇》试玩上线 进度可继承至抢先体验版。",
+          "summary_source": "rules"
         },
         {
           "name": "地城安保公司",
           "count": 2,
-          "summary": "《地城安保公司》参加Steam十月新品节，玩家可下载官方中文试玩版，体验挖掘矿石、建造陷阱及抵御英雄进攻的玩法。",
-          "summary_source": "llm"
+          "summary": "轻肉鸽塔防X基建X自走棋《地城安保公司》参加 Steam 十月新品节，Demo已更新官中；《地城安保公司》开放免费试玩 击败Boss可获角色命名权。",
+          "summary_source": "rules"
         },
         {
           "name": "异兽发廊",
           "count": 2,
-          "summary": "《异兽发廊》亮相Steam新品节，试玩版在7天内突破10万愿望单，团队对文本与演出进行了优化。",
-          "summary_source": "llm"
+          "summary": "99% 好评《异兽发廊》亮相 Steam 新品节，试玩版迎来文本与演出优化；《异兽发廊》参加10月Steam新品节！试玩版更新韩文与日文。",
+          "summary_source": "rules"
         },
         {
           "name": "影之刃零",
           "count": 2,
-          "summary": "《影之刃零》公布吉考斯工业联名系列，包含衬衫、卫衣等10款单品，将于本周末在北京核聚变游戏嘉年华现场首发。",
-          "summary_source": "llm"
+          "summary": "《影之刃零》全新联名系列公开 衬衫卫衣棉服等很帅；《影之刃零》PS5下载容量约134.857GB 10月27日开放预载。",
+          "summary_source": "rules"
         },
         {
           "name": "我在西游当妖怪",
           "count": 2,
-          "summary": "《我在西游当妖怪》参加Steam新品节并开放试玩，提供21种妖怪与30条支线，融合Roguelike卡牌与修炼养成玩法。",
-          "summary_source": "llm"
+          "summary": "《我在西游当妖怪》Steam新品节开放试玩，提供21种妖怪与30条支线；不做取经人，做一只小妖：像素风《我在西游当妖怪》Demo登陆Steam新品节。",
+          "summary_source": "rules"
         },
         {
           "name": "无畏契约",
           "count": 2,
-          "summary": "DFM战队宣布未能入选2027年后VCT合作席位，现有合作关系将于2026年结束，但队伍确认将继续运营。",
-          "summary_source": "llm"
+          "summary": "DFM未获2027年后VCT合作席位！《无畏契约》分部继续运营；Riot公布2027至2028年《无畏契约》冠军巡回赛合作队伍。",
+          "summary_source": "rules"
         },
         {
           "name": "最终幻想：共鸣",
           "count": 2,
-          "summary": "《最终幻想：共鸣》媒体评分出炉，IGN给出8分，GameSpot给出7分，Metacritic均分85分。",
-          "summary_source": "llm"
+          "summary": "《最终幻想：共鸣》评分出炉：IGN 8分 GameSpot 7分；《最终幻想：共鸣》10月22日发售!《最终幻想14》月底迎更新与东京粉丝节。",
+          "summary_source": "rules"
         },
         {
           "name": "赛博朋克2077",
           "count": 2,
-          "summary": "CDPR公布《赛博朋克2077》“边缘行者2”更新，版本号为2.5，将于10月22日上线，官方暂未公开具体内容。",
-          "summary_source": "llm"
+          "summary": "《赛博朋克2077》意外公布2.5版更新，10月22日上线；《赛博朋克2077》第三人称模组2.0扩充动画与场景交互！。",
+          "summary_source": "rules"
         },
         {
           "name": "8020号指令",
           "count": 1,
-          "summary": "《8020号指令》推出免费更新，新增最多五人在线多人模式，并推出复古未来风格船员服装DLC。",
-          "summary_source": "llm"
+          "summary": "《8020号指令》免费更新上线 新增最多五人在线多人模式。",
+          "summary_source": "rules"
         },
         {
           "name": "ARC Raiders",
           "count": 1,
-          "summary": "《ARC Raiders》在“冰封足迹”更新及免费试玩周末后，全平台日活据估算升至170万，达到近六个月最高点。",
-          "summary_source": "llm"
+          "summary": "《ARC Raiders》更新叠加免费周末 日活据估算升至170万。",
+          "summary_source": "rules"
         },
         {
           "name": "ASTELLIA2",
           "count": 1,
-          "summary": "《ASTELLIA2》携手NEXUS开启全球预约，累计预约人数突破100万，支持移动端与PC跨平台。",
-          "summary_source": "llm"
+          "summary": "《ASTELLIA2》携手 NEXUS开启全球预约，拓展 ONEchain 生态合作。",
+          "summary_source": "rules"
         },
         {
           "name": "Amiko Legends",
           "count": 1,
-          "summary": "《Amiko Legends》在Steam新品节开放新版试玩，计划于2026年底开启抢先体验，增加了跳跃功能与单人挑战。",
-          "summary_source": "llm"
+          "summary": "《Amiko Legends》Steam新品节开放新版试玩 年底启动抢先体验。",
+          "summary_source": "rules"
         },
         {
           "name": "EA SPORTS FC 27",
           "count": 1,
-          "summary": "《EA SPORTS FC 27》蝉联英国实体游戏销量榜第一，PS5版销量占比59%。",
-          "summary_source": "llm"
+          "summary": "英国实体游戏周榜公布：《EA SPORTS FC 27》蝉联第一！。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -910,107 +1011,6 @@
           "count": 1,
           "summary": "老派RTS《Defilade》公布 深受《红色警戒1》影响。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "article_count": 112,
-      "game_count": 83,
-      "untagged_count": 18,
-      "digest": "3DMGame当日共收录112条新闻，涉及83款游戏。市场焦点集中在《GTA6》关联代币CYBERLEEK的市值波动与《巫师3》模组更新，此外《万智牌》公布漫威主题Secret Lair，《铁拳8》公布Roger Jr.实机演示，而《给他爱5》销量突破2.3亿份引发玩家社群回顾热潮。",
-      "digest_source": "llm",
-      "input_hash": "1226cc21fd495c47",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 5,
-          "summary": "与《GTA6》疑似泄露消息关联的代币CYBERLEEK市值一天内一度突破600万美元，随后回落至500万美元左右，项目方此前将600万美元设为发布露西亚4K近景新材料的条件，但相关游戏文件的真实性仍未得到证实。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：狂猎",
-          "count": 3,
-          "summary": "MOD作者Deezyyyy推出了《巫师3：狂猎》“生机大陆”模组，为游戏世界加入了四季变化与积雪效果，树木会随季节长叶、变色、落叶，21种欧洲草地野花也会按周期开花、凋谢。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "万智牌",
-          "count": 2,
-          "summary": "Wizards of the Coast在纽约动漫展公布了与漫威合作的“英雄史”Secret Lair，收录30张重印卡，计划于11月2日开售，已展示的卡牌包括纳摩主题的Fierce Guardianship等。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星球大战：银河赛车手",
-          "count": 2,
-          "summary": "《星球大战：银河赛车手》开发团队曾用简易桌游原型测试肉鸽式升级系统，通过便签、草图和骰子讨论玩家在各阶段的选择与回报，奖励通常为调校点或影响载具能力的零件。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "索尼克赛车 交叉世界",
-          "count": 2,
-          "summary": "世嘉公布了第二年即将推出的六个联动内容包，并宣布游戏本体价格永久降至40美元，数字豪华版降至60美元，但部分玩家质疑第二年季票定价29.99美元，认为发售前宣传措辞暗示内容已包含在内。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "给他爱5",
-          "count": 2,
-          "summary": "《给他爱5》全球销量已超过2.3亿份，IGN回顾视频指出玩家社群利用游戏世界组织活动、制作内容，其长期影响力已超出原本的犯罪模拟体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "铁拳8",
-          "count": 2,
-          "summary": "万代南梦宫公布了《铁拳8》追加角色Roger Jr.的实机演示，确认其将加入第三赛季内容，并将于11月12日开启抢先体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "ARC Raiders",
-          "count": 1,
-          "summary": "《ARC Raiders》于10月8日推出“冰封之路”更新，上线后Steam同时在线峰值升至18.5万，团队也让玩家在PC、PS5和Xbox Series X/S上免费体验完整版。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Brick Buddies",
-          "count": 1,
-          "summary": "4人合作拼装游戏《Brick Buddies》计划于2026年第四季度登陆Steam，玩家需围桌合作完成11个主题、33件作品的拼装，积木总数超过6000块。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Escape From Playtime",
-          "count": 1,
-          "summary": "设定于《波比的游戏时光》宇宙的4人合作解谜撤离游戏《Escape From Playtime》确定于2026年10月21日推出，将率先以Steam抢先体验形式上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Jump Adventures",
-          "count": 1,
-          "summary": "2D平台游戏《Jump Adventures》已在Steam永久改为免费，随更新同步改善了画面并加入新移动机制，此前该游戏售价约2.99美元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "UBERMOSH:OMEGA",
-          "count": 1,
-          "summary": "复古等距视角动作游戏《UBERMOSH:OMEGA》启用Steam集换式卡牌功能后，Steam同时在线峰值达到17.4万，外媒分析认为这主要来自自动化账号集中运行以获取卡牌。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "We Were Here Tomorrow",
-          "count": 1,
-          "summary": "合作解谜冒险系列新作《We Were Here Tomorrow》定档10月20日，首发支持全平台跨平台联机，中国大陆地区售价为77元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴5：天际",
-          "count": 1,
-          "summary": "一张《上古卷轴5：天际》的洞穴截图在Reddit引发画面年代讨论，发布者随后更正称自己游玩的是特别版，而非原版。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "专注RPG",
-          "count": 1,
-          "summary": "韩国独立游戏《专注RPG》已在Android和iOS上架，将专注计时与放置战斗结合，玩家完成专注时间后才能领取角色自动战斗带来的奖励。",
-          "summary_source": "llm"
         }
       ]
     }
