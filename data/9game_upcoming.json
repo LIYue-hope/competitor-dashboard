@@ -1,37 +1,9 @@
 {
-  "crawled_at": "2026-10-22T00:35:06.370284+00:00",
+  "crawled_at": "2026-10-23T00:33:39.764215+00:00",
   "days": [
     {
-      "date": "2026-10-22",
-      "date_label": "10月22日 今天",
-      "games": [
-        {
-          "game_name": "深空之劫",
-          "categories": [
-            "策略"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/shenkongzhijie/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "神泣：纷争",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": "7.1",
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/sqfz/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-10-23",
-      "date_label": "10月23日 明天",
+      "date_label": "10月23日 今天",
       "games": [
         {
           "game_name": "篮球少女",
@@ -42,6 +14,17 @@
           "event_desc": "NBA联动",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/lqsnfydf/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "龙渊王座",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/longyuanwangzuo/",
           "has_afk_grinding_tag": false
         },
         {
@@ -76,23 +59,12 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/porikaitian/",
           "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "龙渊王座",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/longyuanwangzuo/",
-          "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-10-24",
-      "date_label": "10月24日 后天",
+      "date_label": "10月24日 明天",
       "games": [
         {
           "game_name": "守护小精灵",
@@ -120,6 +92,17 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/zhijiandamaoxian/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "黑暗荒野",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "神器传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/heianhuangye1/",
           "has_afk_grinding_tag": false
         },
         {

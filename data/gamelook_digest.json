@@ -1,9 +1,44 @@
 {
-  "generated_at": "2026-10-22T00:59:13.437465+00:00",
+  "generated_at": "2026-10-23T00:45:38.478536+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-22",
+      "article_count": 8,
+      "game_count": 4,
+      "untagged_count": 4,
+      "digest": "今日游戏行业资讯主要聚焦于《WarDogs》因运营失误引发玩家不满、电竞领域《无畏契约》上海全球冠军赛圆满落幕、独立游戏《深空当铺》Steam测试热度与争议并存，以及《赛马娘》美国巡演因签证问题被迫取消等热点事件。",
+      "digest_source": "llm",
+      "input_hash": "e571e8e4fb965457",
+      "game_digests": [
+        {
+          "name": "WarDogs",
+          "count": 1,
+          "summary": "《WarDogs》新赛季上线仅3天便宣布停服，CEO公开致歉并承认运营失误。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "无畏契约",
+          "count": 1,
+          "summary": "2026无畏契约上海全球冠军赛在梅赛德斯-奔驰文化中心圆满收官，LOUD战队夺得冠军。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "深空当铺",
+          "count": 1,
+          "summary": "《深空当铺》Steam测试开启，玩家因“沉迷讨价还价”热度爆红，同时demo漏洞引发争议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛马娘",
+          "count": 1,
+          "summary": "《赛马娘》美国巡演因签证问题紧急取消，涉及17名声优歌手。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-10-21",
       "article_count": 9,
@@ -156,41 +191,6 @@
           "name": "影之刃零",
           "count": 1,
           "summary": "灵游坊于北京举办全球媒体线下闭门试玩与预览活动，距离10月29日发售还有两周冲刺时间。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "article_count": 8,
-      "game_count": 4,
-      "untagged_count": 4,
-      "digest": "2026年10月13日游戏行业资讯主要聚焦于腾讯系产品表现及新品动态。腾讯旗下《火影忍者》宣布出海引发关注，魔方游戏借此迎来关键节点；腾讯投资的《ARC Raiders》2.0版本“霜痕小径”上线后Steam在线人数暴涨10倍至18万人，腾讯国服代理前景被看好；此外，《ROBLOX》跻身9月全球手游收入榜前五，紫龙游戏新作《极境：垂钓者》则引发市场对战棋品类生存空间的讨论。",
-      "digest_source": "llm",
-      "input_hash": "913c0354eb30e93f",
-      "game_digests": [
-        {
-          "name": "ARC Raiders",
-          "count": 1,
-          "summary": "腾讯投资的《ARC Raiders》2.0大版本“霜痕小径”正式上线，全平台免费畅玩，Steam同时在线人数暴涨10倍至18万人，腾讯国服代理前景被看好。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "ROBLOX",
-          "count": 1,
-          "summary": "《ROBLOX》在2026年9月全球手游收入排行榜中表现强劲，跻身全球收入榜前五。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "极境：垂钓者",
-          "count": 1,
-          "summary": "紫龙游戏新作《极境：垂钓者》引发市场关注，游戏圈讨论战棋品类在2026年的生存空间。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "火影忍者",
-          "count": 1,
-          "summary": "《火影忍者》官宣出海，魔方游戏借此迎来“赛点时刻”，老外欢呼“苦等10年”。",
           "summary_source": "llm"
         }
       ]

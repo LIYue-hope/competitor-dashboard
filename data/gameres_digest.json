@@ -1,59 +1,88 @@
 {
-  "generated_at": "2026-10-22T01:00:50.925729+00:00",
+  "generated_at": "2026-10-23T00:47:40.687259+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
+      "date": "2026-10-22",
+      "article_count": 11,
+      "game_count": 3,
+      "untagged_count": 8,
+      "digest": "今日游资网共发布11条资讯，聚焦三款游戏。其中《Block Blast》开发商Hungry Studio新作《Rotate Rings》成美榜爆款，近30天下载超千万；《甄嬛传：归来》作为IP二合小游戏跻身畅销榜；此外还报道了《勇闯水纪元》的守护塔防玩法。",
+      "digest_source": "llm",
+      "input_hash": "bd7b0717f3724816",
+      "game_digests": [
+        {
+          "name": "Block Blast",
+          "count": 1,
+          "summary": "Hungry Studio的新品爆了，《Block Blast》之后，再出美榜爆款 —— 继《Block Blast》后，Hungry Studio通过新加坡运营实体推出的转环解谜IAA手游《Rotate Rings》成美榜爆款，近30天下载超千万、日活近200万，曾冲至美iOS免费榜第三、Google Play第二。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "勇闯水纪元",
+          "count": 1,
+          "summary": "疯狂水世界启动！《勇闯水纪元》的守护塔防IAA体验！ —— The Tower – Idle Tower Defense+水世界。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "甄嬛传：归来",
+          "count": 1,
+          "summary": "AI漫剧+二合或成最佳融合！《甄嬛传：归来》的沉浸感体验！ —— 甄嬛传IP二合小游戏《甄嬛传：归来》跻身畅销榜，以甄嬛为主角推进剧情，采用全AI漫剧形式，沉浸感与视觉统一性出众，二合玩法扎实，存在初期付费较急、界面活动按钮偏重的问题。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
       "date": "2026-10-21",
       "article_count": 12,
       "game_count": 7,
       "untagged_count": 5,
-      "digest": "10月21日 游资网 共 12 条新闻，涉及 7 款游戏。报道最集中的是《HR.SOS》（1 条）、《TapTap制造》（1 条）、《人间异想计划》（1 条）。另有 5 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
+      "digest": "10月21日游戏行业资讯聚焦新品发布与测试开启，腾讯光子旗下怪谈新作《人间异想计划》首曝，豪腾发行的《我的末日房车》登顶抖音小游戏新游榜，TapTap制造创作者反映AI游戏盈利难致项目停滞。此外，《掘地求财：铲友齐上阵》定档12月4日发售，多人合作游戏《无光绝境》开启测试，MMORPG《魔域》公布金秋幻兽内容。",
+      "digest_source": "llm",
       "input_hash": "b38f37dba365272f",
       "game_digests": [
         {
           "name": "HR.SOS",
           "count": 1,
-          "summary": "自动化机制叠加双视角解谜，《HR.SOS》试玩版亮相Steam新品节。",
-          "summary_source": "rules"
+          "summary": "《HR.SOS》参与Steam新品节，开放CEO与HR双视角试玩Demo下载。",
+          "summary_source": "llm"
         },
         {
           "name": "TapTap制造",
           "count": 1,
-          "summary": "【TapTap制造】两个敢发布的和五个嗷嗷待哺的。",
-          "summary_source": "rules"
+          "summary": "TapTap制造创作者反映AI游戏上线一月余未盈利，7个项目中仅2款发布且数据惨淡。",
+          "summary_source": "llm"
         },
         {
           "name": "人间异想计划",
           "count": 1,
-          "summary": "腾讯怪谈新游《人间异想计划》首曝 跳出行业常规公式。",
-          "summary_source": "rules"
+          "summary": "腾讯光子旗下宇宙小狗工作室怪谈游戏《人间异想计划》首曝，凭借高规格美术跳出常规公式。",
+          "summary_source": "llm"
         },
         {
           "name": "我的末日房车",
           "count": 1,
-          "summary": "豪腾《我的末日房车》登顶抖小新游榜：一辆房车里的“模拟经营+塔防”实验。",
-          "summary_source": "rules"
+          "summary": "豪腾发行的抖音小游戏《我的末日房车》登顶新游榜，主打丧尸末日背景的模拟经营+塔防玩法。",
+          "summary_source": "llm"
         },
         {
           "name": "掘地求财：铲友齐上阵",
           "count": 1,
-          "summary": "团结力量大，一起挖更欢乐！《掘地求财：铲友齐上阵》预计12月4日正式发行！跨平台四人联机挖到底！。",
-          "summary_source": "rules"
+          "summary": "多人合作挖掘冒险游戏《掘地求财：铲友齐上阵》定档12月4日发售，登陆多平台并加入Xbox Game Pass。",
+          "summary_source": "llm"
         },
         {
           "name": "无光绝境",
           "count": 1,
-          "summary": "《无光绝境》多人合作测试开启，支持最多四人共同探索火星地底，预计2026年12月2日推出抢先体验版本。",
-          "summary_source": "rules"
+          "summary": "多人合作游戏《无光绝境》开启测试，支持最多四人探索火星地底，预计12月2日推出抢先体验。",
+          "summary_source": "llm"
         },
         {
           "name": "魔域",
           "count": 1,
-          "summary": "《魔域》金秋幻兽「澜境君·镜汐」全爆料：上线时间、至臻榜单、灵蕴获取与助战玩法。",
-          "summary_source": "rules"
+          "summary": "MMORPG《魔域》公布金秋幻兽「澜境君·镜汐」全爆料，正式服于10月23日维护后上线，先锋区提前至10月21日上线。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -282,47 +311,6 @@
           "count": 1,
           "summary": "占城大师+赵云阿斗？《无畏三国》的轻度休闲竞技拆解！。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "article_count": 11,
-      "game_count": 5,
-      "untagged_count": 6,
-      "digest": "今日游戏行业资讯聚焦于头部产品运营数据复盘、新厂商IP布局策略、独立游戏市场冷热对比以及新游玩法拆解。其中《三角洲行动》公布两年DAU突破5800万，东映游戏宣布进军游戏业并首批推出全新IP作品，挪威独立游戏《炎拳天使》销量仅千份且八成来自中国玩家，SLG新作《王朝启元》解析了其三国与鼠疫题材的Last Asylum结构，同时《控制：共振》获评视觉奇观独特但战斗数值失衡。",
-      "digest_source": "llm",
-      "input_hash": "dec5a79e7d2450ad",
-      "game_digests": [
-        {
-          "name": "三角洲行动",
-          "count": 1,
-          "summary": "《三角洲行动》上线两年DAU突破5800万，复盘了其从主打高质量FPS内容到重视社区文化、贴合玩家需求迭代运营的发展路径。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "假面骑士",
-          "count": 1,
-          "summary": "东映2026年4月推出游戏业务品牌“东映游戏”，首批三款作品均为独立团队打造的全新IP，未动用《假面骑士》等成熟IP。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "平台跳跃",
-          "count": 1,
-          "summary": "挪威独立游戏工作室耗时三年打造的《炎拳天使》销量仅千份，本土遇冷，八成销量来自中国玩家，折射理想与现实的落差。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "王朝启元",
-          "count": 1,
-          "summary": "二测SLG游戏《王朝启元》融合三国与鼠疫题材，采用Q版搞笑美术风格，玩法套用《Last Asylum》结构，涵盖基地建造、鼠疫救治等。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "短评",
-          "count": 1,
-          "summary": "《控制：共振》视觉奇观独特有格调，游玩期待感强，但战斗数值失衡、敌人种类少、boss设计欠佳，可通过辅助模式调节。",
-          "summary_source": "llm"
         }
       ]
     }
