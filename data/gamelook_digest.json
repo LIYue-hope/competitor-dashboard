@@ -1,9 +1,26 @@
 {
-  "generated_at": "2026-10-23T00:45:38.478536+00:00",
+  "generated_at": "2026-10-24T00:54:08.786824+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-23",
+      "article_count": 7,
+      "game_count": 1,
+      "untagged_count": 6,
+      "digest": "10月23日 GameLook 共 7 条新闻，涉及 1 款游戏。报道最集中的是《地铁跑酷》（1 条）。另有 6 条未指向具体游戏的行业或平台资讯。《地铁跑酷》方面的报道有「《地铁跑酷》老板分享：15年，零买量，为何还能有1.5亿MAU？」。",
+      "digest_source": "rules",
+      "input_hash": "a0c0abba2fb99f89",
+      "game_digests": [
+        {
+          "name": "地铁跑酷",
+          "count": 1,
+          "summary": "《地铁跑酷》老板分享：15年，零买量，为何还能有1.5亿MAU？。",
+          "summary_source": "rules"
+        }
+      ]
+    },
     {
       "date": "2026-10-22",
       "article_count": 8,
@@ -168,29 +185,6 @@
           "name": "Project63",
           "count": 1,
           "summary": "灵犀互娱海外品牌QOOKKA GAMES于10月15日开启了多人微恐游戏《Project63》的海外测试，该作在东南亚手游社群中悄然发酵，引发了行业对其能否成为下一个爆款手游的关注。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "article_count": 7,
-      "game_count": 2,
-      "untagged_count": 5,
-      "digest": "国家新闻出版署正式印发《出版业发展“十五五”规划》，网络游戏首次被系统性纳入国家级出版业五年规划框架，为未来五年出版业发展定下基调。灵游坊在北京举办《影之刃零》全球媒体线下闭门试玩与预览活动，距离10月29日发售还有两周冲刺时间。",
-      "digest_source": "llm",
-      "input_hash": "573c3a1c8ee3ca3c",
-      "game_digests": [
-        {
-          "name": "出版业发展“十五五”规划",
-          "count": 1,
-          "summary": "版署印发《出版业发展“十五五”规划》：网游首次纳入国家五年规划，游戏业迎新风口。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "灵游坊于北京举办全球媒体线下闭门试玩与预览活动，距离10月29日发售还有两周冲刺时间。",
           "summary_source": "llm"
         }
       ]

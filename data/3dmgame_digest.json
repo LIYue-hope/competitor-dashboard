@@ -1,207 +1,266 @@
 {
-  "generated_at": "2026-10-23T00:41:02.393546+00:00",
+  "generated_at": "2026-10-24T00:44:40.529589+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-23",
-      "article_count": 26,
-      "game_count": 20,
-      "untagged_count": 3,
-      "digest": "今日游戏行业资讯聚焦于多款大作的发售动态与争议话题。R星《GTA6》因电视广告未出现Xbox标识引发平台独占猜测，但官方确认仍将于11月19日登陆该平台；动视《使命召唤：现代战争4》定于今日发售，曼城前锋哈兰德自曝偏爱蹲点打法。此外，彭博社确认BioWare被取消的《质量效应5》泄露预告属实，育碧确认《刺客信条：黑旗 记忆重置》下周将加入新游戏+模式，索尼则在中国推广《影之刃零》并打造巨幅涂鸦。",
+      "date": "2026-10-24",
+      "article_count": 11,
+      "game_count": 8,
+      "untagged_count": 2,
+      "digest": "BioWare关闭引发《质量效应5》粉丝强烈反响，配音演员及请愿者呼吁项目复活；EA关闭生软后，前制作人预测《质量效应》等IP未来或被出售；微软要求Arkane在11月13日前找到买家，否则将关闭工作室；《GTA6》热度空前，预计将导致美国损失约10亿美元产出；《全面战争：幕府将军2完全版》因生成式AI争议及质量问题被撤下；《塞尔达传说：时之笛》重制版展示新画面；《幻兽帕鲁》开发商收到大量收购《质量效应》IP的请求；卡普空对《鬼武者：剑之道》难度表示满意。",
       "digest_source": "llm",
-      "input_hash": "1b0756c33fd8eb20",
+      "input_hash": "3626feb606eedc52",
       "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "R星播出的首支电视广告未出现Xbox标识，引发部分玩家对平台独占的误解，但官方确认游戏仍将登陆Xbox Series X|S，计划于11月19日推出。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 2,
-          "summary": "《使命召唤：现代战争4》将于10月23日发售，曼城前锋哈兰德自曝在游戏中偏爱蹲点，这种打法可能会招致其他玩家的批评。",
-          "summary_source": "llm"
-        },
         {
           "name": "质量效应5",
           "count": 2,
-          "summary": "彭博社确认网上流传的《质量效应5》泄露预告是真的，该视频属于BioWare关闭前一直开发的项目，当时约有50人参与，但具体玩法未披露。",
+          "summary": "配音演员Jennifer Hale观看泄露片段后称其出色，仍盼系列延续；同时“拯救《质量效应》”请愿签名已超6.5万，EA取消《质量效应：宇宙》项目。",
           "summary_source": "llm"
         },
         {
-          "name": "任天堂明星大乱斗特别版",
+          "name": "GTA6",
           "count": 1,
-          "summary": "《任天堂明星大乱斗特别版》总监称生成式AI将催生大量同质低质游戏。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "刺客信条：黑旗 记忆重置",
-          "count": 1,
-          "summary": "育碧确认《刺客信条：黑旗 记忆重置》将在下周通过更新加入新游戏+模式，官方感谢玩家耐心等待，但暂未公布具体开放日期。",
+          "summary": "约150万美国员工计划在发售当天请假，预计将导致美国损失约10亿美元产出。",
           "summary_source": "llm"
         },
         {
-          "name": "影之刃零",
+          "name": "全面战争：幕府将军2完全版",
           "count": 1,
-          "summary": "索尼正在中国推广《影之刃零》，一支突出PS5版本的高规格商业广告已上线，索尼还在重庆委托制作了巨幅主题涂鸦。",
+          "summary": "因生成式AI争议及成品质量问题，世嘉在发售数日后将其撤下销售。",
           "summary_source": "llm"
         },
         {
-          "name": "怪物史瑞克2重制版",
+          "name": "塞尔达传说：时之笛",
           "count": 1,
-          "summary": "《怪物史瑞克2重制版》预告在PS官方油管频道播放量超200万次，超过了同期《GTA6》在该频道的播放量，该作将于2026年11月10日发售。",
+          "summary": "任天堂公布重制版新片段，展示水之神殿、暗影神殿及多场首领战画面。",
           "summary_source": "llm"
         },
         {
-          "name": "恐龙危机",
+          "name": "幻兽帕鲁",
           "count": 1,
-          "summary": "《恐龙危机1》玩家自制“现代版”Mod已发布，将原作固定镜头改为第三人称越肩视角，并加入现代操作方式，支持4K分辨率及多种帧率。",
+          "summary": "开发商Pocketpair高管表示，公司仅在过去一天便收到接近30条收购《质量效应》IP的私信或邮件。",
           "summary_source": "llm"
         },
         {
-          "name": "战争机器：事变日",
+          "name": "漫威刀锋战士",
           "count": 1,
-          "summary": "《战争机器：事变日》制作成本据称超5亿美元，第三方机构估算其首发收入约3700万美元，不到制作成本的10%，但两项数据均未得到官方确认。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战锤40K：战争黎明4",
-          "count": 1,
-          "summary": "《战锤40K：战争黎明4》将重新聚焦基地建设，首个扩展将增加可玩阵营，游戏首发阵容包括星际战士、兽人、太空死灵和机械神教。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "无主之地4",
-          "count": 1,
-          "summary": "《无主之地4》近期更新后主执行文件缩小约171.69MB，玩家开始怀疑游戏可能移除了Denuvo反盗版保护，但官方尚未发布正式公告。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星际争霸2",
-          "count": 1,
-          "summary": "暴雪已为《星际争霸2》的一个新项目组建了大型开发团队，该团队可能先处理作弊问题，潜在方向包括新资料片或重制版。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "猛鬼追魂：复苏",
-          "count": 1,
-          "summary": "Saber Interactive已发布《猛鬼追魂：复苏》1.006更新，内容以玩法改进和大量问题修复为主，修复了流程卡死、敌人异常及多平台问题。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "神鬼寓言4",
-          "count": 1,
-          "summary": "Playground Games公布了《神鬼寓言4》新截图，展示了阿尔比恩首都包尔斯顿，并确认了房地产机制，玩家可购买房产，游戏将于2027年2月23日发售。",
+          "summary": "消息称Arkane须在11月13日前找到买家，否则工作室将关闭，逾200个职位面临风险。",
           "summary_source": "llm"
         },
         {
           "name": "质量效应",
           "count": 1,
-          "summary": "Amazon《质量效应》真人剧仍在前期开发阶段，尚未开拍，将以原三部曲之后的时间线为背景，讲述一段全新故事。",
+          "summary": "前生软制作人马克·达拉认为EA未来或出售《质量效应》《龙腾世纪》等IP。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鬼武者：剑之道",
+          "count": 1,
+          "summary": "卡普空表示根据正式版数据对难度满意，认为已找准平衡点，体验版难度偏低系因截取前期片段及解锁了中后期技能。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "article_count": 133,
+      "game_count": 98,
+      "untagged_count": 21,
+      "digest": "10月23日游戏资讯聚焦于《使命召唤：现代战争4》正式发售，涵盖战役、多人及DMZ模式；Rockstar详谈《GTA6》剧情与开放世界平衡；CDPR为《赛博朋克2077》推出2.5更新及跨平台支持；彭博社确认《质量效应5》泄露预告属实；Embark Studios《ARC raiders》客服疑似使用AI工具引发争议。",
+      "digest_source": "llm",
+      "input_hash": "5d3c164b874c773c",
+      "game_digests": [
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 5,
+          "summary": "Activision旗下第一人称射击游戏《使命召唤：现代战争4》正式上市，同时提供剧情战役、多人游戏和经过扩展的DMZ模式。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "Rockstar Games对《GTA6》距离发售不到一个月的内容做出承诺，强调游戏规模比《给他爱5》更大，并成功将故事与开放世界完美融合。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "质量效应",
+          "count": 3,
+          "summary": "类《质量效应》游戏《大迁离》更新男主角模型，玩家可自行设置角色的发型、发色、面部毛发与纹身，新版面部结构改善明显。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛博朋克2077",
+          "count": 3,
+          "summary": "CD Projekt Red已于10月22日推出《赛博朋克2077》2.5更新，新增联动支线任务“封锁行动”、双持玩法及跨平台模组支持。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "勇者斗恶龙",
+          "count": 2,
+          "summary": "Square Enix将于10月24日起在日本街机厅推出《勇者斗恶龙》金属史莱姆牛顿摆，这款新品被定位为街机厅奖品。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "质量效应5",
+          "count": 2,
+          "summary": "彭博社资深游戏记者杰森·施赖尔确认，网上流传的《质量效应5》泄露预告是真的，它属于BioWare工作室关闭前一直开发的《质量效应5》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛博朋克2",
+          "count": 2,
+          "summary": "《赛博朋克2》副总监Paweł Sasko表示，CD Projekt Red已经与模组社区的代表建立合作，工作室将模组创作者视为帮助旗下游戏长期保持活力的重要力量。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "ARC raiders",
+          "count": 1,
+          "summary": "玩家曝光《ARC raiders》客服异常回复，误发了约十组疑似属于其他玩家工单的内容，其中包括面向ChatGPT的指令及随后生成的客服回复。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Against Heroes",
+          "count": 1,
+          "summary": "Spacewisp Games于10月22日在Steam推出PC游戏《Against Heroes》试玩版，正式版计划于11月10日发售，游戏内文本支持日语。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GT赛车7",
+          "count": 1,
+          "summary": "《GT赛车7》30周年限定DualSense无线控制器在英国开启预购，定于12月10日发售，产品售价为84.99美元或74.99英镑。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "I, Hurricane",
+          "count": 1,
+          "summary": "独立开发团队BubuGamesS公布台风养成策略游戏《I, Hurricane》，Steam商店页面现已开放，计划于2026年12月2日在PC推出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Medovo",
+          "count": 1,
+          "summary": "开放世界农场沙盒《Medovo》现已在Steam推出免费公开试玩，目前项目完成度约为30%，开放内容仍是早期Alpha原型。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "PEAK",
+          "count": 1,
+          "summary": "Aggro Crab于10月23日宣布，与Landfall联合制作的合作登山游戏《PEAK》正式登陆PS5、Xbox Series X|S和Switch 2，并支持全平台跨平台联机。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "TBH：塔斯克巴·英雄",
+          "count": 1,
+          "summary": "Nugem Studio与Tesseract Studio于10月22日为免费放置刷宝角色扮演游戏《TBH: 塔斯克巴·英雄》推出1.3.0“万圣节 & 圣物更新”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Terraglass",
+          "count": 1,
+          "summary": "Teacup Worlds正在为PC Steam开发沙盒游戏《Terraglass》，游戏将舞台放进一只可置于电脑桌面的玻璃瓶，玩家能够改造其中的地形与生态。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-10-22",
-      "article_count": 125,
+      "article_count": 128,
       "game_count": 91,
       "untagged_count": 19,
-      "digest": "今日游戏行业资讯聚焦于《使命召唤：现代战争4》发售引发的战役难度争议，以及《GTA6》迈阿密Burger Shot主题餐厅的线下预热。此外，EA关闭BioWare工作室导致《质量效应》新作终止，而《影之刃零》Steam预购量突破50万份，CDPR亦发文缅怀BioWare。",
+      "digest": "2026年10月22日游戏行业资讯丰富，新作发售与老游戏回顾占据主流。IW重启的《使命召唤：现代战争4》发售引发战役难度热议，SNK《饿狼传说：群狼之城》Switch 2版正式发售，CDPR发文缅怀已关闭的BioWare工作室。此外，《GTA6》迈阿密Burger Shot餐厅疑似为线下宣传，国产武侠《影之刃零》公布黄海封绘并进入发售倒计时，而《赛博朋克2077》更新2.5版本上线。",
       "digest_source": "llm",
-      "input_hash": "1cec41ce5d877e1c",
+      "input_hash": "bdc4fdf54f179fec",
       "game_digests": [
         {
           "name": "使命召唤：现代战争4",
           "count": 5,
-          "summary": "本周发售，IW为重启后的“现代战争”系列带来终章，但玩家普遍反馈战役普通难度比近几代更高，AI在潜行任务中表现强势，部分任务难度堪比老兵难度。",
+          "summary": "IW重启后的“现代战争”系列终章本周发售，战役模式和非军事区进入抢先体验，外媒评测指出其普通难度比近作更高，AI表现更难对付。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
           "count": 4,
-          "summary": "迈阿密卡西亚中心一家餐厅换上Burger Shot主题装饰，疑似为《GTA6》线下宣传活动，现场出现Macca & Friends及Vice City海报，但具体营业形式尚未得到官方确认。",
+          "summary": "迈阿密卡西亚中心一家餐厅换上Burger Shot主题装饰，疑似为《GTA6》线下宣传活动，现场出现Macca & Friends及Vice City海报，具体营业形式待核实。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 4,
+          "summary": "官方公布黄海绘制的高清收藏铁盒封绘，宣布游戏进入发售前倒计时7天，并将于10月27日开启全平台预下载，2027年推出PS5实体光盘。",
           "summary_source": "llm"
         },
         {
           "name": "质量效应",
           "count": 4,
-          "summary": "消息称EA为削减最多7亿美元开支，已关闭BioWare及其埃德蒙顿办公室，原由BioWare小团队负责的下一部《质量效应》也因此终止，EA正推进大规模重组。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 3,
-          "summary": "距离正式发售还有7天，Steam预购量估算已达约50万份，对应毛收入约2400万美元，第三方机构测算其愿望单数量约为250万，中国被认为是主要市场。",
+          "summary": "消息称EA为削减最多7亿美元开支，已关闭BioWare及其埃德蒙顿办公室，原由BioWare负责的下一部《质量效应》项目因此终止。",
           "summary_source": "llm"
         },
         {
           "name": "赛博朋克2077",
           "count": 3,
-          "summary": "“边缘行者 2”版本更新2.5现已登陆PC、Mac、PS5和Xbox Series X|S平台，新增支线任务“连梦都被编了号”等内容，Switch 2和Mac平台随后几天陆续收到更新。",
+          "summary": "“边缘行者 2”版本更新2.5正式登陆PC、Mac、PS5和Xbox Series X|S平台，新增支线任务“连梦都被编了号”等内容。",
           "summary_source": "llm"
+        },
+        {
+          "name": "饿狼传说：群狼之城",
+          "count": 3,
+          "summary": "《饿狼传说：群狼之城》Nintendo Switch™ 2版今日（10月22日）正式发售！；《饿狼传说：群狼之城》×《东京复仇者》联动DLC“佐野万次郎”“龙宫寺坚”今日上线！角色动画预告片公；《饿狼传说：群狼之城》登上Switch 2 两种控制风格自由选择。",
+          "summary_source": "rules"
         },
         {
           "name": "Nintendo Switch运动：度假胜地",
           "count": 2,
-          "summary": "于10月22日独占登陆Switch 2，共收录12项运动，外媒评测认为其重新找回了家庭体感游戏的同乐氛围，但新增的拇指摔跤和滑板项目表现一般。",
+          "summary": "该作于10月22日独占登陆Switch 2，收录12项运动，外媒评测认为其重新找回了家庭体感游戏的同乐氛围，但两项新增运动表现一般。",
           "summary_source": "llm"
         },
         {
           "name": "42中队",
           "count": 1,
-          "summary": "Steam商店页面公开，官方计划支持十种语言字幕和界面，但仅支持英语语音，引发玩家围绕本地化投入及开发资源优先级的争论，部分玩家认为应先完成游戏再处理配音。",
+          "summary": "官方计划支持十种语言字幕和界面，仅支持英语语音，玩家围绕本地化投入及开发资源优先级展开争论，官方回应称将先推出游戏再处理完整配音。",
           "summary_source": "llm"
         },
         {
           "name": "Ecstatica",
           "count": 1,
-          "summary": "与《Ecstatica2》将于10月26日在Steam与GOG重新发售，SNEG宣布两款游戏现已提供免费试玩，新版增加手柄支持、成就、云存档及Steam Deck支持，并适配4K画面。",
-          "summary_source": "llm"
+          "summary": "《Ecstatica》与《Ecstatica2》10月26日重返Steam和GOG。",
+          "summary_source": "rules"
         },
         {
           "name": "Escape From Playtime",
           "count": 1,
-          "summary": "由《Poppy Playtime》开发商Mob Entertainment打造的多人合作生存恐怖撤离游戏现已登陆Steam抢先体验，支持1至8名玩家，故事发生在臭名昭著的“欢乐时刻”玩具工厂。",
+          "summary": "《Poppy Playtime》开发商Mob Entertainment打造的多人合作生存恐怖游戏现已登陆Steam抢先体验，支持1至8名玩家。",
           "summary_source": "llm"
         },
         {
           "name": "GTA3",
           "count": 1,
-          "summary": "迎来25周年回顾，文章认为其真正深远影响并非暴力争议，而是三维开放世界带来的玩家自由、成熟叙事与创作表达，推动了城市开放世界设计的普及与完善。",
+          "summary": "《GTA3》问世25周年之际，回顾文章认为其三维开放世界带来的玩家自由与成熟叙事比暴力争议影响更深，推动了城市开放世界设计的普及。",
           "summary_source": "llm"
         },
         {
           "name": "QUIET",
           "count": 1,
-          "summary": "LINE Games旗下PC合作恐怖游戏《QUIET》现已在Steam与Epic游戏商城开放免费试玩，试玩版收录一个正式关卡及四人街机模式“鸭鸭淘汰赛”，并计划在万圣节前后推出季节内容。",
+          "summary": "LINE Games旗下恐怖游戏《QUIET》免费试玩版登陆Steam与Epic，收录一个正式关卡及四人街机模式“鸭鸭淘汰赛”。",
           "summary_source": "llm"
         },
         {
           "name": "Rustown",
           "count": 1,
-          "summary": "独立团队Plotrick公布故事向潜行冒险游戏，宣布本作预定于2027年6月30日发售，玩家将前往贫民区在躲避监视的同时寻找失踪多年的父亲。",
+          "summary": "独立团队Plotrick公布故事向潜行冒险游戏《Rustown》，宣布定于2027年6月30日发售，玩家需在贫民区躲避监视并寻找失踪父亲。",
           "summary_source": "llm"
         },
         {
           "name": "VANRAN",
           "count": 1,
-          "summary": "韩国第三人称黑暗奇幻动作RPG延期至2027年初发售，登陆Steam、PS5和XSX|S，官方表示延期是为了打磨品质并避开年末拥挤的发售档期，游戏主打巨人攀爬机制。",
+          "summary": "韩国奇幻ARPG《VANRAN》延期至2027年初发售，登陆Steam、PS5和XSX|S，主打可攀爬巨型BOSS的战斗机制。",
           "summary_source": "llm"
         },
         {
           "name": "bioware",
           "count": 1,
-          "summary": "CDPR联席CEO Michał Nowakowski发声缅怀BioWare，感念BioWare曾为首部《巫师》的开发提供引擎、经验和展示机会，是CDPR历史中非常重要的一部分。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "七龙珠 异战3",
-          "count": 1,
-          "summary": "万代南梦宫确认将于2027年下半年发售，相比此前仅确认2027年发售，新窗口有所收窄，但具体日期仍未公布，团队表示将努力让2027年成为《龙珠》游戏玩家值得期待的一年。",
+          "summary": "CDPR联席CEO Michał Nowakowski发文缅怀已关闭的BioWare，称其曾为首部《巫师》提供引擎、经验和展示机会，是CDPR历史中非常重要的一部分。",
           "summary_source": "llm"
         }
       ]
@@ -909,107 +968,6 @@
           "name": "Castlevania: Belmont's Curse",
           "count": 1,
           "summary": "KONAMI宣布游戏现已登陆PS5、Switch、Xbox Series X|S、Xbox on PC及Steam等平台。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "article_count": 140,
-      "game_count": 90,
-      "untagged_count": 20,
-      "digest": "今日游戏行业资讯聚焦于R星新作《GTA6》的美术细节揭秘、育碧《战地6》推出年度版及新赛季，以及《不朽遗志》正式发售。此外，《全面战争：幕府将军2》重制版因画质与优化问题遭遇差评，而《塞尔达传说：时之笛》Switch 2版及《给他爱5》退出PS Plus等消息也引发关注。",
-      "digest_source": "llm",
-      "input_hash": "2bb2ecb9fe1da030",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 12,
-          "summary": "R星美术师透露团队曾前往迈阿密考察夜总会，为游戏设计真实依据，并制作了随音乐同步变化的灯光系统，强调细节“一层又一层”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战地6",
-          "count": 5,
-          "summary": "《战地6》推出年度游戏版，PC版现售59.99欧元，将于10月20日涨价至99.99欧元，并包含Battlefield Pro通行证及70余件武器。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "动物园之星2",
-          "count": 3,
-          "summary": "人气模拟续作《动物园之星2》正式揭晓，首次收录纯水生物种与飞行物种，并推出跨平台创意工坊与全球保育项目。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "地铁2039",
-          "count": 3,
-          "summary": "《地铁2039》现已开启预购，将于2027年2月5日登陆PS5、Xbox Series X|S及PC平台，预购玩家可获得专家组合包。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "PEAK",
-          "count": 2,
-          "summary": "合作登山游戏《PEAK》PS5版现身ESRB评级网站，开发团队尚未确认移植计划，PC版累计销量已接近2000万份。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "不朽遗志",
-          "count": 2,
-          "summary": "由《幽灵行者》团队打造的第一人称类魂游戏《不朽遗志》已于10月14日发售，登陆PS5、Xbox Series X|S、Xbox Game Pass及Steam。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "全面战争：幕府将军2 完全版",
-          "count": 2,
-          "summary": "《全面战争：幕府将军2》重制版在Steam遭遇差评，1855条评论中仅有18%好评，玩家批评AI生成画面及大量Bug。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛",
-          "count": 2,
-          "summary": "《塞尔达传说：时之笛》Switch 2版与40周年设计Pro手柄套装在亚马逊接受预订，包含支架和收纳包。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "宝可梦：Pokopia",
-          "count": 2,
-          "summary": "雷蛇皮卡丘与伊布联名外设获外观好评，但英国售价均高于普通版，键盘售价119.99英镑，鼠标60英镑。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：狂猎",
-          "count": 2,
-          "summary": "玩家使用社区工具进行双重DLSS 5注入测试，画面中角色面容变化引发争议，有人误以为角色变老，也有人觉得浮肿。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 2,
-          "summary": "IGN发布独家宣传片，展示豪华版专属机械魔躯外观及激烈BOSS战，媒体盛赞其战斗手感，将于10月29日登陆PC和PS5。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想14",
-          "count": 2,
-          "summary": "《最终幻想14》日本区开放区域内自由匹配，四个数据中心玩家可跨中心匹配，制作人提醒玩家在新资料片上线前检查游戏设置。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化危机4：重制版",
-          "count": 2,
-          "summary": "《生化危机4：重制版》Switch 2版掌机模式频繁卡顿，底座模式明显改善，Polygon体验后认为底座模式表现更佳。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "给他爱5",
-          "count": 2,
-          "summary": "《给他爱5》将于11月17日退出PS Plus Extra，Rockstar此前两款游戏均短暂加入后下架，预计该作也会回归。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "英雄联盟",
-          "count": 2,
-          "summary": "虚拟团体K/DA发布新宣传图，疑似预告10月20日公布新歌《Start A Fire》，正值2026年世界大赛开赛前。",
           "summary_source": "llm"
         }
       ]
