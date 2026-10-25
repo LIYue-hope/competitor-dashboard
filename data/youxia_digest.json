@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T00:49:10.123453+00:00",
+  "generated_at": "2026-10-25T00:24:30.213045+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
@@ -211,8 +211,8 @@
       "article_count": 97,
       "game_count": 68,
       "untagged_count": 21,
-      "digest": "10月21日 游侠网 共 97 条新闻，涉及 68 款游戏。报道最集中的是《GTA6》（6 条）、《战地风云 6》（2 条）、《绝地潜兵2》（2 条）。另有 21 条未指向具体游戏的行业或平台资讯。另外还有《超越善恶2》（2 条）、《AKIBA LOST（秋叶原迷踪）》（1 条）、《COD23：现代战争4》（1 条）也有报道。",
-      "digest_source": "rules",
+      "digest": "2026年10月21日游戏行业资讯整体活跃，当日游侠网发布97条新闻、涉及68款游戏，涵盖发售预告、活动联动、产品更新及价格促销等多方面动态，多款游戏动态聚焦不同类型内容与玩家体验。游戏篇方面，GTA6围绕发售相关对比、真仿跨场景悬念等动态发布，战地风云6携联动活动及两极评价内容出炉，绝地潜兵2因反作弊系统调整引发争议，超越善恶2持续反映开发进展与跳票情况，同时完成多款新作发售、限时优惠及活动上线等动作，行业热度较前期有所释放但仍存议题发酵。",
+      "digest_source": "llm",
       "input_hash": "c6874cf91d2ba129",
       "game_digests": [
         {
@@ -808,107 +808,6 @@
           "name": "SPINE",
           "count": 1,
           "summary": "赛博朋克枪斗动作游戏《SPINE》官方公布角色自定义系统情报，一口气曝光4套新皮肤。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "article_count": 111,
-      "game_count": 62,
-      "untagged_count": 32,
-      "digest": "今日游戏行业资讯聚焦于R星新作《GTA6》的媒体评测安排与开发秘史，以及《战锤40K：爆矢枪2》与《永恒传说 复刻版》的正式发售。此外，《幕府将军2》重制版引发争议，索尼PS5独占阵容宣传片曝光《影之刃零》，圣莫妮卡确认《战神》新作接续《劳菲》并转向埃及神话，卡普空为《龙之信条2》推出跨IP联动，任天堂公布《火焰纹章：万缕千丝》DLC预购信息，索尼公布《GT7》Spec IV大更新及限定手柄。",
-      "digest_source": "llm",
-      "input_hash": "a79cfbb527d4aa5e",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 9,
-          "summary": "R星放狠话《GTA6》之后不再苦等8年，并辟谣15亿美元开发成本，尽管泄密者Cyberleek持续放出未公开内容，官方仍推进月底向媒体发放评测版。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "堡垒之夜",
-          "count": 2,
-          "summary": "Epic Games宣布推出EAC Linux v2并确认《堡垒之夜》将登陆Linux平台，新版反作弊不再依赖内核驱动，同时玩家可通过Steam启动《堡垒之夜》无需打开Epic界面。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 2,
-          "summary": "俄罗斯小姐姐Alina Becker晒出高还原度希里cos作品，玩家热议游戏中NPC敢于嘲讽杰洛特，认为这源于猎魔人遭受世俗歧视及游戏表现与原著设定的落差。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "幕府将军2",
-          "count": 2,
-          "summary": "创意Assembly与世嘉承认《全面战争：幕府将军2完全版》未达品质标准，宣布回炉重造，此前原版已于9月28日下架，此举被指逼老玩家买单。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 2,
-          "summary": "索尼PS5独占阵容宣传片曝光，展示多款独占作品，制作人梁其伟女装旧照被搬运至海外社区意外刷屏，引发玩家热议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战神",
-          "count": 2,
-          "summary": "圣莫妮卡确认《战神：劳菲》之后将推出以奎托斯为主角的正统续作，外界普遍猜测将转向埃及神话，同时《战神：劳菲》千元手办因面部还原度遭玩家吐槽。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战锤40K：爆矢枪2",
-          "count": 2,
-          "summary": "复古FPS《战锤40K：爆矢枪2》已于10月14日登陆PC、PS5和Xbox Series X|S，Steam国区预购折后83.7元，后续还将登陆Nintendo Switch 2。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "永恒传说 复刻版",
-          "count": 2,
-          "summary": "经典JRPG《永恒传说 复刻版》正式发售登陆全平台，媒体评测解禁后PS5版在M站开分75分，共收录8篇评测，其中5篇好评、3篇中评。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "火焰纹章：万缕千丝",
-          "count": 2,
-          "summary": "任天堂今日推送Ver.1.1.0补丁为后续DLC铺路，并正式公布扩展通行证开启预购，港服售价219港币。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "龙之信条2",
-          "count": 2,
-          "summary": "卡普空为庆祝《龙之信条2》全新 DLC「黑暗崛起」上线，推出跨IP联动，生化危机主角里昂、街头霸王隆、怪物猎人艾露猫鲁迪化身特殊AI随从。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "007：初露锋芒",
-          "count": 1,
-          "summary": "IO Interactive官宣《007：初露锋芒》Switch2版发售日期为2027年3月18日，现已开放预购，此前该游戏已于2026年登陆多平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "ARC Raiders",
-          "count": 1,
-          "summary": "《ARC Raiders》一周年更新“冰封之路”上线后，同步开启限时PvE测试，为玩家提供区别于原有PvPvE的纯PvE体验选项。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "COD",
-          "count": 1,
-          "summary": "Xbox发放独占策略调研问卷，拟将除《使命召唤》外所有第一方游戏恢复Xbox主机独占，广泛收集用户对发行策略的反馈。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Catharsis",
-          "count": 1,
-          "summary": "讲谈社名画探索ADV《Catharsis ～最后的画室～》试玩版今日发布，确认参展Steam新品节，预计于2026年内由讲谈社Game Creators‘ Lab发行。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GT7",
-          "count": 1,
-          "summary": "索尼宣布《GT7》大型更新\"Spec IV\"第1弹将于10月15日15时配信，新增SUGO赛道、6台新车及多项功能，同时公布纪念系列30周年的DualSense手柄限定版。",
           "summary_source": "llm"
         }
       ]

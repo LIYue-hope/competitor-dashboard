@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-10-24T00:54:08.786824+00:00",
+  "generated_at": "2026-10-25T00:30:22.920706+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
+      "date": "2026-10-24",
+      "article_count": 1,
+      "game_count": 0,
+      "untagged_count": 1,
+      "digest": "10月24日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「西山居“剑侠收官之作”到底怎样？对话主创：“PC占主力，首周超预期”」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
+      "input_hash": "b31ba44ce119e34e",
+      "game_digests": []
+    },
+    {
       "date": "2026-10-23",
       "article_count": 7,
       "game_count": 1,
       "untagged_count": 6,
-      "digest": "10月23日 GameLook 共 7 条新闻，涉及 1 款游戏。报道最集中的是《地铁跑酷》（1 条）。另有 6 条未指向具体游戏的行业或平台资讯。《地铁跑酷》方面的报道有「《地铁跑酷》老板分享：15年，零买量，为何还能有1.5亿MAU？」。",
-      "digest_source": "rules",
+      "digest": "2026年10月23日，游戏行业资讯共发布7条新闻，涉及游戏1款，未指向具体游戏6条。主要围绕《地铁跑酷》展开，该游戏作为15年历史、下载量最高的手游，10月23日老板分享其运营情况，强调其凭借15年积累和稳定运营实现百万级用户规模。",
+      "digest_source": "llm",
       "input_hash": "a0c0abba2fb99f89",
       "game_digests": [
         {
@@ -168,23 +178,6 @@
           "name": "车水马龙",
           "count": 1,
           "summary": "独立游戏《车水马龙》于10月15日上线，以90年代天津为背景。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "article_count": 7,
-      "game_count": 1,
-      "untagged_count": 6,
-      "digest": "灵犀互娱旗下海外发行品牌QOOKKA GAMES于10月15日低调开启了多人微恐游戏《Project63》的海外测试，该作在东南亚手游社群中悄然发酵，引发了行业对其能否成为下一个爆款手游的关注。",
-      "digest_source": "llm",
-      "input_hash": "06fc1459d65d6a4f",
-      "game_digests": [
-        {
-          "name": "Project63",
-          "count": 1,
-          "summary": "灵犀互娱海外品牌QOOKKA GAMES于10月15日开启了多人微恐游戏《Project63》的海外测试，该作在东南亚手游社群中悄然发酵，引发了行业对其能否成为下一个爆款手游的关注。",
           "summary_source": "llm"
         }
       ]

@@ -1,19 +1,208 @@
 {
-  "crawled_at": "2026-10-24T00:35:33.660520+00:00",
+  "crawled_at": "2026-10-25T00:16:48.575676+00:00",
   "days": [
     {
-      "date": "2026-10-24",
-      "date_label": "10月24日 今天",
+      "date": "2026-10-19",
+      "date_label": "10月19日 周一",
       "games": [
         {
-          "game_name": "守护小精灵",
+          "game_name": "最强帮主",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": "7.0",
+          "event_desc": "神兵传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/zuiqiangbangzhu/",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "date_label": "10月20日 周二",
+      "games": [
+        {
+          "game_name": "点点山海",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": "万抽开局",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/diandianshanhai/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "长夜守卫者",
           "categories": [
             "角色扮演"
           ],
           "score": null,
-          "event_desc": "精灵养成冒险卡牌",
+          "event_desc": null,
           "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/shouhuxiaojingling/",
+          "detail_url": "https://www.9game.cn/zhangyeshouweizhe/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "暗黑烈刃",
+          "categories": [
+            "卡牌"
+          ],
+          "score": "7.1",
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/anheilieren/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "大武林",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/dawulin/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "date_label": "10月21日 周三",
+      "games": [
+        {
+          "game_name": "奇迹梦之队",
+          "categories": [
+            "体育"
+          ],
+          "score": null,
+          "event_desc": "NBA正版授权",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/mzlqjmzd/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "西游降妖记",
+          "categories": [
+            "回合"
+          ],
+          "score": null,
+          "event_desc": "创角送648宝箱",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/xiyoujiangyaoji1/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "守护庄园",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": "7.0",
+          "event_desc": "登录送千抽",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/shouhuzhuangyuan/",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "date_label": "10月22日 周四",
+      "games": [
+        {
+          "game_name": "合战天下",
+          "categories": [
+            "策略"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/xxyjhztx/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "深空之劫",
+          "categories": [
+            "策略"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/shenkongzhijie/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "神泣：纷争",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": "7.1",
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/sqfz/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "date_label": "10月23日 周五",
+      "games": [
+        {
+          "game_name": "篮球少女",
+          "categories": [
+            "策略"
+          ],
+          "score": null,
+          "event_desc": "NBA联动",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/lqsnfydf/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "龙渊王座",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/longyuanwangzuo/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "征战王权",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/zhengzhanwangquan/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "灵域修仙",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "三国名将乱世修仙",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/lingyuxiuxian2/",
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "破日开天",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "单职业传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/porikaitian/",
           "has_afk_grinding_tag": false
         }
       ]

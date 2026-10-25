@@ -1,34 +1,118 @@
 {
-  "generated_at": "2026-10-24T00:53:22.047273+00:00",
+  "generated_at": "2026-10-25T00:29:03.793939+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-10-24",
-      "article_count": 1,
-      "game_count": 1,
-      "untagged_count": 0,
-      "digest": "2026年10月24日，游戏行业资讯聚焦于电竞领域，特别是《英雄联盟》全球总决赛的激烈战况。当天报道主要围绕2026英雄联盟全球总决赛瑞士轮首轮展开，详细记录了中国战队在首轮比赛中的表现，呈现出四支参赛队伍全部落败的严峻局面，成为赛事开局阶段的一大焦点。",
+      "article_count": 83,
+      "game_count": 33,
+      "untagged_count": 30,
+      "digest": "2026年10月24日，游戏行业资讯整体呈现多热点并行态势，多款重要游戏接连发布动态，涵盖新作发售、更新更新、销量表现、争议曝光及行业动态等内容，整体市场关注度高。游戏名｜《影之刃零》当日围绕发售倒计时、线下试玩落地及海外热度表现持续传播，相关动态引发玩家广泛关注；游戏名｜《GTA6》当日围绕评测解禁时间、发售预告及促销邮件陆续发布，引发行业与玩家讨论；游戏名｜《使命召唤23：现代战争4》当日展示上线数据及玩家反馈，不同方面呈现差异化表现；游戏名｜《赛博朋克2077》当日发布更新进展与同时在线数据，新增功能及玩家互动受关注；游戏名｜《塞尔达传说：时之笛 重制版》当日发布更新与发售信息，重制版本及发行信息披露明确；游戏名｜《漫威金刚狼》当日发布实体售价及舆论反馈，引发玩家及行业讨论；游戏名｜《质量效应》当日公布开发进展与联动调整情况，相关信息透露行业动态调整；游戏名｜《COD》当日展示赛事相关内容，合作动态推进；游戏名｜《LOL》当日报道世界赛LPL首战失利情况，赛事表现引发讨论；游戏名｜《丝之歌》当日反映定价争议及行业差异化动态；游戏名｜《伊苏8：达娜的安魂曲》当日发布新版本及实体售价，游戏表现获积极评价；游戏名｜《使命召唤》当日展示新作评价反馈，整体口碑受认可；游戏名｜《初音未来》当日披露新游官宣及多平台发行信息，内容信息明确；游戏名｜《地铁：归来》当日公布更新情况，游戏内容更新推进。",
       "digest_source": "llm",
-      "input_hash": "708e9f46c204c997",
+      "input_hash": "0561e46660fe4c12",
       "game_digests": [
         {
-          "name": "英雄联盟",
+          "name": "影之刃零",
+          "count": 9,
+          "summary": "《影之刃零》外网主播为服装道歉：清朝服饰武士刀；《影之刃零》线下试玩盛典10月29日落地北京京东MALL 主播领衔全天传剑接力；《影之刃零》官方发倒计时5天！沐小葵全新风格太美（当天共 9 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA6",
+          "count": 6,
+          "summary": "《GTA6》评分解禁时间爆料！爆料人曾压中《刺客信条4：黑旗 记忆重置》；姗姗来迟！Xbox官方终于发布《GTA6》新预告；PlayStation开始发送《GTA6》促销邮件：附发售倒计时与预告片 11月19日登陆PS5（当天共 6 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤23：现代战争4",
+          "count": 3,
+          "summary": "《使命召唤23：现代战争4》在线数破22万人！Steam国区褒贬不一；Xbox主页强制推送《使命召唤23：现代战争4》宣传内容 玩家不满并分享关闭方法；《使命召唤23：现代战争4》Steam国区评价褒贬不一 多人模式匹配机制引玩家不满。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "赛博朋克2077",
+          "count": 3,
+          "summary": "《赛博朋克2077》更新了却遗憾!CDPR官方怀念好兄弟杰克；《赛博朋克2077》Steam同时在线突破12.4万 创2023年10月以来新高；民间开发者将《赛博朋克2077》搬进浏览器：WebGPU本地运行 无需云串流。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说：时之笛 重制版",
+          "count": 2,
+          "summary": "《塞尔达传说：时之笛 重制版》商店后台更新！真瘦身 新大小曝光；《塞尔达传说：时之笛 重制版》实体好价274元！数字版449港币。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "漫威金刚狼",
+          "count": 2,
+          "summary": "《漫威金刚狼》实体暴跌到170元！玩家:还能继续降！；《漫威金刚狼》舆论反转！GS盛赞证明自己 当初给6分。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "质量效应",
+          "count": 2,
+          "summary": "《质量效应》新作爆料：开发进展顺利 剧情角色地图都已就绪；EA要彻底抹杀《质量效应》？《战地》中的联动全删了。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "COD",
           "count": 1,
-          "summary": "2026英雄联盟全球总决赛瑞士轮首轮于10月23日打响，中国战队在首轮比赛中遭遇重创，四支参赛队伍全部落败，创造了总决赛最差开局。",
-          "summary_source": "llm"
+          "summary": "影视飓风参加野兽先生《COD》比赛！奖金100万刀。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "LOL",
+          "count": 1,
+          "summary": "《LOL》世界赛LPL首战全败!前冠军破防:要索赔医药费。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "丝之歌",
+          "count": 1,
+          "summary": "女专家批评《丝之歌》定价76元太低 会把同行害惨了。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "伊苏8：达娜的安魂曲",
+          "count": 1,
+          "summary": "《伊苏8：达娜的安魂曲》新版本来了！最高120帧 实体售价约333元。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤",
+          "count": 1,
+          "summary": "《使命召唤》新作获满分盛赞：战役多人都堪称绝佳。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "初音未来",
+          "count": 1,
+          "summary": "《初音未来》新游官宣！PS5等多平台 支持中文。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "地铁：归来",
+          "count": 1,
+          "summary": "《地铁：归来》又更新！仅时隔2天 效率惊人。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说",
+          "count": 1,
+          "summary": "任天堂赢麻了！《塞尔达传说》传奇主创获国家级荣誉。",
+          "summary_source": "rules"
         }
       ]
     },
     {
       "date": "2026-10-23",
-      "article_count": 112,
+      "article_count": 109,
       "game_count": 59,
-      "untagged_count": 31,
-      "digest": "10月23日 游民星空 共 112 条新闻，涉及 59 款游戏。报道最集中的是《影之刃零》（9 条）、《最终幻想：共鸣》（3 条）、《丝之歌》（2 条）。另有 31 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
-      "input_hash": "3432a403ca11a795",
+      "untagged_count": 30,
+      "digest": "2026年10月23日，国内外游戏行业动态密集发布，当日游民星空共发布109条新闻，涉及游戏59款，整体热度持续攀升，多款新游戏接连推出或获得重要进展，多款产品推进发售或更新，行业竞争与讨论依然活跃。",
+      "digest_source": "llm",
+      "input_hash": "3107cb97ba511616",
       "game_digests": [
         {
           "name": "影之刃零",
@@ -40,12 +124,6 @@
           "name": "最终幻想：共鸣",
           "count": 3,
           "summary": "《最终幻想：共鸣》Steam特别好评！演出超棒 质量喜人；《最终幻想：共鸣》在线玩家破两万！超越八方旅人2；《最终幻想：共鸣》玩家真玩爽了！找回了当年的感动。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "丝之歌",
-          "count": 2,
-          "summary": "女专家批评《丝之歌》定价76元太低 会把同行害惨了；专家批评《丝之歌》20美元定价过低！同行吃什么？。",
           "summary_source": "rules"
         },
         {
@@ -103,12 +181,6 @@
           "summary_source": "rules"
         },
         {
-          "name": "赛博朋克2077",
-          "count": 2,
-          "summary": "《赛博朋克2077》更新了却一幢遗憾!CDPR官方怀念好兄弟杰克；《赛博朋克2077》11月10日登陆战网 同步上线“边缘行者2”免费更新。",
-          "summary_source": "rules"
-        },
-        {
           "name": "饿狼传说：群狼之城",
           "count": 2,
           "summary": "《饿狼传说：群狼之城》×《东京复仇者》联动DLC“佐野万次郎”“龙宫寺坚”今日上线!角色动画预告片公开；《饿狼传说：群狼之城》Nintendo Switch™ 2版今日(10月22日)正式发售!。",
@@ -119,107 +191,119 @@
           "count": 1,
           "summary": "《COD23》没开放匹配选项！总监回应对局争议。",
           "summary_source": "rules"
+        },
+        {
+          "name": "COD现代战争4",
+          "count": 1,
+          "summary": "《COD现代战争4》实测：中端显卡都能流畅原生4K！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "CS2",
+          "count": 1,
+          "summary": "《CS2》名将涉嫌严重税务欺诈或被判刑！贴纸害人。",
+          "summary_source": "rules"
         }
       ]
     },
     {
       "date": "2026-10-22",
-      "article_count": 120,
+      "article_count": 119,
       "game_count": 44,
       "untagged_count": 42,
-      "digest": "今日游戏资讯聚焦于《影之刃零》的最终预告与实体版发售信息，以及《GTA6》线下营销活动引发的争议。此外，《赛博朋克2077》2.5版本更新上线，而《最终幻想：共鸣》正式发售并获高分评价，生软BioWare则宣布关闭。",
+      "digest": "2026年10月22日，当日资讯围绕多款游戏动态展开，涉及影之刃零、GTA6、赛博朋克2077等，同时涉及最终幻想：共鸣、边缘行者2、现代战争4等作品，整体呈现游戏行业在内容更新、宣传及评测层面持续发展的态势。",
       "digest_source": "llm",
-      "input_hash": "6a2ea3101e5d15ee",
+      "input_hash": "32f58bfffbdd75e1",
       "game_digests": [
         {
           "name": "影之刃零",
-          "count": 21,
-          "summary": "《影之刃零》放出最终PV配套官方截图，包含剧情、战斗、角色与PS5实体版外观，PS5实体光碟将于2027年推出。",
-          "summary_source": "llm"
+          "count": 20,
+          "summary": "炸！《影之刃零》最终预告：PS5实体光碟2027年推出；《影之刃零》新片！女角色齐露脸：颜值超高 你爱哪个；《影之刃零》大的来了！梁其伟感慨万千:实属不易（当天共 20 条）",
+          "summary_source": "rules"
         },
         {
           "name": "GTA6",
           "count": 5,
-          "summary": "Rockstar Games在迈阿密热火队主场开设现实版Burger Shot和Cluckin' Bell快餐摊位，作为《GTA6》线下宣传活动。",
-          "summary_source": "llm"
+          "summary": "泄露《GTA6》2600万元广告后遭开除！播放量不到千次；《GTA6》营销太疯狂！游戏经典快餐店竟开到现实了；存在感极低！《GTA6》电视广告只字不提Xbox平台（当天共 5 条）",
+          "summary_source": "rules"
         },
         {
           "name": "赛博朋克2077",
           "count": 4,
-          "summary": "CD Projekt Red于10月22日公开《赛博朋克2077》2.5版本「边缘行者2 更新」发布预告片，现已率先登陆PC、PS5、Xbox Series X|S平台。",
-          "summary_source": "llm"
+          "summary": "《赛博朋克2077》重大更新内容官宣！新任务+双枪等；《赛博朋克2077》重大更新现已上线！全新预告片发布；来看看《赛博朋克2077》|“边缘行者2”版本更新2.5为夜之城带来了哪些内容!（当天共 4 条）",
+          "summary_source": "rules"
         },
         {
           "name": "最终幻想：共鸣",
           "count": 3,
-          "summary": "《最终幻想：共鸣》于2026年10月22日登陆各大主机平台，23日登陆PC平台，PS商城评分4.78分。",
-          "summary_source": "llm"
+          "summary": "23日零点解锁《最终幻想：共鸣》游民商城9折热卖中；外媒满分狂吹《最终幻想：共鸣》！只有一个小缺点；《最终幻想：共鸣》今日发售！PS商城4.78分。",
+          "summary_source": "rules"
         },
         {
           "name": "边缘行者2",
           "count": 3,
-          "summary": "B站百大怒喷《边缘行者2》，称其彻底无语只能捏着鼻子更新，豆瓣评分跌至5.6分。",
-          "summary_source": "llm"
+          "summary": "B站百大怒喷《边缘行者2》:彻底无语 捏着鼻子更新了；《边缘行者2》豆瓣跌至5.6:弥补了没首发入《2077》的遗憾；严重剧透！《边缘行者2》结局解析：谁活了谁死了？。",
+          "summary_source": "rules"
         },
         {
           "name": "现代战争4",
           "count": 2,
-          "summary": "IGN对《现代战争4》\"搜打撤\"模式给予好评，认为其超有潜力且评分低不了，同时曝光PS5版无白金奖杯。",
-          "summary_source": "llm"
+          "summary": "《现代战争4》\"搜打撤\"IGN好评:有潜力 评分低不了?；《现代战争4》奖杯挑战曝光！PS5竟无白金。",
+          "summary_source": "rules"
         },
         {
           "name": "药屋少女的呢喃：真假皇弟",
           "count": 2,
-          "summary": "《药屋少女的呢喃：真假皇弟》预购开启，Steam国区售价298元，游戏将于2027年3月18日发售。",
-          "summary_source": "llm"
+          "summary": "光荣新作《药屋少女的呢喃：真假皇弟》预购PS5版478港币！Steam国区298元；光荣新作《药屋少女的呢喃：真假皇弟》预购开启！国区仅需298元 明年3月发售。",
+          "summary_source": "rules"
         },
         {
           "name": "质量效应",
           "count": 2,
-          "summary": "随着EA被收购，旗下公司BioWare今日突然宣布即将关闭，但《质量效应》真人剧暂安全。",
-          "summary_source": "llm"
+          "summary": "突发！生软BioWare宣布关闭 《质量效应》新作取消；生软关停后唯一好消息！《质量效应》真人剧暂安全。",
+          "summary_source": "rules"
         },
         {
           "name": "Muv-Luv",
           "count": 1,
-          "summary": "《Muv-Luv》新作玩法变为挂机，外媒评价其失去了经典剧情，味道是否对劲引发讨论。",
-          "summary_source": "llm"
+          "summary": "残酷战场变甜甜恋爱 《Muv-Luv》新作还正不正宗？。",
+          "summary_source": "rules"
         },
         {
           "name": "七龙珠 异战3",
           "count": 1,
-          "summary": "游民前往万代试玩了《七龙珠 异战3》的三个多人模式PvE关卡，采访提到游戏设定在AGE1000年后。",
-          "summary_source": "llm"
+          "summary": "《七龙珠 异战3》游民试玩&采访：等到AGE1000后。",
+          "summary_source": "rules"
         },
         {
           "name": "上古卷轴OL",
           "count": 1,
-          "summary": "《上古卷轴OL》第二季“天际回响”已于今日登陆PC/Mac以及Xbox和PlayStation主机端，持续至2027年1月27日。",
-          "summary_source": "llm"
+          "summary": "《上古卷轴OL》第二季“天际回响”现已上线！。",
+          "summary_source": "rules"
         },
         {
           "name": "人间异想计划",
           "count": 1,
-          "summary": "外媒评价腾讯全新RPG《人间异想计划》让人想到《生化奇兵》，游戏舞台设在浮空城Elysian Skies。",
-          "summary_source": "llm"
+          "summary": "外媒评价腾讯全新RPG《人间异想计划》：让人想到《生化奇兵》。",
+          "summary_source": "rules"
         },
         {
           "name": "伊苏8：达娜的安魂曲",
           "count": 1,
-          "summary": "《伊苏8：达娜的安魂曲》新版本预购开启，售价约267元，游戏将于2026年2月发售。",
-          "summary_source": "llm"
+          "summary": "《伊苏8：达娜的安魂曲》新版本预购开启！售价约267元 明年2月发售。",
+          "summary_source": "rules"
         },
         {
           "name": "使命召唤23",
           "count": 1,
-          "summary": "数毛社发布《使命召唤：现代战争4》技术分析视频，深入介绍了体积烟雾与雾气模拟、光照与材质渲染等革新。",
-          "summary_source": "llm"
+          "summary": "数毛社评《使命召唤23》黑科技：渲染技术全面进化！。",
+          "summary_source": "rules"
         },
         {
           "name": "命运石之门：重启",
           "count": 1,
-          "summary": "《命运石之门：重启》团队表示如果预算不受限制，会选择重制《混沌之脑》。",
-          "summary_source": "llm"
+          "summary": "《命运石之门：重启》团队谈新作：想重制《混沌之脑》。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -825,107 +909,6 @@
           "name": "Tempo Point",
           "count": 1,
           "summary": "拳头游戏携手路易威登推出K/DA“游记”《Tempo Point》，聚焦虚拟流行天团K/DA。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "article_count": 116,
-      "game_count": 44,
-      "untagged_count": 43,
-      "digest": "今日游戏资讯聚焦于《GTA6》新预告发布及PC版发售时间传闻，国产武侠动作《影之刃零》口碑炸裂，任天堂《火焰纹章：万缕千丝》DLC上线，Konami新作《恶魔城：贝尔蒙特的诅咒》发售遇争议，以及《战锤40K：爆矢枪2》与《最终幻想：共鸣》等新作的发售与评分。",
-      "digest_source": "llm",
-      "input_hash": "12dd67c2859e1d46",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 11,
-          "summary": "外媒爆料PC版将于2027年第一季度发售，引发玩家关于主机版与PC版体验差异的讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 7,
-          "summary": "灵游坊制作并发行的国产武侠动作游戏即将于10月29日登陆PC/PS5平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "火焰纹章：万缕千丝",
-          "count": 5,
-          "summary": "DLC首批内容今日上线，港服预购价格为219港币。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "恶魔城",
-          "count": 3,
-          "summary": "本作在Steam平台评价为“褒贬不一”，好评率仅53%，玩家主要槽点为跳跳乐泛滥与操作手感问题。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GT7",
-          "count": 2,
-          "summary": "PS5独占游戏发布「SPEC IV」更新官方开场动画，小米概念超跑正式加入游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛 重制版",
-          "count": 2,
-          "summary": "任天堂公布高规格现代重制版，预计于11月5日登陆Switch 2平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "恶魔城：贝尔蒙特的诅咒",
-          "count": 2,
-          "summary": "游民商城开启9折热卖，GS评测给出10分好评。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战争机器：事变日",
-          "count": 2,
-          "summary": "The Coalition开发的第三人称射击游戏今日正式发售，GS评测称其销量破31万。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战锤40K：爆矢枪2",
-          "count": 2,
-          "summary": "Auroch Digital开发的第一人称动作射击游戏今日登陆PC、PS5和Xbox Series X|S平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想：共鸣",
-          "count": 2,
-          "summary": "Fami通评分公开为36/40，IGN评测认为游戏至少可玩70小时。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "赛博朋克：边缘行者2",
-          "count": 2,
-          "summary": "CD PROJEKT RED公布全10集10月20日Netflix独家上线的正式预告。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "007 初露锋芒",
-          "count": 1,
-          "summary": "NS2版定档，跳票半年后将于今日正式发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA4",
-          "count": 1,
-          "summary": "IGN开启“遗产回顾评测”企划，重新游玩并复盘《GTA4》当年的亮点。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "PUBG",
-          "count": 1,
-          "summary": "43.2版本更新上线，豪华汽车品牌“宾利”正式入驻游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "不朽遗志",
-          "count": 1,
-          "summary": "第一人称类魂新作正式发售，玩家围绕视角设计与晕眩问题展开讨论。",
           "summary_source": "llm"
         }
       ]
