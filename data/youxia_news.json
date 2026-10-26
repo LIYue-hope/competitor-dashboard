@@ -1,7 +1,817 @@
 {
-  "crawled_at": "2026-10-25T00:19:11.868434+00:00",
+  "crawled_at": "2026-10-26T00:05:44.868037+00:00",
   "window_days": 10,
   "items": [
+    {
+      "title": "你支持吗？日本演员工会呼吁严控AI复活已故演员表演",
+      "url": "https://www.ali213.net/news/html/2026-10/1049197.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "日本演员工会（约2600名演员和配音演员）近日宣布新规，保护表演者在生成式AI使用中的权益。",
+      "author": "夏天一份西瓜皮",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "10月28日《影之刃零》首发即光追！英伟达驱动已就位",
+      "url": "https://www.ali213.net/news/html/2026-10/1049193.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "英伟达发布最新Game Ready驱动，为10月28日发售的动作大作《影之刃零》提供路径追踪与DLSS 4.5技术支持。该驱动专为优化游戏光追画质与帧率表现而设计，确保NVIDIA显卡玩家获得最佳游戏体验。目前驱动已可通过英伟达官网下载。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "影之刃零"
+    },
+    {
+      "title": "ROG Xbox Ally掌机抢先吃上FSR 4.1 覆盖400+游戏！",
+      "url": "https://www.ali213.net/news/html/2026-10/1049189.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "华硕已向ROG Xbox Ally X与ROG Xbox Ally X20推送FSR 4.1预览版GPU驱动。掌机版采用更轻量模型，体积不到原版一半，专为Ryzen AI Z2 Extreme优化，覆盖400多款游戏。标准版Ally稍后跟进，Xbox Series X|S预计数周内上线。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "索尼日本停产最后一款独立4K蓝光机 PS5成\"唯一碟机\"",
+      "url": "https://www.ali213.net/news/html/2026-10/1049187.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "索尼日本已于2026年10月22日停止出货UBP-X700/K，这是其在日本市场最后一款独立4K超高清蓝光播放器，官方商店显示不再补货。目前索尼日本在售阵容中，仅剩配备光驱的PS5能播放4K UHD蓝光，但PS5不支持杜比视界，无法完全替代专用碟机。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "Xbox高管奖金指标再度失守：六年内第五次未达标？",
+      "url": "https://www.ali213.net/news/html/2026-10/1049179.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "微软最新代理声明显示，Xbox在2026财年再次未达成与高管薪酬挂钩的内容与服务收入增长目标。该指标目标为增长4.3%，实际按薪酬口径下滑6%，财报口径下滑约5%。这是六年来第五次未达标，纳德拉2026财年总薪酬降至约9060万美元。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "任天堂官网上线天猫NS2海外旗舰店 主机、点卡同步在售",
+      "url": "https://www.ali213.net/news/html/2026-10/1049175.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "任天堂官网新增天猫Nintendo Switch 2海外旗舰店链接，确认该店铺得到官方认可。店铺售卖港版Switch2主机、手柄、点卡等商品，支持分期免息。渠道选择有所增加，但港版产品的售价是否具备吸引力，仍有待玩家评判。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "Epic喜加一：社交推理游戏《黑手党酒店》限时免费领",
+      "url": "https://www.ali213.net/news/html/2026-10/1049171.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "Epic商城新增限时福利，社交推理游戏《黑手党酒店》开启免费领取，玩家在11月1日前领取即可永久持有。游戏支持16人联机，设有黑手党、医生、侦探等身份。本次赠送不属于当月常规福利，平台还有其他限免游戏，各项目截止时间有区别。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "黑手党酒店"
+    },
+    {
+      "title": "为玩《GTA6》豪掷重金 77寸电视+PS5 Pro+环绕声！",
+      "url": "https://www.ali213.net/news/html/2026-10/1049169.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "一名Reddit玩家为迎接《GTA6》发售，直接升级整套客厅设备，购入77英寸电视、PS5 Pro和完整音响系统。该帖在社区引发热议：有人称赞准备充分，也有人担心主机版帧率表现能否完全发挥大屏优势。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "GTA6"
+    },
+    {
+      "title": "索尼专利让游戏音频可视化 听障玩家也能靠视觉打怪",
+      "url": "https://www.ali213.net/news/html/2026-10/1049167.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "索尼互动娱乐公开一项新专利，计划把游戏中的关键声音转成视觉提示，帮助听障和听力受损玩家理解环境、危险与氛围。系统可用图标、形状、拟声词和方向灯光呈现声音信息，并尝试兼容未内置无障碍功能的旧游戏。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "小姐姐cos《古墓丽影》劳拉·克劳馥：还原度极高",
+      "url": "https://www.ali213.net/news/html/2026-10/1049165.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "近日，模特Purple Amelie在社交平台发布了一组《古墓丽影》经典角色劳拉·克劳馥的Cosplay照片。",
+      "author": "夏天一份西瓜皮",
+      "supplemented": false,
+      "game_name": "古墓丽影"
+    },
+    {
+      "title": "营销再升级！《GTA6》迈阿密路牌广告玩梗酒驾提醒",
+      "url": "https://www.ali213.net/news/html/2026-10/1049159.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "《GTA6》在迈阿密的线下营销继续加码。当地高速公路电子提示牌以幽默方式提醒司机不要酒后驾车，并带出“《GTA6》距离发售仅剩约一个月”的信息。结合此前球馆顶灯、NBA联动、沙滩装置等动作，R星正把现实迈阿密打造为“罪恶都市”宣传现场。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "GTA6"
+    },
+    {
+      "title": "V社重做HDR管线！Steam Deck OLED串流画质升级",
+      "url": "https://www.ali213.net/news/html/2026-10/1049157.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "Steam客户端最新Beta版更新重新启用了Steam Deck OLED的HDR串流功能，并对远程畅玩HDR管线进行了全面重做。新增自动/常开/关闭三档模式、亮度滑块，并将HDR串流支持扩展至Linux PipeWire、macOS及Android 15+设备。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "日本评测员玩《影之刃零》玩到手抖：肾上腺素爆表！",
+      "url": "https://www.ali213.net/news/html/2026-10/1049155.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "日本媒体在试玩《影之刃零》后表示，游戏战斗节奏极快，夸张的“功夫朋克”风格让人肾上腺素飙升。评测员称自己在紧张对局后甚至手抖，遇到难缠敌人时，最终也选择“围住乱打”这种朴实战术。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "影之刃零"
+    },
+    {
+      "title": "老外看好《影之刃零》：黑悟空只是中国单机的起点！",
+      "url": "https://www.ali213.net/news/html/2026-10/1049149.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "近日，海外知名游戏博主GermanStrands分享了对《黑神话：悟空》和《影之刃零》的观点。",
+      "author": "夏天一份西瓜皮",
+      "supplemented": false,
+      "game_name": "影之刃零"
+    },
+    {
+      "title": "《生化危机7》DLC早期素材曝光：卢卡斯原本可以存活",
+      "url": "https://www.ali213.net/news/html/2026-10/1049147.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "海外博主Michael Kemp近日曝光《生化危机7》“不是英雄”DLC早期开发素材，显示早期结局中卢卡斯并未被击毙，而是存活下来。",
+      "author": "夏天一份西瓜皮",
+      "supplemented": false,
+      "game_name": "生化危机7"
+    },
+    {
+      "title": "瞄准硬核丧尸生存！《Days of the Dead》首曝预告！",
+      "url": "https://www.ali213.net/news/html/2026-10/1049145.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "开放世界僵尸生存游戏《Days of the Dead》正式公布。游戏背景设定在末日后的废土世界，玩家将探索废弃城市、农场和定居点，搜刮资源、狩猎钓鱼、制作装备、建造据点，还可修复载具扩大探索范围。游戏支持单人游玩与好友联机合作。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "Days of the Dead"
+    },
+    {
+      "title": "别打二战了！《使命召唤》或首次踏入第一次世界大战",
+      "url": "https://www.ali213.net/news/html/2026-10/1049143.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "有行业传闻称，动视正在开发一款代号“Call of Duty 1918”的新作，或将首次把《使命召唤》带进第一次世界大战。该消息尚未获官方证实，但已引发玩家热议：有人期待战壕战场，也有人因《先锋》经历而保持谨慎。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "使命召唤"
+    },
+    {
+      "title": "颜值调整！曝《湮灭之潮》女主形象优化 物理效果回归",
+      "url": "https://www.ali213.net/news/html/2026-10/1049141.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "近日，国产游戏《湮灭之潮》在线下全新试玩版本中，针对此前饱受争议的女主角面部表现完成优化。",
+      "author": "夏天一份西瓜皮",
+      "supplemented": false,
+      "game_name": "湮灭之潮"
+    },
+    {
+      "title": "老粉狂喜！卡普空两款重制+《生化10》发售顺序曝光",
+      "url": "https://www.ali213.net/news/html/2026-10/1049139.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "据爆料人士TCMFGames汇总，卡普空正为《生化危机》系列制定长期开发与发行计划。",
+      "author": "夏天一份西瓜皮",
+      "supplemented": false,
+      "game_name": "生化10"
+    },
+    {
+      "title": "遗憾！光环工作室裁员前 原计划开发《光环 初次反击》",
+      "url": "https://www.ali213.net/news/html/2026-10/1049137.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "据YouTube频道Rebs Gaming爆料，光环工作室曾计划将小说《光环：初次反击》改编为游戏。",
+      "author": "夏天一份西瓜皮",
+      "supplemented": false,
+      "game_name": "光环 初次反击"
+    },
+    {
+      "title": "海外收藏圈重大失窃事件！6000余张PSA评级卡被盗",
+      "url": "https://www.ali213.net/news/html/2026-10/1049135.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "美国FBI与圣安娜警方正调查加州一起联邦快递货车失窃案。PSA确认，一批共6451张经其评级的收藏卡于10月13日在圣安娜站点揽收后，在联邦快递货车内被盗，其中宝可梦卡牌2978张，另有《海贼王》卡898张、篮球卡880张、棒球卡640张、橄榄球卡433张。",
+      "author": "夏天一份西瓜皮",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "《僵尸世界大战》新更新致敬GTA6 迈阿密尸潮来袭！",
+      "url": "https://www.ali213.net/news/html/2026-10/1049133.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "开发商Saber Interactive宣布，《僵尸世界大战》\"Viral State\"更新将于11月12日推出，为游戏带来全新的迈阿密地图。新地图以佛罗里达州迈阿密为背景，霓虹闪烁、棕榈树摇曳，却暗藏成群僵尸威胁。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "僵尸世界大战"
+    },
+    {
+      "title": "《古墓丽影RE》通关约14至16小时！和原版时长相当",
+      "url": "https://www.ali213.net/news/html/2026-10/1049131.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "Crystal Dynamics体验总监杰夫·亚当斯透露，《古墓丽影：亚特兰蒂斯遗产》通关时长约14至16小时，具体取决于游玩风格。",
+      "author": "夏天一份西瓜皮",
+      "supplemented": false,
+      "game_name": "古墓丽影RE"
+    },
+    {
+      "title": "爷青回！曝DICE+重生联手开发《星球大战：前线3》",
+      "url": "https://www.ali213.net/news/html/2026-10/1049129.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "据IGN报道，EA已确认DICE与Respawn正在合作开发一款全新项目，目标扩充自家射击游戏产品线。",
+      "author": "夏天一份西瓜皮",
+      "supplemented": false,
+      "game_name": "星球大战：前线3"
+    },
+    {
+      "title": "游侠早报：PS5破解新进展 古墓丽影RE时长和原版相当",
+      "url": "https://www.ali213.net/news/html/2026-10/1049127.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "各位游侠网友，大家早上好呀！又到了每天「游侠早报」的时间了。今天的主要内容有PS5破解可直接运行Steam库Windows游戏、《古墓丽影RE》通关约14至16小时等。",
+      "author": "夏天一份西瓜皮",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "即将开票！2026 WePlay文化展现场内容提前预告！",
+      "url": "https://www.ali213.net/news/html/2026-10/1049125.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "2026 WePlay文化展迎来10周年，将于11月21日至22日在上海国家会展中心2.2馆举办，并与ZFX装备前线联合呈现游戏文化与数码嘉年华。现场将带来500多款游戏试玩。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "《光环：战斗进化》多人模式险被删除 四人团队力保",
+      "url": "https://www.ali213.net/news/html/2026-10/1049121.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "《光环：战斗进化》初代多人模式曾面临取消风险，设计师Hardy LeBel回忆相关开发历程。四人小团队顶住压力完成制作，调整玩法方向，放弃大规模战争设想，聚焦分屏和局域网对战，这份多人内容最终助力初代Xbox打开市场。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "光环：战斗进化"
+    },
+    {
+      "title": "iPhone Duo玩游戏无法全屏!大黑边被调侃\"公摊广告位\"",
+      "url": "https://www.ali213.net/news/html/2026-10/1049119.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "10月25日消息，据多位博主和网友反馈，腾讯《王者荣耀》与米哈游《原神》暂未适配苹果折叠屏iPhone Duo，使用内屏游玩时无法全屏显示。",
+      "author": "夏天一份西瓜皮",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "PS5实体游戏翻车：插盘启动竟被要求先升级系统？",
+      "url": "https://www.ali213.net/news/html/2026-10/1049115.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "近日有PS5玩家反映，插入部分实体游戏光盘后，主机在启动前会要求先完成系统更新。该现象引发玩家对“实体游戏是否仍真正属于玩家”的担忧。结合索尼已宣布2028年起停发新作实体光盘，以及近期多款游戏对固件版本要求提高，争议进一步放大。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "三年最好成绩！《赛博朋克2077》Steam在线峰值超16万",
+      "url": "https://www.ali213.net/news/html/2026-10/1049113.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "《赛博朋克：边缘行者》第二季开播带动《赛博朋克 2077》2.5版本更新上线，新增双持武器与前传任务，Steam在线玩家创下近三年新高。游戏同步开启最高70%折扣，而《巫师3：重制版》发售，也进一步抬升CDPR旗下作品的整体热度。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "赛博朋克2077"
+    },
+    {
+      "title": "Xbox Helix阵容核爆：老滚6、辐射5、暗黑5全押上？",
+      "url": "https://www.ali213.net/news/html/2026-10/1049111.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "海外爆料称，代号Project Helix的下一代Xbox主机预计2027年末推出，基础算力56 TFLOPS，峰值可达112 TFLOPS，并支持自动将现世代游戏提升至120/240帧。游戏阵容传闻涵盖《上古卷轴6》《辐射5》《暗黑破坏神5》《星际争霸3》等。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "继任者出手！《最终幻想：共鸣》发售仅数日遭绕过",
+      "url": "https://www.ali213.net/news/html/2026-10/1049105.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "社区近日出现《最终幻想：共鸣》绕过补丁，署名为ARTIFACT，标注为Denuvo Hypervisor Workaround。该作10月22日发售，PC版搭载Denuvo加密，意味着其D加密防护在发售数日内即被绕过。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "最终幻想：共鸣"
+    },
+    {
+      "title": "资源包都出来了！任天堂Switch 2破解取得新进展！",
+      "url": "https://www.ali213.net/news/html/2026-10/1049099.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "Switch 2 自制程序社区因破解工具 ns2jb 活跃起来。该工具由 pepsipu 开发，属软件层破解，利用主机文件系统漏洞，入口是已下架的《SmileBASIC 4》。",
+      "author": "夏天一份西瓜皮",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "《现代战争4》在线峰值破22万人！玩家评价两极分化",
+      "url": "https://www.ali213.net/news/html/2026-10/1049097.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "经典FPS《使命召唤》系列最新作《使命召唤23：现代战争4》已于2026年10月23日正式发售，随着游戏正式上线，Steam平台热度迅速攀升。",
+      "author": "夏天一份西瓜皮",
+      "supplemented": false,
+      "game_name": "现代战争4"
+    },
+    {
+      "title": "差价超百元！《塞尔达》新作实体274元 数字版449港币",
+      "url": "https://www.ali213.net/news/html/2026-10/1049095.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "《塞尔达传说：时之笛 重制版》11月5日登陆Switch2，拼多多百亿补贴实体约274元，对比港服数字版449港币，实体价格优势明显。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "塞尔达"
+    },
+    {
+      "title": "不靠模拟器！AI加持《王国之泪》60帧PC移植项目曝光",
+      "url": "https://www.ali213.net/news/html/2026-10/1049093.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "开发者valentderah公布TotK Recomp静态重编译项目，目标实现《王国之泪》PC原生60帧，目前仅有官宣，源码将于近期放出，这类移植处于法律灰色地带。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "王国之泪"
+    },
+    {
+      "title": "夜之城搬进浏览器！安卓手机也可直接游玩《2077》",
+      "url": "https://www.ali213.net/news/html/2026-10/1049091.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "开发者omonkeyzz推出基于WebGPU的《赛博朋克2077》浏览器实验版，本地渲染非云游戏，自动下载资源，安卓可试，项目尚不稳定。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "2077"
+    },
+    {
+      "title": "又开炮！Epic高管炮轰Steam 游戏有AI内容却不对外说明",
+      "url": "https://www.ali213.net/news/html/2026-10/1049087.html",
+      "published_at": "2026-10-25 00:00:00",
+      "summary": "Epic CEO Tim再度批评Steam强制标注AI内容的政策，认为易引发网暴，不过海外多数玩家支持Steam。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "有点粗暴！Xbox强推《COD23》 一登主页直接铺满广告",
+      "url": "https://www.ali213.net/news/html/2026-10/1049085.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "玩家吐槽Xbox主页强制铺满《COD23》宣传主题，社区看法两极，该广告可在设置里关闭。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "COD23"
+    },
+    {
+      "title": "辟谣来了！GTA6前设计师表示 从没听过R星讨论裁员",
+      "url": "https://www.ali213.net/news/html/2026-10/1049083.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "前R星设计师哈特维克称在职时未听闻裁员讨论，人员变动多看绩效，该观点仅代表其过往经历，不代表现状。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "时隔六百年！《质量效应5》爆料 收割者战争落幕许久",
+      "url": "https://www.ali213.net/news/html/2026-10/1049079.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "博主爆料原计划的《质量效应5》设定在收割者战争600年后，有多元势力与莉亚拉回归，但BioWare关停，项目前景渺茫。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "质量效应5"
+    },
+    {
+      "title": "可信度拉满！GTA6评分解禁时间曝光 爆料者过往预测成功",
+      "url": "https://www.ali213.net/news/html/2026-10/1049077.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "爆料人称《GTA6》评分解禁分两批，文字11月18日解禁、视频延后至发售日，消息暂未获R星官方确认。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "升级！《伊苏8》新版本来袭 解锁120帧 实体约333元",
+      "url": "https://www.ali213.net/news/html/2026-10/1049075.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "《伊苏8：达娜的安魂曲》NS2版开启预购，明年2月发售，支持120帧与GameShare联机，实体版约333元。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "伊苏8"
+    },
+    {
+      "title": "《宇宙机器人》销量预估破470万！玩家买账索尼赚翻",
+      "url": "https://www.ali213.net/news/html/2026-10/1049073.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "分析师估算PS5独占《宇宙机器人》销量达470万，实体占比高、持续长卖，分析师期待该IP推出新作。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "宇宙机器人"
+    },
+    {
+      "title": "口碑逆转！GS重新评价《漫威金刚狼》 曾经只给到6分",
+      "url": "https://www.ali213.net/news/html/2026-10/1049071.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "GameSpot指出《漫威金刚狼》遭短视频切片抹黑，本作销量不俗，而GS此前曾给它打出6分，态度转变引发热议。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "漫威金刚狼"
+    },
+    {
+      "title": "行业里程碑！塞尔达传说系列主创斩获国家级文化勋章",
+      "url": "https://www.ali213.net/news/html/2026-10/1049069.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "青沼英二获法国艺术与文学骑士勋章，同日宫本茂将获日本文化勋章，恰逢塞尔达40周年，时之笛重制版将登陆Switch2。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "网友嘲讽前索尼高管都懂PS不行 他表示自己有两台PS5",
+      "url": "https://www.ali213.net/news/html/2026-10/1049067.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "吉田修平晒第二台Steam Machine遭博主带节奏贬低PS，他回应自己也有两台PS5，该事件只是一场轻松的圈内小插曲。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "不止音游！初音未来全新游戏来袭 多平台上线支持中文",
+      "url": "https://www.ali213.net/news/html/2026-10/1049065.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "《初音未来 消消拼图 寻蛋鸟 豪华版》10月29日登陆多平台，收录本体与DLC，休闲消除玩法且支持中文。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "跳水！《漫威金刚狼》实体版来到170元 玩家称还能再降",
+      "url": "https://www.ali213.net/news/html/2026-10/1049063.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "失眠组PS5独占《漫威金刚狼》实体盘现已跌至170元，玩家热议底价，猜测入库PS+后价格还会继续下跌。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "漫威金刚狼"
+    },
+    {
+      "title": "不用预留27GB了！《塞尔达时之笛重制版》实装容量曝光",
+      "url": "https://www.ali213.net/news/html/2026-10/1049061.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "Switch2《塞尔达传说：时之笛重制版》11月5日发售，商店后台数据显示本体容量24.54GB，较此前预估27GB有所缩减，前台信息暂未同步更新。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "塞尔达时之笛重制版"
+    },
+    {
+      "title": "太良心了！《赛马娘》演唱会取消不仅退票还报销机酒",
+      "url": "https://www.ali213.net/news/html/2026-10/1049059.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "据报道，原定于10月举办的赛马娘洛杉矶演唱会活动因为签证等原因无法正常举办，因此官方取消了本次活动，并给购买了门票的观众提供了退票及退还住宿费及交通费等相关费用。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "赛马娘"
+    },
+    {
+      "title": "《影之刃零》最终PV海外热度拉满 YouTube播放破759万",
+      "url": "https://www.ali213.net/news/html/2026-10/1049057.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "国产武侠动作游戏《影之刃零》由灵游坊制作发行，即将于10月29日正式登陆PC/PS5平台。随着发售日临近，这款作品在海外市场的关注度率先升温。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": "影之刃零"
+    },
+    {
+      "title": "玩家尝试《赛博朋克2077》在浏览器本地运行 非云游戏",
+      "url": "https://www.ali213.net/news/html/2026-10/1049055.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "一位名叫omonkeyzz的爱好者公布了“赛博朋克2077 Browser”实验项目，试图让《赛博朋克2077》直接在浏览器里本地运行。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": "赛博朋克2077"
+    },
+    {
+      "title": "NS2破解开发者收到任天堂邮件！重拳出击 不留余地",
+      "url": "https://www.ali213.net/news/html/2026-10/1049053.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "Switch 2破解圈传出消息：知名破解开发者Gezine在X上称收到任天堂邮件，并配骷髅表情，但未公开邮件内容。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "Steam个人日历结束实验室阶段正式上线 无付费推荐位",
+      "url": "https://www.ali213.net/news/html/2026-10/1049047.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "V社宣布旗下Steam个人日历（Personal Calendar）功能已结束Steam实验室的实验阶段，正式成为Steam商店的常规功能。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "上任仅三个月：Xbox首任COO离职！结束微软21年生涯",
+      "url": "https://www.ali213.net/news/html/2026-10/1049045.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "Xbox首任首席运营官海伦·蒋在职位设立仅三个月后便离职，结束微软21年职业生涯。据The Verge查阅的内部备忘录，她于2026年10月23日离开微软。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "游侠晚报：《GTA6》下周媒体开玩 Switch 2破解新进展",
+      "url": "https://www.ali213.net/news/html/2026-10/1049041.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "各位游侠网友，晚上好呀！又到了每天的「游侠晚报」时间啦！今天「游侠晚报」的主要内容有：《GTA6》下周媒体开玩 主机版先行，Switch 2破解又取得新进展，马里奥之父宫本茂获日本文化勋章等等，让我们一起来看看详细内容吧！",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": "GTA6"
+    },
+    {
+      "title": "Switch 2破解又取得新进展：首批游戏ROM开始转储",
+      "url": "https://www.ali213.net/news/html/2026-10/1049039.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "Switch 2的破解工作又有新动静。知名开发者@Acelogic_放出截图，显示已在开发对应调试工具，并成功实现主机文件浏览等基础操作。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "《魔兽：无限》女NPC胸部效果疑似被删，玩家吵翻了",
+      "url": "https://www.ali213.net/news/html/2026-10/1049037.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "日前，有网友发布对比视频，展示《魔兽世界：无限》中女性NPC与经典版本的动作差异，质疑暴雪删除了部分女性角色的动态效果。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": "魔兽：无限"
+    },
+    {
+      "title": "数据挖掘再搅社区!《零号连队》更新文件暗藏剧情DLC",
+      "url": "https://www.ali213.net/news/html/2026-10/1049035.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "《星球大战：零号连队》1.2补丁上线后，数据挖掘者在游戏文件中发现未启用内容，疑似指向剧情DLC。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "零号连队"
+    },
+    {
+      "title": "马里奥之父宫本茂获日本文化勋章！游戏界史上第一人",
+      "url": "https://www.ali213.net/news/html/2026-10/1049033.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "任天堂传奇设计师宫本茂近日成为史上首位荣获日本天皇颁发“文化勋章”的游戏开发者。现年73岁的他一手催生《超级马力欧》系列，并主导《皮克敏》《塞尔达传说》等IP开发。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "Steam个性化日历正式上线！比你自己都了解你的喜好",
+      "url": "https://www.ali213.net/news/html/2026-10/1049031.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "Steam“个人日历”结束约11个月实验室测试，于2026年10月24日正式上线。它不靠简单的类型匹配，而是根据你的实际游玩时长寻找“同好”玩家，再参考他们的愿望单和近期在玩游戏，为你筛选未来八周最可能感兴趣的新作。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "《漫威：刀锋战士》临近完工 工作室却面临关停倒计时",
+      "url": "https://www.ali213.net/news/html/2026-10/1049027.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "据法媒Le Monde 10月23日报道，微软旗下Arkane Lyon工作室正在开发的漫威吸血鬼动作游戏《漫威：刀锋战士》已接近制作尾声，但该工作室目前正面临关停风险。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": "漫威：刀锋战士"
+    },
+    {
+      "title": "手柄玩家有福啦！微软Xbox模式新增一键返回功能优化",
+      "url": "https://www.ali213.net/news/html/2026-10/1049023.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "微软在 Windows 11 Xbox 模式最新预览版中重构“游戏任务视图”，底部新增“退出到桌面”和“电源选项”入口。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "生怕你打不过！UCG推出《影之刃零》官方攻略全书",
+      "url": "https://www.ali213.net/news/html/2026-10/1049021.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "《影之刃零》10月29日解锁在即，UCG编辑室获官方授权推出的《影之刃零 攻略全书》也将于2026年11月初上市。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "影之刃零"
+    },
+    {
+      "title": "曝《GTA6》下周媒体开玩！主机版先行 PC版暂无消息",
+      "url": "https://www.ali213.net/news/html/2026-10/1049019.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "知名爆料人NateTheHate称，Rockstar将于“下周”向媒体送达《GTA6》，部分评测者即将进入实际游玩阶段。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "GTA6"
+    },
+    {
+      "title": "模拟器往后靠！《塞尔达荒野之息》PC版首测4K 63帧",
+      "url": "https://www.ali213.net/news/html/2026-10/1049015.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "想在PC上玩《荒野之息》，模拟器之外出现了新方案。Savage Wind 项目采用静态重编译，把Switch版游戏代码预先转换为PC原生指令，首测在初始台地场景跑出4K最高63 FPS，并支持多档帧率选项。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "塞尔达荒野之息"
+    },
+    {
+      "title": "《血源诅咒》原生支持DLSS5！PC移植技术再进一步",
+      "url": "https://www.ali213.net/news/html/2026-10/1049013.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "在索尼官方PC移植版持续缺席的背景下，非官方项目 BloodborneX 发布 1.0.0 首个公开版本，核心突破是原生集成英伟达 DLSS 5 神经渲染，让《血源诅咒》首次在 PC 端获得 AI 画面重构能力。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "血源诅咒"
+    },
+    {
+      "title": "宫本茂谈AI：工具再强也替代不了创意 人的想法越关键",
+      "url": "https://www.ali213.net/news/html/2026-10/1049011.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "据外媒VGC当地时间23日报道，任天堂知名设计师、创意顾问宫本茂认为，生成式AI的发展不会取代人类的创造力。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "致敬《古墓丽影》三十周年，八位堂两款联名纪念手柄全球上市",
+      "url": "https://www.ali213.net/news/html/2026-10/1049009.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "1996年，《古墓丽影》正式诞生，如今已经走过三十年的辉煌历程。从初代像素感十足的「失落山谷」，到重启三部曲里攀登雪山、深入玛雅遗迹的硬核旅程，30年来，劳拉·克劳馥从来没有停下探索的脚步。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": "古墓丽影"
+    },
+    {
+      "title": "《辐射》马克西姆斯T-60动力装甲雕像！现已开放预订",
+      "url": "https://www.ali213.net/news/html/2026-10/1049007.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "高端雕像厂商 Prime 1 Studio 将《辐射》真人剧关键角色马克西姆斯的 T-60 动力装甲以 1/4 比例立体化，隶属 Real Elite Masterline 系列，现已开放预订。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "辐射"
+    },
+    {
+      "title": "《英雄联盟》2026全球总决赛瑞士轮首日LCK四战全胜",
+      "url": "https://www.ali213.net/news/html/2026-10/1049005.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "2026英雄联盟全球总决赛瑞士轮首日战罢，LCK四队GEN、HLE、DK、T1全部取胜齐聚1-0组，LPL四队iG、TES、BLG、AL则四战皆墨，以0-4创下瑞士轮改制后LPL首次首轮全败纪录。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "英雄联盟"
+    },
+    {
+      "title": "《赛博朋克》将于11月11日登陆暴雪战网!同步推出更新",
+      "url": "https://www.ali213.net/news/html/2026-10/1049003.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "暴雪正式宣布，《赛博朋克 2077》将于 11 月 11 日登陆战网平台，这是 CD PROJEKT RED 作品首次进入暴雪数字发行渠道。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "赛博朋克"
+    },
+    {
+      "title": "Xbox终于补发了《GTA6》发售预告片 内容与PS5版一致",
+      "url": "https://www.ali213.net/news/html/2026-10/1048999.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "Xbox官方日前终于发布了《GTA6》发售预告片，并确认游戏将于11月19日登陆Xbox Series X|S。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": "GTA6"
+    },
+    {
+      "title": "《光与影》销量达870万份 营收3.66亿Steam贡献近六成",
+      "url": "https://www.ali213.net/news/html/2026-10/1048997.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "据分析师统计，《光与影：33号远征队》自去年发售以来总销量已达870万份，累计营收3.66亿美元。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": "光与影"
+    },
+    {
+      "title": "B站UP主王老菊首款游戏《再再启程》体验版好评率89%",
+      "url": "https://www.ali213.net/news/html/2026-10/1048993.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "B站百大UP主“怕上火暴王老菊”跨界做游戏，首款作品《再再启程》在Steam开启抢先体验后，好评率已达89%。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": "再再启程"
+    },
+    {
+      "title": "育碧下周将为《刺客信条 黑旗》重制PS5版加入新游戏+",
+      "url": "https://www.ali213.net/news/html/2026-10/1048987.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "育碧计划于下周更新《刺客信条：黑旗 记忆重置》PS5版，并加入新游戏+模式。该功能将允许玩家重新体验完整战役，回应游戏推出以来玩家对二周目玩法的需求。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": "刺客信条 黑旗"
+    },
+    {
+      "title": "《最终幻想：共鸣》Steam玩家口碑炸裂：97%好评如潮",
+      "url": "https://www.ali213.net/news/html/2026-10/1048985.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "Square Enix新作《最终幻想：共鸣》Steam版10月23日解锁后迅速打响口碑：在1116条用户评测中，好评率高达97%，拿下Steam最高档“好评如潮”。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": "最终幻想：共鸣"
+    },
+    {
+      "title": "一局都赢不了！S16瑞士轮第一天LPL战队全军覆没",
+      "url": "https://www.ali213.net/news/html/2026-10/1048983.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "在凌晨结束的《英雄联盟》2026全球总决赛瑞士轮第一日比赛中，来自LPL赛区的四支战队全部落败，刷新了瑞士轮赛制启用以来最差开局。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "游侠早报：Xbox官方发布《GTA6》预告 Steam喜加一",
+      "url": "https://www.ali213.net/news/html/2026-10/1048981.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "各位游侠网友，大家早上好呀！又到了每天「游侠早报」的时间了。今天的主要内容有：Xbox官方终于发布《GTA6》新预告，Steam限时免费FPS恐怖小品《光辉出征》，《最终幻想：共鸣》Steam玩家口碑炸裂等内容，一起来看看吧！",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": "GTA6"
+    },
+    {
+      "title": "《漫威金刚狼》成美国最畅销新游戏?尽管评价褒贬不一",
+      "url": "https://www.ali213.net/news/html/2026-10/1048979.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "媒体口碑遇冷却难挡商业爆发——《漫威金刚狼》以PS5独占之姿登顶2026年9月美国新游销量榜，并空降全年销量榜第11位，创下索尼自《绝地潜兵2》以来第一方首发月最高美元销售额。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "漫威金刚狼"
+    },
+    {
+      "title": "Steam限时免费！好评如潮FPS恐怖小品《光辉出征》",
+      "url": "https://www.ali213.net/news/html/2026-10/1048977.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "美国独立开发者Horrawr制作的线性叙事第一人称生存恐怖射击游戏《Radiant Exodus》宣布，将于2026年11月17日结束免费游玩、回归付费。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "光辉出征"
+    },
+    {
+      "title": "《波比的游戏时间》衍生作《逃离游戏时间》抢先体验",
+      "url": "https://www.ali213.net/news/html/2026-10/1048971.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "《波比的游戏时间》系列开发商Mob Entertainment推出多人合作衍生作《逃离游戏时间》（Escape From Playtime），现已在Steam开启抢先体验。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "波比的游戏时间"
+    },
+    {
+      "title": "玩家喊话“帕鲁厂商”买下《质量效应》IP！请愿超7.5万",
+      "url": "https://www.ali213.net/news/html/2026-10/1048969.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "EA关闭BioWare并终止早期开发中的新《质量效应》项目后，玩家以 #SaveMassEffect 发起请愿，签名从约9小时4.3万份扩大至超7.5万份，部分玩家还呼吁抵制EA，并异想天开地请求《幻兽帕鲁》开发商Pocketpair买下该IP。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "质量效应"
+    },
+    {
+      "title": "微软曾向网飞开价8亿寻求Xbox游戏7年独家影视改编权",
+      "url": "https://www.ali213.net/news/html/2026-10/1048965.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "据外媒Puck当地时间23日援引三名知情人士消息，微软曾向网飞开价8亿美元（约合53.51亿元人民币），希望达成为期7年的独家授权协议，允许网飞将Xbox旗下游戏角色改编成电影和剧集，并在其流媒体平台独家播出。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "战争计划重做！《暗黑破坏神4》S16 PTR测试内容公布",
+      "url": "https://www.ali213.net/news/html/2026-10/1048961.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "暴雪开启《暗黑4》S16 PTR，重做战争计划，新增泰瑞尔恩惠、赫拉迪姆传奇装备与双首领战，测试周期至11月3日。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "暗黑破坏神4"
+    },
+    {
+      "title": "国区定价118元！《帝国时代4》北方劫掠者DLC即将上线",
+      "url": "https://www.ali213.net/news/html/2026-10/1048959.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "《帝国时代4：北方劫掠者》10月30日发售，国区118元，新增维京、苏格兰文明与熔炉竞技场内容，该DLC不包含在Game Pass内。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "帝国时代4"
+    },
+    {
+      "title": "相当于半个新作？《深海迷航2》EA2.0大型更新来袭",
+      "url": "https://www.ali213.net/news/html/2026-10/1048957.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "Unknown Worlds公布《深海迷航2》抢先体验2.0大更新，新增区域、机甲与建造内容，但玩家仍期待官方公布正式发售日期。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "深海迷航2"
+    },
+    {
+      "title": "重制惹祸？《巫师3》新BUG浮出水面 新旧机制打架",
+      "url": "https://www.ali213.net/news/html/2026-10/1048955.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "外媒报道巫师3重制版幻化系统带来趣味BUG，变形怪只能复制杰洛特本体样貌，无法读取幻化外观，根源是场景制作早于幻化功能，社区玩家纷纷玩梗。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "巫师3"
+    },
+    {
+      "title": "爷青回！网传暴雪组建团队 准备重制《星际争霸2》",
+      "url": "https://www.ali213.net/news/html/2026-10/1048953.html",
+      "published_at": "2026-10-24 00:00:00",
+      "summary": "据外媒报道，博主爆料暴雪组建团队开发星际2新项目，疑似重制版，佐证是一封邮件，消息暂无官方证实，仅为传闻。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "星际争霸2"
+    },
     {
       "title": "ATLUS《女神异闻录4 Revival》最新资讯“伊格尔”“玛格丽特”“玛丽”以及“天鹅绒房间”介绍公开",
       "url": "https://www.ali213.net/news/html/2026-10/1048899.html",
@@ -622,6 +1432,177 @@
       "author": "游侠新闻组",
       "supplemented": false,
       "game_name": "战争机器"
+    },
+    {
+      "title": "玩家吵翻！《COD23》没有匹配选项 总监出面回应争议",
+      "url": "https://www.ali213.net/news/html/2026-10/1048951.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "COD社区持续争论SBMM匹配机制，《现代战争4》缺少开放匹配选项，总监称优先保证对局质量，该系统实际体验起伏明显。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "COD23"
+    },
+    {
+      "title": "曝《地平线3》为PS6首发大作！开发进度却不太理想",
+      "url": "https://www.ali213.net/news/html/2026-10/1048949.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "爆料称《地平线3》由小团队缓慢开发，工作室重心在多人衍生作，或2028-2029年推出，有望成为PS6早期大作。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "地平线3"
+    },
+    {
+      "title": "英伟达黑科技！着色器加载大幅缩短 《地平线6》只要4秒",
+      "url": "https://www.ali213.net/news/html/2026-10/1048947.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "微软ASD着色器分发技术扩支RTX显卡Win11设备，英伟达新驱动上线，可大幅缩短加载，Steam、Epic后续支持。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "地平线6"
+    },
+    {
+      "title": "等了多少年！V社员工说漏嘴 《半条命3》传闻再起！",
+      "url": "https://www.ali213.net/news/html/2026-10/1048945.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "V社开发者在活动上口误提及代号HLX项目，引发《半条命3》猜测，项目曾计划TGA2025公布后延期，官方暂未回应。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "半条命3"
+    },
+    {
+      "title": "多家老牌退场！2026年35家游戏工作室关停 生软蓝点在列",
+      "url": "https://www.ali213.net/news/html/2026-10/1048943.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "外媒统计，2026年游戏行业寒冬持续，超1.2万岗位流失，161家工作室遭裁员，35家关停，生软、蓝点等知名团队在列。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "AI掀起老游戏复活潮！经典作品重见天日 你怎么看？",
+      "url": "https://www.ali213.net/news/html/2026-10/1048941.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "AI可助力老游戏移植复活、丰富玩法，但也降低开发门槛，催生大量粗制滥造作品，半成品隐患凸显，引发玩家对行业走向的讨论。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "悲喜交加！《质量效应5》取消 总监自嘲不用为GTA6请假",
+      "url": "https://www.ali213.net/news/html/2026-10/1048939.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "EA遭收购后裁员关停BioWare，《质量效应5》项目取消，总监Mike Gamble致谢粉丝并帮团队求职，还调侃不用为GTA6请假。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "质量效应5"
+    },
+    {
+      "title": "谁还在交界地？近千万《艾尔登法环》玩家游玩超100小时",
+      "url": "https://www.ali213.net/news/html/2026-10/1048937.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "分析人士数据显示，《艾尔登法环》销量3640万份、收入约20亿美元，980万玩家游玩超百小时，350万人达成全成就，拥有长期畅销潜力。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "艾尔登法环"
+    },
+    {
+      "title": "宫本茂:AI做游戏再厉害也只是塑形！游戏灵魂还得靠人",
+      "url": "https://www.ali213.net/news/html/2026-10/1048929.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "近日，《超级马里奥》之父宫本茂在发布会中谈及游戏行业的AI应用热潮。面对不少人担忧AI会取代开发者，他态度从容，认为人类创作者永远拥有不可替代的位置。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "单人打造辛特拉新区域《巫师3RE》粉丝mod获官方许可",
+      "url": "https://www.ali213.net/news/html/2026-10/1048925.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "CD Projekt Red已正式批准一款大型粉丝自制辛特拉扩展mod，登陆PS5平台的《巫师3》重制版。该作品由创作者GerwantTOTW独立开发，将玩家带到希里的故土辛特拉，王城建造在古老精灵城邦辛特雷亚的遗迹之上，包含主城、周边旷野与希尔登村落。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "巫师3RE"
+    },
+    {
+      "title": "游侠晚报:《暗黑3》重编译PC版《质量效应5》预告泄露",
+      "url": "https://www.ali213.net/news/html/2026-10/1048923.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "各位游侠网友，晚上好呀！又到了每天的「游侠晚报」时间啦！今天「游侠晚报」的主要内容有：《暗黑破坏神3》重编译移植至PC！恢复经典离线玩法，《地铁：最后的曙光》次世代刚更新！网传《质量效应5》两分钟CG预告泄露等等，让我们一起来看看详细内容吧！",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "暗黑3"
+    },
+    {
+      "title": "宫本茂：电影经历或成重返游戏开发跳板 暂无新作安排",
+      "url": "https://www.ali213.net/news/html/2026-10/1048915.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "宫本茂近日就未来创作方向作出表态，称参与电影制作的经历，可能成为他重新回到游戏开发一线的重要契机。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": ""
+    },
+    {
+      "title": "《质量效应5》前途渺茫！数万粉丝联名请愿EA善待IP",
+      "url": "https://www.ali213.net/news/html/2026-10/1048911.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "EA官宣关闭老牌RPG工作室生软，让《质量效应》的粉丝陷入失落。拥有三十余年历史的生软正式落幕，正在筹备的《质量效应》新作开发工作随之终止，《龙腾世纪》系列的未来同样蒙上阴影。虽然IP版权仍归EA所有，但现阶段暂无正传新作的开发计划。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "质量效应5"
+    },
+    {
+      "title": "枪炮不如思潮！《群星》全新DLC用信念征服整片银河",
+      "url": "https://www.ali213.net/news/html/2026-10/1048909.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "Paradox Interactive近日官宣，科幻大战略游戏《群星》大型付费DLC「Willpower」将于11月23日登陆PC平台，同步推出免费4.6版本更新「Corona Borealis」，带来全新的思想博弈玩法。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "群星"
+    },
+    {
+      "title": "发售四年仍在卖爆 《艾尔登法环》2026年再卖200万份",
+      "url": "https://www.ali213.net/news/html/2026-10/1048907.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "数据分析机构Alinea Analytics估算，《艾尔登法环》累计销量已达3640万份，收入约20亿美元。2026年该作仍售出约200万份。衍生作《艾尔登法环：黑夜君临》销量约780万份，收入约2.82亿美元。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "艾尔登法环"
+    },
+    {
+      "title": "自定义外观+手枪隐藏！《刺客信条：黑旗RE》补丁更新",
+      "url": "https://www.ali213.net/news/html/2026-10/1048905.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "育碧为《刺客信条：黑旗 记忆重置》推送1.0.7版本补丁，响应社区呼声，扩充外观自定义选项，改善潜行与截图体验。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "刺客信条：黑旗RE"
+    },
+    {
+      "title": "《星际战士2》玩家突破1500万！战锤IP再破纪录！",
+      "url": "https://www.ali213.net/news/html/2026-10/1048901.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "《战锤40K：星际战士2》玩家数突破1500万，成为战锤IP史上表现最强劲的游戏。游戏已于2024年9月发售，登陆PC、PS5、Xbox Series X|S，2026年圣诞登陆Switch 2，续作《星际战士3》已在开发中。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "星际战士2"
+    },
+    {
+      "title": "《GTA6》为何写实?R星:当地不法分子热情分享犯罪经历",
+      "url": "https://www.ali213.net/news/html/2026-10/1048893.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "一直以来，Rockstar Games打造的《侠盗猎车手（GTA）》系列以高自由度著称，也自然与各种犯罪行为密不可分。",
+      "author": "Arthur",
+      "supplemented": false,
+      "game_name": "GTA6"
+    },
+    {
+      "title": "《血色地狱酒店》官宣延期！上线将直接发行完整版本",
+      "url": "https://www.ali213.net/news/html/2026-10/1048891.html",
+      "published_at": "2026-10-23 00:00:00",
+      "summary": "Unfold Games宣布《血色地狱酒店》延期至2027年登陆Steam，取消原定2026年末的抢先体验，改为直接发行完整版。玩家将扮演苏醒的吸血鬼经营酒店，可接待或吸血客人，地下地牢供战斗寻宝，提供六种职业与270项技能升级内容。",
+      "author": "游侠新闻组",
+      "supplemented": false,
+      "game_name": "血色地狱酒店"
     },
     {
       "title": "美国老牌电竞战队Evil Geniuses宣布将于11/2停止运营",
@@ -4798,1104 +5779,6 @@
       "author": "游侠新闻组",
       "supplemented": false,
       "game_name": "余烬与刃"
-    },
-    {
-      "title": "迎宝可梦30周年!粉丝自制免费游戏《宝可梦Daily Red》",
-      "url": "https://www.ali213.net/news/html/2026-10/1047145.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "正值宝可梦系列诞生30周年，一款粉丝自制网页对战作品《宝可梦 Daily Red》正式上线，玩家可直接在电脑浏览器免费游玩，无需下载与注册账号。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "宝可梦Daily Red"
-    },
-    {
-      "title": "《漫威争锋》反作弊升级：视觉Mod 音频Mod等被盯上",
-      "url": "https://www.ali213.net/news/html/2026-10/1047143.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《漫威争锋》近期加强对可能带来竞技优势Mod的打击。网易表示，部分Mod通过内存注入或类似作弊引擎手段触发反作弊检测，包括修改模型、移除后坐力、调整脚步音频、放大敌人等。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "漫威争锋"
-    },
-    {
-      "title": "喜加二+优质游戏骨折价！游侠喊你薅羊毛！喜加一汇总",
-      "url": "https://www.ali213.net/news/html/2026-10/1047141.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "又到了游侠网友喜闻乐见的每周“薅羊毛”环节啦！今天小编依然会为大家汇总一周Steam与Epic的“喜加一游戏”，此外，小编还会为大家推荐一些最近值得购买的「Steam骨折游戏」，废话不多说，让我们一起来看看吧！",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "CygamesEdge规划:每年2-3款游戏 冲刺百万销量代表作",
-      "url": "https://www.ali213.net/news/html/2026-10/1047135.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "Cygames新品牌CygamesEdge公布发展规划，计划每年产出2‑3款中型游戏，力求三至五年打造百万销量作品。品牌采用灵活开发模式，首作《崩落之国》即将多平台发售，目前已经开放游戏体验版。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "摔角强强联手！《WWE 2K26》联动《街霸》 DLC官宣",
-      "url": "https://www.ali213.net/news/html/2026-10/1047133.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "2K Games与卡普空正式公布，《WWE 2K26》×《街头霸王》精英组合包将于10月28日上线，带来摔角与经典格斗IP的重磅跨界联动。本次合作缘起罗曼・雷恩斯、科迪・罗兹参演全新真人电影《街头霸王》，两大厂商借此机会，将街霸经典角色带到摔角擂台之中。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "WWE 2K26"
-    },
-    {
-      "title": "全新品牌“CygamesEdge”首款游戏《崩落之国》试玩版于今日10月16日发布！最终预告片也已同步公开",
-      "url": "https://www.ali213.net/news/html/2026-10/1047127.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "株式会社 Cygames（以下简称 Cygames），主营游戏策划、开发与运营业务，在此宣布，旗下专注中小规模游戏开发的全新品牌「CygamesEdge」的首部作品《崩落之国》，已于今日 10 月 16 日在 Steam 平台上线试玩版，本作最终预告片同步对外公开。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "崩落之国"
-    },
-    {
-      "title": "《ROLL一下勇士》试玩报告：战棋？不，是符文赌场",
-      "url": "https://www.ali213.net/news/html/2026-10/1047125.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "把阵型、肉鸽和骰子技能搅成一锅，玩起来像在棋盘上开赌场！这款Demo堪称肉鸽赌鬼的天选之子！",
-      "author": "于情",
-      "supplemented": false,
-      "game_name": "ROLL一下勇士"
-    },
-    {
-      "title": "《生化危机》30周年展反派维克托吉迪恩头部装备公开",
-      "url": "https://www.ali213.net/news/html/2026-10/1047123.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《生化危机》30周年纪念展近日公开了系列新作《生化危机：安魂曲》的相关展示内容，维克托·吉迪恩的头部装备在展会上首次亮相。",
-      "author": "Arthur",
-      "supplemented": false,
-      "game_name": "生化危机"
-    },
-    {
-      "title": "《霜港迷城》PC 1.0 正式版今日上线！全新发售宣传片亮相 Galaxies Showcase",
-      "url": "https://www.ali213.net/news/html/2026-10/1047121.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "备受好评的暗黑奇幻策略角色扮演桌游迎来完整数字化体验，现已登陆 Steam 与 Epic Games Store。Arc Games 惊喜宣布：《祝你好死》开发团队打造的奇趣水下合作冒险游戏 Nautus 现已开启公开测试！",
-      "author": "ali213",
-      "supplemented": false,
-      "game_name": "霜港迷城"
-    },
-    {
-      "title": "一边接广告一边删枪！巴黎《GTA6》巨幅海报\"被缴械\"",
-      "url": "https://www.ali213.net/news/html/2026-10/1047119.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "距离《侠盗猎车手 6》11月19日登陆主机平台仅剩数周，R星全球线下宣发全面启动，多款巨型壁画与建筑外墙海报陆续亮相。而法国巴黎莱梅库里亚尔大厦的巨幅宣传海报，因一处特殊修改，迅速在玩家社群走红。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "GTA6"
-    },
-    {
-      "title": "外媒:《GTA6》淋浴片段让杰森与露西亚关系更具真实感",
-      "url": "https://www.ali213.net/news/html/2026-10/1047113.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "媒 Kotaku解析《GTA6》预告淋浴片段，表示该亲密场景表达克制，借监禁装置制造剧情反差。对比系列过往内容，R星倾向以此刻画人物关系。本作将于11月19日上线PS5、Xbox Series X/S主机平台。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "GTA6"
-    },
-    {
-      "title": "5.7万搏450万美元奖金！《CS2》选手假赛获终身禁赛",
-      "url": "https://www.ali213.net/news/html/2026-10/1047109.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "近日，电子竞技诚信委员会（ESIC）公布重磅处罚结果，前MOUZ选手kzy（奥利弗・赫克）因操纵比赛被判处终身禁赛。NOMERCY其余四名队员同样遭到处罚，禁赛期限在3至5年不等，案件发生在今年3月的罗马帝国杯VII线下赛事。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "CS2"
-    },
-    {
-      "title": "任天堂日本主机维修服务将涨价，将于11月16日起生效",
-      "url": "https://www.ali213.net/news/html/2026-10/1047105.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "任天堂日本官方今日发布通知，宣布自11月16日起上调Switch 2和Switch主机的维修服务价格。",
-      "author": "Arthur",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "续写动物园模拟传奇！《动物园之星2》IGN评价9分",
-      "url": "https://www.ali213.net/news/html/2026-10/1047103.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "动物保育与园区建造相互融合，《动物园之星》迎来重磅续作——《动物园之星2》。续作没有推翻初代的框架，而是在原有动物园运营体系上稳步迭代。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "动物园之星2"
-    },
-    {
-      "title": "多人合作饮品店经营游戏《杯杯倒满》于10月16日推出1.0正式版",
-      "url": "https://www.ali213.net/news/html/2026-10/1047101.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "多人合作饮品店模拟经营游戏《杯杯倒满》已于10月16日结束Steam抢先体验，正式推出1.0版本。本次更新开放第八章“酒吧街”四个关卡，玩家需制作啤酒、调酒并管理空杯回收。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "杯杯倒满"
-    },
-    {
-      "title": "大马Dota2战队被突查 选手被要求当场打一局证明实力",
-      "url": "https://www.ali213.net/news/html/2026-10/1047099.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "通常来说，职业电竞战队大多要求集体住宿，选手们除了比赛，平时也住在训练基地，方便战队管理和训练安排。",
-      "author": "Arthur",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "CDPR仍希望推出实体游戏产品，但具体形式尚未确定",
-      "url": "https://www.ali213.net/news/html/2026-10/1047097.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "CD Projekt RED仍希望为未来游戏推出实体零售产品，但具体形式尚未确定。",
-      "author": "Arthur",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "10月16日开抓！《万物皆可捏》把 DIY 建模玩进了捉迷藏！",
-      "url": "https://www.ali213.net/news/html/2026-10/1047093.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "我们非常高兴地宣布，《万物皆可捏》现已正式发售！即刻前往Steam购买，和朋友一起开启一场欢乐的3D自由DIY捉迷藏游戏吧！",
-      "author": "袖子长官",
-      "supplemented": false,
-      "game_name": "万物皆可捏"
-    },
-    {
-      "title": "卓威硬核玩家日重磅官宣！绿龙、天禄、HangHang诚邀你共赴FPS硬核狂欢",
-      "url": "https://www.ali213.net/news/html/2026-10/1047091.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "每一份热爱都值得被看见，每一次全力以赴都值得被认真对待。11月7日至8日，「卓威硬核玩家日」将在深圳龙岗坂田文体中心开启。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "《噩梦狂人》10月16日登陆PS5！推出限定典藏版实体",
-      "url": "https://www.ali213.net/news/html/2026-10/1047089.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《噩梦狂人》PS5版于10月16日全球上线，实体、数字版本同步发售，设有内容丰富的限定典藏版。这款动作RPG讲述循环噩梦的冒险，拥有随机地下城与灵活武器战斗，PS5版本支持简繁中文，此前已推出Switch版本。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "噩梦狂人"
-    },
-    {
-      "title": "《Zombie Police～凛冽盛夏的新年～》11月22日发售！Steam新品节免费试玩",
-      "url": "https://www.ali213.net/news/html/2026-10/1047087.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "LOBSTUDIO（代表董事：真锅刚）于2026年10月8日宣布，推理冒险游戏《Zombie Police》系列最新作《Zombie Police ～凛冽盛夏的新年～》将于2026年11月22日正式发售。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "Zombie Police～凛冽盛夏的新年～"
-    },
-    {
-      "title": "穿越春秋乱世，靠种地进爵复国?《竹泉记》Demo上线",
-      "url": "https://www.ali213.net/news/html/2026-10/1047085.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "体验先秦田园生活，在乱世靠种田出人头地。",
-      "author": "袖子长官",
-      "supplemented": false,
-      "game_name": "竹泉记"
-    },
-    {
-      "title": "公布仅一周便胎死腹中！《符文世界：重燃》官宣取消",
-      "url": "https://www.ali213.net/news/html/2026-10/1047083.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "拥有25年历史的经典MMO《符文世界》突发重磅消息，创意总监Mod Ryan在官方频道宣布，面向新玩家打造的《符文世界：重燃》项目正式取消。该项目原定12月2日上线，距离官方放出宣传预告片仅仅一周，在老玩家强烈争议下宣告夭折。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "符文世界：重燃"
-    },
-    {
-      "title": "《战锤40K：爆矢枪2》发售次日遭破解 RUNE版流出",
-      "url": "https://www.ali213.net/news/html/2026-10/1047081.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "复古FPS续作《战锤40K：爆矢枪2》已于10月14日登陆PC、PS5和Xbox Series X|S，国区售价93元。发售次日，社区出现RUNE破解版本，大小约9.4GB。本作支持双主角、分支战役和新混沌敌人，配乐由Mick Gordon操刀。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "战锤40K：爆矢枪2"
-    },
-    {
-      "title": "借AI编写脚本！《质量效应3》多人Mod引发社区争论",
-      "url": "https://www.ali213.net/news/html/2026-10/1047079.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "尽管《质量效应》传奇版对三部曲完成高清重制与体验优化，却并未收录原作《质量效应3》的多人模式，这一缺失多年来让不少系列老玩家倍感遗憾。时隔五年，一名粉丝自制Mod，借助AI工具Claude编译游戏脚本，让这一经典多人玩法得以回归。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "质量效应3"
-    },
-    {
-      "title": "《教团：1886》PC版来了？原生运行但30帧波动明显",
-      "url": "https://www.ali213.net/news/html/2026-10/1047077.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "PS4独占游戏《教团：1886》出现民间原生PC运行项目。该项目基于 FelipePrado0 此前《战神III》PC移植工作的技术积累，目前画面还原度不错，体积雾、动态光照、阴影和后期处理都已有表现。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "教团：1886"
-    },
-    {
-      "title": "经典绅士《夜勤病栋》推出新作！历代女主角集结出场",
-      "url": "https://www.ali213.net/news/html/2026-10/1047069.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "EXNOA正式公布经典成人游戏《夜勤病栋》系列全新网络化作品《夜勤病栋Online -New Operation-》。该作将登陆PC浏览器、智能手机浏览器及安卓平台，采用基本游玩免费制，预注册与预抽卡活动已同步开启。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "夜勤病栋"
-    },
-    {
-      "title": "化身“狼王”杀出重围！《夜血W：割喉之狼》10月16日上线Steam，首发8折开启",
-      "url": "https://www.ali213.net/news/html/2026-10/1047067.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "由Midnight Fantasy Games开发、HARRISONWORLD发行的2D横版赛博朋克像素动作游戏《夜血W：割喉之狼》将在10月16日下午5点正式上线Steam平台，首发优惠期间尽享8折优惠。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "夜血W：割喉之狼"
-    },
-    {
-      "title": "《守望先锋》之父自曝5年没碰游戏：为了心理健康",
-      "url": "https://www.ali213.net/news/html/2026-10/1047055.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "前《守望先锋》总监Jeff Kaplan接受采访称，自2021年4月离开暴雪后，他再也没玩过《守望先锋》，也不看相关视频、社区讨论，甚至主动“调教”推荐算法远离OW内容。他表示这是为了保护自己的心理状态，并把OW视为属于现任团队和玩家的作品。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "守望先锋"
-    },
-    {
-      "title": "GU宝可梦联名系列将于10月23日发售 陪你开启秋冬冒险",
-      "url": "https://www.ali213.net/news/html/2026-10/1047053.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "服饰品牌GU宣布，将于2026年10月23日推出全新宝可梦联名系列。该系列以“训练家与宝可梦的森林生活”为灵感，将宝可梦经典角色融入针织开衫、抓绒上衣与家居服设计中，推出涵盖男装与童装共8款单品。",
-      "author": "Arthur",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "小岛秀夫认为很多人没玩过《死亡搁浅》就给它贴标签",
-      "url": "https://www.ali213.net/news/html/2026-10/1047049.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "近日，小岛秀夫在与电影《掘地者》导演亚利桑德罗·冈萨雷斯·伊纳里图的对谈中，谈及《死亡搁浅》被称为“步行模拟器”一事。",
-      "author": "Arthur",
-      "supplemented": false,
-      "game_name": "死亡搁浅"
-    },
-    {
-      "title": "Dota2选手被质疑诈骗团伙 警察面前32杀凯自证身份！",
-      "url": "https://www.ali213.net/news/html/2026-10/1047047.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "泰国Dota2职业选手23savage称，其战队在吉隆坡集训时遭突击检查，护照、手机被扣，队友被戴手铐盘问约两小时。转机出现在一名懂Dota2的警官认出他后，他被解铐当场打一局天梯，使用英雄Kez拿下32杀，最终说服警方放行。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "10月27日上线!《漫漫长夜》DLC「铁路」抢先体验预告",
-      "url": "https://www.ali213.net/news/html/2026-10/1047045.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《漫漫长夜》是由Hinterland Studio开发的经典第一人称生存游戏，而现在，游戏官方公布了《漫漫长夜》全新DLC「铁路（Iron Road）」的抢先体验宣传视频，让我们一起来看看吧！",
-      "author": "cloud",
-      "supplemented": false,
-      "game_name": "漫漫长夜"
-    },
-    {
-      "title": "横版策略新作《王国III：开疆拓土》首个官方实机演示",
-      "url": "https://www.ali213.net/news/html/2026-10/1047043.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《王国III：开疆拓土》是由Fury Studios开发、Raw Fury发行的横版微策略系列新作。而现在，游戏官方公布了本作的首个实机演示，向玩家展示本作的实机游戏画面、核心玩法与全新机制，让我们一起来看看吧！",
-      "author": "cloud",
-      "supplemented": false,
-      "game_name": "王国III：开疆拓土"
-    },
-    {
-      "title": "《生化9》雪莉脸模首次COS自己：蓝衬衫黑手套神还原",
-      "url": "https://www.ali213.net/news/html/2026-10/1047041.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "近日，担任《生化危机9》雪莉·柏金脸模的Bridgette Haze在社交平台晒出亲自COS该角色的造型。她配文表示这是自己首次尝试COS，希望粉丝包容。",
-      "author": "袖子长官",
-      "supplemented": false,
-      "game_name": "生化9"
-    },
-    {
-      "title": "《枪火重生》全新DLC“月海弦音”首曝，预约现已开启！",
-      "url": "https://www.ali213.net/news/html/2026-10/1047039.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "——浪海作弦，云月成影。两名全新英雄与四把新武器即将亮相远山客栈，为熟悉的冒险奏响新的篇章。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "枪火重生"
-    },
-    {
-      "title": "热血开球！温馨足球RPG《绿茵少年仲夏梦》试玩版现已上线",
-      "url": "https://www.ali213.net/news/html/2026-10/1047037.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "热血开球！《绿茵少年仲夏梦》试玩版现已上线。由polden发行的温馨足球RPG，邀你走进像素小镇Lumen Bay，用一颗足球踢出属于你的少年梦想。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "绿茵少年仲夏梦"
-    },
-    {
-      "title": "学医可以治病，却治不好偏见与执念《雾隐》试玩Demo上线",
-      "url": "https://www.ali213.net/news/html/2026-10/1047035.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "由狼烟动画工作室打造的手绘剧情向冒险解谜RPG《雾隐》试玩Demo现已上线Steam平台，并将参加后续的Steam新品节活动。",
-      "author": "袖子长官",
-      "supplemented": false,
-      "game_name": "雾隐"
-    },
-    {
-      "title": "爱丽丝迷路了，你能带她回家吗？《爱丽丝与彼岸》正式发售",
-      "url": "https://www.ali213.net/news/html/2026-10/1047033.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "交互式叙事卡牌游戏《爱丽丝与彼岸》今日正式登陆Steam，首发9折优惠，折后价29.7元（原价33元）。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "爱丽丝与彼岸"
-    },
-    {
-      "title": "从入门到旗舰：玩无畏契约电竞屏选哪款更合适",
-      "url": "https://www.ali213.net/news/html/2026-10/1047029.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《无畏契约》这类战术FPS对显示器刷新率、响应速度、动态清晰度、低延迟和暗部细节要求很高，选屏也要结合预算与桌面需求。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "这个熟悉的家，不对劲！梦核恐怖游戏《余影》试玩Demo上线",
-      "url": "https://www.ali213.net/news/html/2026-10/1047027.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "心理恐怖解谜游戏《余影》试玩Demo现已上线Steam。游戏以梦核千禧年小镇为背景，主角兰兰生日当天回家发现父亲失踪，在熟悉又逐渐异化的街巷中穿梭，于温暖记忆与诡异场景间拼凑被遗忘的过去，揭开小镇深处的真相。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "余影"
-    },
-    {
-      "title": "《极限竞速5》非官方PC移植公开！其他项目正在推进",
-      "url": "https://www.ali213.net/news/html/2026-10/1047023.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "在Xbox One独占发售近13年后，《极限竞速5》以非官方PC移植项目“Race One Hub”的形式公开。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "极限竞速5"
-    },
-    {
-      "title": "汉米尔顿推出《使命召唤：现代战争4》普莱斯联名腕表",
-      "url": "https://www.ali213.net/news/html/2026-10/1047015.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "汉米尔顿推出《使命召唤：现代战争4 2026》联名腕表，以游戏核心人物普莱斯上尉为主题，采用黑色PVD涂层表壳，搭配卡其绿色织物表带、游戏标志性数字“4”及黄色细节。",
-      "author": "Arthur",
-      "supplemented": false,
-      "game_name": "使命召唤：现代战争4"
-    },
-    {
-      "title": "专为《微软模拟飞行》而生 Echo XPC手柄11月20日开售",
-      "url": "https://www.ali213.net/news/html/2026-10/1047013.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "10月16日消息，据外媒NotebookCheck今日午间报道，Honeycomb的飞行模拟手柄Echo Aviation Controller XPC现已在美国开放免费预约，售价179.99美元",
-      "author": "Arthur",
-      "supplemented": false,
-      "game_name": "微软模拟飞行"
-    },
-    {
-      "title": "ROG×《影之刃零》联名迷你主机公布：5080款33999元",
-      "url": "https://www.ali213.net/news/html/2026-10/1047009.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "今日，ROG与国产武侠动作游戏《影之刃零》联名系列正式开启预约，涵盖迷你主机、机箱、显示器及多款外设。两款联名迷你主机于10月16日开启预约，10月26日正式开售。",
-      "author": "袖子长官",
-      "supplemented": false,
-      "game_name": "影之刃零"
-    },
-    {
-      "title": "《怪猎荒野》NS2版体验版定档10月20日！存档可继承",
-      "url": "https://www.ali213.net/news/html/2026-10/1047007.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "卡普空正式宣布，《怪物猎人：荒野》Nintendo Switch 2版序章体验版将于10月20日登陆eShop免费下载，数字预购同日开启，正式版定于2026年12月4日全球发售。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "怪猎荒野"
-    },
-    {
-      "title": "ROG联名《影之刃零》外设开启预约：含键盘鼠标耳机等",
-      "url": "https://www.ali213.net/news/html/2026-10/1047003.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "今日，ROG与国产武侠动作游戏《影之刃零》联名外设系列开启预约。本次联名外设共四款，均于2026年10月16日开启预约，2026年10月26日正式售卖。",
-      "author": "袖子长官",
-      "supplemented": false,
-      "game_name": "影之刃零"
-    },
-    {
-      "title": "Steam成就页重做：可对比好友进度 家庭共享也能查",
-      "url": "https://www.ali213.net/news/html/2026-10/1047001.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "Steam已在客户端Beta版中测试“成就集”功能，允许开发者把成就按本体、多人、职业、DLC或赛季内容分组，每组都有独立进度条和完成徽章。后续新增DLC成就不再影响原有完成状态，限时活动成就也可归档。新版成就页还支持筛选、好友对比和家庭共享显示。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "《GTA6》情侣系统：不回短信会降温 一起犯罪才升温",
-      "url": "https://www.ali213.net/news/html/2026-10/1046999.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《GTA6》双主角杰森与露西亚的关系并非固定情侣，而是由玩家选择决定是否发展为恋人。两人可以一起逛街、理发、健身、抢劫，甚至牵手、扶门、互发短信。恋爱不会带来数值奖励，但亲密度会影响剧情走向。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "GTA6"
-    },
-    {
-      "title": "《GTA6》PS5 Pro增强≠60帧？官方只字未提性能模式",
-      "url": "https://www.ali213.net/news/html/2026-10/1046993.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《GTA6》PS5版官方技术页面未提及60帧或性能模式，引发“主机版锁30帧”的解读。分析认为，Leonida州的超高密度模拟对CPU压力极大，而PS5 Pro与基础版CPU架构相同，额外GPU性能难以转化为帧率提升。Pro版增强预计集中在分辨率、反射和稳定性上。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "GTA6"
-    },
-    {
-      "title": "《恶魔城：贝尔蒙特的诅咒》通关需20小时 白金50小时",
-      "url": "https://www.ali213.net/news/html/2026-10/1046991.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《恶魔城：贝尔蒙特的诅咒》现已正式发售。外媒BlueGamingSA的评测编辑近日分享了本作的游玩时长与体验心得。让我们一起来看看吧！",
-      "author": "cloud",
-      "supplemented": false,
-      "game_name": "恶魔城：贝尔蒙特的诅咒"
-    },
-    {
-      "title": "打游戏算运动?百万网红一句\"电竞只是在玩游戏\"引争议",
-      "url": "https://www.ali213.net/news/html/2026-10/1046989.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "近日，日本知名科技YouTuber“吉田制作所”在社交平台发文，称自己至今仍无法接受“电竞”（e-Sports）这个词，吐槽电竞就只是游戏比赛。",
-      "author": "Arthur",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "《GTA6》压线入围TGA！你认为是精心算计还是巧合？",
-      "url": "https://www.ali213.net/news/html/2026-10/1046983.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "The Game Awards官方确认，凡是在2026年11月20日晚9点（太平洋时间）前商业发售的游戏可参与TGA2026各奖项角逐。Rockstar Games新作《GTA6》定档11月19日，距截止仅差一天，正式拿到参评资格。",
-      "author": "袖子长官",
-      "supplemented": false,
-      "game_name": "GTA6"
-    },
-    {
-      "title": "深海异兽现身江湖 九阴真经秋季新版今日公测！",
-      "url": "https://www.ali213.net/news/html/2026-10/1046981.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "九州烽起风云聚，四海英豪共赴局。今天，《九阴真经》秋季新版“烽定九州”携全新世界首领玩法·深海异兽、水下夺宝玩法·沧浪逐宝、跨服攻防新玩法·镖道争锋等精彩内容正式公测！",
-      "author": "袖子长官",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "美国议员提案要求\"真所有权\"！数字游戏购买名不副实",
-      "url": "https://www.ali213.net/news/html/2026-10/1046979.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "美国众议员里奇·托雷斯拟向国会提出《玩家赋权法案》，要求美国联邦贸易委员会（FTC）制定法规，确保消费者购买数字游戏后获得真正的所有权，而不仅仅是一份随时可被撤销的使用许可。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "《Hela：鼠鼠奇旅》试玩 Demo 现已限时登陆 Steam 新品节，邀您开启奇幻冒险",
-      "url": "https://www.ali213.net/news/html/2026-10/1046977.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "由瑞典北部工作室Windup Games开发、全球发行商Knights Peak和 中国发行商BoltrayGames 发行的童话风格冒险新作《Hela: 鼠鼠奇旅》",
-      "author": "Arthur",
-      "supplemented": false,
-      "game_name": "Hela：鼠鼠奇旅"
-    },
-    {
-      "title": "英伟达居然搞全球歧视？抽联名显卡只限美国和加拿大",
-      "url": "https://www.ali213.net/news/html/2026-10/1046971.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "随着《战争机器：事变日》于10月6日正式发售，技嘉联合英伟达及知名PC改装达人Snaxan推出特别赠送活动，将送出三块《战争机器：事变日》主题定制的GeForce RTX 5080 GAMING OC显卡。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "手绘仙侠动作肉鸽《白玉京：无仙》Steam商店页上线，仙迹成魔窟？",
-      "url": "https://www.ali213.net/news/html/2026-10/1046969.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "国风手绘横版动作肉鸽游戏《白玉京：无仙》今日正式首曝，Steam商店页面同步上线，玩家可将游戏加入愿望单。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "白玉京：无仙"
-    },
-    {
-      "title": "《刺客信条：命运》实机曝光！秦朝女刺客大战项羽？",
-      "url": "https://www.ali213.net/news/html/2026-10/1046967.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "一段疑似《刺客信条：命运》的早期实机影像流出。该作据称由腾讯天美工作室开发，背景设定在公元前206年的秦朝，主角为女性刺客，并包含与项羽军团相关的任务和疑似项羽Boss战。影像展示了潜行、跑酷、信仰之跃、旋转伞武器、空中与地面处决。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "刺客信条：命运"
-    },
-    {
-      "title": "R星联合创始人透露当年PS独占游戏《特工》夭折原因",
-      "url": "https://www.ali213.net/news/html/2026-10/1046965.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "Rockstar联合创始人Dan Houser近日透露了PlayStation独占游戏《特工》最终夭折的原因。让我们一起来看看详细的内容吧！",
-      "author": "cloud",
-      "supplemented": false,
-      "game_name": "特工"
-    },
-    {
-      "title": "GOG将《上古卷轴4：湮灭》原版游戏纳入其保存计划",
-      "url": "https://www.ali213.net/news/html/2026-10/1046961.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "GOG平台已将2006年发行的《上古卷轴4：湮灭》原版年度版游戏纳入其保存计划，并于10月15日推送了更新。需要特别区分的是，此次维护对象为经典原版游戏，而非2025年推出的重制版。",
-      "author": "cloud",
-      "supplemented": false,
-      "game_name": "上古卷轴4：湮灭"
-    },
-    {
-      "title": "《战地6》和《荒岛求生》开启Steam周末免费试玩活动",
-      "url": "https://www.ali213.net/news/html/2026-10/1046959.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "本周末，Steam平台为PC玩家开启了《战地6》与《荒岛求生》的限时免费试玩活动，体验时间为10月15日至19日。让我们一起来看看吧！",
-      "author": "cloud",
-      "supplemented": false,
-      "game_name": "战地6"
-    },
-    {
-      "title": "世界破破烂烂，你来缝缝补补？《背锅天神》EA发售",
-      "url": "https://www.ali213.net/news/html/2026-10/1046957.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "项目烂尾，神明跑路，世界现在归你管？开放世界沙盒生存RPG《背锅天神》（Good Heavens!）现已在 Steam 平台正式开启抢先体验，售价58元。",
-      "author": "cloud",
-      "supplemented": false,
-      "game_name": "背锅天神"
-    },
-    {
-      "title": "《GTA6》新预告有大量亲密内容：浴室激吻 床上相拥",
-      "url": "https://www.ali213.net/news/html/2026-10/1046951.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "昨晚，R星发布了《GTA6》第三支预告片，Jason与Lucia的共同沐浴、床上对视等亲密画面占了不小篇幅，R星用发售预告把“犯罪情侣”的情感纽带直接推到台前。",
-      "author": "袖子长官",
-      "supplemented": false,
-      "game_name": "GTA6"
-    },
-    {
-      "title": "游侠早报：《使命召唤》重返任天堂 恶魔城破解流出",
-      "url": "https://www.ali213.net/news/html/2026-10/1046943.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《战争机器：事变日》成XGP第二大火作品，《使命召唤》确认登陆Switch 2并瞄准高龄用户，《恶魔城：贝尔蒙特的诅咒》正式发售且PC破解已出，《龙之信条2》TU 4.1补丁上线但Switch 2版继续等，《地铁2039》PS商店预购价格引发争议。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "使命召唤"
-    },
-    {
-      "title": "《PEAK》主机版10月22日发售！含Gloom等三项更新",
-      "url": "https://www.ali213.net/news/html/2026-10/1046941.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "开发商Aggro Crab宣布，合作攀登游戏《PEAK》将于10月22日登陆PS5、Xbox Series X|S和Switch 2。主机版首发即支持跨平台联机，并打包Gloom、Mesa、Roots三项已发布内容更新。",
-      "author": "袖子长官",
-      "supplemented": false,
-      "game_name": "PEAK"
-    },
-    {
-      "title": "《007 初露锋芒》Steam新史低：6折后仅需178元！",
-      "url": "https://www.ali213.net/news/html/2026-10/1046933.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《007 初露锋芒》在Steam开启新一轮折扣，标准版现价178.8元，较298元原价下调40%，刷新历史最低价。这是本作自今年5月发售后的第三次新史低。",
-      "author": "袖子长官",
-      "supplemented": false,
-      "game_name": "007 初露锋芒"
-    },
-    {
-      "title": "任天堂《大金刚》街机宣传原稿拍卖！最高估价15万美元",
-      "url": "https://www.ali213.net/news/html/2026-10/1046931.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "前任天堂广告经理拿出早年抢救留存的《大金刚》宣传原稿参与拍卖，这件见证Jumpman时代的游戏原画估价10‑15万美元。拍卖汇集多款任天堂复古藏品，目前最高出价8万美元未达预期，拍卖将持续至10月28日。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "大金刚"
-    },
-    {
-      "title": "2026年最不想赚钱的游戏制作人，被玩家逼着发财",
-      "url": "https://www.ali213.net/news/html/2026-10/1046927.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "",
-      "author": "Navi",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "《塞尔达:时之笛》重制版实机试玩:海拉鲁世界焕然一新",
-      "url": "https://www.ali213.net/news/html/2026-10/1046923.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《塞尔达传说：时之笛》重制版将于11月5日发售，外媒试玩反馈显示游戏升级画面场景，借鉴旷野之息的设计改良镜头与操作。并非简单复刻原版，在保留经典韵味的同时适配现代玩家，老玩家可以期待这份调整后的冒险体验。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "塞尔达：时之笛"
-    },
-    {
-      "title": "《龙之信条2》4.1更新仅限PS5/Xbox/Steam NS2延期",
-      "url": "https://www.ali213.net/news/html/2026-10/1046917.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《龙之信条2》Title Update 4.1已于2026年10月16日登陆PS5 Pro、PS5、Xbox Series X|S和Steam，主要修复战士、魔法弓手、神秘矛手等职业技能Bug，并优化追随者行为、任务推进和UI设置。Switch 2版更新仍在开发中，将稍后推出。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "龙之信条2"
-    },
-    {
-      "title": "《战术小队》将登陆主机！PS5试玩测试10月16日开启",
-      "url": "https://www.ali213.net/news/html/2026-10/1046909.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "Offworld Industries正式宣布，PC端战术射击游戏《战术小队》将登陆PS5与Xbox Series X|S平台。其中PS5试玩测试将于10月16日至25日开启，玩家可报名参与；目前试玩仅面向PS5开放，两款主机版本的具体发售日期均未确定。",
-      "author": "cloud",
-      "supplemented": false,
-      "game_name": "战术小队"
-    },
-    {
-      "title": "《使命召唤》重返任天堂！Switch 2计划瞄准高龄用户",
-      "url": "https://www.ali213.net/news/html/2026-10/1046907.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "Activision CMO Tyler Bahl透露，任天堂正通过《使命召唤：现代战争4》登陆Switch 2，积极拓展高龄用户群体。本作是自2013年《幽灵》以来时隔约13年系列重返任天堂平台，双方已启动联合营销，微软与任天堂的10年合作协议正式落地。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "使命召唤"
-    },
-    {
-      "title": "《雾锁王国》1.0正式版刚解锁 RUNE版33GB资源流出",
-      "url": "https://www.ali213.net/news/html/2026-10/1046905.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《雾锁王国》1.0正式版已于2026年10月15日登陆PC（Steam）和PS5平台，Xbox Series X|S版推迟至2027年春季。目前RUNE发布资源，大小约33.6GB。正式版解锁完整地图、新增终局区域“余烬摇篮”，等级上限提升至50级，并加入Sparkworks逻辑系统。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "雾锁王国"
-    },
-    {
-      "title": "动视确认:《COD》全新子系列开发已启动 并非独立作品",
-      "url": "https://www.ali213.net/news/html/2026-10/1046903.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "动视在采访中证实《使命召唤》全新子系列筹备已经启动，项目意在打造长线续作IP。当下官方主推《现代战争4》，虽网传2027年或将迎来该系列首作，但发售时间、题材玩法均未敲定，系列各类核心信息仍处于保密阶段。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "COD"
-    },
-    {
-      "title": "俄议员呼吁抵制《GTA6》：这款游戏会摧毁人的灵魂！",
-      "url": "https://www.ali213.net/news/html/2026-10/1046897.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "“俄罗斯东正教”社会运动主席、布良斯克州杜马议员米哈伊尔·伊万诺夫近日再次就电子游戏议题发声，强烈呼吁俄罗斯民众抵制即将发售的《GTA6》。",
-      "author": "cloud",
-      "supplemented": false,
-      "game_name": "GTA6"
-    },
-    {
-      "title": "《恶魔城：贝尔蒙特的诅咒》RUNE版发布 约6.4GB！",
-      "url": "https://www.ali213.net/news/html/2026-10/1046891.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《恶魔城：贝尔蒙特的诅咒》已于2026年10月15日正式发售，登陆PC、PS5、Xbox Series X|S和Switch。目前PC端已出现约6.4GB的RUNE发布资源。本作由KONAMI、Evil Empire与Motion Twin联合打造，是系列40周年纪念作品。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "恶魔城：贝尔蒙特的诅咒"
-    },
-    {
-      "title": "Remedy销售最快的游戏！《控制:共振》销量达100万份",
-      "url": "https://www.ali213.net/news/html/2026-10/1046885.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "最新数据显示，自9月24日上市以来，《控制：共振》销量已达到100万份，成为Remedy Entertainment旗下达成百万销量速度最快的作品，超越了此前的《心灵杀手2》。",
-      "author": "cloud",
-      "supplemented": false,
-      "game_name": "控制：共振"
-    },
-    {
-      "title": "《马拉松》后续更新计划公布：加入常驻PvE模式 等",
-      "url": "https://www.ali213.net/news/html/2026-10/1046883.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "针对《失落星船：马拉松》当前以高压撤离为核心、玩法循环单一的问题，Bungie近日公布了后续更新计划，旨在通过丰富内容来拓宽玩家选择面。",
-      "author": "cloud",
-      "supplemented": false,
-      "game_name": "马拉松"
-    },
-    {
-      "title": "《杀手5：赦免》10月22日登陆NS2 老玩家限时免费升级",
-      "url": "https://www.ali213.net/news/html/2026-10/1046881.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "Feral Interactive宣布，潜行动作游戏《杀手5：赦免》将于10月22日登陆任天堂Switch 2。",
-      "author": "Arthur",
-      "supplemented": false,
-      "game_name": "杀手5：赦免"
-    },
-    {
-      "title": "PS5漏洞举报者获5万美元赏金，疑似导致开发项目停摆",
-      "url": "https://www.ali213.net/news/html/2026-10/1046879.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "随着人类科技的发展，信息安全对所有人来说都越来越重要。即便是家里用来玩游戏的PS5游戏主机，也可能因为需要联网而被不法分子盯上，试图找出PS5安全漏洞来窃取玩家个人信息。",
-      "author": "Arthur",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "任天堂公布《火焰纹章万缕千丝》扩展票详情 现已发售",
-      "url": "https://www.ali213.net/news/html/2026-10/1046875.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "10月15日，任天堂宣布，Nintendo Switch 2 专用策略角色扮演游戏《火焰纹章 万缕千丝》（Fire Emblem: Fortune's Weave）的付费追加内容《火焰纹章 万缕千丝 扩展票》正式发售，并同步公开最新介绍视频。",
-      "author": "Arthur",
-      "supplemented": false,
-      "game_name": "火焰纹章万缕千丝"
-    },
-    {
-      "title": "曝《战争机器:事变日》已成为今年XGP第二火爆的游戏",
-      "url": "https://www.ali213.net/news/html/2026-10/1046873.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "根据外媒Game Trends的非官方估算，《战争机器：事变日》或已成为2026年Game Pass阵容中首发规模第二大的作品。其在线玩家数虽不及《极限竞速：地平线6》，但已超越《光环：战役进化》。",
-      "author": "cloud",
-      "supplemented": false,
-      "game_name": "战争机器：事变日"
-    },
-    {
-      "title": "《猎天使魔女》DLSS5实机效果：这谁?贝姐怎么变样了",
-      "url": "https://www.ali213.net/news/html/2026-10/1046871.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "一则非官方技术实验让2009年的《猎天使魔女》搭上尚未正式发布的DLSS 5：技术爱好者借助dgVoodoo2、Alex Deep Fried Chicken v3.0.0及修改版DLSS5 Feeder加载器等软件链完成整合，使游戏帧率大幅提升。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "猎天使魔女"
-    },
-    {
-      "title": "动视看好《GTA6》带动市场热度：或利好自家使命召唤",
-      "url": "https://www.ali213.net/news/html/2026-10/1046869.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "10月16日消息，动视认为《GTA 6》有望带动《使命召唤》系列表现，而非挤压其市场空间。",
-      "author": "Arthur",
-      "supplemented": false,
-      "game_name": "GTA6"
-    },
-    {
-      "title": "PS5也能跑AI服务器？主机越狱后跑通270亿参数模型",
-      "url": "https://www.ali213.net/news/html/2026-10/1046867.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "破解后的PS5，正在变成一台本地AI服务器。Reddit用户AdIllustrious7246将量化压缩的Qwen 3.8-27B大模型搬上PS5，靠的不是额外显卡，而是其16GB GDDR6统一内存与448GB/s高带宽。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "V社编剧批Epic启动器改版 光快不够社区功能只字未提",
-      "url": "https://www.ali213.net/news/html/2026-10/1046865.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "前Valve编剧切特·法利泽克（Chet Faliszek）近日对Epic游戏商城启动器的改版公告提出质疑。",
-      "author": "Arthur",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "Epic喜加二：《烂奶酪》《Agent A - 伪装游戏》免费领",
-      "url": "https://www.ali213.net/news/html/2026-10/1046861.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "Epic游戏商城本周喜加二已开启。即日起至10月22日23时，玩家可免费领取心理恐怖游戏《烂奶酪》与谍战解谜游戏《Agent A - 伪装游戏》，两款合计原价122元，领取后可永久保存至游戏库。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "烂奶酪"
-    },
-    {
-      "title": "《赛博朋克2》最新开发情报曝光！开发团队疯狂扩张",
-      "url": "https://www.ali213.net/news/html/2026-10/1046859.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "随着《赛博朋克2》开发持续推进，CDPR游戏总监Gabe Amatangelo与创意总监Igor Sarzynski通过官方播客《AnsweRED》第33期及社交平台披露多项关键进展。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "赛博朋克2"
-    },
-    {
-      "title": "巫师3重制版补丁来袭 主机画面清晰度、运行帧率大提升",
-      "url": "https://www.ali213.net/news/html/2026-10/1046853.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《巫师3重制版》推送5.01b热修复，XSS将升频技术更换为FSR，优化画质性能，Series X虽收到更新包但并无实际改动。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "高清素材来了！GTA6未压缩预告781.8MB 录制平台为PS5",
-      "url": "https://www.ali213.net/news/html/2026-10/1046851.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "R星放出《GTA6》新预告781.8MB未压缩原版，素材录制于标准PS5，供玩家下载分析，预告实际效果仅供宣传参考。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "细节变化！GTA6新旧预告对比 海滩、汽车、天际线大对比",
-      "url": "https://www.ali213.net/news/html/2026-10/1046847.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "玩家对比《GTA6》新旧预告，车内人物、城市天际线、海滩多处镜头细节发生改动，画面或取自不同版本，实际效果以正式版为准。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "《地铁2039》PS商店预购比Steam更贵！引爆玩家讨论",
-      "url": "https://www.ali213.net/news/html/2026-10/1046845.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "同是港区预购，《地铁2039》PS商店售价高于Steam，该价差引发玩家不满，不少玩家呼吁调价，也有人选择观望等待折扣。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "地铁2039"
-    },
-    {
-      "title": "一个月就上新DLC！外媒表示：火焰纹章玩家确实需要",
-      "url": "https://www.ali213.net/news/html/2026-10/1046843.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《火焰纹章：万缕千丝》发售一月公布分三弹DLC，补全本体删减剧情，外媒认为回应玩家诉求，不少内容开发阶段便已成型。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "事变日重磅补丁来袭！性能、战役、多人对战集体优化",
-      "url": "https://www.ali213.net/news/html/2026-10/1046841.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《战争机器：事变日》推送大型补丁，修复排位、战役、部落围城与对战大量BUG，优化多端性能，仍存在部分成就待修复的已知问题。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "大幅缩水！GTA6原计划横跨南北美洲 宏大开发方案被砍",
-      "url": "https://www.ali213.net/news/html/2026-10/1046839.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《GTA6》早期代号美洲计划，原本规划南北美大地图后遭删减，受人员变动等因素影响，成品地图依旧体量巨大。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "进度惊人！王国之泪被搬上PC 早期版本已跑出接近60帧",
-      "url": "https://www.ali213.net/news/html/2026-10/1046837.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "开发者将《王国之泪》做非官方PC原生重编译，开发仅两三天，帧率32‑59帧，预计数周发布，但该项目面临任天堂的版权下架风险。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "《GTA6》线下营销引发争议 当地官员质疑其宣传犯罪",
-      "url": "https://www.ali213.net/news/html/2026-10/1047201.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《GTA6》在迈阿密等地开展线下营销，当地官员意见分裂：有人担心宣扬犯罪，也有人认为只是虚构作品，项目因金额门槛得以先行落地。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "GTA6"
-    },
-    {
-      "title": "Steam成就系统改版上线 改动争议巨大 玩家纷纷吐槽",
-      "url": "https://www.ali213.net/news/html/2026-10/1047199.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "Steam测试版更新成就系统，新增成就集方便区分本体与DLC成就，但移除平均完成率、弱化全成就徽章，不少玩家对此表达不满。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "高空下落+平台跳跃新作开启试玩！11月5日正式发售",
-      "url": "https://www.ali213.net/news/html/2026-10/1047197.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "CygamesEdge新作《崩落之国》Steam试玩上线，11月5日发售，主打下落平台跳跃，主线约3小时，支持中文，登陆PS5、Switch2与Steam。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "《赛博朋克2077》细节遭挖掘！酒店女员工裙下无建模",
-      "url": "https://www.ali213.net/news/html/2026-10/1047195.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "玩家发现《赛博朋克2077》绀碧大厦部分女员工裙下缺少内搭衣物建模，有开发与剧情两种解读，开放世界常会简化镜头难触及的模型。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "赛博朋克2077"
-    },
-    {
-      "title": "曾移植战神3 开发者成功让《教团1886》原生在PC运行",
-      "url": "https://www.ali213.net/news/html/2026-10/1047193.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "曾移植战神3的开发者实现《教团：1886》PC原生运行，非模拟器，画面还原佳，但项目早期，仅平均30帧，卡顿问题待优化。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "教团1886"
-    },
-    {
-      "title": "光荣JRPG新作确认实装体型变化 美少女可变为大胃袋形态",
-      "url": "https://www.ali213.net/news/html/2026-10/1047191.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "光荣特库摩官宣《卡莉亚的炼金工房》将加入体型变化功能，该功能支持开关与体型锁定，兼顾喜欢和不想改动角色外观的不同玩家。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "热议！GTA6新预告警车追捕绿色超跑 被解读为警示葱哥",
-      "url": "https://www.ali213.net/news/html/2026-10/1047189.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "R星无预警放出GTA6新预告，46秒绿色跑车被警车追捕的画面，玩家猜测影射泄密者葱哥，但并无实据，官方也未回应。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "PS5破解新进展：原生支持AI模型运行 引发涨价猜想",
-      "url": "https://www.ali213.net/news/html/2026-10/1047187.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "开发者更新PS5LM分支，越狱PS5借助Vulkan驱动调用GPU本地跑大模型，内存与推理速度提升。本文仅作技术报道，不支持破解。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "实体盘不能直接玩 《地铁2039》遭玩家抵制、大量退款",
-      "url": "https://www.ali213.net/news/html/2026-10/1047185.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《地铁2039》实体版因光盘容量限制，首次启动需联网解锁，后续可离线游玩，玩家不满，质疑偷工减料并有人打算取消预购。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "地铁2039"
-    },
-    {
-      "title": "PS之父谈取消光盘：知晓玩家抵触 称问题根源在心态",
-      "url": "https://www.ali213.net/news/html/2026-10/1047181.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "PS之父久多良木健受访谈及索尼停产实体光盘，理解玩家不满，但认为是数字所有权心态问题，PS正转向联网内容分发平台。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "IGN评价《时之笛》：游玩感受联想到黑魂、阿卡姆与羞辱2",
-      "url": "https://www.ali213.net/news/html/2026-10/1047179.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "IGN试玩《塞尔达传说：时之笛》Switch2重制版，称赞其经典关卡设计影响诸多名作，新增跳跃键，推荐错过原作的玩家尝试，游戏11月5日发售。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "时之笛"
-    },
-    {
-      "title": "争议评价！万元华硕ROG掌机IGN8分 万元设备却说挺亲民",
-      "url": "https://www.ali213.net/news/html/2026-10/1047177.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "华硕ROG Xbox掌机X 20周年纪念版国行上市，单机9999元起，IGN给出8分，硬件强悍但存在Windows掌机常见软件问题。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "省成本省到HDR？专家点评GTA6预告片 画面技术惹争议",
-      "url": "https://www.ali213.net/news/html/2026-10/1047175.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "Gamma Studios调色专家Filippo Tarpini解析GTA6预告，怀疑R星采用低成本SDR转HDR方案，指出高光蓝色偏紫问题，同时也肯定部分画面效果，期待成品反转。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "2077真人电影不会照搬原作 原创故事解锁夜之城新故事线",
-      "url": "https://www.ali213.net/news/html/2026-10/1047173.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "CDPR确认《赛博朋克2077》真人电影不照搬游戏剧情，将在原有世界观下讲述原创故事，制作模式类似《边缘行者》，由CDPR与派拉蒙合作。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "玩家反对只是心态问题！“PS之父”谈索尼弃光盘计划",
-      "url": "https://www.ali213.net/news/html/2026-10/1047171.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "近日，素有 “PlayStation之父” 之称的久多良木健就索尼取消主机新游戏实体光盘的争议计划公开发声，对这项备受玩家诟病的举措表示支持。他坦言理解玩家的不满，但认为实体光盘在当下已经缺乏经济层面的合理性。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "左纳乌夜光底座!《王国之泪》塞尔达公主全新雕像亮相",
-      "url": "https://www.ali213.net/news/html/2026-10/1047169.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "雕像厂商First 4 Figures公布《塞尔达传说：王国之泪》塞尔达公主收藏雕像。这款雕像还原游戏经典形象，塞尔达一手高举火把，另一手手持普尔亚平板，整体高度12英寸，采用PVC材质打造。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "王国之泪"
-    },
-    {
-      "title": "赛博手办博物馆?Steam新游《Waifu Curator》11月上线",
-      "url": "https://www.ali213.net/news/html/2026-10/1047167.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "一款主打手办收藏陈列的模拟新作《Waifu Curator》即将登陆Steam，预计11月9日正式发售，让玩家足不出户搭建属于自己的二次元手办博物馆。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "Waifu Curator"
-    },
-    {
-      "title": "腾讯游戏安全ACE携手《鹅鸭杀》，守护玩家每一场真诚推理",
-      "url": "https://www.ali213.net/news/html/2026-10/1047165.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《鹅鸭杀》（Goose Goose Duck）由Gaggle Studios开发，是一款支持5至16人同场对局的社交推理游戏：玩家随机化身鹅、鸭或中立阵营中的一员，为各自的胜利目标展开一场场悬念迭起的博弈。凭借诙谐的画风与高密度的玩家互动，游戏自上线以来持续走红——2023年初，其Steam版最高同时在线人数突破70万，其中超过七成玩家来自中国。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "鹅鸭杀"
-    },
-    {
-      "title": "一秒镜头引爆全网！《时之笛》重制版暗黑林克惊艳亮相",
-      "url": "https://www.ali213.net/news/html/2026-10/1047163.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "任天堂近期放出《塞尔达传说：时之笛》重制版预告，其中暗黑林克的短暂亮相迅速引爆玩家社群，无数粉丝为这一经典BOSS的全新演绎激动不已。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "时之笛"
-    },
-    {
-      "title": "游侠晚报:战锤40K爆矢枪2遭破解 教团1886民间PC移植",
-      "url": "https://www.ali213.net/news/html/2026-10/1047161.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "各位游侠网友，晚上好呀！又到了每天的「游侠晚报」时间啦！今天「游侠晚报」的主要内容有：《战锤40K：爆矢枪2》发售次日学习版本流出，《教团：1886》民间PC移植实现原生运行，《符文世界：重燃》官宣取消等等，让我们一起来看看详细内容吧！",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "成都变成真江湖了？这次天龙嘉年华玩得够大 江湖已就位，成都等各位侠客赴约",
-      "url": "https://www.ali213.net/news/html/2026-10/1047159.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "还记得常州东方盐湖城的天龙嘉年华吗?夜空中铺展开的无人机表演与璀璨烟火交相辉映，至今仍是少侠心中的线下名场面。今年，这份江湖浪漫即将落地成都，以“蜀地开团，欢乐就位”为主题，在成都欢乐谷打造全方位的“天龙江湖”。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "《漫威争锋》欧洲PEGI分级升至16+！泳装皮并非元凶",
-      "url": "https://www.ali213.net/news/html/2026-10/1047157.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "《漫威争锋》自2024年上线后，美国分级为T级（青少年），英国与欧洲地区原本为PEGI 12+。近期，该游戏在欧洲和英国悄然完成分级调整，PEGI将其适龄标准提升至16+，各大游戏商店页面的分级标识已同步更新。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "漫威争锋"
-    },
-    {
-      "title": "高额众筹却迟迟不上线!《鸦之咒誓》遭遇玩家信任危机",
-      "url": "https://www.ali213.net/news/html/2026-10/1047155.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "类银河恶魔城作品《鸦之咒誓》于2021年登陆Kickstarter开启众筹，项目原定筹款目标12.5万加元，最终筹得125.8万余加元，资金规模达到预期十倍。开发商Mongoose Rodeo最初计划2023年发售游戏，巨额众筹资金让开发内容大幅扩容，时至2026年末，游戏本体依旧未能推出。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "鸦之咒誓"
-    },
-    {
-      "title": "IP巨头 × 卡牌龙头！国内首款多IP电子集换式卡牌游戏来了",
-      "url": "https://www.ali213.net/news/html/2026-10/1047153.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "阅文集团首席执行官兼CEO侯晓楠在大会游戏业务分享环节，首次对外披露全新 IP 衍生项目《群星漫卡》。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": ""
-    },
-    {
-      "title": "赛博朋克枪斗大作《SPINE》自定义系统+4套新皮肤！",
-      "url": "https://www.ali213.net/news/html/2026-10/1047147.html",
-      "published_at": "2026-10-16 00:00:00",
-      "summary": "赛博朋克枪斗动作游戏《SPINE》官方公布角色自定义系统情报，一口气曝光4套皮肤：红色连衣裙\"Dressed to Kill\"、皮革装\"Ultraviolent\"、恶魔面具\"Demon in the Shell\"，以及令人捧腹的全套鹦鹉装扮\"Hard Beaked\"。",
-      "author": "游侠新闻组",
-      "supplemented": false,
-      "game_name": "SPINE"
     }
   ]
 }

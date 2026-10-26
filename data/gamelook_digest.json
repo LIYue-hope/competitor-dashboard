@@ -1,16 +1,33 @@
 {
-  "generated_at": "2026-10-25T00:30:22.920706+00:00",
+  "generated_at": "2026-10-26T00:16:40.600769+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
+      "date": "2026-10-25",
+      "article_count": 2,
+      "game_count": 1,
+      "untagged_count": 1,
+      "digest": "2026年10月25日，当日资讯总量为2条，涉及游戏1款，仅有望月相关动态，内容聚焦该游戏招聘UE客户端主程的相关情况，整体信息较为有限。游戏｜望月，该游戏通过招聘软件发布UE客户端主程岗位，相关动态围绕该岗位的招聘及对项目的技术定位展开。游戏｜望月，相关报道聚焦该游戏发布的UE客户端主程招聘信息，涉及岗位需求及项目技术方向等相关内容。",
+      "digest_source": "llm",
+      "input_hash": "15185f61b86ae803",
+      "game_digests": [
+        {
+          "name": "望月",
+          "count": 1,
+          "summary": "一直用Unity的《望月》开始“自称UE5游戏”，百万年薪招UE主程。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
       "date": "2026-10-24",
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "10月24日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「西山居“剑侠收官之作”到底怎样？对话主创：“PC占主力，首周超预期”」。未指向具体游戏的内容占当天的 100%。",
-      "digest_source": "rules",
+      "digest": "2026年10月24日，GameLook平台当日共收录1条行业资讯，该条新闻未指向具体游戏名称，仅涉及行业整体动态，未提及具体厂商或产品信息。按报道条数排序的游戏（含代表性标题与摘要）：",
+      "digest_source": "llm",
       "input_hash": "b31ba44ce119e34e",
       "game_digests": []
     },
@@ -144,41 +161,6 @@
           "count": 1,
           "summary": "腾讯游戏安全ACE携手《鹅鸭杀》，守护玩家每一场真诚推理。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "article_count": 7,
-      "game_count": 4,
-      "untagged_count": 3,
-      "digest": "10月15日游戏圈热闹非凡，西山居《剑侠世界4：无限》上线，鹰角《明日方舟：终末地》新版本《丹青渡》开启Steam国际服，完美《异环》联动下半版本同步上线，完美《绿梦》公测登顶畅销榜第4，拳头《英雄联盟》停运经典模式，独立游戏《车水马龙》以90年代天津为背景上线引发关注。",
-      "digest_source": "llm",
-      "input_hash": "c0f642cefaa21529",
-      "game_digests": [
-        {
-          "name": "剑侠世界4：无限",
-          "count": 1,
-          "summary": "西山居二游《剑侠世界4：无限》于10月15日上线，与二次元阵营产品同日竞争。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "终末地",
-          "count": 1,
-          "summary": "鹰角《明日方舟：终末地》新版本《丹青渡》于10月15日开启Steam国际服。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "英雄联盟",
-          "count": 1,
-          "summary": "拳头《英雄联盟》上线3个月后停运经典模式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "车水马龙",
-          "count": 1,
-          "summary": "独立游戏《车水马龙》于10月15日上线，以90年代天津为背景。",
-          "summary_source": "llm"
         }
       ]
     }

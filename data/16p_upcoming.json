@@ -1,9 +1,33 @@
 {
-  "crawled_at": "2026-10-25T00:17:04.967504+00:00",
+  "crawled_at": "2026-10-26T00:03:34.238607+00:00",
   "days": [
     {
+      "date": "2026-10-26",
+      "date_label": "10月26日 今天",
+      "games": [
+        {
+          "game_name": "开派大祖师",
+          "categories": [
+            "国风",
+            "模拟经营",
+            "修仙",
+            "养成",
+            "放置",
+            "模拟"
+          ],
+          "score": "7.6",
+          "release_date": "2026-10-26",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1955381.html",
+          "publisher": "珠海云娱科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
       "date": "2026-10-27",
-      "date_label": "10月27日 后天",
+      "date_label": "10月27日 明天",
       "games": [
         {
           "game_name": "炫龙记",
@@ -18,7 +42,7 @@
           "release_date": "2026-10-27",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1958882.html",
-          "publisher": null,
+          "publisher": "卡皮芭啦工作室",
           "is_major_publisher": false,
           "has_afk_grinding_tag": true
         },
@@ -52,7 +76,7 @@
     },
     {
       "date": "2026-10-28",
-      "date_label": "10月28日 下周三",
+      "date_label": "10月28日 后天",
       "games": [
         {
           "game_name": "指尖大冒险",
@@ -107,7 +131,7 @@
     },
     {
       "date": "2026-10-29",
-      "date_label": "10月29日 下周四",
+      "date_label": "10月29日 周四",
       "games": [
         {
           "game_name": "对对碰直播间",
@@ -162,7 +186,7 @@
     },
     {
       "date": "2026-10-30",
-      "date_label": "10月30日 下周五",
+      "date_label": "10月30日 周五",
       "games": [
         {
           "game_name": "一起开超市",

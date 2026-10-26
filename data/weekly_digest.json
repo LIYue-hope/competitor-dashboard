@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-19T00:24:13.695764+00:00",
-  "week_start": "2026-10-12",
-  "week_end": "2026-10-18",
-  "article_count": 2182,
-  "game_count": 273,
-  "digest": "本周（2026年10月12日至10月18日）游戏行业整体资讯共2182条，涉及游戏273款，仅577条未指向具体游戏。按综合热度排序的各款游戏关键动态与整体情况如下：GTA6围绕回归、彩蛋、评级等表现，官方预告确认特警组织回归，服装彩蛋引发情感猜测，被评18禁并涉及非法道具，日本评级为CERO Z且是否删改待公布，并有望时隔十八年修复R星遗留画面BUG；影之刃零在PS5版推出超134GB预载，并涉及续作构想与国内外表现对比及宣传片动态；篮球少女维持低热度状态；失落城堡2预约58万且榜单14位；明日方舟：终末地Steam版正式上线并支持跨平台共享账号数据，获Steam特别好评但存在锁国区限制；恶魔城：贝尔蒙特的诅咒以首日好评率59%、主创提议设热爸奖、发售前评测均分86分等表现形成良好口碑，但试玩存在操作难题；战地6推进赛季更新，涉及饰品加入、皮肤与经验收益争议、热修复及周末降价试玩等动态；不朽遗志正式发售，针对进度阻断等修复首版更新，登陆多平台且Steam特别好评、媒体均分77分；地铁2039开启预购并引发多平台存储差异讨论，PC配置与参数错误等引发关注；无限大预约达382万且榜单9位，整体热度处于高位。",
+  "generated_at": "2026-10-26T00:17:36.448895+00:00",
+  "week_start": "2026-10-19",
+  "week_end": "2026-10-25",
+  "article_count": 2119,
+  "game_count": 275,
+  "digest": "上周游戏行业资讯热度持续高涨，其中《GTA6》以118条资讯领跑，尽管尚未发售，但约150万美国人计划请假游玩的热度空前，Rockstar详谈了剧情与开放世界的平衡，并解除评测禁令，同时PlayStation向用户推送了预购奖励通知。国产新作方面，《蓝色星原：旅谣》官宣定档11月26日公测，预约量达257万；《影之刃零》热度紧随其后，Steam预购约50万份收入2400万美元，索尼在中国推广并发布巨幅涂鸦，最终预告公布左殇剧情与经典招式，将于10月29日发售；此外《异环》因明音凛腿部设计调整引发玩家热议。老牌游戏表现同样亮眼，《赛博朋克2077》Steam在线创三年新高峰值超16万，2.5更新上线新增联动任务与双持玩法；《最终幻想：共鸣》10月22日发售，Steam峰值在线2万人，IGN获8分；《使命召唤：现代战争4》Steam首发同时在线突破22.7万，DMZ自复活技能引抗议，首款DLC上线；而《质量效应》系列相关资讯颇多，包括原计划设定、真人剧开发、BioWare关闭讨论及前生软制作人预测IP出售，被取消的《质量效应5》也因泄露预告引发关注。",
   "digest_source": "llm",
   "heat_formula": "热度 = 资讯量 30% + 跨源覆盖 15% + 预约量 18% + 社区（周内新增关注/评价/讨论）15% + TapTap 榜单名次 12% + 官方动态 7% + 评测讨论 3%；各项先对数归一（资讯满格 200 条），缺测的维度计 0、不倒扣，满分 100。",
-  "input_hash": "5c7cb824a678db27",
+  "input_hash": "6fd2910d36602456",
   "hot_ranking": [
     {
       "rank": 1,
       "name": "GTA6",
-      "heat_score": 44.8,
-      "media_count": 193,
+      "heat_score": 42.0,
+      "media_count": 118,
       "source_count": 4,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -22,25 +22,62 @@
       "official_count": 0,
       "news": [
         {
-          "title": "11月新游盘点：竟有游戏敢和《GTA6》同天发售",
-          "url": "https://www.gamersky.com/news/202610/2230348.shtml",
+          "title": "曝《GTA6》预购销量远超《COD》 有望游戏史上最强首发",
+          "url": "https://www.gamersky.com/news/202610/2234448.shtml",
           "source": "游民星空",
-          "published_at": "2026-10-18"
+          "published_at": "2026-10-25"
         },
         {
-          "title": "R星再谈《GTA6》泄露：半成品曝光太丢人！",
-          "url": "https://www.gamersky.com/news/202610/2228579.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-18"
+          "title": "消息称《GTA6》评测禁令将在发售前一天解除",
+          "url": "https://www.3dmgame.com/news/202610/3957693.html",
+          "source": "3DMGame",
+          "published_at": "2026-10-24"
         }
       ]
     },
     {
       "rank": 2,
+      "name": "无限大",
+      "heat_score": 41.9,
+      "media_count": 0,
+      "source_count": 0,
+      "reservation_label": "384万",
+      "follow_delta_label": "2万",
+      "best_rank": 5,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": []
+    },
+    {
+      "rank": 3,
+      "name": "蓝色星原：旅谣",
+      "heat_score": 37.2,
+      "media_count": 1,
+      "source_count": 1,
+      "reservation_label": "257万",
+      "follow_delta_label": null,
+      "best_rank": 3,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《蓝色星原：旅谣》官宣定档 11月26日正式开启公测",
+          "url": "https://www.gamersky.com/news/202610/2233664.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "rank": 4,
       "name": "影之刃零",
-      "heat_score": 39.7,
-      "media_count": 78,
-      "source_count": 4,
+      "heat_score": 36.9,
+      "media_count": 92,
+      "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": null,
@@ -48,82 +85,50 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《影之刃零》Steam预估预售销量47万份 收入近1.9亿",
-          "url": "https://www.gamersky.com/news/202610/2230272.shtml",
+          "title": "《影之刃零》即将发售!你预测M站开分多少?",
+          "url": "https://www.gamersky.com/news/202610/2234641.shtml",
           "source": "游民星空",
-          "published_at": "2026-10-18"
+          "published_at": "2026-10-25"
         },
         {
-          "title": "游侠晚报：《影之刃零》预估销量 R星谈《GTA6》泄露",
-          "url": "https://www.ali213.net/news/html/2026-10/1047421.html",
-          "source": "游侠网",
-          "published_at": "2026-10-18"
+          "title": "《影之刃零》发售倒计时4天！最新宣传海报公开",
+          "url": "https://www.gamersky.com/news/202610/2234535.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-25"
         }
       ]
     },
     {
-      "rank": 3,
-      "name": "篮球少女：飞跃巅峰",
-      "heat_score": 39.5,
-      "media_count": 0,
-      "source_count": 0,
-      "reservation_label": "20万",
-      "follow_delta_label": "4万",
-      "best_rank": 7,
-      "rank_lists": [
-        "reserve"
-      ],
-      "official_count": 0,
-      "news": []
-    },
-    {
-      "rank": 4,
-      "name": "失落城堡2",
-      "heat_score": 38.2,
-      "media_count": 0,
-      "source_count": 0,
-      "reservation_label": "58万",
-      "follow_delta_label": "2万",
-      "best_rank": 14,
-      "rank_lists": [
-        "reserve"
-      ],
-      "official_count": 0,
-      "news": []
-    },
-    {
       "rank": 5,
-      "name": "明日方舟：终末地",
-      "heat_score": 33.0,
-      "media_count": 3,
+      "name": "赛博朋克2077",
+      "heat_score": 31.2,
+      "media_count": 33,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
-      "best_rank": 13,
-      "rank_lists": [
-        "hot"
-      ],
-      "official_count": 7,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
       "news": [
         {
-          "title": "《明日方舟：终末地》Steam版正式上线 支持跨平台共享账号数据",
-          "url": "https://www.3dmgame.com/news/202610/3956597.html",
-          "source": "3DMGame",
-          "published_at": "2026-10-15"
+          "title": "《赛博朋克2077》更新了却遗憾!CDPR官方怀念好兄弟杰克",
+          "url": "https://www.gamersky.com/news/202610/2234189.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-24"
         },
         {
-          "title": "《明日方舟：终末地》今日上线Steam 支持跨平台存档",
-          "url": "https://www.ali213.net/news/html/2026-10/1046777.html",
-          "source": "游侠网",
-          "published_at": "2026-10-15"
+          "title": "《赛博朋克2077》11月10日登陆战网 同步上线“边缘行者2”免费更新",
+          "url": "https://www.gamersky.com/news/202610/2233675.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-23"
         }
       ]
     },
     {
       "rank": 6,
-      "name": "恶魔城：贝尔蒙特的诅咒",
-      "heat_score": 29.8,
-      "media_count": 23,
+      "name": "最终幻想：共鸣",
+      "heat_score": 30.2,
+      "media_count": 25,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -132,74 +137,22 @@
       "official_count": 0,
       "news": [
         {
-          "title": "GS 10分《恶魔城：贝尔蒙特的诅咒》PS商城4.18分！今日正式发售",
-          "url": "https://www.gamersky.com/news/202610/2228016.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-15"
+          "title": "继任者出手！《最终幻想：共鸣》发售仅数日遭绕过",
+          "url": "https://www.ali213.net/news/html/2026-10/1049105.html",
+          "source": "游侠网",
+          "published_at": "2026-10-25"
         },
         {
-          "title": "《恶魔城：贝尔蒙特的诅咒》发售前PS5版收录44篇评测，均分86分",
-          "url": "https://www.3dmgame.com/news/202610/3956336.html",
+          "title": "《最终幻想：共鸣》登陆Steam，峰值在线达2万人",
+          "url": "https://www.3dmgame.com/news/202610/3957545.html",
           "source": "3DMGame",
-          "published_at": "2026-10-13"
+          "published_at": "2026-10-23"
         }
       ]
     },
     {
       "rank": 7,
-      "name": "战地6",
-      "heat_score": 28.7,
-      "media_count": 21,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "DICE回应《战地6》皮肤争议：袖章错字将修复",
-          "url": "https://www.3dmgame.com/news/202610/3956830.html",
-          "source": "3DMGame",
-          "published_at": "2026-10-17"
-        },
-        {
-          "title": "《战地6》第5赛季热修复更新 解决声音突然中断",
-          "url": "https://www.3dmgame.com/news/202610/3956661.html",
-          "source": "3DMGame",
-          "published_at": "2026-10-15"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "name": "不朽遗志",
-      "heat_score": 28.4,
-      "media_count": 18,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《不朽遗志》推送首个正式更新 修复大量流程与崩溃BUG",
-          "url": "https://www.ali213.net/news/html/2026-10/1047423.html",
-          "source": "游侠网",
-          "published_at": "2026-10-18"
-        },
-        {
-          "title": "类魂新作《不朽遗志》体验糟糕官方紧急更新！致歉玩家 承诺还会修",
-          "url": "https://www.gamersky.com/news/202610/2230109.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-17"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "name": "地铁2039",
+      "name": "质量效应",
       "heat_score": 28.2,
       "media_count": 19,
       "source_count": 3,
@@ -210,27 +163,86 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《地铁2039》 Epic页面配置标错?开发者临近发售再公布",
-          "url": "https://www.ali213.net/news/html/2026-10/1046367.html",
+          "title": "类《质量效应》游戏《大迁离》更新男主角模型 可自定义发型胡须与纹身",
+          "url": "https://www.3dmgame.com/news/202610/3957623.html",
+          "source": "3DMGame",
+          "published_at": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "异环",
+      "heat_score": 27.5,
+      "media_count": 3,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": 16,
+      "rank_lists": [
+        "hot"
+      ],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《异环》明音凛“全金属摇滚”上线前修改腿部细节！",
+          "url": "https://www.ali213.net/news/html/2026-10/1048541.html",
           "source": "游侠网",
-          "published_at": "2026-10-14"
+          "published_at": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "使命召唤：现代战争4",
+      "heat_score": 27.5,
+      "media_count": 30,
+      "source_count": 2,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《使命召唤：现代战争4》首款DLC上线，全部收入用于退伍军人援助",
+          "url": "https://www.3dmgame.com/news/202610/3957644.html",
+          "source": "3DMGame",
+          "published_at": "2026-10-24"
+        },
+        {
+          "title": "《使命召唤：现代战争4》正式上市！战役、多人及DMZ同步推出",
+          "url": "https://www.3dmgame.com/news/202610/3957595.html",
+          "source": "3DMGame",
+          "published_at": "2026-10-23"
         }
       ]
     },
     {
       "rank": 10,
-      "name": "无限大",
-      "heat_score": 28.1,
-      "media_count": 0,
-      "source_count": 0,
-      "reservation_label": "382万",
+      "name": "质量效应5",
+      "heat_score": 26.9,
+      "media_count": 15,
+      "source_count": 3,
+      "reservation_label": null,
       "follow_delta_label": null,
-      "best_rank": 9,
-      "rank_lists": [
-        "reserve"
-      ],
+      "best_rank": null,
+      "rank_lists": [],
       "official_count": 0,
-      "news": []
+      "news": [
+        {
+          "title": "《质量效应5》负责人谢玩家支持 调侃GTA6发售不用请假",
+          "url": "https://www.3dmgame.com/news/202610/3957664.html",
+          "source": "3DMGame",
+          "published_at": "2026-10-24"
+        },
+        {
+          "title": "薛帕德配音演员称《质量效应5》泄露片段出色 仍盼系列延续",
+          "url": "https://www.3dmgame.com/news/202610/3957634.html",
+          "source": "3DMGame",
+          "published_at": "2026-10-24"
+        }
+      ]
     }
   ]
 }

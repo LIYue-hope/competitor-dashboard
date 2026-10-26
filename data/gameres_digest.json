@@ -1,9 +1,32 @@
 {
-  "generated_at": "2026-10-25T00:30:22.922176+00:00",
+  "generated_at": "2026-10-26T00:16:59.429445+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-25",
+      "article_count": 4,
+      "game_count": 2,
+      "untagged_count": 2,
+      "digest": "今日游戏行业资讯主要聚焦于两款新游发售与老游内容更新。Hooded Horse与Balancing Monkey Games宣布宇宙城市建造游戏《繁星之海》正式登陆多PC平台及PC Game Pass，该作发售前愿望单达25万，首两周八折并支持多语言。Focus Entertainment与Saber Interactive则宣布《雪地奔驰》第五年通行证第19季\"勘探与修复\"DLC全平台上线，本季舞台设于瑞士，包含3张新地图、2款新卡车及修缮太空观测站等任务。",
+      "digest_source": "llm",
+      "input_hash": "0f0db02bab6532f4",
+      "game_digests": [
+        {
+          "name": "繁星之海",
+          "count": 1,
+          "summary": "宇宙城市建造游戏《繁星之海》现已正式登陆多PC平台及PC Game Pass，支持含简繁中文的多语言，首两周八折，发售前愿望单达25万。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "雪地奔驰",
+          "count": 1,
+          "summary": "《雪地奔驰》第五年通行证全新DLC 第19季\"勘探与修复\"现已全平台推出，本季舞台设于瑞士，含3张新地图、2款新卡车，玩家可参与修缮太空观测站等任务。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-10-23",
       "article_count": 7,
@@ -222,41 +245,6 @@
           "name": "Rain98",
           "count": 1,
           "summary": "Lo-Fi×心理悬疑冒险游戏《Rain98》Steam体验版正式上线，游玩时长约3小时，同步公开新预告片，能登麻美子确定配音新角色夜濑京子。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "article_count": 13,
-      "game_count": 4,
-      "untagged_count": 9,
-      "digest": "今日游戏行业资讯聚焦于休闲手游的商业化成功、头部大作的幕后开发细节以及新游的上线发售。越南小团队SayGames的《BagMaster Isekai》上线两月内购月入25万美元，Voodoo的《Castle Busters》在9月休闲买量市场中表现活跃，Rockstar的《GTA 6》曝光了4711人团队与超10亿美金成本等开发细节，而《夜血W：割喉之狼》则在Steam开启8折首发。",
-      "digest_source": "llm",
-      "input_hash": "046781e50fb36207",
-      "game_digests": [
-        {
-          "name": "BagMaster Isekai",
-          "count": 1,
-          "summary": "休闲游戏《BagMaster Isekai》上线两月内购月入25万美元，小团队SayGames展示了越南团队的全球产品开发案例。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Castle Busters",
-          "count": 1,
-          "summary": "9月全球手游海外买量分析显示，休闲类在投App数量居首，益智解谜类广告投放领先，Voodoo《Castle Busters》素材创意备受关注。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA 6",
-          "count": 1,
-          "summary": "Rockstar《GTA 6》曝光了4711人团队规模与超10亿美金开发成本，透露了两次延期发售、泄密打击及加班工作模式等幕后细节。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "夜血W：割喉之狼",
-          "count": 1,
-          "summary": "2D横版赛博朋克像素动作游戏《夜血W：割喉之狼》10月16日上线Steam，首发享8折优惠，包含高速钩索、无限制空连等特色。",
           "summary_source": "llm"
         }
       ]
