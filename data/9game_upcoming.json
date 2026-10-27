@@ -1,9 +1,9 @@
 {
-  "crawled_at": "2026-10-26T00:03:21.363141+00:00",
+  "crawled_at": "2026-10-27T01:24:45.332895+00:00",
   "days": [
     {
       "date": "2026-10-28",
-      "date_label": "10月28日 后天",
+      "date_label": "10月28日 明天",
       "games": [
         {
           "game_name": "魔导英雄传说",
@@ -17,17 +17,6 @@
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "指尖大冒险",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zhijiandamaoxian/",
-          "has_afk_grinding_tag": false
-        },
-        {
           "game_name": "黑暗荒野",
           "categories": [
             "角色扮演"
@@ -36,6 +25,17 @@
           "event_desc": "神器传奇",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/heianhuangye1/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "指尖大冒险",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/zhijiandamaoxian/",
           "has_afk_grinding_tag": false
         },
         {
@@ -64,8 +64,19 @@
     },
     {
       "date": "2026-10-29",
-      "date_label": "10月29日 周四",
+      "date_label": "10月29日 后天",
       "games": [
+        {
+          "game_name": "奇遇西行",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/qiyuxixing/",
+          "has_afk_grinding_tag": true
+        },
         {
           "game_name": "美食大冒险",
           "categories": [
@@ -160,6 +171,17 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/hunzhanqunying/",
           "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "沙城战影",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": "7.0",
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/shachengzhanying/",
+          "has_afk_grinding_tag": false
         }
       ]
     },
@@ -188,6 +210,23 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/longhundalu1/",
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "date_label": "11月10日",
+      "games": [
+        {
+          "game_name": "露娜蓝色大陆",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/lnlsdl/",
+          "has_afk_grinding_tag": false
         }
       ]
     },

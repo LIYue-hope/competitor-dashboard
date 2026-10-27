@@ -1,9 +1,54 @@
 {
-  "generated_at": "2026-10-26T00:16:40.600769+00:00",
+  "generated_at": "2026-10-27T01:39:45.442892+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-27",
+      "article_count": 2,
+      "game_count": 0,
+      "untagged_count": 2,
+      "digest": "今日游戏行业资讯主要聚焦于宏观政策与市场动态，未涉及具体游戏产品的动态更新。GameLook 共收录两条新闻，分别涉及中国游戏版号审批的最新进展以及全球游戏市场的最新营收数据，整体行业氛围平稳。",
+      "digest_source": "llm",
+      "input_hash": "ade6677ddd051f19",
+      "game_digests": []
+    },
+    {
+      "date": "2026-10-26",
+      "article_count": 6,
+      "game_count": 4,
+      "untagged_count": 2,
+      "digest": "10月26日游戏行业资讯聚焦于多款新游表现与厂商动态。国产整活派对游戏《我带过最差的一届》在Steam新品节全球排名第三；诗悦旗舰二游《望月》因招聘UE5主程引发关注；灵犀互娱新作《篮球少女》在脱离阿里体系后首秀，免费榜夺冠并官宣与NBA合作；《蓝色星原：旅谣》则定于11月26日开启国服公测。",
+      "digest_source": "llm",
+      "input_hash": "bbad402d9615cb1c",
+      "game_digests": [
+        {
+          "name": "我带过最差的一届",
+          "count": 1,
+          "summary": "Steam新品节全球排名第三，国产整活派对游戏《我带过最差的一届》爆红，30万玩家乐开花。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "望月",
+          "count": 1,
+          "summary": "诗悦旗舰二游《望月》在招聘软件上发布UE客户端主程岗位，引发玩家对其技术栈变化的关注。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "篮球少女",
+          "count": 1,
+          "summary": "灵犀互娱新作《篮球少女》在脱离阿里体系后首秀，免费榜夺冠，并官宣与NBA合作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "蓝色星原",
+          "count": 1,
+          "summary": "二游玩家年末日程表添新笔，《蓝色星原：旅谣》定于11月26日开启国服公测。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-10-25",
       "article_count": 2,
@@ -26,7 +71,7 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "2026年10月24日，GameLook平台当日共收录1条行业资讯，该条新闻未指向具体游戏名称，仅涉及行业整体动态，未提及具体厂商或产品信息。按报道条数排序的游戏（含代表性标题与摘要）：",
+      "digest": "2026年10月24日，GameLook 共收录1条行业资讯，内容聚焦于游戏行业宏观层面的最新动态，未涉及具体游戏产品的发售、更新或运营信息。按报道条数排序的游戏（含代表性标题与摘要）：",
       "digest_source": "llm",
       "input_hash": "b31ba44ce119e34e",
       "game_digests": []

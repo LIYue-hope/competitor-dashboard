@@ -1,9 +1,42 @@
 {
-  "generated_at": "2026-10-26T00:16:59.429445+00:00",
+  "generated_at": "2026-10-27T01:41:30.578865+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-27",
+      "article_count": 2,
+      "game_count": 0,
+      "untagged_count": 2,
+      "digest": "10月27日 游资网 共 2 条新闻，涉及 0 款游戏。另有 2 条未指向具体游戏的行业或平台资讯。当天的内容包括「20年国民游戏平台，怎么就让两代人坐上了一张牌桌？」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
+      "input_hash": "a835f9dd74d34cab",
+      "game_digests": []
+    },
+    {
+      "date": "2026-10-26",
+      "article_count": 10,
+      "game_count": 2,
+      "untagged_count": 8,
+      "digest": "2026年10月26日，游资网发布当日共10条新闻，涉及游戏2款，其中8条未指向具体游戏。其中关于《文明》的访谈内容聚焦其被多方塑造的多年历程，涉及开发与玩家视角；关于《斗阵序列》的动态报道聚焦三国题材塔防肉鸽类产品，突出其独特策略玩法与养成体系，整体相关报道内容聚焦于游戏产品的相关呈现。",
+      "digest_source": "llm",
+      "input_hash": "e8395a56aab90493",
+      "game_digests": [
+        {
+          "name": "文明",
+          "count": 1,
+          "summary": "被开发者塑造，也被玩家塑造：《文明》的35年。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "斗阵序列",
+          "count": 1,
+          "summary": "三国+塔防肉鸽！《斗阵序列》的转杆+地块策略有点东西！。",
+          "summary_source": "rules"
+        }
+      ]
+    },
     {
       "date": "2026-10-25",
       "article_count": 4,
@@ -228,23 +261,6 @@
           "name": "狂热运输3",
           "count": 1,
           "summary": "《狂热运输3》获简评肯定，被评价为深耕交通运输模拟品类的瑞士独立工作室Urban Games推出的自成一派的交通运输模拟佳作。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "article_count": 1,
-      "game_count": 1,
-      "untagged_count": 0,
-      "digest": "今日游戏行业资讯聚焦于独立游戏领域，Lo-Fi风格与心理悬疑题材的《Rain98》Steam体验版正式上线，同步公开新预告片并公布声优阵容。游戏游玩时长约3小时，为玩家提供了约3小时的试玩体验。",
-      "digest_source": "llm",
-      "input_hash": "76e218a84af5c160",
-      "game_digests": [
-        {
-          "name": "Rain98",
-          "count": 1,
-          "summary": "Lo-Fi×心理悬疑冒险游戏《Rain98》Steam体验版正式上线，游玩时长约3小时，同步公开新预告片，能登麻美子确定配音新角色夜濑京子。",
           "summary_source": "llm"
         }
       ]

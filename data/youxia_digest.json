@@ -1,52 +1,153 @@
 {
-  "generated_at": "2026-10-26T00:12:57.408906+00:00",
+  "generated_at": "2026-10-27T01:35:01.534009+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-25",
-      "article_count": 38,
-      "game_count": 20,
-      "untagged_count": 15,
-      "digest": "10月25日游戏资讯聚焦于《影之刃零》发售前的技术优化与媒体评测，以及《GTA6》发售前的硬件升级与线下营销。此外，还涉及《赛博朋克2077》浏览器版、多款新作预告与移植项目曝光，以及《古墓丽影》通关时长与《塞尔达》实体价格对比等动态。",
+      "date": "2026-10-26",
+      "article_count": 93,
+      "game_count": 49,
+      "untagged_count": 23,
+      "digest": "今日游戏资讯聚焦于《影之刃零》的发售预热与口碑爆发，该作获IGN中国满分及外媒年度最佳动作游戏评价，吉田修平亦转发盛赞；同时《GTA6》线下营销引发周边竞价热潮，PS5销量逆势增长22%；《使命召唤：现代战争4》Steam首发在线破22万，口碑回暖；《蔚蓝档案》日服将移交Nexon运营；《最终幻想：共鸣》Steam峰值超《FF7重生》；《剑星》官宣与《守望先锋》联动并确认Switch 2版11月发售。",
       "digest_source": "llm",
-      "input_hash": "08306be591ad559f",
+      "input_hash": "069d6db56c393522",
       "game_digests": [
         {
           "name": "影之刃零",
-          "count": 3,
-          "summary": "海外知名游戏博主GermanStrands看好《影之刃零》，认为《黑神话：悟空》只是中国单机的起点，并分享了相关观点。",
+          "count": 17,
+          "summary": "国产黑暗武侠3A大作《影之刃零》将于10月29日全球同步登陆PC与PS5平台，M站PC版均分88、IGN中国给出满分，吉田修平转发盛赞其超越《黑神话：悟空》获年度最佳动作游戏。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
+          "count": 4,
+          "summary": "《GTA6》在迈阿密开启大规模线下实景营销，联动热火队开设主题快闪餐厅并推出应援周边，相关物料在二手平台竞价超1000元，PS5发售6年后销量大涨22%。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "现代战争4",
           "count": 2,
-          "summary": "《GTA6》在迈阿密的线下营销继续加码，当地高速公路电子提示牌以幽默方式提醒司机不要酒后驾车，并带出发售倒计时信息。",
+          "summary": "《使命召唤：现代战争4》Steam首发在线22万+，约为《黑色行动7》两倍，口碑回暖，但不及《黑色行动6》；玩家请愿为DMZ模式增设纯PvE选项，并发现卡谢特打印机可刷随机枪械。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "蔚蓝档案",
+          "count": 2,
+          "summary": "《蔚蓝档案》日服将于2027年1月起移交给日本Nexon运营，官方强调玩家数据与道具资产将顺利继承，本次变动仅涉及日服，国服运营保持不变。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "4:AM",
+          "count": 1,
+          "summary": "近未来反乌托邦潜行冒险游戏《4:AM》发布发售日预告，玩家扮演艾拉在“黄灾”后世界解谜奔逃，Steam页面显示即将推出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "CS2",
+          "count": 1,
+          "summary": "玩家自制玩梗地图《拯救泄密者葱哥》在CS2创意工坊意外走红，该地图由lmtlss和leander打造，还原了《GTA6》泄密风波。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Doom2",
+          "count": 1,
+          "summary": "海外油管博主耗时数月复刻1996年的童年电脑，并在其中发现陌生人作业与《Doom2》秘籍，引发玩家对复古游戏体验的感慨。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF10",
+          "count": 1,
+          "summary": "为纪念《最终幻想10》发售25周年，史克威尔艾尼克斯携手钟表品牌Tendence推出以提达斯、尤娜为灵感的联名腕表，全球各限量200枚。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF共鸣",
+          "count": 1,
+          "summary": "《最终幻想：共鸣》作为系列首款HD-2D作品，Steam同时在线玩家峰值突破4.2万人，超过《最终幻想7：重生》成为Steam上同时在线人数最高的《最终幻想》单人游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Gunner, HEAT, PC!",
+          "count": 1,
+          "summary": "现代坦克战争模拟游戏《Gunner, HEAT, PC!》官方subreddit更新规则，全面禁止任何由生成式AI参与制作的内容，包括文本摘要、图片编辑及模组。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "ME5",
+          "count": 1,
+          "summary": "《质量效应5》项目取消引发热议，泄露预告里无名男奎利人因短短镜头圈粉无数，粉丝惋惜并猜测他本是可攻略队友。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 1,
+          "summary": "《使命召唤：现代战争4》Steam首发在线22万+，约为黑行动7两倍，口碑回暖，但不及黑行动6。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "农场与盛宴",
+          "count": 1,
+          "summary": "治愈系农场餐厅经营游戏《农场与盛宴》将于11月11日在Steam开启抢先体验，支持简体中文，Demo已获97%好评。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "《剑星》官方确认与《守望先锋》展开联动，合作代号“伊芙计划”，外界普遍推测伊芙将以皮肤形式加入《守望先锋》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星：完整版",
+          "count": 1,
+          "summary": "《剑星：完整版》Switch 2版新预告公开，确认将于11月5日正式发售，数字版与实体版均为59.99美元，将收录《尼尔：机械纪元》与《胜利女神：妮姬》联动内容。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "article_count": 51,
+      "game_count": 28,
+      "untagged_count": 18,
+      "digest": "10月25日游戏资讯聚焦多款大作，英伟达为《影之刃零》发布首发光追驱动，日本评测称其战斗节奏快且风格夸张；R星持续为《GTA6》造势，线下广告玩梗并引发评测版传闻；米哈游官宣《原神》东京常设咖啡厅将于2027年开业；此外《卧龙2》试玩反馈不佳，官方承诺优化性能与战斗设计。",
+      "digest_source": "llm",
+      "input_hash": "899174788b2d2e05",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 4,
+          "summary": "英伟达发布Game Ready驱动，为10月28日发售的《影之刃零》提供路径追踪与DLSS 4.5技术支持，确保NVIDIA显卡玩家获得最佳光追画质与帧率体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "R星在迈阿密投放路牌广告玩梗酒驾提醒，结合此前球馆顶灯等动作，将现实城市打造为“罪恶都市”宣传现场，同时有博主声称已提前玩上评测版引发剧透猜测。",
           "summary_source": "llm"
         },
         {
           "name": "2077",
           "count": 1,
-          "summary": "夜之城搬进浏览器！安卓手机也可直接游玩《2077》。",
-          "summary_source": "rules"
+          "summary": "开发者推出基于WebGPU的《赛博朋克2077》浏览器实验版，安卓手机可直接游玩，支持本地渲染非云游戏，但项目尚不稳定。",
+          "summary_source": "llm"
         },
         {
           "name": "Days of the Dead",
           "count": 1,
-          "summary": "开放世界僵尸生存游戏《Days of the Dead》正式公布，玩家将在末日废土探索、搜刮资源、狩猎钓鱼及建造据点。",
+          "summary": "开放世界僵尸生存游戏《Days of the Dead》正式公布，玩家将在末日废土探索、搜刮资源、制作装备并建造据点，支持单人及联机合作。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤",
           "count": 1,
-          "summary": "有行业传闻称动视正在开发代号“Call of Duty 1918”的新作，或将首次把《使命召唤》带进第一次世界大战。",
+          "summary": "行业传闻动视正在开发代号“Call of Duty 1918”的新作，或将首次把《使命召唤》带进第一次世界大战，该消息尚未获官方证实。",
           "summary_source": "llm"
         },
         {
           "name": "僵尸世界大战",
           "count": 1,
-          "summary": "开发商Saber Interactive宣布“Viral State”更新将于11月12日推出，带来以迈阿密为背景的新地图，致敬《GTA6》。",
+          "summary": "开发商Saber Interactive宣布“Viral State”更新将于11月12日推出，带来以佛罗里达州迈阿密为背景的新地图，致敬《GTA6》的线下营销。",
           "summary_source": "llm"
         },
         {
@@ -58,19 +159,37 @@
         {
           "name": "光环：战斗进化",
           "count": 1,
-          "summary": "《光环：战斗进化》初代多人模式曾面临取消风险，设计师Hardy LeBel回忆，四人小团队顶住压力完成制作，聚焦分屏和局域网对战。",
+          "summary": "《光环：战斗进化》初代多人模式曾面临取消风险，设计师Hardy LeBel回忆，四人小团队顶住压力放弃大规模战争设想，聚焦分屏对战，最终助力初代Xbox打开市场。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "全战幕府2",
+          "count": 1,
+          "summary": "《全战：幕府2》完全版因差评下架，CA称版本为外包制作存在AI素材问题，将协商修复并呼吁玩家理性对待。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "卧龙2",
+          "count": 1,
+          "summary": "Team Ninja公布《卧龙2：凤火连天》阿尔法测试反馈，过半玩家不满帧率卡顿与战斗设计，官方确认将优先优化性能并重做战斗系统。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "原神",
+          "count": 1,
+          "summary": "米哈游官宣《原神》首家官方常设咖啡厅将于2027年1月20日在东京有乐町开业，提供原神主题餐品与独家周边。",
           "summary_source": "llm"
         },
         {
           "name": "古墓丽影",
           "count": 1,
-          "summary": "模特Purple Amelie在社交平台发布了一组《古墓丽影》经典角色劳拉·克劳馥的Cosplay照片，还原度极高。",
+          "summary": "模特Purple Amelie发布了一组还原度极高的《古墓丽影》经典角色劳拉·克劳馥Cosplay照片。",
           "summary_source": "llm"
         },
         {
           "name": "古墓丽影RE",
           "count": 1,
-          "summary": "Crystal Dynamics体验总监杰夫·亚当斯透露，《古墓丽影：亚特兰蒂斯遗产》通关时长约14至16小时，和原版时长相当。",
+          "summary": "Crystal Dynamics体验总监透露《古墓丽影：亚特兰蒂斯遗产》通关时长约14至16小时，与原版时长相当。",
           "summary_source": "llm"
         },
         {
@@ -80,27 +199,9 @@
           "summary_source": "llm"
         },
         {
-          "name": "星球大战：前线3",
+          "name": "德军总部3",
           "count": 1,
-          "summary": "据IGN报道，EA已确认DICE与Respawn正在合作开发一款全新项目，目标扩充自家射击游戏产品线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想：共鸣",
-          "count": 1,
-          "summary": "社区出现署名为ARTIFACT的绕过补丁，标注为Denuvo Hypervisor Workaround，意味着《最终幻想：共鸣》PC版D加密防护在发售数日内即被绕过。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 1,
-          "summary": "国产游戏《湮灭之潮》在线下全新试玩版本中，针对此前饱受争议的女主角面部表现完成优化，并回归物理效果。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "王国之泪",
-          "count": 1,
-          "summary": "开发者valentderah公布TotK Recomp静态重编译项目，目标实现《王国之泪》PC原生60帧，目前仅有官宣，源码将于近期放出。",
+          "summary": "外媒消息MachineGames或开发《德军总部3》，团队早有三部曲规划，网传新增角色，但暂未官宣。",
           "summary_source": "llm"
         }
       ]
@@ -808,107 +909,6 @@
           "name": "战地风云6",
           "count": 1,
           "summary": "《战地风云6》开发团队针对第五赛季新增争议外观皮肤作出回应，确认10月13日上线的麦克尼尔皮肤臂章将“security”错写成“secuty”，并拒绝移除该皮肤。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "article_count": 50,
-      "game_count": 28,
-      "untagged_count": 18,
-      "digest": "今日游戏资讯聚焦于《GTA6》发售前的最后冲刺，韩国与日本评级相继锁定，开发团队仍在进行发售前的最后优化。此外，《影之刃零》公布PS5版容量并开启预载，《战地6》Steam试玩延长，而《战争机器：事变日》则因前作主创批评新角色抢戏引发争议。",
-      "digest_source": "llm",
-      "input_hash": "ff6e533582408143",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 3,
-          "summary": "韩国与日本评级相继锁定，开发团队仍在进行发售前的最后优化。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 2,
-          "summary": "PS5版容量公布为134.85GB，将于10月27日开启预载。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战争机器",
-          "count": 2,
-          "summary": "前作主创批评新作《事变日》中马库斯被边缘化，削弱了兄弟情谊。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Rain98",
-          "count": 1,
-          "summary": "Steam体验版正式上线，游玩时长超过3小时，并公开了新预告片。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Samson",
-          "count": 1,
-          "summary": "瑞典开发商Liquid Swords确认破产，正在寻找买家。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "与狼同行重制版",
-          "count": 1,
-          "summary": "Switch版突发延期，具体上线时间尚未公布。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "余烬与刃",
-          "count": 1,
-          "summary": "定档2027年1月8日开启PC抢先体验，Demo2.0重构了战斗框架。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影：亚特兰蒂斯遗迹",
-          "count": 1,
-          "summary": "公开了劳拉经典“地中海潜水服”的游戏内实机画面。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "恶魔城",
-          "count": 1,
-          "summary": "新作角色设计引发热议，开发者承认特意把角色设计得更有魅力。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战地6",
-          "count": 1,
-          "summary": "官宣Steam免费试玩延长至世界标准时间10月20日。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战神：劳菲",
-          "count": 1,
-          "summary": "典藏版神谕卡牌预览曝光，新女主形象登场。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "时之笛",
-          "count": 1,
-          "summary": "重制版将加入全新支线任务，打靶挑战得到升级。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最后的生还者",
-          "count": 1,
-          "summary": "主创旧采访再度走红，揭秘角色叙事构思起源。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "末世神枪",
-          "count": 1,
-          "summary": "定档12月8日登陆多平台，强调弹药管理与敌人研究。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "永恒传说 Remastered",
-          "count": 1,
-          "summary": "回归次日遭破解，首次提供官方简体中文。",
           "summary_source": "llm"
         }
       ]

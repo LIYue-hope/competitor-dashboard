@@ -1,118 +1,254 @@
 {
-  "generated_at": "2026-10-26T00:15:32.045936+00:00",
+  "generated_at": "2026-10-27T01:38:21.238061+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-25",
-      "article_count": 90,
-      "game_count": 37,
-      "untagged_count": 32,
-      "digest": "今日游戏资讯聚焦于《影之刃零》即将发售引发的评测风波与线下试玩活动，以及《GTA6》相关演员直播与争议引发的热议。此外，《2077》因动画上线热度飙升，而《最终幻想》新作Steam销量表现亮眼，多款老游戏与新作同步更新动态。",
+      "date": "2026-10-27",
+      "article_count": 7,
+      "game_count": 4,
+      "untagged_count": 1,
+      "digest": "今日游戏资讯聚焦于《GTA6》对主机销量的影响、国产武侠新作《影之刃零》的媒体评分争议、以及《寂静岭1重制》与《昭和米国物语》的最新动态。其中《GTA6》被指导致Xbox主机销量创9月历史最差，而《影之刃零》则因外媒3星评价引发制作组与玩家的激烈争论。",
       "digest_source": "llm",
-      "input_hash": "cc7add989c4c2ea1",
+      "input_hash": "ab11a918ffe01531",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 2,
+          "summary": "《GTA6》被指导致Xbox主机销量创史上最差9月，同时其评测解禁日期曝光，PS5与Xbox Series X|S预载将于11月12日开启。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "《影之刃零》公布奖杯列表，白金难度不高包含大量流程杯，但此前外媒Eurogamer打出3星评价折算60分，引发制作组与玩家激烈争论。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "寂静岭1重制",
+          "count": 1,
+          "summary": "《寂静岭1重制》被曝将于2027年发售，首批演员阵容曝光，选角工作以“Project Noise”为代号推进，两位英国女演员已加盟。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "昭和米国物语",
+          "count": 1,
+          "summary": "《昭和米国物语》制作人回应北京核聚变展会试玩版，针对现场火爆导致的排队问题及婉拒业内朋友等话题作出真诚回应，暂不推线上版。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "article_count": 134,
+      "game_count": 25,
+      "untagged_count": 26,
+      "digest": "今日游戏资讯聚焦于《影之刃零》媒体评测解禁引发热议，IGN日本与IGN中国分别给出9分评价；同时《三体》授权新作公布2027年发售计划，《GTA6》周边炒卖价格飙升，多款游戏更新或发售信息同步发布。",
+      "digest_source": "llm",
+      "input_hash": "be10c75687dd6aa6",
       "game_digests": [
         {
           "name": "影之刃零",
-          "count": 13,
-          "summary": "评测即将解禁，黑人小哥自曝未收到评测码，游戏将于10月29日登陆PC、PS5平台，线下试玩盛典同日落地北京京东MALL。",
+          "count": 83,
+          "summary": "媒体评测正式解禁，IGN日本与IGN中国均给出9分好评，IGN日本评测者称其战斗有改善空间但探索体验满分，PC版预载需预留300GB空间。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "三体",
+          "count": 2,
+          "summary": "授权新作首曝，主角设定为退役特种兵，官方宣布将于2027年第一季度发售并扩写剧情。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
-          "count": 7,
-          "summary": "疑似女主演员直播被刷屏，她多次强调自己只是普通人并回避话题，同时有评测版疑似提前发放，福克斯主播炮轰游戏暴力元素。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "2077",
-          "count": 2,
-          "summary": "为庆祝动画第二季上线推出更新，Steam在线人数破16万创三年新高，游戏今日史低折扣。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想",
-          "count": 2,
-          "summary": "新作Steam峰值破4.2万，超重生创IP最佳，预估销量约20.27万份，收入近千万刀。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 2,
-          "summary": "官方分享核聚变游戏展2026北京场现场照片，曝女主脸优化新形象，物理效果回归。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA",
           "count": 1,
-          "summary": "玩家讨论下一部《GTA》背景城市，拉斯维加斯、东京、伦敦、首尔等地被点名。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Giantess Metropolis",
-          "count": 1,
-          "summary": "由 Aggressive Mastery 开发，开发者宣布推出新作《GIANTESS PLAYGROUND》的续作《Giantess Metropolis》。",
+          "summary": "Rockstar在迈阿密展开大规模线下营销，导致汉堡包装纸等周边被炒至3340元高价。",
           "summary_source": "llm"
         },
         {
           "name": "LOL",
           "count": 1,
-          "summary": "传奇选手Faker风评被害，逆天二创扩散，各类魔改图文、AI二创在社交平台大量传播。",
+          "summary": "网络梗圈出现大量将传奇选手Faker进行魔改的AI二创图文，引发玩家热议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "三体：审判前夜",
+          "count": 1,
+          "summary": "首支预告正式公布，玩家将在审判日号上展开卧底行动。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤23：现代战争4",
+          "count": 1,
+          "summary": "巨型补丁发布，游戏总容量飙升至91GB。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "刺客信条：黑旗 记忆重置",
+          "count": 1,
+          "summary": "相对2013年原版在画面与开放世界维度完成现代化升级。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说",
+          "count": 1,
+          "summary": "真人电影ins账号突然被删，引发玩家对跳票的担忧。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "妮姬",
+          "count": 1,
+          "summary": "4周年庆典公布多名新角色及服装，新皮肤因尺度较大遭玩家吐槽。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "完美国际",
+          "count": 1,
+          "summary": "二十周年第四篇章“九州同庆”将于11月11日上线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师",
+          "count": 1,
+          "summary": "官方发布推文纪念系列首作发售19周年，并悼念生软团队。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零攻略全书",
+          "count": 1,
+          "summary": "UCG官宣官方授权攻略书，将于11月初发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "救命！我被困在狗血韩剧里了！",
+          "count": 1,
+          "summary": "阿西团队与SHOWBOX合作打造，李侑菲等演员加盟。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "法环",
+          "count": 1,
+          "summary": "曝电影成本达13亿元，定档2028年3月3日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "湮灭之潮",
+          "count": 1,
+          "summary": "女主格雯德琳脸模在试玩活动中引发玩家讨论，称其更接近初版。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "article_count": 89,
+      "game_count": 36,
+      "untagged_count": 32,
+      "digest": "今日游戏资讯聚焦于《影之刃零》的发售预热与争议，以及《GTA6》相关传闻与舆论风波。此外，《2077》因动画上线热度飙升，《最终幻想》新作销量表现亮眼，多款老游戏维持高热度，同时《卧龙2》试玩口碑不佳引发关注。",
+      "digest_source": "llm",
+      "input_hash": "f40133d2b89f69f7",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 13,
+          "summary": "灵游坊开发的国产武侠动作游戏将于10月29日登陆PC、PS5平台，线下试玩盛典同日落地北京京东MALL，PC端预下载已于10月27日开启，游戏本体约145G。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 7,
+          "summary": "传闻是《GTA6》女主演员Manni L. Perez开启直播被刷屏，她多次强调自己只是普通人并回避话题；另有消息称评测版疑似已发放，同时福克斯主播炮轰游戏暴力元素引发热议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "2077",
+          "count": 2,
+          "summary": "为庆祝动画《赛博朋克：边缘行者》第二季上线，CD Projekt RED为《赛博朋克2077》推出更新，Steam在线人数破16万创三年新高。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想",
+          "count": 2,
+          "summary": "《最终幻想：共鸣》Steam峰值破4.2万，超重生创IP最佳；据估算，该作Steam预估销量约为20.27万份，收入近千万刀。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "湮灭之潮",
+          "count": 2,
+          "summary": "官方分享核聚变游戏展2026北京场现场照片，并曝光女主脸优化后的新形象，物理效果回归。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA",
+          "count": 1,
+          "summary": "玩家讨论下一部《GTA》的背景城市，拉斯维加斯、东京、伦敦、首尔等地被点名。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Giantess Metropolis",
+          "count": 1,
+          "summary": "Aggressive Mastery宣布推出新作《Giantess Metropolis》，计划通过Patreon发布。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤",
           "count": 1,
-          "summary": "新作悼念逝世创始人Vince Zampella，他在《使命召唤：现代战争4》战役结尾出现悼念信息。",
+          "summary": "《使命召唤：现代战争4》游戏战役结尾出现专门献给逝世创始人Vince Zampella的悼念信息。",
           "summary_source": "llm"
         },
         {
           "name": "全面战争：幕府将军2 完全版",
           "count": 1,
-          "summary": "差评翻车遭世嘉下架，CA称由外包工作室Mataboo开发且未经质检。",
+          "summary": "世嘉下架该作完全版，CA称由外包工作室Mataboo开发且未经质检。",
           "summary_source": "llm"
         },
         {
           "name": "刀锋战士",
           "count": 1,
-          "summary": "曝恐难逃一劫，不想走金刚狼老路，Xbox或考虑取消。",
+          "summary": "曝《刀锋战士》恐难逃一劫，Xbox或考虑取消。",
           "summary_source": "llm"
         },
         {
           "name": "剑星",
           "count": 1,
-          "summary": "与《守望先锋》联动视觉图放出，展示伊芙形象。",
+          "summary": "《守望先锋》与《剑星》的联动视觉图放出。",
           "summary_source": "llm"
         },
         {
           "name": "博德之门3",
           "count": 1,
-          "summary": "分析师估算累计营收超12亿美元，已售出2300万份。",
+          "summary": "分析师估算该作累计营收超12亿美元，已售出2300万份。",
           "summary_source": "llm"
         },
         {
           "name": "卧龙2",
           "count": 1,
-          "summary": "官方承认好评率仅25%，回应试玩翻车问题。",
+          "summary": "Team Ninja承认《卧龙2：凤火连天》阿尔法测试好评率仅25%。",
           "summary_source": "llm"
         },
         {
           "name": "古墓丽影RE",
           "count": 1,
-          "summary": "通关时长接近原版，新内容很少。",
+          "summary": "《古墓丽影：亚特兰蒂斯遗产》通关时长大约在14至16小时之间。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说",
+          "count": 1,
+          "summary": "NS2破解开发者瞄准《塞尔达传说：时之笛 重制版》，本作将于2026年11月5日发售。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-10-24",
-      "article_count": 81,
+      "article_count": 80,
       "game_count": 32,
-      "untagged_count": 30,
-      "digest": "2026年10月24日行业动态多元发展，涵盖国产游戏、重磅游戏及多款作品更新，游民星空当日发布81条新闻、涉及32款游戏，相关动态覆盖新作发售、版本更新及市场表现等多领域，各游戏表现各有特点。游戏｜《影之刃零》当日既有外主播道歉、官方发倒计时海报及海外热度爆发的动态，亦有官方授权攻略发售、海外热度超越《黑神话：悟空》等进展。游戏｜《GTA6》当日传出评测解禁时间爆料、Xbox发布发售预告片以及促销邮件发送等动态，游戏计划于11月19日登陆Xbox及PS平台。游戏｜《使命召唤23：现代战争4》当日在线突破22万人，存在Steam国区评价褒贬不一及宣传内容强制推送等动态。游戏｜《赛博朋克2077》当日更新新增双持武器功能，Steam同时在线峰值达124145，民间还推出WebGPU本地运行网页版。游戏｜《塞尔达传说：时之笛 重制版》当日商店后台更新，确定于11月5日登陆Switch 2平台，且存在实体好价及数字版定价等动态。游戏｜《漫威金刚狼》当日实体售价暴跌至170元，同时舆论出现反转且受到盛赞等动态。游戏｜《质量效应》当日发布新作开发进展及剧情就绪的爆料，同时其联动内容被移除了相关动态。游戏｜《COD》当日有影视飓风参加野兽先生比赛等动态，赛事奖金达100万刀。游戏｜《LOL》当日公布S16世界赛LPL首战四队全败的战绩，观众情绪出现突破等动态。游戏｜《丝之歌》当日有行业定价讨论及玩家对此策略的负面反应等动态。游戏｜《伊苏8：达娜的安魂曲》当日新版本更新，最高帧率达120帧，实体售价约333元。游戏｜《使命召唤》当日公布新作战役表现获满分盛赞的评测动态，被视为系列最佳作品之一。游戏｜《初音未来》新游官宣确定于10月29日登陆多平台，支持多语言，并明确售价为1980日元。游戏｜《地铁：归来》当日更新，为含两款核心游戏的合集更新，更新周期仅2天，效率较高。游戏｜《塞尔达传说》传奇主创获法国艺术与文学勋章骑士勋位荣誉的动态，体现作品与创作团队的突出表现。",
+      "untagged_count": 29,
+      "digest": "2026年10月24日，当日行业资讯整体活跃，累计发布游民星空新闻80条，覆盖32款游戏，涉及主流厂商与代表性作品动态。相关报道聚焦各游戏发售进展、版本更新、销量表现及争议评价等，整体呈现出游戏行业在更新迭代与市场反馈方面持续推进的特点。",
       "digest_source": "llm",
-      "input_hash": "9ab3a2823c9c6695",
+      "input_hash": "b3e4b1a513102924",
       "game_digests": [
         {
           "name": "影之刃零",
@@ -808,107 +944,6 @@
           "name": "异于天堂",
           "count": 1,
           "summary": "尺度爆炸，阿联酋PS商店标注21+。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "article_count": 105,
-      "game_count": 46,
-      "untagged_count": 33,
-      "digest": "今日游戏资讯聚焦于《GTA6》临近发售的各类细节曝光与评级进展，以及《影之刃零》PS5版预载开启等重磅新作动态。此外，《使命召唤23：现代战争4》即将发售引发评测热潮，而《街头霸王》真人电影则因角色塑造问题引发玩家争议，动视高管更公开力挺《使命召唤》与《GTA6》为年度大作。",
-      "digest_source": "llm",
-      "input_hash": "1218edbca0d84397",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 14,
-          "summary": "Reddit网友分享对比照，纽约同一面墙壁已从《GTA5》壁画更换为《GTA6》全新手绘作品。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 8,
-          "summary": "有玩家发帖讨论，表示游戏虽然公开了不少单场BOSS战，但真正具有最终决战规格的大型BOSS战似乎仍鲜有露面。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤23：现代战争4",
-          "count": 3,
-          "summary": "将于2026年10月23日正式发售，登陆PC/PS5/Switch2/XSX平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "2077",
-          "count": 2,
-          "summary": "Reddit社区有玩家分享一组启用DLSS 5的对比截图，展示《赛博朋克2077》中朱迪变真人的惊艳效果。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤23",
-          "count": 2,
-          "summary": "IGN 8分！《使命召唤23》战役：重启后最好的一部；《使命召唤23》战役GS打出7分 最终决战有点拉。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "街头霸王",
-          "count": 2,
-          "summary": "IGN发文批评新电影叙事凌乱，认为影片犯下《真人快打》2021年重启电影同样的错误。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "街霸",
-          "count": 2,
-          "summary": "在《街头霸王》电影中饰演古烈的WWE明星科迪·罗兹接受采访，表示想和《真人快打》联动。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "COD23",
-          "count": 1,
-          "summary": "《COD23》下周发售 射击手感与枪械质感依旧行业顶级。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Muv-Luv Presents 2026",
-          "count": 1,
-          "summary": "情报节目定档10月22日，简中字幕版月底上线B站，Steam纪念特惠低至4折。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "NBA2K27",
-          "count": 1,
-          "summary": "Steam迎来史低促销，包含《NBA 2K27》等多款大作好价，最高折扣达90%。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Rain98",
-          "count": 1,
-          "summary": "Lo-Fi×心理悬疑冒险游戏《Rain98》Steam体验版正式上线，游玩时长超过3小时。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Samson",
-          "count": 1,
-          "summary": "瑞典Liquid Swords工作室宣告破产，首款游戏发售后数月未发出工资，近30名员工将获政府补偿。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Swords & Slippers",
-          "count": 1,
-          "summary": "波兰工作室Mass Creation公布动作游戏《Swords & Slippers》最新实机预告，展示童话女主角团队配合与战斗机制。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴5",
-          "count": 1,
-          "summary": "英国《每日邮报》在报道男子闯入动物园身亡事件时将话题引向《上古卷轴5：天际》，引发争议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤",
-          "count": 1,
-          "summary": "动视高管抛出颠覆性观点，认为《使命召唤》和《GTA6》才是年度大作，将《塞尔达传说：时之笛》重制版靠边站。",
           "summary_source": "llm"
         }
       ]

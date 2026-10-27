@@ -1,106 +1,207 @@
 {
-  "generated_at": "2026-10-26T00:10:08.962104+00:00",
+  "generated_at": "2026-10-27T01:33:58.796618+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-26",
-      "article_count": 24,
-      "game_count": 21,
-      "untagged_count": 3,
-      "digest": "今日游戏资讯聚焦于《GTA6》女主演员直播回避身份猜测引发热议，以及《古墓丽影：亚特兰蒂斯遗产》公布14-16小时主线时长等新作动态。此外，《文明7》调整机制恢复单一文明模式，《泰坦之旅2》定档明年1月上线，而《漫威金刚狼》则带动美国PS5销量同比增长22%。",
+      "date": "2026-10-27",
+      "article_count": 35,
+      "game_count": 25,
+      "untagged_count": 6,
+      "digest": "2026年10月27日，游戏行业资讯整体围绕多款核心作品及动态展开，涵盖发售相关进展、内容优化调整、销量表现、技术评测与发行战略等多方面内容，整体行业动态呈现积极动向与多样化发展。",
       "digest_source": "llm",
-      "input_hash": "f3b8e1fd726c58ac",
+      "input_hash": "1d7489d174797c1d",
       "game_digests": [
         {
           "name": "GTA6",
+          "count": 3,
+          "summary": "《GTA6》发售日请假申请量增加9%至17%；卖疯了！《GTA6》预订量估算已突破646万份；疑似《GTA6》露西亚演员直播回避相关提问。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 2,
+          "summary": "拉瑞安发行总监称《使命召唤：现代战争4》开场20分钟令人惊艳；《使命召唤：现代战争4》M站获86分 近15年评分最高正传。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "《影之刃零》媒体赞誉图公开 满屏都是高分；2026金摇杆年度游戏提名公布 《影之刃零》《生化9》等大作。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "ARC Raiders",
           "count": 1,
-          "summary": "女主Manni L. Perez在直播中回避玩家关于其是否参与游戏及配音的追问，沉默再次引发玩家对其身份的猜测与讨论。",
+          "summary": "玩家建议《ARC Raiders》保留PvE模式但降低战利品收益。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "余烬之镇",
+          "count": 1,
+          "summary": "《余烬之镇》抢先体验延期至明年1月7日 首发并入后续更新。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "刺客信条",
+          "count": 1,
+          "summary": "育碧10月29日介绍《刺客信条》系列进展 确认没有重大揭晓。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说：命运之镜",
+          "count": 1,
+          "summary": "非官方同人游戏《塞尔达传说：命运之镜》首章2027年2月免费推出。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "寂静岭1：重制版",
+          "count": 1,
+          "summary": "曝《寂静岭1：重制版》将于2027年推出 两名演员参与演出。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "寂静岭：小镇陷落",
+          "count": 1,
+          "summary": "科乐美隔离《寂静岭：小镇陷落》等项目团队以避免创意重合。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "日落过载",
+          "count": 1,
+          "summary": "《日落过载》发行约12年后Steam Deck状态升为“可玩”。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "昭和米国物语",
+          "count": 1,
+          "summary": "《昭和米国物语》试玩实感曝光 战斗机制特点鲜明。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "最终幻想7：启示",
+          "count": 1,
+          "summary": "《最终幻想7：启示》将重返米德加 首轮内容量接近《重生》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "漫威刀锋战士",
+          "count": 1,
+          "summary": "微软将Arkane磋商期限延至12月13日 《漫威刀锋战士》命运未定。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "漫威宇宙入侵：毁灭博士城堡之围",
+          "count": 1,
+          "summary": "《漫威宇宙入侵：毁灭博士城堡之围》11月10日上线并加入肉鸽模式。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "犹大",
+          "count": 1,
+          "summary": "《犹大》以“叙事乐高”响应玩家选择 角色关系可能转向敌对。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "article_count": 96,
+      "game_count": 63,
+      "untagged_count": 20,
+      "digest": "10月26日游戏行业资讯聚焦于《影之刃零》的PC版容量与发售安排，以及《使命召唤：现代战争4》在Xbox上的广告争议。此外，《GTA6》发售倒计时引发玩家讨论，塞尔达Switch 2纪念版在英国补货，守望先锋与剑星宣布联动，英雄联盟世界赛DK与GEN晋级八强，赛马娘推出爱丽速子主题能量饮料，007配乐入围Ivors奖，ARC Raiders测试纯PvE方向，False Feed计划发售，JOJO推出新品，Moon Sweepers上线峰值超3.6万，Put It Away Please发布试玩版，Sign：碎冠篇正式发售，光辉出走开启限时免费入库。",
+      "digest_source": "llm",
+      "input_hash": "9e82aa8a05a271ec",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 5,
+          "summary": "S-GAME公布PC版容量需300GB，预载27日开启，29日解锁登陆Steam、Epic及PS5。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "部分PC玩家在安装最新NVIDIA显卡驱动后遭遇画面泛白或色差问题，玩家可通过重载着色器或删除缓存文件夹尝试修复。",
+          "count": 4,
+          "summary": "Xbox上线接管式广告并替换自定义背景，引发用户不满，官方建议手动关闭。",
           "summary_source": "llm"
         },
         {
-          "name": "古墓丽影：亚特兰蒂斯遗产",
-          "count": 1,
-          "summary": "新预告展示了劳拉使用双枪和霰弹枪等战斗画面，确认主线通关时长约为14-16小时，将于2027年2月12日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "咩咩启示录",
-          "count": 1,
-          "summary": "已拥有Switch版的玩家可免费升级至Switch 2版，新版本提高了画面分辨率和运行帧率，并加入了面向新主机的功能。",
+          "name": "GTA6",
+          "count": 3,
+          "summary": "距离发售日还有24天，玩家分享八条建议以度过等待期，包括陪伴家人、减少看预告等。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说",
-          "count": 1,
-          "summary": "《塞尔达传说》制作人青沼英二获法国艺术与文学骑士勋章，法国文化部长亲自为其颁奖，肯定其作品鼓励玩家探索新世界。",
+          "count": 2,
+          "summary": "40周年纪念版Switch 2在英国补货，Amazon与Argos可下单，美国市场供应不稳定。",
           "summary_source": "llm"
         },
         {
-          "name": "宝可梦：Pokopia",
-          "count": 1,
-          "summary": "数据挖掘显示未来DLC将追加超过20只宝可梦，但该信息尚未得到官方确认，具体名单也未公开。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师",
-          "count": 1,
-          "summary": "杰洛特英文配音演员Doug Cockle回忆称，初代《巫师》的台词约用8天录完，其中连续5天每天工作六至七小时，导致嗓子严重疲劳。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 1,
-          "summary": "开发者制作的FoveatedDLSS5模组引入注视区渲染，在RTX 4090运行8K超宽屏时将《巫师3》帧率由约49 FPS提升至80 FPS以上。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "掠夺者",
-          "count": 1,
-          "summary": "研究人员开发的Scentronic技术能识别并远程重现五种气味，这让小岛秀夫近四十年前为《掠夺者》提出的气味构想再受关注。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "文明7",
-          "count": 1,
-          "summary": "通过“时间的考验”更新，游戏将时代转换改为可选机制，并重新加入传统的单一文明模式，允许玩家使用同一文明完成从开局到结局的流程。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "泰坦之旅2",
-          "count": 1,
-          "summary": "1.0版将于2027年1月19日上线，带来故事最终章及首个终局活动，游戏不采用赛季制，终局玩法围绕“卡奥斯诅咒”展开。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "海之剑",
-          "count": 1,
-          "summary": "Xbox商店页面泄露该作将登陆XSX|S，目前开发商及平台方均未正式公布移植消息，PS4和NS版同样没有相关信息。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 1,
-          "summary": "新试玩版中女主角的面部形象已完成调整，下颌线、眉骨的锋利质感得以恢复，皮肤纹理细节重新显现，回归角色原本清冷英气的人设。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 1,
-          "summary": "该作发售后推动美国PS5销量同比增长22%，Circana分析师估算其影响约占70%，上月在美国售出250万份。",
+          "name": "守望先锋",
+          "count": 2,
+          "summary": "与《剑星》宣布联动“EVE Protocol”，定于11月4日开启，主视觉已公开。",
           "summary_source": "llm"
         },
         {
           "name": "英雄联盟",
+          "count": 2,
+          "summary": "2026世界大赛DK与GEN率先晋级八强，DK以2比0击败MKOI，GEN以2比1逆转LYON。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛马娘 Pretty Derby",
+          "count": 2,
+          "summary": "be LEGEND推出爱丽速子主题能量饮料“ENERGILL”，含税售价3580日元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "007：初露锋芒",
           "count": 1,
-          "summary": "三支虚拟组合Heartsteel、True Damage和K/DA在世界赛决赛临近之际回归，乐评作者将K/DA评为最佳，认为其新单曲《开火》延续了出色表现。",
+          "summary": "《007：初露锋芒》配乐入围Ivors奖“最佳原创电子游戏配乐”提名。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "ARC Raiders",
+          "count": 1,
+          "summary": "Embark Studios结束PvE测试，预计11月公布是否保留纯PvE模式。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "False Feed",
+          "count": 1,
+          "summary": "推理游戏《False Feed》计划于11月5日发售，玩家需检查监控影像找破绽。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "JOJO的奇妙冒险",
+          "count": 1,
+          "summary": "BANDAI SPIRITS将于11月起推出四款景品，含手办、地毯及随行杯。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Moon Sweepers",
+          "count": 1,
+          "summary": "清洁模拟游戏上线数日Steam峰值超3.6万，支持最多16人组队。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Put It Away Please",
+          "count": 1,
+          "summary": "短篇恐怖解谜游戏推出试玩版，正式版定于11月26日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Sign：碎冠篇",
+          "count": 1,
+          "summary": "JK×魔女×异世界视觉小说今日正式发售，Steam定价37元，发售后2周八折。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "光辉出走",
+          "count": 1,
+          "summary": "生存恐怖FPS游戏《光辉出走》开启Steam限时免费入库，11月17日前领取可永久保留。",
           "summary_source": "llm"
         }
       ]
@@ -309,101 +410,101 @@
     },
     {
       "date": "2026-10-23",
-      "article_count": 133,
+      "article_count": 137,
       "game_count": 98,
-      "untagged_count": 21,
-      "digest": "10月23日游戏资讯聚焦于《使命召唤：现代战争4》正式发售，涵盖战役、多人及DMZ模式；Rockstar详谈《GTA6》剧情与开放世界平衡；CDPR为《赛博朋克2077》推出2.5更新及跨平台支持；彭博社确认《质量效应5》泄露预告属实；Embark Studios《ARC raiders》客服疑似使用AI工具引发争议。",
+      "untagged_count": 25,
+      "digest": "2026年10月23日游戏行业资讯丰富，主要聚焦于《使命召唤：现代战争4》正式发售、多款游戏更新及新游公布。Activision推出《使命召唤：现代战争4》，包含战役、多人及DMZ模式；CD Projekt Red为《赛博朋克2077》推出2.5更新，新增联动任务与双持玩法；Rockstar详谈《GTA6》剧情与开放世界平衡；BioWare被取消的《质量效应5》泄露预告获彭博社确认；Square Enix推出《勇者斗恶龙》金属史莱姆牛顿摆街机奖品。",
       "digest_source": "llm",
-      "input_hash": "5d3c164b874c773c",
+      "input_hash": "be08c9fa970369f9",
       "game_digests": [
         {
           "name": "使命召唤：现代战争4",
           "count": 5,
-          "summary": "Activision旗下第一人称射击游戏《使命召唤：现代战争4》正式上市，同时提供剧情战役、多人游戏和经过扩展的DMZ模式。",
+          "summary": "Activision旗下第一人称射击游戏《使命召唤：现代战争4》正式上市，同步提供剧情战役、多人游戏和扩展的DMZ模式，首发包含12张全新6对6地图及“杀戮区”模式。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
           "count": 4,
-          "summary": "Rockstar Games对《GTA6》距离发售不到一个月的内容做出承诺，强调游戏规模比《给他爱5》更大，并成功将故事与开放世界完美融合。",
+          "summary": "Rockstar Games详谈《GTA6》剧情与开放世界平衡，强调游戏规模比《给他爱5》更大，并成功将故事与开放世界融合，两位主角杰森和露西亚的加入为游戏体验增添了新的层次。",
           "summary_source": "llm"
         },
         {
           "name": "质量效应",
           "count": 3,
-          "summary": "类《质量效应》游戏《大迁离》更新男主角模型，玩家可自行设置角色的发型、发色、面部毛发与纹身，新版面部结构改善明显。",
+          "summary": "类《质量效应》游戏《大迁离》更新男主角模型，玩家可自定义发型、胡须与纹身，新版调整了此前受批评的面部特征，弱化了生硬感，让角色显得更年轻。",
           "summary_source": "llm"
         },
         {
           "name": "赛博朋克2077",
           "count": 3,
-          "summary": "CD Projekt Red已于10月22日推出《赛博朋克2077》2.5更新，新增联动支线任务“封锁行动”、双持玩法及跨平台模组支持。",
+          "summary": "CD Projekt Red于10月22日推出《赛博朋克2077》2.5更新，新增联动支线任务、双持玩法及跨平台模组支持，并引入HKGN 102.0 FM电台及塔罗牌等新内容。",
           "summary_source": "llm"
         },
         {
           "name": "勇者斗恶龙",
           "count": 2,
-          "summary": "Square Enix将于10月24日起在日本街机厅推出《勇者斗恶龙》金属史莱姆牛顿摆，这款新品被定位为街机厅奖品。",
+          "summary": "Square Enix将于10月24日起在日本街机厅推出《勇者斗恶龙》金属史莱姆牛顿摆，将普通球体换成金属史莱姆造型，保留牛顿摆原有的摆动与碰撞结构。",
           "summary_source": "llm"
         },
         {
           "name": "质量效应5",
           "count": 2,
-          "summary": "彭博社资深游戏记者杰森·施赖尔确认，网上流传的《质量效应5》泄露预告是真的，它属于BioWare工作室关闭前一直开发的《质量效应5》。",
+          "summary": "彭博社确认网上流传的《质量效应5》泄露预告是真的，该视频属于BioWare工作室关闭前一直开发的《质量效应5》，现有素材更接近目标渲染，不能直接当作实际游戏画面。",
           "summary_source": "llm"
         },
         {
           "name": "赛博朋克2",
           "count": 2,
-          "summary": "《赛博朋克2》副总监Paweł Sasko表示，CD Projekt Red已经与模组社区的代表建立合作，工作室将模组创作者视为帮助旗下游戏长期保持活力的重要力量。",
+          "summary": "《赛博朋克2》副总监Paweł Sasko表示，CDPR已与模组社区代表建立合作，工作室将模组创作者视为帮助旗下游戏长期保持活力的重要力量，并宣布游戏将为PS5、Switch 2和Xbox Series X|S引入跨平台支持。",
           "summary_source": "llm"
         },
         {
           "name": "ARC raiders",
           "count": 1,
-          "summary": "玩家曝光《ARC raiders》客服异常回复，误发了约十组疑似属于其他玩家工单的内容，其中包括面向ChatGPT的指令及随后生成的客服回复。",
+          "summary": "玩家曝光《ARC raiders》客服异常回复，误发了约十组疑似属于其他玩家工单的内容，其中包括面向ChatGPT的指令及随后生成的客服回复，引发外界对客服使用该工具的质疑。",
           "summary_source": "llm"
         },
         {
           "name": "Against Heroes",
           "count": 1,
-          "summary": "Spacewisp Games于10月22日在Steam推出PC游戏《Against Heroes》试玩版，正式版计划于11月10日发售，游戏内文本支持日语。",
+          "summary": "Spacewisp Games于10月22日在Steam推出PC游戏《Against Heroes》试玩版，正式版计划于11月10日发售，玩家将以魔王的立场组织怪物军团，抢在勇者成长到难以控制之前主动出击。",
           "summary_source": "llm"
         },
         {
           "name": "GT赛车7",
           "count": 1,
-          "summary": "《GT赛车7》30周年限定DualSense无线控制器在英国开启预购，定于12月10日发售，产品售价为84.99美元或74.99英镑。",
+          "summary": "《GT赛车7》30周年限定DualSense无线控制器在英国开启预购，定于12月10日发售，售价为74.99英镑，产品以标准白色DualSense为基础，加入与《GT赛车7》及系列历史有关的色彩和装饰。",
           "summary_source": "llm"
         },
         {
           "name": "I, Hurricane",
           "count": 1,
-          "summary": "独立开发团队BubuGamesS公布台风养成策略游戏《I, Hurricane》，Steam商店页面现已开放，计划于2026年12月2日在PC推出。",
+          "summary": "独立开发团队BubuGamesS公布台风养成策略游戏《I, Hurricane》，计划于2026年12月2日在PC推出，玩家需要先在温暖海面生成台风，再控制移动路线驶向沿岸，并让台风在多个季节中持续增强。",
           "summary_source": "llm"
         },
         {
           "name": "Medovo",
           "count": 1,
-          "summary": "开放世界农场沙盒《Medovo》现已在Steam推出免费公开试玩，目前项目完成度约为30%，开放内容仍是早期Alpha原型。",
+          "summary": "开放世界农场沙盒《Medovo》现已在Steam推出免费公开试玩，项目完成度约为30%，玩家可以探索开放世界，测试播种和收获系统，并驾驶车辆前往不同区域。",
           "summary_source": "llm"
         },
         {
           "name": "PEAK",
           "count": 1,
-          "summary": "Aggro Crab于10月23日宣布，与Landfall联合制作的合作登山游戏《PEAK》正式登陆PS5、Xbox Series X|S和Switch 2，并支持全平台跨平台联机。",
+          "summary": "Aggro Crab与Landfall联合制作的合作登山游戏《PEAK》正式登陆PS5、Xbox Series X|S和Switch 2，支持全平台跨平台联机，玩家将在游戏中扮演迷失方向的自然探险队成员，为逃离神秘岛屿而攀登高山。",
           "summary_source": "llm"
         },
         {
           "name": "TBH：塔斯克巴·英雄",
           "count": 1,
-          "summary": "Nugem Studio与Tesseract Studio于10月22日为免费放置刷宝角色扮演游戏《TBH: 塔斯克巴·英雄》推出1.3.0“万圣节 & 圣物更新”。",
+          "summary": "Nugem Studio与Tesseract Studio于10月22日为免费放置刷宝角色扮演游戏《TBH: 塔斯克巴·英雄》推出1.3.0“万圣节 & 圣物更新”，新增圣物系统和万圣节活动关卡。",
           "summary_source": "llm"
         },
         {
           "name": "Terraglass",
           "count": 1,
-          "summary": "Teacup Worlds正在为PC Steam开发沙盒游戏《Terraglass》，游戏将舞台放进一只可置于电脑桌面的玻璃瓶，玩家能够改造其中的地形与生态。",
+          "summary": "Teacup Worlds正在为PC Steam开发沙盒游戏《Terraglass》，游戏将舞台放进一只可置于电脑桌面的玻璃瓶，玩家能够改造其中的地形与生态，并控制生物进入亲手创造的环境探索。",
           "summary_source": "llm"
         }
       ]
@@ -909,107 +1010,6 @@
           "name": "赛博朋克：边缘行者",
           "count": 1,
           "summary": "第二季制作团队利用《赛博朋克2077》的“虚拟相机”在夜之城取景，主创表示扳机社成员比他们更了解这座城市。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "article_count": 50,
-      "game_count": 31,
-      "untagged_count": 5,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》因毒品使用频繁突出获PEGI 18+评级引发争议，以及《使命召唤：现代战争4》Steam好评如潮被赞系列巅峰。此外，《影之刃零》PS5版容量超134GB即将发售，《恶意不息》公布1.0版本职业系统，多款大作与独立游戏均有新动态。",
-      "digest_source": "llm",
-      "input_hash": "a33d99003a4cbe54",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 7,
-          "summary": "《GTA6》因毒品使用频繁且突出获PEGI 18+评级，玩家可随时携带并吸食可卡因，引发关于游戏内容尺度的讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 6,
-          "summary": "《使命召唤：现代战争4》Steam特别好评，媒体与粉丝赞誉其单人战役回归系列巅峰，剧情丰富且黑暗。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 2,
-          "summary": "《影之刃零》PS5版下载容量为134.857GB，10月27日开启预载，10月29日发售，Steam国区标准版售价268元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "恶意不息",
-          "count": 2,
-          "summary": "Moon Studios公布《恶意不息》1.0版本新职业系统，移除属性限制，玩家拾取武器即可选择24个职业并转移特性。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战地6",
-          "count": 2,
-          "summary": "《战地6》第5赛季疑似将加入《质量效应》与《死亡空间》联动饰品，相关物品可能在11月7日前后推出。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Arc Raiders",
-          "count": 1,
-          "summary": "《Arc Raiders》影视改编将偏向角色驱动的叙事，以弥补原作游戏叙事感较弱的不足。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "DayZ",
-          "count": 1,
-          "summary": "《DayZ》创作者迪恩·霍尔认为AI主导的开发流程加速了行业腐朽，并开源名为“Brutal”的C#框架以替代Unity。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "V社",
-          "count": 1,
-          "summary": "前V社编剧称加布·纽维尔将Steam按一款MMO设计，通过账号升级、游戏掉落和交易卡等功能增强用户黏性。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "不朽遗志",
-          "count": 1,
-          "summary": "《不朽遗志》首个正式更新上线，修复了第4、12章进度阻断、过场未触发及Xbox版图形异常等问题。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "任天堂明星大乱斗",
-          "count": 1,
-          "summary": "樱井政博称若初代沿用传统一对一规则，该作可能无法问世，强调原创性对游戏企划的重要性。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "卡莉亚的炼金工房",
-          "count": 1,
-          "summary": "《卡莉亚的炼金工房》据称将加入与角色体重相关的玩法机制，该调整源自粉丝投票。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达时之笛",
-          "count": 1,
-          "summary": "《塞尔达时之笛》重制版将加入全新支线任务，并推出难度更高的打靶小游戏，细节调整重燃老玩家兴趣。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师4",
-          "count": 1,
-          "summary": "BioWare前制作人Mark Darrah警告CDPR已进入超大型游戏危险区间，认为《GTA6》等超大规模项目影响了行业方向。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "我的世界",
-          "count": 1,
-          "summary": "《我的世界》上线《降世神通：传奇》附加包，玩家可修习水、火、气、土四种元素能力并对抗敌人。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战争机器",
-          "count": 1,
-          "summary": "前《战争机器》制作人劳拉·弗莱尔认为《战争机器：事变日》中主角马库斯被边缘化，剧情高光时刻被其他角色占据。",
           "summary_source": "llm"
         }
       ]
