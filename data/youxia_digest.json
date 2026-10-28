@@ -1,107 +1,208 @@
 {
-  "generated_at": "2026-10-27T01:35:01.534009+00:00",
+  "generated_at": "2026-10-28T01:20:55.510604+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-26",
-      "article_count": 93,
-      "game_count": 49,
-      "untagged_count": 23,
-      "digest": "今日游戏资讯聚焦于《影之刃零》的发售预热与口碑爆发，该作获IGN中国满分及外媒年度最佳动作游戏评价，吉田修平亦转发盛赞；同时《GTA6》线下营销引发周边竞价热潮，PS5销量逆势增长22%；《使命召唤：现代战争4》Steam首发在线破22万，口碑回暖；《蔚蓝档案》日服将移交Nexon运营；《最终幻想：共鸣》Steam峰值超《FF7重生》；《剑星》官宣与《守望先锋》联动并确认Switch 2版11月发售。",
+      "date": "2026-10-27",
+      "article_count": 54,
+      "game_count": 28,
+      "untagged_count": 15,
+      "digest": "10月27日资讯整体围绕游戏发售、更新及联动展开，涵盖影之刃零、GTA6、昭和米国物语、蕾卡、PUBG、仙剑四RE等核心作品，同时涉及余烬之镇、刺客信条系列、变形金刚重启等新动态，多款作品同步推进推进，多模块游戏进展逐步落地。",
       "digest_source": "llm",
-      "input_hash": "069d6db56c393522",
+      "input_hash": "e92917b333b0ee7c",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 6,
+          "summary": "《影之刃零》倒计时2天海报公布：虚空新造型亮相；《影之刃零》PS5版M站评分小幅下滑!但仍旧是第一梯队；《影之刃零》PC版今日开启预载！至少预留300G空间（当天共 6 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA6",
+          "count": 5,
+          "summary": "《GTA6》无缘2026金摇杆！发售日仅越过投票8天时间；《GTA6》地图大小最新爆料：步行穿越耗时长达3小时！；曝《GTA6》预购销量已达646万份！半个月新增80万份（当天共 5 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "昭和米国物语",
+          "count": 2,
+          "summary": "猫老大回应《昭和米国物语》线下试玩玩家关心的问题；《昭和米国物语》开启国内首次线下试玩 现场异常火爆。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "蕾卡的移动工坊",
+          "count": 2,
+          "summary": "《蕾卡的移动工坊》1.0 正式版现已发售，支持简体中文，优惠价 49.4 元；特别好评建造游戏《蕾卡的移动工坊》1.0正式版发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "PUBG",
+          "count": 1,
+          "summary": "《PUBG》将与“IVE”展开联动。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "仙剑四RE",
+          "count": 1,
+          "summary": "《仙剑四RE》官宣线下嘉年华！12.5公开定档PV与实机。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "余烬之镇",
+          "count": 1,
+          "summary": "《余烬之镇》抢先体验版官宣延期至2027年1月7日发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "刺客信条",
+          "count": 1,
+          "summary": "育碧将于10月29日播出《刺客信条》系列秋季更新节目。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "刺客信条：黑旗 记忆重置",
+          "count": 1,
+          "summary": "《刺客信条：黑旗 记忆重置》最终大型内容更新预告片。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "变形金刚重启",
+          "count": 1,
+          "summary": "汽车人霸天虎联手抗敌?《变形金刚重启》最终PV泄露。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "守墓人2",
+          "count": 1,
+          "summary": "万圣节？僵尸准备加班啊！《守墓人2》上线首次折扣10%！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "宝可梦大集结",
+          "count": 1,
+          "summary": "腾讯《宝可梦大集结》宣布2027年3月停服！运营近六年。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "寂静岭1：重制版",
+          "count": 1,
+          "summary": "曝Bloober Team《寂静岭1：重制版》计划2027年发售！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3",
+          "count": 1,
+          "summary": "《巫师3》重制版截图比赛官宣！最高奖品为RTX 5090。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "幻世录 重制版",
+          "count": 1,
+          "summary": "《幻世录 重制版》发布制作人感谢信 回顾上市后更新　同步赠送道具与特殊服装。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "article_count": 87,
+      "game_count": 47,
+      "untagged_count": 19,
+      "digest": "2026年10月26日，当日共发布游戏资讯87条，涉及47款游戏，整体覆盖动作、射击、模拟等不同类型，多款热门游戏在发售、联名或运营变动上展开新动态，主流游戏市场表现持续发酵，部分新品发售引发玩家关注，行业传播内容数量较平日有所变化。",
+      "digest_source": "llm",
+      "input_hash": "07abaacd12b212e9",
       "game_digests": [
         {
           "name": "影之刃零",
           "count": 17,
-          "summary": "国产黑暗武侠3A大作《影之刃零》将于10月29日全球同步登陆PC与PS5平台，M站PC版均分88、IGN中国给出满分，吉田修平转发盛赞其超越《黑神话：悟空》获年度最佳动作游戏。",
-          "summary_source": "llm"
+          "summary": "江湖大幕将启！国产3A《影之刃零》29日发售，上咪咕游戏先人一步入局；年度最佳动作游戏！《影之刃零》获外媒Dexerto盛赞；吉田修平转发《影之刃零》满分评测：年度游戏竞争者!（当天共 17 条）",
+          "summary_source": "rules"
         },
         {
           "name": "GTA6",
           "count": 4,
-          "summary": "《GTA6》在迈阿密开启大规模线下实景营销，联动热火队开设主题快闪餐厅并推出应援周边，相关物料在二手平台竞价超1000元，PS5发售6年后销量大涨22%。",
-          "summary_source": "llm"
+          "summary": "炒疯了!《GTA6》吃过的二手汉堡纸袋周边竞价超1000；PS5推出6年销量还暴涨22%！最大功臣竟不是《GTA6》；游戏进入发售倒计时！PS官方发送《GTA6》促销邮件（当天共 4 条）",
+          "summary_source": "rules"
         },
         {
           "name": "现代战争4",
           "count": 2,
-          "summary": "《使命召唤：现代战争4》Steam首发在线22万+，约为《黑色行动7》两倍，口碑回暖，但不及《黑色行动6》；玩家请愿为DMZ模式增设纯PvE选项，并发现卡谢特打印机可刷随机枪械。",
-          "summary_source": "llm"
+          "summary": "《现代战争4》玩家请愿：希望DMZ模式中加入纯PvE！；梦回DMZ！《现代战争4》卡谢特打印机可刷随机枪械。",
+          "summary_source": "rules"
         },
         {
           "name": "蔚蓝档案",
           "count": 2,
-          "summary": "《蔚蓝档案》日服将于2027年1月起移交给日本Nexon运营，官方强调玩家数据与道具资产将顺利继承，本次变动仅涉及日服，国服运营保持不变。",
-          "summary_source": "llm"
+          "summary": "《蔚蓝档案》日服将于2027年起移交日本NEXON运营；《蔚蓝档案》日服运营明年将移交Nexon 玩家数据可继承。",
+          "summary_source": "rules"
         },
         {
           "name": "4:AM",
           "count": 1,
-          "summary": "近未来反乌托邦潜行冒险游戏《4:AM》发布发售日预告，玩家扮演艾拉在“黄灾”后世界解谜奔逃，Steam页面显示即将推出。",
-          "summary_source": "llm"
+          "summary": "近未来反乌托邦+横版潜行 《4:AM》发售预告公布！。",
+          "summary_source": "rules"
         },
         {
           "name": "CS2",
           "count": 1,
-          "summary": "玩家自制玩梗地图《拯救泄密者葱哥》在CS2创意工坊意外走红，该地图由lmtlss和leander打造，还原了《GTA6》泄密风波。",
-          "summary_source": "llm"
+          "summary": "\"拯救泄密者葱哥\"！《CS2》玩家整活人质地图意外出圈。",
+          "summary_source": "rules"
         },
         {
           "name": "Doom2",
           "count": 1,
-          "summary": "海外油管博主耗时数月复刻1996年的童年电脑，并在其中发现陌生人作业与《Doom2》秘籍，引发玩家对复古游戏体验的感慨。",
-          "summary_source": "llm"
+          "summary": "玩家复刻童年老电脑!发现陌生人作业和《Doom2》秘籍。",
+          "summary_source": "rules"
         },
         {
           "name": "FF10",
           "count": 1,
-          "summary": "为纪念《最终幻想10》发售25周年，史克威尔艾尼克斯携手钟表品牌Tendence推出以提达斯、尤娜为灵感的联名腕表，全球各限量200枚。",
-          "summary_source": "llm"
+          "summary": "不提重制先送浪漫！《FF10》25周年联动主角腕表开售。",
+          "summary_source": "rules"
         },
         {
           "name": "FF共鸣",
           "count": 1,
-          "summary": "《最终幻想：共鸣》作为系列首款HD-2D作品，Steam同时在线玩家峰值突破4.2万人，超过《最终幻想7：重生》成为Steam上同时在线人数最高的《最终幻想》单人游戏。",
-          "summary_source": "llm"
+          "summary": "《FF共鸣》Steam峰值破4.2万 超《FF7重生》创IP最佳。",
+          "summary_source": "rules"
         },
         {
           "name": "Gunner, HEAT, PC!",
           "count": 1,
-          "summary": "现代坦克战争模拟游戏《Gunner, HEAT, PC!》官方subreddit更新规则，全面禁止任何由生成式AI参与制作的内容，包括文本摘要、图片编辑及模组。",
-          "summary_source": "llm"
+          "summary": "《Gunner, HEAT, PC!》官方社区全面封杀AI生成内容。",
+          "summary_source": "rules"
         },
         {
           "name": "ME5",
           "count": 1,
-          "summary": "《质量效应5》项目取消引发热议，泄露预告里无名男奎利人因短短镜头圈粉无数，粉丝惋惜并猜测他本是可攻略队友。",
-          "summary_source": "llm"
+          "summary": "项目取消引发热议！《ME5》男性奎利人短短镜头圈粉无数。",
+          "summary_source": "rules"
         },
         {
           "name": "使命召唤：现代战争4",
           "count": 1,
-          "summary": "《使命召唤：现代战争4》Steam首发在线22万+，约为黑行动7两倍，口碑回暖，但不及黑行动6。",
-          "summary_source": "llm"
+          "summary": "开门红！《使命召唤：现代战争4》Steam首发在线破22万。",
+          "summary_source": "rules"
         },
         {
           "name": "农场与盛宴",
           "count": 1,
-          "summary": "治愈系农场餐厅经营游戏《农场与盛宴》将于11月11日在Steam开启抢先体验，支持简体中文，Demo已获97%好评。",
-          "summary_source": "llm"
+          "summary": "种田、做饭、开餐厅！治愈系经营游戏《农场与盛宴》11月11日Steam抢先体验发售。",
+          "summary_source": "rules"
         },
         {
           "name": "剑星",
           "count": 1,
-          "summary": "《剑星》官方确认与《守望先锋》展开联动，合作代号“伊芙计划”，外界普遍推测伊芙将以皮肤形式加入《守望先锋》。",
-          "summary_source": "llm"
+          "summary": "暴雪再搞跨界！《剑星》×《守望先锋》联动官宣！。",
+          "summary_source": "rules"
         },
         {
           "name": "剑星：完整版",
           "count": 1,
-          "summary": "《剑星：完整版》Switch 2版新预告公开，确认将于11月5日正式发售，数字版与实体版均为59.99美元，将收录《尼尔：机械纪元》与《胜利女神：妮姬》联动内容。",
-          "summary_source": "llm"
+          "summary": "《剑星：完整版》Switch 2预告片确认尼尔联动登场。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -808,107 +909,6 @@
           "name": "塞尔达传说：时之笛",
           "count": 1,
           "summary": "任天堂承认低估市场需求，重制版及Switch2主机多地售罄。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "article_count": 42,
-      "game_count": 24,
-      "untagged_count": 10,
-      "digest": "今日游戏资讯聚焦于《GTA6》泄露事件后续影响及多款新作动态。Rockstar总监Garbut谈及泄露带来的侵入感，xQc吐槽Epic商店启动速度，玩家则澄清预告片画质降级实为滤镜错觉。国产游戏方面，《影之刃零》Steam预估销量达47万份，国内玩家占比超八成；《恶意不息》公布超4万亿种构筑组合；《战神：劳菲》实体盘亮相或为系列绝唱。此外，《现代战争4》战役获誉系列最佳，卡普空确认《怪猎荒野》DLC不新增武器。",
-      "digest_source": "llm",
-      "input_hash": "c2452aa0e39f9274",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 5,
-          "summary": "Rockstar发布全新发售预告片，玩家指出预告片中部分画面存在画质降级情况，经解释后确认这是滤镜造成的错觉，并非实际游戏画质。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 2,
-          "summary": "第三方数据平台Gamalytic更新数据显示，国产武侠动作游戏《影之刃零》Steam预购预估销量约47.35万份，平台预测游戏发售首月销量有望突破70万份，国内玩家占据绝大多数。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "恶意不息",
-          "count": 2,
-          "summary": "开发主管托马斯·马勒透露，游戏1.0正式版将提供超过4万亿种可能的构筑组合，这一数字基于24个动态职业和数百项可跨职业继承的特质。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战神：劳菲",
-          "count": 2,
-          "summary": "拥有约10万粉丝的游戏博主Genki在X平台晒出《战神：劳菲》实体盘展示盒，引发关注，该实体盘或被视为系列实体光盘的绝唱。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "现代战争4",
-          "count": 2,
-          "summary": "尽管早期Beta测试玩家数一度令人担忧，但《使命召唤：现代战争4》在抢先体验阶段赢得好评，被赞为“系列多年来最佳战役之一”，其战役带动Steam单平台玩家峰值达108,500名。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "不朽遗志",
-          "count": 1,
-          "summary": "开发商One More Level在全平台上线首个正式更新，版本号1.004，重点修复进度阻断、程序崩溃与图形异常等问题，并针对PC平台新增驱动检测功能。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "亚利桑那阳光",
-          "count": 1,
-          "summary": "开发商Vertigo Games宣布经典VR游戏《亚利桑那阳光》重制版将于2027年1月22日登陆PS5、Xbox Series X|S、Switch 2及PC平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛RE",
-          "count": 1,
-          "summary": "据Nintendo Everything报道，最新预览信息显示《塞尔达传说：时之笛》重制版将在Switch 2上加入三种显示模式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "太鼓达人",
-          "count": 1,
-          "summary": "日本知名玩家なつみかん在直播中挑战高难度段位“超人”，期间旁边小孩闯入直播画面，意外粉碎了其挑战神话。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "家庭时光",
-          "count": 1,
-          "summary": "休闲养娃模拟游戏《家庭时光》因玩家需和“狼娘”妻子养育数千只狼崽而爆火，但随后被曝出有同名作品抄袭。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：狂猎RE",
-          "count": 1,
-          "summary": "有玩家在X平台分享实机视频，展示《巫师3：狂猎重制版》中杰洛特在百果园与叶奈法重逢的场景，视频展示的叶奈法形象引发热议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "怪物史瑞克2",
-          "count": 1,
-          "summary": "Xbox商店曾短暂出现商品页面显示，2004年推出的《怪物史瑞克2：游戏版》将推出重制版并登陆现代平台，重制工作由Aspyr负责。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "怪猎荒野",
-          "count": 1,
-          "summary": "卡普空《怪物猎人：荒野》DLC“凌越”制作团队确认，该资料片不会加入第15种武器，而是推出新的武器系统“增幅动作”，现有14种武器已能覆盖各类攻击需求。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "惩罚者",
-          "count": 1,
-          "summary": "恶搞账号Culture Cave称育碧正在开发开放世界《惩罚者》游戏，目标2028年发售，该消息引发玩家在评论区集体求饶。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战地风云6",
-          "count": 1,
-          "summary": "《战地风云6》开发团队针对第五赛季新增争议外观皮肤作出回应，确认10月13日上线的麦克尼尔皮肤臂章将“security”错写成“secuty”，并拒绝移除该皮肤。",
           "summary_source": "llm"
         }
       ]

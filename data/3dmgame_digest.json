@@ -1,28 +1,141 @@
 {
-  "generated_at": "2026-10-27T01:33:58.796618+00:00",
+  "generated_at": "2026-10-28T01:17:49.573609+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-27",
-      "article_count": 35,
-      "game_count": 25,
-      "untagged_count": 6,
-      "digest": "2026年10月27日，游戏行业资讯整体围绕多款核心作品及动态展开，涵盖发售相关进展、内容优化调整、销量表现、技术评测与发行战略等多方面内容，整体行业动态呈现积极动向与多样化发展。",
+      "date": "2026-10-28",
+      "article_count": 30,
+      "game_count": 18,
+      "untagged_count": 3,
+      "digest": "2026年10月28日，游戏行业资讯共发布30条，涉及18款游戏，整体呈现多游戏运营动态与发售布局并存的态势，包含多款主流游戏发售相关进展、多款游戏优化更新更新及新内容上线动态，行业内容覆盖发售、更新、销量等多维度信息。游戏名｜GTA6 当日围绕公司员工投票及就业争议相关动态、核心发售相关安排等展开，涉及游戏为R星制作发行的《GTA6》。游戏名｜使命召唤：现代战争4 当日更新了经典小型地图“装卸货场”并开放“装卸货场24/7”轮换，涉及游戏为《使命召唤：现代战争4》。游戏名｜影之刃零 当日预售量达85万份，其中73.8%来自PC Steam，62.5%来自中国大陆等地区，涉及游戏为国产武侠动作游戏《影之刃零》。游戏名｜ARC突袭者 当日推出2.3.0更新，加入“灵魂献礼”并修复约百项问题，涉及游戏为《ARC突袭者》。游戏名｜仙剑奇侠传四：重制版 当日官宣嘉年华于12月5日公开定档，涉及游戏为《仙剑奇侠传四》重制版。游戏名｜使命召唤 当日确认系列累计收入突破400亿美元，涉及游戏为《使命召唤》系列整体，不含最新上市作品。游戏名｜刺客信条：黑旗 记忆重置 当日推出1.0.8更新，加入新游戏+与梦魇模式，涉及游戏为《刺客信条：黑旗 记忆重置》。游戏名｜塞尔达：时之笛 重制版 当日公布新视频展示回旋镖玩法，涉及游戏为《塞尔达：时之笛 重制版》。游戏名｜幻兽帕鲁 当日表明Pocketpair愿在未来以合适机会将《幻兽帕鲁》移植至Switch2，涉及游戏为《幻兽帕鲁》。游戏名｜最终幻想 当日探讨生成式AI在游戏开发中的应用，涉及游戏为《最终幻想》及《圣剑传说》系列相关。游戏名｜最终幻想7：启示 当日官方放出以陆行鸟为核心的新宣传短片，涉及游戏为《最终幻想7：启示》。游戏名｜永恒之塔2 当日推出推荐电脑并明确提供Radeon RX 9060 XT和GeForce RTX 5060两类显卡方案，涉及游戏为《永恒之塔2》。游戏名｜浪漫沙加3 错综宿命 当日公布伙伴、工房与奥义化系统等详情，涉及游戏为《浪漫沙加3 错综宿命》。游戏名｜火焰纹章：万缕千丝 当日曝出后续含11名DLC角色的后续内容，涉及游戏为《火焰纹章：万缕千丝》。游戏名｜生化危机9：安魂曲 当日声明全球销量达851万份，涉及游戏为《生化危机9：安魂曲》。",
       "digest_source": "llm",
-      "input_hash": "1d7489d174797c1d",
+      "input_hash": "aa005e694f0e7549",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 3,
-          "summary": "《GTA6》发售日请假申请量增加9%至17%；卖疯了！《GTA6》预订量估算已突破646万份；疑似《GTA6》露西亚演员直播回避相关提问。",
+          "count": 6,
+          "summary": "R星英国员工11月投票决定是否正式承认IWGB工会；曝《GTA6》评测版或将显示姓名水印 以追查泄露；Circana分析师称《GTA6》同期发售风险被夸大（当天共 6 条）",
           "summary_source": "rules"
         },
         {
           "name": "使命召唤：现代战争4",
+          "count": 3,
+          "summary": "《使命召唤：现代战争4》开放装卸货场24/7 刷迷彩更快但TTK偏长；《使命召唤：现代战争4》Xbox与Steam平台玩家数量下滑；韩东勋建议韩国总统李在明体验《使命召唤：现代战争4》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
+          "count": 3,
+          "summary": "《影之刃零》预售量超85万 中国玩家占了六成；《影之刃零》新截图和新武器实机 画质战斗双出彩；VITURE推出《影之刃零》联名XR眼镜 售价599美元。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "ARC突袭者",
+          "count": 1,
+          "summary": "《ARC突袭者》2.3.0更新上线 加入“灵魂献礼”并修复约百项问题。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "仙剑奇侠传四：重制版",
+          "count": 1,
+          "summary": "《仙剑奇侠传四：重制版》官宣嘉年华 12月5日公开定档PV实机。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤",
+          "count": 1,
+          "summary": "《使命召唤》累计收入突破400亿美元，《使命召唤：现代战争4》销量未公开。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "刺客信条：黑旗 记忆重置",
+          "count": 1,
+          "summary": "《刺客信条：黑旗 记忆重置》最终大型更新加入新游戏+与梦魇模式。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达：时之笛 重制版",
+          "count": 1,
+          "summary": "《塞尔达：时之笛 重制版》新视频 回旋镖玩法展示。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "幻兽帕鲁",
+          "count": 1,
+          "summary": "Pocketpair仍希望《幻兽帕鲁》能登陆NS2。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "最终幻想",
+          "count": 1,
+          "summary": "《最终幻想》老将：AI提效 但原创离不开人类创造力。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "最终幻想7：启示",
+          "count": 1,
+          "summary": "《最终幻想7：启示》新视频 骑陆行鸟探索米德加。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "永恒之塔2",
+          "count": 1,
+          "summary": "Mouse Computer开售《永恒之塔2》推荐电脑 提供两种显卡方案。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "浪漫沙加3 错综宿命",
+          "count": 1,
+          "summary": "《浪漫沙加3 错综宿命》公开伙伴、工房与奥义化系统详情。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "火焰纹章：万缕千丝",
+          "count": 1,
+          "summary": "曝《火焰纹章：万缕千丝》后续有11名DLC角色。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "生化危机9：安魂曲",
+          "count": 1,
+          "summary": "卡普空称《生化危机9：安魂曲》全球销量达到851万份。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "article_count": 135,
+      "game_count": 89,
+      "untagged_count": 26,
+      "digest": "10月27日 3DMGame 共 135 条新闻，涉及 89 款游戏。报道最集中的是《GTA6》（7 条）、《使命召唤：现代战争4》（6 条）、《英雄联盟》（4 条）。另有 26 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "4833c7c65485a447",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 7,
+          "summary": "消息称《GTA6》评测码已发放，11月18日解禁；Rockstar确认《GTA6》部分剧情任务可选择多条路线；《GTA6》周边传出开售消息 群星原创专辑同步预购（当天共 7 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 6,
+          "summary": "消息称《使命召唤：现代战争4》DMZ第1赛季将加入偏重PvP的小型地图XO1；动视测试《使命召唤：现代战争4》跨平台平衡 匹配规则待公布；《使命召唤：现代战争4》首发登顶英国实体游戏周榜！（当天共 6 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "英雄联盟",
+          "count": 4,
+          "summary": "《英雄联盟》2026全球总决赛Team Liquid横扫AL！；Team Vitality允许《英雄联盟》辅助Fleshy接洽新队伍！；BLG击败KCorp拿下《英雄联盟》全球赛第二胜！对手落入1胜2负组（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说",
           "count": 2,
-          "summary": "拉瑞安发行总监称《使命召唤：现代战争4》开场20分钟令人惊艳；《使命召唤：现代战争4》M站获86分 近15年评分最高正传。",
+          "summary": "HORI公布《塞尔达传说》Switch 2配件！11月日本上市；《塞尔达传说》40周年版Nintendo Switch 2传出预购取消。",
           "summary_source": "rules"
         },
         {
@@ -32,75 +145,63 @@
           "summary_source": "rules"
         },
         {
+          "name": "昭和米国物语",
+          "count": 2,
+          "summary": "《昭和米国物语》试玩展示多种武器 荒诞混搭笑料密集；《昭和米国物语》试玩实感曝光 战斗机制特点鲜明。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "生化危机",
+          "count": 2,
+          "summary": "卡普空高管称《生化危机》当前故事线或在未来十年收束；卡普空财务数据称《生化危机》累计销量达2.18亿套！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "质量效应",
+          "count": 2,
+          "summary": "玩家联署拯救《质量效应》 签名超24万并投放时代广场广告；挽救《质量效应》请愿破20万 玩家要求EA推进新作。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "质量效应5",
+          "count": 2,
+          "summary": "作曲家Austin Wintory公开《质量效应5》提案配乐，全长约22分钟；生软前总监称EA不太可能出售《质量效应5》项目或IP。",
+          "summary_source": "rules"
+        },
+        {
           "name": "ARC Raiders",
           "count": 1,
           "summary": "玩家建议《ARC Raiders》保留PvE模式但降低战利品收益。",
           "summary_source": "rules"
         },
         {
-          "name": "余烬之镇",
+          "name": "DO NOT MISS",
           "count": 1,
-          "summary": "《余烬之镇》抢先体验延期至明年1月7日 首发并入后续更新。",
+          "summary": "竞技场FPS《DO NOT MISS》公布 打空一枪下波多一名敌人。",
           "summary_source": "rules"
         },
         {
-          "name": "刺客信条",
+          "name": "EA SPORTS FC 27",
           "count": 1,
-          "summary": "育碧10月29日介绍《刺客信条》系列进展 确认没有重大揭晓。",
+          "summary": "《EA SPORTS FC 27》1.1.0版更新修复生涯模式、终极球队等大量问题。",
           "summary_source": "rules"
         },
         {
-          "name": "塞尔达传说：命运之镜",
+          "name": "Fishpals",
           "count": 1,
-          "summary": "非官方同人游戏《塞尔达传说：命运之镜》首章2027年2月免费推出。",
+          "summary": "多人休闲冒险游戏《Fishpals》10月30日免费上线 支持16人探索。",
           "summary_source": "rules"
         },
         {
-          "name": "寂静岭1：重制版",
+          "name": "Jono",
           "count": 1,
-          "summary": "曝《寂静岭1：重制版》将于2027年推出 两名演员参与演出。",
+          "summary": "《Jono》全球同时仅一人操作 每次一分钟挑战百万房间。",
           "summary_source": "rules"
         },
         {
-          "name": "寂静岭：小镇陷落",
+          "name": "Life Is a Dungeon: Lean into It.",
           "count": 1,
-          "summary": "科乐美隔离《寂静岭：小镇陷落》等项目团队以避免创意重合。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "日落过载",
-          "count": 1,
-          "summary": "《日落过载》发行约12年后Steam Deck状态升为“可玩”。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "昭和米国物语",
-          "count": 1,
-          "summary": "《昭和米国物语》试玩实感曝光 战斗机制特点鲜明。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "最终幻想7：启示",
-          "count": 1,
-          "summary": "《最终幻想7：启示》将重返米德加 首轮内容量接近《重生》。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "漫威刀锋战士",
-          "count": 1,
-          "summary": "微软将Arkane磋商期限延至12月13日 《漫威刀锋战士》命运未定。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "漫威宇宙入侵：毁灭博士城堡之围",
-          "count": 1,
-          "summary": "《漫威宇宙入侵：毁灭博士城堡之围》11月10日上线并加入肉鸽模式。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "犹大",
-          "count": 1,
-          "summary": "《犹大》以“叙事乐高”响应玩家选择 角色关系可能转向敌对。",
+          "summary": "怪异角色闯地牢！《Life Is a Dungeon: Lean into It.》登陆Steam。",
           "summary_source": "rules"
         }
       ]
@@ -909,107 +1010,6 @@
           "name": "出行路线",
           "count": 1,
           "summary": "竞速街机游戏《出行路线》PC版Steam创意工坊上线，支持玩家自制模组，续作《出行路线2》处于早期Alpha开发阶段，官方首次公布主角姓名为托尼与安妮。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "article_count": 23,
-      "game_count": 18,
-      "untagged_count": 4,
-      "digest": "10月18日游戏行业资讯聚焦于《GTA6》预告中NOOSE特警组织的回归确认，以及《GTA：罪恶都市》主创丹·豪泽对雷·利奥塔配音的高度评价。此外，《使命召唤：现代战争4》发售推动Steam在线人数突破10万，而《凡人修仙传》动画则通过海信电视举办线下观影会提升大屏体验。其他方面，Team Vitality遭遇总部洗劫，《反恐精英2》冠军奖杯被盗，开发商Funcom宣布裁员并转向《沙丘：觉醒》的长线运营。",
-      "digest_source": "llm",
-      "input_hash": "95ad2cf53926115f",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "预告确认NOOSE特警组织将在新作中回归，该组织参考美国国土安全部门，最早在《侠盗猎车4》中登场，目前尚无关于其具体系统设计的官方说明。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA：罪恶都市",
-          "count": 1,
-          "summary": "Rockstar联合创始人丹·豪泽自评该作剧本糟糕，并盛赞雷·利奥塔的配音让台词焕发光彩，认为正是演员的表演赋予了游戏灵魂。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "发售推动Steam在线人数达到10万8500人，超越了《使命召唤：黑色行动7》的纪录，被评价为多年来系列最佳战役。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "凡人",
-          "count": 1,
-          "summary": "海信电视携手《凡人》动画举办线下粉丝观影会，利用100英寸海信电视E5S Pro小墨解锁大屏追番新体验，沉浸式感受“慕兰之战”高能剧集。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "反恐精英2",
-          "count": 1,
-          "summary": "Team Vitality位于巴黎的电竞体验中心遭洗劫，包括《反恐精英2》战队今年9月获得的冠军奖杯在内的设备被盗，场馆随后暂停营业。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "女神异闻录6",
-          "count": 1,
-          "summary": "前主创桥野桂等探讨系列精神内核，强调需“与时俱进”以滋养玩家人生，避免作品陷入停滞，为续作发展指明方向。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "家庭时光",
-          "count": 1,
-          "summary": "兽娘殖民模拟游戏《家庭时光》遭同名抄袭，凭借兽耳设定和竞技式养娃玩法在Steam愿望单榜升至第46位，引发市场关注。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "尼尔",
-          "count": 1,
-          "summary": "消息人士称Square Enix正在开发《尼尔》系列新作，项目已进入制作阶段，但正式名称、玩法及发售窗口均未披露。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "幽灵线：东京",
-          "count": 1,
-          "summary": "加入GOG保存计划并移除Bethesda.NET集成，减少对外部账户服务的依赖，承诺通过补丁维护游戏长期兼容性。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "怪物史瑞克2",
-          "count": 1,
-          "summary": "重制版由Aspyr操刀，将登陆现代平台，支持4K分辨率、拍照模式及作弊模式，原版经典内容将得到保留。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "恶魔城：贝尔蒙特的诅咒",
-          "count": 1,
-          "summary": "开发团队称角色设计刻意营造吸睛风格，并对玩家创作的“花痴向”同人作品表示自豪，提议设立“性感老爸”奖项。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "沙丘：觉醒",
-          "count": 1,
-          "summary": "开发商Funcom宣布裁员并启动架构重组，CEO鲁伊·卡赛斯将离任，公司重心全面转向《沙丘：觉醒》与《流放者柯南》的长线运营。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "消逝的光芒",
-          "count": 1,
-          "summary": "前主管泰蒙·斯梅克塔拉入职Bloober Team发行部，致力于挖掘恐怖游戏领域的新锐顶尖人才，寻找“下一个小岛秀夫”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "街头霸王",
-          "count": 1,
-          "summary": "新真人电影烂番茄新鲜度45%，观众评分82%，玩家评价褒贬不一，认为该片虽不算优秀但作为游改片尚可接受。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "赛博朋克：边缘行者",
-          "count": 1,
-          "summary": "第二季制作团队利用《赛博朋克2077》的“虚拟相机”在夜之城取景，主创表示扳机社成员比他们更了解这座城市。",
           "summary_source": "llm"
         }
       ]

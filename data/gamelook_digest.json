@@ -1,18 +1,37 @@
 {
-  "generated_at": "2026-10-27T01:39:45.442892+00:00",
+  "generated_at": "2026-10-28T01:25:25.678065+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-10-27",
-      "article_count": 2,
-      "game_count": 0,
-      "untagged_count": 2,
-      "digest": "今日游戏行业资讯主要聚焦于宏观政策与市场动态，未涉及具体游戏产品的动态更新。GameLook 共收录两条新闻，分别涉及中国游戏版号审批的最新进展以及全球游戏市场的最新营收数据，整体行业氛围平稳。",
+      "article_count": 9,
+      "game_count": 3,
+      "untagged_count": 6,
+      "digest": "今日游戏行业资讯聚焦于《再再启程》获Steam特别好评、《蔚蓝档案》日服代理权被NEXON收回以及《赛博朋克2077》Steam在线人数突破18万等动态，整体呈现单款游戏热度与运营变动并存的局面。",
       "digest_source": "llm",
-      "input_hash": "ade6677ddd051f19",
-      "game_digests": []
+      "input_hash": "909f555f7196b3f6",
+      "game_digests": [
+        {
+          "name": "再再启程",
+          "count": 1,
+          "summary": "由知名UP主王老菊创办的未来科技工作室推出的首款游戏《再再启程》正式发售，获得Steam“特别好评”评价。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "蔚蓝档案",
+          "count": 1,
+          "summary": "NEXON在官方直播中宣布收回《蔚蓝档案》日服代理权，悠星将失去运营5年的该游戏日服代理权。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛博朋克2077",
+          "count": 1,
+          "summary": "《赛博朋克2077》Steam在线人数突破18万，而其动画第二季在豆瓣的评分仅为5.5分。",
+          "summary_source": "llm"
+        }
+      ]
     },
     {
       "date": "2026-10-26",
@@ -71,8 +90,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "2026年10月24日，GameLook 共收录1条行业资讯，内容聚焦于游戏行业宏观层面的最新动态，未涉及具体游戏产品的发售、更新或运营信息。按报道条数排序的游戏（含代表性标题与摘要）：",
-      "digest_source": "llm",
+      "digest": "10月24日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「西山居“剑侠收官之作”到底怎样？对话主创：“PC占主力，首周超预期”」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
       "input_hash": "b31ba44ce119e34e",
       "game_digests": []
     },
