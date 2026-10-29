@@ -1,28 +1,81 @@
 {
-  "generated_at": "2026-10-28T01:27:19.869299+00:00",
+  "generated_at": "2026-10-29T02:02:45.765386+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-28",
-      "article_count": 2,
+      "date": "2026-10-29",
+      "article_count": 6,
       "game_count": 2,
-      "untagged_count": 0,
-      "digest": "今日游戏行业资讯聚焦于莉莉莉新作《塔塔冒险队》的深度测评与《恶魔城：贝尔蒙多的诅咒》的口碑崩盘。莉莉莉发行的萌系数值卡牌游戏《塔塔冒险队》上线后引发关注，测评涵盖其宣发舆情、产品结构及商业化等内容；而《恶魔城：贝尔蒙多的诅咒》则因口碑两极遭遇大量差评，引发业界对“恶魔城Like”品类发展潜力的讨论。",
+      "untagged_count": 4,
+      "digest": "2026年10月29日，当日游资网新闻共6条，涉及游戏2款，其中未指向具体游戏的新闻4条。相关游戏动态主要围绕虚构角色题材与文化表达展开，分析玩家兴趣成因及创作方向，整体内容聚焦于游戏叙事层面的深度探讨。",
       "digest_source": "llm",
-      "input_hash": "b1ada383245e9377",
+      "input_hash": "71ce0e4e72f2dac7",
+      "game_digests": [
+        {
+          "name": "博德之门3",
+          "count": 1,
+          "summary": "从《博德之门3》到《这是我的战争》，玩家为什么会在乎一个虚构的人？。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "燕云十六声",
+          "count": 1,
+          "summary": "从构图到运镜：一堂藏在《燕云十六声》里的电影镜头课。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "article_count": 12,
+      "game_count": 7,
+      "untagged_count": 5,
+      "digest": "今日游戏行业资讯聚焦新品发售与口碑争议，莉莉莉丝新作《塔塔冒险队》获体验测评，Hewer's Workshop策略肉鸽《天外来袭》定档11.26发售，PandaKoala Studio太空增量游戏《成为黑洞》开放Demo。此外，《崩坏：星穹铁道》泄密案宣判，新作《恶魔城：贝尔蒙多的诅咒》口碑翻车，而《银松镇》与《童话冒险团》则分别因开发团队背景与细节设计受到关注。",
+      "digest_source": "llm",
+      "input_hash": "a5da572b664e8285",
       "game_digests": [
         {
           "name": "塔塔冒险队",
           "count": 1,
-          "summary": "莉莉莉发行的萌系数值卡牌游戏《塔塔冒险队》上线，体验测评涵盖其宣发舆情、产品结构、弹珠机核心玩法及商业化等内容。",
+          "summary": "莉莉莉丝开发的萌系数值卡牌游戏《塔塔冒险队》上线，体验测评涵盖上线表现、宣发舆情、产品结构、弹珠机核心玩法及商业化等内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "天外来袭",
+          "count": 1,
+          "summary": "像素风类Rogue回合制策略游戏《天外来袭》定档11月26日登陆Steam，其试玩版在10月新品节收获100%好评，目前仍可下载体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "崩坏：星穹铁道",
+          "count": 1,
+          "summary": "非法获取并破解《崩坏：星穹铁道》测试版本内容的泄密人员被判赔偿100万元。",
           "summary_source": "llm"
         },
         {
           "name": "恶魔城",
           "count": 1,
-          "summary": "《恶魔城：贝尔蒙多的诅咒》口碑两极遭遇大量差评，引发业界对其翻车原因及“恶魔城Like”品类发展潜力的探讨。",
+          "summary": "《恶魔城：贝尔蒙多的诅咒》口碑两极遭遇大量差评，分析其翻车原因，同时以《银松镇》为例探讨“恶魔城Like”品类的发展潜力。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "成为黑洞",
+          "count": 1,
+          "summary": "PandaKoala Studio开发的太空增量游戏《成为黑洞》计划2026年11月12日登陆Steam，现开放免费Demo，支持短局循环与跨局升级。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "童话冒险团",
+          "count": 1,
+          "summary": "童话风Q版小队肉鸽闯关游戏《童话冒险团》获好评，战斗参考《弹壳特工队》模型，可组5人小队做深度BD，含弹珠机抽卡等特色。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "银松镇",
+          "count": 1,
+          "summary": "生存恐怖银河城游戏《银松镇》于10月8日登陆多平台，开发商WEG为远程办公团队，成员多有3A开发经验，首作质量不俗。",
           "summary_source": "llm"
         }
       ]
@@ -274,41 +327,6 @@
           "name": "疯狂水世界",
           "count": 1,
           "summary": "益世界旗下《疯狂水世界》上线近一年强势冲榜，iOS游戏畅销榜最高升至第17名，游戏内可追AI短剧。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-19",
-      "article_count": 7,
-      "game_count": 4,
-      "untagged_count": 3,
-      "digest": "今日游戏资讯聚焦于独立游戏与电竞赛事，SCS 2026年度总决赛在成都落幕，SNK选手MadkoF、XiaoHai分获《拳皇15》《饿狼传说：群狼之城》冠军。此外，独立游戏领域有《塔防进化》因高难度与广告机制引发关注，《杀戮尖塔》被主流大模型挑战最高难度，而《狂热运输3》则获简评肯定。",
-      "digest_source": "llm",
-      "input_hash": "002dd5ebe9f1c0fc",
-      "game_digests": [
-        {
-          "name": "塔防进化",
-          "count": 1,
-          "summary": "《塔防进化》是一款二合+塔防融合的微恐题材小游戏，无养成系统，首关或需看广告，以难度驱动激发玩家挑战欲。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "拳皇15",
-          "count": 1,
-          "summary": "SCS 2026年度总决赛在成都举行，SNK选手MadkoF、XiaoHai分获《拳皇15》《饿狼传说：群狼之城》冠军，揭晓SWC 2026直通资格。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "杀戮尖塔",
-          "count": 1,
-          "summary": "主流大模型挑战《杀戮尖塔》最高难度，结果全都死于太过稳健，被评价为“血量只有快没有的时候才是有用的资源”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "狂热运输3",
-          "count": 1,
-          "summary": "《狂热运输3》获简评肯定，被评价为深耕交通运输模拟品类的瑞士独立工作室Urban Games推出的自成一派的交通运输模拟佳作。",
           "summary_source": "llm"
         }
       ]

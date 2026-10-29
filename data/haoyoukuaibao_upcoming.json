@@ -1,10 +1,25 @@
 {
-  "crawled_at": "2026-10-28T01:06:35.905007+00:00",
+  "crawled_at": "2026-10-29T01:41:52.115791+00:00",
   "days": [
     {
-      "date": "2026-10-28",
-      "date_label": "10月28日 今天",
+      "date": "2026-10-29",
+      "date_label": "10月29日 今天",
       "games": [
+        {
+          "game_name": "影之刃零-10月29日上线",
+          "categories": [
+            "编辑推荐",
+            "PC游戏",
+            "第三人称"
+          ],
+          "score": "9.2",
+          "event_desc": "10:00 正式上线；预下载已开启",
+          "status_tag": "PC/主机",
+          "detail_url": "https://www.3839.com/a/170406.htm",
+          "publisher": "灵游坊",
+          "reservation_count": "32927",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "无人深空",
           "categories": [
@@ -17,132 +32,22 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/204716.htm",
           "publisher": "Hello Games",
-          "reservation_count": "19643",
+          "reservation_count": "20108",
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "指尖大冒险",
-          "categories": [
-            "角色扮演",
-            "合成",
-            "冒险"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/202968.htm",
-          "publisher": null,
-          "reservation_count": "100",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "武道风云",
+          "game_name": "武道风云-预下载",
           "categories": [
             "卡牌",
             "冒险",
             "江湖"
           ],
-          "score": "7.8",
-          "event_desc": "10:00 预下载，10月29日上线",
+          "score": "7.1",
+          "event_desc": "10:00 正式上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/175721.htm",
-          "publisher": null,
-          "reservation_count": "987",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "迷失",
-          "categories": [
-            "模拟经营",
-            "策略",
-            "SLG"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/203782.htm",
-          "publisher": "咪咕互动娱乐有限公司",
-          "reservation_count": "100",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "魔神英雄传-预下载",
-          "categories": [
-            "放置",
-            "卡牌",
-            "冒险"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/199533.htm",
           "publisher": null,
           "reservation_count": null,
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "英雄与远征",
-          "categories": [
-            "休闲",
-            "策略",
-            "竞技"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/186658.htm",
-          "publisher": "北京真知新游科技有限公司",
-          "reservation_count": "96",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "BLEACH Mirrors High",
-          "categories": [
-            "动漫改编",
-            "二次元"
-          ],
-          "score": "9.1",
-          "event_desc": "海外上线，具体几点待定",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/192256.htm",
-          "publisher": null,
-          "reservation_count": "2571",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "date_label": "10月29日 明天",
-      "games": [
-        {
-          "game_name": "影之刃零-10月29日上线",
-          "categories": [
-            "编辑推荐",
-            "PC游戏",
-            "第三人称"
-          ],
-          "score": "9.3",
-          "event_desc": "PC端正式上线",
-          "status_tag": "PC/主机",
-          "detail_url": "https://www.3839.com/a/170406.htm",
-          "publisher": "灵游坊",
-          "reservation_count": "32813",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "武道风云",
-          "categories": [
-            "卡牌",
-            "冒险",
-            "江湖"
-          ],
-          "score": "7.8",
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/175721.htm",
-          "publisher": null,
-          "reservation_count": "987",
           "has_afk_grinding_tag": false
         },
         {
@@ -153,7 +58,7 @@
             "策略"
           ],
           "score": null,
-          "event_desc": "10:30 正式上线",
+          "event_desc": "09:30 正式上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/182894.htm",
           "publisher": "澄游",
@@ -172,14 +77,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202811.htm",
           "publisher": "深圳飞行游戏科技有限公司",
-          "reservation_count": "50",
+          "reservation_count": "76",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-10-30",
-      "date_label": "10月30日 后天",
+      "date_label": "10月30日 明天",
       "games": [
         {
           "game_name": "我家猫猫是女仆！",
@@ -193,7 +98,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/204538.htm",
           "publisher": "土豆花制作组",
-          "reservation_count": "1820",
+          "reservation_count": "1888",
           "has_afk_grinding_tag": false
         },
         {
@@ -208,14 +113,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202811.htm",
           "publisher": "深圳飞行游戏科技有限公司",
-          "reservation_count": "50",
+          "reservation_count": "76",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-10-31",
-      "date_label": "10月31日 周六",
+      "date_label": "10月31日 后天",
       "games": [
         {
           "game_name": "金海豚奖游戏开发大赛",
@@ -246,7 +151,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202509.htm",
           "publisher": "深圳市多趣互娱网络科技有限公司",
-          "reservation_count": "156",
+          "reservation_count": "170",
           "has_afk_grinding_tag": true
         }
       ]
@@ -267,8 +172,74 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202509.htm",
           "publisher": "深圳市多趣互娱网络科技有限公司",
-          "reservation_count": "156",
+          "reservation_count": "170",
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "date_label": "11月04日 下周三",
+      "games": [
+        {
+          "game_name": "炫龙记",
+          "categories": [
+            "放置",
+            "角色扮演",
+            "养成"
+          ],
+          "score": "10.0",
+          "event_desc": "09:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/204664.htm",
+          "publisher": null,
+          "reservation_count": "3183",
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "魂战群英",
+          "categories": [
+            "卡牌",
+            "角色扮演",
+            "悬疑"
+          ],
+          "score": null,
+          "event_desc": "10:00 预下载，11月5日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/203454.htm",
+          "publisher": null,
+          "reservation_count": "88",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "阿比斯少年冒险团",
+          "categories": [
+            "Roguelike",
+            "冒险",
+            "收集"
+          ],
+          "score": "9.1",
+          "event_desc": "正式上线，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/155327.htm",
+          "publisher": "维克斯游戏",
+          "reservation_count": "2601",
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "迪士尼 闪耀之星",
+          "categories": [
+            "角色扮演",
+            "剧情",
+            "养成"
+          ],
+          "score": null,
+          "event_desc": "海外上线，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/199664.htm",
+          "publisher": "coly Inc.",
+          "reservation_count": "498",
+          "has_afk_grinding_tag": false
         }
       ]
     }

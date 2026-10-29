@@ -1,107 +1,208 @@
 {
-  "generated_at": "2026-10-28T01:20:55.510604+00:00",
+  "generated_at": "2026-10-29T01:55:02.966884+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-27",
-      "article_count": 54,
-      "game_count": 28,
-      "untagged_count": 15,
-      "digest": "10月27日资讯整体围绕游戏发售、更新及联动展开，涵盖影之刃零、GTA6、昭和米国物语、蕾卡、PUBG、仙剑四RE等核心作品，同时涉及余烬之镇、刺客信条系列、变形金刚重启等新动态，多款作品同步推进推进，多模块游戏进展逐步落地。",
+      "date": "2026-10-28",
+      "article_count": 82,
+      "game_count": 42,
+      "untagged_count": 23,
+      "digest": "2026年10月28日，行业整体呈现多游戏动态与重大合作信息并发的态势，涵盖主流大作发售进展、技术路线探讨、行业营收与销量数据披露及外挂案侦破等关键资讯，各类内容围绕游戏研发、发售及市场表现展开，对行业动态追踪与游戏产品市场表现观察具有参考价值。",
       "digest_source": "llm",
-      "input_hash": "e92917b333b0ee7c",
+      "input_hash": "13fcdf0ea69bf02a",
       "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 10,
+          "summary": "《GTA6》登上《Edge》特别版封面 主角水上飞机同框；《GTA6》主机版技术路线分化:索尼卖体验 微软靠生态；《GTA6》来了也没用！9月Xbox美国销量同比暴跌27%（当天共 10 条）",
+          "summary_source": "rules"
+        },
         {
           "name": "影之刃零",
           "count": 6,
-          "summary": "《影之刃零》倒计时2天海报公布：虚空新造型亮相；《影之刃零》PS5版M站评分小幅下滑!但仍旧是第一梯队；《影之刃零》PC版今日开启预载！至少预留300G空间（当天共 6 条）",
+          "summary": "梁其伟公布《影之刃零》发售准备细节：首日补丁约5G；江湖见！梁其伟长文致谢玩家，《影之刃零》明日上线！；《影之刃零》倒计时1天最终海报！10月29日10点解锁（当天共 6 条）",
           "summary_source": "rules"
+        },
+        {
+          "name": "FF7启示",
+          "count": 3,
+          "summary": "《FF7启示》新实机发布！骚气粉色陆行鸟带你地下探索；《FF7启示》新爆料：蒂法母亲西娅洛克哈特或将亮相；《FF7启示》总监通关了46次！通关时长超过100小时。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "最终幻想：共鸣",
+          "count": 2,
+          "summary": "《最终幻想：共鸣》贺图公开！十六代画师接力收官；《最终幻想：共鸣》预估销量40万份！营收2000万美元。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "2077",
+          "count": 1,
+          "summary": "18.7万玩家重返夜之城!《2077》Steam在线人数创新高。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Culdcept BEGINS（卡片召唤师 起源）",
+          "count": 1,
+          "summary": "累计出货量突破10万份的《Culdcept BEGINS（卡片召唤师 起源）》 Steam版今日10。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "FF：共鸣",
+          "count": 1,
+          "summary": "《FF：共鸣》登上日本Steam买断制榜首位！全球第四。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "PlayStation：最初的30年",
+          "count": 1,
+          "summary": "PS 30周年纪念实体书《PlayStation：最初的30年》公布。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "三角洲行动",
+          "count": 1,
+          "summary": "游戏史最大外挂案告破!《三角洲行动》DMA黑产链被扒。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "上古世纪 编年史",
+          "count": 1,
+          "summary": "XLGames宣布《上古世纪 编年史》11月4日开启抢先体验。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "丝之歌",
+          "count": 1,
+          "summary": "曝《丝之歌》DLC亮相任天堂发布会！今晚拭目以待。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "仙剑奇侠传四重制版",
+          "count": 1,
+          "summary": "幼态网红脸！《仙剑奇侠传四重制版》角色建模引争议。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤",
+          "count": 1,
+          "summary": "《使命召唤》系列总收入超400亿美元 现代战争4收官！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "全境封锁",
+          "count": 1,
+          "summary": "Massive宣布《全境封锁》系列累计玩家数达到5000万！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "剑星：血雨",
+          "count": 1,
+          "summary": "《剑星：血雨》TGA有新动作？伊薇或将曝光更多素材。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "article_count": 68,
+      "game_count": 35,
+      "untagged_count": 19,
+      "digest": "10月27日游戏资讯聚焦多款重磅新作动态，《影之刃零》开启PC预载并公布虚空新造型，PS5版媒体评分小幅波动；《GTA6》无缘金摇杆奖，地图规模与预购销量持续引发热议；《昭和米国物语》线下试玩火爆，制作人回应排队问题；《蕾卡的移动工坊》1.0正式版发售获特别好评；此外《宝可梦大集结》宣布2027年停服，《天国拯救2》工作室遭黑客攻击。",
+      "digest_source": "llm",
+      "input_hash": "6836fe0dbab1b38b",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 7,
+          "summary": "PC版今日开启预载，官方公布虚空新造型海报，PS5版媒体评分小幅下滑但仍处第一梯队。",
+          "summary_source": "llm"
         },
         {
           "name": "GTA6",
-          "count": 5,
-          "summary": "《GTA6》无缘2026金摇杆！发售日仅越过投票8天时间；《GTA6》地图大小最新爆料：步行穿越耗时长达3小时！；曝《GTA6》预购销量已达646万份！半个月新增80万份（当天共 5 条）",
-          "summary_source": "rules"
+          "count": 6,
+          "summary": "无缘2026金摇杆奖，地图步行穿越耗时约3小时，预购销量已达646万份。",
+          "summary_source": "llm"
         },
         {
           "name": "昭和米国物语",
-          "count": 2,
-          "summary": "猫老大回应《昭和米国物语》线下试玩玩家关心的问题；《昭和米国物语》开启国内首次线下试玩 现场异常火爆。",
-          "summary_source": "rules"
+          "count": 3,
+          "summary": "在北京核聚变展会完成国内首次线下试玩，现场异常火爆，制作人回应排队及朋友试玩问题。",
+          "summary_source": "llm"
         },
         {
           "name": "蕾卡的移动工坊",
           "count": 2,
-          "summary": "《蕾卡的移动工坊》1.0 正式版现已发售，支持简体中文，优惠价 49.4 元；特别好评建造游戏《蕾卡的移动工坊》1.0正式版发售。",
-          "summary_source": "rules"
+          "summary": "1.0正式版现已发售，支持简体中文，优惠价49.4元，目前Steam好评率超过80%。",
+          "summary_source": "llm"
         },
         {
           "name": "PUBG",
           "count": 1,
-          "summary": "《PUBG》将与“IVE”展开联动。",
-          "summary_source": "rules"
+          "summary": "宣布将与韩国组合“IVE”展开联动，以代表曲“LOVE DIVE”为主题推出视频及游戏内内容。",
+          "summary_source": "llm"
         },
         {
           "name": "仙剑四RE",
           "count": 1,
-          "summary": "《仙剑四RE》官宣线下嘉年华！12.5公开定档PV与实机。",
-          "summary_source": "rules"
+          "summary": "官宣将于12月5日在安徽合肥举办“寻仙之夜”嘉年华，公开定档PV与实机演示。",
+          "summary_source": "llm"
         },
         {
           "name": "余烬之镇",
           "count": 1,
-          "summary": "《余烬之镇》抢先体验版官宣延期至2027年1月7日发售。",
-          "summary_source": "rules"
+          "summary": "抢先体验版官宣延期至2027年1月7日发售，原计划首发内容将并入首发版本。",
+          "summary_source": "llm"
         },
         {
           "name": "刺客信条",
           "count": 1,
-          "summary": "育碧将于10月29日播出《刺客信条》系列秋季更新节目。",
-          "summary_source": "rules"
+          "summary": "育碧将于10月29日播出秋季更新节目，由内容负责人介绍现有项目最新进展。",
+          "summary_source": "llm"
         },
         {
           "name": "刺客信条：黑旗 记忆重置",
           "count": 1,
-          "summary": "《刺客信条：黑旗 记忆重置》最终大型内容更新预告片。",
-          "summary_source": "rules"
+          "summary": "版本号1.0.8的最终大型内容更新已于10月27日全平台正式推送。",
+          "summary_source": "llm"
         },
         {
           "name": "变形金刚重启",
           "count": 1,
-          "summary": "汽车人霸天虎联手抗敌?《变形金刚重启》最终PV泄露。",
-          "summary_source": "rules"
+          "summary": "此前宣告开发终止的第三人称线上动作游戏泄露了从未公开的最终预告片。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "天国拯救2",
+          "count": 1,
+          "summary": "开发商战马工作室确认遭遇网络攻击，内部数据遭非法入侵，团队正在评估损失。",
+          "summary_source": "llm"
         },
         {
           "name": "守墓人2",
           "count": 1,
-          "summary": "万圣节？僵尸准备加班啊！《守墓人2》上线首次折扣10%！。",
-          "summary_source": "rules"
+          "summary": "将于10月27日至11月3日开启万圣节限时优惠，8天九折。",
+          "summary_source": "llm"
         },
         {
           "name": "宝可梦大集结",
           "count": 1,
-          "summary": "腾讯《宝可梦大集结》宣布2027年3月停服！运营近六年。",
-          "summary_source": "rules"
+          "summary": "宣布将于2027年3月23日停服，Nintendo Switch版与移动端版本同步终止服务。",
+          "summary_source": "llm"
         },
         {
           "name": "寂静岭1：重制版",
           "count": 1,
-          "summary": "曝Bloober Team《寂静岭1：重制版》计划2027年发售！。",
-          "summary_source": "rules"
+          "summary": "据传计划于2027年发售，Gabrielle Fritz与Jade Matthew已参与演出。",
+          "summary_source": "llm"
         },
         {
           "name": "巫师3",
           "count": 1,
-          "summary": "《巫师3》重制版截图比赛官宣！最高奖品为RTX 5090。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "幻世录 重制版",
-          "count": 1,
-          "summary": "《幻世录 重制版》发布制作人感谢信 回顾上市后更新　同步赠送道具与特殊服装。",
-          "summary_source": "rules"
+          "summary": "官方宣布举办重制版截图比赛，最高奖品为RTX 5090显卡。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -808,107 +909,6 @@
           "name": "地城安保公司",
           "count": 1,
           "summary": "轻肉鸽塔防X基建X自走棋游戏参加Steam十月新品节，Demo已更新官中。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-19",
-      "article_count": 97,
-      "game_count": 56,
-      "untagged_count": 28,
-      "digest": "今日游戏资讯聚焦《GTA6》发售倒计时，彭博社预估其首季度销量4000万份，BBC则探讨虚拟恋爱的伦理争议。此外，《使命召唤》系列新作频传破解消息，而《最终幻想7：启示》总监确认开局可选硬战模式，任天堂亦因《时之笛》重制版缺货致歉。",
-      "digest_source": "llm",
-      "input_hash": "11d2fc94a4550b12",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 11,
-          "summary": "TGA官方提醒发售倒计时一个月，彭博社预估首季度销量4000万份，BBC则探讨沉浸式虚拟恋爱的伦理争议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "现代战争4",
-          "count": 3,
-          "summary": "PC版因画面失真被锁DLSS，开发组解释为维持光追画质稳定；单人战役遭破解可离线启动，通关奖励可用于DMZ。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "给他爱5",
-          "count": 2,
-          "summary": "玩家复刻《GTA6》预告片展现巨大画面差距，AI模组让NPC开口聊天。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "COD黑色行动7",
-          "count": 1,
-          "summary": "发售近11个月后首次出现实质性破解，剧情战役可离线启动。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF14",
-          "count": 1,
-          "summary": "日服出现大量异常登录，SE提醒玩家谨防密码泄露。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7：启示",
-          "count": 1,
-          "summary": "总监滨口直树确认开局可选硬战模式，通关后仍提供大量终章内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FIRESTARTER",
-          "count": 1,
-          "summary": "K/DA新单MV提前一天上线，因造型及合作歌手信息提前泄露。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GT赛车",
-          "count": 1,
-          "summary": "PS4独占《驾驶俱乐部》通过民间重编译项目在PC原生运行，支持8K与解锁帧率。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "STRANGER THAN HEAVEN",
-          "count": 1,
-          "summary": "世嘉公开系列剧情预告片第一部“小仓篇”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴4RE",
-          "count": 1,
-          "summary": "民间大神借助AI完成性能模组，在未牺牲画质前提下实现平均帧率提升超40%。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤",
-          "count": 1,
-          "summary": "电影将从现代战争时期汲取灵感，聚焦战争后果与军人职责代价。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环",
-          "count": 1,
-          "summary": "代号Project Tatanka的多人项目因人力抽调被取消，大逃杀玩法全部告吹。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺猬索尼克4",
-          "count": 1,
-          "summary": "电影片长信息曝光可能约为120分钟，但尚未得到片方正式确认。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "双点博物馆",
-          "count": 1,
-          "summary": "与《小猫咪大城市》联动内容已登陆多平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛",
-          "count": 1,
-          "summary": "任天堂承认低估市场需求，重制版及Switch2主机多地售罄。",
           "summary_source": "llm"
         }
       ]

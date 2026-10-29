@@ -1,82 +1,21 @@
 {
-  "crawled_at": "2026-10-28T01:07:25.477512+00:00",
+  "crawled_at": "2026-10-29T01:42:39.170093+00:00",
   "days": [
     {
-      "date": "2026-10-28",
-      "date_label": "10月28日 今天",
+      "date": "2026-10-29",
+      "date_label": "10月29日 今天",
       "games": [
         {
-          "game_name": "魔导英雄传说",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "Q版三国送万抽",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/modaoyingxiongchuanshuo/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "黑暗荒野",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "神器传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/heianhuangye1/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "镇魂兵团",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zhbt/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "魔神英雄传",
+          "game_name": "武道风云",
           "categories": [
             "卡牌"
           ],
           "score": null,
-          "event_desc": "正版授权手游",
+          "event_desc": "签到送宗师",
           "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/moshenyingxiongchuan/",
+          "detail_url": "https://www.9game.cn/wudaofengyun/",
           "has_afk_grinding_tag": false
         },
-        {
-          "game_name": "指尖大冒险",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zhijiandamaoxian/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "天选英雄",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "欧皇传奇打宝服",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/tianxuanyingxiong1/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "date_label": "10月29日 明天",
-      "games": [
         {
           "game_name": "大洋守护者",
           "categories": [
@@ -86,6 +25,17 @@
           "event_desc": "轻科幻战舰x巨兽",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/dyshz/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "诸葛亮的迷宫",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/zgldmg/",
           "has_afk_grinding_tag": false
         },
         {
@@ -100,21 +50,21 @@
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "诸葛亮的迷宫",
+          "game_name": "萌宝挖挖挖",
           "categories": [
             "卡牌"
           ],
           "score": null,
           "event_desc": null,
           "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zgldmg/",
+          "detail_url": "https://www.9game.cn/mengbaowawawa/",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-10-30",
-      "date_label": "10月30日 后天",
+      "date_label": "10月30日 明天",
       "games": [
         {
           "game_name": "艾尔指挥官",
@@ -299,40 +249,6 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/dldlzxcs/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-11-25",
-      "date_label": "11月25日",
-      "games": [
-        {
-          "game_name": "战与灵",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "楼兰超变传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zhanyuling/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-11-30",
-      "date_label": "11月30日",
-      "games": [
-        {
-          "game_name": "战地先锋",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "复古三职业传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zhandixianfeng/",
           "has_afk_grinding_tag": false
         }
       ]
