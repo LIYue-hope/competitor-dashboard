@@ -1,29 +1,183 @@
 {
-  "generated_at": "2026-10-29T01:55:02.966884+00:00",
+  "generated_at": "2026-10-30T02:08:39.911804+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-28",
-      "article_count": 82,
-      "game_count": 42,
-      "untagged_count": 23,
-      "digest": "2026年10月28日，行业整体呈现多游戏动态与重大合作信息并发的态势，涵盖主流大作发售进展、技术路线探讨、行业营收与销量数据披露及外挂案侦破等关键资讯，各类内容围绕游戏研发、发售及市场表现展开，对行业动态追踪与游戏产品市场表现观察具有参考价值。",
+      "date": "2026-10-30",
+      "article_count": 16,
+      "game_count": 7,
+      "untagged_count": 5,
+      "digest": "10月30日游戏资讯聚焦于《影之刃零》的火爆表现，该作首日Steam峰值破72万并跻身历史前六，外媒实测全收集需40小时；此外《GTA6》公布动态天气与NPC智能交互细节，《刺客信条》新作代号“Hexe”开发中，《战争机器：事变日》销量破40万，Epic免费赠送生存恐怖游戏《抱歉我们打烊了》，《死亡日：狂杀末路》正式版上线，以及《魔兽世界：无限》将于11月4日推出。",
       "digest_source": "llm",
-      "input_hash": "13fcdf0ea69bf02a",
+      "input_hash": "5a89feda68dc9275",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 4,
+          "summary": "国产武侠动作游戏《影之刃零》发售后首日Steam峰值破72万，跻身历史前六，外媒实测全收集需40小时。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 2,
+          "summary": "《GTA6》定于11月19日发售，其动态天气系统将与开放世界环境深度联动，NPC交互更智能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "AC",
+          "count": 1,
+          "summary": "《刺客信条》新作代号“Hexe”风格更黑暗，目前正稳步开发，已发售作品方面《刺客信条：黑旗 记忆重置》已推出最后一次大型更新。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战争机器：事变日",
+          "count": 1,
+          "summary": "《战争机器：事变日》在Xbox与Steam平台的累计销量已突破40万份。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "抱歉我们打烊了",
+          "count": 1,
+          "summary": "Epic每周“喜加一”送出叙事向生存恐怖游戏《Sorry We're Closed》，领取窗口持续至11月5日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "死亡日：狂杀末路",
+          "count": 1,
+          "summary": "末日生存割草爽游《死亡日：狂杀末路》1.0正式版上线Steam，携本地合作模式、全新Boss及113种可合成武器登场。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界：无限",
+          "count": 1,
+          "summary": "《魔兽世界：无限》将于11月4日正式推出，引入全新故事线并首增原生手柄支持。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "article_count": 24,
+      "game_count": 16,
+      "untagged_count": 2,
+      "digest": "10月29日 游侠网 共 24 条新闻，涉及 16 款游戏。报道最集中的是《GTA6》（6 条）、《影之刃零》（2 条）、《BAKUDO》（1 条）。另有 2 条未指向具体游戏的行业或平台资讯。另外还有《X战警》（1 条）、《原子之心》（1 条）、《合金装备》（1 条）也有报道。",
+      "digest_source": "rules",
+      "input_hash": "172df260c695f5e4",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 10,
-          "summary": "《GTA6》登上《Edge》特别版封面 主角水上飞机同框；《GTA6》主机版技术路线分化:索尼卖体验 微软靠生态；《GTA6》来了也没用！9月Xbox美国销量同比暴跌27%（当天共 10 条）",
+          "count": 6,
+          "summary": "面积只是基础！《GTA6》地图细节拉满 生活感浓厚！；改动影响速通！《GTA6》主线新增资金、时间解锁门槛；开放世界迎来升级！R星官宣《GTA6》核心设计情报（当天共 6 条）",
           "summary_source": "rules"
         },
         {
           "name": "影之刃零",
-          "count": 6,
-          "summary": "梁其伟公布《影之刃零》发售准备细节：首日补丁约5G；江湖见！梁其伟长文致谢玩家，《影之刃零》明日上线！；《影之刃零》倒计时1天最终海报！10月29日10点解锁（当天共 6 条）",
+          "count": 2,
+          "summary": "《影之刃零》热度爆炸！Steam 9小时在线人数超60万；《影之刃零》线下试玩活动落地京东MALL 大屏游戏电视带玩家走进武侠江湖。",
           "summary_source": "rules"
+        },
+        {
+          "name": "BAKUDO",
+          "count": 1,
+          "summary": "《BAKUDO》确定推出Nintendo Switch™ 2版！ 于“Indie World”中亮相。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "X战警",
+          "count": 1,
+          "summary": "爆料来袭！失眠组《X战警》新作 可操控多名变种英雄。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "原子之心",
+          "count": 1,
+          "summary": "舞伶解锁武侠装束!《原子之心》祝贺《影之刃零》发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "合金装备",
+          "count": 1,
+          "summary": "经典IP再创佳绩！《合金装备》全系列销量达6770万份。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说",
+          "count": 1,
+          "summary": "预载已开启！《塞尔达传说》新作 玩家最怕遭遇破解。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3重制版",
+          "count": 1,
+          "summary": "CDPR响应玩家反馈！《巫师3重制版》上线热修复补丁。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "异于天堂",
+          "count": 1,
+          "summary": "世嘉参展TwitchCon圣地亚戈 《异于天堂》与P4R试玩。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "怪物猎人：旅人",
+          "count": 1,
+          "summary": "新游上线！《怪物猎人：旅人》推出首位SSR美女太刀侠。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "星之海洋",
+          "count": 1,
+          "summary": "《星之海洋》开发商新作登陆Steam！4K120帧 自带中文。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "烽火十四",
+          "count": 1,
+          "summary": "别信跑路谣言！国产抗战FPS《烽火十四》还在招人开发。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "艾尔登法环",
+          "count": 1,
+          "summary": "《艾尔登法环》删减内容流出！蒙格原来还有一个儿子。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "血源诅咒",
+          "count": 1,
+          "summary": "圈内爆料！LSX4模拟器称能让iPhone运行《血源诅咒》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "都市传说解体中心",
+          "count": 1,
+          "summary": "《都市传说解体中心》NS2 Edition 10月29日发售，《薛定谔的电话》NS2版同步发售。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "article_count": 97,
+      "game_count": 51,
+      "untagged_count": 28,
+      "digest": "GTA6持续引发行业关注，Edge杂志公布封面并探讨主机技术路线，同时Xbox美国9月销量同比下滑27%。《影之刃零》制作人梁其伟公布约5G首日补丁及PC驱动建议，游戏将于明日上线。此外，《最终幻想：启示》发布粉色陆行鸟实机与蒂法母亲新爆料，总监通关时长超100小时；《最终幻想：共鸣》预估销量40万份，登顶日本Steam买断制榜首位；《赛博朋克2077》Steam在线人数创2023年10月以来新高。",
+      "digest_source": "llm",
+      "input_hash": "a8b204a8285f3717",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 11,
+          "summary": "9月Xbox美国销量同比暴跌27%，尽管《GTA6》即将发售，但市场表现仍显疲软。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 6,
+          "summary": "上线不足20小时，梁其伟发文回顾二十年创作历程，披露动捕、扫描等幕后细节。",
+          "summary_source": "llm"
         },
         {
           "name": "FF7启示",
@@ -34,8 +188,8 @@
         {
           "name": "最终幻想：共鸣",
           "count": 2,
-          "summary": "《最终幻想：共鸣》贺图公开！十六代画师接力收官；《最终幻想：共鸣》预估销量40万份！营收2000万美元。",
-          "summary_source": "rules"
+          "summary": "登陆Steam后拿下日本买断制游戏周榜第一、全球第四，游戏在线人数持续走高。",
+          "summary_source": "llm"
         },
         {
           "name": "2077",
@@ -46,8 +200,8 @@
         {
           "name": "Culdcept BEGINS（卡片召唤师 起源）",
           "count": 1,
-          "summary": "累计出货量突破10万份的《Culdcept BEGINS（卡片召唤师 起源）》 Steam版今日10。",
-          "summary_source": "rules"
+          "summary": "Steam版于今日10月28日正式发售。",
+          "summary_source": "llm"
         },
         {
           "name": "FF：共鸣",
@@ -56,22 +210,34 @@
           "summary_source": "rules"
         },
         {
+          "name": "Farming Simulator 25",
+          "count": 1,
+          "summary": "付费DLC“Beans & Alpacas”已于10月27日推出，玩家可在南美体验丰富的农场经营。",
+          "summary_source": "llm"
+        },
+        {
           "name": "PlayStation：最初的30年",
           "count": 1,
-          "summary": "PS 30周年纪念实体书《PlayStation：最初的30年》公布。",
-          "summary_source": "rules"
+          "summary": "PlayStation 30周年纪念实体书正式公布，全书400页，重约5公斤。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "PokéJam",
+          "count": 1,
+          "summary": "粉丝自制的宝可梦篮球游戏在社交平台走红，是免费网页游戏，无需下载即可在浏览器运行。",
+          "summary_source": "llm"
         },
         {
           "name": "三角洲行动",
           "count": 1,
-          "summary": "游戏史最大外挂案告破!《三角洲行动》DMA黑产链被扒。",
-          "summary_source": "rules"
+          "summary": "安全团队协助警方侦破“Foah”特大DMA外挂案，抓获16名犯罪嫌疑人，涉案金额超2000万元，被确认为游戏史上涉案金额最大的DMA外挂案。",
+          "summary_source": "llm"
         },
         {
           "name": "上古世纪 编年史",
           "count": 1,
-          "summary": "XLGames宣布《上古世纪 编年史》11月4日开启抢先体验。",
-          "summary_source": "rules"
+          "summary": "韩国开发商XLGames宣布游戏将于11月4日上午7时开启抢先体验，今日正式开放预购。",
+          "summary_source": "llm"
         },
         {
           "name": "丝之歌",
@@ -82,26 +248,14 @@
         {
           "name": "仙剑奇侠传四重制版",
           "count": 1,
-          "summary": "幼态网红脸！《仙剑奇侠传四重制版》角色建模引争议。",
-          "summary_source": "rules"
+          "summary": "官方使用虚幻引擎5对角色进行全面视觉升级，但云天河、韩菱纱等角色的幼态网红脸建模引发老玩家激烈批评。",
+          "summary_source": "llm"
         },
         {
           "name": "使命召唤",
           "count": 1,
-          "summary": "《使命召唤》系列总收入超400亿美元 现代战争4收官！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "全境封锁",
-          "count": 1,
-          "summary": "Massive宣布《全境封锁》系列累计玩家数达到5000万！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "剑星：血雨",
-          "count": 1,
-          "summary": "《剑星：血雨》TGA有新动作？伊薇或将曝光更多素材。",
-          "summary_source": "rules"
+          "summary": "微软游戏高管确认系列总收入突破400亿美元，新作《现代战争4》上线后口碑不错。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -809,107 +963,6 @@
           "count": 1,
           "summary": "《任天堂明星大乱斗》非官方原生PC版发布！支持60帧。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-20",
-      "article_count": 67,
-      "game_count": 45,
-      "untagged_count": 18,
-      "digest": "今日资讯聚焦《GTA6》发售前的最后动态，黑客破解PS5固件引发盗版担忧，R星高层坦言开发细节模糊，武器轮盘设计亦遭曝光。此外，Bungie宣布重启《命运2》运营，模拟经营新作《动物园之星2》口碑急转直下，多款独立游戏如《余烬之镇》、《地城安保公司》等亮相Steam新品节。",
-      "digest_source": "llm",
-      "input_hash": "806653cd9ca6960d",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 5,
-          "summary": "R星高层坦言因开发者自主权过大导致细节模糊，PS5最新固件被破解引发盗版担忧，武器轮盘设计遭曝光。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "ASTELLIA2",
-          "count": 1,
-          "summary": "携手NEXUS开启全球预约，将经典MMORPG玩法与ONEchain生态结合，支持移动端与PC跨平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "HR.SOS",
-          "count": 1,
-          "summary": "自动化与解谜结合的模拟经营游戏《HR.SOS》试玩版亮相Steam新品节，玩家将扮演CEO与HR重构公司流程。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "POE",
-          "count": 1,
-          "summary": "前无畏契约制作人乔·齐格勒透露游玩时长已达3437小时，称赞《POE》提供了ARPG品类里自由度最高的角色构筑体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Sil and the Fading World",
-          "count": 1,
-          "summary": "Steam新品节试玩版迎来重大更新，全新“Dunevault”团队副本及刺客专精上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Spirit Crossing灵渡之境",
-          "count": 1,
-          "summary": "光遇与动森结合的治愈系多人生活模拟游戏《Spirit Crossing灵渡之境》中文试玩版亮相Steam新品节，将于11月发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "中世纪崛起",
-          "count": 1,
-          "summary": "参展Steam新品节，免费试玩版10月19日至26日开放，深度中世纪人生与家族王朝模拟游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "余烬之镇",
-          "count": 1,
-          "summary": "地牢刷宝融合小镇种田的像素动作冒险RPG《余烬之镇》10月20日新品节公开试玩，11月27日开启抢先体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "数毛社评NS2版移植画质，启用NVIDIA DLSS时画面完整性优于Filmic SMAA档位。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "动物园之星2",
-          "count": 1,
-          "summary": "首发一周后口碑急转直下，Steam好评率跌至六成，Metacritic媒体评分85分但玩家体验出现明显反转。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影RE",
-          "count": 1,
-          "summary": "创意总监确认将保留初代经典场景与情绪锚点，仅对受画面写实度提升后难以自洽的旧设计做局部调整。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "吸血鬼：避世血族",
-          "count": 1,
-          "summary": "据Reddit爆料人士透露，2004年经典RPG《吸血鬼：避世血族》正在开发新版，是复刻而非完全重制。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "命运2",
-          "count": 1,
-          "summary": "Bungie裁员后重启招聘，联合索尼调整规划决定重启长线运营，推出具备实质内容的版本更新。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "圣兽之王",
-          "count": 1,
-          "summary": "出现非官方原生PC运行方案，基于PS4版构建，支持Windows与Linux，需用户自备兼容的PS4游戏镜像。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "地城安保公司",
-          "count": 1,
-          "summary": "轻肉鸽塔防X基建X自走棋游戏参加Steam十月新品节，Demo已更新官中。",
-          "summary_source": "llm"
         }
       ]
     }

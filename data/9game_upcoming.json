@@ -1,82 +1,10 @@
 {
-  "crawled_at": "2026-10-29T01:42:39.170093+00:00",
+  "crawled_at": "2026-10-30T01:52:45.538766+00:00",
   "days": [
     {
-      "date": "2026-10-29",
-      "date_label": "10月29日 今天",
-      "games": [
-        {
-          "game_name": "武道风云",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": "签到送宗师",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/wudaofengyun/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "大洋守护者",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": "轻科幻战舰x巨兽",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/dyshz/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "诸葛亮的迷宫",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zgldmg/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "美食大冒险",
-          "categories": [
-            "冒险"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/msdmxzhstx/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "萌宝挖挖挖",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/mengbaowawawa/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-10-30",
-      "date_label": "10月30日 明天",
+      "date_label": "10月30日 今天",
       "games": [
-        {
-          "game_name": "艾尔指挥官",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": "7.0",
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/aierzhihuiguan/",
-          "has_afk_grinding_tag": false
-        },
         {
           "game_name": "纯白轨迹",
           "categories": [
@@ -89,14 +17,14 @@
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "逍遥九万里",
+          "game_name": "艾尔指挥官",
           "categories": [
             "角色扮演"
           ],
-          "score": null,
+          "score": "7.0",
           "event_desc": null,
           "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/xyjwl/",
+          "detail_url": "https://www.9game.cn/aierzhihuiguan/",
           "has_afk_grinding_tag": false
         },
         {
@@ -109,12 +37,23 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/guzhechuanqi/",
           "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "逍遥九万里",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/xyjwl/",
+          "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-11-01",
-      "date_label": "11月01日 周日",
+      "date_label": "11月01日 后天",
       "games": [
         {
           "game_name": "次元战纪",
@@ -162,6 +101,17 @@
           "has_afk_grinding_tag": false
         },
         {
+          "game_name": "奇遇西行",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/qiyuxixing/",
+          "has_afk_grinding_tag": true
+        },
+        {
           "game_name": "沙城战影",
           "categories": [
             "角色扮演"
@@ -178,6 +128,17 @@
       "date": "2026-11-06",
       "date_label": "11月06日 下周五",
       "games": [
+        {
+          "game_name": "星空神曲",
+          "categories": [
+            "挂机"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/xingkongshenqu/",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "巴雄天下",
           "categories": [
@@ -237,6 +198,23 @@
       ]
     },
     {
+      "date": "2026-11-13",
+      "date_label": "11月13日",
+      "games": [
+        {
+          "game_name": "斗破苍穹",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": "IP正版新游",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/dpcqyhjs/",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
       "date": "2026-11-19",
       "date_label": "11月19日",
       "games": [
@@ -249,6 +227,57 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/dldlzxcs/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "date_label": "11月25日",
+      "games": [
+        {
+          "game_name": "战与灵",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "楼兰超变传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/zhanyuling/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "date_label": "11月30日",
+      "games": [
+        {
+          "game_name": "战地先锋",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "复古三职业传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/zhandixianfeng/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-12-04",
+      "date_label": "12月04日",
+      "games": [
+        {
+          "game_name": "太古诛妖传",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "晒图赢京东卡",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/tgzyc/",
           "has_afk_grinding_tag": false
         }
       ]

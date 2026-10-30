@@ -1,45 +1,176 @@
 {
-  "generated_at": "2026-10-29T01:59:35.176929+00:00",
+  "generated_at": "2026-10-30T02:15:18.211807+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-29",
-      "article_count": 10,
-      "game_count": 2,
-      "untagged_count": 4,
-      "digest": "2026年10月29日，行业资讯发布总数达10条，涉及游戏2款，其中包含有代表性的游戏动态。其中，《影之刃零》相关报道突出其长文发布、畅销榜登顶及官方宣传活动，而《GTA 6》动态反映预测性动态，整体呈现游戏资讯围绕核心作品动态持续传播。游戏｜《影之刃零》外网发布长文，玩家表示感谢，制作人回顾从早期作品到当前的成长历程，游戏为国产武侠动作游戏，登陆PC/PS5平台。游戏｜《影之刃零》PS港服畅销榜登顶，超越《GTA 6》，游戏由灵游坊制作并发行，玩家扮演重伤剑客，在有限生存中追寻真相粉碎阴谋，该游戏为国产武侠动作游戏，登陆PC/PS5平台。游戏｜《GTA 6》美国银行预测在线模式或于2027年初与PC版同步推出，游戏为美国开发的开放世界类游戏，预测其在线模式存在与PC版同步推出的情况。",
-      "digest_source": "llm",
-      "input_hash": "bb3fc42d3b0b9692",
+      "date": "2026-10-30",
+      "article_count": 13,
+      "game_count": 7,
+      "untagged_count": 3,
+      "digest": "10月30日 游民星空 共 13 条新闻，涉及 7 款游戏。报道最集中的是《影之刃零》（4 条）、《刺客信条》（1 条）、《刺客信条：英灵殿》（1 条）。另有 3 条未指向具体游戏的行业或平台资讯。另外还有《地铁2033》（1 条）、《战争机器事变日》（1 条）、《星之海洋》（1 条）也有报道。",
+      "digest_source": "rules",
+      "input_hash": "1ff9f9811988a567",
       "game_digests": [
         {
           "name": "影之刃零",
-          "count": 5,
-          "summary": "《影之刃零》外网发长文！玩家：感谢有你；《影之刃零》PS港服畅销榜登顶！超越《GTA6》；PS官方 何润东\"玩\"《影之刃零》！一起来影境（当天共 5 条）",
+          "count": 4,
+          "summary": "《影之刃零》正式发售 海底捞11月16日开启“影境真功夫”主题联动；《影之刃零》新娘阿花太难打！机制详解 教你轻松过；《影之刃零》Steam同时在线峰值突破72万 超越《生化危机9》等年度单机大作（当天共 4 条）",
           "summary_source": "rules"
         },
         {
-          "name": "GTA 6",
+          "name": "刺客信条",
           "count": 1,
-          "summary": "美国银行分析师预测：《GTA 6》在线模式或于2027年初与PC版同步推出。",
+          "summary": "《刺客信条》两款新作开发中 暂无其他重制版项目。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "刺客信条：英灵殿",
+          "count": 1,
+          "summary": "《刺客信条：英灵殿》还在更新！多项新增内容曝光。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "地铁2033",
+          "count": 1,
+          "summary": "《地铁2033》《最后曙光》PS5版上线！PS5 Pro支持PSSR。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战争机器事变日",
+          "count": 1,
+          "summary": "曝《战争机器事变日》总销量超40万！成本33亿元。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "星之海洋",
+          "count": 1,
+          "summary": "《星之海洋》团队新作上线PS5！268港币 4K120帧。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "红色沙漠",
+          "count": 1,
+          "summary": "《红色沙漠》DLC正式上线！首发多半好评 体量巨大但有BUG。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "article_count": 149,
+      "game_count": 26,
+      "untagged_count": 20,
+      "digest": "10月29日行业动态丰富，多款游戏在发售、销量及更新等层面取得进展，同时持续推进创新与内容优化，整体行业热度与游戏表现活跃。游戏方面涉及26款游戏，多款在发售、销量公布或核心玩法更新等场景展开动态，行业整体发展态势积极，相关游戏动态具体如上。",
+      "digest_source": "llm",
+      "input_hash": "9589eef47b7a02c9",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 93,
+          "summary": "外网为《影之刃零》做DEI检测！绿色安全：不含DEI；《影之刃零》首日峰值72万！冲进Steam历史总榜第15；《影之刃零》Steam首批评价多半好评！整体好评率79%（当天共 93 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA6",
+          "count": 12,
+          "summary": "《GTA6》犯罪玩法大升级！玩家行为能影响剧情走向；《GTA6》地图面积正式公布！GTA4+5+荒野大镖客2总和；《GTA6》NPC系统大升级！路人不爽直接放狗咬你（当天共 12 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "X战警",
+          "count": 1,
+          "summary": "失眠组《X战警》新作重要情报曝光 或能操作多位超英。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "刺客信条",
+          "count": 1,
+          "summary": "《刺客信条》官宣大的要来！明日专场 系列最新进展。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "原子之心",
+          "count": 1,
+          "summary": "《原子之心》又来祝贺国产大作！上次还是《黑神话》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "反恐精英",
+          "count": 1,
+          "summary": "英特尔极限大师赛（IEM）北京2026：全球顶尖《反恐精英》战队重返中国首都。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "合金装备",
+          "count": 1,
+          "summary": "《合金装备》最新销量公布！全系列已售出6770万份。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说",
+          "count": 1,
+          "summary": "《塞尔达传说》NS2限定套装发售！新手柄颜值惊艳。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说：时之笛 重制版",
+          "count": 1,
+          "summary": "《塞尔达传说：时之笛 重制版》预载开启！玩家吓坏 怕被破解。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达时之笛RE",
+          "count": 1,
+          "summary": "《塞尔达时之笛RE》内幕：大量新员工没玩过原版游戏。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫奇魔法学院",
+          "count": 1,
+          "summary": "像素风巫师生活模拟新游《巫奇魔法学院》发售日官宣定档2027年1月28日，简体中文首发就位！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师3重制版",
+          "count": 1,
+          "summary": "《巫师3重制版》突然更新！CDPR火速解决游戏问题。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "异界揭踪",
+          "count": 1,
+          "summary": "异常现象×发生变异的少女×生存TPS《异界揭踪》今日正式发售！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "归唐",
+          "count": 1,
+          "summary": "《归唐》发布《影之刃零》贺图!项目组休假\"严肃研究\"。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃",
+          "count": 1,
+          "summary": "GS称《影之刃》解决类魂一大痛点！降低门槛更轻松。",
           "summary_source": "rules"
         }
       ]
     },
     {
       "date": "2026-10-28",
-      "article_count": 123,
+      "article_count": 120,
       "game_count": 39,
-      "untagged_count": 35,
-      "digest": "2026年10月28日，行业资讯量充沛，共发布123条新闻，涉及游戏39款，未指向具体游戏35条。当日多款热门游戏动态频出，涵盖影之刃零、GTA6、塞尔达、最终幻想系列及赛博朋克2077等，部分涉及发售、更新、争议、销量及开发商动态，整体呈现热度与行业调整并存的态势。",
-      "digest_source": "llm",
-      "input_hash": "bfed2018742a5e92",
+      "untagged_count": 34,
+      "digest": "10月28日 游民星空 共 120 条新闻，涉及 39 款游戏。报道最集中的是《影之刃零》（32 条）、《GTA6》（12 条）、《塞尔达》（2 条）。另有 34 条未指向具体游戏的行业或平台资讯。另外还有《最终幻想》（2 条）、《最终幻想7：启示》（2 条）、《法环》（2 条）也有报道。",
+      "digest_source": "rules",
+      "input_hash": "a52b21429f5079fd",
       "game_digests": [
         {
           "name": "影之刃零",
-          "count": 34,
-          "summary": "曝《影之刃零》临发售更换英文配音演员 新演员大有来头；《影之刃零》梁其伟发文！冯骥：已严肃预载 上好闹钟；7分外媒给《影之刃零》改8分！补丁太高效（当天共 34 条）",
+          "count": 32,
+          "summary": "《影之刃零》梁其伟发文！冯骥：已严肃预载 上好闹钟；7分外媒给《影之刃零》改8分！补丁太高效；甄子丹为《影之刃零》站台被限流！啼笑皆非（当天共 32 条）",
           "summary_source": "rules"
         },
         {
@@ -832,107 +963,6 @@
           "count": 1,
           "summary": "《剑星》金亨泰“告白”中国玩家！殊荣离不开大家。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-20",
-      "article_count": 139,
-      "game_count": 61,
-      "untagged_count": 45,
-      "digest": "今日游戏资讯热度集中在《GTA6》黑客攻破PS5固件、国产3A《影之刃零》即将发售引发热议，以及《最终幻想：共鸣》评分出炉等重磅事件上。此外，《边缘行者2》开播引发两极评价，任天堂Switch 2独占运动游戏《任天堂Switch运动度假胜地》评分公布，而《鬼泣》制作人新作《愚者不灭》则遭遇2分差评。",
-      "digest_source": "llm",
-      "input_hash": "c45ada7f2f634383",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 11,
-          "summary": "PS5最新固件疑遭黑客攻破，引发关于游戏能否直接运行的讨论，同时官方营销将迈阿密变为现实版罪恶城，并曝出道路设计较前作更窄以提升驾驶真实感。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 7,
-          "summary": "冯骥回应第一时间游玩体验度日如年，外媒狂吹其为年度最佳，下周即将发售，并曝光了巨型女蛇Boss及\"未来\"武器系统，外网博主预测其M站评分将超90分。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "边缘行者2",
-          "count": 6,
-          "summary": "CDPR与Trigger联合制作的动画正式开播，B站开播一小时即上线全集。官方宣布与飞智手柄联名，小岛秀夫将在剧中饰演\"大岛秀吉\"，但媒体评分出现2分与满分两极分化。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛 重制版",
-          "count": 4,
-          "summary": "媒体前瞻试玩引发玩家对美术风格的激烈争论，官方公布游戏大小为27GB，将于11月5日登陆Switch 2，并曝光了港版首发特典及未公开的大Boss信息。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想：共鸣",
-          "count": 4,
-          "summary": "M站评分出炉，最高89分一片好评，GS给出7分评价战斗重复单调。游戏将于10月22日发售，实体最低216元，预载已开启仅需11GB。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想",
-          "count": 3,
-          "summary": "系列新作获满分盛赞为40年集大成之作，IGN给出8分评价战斗扎实但剧情拉胯，媒体评测今晚解禁，Fami通评分36分。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼泣",
-          "count": 3,
-          "summary": "小林裕幸执导的新作《愚者不灭》媒体评价解禁，外媒MonsterVine打出2分怒喷冗长乏味，M站开分仅68分，但26分钟实机展示了吞噬变身等炫酷战斗。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "任天堂Switch运动度假胜地",
-          "count": 2,
-          "summary": "任天堂Switch 2独占运动游戏GS评分9分，IGN给出7分评价轻松有趣，将于10月22日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黑神话",
-          "count": 2,
-          "summary": "四姐人偶生产完成即将发货，同时行业分析指出《黑神话》打开国产3A大门却导致大批项目夭折，投资人等不起。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "33号远征队",
-          "count": 1,
-          "summary": "《GTA6》压线进TGA，引发能否打破《33号远征队》纪录的讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "AC",
-          "count": 1,
-          "summary": "《刺客信条》中国背景正作实机原型视频曝光，引发关于中国历史题材的讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "ASTELLIA2",
-          "count": 1,
-          "summary": "移动端与PC跨平台MMORPG《ASTELLIA2》携手NEXUS开启全球预约，拓展ONEchain生态合作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "HR.SOS",
-          "count": 1,
-          "summary": "模拟经营游戏《HR.SOS》参与Steam新品节，展示自动化机制叠加双视角解谜的试玩版。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Sil与消逝之境",
-          "count": 1,
-          "summary": "Steam新品节试玩版迎来重大更新，新增\"Dunevault\"团队副本及游荡者刺客专精。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "书与钥匙的季节",
-          "count": 1,
-          "summary": "米泽穗信原作《书与钥匙的季节》Steam体验版上线，配合10月20日开始的Steam新品节。",
-          "summary_source": "llm"
         }
       ]
     }

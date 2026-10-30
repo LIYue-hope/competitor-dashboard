@@ -1,18 +1,34 @@
 {
-  "generated_at": "2026-10-29T02:02:45.765386+00:00",
+  "generated_at": "2026-10-30T02:21:37.043563+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
+      "date": "2026-10-30",
+      "article_count": 1,
+      "game_count": 0,
+      "untagged_count": 1,
+      "digest": "10月30日 游资网 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「复活老游戏、剽窃新创意，AI的一体两面还有什么值得深究的？」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
+      "input_hash": "ac9989eb5452e13b",
+      "game_digests": []
+    },
+    {
       "date": "2026-10-29",
-      "article_count": 6,
-      "game_count": 2,
-      "untagged_count": 4,
-      "digest": "2026年10月29日，当日游资网新闻共6条，涉及游戏2款，其中未指向具体游戏的新闻4条。相关游戏动态主要围绕虚构角色题材与文化表达展开，分析玩家兴趣成因及创作方向，整体内容聚焦于游戏叙事层面的深度探讨。",
+      "article_count": 21,
+      "game_count": 9,
+      "untagged_count": 12,
+      "digest": "2026年10月29日，国家新闻出版署公布当月网游审批结果，183款国产网络游戏、12款进口网络游戏版号获批，同时多款热门游戏相关动态持续发布，包括网游版号获批、游戏角色设计探讨、多人经营类玩法发售、单机游戏榜单表现、新游戏发布预告等，整体呈现产业审批与游戏内容更新并行的态势。",
       "digest_source": "llm",
-      "input_hash": "71ce0e4e72f2dac7",
+      "input_hash": "28f48c43c6aa4f85",
       "game_digests": [
+        {
+          "name": "2026年10月",
+          "count": 1,
+          "summary": "【2026年10月】183款国产网络游戏、12款进口网络游戏版号获批。",
+          "summary_source": "rules"
+        },
         {
           "name": "博德之门3",
           "count": 1,
@@ -20,9 +36,45 @@
           "summary_source": "rules"
         },
         {
+          "name": "多人经营",
+          "count": 1,
+          "summary": "【多人经营】动森 +胡闹厨房=让Crush给你当牛做马。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "《影之刃零》的理性与癫狂，造就又一个全球畅销冠军。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "浣熊推币机：混沌全开版",
+          "count": 1,
+          "summary": "《浣熊推币机：混沌全开版》将于11月10日登陆主机平台。",
+          "summary_source": "rules"
+        },
+        {
           "name": "燕云十六声",
           "count": 1,
           "summary": "从构图到运镜：一堂藏在《燕云十六声》里的电影镜头课。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "蝼蚁之城",
+          "count": 1,
+          "summary": "IGN《蝼蚁之城》上手前瞻：在赛博朋克 Roguelite 中弹反一切。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "这手有点长",
+          "count": 1,
+          "summary": "《这手有点长》宣布将于2027年3月11日正式发售！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "魔域",
+          "count": 1,
+          "summary": "《魔域》年终活动组队怎么玩？人数档位奖励与36万神火进阶指南。",
           "summary_source": "rules"
         }
       ]
@@ -274,59 +326,6 @@
           "name": "魔域",
           "count": 1,
           "summary": "MMORPG《魔域》公布金秋幻兽「澜境君·镜汐」全爆料，正式服于10月23日维护后上线，先锋区提前至10月21日上线。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-20",
-      "article_count": 11,
-      "game_count": 7,
-      "untagged_count": 4,
-      "digest": "今日游戏资讯聚焦于多款新作发售与老游迭代，莉莉丝新品《WarLine》以FPS+4X模式获关注，螺舟授权的《太吾异世劫》EA版12小时销量破1.5万份，益世界《疯狂水世界》iOS畅销榜升至第17名，散爆《少前2》持续更新“静默突触”版本，乡村模拟经营《复兴吧温泉镇！》定档12月7日EA，SLG《我在古代有座城》因同质化受质疑，同时《GTA6》引发行业流量讨论。",
-      "digest_source": "llm",
-      "input_hash": "c21a33f833b79736",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 1,
-          "summary": "行业讨论聚焦于《GTA6》的流量海啸，分析谁能从中分得一杯羹。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "WarLine",
-          "count": 1,
-          "summary": "莉莉丝新品《WarLine》采用战役FPS切入4X策略赛道，4个月下载超2000万。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "复兴吧温泉镇！",
-          "count": 1,
-          "summary": "乡村模拟经营新作《复兴吧温泉镇！》将于12月7日登陆Steam开启EA，10月Steam新品节开放试玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "太吾异世劫",
-          "count": 1,
-          "summary": "太吾IP衍生刷宝肉鸽游戏《太吾异世劫》由墨境团队操刀，EA版发售12小时销量破1.5万份。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "少前2",
-          "count": 1,
-          "summary": "《少女前线2：追放》近期联动《暗区突围：无限》，秋季版本“静默突触”带来多项新内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "我在古代有座城",
-          "count": 1,
-          "summary": "SLG游戏《我在古代有座城》属Last Asylum like品类，底层架构沿用该模式，与同类产品差异度极低，同质化体验强烈。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "疯狂水世界",
-          "count": 1,
-          "summary": "益世界旗下《疯狂水世界》上线近一年强势冲榜，iOS游戏畅销榜最高升至第17名，游戏内可追AI短剧。",
           "summary_source": "llm"
         }
       ]

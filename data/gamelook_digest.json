@@ -1,9 +1,32 @@
 {
-  "generated_at": "2026-10-29T02:01:19.170351+00:00",
+  "generated_at": "2026-10-30T02:18:14.898849+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-10-30",
+      "article_count": 2,
+      "game_count": 2,
+      "untagged_count": 0,
+      "digest": "2026年10月30日，共发布2条GameLook新闻，涉及2款游戏，涵盖独立开发与国产游戏审批动态，整体围绕游戏开发进展及版本审核信息展开，呈现不同游戏在内容及审批上的最新状况。游戏名｜Moon Sweepers，该作Steam在线近7万人，游戏内容涉及月球清洁任务，呈现独特的开发玩法。游戏名｜少前：蓝蝶契约，183款国产游戏与12款进口游戏获版号，其中散爆、乐元素两款游戏通过审批，反映国产游戏版号审核动态。",
+      "digest_source": "llm",
+      "input_hash": "5ec5a36294487778",
+      "game_digests": [
+        {
+          "name": "Moon Sweepers",
+          "count": 1,
+          "summary": "“我在月球当保洁”！2人开发奇葩独游《Moon Sweepers》Steam在线近7万人。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "少前：蓝蝶契约",
+          "count": 1,
+          "summary": "183款国产12款进口游戏获版号：散爆《少前:蓝蝶契约》乐元素《他予回声》过审。",
+          "summary_source": "rules"
+        }
+      ]
+    },
     {
       "date": "2026-10-28",
       "article_count": 8,
@@ -131,8 +154,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "2026年10月24日游戏行业资讯主要聚焦于行业宏观动态，GameLook当日共收录1条行业新闻，该条新闻未指向具体游戏，主要围绕行业整体趋势或政策环境展开，未涉及具体游戏厂商或产品的动态更新。按报道条数排序的游戏（含代表性标题与摘要）：",
-      "digest_source": "llm",
+      "digest": "10月24日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「西山居“剑侠收官之作”到底怎样？对话主创：“PC占主力，首周超预期”」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
       "input_hash": "b31ba44ce119e34e",
       "game_digests": []
     },
@@ -213,23 +236,6 @@
           "name": "赛博朋克：边缘行者2",
           "count": 1,
           "summary": "《赛博朋克：边缘行者2》全球热播，仅15分钟就让玩家感到震撼。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-20",
-      "article_count": 7,
-      "game_count": 1,
-      "untagged_count": 6,
-      "digest": "GameLook今日共收录7条资讯，主要聚焦于国产独立游戏《艾希》的众筹情况。报道指出，在众筹金额突破3700万元人民币后，该游戏制作人因生计问题公开发声劝阻玩家继续捐款，引发行业对爆款独游商业化困境的关注。",
-      "digest_source": "llm",
-      "input_hash": "4371c9f99dcd0974",
-      "game_digests": [
-        {
-          "name": "艾希",
-          "count": 1,
-          "summary": "众筹金额突破3700万元人民币，制作人因生计问题劝阻玩家继续捐款，引发行业对爆款独游商业化困境的关注。",
           "summary_source": "llm"
         }
       ]
