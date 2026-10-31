@@ -1,106 +1,135 @@
 {
-  "generated_at": "2026-10-30T02:04:06.419846+00:00",
+  "generated_at": "2026-10-31T01:41:44.829095+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-30",
-      "article_count": 59,
-      "game_count": 39,
-      "untagged_count": 7,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》原声专辑发行、《影之刃零》热度与难度争议、以及《使命召唤》万圣节模式更新。此外，育碧确认暂无新《刺客信条》重制版，Xbox硬件销量受《战争机器：事变日》影响未现增长，B社则透露《上古卷轴6》或定名《哨兵》并计划于11月公布。",
+      "date": "2026-10-31",
+      "article_count": 3,
+      "game_count": 3,
+      "untagged_count": 0,
+      "digest": "10月31日游戏行业资讯主要围绕《寂静岭：小镇陷落》的销量表现、EA《星球大战绝地3》的开发进度传闻以及《星球大战：旧共和国命运》的叙事风格预测展开。Alinea Analytics数据显示，《寂静岭：小镇陷落》上市首月销量突破40.4万份，PlayStation平台收入达2020万美元，实体版已售罄；彭博社记者透露《星球大战绝地3》开发已进入后期阶段，或于年底前公布；前龙腾世纪总监马克·达拉则预测新作将采用简洁叙事，规避叙事堆砌问题。",
       "digest_source": "llm",
-      "input_hash": "21d00aa8fc7ed978",
+      "input_hash": "461f36f8057bc034",
+      "game_digests": [
+        {
+          "name": "寂静岭：小镇陷落",
+          "count": 1,
+          "summary": "《寂静岭：小镇陷落》首月销量突破40.4万份，PlayStation平台收入达2020万美元，实体版已售罄。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星球大战绝地3",
+          "count": 1,
+          "summary": "彭博社记者透露《星球大战绝地3》开发已进入后期阶段，或于今年年底前正式公布。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星球大战：旧共和国命运",
+          "count": 1,
+          "summary": "前龙腾世纪总监马克·达拉预测新作将采用简洁叙事，规避叙事堆砌问题，由阿卡诺特工作室负责开发。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "article_count": 152,
+      "game_count": 115,
+      "untagged_count": 15,
+      "digest": "10月30日游戏行业资讯密集，国产3A《影之刃零》正式发售引发关注，媒体估算其研发成本达3至4亿元。此外，《GTA6》流程长度获新估算，育碧《刺客信条》系列负责人透露个人希望重制三代，而《Apex英雄》与《BAKUDO》等游戏也相继公布新动态。",
+      "digest_source": "llm",
+      "input_hash": "c3e1e9bccef1df30",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 5,
-          "summary": "Rockstar宣布《GTA6》独立原声配乐专辑将于12月11日发行，由法国电子音乐组合Justice创作30首作品，包含流媒体、双CD及三黑胶实体版本，先行曲《Pusher》已公开。",
+          "count": 7,
+          "summary": "Insider Gaming估算《GTA6》主线约需60至70小时，完成全部内容可能耗时100至300小时，该数据参考了Rockstar North高级开发负责人Rob Nelson的体验及《侠盗猎车手5》和《荒野大镖客：救赎2》的完成时长。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
-          "count": 5,
-          "summary": "《影之刃零》Steam在线峰值超72万，成为今年最大单人游戏；同时隐藏Boss甄子丹因难度过高引发热议，有玩家在“地狱行者”难度下挑战成功。",
+          "count": 6,
+          "summary": "国产3A武侠动作游戏《影之刃零》正式发售，媒体披露其研发成本在3亿至4亿元之间，对比《黑神话：悟空》的4亿元成本，冯骥发文祝贺并分享了对单机游戏创作的看法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "刺客信条",
+          "count": 3,
+          "summary": "育碧《刺客信条》系列内容负责人Jean Guesdon表示个人希望重制《刺客信条3》，认为其故事基础强但玩法需重新设计，但他强调目前并无活跃的重制项目，且《刺客信条：黑旗 记忆重置》上市14天销量已超3百万。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "缄默祸运",
+          "count": 3,
+          "summary": "恐怖游戏《缄默祸运》登陆主机平台并加入Xbox Game Pass，Steam版限时6折，同时Wrong Organ与索尼影业宣布将把该作改编为电影，由斯科特·德瑞克森执导。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤：现代战争4",
           "count": 2,
-          "summary": "Infinity Ward新增万圣节主题“附身”模式，击杀对手后可附身并传送，游戏界面标注“非军事模拟内容”；新地图被指复刻《使命召唤2》旧图。",
+          "summary": "《使命召唤：现代战争4》新增万圣节“附身”模式，Infinity Ward在匹配界面标注“非军事模拟内容”，玩家击杀对手后可附身并传送至其位置，同时玩家发现新地图疑似复刻《使命召唤2》旧图。",
           "summary_source": "llm"
         },
         {
-          "name": "刺客信条",
+          "name": "女王魔域",
           "count": 2,
-          "summary": "育碧确认《刺客信条：黑旗 记忆重置》上市后暂无其他重制版处于积极开发阶段，团队正转向《刺客信条：女巫》等新作开发，下一次消息预计于2027年公布。",
+          "summary": "复古动作冒险游戏《女王魔域》在Steam发售，制作人Jean-Luc Seipke分享游玩体验，称前10小时仅完成游戏约5%，游戏视觉风格介于PS1与PS2之间。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "孤山独影",
+          "count": 2,
+          "summary": "《孤山独影》首个免费DLC《循迹识踪：深水》登陆PC与PS5，新增三类攀登环境及自由漫游模式，官方同时开启发售以来力度最大的七折折扣。",
           "summary_source": "llm"
         },
         {
           "name": "我的世界",
           "count": 2,
-          "summary": "《我的世界》推出RTX Remix 1.6，Java版1.21.1获得完整路径追踪支持，并改进面向模组制作者的工具；PC版《影之刃零》将支持光线追踪、路径追踪及DLSS 4.5。",
+          "summary": "《我的世界》推出RTX Remix 1.6，Java版1.21.1加入完整路径追踪支持，PC版《影之刃零》同步支持光线追踪、路径追踪及DLSS 4.5。",
           "summary_source": "llm"
         },
         {
           "name": "战争机器：事变日",
           "count": 2,
-          "summary": "分析师称该作维持主机独占未能提振Xbox Series X|S硬件销量，英国市场销量下降22%，美国市场亦未出现由该作带动的增长。",
+          "summary": "分析师指出《战争机器：事变日》维持主机独占未能提振Xbox Series X|S硬件销量，英国市场销量在10月下降22%，且《使命召唤》取消首日加入Game Pass导致参与度流失。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "英雄联盟",
+          "count": 2,
+          "summary": "TES在《英雄联盟》全球总决赛瑞士轮以2比1逆转BLG晋级八强，369在系列赛中交出8/4/14的KDA，JackeyLove使用卢锡安在关键团战中帮助队伍翻盘。",
           "summary_source": "llm"
         },
         {
           "name": "马里奥赛车：世界",
           "count": 2,
-          "summary": "数据挖掘发现游戏文件中出现8名疑似废弃车手记录，涉及咚咚、乌贼、忍者等角色，引发玩家对后续DLC内容的猜测。",
+          "summary": "数据挖掘发现《马里奥赛车：世界》文件中出现8名疑似废弃车手记录，包括咚咚、乌贼、忍者等，但开发文件往往保留占位符，无法确认角色是否已制作完成。",
           "summary_source": "llm"
         },
         {
           "name": "Apex英雄",
           "count": 1,
-          "summary": "官方宣布“Cipher”更新将于11月3日上线，辅助手枪将新增双持玩法，命脉的复活护盾也将回归。",
+          "summary": "《Apex英雄》将于11月3日推出“Cipher”更新，辅助手枪新增双持玩法，命脉复活护盾也将回归，密客玩法也将因妹妹米拉提供的固件升级而重塑。",
           "summary_source": "llm"
         },
         {
-          "name": "DOTA2",
+          "name": "Apex英雄：破译天机",
           "count": 1,
-          "summary": "Steam十四年数据显示《DOTA2》与《反恐精英》长期占据热门游戏头部位置，而《绝地求生》在2018年曾实现显著跃升。",
+          "summary": "《Apex英雄：破译天机》将于11月3日上线，新赛季将引入情报搜集玩法，密客的无人侦察机将改为电池供能，不再受冷却时间限制。",
           "summary_source": "llm"
         },
         {
-          "name": "上古卷轴4：湮灭",
+          "name": "BAKUDO",
           "count": 1,
-          "summary": "Bethesda悼念去世的帕特里克·斯图尔特，回顾其在《上古卷轴4：湮灭》中为皇帝尤里尔·塞普汀七世配音的经历。",
+          "summary": "集英社宣布《BAKUDO》确定登陆Nintendo Switch 2平台，该作在“Indie World 2026.10.28”中亮相，并公开了聚焦学园生活的全新预告片及角色情报。",
           "summary_source": "llm"
         },
         {
-          "name": "上古卷轴6",
+          "name": "BUZZ or DIE",
           "count": 1,
-          "summary": "消息称B社可能将新作定名为《上古卷轴6：哨兵》，舞台设在落锤省，并计划于11月公布正式名称，故事可能围绕上古卷轴的历史展开。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴6：哨兵",
-          "count": 1,
-          "summary": "曝《上古卷轴6：哨兵》或于11月公布正式名称。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "不朽之树",
-          "count": 1,
-          "summary": "开放世界生存建造动作RPG《不朽之树》Steam愿望单破10万，免费Demo开放至11月3日，支持多人联机与PvP。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺客信条：英灵殿",
-          "count": 1,
-          "summary": "育碧确认《刺客信条：英灵殿》将于11月5日加入新游戏+模式，带来可选成长模式、新符文及大师刺客服装。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺客信条：黑旗 记忆重置",
-          "count": 1,
-          "summary": "育碧确认该作之后暂无其他重制版开发，团队正集中精力开发采用新舞台和新故事的《刺客信条：女巫》及多人项目《刺客信条：Invictus》。",
+          "summary": "讲谈社游戏实验室在Steam发售死亡游戏ADV《BUZZ or DIE》，玩家需调查对手过去制作短视频以在综艺节目中存活，首发限时八折优惠，原价28元。",
           "summary_source": "llm"
         }
       ]
@@ -211,8 +240,8 @@
       "article_count": 117,
       "game_count": 80,
       "untagged_count": 16,
-      "digest": "10月28日 3DMGame 共 117 条新闻，涉及 80 款游戏。报道最集中的是《GTA6》（8 条）、《影之刃零》（5 条）、《使命召唤：现代战争4》（3 条）。另有 16 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
+      "digest": "2026年10月28日，游戏行业资讯整体呈现多类型动态，涵盖主流新游、单机与独立游戏、电竞休闲及仿真模拟等多品类，各类游戏在发售、更新、试玩及数据公布等方面呈现不同进展，行业内容数量较前期有所增加。",
+      "digest_source": "llm",
       "input_hash": "5f1b34b2a8815046",
       "game_digests": [
         {
@@ -909,107 +938,6 @@
           "name": "bioware",
           "count": 1,
           "summary": "CDPR联席CEO Michał Nowakowski发文缅怀已关闭的BioWare，称其曾为首部《巫师》提供引擎、经验和展示机会，是CDPR历史中非常重要的一部分。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "article_count": 111,
-      "game_count": 75,
-      "untagged_count": 22,
-      "digest": "10月21日游戏行业资讯聚焦于《GTA6》的经济影响预测、《使命召唤：现代战争4》的性能模式硬件限制，以及《英雄联盟》K/DA回归和《无畏契约》新角色公布。此外，《AKIBA LOST》Steam版正式上线，而《不朽遗志》发售7天回本盈利，《EA SPORTS FC 27》因新规获PEGI 16评级。",
-      "digest_source": "llm",
-      "input_hash": "1996960683fc3b55",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 8,
-          "summary": "经济学家估算其发售或致美国150万人缺勤，潜在生产力损失约10亿美元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 4,
-          "summary": "PS5与Xbox Series X|S玩家启用性能模式需同时开启120Hz与VRR。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "英雄联盟",
-          "count": 4,
-          "summary": "虚拟女团K/DA公布迷你专辑《开火》及系列周边，包含四首新歌与实体商品。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "无畏契约",
-          "count": 2,
-          "summary": "公开中国籍新决斗者“哈什”，计划于当地时间10月27日登场。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "AKIBA LOST",
-          "count": 1,
-          "summary": "Steam版因审核延期后于今日正式上线，首发优惠提升至8折。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "EA SPORTS FC 27",
-          "count": 1,
-          "summary": "因欧洲PEGI收紧付费随机奖励评级要求，游戏年龄评级升至16岁。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Ebbtide",
-          "count": 1,
-          "summary": "ProjectAlive公开《Ebbtide》Steam页面 救援成果将转化为全球战役兵力。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Graytail",
-          "count": 1,
-          "summary": "孤岛解谜动作游戏《Graytail》公布新预告 计划2027年底发售。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "MECCHA LIAR",
-          "count": 1,
-          "summary": "HEXIT新作《MECCHA LIAR》发售 判断失误会累积处刑惩罚。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Magenta Down",
-          "count": 1,
-          "summary": "科幻氛围冒险游戏《Magenta Down》公布 登陆PC和Xbox。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Mangrove Express",
-          "count": 1,
-          "summary": "配送冒险游戏《Mangrove Express》推出试玩版 可自由规划航线。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Please Remain Dead",
-          "count": 1,
-          "summary": "《Please Remain Dead》开放Steam页面 玩家需装死欺骗验尸员。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "SKROLL",
-          "count": 1,
-          "summary": "短视频生存游戏《SKROLL》试玩版上线Steam 正式版暂定2027年推出。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "不朽遗志",
-          "count": 1,
-          "summary": "发行商宣布游戏上线仅7天便回本并开始盈利。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "乱斗骑士",
-          "count": 1,
-          "summary": "宣布将于10月27日开启抢先体验，玩法由大逃杀转向合作PvE。",
           "summary_source": "llm"
         }
       ]

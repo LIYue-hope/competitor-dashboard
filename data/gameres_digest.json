@@ -1,18 +1,49 @@
 {
-  "generated_at": "2026-10-30T02:21:37.043563+00:00",
+  "generated_at": "2026-10-31T01:56:38.599271+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-10-30",
-      "article_count": 1,
-      "game_count": 0,
-      "untagged_count": 1,
-      "digest": "10月30日 游资网 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「复活老游戏、剽窃新创意，AI的一体两面还有什么值得深究的？」。未指向具体游戏的内容占当天的 100%。",
-      "digest_source": "rules",
-      "input_hash": "ac9989eb5452e13b",
-      "game_digests": []
+      "article_count": 8,
+      "game_count": 5,
+      "untagged_count": 3,
+      "digest": "Arm与Sumo联合开发的《光影新生》开放下载，Unity中国团结引擎1.11.0原生集成Arm神经超级采样技术；Cygames新作《崩落之国》定档11月5日登陆多平台；集英社游戏宣布瑞典Apog Labs开发的《异星遗航》于10月30日在Steam开启抢先体验，支持1-4人在线合作，国区定价93元。",
+      "digest_source": "llm",
+      "input_hash": "dd7a7a3f1ad6e91a",
+      "game_digests": [
+        {
+          "name": "光影新生",
+          "count": 1,
+          "summary": "Arm神经网络技术实现落地，Unity中国团结引擎1.11.0原生集成Arm神经超级采样（NSS）技术，降低手游开发者应用门槛；Arm与Sumo联合开发的《光影新生》开放下载，可在搭载Arm Mali G2-Ultra NX GPU的移动设备运行。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "刺客信条",
+          "count": 1,
+          "summary": "育碧发布《刺客信条》2026秋季更新。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "合十",
+          "count": 1,
+          "summary": "飞鱼推出地府题材Q版模拟经营游戏《合十》，底层逻辑接近《造化仙府》，含经营建造、卡牌割草战斗、双轨养成玩法，画风有辨识度，前期偏平缺少记忆点。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "崩落之国",
+          "count": 1,
+          "summary": "Cygames公布主打中小规模开发的新品牌CygamesEdge，其首款动作冒险游戏《崩落之国》定档11月5日登陆多平台，Fami通专访了身兼品牌及该作制作人的滨田修一郎。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "异星遗航",
+          "count": 1,
+          "summary": "集英社游戏宣布瑞典Apog Labs开发的空岛探索冒险游戏《异星遗航》于2026年10月30日在Steam开启抢先体验，支持1-4人在线合作，国区定价93元，首发两周9折。",
+          "summary_source": "llm"
+        }
+      ]
     },
     {
       "date": "2026-10-29",
@@ -273,59 +304,6 @@
           "name": "甄嬛传：归来",
           "count": 1,
           "summary": "AI漫剧+二合或成最佳融合！《甄嬛传：归来》的沉浸感体验！ —— 甄嬛传IP二合小游戏《甄嬛传：归来》跻身畅销榜，以甄嬛为主角推进剧情，采用全AI漫剧形式，沉浸感与视觉统一性出众，二合玩法扎实，存在初期付费较急、界面活动按钮偏重的问题。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "article_count": 12,
-      "game_count": 7,
-      "untagged_count": 5,
-      "digest": "10月21日游戏行业资讯聚焦新品发布与测试开启，腾讯光子旗下怪谈新作《人间异想计划》首曝，豪腾发行的《我的末日房车》登顶抖音小游戏新游榜，TapTap制造创作者反映AI游戏盈利难致项目停滞。此外，《掘地求财：铲友齐上阵》定档12月4日发售，多人合作游戏《无光绝境》开启测试，MMORPG《魔域》公布金秋幻兽内容。",
-      "digest_source": "llm",
-      "input_hash": "b38f37dba365272f",
-      "game_digests": [
-        {
-          "name": "HR.SOS",
-          "count": 1,
-          "summary": "《HR.SOS》参与Steam新品节，开放CEO与HR双视角试玩Demo下载。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "TapTap制造",
-          "count": 1,
-          "summary": "TapTap制造创作者反映AI游戏上线一月余未盈利，7个项目中仅2款发布且数据惨淡。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "人间异想计划",
-          "count": 1,
-          "summary": "腾讯光子旗下宇宙小狗工作室怪谈游戏《人间异想计划》首曝，凭借高规格美术跳出常规公式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "我的末日房车",
-          "count": 1,
-          "summary": "豪腾发行的抖音小游戏《我的末日房车》登顶新游榜，主打丧尸末日背景的模拟经营+塔防玩法。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "掘地求财：铲友齐上阵",
-          "count": 1,
-          "summary": "多人合作挖掘冒险游戏《掘地求财：铲友齐上阵》定档12月4日发售，登陆多平台并加入Xbox Game Pass。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "无光绝境",
-          "count": 1,
-          "summary": "多人合作游戏《无光绝境》开启测试，支持最多四人探索火星地底，预计12月2日推出抢先体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "魔域",
-          "count": 1,
-          "summary": "MMORPG《魔域》公布金秋幻兽「澜境君·镜汐」全爆料，正式服于10月23日维护后上线，先锋区提前至10月21日上线。",
           "summary_source": "llm"
         }
       ]

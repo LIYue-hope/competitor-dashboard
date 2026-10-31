@@ -1,29 +1,47 @@
 {
-  "generated_at": "2026-10-30T02:18:14.898849+00:00",
+  "generated_at": "2026-10-31T01:55:40.970669+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-10-30",
-      "article_count": 2,
-      "game_count": 2,
-      "untagged_count": 0,
-      "digest": "2026年10月30日，共发布2条GameLook新闻，涉及2款游戏，涵盖独立开发与国产游戏审批动态，整体围绕游戏开发进展及版本审核信息展开，呈现不同游戏在内容及审批上的最新状况。游戏名｜Moon Sweepers，该作Steam在线近7万人，游戏内容涉及月球清洁任务，呈现独特的开发玩法。游戏名｜少前：蓝蝶契约，183款国产游戏与12款进口游戏获版号，其中散爆、乐元素两款游戏通过审批，反映国产游戏版号审核动态。",
+      "article_count": 6,
+      "game_count": 5,
+      "untagged_count": 1,
+      "digest": "10月30日游戏行业资讯聚焦于多款游戏的新动态，包括Steam在线人数创新高的《Moon Sweepers》、微信小游戏榜单洗牌的《向僵尸开炮》、获得版号审批的《少前：蓝蝶契约》、正式发售并登顶Steam的《影之刃零》以及海外发布并夺冠的《怪物猎人：旅人》。",
       "digest_source": "llm",
-      "input_hash": "5ec5a36294487778",
+      "input_hash": "a1f17706e15ec6f5",
       "game_digests": [
         {
           "name": "Moon Sweepers",
           "count": 1,
-          "summary": "“我在月球当保洁”！2人开发奇葩独游《Moon Sweepers》Steam在线近7万人。",
-          "summary_source": "rules"
+          "summary": "Steam在线人数近7万，玩家在月球上使用牙刷清理漫天月尘。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "向僵尸开炮",
+          "count": 1,
+          "summary": "在Quest Mobile发布的秋季报告中，该游戏位列微信小游戏畅销榜第五。",
+          "summary_source": "llm"
         },
         {
           "name": "少前：蓝蝶契约",
           "count": 1,
-          "summary": "183款国产12款进口游戏获版号：散爆《少前:蓝蝶契约》乐元素《他予回声》过审。",
-          "summary_source": "rules"
+          "summary": "183款国产游戏与12款进口游戏获版号，散爆《少前：蓝蝶契约》过审。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "10月29日正式发售，登陆Steam、PS主机等平台并夺得Steam全球冠军。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "怪物猎人：旅人",
+          "count": 1,
+          "summary": "腾讯《怪物猎人：旅人》国际服于10月29日上线，在19个国家免费榜夺冠。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -154,8 +172,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "10月24日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「西山居“剑侠收官之作”到底怎样？对话主创：“PC占主力，首周超预期”」。未指向具体游戏的内容占当天的 100%。",
-      "digest_source": "rules",
+      "digest": "2026年10月24日，GameLook 共收录1条行业资讯，内容聚焦于游戏出海领域的宏观趋势与政策环境，未涉及具体游戏产品的动态更新或发售信息。按报道条数排序的游戏（含代表性标题与摘要）：",
+      "digest_source": "llm",
       "input_hash": "b31ba44ce119e34e",
       "game_digests": []
     },
@@ -207,35 +225,6 @@
           "name": "赛马娘",
           "count": 1,
           "summary": "《赛马娘》美国巡演因签证问题紧急取消，涉及17名声优歌手。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "article_count": 9,
-      "game_count": 3,
-      "untagged_count": 6,
-      "digest": "网易参投的瑞典游戏工作室Liquid Swords宣布破产，其由《正当防卫》前总监创立的项目宣告失败；2026《荒野乱斗》LCQ广州站落幕，NAVI与Team Heretics成功突围；《赛博朋克：边缘行者2》全球热播，仅15分钟就让玩家感到震撼。",
-      "digest_source": "llm",
-      "input_hash": "32215413b627161e",
-      "game_digests": [
-        {
-          "name": "正当防卫",
-          "count": 1,
-          "summary": "网易参投的瑞典游戏公司Liquid Swords破产，由《正当防卫》前总监创立的项目宣告失败。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "荒野乱斗",
-          "count": 1,
-          "summary": "2026《荒野乱斗》LCQ广州站落幕，NAVI与Team Heretics成功突围。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "赛博朋克：边缘行者2",
-          "count": 1,
-          "summary": "《赛博朋克：边缘行者2》全球热播，仅15分钟就让玩家感到震撼。",
           "summary_source": "llm"
         }
       ]
