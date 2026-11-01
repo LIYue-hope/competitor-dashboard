@@ -1,34 +1,123 @@
 {
-  "generated_at": "2026-10-31T01:41:44.829095+00:00",
+  "generated_at": "2026-11-01T01:06:06.622566+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-10-31",
-      "article_count": 3,
-      "game_count": 3,
+      "date": "2026-11-01",
+      "article_count": 1,
+      "game_count": 1,
       "untagged_count": 0,
-      "digest": "10月31日游戏行业资讯主要围绕《寂静岭：小镇陷落》的销量表现、EA《星球大战绝地3》的开发进度传闻以及《星球大战：旧共和国命运》的叙事风格预测展开。Alinea Analytics数据显示，《寂静岭：小镇陷落》上市首月销量突破40.4万份，PlayStation平台收入达2020万美元，实体版已售罄；彭博社记者透露《星球大战绝地3》开发已进入后期阶段，或于年底前公布；前龙腾世纪总监马克·达拉则预测新作将采用简洁叙事，规避叙事堆砌问题。",
+      "digest": "2026年11月1日，3DMGame共报道1条游戏资讯，聚焦《英雄联盟》2026全球总决赛八强席位争夺战。Karmine Corp、LYON与哔哩哔哩电竞BLG分别击败Movistar KOI、LØS与HLE，锁定最后三个淘汰赛席位，赛事八强全部产生。",
       "digest_source": "llm",
-      "input_hash": "461f36f8057bc034",
+      "input_hash": "b415eca1453e47c5",
       "game_digests": [
+        {
+          "name": "英雄联盟",
+          "count": 1,
+          "summary": "《英雄联盟》2026全球总决赛瑞士轮最后一个比赛日结束，Karmine Corp以2比0击败Movistar KOI，LYON与哔哩哔哩电竞BLG也分别战胜LØS与HLE，锁定最后三个淘汰赛席位，赛事八强全部产生。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "article_count": 49,
+      "game_count": 36,
+      "untagged_count": 6,
+      "digest": "今日游戏资讯聚焦于《GTA6》的深度考据研究、万智牌与宝可梦的周边发售，以及《使命召唤：现代战争4》的反作弊成效。此外，小岛秀夫新作《Physint》概念机甲曝光，而《RuneScape》重启项目因玩家不满被取消，多款新游如《女王魔域》与《上帝保佑伯明翰》也迎来发售或测试。",
+      "digest_source": "llm",
+      "input_hash": "190da94a970a19d9",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 6,
+          "summary": "玩家考据称游戏建筑原型来自佐治亚州乡村聚落，地图研究社群通过比对预告片与截图，分析出拉莫克斯县可能混合了佛罗里达州北部、佐治亚州及兰普金县的地形特征。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "万智牌",
+          "count": 2,
+          "summary": "亚马逊开放“黑暗神书：命运”系列四套指挥官套牌预售，标准版售价299.96美元，收藏版售价639.96美元，将于2027年4月9日上市。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想14：银海之天舟",
+          "count": 2,
+          "summary": "官方公布新职业“迅风猎手”，该职业使用弩箭并携带名为“云鹰”的宠物鸟，在战斗中提供支援，并将于日本粉丝节正式亮相。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Physint",
+          "count": 1,
+          "summary": "小岛秀夫新作《Physint》展览曝光概念机甲，其造型酷似《合金装备》中的REX，该作被定位为《合金装备》的精神续作，比尔·斯卡斯加德将出演主角。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "RuneScape",
+          "count": 1,
+          "summary": "开发商Jagex宣布取消重启项目《RuneScape：重燃》，此前该计划因老玩家不满被边缘化而引发争议，官方随后致歉并保留现有游戏内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上帝保佑伯明翰",
+          "count": 1,
+          "summary": "中世纪僵尸生存游戏《上帝保佑伯明翰》第二次Beta测试将于11月3日开启，Steam测试不设保密协议，将首次加入最多四人合作功能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 1,
+          "summary": "官方公布首周作弊举报数据，称本作收到的作弊举报少于《使命召唤：黑色行动7》，活跃外挂供应商数量也更少，反作弊现状“令人鼓舞”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "古墓丽影",
+          "count": 1,
+          "summary": "Game Boy Color版《古墓丽影》由《打捞》原型改造而来，美术师Matt Charlesworth回忆了开发过程，原版游戏被视为《波斯王子》《另一个世界》和《闪回》的三维演进。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "命运守护者",
+          "count": 1,
+          "summary": "抢先体验版推出首次功能更新，加入手柄支持并提高移动速度15%，同时调整了弓箭手精准度、Firespark法术射程及战斗反馈。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "咩咩启示录",
+          "count": 1,
+          "summary": "叙事负责人JoJo Zhou分享了留白式世界构建方法，强调通过减少即时答案和利用玩家考据来增强社区参与感，冬之神Yngya即由此设定衍生为DLC主角。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "女王魔域",
+          "count": 1,
+          "summary": "第一人称动作RPG《女王魔域》正式登陆PC及主机平台，游戏受《国王密令》启发，玩家需在尼亚西德岛寻找失踪父亲，通过强化圣剑进行立体探索。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "宝可梦传说 Z-A",
+          "count": 1,
+          "summary": "创作者Paige Powell耗时约200小时打造了一台约1.5米高的可游玩宝可梦主题Game Boy Color，该设备采用木材制成并还原了1999年限定版外观。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "宝可梦卡牌",
+          "count": 1,
+          "summary": "宝可梦公司公布“超级烈空坐ex高级赛事收藏盒”，将于2027年2月12日发售，核心内容为一张独有插画的超级烈空坐ex闪面宣传卡。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "宝可梦：Pokopia",
+          "count": 1,
+          "summary": "破解爱好者已在PS5上运行《宝可梦：Pokopia》，DualSense可控制角色，但因缺少着色器和纹理，画面仍存在严重错误。",
+          "summary_source": "llm"
+        },
         {
           "name": "寂静岭：小镇陷落",
           "count": 1,
-          "summary": "《寂静岭：小镇陷落》首月销量突破40.4万份，PlayStation平台收入达2020万美元，实体版已售罄。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星球大战绝地3",
-          "count": 1,
-          "summary": "彭博社记者透露《星球大战绝地3》开发已进入后期阶段，或于今年年底前正式公布。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星球大战：旧共和国命运",
-          "count": 1,
-          "summary": "前龙腾世纪总监马克·达拉预测新作将采用简洁叙事，规避叙事堆砌问题，由阿卡诺特工作室负责开发。",
+          "summary": "游戏上市首月销量突破40万份，尽管未发售即遭破解，但实体版已售罄，且恐怖游戏品类在Steam上的收入较去年增长17%。",
           "summary_source": "llm"
         }
       ]
@@ -837,107 +926,6 @@
           "name": "Terraglass",
           "count": 1,
           "summary": "Teacup Worlds正在为PC Steam开发沙盒游戏《Terraglass》，游戏将舞台放进一只可置于电脑桌面的玻璃瓶，玩家能够改造其中的地形与生态，并控制生物进入亲手创造的环境探索。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "article_count": 128,
-      "game_count": 91,
-      "untagged_count": 19,
-      "digest": "2026年10月22日游戏行业资讯丰富，新作发售与老游戏回顾占据主流。IW重启的《使命召唤：现代战争4》发售引发战役难度热议，SNK《饿狼传说：群狼之城》Switch 2版正式发售，CDPR发文缅怀已关闭的BioWare工作室。此外，《GTA6》迈阿密Burger Shot餐厅疑似为线下宣传，国产武侠《影之刃零》公布黄海封绘并进入发售倒计时，而《赛博朋克2077》更新2.5版本上线。",
-      "digest_source": "llm",
-      "input_hash": "bdc4fdf54f179fec",
-      "game_digests": [
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 5,
-          "summary": "IW重启后的“现代战争”系列终章本周发售，战役模式和非军事区进入抢先体验，外媒评测指出其普通难度比近作更高，AI表现更难对付。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 4,
-          "summary": "迈阿密卡西亚中心一家餐厅换上Burger Shot主题装饰，疑似为《GTA6》线下宣传活动，现场出现Macca & Friends及Vice City海报，具体营业形式待核实。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 4,
-          "summary": "官方公布黄海绘制的高清收藏铁盒封绘，宣布游戏进入发售前倒计时7天，并将于10月27日开启全平台预下载，2027年推出PS5实体光盘。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "质量效应",
-          "count": 4,
-          "summary": "消息称EA为削减最多7亿美元开支，已关闭BioWare及其埃德蒙顿办公室，原由BioWare负责的下一部《质量效应》项目因此终止。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "赛博朋克2077",
-          "count": 3,
-          "summary": "“边缘行者 2”版本更新2.5正式登陆PC、Mac、PS5和Xbox Series X|S平台，新增支线任务“连梦都被编了号”等内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "饿狼传说：群狼之城",
-          "count": 3,
-          "summary": "《饿狼传说：群狼之城》Nintendo Switch™ 2版今日（10月22日）正式发售！；《饿狼传说：群狼之城》×《东京复仇者》联动DLC“佐野万次郎”“龙宫寺坚”今日上线！角色动画预告片公；《饿狼传说：群狼之城》登上Switch 2 两种控制风格自由选择。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Nintendo Switch运动：度假胜地",
-          "count": 2,
-          "summary": "该作于10月22日独占登陆Switch 2，收录12项运动，外媒评测认为其重新找回了家庭体感游戏的同乐氛围，但两项新增运动表现一般。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "42中队",
-          "count": 1,
-          "summary": "官方计划支持十种语言字幕和界面，仅支持英语语音，玩家围绕本地化投入及开发资源优先级展开争论，官方回应称将先推出游戏再处理完整配音。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Ecstatica",
-          "count": 1,
-          "summary": "《Ecstatica》与《Ecstatica2》10月26日重返Steam和GOG。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Escape From Playtime",
-          "count": 1,
-          "summary": "《Poppy Playtime》开发商Mob Entertainment打造的多人合作生存恐怖游戏现已登陆Steam抢先体验，支持1至8名玩家。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA3",
-          "count": 1,
-          "summary": "《GTA3》问世25周年之际，回顾文章认为其三维开放世界带来的玩家自由与成熟叙事比暴力争议影响更深，推动了城市开放世界设计的普及。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "QUIET",
-          "count": 1,
-          "summary": "LINE Games旗下恐怖游戏《QUIET》免费试玩版登陆Steam与Epic，收录一个正式关卡及四人街机模式“鸭鸭淘汰赛”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Rustown",
-          "count": 1,
-          "summary": "独立团队Plotrick公布故事向潜行冒险游戏《Rustown》，宣布定于2027年6月30日发售，玩家需在贫民区躲避监视并寻找失踪父亲。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "VANRAN",
-          "count": 1,
-          "summary": "韩国奇幻ARPG《VANRAN》延期至2027年初发售，登陆Steam、PS5和XSX|S，主打可攀爬巨型BOSS的战斗机制。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "bioware",
-          "count": 1,
-          "summary": "CDPR联席CEO Michał Nowakowski发文缅怀已关闭的BioWare，称其曾为首部《巫师》提供引擎、经验和展示机会，是CDPR历史中非常重要的一部分。",
           "summary_source": "llm"
         }
       ]

@@ -1,9 +1,9 @@
 {
-  "crawled_at": "2026-10-31T01:33:10.863484+00:00",
+  "crawled_at": "2026-11-01T01:00:07.400214+00:00",
   "days": [
     {
       "date": "2026-11-03",
-      "date_label": "11月03日 下周二",
+      "date_label": "11月03日 后天",
       "games": [
         {
           "game_name": "哈基米大合体",
@@ -105,6 +105,22 @@
       "date_label": "11月06日 下周五",
       "games": [
         {
+          "game_name": "烹饪发烧友",
+          "categories": [
+            "经营",
+            "模拟经营",
+            "街机",
+            "烹饪"
+          ],
+          "score": null,
+          "release_date": "2026-11-06",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1961217.html",
+          "publisher": null,
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
           "game_name": "星空神曲",
           "categories": [
             "角色扮演",
@@ -147,6 +163,27 @@
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1946060.html",
           "publisher": "湛江燃启网络科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "date_label": "11月07日 下周六",
+      "games": [
+        {
+          "game_name": "魔界勇者",
+          "categories": [
+            "Roguelike",
+            "放置",
+            "角色扮演"
+          ],
+          "score": "8.9",
+          "release_date": "2026-11-07",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1954160.html",
+          "publisher": "轩玩网络",
           "is_major_publisher": false,
           "has_afk_grinding_tag": true
         }
