@@ -1,20 +1,48 @@
 {
-  "generated_at": "2026-10-26T00:17:36.448895+00:00",
-  "week_start": "2026-10-19",
-  "week_end": "2026-10-25",
-  "article_count": 2119,
-  "game_count": 275,
-  "digest": "上周游戏行业资讯热度持续高涨，其中《GTA6》以118条资讯领跑，尽管尚未发售，但约150万美国人计划请假游玩的热度空前，Rockstar详谈了剧情与开放世界的平衡，并解除评测禁令，同时PlayStation向用户推送了预购奖励通知。国产新作方面，《蓝色星原：旅谣》官宣定档11月26日公测，预约量达257万；《影之刃零》热度紧随其后，Steam预购约50万份收入2400万美元，索尼在中国推广并发布巨幅涂鸦，最终预告公布左殇剧情与经典招式，将于10月29日发售；此外《异环》因明音凛腿部设计调整引发玩家热议。老牌游戏表现同样亮眼，《赛博朋克2077》Steam在线创三年新高峰值超16万，2.5更新上线新增联动任务与双持玩法；《最终幻想：共鸣》10月22日发售，Steam峰值在线2万人，IGN获8分；《使命召唤：现代战争4》Steam首发同时在线突破22.7万，DMZ自复活技能引抗议，首款DLC上线；而《质量效应》系列相关资讯颇多，包括原计划设定、真人剧开发、BioWare关闭讨论及前生软制作人预测IP出售，被取消的《质量效应5》也因泄露预告引发关注。",
+  "generated_at": "2026-11-02T01:46:02.615062+00:00",
+  "week_start": "2026-10-26",
+  "week_end": "2026-11-01",
+  "article_count": 2234,
+  "game_count": 246,
+  "digest": "上周游戏行业资讯总数达2234条，涉及246款游戏，其中米哈游新作《星布谷地》热度领跑，官宣定于12月4日登陆PC及移动端，首曝温馨星球生活玩法与多重上线福利，预约量达153万。国产动作游戏《影之刃零》热度紧随其后，Steam峰值超77万创今年单人游戏新高，开发成本被曝达3-4亿元，媒体评分已超《黑神话》，外媒称其对动作老手偏简单，66天难度未解，且国外玩家已无伤击败隐藏Boss甄子丹。备受期待的《GTA6》热度位列第三，玩家考据称其部分建筑原型来自佐治亚州，收录超170种动物，并时隔十八年将踏板车兄弟梗改为实用功能。此外，国产虚幻5新作《白银之城》官宣定档12月14日全球同步上线，支持PS5 Pro强化；《怪物猎人：旅人》登陆双移动平台，10月29日正式上线，首发开放七类武器；《原神》桑多涅与八重神子1/8手办造型公开；育碧暂缓《刺客信条》重制项目，全力转向《女巫》等新作。",
   "digest_source": "llm",
   "heat_formula": "热度 = 资讯量 30% + 跨源覆盖 15% + 预约量 18% + 社区（周内新增关注/评价/讨论）15% + TapTap 榜单名次 12% + 官方动态 7% + 评测讨论 3%；各项先对数归一（资讯满格 200 条），缺测的维度计 0、不倒扣，满分 100。",
-  "input_hash": "6fd2910d36602456",
+  "input_hash": "91612829857ea882",
   "hot_ranking": [
     {
       "rank": 1,
-      "name": "GTA6",
-      "heat_score": 42.0,
-      "media_count": 118,
+      "name": "星布谷地",
+      "heat_score": 53.5,
+      "media_count": 4,
       "source_count": 4,
+      "reservation_label": "153万",
+      "follow_delta_label": null,
+      "best_rank": 2,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《星布谷地》定档12月4日正式公测，首曝温馨星球生活玩法与多重上线福利",
+          "url": "http://www.gamelook.com.cn/2026/11/605230/",
+          "source": "GameLook",
+          "published_at": "2026-11-01"
+        },
+        {
+          "title": "《星布谷地》定档12月4日正式公测，首曝温馨星球生活玩法与多重上线福利",
+          "url": "https://www.gameres.com/901203418.html",
+          "source": "游资网",
+          "published_at": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "影之刃零",
+      "heat_score": 49.8,
+      "media_count": 482,
+      "source_count": 5,
       "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": null,
@@ -22,27 +50,27 @@
       "official_count": 0,
       "news": [
         {
-          "title": "曝《GTA6》预购销量远超《COD》 有望游戏史上最强首发",
-          "url": "https://www.gamersky.com/news/202610/2234448.shtml",
+          "title": "《影之刃零》Steam销量预估破200万份!日均在线33万",
+          "url": "https://www.gamersky.com/news/202611/2238535.shtml",
           "source": "游民星空",
-          "published_at": "2026-10-25"
+          "published_at": "2026-11-01"
         },
         {
-          "title": "消息称《GTA6》评测禁令将在发售前一天解除",
-          "url": "https://www.3dmgame.com/news/202610/3957693.html",
-          "source": "3DMGame",
-          "published_at": "2026-10-24"
+          "title": "沙宝亮献唱《影之刃零》！片尾曲、原声曲辑明日上线",
+          "url": "https://www.gamersky.com/news/202611/2238588.shtml",
+          "source": "游民星空",
+          "published_at": "2026-11-01"
         }
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "无限大",
-      "heat_score": 41.9,
+      "heat_score": 42.5,
       "media_count": 0,
       "source_count": 0,
-      "reservation_label": "384万",
-      "follow_delta_label": "2万",
+      "reservation_label": "387万",
+      "follow_delta_label": "3万",
       "best_rank": 5,
       "rank_lists": [
         "reserve"
@@ -51,12 +79,90 @@
       "news": []
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "蓝色星原：旅谣",
-      "heat_score": 37.2,
-      "media_count": 1,
-      "source_count": 1,
-      "reservation_label": "257万",
+      "heat_score": 42.1,
+      "media_count": 0,
+      "source_count": 0,
+      "reservation_label": "260万",
+      "follow_delta_label": "4万",
+      "best_rank": 8,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": []
+    },
+    {
+      "rank": 5,
+      "name": "饥困荒野",
+      "heat_score": 41.7,
+      "media_count": 0,
+      "source_count": 0,
+      "reservation_label": "244万",
+      "follow_delta_label": "5万",
+      "best_rank": 11,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": []
+    },
+    {
+      "rank": 6,
+      "name": "GTA6",
+      "heat_score": 39.5,
+      "media_count": 147,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": null,
+      "rank_lists": [],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "《GTA6》即将发售NBA已79人受伤！都想回家打游戏?",
+          "url": "https://www.gamersky.com/news/202611/2238554.shtml",
+          "source": "游民星空",
+          "published_at": "2026-11-01"
+        },
+        {
+          "title": "《GTA6》将于本月正式发售！跳票两次 苦等13年",
+          "url": "https://www.gamersky.com/news/202611/2238547.shtml",
+          "source": "游民星空",
+          "published_at": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "原神",
+      "heat_score": 34.4,
+      "media_count": 4,
+      "source_count": 3,
+      "reservation_label": null,
+      "follow_delta_label": null,
+      "best_rank": 17,
+      "rank_lists": [
+        "hot"
+      ],
+      "official_count": 12,
+      "news": [
+        {
+          "title": "米哈游新作官宣登陆NS2！6年前的《原神》不见踪影",
+          "url": "https://www.gamersky.com/news/202611/2238741.shtml",
+          "source": "游民星空",
+          "published_at": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "白银之城",
+      "heat_score": 30.6,
+      "media_count": 3,
+      "source_count": 3,
+      "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": 3,
       "rank_lists": [
@@ -65,139 +171,25 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《蓝色星原：旅谣》官宣定档 11月26日正式开启公测",
-          "url": "https://www.gamersky.com/news/202610/2233664.shtml",
+          "title": "国产虚幻5新作《白银之城》官宣定档！PS5页面上线 支持Pro强化",
+          "url": "https://www.gamersky.com/news/202610/2238301.shtml",
           "source": "游民星空",
-          "published_at": "2026-10-23"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "name": "影之刃零",
-      "heat_score": 36.9,
-      "media_count": 92,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《影之刃零》即将发售!你预测M站开分多少?",
-          "url": "https://www.gamersky.com/news/202610/2234641.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-25"
+          "published_at": "2026-10-31"
         },
         {
-          "title": "《影之刃零》发售倒计时4天！最新宣传海报公开",
-          "url": "https://www.gamersky.com/news/202610/2234535.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-25"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "name": "赛博朋克2077",
-      "heat_score": 31.2,
-      "media_count": 33,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《赛博朋克2077》更新了却遗憾!CDPR官方怀念好兄弟杰克",
-          "url": "https://www.gamersky.com/news/202610/2234189.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-24"
-        },
-        {
-          "title": "《赛博朋克2077》11月10日登陆战网 同步上线“边缘行者2”免费更新",
-          "url": "https://www.gamersky.com/news/202610/2233675.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-23"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "name": "最终幻想：共鸣",
-      "heat_score": 30.2,
-      "media_count": 25,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "继任者出手！《最终幻想：共鸣》发售仅数日遭绕过",
-          "url": "https://www.ali213.net/news/html/2026-10/1049105.html",
-          "source": "游侠网",
-          "published_at": "2026-10-25"
-        },
-        {
-          "title": "《最终幻想：共鸣》登陆Steam，峰值在线达2万人",
-          "url": "https://www.3dmgame.com/news/202610/3957545.html",
+          "title": "《白银之城》官宣定档12月14日，全球同步上线",
+          "url": "https://www.3dmgame.com/news/202610/3958500.html",
           "source": "3DMGame",
-          "published_at": "2026-10-23"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "name": "质量效应",
-      "heat_score": 28.2,
-      "media_count": 19,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "类《质量效应》游戏《大迁离》更新男主角模型 可自定义发型胡须与纹身",
-          "url": "https://www.3dmgame.com/news/202610/3957623.html",
-          "source": "3DMGame",
-          "published_at": "2026-10-23"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "name": "异环",
-      "heat_score": 27.5,
-      "media_count": 3,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": 16,
-      "rank_lists": [
-        "hot"
-      ],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《异环》明音凛“全金属摇滚”上线前修改腿部细节！",
-          "url": "https://www.ali213.net/news/html/2026-10/1048541.html",
-          "source": "游侠网",
-          "published_at": "2026-10-22"
+          "published_at": "2026-10-31"
         }
       ]
     },
     {
       "rank": 9,
-      "name": "使命召唤：现代战争4",
-      "heat_score": 27.5,
-      "media_count": 30,
-      "source_count": 2,
+      "name": "刺客信条",
+      "heat_score": 29.1,
+      "media_count": 11,
+      "source_count": 4,
       "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": null,
@@ -205,25 +197,25 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《使命召唤：现代战争4》首款DLC上线，全部收入用于退伍军人援助",
-          "url": "https://www.3dmgame.com/news/202610/3957644.html",
-          "source": "3DMGame",
-          "published_at": "2026-10-24"
+          "title": "《刺客信条》2026秋季更新",
+          "url": "https://www.gameres.com/901203407.html",
+          "source": "游资网",
+          "published_at": "2026-10-30"
         },
         {
-          "title": "《使命召唤：现代战争4》正式上市！战役、多人及DMZ同步推出",
-          "url": "https://www.3dmgame.com/news/202610/3957595.html",
+          "title": "Ubisoft发布《刺客信条》秋季更新视频预告系列新项目",
+          "url": "https://www.3dmgame.com/news/202610/3958304.html",
           "source": "3DMGame",
-          "published_at": "2026-10-23"
+          "published_at": "2026-10-30"
         }
       ]
     },
     {
       "rank": 10,
-      "name": "质量效应5",
-      "heat_score": 26.9,
-      "media_count": 15,
-      "source_count": 3,
+      "name": "怪物猎人：旅人",
+      "heat_score": 29.1,
+      "media_count": 11,
+      "source_count": 4,
       "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": null,
@@ -231,16 +223,16 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《质量效应5》负责人谢玩家支持 调侃GTA6发售不用请假",
-          "url": "https://www.3dmgame.com/news/202610/3957664.html",
-          "source": "3DMGame",
-          "published_at": "2026-10-24"
+          "title": "《怪物猎人：旅人》今日上线！首个SSR美女太刀侠",
+          "url": "https://www.gamersky.com/news/202610/2237302.shtml",
+          "source": "游民星空",
+          "published_at": "2026-10-29"
         },
         {
-          "title": "薛帕德配音演员称《质量效应5》泄露片段出色 仍盼系列延续",
-          "url": "https://www.3dmgame.com/news/202610/3957634.html",
+          "title": "《怪物猎人：旅人》登陆双移动平台！首发开放七类武器",
+          "url": "https://www.3dmgame.com/news/202610/3958185.html",
           "source": "3DMGame",
-          "published_at": "2026-10-24"
+          "published_at": "2026-10-29"
         }
       ]
     }

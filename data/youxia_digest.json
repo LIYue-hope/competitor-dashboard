@@ -1,107 +1,208 @@
 {
-  "generated_at": "2026-11-01T01:09:51.824747+00:00",
+  "generated_at": "2026-11-02T01:38:11.728680+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
+      "date": "2026-11-01",
+      "article_count": 36,
+      "game_count": 20,
+      "untagged_count": 7,
+      "digest": "11月1日 游侠网 共 36 条新闻，涉及 20 款游戏。报道最集中的是《影之刃零》（6 条）、《GTA6》（3 条）、《英雄联盟》（2 条）。另有 7 条未指向具体游戏的行业或平台资讯。另外还有《鬼武者》（2 条）、《Asleep: Act 1》（1 条）、《FF14：永冻之境》（1 条）也有报道。",
+      "digest_source": "rules",
+      "input_hash": "48f23d7f867bec57",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 6,
+          "summary": "《影之刃零》预算闹乌龙被群嘲 3亿至4亿元被当成美元；PlayStation携手《影之刃零》亮相上海豫园，非遗舞狮文化与游戏魅力精彩交融；央视独家上线《影之刃零》幕后特辑!镜头下的出海叙事（当天共 6 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "法国拟徵“下载流量税”?下载一次《GTA6》或缴近11欧；《GTA6》通缉系统曝光！六星回归 警察追击更灵活；R星联手Travis Scott、Nike推三款《GTA6》联名球鞋。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "英雄联盟",
+          "count": 2,
+          "summary": "领带当衣服穿！《英雄联盟》K/DA伊芙琳废弃造型流出；《英雄联盟》S16全球总决赛八强出炉！BLG零封HLE。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "鬼武者",
+          "count": 2,
+          "summary": "游侠早报：《鬼武者》遭破解 索尼Bend工作室新作曝光；满分神作《鬼武者》被完整破解！三层加密一并移除。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Asleep: Act 1",
+          "count": 1,
+          "summary": "Steam喜加一：恐怖冒险《Asleep: Act 1》免费入库。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "FF14：永冻之境",
+          "count": 1,
+          "summary": "《FF14:永冻之境》跳票至明年2月！为品质继续打磨。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "光与影：33号远征队",
+          "count": 1,
+          "summary": "《光与影：33号远征队》DLSS5新截图！角色近乎真人。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "地铁2033",
+          "count": 1,
+          "summary": "《地铁2033》《最后曙光》PS5版上线! PSSR原生支持。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "大金刚",
+          "count": 1,
+          "summary": "差点就被当垃圾丢掉!《大金刚》初代海报竟拍卖出天价。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃",
+          "count": 1,
+          "summary": "外媒评《影之刃》压过《红沙》更有望入围TGA年度游戏。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "往日不再",
+          "count": 1,
+          "summary": "《往日不再》工作室新作曝光 正开发第三人称合作游戏。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "昭和米国物语",
+          "count": 1,
+          "summary": "《昭和米国物语》命名出圈 最低难度号称猫咪也能通关。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "最终幻想14",
+          "count": 1,
+          "summary": "《最终幻想14》×《EVA》联动PV曝光!初号机再次登陆。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "极限竞速6",
+          "count": 1,
+          "summary": "眼神微醺也不行?《极限竞速6》改\"动漫痛车\"遭大封杀。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "永恒的尽头",
+          "count": 1,
+          "summary": "RPG《永恒的尽头》加强版登陆PS5/Steam 支持原生4K。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
       "date": "2026-10-31",
-      "article_count": 43,
-      "game_count": 29,
-      "untagged_count": 9,
-      "digest": "2026年10月31日，行业资讯整体呈现游戏动态活跃、行业争议与跨游戏合作现象并存的特点。当日多款游戏发布关键动态，涵盖多款关键作品上线或核心更新，部分作品在数值修复、玩法调整及争议处理方面引起关注，市场环境同样在稳步变化。",
+      "article_count": 55,
+      "game_count": 33,
+      "untagged_count": 16,
+      "digest": "2026年10月31日，游戏行业当日动态较为多元，涵盖多人开放世界开发进展、新作发售动态、游戏更新与修改修复、粉丝相关动态及大型品类市场表现等多维度内容，整体呈现不同产品在不同方向上的发展布局与动态更新情况。",
       "digest_source": "llm",
-      "input_hash": "b179f2b57fbbf63b",
+      "input_hash": "3c5791d3f0bb1a8b",
       "game_digests": [
         {
           "name": "影之刃零",
           "count": 4,
-          "summary": "《影之刃零》社区出现成人裸露MOD，包含针对女性角色的去除服饰类自制内容；M站玩家评分突破9.2分，为评分最高的国产游戏；Steam评价数在发售后快速累积，已升至特别好评，战斗表现获玩家认可。",
-          "summary_source": "llm"
+          "summary": "《影之刃零》已出现成人裸露MOD！女角色褪去衣物；《影之刃零》M站玩家评分9.2分！评分最高国产游戏；《影之刃零》Steam升至特别好评！战斗媲美《只狼》（当天共 4 条）",
+          "summary_source": "rules"
         },
         {
           "name": "GTA6",
-          "count": 2,
-          "summary": "《GTA6》确认虚构州份雷奥奈达可容纳超170种动物物种，覆盖陆地、天空与水域；其测绘项目中发现的佐治亚州Gay镇建筑原型被扒出，印证游戏开放世界取材不仅涵盖佛罗里达，还融入了佐治亚州乡村风貌。",
-          "summary_source": "llm"
+          "count": 3,
+          "summary": "《GTA6》确认栖息超170种动物：鳄鱼、海牛、恒河猴等；《GTA6》地图不止佛罗里达？Gay镇红砖建筑被扒出！；告别强制剧情束缚！《GTA6》教程结束就能自由探索地图。",
+          "summary_source": "rules"
         },
         {
           "name": "红色沙漠",
           "count": 2,
-          "summary": "《红色沙漠》推送2.04.00补丁，修复沙漠复活等关键BUG，覆盖多平台；破解者ARTIFACT更新增强版补丁突破Denuvo Hypervisor绕过方案，存在安全风险。",
-          "summary_source": "llm"
+          "summary": "《红色沙漠》2.04.00补丁上线 沙漠复活恶性BUG已修；《红色沙漠》加密再被绕过 ARTIFACT跟进增强版补丁。",
+          "summary_source": "rules"
         },
         {
           "name": "HYPNOS",
           "count": 1,
-          "summary": "克苏鲁风新作《HYPNOS》1.0正式版上线Steam，提供克苏鲁风梦境解谜玩法，玩家可探索无名之城并影响角色命运。",
-          "summary_source": "llm"
+          "summary": "克苏鲁风新作收官！《HYPNOS》1.0正式版现已上线Steam。",
+          "summary_source": "rules"
         },
         {
           "name": "上古卷轴4",
           "count": 1,
-          "summary": "《上古卷轴4：湮灭》粉丝重制Skyblivion遭遇法律纠纷，前志愿者因反编译代码并威胁揭露负责人信息引发争议。",
-          "summary_source": "llm"
+          "summary": "《上古卷轴4》粉丝重制Skyblivion遭前志愿者威胁！。",
+          "summary_source": "rules"
         },
         {
           "name": "与狼同行",
           "count": 1,
-          "summary": "官方确认《与狼同行》重制版将继承至续作，玩家登录Telltale账户后可继承关键选择，未通关前作亦可直接设定过往选择。",
-          "summary_source": "llm"
+          "summary": "官方确认：《与狼同行》重制版选择将继承至续作！。",
+          "summary_source": "rules"
         },
         {
           "name": "军团要塞2",
           "count": 1,
-          "summary": "《军团要塞2》于10月30日更新，修复社区地图细节漏洞并新增锦标赛勋章，延续Valve对经典射击游戏的持续维护。",
-          "summary_source": "llm"
+          "summary": "《军团要塞2》更新：新锦标赛勋章+社区地图漏洞修复。",
+          "summary_source": "rules"
         },
         {
           "name": "刺客信条",
           "count": 1,
-          "summary": "育碧暂停刺客信条重制项目开发，外媒认为该选择不妥，相关消息预计2027年放出。",
-          "summary_source": "llm"
+          "summary": "《刺客信条》重制项目暂停！育碧这一选择被指糟糕。",
+          "summary_source": "rules"
         },
         {
           "name": "卡莉亚的炼金工房",
           "count": 1,
-          "summary": "《卡莉亚的炼金工房》首曝主角体型变化系统演示动画，玩家可通过进食不同食材触发外形变化并自由切换状态。",
-          "summary_source": "llm"
+          "summary": "吃啥变啥？《卡莉亚的炼金工房》首曝体型变化PV！。",
+          "summary_source": "rules"
         },
         {
           "name": "堕落之主2",
           "count": 1,
-          "summary": "《堕落之主2》获2860万欧元融资，用于开发、营销与发行，重组现有债务，计划12月公布具体发售日。",
-          "summary_source": "llm"
+          "summary": "《堕落之主2》获2860万欧元融资 12月公布具体发售日。",
+          "summary_source": "rules"
         },
         {
           "name": "大神",
           "count": 1,
-          "summary": "《大神》续作开发压力过大，制作人神谷英树感慨玩家期待远超原创制作，并呼吁粉丝不要过度期待。",
-          "summary_source": "llm"
+          "summary": "《大神》续作开发压力太大 神谷英树无奈亲自喊话！。",
+          "summary_source": "rules"
         },
         {
           "name": "宝可梦：朱/紫",
           "count": 1,
-          "summary": "《宝可梦：朱/紫》上线毒太晶三首恶龙限时挑战，该挑战限定单存档捕捉一只，活动持续至11月5日。",
-          "summary_source": "llm"
+          "summary": "七星坑更新！《宝可梦：朱/紫》上线毒太晶三首恶龙挑战。",
+          "summary_source": "rules"
         },
         {
           "name": "寂静岭Townfall",
           "count": 1,
-          "summary": "《寂静岭：小镇陷落》首月销量超40.4万份，PS平台收入达2020万美元，实体光盘已售罄；2026年Steam恐怖游戏总收入达13亿美元，同比增17%。",
-          "summary_source": "llm"
+          "summary": "《寂静岭Townfall》光盘卖空 PS平台贡献近七成收入。",
+          "summary_source": "rules"
         },
         {
           "name": "战争机器2",
           "count": 1,
-          "summary": "《战争机器2》《战争机器3》《战争机器：审判》实现PC原生运行，支持5K与高帧画面，不再依赖传统模拟器。",
-          "summary_source": "llm"
+          "summary": "《战争机器2/3/审判》实现PC原生运行！支持5K与高帧。",
+          "summary_source": "rules"
         },
         {
           "name": "战神",
           "count": 1,
-          "summary": "初代《战神》获得民间PC原生移植，首个公开版本支持宽屏与键鼠操作。",
-          "summary_source": "llm"
+          "summary": "初代《战神》获得民间PC原生移植！支持宽屏与键鼠。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -809,107 +910,6 @@
           "count": 1,
           "summary": "《帝国时代4：北方劫掠者》DLC将于10月30日发售，国区定价118元，新增维京、苏格兰文明与熔炉竞技场。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "article_count": 88,
-      "game_count": 58,
-      "untagged_count": 20,
-      "digest": "2026年10月23日行业整体呈现游戏动态集中发布态势，涵盖多款热门作品的上线、版本更新、销量突破及争议讨论，同时涉及新作发布与联动活动等多元类型内容，行业热度保持活跃。游戏名｜半条命3：Valve作曲家口误提及代号“HLX”，导致《半条命3》相关传闻首次在权威媒体中出现，引发玩家关注。游戏名｜质量效应5：一方面出现预告CG泄露及项目取消等负面动态，另一方面伴随数万粉丝联名请愿及权威工作室降级措施，前景呈现不确定性。游戏名｜赛博朋克2077：2.5版本上线并取得良好销售成绩，同时推进双持系统放开及《巫师3》联动彩蛋，相关更新具有可观的游戏吸引力。游戏名｜GTA6：围绕发售当日引发的销售异常及制作层面讨论展开，外界估算面临较高的缺勤与产出损失，对发行与运营产生直接影响。游戏名｜无主之地4：版本更新期间出现疑似移除反盗版加密的实测情况，玩家体验帧率有所提升，但相关优化尚未获得官方正式确认。游戏名｜艾尔登法环：持续维持高销量表现，既有官方高销量数据支撑，也有衍生作品销量及长期收入数据，说明长期畅销潜力突出。游戏名｜饿狼传说：群狼之城：Switch 2版本在当日正式发售，同步开启与动画《东京复仇者》的联动DLC内容，拓展了游戏的多向玩法。游戏名｜COD23：社区对匹配机制存在较大争议，总监回应强调对局质量优先，引发玩家讨论与对系统体验的进一步争议。游戏名｜COD：现代战争4：正式发售并同步公布首发多人内容，玩家期待与流程设置结合构建更强的对战体验。游戏名｜Farming Simulator 25：付费DLC新增丰富内容并明确上线计划，丰富玩法类型带动消费吸引力。游戏名｜P4R：公布2027年发售预告及关键角色资料，为玩家了解新作内容提供定向信息。游戏名｜Terraspace：Epic平台开启限时免费领取活动，吸引玩家探索太空生存策略类新作。游戏名｜丝之歌：定价专家批评20美元首发定价对独立游戏空间形成挤压，引发价格合理性讨论。游戏名｜人间异想计划：新作实机演示播放量破400万，展现出开放世界RPG的较强传播潜力。游戏名｜使命召唤：现代战争4：正式发售并公布首发多人内容，媒体评测信息同步解禁，相关内容呈现较高的玩家期待度。",
-      "digest_source": "llm",
-      "input_hash": "422d3e8e49ad65bc",
-      "game_digests": [
-        {
-          "name": "半条命3",
-          "count": 3,
-          "summary": "1.5条命？《半条命3》再上风口:Valve口误提及HLX；Valve开发者提及“HLX”代号，《半条命3》传闻升温；等了多少年！V社员工说漏嘴 《半条命3》传闻再起！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "质量效应5",
-          "count": 3,
-          "summary": "粉丝圆梦还是整蛊？《质量效应5》两分钟预告CG泄露；悲喜交加！《质量效应5》取消 总监自嘲不用为GTA6请假；《质量效应5》前途渺茫！数万粉丝联名请愿EA善待IP。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "赛博朋克2077",
-          "count": 3,
-          "summary": "《赛博朋克2077》2.5更新上线 双持Mod已经突破限制；《赛博朋克2077》2.5更新暗藏《巫师3》联动彩蛋！；游侠早报：《赛博朋克2077》2.5更新上线 Epic喜加二。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "《GTA6》发售当天美国约150万人请假?或损失10亿生产力；《GTA6》为何写实?R星:当地不法分子热情分享犯罪经历。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "无主之地4",
-          "count": 2,
-          "summary": "《无主之地4》疑似悄悄移除D加密 玩家实测帧率暴涨；《无主之地4》更新后执行文件缩小 疑似移除了D加密！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "艾尔登法环",
-          "count": 2,
-          "summary": "谁还在交界地？近千万《艾尔登法环》玩家游玩超100小时；发售四年仍在卖爆 《艾尔登法环》2026年再卖200万份。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "饿狼传说：群狼之城",
-          "count": 2,
-          "summary": "《饿狼传说：群狼之城》Nintendo Switch™ 2版今日（10月22日）正式发售！；《饿狼传说：群狼之城》×《东京复仇者》联动DLC“佐野万次郎”“龙宫寺坚”今日上线！角色动画预告片公开。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "COD23",
-          "count": 1,
-          "summary": "玩家吵翻！《COD23》没有匹配选项 总监出面回应争议。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "COD：现代战争4",
-          "count": 1,
-          "summary": "《COD：现代战争4》今日发售！首发多人游戏阵容公开。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Farming Simulator 25",
-          "count": 1,
-          "summary": "《Farming Simulator 25》付费DLC“Beans & Alpacas”收录内容 公开全新房屋与物品。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "P4R",
-          "count": 1,
-          "summary": "《P4R》公开三位角色资料及“天鹅绒房间”新情报。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Terraspace",
-          "count": 1,
-          "summary": "Epic喜加一：太空生存策略《Terraspace》限时免费领。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "丝之歌",
-          "count": 1,
-          "summary": "20刀定价太低?专家批《丝之歌》价格挤压同类游戏空间。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "人间异想计划",
-          "count": 1,
-          "summary": "腾讯新作《人间异想计划》实机公开 单日播放突破400万。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "《使命召唤:现代战争4》今日发售！M站评分出炉：84分。",
-          "summary_source": "rules"
         }
       ]
     }

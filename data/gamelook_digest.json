@@ -1,9 +1,26 @@
 {
-  "generated_at": "2026-11-01T01:13:42.532029+00:00",
+  "generated_at": "2026-11-02T01:43:59.863270+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-11-01",
+      "article_count": 1,
+      "game_count": 1,
+      "untagged_count": 0,
+      "digest": "2026年11月1日，当日仅发布1条新闻，涉及游戏1款，相关游戏为《星布谷地》。该游戏公开了温馨星球生活玩法与多重上线福利，明确了长线更新计划及公测庆典活动安排，整体内容围绕游戏玩法与公测筹备展开。",
+      "digest_source": "llm",
+      "input_hash": "9b3c122ee3588f14",
+      "game_digests": [
+        {
+          "name": "星布谷地",
+          "count": 1,
+          "summary": "《星布谷地》定档12月4日正式公测，首曝温馨星球生活玩法与多重上线福利。",
+          "summary_source": "rules"
+        }
+      ]
+    },
     {
       "date": "2026-10-30",
       "article_count": 6,
@@ -172,27 +189,10 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "2026年10月24日，GameLook 共收录1条行业资讯，内容聚焦于游戏行业监管政策调整，未指向具体游戏，整体行业氛围保持关注与观望状态。按报道条数排序的游戏（含代表性标题与摘要）：",
+      "digest": "2026年10月24日，当日 GameLook 资讯发布总量为1条，涉及游戏数量为0款，其中未明确指向具体游戏的资讯内容为1条，整体报道信息较为简洁，无新增有效的游戏相关动态汇总。",
       "digest_source": "llm",
       "input_hash": "b31ba44ce119e34e",
       "game_digests": []
-    },
-    {
-      "date": "2026-10-23",
-      "article_count": 7,
-      "game_count": 1,
-      "untagged_count": 6,
-      "digest": "2026年10月23日，游戏行业资讯共发布7条新闻，涉及游戏1款，未指向具体游戏6条。主要围绕《地铁跑酷》展开，该游戏作为15年历史、下载量最高的手游，10月23日老板分享其运营情况，强调其凭借15年积累和稳定运营实现百万级用户规模。",
-      "digest_source": "llm",
-      "input_hash": "a0c0abba2fb99f89",
-      "game_digests": [
-        {
-          "name": "地铁跑酷",
-          "count": 1,
-          "summary": "《地铁跑酷》老板分享：15年，零买量，为何还能有1.5亿MAU？。",
-          "summary_source": "rules"
-        }
-      ]
     }
   ]
 }
