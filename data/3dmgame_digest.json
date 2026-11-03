@@ -1,107 +1,208 @@
 {
-  "generated_at": "2026-11-02T01:35:33.113449+00:00",
+  "generated_at": "2026-11-03T03:35:16.813745+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-02",
-      "article_count": 30,
-      "game_count": 22,
-      "untagged_count": 3,
-      "digest": "2026年11月2日，游戏行业资讯平台3DMGame当日发布30条新闻，涉及22款游戏，整体呈现游戏内容持续更新、发售进展推进及不同赛道动态并发的态势，多条游戏围绕市场策略、内容优化、平台适配等方向展开，行业探索版图逐步延伸。",
+      "date": "2026-11-03",
+      "article_count": 55,
+      "game_count": 32,
+      "untagged_count": 13,
+      "digest": "11月3日游戏行业资讯聚焦于《GTA6》开发细节确认、《塞尔达：时之笛》重制版泄露与发售预热，以及《影之刃零》销量突破400万等热点。此外，动视为《使命召唤：现代战争4》移除争议影像，约翰尼·德普表态愿再演杰克·斯派罗，任天堂Switch 2纪念款转售遇冷，神谷英树则建议粉丝对《大神》续作不要抱过高期待。",
       "digest_source": "llm",
-      "input_hash": "c9bf3549a966f38f",
+      "input_hash": "a65ac75f7cc3706e",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 5,
-          "summary": "英国百万富翁称玩《GTA6》理论上可省5000美元；《GTA6》电台阵容曝光 音乐选品水准依旧出众；2026年11月游戏清单公布 《GTA6》领衔多款作品（当天共 5 条）",
-          "summary_source": "rules"
+          "count": 7,
+          "summary": "Rockstar开发主管确认Sam Houser持续参与创意开发，两人共同审查灯光、音频及叙事等基础层面，确保游戏方向制定。",
+          "summary_source": "llm"
         },
         {
-          "name": "质量效应",
-          "count": 2,
-          "summary": "生软制作人认为《质量效应》比《龙腾世纪》更具潜在收购价值；《质量效应》回顾：粗糙战斗未掩盖其银河世界构建成就。",
-          "summary_source": "rules"
+          "name": "塞尔达：时之笛 重制版",
+          "count": 3,
+          "summary": "游戏容量曝光为24.5GB，疑似提前泄露实机截图，地图区域扩大且NPC拥有日程表，将于11月5日发售。",
+          "summary_source": "llm"
         },
         {
-          "name": "上古卷轴5",
+          "name": "影之刃零",
+          "count": 3,
+          "summary": "发售后72小时全平台销量突破400万，网易云游戏平台提供优惠并支持免下载直接游玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "ARC突袭者",
           "count": 1,
-          "summary": "玩家用虚幻5接管《上古卷轴5》渲染并测试1500个Mod。",
-          "summary_source": "rules"
+          "summary": "Embark工作室表示游戏规模超出预期，已显著扩充团队并计划长期运营。",
+          "summary_source": "llm"
         },
         {
-          "name": "堕落之主2",
+          "name": "Duck Side of the Moon",
           "count": 1,
-          "summary": "CI获2860万欧元贷款推进《堕落之主2》开发与发行。",
-          "summary_source": "rules"
+          "summary": "宣布登陆PS5，同步推出免费“自家种植”更新，扩展园艺与飞船装修玩法。",
+          "summary_source": "llm"
         },
         {
-          "name": "堡垒之夜",
+          "name": "使命召唤：现代战争4",
           "count": 1,
-          "summary": "《堡垒之夜》海盗代币据称可免费拿商城装饰品 峰值在线破500万。",
-          "summary_source": "rules"
+          "summary": "动视就使用梨泰院踩踏事故影像致歉，承诺在11月12日更新中移除相关素材。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命必达",
+          "count": 1,
+          "summary": "PC试玩版将于2027年1月登陆Steam，玩家将驾驶战机在程序生成的地图中完成送货任务。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星完全版",
+          "count": 1,
+          "summary": "Switch 2版允许关闭帧生成，掌机模式体验较好但底座模式仍需优化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "加勒比海盗",
+          "count": 1,
+          "summary": "约翰尼·德普表示愿意在新电影中再演杰克·斯派罗，希望以更好的方式为系列画上句号。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "午夜以南",
+          "count": 1,
+          "summary": "主创表示若要自己掏钱可能不会做该项目，承认资金投入难以持续，工作室曾面临关闭风险。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "去月球",
+          "count": 1,
+          "summary": "创作者高瞰公布免费新作《幻想私聊》，预计2027年推出，采用手工绘制像素画面。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "哈玛雷特",
+          "count": 1,
+          "summary": "共斗卡牌游戏国区定价全球最低约39元，将于11月17日开启Steam EA。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达传说",
           "count": 1,
-          "summary": "《塞尔达传说》40周年版Switch 2维修或换用标准配色零件。",
-          "summary_source": "rules"
+          "summary": "Switch 2纪念款从预约困难转为正常购买，高价转售遇冷。",
+          "summary_source": "llm"
         },
         {
-          "name": "塞尔达：时之笛 重制版",
+          "name": "塞尔达传说：时之笛",
           "count": 1,
-          "summary": "《塞尔达：时之笛 重制版》NS2版实体卡带或采用红色。",
-          "summary_source": "rules"
+          "summary": "任天堂将在伦敦举办官方午夜首发活动，购买者可获N64纸盒复刻品及陶笛钥匙扣。",
+          "summary_source": "llm"
         },
         {
-          "name": "塞尔达：风之杖HD",
+          "name": "大神",
           "count": 1,
-          "summary": "外媒呼吁任天堂移植《塞尔达：风之杖HD》和《黄昏公主HD》。",
-          "summary_source": "rules"
-        },
+          "summary": "神谷英树建议粉丝对续作不要抱过高期待，表示公众期待持续升高让他承受了更大压力。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "article_count": 101,
+      "game_count": 66,
+      "untagged_count": 16,
+      "digest": "索尼为应对即将发售的《GTA6》与破解者展开“固件大战”，今日发布PS5系统更新14.22.00.00版本。国产暗黑武侠动作游戏《影之刃零》发售后72小时销量突破400万，Steam在线人数峰值达83万，刷新2026年单人游戏纪录。此外，《堡垒之夜》43.00版本上线开启“寻宝猎人”赛季，支持80人对局并加入《海贼王》元素；《守望先锋》公开与《剑星》联动的黑百合皮肤概念图。",
+      "digest_source": "llm",
+      "input_hash": "2f9c97c00ab2fdfc",
+      "game_digests": [
         {
-          "name": "娱乐圈",
-          "count": 1,
-          "summary": "Lisa带老妈吃寿司让暧昧男友买单 遭当场拒绝。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "守望先锋",
-          "count": 1,
-          "summary": "《守望先锋》总监未排除PvE任务回归 完整战役门槛很高。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "异形：隔离2",
-          "count": 1,
-          "summary": "《异形：隔离2》处于前Alpha阶段 异形将适应玩家行为。",
-          "summary_source": "rules"
+          "name": "GTA6",
+          "count": 11,
+          "summary": "索尼为应对即将发售的《GTA6》与破解者展开“固件大战”，今日发布PS5系统更新14.22.00.00版本，引入“系统软件安全修复”。",
+          "summary_source": "llm"
         },
         {
           "name": "影之刃零",
-          "count": 1,
-          "summary": "《影之刃零》Steam在线峰值83.3万 不断刷新在线纪录。",
-          "summary_source": "rules"
+          "count": 4,
+          "summary": "《影之刃零》发售后72小时销量突破400万，Steam在线人数峰值达83万，刷新2026年单人游戏纪录，评价升至90%特别好评。",
+          "summary_source": "llm"
         },
         {
-          "name": "星布谷地",
-          "count": 1,
-          "summary": "米哈游生活模拟游戏《星布谷地》将于2027年登陆Switch 2。",
-          "summary_source": "rules"
+          "name": "Apex英雄",
+          "count": 2,
+          "summary": "EA与Respawn发布新短片预热合作，片中的弧形图案引发玩家猜测可能与哥斯拉有关，但官方暂未确认。",
+          "summary_source": "llm"
         },
         {
-          "name": "昭和米国物语",
-          "count": 1,
-          "summary": "《昭和米国物语》内容完工 最低难度戏称猫也能通关。",
-          "summary_source": "rules"
+          "name": "堡垒之夜",
+          "count": 2,
+          "summary": "《堡垒之夜》43.00版本上线开启“寻宝猎人”赛季，新地图十字骨岛支持80人对局并加入《海贼王》元素。",
+          "summary_source": "llm"
         },
         {
-          "name": "最终幻想7：启示",
+          "name": "守望先锋",
+          "count": 2,
+          "summary": "《守望先锋》公开与《剑星》联动的黑百合皮肤概念图，确认以《剑星》为主题，联动活动将于11月4日开启。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "质量效应",
+          "count": 2,
+          "summary": "BioWare资深制作人Mark Darrah认为《质量效应》比《龙腾世纪》更具潜在收购价值，基于品牌辨识度与受众转化能力作出个人判断。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界",
+          "count": 2,
+          "summary": "玩家自制《魔兽世界》Dreamcast移植版，已实现多人运行，受老旧硬件限制画面以极低分辨率呈现。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "龙帮",
+          "count": 2,
+          "summary": "Nagoshi Studio据称已停止运营并进入法律清算程序，其首个游戏项目《龙帮》也被报道取消。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Lost In Your Eyes",
           "count": 1,
-          "summary": "《最终幻想7：启示》总监称多平台开发未牺牲玩法体验。",
-          "summary_source": "rules"
+          "summary": "双人合作解谜游戏《Lost In Your Eyes》新版试玩上线，正式版预计于2027年第一季度发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Selaco",
+          "count": 1,
+          "summary": "第一人称射击游戏《Selaco》将于11月13日推出“战争机器”大型更新，加入规划中三个章节的第二章。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "三角洲行动",
+          "count": 1,
+          "summary": "《三角洲行动》微光赛季引发玩家退坑出号热潮，账号回收成为热门选择，但存在压价与打款拖延等痛点。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴5",
+          "count": 1,
+          "summary": "玩家展示《上古卷轴5：天际》虚幻5渲染改造项目，并用安装超过1500个模组的版本测试兼容性。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴6",
+          "count": 1,
+          "summary": "《上古卷轴6》确认采用Creation Engine 3，不再沿用《星空》使用的Creation Engine 2，强调开放世界互动自由。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "丘比娃娃机",
+          "count": 1,
+          "summary": "抓娃娃题材游戏《丘比娃娃机》计划于11月12日发售，玩家需通过抓取奖品赚钱重买订婚戒指。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "乐高派对",
+          "count": 1,
+          "summary": "LEGO公布三款2027年Friends系列套装，均将于2027年1月1日在全球发售，包含宠物照护、派对巴士和购物中心主题。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -909,107 +1010,6 @@
           "name": "漫威刀锋战士",
           "count": 1,
           "summary": "消息称微软因授权成本与回报风险或取消《漫威刀锋战士》，即使该项目已接近完成，Xbox仍可能选择永久终止该项目以避免损失。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "article_count": 55,
-      "game_count": 39,
-      "untagged_count": 10,
-      "digest": "BioWare关停引发粉丝强烈不满，项目总监甘布尔发文感谢支持并呼吁关注团队元老；GTA6媒体评测禁令将于发售前一天解除；塞尔达传说：时之笛Switch 2版获E10+评级；星球大战：零号连队文件更新疑似预告剧情DLC；Arc Raiders主播使用自瞄外挂遭官方硬件级永久封禁。",
-      "digest_source": "llm",
-      "input_hash": "eb3cf047042d7803",
-      "game_digests": [
-        {
-          "name": "质量效应5",
-          "count": 3,
-          "summary": "BioWare关停引发广泛不满，项目总监迈克·甘布尔发文感谢玩家支持，称团队全是元老级核心成员并呼吁推荐人才，同时调侃GTA6发售不用请假。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 2,
-          "summary": "媒体评测禁令将于11月18日解除，比游戏11月19日发售提前一天，部分网站可能需等到发售当天才能公开评测，Metacritic评分预计在欧洲中部时间11月18日12:01上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛",
-          "count": 2,
-          "summary": "Switch 2版获E10+评级，内容标识包括动画血液与幻想暴力，玩家将扮演英雄为拯救幻想国度海拉鲁展开冒险。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星球大战：零号连队",
-          "count": 2,
-          "summary": "文件中出现新敌人类型、额外任务及同伴内容，疑似预告剧情DLC，爆料者还称一家新工作室正在早期开发另一款《星球大战》角色扮演游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "质量效应",
-          "count": 2,
-          "summary": "BioWare正在开发的新作概念预告片遭泄露，Dantics披露原计划设定在收割者战争约600年后，BioWare曾设立粉丝社区联络委员会。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Arc Raiders",
-          "count": 1,
-          "summary": "主播aimkey因使用自瞄外挂被官方处以硬件级永久封禁，他发文质疑误封并称收到死亡威胁。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴5：天际",
-          "count": 1,
-          "summary": "盘点五名可能从《天际》回归《上古卷轴6》的角色，尽管续作细节仍是谜团，但系列中存在许多不死或寿命极其漫长的角色。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "首款DLC“英勇包”上线，售价20美元，全部收入将捐给退伍军人援助项目，包含荣誉勋章获得者凯尔·卡彭特相关内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光与影：33号远征队",
-          "count": 1,
-          "summary": "销量达870万份，累计营收3.66亿美元，尽管已加入XGP，但大部分销量仍来自Steam平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "全面战争：幕府将军2完全版",
-          "count": 1,
-          "summary": "因成品质量引发不满被撤下销售，CA副总裁承认游戏非内部开发且未通过质量保证流程，正调查生成式AI争议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺客信条：黑旗 记忆重置",
-          "count": 1,
-          "summary": "PS5版将于下周更新并加入新游戏+模式，允许玩家重新体验完整战役。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "原神",
-          "count": 1,
-          "summary": "7.2版本“毁灭之时”将于11月4日上线，新增至冬区域与两名雷元素角色米佳和瓦列里。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：王国之泪",
-          "count": 1,
-          "summary": "非官方Windows重编译项目支持60帧，作者宣称项目能以60帧运行，但图形兼容性等问题有待验证。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达：时之笛",
-          "count": 1,
-          "summary": "设计师透露娜薇最初设定为类人形态的可爱少女，最终呈现为发光光球形象完全受N64机能限制。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "复仇者联盟：毁灭日",
-          "count": 1,
-          "summary": "据称完成试映，流出反馈整体偏正面，粉丝关心电影能否成为漫威电影宇宙的复兴之作。",
           "summary_source": "llm"
         }
       ]

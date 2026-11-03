@@ -1,18 +1,53 @@
 {
-  "generated_at": "2026-11-02T01:45:11.629066+00:00",
+  "generated_at": "2026-11-03T03:44:54.148745+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-02",
-      "article_count": 4,
-      "game_count": 1,
-      "untagged_count": 3,
-      "digest": "2026年11月2日，当日相关游戏资讯发布共计4条，涉及游戏1款，存在3条未指向具体游戏的新闻。相关资讯内容聚焦于相关游戏体验与评测层面，整体信息以游戏相关动态为主，覆盖较为集中。",
+      "date": "2026-11-03",
+      "article_count": 7,
+      "game_count": 2,
+      "untagged_count": 5,
+      "digest": "今日游戏资讯聚焦于《控制：共振》与《胡闹厨房》新作《怪镇奇旅》。《控制：共振》取消经验值奖励，升级机制绑定曼哈顿开放世界动态反馈，承接前作剧情；Ghost Town团队则通过采访揭秘新作《怪镇奇旅》的创作灵感与玩法设计。",
       "digest_source": "llm",
-      "input_hash": "f032313539972f6e",
+      "input_hash": "caa1234f59df0288",
       "game_digests": [
+        {
+          "name": "控制：共振",
+          "count": 1,
+          "summary": "《控制：共振》如何重塑动作 RPG 的传统设计。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "胡闹厨房",
+          "count": 1,
+          "summary": "Ghost Town团队接受采访，揭秘双人合作新作《怪镇奇旅》的创作灵感、玩法设计与开发思路，谈及《胡闹厨房》系列的走红历程。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "article_count": 11,
+      "game_count": 3,
+      "untagged_count": 8,
+      "digest": "2026年11月2日，当天空游网发布当日资讯共11条，涉及游戏3款，其中8条未指向具体游戏。曝光游戏方面，有《影之刃零》72小时销量突破400万，同时介绍4399新测小游戏《校尉笔记》融合微恐生存、搜打撤玩法与杖剑探索模式并评价其体验，另有关于斯拉夫魔女之旅《蕾卡的移动工坊》体验报告的相关报道。",
+      "digest_source": "llm",
+      "input_hash": "690608061c172a6f",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "《影之刃零》72小时销量突破400万！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "校尉笔记",
+          "count": 1,
+          "summary": "微恐生存+杖剑探索！4399《校尉笔记》的融合有点东西！。",
+          "summary_source": "rules"
+        },
         {
           "name": "蕾卡的移动工坊",
           "count": 1,

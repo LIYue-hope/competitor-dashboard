@@ -1,9 +1,79 @@
 {
-  "generated_at": "2026-11-02T01:43:59.863270+00:00",
+  "generated_at": "2026-11-03T03:43:25.428773+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-11-03",
+      "article_count": 7,
+      "game_count": 3,
+      "untagged_count": 4,
+      "digest": "2026年11月3日，行业整体资讯共涵盖7条新闻，涉及游戏3款，其中未指向具体游戏4条。当日内容围绕代表性游戏展开，重点呈现《影之刃零》超400万套销售突破、本土标杆游戏《怪物猎人：旅人》登顶畅销榜首、独立作品《深空当铺》展现市场期待与争议并存等关键动态，进一步呈现游戏市场在具体项目的进展与分歧。",
+      "digest_source": "llm",
+      "input_hash": "1950163773d7affd",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "《影之刃零》官宣三天爆卖400万套，剑指千万套3A大作！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "怪物猎人：旅人",
+          "count": 1,
+          "summary": "日本畅销总榜第一！《怪物猎人：旅人》凭什么征服了最挑剔的本土玩家？。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "深空当铺",
+          "count": 1,
+          "summary": "《深空当铺》成今年独游神作？Steam在线破15万人、销量已破50万套。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "article_count": 8,
+      "game_count": 5,
+      "untagged_count": 3,
+      "digest": "2026年11月2日游戏行业资讯聚焦于韩国市场增长、多款大作财报及新游上线。韩国手游内购收入达50亿美元，厂商加速出海；世纪华通、恺英等公司财报显示《异环》Q3流水破27亿；腾讯《怪物猎人：旅人》海外上线，开罗游戏推出《海贼王》干饭手游，而《魔兽世界》因微软裁员及售卖房屋装饰道具引发玩家争议。",
+      "digest_source": "llm",
+      "input_hash": "ca58fdd1a47a0f27",
+      "game_digests": [
+        {
+          "name": "2026年韩国游戏市场洞察",
+          "count": 1,
+          "summary": "韩国本土手游内购收入达50亿美元，市场正步入以用户价值和精细化运营为核心的新阶段，海外市场成为发行商增长关键引擎。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "异环",
+          "count": 1,
+          "summary": "完美世界、世纪华通、恺英网络、巨人网络公布2026年Q3财报，显示《异环》Q3流水突破27亿元，带动相关公司利润大幅增长。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "怪物猎人：旅人",
+          "count": 1,
+          "summary": "腾讯天美与卡普空合作的《怪物猎人：旅人》国际服于10月29日在iOS、安卓双端上线，上线后获得巨大流量。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "海贼王",
+          "count": 1,
+          "summary": "开罗游戏推出《海贼王》主题干饭手游，玩家对游戏中路飞成为厨子的设定感到新奇和有趣。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界",
+          "count": 1,
+          "summary": "微软宣布向全球约6万名员工提供自愿离职补偿方案，同时《魔兽世界》售卖房屋装饰道具，引发玩家关于此前承诺不卖钱的质疑。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-11-01",
       "article_count": 1,
@@ -183,16 +253,6 @@
           "summary_source": "rules"
         }
       ]
-    },
-    {
-      "date": "2026-10-24",
-      "article_count": 1,
-      "game_count": 0,
-      "untagged_count": 1,
-      "digest": "2026年10月24日，当日 GameLook 资讯发布总量为1条，涉及游戏数量为0款，其中未明确指向具体游戏的资讯内容为1条，整体报道信息较为简洁，无新增有效的游戏相关动态汇总。",
-      "digest_source": "llm",
-      "input_hash": "b31ba44ce119e34e",
-      "game_digests": []
     }
   ]
 }
