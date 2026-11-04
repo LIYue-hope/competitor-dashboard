@@ -1,26 +1,9 @@
 {
-  "crawled_at": "2026-11-03T03:27:04.829028+00:00",
+  "crawled_at": "2026-11-04T02:06:24.809378+00:00",
   "days": [
     {
-      "date": "2026-11-03",
-      "date_label": "11月03日 今天",
-      "games": [
-        {
-          "game_name": "江湖田园",
-          "categories": [
-            "休闲"
-          ],
-          "score": null,
-          "event_desc": "国风种花经营",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/jianghutianyuan/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-11-04",
-      "date_label": "11月04日 明天",
+      "date_label": "11月04日 今天",
       "games": [
         {
           "game_name": "阿比斯",
@@ -48,7 +31,7 @@
     },
     {
       "date": "2026-11-05",
-      "date_label": "11月05日 后天",
+      "date_label": "11月05日 明天",
       "games": [
         {
           "game_name": "魂战群英",
@@ -98,7 +81,7 @@
     },
     {
       "date": "2026-11-06",
-      "date_label": "11月06日 周五",
+      "date_label": "11月06日 后天",
       "games": [
         {
           "game_name": "星空神曲",
@@ -200,6 +183,23 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/dldlzxcs/",
           "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "date_label": "11月20日",
+      "games": [
+        {
+          "game_name": "约战皇城",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/yuezhanhuangcheng/",
+          "has_afk_grinding_tag": true
         }
       ]
     },

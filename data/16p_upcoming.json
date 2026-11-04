@@ -1,62 +1,9 @@
 {
-  "crawled_at": "2026-11-03T03:27:17.157126+00:00",
+  "crawled_at": "2026-11-04T02:06:34.844503+00:00",
   "days": [
     {
-      "date": "2026-11-03",
-      "date_label": "11月03日 今天",
-      "games": [
-        {
-          "game_name": "哈基米大合体",
-          "categories": [
-            "休闲"
-          ],
-          "score": "9.8",
-          "release_date": "2026-11-03",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1960744.html",
-          "publisher": "Paddy Panda Studio",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "韵律源点",
-          "categories": [
-            "Music",
-            "Casual"
-          ],
-          "score": "9.7",
-          "release_date": "2026-11-03",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/648812.html",
-          "publisher": "心动",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "江湖田园",
-          "categories": [
-            "中国风",
-            "模拟经营",
-            "古风",
-            "养成",
-            "休闲",
-            "益智",
-            "放置",
-            "经营"
-          ],
-          "score": "9.3",
-          "release_date": "2026-11-03",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1956092.html",
-          "publisher": "深圳市多趣互娱网络科技有限公司",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
       "date": "2026-11-04",
-      "date_label": "11月04日 明天",
+      "date_label": "11月04日 今天",
       "games": [
         {
           "game_name": "阿比斯少年冒险团",
@@ -94,7 +41,7 @@
     },
     {
       "date": "2026-11-05",
-      "date_label": "11月05日 后天",
+      "date_label": "11月05日 明天",
       "games": [
         {
           "game_name": "踏风行",
@@ -134,21 +81,18 @@
     },
     {
       "date": "2026-11-06",
-      "date_label": "11月06日 周五",
+      "date_label": "11月06日 后天",
       "games": [
         {
-          "game_name": "烹饪发烧友",
+          "game_name": "墨刃千军",
           "categories": [
-            "经营",
-            "模拟经营",
-            "街机",
-            "烹饪"
+            "动作"
           ],
-          "score": null,
+          "score": "9.8",
           "release_date": "2026-11-06",
           "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1961217.html",
-          "publisher": "唯我乐园",
+          "detail_url": "https://www.16p.com/1961642.html",
+          "publisher": "FT工作室",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         },
@@ -218,6 +162,44 @@
           "publisher": "轩玩网络",
           "is_major_publisher": false,
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "date_label": "11月10日 下周二",
+      "games": [
+        {
+          "game_name": "幻想之都的黑猫",
+          "categories": [
+            "二次元",
+            "美少女",
+            "卡牌"
+          ],
+          "score": "9.5",
+          "release_date": "2026-11-10",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1775199.html",
+          "publisher": "扑家工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "露娜:蓝色大陆",
+          "categories": [
+            "角色扮演",
+            "MMO",
+            "社交",
+            "温馨治愈",
+            "卡通"
+          ],
+          "score": "8.4",
+          "release_date": "2026-11-10",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1950331.html",
+          "publisher": "郑州游梦想科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
         }
       ]
     }

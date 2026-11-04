@@ -1,106 +1,147 @@
 {
-  "generated_at": "2026-11-03T03:37:21.031229+00:00",
+  "generated_at": "2026-11-04T02:16:04.193792+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-03",
-      "article_count": 33,
-      "game_count": 21,
-      "untagged_count": 10,
-      "digest": "小岛秀夫《Physint》新爆料，塞尔达重制版取消快速旅行，无主之地系列销量破1亿。此外，Arc Raiders计划长期运营，全境封锁2开启跨平台联机，剑星完全版掌机模式表现更佳，大神续作神谷英树劝玩家降低期待，如龙前传提供多档难度，守望先锋筹备2027年更新，巫师真人剧推迟至2027年春季，影之刃零Steam好评率升至91%，异形：隔离获票选冠军，战争机器开发商澄清预算传闻，控制终极版实装云存档。",
+      "date": "2026-11-04",
+      "article_count": 10,
+      "game_count": 5,
+      "untagged_count": 5,
+      "digest": "索尼独占赛车游戏《GT赛车7》销量突破1270万份，为索尼创造超8.4亿美元收入。知名破解组RUNE光速破解科幻RTS/FPS混合游戏《Silica》与经典格斗游戏《哥斯拉：怪兽大乱斗》重制版，Steam版体积约26GB。育碧被曝竞购Arkane工作室，引发《耻辱》团队前景讨论。卡普空宣布《龙之信条2》将与《迷宫饭》联动，莱欧斯与玛露希尔将作为随从加入游戏。",
       "digest_source": "llm",
-      "input_hash": "36e7a03fca7f3b52",
+      "input_hash": "eb38de380a7b10de",
       "game_digests": [
+        {
+          "name": "GT赛车7",
+          "count": 1,
+          "summary": "索尼独占王牌赛车游戏《GT赛车7》销量超1270万份，为索尼创造超8.4亿美元收入。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Silica",
+          "count": 1,
+          "summary": "FPS/RTS神作《Silica》遭RUNE破解，26G容量曝光，基于Steam平台并在圈内流传。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "哥斯拉：怪兽大乱斗",
+          "count": 1,
+          "summary": "《哥斯拉：怪兽大乱斗》重制版遭RUNE破解，在发售极短时间内被光速攻破。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "耻辱",
+          "count": 1,
+          "summary": "育碧被曝竞购Arkane工作室，成为目前唯一被公开点名的竞购方，引发《耻辱》团队前景讨论。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "龙之信条2",
+          "count": 1,
+          "summary": "《龙之信条2》官宣联动《迷宫饭》，莱欧斯与玛露希尔将作为独一无二的官方随从加入游戏。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "article_count": 66,
+      "game_count": 41,
+      "untagged_count": 15,
+      "digest": "今日资讯聚焦于《影之刃零》口碑回升与地图探索深度，以及《GTA6》发售前的玩家调查与纪念活动。此外，小岛秀夫新作《Physint》概念展、塞尔达重制版取消传送系统、以及《全境封锁2》跨平台联机等更新也引发关注。",
+      "digest_source": "llm",
+      "input_hash": "506a81e5df3e5d24",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 6,
+          "summary": "Steam好评率涨至91%，玩家探索庞镇地图耗时已达5至6小时，官方公布路径追踪与DLSS 4.5宣传视频。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "Unwind Media调查显示部分玩家愿为提前一周游玩放弃宠物，25岁重症粉丝离世引发社区捐款超9.6万美元，开发主管确认Sam全程深度参与。",
+          "summary_source": "llm"
+        },
         {
           "name": "Physint",
           "count": 2,
-          "summary": "小岛秀夫《Physint》新爆料，机械设计概念与剧本实物在东京展览首次展示。",
+          "summary": "小岛秀夫新作《Physint》在东京十周年纪念展首次展示机械设计概念与剧本实物，展区呈现“合金装备”机甲赛博重生主题。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达：时之笛 重制版",
           "count": 2,
-          "summary": "制作组撤回快速旅行点改动，称传送会减少玩家发现秘密的机会。",
+          "summary": "制作组采纳青沼英二建议，决定移除快速旅行功能以保留玩家探索沿途惊喜的机会。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛RE",
+          "count": 2,
+          "summary": "游戏将于11月5日在伦敦午夜首发，现场购入可获赠N64复刻纸盒与陶笛钥匙扣。",
           "summary_source": "llm"
         },
         {
           "name": "ARC Raiders",
           "count": 1,
-          "summary": "发售后增长超出预期，工作室已扩充团队并计划长期运营。",
+          "summary": "工作室因发售后增长超出预期而扩充团队，执行制作人Aleksander Grøndal称将计划长期运营游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤",
+          "count": 1,
+          "summary": "玩家深夜激战时遭遇流弹击中电脑屏幕，华硕显示器成功挡下子弹保住玩家性命。",
           "summary_source": "llm"
         },
         {
           "name": "全境封锁2",
           "count": 1,
-          "summary": "分阶段跨平台上线，11月10日PC端率先换服，11月17日三端互通。",
+          "summary": "官方公布跨平台联机时间表，11月10日PC端率先迁移服务器并重置排行榜，11月17日PS与Xbox玩家正式加入。",
           "summary_source": "llm"
         },
         {
           "name": "剑星完全版",
           "count": 1,
-          "summary": "外媒评测认为Switch 2掌机模式表现更佳，底座模式仍需优化。",
+          "summary": "外媒评测指出Switch 2版掌机模式表现更佳，允许关闭默认帧生成功能，底座模式仍需优化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "午夜之南",
+          "count": 1,
+          "summary": "创意总监David Sears坦言微软资金投入不可持续，直言若在任可能早砍掉该项目。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "哥布林女仆大扫除",
+          "count": 1,
+          "summary": "海盗湾更新上线两座新关卡，豪华版推出并包含原声带，新玩家限时享35%折扣。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "地平线6",
+          "count": 1,
+          "summary": "推送“城市生活”大型更新，新增东京江户赛道与首都高速冲刺两条永久路线及新引擎互换选项。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "堡垒之夜",
+          "count": 1,
+          "summary": "联动《海贼王》赛季“狩猎开始”上线，汇聚动漫、音乐与虚拟偶像内容。",
           "summary_source": "llm"
         },
         {
           "name": "大神",
           "count": 1,
-          "summary": "神谷英树直言近二十年等待太重，劝玩家不要抱太高期待。",
+          "summary": "神谷英树回应续作开发，直言近二十年等待太重，建议玩家不要抱过高期待。",
           "summary_source": "llm"
         },
         {
           "name": "如龙",
           "count": 1,
-          "summary": "前传《异于天堂》将提供多档难度，开局备有回血等辅助装备降低门槛。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "守望先锋",
-          "count": 1,
-          "summary": "团队筹备2027年2月大型更新，涵盖新内容、功能及系统改进。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师",
-          "count": 1,
-          "summary": "真人剧第五季从2026年播出计划移除，预计推迟至2027年春季。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "异于天堂",
-          "count": 1,
-          "summary": "把回血辅助做成开局即送装备，降低新手门槛但最高难度依旧硬核。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "异形：隔离",
-          "count": 1,
-          "summary": "PC Gamer读者票选“PC最恐怖游戏”冠军，一路晋级夺冠。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "Steam好评率涨至91%，玩家口碑随体验深入持续走高。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战争机器",
-          "count": 1,
-          "summary": "爆料人澄清预算传闻，称开发商是Xbox“金牌辅助”而非专属组。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "控制",
-          "count": 1,
-          "summary": "终极版在Mac App Store实装云存档功能，手机电脑可无缝接力。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "无主之地",
-          "count": 1,
-          "summary": "系列全球累计销量破1亿，Gearbox正从宏观角度审视系列方向。",
+          "summary": "前传《异于天堂》将提供多档难度，开局配备回血等辅助装备降低新手门槛。",
           "summary_source": "llm"
         }
       ]
@@ -910,107 +951,6 @@
           "count": 1,
           "summary": "《剑星：完整版》Switch 2预告片确认尼尔联动登场。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "article_count": 51,
-      "game_count": 28,
-      "untagged_count": 18,
-      "digest": "10月25日游戏资讯聚焦多款大作，英伟达为《影之刃零》发布首发光追驱动，日本评测称其战斗节奏快且风格夸张；R星持续为《GTA6》造势，线下广告玩梗并引发评测版传闻；米哈游官宣《原神》东京常设咖啡厅将于2027年开业；此外《卧龙2》试玩反馈不佳，官方承诺优化性能与战斗设计。",
-      "digest_source": "llm",
-      "input_hash": "899174788b2d2e05",
-      "game_digests": [
-        {
-          "name": "影之刃零",
-          "count": 4,
-          "summary": "英伟达发布Game Ready驱动，为10月28日发售的《影之刃零》提供路径追踪与DLSS 4.5技术支持，确保NVIDIA显卡玩家获得最佳光追画质与帧率体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 3,
-          "summary": "R星在迈阿密投放路牌广告玩梗酒驾提醒，结合此前球馆顶灯等动作，将现实城市打造为“罪恶都市”宣传现场，同时有博主声称已提前玩上评测版引发剧透猜测。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "2077",
-          "count": 1,
-          "summary": "开发者推出基于WebGPU的《赛博朋克2077》浏览器实验版，安卓手机可直接游玩，支持本地渲染非云游戏，但项目尚不稳定。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Days of the Dead",
-          "count": 1,
-          "summary": "开放世界僵尸生存游戏《Days of the Dead》正式公布，玩家将在末日废土探索、搜刮资源、制作装备并建造据点，支持单人及联机合作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤",
-          "count": 1,
-          "summary": "行业传闻动视正在开发代号“Call of Duty 1918”的新作，或将首次把《使命召唤》带进第一次世界大战，该消息尚未获官方证实。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "僵尸世界大战",
-          "count": 1,
-          "summary": "开发商Saber Interactive宣布“Viral State”更新将于11月12日推出，带来以佛罗里达州迈阿密为背景的新地图，致敬《GTA6》的线下营销。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环 初次反击",
-          "count": 1,
-          "summary": "据爆料，光环工作室曾计划将小说《光环：初次反击》改编为游戏，但该计划发生在工作室裁员之前。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环：战斗进化",
-          "count": 1,
-          "summary": "《光环：战斗进化》初代多人模式曾面临取消风险，设计师Hardy LeBel回忆，四人小团队顶住压力放弃大规模战争设想，聚焦分屏对战，最终助力初代Xbox打开市场。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "全战幕府2",
-          "count": 1,
-          "summary": "《全战：幕府2》完全版因差评下架，CA称版本为外包制作存在AI素材问题，将协商修复并呼吁玩家理性对待。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "卧龙2",
-          "count": 1,
-          "summary": "Team Ninja公布《卧龙2：凤火连天》阿尔法测试反馈，过半玩家不满帧率卡顿与战斗设计，官方确认将优先优化性能并重做战斗系统。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "原神",
-          "count": 1,
-          "summary": "米哈游官宣《原神》首家官方常设咖啡厅将于2027年1月20日在东京有乐町开业，提供原神主题餐品与独家周边。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影",
-          "count": 1,
-          "summary": "模特Purple Amelie发布了一组还原度极高的《古墓丽影》经典角色劳拉·克劳馥Cosplay照片。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影RE",
-          "count": 1,
-          "summary": "Crystal Dynamics体验总监透露《古墓丽影：亚特兰蒂斯遗产》通关时长约14至16小时，与原版时长相当。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达",
-          "count": 1,
-          "summary": "《塞尔达传说：时之笛 重制版》11月5日登陆Switch2，拼多多百亿补贴实体约274元，对比港服数字版449港币，实体价格优势明显。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "德军总部3",
-          "count": 1,
-          "summary": "外媒消息MachineGames或开发《德军总部3》，团队早有三部曲规划，网传新增角色，但暂未官宣。",
-          "summary_source": "llm"
         }
       ]
     }

@@ -1,35 +1,70 @@
 {
-  "generated_at": "2026-11-03T03:43:25.428773+00:00",
+  "generated_at": "2026-11-04T02:19:46.904256+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-03",
-      "article_count": 7,
+      "date": "2026-11-04",
+      "article_count": 4,
       "game_count": 3,
-      "untagged_count": 4,
-      "digest": "2026年11月3日，行业整体资讯共涵盖7条新闻，涉及游戏3款，其中未指向具体游戏4条。当日内容围绕代表性游戏展开，重点呈现《影之刃零》超400万套销售突破、本土标杆游戏《怪物猎人：旅人》登顶畅销榜首、独立作品《深空当铺》展现市场期待与争议并存等关键动态，进一步呈现游戏市场在具体项目的进展与分歧。",
+      "untagged_count": 1,
+      "digest": "2026-11-04当日行业资讯共4条，涉及3款游戏，其中未明确指向具体游戏的资讯1条。资讯围绕《恋与深空》账号被盗事件、国产单机游戏《昭和米国物语》制作完成及腾讯AI陪玩《鹅次元》首测展开，整体呈现不同领域的动态信息。",
       "digest_source": "llm",
-      "input_hash": "1950163773d7affd",
+      "input_hash": "baf7efedd39a8119",
+      "game_digests": [
+        {
+          "name": "恋与深空",
+          "count": 1,
+          "summary": "离谱！《恋与深空》沈星回 B 站账号被盗，昵称头像面目全非。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "昭和米国物语",
+          "count": 1,
+          "summary": "《昭和米国物语》已完成全部制作！罗翔宇采访：“猫都能通关”！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "鹅次元",
+          "count": 1,
+          "summary": "腾讯AI陪玩《鹅次元》首测：直接读懂游戏！“AI美女陪你打魔渊”？。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "article_count": 8,
+      "game_count": 4,
+      "untagged_count": 4,
+      "digest": "今日游戏行业资讯聚焦于多款新作的市场表现与厂商战略，国产3A《影之刃零》发售72小时销量破400万套，独立游戏《深空当铺》Steam在线人数超15万；索尼宣布“中国之星计划”第四期新增多家合作伙伴，并公布《达巴：水痕之地》将于2027年内发售。",
+      "digest_source": "llm",
+      "input_hash": "8c741d8886970496",
       "game_digests": [
         {
           "name": "影之刃零",
           "count": 1,
-          "summary": "《影之刃零》官宣三天爆卖400万套，剑指千万套3A大作！。",
-          "summary_source": "rules"
+          "summary": "官方宣布游戏在发售72小时后全平台销量突破400万套，剑指千万套3A大作。",
+          "summary_source": "llm"
         },
         {
           "name": "怪物猎人：旅人",
           "count": 1,
-          "summary": "日本畅销总榜第一！《怪物猎人：旅人》凭什么征服了最挑剔的本土玩家？。",
-          "summary_source": "rules"
+          "summary": "该游戏登上了日本iOS总榜榜首，成为日本畅销总榜第一。",
+          "summary_source": "llm"
         },
         {
           "name": "深空当铺",
           "count": 1,
-          "summary": "《深空当铺》成今年独游神作？Steam在线破15万人、销量已破50万套。",
-          "summary_source": "rules"
+          "summary": "Steam在线人数突破15万人，游戏销量已破50万套。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "达巴：水痕之地",
+          "count": 1,
+          "summary": "索尼宣布该项目将于2027年内发售，单项目将获价值百万美元投资。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -234,23 +269,6 @@
           "count": 1,
           "summary": "二游玩家年末日程表添新笔，《蓝色星原：旅谣》定于11月26日开启国服公测。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "article_count": 2,
-      "game_count": 1,
-      "untagged_count": 1,
-      "digest": "2026年10月25日，当日资讯总量为2条，涉及游戏1款，仅有望月相关动态，内容聚焦该游戏招聘UE客户端主程的相关情况，整体信息较为有限。游戏｜望月，该游戏通过招聘软件发布UE客户端主程岗位，相关动态围绕该岗位的招聘及对项目的技术定位展开。游戏｜望月，相关报道聚焦该游戏发布的UE客户端主程招聘信息，涉及岗位需求及项目技术方向等相关内容。",
-      "digest_source": "llm",
-      "input_hash": "15185f61b86ae803",
-      "game_digests": [
-        {
-          "name": "望月",
-          "count": 1,
-          "summary": "一直用Unity的《望月》开始“自称UE5游戏”，百万年薪招UE主程。",
-          "summary_source": "rules"
         }
       ]
     }

@@ -1,106 +1,207 @@
 {
-  "generated_at": "2026-11-03T03:35:16.813745+00:00",
+  "generated_at": "2026-11-04T02:14:26.695702+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-03",
-      "article_count": 55,
-      "game_count": 32,
-      "untagged_count": 13,
-      "digest": "11月3日游戏行业资讯聚焦于《GTA6》开发细节确认、《塞尔达：时之笛》重制版泄露与发售预热，以及《影之刃零》销量突破400万等热点。此外，动视为《使命召唤：现代战争4》移除争议影像，约翰尼·德普表态愿再演杰克·斯派罗，任天堂Switch 2纪念款转售遇冷，神谷英树则建议粉丝对《大神》续作不要抱过高期待。",
+      "date": "2026-11-04",
+      "article_count": 45,
+      "game_count": 23,
+      "untagged_count": 8,
+      "digest": "英国德比郡警方发布《GTA6》风格追车执法短片，涉事司机被判处14个月监禁；索尼公布《GT赛车7》累计销量超1270万份，收入超8.4亿美元；微软XGP公布11月入库阵容含《吸血鬼爬行者》；《上古卷轴6》确认落锤省舞台，发售或需两年以上；《塞尔达：时之笛 重制版》公布十五项变化并加入完整配音。",
       "digest_source": "llm",
-      "input_hash": "a65ac75f7cc3706e",
+      "input_hash": "3cbe3cb0071b0279",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 7,
-          "summary": "Rockstar开发主管确认Sam Houser持续参与创意开发，两人共同审查灯光、音频及叙事等基础层面，确保游戏方向制定。",
+          "count": 8,
+          "summary": "英国德比郡警方发布《GTA6》风格追车执法短片，涉事司机被判处14个月监禁。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 4,
+          "summary": "玩家发布Mod将主角魂替换为孙悟空，配置独立骨骼并减少异常，同时出现多种角色替换模组。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴6",
+          "count": 3,
+          "summary": "Bethesda确认《上古卷轴6》以落锤省为舞台，消息人士称发售仍需两年以上，最早或至2028年末。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达：时之笛 重制版",
           "count": 3,
-          "summary": "游戏容量曝光为24.5GB，疑似提前泄露实机截图，地图区域扩大且NPC拥有日程表，将于11月5日发售。",
+          "summary": "《塞尔达：时之笛 重制版》公布十五项变化，涵盖角色配音、操作方式及场景细节，娜薇日语配音时隔28年回归。",
           "summary_source": "llm"
         },
         {
-          "name": "影之刃零",
-          "count": 3,
-          "summary": "发售后72小时全平台销量突破400万，网易云游戏平台提供优惠并支持免下载直接游玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "ARC突袭者",
+          "name": "007：初露锋芒",
           "count": 1,
-          "summary": "Embark工作室表示游戏规模超出预期，已显著扩充团队并计划长期运营。",
+          "summary": "IO Interactive向PS Plus高级会员开放《007：初露锋芒》免费试玩，体验时长为一小时。",
           "summary_source": "llm"
         },
         {
-          "name": "Duck Side of the Moon",
+          "name": "Addicted",
           "count": 1,
-          "summary": "宣布登陆PS5，同步推出免费“自家种植”更新，扩展园艺与飞船装修玩法。",
+          "summary": "BLACKPINK成员Jisoo确认个人歌曲MV红裙造型致敬《生化危机》角色艾达·王。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GT赛车7",
+          "count": 1,
+          "summary": "Alinea Analytics估算《GT赛车7》累计销量超1270万份，为索尼带来收入超8.4亿美元。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤：现代战争4",
           "count": 1,
-          "summary": "动视就使用梨泰院踩踏事故影像致歉，承诺在11月12日更新中移除相关素材。",
+          "summary": "《使命召唤：现代战争4》Xbox版可解锁神话成就，PS5版因奖杯列表被归入附加内容而无白金奖杯。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "偷天换命",
+          "count": 1,
+          "summary": "PC单人动作游戏《偷天换命》预计11月底推出试玩版，采用像素画面并融入双角色双世界机制。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "吸血鬼爬行者",
+          "count": 1,
+          "summary": "Poncle新作《吸血鬼爬行者》被纳入XGP 11月第一波入库阵容，登陆主机、PC及云游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战犬",
+          "count": 1,
+          "summary": "《战犬》开发商Bulkhead Studios宣布在抢先体验版成功推出后，将于12月安排全员休假。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时间旅者：重生曙光",
+          "count": 1,
+          "summary": "Bloober Team宣布《时间旅者：重生曙光》DLC《拉撒路》将于12月3日登陆PC、PS5和XSX|S。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星球大战：前线3",
+          "count": 1,
+          "summary": "评论作者回顾《星球大战：前线3》二十年多次流产历史，归因于工期与公司政治。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7",
+          "count": 1,
+          "summary": "滨口直树表示若玩家对“女王之血”独立版有大量需求，三部曲完成后会考虑立项。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7：重制版",
+          "count": 1,
+          "summary": "滨口直树称《最终幻想7：重制版》是重制三部曲中最难开发的一作，困难在于从零建立开发组织。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "article_count": 108,
+      "game_count": 71,
+      "untagged_count": 21,
+      "digest": "今日游戏行业资讯聚焦多款热门新作与经典IP动态。任天堂确认《塞尔达：时之笛 重制版》由EPD第三制作组开发，青沼英二谈及系列未来并透露年轻成员将承担更重要角色；Rockstar与索尼方面传出PS5版《GTA6》最低固件要求或升至14.22的消息；《影之刃零》发售一周后玩家推出“Phantom Souls”模组增加魂类规则；此外《剑星 完全版》Switch 2版获81分，Embark宣布《ARC突袭者》将长期运营，小岛工作室勘景或为《OD》提供素材。",
+      "digest_source": "llm",
+      "input_hash": "211e24933ce097f3",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 8,
+          "summary": "第三方消息称PS5版最低固件要求或升至14.22，索尼虽已推送该版本更新但官方尚未正式公布相关要求。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达：时之笛 重制版",
+          "count": 4,
+          "summary": "任天堂确认该作由EPD第三制作组负责开发，距离发售仅剩三天，HokWai Ng首次担任导演。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 4,
+          "summary": "发售不足一周，玩家PVLW制作“Phantom Souls”模组，加入敌人复活、死亡掉落及Boss重置等《黑暗之魂》式规则。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 2,
+          "summary": "DMZ模式首次单人剧情任务疑似启用私人实例，测试中未匹配到其他玩家，Infinity Ward尚未说明。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星 完全版",
+          "count": 2,
+          "summary": "Switch 2版获Metacritic 81分，媒体肯定其战斗与便携体验，但指出画面缩水及帧生成问题。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说",
+          "count": 2,
+          "summary": "青沼英二在巴黎领奖时表示愿意继续指导年轻开发者，称其将为系列带来新想法，并透露部分成员未玩过原作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "ARC突袭者",
+          "count": 1,
+          "summary": "Embark宣布游戏规模超出预期，将显著扩充团队并计划长期运营，目前仍在招聘以应对增长压力。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Duck Side of the Moon",
+          "count": 1,
+          "summary": "宣布登陆PS5并推出免费“自家种植”更新，新增园艺、飞船装修及新角色等内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GRAVHOUNDS",
+          "count": 1,
+          "summary": "1至4人合作建造游戏开启抢先体验，玩家需利用重力机制搜集材料、建设基地并守卫撤离。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Muv-Luv 少女庭园 Mellow Days",
+          "count": 1,
+          "summary": "桌面陪伴新作将于11月19日登陆Steam，支持中文界面及日语配音，提供番茄钟与待办清单功能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "OD",
+          "count": 1,
+          "summary": "小岛工作室曾赴斯洛伐克与捷克勘景并进行3D扫描，展览线索显示这些工作可能为恐怖游戏《OD》提供环境素材。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "人类2",
+          "count": 1,
+          "summary": "Amplitude Studios宣布续作将于2027年登陆PC，设定将包含气候变化，并重新设计文化演进机制。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤",
+          "count": 1,
+          "summary": "外媒作者主张移除技能匹配并加强透明沟通，引用数据称《现代战争4》美国主机活跃玩家占比低于《黑色行动7》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：战争地带",
+          "count": 1,
+          "summary": "将于11月6日联动《现代战争4》第1赛季，加入Hajin和Zodiac两张地图及120人大规模复生玩法。",
           "summary_source": "llm"
         },
         {
           "name": "使命必达",
           "count": 1,
           "summary": "PC试玩版将于2027年1月登陆Steam，玩家将驾驶战机在程序生成的地图中完成送货任务。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星完全版",
-          "count": 1,
-          "summary": "Switch 2版允许关闭帧生成，掌机模式体验较好但底座模式仍需优化。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "加勒比海盗",
-          "count": 1,
-          "summary": "约翰尼·德普表示愿意在新电影中再演杰克·斯派罗，希望以更好的方式为系列画上句号。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "午夜以南",
-          "count": 1,
-          "summary": "主创表示若要自己掏钱可能不会做该项目，承认资金投入难以持续，工作室曾面临关闭风险。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "去月球",
-          "count": 1,
-          "summary": "创作者高瞰公布免费新作《幻想私聊》，预计2027年推出，采用手工绘制像素画面。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "哈玛雷特",
-          "count": 1,
-          "summary": "共斗卡牌游戏国区定价全球最低约39元，将于11月17日开启Steam EA。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说",
-          "count": 1,
-          "summary": "Switch 2纪念款从预约困难转为正常购买，高价转售遇冷。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛",
-          "count": 1,
-          "summary": "任天堂将在伦敦举办官方午夜首发活动，购买者可获N64纸盒复刻品及陶笛钥匙扣。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "大神",
-          "count": 1,
-          "summary": "神谷英树建议粉丝对续作不要抱过高期待，表示公众期待持续升高让他承受了更大压力。",
           "summary_source": "llm"
         }
       ]
@@ -909,107 +1010,6 @@
           "name": "光辉出走",
           "count": 1,
           "summary": "生存恐怖FPS游戏在Steam限时免费入库，11月17日前领取可永久保留。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "article_count": 28,
-      "game_count": 21,
-      "untagged_count": 5,
-      "digest": "EA关停BioWare工作室并取消《质量效应》新作引发粉丝请愿，同时从《战地6》移除全部质量效应联动装饰。微软裁员并解雇《我的世界》前负责人，Xbox面临取消《漫威刀锋战士》的风险。《使命召唤：现代战争4》Steam首发同时在线突破22.7万。多款游戏如《新·港口镇连续杀人事件》重制版定档2027年，《最终幻想14》8.0版本扩大角色配色自定义。",
-      "digest_source": "llm",
-      "input_hash": "ed6fd6cc648bb5ae",
-      "game_digests": [
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 2,
-          "summary": "该作在Steam首发阶段录得22万7622名同时在线玩家，约为《使命召唤：黑色行动7》推出时的两倍，延续了抢先体验阶段超越后者的势头。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "质量效应：传奇版",
-          "count": 2,
-          "summary": "EA关停BioWare工作室后，粉丝们联合签署请愿书，呼吁拯救这一经典IP，敦促EA为BioWare提供资金支持或考虑将IP授权给其他工作室。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "EA公司 美商艺电",
-          "count": 1,
-          "summary": "EA官网即将推出栏目全面空置 新作阵容处境尴尬。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GTA6",
-          "count": 1,
-          "summary": "外媒指出在地图审美疲劳的时代，《GTA6》必须通过意外发现和鲜活互动缓解开放世界的“地图疲劳”，让普通驾车也有机会自然演变成故事。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Peak",
-          "count": 1,
-          "summary": "爆火的合作攀爬游戏《Peak》登陆主机平台，Steam版游戏文件体积直接翻了三倍，原因是地图池从30张扩充到了208张。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤",
-          "count": 1,
-          "summary": "演员Inde Navarrette与Ray Nicholson均公开表达了参演《使命召唤》电影的意愿，两人目前只是主动自荐，尚无消息表明已获得角色。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环：初次反击",
-          "count": 1,
-          "summary": "据爆料，光环工作室曾计划开发小说《光环：初次反击》的改编游戏，该项目原计划包含五个关卡，但受工作室裁员影响而搁置。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环：战斗进化",
-          "count": 1,
-          "summary": "《光环：战斗进化》前多人模式首席设计师回忆称，该作的多人模式曾因工期压力险遭取消，一支仅有4人的团队耗时约18个月才保住该模式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "幻想生活ｉ 转圈圈的龙和偷取时间的少女",
-          "count": 1,
-          "summary": "本期特别版块精选了五款慢生活游戏，从《幻想生活ｉ 转圈圈的龙和偷取时间的少女》到《暮色庭院》，展现了治愈经营、职业冒险及乡村悬疑等多种玩法。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "我的世界",
-          "count": 1,
-          "summary": "微软首席执行官确认《我的世界》前负责人Helen Chiang已离开公司，消息称其因违反政策被解雇，她长期被视为Xbox资深管理者之一。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战地6",
-          "count": 1,
-          "summary": "EA被曝从《战地6》中移除了所有与BioWare旗下《质量效应》系列相关的联动装饰道具，内容涵盖玩家卡片背景、武器皮肤等，此前这些道具状态标注为“不可获取”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "新·港口镇连续杀人事件",
-          "count": 1,
-          "summary": "经典推理冒险游戏《港口镇连续杀人事件》重制版定于2027年3月4日登陆Switch、Switch 2及PC，由日本团队Game Studio和Room6负责开发。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想14",
-          "count": 1,
-          "summary": "《最终幻想14》8.0版本将扩大角色配色自定义范围，开发成员透露社群长期提出的臀部滑块诉求已有推进，但尚未得到正式确认。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "永冻纪元",
-          "count": 1,
-          "summary": "《永冻纪元》已于10月9日开启PC抢先体验，支持单人游玩及最多4人合作，当前版本在严寒生存与剧情探索之间形成了较好平衡，但任务推进异常等问题仍待修复。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威刀锋战士",
-          "count": 1,
-          "summary": "消息称微软因授权成本与回报风险或取消《漫威刀锋战士》，即使该项目已接近完成，Xbox仍可能选择永久终止该项目以避免损失。",
           "summary_source": "llm"
         }
       ]
