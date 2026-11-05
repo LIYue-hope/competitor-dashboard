@@ -1,65 +1,160 @@
 {
-  "generated_at": "2026-11-04T02:18:20.661293+00:00",
+  "generated_at": "2026-11-05T02:30:05.025660+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-04",
-      "article_count": 20,
-      "game_count": 8,
+      "date": "2026-11-05",
+      "article_count": 17,
+      "game_count": 7,
       "untagged_count": 5,
-      "digest": "今日游戏资讯聚焦于《影之刃零》的持续火爆，外媒总结其六大设计亮点并估算销量已达430万份，引发国游崛起热议；同时《GTA6》泄露风波与预售额超50亿元的报道引发关注，而《上古卷轴6》副标题正式公布，发售时间仍遥遥无期。",
+      "digest": "今日游戏资讯聚焦于多款大作的动态与争议，包括《影之刃零》的新娘角色展示与徐静雨试玩，《战神：劳菲》跳票至2027年5月20日，《魔兽世界：无限》上线后因全球玩家涌入导致登录排队漫长且等级锁定60级，以及《GTA6》CEO回应缺乏爆款质疑与玩家幻想打7分的趣闻。",
       "digest_source": "llm",
-      "input_hash": "15f3f6298eded02f",
+      "input_hash": "e2a131ecdd460e4f",
       "game_digests": [
         {
           "name": "影之刃零",
-          "count": 6,
-          "summary": "外媒总结六大设计亮点，分析机构估算其Steam与PS5平台销量已达430万份，总收入约2.23亿美元。",
+          "count": 3,
+          "summary": "徐静雨试玩沐小葵角色并当场让豆包吟诗一首，新娘阿花角色爆改美末艾比，红光投技被描述为高尔夫爆头，官方还展示了新娘阿花的美女真容。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
-          "count": 3,
-          "summary": "曝《GTA6》两周内新增逾1亿美元收入、约130万份销量，Sensor Tower估算预售额已超50亿元。",
+          "count": 2,
+          "summary": "Take-Two CEO在接受《纽约时报》采访时被记者质疑缺乏爆款作品，随后有玩家幻想自己测评《GTA6》并仅打出7分。",
           "summary_source": "llm"
         },
         {
-          "name": "上古卷轴6",
-          "count": 1,
-          "summary": "副标题正式官宣为《上古卷轴6：Sentinel（哨兵）》，彭博社记者称发售至少还要两年以上。",
+          "name": "战神：劳菲",
+          "count": 2,
+          "summary": "圣莫尼卡工作室官方宣布游戏跳票，最新发售日期定为2027年5月20日，玩家对此反应强烈表示需要的是奎爷。",
           "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界：无限",
+          "count": 2,
+          "summary": "游戏今日正式全球上线，因玩家涌入导致登录排队漫长，等级上限永久锁定60级，首个团本将于12月10日开放。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星际战甲",
+          "count": 1,
+          "summary": "年度重磅版本《Warframe：Tau》将于12月上线，届时玩家将首次走出始源星系，踏进充满冒险与挑战的Tau星系。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威刀锋战士",
+          "count": 1,
+          "summary": "员工控诉微软冻结招聘长达19个月，这一不当行为被指拖垮了《漫威刀锋战士》的开发进度。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "美末2RE",
+          "count": 1,
+          "summary": "游戏更新推出两款皮肤，这两款皮肤与完成“Chronological”模式绑定，通关该模式后即可解锁。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "article_count": 148,
+      "game_count": 36,
+      "untagged_count": 44,
+      "digest": "11月4日 游民星空 共 148 条新闻，涉及 36 款游戏。报道最集中的是《影之刃零》（37 条）、《GTA6》（18 条）、《塞尔达传说：时之笛 重制版》（10 条）。另有 44 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "08abb1685c07fc4d",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 37,
+          "summary": "《影之刃零》在美国也卖爆了！真不只靠中国市场；《影之刃零》沐小葵腋下香汗炸出百楼压抑老外：这是神仙甘露啊！；《影之刃零》幕后神级大佬不参与续作！给钱也不干了 不过正在做《湮灭之潮》（当天共 37 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA6",
+          "count": 18,
+          "summary": "《GTA6》212GB震撼博主:《三男一狗》当年只需8GB；《GTA6》大小终于确认！你PS5硬盘被塞满；《GTA6》PS5 Pro功能首曝 索尼疑似提前泄露后删除（当天共 18 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说：时之笛 重制版",
+          "count": 10,
+          "summary": "《塞尔达传说：时之笛 重制版》Fami通出分！37/40杀入白金殿堂；IGN给《塞尔达传说：时之笛 重制版》9分引玩家不满：怒喷政确游戏却拿满分；IGN：《塞尔达传说：时之笛 重制版》全收集27小时 只有一个存档位（当天共 10 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达时之笛RE",
+          "count": 3,
+          "summary": "96分年度最高分！《塞尔达时之笛RE》M站评分炸了；《塞尔达时之笛RE》大量偷跑！国内不少玩家开直播；《塞尔达时之笛RE》口碑彻底爆了 36家媒体满分神作!。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "上古卷轴6",
+          "count": 2,
+          "summary": "《上古卷轴6》终于官宣！等8年等到了文件夹名；彭博社记者：《上古卷轴6》发售至少还要两年以上！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "明末",
+          "count": 2,
+          "summary": "玩家称《明末》是最被低估类魂游戏！官方感动了；《明末》更新动态！玩家在线催更：速做新作解解馋。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "神偷：暗黑计划复刻版",
+          "count": 2,
+          "summary": "《神偷：暗黑计划复刻版》PS5版238港币！12月4日发售；《神偷：暗黑计划复刻版》预购开启！国区109元 支持中文。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "黎明杀机",
+          "count": 2,
+          "summary": "大作云集!《黎明杀机》《七日杀》《暗黑地牢2》确认参展2026上海WePlay；《黎明杀机》将亮相WePlay 与玩家共庆恐怖十周年。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "2026中国游戏产业IP发展报告",
+          "count": 1,
+          "summary": "《2026中国游戏产业IP发展报告》发布：六大趋势揭秘3000亿市场新方向。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GT7",
+          "count": 1,
+          "summary": "曝索尼独占《GT7》销量破1270万！营收达8.4亿美元。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "七日杀",
+          "count": 1,
+          "summary": "《七日杀》将末日废土带到中国上海 WePlay。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "四海兄弟：故乡",
+          "count": 1,
+          "summary": "《四海兄弟：故乡》超史低！不到50元就能入手。",
+          "summary_source": "rules"
         },
         {
           "name": "守望先锋",
           "count": 1,
-          "summary": "与《剑星》的联动内容已于今日正式上线，被报道为“3D区双神碰撞”。",
-          "summary_source": "llm"
+          "summary": "3D区双神碰撞！《守望先锋》《剑星》联动上线。",
+          "summary_source": "rules"
         },
         {
           "name": "巫师3",
           "count": 1,
-          "summary": "老角色回归、新怪物登场的DLC内容有看头。",
-          "summary_source": "llm"
+          "summary": "老角色回归、新怪物登场！《巫师3》新DLC有看头。",
+          "summary_source": "rules"
         },
         {
-          "name": "羞辱",
+          "name": "异人之下",
           "count": 1,
-          "summary": "曝育碧想买《羞辱》开发商，报道称育碧之外至少还有两家公司参与竞购。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "马里奥：奥德赛",
-          "count": 1,
-          "summary": "玩家社区推出非官方PC原生移植版，无需模拟器即可在电脑上体验最高4K画质。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "龙之信条2",
-          "count": 1,
-          "summary": "卡普空宣布人气动画《迷宫饭》将正式联动《龙之信条2：黑暗觉者》。",
-          "summary_source": "llm"
+          "summary": "腾讯大作《异人之下》曝光13分钟超长实机！战斗爽快 完成度高。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -267,12 +362,12 @@
     },
     {
       "date": "2026-11-01",
-      "article_count": 114,
+      "article_count": 113,
       "game_count": 22,
-      "untagged_count": 30,
-      "digest": "11月1日游戏资讯聚焦于《影之刃零》的持续火爆与玩家互动，以及《GTA6》的线下广告与警察系统新机制。此外，索尼第一方新作《往日不再》开发商Bend Studio的新作曝光，以及《最终幻想7：重生》总监滨口直树确认多平台开发不妥协等消息也引发关注。",
+      "untagged_count": 29,
+      "digest": "11月1日游戏行业资讯聚焦于《影之刃零》的持续火爆与玩家互动，以及《GTA6》的线下广告与警察系统新机制曝光。此外，索尼第一方新作《往日不再》开发商Bend Studio的神秘新项目、PS5 Pro版《最终幻想7：重生》的适配策略，以及《漫威金刚狼》因销量不佳而采取的捆绑销售策略也引发了广泛关注。",
       "digest_source": "llm",
-      "input_hash": "13660022995164e4",
+      "input_hash": "6f4ec7ff7c29eca4",
       "game_digests": [
         {
           "name": "影之刃零",
@@ -283,85 +378,85 @@
         {
           "name": "GTA6",
           "count": 10,
-          "summary": "《GTA6》线下广告已进入中国，警察系统将首次加入警犬单位，耐克推出联名鞋款定价865元，英国富豪算出每晚游玩能省3万块。",
+          "summary": "《GTA6》线下广告已进入中国，警察系统首次加入警犬单位，耐克推出联名球鞋，同时关于PS5 Pro版帧数表现及画质细节的讨论持续发酵。",
           "summary_source": "llm"
         },
         {
           "name": "往日不再",
           "count": 2,
-          "summary": "开发商Bend Studio正在开发一款第三人称合作新作，预计将于2027年发售。",
+          "summary": "《往日不再》开发商Bend Studio正在开发一款全新的第三人称合作游戏，预计将于2027年发售。",
           "summary_source": "llm"
         },
         {
           "name": "最终幻想7：启示",
           "count": 2,
-          "summary": "总监滨口直树确认多平台开发未妥协创意，终章将更多通过玩法来叙事。",
+          "summary": "总监滨口直树确认多平台开发未妥协创意，并透露终章将通过玩法来叙事，升级大世界探索体验。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤23：现代战争4",
           "count": 1,
-          "summary": "NS2版多人模式维持60帧，但掌机模式延迟在83至125毫秒间波动，体验严重拖累。",
+          "summary": "NS2版多人模式维持60帧，但掌机模式延迟在83至125毫秒间波动，体验远逊于PS5版。",
           "summary_source": "llm"
         },
         {
           "name": "光与影：33号远征队",
           "count": 1,
-          "summary": "新版DLSS 5效果截图流出，真实效果获得玩家高度评价。",
+          "summary": "新版DLSS 5技术带来大量新截图，展示了惊人的真实效果。",
           "summary_source": "llm"
         },
         {
           "name": "原神",
           "count": 1,
-          "summary": "米哈游官宣新作登陆NS2，评论区被《原神》刷屏。",
+          "summary": "米哈游官宣新作登陆NS2，但评论区被《原神》刷屏。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛RE",
           "count": 1,
-          "summary": "eShop更新显示该作文件容量达24.5G。",
+          "summary": "任天堂eShop更新显示该作文件容量达24.5G。",
           "summary_source": "llm"
         },
         {
           "name": "女神异闻录",
           "count": 1,
-          "summary": "初代重制版实机视频泄露，被指画风与P5高度相似。",
+          "summary": "初代重制版实机画面泄露，被指画风与《女神异闻录5》高度相似。",
           "summary_source": "llm"
         },
         {
           "name": "女神异闻录1重制版",
           "count": 1,
-          "summary": "疑似实机视频在Reddit流传，展示低画质下的重制版画面。",
+          "summary": "疑似实机视频在Reddit流传，展示了重制版画面。",
           "summary_source": "llm"
         },
         {
           "name": "战神",
           "count": 1,
-          "summary": "索尼第一方新作曝光，预计2027年发售。",
+          "summary": "索尼第一方新作曝光，预计2027年发售，由Bend Studio开发。",
           "summary_source": "llm"
         },
         {
           "name": "星鸣特攻",
           "count": 1,
-          "summary": "选人界面实机演示视频在社交平台爆火。",
+          "summary": "博主分享的选人界面实机演示视频在社交平台爆火。",
           "summary_source": "llm"
         },
         {
           "name": "极限竞速8",
           "count": 1,
-          "summary": "创始人效力27年后宣布将离职，微软与本人尚未回应。",
+          "summary": "创始人宣布效力27年后将离开微软，过渡期留任顾问。",
           "summary_source": "llm"
         },
         {
           "name": "波斯王子：时之砂",
           "count": 1,
-          "summary": "有粉丝愿自掏500万欧元只为让该作复活。",
+          "summary": "有粉丝愿自掏500万欧元希望该IP复活。",
           "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
           "count": 1,
-          "summary": "多家零售商开始大幅折扣捆绑销售清理库存。",
+          "summary": "多家零售商开始大幅折扣捆绑PS5销售以清理库存。",
           "summary_source": "llm"
         }
       ]
@@ -867,107 +962,6 @@
           "name": "刺客信条4：黑旗 记忆重置",
           "count": 1,
           "summary": "育碧对2013年经典之作的现代重制版最终大更新上线，带来大量新内容。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "article_count": 133,
-      "game_count": 25,
-      "untagged_count": 26,
-      "digest": "今日游戏资讯热度集中于《影之刃零》，该作因145G的PC容量及IGN日本9分评价引发热议，媒体评测解禁并展示了大量画面。此外，《三体》授权新作公布2027年发售计划，《GTA6》周边炒价至3340元，而《使命召唤23》91GB补丁及《妮姬》新皮肤尺度问题也占据一定篇幅。",
-      "digest_source": "llm",
-      "input_hash": "1d623df94d095570",
-      "game_digests": [
-        {
-          "name": "影之刃零",
-          "count": 82,
-          "summary": "媒体评测正式解禁，IGN日本给出9分评价，PC版145G容量引发玩家热议，IGN日本试玩20小时后表示被游戏迷住，但认为战斗仍有改善空间。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三体",
-          "count": 2,
-          "summary": "授权新作首曝，主角为退役特种兵，官方宣布游戏将于2027年Q1发售并扩写剧情。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 1,
-          "summary": "Rockstar在迈阿密展开大规模线下营销，汉堡包装纸被炒至3340元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "LOL",
-          "count": 1,
-          "summary": "传奇选手Faker的逆天二创在贴吧及社交平台大量扩散，引发玩家关注。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三体：审判前夜",
-          "count": 1,
-          "summary": "首支预告正式公布，玩家将在审判日号上扮演卧底。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤23：现代战争4",
-          "count": 1,
-          "summary": "巨型补丁发布，总容量飙升至91GB。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺客信条：黑旗 记忆重置",
-          "count": 1,
-          "summary": "相对2013年原版在画面与开放世界维度完成现代化升级。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说",
-          "count": 1,
-          "summary": "真人电影ins账号突然被删，引发关于跳票的猜测。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "妮姬",
-          "count": 1,
-          "summary": "新皮肤因尺度太大遭和谐，官方在直播中公布了多名新角色及全新服装。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "完美国际",
-          "count": 1,
-          "summary": "二十周年第四篇章“九州同庆”将于11月11日上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师",
-          "count": 1,
-          "summary": "官方账号发布推文，纪念系列首作发售19周年并悼念生软。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零攻略全书",
-          "count": 1,
-          "summary": "UCG官宣官方授权的攻略全书将于11月初发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "救命！我被困在狗血韩剧里了！",
-          "count": 1,
-          "summary": "阿西团队携手韩国影视公司SHOWBOX打造，李侑菲领衔主演。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "法环",
-          "count": 1,
-          "summary": "曝电影成本达13亿元，定档2028年3月3日。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "湮灭之潮",
-          "count": 1,
-          "summary": "女主格雯德琳的脸部模型在试玩版中与初版出现较大差异，引发玩家讨论。",
           "summary_source": "llm"
         }
       ]

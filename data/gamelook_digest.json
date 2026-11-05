@@ -1,17 +1,46 @@
 {
-  "generated_at": "2026-11-04T02:19:46.904256+00:00",
+  "generated_at": "2026-11-05T02:32:15.744095+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-04",
-      "article_count": 4,
+      "date": "2026-11-05",
+      "article_count": 6,
       "game_count": 3,
-      "untagged_count": 1,
-      "digest": "2026-11-04当日行业资讯共4条，涉及3款游戏，其中未明确指向具体游戏的资讯1条。资讯围绕《恋与深空》账号被盗事件、国产单机游戏《昭和米国物语》制作完成及腾讯AI陪玩《鹅次元》首测展开，整体呈现不同领域的动态信息。",
+      "untagged_count": 3,
+      "digest": "2026年11月5日，当日GameLook共发布6条资讯，涉及3款游戏，整体围绕游戏行业动态及市场表现展开。其中涵盖服务器安全相关、小游戏市场排名及二次元游戏突破等方向，展现了行业在应对挑战与突破新成绩方面的多重表现。",
       "digest_source": "llm",
-      "input_hash": "baf7efedd39a8119",
+      "input_hash": "3aa4796fc5fa1bb0",
+      "game_digests": [
+        {
+          "name": "NIKKE",
+          "count": 1,
+          "summary": "近日相关报道显示，国内某二游《NIKKE》的PC启动器遭到攻击，且腾讯对此事件作出致歉，反映出国内游戏出海在服务器稳定性及合规应对方面仍面临较高挑战。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "三冰",
+          "count": 1,
+          "summary": "10月份微信小游戏市场呈现明显的加速换血，其中爆款《三冰》成功登顶《地宫大爆破》第11名，显示出该类型游戏在特定榜单中的市场竞争力。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "明日方舟",
+          "count": 1,
+          "summary": "11月1日《明日方舟》开启2026「感谢庆典」版本，凭借新版本与角色实装实现登顶iOS游戏畅销榜并冲上总榜第2，成为年内首款登顶该榜单的二次元游戏。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "article_count": 7,
+      "game_count": 5,
+      "untagged_count": 2,
+      "digest": "11月4日 GameLook 共 7 条新闻，涉及 5 款游戏。报道最集中的是《恋与深空》（1 条）、《昭和米国物语》（1 条）、《消消乐》（1 条）。另有 2 条未指向具体游戏的行业或平台资讯。另外还有《蓝色星原》（1 条）、《鹅次元》（1 条）也有报道。",
+      "digest_source": "rules",
+      "input_hash": "420d52ababe6d8a9",
       "game_digests": [
         {
           "name": "恋与深空",
@@ -23,6 +52,18 @@
           "name": "昭和米国物语",
           "count": 1,
           "summary": "《昭和米国物语》已完成全部制作！罗翔宇采访：“猫都能通关”！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "消消乐",
+          "count": 1,
+          "summary": "QM报告:《消消乐》1.61亿MAU夺冠，腾讯包揽TOP10八席!《向僵尸开炮》小游戏TOP1。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "蓝色星原",
+          "count": 1,
+          "summary": "11月预计16款新游戏上线：《蓝色星原》领衔，斗罗大陆,斗破苍穹双双登场！。",
           "summary_source": "rules"
         },
         {
@@ -233,41 +274,6 @@
           "name": "赛博朋克2077",
           "count": 1,
           "summary": "《赛博朋克2077》Steam在线人数突破18万，而其动画第二季在豆瓣的评分仅为5.5分。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "article_count": 6,
-      "game_count": 4,
-      "untagged_count": 2,
-      "digest": "10月26日游戏行业资讯聚焦于多款新游表现与厂商动态。国产整活派对游戏《我带过最差的一届》在Steam新品节全球排名第三；诗悦旗舰二游《望月》因招聘UE5主程引发关注；灵犀互娱新作《篮球少女》在脱离阿里体系后首秀，免费榜夺冠并官宣与NBA合作；《蓝色星原：旅谣》则定于11月26日开启国服公测。",
-      "digest_source": "llm",
-      "input_hash": "bbad402d9615cb1c",
-      "game_digests": [
-        {
-          "name": "我带过最差的一届",
-          "count": 1,
-          "summary": "Steam新品节全球排名第三，国产整活派对游戏《我带过最差的一届》爆红，30万玩家乐开花。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "望月",
-          "count": 1,
-          "summary": "诗悦旗舰二游《望月》在招聘软件上发布UE客户端主程岗位，引发玩家对其技术栈变化的关注。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "篮球少女",
-          "count": 1,
-          "summary": "灵犀互娱新作《篮球少女》在脱离阿里体系后首秀，免费榜夺冠，并官宣与NBA合作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "蓝色星原",
-          "count": 1,
-          "summary": "二游玩家年末日程表添新笔，《蓝色星原：旅谣》定于11月26日开启国服公测。",
           "summary_source": "llm"
         }
       ]
