@@ -1,71 +1,10 @@
 {
-  "crawled_at": "2026-11-05T02:14:13.627327+00:00",
+  "crawled_at": "2026-11-06T02:10:59.515091+00:00",
   "days": [
     {
-      "date": "2026-11-05",
-      "date_label": "11月05日 今天",
-      "games": [
-        {
-          "game_name": "魂战群英",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/hunzhanqunying/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "奇遇西行",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/qiyuxixing/",
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "沙城战影",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": "7.0",
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/shachengzhanying/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "奇幻果园",
-          "categories": [
-            "模拟"
-          ],
-          "score": null,
-          "event_desc": "领真实水果",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/qhgy/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-11-06",
-      "date_label": "11月06日 明天",
+      "date_label": "11月06日 今天",
       "games": [
-        {
-          "game_name": "巴雄天下",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": "7.5",
-          "event_desc": "超爽传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/baxiongtianxia1/",
-          "has_afk_grinding_tag": false
-        },
         {
           "game_name": "星空神曲",
           "categories": [
@@ -75,6 +14,17 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/xingkongshenqu/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "巴雄天下",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "超爽传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/baxiongtianxia1/",
           "has_afk_grinding_tag": false
         },
         {

@@ -1,34 +1,57 @@
 {
-  "generated_at": "2026-11-05T02:32:15.744095+00:00",
+  "generated_at": "2026-11-06T02:28:45.862761+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-05",
-      "article_count": 6,
-      "game_count": 3,
-      "untagged_count": 3,
-      "digest": "2026年11月5日，当日GameLook共发布6条资讯，涉及3款游戏，整体围绕游戏行业动态及市场表现展开。其中涵盖服务器安全相关、小游戏市场排名及二次元游戏突破等方向，展现了行业在应对挑战与突破新成绩方面的多重表现。",
+      "date": "2026-11-06",
+      "article_count": 3,
+      "game_count": 2,
+      "untagged_count": 1,
+      "digest": "GameLook今日共报道3条新闻，聚焦米哈游与灵游坊新作。米哈游公布捉宠新作《崩坏：因缘精灵》将于2027年春季公测，并开启预约；灵游坊《影之刃零》发售一周销量突破400万，官方称其将助力中国游戏成为全球3A标杆。",
       "digest_source": "llm",
-      "input_hash": "3aa4796fc5fa1bb0",
+      "input_hash": "29bbd86ccbc2b8fd",
+      "game_digests": [
+        {
+          "name": "崩坏：因缘精灵",
+          "count": 1,
+          "summary": "米哈游公布捉宠新作《崩坏：因缘精灵》将于2027年春季公测，并开启预约。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "灵游坊《影之刃零》发售一周销量突破400万，官方称其将助力中国游戏成为全球3A标杆。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "article_count": 7,
+      "game_count": 3,
+      "untagged_count": 4,
+      "digest": "11月5日游戏行业资讯聚焦出海安全与市场表现，腾讯因《NIKKE》PC启动器遭攻击致歉，微信小游戏市场换血显著，《三冰》登顶10月畅销榜第11名，而《明日方舟》凭借新版本登顶iOS畅销榜并进入总榜前二。",
+      "digest_source": "llm",
+      "input_hash": "9df33515e056e150",
       "game_digests": [
         {
           "name": "NIKKE",
           "count": 1,
-          "summary": "近日相关报道显示，国内某二游《NIKKE》的PC启动器遭到攻击，且腾讯对此事件作出致歉，反映出国内游戏出海在服务器稳定性及合规应对方面仍面临较高挑战。",
+          "summary": "腾讯服务器遭攻击，二游《NIKKE》PC启动器出现故障，腾讯对此致歉。",
           "summary_source": "llm"
         },
         {
           "name": "三冰",
           "count": 1,
-          "summary": "10月份微信小游戏市场呈现明显的加速换血，其中爆款《三冰》成功登顶《地宫大爆破》第11名，显示出该类型游戏在特定榜单中的市场竞争力。",
+          "summary": "《三冰》登顶10月微信小游戏畅销榜Top 100第11名，游戏市场换血近三成。",
           "summary_source": "llm"
         },
         {
           "name": "明日方舟",
           "count": 1,
-          "summary": "11月1日《明日方舟》开启2026「感谢庆典」版本，凭借新版本与角色实装实现登顶iOS游戏畅销榜并冲上总榜第2，成为年内首款登顶该榜单的二次元游戏。",
+          "summary": "《明日方舟》2026「感谢庆典」版本上线，玩家5年攒4941抽一把冲，游戏登顶iOS畅销榜并进入总榜前二。",
           "summary_source": "llm"
         }
       ]
@@ -245,35 +268,6 @@
           "name": "战舰少女 R",
           "count": 1,
           "summary": "《战舰少女R》核心主创毛佳栋（铃兰）不幸离世，终年40岁，引发行业哀悼。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "article_count": 9,
-      "game_count": 3,
-      "untagged_count": 6,
-      "digest": "今日游戏行业资讯聚焦于《再再启程》获Steam特别好评、《蔚蓝档案》日服代理权被NEXON收回以及《赛博朋克2077》Steam在线人数突破18万等动态，整体呈现单款游戏热度与运营变动并存的局面。",
-      "digest_source": "llm",
-      "input_hash": "909f555f7196b3f6",
-      "game_digests": [
-        {
-          "name": "再再启程",
-          "count": 1,
-          "summary": "由知名UP主王老菊创办的未来科技工作室推出的首款游戏《再再启程》正式发售，获得Steam“特别好评”评价。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "蔚蓝档案",
-          "count": 1,
-          "summary": "NEXON在官方直播中宣布收回《蔚蓝档案》日服代理权，悠星将失去运营5年的该游戏日服代理权。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "赛博朋克2077",
-          "count": 1,
-          "summary": "《赛博朋克2077》Steam在线人数突破18万，而其动画第二季在豆瓣的评分仅为5.5分。",
           "summary_source": "llm"
         }
       ]
