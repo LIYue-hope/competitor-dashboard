@@ -1,106 +1,106 @@
 {
-  "generated_at": "2026-11-06T02:23:34.522781+00:00",
+  "generated_at": "2026-11-07T02:00:04.447209+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-11-06",
-      "article_count": 22,
-      "game_count": 15,
-      "untagged_count": 6,
-      "digest": "今日游戏资讯聚焦于《GTA6》发售前的宣传冲刺与盗版讨论，Take-Two CEO表示盗版是行业现实。同时，多款新作如《取代》安卓版开启预注册，《恸哭幽光》PC版推迟发售，以及《欧洲卡车模拟2》更新新车，EA则上架了25款经典老游戏。",
+      "article_count": 90,
+      "game_count": 52,
+      "untagged_count": 22,
+      "digest": "2026年11月6日游戏行业资讯聚焦于《GTA6》发售前的盗版讨论与宣传冲刺，以及《影之刃零》对《黑神话：悟空》的致谢。此外，《上古卷轴6》副标题引发落锤省争议，索尼《漫威金刚狼》销量未达预期但带动财报增长，多款经典老游戏如《暴力摩托》与《银河飞将》迎来周年纪念版回归。",
       "digest_source": "llm",
-      "input_hash": "0542472bb49f5bf5",
+      "input_hash": "4e934c5f77a135de",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 2,
-          "summary": "Take-Two CEO施特劳斯·泽尔尼克接受采访称盗版是行业现实，不会过度担忧，同时Rockstar Games公开了涵盖街道、夜店及水下环境的新一批游戏截图。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴6",
-          "count": 1,
-          "summary": "外媒指出认为《上古卷轴6》会重返落锤省的观点可能有误，尽管副标题“哨兵”暗示了该地区，但该地区曾在1996年《上古卷轴2：匕首雨》中以程序生成形式出现过。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "取代",
-          "count": 1,
-          "summary": "像素动作游戏《取代》安卓版开启预注册，定档12月8日上线，全平台玩家已超90万。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达",
-          "count": 1,
-          "summary": "外媒报道《时之笛重制版》96分暂居年度榜首，玩家热议《GTA6》评测解禁后能否超越这一分数。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说",
-          "count": 1,
-          "summary": "青沼英二谈及《塞尔达传说》系列开发，表示团队会在不同项目间保留核心成员，帮助新员工理解设计并融入创意。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "宝可梦Pokopia",
-          "count": 1,
-          "summary": "《宝可梦：Pokopia》第二弹DLC定档12月9日，新增饰品、宝可梦与家具，第三弹预计2027年上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃",
-          "count": 1,
-          "summary": "中国日报发布的采访视频中，《影之刃零》音乐总监薄彩生透露，游戏全部音乐均由其独自完成。",
+          "count": 7,
+          "summary": "Take-Two CEO泽尔尼克接受采访称盗版是行业现实，不会过度担忧，同时Rockstar公开了包含街道、夜店及水下环境的新一批游戏截图。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
-          "count": 1,
-          "summary": "玩家分享的一组高质量游戏截图引发关注，镜头极近距离定格了主角“魂”与BOSS墨渊搏杀的瞬间。",
+          "count": 5,
+          "summary": "玩家分享的绝美BOSS搏杀截图引发关注，咪咕游戏在2026移动网络大会上展示了该作的全场景沉浸体验，制作人梁其伟在专访中致谢《黑神话：悟空》。",
           "summary_source": "llm"
         },
         {
-          "name": "恸哭幽光",
-          "count": 1,
-          "summary": "FuRyu新作《恸哭幽光》Steam版因平台审核推迟发售，主机版如期推出。",
+          "name": "上古卷轴6",
+          "count": 2,
+          "summary": "外媒ComicBook发文称认为本作重返落锤省的观点可能有误，尽管副标题“哨兵”暗示了这一点，但该地区曾在1996年《上古卷轴2》中出现过。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 2,
+          "summary": "《剑星 完全版》登陆Switch 2，同步上线90秒真人广告，并推送了《猎天使魔女》主题联动服装，对全体玩家开放。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达",
+          "count": 2,
+          "summary": "《时之笛重制版》96分领跑年度评分，任天堂确认塞尔达电影是长期业务，将继续推出新电影并建立支持持续制作的框架。",
           "summary_source": "llm"
         },
         {
           "name": "暴力摩托",
-          "count": 1,
-          "summary": "EA将25款经典PC游戏重新上架Steam、GOG和EA App，其中《暴力摩托》与六款《银河飞将》推出周年纪念版。",
+          "count": 2,
+          "summary": "EA将25款经典PC游戏重新上架，其中《暴力摩托》与六款《银河飞将》推出周年纪念版，老玩家可免费升级。",
           "summary_source": "llm"
         },
         {
-          "name": "欧洲卡车模拟2",
-          "count": 1,
-          "summary": "《欧卡2》1.62版上线，新增三款DAF XG+车型，重制车库并优化车辆材质与涂装。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "洛奇",
-          "count": 1,
-          "summary": "今年恰逢经典影片《洛奇》上映50周年，传记片《我就是洛奇》揭秘了史泰龙当年的创作历程。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "浮游世界",
-          "count": 1,
-          "summary": "Epic游戏商城本周“喜加一”送出海上生存建造游戏《浮游世界》，原价80元，11月13日前可免费领取。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "现代战争4",
-          "count": 1,
-          "summary": "《使命召唤：现代战争4》开发团队放宽了主机版120Hz性能模式的启用门槛，此前要求必须使用支持VRR的显示设备。",
+          "name": "漫威金刚狼",
+          "count": 2,
+          "summary": "发售50天仅240万份，索尼CFO陶琳在财报会议上表示该作表现优异，直接带动了PlayStation业务本季度业绩增长。",
           "summary_source": "llm"
         },
         {
           "name": "老滚6",
+          "count": 2,
+          "summary": "分析师指出《上古卷轴6》在《GTA6》发售后难成现象级游戏，官方周边已先行上架，两款印有“Sentinel”标志的T恤与连帽衫开售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "007 初露锋芒",
           "count": 1,
-          "summary": "分析师指出《上古卷轴6》体量庞大，但在《GTA6》发售后，恐怕难以成为业界下一个现象级“白鲸”作品。",
+          "summary": "《007 初露锋芒》于多平台推出免费入门版，玩家可免费体验冰岛任务，正式版限时最高享5折优惠。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Apex英雄",
+          "count": 1,
+          "summary": "Respawn与东宝合作公布《哥斯拉》联动宣传片，怪兽之王将降临外域，活动将于11月10日开启。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA Online",
+          "count": 1,
+          "summary": "全新抢劫主题活动今日火爆开启，包含双倍奖励、新抢劫必出稀有雕像及联系人任务最高四倍收益。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "MC",
+          "count": 1,
+          "summary": "外媒指出《我的世界》正在发生定位转变，从生存游戏逐步转向面向全球创作者的内容平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仁王3",
+          "count": 1,
+          "summary": "盖世小鸡推出官方授权的Nova Vision《仁王3》限定版手柄，带有草薙守护灵涂装及高颜值发光底座。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤",
+          "count": 1,
+          "summary": "官方公布第一赛季通行证，引入“自动追赶系统”，落后玩家可自动补至当前等级，最高保底获得前50天奖励。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 1,
+          "summary": "《现代战争4》和《战争地带》第1赛季上线，传染与附身模式于万圣节季前赛中登场。",
           "summary_source": "llm"
         }
       ]
@@ -910,107 +910,6 @@
           "count": 1,
           "summary": "舞伶解锁武侠装束!《原子之心》祝贺《影之刃零》发售。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "article_count": 113,
-      "game_count": 56,
-      "untagged_count": 35,
-      "digest": "今日游戏资讯聚焦于《GTA6》的发售前预热与技术路线探讨，以及《影之刃零》的发售准备与首日补丁信息。此外，《最终幻想：启示》与《最终幻想：共鸣》分别公布了新实机、剧情爆料及销量数据，而《赛博朋克2077》Steam在线人数创新高。其他方面还包括《Culdcept BEGINS》Steam版发售、《三角洲行动》侦破特大DMA外挂案，以及多款游戏的新DLC与资讯发布。",
-      "digest_source": "llm",
-      "input_hash": "df9c1f48abdffa91",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 14,
-          "summary": "《GTA6》发售前Xbox美国销量同比暴跌27%，尽管游戏热度极高，但硬件销量下滑趋势明显。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 7,
-          "summary": "官方发布倒计时1天最终海报，配文“朱色暗结，众生皆在局中，便以身入局，破万般迷障”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF7启示",
-          "count": 3,
-          "summary": "《最终幻想7：启示》可能首次让蒂法母亲西娅·洛克哈特登场，补完蒂法童年线回忆。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想：共鸣",
-          "count": 2,
-          "summary": "市场分析机构估算《最终幻想：共鸣》上市不到5天全球销量突破40万份，创造约2000万美元营收。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "2077",
-          "count": 1,
-          "summary": "《赛博朋克2077》Steam同时在线峰值达187,215人，创下2023年10月《往日之影》发售以来新高。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Culdcept BEGINS（卡片召唤师 起源）",
-          "count": 1,
-          "summary": "TECMIRA HOLDINGS宣布《Culdcept BEGINS》Steam版于今日10月28日正式发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF：共鸣",
-          "count": 1,
-          "summary": "《最终幻想：共鸣》登陆Steam后拿下日本买断制游戏周榜第一、全球第四，在线人数持续走高。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Farming Simulator 25",
-          "count": 1,
-          "summary": "世嘉宣布《Farming Simulator 25》付费DLC“Beans & Alpacas”已于10月27日推出，登陆多平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GT7",
-          "count": 1,
-          "summary": "KytyPS5模拟器更新，《GT7》地图可跑60帧，支持方向盘力反馈，但赛道帧率偏低。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "PlayStation：最初的30年",
-          "count": 1,
-          "summary": "PlayStation 30周年纪念实体书《PlayStation：最初的30年》正式公布，全书400页，重约5公斤。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "PokéJam",
-          "count": 1,
-          "summary": "粉丝自制宝可梦篮球游戏《PokéJam》在社交平台走红，是免费网页游戏，无需下载。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三角洲行动",
-          "count": 1,
-          "summary": "游侠网报道《三角洲行动》安全团队协助警方侦破“Foah”特大DMA外挂案，抓获16名嫌疑人，涉案金额超2000万元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古世纪 编年史",
-          "count": 1,
-          "summary": "XLGames宣布开放世界动作MMORPG《上古世纪 编年史》将于11月4日开启抢先体验，今日开放预购。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "丝之歌",
-          "count": 1,
-          "summary": "海外博主Hugo Gaming透露任天堂发布会大概率将公布《空洞骑士：丝之歌》DLC「Sea of Sorrow」。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "仙剑4重制版",
-          "count": 1,
-          "summary": "仙剑四重制版UE5新建模引发争议，主角云天河、韩菱纱被指丢失原作神韵，脸模被指网红化。",
-          "summary_source": "llm"
         }
       ]
     }

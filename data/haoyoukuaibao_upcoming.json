@@ -1,63 +1,12 @@
 {
-  "crawled_at": "2026-11-06T02:10:23.367921+00:00",
+  "crawled_at": "2026-11-07T01:48:02.832300+00:00",
   "days": [
     {
-      "date": "2026-11-06",
-      "date_label": "11月06日 今天",
-      "games": [
-        {
-          "game_name": "星空神曲",
-          "categories": [
-            "角色扮演",
-            "冒险",
-            "文字"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/191468.htm",
-          "publisher": "无垠工作室",
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "龙魂大陆-预下载",
-          "categories": [
-            "策略",
-            "SLG",
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/195709.htm",
-          "publisher": "湛江燃启网络科技有限公司",
-          "reservation_count": null,
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "向末日开炮-预下载",
-          "categories": [
-            "SLG",
-            "策略",
-            "放置"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/201793.htm",
-          "publisher": "深圳市大梦龙途文化传播有限公司",
-          "reservation_count": null,
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
       "date": "2026-11-07",
-      "date_label": "11月07日 明天",
+      "date_label": "11月07日 今天",
       "games": [
         {
-          "game_name": "魔界勇者",
+          "game_name": "魔界勇者-预下载",
           "categories": [
             "Roguelike",
             "放置",
@@ -68,14 +17,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/165376.htm",
           "publisher": "轩玩网络",
-          "reservation_count": "191",
+          "reservation_count": null,
           "has_afk_grinding_tag": true
         }
       ]
     },
     {
       "date": "2026-11-08",
-      "date_label": "11月08日 后天",
+      "date_label": "11月08日 明天",
       "games": [
         {
           "game_name": "群侠传：幸存者",
@@ -89,14 +38,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/205810.htm",
           "publisher": "Nenly的工作室",
-          "reservation_count": "16",
+          "reservation_count": "44",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-11-09",
-      "date_label": "11月09日 下周一",
+      "date_label": "11月09日 后天",
       "games": [
         {
           "game_name": "露娜：蓝色大陆",
@@ -110,8 +59,23 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/195293.htm",
           "publisher": "郑州游梦想科技有限公司",
-          "reservation_count": "912",
+          "reservation_count": "916",
           "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "三界修仙志",
+          "categories": [
+            "放置",
+            "文字",
+            "修仙"
+          ],
+          "score": null,
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/127323.htm",
+          "publisher": "尘泥游戏",
+          "reservation_count": "533",
+          "has_afk_grinding_tag": true
         }
       ]
     },
@@ -131,23 +95,8 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/124032.htm",
           "publisher": "腾讯",
-          "reservation_count": "124.6万",
+          "reservation_count": "124.7万",
           "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "幻想之都的黑猫",
-          "categories": [
-            "放置",
-            "角色扮演",
-            "卡牌"
-          ],
-          "score": "9.7",
-          "event_desc": "正式上线，具体时间待定",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/140706.htm",
-          "publisher": null,
-          "reservation_count": "18825",
-          "has_afk_grinding_tag": true
         },
         {
           "game_name": "露娜：蓝色大陆",
@@ -161,7 +110,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/195293.htm",
           "publisher": "郑州游梦想科技有限公司",
-          "reservation_count": "912",
+          "reservation_count": "916",
           "has_afk_grinding_tag": false
         },
         {
@@ -176,7 +125,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/191812.htm",
           "publisher": null,
-          "reservation_count": "28216",
+          "reservation_count": "28226",
           "has_afk_grinding_tag": false
         },
         {
@@ -191,7 +140,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/198154.htm",
           "publisher": "Auroch Digital",
-          "reservation_count": "1054",
+          "reservation_count": "1058",
           "has_afk_grinding_tag": false
         },
         {
@@ -206,7 +155,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/199163.htm",
           "publisher": "Passion Republic Games",
-          "reservation_count": "1578",
+          "reservation_count": "1604",
           "has_afk_grinding_tag": false
         },
         {
@@ -293,8 +242,44 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/199675.htm",
           "publisher": "Doborog Games",
-          "reservation_count": "5682",
+          "reservation_count": "5766",
           "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "date_label": "11月13日 下周五",
+      "games": [
+        {
+          "game_name": "烽烟破晓",
+          "categories": [
+            "多平台",
+            "角色扮演",
+            "MMO"
+          ],
+          "score": "6.8",
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/191812.htm",
+          "publisher": null,
+          "reservation_count": "28226",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "造车模拟器",
+          "categories": [
+            "经营",
+            "模拟",
+            "放置"
+          ],
+          "score": null,
+          "event_desc": "正式上线，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/202760.htm",
+          "publisher": "厦门纪石科技有限公司",
+          "reservation_count": "84",
+          "has_afk_grinding_tag": true
         }
       ]
     }

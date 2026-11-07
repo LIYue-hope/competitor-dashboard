@@ -1,45 +1,6 @@
 {
-  "crawled_at": "2026-11-06T02:10:59.515091+00:00",
+  "crawled_at": "2026-11-07T01:48:35.164908+00:00",
   "days": [
-    {
-      "date": "2026-11-06",
-      "date_label": "11月06日 今天",
-      "games": [
-        {
-          "game_name": "星空神曲",
-          "categories": [
-            "挂机"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/xingkongshenqu/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "巴雄天下",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "超爽传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/baxiongtianxia1/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "龙魂大陆",
-          "categories": [
-            "策略"
-          ],
-          "score": "7.8",
-          "event_desc": "新版山海经SLG",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/longhundalu1/",
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
     {
       "date": "2026-11-10",
       "date_label": "11月10日 下周二",
@@ -71,6 +32,23 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/fengshenzhiren1/",
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "date_label": "11月12日 下周四",
+      "games": [
+        {
+          "game_name": "大圣",
+          "categories": [
+            "休闲"
+          ],
+          "score": null,
+          "event_desc": "西游咸鱼",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/dasheng2/",
+          "has_afk_grinding_tag": false
         }
       ]
     },
@@ -217,6 +195,23 @@
           "event_desc": "预约赢茅台",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/tgzyc/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-12-29",
+      "date_label": "12月29日",
+      "games": [
+        {
+          "game_name": "新大奉打更人",
+          "categories": [
+            "卡牌"
+          ],
+          "score": "8.1",
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/xdfdgr/",
           "has_afk_grinding_tag": false
         }
       ]

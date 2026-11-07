@@ -1,28 +1,34 @@
 {
-  "generated_at": "2026-11-06T02:29:20.745513+00:00",
+  "generated_at": "2026-11-07T02:08:31.990775+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-11-06",
-      "article_count": 6,
-      "game_count": 2,
-      "untagged_count": 4,
-      "digest": "今日游戏行业资讯聚焦于两款重点游戏，其中《奇点时代》制作人张筱帆创立的AI公司完成A+轮融资，累计金额超1亿美元；《影之刃零》发售72小时销量突破400万，初期口碑下滑后凭借武侠动作美学设计实现回升。",
+      "article_count": 8,
+      "game_count": 3,
+      "untagged_count": 5,
+      "digest": "今日游戏行业资讯主要聚焦于独立恐怖游戏发售、国产游戏融资动态及动作游戏销量口碑回升。韩国工作室Puriza Games的心理恐怖潜行游戏《The Maze: In Dark》于11月4日登陆Steam与STOVE，玩家需在黑暗工厂中避开敌对AI完成任务撤离；国产游戏《奇点时代》制作人张筱帆成立的公司“自然选择”完成A+轮融资，累计融资金额超1亿美元；动作游戏《影之刃零》发售72小时销量破400万，凭借多武器与杀气系统设计实现口碑回升。",
       "digest_source": "llm",
-      "input_hash": "0492dd581699dbb0",
+      "input_hash": "c95f17714b45683d",
       "game_digests": [
+        {
+          "name": "The Maze: In Dark",
+          "count": 1,
+          "summary": "韩国独立工作室Puriza Games开发的心理恐怖潜行游戏《The Maze: In Dark》于2026年11月4日在Steam、STOVE同步发售，玩家需在黑暗工厂中避开敌对AI完成任务撤离。",
+          "summary_source": "llm"
+        },
         {
           "name": "奇点时代",
           "count": 1,
-          "summary": "《奇点时代》制作人张筱帆创立的AI公司“自然选择”完成A+轮融资，累计融资金额已超过1亿美元。",
+          "summary": "《奇点时代》制作人张筱帆旗下成立仅两年的深圳AI公司“自然选择”完成A+轮融资，累计融资金额已超过1亿美元。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 1,
-          "summary": "《影之刃零》发售72小时销量突破400万，初期因教程及战斗手感问题口碑下滑，后凭借多武器与杀气系统实现口碑回升。",
+          "summary": "《影之刃零》发售72小时销量破400万，初期因教程、战斗手感等问题口碑下滑，后凭借多武器、杀气系统等设计还原武侠套招美学，实现口碑回升。",
           "summary_source": "llm"
         }
       ]
@@ -269,59 +275,6 @@
           "count": 1,
           "summary": "《魔域》年终活动组队怎么玩？人数档位奖励与36万神火进阶指南。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "article_count": 12,
-      "game_count": 7,
-      "untagged_count": 5,
-      "digest": "今日游戏行业资讯聚焦新品发售与口碑争议，莉莉莉丝新作《塔塔冒险队》获体验测评，Hewer's Workshop策略肉鸽《天外来袭》定档11.26发售，PandaKoala Studio太空增量游戏《成为黑洞》开放Demo。此外，《崩坏：星穹铁道》泄密案宣判，新作《恶魔城：贝尔蒙多的诅咒》口碑翻车，而《银松镇》与《童话冒险团》则分别因开发团队背景与细节设计受到关注。",
-      "digest_source": "llm",
-      "input_hash": "a5da572b664e8285",
-      "game_digests": [
-        {
-          "name": "塔塔冒险队",
-          "count": 1,
-          "summary": "莉莉莉丝开发的萌系数值卡牌游戏《塔塔冒险队》上线，体验测评涵盖上线表现、宣发舆情、产品结构、弹珠机核心玩法及商业化等内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "天外来袭",
-          "count": 1,
-          "summary": "像素风类Rogue回合制策略游戏《天外来袭》定档11月26日登陆Steam，其试玩版在10月新品节收获100%好评，目前仍可下载体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "崩坏：星穹铁道",
-          "count": 1,
-          "summary": "非法获取并破解《崩坏：星穹铁道》测试版本内容的泄密人员被判赔偿100万元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "恶魔城",
-          "count": 1,
-          "summary": "《恶魔城：贝尔蒙多的诅咒》口碑两极遭遇大量差评，分析其翻车原因，同时以《银松镇》为例探讨“恶魔城Like”品类的发展潜力。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "成为黑洞",
-          "count": 1,
-          "summary": "PandaKoala Studio开发的太空增量游戏《成为黑洞》计划2026年11月12日登陆Steam，现开放免费Demo，支持短局循环与跨局升级。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "童话冒险团",
-          "count": 1,
-          "summary": "童话风Q版小队肉鸽闯关游戏《童话冒险团》获好评，战斗参考《弹壳特工队》模型，可组5人小队做深度BD，含弹珠机抽卡等特色。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "银松镇",
-          "count": 1,
-          "summary": "生存恐怖银河城游戏《银松镇》于10月8日登陆多平台，开发商WEG为远程办公团队，成员多有3A开发经验，首作质量不俗。",
-          "summary_source": "llm"
         }
       ]
     }

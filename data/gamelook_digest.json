@@ -1,28 +1,40 @@
 {
-  "generated_at": "2026-11-06T02:28:45.862761+00:00",
+  "generated_at": "2026-11-07T02:07:24.983220+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-11-06",
-      "article_count": 3,
-      "game_count": 2,
-      "untagged_count": 1,
-      "digest": "GameLook今日共报道3条新闻，聚焦米哈游与灵游坊新作。米哈游公布捉宠新作《崩坏：因缘精灵》将于2027年春季公测，并开启预约；灵游坊《影之刃零》发售一周销量突破400万，官方称其将助力中国游戏成为全球3A标杆。",
+      "article_count": 9,
+      "game_count": 4,
+      "untagged_count": 4,
+      "digest": "11月6日游戏行业资讯聚焦于《影之刃零》的全球热销表现，该作发售一周销量突破400万份且海外表现优于国内。此外，米哈游新作《崩坏：因缘精灵》定档2027年春季公测，Remedy Entertainment因腾讯投资营收飙升226%。",
       "digest_source": "llm",
-      "input_hash": "29bbd86ccbc2b8fd",
+      "input_hash": "a7003a4b9b498d55",
       "game_digests": [
         {
-          "name": "崩坏：因缘精灵",
-          "count": 1,
-          "summary": "米哈游公布捉宠新作《崩坏：因缘精灵》将于2027年春季公测，并开启预约。",
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "官方公布销售数据报告，第三方机构数据显示其海外市场表现十分亮眼。",
           "summary_source": "llm"
         },
         {
-          "name": "影之刃零",
+          "name": "PC与主机买断制游戏深度洞察",
           "count": 1,
-          "summary": "灵游坊《影之刃零》发售一周销量突破400万，官方称其将助力中国游戏成为全球3A标杆。",
+          "summary": "报告显示2026年上半年买断制游戏收入同比增长5%，市场出现细微变化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "崩坏：因缘精灵",
+          "count": 1,
+          "summary": "米哈游捉宠新作宣布将于2027年春季公测，并在11月25日开启先行测试。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "控制：共振",
+          "count": 1,
+          "summary": "腾讯投资公司Remedy Entertainment营收飙升226%，中国资本助力该作发展。",
           "summary_source": "llm"
         }
       ]
@@ -61,39 +73,39 @@
       "article_count": 7,
       "game_count": 5,
       "untagged_count": 2,
-      "digest": "11月4日 GameLook 共 7 条新闻，涉及 5 款游戏。报道最集中的是《恋与深空》（1 条）、《昭和米国物语》（1 条）、《消消乐》（1 条）。另有 2 条未指向具体游戏的行业或平台资讯。另外还有《蓝色星原》（1 条）、《鹅次元》（1 条）也有报道。",
-      "digest_source": "rules",
+      "digest": "11月4日行业资讯聚焦于手游市场表现与新品动态，腾讯在休闲游戏领域表现强势，QuestMobile报告显示《消消乐》以1.61亿MAU领跑，腾讯包揽前十八席。同时，国产单机新作《昭和米国物语》宣布制作完成，铃空游戏罗翔宇透露游戏难度。此外，腾讯AI陪玩产品《鹅次元》开启首测，主打拟人化AI陪玩体验，而《蓝色星原》则领衔11月预计上线的16款新游阵容。",
+      "digest_source": "llm",
       "input_hash": "420d52ababe6d8a9",
       "game_digests": [
         {
           "name": "恋与深空",
           "count": 1,
-          "summary": "离谱！《恋与深空》沈星回 B 站账号被盗，昵称头像面目全非。",
-          "summary_source": "rules"
+          "summary": "沈星回B站官方账号被盗，昵称头像被篡改，引发玩家社群关注。",
+          "summary_source": "llm"
         },
         {
           "name": "昭和米国物语",
           "count": 1,
-          "summary": "《昭和米国物语》已完成全部制作！罗翔宇采访：“猫都能通关”！。",
-          "summary_source": "rules"
+          "summary": "《昭和米国物语》已完成全部制作，罗翔宇在采访中表示游戏难度“猫都能通关”。",
+          "summary_source": "llm"
         },
         {
           "name": "消消乐",
           "count": 1,
-          "summary": "QM报告:《消消乐》1.61亿MAU夺冠，腾讯包揽TOP10八席!《向僵尸开炮》小游戏TOP1。",
-          "summary_source": "rules"
+          "summary": "QuestMobile报告显示《消消乐》以1.61亿MAU夺冠，腾讯包揽TOP10八席。",
+          "summary_source": "llm"
         },
         {
           "name": "蓝色星原",
           "count": 1,
-          "summary": "11月预计16款新游戏上线：《蓝色星原》领衔，斗罗大陆,斗破苍穹双双登场！。",
-          "summary_source": "rules"
+          "summary": "《蓝色星原》领衔11月预计上线的16款新游阵容，斗罗大陆与斗破苍穹等作品同步登场。",
+          "summary_source": "llm"
         },
         {
           "name": "鹅次元",
           "count": 1,
-          "summary": "腾讯AI陪玩《鹅次元》首测：直接读懂游戏！“AI美女陪你打魔渊”？。",
-          "summary_source": "rules"
+          "summary": "腾讯AI陪玩产品《鹅次元》开启首测，主打拟人化AI形象，具备直接读懂游戏并陪玩的能力。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -227,47 +239,6 @@
           "name": "怪物猎人：旅人",
           "count": 1,
           "summary": "腾讯《怪物猎人：旅人》国际服于10月29日上线，在19个国家免费榜夺冠。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "article_count": 8,
-      "game_count": 5,
-      "untagged_count": 3,
-      "digest": "2026年10月28日游戏行业资讯聚焦于《三体：审判前夜》发售计划与制作技术、《剑网1》小游戏成绩、《宝可梦大集结》全球停运、新作《影之刃零》媒体评分及《战舰少女R》主创逝世等事件，涵盖互动影游、手游、竞技游戏及独立游戏领域。",
-      "digest_source": "llm",
-      "input_hash": "2a09d12538ffd17e",
-      "game_digests": [
-        {
-          "name": "三体：审判前夜",
-          "count": 1,
-          "summary": "互动影游《三体：审判前夜》宣布明年发售，其超300分钟的动画内容全部由AI制作完成。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑网1",
-          "count": 1,
-          "summary": "西山居旗下MMORPG《剑网1》在微信小游戏平台表现亮眼，登顶畅销榜第12名，新游《工匠小能手》位列第19名。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "宝可梦大集结",
-          "count": 1,
-          "summary": "腾讯与任天堂合作的《宝可梦大集结》官宣全球停运，中国大陆市场将于2027年1月28日关服。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "距离10月29日正式发售仅剩几天，《影之刃零》M站媒体评分88分，比《悟空》高7分。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战舰少女 R",
-          "count": 1,
-          "summary": "《战舰少女R》核心主创毛佳栋（铃兰）不幸离世，终年40岁，引发行业哀悼。",
           "summary_source": "llm"
         }
       ]

@@ -1,112 +1,177 @@
 {
-  "generated_at": "2026-11-06T02:26:46.453292+00:00",
+  "generated_at": "2026-11-07T02:06:09.944359+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-06",
-      "article_count": 15,
-      "game_count": 10,
+      "date": "2026-11-07",
+      "article_count": 8,
+      "game_count": 4,
       "untagged_count": 3,
-      "digest": "今日游戏圈资讯丰富，Square Enix为《尼尔：机械纪元》Steam版推送中文更新，育碧推出《刺客信条：英灵殿》含新游戏+等内容的重大更新，Shift Up为《剑星》上线《猎天使魔女》联动服装，EA将25款经典老游戏上架Steam。此外，《影之刃零》海外收入反超国内，索尼官方称赞《漫威金刚狼》优秀，育碧确认《神界》新作规模超越《博德之门3》，前PS负责人透露《血源2》难产源于三方角力，SE回应粉丝希望重制《最终幻想6》。",
+      "digest": "今日游戏资讯聚焦于《影之刃零》的社区互动与Bug修复、《GTA6》的德国带薪休假课程、《上古卷轴5》总监对《老滚6》设计的展望，以及《文明7》因NS2破解漏洞引发的实体版召回事件。",
       "digest_source": "llm",
-      "input_hash": "e3a9e27c8ae5c16b",
+      "input_hash": "c99e848c1bb2df1a",
       "game_digests": [
-        {
-          "name": "尼尔：机械纪元",
-          "count": 2,
-          "summary": "Square Enix于11月5日为Steam版推送语言更新，RPG Site实测确认366GB需求属实，商店页仍标50GB。",
-          "summary_source": "llm"
-        },
         {
           "name": "影之刃零",
           "count": 2,
-          "summary": "第三方估算显示海外市场贡献约55%收入，知名女主播猫诺在B站挑战赛中完成66天模式一命通关。",
+          "summary": "主播徐静雨发布视频专门点评游戏中的舞狮Boss战，称其为完美第九艺术；社区反馈称相关Bug已修复，官方补丁说明未点名该逻辑。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
           "count": 1,
-          "summary": "Zelnick称自己起初对《GTA6》第二次延期感到意外，最终被Rockstar的理由说服。",
+          "summary": "德国推出线上课程，玩家可合法带薪休假3天参与课程，课程覆盖游戏11月19日的发售日。",
           "summary_source": "llm"
         },
         {
-          "name": "刺客信条：英灵殿",
+          "name": "上古卷轴5",
           "count": 1,
-          "summary": "育碧今日推出大型免费更新，为艾沃尔的维京冒险带来新游戏+、全新内容、进度系统更新等。",
+          "summary": "总监在采访中提到《天际》梯子只能点击瞬移限制了多层空间设计，并称《老滚6》需要改进这两点。",
           "summary_source": "llm"
         },
         {
-          "name": "剑星",
+          "name": "文明7",
           "count": 1,
-          "summary": "Shift Up开发的《剑星》现已推送版本更新，《猎天使魔女》主题联动服装正式上线PS5与PC平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "暴力摩托",
-          "count": 1,
-          "summary": "EA今日将25款经典PC游戏重新带回了Steam、GOG和EA App。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想6重制版",
-          "count": 1,
-          "summary": "SE品牌负责人北濑佳范在最新专访中回应粉丝心心念念的《最终幻想6》重制版相关话题。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 1,
-          "summary": "索尼官方称赞由失眠组打造的动作冒险游戏《漫威金刚狼》很优秀，该作已于9月15日正式发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "神界",
-          "count": 1,
-          "summary": "官方确认全新《神界》宇宙RPG规模将比《博德之门3》“更大”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "血源2",
-          "count": 1,
-          "summary": "前PS负责人Layden称索尼、FromSoftware及其母公司均涉其中，三方角力互不相让导致《血源2》难产。",
+          "summary": "媒体报道该作竟能破解NS2，厂商正紧急召回实体版，据称漏洞可经外接USB设备输入代码，数字版不受影响。",
           "summary_source": "llm"
         }
       ]
     },
     {
-      "date": "2026-11-05",
-      "article_count": 135,
-      "game_count": 43,
-      "untagged_count": 41,
-      "digest": "今日游戏资讯聚焦于《影之刃零》与《GTA6》的热度，前者因销量争议与MOD内容引发讨论，后者CEO回应盗版担忧并公开新截图；任天堂《塞尔达传说：时之笛 重制版》发售，IGN评分引发争议，媒体普遍给出满分好评；此外《战神：劳菲》跳票至2027年，《魔兽世界：无限》上线引发排队，多款游戏更新发售。",
-      "digest_source": "llm",
-      "input_hash": "527dfb6add34945b",
+      "date": "2026-11-06",
+      "article_count": 120,
+      "game_count": 36,
+      "untagged_count": 35,
+      "digest": "11月6日 游民星空 共 120 条新闻，涉及 36 款游戏。报道最集中的是《影之刃零》（24 条）、《GTA6》（15 条）、《塞尔达传说：时之笛 重制版》（4 条）。另有 35 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "1fcaf8f3248f6ae0",
       "game_digests": [
         {
           "name": "影之刃零",
-          "count": 26,
-          "summary": "国外博主发文对比销量称其完胜《羊蹄山之魂》，引发尖锐评论，同时多款MOD将角色替换为玛莉卡等形象引发热议。",
-          "summary_source": "llm"
+          "count": 24,
+          "summary": "《影之刃零》又拿了个90分！不走类魂老路反而更好玩；《影之刃零》成人MOD被N网下架！尺度太大受不了?；《影之刃零》最新成人Mod：操控去衣丰乳翘臀沐小葵（当天共 24 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA6",
+          "count": 15,
+          "summary": "《GTA6》PC版可能提前推出！或被AI移植技术威胁；《GTA6》一天竟有2小时24分钟！时间流速大幅放缓；《GTA6》脱衣舞俱乐部新图太顶了!玩家沸腾:先冲这里（当天共 15 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说：时之笛 重制版",
+          "count": 4,
+          "summary": "《塞尔达传说：时之笛 重制版》竟有删改！不允许把林克叫帅哥？；《塞尔达传说：时之笛 重制版》塞尔达美到犯规？网友开吵史上最美；《塞尔达传说：时之笛 重制版》PS5模拟成功！这也太NTR了（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "剑星",
+          "count": 3,
+          "summary": "《剑星》广告陷入争议！性感伊芙形象被疑是AI模特；《剑星》NS2版广告：真人性感伊芙喊你上床睡觉！；《剑星》更新今日上线！联动《猎天使魔女》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "时之笛RE",
+          "count": 3,
+          "summary": "《时之笛RE》被老玩家吐槽缺斤少两 重要功能没了；《时之笛RE》删减《马里奥》彩蛋 红绿帽子切割了？；《时之笛RE》标注：需基本阅读能力 太小玩不了？。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "上古卷轴6",
+          "count": 2,
+          "summary": "外媒称《上古卷轴6》选题是个错误！缺乏新意；分析称《上古卷轴6》难接棒《GTA6》 不是一个量级。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "上古卷轴6：哨兵",
+          "count": 2,
+          "summary": "《上古卷轴6：哨兵》新品发售！B社官方:买了不许退；《上古卷轴6：哨兵》实机都没出就先卖周边!不让退货纯割韭菜?。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "尼尔：机械纪元",
+          "count": 2,
+          "summary": "《尼尔机械纪元》PC版官宣支持中文！50G暴涨至366G；《尼尔：机械纪元》Steam正式加入中文！时隔9年。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "时之笛",
+          "count": 2,
+          "summary": "模拟器跑《时之笛》重制版！进化超大 4K60帧；美国白宫官方蹭《时之笛》热度：爆改《懂王传说》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "暴力摩托",
+          "count": 2,
+          "summary": "EA《暴力摩托》经典回归！Steam国区售价58元；EA做好事了？《暴力摩托》等经典老游戏上架Steam。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "007 初露锋芒",
+          "count": 1,
+          "summary": "《007 初露锋芒》免费试玩上线！只有PS5版要开会员。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "AC黑旗RE",
+          "count": 1,
+          "summary": "《AC黑旗RE》又新史低！Steam全新史低推荐。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "ASTELLIA2",
+          "count": 1,
+          "summary": "《ASTELLIA2》基于ONEchain的全球MMORPG于11月5日正式上线。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "刺客信条：英灵殿",
+          "count": 1,
+          "summary": "《刺客信条：英灵殿》重大更新上线！PSSR超强提升。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "古墓丽影",
+          "count": 1,
+          "summary": "《古墓丽影》新作将开启新阶段！通关流程约15小时。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "article_count": 130,
+      "game_count": 43,
+      "untagged_count": 40,
+      "digest": "2026年11月5日整体游戏行业资讯较为活跃，当日游民星空共发布130条新闻，涉及43款游戏，涵盖多类型新动态，涉及游戏包括《影之刃零》《GTA6》《塞尔达传说：时之笛 重制版》《时之笛RE》《战神劳菲》《魔兽世界：无限》《AC英灵殿》《Apex 英雄：破译天机》《FF7重生》《PUBG》及《三男一狗》《仙剑4重制》《刺客信条》《博德3》等多款，动态集中于发售、更新、销量、争议等方面。",
+      "digest_source": "llm",
+      "input_hash": "d1704bdb82918cbb",
+      "game_digests": [
+        {
+          "name": "影之刃零",
+          "count": 22,
+          "summary": "《影之刃零》沐小葵变身玛莉卡 双峰呼之欲出太顶了！；《影之刃零》新娘\"脸模\"找到了！阿花美女真容长这样；《影之刃零》魂大人被性转了！大雷沐小葵战斗看翘臀（当天共 22 条）",
+          "summary_source": "rules"
         },
         {
           "name": "GTA6",
           "count": 11,
-          "summary": "R星公开大量全新游戏截图展示罪恶城景象，CEO施特劳斯·泽尔尼克表示不担心盗版，称其为娱乐行业无法回避的现实。",
-          "summary_source": "llm"
+          "summary": "《GTA6》泄露不断！老板称不担心盗版 因为无法避免；《GTA6》官网更新！R星公开大量全新游戏截图；新版本FSR登陆Xbox！成功赶在《GTA6》发售前（当天共 11 条）",
+          "summary_source": "rules"
         },
         {
           "name": "塞尔达传说：时之笛 重制版",
           "count": 6,
-          "summary": "游戏今日发售，IGN打出9分引发玩家不满，媒体评价解禁，47份媒体给出满分，红死灵因画质升级过吓人被回调。",
-          "summary_source": "llm"
+          "summary": "《塞尔达传说：时之笛 重制版》开发揭秘：死亡僵尸太吓人被主动回调；《塞尔达传说：时之笛 重制版》模拟器13分钟实机 成功运行但有瑕疵；IGN没给《塞尔达传说：时之笛 重制版》10分被骂：政确小众独游就配满分？（当天共 6 条）",
+          "summary_source": "rules"
         },
         {
           "name": "时之笛RE",
           "count": 6,
-          "summary": "IGN西班牙给出10分好评，外媒称其为入坑最佳之选，发售当天更新支持手机联动服务ZELDA NOTES，动态雾气效果获赞。",
-          "summary_source": "llm"
+          "summary": "《时之笛RE》IGN西班牙10分!25小时全程不掉帧太爽；《时之笛RE》外媒评满分神作：无敌！入坑最佳之选；《时之笛RE》细节惊人 动态雾气效果绝佳（当天共 6 条）",
+          "summary_source": "rules"
         },
         {
           "name": "塞尔达时之笛RE",
@@ -117,263 +182,263 @@
         {
           "name": "战神劳菲",
           "count": 3,
-          "summary": "圣莫尼卡工作室宣布游戏延期至2027年5月20日发售，玩家呼吁取消并期待奎爷回归。",
-          "summary_source": "llm"
+          "summary": "《战神劳菲》跳票 玩家:取消吧！我们需要的是奎爷；索尼\"救\"了微软第一方:《战神劳菲》延期2月少一劲敌；《战神：劳菲》官宣跳票！2027年5月20日发售。",
+          "summary_source": "rules"
         },
         {
           "name": "魔兽世界：无限",
           "count": 2,
-          "summary": "游戏今日全球上线，等级上限永久锁定60级，首个团本将于12月10日开放，因玩家涌入导致登录排队漫长。",
-          "summary_source": "llm"
+          "summary": "《魔兽世界：无限》今日正式上线 全球玩家遭遇漫长登录排队；《魔兽世界：无限》全球上线 等级永久锁定60级 12月10日开放首个团本。",
+          "summary_source": "rules"
         },
         {
           "name": "AC英灵殿",
           "count": 1,
-          "summary": "免费大更新上线，包含新游戏+模式及PSSR增强优化。",
-          "summary_source": "llm"
+          "summary": "《AC英灵殿》免费大更新上线!新游戏+ PSSR增强。",
+          "summary_source": "rules"
         },
         {
           "name": "Apex 英雄：破译天机",
           "count": 1,
-          "summary": "最新赛季正式上线，登陆PC、PlayStation、Xbox及Nintendo Switch 2平台。",
-          "summary_source": "llm"
+          "summary": "《Apex 英雄：破译天机》现已正式上线!。",
+          "summary_source": "rules"
         },
         {
           "name": "FF7重生",
           "count": 1,
-          "summary": "Square Enix在任天堂商店开启促销，游戏售价986日元（约合人民币41元）。",
-          "summary_source": "llm"
+          "summary": "NS2《FF7重生》发售不到半年打骨折!背刺玩家引不满。",
+          "summary_source": "rules"
         },
         {
           "name": "PUBG",
           "count": 1,
-          "summary": "44.1版本更新上线，包含与韩国女子组合“IVE”的联动内容。",
-          "summary_source": "llm"
+          "summary": "《PUBG》44.1版本更新 IVE联动内容上线。",
+          "summary_source": "rules"
         },
         {
           "name": "三男一狗",
           "count": 1,
-          "summary": "iPhone Duo平台实机演示视频流出，支持分屏功能。",
-          "summary_source": "llm"
+          "summary": "iPhone Duo玩《三男一狗》实机 竟然支持分屏。",
+          "summary_source": "rules"
         },
         {
           "name": "仙剑4重制",
           "count": 1,
-          "summary": "官方宣布新实机演示将于明年上半年发布，研发总监将出席12月嘉年华。",
-          "summary_source": "llm"
+          "summary": "《仙剑4重制》新实机快要来了 预计明年上半年发售。",
+          "summary_source": "rules"
         },
         {
           "name": "刺客信条",
           "count": 1,
-          "summary": "新作截图流出，女主形象模糊不清。",
-          "summary_source": "llm"
+          "summary": "《刺客信条》新作截图流出！女主现身 但超模糊。",
+          "summary_source": "rules"
         },
         {
           "name": "博德3",
           "count": 1,
-          "summary": "拉瑞安新作仍需打磨，被称比《博德3》野心更大。",
-          "summary_source": "llm"
+          "summary": "拉瑞安新作离发售还很遥远！比《博德3》野心更大。",
+          "summary_source": "rules"
         }
       ]
     },
     {
       "date": "2026-11-04",
-      "article_count": 147,
+      "article_count": 146,
       "game_count": 36,
       "untagged_count": 44,
-      "digest": "11月4日 游民星空 共 147 条新闻，涉及 36 款游戏。报道最集中的是《影之刃零》（36 条）、《GTA6》（18 条）、《塞尔达传说：时之笛 重制版》（10 条）。另有 44 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
-      "input_hash": "b8bf9529e62daeb5",
+      "digest": "11月4日游戏行业资讯聚焦多款重磅新作动态，《影之刃零》热度持续发酵，全球销量与MOD内容引发热议；《GTA6》公布预载需212GB空间及PS5 Pro增强功能；《塞尔达传说：时之笛 重制版》媒体评分炸裂，IGN 9分引发争议；《上古卷轴6》正式官宣副标题《哨兵》并透露发售时间；《明末：渊虚之羽》获玩家盛赞；此外《神偷：暗黑计划复刻版》公布发售日期与价格，《守望先锋》与《剑星》开启联动。",
+      "digest_source": "llm",
+      "input_hash": "e748001a2ea9b8ae",
       "game_digests": [
         {
           "name": "影之刃零",
           "count": 36,
-          "summary": "《影之刃零》在美国也卖爆了！真不只靠中国市场；《影之刃零》沐小葵腋下香汗炸出百楼压抑老外：这是神仙甘露啊！；《影之刃零》幕后神级大佬不参与续作！给钱也不干了 不过正在做《湮灭之潮》（当天共 36 条）",
-          "summary_source": "rules"
+          "summary": "游戏在美国市场销量火爆，媒体好评助其成功扩展全球市场，同时NexusMods平台上线多款成人MOD，音乐总监薄彩生透露将不再参与续作转而制作《湮灭之潮》。",
+          "summary_source": "llm"
         },
         {
           "name": "GTA6",
-          "count": 18,
-          "summary": "《GTA6》212GB震撼博主:《三男一狗》当年只需8GB；《GTA6》大小终于确认！你PS5硬盘被塞满；《GTA6》PS5 Pro功能首曝 索尼疑似提前泄露后删除（当天共 18 条）",
-          "summary_source": "rules"
+          "count": 17,
+          "summary": "官方正式宣布11月10日开启预载，最高需预留212GB存储空间，PS5 Pro增强功能（PSSR+高级光追）疑似提前泄露后删除，外媒曝原容量超400GB被压缩一半。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛 重制版",
           "count": 10,
-          "summary": "《塞尔达传说：时之笛 重制版》Fami通出分！37/40杀入白金殿堂；IGN给《塞尔达传说：时之笛 重制版》9分引玩家不满：怒喷政确游戏却拿满分；IGN：《塞尔达传说：时之笛 重制版》全收集27小时 只有一个存档位（当天共 10 条）",
-          "summary_source": "rules"
+          "summary": "Fami通评分37分杀入白金殿堂，IGN给出9分评价引发玩家不满，媒体评测显示全收集需27小时且仅有一个存档位。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达时之笛RE",
           "count": 3,
-          "summary": "96分年度最高分！《塞尔达时之笛RE》M站评分炸了；《塞尔达时之笛RE》大量偷跑！国内不少玩家开直播；《塞尔达时之笛RE》口碑彻底爆了 36家媒体满分神作!。",
-          "summary_source": "rules"
+          "summary": "M站收录79家媒体打分均分96分获“必玩游戏”认证，大量实体版游戏提前泄露，36家媒体给出满分评价，续写原版99分的平台历史最高纪录。",
+          "summary_source": "llm"
         },
         {
           "name": "上古卷轴6",
           "count": 2,
-          "summary": "《上古卷轴6》终于官宣！等8年等到了文件夹名；彭博社记者：《上古卷轴6》发售至少还要两年以上！。",
-          "summary_source": "rules"
+          "summary": "B社正式官宣副标题为《哨兵》并放出LOGO与宣传视频，彭博社记者透露发售至少还需两年以上。",
+          "summary_source": "llm"
         },
         {
           "name": "明末",
           "count": 2,
-          "summary": "玩家称《明末》是最被低估类魂游戏！官方感动了；《明末》更新动态！玩家在线催更：速做新作解解馋。",
-          "summary_source": "rules"
+          "summary": "官方转发粉丝评论称其为“最被低估的类魂游戏”，玩家在线催促官方制作新作以解馋。",
+          "summary_source": "llm"
         },
         {
           "name": "神偷：暗黑计划复刻版",
           "count": 2,
-          "summary": "《神偷：暗黑计划复刻版》PS5版238港币！12月4日发售；《神偷：暗黑计划复刻版》预购开启！国区109元 支持中文。",
-          "summary_source": "rules"
+          "summary": "PS5版定价238港币，国区预购开启售价109元，游戏将于12月4日发售。",
+          "summary_source": "llm"
         },
         {
           "name": "黎明杀机",
           "count": 2,
-          "summary": "大作云集!《黎明杀机》《七日杀》《暗黑地牢2》确认参展2026上海WePlay；《黎明杀机》将亮相WePlay 与玩家共庆恐怖十周年。",
-          "summary_source": "rules"
+          "summary": "将亮相2026上海WePlay展会，与《七日杀》《暗黑地牢2》共同参展，共庆恐怖游戏十周年。",
+          "summary_source": "llm"
         },
         {
           "name": "2026中国游戏产业IP发展报告",
           "count": 1,
-          "summary": "《2026中国游戏产业IP发展报告》发布：六大趋势揭秘3000亿市场新方向。",
-          "summary_source": "rules"
+          "summary": "发布六大趋势揭秘3000亿市场新方向，大会在苏州国际博览中心举办。",
+          "summary_source": "llm"
         },
         {
           "name": "GT7",
           "count": 1,
-          "summary": "曝索尼独占《GT7》销量破1270万！营收达8.4亿美元。",
-          "summary_source": "rules"
+          "summary": "据分析师估算累计销量已达1270万份，创收8.4亿美元。",
+          "summary_source": "llm"
         },
         {
           "name": "七日杀",
           "count": 1,
-          "summary": "《七日杀》将末日废土带到中国上海 WePlay。",
-          "summary_source": "rules"
+          "summary": "将登陆2026上海WePlay展会，带来游戏内奖励、周边商品及新内容试玩体验。",
+          "summary_source": "llm"
         },
         {
           "name": "四海兄弟：故乡",
           "count": 1,
-          "summary": "《四海兄弟：故乡》超史低！不到50元就能入手。",
-          "summary_source": "rules"
+          "summary": "游戏超史低，订阅价12美元/月，包含《天外世界2》《如龙6》等作品。",
+          "summary_source": "llm"
         },
         {
           "name": "守望先锋",
           "count": 1,
-          "summary": "3D区双神碰撞！《守望先锋》《剑星》联动上线。",
-          "summary_source": "rules"
+          "summary": "与《剑星》联动内容今日正式上线，引发3D区玩家关注。",
+          "summary_source": "llm"
         },
         {
           "name": "巫师3",
           "count": 1,
-          "summary": "老角色回归、新怪物登场！《巫师3》新DLC有看头。",
-          "summary_source": "rules"
+          "summary": "新DLC预告老角色回归与新怪物登场，引发玩家期待。",
+          "summary_source": "llm"
         },
         {
           "name": "异人之下",
           "count": 1,
-          "summary": "腾讯大作《异人之下》曝光13分钟超长实机！战斗爽快 完成度高。",
-          "summary_source": "rules"
+          "summary": "腾讯魔方工作室群公开13分钟超长实机演示，展示战斗爽快与完成度。",
+          "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-11-03",
-      "article_count": 141,
+      "article_count": 140,
       "game_count": 43,
       "untagged_count": 38,
-      "digest": "11月3日游戏资讯聚焦于《影之刃零》的销量与评分争议，以及《GTA6》发售前的预载与销量预测。此外，任天堂公布了《塞尔达传说：时之笛》重制版的开发团队与功能调整，B社正式确认《上古卷轴6》副标题为《哨兵》，《剑星》完整版媒体评分出炉，而《最终幻想7：启示》总监透露了测试细节。",
+      "digest": "11月3日游戏行业资讯聚焦于《影之刃零》的Mod争议与销量口碑下滑，以及《GTA6》发售前夕的预载与销量预测。此外，任天堂公布《塞尔达传说：时之笛》重制版总监及开发细节，B社正式官宣《上古卷轴6》副标题为《哨兵》，多款新作与重制版同步释放新情报。",
       "digest_source": "llm",
-      "input_hash": "f35cf6e29a7eee06",
+      "input_hash": "6f88ee5eec157e14",
       "game_digests": [
         {
           "name": "影之刃零",
-          "count": 47,
-          "summary": "NGA玩家热议角色“虚空”引发二创讨论，NexusMods上出现十多个成人MOD，M站评分降至86分，角色“玉儿”演员厉蔺菲公开。",
+          "count": 46,
+          "summary": "NGA论坛与NexusMods上出现大量关于该作角色“虚空”的二创图及十多个成人MOD，同时外媒报道其400万销量遭群嘲，M站评分从87分跌至86分。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6",
           "count": 8,
-          "summary": "索尼官方发布PS5版上线准备指南，游戏将于11月19日发售，预下载11月10日开启，首发销量预计达4500万份，预载空间高达212GB。",
+          "summary": "索尼官方发布上线准备指南，宣布游戏将于11月19日发售，预载功能11月10日开启，所需空间高达212GB，投行预测首发销量可达4500万份。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达时之笛RE",
           "count": 3,
-          "summary": "任天堂确认由本部开发，总监伍学伟来自香港，曾计划加入快速旅行功能但最终移除，程序总监称是从零重做。",
+          "summary": "任天堂公布游戏总监为香港籍的伍学伟，确认开发团队为任天堂本部，并透露曾计划加入类似《旷野之息》的快速旅行功能但最终移除。",
           "summary_source": "llm"
         },
         {
           "name": "上古卷轴6 哨兵",
           "count": 2,
-          "summary": "B社正式公布副标题为《哨兵》并放出LOGO与宣传视频，这是自2018年E3公布以来首个实质性新消息。",
+          "summary": "B社正式公布《上古卷轴6》副标题为《哨兵》，同步放出官方LOGO与宣传视频，这是该作自2018年公布以来首次公布具体名称。",
           "summary_source": "llm"
         },
         {
           "name": "剑星 完整版",
           "count": 2,
-          "summary": "NS2版媒体评测解禁，M站均分81分，试玩反馈震动反馈爽快但存在输入延迟，帧率生成可自行开关。",
+          "summary": "NS2版媒体评测解禁，M站均分81分，评测指出掌机模式支持触屏与陀螺仪操作，但画面存在妥协。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛 重制版",
           "count": 2,
-          "summary": "确认不采用开放世界结构，保留原作分区地图，将于11月5日发售，总监称重制旨在帮助年轻开发者理解系列精髓。",
+          "summary": "官方确认游戏将于2026年11月5日发售，总监吴克伟在访谈中表示将保留原作分区式地图设计，不会采用无缝衔接的开放世界结构。",
           "summary_source": "llm"
         },
         {
           "name": "时之笛RE",
           "count": 2,
-          "summary": "任天堂解释开发初衷是为了让只做过新作的成员理解原作意义，程序总监称团队逐项实现功能并与原版反复对比。",
+          "summary": "任天堂程序总监强调本作是从零重做，团队逐项实现功能并与原版反复对比，青沼英二表示重制是为了帮助年轻开发者理解系列精髓。",
           "summary_source": "llm"
         },
         {
           "name": "最终幻想7：启示",
           "count": 2,
-          "summary": "滨口直树透露出差时随身携带PS5手柄以便远程测试游戏，但曝出NS2实机演示存在重大问题。",
+          "summary": "总监滨口直树透露出差时随身携带PS5手柄以便远程测试游戏，但外媒报道该作在巴黎游戏周的Switch 2实机演示存在重大问题。",
           "summary_source": "llm"
         },
         {
           "name": "007 初露锋芒",
           "count": 1,
-          "summary": "IO Interactive开发的间谍动作游戏现已登陆PC/Xbox/PS5平台，PS+会员可限时游玩。",
+          "summary": "IO Interactive开发的间谍题材动作冒险游戏现已登陆PC/Xbox/PS5平台，官方宣布PS+会员可限时游玩。",
           "summary_source": "llm"
         },
         {
           "name": "Easy Red 2",
           "count": 1,
-          "summary": "二战射击游戏免费战役“诺门坎”上线，包含九大任务还原1939年远东边境战事。",
+          "summary": "二战射击游戏《Easy Red 2》免费战役“诺门坎”已于11月1日上线，包含九大任务还原1939年远东边境战事。",
           "summary_source": "llm"
         },
         {
           "name": "FF7",
           "count": 1,
-          "summary": "滨口直树表示愿考虑将“女王之血”小游戏独立开发，或交由小型工作室并由他监督。",
+          "summary": "滨口直树表示愿考虑将《FF7》小游戏“女王之血”做成独立版，或交由小型工作室并由他本人监督开发。",
           "summary_source": "llm"
         },
         {
           "name": "Rain98",
           "count": 1,
-          "summary": "总监宣布游戏延期至2027年，并透露将重做剧情。",
+          "summary": "日本游戏《Rain98》总监宣布正式版发售计划将从2026年内延期至2027年。",
           "summary_source": "llm"
         },
         {
           "name": "上古卷轴6",
           "count": 1,
-          "summary": "三姐早有提示，副标题正式官宣为《哨兵》。",
+          "summary": "B社正式公布《上古卷轴6》副标题为《哨兵》，这是该作自2018年公布以来首次公布具体名称。",
           "summary_source": "llm"
         },
         {
           "name": "信长之野望",
           "count": 1,
-          "summary": "光荣新作官宣跳票，重审发售日。",
+          "summary": "光荣《信长之野望》新作官宣跳票，重审发售日。",
           "summary_source": "llm"
         },
         {
           "name": "卷尺人",
           "count": 1,
-          "summary": "2D平台解谜游戏定档11月11日登陆Steam，国区定价34元。",
+          "summary": "2D平台解谜游戏《卷尺人》定档11月11日登陆Steam平台，国区定价34元，上线前两周八五折优惠。",
           "summary_source": "llm"
         }
       ]
@@ -879,107 +944,6 @@
           "name": "影之刃",
           "count": 1,
           "summary": "GS称《影之刃》解决类魂一大痛点，Boss战多阶段失败后可直接从下一阶段开始，降低了游戏门槛。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "article_count": 120,
-      "game_count": 39,
-      "untagged_count": 34,
-      "digest": "今日游戏资讯聚焦于《影之刃零》发售前夕的密集宣发与评分回升，以及《GTA6》即将公布新情报与主机性能模式的爆料。此外，《塞尔达》新作实机发布与NS2限定机遭偷跑，《最终幻想》新作因性感设计引发争议，而《赛博朋克2077》在NS2平台更新翻车，多款游戏同步登陆PC或开启抢先体验。",
-      "digest_source": "llm",
-      "input_hash": "a52b21429f5079fd",
-      "game_digests": [
-        {
-          "name": "影之刃零",
-          "count": 32,
-          "summary": "灵游坊制作，即将于10月29日登陆PC/PS5，梁其伟发文强调预载，M站评分回升至95分，外媒Gamekult将评分从7分上调至8分，甄子丹站台遭遇限流乌龙。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 12,
-          "summary": "盖世小鸡推出两款G7 Pro手柄配色，爆料称主机版或具备“性能模式”以实现60帧，游戏大小曝光为210GB，将于11月12日开启预载，官方定于10月29日公布大量新情报。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达",
-          "count": 2,
-          "summary": "《塞尔达传说：时之笛重制版》中文介绍实机发布，将于11月5日发售；任天堂Switch 2限定主机遭玩家提前两天偷跑并晒出开箱视频。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想",
-          "count": 2,
-          "summary": "《最终幻想：共鸣》因包含性感角色设计与胸部物理晃动引发玩家热议，同时该作在PS5与Steam平台销量持平。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想7：启示",
-          "count": 2,
-          "summary": "Square Enix公开了关于“钢琴”的新玩法演示及女主角蒂法相关剧情片段，粉色陆行鸟在实机中抢镜。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "法环",
-          "count": 2,
-          "summary": "曝《法环》电影时长近3小时！已经杀青 28年初上映；预算13亿元!曝《法环》电影时长近3小时:这把憋尿局。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "赛博朋克2077",
-          "count": 2,
-          "summary": "为庆祝动画第二季上线推出更新，但NS2版更新后出现崩溃、加载Bug与存档异常，玩家反馈严重。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GT7",
-          "count": 1,
-          "summary": "PS5独占《GT7》PC版新增方向盘力反馈支持，但赛道平均帧率仍仅为27至28帧。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Remothered: Red Nun’s Legacy",
-          "count": 1,
-          "summary": "邪典生存恐怖游戏《Remothered: Red Nun’s Legacy》今日登陆PC、PS5与Xbox Series X|S。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "仙剑奇侠传4：重制版",
-          "count": 1,
-          "summary": "采用虚幻引擎5升级画面，但因主角云天河、韩菱纱造型改动引发“网红脸”争议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星：血雨",
-          "count": 1,
-          "summary": "TGA前夕发布新素材预告，涉及假小子角色的相关内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "北境战场",
-          "count": 1,
-          "summary": "《北境之地》世界观衍生作《北境战场》开启抢先体验，售价48元并享10%首发折扣，与多款游戏捆绑包折上折。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "卡片召唤师 起源",
-          "count": 1,
-          "summary": "《Culdcept BEGINS》Steam版今日正式发售，首发九折优惠持续至11月11日。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "天国：拯救2",
-          "count": 1,
-          "summary": "开发商被黑客攻击，系统和数据遭访问，官方正与网络安全专家合作调查。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 1,
-          "summary": "外媒发布对《巫师3》新DLC“旧时曲”开发团队的专访，透露杰洛特将获得新武器，为《巫师4》铺路。",
           "summary_source": "llm"
         }
       ]
