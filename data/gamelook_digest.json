@@ -1,40 +1,56 @@
 {
-  "generated_at": "2026-11-07T02:07:24.983220+00:00",
+  "generated_at": "2026-11-08T01:32:43.895376+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-06",
-      "article_count": 9,
-      "game_count": 4,
-      "untagged_count": 4,
-      "digest": "11月6日游戏行业资讯聚焦于《影之刃零》的全球热销表现，该作发售一周销量突破400万份且海外表现优于国内。此外，米哈游新作《崩坏：因缘精灵》定档2027年春季公测，Remedy Entertainment因腾讯投资营收飙升226%。",
+      "date": "2026-11-07",
+      "article_count": 1,
+      "game_count": 0,
+      "untagged_count": 1,
+      "digest": "2026年11月7日，GameLook资讯平台共收录1条行业新闻，内容聚焦于游戏行业监管政策与合规性审查的最新动态，未涉及具体游戏产品的发售或运营信息。按报道条数排序的游戏（含代表性标题与摘要）：",
       "digest_source": "llm",
-      "input_hash": "a7003a4b9b498d55",
+      "input_hash": "e9457e1d0c36c670",
+      "game_digests": []
+    },
+    {
+      "date": "2026-11-06",
+      "article_count": 10,
+      "game_count": 5,
+      "untagged_count": 4,
+      "digest": "11月6日行业资讯聚焦于《影之刃零》发售一周后的市场表现与全球销量数据，米哈游新作《崩坏：因缘精灵》公布公测时间，Remedy Entertainment因腾讯投资公司营收飙升而获救，同时《战术小队》国服展台人气火爆，买断制游戏市场数据亦有所增长。",
+      "digest_source": "llm",
+      "input_hash": "093e43093b3ba85e",
       "game_digests": [
         {
           "name": "影之刃零",
           "count": 2,
-          "summary": "官方公布销售数据报告，第三方机构数据显示其海外市场表现十分亮眼。",
+          "summary": "发售一周后热度不减，官方宣布72小时全平台销量突破400万份，第三方数据显示其国外销量表现优于国内。",
           "summary_source": "llm"
         },
         {
           "name": "PC与主机买断制游戏深度洞察",
           "count": 1,
-          "summary": "报告显示2026年上半年买断制游戏收入同比增长5%，市场出现细微变化。",
-          "summary_source": "llm"
+          "summary": "《PC与主机买断制游戏深度洞察》：买断制游戏收入同比增长5%。",
+          "summary_source": "rules"
         },
         {
           "name": "崩坏：因缘精灵",
           "count": 1,
-          "summary": "米哈游捉宠新作宣布将于2027年春季公测，并在11月25日开启先行测试。",
+          "summary": "米哈游捉宠新作公布将于2027年春季公测，并定于11月25日开启先行测试。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战术小队",
+          "count": 1,
+          "summary": "国服展台现场排起长龙，国际服运营十年仍需排队，引发玩家热议。",
           "summary_source": "llm"
         },
         {
           "name": "控制：共振",
           "count": 1,
-          "summary": "腾讯投资公司Remedy Entertainment营收飙升226%，中国资本助力该作发展。",
+          "summary": "腾讯投资公司营收飙升226%，Remedy Entertainment借此获救，该作被视为其重要项目。",
           "summary_source": "llm"
         }
       ]

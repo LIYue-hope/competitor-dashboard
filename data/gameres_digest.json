@@ -1,9 +1,26 @@
 {
-  "generated_at": "2026-11-07T02:08:31.990775+00:00",
+  "generated_at": "2026-11-08T01:33:51.824149+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-11-07",
+      "article_count": 1,
+      "game_count": 1,
+      "untagged_count": 0,
+      "digest": "2026年11月7日，当日仅发布1条游戏资讯，涉及游戏为《金铲铲之战》。该游戏于11月6日西安发布会公布2027电竞升级计划，明确未来三年投入10亿元建设游戏生态，赛事将进行七大升级，PC版下赛季也将上线，并已开启预约。",
+      "digest_source": "llm",
+      "input_hash": "bba164742700f344",
+      "game_digests": [
+        {
+          "name": "金铲铲之战",
+          "count": 1,
+          "summary": "共赴新局！《金铲铲之战》发布2027电竞升级计划，PC版下赛季见。",
+          "summary_source": "rules"
+        }
+      ]
+    },
     {
       "date": "2026-11-06",
       "article_count": 8,
@@ -210,71 +227,6 @@
           "count": 1,
           "summary": "集英社游戏宣布瑞典Apog Labs开发的空岛探索冒险游戏《异星遗航》于2026年10月30日在Steam开启抢先体验，支持1-4人在线合作，国区定价93元，首发两周9折。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "article_count": 21,
-      "game_count": 9,
-      "untagged_count": 12,
-      "digest": "2026年10月29日，国家新闻出版署公布当月网游审批结果，183款国产网络游戏、12款进口网络游戏版号获批，同时多款热门游戏相关动态持续发布，包括网游版号获批、游戏角色设计探讨、多人经营类玩法发售、单机游戏榜单表现、新游戏发布预告等，整体呈现产业审批与游戏内容更新并行的态势。",
-      "digest_source": "llm",
-      "input_hash": "28f48c43c6aa4f85",
-      "game_digests": [
-        {
-          "name": "2026年10月",
-          "count": 1,
-          "summary": "【2026年10月】183款国产网络游戏、12款进口网络游戏版号获批。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "博德之门3",
-          "count": 1,
-          "summary": "从《博德之门3》到《这是我的战争》，玩家为什么会在乎一个虚构的人？。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "多人经营",
-          "count": 1,
-          "summary": "【多人经营】动森 +胡闹厨房=让Crush给你当牛做马。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "《影之刃零》的理性与癫狂，造就又一个全球畅销冠军。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "浣熊推币机：混沌全开版",
-          "count": 1,
-          "summary": "《浣熊推币机：混沌全开版》将于11月10日登陆主机平台。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "燕云十六声",
-          "count": 1,
-          "summary": "从构图到运镜：一堂藏在《燕云十六声》里的电影镜头课。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "蝼蚁之城",
-          "count": 1,
-          "summary": "IGN《蝼蚁之城》上手前瞻：在赛博朋克 Roguelite 中弹反一切。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "这手有点长",
-          "count": 1,
-          "summary": "《这手有点长》宣布将于2027年3月11日正式发售！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "魔域",
-          "count": 1,
-          "summary": "《魔域》年终活动组队怎么玩？人数档位奖励与36万神火进阶指南。",
-          "summary_source": "rules"
         }
       ]
     }

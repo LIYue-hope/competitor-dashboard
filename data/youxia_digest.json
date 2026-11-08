@@ -1,106 +1,171 @@
 {
-  "generated_at": "2026-11-07T02:00:04.447209+00:00",
+  "generated_at": "2026-11-08T01:27:11.561726+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-06",
-      "article_count": 90,
-      "game_count": 52,
-      "untagged_count": 22,
-      "digest": "2026年11月6日游戏行业资讯聚焦于《GTA6》发售前的盗版讨论与宣传冲刺，以及《影之刃零》对《黑神话：悟空》的致谢。此外，《上古卷轴6》副标题引发落锤省争议，索尼《漫威金刚狼》销量未达预期但带动财报增长，多款经典老游戏如《暴力摩托》与《银河飞将》迎来周年纪念版回归。",
+      "date": "2026-11-07",
+      "article_count": 27,
+      "game_count": 9,
+      "untagged_count": 11,
+      "digest": "今日游戏资讯聚焦于《GTA6》的体量与分级争议，以及《影之刃零》的优化与通关时长讨论。此外，《漫威蜘蛛侠2》销量突破1910万，而《星球大战：零号连队》虽破百万却因预算过高导致开发商裁员。小岛秀夫新作《Physint》叙事体量曝光，而《流放之路2》宣布12月11日转为免费游玩。",
       "digest_source": "llm",
-      "input_hash": "4e934c5f77a135de",
+      "input_hash": "b6e5e45401f81d91",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 7,
-          "summary": "Take-Two CEO泽尔尼克接受采访称盗版是行业现实，不会过度担忧，同时Rockstar公开了包含街道、夜店及水下环境的新一批游戏截图。",
+          "count": 6,
+          "summary": "德国法定带薪教育假被用于《GTA6》课程，参与者可在课程期间将三个工作日用于游玩本作。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
-          "count": 5,
-          "summary": "玩家分享的绝美BOSS搏杀截图引发关注，咪咕游戏在2026移动网络大会上展示了该作的全场景沉浸体验，制作人梁其伟在专访中致谢《黑神话：悟空》。",
+          "count": 3,
+          "summary": "HowLongToBeat数据显示玩家平均通关耗时23小时，全收集平均需31.5小时，引发玩家对数据偏低的质疑。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Physint",
+          "count": 1,
+          "summary": "主演比尔·斯卡斯加德透露新作叙事体量约八小时，项目已转投Xbox阵营，目前尚未确定所用引擎。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "宝可梦卡牌MEGA",
+          "count": 1,
+          "summary": "原哲夫绘制“波导探寻者”吉宪稀有卡，卡包将于11月27日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛RE",
+          "count": 1,
+          "summary": "玩家发帖批评《塞尔达传说：时之笛 重制版》缺少原版及后续版本的部分功能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星球大战：零号连队",
+          "count": 1,
+          "summary": "开发商Bit Reactor宣布裁员，本作全平台销量突破100万份但未达回本线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "流放之路2",
+          "count": 1,
+          "summary": "1.0版将于2026年12月11日上线，结束付费抢先体验并转为免费游玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威蜘蛛侠2",
+          "count": 1,
+          "summary": "分析师估算累计收入约13亿美元，总销量超1910万份，预计明年初跨过2000万份门槛。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "龙腾世纪",
+          "count": 1,
+          "summary": "传奇编剧David Gaider确认加盟《苍穹浩瀚：奥西里斯重生》参与叙事开发。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "article_count": 120,
+      "game_count": 60,
+      "untagged_count": 37,
+      "digest": "今日游戏行业资讯聚焦于《GTA6》发售前的盗版讨论与宣传冲刺，以及《影之刃零》对《黑神话悟空》的致谢与展会亮相。此外，《剑星》登陆Switch 2引发争议，而《漫威金刚狼》销量不及预期，索尼CFO仍称其带动业绩增长。",
+      "digest_source": "llm",
+      "input_hash": "c940bee899f7f6ff",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 9,
+          "summary": "Take-Two CEO泽尔尼克表示盗版是行业现实，不会过度担忧；Rockstar今日公布多张新截图，展示罪恶城与雷奥奈达州的街道、夜店及水下环境。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 6,
+          "summary": "玩家分享的高质量BOSS搏杀截图引发关注；制作人梁其伟在专访中致谢《黑神话：悟空》，称其完成了从0到1；咪咕游戏携该作亮相2026移动网络大会。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 3,
+          "summary": "《剑星 完全版》登陆Switch 2，同步上线90秒真人广告引发反应；官方推送《猎天使魔女》联动服装；推出coser宣传片展示“Black Tresses”服饰。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛RE",
+          "count": 3,
+          "summary": "Switch2版《时之笛》重制版推出，马特·默瑟配音的加侬多夫再度遭粉丝狂喷；IShowSpeed直播开荒被咕咕鸡一血；外媒称其跳出系列时间线束缚。",
           "summary_source": "llm"
         },
         {
           "name": "上古卷轴6",
           "count": 2,
-          "summary": "外媒ComicBook发文称认为本作重返落锤省的观点可能有误，尽管副标题“哨兵”暗示了这一点，但该地区曾在1996年《上古卷轴2》中出现过。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 2,
-          "summary": "《剑星 完全版》登陆Switch 2，同步上线90秒真人广告，并推送了《猎天使魔女》主题联动服装，对全体玩家开放。",
+          "summary": "外媒ComicBook发文称，副标题“哨兵”暗示回归落锤省的观点可能有误；官方周边先行上架，推出印有“Sentinel”标志的T恤与连帽衫。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达",
           "count": 2,
-          "summary": "《时之笛重制版》96分领跑年度评分，任天堂确认塞尔达电影是长期业务，将继续推出新电影并建立支持持续制作的框架。",
+          "summary": "《时之笛重制版》96分领跑年度评分；任天堂确认将塞尔达电影作为长期业务，计划建立持续制作框架。",
           "summary_source": "llm"
         },
         {
           "name": "暴力摩托",
           "count": 2,
-          "summary": "EA将25款经典PC游戏重新上架，其中《暴力摩托》与六款《银河飞将》推出周年纪念版，老玩家可免费升级。",
+          "summary": "EA将25款经典游戏重新上架Steam与GOG，其中《暴力摩托》与六款《银河飞将》推出周年纪念版；EA高级制作人Jim Vessella透露抢救了2万份历史母带。",
           "summary_source": "llm"
         },
         {
           "name": "漫威金刚狼",
           "count": 2,
-          "summary": "发售50天仅240万份，索尼CFO陶琳在财报会议上表示该作表现优异，直接带动了PlayStation业务本季度业绩增长。",
+          "summary": "发售50天仅240万份，销量仅为回本线三分之一；索尼CFO陶琳在财报会议上表示该作表现优异，带动PS业务增长。",
           "summary_source": "llm"
         },
         {
           "name": "老滚6",
           "count": 2,
-          "summary": "分析师指出《上古卷轴6》在《GTA6》发售后难成现象级游戏，官方周边已先行上架，两款印有“Sentinel”标志的T恤与连帽衫开售。",
+          "summary": "分析师指出《上古卷轴6》在《GTA6》发售后难成为下一个白鲸级游戏；副标题“哨兵”揭晓后，官方周边先行上架。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "莉娜清洁物语",
+          "count": 2,
+          "summary": "Steam发售，首发八折；玩家可在游戏中清扫垃圾场、整理杂物并挖掘屋主故事。",
           "summary_source": "llm"
         },
         {
           "name": "007 初露锋芒",
           "count": 1,
-          "summary": "《007 初露锋芒》于多平台推出免费入门版，玩家可免费体验冰岛任务，正式版限时最高享5折优惠。",
+          "summary": "《007 初露锋芒》推出免费入门版，限时正式版享5折优惠。",
           "summary_source": "llm"
         },
         {
           "name": "Apex英雄",
           "count": 1,
-          "summary": "Respawn与东宝合作公布《哥斯拉》联动宣传片，怪兽之王将降临外域，活动将于11月10日开启。",
+          "summary": "与东宝合作推出《哥斯拉》限时联动活动，将于11月10日开启。",
           "summary_source": "llm"
         },
         {
           "name": "GTA Online",
           "count": 1,
-          "summary": "全新抢劫主题活动今日火爆开启，包含双倍奖励、新抢劫必出稀有雕像及联系人任务最高四倍收益。",
+          "summary": "全新抢劫主题活动今日开启，至12月2日提供双倍奖励及免费名画。",
           "summary_source": "llm"
         },
         {
           "name": "MC",
           "count": 1,
-          "summary": "外媒指出《我的世界》正在发生定位转变，从生存游戏逐步转向面向全球创作者的内容平台。",
+          "summary": "外媒指出《我的世界》定位从生存游戏转向面向全球创作者的内容平台。",
           "summary_source": "llm"
         },
         {
           "name": "仁王3",
           "count": 1,
-          "summary": "盖世小鸡推出官方授权的Nova Vision《仁王3》限定版手柄，带有草薙守护灵涂装及高颜值发光底座。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤",
-          "count": 1,
-          "summary": "官方公布第一赛季通行证，引入“自动追赶系统”，落后玩家可自动补至当前等级，最高保底获得前50天奖励。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "《现代战争4》和《战争地带》第1赛季上线，传染与附身模式于万圣节季前赛中登场。",
+          "summary": "盖世小鸡推出官方授权Nova Vision限定版手柄，带有草薙守护灵涂装及LCD屏。",
           "summary_source": "llm"
         }
       ]
@@ -809,107 +874,6 @@
           "count": 1,
           "summary": "《使命召唤：现代战争4》推出了万圣节限定的“附身”模式，为区分常规内容，匹配列表中标注了“非军事模拟内容”提示。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "article_count": 111,
-      "game_count": 57,
-      "untagged_count": 19,
-      "digest": "2026年10月29日，游戏行业当日资讯整体围绕多款重点游戏展开，包括《影之刃零》《GTA6》《塞尔达传说》等热门游戏，涉及发售动态、数据表现、玩法更新及研发动向，行业热度较为集中，相关游戏热度表现与销售情况成为当日主要关注点。",
-      "digest_source": "llm",
-      "input_hash": "90e075ca9f9abf55",
-      "game_digests": [
-        {
-          "name": "影之刃零",
-          "count": 21,
-          "summary": "《影之刃零》热度爆炸！Steam 9小时在线人数超60万；《影之刃零》线下试玩活动落地京东MALL 大屏游戏电视带玩家走进武侠江湖；DLSS 4.5威力尽显!《影之刃零》RTX路径追踪前后对比（当天共 21 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GTA6",
-          "count": 13,
-          "summary": "面积只是基础！《GTA6》地图细节拉满 生活感浓厚！；改动影响速通！《GTA6》主线新增资金、时间解锁门槛；开放世界迎来升级！R星官宣《GTA6》核心设计情报（当天共 13 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "塞尔达传说",
-          "count": 2,
-          "summary": "预载已开启！《塞尔达传说》新作 玩家最怕遭遇破解；《塞尔达传说》40周年纪念版NS2今日发售！多地断货。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "异界揭踪",
-          "count": 2,
-          "summary": "异常现象 × 发生变异的少女 × 生存TPS《异界揭踪》今日正式发售！；《异界揭踪》刚上线就被RUNE破解 208GB体量曝光！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "魔兽：无限",
-          "count": 2,
-          "summary": "解锁新玩法！《魔兽无限》支持原生手柄 推进多端游玩；《魔兽:无限》没有发售宣传片？暴雪发布喜剧伪纪录片。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "BAKUDO",
-          "count": 1,
-          "summary": "《BAKUDO》确定推出Nintendo Switch™ 2版！ 于“Indie World”中亮相。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Jono",
-          "count": 1,
-          "summary": "Steam奇葩游戏《Jono》走红：100万关每人最多玩1分钟。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Magi Scapes",
-          "count": 1,
-          "summary": "和自创角色一起大闹这个世界！《Magi Scapes》10月29日EA发布！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "R.E.P.O.",
-          "count": 1,
-          "summary": "任天堂确认《R.E.P.O.》登陆NS2！联机细节仍待揭晓。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Remothered：红修女的遗产",
-          "count": 1,
-          "summary": "《Remothered: 红修女的遗产》登陆PC、PlayStation5与Xbox等平台。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "X战警",
-          "count": 1,
-          "summary": "爆料来袭！失眠组《X战警》新作 可操控多名变种英雄。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "僵尸世界大战",
-          "count": 1,
-          "summary": "新增迈阿密地图 《僵尸世界大战》病毒之州更新11月推出。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "刺客信条",
-          "count": 1,
-          "summary": "《刺客信条》有大的要来!秋季专场分享会聚焦项目进展。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "剑网3",
-          "count": 1,
-          "summary": "《剑网3》「苍生铸世」深度体验：一次勇敢的\"做减法\"，江湖从未如此轻盈。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "原子之心",
-          "count": 1,
-          "summary": "舞伶解锁武侠装束!《原子之心》祝贺《影之刃零》发售。",
-          "summary_source": "rules"
         }
       ]
     }

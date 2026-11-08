@@ -1,22 +1,123 @@
 {
-  "generated_at": "2026-11-07T01:58:47.656039+00:00",
+  "generated_at": "2026-11-08T01:25:15.175716+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "article_count": 1,
       "game_count": 1,
       "untagged_count": 0,
-      "digest": "Grinding Gear Games宣布《流放之路2》1.0版将于2026年12月11日上线，届时游戏将结束付费抢先体验并转为免费游玩。1.0版将新增第五章和第六章，合计新增24个区域和18个主要首领，并加入决斗者和暗影两个回归职业及策略玩法赛季“瓦尔克拉斯征服者”。",
+      "digest": "11月8日游戏资讯聚焦于《塞尔达传说：时之笛》重制版，该作通过对比N64原版视频展示了画面升级，任天堂利用Switch 2硬件打造了这款终极版本，视频中使用了原版NTSC 1.0 N64卡带在Analogue 3D模拟器上运行，以呈现两个硬件时代的海拉鲁风貌。",
       "digest_source": "llm",
-      "input_hash": "0bc147e9a52c2ebf",
+      "input_hash": "a2ac12da60be62ab",
       "game_digests": [
         {
-          "name": "流放之路2",
+          "name": "塞尔达传说：时之笛",
           "count": 1,
-          "summary": "Grinding Gear Games宣布《流放之路2》1.0版将于2026年12月11日上线，届时游戏将结束付费抢先体验并转为免费游玩。1.0版将新增第五章和第六章，合计新增24个区域和18个主要首领，并加入决斗者和暗影两个回归职业及策略玩法赛季“瓦尔克拉斯征服者”。",
+          "summary": "《塞尔达传说：时之笛》重制版对比N64原版，画面全面升级，任天堂利用Switch 2硬件打造了这款终极版本，视频中使用了原版NTSC 1.0 N64卡带在Analogue 3D模拟器上运行，以呈现两个硬件时代的海拉鲁风貌。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "article_count": 50,
+      "game_count": 32,
+      "untagged_count": 11,
+      "digest": "3DMGame今日共收录50条资讯，涉及32款游戏。GTA6因日版Xbox版比全球版少1GB引发审查猜测；T1在2026全球总决赛以3比1击败KC晋级四强；BioWare关停后，独立纪录片《巨大效应：BioWare传奇》开拍；小岛新作《Physint》主演比尔·斯卡斯加德确认游戏约8小时叙事；原神公布新角色丹妮卡立绘；塞尔达传说重制版与40周年Switch 2 Pro手柄引发关注；GTA三部曲与GTA4在Steam开启大幅降价促销。",
+      "digest_source": "llm",
+      "input_hash": "00507b9a21fe8bc7",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "Xbox Series日版文件大小为208.74GB，比全球版209.86GB少了约1GB，引发关于审查制度造成差异的猜测。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说：时之笛",
+          "count": 3,
+          "summary": "玩家从重制版中角色饰品和昼夜系统的变化推测，任天堂可能正在为《姆吉拉的假面》重制版作准备。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Physint",
+          "count": 2,
+          "summary": "主演比尔·斯卡斯加德谈及加盟原因，确认游戏将包含大约8小时的叙事内容，并回忆了年轻时玩《合金装备》的经历。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说",
+          "count": 2,
+          "summary": "《塞尔达传说》40周年Nintendo Switch 2 Pro手柄拆解视频展示，其内部可更换电池能够较为轻松地取出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "英雄联盟",
+          "count": 2,
+          "summary": "2026全球总决赛八强赛T1以3比1击败KC，与IG、GEN、BLG一同晋级四强。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA：三部曲—终极版",
+          "count": 1,
+          "summary": "Rockstar在Steam开启促销，《GTA：三部曲—终极版》降价67%，《GTA4：完整版》降价70%，活动将于11月19日结束。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA：圣安地列斯",
+          "count": 1,
+          "summary": "CJ配音演员Young Maylay辟谣薪酬不满传闻，驳斥了流传已久的关于他对配音薪酬不满的说法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "bioware",
+          "count": 1,
+          "summary": "BioWare最终岁月纪录片《巨大效应：BioWare传奇》开拍，该片全程独立制作，与EA没有任何关联。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴6",
+          "count": 1,
+          "summary": "预告解析指向落锤省阵营冲突与卷轴起源，“哨兵”既是城市名称也支持以落锤省为核心舞台的判断。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴6：哨兵",
+          "count": 1,
+          "summary": "Bethesda负责人Todd Howard表示，评论本作的平台安排为时过早，既未确认Xbox独占，也没有排除未来登陆PlayStation的可能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "从零向南",
+          "count": 1,
+          "summary": "《从零向南》现已在Steam发售，支持简体中文和日语，玩家需驾驶出租车穿越受千年虫问题重创的美国南部。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "原神",
+          "count": 1,
+          "summary": "官方公布新角色丹妮卡的立绘与设定，她是至冬宫宫廷女仆长，负责协调各方势力，由原由实配音。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "哥斯拉",
+          "count": 1,
+          "summary": "新游发售后确认支持私人房间四人模式，该玩法只能通过私人房间进入，并不支持公开在线匹配。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达：时之笛 重制版",
+          "count": 1,
+          "summary": "监制青沼英二建议开发团队无需纠结复杂的塞尔达时间线，只需专注做好这款游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 1,
+          "summary": "Nordisk Games任命新CEO与CFO，CD Projekt Red则吸纳三名前Warhorse Studios成员参与《巫师4》开发。",
           "summary_source": "llm"
         }
       ]
@@ -825,107 +926,6 @@
           "name": "BUZZ or DIE",
           "count": 1,
           "summary": "讲谈社死亡游戏ADV《BUZZ or DIE》今日在Steam发售，玩家需制作短视频对抗对手以避免处刑，首发限时八折优惠。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "article_count": 143,
-      "game_count": 94,
-      "untagged_count": 12,
-      "digest": "R星联合创始人Sam Houser深度参与《GTA6》创意设计，亲自监督地图、剧情及角色塑造；《影之刃零》因PC版性能问题被指是“显卡杀手”；《使命召唤：现代战争4》职业选手OpTic用132小时登顶最高威望；《堡垒之夜》公布“寻宝猎人”11月1日开启及《航海王》联动；《塞尔达传说：时之笛》主题Switch 2遭沃尔玛取消预订；《异界揭踪》今日发售；《怪物猎人：旅人》登陆移动端；《我独自升级：起立·觉醒》定档11月3日；《深空当铺：可能是偷的》发售六小时销量破20万；《逃离塔科夫》开放万圣节感染区及近战模式；《A FAREWELL TO AI》公布2027年发售；《Fantasy World Manager》开启Steam抢先体验；《Mox Nox》开启Steam抢先体验。",
-      "digest_source": "llm",
-      "input_hash": "9a3a14016b010f9e",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 17,
-          "summary": "R星联合创始人Sam Houser深度参与《GTA6》所有关键创意设计，亲自监督地图、剧情及角色塑造，确保系列风格延续。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 11,
-          "summary": "《影之刃零》PC版性能引发争议，RTX 5090在原生4K开启路径追踪下平均仅27帧，被指是“显卡杀手”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 4,
-          "summary": "OpTic Gaming用132小时登顶《使命召唤：现代战争4》最高威望，累计得分超380万，击杀死亡比为1.27。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "堡垒之夜",
-          "count": 2,
-          "summary": "《堡垒之夜》“寻宝猎人”迷你赛季将于11月1日开启，主打动漫海贼主题并确认包含《航海王》联动阵容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛",
-          "count": 2,
-          "summary": "多名消费者通过沃尔玛预订的《塞尔达传说：时之笛》主题Switch 2在送达前一天遭取消，引发不满。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛 重制版",
-          "count": 2,
-          "summary": "CRKD Nitro Deck 2降至79.99美元！作者选它备战《塞尔达传说：时之笛重制版》；青沼英二坦言对《塞尔达传说：时之笛 重制版》推出感到紧张！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "异界揭踪",
-          "count": 2,
-          "summary": "生存TPS《异界揭踪》今日正式发售，Steam平台开启九折首发优惠，同步公开发售宣传片及纪念插画。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "怪物猎人：旅人",
-          "count": 2,
-          "summary": "《怪物猎人：旅人》登陆iOS和Android平台，首发开放太刀、双剑等七类武器，主打碎片时间狩猎体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "我独自升级：起立·觉醒",
-          "count": 2,
-          "summary": "《我独自升级：起立·觉醒》将于11月3日登陆PS5和Xbox Series，支持四人合作突袭。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "深空当铺：可能是偷的",
-          "count": 2,
-          "summary": "《深空当铺：可能是偷的》发售约六小时销量突破20万份，同时在线人数达8.6万，好评率95%。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "逃离塔科夫",
-          "count": 2,
-          "summary": "《逃离塔科夫》开放万圣节感染区及《逃离塔科夫：竞技场》近战模式，实验室与旧工厂成为核心舞台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "A FAREWELL TO AI",
-          "count": 1,
-          "summary": "绘画小说游戏《A FAREWELL TO AI》Steam页面上线，计划于2027年春季发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "EA公司 美商艺电",
-          "count": 1,
-          "summary": "bioware联合创始人称EA收购交易是工作室关闭最后一根稻草。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Fantasy World Manager",
-          "count": 1,
-          "summary": "《Fantasy World Manager》开启Steam抢先体验，玩家可编辑地形、聚落及居民种族文化。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Mox Nox",
-          "count": 1,
-          "summary": "3D剑斗游戏《Mox Nox》开启Steam抢先体验，玩家操作女性剑士通过招架、防御及幻影魔法迎战敌群。",
           "summary_source": "llm"
         }
       ]
