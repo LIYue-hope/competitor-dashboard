@@ -1,71 +1,237 @@
 {
-  "generated_at": "2026-11-08T01:27:11.561726+00:00",
+  "generated_at": "2026-11-09T01:50:27.819549+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-07",
-      "article_count": 27,
-      "game_count": 9,
-      "untagged_count": 11,
-      "digest": "今日游戏资讯聚焦于《GTA6》的体量与分级争议，以及《影之刃零》的优化与通关时长讨论。此外，《漫威蜘蛛侠2》销量突破1910万，而《星球大战：零号连队》虽破百万却因预算过高导致开发商裁员。小岛秀夫新作《Physint》叙事体量曝光，而《流放之路2》宣布12月11日转为免费游玩。",
-      "digest_source": "llm",
-      "input_hash": "b6e5e45401f81d91",
+      "date": "2026-11-09",
+      "article_count": 13,
+      "game_count": 6,
+      "untagged_count": 6,
+      "digest": "11月9日 游侠网 共 13 条新闻，涉及 6 款游戏。报道最集中的是《上古卷轴6》（2 条）、《NBA 2K》（1 条）、《刺客信条：女巫》（1 条）。另有 6 条未指向具体游戏的行业或平台资讯。另外还有《战神》（1 条）、《时之笛》（1 条）、《霍格沃茨之遗》（1 条）也有报道。",
+      "digest_source": "rules",
+      "input_hash": "04d6b107fb6ae9bc",
       "game_digests": [
         {
-          "name": "GTA6",
-          "count": 6,
-          "summary": "德国法定带薪教育假被用于《GTA6》课程，参与者可在课程期间将三个工作日用于游玩本作。",
-          "summary_source": "llm"
+          "name": "上古卷轴6",
+          "count": 2,
+          "summary": "外媒给《上古卷轴6》游戏设计提出建议：四改一留！；《上古卷轴6》还用祖传引擎？粉丝：是祖传 但并不烂。",
+          "summary_source": "rules"
         },
         {
-          "name": "影之刃零",
+          "name": "NBA 2K",
+          "count": 1,
+          "summary": "谁说打游戏没用?NBA新秀竟然是靠《NBA 2K》学打球。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "刺客信条：女巫",
+          "count": 1,
+          "summary": "曝《刺客信条:女巫》内部延期至2028年!再传开发不顺。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战神",
+          "count": 1,
+          "summary": "不止是高清!曝《战神》希腊三部曲重制 战斗玩法或大改。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "时之笛",
+          "count": 1,
+          "summary": "《时之笛》英国首发销量超《旷野之息》登顶销量榜。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "霍格沃茨之遗",
+          "count": 1,
+          "summary": "DLSS5《霍格沃茨之遗》效果平淡 官方调校走向保守。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "article_count": 21,
+      "game_count": 12,
+      "untagged_count": 7,
+      "digest": "2026年11月8日，行业资讯整体处于游戏持续更新与营收动态并行的阶段，多款主流游戏动态更新或发售，其中多款游戏成绩与销量呈现显著进展，行业热度持续，覆盖游戏涵盖电竞、数值玩法、VR、机甲、经典移植及科幻题材等多个方向。",
+      "digest_source": "llm",
+      "input_hash": "5b3ca1c240e9ba0a",
+      "game_digests": [
+        {
+          "name": "魔兽：无限",
           "count": 3,
-          "summary": "HowLongToBeat数据显示玩家平均通关耗时23小时，全收集平均需31.5小时，引发玩家对数据偏低的质疑。",
+          "summary": "《魔兽：无限》开服两天刷新多项历史纪录，社区在线峰值达百万，主打原创速通玩法，引发玩家对暴雪运营策略的讨论。",
           "summary_source": "llm"
         },
         {
-          "name": "Physint",
+          "name": "Among Us",
           "count": 1,
-          "summary": "主演比尔·斯卡斯加德透露新作叙事体量约八小时，项目已转投Xbox阵营，目前尚未确定所用引擎。",
+          "summary": "美国未成年少女遭绑架逾521天后，在《Among Us》中成功求助并获救。",
           "summary_source": "llm"
         },
         {
-          "name": "宝可梦卡牌MEGA",
+          "name": "GTA6",
           "count": 1,
-          "summary": "原哲夫绘制“波导探寻者”吉宪稀有卡，卡包将于11月27日发售。",
+          "summary": "PS5版《GTA6》实体包装曝光，盒内无光盘仅提供数字下载码，玩家需联网游玩，销售模式引发玩家关注。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴6",
+          "count": 1,
+          "summary": "《上古卷轴6》副标题“哨兵”公布后，其是否成为Xbox主机独占的悬念未明，未获官方明确确认。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "堕落之主2",
+          "count": 1,
+          "summary": "《堕落之主2》确认推出PS5与Xbox实体光盘，虽销量占比较低，但预计2027年第一季度发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战神5",
+          "count": 1,
+          "summary": "第三方估算《战神5》营收达14亿美元，2026年持续热销，玩家热议其与《GTA6》的营收对比情况。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "收获日：Aces High",
+          "count": 1,
+          "summary": "《收获日：Aces High》VR版已发售，登录Meta Quest与PC（Steam VR）平台，玩家关注其跨平台体验表现。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛",
+          "count": 1,
+          "summary": "《时之笛》重制版评分达9.7分，成为M站史上用户评分最高的游戏，尽管遭遇恶意差评仍维持高分。",
           "summary_source": "llm"
         },
         {
           "name": "时之笛RE",
           "count": 1,
-          "summary": "玩家发帖批评《塞尔达传说：时之笛 重制版》缺少原版及后续版本的部分功能。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星球大战：零号连队",
-          "count": 1,
-          "summary": "开发商Bit Reactor宣布裁员，本作全平台销量突破100万份但未达回本线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "流放之路2",
-          "count": 1,
-          "summary": "1.0版将于2026年12月11日上线，结束付费抢先体验并转为免费游玩。",
+          "summary": "《时之笛RE》推出N64复古造型amiibo，将兼容旧amiibo，计划于2027年发售，受众聚焦情怀玩家。",
           "summary_source": "llm"
         },
         {
           "name": "漫威蜘蛛侠2",
           "count": 1,
-          "summary": "分析师估算累计收入约13亿美元，总销量超1910万份，预计明年初跨过2000万份门槛。",
+          "summary": "第三方估算《漫威蜘蛛侠2》总收入约86亿元，PS5为主要收入渠道，PC收入占比仅5.3%。",
           "summary_source": "llm"
         },
         {
-          "name": "龙腾世纪",
+          "name": "漫威金刚狼",
           "count": 1,
-          "summary": "传奇编剧David Gaider确认加盟《苍穹浩瀚：奥西里斯重生》参与叙事开发。",
+          "summary": "《漫威金刚狼》全新碟价格跌破150元，发售即大幅降价，玩家关注后续降价节奏。",
           "summary_source": "llm"
+        },
+        {
+          "name": "霍格沃茨之遗",
+          "count": 1,
+          "summary": "为庆祝DLSS 5登陆，英伟达推出限定抽奖，奖品为附带游戏主题定制贴膜的RTX 5090 Founders Edition。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "article_count": 57,
+      "game_count": 21,
+      "untagged_count": 22,
+      "digest": "11月7日 游侠网 共 57 条新闻，涉及 21 款游戏。报道最集中的是《GTA6》（10 条）、《影之刃零》（3 条）、《时之笛RE》（3 条）。另有 22 条未指向具体游戏的行业或平台资讯。另外还有《剑星》（2 条）、《Physint》（1 条）、《博德之门3》（1 条）也有报道。",
+      "digest_source": "rules",
+      "input_hash": "86a95480c478fc11",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 10,
+          "summary": "10M宽带需下47小时！《GTA6》212G下载时间表出炉；德国开设《GTA6》带薪学习课程 可合法请假三天畅玩；《GTA6》日版获最高18+分级！犯罪与暴力场景拉满？（当天共 10 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
+          "count": 3,
+          "summary": "徐静雨盛赞《影之刃零》舞狮Boss战：第九艺术完美体现；终于能白金了！《影之刃零》收集率卡97%问题已修复；《影之刃零》全收集31小时遭质疑！50小时起步才正常。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "时之笛RE",
+          "count": 3,
+          "summary": "还不如3DS版！玩家怒喷《时之笛RE》连大师任务都没了；细节封神！《时之笛RE》小惊喜 手柄还能吹出陶笛旋律；封神！《时之笛RE》拿下M站媒体玩家双榜第一 口碑炸裂。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "剑星",
+          "count": 2,
+          "summary": "游侠晚报：GTA6下载表出炉 《剑星》双平台吸金3亿；收入看PS5 销量看Steam：《剑星》双平台数据揭出炉。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Physint",
+          "count": 1,
+          "summary": "小岛秀夫新作《Physint》叙事体量曝光：八小时左右。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "博德之门3",
+          "count": 1,
+          "summary": "米佐拉真人来了！《博德之门3》这套cos氛围感直接拉满。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说：时之笛RE",
+          "count": 1,
+          "summary": "口碑封神！《塞尔达传说：时之笛RE》M站玩家评分9.7。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达时之笛RE",
+          "count": 1,
+          "summary": "《塞尔达时之笛RE》实现PC原生运行！但5090仅有51帧。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "宝可梦卡牌MEGA",
+          "count": 1,
+          "summary": "梦幻联动！原哲夫出手 《宝可梦卡牌MEGA》吉宪卡公布。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "宝可梦：风/波",
+          "count": 1,
+          "summary": "NS2销量重任！任天堂社长看好《宝可梦：风/波》新作。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "故乡",
+          "count": 1,
+          "summary": "《故乡》大卖后的狂欢！Take-Two批准新《四海兄弟》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "星球大战：零号连队",
+          "count": 1,
+          "summary": "《星球大战：零号连队》仅卖百万份 开发商今日裁员。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "武装突袭：重铸者",
+          "count": 1,
+          "summary": "《武装突袭：重铸者》拉力DLC上线 物理引擎全重做。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "流放之路2",
+          "count": 1,
+          "summary": "《流放之路2》1.0版12月11日上线！将转为免费游玩。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "漫威蜘蛛侠2",
+          "count": 1,
+          "summary": "曝《漫威蜘蛛侠2》销量超1910万份！收入约13亿美元。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -773,107 +939,6 @@
           "count": 1,
           "summary": "初代《战神》获得民间PC原生移植！支持宽屏与键鼠。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "article_count": 98,
-      "game_count": 58,
-      "untagged_count": 23,
-      "digest": "10月30日游戏行业资讯丰富，国产武侠动作游戏《影之刃零》持续领跑，首日Steam峰值破72万并跻身历史前六，外媒实测全收集需40小时；R星《GTA6》定于11月19日发售，曝出动态天气系统、NPC智能交互及地图规模等新细节；此外《战争机器：事变日》Xbox与Steam总销量破40万，《Apex英雄》第31赛季“破译天机”将于11月3日上线。",
-      "digest_source": "llm",
-      "input_hash": "3d4e6f43dc0cbbbd",
-      "game_digests": [
-        {
-          "name": "影之刃零",
-          "count": 10,
-          "summary": "《影之刃零》首日Steam峰值破72万，跻身历史前15，外媒实测全收集需40小时，RTX5090在4K原生帧率下表现堪忧。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 7,
-          "summary": "《GTA6》定于11月19日发售，曝出动态天气系统与开放世界环境深度联动，NPC交互更智能，路人被冒犯后可放狗驱赶玩家。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战争机器：事变日",
-          "count": 2,
-          "summary": "《战争机器：事变日》在Xbox与Steam平台的累计销量已突破40万份，分析师指出其独占未能提振Xbox硬件销量。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "羊蹄山之魂",
-          "count": 2,
-          "summary": "《羊蹄山之魂》PS5推送2.009补丁，新增新游戏+序章选项，持续修复无尽追缉等各类bug。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "AC",
-          "count": 1,
-          "summary": "《刺客信条》官方发布秋季更新公告，介绍新作“Hexe”正稳步开发，已发售作品方面《刺客信条：黑旗 记忆重置》已推出最后一次大型更新。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Apex英雄：破译天机",
-          "count": 1,
-          "summary": "《Apex英雄》第31赛季“破译天机”将于2026年11月3日上线，情报将成为比枪法更前置的胜负变量。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Autumn’s end",
-          "count": 1,
-          "summary": "独立视觉小说《Autumn’s end (Part 1)》限时免费至10月31日，原价3.99美元，玩家可免费添加至Steam账户并永久保留。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "BUZZ or DIE",
-          "count": 1,
-          "summary": "短视频制作死亡游戏ADV《BUZZ or DIE》于今日在Steam平台发售，首发限时特惠进行中。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "CS2",
-          "count": 1,
-          "summary": "《CS2》新泄露武器确认更名为LAR，该武器为杠杆步枪具备逐发装填机制，模型与动画已实装但未加入正式武器表。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Hello Kitty 派对乐园",
-          "count": 1,
-          "summary": "万代南梦宫娱乐宣布《Hello Kitty 派对乐园》已于10月29日正式上市，是Nintendo Switch™ 2/Nintendo Switch™版专用派对游戏软件。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Hexologic",
-          "count": 1,
-          "summary": "96%好评的六边形数独《Hexologic》现可免费永久入库，截止太平洋时间10月31日10:00。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "PEAK",
-          "count": 1,
-          "summary": "攀岩游戏《PEAK》免费DLC正式上线，新增三处攀岩区域与一个全新模式，可操作角色马尔科同步加入阵容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "R.E.P.O.",
-          "count": 1,
-          "summary": "合作恐怖游戏《R.E.P.O.》已于10月29日上线免费大型更新“The Sunstone Update”（v0.5.0），同步追加手柄操作与包含简体、繁体中文在内的21种语言支持。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴6",
-          "count": 1,
-          "summary": "据外媒记者爆料，《上古卷轴6》副标题或定为“Sentinel”（哨兵），全名可能是《上古卷轴6：哨兵》，微软最快今年11月正式公布。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "《使命召唤：现代战争4》推出了万圣节限定的“附身”模式，为区分常规内容，匹配列表中标注了“非军事模拟内容”提示。",
-          "summary_source": "llm"
         }
       ]
     }

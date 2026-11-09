@@ -1,9 +1,26 @@
 {
-  "generated_at": "2026-11-08T01:33:51.824149+00:00",
+  "generated_at": "2026-11-09T01:59:10.838849+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-11-09",
+      "article_count": 1,
+      "game_count": 1,
+      "untagged_count": 0,
+      "digest": "2026年11月9日，当日资讯总量较为有限，仅1条有效报道，涉及游戏1款，内容聚焦于《崩坏：星穹铁道》开展的公益关怀相关活动，旨在传递心理关爱与陪伴内容，整体资讯信息较为单一，未涉及其他游戏动态。",
+      "digest_source": "llm",
+      "input_hash": "03ea5bddfc56d9c0",
+      "game_digests": [
+        {
+          "name": "崩坏：星穹铁道",
+          "count": 1,
+          "summary": "将关怀写成连续的故事：《崩坏：星穹铁道》公益行动第三站聚焦心理健康。",
+          "summary_source": "rules"
+        }
+      ]
+    },
     {
       "date": "2026-11-07",
       "article_count": 1,
@@ -186,47 +203,6 @@
           "count": 1,
           "summary": "《星布谷地》定档12月4日正式公测，首曝温馨星球生活玩法与多重上线福利。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "article_count": 8,
-      "game_count": 5,
-      "untagged_count": 3,
-      "digest": "Arm与Sumo联合开发的《光影新生》开放下载，Unity中国团结引擎1.11.0原生集成Arm神经超级采样技术；Cygames新作《崩落之国》定档11月5日登陆多平台；集英社游戏宣布瑞典Apog Labs开发的《异星遗航》于10月30日在Steam开启抢先体验，支持1-4人在线合作，国区定价93元。",
-      "digest_source": "llm",
-      "input_hash": "dd7a7a3f1ad6e91a",
-      "game_digests": [
-        {
-          "name": "光影新生",
-          "count": 1,
-          "summary": "Arm神经网络技术实现落地，Unity中国团结引擎1.11.0原生集成Arm神经超级采样（NSS）技术，降低手游开发者应用门槛；Arm与Sumo联合开发的《光影新生》开放下载，可在搭载Arm Mali G2-Ultra NX GPU的移动设备运行。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺客信条",
-          "count": 1,
-          "summary": "育碧发布《刺客信条》2026秋季更新。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "合十",
-          "count": 1,
-          "summary": "飞鱼推出地府题材Q版模拟经营游戏《合十》，底层逻辑接近《造化仙府》，含经营建造、卡牌割草战斗、双轨养成玩法，画风有辨识度，前期偏平缺少记忆点。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "崩落之国",
-          "count": 1,
-          "summary": "Cygames公布主打中小规模开发的新品牌CygamesEdge，其首款动作冒险游戏《崩落之国》定档11月5日登陆多平台，Fami通专访了身兼品牌及该作制作人的滨田修一郎。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "异星遗航",
-          "count": 1,
-          "summary": "集英社游戏宣布瑞典Apog Labs开发的空岛探索冒险游戏《异星遗航》于2026年10月30日在Steam开启抢先体验，支持1-4人在线合作，国区定价93元，首发两周9折。",
-          "summary_source": "llm"
         }
       ]
     }

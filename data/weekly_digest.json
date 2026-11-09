@@ -1,47 +1,41 @@
 {
-  "generated_at": "2026-11-02T01:46:02.615062+00:00",
-  "week_start": "2026-10-26",
-  "week_end": "2026-11-01",
-  "article_count": 2234,
-  "game_count": 246,
-  "digest": "上周游戏行业资讯总数达2234条，涉及246款游戏，其中米哈游新作《星布谷地》热度领跑，官宣定于12月4日登陆PC及移动端，首曝温馨星球生活玩法与多重上线福利，预约量达153万。国产动作游戏《影之刃零》热度紧随其后，Steam峰值超77万创今年单人游戏新高，开发成本被曝达3-4亿元，媒体评分已超《黑神话》，外媒称其对动作老手偏简单，66天难度未解，且国外玩家已无伤击败隐藏Boss甄子丹。备受期待的《GTA6》热度位列第三，玩家考据称其部分建筑原型来自佐治亚州，收录超170种动物，并时隔十八年将踏板车兄弟梗改为实用功能。此外，国产虚幻5新作《白银之城》官宣定档12月14日全球同步上线，支持PS5 Pro强化；《怪物猎人：旅人》登陆双移动平台，10月29日正式上线，首发开放七类武器；《原神》桑多涅与八重神子1/8手办造型公开；育碧暂缓《刺客信条》重制项目，全力转向《女巫》等新作。",
+  "generated_at": "2026-11-09T02:00:40.108832+00:00",
+  "week_start": "2026-11-02",
+  "week_end": "2026-11-08",
+  "article_count": 2177,
+  "game_count": 237,
+  "digest": "上周（2026年11月2日至11月8日）行业共产生四源新闻2177条，涉及游戏237款，未指向具体游戏577条。综合热度榜中，《星布谷地》预约量达162万且榜单热度领先，规划登陆Switch 2，《影之刃零》发布多条分析及优化资讯，反映其热度持续走高，战斗升级与官方优化成为核心驱动力；《无限大》预约量392万位居前列，关注度较高；《蓝色星原：旅谣》预约量263万榜单热度高；《饥困荒野》预约量247万榜单热度领先；《GTA6》热度极高，相关报道涉及片尾字幕时长、实体包装盒流出、开发者规模、玩家情感以及对Xbox版缺失的争议，热度表现突出；《匹配大师》预约量49万榜单热度较高；《幻想之都的黑猫》预约量20万榜单热度明显；《塞尔达传说：时之笛》重制版多条资讯显示玩家技巧讨论与引擎兼容性讨论、实机演示及曲目收录信息不断落地，持续引发关注；《原神》近期公布新角色立绘设定，并获出海IP长红评价，热度稳步提升。整体来看，多数上榜游戏围绕玩法升级、内容规划、市场反馈及发行优化等方向展开动态，行业热度主要集中在具备深厚基础、多维度传播矩阵的内容型游戏，相关动态对产业判断具有参考价值。",
   "digest_source": "llm",
   "heat_formula": "热度 = 资讯量 30% + 跨源覆盖 15% + 预约量 18% + 社区（周内新增关注/评价/讨论）15% + TapTap 榜单名次 12% + 官方动态 7% + 评测讨论 3%；各项先对数归一（资讯满格 200 条），缺测的维度计 0、不倒扣，满分 100。",
-  "input_hash": "91612829857ea882",
+  "input_hash": "efed931258d1c64e",
   "hot_ranking": [
     {
       "rank": 1,
       "name": "星布谷地",
-      "heat_score": 53.5,
-      "media_count": 4,
-      "source_count": 4,
-      "reservation_label": "153万",
-      "follow_delta_label": null,
-      "best_rank": 2,
+      "heat_score": 51.3,
+      "media_count": 1,
+      "source_count": 1,
+      "reservation_label": "162万",
+      "follow_delta_label": "9万",
+      "best_rank": 5,
       "rank_lists": [
         "reserve"
       ],
       "official_count": 0,
       "news": [
         {
-          "title": "《星布谷地》定档12月4日正式公测，首曝温馨星球生活玩法与多重上线福利",
-          "url": "http://www.gamelook.com.cn/2026/11/605230/",
-          "source": "GameLook",
-          "published_at": "2026-11-01"
-        },
-        {
-          "title": "《星布谷地》定档12月4日正式公测，首曝温馨星球生活玩法与多重上线福利",
-          "url": "https://www.gameres.com/901203418.html",
-          "source": "游资网",
-          "published_at": "2026-11-01"
+          "title": "米哈游生活模拟游戏《星布谷地》将于2027年登陆Switch 2",
+          "url": "https://www.3dmgame.com/news/202611/3958582.html",
+          "source": "3DMGame",
+          "published_at": "2026-11-02"
         }
       ]
     },
     {
       "rank": 2,
       "name": "影之刃零",
-      "heat_score": 49.8,
-      "media_count": 482,
+      "heat_score": 48.8,
+      "media_count": 288,
       "source_count": 5,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -50,28 +44,28 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《影之刃零》Steam销量预估破200万份!日均在线33万",
-          "url": "https://www.gamersky.com/news/202611/2238535.shtml",
+          "title": "《影之刃零》首个更新竟没削超模轮椅!你人还挺好的",
+          "url": "https://www.gamersky.com/news/202611/2242683.shtml",
           "source": "游民星空",
-          "published_at": "2026-11-01"
+          "published_at": "2026-11-08"
         },
         {
-          "title": "沙宝亮献唱《影之刃零》！片尾曲、原声曲辑明日上线",
-          "url": "https://www.gamersky.com/news/202611/2238588.shtml",
+          "title": "《影之刃零》Steam预估销量310万份！国区占8成",
+          "url": "https://www.gamersky.com/news/202611/2242668.shtml",
           "source": "游民星空",
-          "published_at": "2026-11-01"
+          "published_at": "2026-11-08"
         }
       ]
     },
     {
       "rank": 3,
       "name": "无限大",
-      "heat_score": 42.5,
+      "heat_score": 43.4,
       "media_count": 0,
       "source_count": 0,
-      "reservation_label": "387万",
-      "follow_delta_label": "3万",
-      "best_rank": 5,
+      "reservation_label": "392万",
+      "follow_delta_label": "5万",
+      "best_rank": 4,
       "rank_lists": [
         "reserve"
       ],
@@ -81,12 +75,12 @@
     {
       "rank": 4,
       "name": "蓝色星原：旅谣",
-      "heat_score": 42.1,
+      "heat_score": 41.3,
       "media_count": 0,
       "source_count": 0,
-      "reservation_label": "260万",
-      "follow_delta_label": "4万",
-      "best_rank": 8,
+      "reservation_label": "263万",
+      "follow_delta_label": "3万",
+      "best_rank": 10,
       "rank_lists": [
         "reserve"
       ],
@@ -96,11 +90,11 @@
     {
       "rank": 5,
       "name": "饥困荒野",
-      "heat_score": 41.7,
+      "heat_score": 41.0,
       "media_count": 0,
       "source_count": 0,
-      "reservation_label": "244万",
-      "follow_delta_label": "5万",
+      "reservation_label": "247万",
+      "follow_delta_label": "3万",
       "best_rank": 11,
       "rank_lists": [
         "reserve"
@@ -111,8 +105,8 @@
     {
       "rank": 6,
       "name": "GTA6",
-      "heat_score": 39.5,
-      "media_count": 147,
+      "heat_score": 40.9,
+      "media_count": 188,
       "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -121,75 +115,55 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《GTA6》即将发售NBA已79人受伤！都想回家打游戏?",
-          "url": "https://www.gamersky.com/news/202611/2238554.shtml",
+          "title": "《GTA6》未发售玩家就沦陷了！担心深深爱上女主",
+          "url": "https://www.gamersky.com/news/202611/2242542.shtml",
           "source": "游民星空",
-          "published_at": "2026-11-01"
+          "published_at": "2026-11-07"
         },
         {
-          "title": "《GTA6》将于本月正式发售！跳票两次 苦等13年",
-          "url": "https://www.gamersky.com/news/202611/2238547.shtml",
-          "source": "游民星空",
-          "published_at": "2026-11-01"
+          "title": "女主魅力太强！《GTA6》未上线 玩家已经对露西亚动心",
+          "url": "https://www.ali213.net/news/html/2026-11/1052801.html",
+          "source": "游侠网",
+          "published_at": "2026-11-07"
         }
       ]
     },
     {
       "rank": 7,
-      "name": "原神",
-      "heat_score": 34.4,
-      "media_count": 4,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": 17,
-      "rank_lists": [
-        "hot"
-      ],
-      "official_count": 12,
-      "news": [
-        {
-          "title": "米哈游新作官宣登陆NS2！6年前的《原神》不见踪影",
-          "url": "https://www.gamersky.com/news/202611/2238741.shtml",
-          "source": "游民星空",
-          "published_at": "2026-11-01"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "name": "白银之城",
-      "heat_score": 30.6,
-      "media_count": 3,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": 3,
+      "name": "匹配大师",
+      "heat_score": 37.6,
+      "media_count": 0,
+      "source_count": 0,
+      "reservation_label": "49万",
+      "follow_delta_label": "1万",
+      "best_rank": 12,
       "rank_lists": [
         "reserve"
       ],
       "official_count": 0,
-      "news": [
-        {
-          "title": "国产虚幻5新作《白银之城》官宣定档！PS5页面上线 支持Pro强化",
-          "url": "https://www.gamersky.com/news/202610/2238301.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-31"
-        },
-        {
-          "title": "《白银之城》官宣定档12月14日，全球同步上线",
-          "url": "https://www.3dmgame.com/news/202610/3958500.html",
-          "source": "3DMGame",
-          "published_at": "2026-10-31"
-        }
-      ]
+      "news": []
+    },
+    {
+      "rank": 8,
+      "name": "幻想之都的黑猫",
+      "heat_score": 31.2,
+      "media_count": 0,
+      "source_count": 0,
+      "reservation_label": "20万",
+      "follow_delta_label": "1万",
+      "best_rank": 34,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": []
     },
     {
       "rank": 9,
-      "name": "刺客信条",
-      "heat_score": 29.1,
-      "media_count": 11,
-      "source_count": 4,
+      "name": "塞尔达传说：时之笛 重制版",
+      "heat_score": 31.0,
+      "media_count": 32,
+      "source_count": 3,
       "reservation_label": null,
       "follow_delta_label": null,
       "best_rank": null,
@@ -197,42 +171,44 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《刺客信条》2026秋季更新",
-          "url": "https://www.gameres.com/901203407.html",
-          "source": "游资网",
-          "published_at": "2026-10-30"
+          "title": "《塞尔达传说：时之笛 重制版》发售仅三天就惨遭移植 PS5和iPhone都能跑",
+          "url": "https://www.gamersky.com/news/202611/2242716.shtml",
+          "source": "游民星空",
+          "published_at": "2026-11-08"
         },
         {
-          "title": "Ubisoft发布《刺客信条》秋季更新视频预告系列新项目",
-          "url": "https://www.3dmgame.com/news/202610/3958304.html",
-          "source": "3DMGame",
-          "published_at": "2026-10-30"
+          "title": "《塞尔达传说：时之笛 重制版》午夜发售重现！零售店门前排起长龙",
+          "url": "https://www.gamersky.com/news/202611/2241377.shtml",
+          "source": "游民星空",
+          "published_at": "2026-11-05"
         }
       ]
     },
     {
       "rank": 10,
-      "name": "怪物猎人：旅人",
-      "heat_score": 29.1,
-      "media_count": 11,
-      "source_count": 4,
+      "name": "原神",
+      "heat_score": 30.9,
+      "media_count": 2,
+      "source_count": 2,
       "reservation_label": null,
       "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
+      "best_rank": 6,
+      "rank_lists": [
+        "hot"
+      ],
+      "official_count": 15,
       "news": [
         {
-          "title": "《怪物猎人：旅人》今日上线！首个SSR美女太刀侠",
-          "url": "https://www.gamersky.com/news/202610/2237302.shtml",
-          "source": "游民星空",
-          "published_at": "2026-10-29"
+          "title": "《原神》公布丹妮卡立绘与设定，宫廷女仆长暗中协调各方",
+          "url": "https://www.3dmgame.com/news/202611/3959246.html",
+          "source": "3DMGame",
+          "published_at": "2026-11-07"
         },
         {
-          "title": "《怪物猎人：旅人》登陆双移动平台！首发开放七类武器",
-          "url": "https://www.3dmgame.com/news/202610/3958185.html",
-          "source": "3DMGame",
-          "published_at": "2026-10-29"
+          "title": "《原神》获CPOPwave2026出海长红IP",
+          "url": "https://www.gameres.com/901203464.html",
+          "source": "游资网",
+          "published_at": "2026-11-04"
         }
       ]
     }

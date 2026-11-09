@@ -1,23 +1,208 @@
 {
-  "generated_at": "2026-11-08T01:25:15.175716+00:00",
+  "generated_at": "2026-11-09T01:45:34.196235+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-08",
-      "article_count": 1,
-      "game_count": 1,
-      "untagged_count": 0,
-      "digest": "11月8日游戏资讯聚焦于《塞尔达传说：时之笛》重制版，该作通过对比N64原版视频展示了画面升级，任天堂利用Switch 2硬件打造了这款终极版本，视频中使用了原版NTSC 1.0 N64卡带在Analogue 3D模拟器上运行，以呈现两个硬件时代的海拉鲁风貌。",
+      "date": "2026-11-09",
+      "article_count": 26,
+      "game_count": 17,
+      "untagged_count": 4,
+      "digest": "今日游戏资讯聚焦于《GTA6》实体包装细节、Epic启动器对Linux的支持计划以及《剑星》的销量数据。此外，小岛秀夫《Physint》的制作材料曝光，B社引擎争议再起，多款新作如《宝可梦：风与浪》及《战神》重制版也有新动向。",
       "digest_source": "llm",
-      "input_hash": "a2ac12da60be62ab",
+      "input_hash": "d23d60a8dd64908c",
       "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 5,
+          "summary": "英国零售商Smyths Toys页面显示实体代码盒将附带A3双面海报，购买者可支付20美元升级至终极版，游戏将于11月10日开放预载。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "堡垒之夜",
+          "count": 2,
+          "summary": "Epic计划让新版启动器支持SteamOS等Linux发行版，但《堡垒之夜》登陆Steam Deck仍需等待反作弊条件成熟。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "B社",
+          "count": 1,
+          "summary": "粉丝为创造引擎辩护，认为其核心优势在于大量可交互物件、状态持久保存及NPC日程系统，并指出虚幻引擎和RAGE引擎同样历史悠久。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Physint",
+          "count": 1,
+          "summary": "小岛工作室在东京展览中展示了超过150页的故事文档及概念图，文档封面印有“新冷战开始”标语，并涉及HUMINT、SIGINT和OSINT等情报术语。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴6",
+          "count": 1,
+          "summary": "外媒建议《上古卷轴6》应改进战斗、任务、经济与NPC设计，同时保留现有的地图探索逻辑，以解决《天际》设计老化的问题。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "刺客信条：女巫",
+          "count": 1,
+          "summary": "据爆料该作内部再次延期，推出时间或落在2028年前后，此前原创意总监Clint Hocking和游戏总监Benoit Richer已离职。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "Alinea Analytics估算该作在PS5与Steam平台的合计销量已达540万份，收入约为3.169亿美元，其中PS5版占收入59.7%。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "原神",
+          "count": 1,
+          "summary": "麦当劳官方X账号发布疑似联动预告，展示了三名与食物主题相关的角色剪影，引发玩家关于瓦雷莎、爱可菲和派蒙的猜测。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "哥斯拉：负零",
+          "count": 1,
+          "summary": "视效团队揭秘王者基多拉分阶段变形的制作难点，团队采用多人分工处理各个阶段的形态变化，并分别负责生物运动和特效。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达：时之笛 重制版",
+          "count": 1,
+          "summary": "奥日开发商Moon Studios创始人批评重制版保留了旧设计，认为在Switch2硬件条件下，原版空旷乏味的流程设计已不再适用。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "宝可梦：风与浪",
+          "count": 1,
+          "summary": "任天堂社长古川俊太郎表示本作将是Switch 2进入第三年时的关键作品，计划于2027年推出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "Mod作者发布4K材质包，将553张色彩贴图全部提升至4096×4096分辨率，并同步更新了953张法线贴图与遮罩贴图。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战地6",
+          "count": 1,
+          "summary": "一名巴西玩家因误封起诉EA并胜诉，该玩家表示自己未使用作弊程序或漏洞，申诉也未获解释，最终法院判决其胜诉。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战神",
+          "count": 1,
+          "summary": "爆料称圣莫尼卡工作室可能对《战神》希腊三部曲重制版进行大规模重新构想，不仅升级画质，还计划调整镜头、关卡设计及叙事节奏，甚至引入新战斗系统。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "泥脸",
+          "count": 1,
+          "summary": "DC电影《泥脸》全球票房突破1亿美元，预计第三周末累计达1.09亿美元，北美贡献5660万美元，其他国际市场贡献5240万美元。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "article_count": 26,
+      "game_count": 15,
+      "untagged_count": 5,
+      "digest": "2026年11月8日，行业资讯整体呈现多线并行态势，游戏类动态涵盖制作规模讨论、赛事晋级进展、系列纪念与周边发布及商业化调整等多方面内容，产业关注度持续变化，相关报道覆盖15款游戏，未指向具体游戏的新闻共5条。",
+      "digest_source": "llm",
+      "input_hash": "0f27a0999b32463f",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "传《GTA6》片尾字幕或超80分钟 开发者逾4000人；《GTA6》PS5实体包装盒提前流出 无盘设计昭示无碟时代来临；GTA6宣发热度持续高涨 玩家纷纷担忧爱上女主角露西娅（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战犬",
+          "count": 2,
+          "summary": "《战犬》第3赛季11月12日上线，新增地图、模式与反作弊系统；《战犬》第三赛季推出新地图新模式 封禁18.5万违规账号。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "英雄联盟",
+          "count": 2,
+          "summary": "《英雄联盟》2026全球总决赛 GEN零封IG率先晋级决赛；S16半决赛GEN 3:0轻取IG，BLG对决T1冲击总决赛。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "质量效应",
+          "count": 2,
+          "summary": "《质量效应》N7日纪念周边 限量海报与T恤发布；N7日粉丝前员工政界联手 为《质量效应》未来发声。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "上古卷轴6：哨兵",
+          "count": 1,
+          "summary": "《上古卷轴6：哨兵》需优化两点 天际首席设计师建言。",
+          "summary_source": "rules"
+        },
         {
           "name": "塞尔达传说：时之笛",
           "count": 1,
-          "summary": "《塞尔达传说：时之笛》重制版对比N64原版，画面全面升级，任天堂利用Switch 2硬件打造了这款终极版本，视频中使用了原版NTSC 1.0 N64卡带在Analogue 3D模拟器上运行，以呈现两个硬件时代的海拉鲁风貌。",
-          "summary_source": "llm"
+          "summary": "《塞尔达传说：时之笛》重制版对比N64原版，画面全面升级。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达：时之笛 重制版",
+          "count": 1,
+          "summary": "时之笛重制版终结争议 僵尸鬼是尸体而非黏土造物。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "日媒分析《影之刃零》为何爆火 华丽武打和多样武器是关键。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "星球大战：零号连队",
+          "count": 1,
+          "summary": "《星球大战：零号连队》开发商复工一月后启动裁员。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "暗喻幻想",
+          "count": 1,
+          "summary": "《暗喻幻想》开发商明日将公布新消息 粉丝跪求剧情DLC。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "流放之路2",
+          "count": 1,
+          "summary": "《流放之路2》圣堂武僧将是魔剑士玩法 野蛮人专注于独特武器斧。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "深空当铺：可能是偷的",
+          "count": 1,
+          "summary": "《深空当铺：可能是偷的》Steam好评如潮 在线峰值超17万。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "罗马野猪",
+          "count": 1,
+          "summary": "《罗马野猪》融合跑酷与滑行动作，玩家可自由选择关卡路线。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "质量效应3",
+          "count": 1,
+          "summary": "N7日献礼 粉丝为传奇版还原《质量效应3》多人模式。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "质量效应：传奇版",
+          "count": 1,
+          "summary": "《质量效应：传奇版》N7节 Steam峰值达10380人。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -825,107 +1010,6 @@
           "name": "寂静岭：小镇陷落",
           "count": 1,
           "summary": "游戏上市首月销量突破40万份，尽管未发售即遭破解，但实体版已售罄，且恐怖游戏品类在Steam上的收入较去年增长17%。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "article_count": 153,
-      "game_count": 115,
-      "untagged_count": 16,
-      "digest": "10月30日游戏行业资讯聚焦于《GTA6》流程时长的媒体估算、《影之刃零》的高昂研发成本与冯骥的寄语，以及《刺客信条》系列负责人对重制三代的个人兴趣。此外，《缄默祸运》登陆多平台并官宣电影改编，《使命召唤：现代战争4》推出万圣节附身模式，TES逆转BLG晋级《英雄联盟》全球总决赛八强，讲谈社死亡游戏ADV《BUZZ or DIE》今日发售。",
-      "digest_source": "llm",
-      "input_hash": "413190c527b0b94c",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 7,
-          "summary": "Insider Gaming估算《GTA6》主线流程需60至70小时，完成所有内容可能耗时100至300小时，该数据参考了Rockstar North高级开发负责人Rob Nelson的80小时体验及《侠盗猎车手5》与《荒野大镖客：救赎2》的完成时间。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 6,
-          "summary": "国产3A武侠动作游戏《影之刃零》正式发售，总研发成本在3亿至4亿元之间，对比《黑神话：悟空》的4亿元成本，冯骥发文祝贺并分享了对单机游戏与审美大模型的观点。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺客信条",
-          "count": 3,
-          "summary": "育碧《刺客信条》系列内容负责人Jean Guesdon表示个人希望重制《刺客信条3》，认为其故事基础强但玩法需重新设计，不过育碧目前并无活跃的重制项目。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "缄默祸运",
-          "count": 3,
-          "summary": "第一人称恐怖游戏《缄默祸运》登陆PS5、PS4、Switch、Xbox Series X|S及PC平台，同步加入Xbox Game Pass，Steam版限时6折，并官宣由索尼影业旗下Screen Gems筹备电影改编。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 2,
-          "summary": "《使命召唤：现代战争4》新增万圣节主题“附身”模式，玩家击杀对手后可附身并传送至对方位置，游戏在对应播放列表中加入“非军事模拟内容”提示。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "女王魔域",
-          "count": 2,
-          "summary": "动作冒险游戏《女王魔域》在Steam发售，制作人Jean-Luc Seipke分享游玩体验，称前10小时仅完成约5%进度，游戏采用精美复古画面。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "孤山独影",
-          "count": 2,
-          "summary": "《孤山独影》首个免费DLC《循迹识踪：深水》登陆PC与PS5，新增三类攀登环境及自由漫游模式，官方开启发售以来力度最大的七折销售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "我的世界",
-          "count": 2,
-          "summary": "《我的世界》推出RTX Remix 1.6，Java版1.21.1获得完整路径追踪支持，PC版《影之刃零》支持光线追踪、路径追踪及DLSS 4.5。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战争机器：事变日",
-          "count": 2,
-          "summary": "分析师称《战争机器：事变日》维持主机独占未能提振Xbox Series X|S硬件销量，英国市场销量下降22%，美国市场数据亦无增长。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "英雄联盟",
-          "count": 2,
-          "summary": "TES在《英雄联盟》全球总决赛瑞士轮以2比1逆转BLG晋级八强，369交出8/4/14的KDA，JackeyLove在第二局关键团战中帮助队伍翻盘。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "马里奥赛车：世界",
-          "count": 2,
-          "summary": "数据挖掘发现《马里奥赛车：世界》文件中出现8名疑似废弃车手记录，包括咚咚、乌贼、忍者等，但文件数据不能证明相关角色将通过DLC加入。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Apex英雄",
-          "count": 1,
-          "summary": "《Apex英雄》将于11月3日推出“Cipher”更新，辅助手枪新增双持玩法，命脉复活护盾也将回归。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Apex英雄：破译天机",
-          "count": 1,
-          "summary": "《Apex英雄：破译天机》将于11月3日上线，密客玩法重塑为主动搜集情报，其无人侦察机改为电池供能。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "BAKUDO",
-          "count": 1,
-          "summary": "集英社宣布动作游戏《BAKUDO》确定登陆Nintendo Switch 2平台，并在“Indie World 2026.10.28”中亮相，公开了聚焦学园生活的预告片。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "BUZZ or DIE",
-          "count": 1,
-          "summary": "讲谈社死亡游戏ADV《BUZZ or DIE》今日在Steam发售，玩家需制作短视频对抗对手以避免处刑，首发限时八折优惠。",
           "summary_source": "llm"
         }
       ]
