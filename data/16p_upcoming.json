@@ -1,33 +1,28 @@
 {
-  "crawled_at": "2026-11-09T01:37:03.032155+00:00",
+  "crawled_at": "2026-11-10T04:03:02.373326+00:00",
   "days": [
     {
-      "date": "2026-11-09",
-      "date_label": "11月09日 今天",
+      "date": "2026-11-10",
+      "date_label": "11月10日 今天",
       "games": [
         {
-          "game_name": "经典小游戏",
+          "game_name": "吾辈小熊猫",
           "categories": [
-            "TapTap制造",
-            "益智",
-            "竖屏",
-            "休闲",
-            "极简"
+            "宠物",
+            "收集",
+            "可爱",
+            "合成",
+            "模拟经营",
+            "休闲"
           ],
-          "score": null,
-          "release_date": "2026-11-09",
+          "score": "9.1",
+          "release_date": "2026-11-10",
           "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1962146.html",
-          "publisher": "露雨游戏",
+          "detail_url": "https://www.16p.com/1961814.html",
+          "publisher": "广州喜势网络科技有限公司",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "date_label": "11月10日 明天",
-      "games": [
+        },
         {
           "game_name": "幻想之都的黑猫",
           "categories": [
@@ -57,6 +52,25 @@
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1950331.html",
           "publisher": "郑州游梦想科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "date_label": "11月11日 明天",
+      "games": [
+        {
+          "game_name": "反相之地",
+          "categories": [
+            "休闲"
+          ],
+          "score": null,
+          "release_date": "2026-11-11",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1961818.html",
+          "publisher": "壹拾壹工作室",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }
@@ -98,7 +112,7 @@
           "release_date": "2026-11-13",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1946025.html",
-          "publisher": "云欣谷网络",
+          "publisher": "Hangzhou Yunxingu Network Technology Co., Ltd.",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }
@@ -123,23 +137,26 @@
           "publisher": "SKY工作室",
           "is_major_publisher": false,
           "has_afk_grinding_tag": true
-        },
+        }
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "date_label": "11月16日 下周一",
+      "games": [
         {
-          "game_name": "魔法奇录",
+          "game_name": "渊环",
           "categories": [
             "角色扮演",
-            "刷宝",
-            "MMORPG",
-            "多人联机",
-            "探索"
+            "刷宝"
           ],
-          "score": "7.8",
-          "release_date": "2026-11-14",
+          "score": "7.9",
+          "release_date": "2026-11-16",
           "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1955516.html",
-          "publisher": "上海灞玩网络科技有限公司",
+          "detail_url": "https://www.16p.com/1952915.html",
+          "publisher": "巫师协会",
           "is_major_publisher": false,
-          "has_afk_grinding_tag": true
+          "has_afk_grinding_tag": false
         }
       ]
     }

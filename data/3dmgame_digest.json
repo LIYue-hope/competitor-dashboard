@@ -1,107 +1,208 @@
 {
-  "generated_at": "2026-11-09T01:45:34.196235+00:00",
+  "generated_at": "2026-11-10T04:14:57.414165+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-09",
-      "article_count": 26,
-      "game_count": 17,
+      "date": "2026-11-10",
+      "article_count": 82,
+      "game_count": 51,
       "untagged_count": 4,
-      "digest": "今日游戏资讯聚焦于《GTA6》实体包装细节、Epic启动器对Linux的支持计划以及《剑星》的销量数据。此外，小岛秀夫《Physint》的制作材料曝光，B社引擎争议再起，多款新作如《宝可梦：风与浪》及《战神》重制版也有新动向。",
+      "digest": "2026年11月10日，行业资讯总量达3DMGame 82条、涉及游戏51款，整体围绕游戏开发、平台动态及热门产品进展展开，多条聚焦核心产品技术、玩法创新、玩家表现与发售规划，行业热度聚焦主流及趋势性游戏动态。",
       "digest_source": "llm",
-      "input_hash": "d23d60a8dd64908c",
+      "input_hash": "d73550319f346b22",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 5,
-          "summary": "英国零售商Smyths Toys页面显示实体代码盒将附带A3双面海报，购买者可支付20美元升级至终极版，游戏将于11月10日开放预载。",
-          "summary_source": "llm"
+          "count": 18,
+          "summary": "《GTA6》背后公司CEO称爆款仍依赖人类创造力！；《GTA6》日本版容量少约1.1GB 官方尚未说明差异；《GTA6/侠盗猎车6》防剧透指南梳理关键词过滤与账号设置（当天共 18 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说：时之笛",
+          "count": 4,
+          "summary": "《塞尔达传说：时之笛》玩家用陶笛翻奏多首现实音乐！；外媒评《塞尔达传说：时之笛》重制版：出色却少了新鲜感！；《塞尔达传说：时之笛》上线后催生林克与短剧混搭梗图（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达：时之笛 重制版",
+          "count": 4,
+          "summary": "《塞尔达：时之笛 重制版》速通玩家发现无限跳与超级跳；《塞尔达：时之笛 重制版》取消自动跳跃 手动跳跃让老玩家频频落水；大神在为《塞尔达：时之笛重制版》PC版开发多人模式（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战锤40K：黑暗异端",
+          "count": 3,
+          "summary": "《战锤40K：黑暗异端》发售日宣传片 推荐3060Ti显卡；《战锤40K：黑暗异端》定档2027年1月28日发售；《战锤40K：黑暗异端》明年1月28日登陆主机与PC。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "上古卷轴5",
+          "count": 2,
+          "summary": "《上古卷轴5》设计师总结B社理念：以玩家体验作为核心；《上古卷轴5》首席设计师称陶德擅长简化复杂设计。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说：时之笛 重制版",
+          "count": 2,
+          "summary": "《塞尔达传说：时之笛 重制版》首周登顶英国销量榜！；《塞尔达传说：时之笛 重制版》文件出现神秘面具对白引发重制猜测。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Apex英雄",
+          "count": 1,
+          "summary": "《Apex英雄》×《哥斯拉》联动试玩：放射热线可摧毁优势据点。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA",
+          "count": 1,
+          "summary": "Take-Two CEO称《GTA》系列PC与主机体验已大致相同。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA7",
+          "count": 1,
+          "summary": "Take Two承诺：《GTA7》不会再让你等13年。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "VR战士：Crossroads",
+          "count": 1,
+          "summary": "玩家建议《VR战士：Crossroads》让影丸等四名旧角色回归。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "万智牌",
+          "count": 1,
+          "summary": "《万智牌》“星际迷航”首张公开签名卡为帕特里克·斯图尔特版皮卡德。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "上古卷轴5：天际",
+          "count": 1,
+          "summary": "陶德回顾《上古卷轴5：天际》取消预选职业的设计原因。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "任天堂明星大乱斗",
+          "count": 1,
+          "summary": "《任天堂明星大乱斗》制作人樱井政博正开发新作 暂无退休打算。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤",
+          "count": 1,
+          "summary": "乘客讨论《使命召唤》被误听为威胁 美国一航班一度疏散。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "侠盗猎车手：东京",
+          "count": 1,
+          "summary": "Rockstar前技术总监：《侠盗猎车手：东京》曾考虑交给日本团队开发！。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "article_count": 97,
+      "game_count": 69,
+      "untagged_count": 10,
+      "digest": "2026年11月9日行业动态密集，游戏资讯总量达97条，涉及游戏69款，未指向具体游戏的报道有10条。当日重点聚焦多款在售及即将发售游戏，包括《GTA6》PS5版安装容量披露、多部塞尔达作品重制进展、影之刃零热销及福利活动、El Shaddai棋类新玩法发布等，同时涉及B社引擎观点、独立游戏试玩与发布会等多领域动态，整体呈现游戏市场持续迭代与产品多元化发展态势。",
+      "digest_source": "llm",
+      "input_hash": "883a7add27ef27f0",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 11,
+          "summary": "消息称《GTA6》PS5版完整安装需223.088GB；《GTA6》新西兰开放预载 音频文件约占22GB；分析认为《GTA6》或难以长期主导日本销量榜（当天共 11 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达：时之笛 重制版",
+          "count": 4,
+          "summary": "《塞尔达：时之笛 重制版》用户评分9.6暂居历史首位；《塞尔达：时之笛 重制版》原生Windows移植方案发布 支持DLSS和FSR 3.1；《塞尔达：时之笛 重制版》成英国今年实体首发销量冠军（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说：时之笛",
+          "count": 3,
+          "summary": "万代南梦宫参与《塞尔达传说：时之笛》重制版视觉开发；《塞尔达传说：时之笛》重制版移除经典漏洞！首发又现技术问题；《塞尔达传说：时之笛》程序数据疑似暗示大师模式内容！。",
+          "summary_source": "rules"
         },
         {
           "name": "堡垒之夜",
           "count": 2,
-          "summary": "Epic计划让新版启动器支持SteamOS等Linux发行版，但《堡垒之夜》登陆Steam Deck仍需等待反作弊条件成熟。",
-          "summary_source": "llm"
+          "summary": "Epic新启动器计划支持SteamOS 《堡垒之夜》仍待反作弊条件成熟；Epic公开《堡垒之夜》海盗代币掉率回应玩家质疑。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达：时之笛",
+          "count": 2,
+          "summary": "《塞尔达：时之笛》重制版或追加“大师任务”付费DLC；尽管遭差评轰炸 但《塞尔达：时之笛》重制版仍创下Metacritic用户评分新高。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "《影之刃零》咪咕游戏热卖中，五重福利邀玩家共赴影境江湖；《影之刃零》4K材质包Mod发布 大量环境贴图升级。",
+          "summary_source": "rules"
         },
         {
           "name": "B社",
           "count": 1,
-          "summary": "粉丝为创造引擎辩护，认为其核心优势在于大量可交互物件、状态持久保存及NPC日程系统，并指出虚幻引擎和RAGE引擎同样历史悠久。",
-          "summary_source": "llm"
+          "summary": "粉丝为B社的创造引擎辩护：并非祖传烂引擎。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Daydream Drifters",
+          "count": 1,
+          "summary": "《Daydream Drifters》11月14日推出试玩版 正式版预计明年3月发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "El Shaddai: Zero Nine Reversi",
+          "count": 1,
+          "summary": "《El Shaddai: Zero Nine Reversi》新增在线模式 Steam版11月9日推。",
+          "summary_source": "rules"
         },
         {
           "name": "Physint",
           "count": 1,
-          "summary": "小岛工作室在东京展览中展示了超过150页的故事文档及概念图，文档封面印有“新冷战开始”标语，并涉及HUMINT、SIGINT和OSINT等情报术语。",
-          "summary_source": "llm"
+          "summary": "小岛秀夫《Physint》制作材料亮相 故事文档超150页。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "ROB RUN",
+          "count": 1,
+          "summary": "免费犯罪沙盒《ROB RUN》抢先体验后同时在线突破14万。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "SAMOPAL Protocol",
+          "count": 1,
+          "summary": "复古射击游戏《SAMOPAL Protocol》开放试玩 探索东欧风格死城。",
+          "summary_source": "rules"
         },
         {
           "name": "上古卷轴6",
           "count": 1,
-          "summary": "外媒建议《上古卷轴6》应改进战斗、任务、经济与NPC设计，同时保留现有的地图探索逻辑，以解决《天际》设计老化的问题。",
-          "summary_source": "llm"
+          "summary": "《上古卷轴6》该如何超越天际 取其精华去其糟粕！。",
+          "summary_source": "rules"
         },
         {
-          "name": "刺客信条：女巫",
+          "name": "今夜秀",
           "count": 1,
-          "summary": "据爆料该作内部再次延期，推出时间或落在2028年前后，此前原创意总监Clint Hocking和游戏总监Benoit Richer已离职。",
-          "summary_source": "llm"
+          "summary": "吉米·法伦在《今夜秀》试玩Switch 2版《塞尔达传说：时之笛》。",
+          "summary_source": "rules"
         },
         {
-          "name": "剑星",
+          "name": "任天堂明星大乱斗特别版",
           "count": 1,
-          "summary": "Alinea Analytics估算该作在PS5与Steam平台的合计销量已达540万份，收入约为3.169亿美元，其中PS5版占收入59.7%。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "原神",
-          "count": 1,
-          "summary": "麦当劳官方X账号发布疑似联动预告，展示了三名与食物主题相关的角色剪影，引发玩家关于瓦雷莎、爱可菲和派蒙的猜测。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "哥斯拉：负零",
-          "count": 1,
-          "summary": "视效团队揭秘王者基多拉分阶段变形的制作难点，团队采用多人分工处理各个阶段的形态变化，并分别负责生物运动和特效。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达：时之笛 重制版",
-          "count": 1,
-          "summary": "奥日开发商Moon Studios创始人批评重制版保留了旧设计，认为在Switch2硬件条件下，原版空旷乏味的流程设计已不再适用。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "宝可梦：风与浪",
-          "count": 1,
-          "summary": "任天堂社长古川俊太郎表示本作将是Switch 2进入第三年时的关键作品，计划于2027年推出。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "Mod作者发布4K材质包，将553张色彩贴图全部提升至4096×4096分辨率，并同步更新了953张法线贴图与遮罩贴图。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战地6",
-          "count": 1,
-          "summary": "一名巴西玩家因误封起诉EA并胜诉，该玩家表示自己未使用作弊程序或漏洞，申诉也未获解释，最终法院判决其胜诉。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战神",
-          "count": 1,
-          "summary": "爆料称圣莫尼卡工作室可能对《战神》希腊三部曲重制版进行大规模重新构想，不仅升级画质，还计划调整镜头、关卡设计及叙事节奏，甚至引入新战斗系统。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "泥脸",
-          "count": 1,
-          "summary": "DC电影《泥脸》全球票房突破1亿美元，预计第三周末累计达1.09亿美元，北美贡献5660万美元，其他国际市场贡献5240万美元。",
-          "summary_source": "llm"
+          "summary": "樱井政博发言称从未使用生成式AI开发游戏！但并未排斥。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -309,12 +410,12 @@
     },
     {
       "date": "2026-11-06",
-      "article_count": 128,
+      "article_count": 130,
       "game_count": 68,
-      "untagged_count": 24,
-      "digest": "2026年11月6日，游戏行业资讯整体围绕多款重点游戏动态展开，涵盖开放世界、重制版、联动、销量与商业化等多方向，相关资讯数量充足，行业焦点集中于多款核心作品的体验升级、销量表现及商业推进等方面。",
-      "digest_source": "llm",
-      "input_hash": "e72bd05fd84fb817",
+      "untagged_count": 26,
+      "digest": "11月6日 3DMGame 共 130 条新闻，涉及 68 款游戏。报道最集中的是《GTA6》（13 条）、《塞尔达：时之笛 重制版》（8 条）、《塞尔达传说：时之笛》（7 条）。另有 26 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "0f5db66efcb25630",
       "game_digests": [
         {
           "name": "GTA6",
@@ -910,107 +1011,6 @@
           "count": 1,
           "summary": "Alinea估算《血源诅咒》累计销量1040万份、收入3.17亿美元。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "article_count": 49,
-      "game_count": 36,
-      "untagged_count": 6,
-      "digest": "今日游戏资讯聚焦于《GTA6》的深度考据研究、万智牌与宝可梦的周边发售，以及《使命召唤：现代战争4》的反作弊成效。此外，小岛秀夫新作《Physint》概念机甲曝光，而《RuneScape》重启项目因玩家不满被取消，多款新游如《女王魔域》与《上帝保佑伯明翰》也迎来发售或测试。",
-      "digest_source": "llm",
-      "input_hash": "190da94a970a19d9",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 6,
-          "summary": "玩家考据称游戏建筑原型来自佐治亚州乡村聚落，地图研究社群通过比对预告片与截图，分析出拉莫克斯县可能混合了佛罗里达州北部、佐治亚州及兰普金县的地形特征。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "万智牌",
-          "count": 2,
-          "summary": "亚马逊开放“黑暗神书：命运”系列四套指挥官套牌预售，标准版售价299.96美元，收藏版售价639.96美元，将于2027年4月9日上市。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想14：银海之天舟",
-          "count": 2,
-          "summary": "官方公布新职业“迅风猎手”，该职业使用弩箭并携带名为“云鹰”的宠物鸟，在战斗中提供支援，并将于日本粉丝节正式亮相。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Physint",
-          "count": 1,
-          "summary": "小岛秀夫新作《Physint》展览曝光概念机甲，其造型酷似《合金装备》中的REX，该作被定位为《合金装备》的精神续作，比尔·斯卡斯加德将出演主角。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "RuneScape",
-          "count": 1,
-          "summary": "开发商Jagex宣布取消重启项目《RuneScape：重燃》，此前该计划因老玩家不满被边缘化而引发争议，官方随后致歉并保留现有游戏内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上帝保佑伯明翰",
-          "count": 1,
-          "summary": "中世纪僵尸生存游戏《上帝保佑伯明翰》第二次Beta测试将于11月3日开启，Steam测试不设保密协议，将首次加入最多四人合作功能。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤：现代战争4",
-          "count": 1,
-          "summary": "官方公布首周作弊举报数据，称本作收到的作弊举报少于《使命召唤：黑色行动7》，活跃外挂供应商数量也更少，反作弊现状“令人鼓舞”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影",
-          "count": 1,
-          "summary": "Game Boy Color版《古墓丽影》由《打捞》原型改造而来，美术师Matt Charlesworth回忆了开发过程，原版游戏被视为《波斯王子》《另一个世界》和《闪回》的三维演进。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "命运守护者",
-          "count": 1,
-          "summary": "抢先体验版推出首次功能更新，加入手柄支持并提高移动速度15%，同时调整了弓箭手精准度、Firespark法术射程及战斗反馈。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "咩咩启示录",
-          "count": 1,
-          "summary": "叙事负责人JoJo Zhou分享了留白式世界构建方法，强调通过减少即时答案和利用玩家考据来增强社区参与感，冬之神Yngya即由此设定衍生为DLC主角。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "女王魔域",
-          "count": 1,
-          "summary": "第一人称动作RPG《女王魔域》正式登陆PC及主机平台，游戏受《国王密令》启发，玩家需在尼亚西德岛寻找失踪父亲，通过强化圣剑进行立体探索。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "宝可梦传说 Z-A",
-          "count": 1,
-          "summary": "创作者Paige Powell耗时约200小时打造了一台约1.5米高的可游玩宝可梦主题Game Boy Color，该设备采用木材制成并还原了1999年限定版外观。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "宝可梦卡牌",
-          "count": 1,
-          "summary": "宝可梦公司公布“超级烈空坐ex高级赛事收藏盒”，将于2027年2月12日发售，核心内容为一张独有插画的超级烈空坐ex闪面宣传卡。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "宝可梦：Pokopia",
-          "count": 1,
-          "summary": "破解爱好者已在PS5上运行《宝可梦：Pokopia》，DualSense可控制角色，但因缺少着色器和纹理，画面仍存在严重错误。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "寂静岭：小镇陷落",
-          "count": 1,
-          "summary": "游戏上市首月销量突破40万份，尽管未发售即遭破解，但实体版已售罄，且恐怖游戏品类在Steam上的收入较去年增长17%。",
-          "summary_source": "llm"
         }
       ]
     }

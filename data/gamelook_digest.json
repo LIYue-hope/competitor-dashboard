@@ -1,17 +1,34 @@
 {
-  "generated_at": "2026-11-09T01:57:04.637169+00:00",
+  "generated_at": "2026-11-10T04:30:10.563898+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-09",
-      "article_count": 1,
+      "date": "2026-11-10",
+      "article_count": 7,
       "game_count": 1,
-      "untagged_count": 0,
-      "digest": "2026年11月9日共发布1条新闻，仅涉及游戏1款，相关动态为开发独立游戏《女王魔域》5天实现销量10万套，玩家反馈整体良好，未出现其他重要游戏动态。游戏名｜女王魔域｜该游戏发布后5天内实现销量10万套，呈现良好玩家反响，未涉及后续更新、发售等动态信息。",
+      "untagged_count": 6,
+      "digest": "11月10日GameLook共7条资讯，聚焦腾讯《金铲铲之战》赛事与平台升级。报道提及腾讯游戏副总裁出席西安发布会，宣布赛事加码升级及PC移动双线发力，旨在通过电竞与多端布局推动游戏发展。",
       "digest_source": "llm",
-      "input_hash": "70cf0d6393ec5978",
+      "input_hash": "7c43b77bf6efe99b",
+      "game_digests": [
+        {
+          "name": "金铲铲之战",
+          "count": 1,
+          "summary": "腾讯游戏副总裁出席西安发布会，宣布赛事加码升级及PC移动双线发力，旨在通过电竞与多端布局推动游戏发展。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "article_count": 7,
+      "game_count": 1,
+      "untagged_count": 6,
+      "digest": "11月9日 GameLook 共 7 条新闻，涉及 1 款游戏。报道最集中的是《女王魔域》（1 条）。另有 6 条未指向具体游戏的行业或平台资讯。《女王魔域》方面的报道有「“画面毛坯、关卡高能”！2人开发《女王魔域》5天爆卖10万套，玩家好评如潮」。",
+      "digest_source": "rules",
+      "input_hash": "e325135572b52d5a",
       "game_digests": [
         {
           "name": "女王魔域",
@@ -33,18 +50,18 @@
     },
     {
       "date": "2026-11-06",
-      "article_count": 10,
-      "game_count": 5,
+      "article_count": 11,
+      "game_count": 6,
       "untagged_count": 4,
-      "digest": "11月6日行业资讯聚焦于《影之刃零》发售一周后的市场表现与全球销量数据，米哈游新作《崩坏：因缘精灵》公布公测时间，Remedy Entertainment因腾讯投资公司营收飙升而获救，同时《战术小队》国服展台人气火爆，买断制游戏市场数据亦有所增长。",
-      "digest_source": "llm",
-      "input_hash": "093e43093b3ba85e",
+      "digest": "11月6日 GameLook 共 11 条新闻，涉及 6 款游戏。报道最集中的是《影之刃零》（2 条）、《PC与主机买断制游戏深度洞察》（1 条）、《崩坏：因缘精灵》（1 条）。另有 4 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "4c31a62eb01fe5b4",
       "game_digests": [
         {
           "name": "影之刃零",
           "count": 2,
-          "summary": "发售一周后热度不减，官方宣布72小时全平台销量突破400万份，第三方数据显示其国外销量表现优于国内。",
-          "summary_source": "llm"
+          "summary": "《影之刃零》之后，中国游戏要成为全球3A游戏的“XYZ”！；《影之刃零》销售数据报告：国外卖的居然比中国好，太神奇！。",
+          "summary_source": "rules"
         },
         {
           "name": "PC与主机买断制游戏深度洞察",
@@ -55,20 +72,26 @@
         {
           "name": "崩坏：因缘精灵",
           "count": 1,
-          "summary": "米哈游捉宠新作公布将于2027年春季公测，并定于11月25日开启先行测试。",
-          "summary_source": "llm"
+          "summary": "“抽卡终于不歪”！米哈游《崩坏：因缘精灵》明年春天就要上。",
+          "summary_source": "rules"
         },
         {
           "name": "战术小队",
           "count": 1,
-          "summary": "国服展台现场排起长龙，国际服运营十年仍需排队，引发玩家热议。",
-          "summary_source": "llm"
+          "summary": "国际服运营十年还能排队到爆，《战术小队》国服凭啥？。",
+          "summary_source": "rules"
         },
         {
           "name": "控制：共振",
           "count": 1,
-          "summary": "腾讯投资公司营收飙升226%，Remedy Entertainment借此获救，该作被视为其重要项目。",
-          "summary_source": "llm"
+          "summary": "腾讯投资公司Remedy营收飙升226%、利润仅60万欧：中国救了《控制:共振》。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "金铲铲之战",
+          "count": 1,
+          "summary": "共赴新局！《金铲铲之战》发布2027电竞升级计划，PC版下赛季见。",
+          "summary_source": "rules"
         }
       ]
     },

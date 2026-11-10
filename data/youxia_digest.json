@@ -1,136 +1,309 @@
 {
-  "generated_at": "2026-11-09T01:50:27.819549+00:00",
+  "generated_at": "2026-11-10T04:21:19.778996+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-09",
-      "article_count": 13,
-      "game_count": 6,
-      "untagged_count": 6,
-      "digest": "11月9日 游侠网 共 13 条新闻，涉及 6 款游戏。报道最集中的是《上古卷轴6》（2 条）、《NBA 2K》（1 条）、《刺客信条：女巫》（1 条）。另有 6 条未指向具体游戏的行业或平台资讯。另外还有《战神》（1 条）、《时之笛》（1 条）、《霍格沃茨之遗》（1 条）也有报道。",
-      "digest_source": "rules",
-      "input_hash": "04d6b107fb6ae9bc",
+      "date": "2026-11-10",
+      "article_count": 34,
+      "game_count": 16,
+      "untagged_count": 11,
+      "digest": "2026年11月10日，游戏行业整体呈现多新品发布与持续更新态势，涵盖主流大作、怀旧/派对/多人及版本更新等多类游戏动态，各游戏围绕发售、优化、销量及后续宣发等方面展开，整体动态丰富且持续推进。游戏名｜GTA6，当天围绕实体复刻超跑落地、防剧透指南推出及开发完成确认等动态展开，反映系列重磅续作在宣发与玩家内容服务层面的推进。游戏名｜1999TOKOYO Building，当天推出，同步上线常夜大厦新PV，聚焦怀旧恐怖冒险题材的新内容上线。游戏名｜GTA7，当天明确系列十三年来首款正统续作已确认开发完成，系列未来推进获CEO明确展望。游戏名｜丝之歌，当天公布实体版后续DLC全免费，最快2027年上线，拓展内容持续扩充。游戏名｜任天堂明星大乱斗，当天披露制作人正在进行新作开发，暂无退休计划，新项目尚未公布信息。游戏名｜嗨斗农场，当天PC版登陆，限时九折优惠，支持中文，体现派对种田游戏登陆及促销优化。游戏名｜塞尔达传说：时之笛重制版，当天出现无限跳与超级跳技巧，重制版跳跃机制升级，相关玩法突破显著。游戏名｜塞尔达时之笛RE，当天PC移植版可4K/60帧运行，同步上线多人MOD并完成测试，移植进展持续推进。游戏名｜塞尔达：时之笛，重制版上线后催生大量搞笑梗图，社交传播活跃。游戏名｜战锤40K：黑暗异端，当天确定定档发售，为第二款战锤40K IP CRPG，后续发售节点明确。游戏名｜生化奇兵4，当天确认仍在开发中且项目重回正轨，开发进程获官方表述确认。游戏名｜荒野大镖客2，当天财报披露累计销量达8900万份，距一亿里程碑差距已明确，销售数据形成。游戏名｜超级马力欧，当天公布耀西主题乐高积木套装，属18+系列，2027年推出但具体信息未披露。游戏名｜超英派遣中心，当天游戏市场表现突出，热度高企，开发商表示面临较大经营压力，后续内容推进受限。游戏名｜马里奥派对，当天推送超级马里奥派对新增版本，引入GameChat配合GameShare功能，拓展联机游玩路径。",
+      "digest_source": "llm",
+      "input_hash": "8f4037cc16403e66",
       "game_digests": [
         {
-          "name": "上古卷轴6",
-          "count": 2,
-          "summary": "外媒给《上古卷轴6》游戏设计提出建议：四改一留！；《上古卷轴6》还用祖传引擎？粉丝：是祖传 但并不烂。",
+          "name": "GTA6",
+          "count": 8,
+          "summary": "《GTA6》联名超跑落地！百万英镑法拉利现身伦敦；玩《GTA6》怕被剧透一脸？老外贴心推出防剧透指南！；《GTA6》确认开发完成！11月19日发售 宣发准备就绪（当天共 8 条）",
           "summary_source": "rules"
         },
         {
-          "name": "NBA 2K",
+          "name": "1999TOKOYO Building",
           "count": 1,
-          "summary": "谁说打游戏没用?NBA新秀竟然是靠《NBA 2K》学打球。",
+          "summary": "怀旧恐怖ADV《1999TOKOYO Building》今日发售，常夜大厦新PV同步上线！。",
           "summary_source": "rules"
         },
         {
-          "name": "刺客信条：女巫",
+          "name": "GTA7",
           "count": 1,
-          "summary": "曝《刺客信条:女巫》内部延期至2028年!再传开发不顺。",
+          "summary": "Take-Two老大：《GTA7》不会再让玩家等上13年了！。",
           "summary_source": "rules"
         },
         {
-          "name": "战神",
+          "name": "丝之歌",
           "count": 1,
-          "summary": "不止是高清!曝《战神》希腊三部曲重制 战斗玩法或大改。",
+          "summary": "《丝之歌》实体版后续DLC全部免费！最快2027年上线。",
           "summary_source": "rules"
         },
         {
-          "name": "时之笛",
+          "name": "任天堂明星大乱斗",
           "count": 1,
-          "summary": "《时之笛》英国首发销量超《旷野之息》登顶销量榜。",
+          "summary": "《任天堂明星大乱斗》制作人樱井政博正在开发神秘新作。",
           "summary_source": "rules"
         },
         {
-          "name": "霍格沃茨之遗",
+          "name": "嗨斗农场",
           "count": 1,
-          "summary": "DLSS5《霍格沃茨之遗》效果平淡 官方调校走向保守。",
+          "summary": "多人派对胡闹种田游戏《嗨斗农场》PC 版今日登陆 Steam，现享九折优惠，支持中文。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说：时之笛 重制版",
+          "count": 1,
+          "summary": "《塞尔达传说：时之笛 重制版》惊现无限跳与超级跳！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达时之笛RE",
+          "count": 1,
+          "summary": "《塞尔达时之笛RE》PC版可4K/60帧 多人MOD也有了。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达：时之笛",
+          "count": 1,
+          "summary": "《塞尔达：时之笛》重制版发售后 催生大量搞笑梗图。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战锤40K：黑暗异端",
+          "count": 1,
+          "summary": "《战锤40K：黑暗异端》正式定档：2027年1月28日发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "生化奇兵4",
+          "count": 1,
+          "summary": "T2老大确认《生化奇兵4》仍在开发中 项目已重回正轨！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "荒野大镖客2",
+          "count": 1,
+          "summary": "T2财报显示《荒野大镖客2》累计销量已达到8900万份！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "超级马力欧",
+          "count": 1,
+          "summary": "耀西主题《超级马力欧》乐高积木套装公布：竟然是18+。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "超英派遣中心",
+          "count": 1,
+          "summary": "《超英派遣中心》爆火！开发商：这下被自己套牢了。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "马里奥派对",
+          "count": 1,
+          "summary": "《马里奥派对》更新GameChat分享 没买游戏也能白嫖。",
           "summary_source": "rules"
         }
       ]
     },
     {
-      "date": "2026-11-08",
-      "article_count": 21,
-      "game_count": 12,
-      "untagged_count": 7,
-      "digest": "2026年11月8日，行业资讯整体处于游戏持续更新与营收动态并行的阶段，多款主流游戏动态更新或发售，其中多款游戏成绩与销量呈现显著进展，行业热度持续，覆盖游戏涵盖电竞、数值玩法、VR、机甲、经典移植及科幻题材等多个方向。",
+      "date": "2026-11-09",
+      "article_count": 85,
+      "game_count": 42,
+      "untagged_count": 24,
+      "digest": "临近发售，网传《GTA6》PS5主菜单BGM泄露引发热议，美国警方也借势调侃。国产游戏方面，《影之刃零》发售72小时销量破400万，模组创作活跃；《深空当铺》Steam在线峰值达15.2万。电竞领域，MOUZ以全胜战绩夺得IEM北京《CS2》冠军，BLG则淘汰T1晋级《LOL》世界赛决赛。",
       "digest_source": "llm",
-      "input_hash": "5b3ca1c240e9ba0a",
+      "input_hash": "94a0ad5dbbc0ba0d",
       "game_digests": [
         {
-          "name": "魔兽：无限",
-          "count": 3,
-          "summary": "《魔兽：无限》开服两天刷新多项历史纪录，社区在线峰值达百万，主打原创速通玩法，引发玩家对暴雪运营策略的讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Among Us",
-          "count": 1,
-          "summary": "美国未成年少女遭绑架逾521天后，在《Among Us》中成功求助并获救。",
-          "summary_source": "llm"
-        },
-        {
           "name": "GTA6",
-          "count": 1,
-          "summary": "PS5版《GTA6》实体包装曝光，盒内无光盘仅提供数字下载码，玩家需联网游玩，销售模式引发玩家关注。",
+          "count": 8,
+          "summary": "网传PS5主菜单BGM泄露引全网热议，美国警方借势调侃盼玩家宅家。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 7,
+          "summary": "发售72小时全平台销量突破400万，模组作者推出可操控BOSS角色。",
           "summary_source": "llm"
         },
         {
           "name": "上古卷轴6",
-          "count": 1,
-          "summary": "《上古卷轴6》副标题“哨兵”公布后，其是否成为Xbox主机独占的悬念未明，未获官方明确确认。",
+          "count": 2,
+          "summary": "外媒建议改进战斗与NPC设计，粉丝认为祖传引擎虽老但优势明显。",
           "summary_source": "llm"
         },
         {
-          "name": "堕落之主2",
-          "count": 1,
-          "summary": "《堕落之主2》确认推出PS5与Xbox实体光盘，虽销量占比较低，但预计2027年第一季度发售。",
+          "name": "恶魔城：贝尔蒙特的诅咒",
+          "count": 2,
+          "summary": "登顶Xbox美区第三方日销榜首，媒体评分83分。",
           "summary_source": "llm"
         },
         {
-          "name": "战神5",
-          "count": 1,
-          "summary": "第三方估算《战神5》营收达14亿美元，2026年持续热销，玩家热议其与《GTA6》的营收对比情况。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "收获日：Aces High",
-          "count": 1,
-          "summary": "《收获日：Aces High》VR版已发售，登录Meta Quest与PC（Steam VR）平台，玩家关注其跨平台体验表现。",
+          "name": "战狗",
+          "count": 2,
+          "summary": "第三赛季将于11月12日开启，因反作弊规则引发玩家争议。",
           "summary_source": "llm"
         },
         {
           "name": "时之笛",
-          "count": 1,
-          "summary": "《时之笛》重制版评分达9.7分，成为M站史上用户评分最高的游戏，尽管遭遇恶意差评仍维持高分。",
+          "count": 2,
+          "summary": "重制版英国首周销量比《旷野之息》高出35%，万代南梦宫参与视觉开发。",
           "summary_source": "llm"
         },
         {
           "name": "时之笛RE",
-          "count": 1,
-          "summary": "《时之笛RE》推出N64复古造型amiibo，将兼容旧amiibo，计划于2027年发售，受众聚焦情怀玩家。",
+          "count": 2,
+          "summary": "玩家发现无限跳跃漏洞通关，谷歌员工利用AI将其搬上iPhone。",
           "summary_source": "llm"
         },
         {
-          "name": "漫威蜘蛛侠2",
-          "count": 1,
-          "summary": "第三方估算《漫威蜘蛛侠2》总收入约86亿元，PS5为主要收入渠道，PC收入占比仅5.3%。",
+          "name": "深空当铺",
+          "count": 2,
+          "summary": "Steam同时在线人数峰值达15.2万，好评率97%，玩家数突破百万。",
           "summary_source": "llm"
         },
         {
-          "name": "漫威金刚狼",
+          "name": "007：初露锋芒",
           "count": 1,
-          "summary": "《漫威金刚狼》全新碟价格跌破150元，发售即大幅降价，玩家关注后续降价节奏。",
+          "summary": "免费序章上线，PC与Xbox玩家可零门槛体验。",
           "summary_source": "llm"
         },
         {
-          "name": "霍格沃茨之遗",
+          "name": "CS2",
           "count": 1,
-          "summary": "为庆祝DLSS 5登陆，英伟达推出限定抽奖，奖品为附带游戏主题定制贴膜的RTX 5090 Founders Edition。",
+          "summary": "MOUZ全胜问鼎IEM北京，整届赛事未失一图。",
           "summary_source": "llm"
+        },
+        {
+          "name": "Daydream Drifters",
+          "count": 1,
+          "summary": "肉鸽潜行恐怖游戏试玩版将于11月14日开放下载。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA三部曲终极版",
+          "count": 1,
+          "summary": "开启限时特惠，为《GTA6》发售造势。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "LOL",
+          "count": 1,
+          "summary": "BLG 3:1淘汰T1晋级决赛，Faker四连冠梦碎。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "NBA 2K",
+          "count": 1,
+          "summary": "新秀球员靠游戏学习打球，体育模拟游戏提供现实启发。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不义联盟",
+          "count": 1,
+          "summary": "俄罗斯Coser Kalinka Fox化身哈莉·奎茵。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "article_count": 48,
+      "game_count": 24,
+      "untagged_count": 18,
+      "digest": "2026年11月8日，当天的游戏资讯动态整体较为丰富，涵盖多款游戏的新媒体动态、发售信息、玩法创新及数据发布等，涉及游戏数量较多，多款新作进展引发关注，整体围绕游戏在发售、更新、挑战等方面展开讨论，相关动态对行业玩家与市场趋势有一定反映。",
+      "digest_source": "llm",
+      "input_hash": "65eeeece0805aca0",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "PS5《GTA6》实体版包装曝光！盒内无光盘 仅有下载码；细节暗藏玄机！《GTA6》这栋特殊大楼 被猜是特技挑战点；梦幻联动？传闻《GTA6》内置小游戏 可以体验大表哥2（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "魔兽：无限",
+          "count": 3,
+          "summary": "游侠早报：《魔兽无限》刷新纪录 《GTA6》实体送海报；《魔兽:无限》三天诞生首组满级玩家!绕开反速通设计；《魔兽:无限》开服两天刷三项纪录！社区热议百万在线。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "死亡搁浅",
+          "count": 2,
+          "summary": "游侠晚报：《死亡搁浅》七周年 《刺客信条》新作罗马；小岛纪念《死亡搁浅》发售七周年！玩家突破2800万。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "2077",
+          "count": 1,
+          "summary": "《2077》强开DLSS5效果感人！强尼快被AI优化成老头。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Among Us",
+          "count": 1,
+          "summary": "美国少女遭绑架521天！最后竟靠《Among Us》自救成功。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "PHYSINT",
+          "count": 1,
+          "summary": "爆！小岛秀夫新作《PHYSINT》剧本曝光 页数超150页。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "上古卷轴6",
+          "count": 1,
+          "summary": "陶德也不知道的结局！《上古卷轴6》是否独占XBOX。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "刺客信条",
+          "count": 1,
+          "summary": "曝育碧新作泄露！《刺客信条》聚焦古罗马与耶路撒冷。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "《剑星》真人广告被质疑AI生成 网友扒出模特本人打脸。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "堕落之主2",
+          "count": 1,
+          "summary": "良心！《堕落之主2》保留实体盘 不跟着索尼取消实体版本。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "堡垒之夜",
+          "count": 1,
+          "summary": "Epic公布《堡垒之夜》海盗代币掉落概率!仅百万分之七。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达",
+          "count": 1,
+          "summary": "《塞尔达》制作人道出任天堂成功的关键：不裁员！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "宝可梦大集结",
+          "count": 1,
+          "summary": "时代落幕！《宝可梦大集结》官宣明年停服 玩家感慨。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "看看你达到及格线没!《影之刃零》玩家通关平均23小时。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "战神5",
+          "count": 1,
+          "summary": "14亿营收到手！《战神5》战绩出炉 GTA6能不能超越它？。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -139,8 +312,8 @@
       "article_count": 57,
       "game_count": 21,
       "untagged_count": 22,
-      "digest": "11月7日 游侠网 共 57 条新闻，涉及 21 款游戏。报道最集中的是《GTA6》（10 条）、《影之刃零》（3 条）、《时之笛RE》（3 条）。另有 22 条未指向具体游戏的行业或平台资讯。另外还有《剑星》（2 条）、《Physint》（1 条）、《博德之门3》（1 条）也有报道。",
-      "digest_source": "rules",
+      "digest": "2026-11-07行业动态频发，涵盖游戏发行、内容更新、技术突破及销量波动等多领域，众多游戏陆续发布并产生显著市场影响，整体游戏产业热点持续活跃，多元游戏在发行迭代与市场竞争中展开新动态。游戏名｜GTA6：当日围绕游戏开发动态密集发布，涉及下载时长、分级政策、文化接入等话题，引发玩家关注并推动市场竞争，凸显该游戏在发行与传播层面的最新进展。游戏名｜影之刃零：围绕核心玩法优化与玩家体验争议展开，包括Boss战鉴赏、收集率修正、通关时长质疑等动态，反映玩家对游戏内容与表现的真实反馈。游戏名｜时之笛RE：涵盖版本功能、沉浸互动体验及媒体口碑等多维信息，相关评价与表现数据进一步体现作品的综合吸引力与玩家认可度。游戏名｜剑星：披露平台数据及开发进展，包含下载策略预测、平台收入占比、新作立项信息等，凸显游戏发行与市场反响的核心趋势。游戏名｜Physint：公布新作开发进展与风格定位，包含叙事体量、项目投向等信息，体现小岛秀夫新作在开发层面的规划动态。游戏名｜博德之门3：围绕角色氛围内容呈现相关分享，体现玩家对新作视觉与角色表现细节的关注。游戏名｜塞尔达传说：时之笛RE：披露作品发行时间及多维度数据表现，如M站评分、硬件适配情况等，反映作品的口碑与传播状态。游戏名｜塞尔达时之笛RE：介绍PC原生运行进展及技术限制，体现技术实现与生态拓展方向。游戏名｜宝可梦卡牌MEGA：公布联动卡牌与发售安排，明确内容内容及发售节点，反映卡牌创作与发行动态。游戏名｜宝可梦：风/波：呈现任天堂官方对未来新作定位与销量预期，体现主机产品战略方向的调整。游戏名｜故乡：围绕游戏商业表现与后续开发计划披露，包括新作立项信息，展现游戏市场成功案例与产品开发动态。游戏名｜星球大战：零号连队：披露作品销量数据与开发举措，涉及市场表现与运营变动，体现IP商业化与团队调整情况。游戏名｜武装突袭：重铸者：介绍DLC上线与内容更新动态，反映竞品动态调整与游戏内容迭代情况。游戏名｜流放之路2：公布新版本上线计划及发行策略，体现游戏发行节奏与玩家体验更新方向。游戏名｜漫威蜘蛛侠2：披露销量与收入数据及后续市场表现预期，反映游戏市场表现与运营趋势。",
+      "digest_source": "llm",
       "input_hash": "86a95480c478fc11",
       "game_digests": [
         {
@@ -838,107 +1011,6 @@
           "count": 1,
           "summary": "玩家因制作日本动漫角色“痛车”涂装遭下架甚至封禁账号。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "article_count": 55,
-      "game_count": 33,
-      "untagged_count": 16,
-      "digest": "2026年10月31日，游戏行业当日动态较为多元，涵盖多人开放世界开发进展、新作发售动态、游戏更新与修改修复、粉丝相关动态及大型品类市场表现等多维度内容，整体呈现不同产品在不同方向上的发展布局与动态更新情况。",
-      "digest_source": "llm",
-      "input_hash": "3c5791d3f0bb1a8b",
-      "game_digests": [
-        {
-          "name": "影之刃零",
-          "count": 4,
-          "summary": "《影之刃零》已出现成人裸露MOD！女角色褪去衣物；《影之刃零》M站玩家评分9.2分！评分最高国产游戏；《影之刃零》Steam升至特别好评！战斗媲美《只狼》（当天共 4 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GTA6",
-          "count": 3,
-          "summary": "《GTA6》确认栖息超170种动物：鳄鱼、海牛、恒河猴等；《GTA6》地图不止佛罗里达？Gay镇红砖建筑被扒出！；告别强制剧情束缚！《GTA6》教程结束就能自由探索地图。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "红色沙漠",
-          "count": 2,
-          "summary": "《红色沙漠》2.04.00补丁上线 沙漠复活恶性BUG已修；《红色沙漠》加密再被绕过 ARTIFACT跟进增强版补丁。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "HYPNOS",
-          "count": 1,
-          "summary": "克苏鲁风新作收官！《HYPNOS》1.0正式版现已上线Steam。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "上古卷轴4",
-          "count": 1,
-          "summary": "《上古卷轴4》粉丝重制Skyblivion遭前志愿者威胁！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "与狼同行",
-          "count": 1,
-          "summary": "官方确认：《与狼同行》重制版选择将继承至续作！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "军团要塞2",
-          "count": 1,
-          "summary": "《军团要塞2》更新：新锦标赛勋章+社区地图漏洞修复。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "刺客信条",
-          "count": 1,
-          "summary": "《刺客信条》重制项目暂停！育碧这一选择被指糟糕。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "卡莉亚的炼金工房",
-          "count": 1,
-          "summary": "吃啥变啥？《卡莉亚的炼金工房》首曝体型变化PV！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "堕落之主2",
-          "count": 1,
-          "summary": "《堕落之主2》获2860万欧元融资 12月公布具体发售日。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "大神",
-          "count": 1,
-          "summary": "《大神》续作开发压力太大 神谷英树无奈亲自喊话！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "宝可梦：朱/紫",
-          "count": 1,
-          "summary": "七星坑更新！《宝可梦：朱/紫》上线毒太晶三首恶龙挑战。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "寂静岭Townfall",
-          "count": 1,
-          "summary": "《寂静岭Townfall》光盘卖空 PS平台贡献近七成收入。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "战争机器2",
-          "count": 1,
-          "summary": "《战争机器2/3/审判》实现PC原生运行！支持5K与高帧。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "战神",
-          "count": 1,
-          "summary": "初代《战神》获得民间PC原生移植！支持宽屏与键鼠。",
-          "summary_source": "rules"
         }
       ]
     }
