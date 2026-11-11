@@ -1,22 +1,51 @@
 {
-  "generated_at": "2026-11-10T04:30:10.563898+00:00",
+  "generated_at": "2026-11-11T02:24:47.725416+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-10",
-      "article_count": 7,
-      "game_count": 1,
-      "untagged_count": 6,
-      "digest": "11月10日GameLook共7条资讯，聚焦腾讯《金铲铲之战》赛事与平台升级。报道提及腾讯游戏副总裁出席西安发布会，宣布赛事加码升级及PC移动双线发力，旨在通过电竞与多端布局推动游戏发展。",
+      "date": "2026-11-11",
+      "article_count": 5,
+      "game_count": 2,
+      "untagged_count": 3,
+      "digest": "当日 GameLook 发布 5 条新闻，共涉及 2 款游戏，其中 1 款为休闲手游新爆款《Cube Land》，年收入有望突破 1 亿美元；另 1 款为国产 3A 大作《影之刃零》，发售即引发热议，显示近期游戏市场仍出现多元化爆款与新动态，但具体报道内容及涉及细节需结合原文进一步梳理。",
       "digest_source": "llm",
-      "input_hash": "7c43b77bf6efe99b",
+      "input_hash": "c98875af77a49683",
       "game_digests": [
+        {
+          "name": "Cube Land",
+          "count": 1,
+          "summary": "休闲手游新爆款！《Cube Land》年收入有望破1亿美元，又是土耳其人？。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "《影之刃零》之后中国3A谁来扛？“人永远比钱重要 ”！。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "article_count": 8,
+      "game_count": 2,
+      "untagged_count": 6,
+      "digest": "2026年11月10日，游戏行业资讯聚焦于《ROBLOX》在10月全球手游收入榜登顶，以及腾讯《金铲铲之战》在西安举办发布会宣布电竞升级与PC端启航。此外，还有6条未指向具体游戏的行业动态。",
+      "digest_source": "llm",
+      "input_hash": "99eb0b7da5817df3",
+      "game_digests": [
+        {
+          "name": "ROBLOX",
+          "count": 1,
+          "summary": "10月全球手游收入与下载量排行榜TOP10：《ROBLOX》位居10月全球手游收入榜榜首。",
+          "summary_source": "llm"
+        },
         {
           "name": "金铲铲之战",
           "count": 1,
-          "summary": "腾讯游戏副总裁出席西安发布会，宣布赛事加码升级及PC移动双线发力，旨在通过电竞与多端布局推动游戏发展。",
+          "summary": "在西安举办的“金铲铲之战2027共赴新局：电竞升级·PC启航”发布会上，腾讯游戏副总裁、《金铲铲之战》中国总负责人宣布赛事加码升级、PC移动双线发力。",
           "summary_source": "llm"
         }
       ]
@@ -26,8 +55,8 @@
       "article_count": 7,
       "game_count": 1,
       "untagged_count": 6,
-      "digest": "11月9日 GameLook 共 7 条新闻，涉及 1 款游戏。报道最集中的是《女王魔域》（1 条）。另有 6 条未指向具体游戏的行业或平台资讯。《女王魔域》方面的报道有「“画面毛坯、关卡高能”！2人开发《女王魔域》5天爆卖10万套，玩家好评如潮」。",
-      "digest_source": "rules",
+      "digest": "2026年11月9日，当日GameLook发布7条新闻，共涉及1款游戏，其中未指向具体游戏的6条内容均有报道，其中《女王魔域》当日因5天爆卖10万套、玩家好评如潮而引发关注，展现独立游戏赛道凭借创新与竞争突围的进展，整体呈现游戏资讯以突出具体项目动态为核心的特点。",
+      "digest_source": "llm",
       "input_hash": "e325135572b52d5a",
       "game_digests": [
         {
@@ -43,8 +72,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "11月7日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「2026 CRL皇室战争全球总决赛明日上海收官，中国选手憾别里滩」。未指向具体游戏的内容占当天的 100%。",
-      "digest_source": "rules",
+      "digest": "2026年11月7日，GameLook共收录1条行业资讯，内容聚焦于游戏行业监管政策动态，未涉及具体游戏产品的发售、更新或运营信息。当天无指向具体游戏名称的报道，行业焦点集中在宏观政策层面。按报道条数排序的游戏（含代表性标题与摘要）：",
+      "digest_source": "llm",
       "input_hash": "e9457e1d0c36c670",
       "game_digests": []
     },
@@ -53,45 +82,45 @@
       "article_count": 11,
       "game_count": 6,
       "untagged_count": 4,
-      "digest": "11月6日 GameLook 共 11 条新闻，涉及 6 款游戏。报道最集中的是《影之刃零》（2 条）、《PC与主机买断制游戏深度洞察》（1 条）、《崩坏：因缘精灵》（1 条）。另有 4 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
+      "digest": "11月6日行业资讯聚焦于《影之刃零》发售一周后的销售表现与市场反响，米哈游新作《崩坏：因缘精灵》公布公测时间，腾讯《金铲铲之战》发布2027电竞升级计划。此外，Remedy Entertainment因《控制：共振》营收飙升，而《战术小队》国服展台人气火爆。",
+      "digest_source": "llm",
       "input_hash": "4c31a62eb01fe5b4",
       "game_digests": [
         {
           "name": "影之刃零",
           "count": 2,
-          "summary": "《影之刃零》之后，中国游戏要成为全球3A游戏的“XYZ”！；《影之刃零》销售数据报告：国外卖的居然比中国好，太神奇！。",
-          "summary_source": "rules"
+          "summary": "发售一周后热度不减，官方宣布72小时销量破400万，第三方数据显示其海外销量表现优于国内。",
+          "summary_source": "llm"
         },
         {
           "name": "PC与主机买断制游戏深度洞察",
           "count": 1,
-          "summary": "《PC与主机买断制游戏深度洞察》：买断制游戏收入同比增长5%。",
-          "summary_source": "rules"
+          "summary": "报告指出2026年上半年买断制游戏收入同比增长5%，销量指标与玩家游玩时长分布均出现变化。",
+          "summary_source": "llm"
         },
         {
           "name": "崩坏：因缘精灵",
           "count": 1,
-          "summary": "“抽卡终于不歪”！米哈游《崩坏：因缘精灵》明年春天就要上。",
-          "summary_source": "rules"
+          "summary": "米哈游捉宠新作公布将于2027年春季公测，并定于11月25日开启测试。",
+          "summary_source": "llm"
         },
         {
           "name": "战术小队",
           "count": 1,
-          "summary": "国际服运营十年还能排队到爆，《战术小队》国服凭啥？。",
-          "summary_source": "rules"
+          "summary": "国服展台现场排起长龙，国际服运营十年仍保持高人气，引发玩家排队热潮。",
+          "summary_source": "llm"
         },
         {
           "name": "控制：共振",
           "count": 1,
-          "summary": "腾讯投资公司Remedy营收飙升226%、利润仅60万欧：中国救了《控制:共振》。",
-          "summary_source": "rules"
+          "summary": "腾讯投资公司Remedy Entertainment营收飙升226%，公司财报显示中国市场拯救了该作。",
+          "summary_source": "llm"
         },
         {
           "name": "金铲铲之战",
           "count": 1,
-          "summary": "共赴新局！《金铲铲之战》发布2027电竞升级计划，PC版下赛季见。",
-          "summary_source": "rules"
+          "summary": "正式发布2027电竞升级计划，宣布PC版下赛季上线，并举办“共赴新局”发布会。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -238,23 +267,6 @@
           "count": 1,
           "summary": "微软宣布向全球约6万名员工提供自愿离职补偿方案，同时《魔兽世界》售卖房屋装饰道具，引发玩家关于此前承诺不卖钱的质疑。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "article_count": 1,
-      "game_count": 1,
-      "untagged_count": 0,
-      "digest": "2026年11月1日，当日仅发布1条新闻，涉及游戏1款，相关游戏为《星布谷地》。该游戏公开了温馨星球生活玩法与多重上线福利，明确了长线更新计划及公测庆典活动安排，整体内容围绕游戏玩法与公测筹备展开。",
-      "digest_source": "llm",
-      "input_hash": "9b3c122ee3588f14",
-      "game_digests": [
-        {
-          "name": "星布谷地",
-          "count": 1,
-          "summary": "《星布谷地》定档12月4日正式公测，首曝温馨星球生活玩法与多重上线福利。",
-          "summary_source": "rules"
         }
       ]
     }

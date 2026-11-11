@@ -1,107 +1,190 @@
 {
-  "generated_at": "2026-11-10T04:21:19.778996+00:00",
+  "generated_at": "2026-11-11T02:14:43.689706+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-10",
-      "article_count": 34,
-      "game_count": 16,
-      "untagged_count": 11,
-      "digest": "2026年11月10日，游戏行业整体呈现多新品发布与持续更新态势，涵盖主流大作、怀旧/派对/多人及版本更新等多类游戏动态，各游戏围绕发售、优化、销量及后续宣发等方面展开，整体动态丰富且持续推进。游戏名｜GTA6，当天围绕实体复刻超跑落地、防剧透指南推出及开发完成确认等动态展开，反映系列重磅续作在宣发与玩家内容服务层面的推进。游戏名｜1999TOKOYO Building，当天推出，同步上线常夜大厦新PV，聚焦怀旧恐怖冒险题材的新内容上线。游戏名｜GTA7，当天明确系列十三年来首款正统续作已确认开发完成，系列未来推进获CEO明确展望。游戏名｜丝之歌，当天公布实体版后续DLC全免费，最快2027年上线，拓展内容持续扩充。游戏名｜任天堂明星大乱斗，当天披露制作人正在进行新作开发，暂无退休计划，新项目尚未公布信息。游戏名｜嗨斗农场，当天PC版登陆，限时九折优惠，支持中文，体现派对种田游戏登陆及促销优化。游戏名｜塞尔达传说：时之笛重制版，当天出现无限跳与超级跳技巧，重制版跳跃机制升级，相关玩法突破显著。游戏名｜塞尔达时之笛RE，当天PC移植版可4K/60帧运行，同步上线多人MOD并完成测试，移植进展持续推进。游戏名｜塞尔达：时之笛，重制版上线后催生大量搞笑梗图，社交传播活跃。游戏名｜战锤40K：黑暗异端，当天确定定档发售，为第二款战锤40K IP CRPG，后续发售节点明确。游戏名｜生化奇兵4，当天确认仍在开发中且项目重回正轨，开发进程获官方表述确认。游戏名｜荒野大镖客2，当天财报披露累计销量达8900万份，距一亿里程碑差距已明确，销售数据形成。游戏名｜超级马力欧，当天公布耀西主题乐高积木套装，属18+系列，2027年推出但具体信息未披露。游戏名｜超英派遣中心，当天游戏市场表现突出，热度高企，开发商表示面临较大经营压力，后续内容推进受限。游戏名｜马里奥派对，当天推送超级马里奥派对新增版本，引入GameChat配合GameShare功能，拓展联机游玩路径。",
+      "date": "2026-11-11",
+      "article_count": 21,
+      "game_count": 12,
+      "untagged_count": 5,
+      "digest": "今日游戏行业资讯聚焦于《GTA6》的发售预热与云游戏支持，索尼确认其刷新PS商店预购纪录并开放预载，微软则宣布《GTA6》将登陆Xbox Cloud Gaming。此外，索尼取消服务型射击游戏《Fairgames》，Devolver Digital公布首款AAA游戏《全军出鸡》，任天堂《塞尔达：时之笛 重制版》获外媒好评，而《女神异闻录4RE》发售日推迟至2027年2月18日。",
       "digest_source": "llm",
-      "input_hash": "8f4037cc16403e66",
+      "input_hash": "c33493cdc7e1b185",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 8,
-          "summary": "《GTA6》联名超跑落地！百万英镑法拉利现身伦敦；玩《GTA6》怕被剧透一脸？老外贴心推出防剧透指南！；《GTA6》确认开发完成！11月19日发售 宣发准备就绪（当天共 8 条）",
-          "summary_source": "rules"
+          "count": 5,
+          "summary": "索尼确认《GTA6》已刷新PS商店历史预购纪录，游戏预载现已正式开放，实体盒装码版玩家在兑换码激活后同样可开启预载，游戏于11月19日采用按地区时区解锁机制。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Fairgames",
+          "count": 1,
+          "summary": "索尼宣布由Haven Studios开发的PvP射击游戏《Fairgames》终止开发，此前该游戏经过多次重做，但一场涉及数千名玩家的大规模测试未能达到预期。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "全军出鸡",
+          "count": 1,
+          "summary": "Devolver Digital正式公布了首款AAA游戏《ALL ARMY ATTACK!!!》，这是一款画风极其癫狂的大规模Roguelike自走棋，动植物将联合起来对抗宇宙威胁。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达：姆吉拉的假面",
+          "count": 1,
+          "summary": "爆料者Nick Baker称任天堂目前并未制作《塞尔达：姆吉拉的假面》重制版，该项目目前尚未进入制作阶段，但这一说法未获任天堂证实。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "女神异闻录4RE",
+          "count": 1,
+          "summary": "《女神异闻录4：重制版》总制作人透露游戏原计划2026年夏季发售，比当前确定的2027年2月18日提前约半年，团队曾希望尽可能早完成发行。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "怪猎：荒野",
+          "count": 1,
+          "summary": "SteamDB更新暗示《怪物猎人：荒野》DLC“凌越”或开放试玩，Capcom尚未公布具体发售日，仅确认将于2027年推出，其规模对标《崛起》的“曙光”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛：重制版",
+          "count": 1,
+          "summary": "《塞尔达：时之笛 重制版》在保留原作核心框架的基础上优化了整体表现，外媒评价任天堂精准把握了老玩家对经典作品的期待，相比Xbox和PlayStation更懂核心受众。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "植物大战僵尸重植版",
+          "count": 1,
+          "summary": "苹果公司宣布《植物大战僵尸：高清重植版》将登陆Apple Arcade，该服务将于12月3日上线4款游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "死亡搁浅2",
+          "count": 1,
+          "summary": "索尼公布11月PS+会员二/三档会免阵容，《死亡搁浅2》领衔。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "燕云",
+          "count": 1,
+          "summary": "网易两部大作《燕云》和《永劫》引发关注，网传两者存在“同门内讧”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "边缘行者2",
+          "count": 1,
+          "summary": "CD PROJEKT RED官方邀请北美知名coser miciaglo在意大利卢卡漫画游戏展上演绎《边缘行者2》核心角色塔莉娅・杨。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "遗迹之岛与旅行猫又",
+          "count": 1,
+          "summary": "2D动作冒险游戏《遗迹之岛与旅行猫又》Steam版定于2027年1月19日发售，售价69元，试玩版现已上线。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "article_count": 97,
+      "game_count": 46,
+      "untagged_count": 29,
+      "digest": "今日游戏资讯聚焦于《GTA6》发售前的预热造势，Rockstar将游戏内超跑实体化并落地伦敦，同时确认11月19日发售；Square Enix公布《勇者斗恶龙》RPG手游新作PV；Steam平台则迎来《1999TOKOYO Building》与《勇者小队全灭了。》两款新游发售，另有《塞尔达传说：时之笛》重制版引发速通圈热议。",
+      "digest_source": "llm",
+      "input_hash": "f90fe006ba82f288",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 21,
+          "summary": "针对玩家担心被剧透的问题，有防剧透指南整理了社交媒体关键词过滤与账号设置建议，以避开游戏剧情泄露。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "勇者斗恶龙",
+          "count": 2,
+          "summary": "Square Enix公布《勇者斗恶龙》RPG新作《勇者斗恶龙RPG 魔界树与引导之岛》，首支预告片将于日本时间11月10日20:00首播。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "《影之刃零》玉妖、玉音子、炼邪的脸模徐楚宜在抖音分享了一组游戏拍摄花絮照。",
+          "summary_source": "llm"
         },
         {
           "name": "1999TOKOYO Building",
           "count": 1,
-          "summary": "怀旧恐怖ADV《1999TOKOYO Building》今日发售，常夜大厦新PV同步上线！。",
-          "summary_source": "rules"
+          "summary": "怀旧恐怖ADV《1999TOKOYO Building》今日登陆Steam，同步上线新PV，玩家将扮演失忆少年灯良在常夜大厦中逃脱。",
+          "summary_source": "llm"
         },
         {
           "name": "GTA7",
           "count": 1,
-          "summary": "Take-Two老大：《GTA7》不会再让玩家等上13年了！。",
-          "summary_source": "rules"
+          "summary": "Take-Two CEO泽尔尼克表示《GTA7》不会再让玩家等上13年，系列开发节奏将加快。",
+          "summary_source": "llm"
         },
         {
           "name": "丝之歌",
           "count": 1,
-          "summary": "《丝之歌》实体版后续DLC全部免费！最快2027年上线。",
-          "summary_source": "rules"
+          "summary": "Team Cherry确认《空洞骑士：丝之歌》实体版附赠的后续DLC全部免费，最快将于2027年上线。",
+          "summary_source": "llm"
         },
         {
           "name": "任天堂明星大乱斗",
           "count": 1,
-          "summary": "《任天堂明星大乱斗》制作人樱井政博正在开发神秘新作。",
-          "summary_source": "rules"
+          "summary": "《任天堂明星大乱斗》制作人樱井政博证实自己正在开发一款未公开的新项目，暂无退休计划。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤",
+          "count": 1,
+          "summary": "美国加州安大略国际机场发生乌龙事件，一名旅客因在航班上视频聊《使命召唤》时提到炸弹等敏感词，导致机场紧急疏散。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "《剑星》开发商官宣新作延期亮相，以避开年末大作内卷。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑网一端游",
+          "count": 1,
+          "summary": "《剑网一端游》【高手去哪儿】体服争锋于11月10日开启，稀有剑耀、限定坐骑等好礼等待侠士争夺。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "勇者小队全灭了。",
+          "count": 1,
+          "summary": "高湿度、超沉重情感RPG《勇者小队全灭了。》正式登陆Steam，愿望单突破20万，首发限时10% off。",
+          "summary_source": "llm"
         },
         {
           "name": "嗨斗农场",
           "count": 1,
-          "summary": "多人派对胡闹种田游戏《嗨斗农场》PC 版今日登陆 Steam，现享九折优惠，支持中文。",
-          "summary_source": "rules"
+          "summary": "多人派对胡闹种田游戏《嗨斗农场》PC版今日登陆Steam，现享九折优惠，支持中文。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛 重制版",
           "count": 1,
-          "summary": "《塞尔达传说：时之笛 重制版》惊现无限跳与超级跳！。",
-          "summary_source": "rules"
+          "summary": "速通玩家已发现无限跳与超级跳技巧，突破了原有行动限制，利用重制版新增跳跃机制与可移动物体交互。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达时之笛RE",
           "count": 1,
-          "summary": "《塞尔达时之笛RE》PC版可4K/60帧 多人MOD也有了。",
-          "summary_source": "rules"
+          "summary": "《塞尔达：时之笛》重制版非官方PC移植项目推进迅速，支持原生4K、DLSS及DLSS 5，已有多人游戏Mod完成测试。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达：时之笛",
           "count": 1,
-          "summary": "《塞尔达：时之笛》重制版发售后 催生大量搞笑梗图。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "战锤40K：黑暗异端",
-          "count": 1,
-          "summary": "《战锤40K：黑暗异端》正式定档：2027年1月28日发售。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "生化奇兵4",
-          "count": 1,
-          "summary": "T2老大确认《生化奇兵4》仍在开发中 项目已重回正轨！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "荒野大镖客2",
-          "count": 1,
-          "summary": "T2财报显示《荒野大镖客2》累计销量已达到8900万份！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "超级马力欧",
-          "count": 1,
-          "summary": "耀西主题《超级马力欧》乐高积木套装公布：竟然是18+。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "超英派遣中心",
-          "count": 1,
-          "summary": "《超英派遣中心》爆火！开发商：这下被自己套牢了。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "马里奥派对",
-          "count": 1,
-          "summary": "《马里奥派对》更新GameChat分享 没买游戏也能白嫖。",
-          "summary_source": "rules"
+          "summary": "《塞尔达传说：时之笛》重制版发售后，社交媒体上涌现出大量相关搞笑梗图。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -909,107 +992,6 @@
           "name": "塞尔达传说：时之笛RE",
           "count": 1,
           "summary": "Reddit用户Robnaratt34发帖称已拿到《塞尔达传说：时之笛》重制版早期拷贝，并放出Switch 2主界面安装图与前中期实机截图。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "article_count": 48,
-      "game_count": 22,
-      "untagged_count": 15,
-      "digest": "11月1日游戏行业资讯聚焦于《影之刃零》预算乌龙引发的争议与央视背书，以及《GTA6》在法国面临下载流量税提案、通缉系统回归等热点。此外，索尼Bend工作室新作曝光，《鬼武者》遭破解，Steam万圣节送福利，《FF14》资料片跳票，以及《极限竞速6》因痛车涂装遭封杀等动态也引发关注。",
-      "digest_source": "llm",
-      "input_hash": "118b618ef86cc71f",
-      "game_digests": [
-        {
-          "name": "影之刃零",
-          "count": 6,
-          "summary": "预算闹乌龙被群嘲，3亿至4亿元被误当成美元引发争议；索尼携手PS于上海豫园举办“舞狮尊主”快闪活动，央视独家上线幕后特辑。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 5,
-          "summary": "法国拟征下载流量税，下载一次或缴近11欧；通缉系统曝光，六星时隔十三年回归，星标变为可视化信息面板；R星联手Travis Scott、Nike推联名球鞋。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "英雄联盟",
-          "count": 2,
-          "summary": "K/DA伊芙琳废弃造型流出引发讨论；S16全球总决赛八强出炉，BLG零封HLE晋级。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者",
-          "count": 2,
-          "summary": "满分神作《鬼武者：剑之道》发售57天后遭完整破解，三层加密被移除；索尼Bend工作室新作曝光，正开发第三人称合作游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Asleep: Act 1",
-          "count": 1,
-          "summary": "Steam万圣节档期开启限时免费领取。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FF14：永冻之境",
-          "count": 1,
-          "summary": "Square Enix宣布资料片跳票至明年2月，为打磨品质延期四周。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光与影：33号远征队",
-          "count": 1,
-          "summary": "DLSS5新截图曝光，角色面部写实度大幅跃升。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "博德之门3",
-          "count": 1,
-          "summary": "前龙腾世纪负责人受访称，系列转向大众化路线错失对标博德之门3的机会。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "地铁2033",
-          "count": 1,
-          "summary": "《地铁2033 Redux》与《地铁：最后的曙光 Redux》PS5版上线，PSSR原生支持。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "大金刚",
-          "count": 1,
-          "summary": "初代海报在拍卖会上以329,400美元成交，成为史上最昂贵的游戏原画艺术品。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃",
-          "count": 1,
-          "summary": "外媒评其压过《红沙》更有望入围TGA年度游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "往日不再",
-          "count": 1,
-          "summary": "开发商Bend Studio正在打造一款新作，预计2027年公布。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "昭和米国物语",
-          "count": 1,
-          "summary": "最低难度号称猫咪也能通关，预计2026年发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想14",
-          "count": 1,
-          "summary": "与《EVA》联动PV曝光，初号机再次登陆。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "极限竞速6",
-          "count": 1,
-          "summary": "玩家因制作日本动漫角色“痛车”涂装遭下架甚至封禁账号。",
           "summary_source": "llm"
         }
       ]

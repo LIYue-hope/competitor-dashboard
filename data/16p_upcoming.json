@@ -1,66 +1,23 @@
 {
-  "crawled_at": "2026-11-10T04:03:02.373326+00:00",
+  "crawled_at": "2026-11-11T02:01:49.165584+00:00",
   "days": [
     {
-      "date": "2026-11-10",
-      "date_label": "11月10日 今天",
+      "date": "2026-11-11",
+      "date_label": "11月11日 今天",
       "games": [
         {
-          "game_name": "吾辈小熊猫",
+          "game_name": "部落总动员",
           "categories": [
-            "宠物",
-            "收集",
-            "可爱",
-            "合成",
-            "模拟经营",
-            "休闲"
+            "角色扮演"
           ],
-          "score": "9.1",
-          "release_date": "2026-11-10",
+          "score": "9.7",
+          "release_date": "2026-11-11",
           "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1961814.html",
-          "publisher": "广州喜势网络科技有限公司",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "幻想之都的黑猫",
-          "categories": [
-            "二次元",
-            "美少女",
-            "卡牌"
-          ],
-          "score": "9.5",
-          "release_date": "2026-11-10",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1775199.html",
-          "publisher": "扑家工作室",
+          "detail_url": "https://www.16p.com/1958444.html",
+          "publisher": "串串游戏",
           "is_major_publisher": false,
           "has_afk_grinding_tag": true
         },
-        {
-          "game_name": "露娜:蓝色大陆",
-          "categories": [
-            "角色扮演",
-            "MMO",
-            "社交",
-            "温馨治愈",
-            "卡通"
-          ],
-          "score": "8.4",
-          "release_date": "2026-11-10",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1950331.html",
-          "publisher": "郑州游梦想科技有限公司",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "date_label": "11月11日 明天",
-      "games": [
         {
           "game_name": "反相之地",
           "categories": [
@@ -77,8 +34,27 @@
       ]
     },
     {
+      "date": "2026-11-12",
+      "date_label": "11月12日 明天",
+      "games": [
+        {
+          "game_name": "工位倒卖局",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": "7.7",
+          "release_date": "2026-11-12",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952919.html",
+          "publisher": "时迹网络",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
       "date": "2026-11-13",
-      "date_label": "11月13日 周五",
+      "date_label": "11月13日 后天",
       "games": [
         {
           "game_name": "斗破苍穹：异火降世",
@@ -155,6 +131,28 @@
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952915.html",
           "publisher": "巫师协会",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "date_label": "11月17日 下周二",
+      "games": [
+        {
+          "game_name": "幻想九霄",
+          "categories": [
+            "修仙",
+            "刷宝",
+            "多人联机",
+            "角色扮演"
+          ],
+          "score": "9.0",
+          "release_date": "2026-11-17",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1951096.html",
+          "publisher": "上海混沌奇点信息科技有限公司",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }
