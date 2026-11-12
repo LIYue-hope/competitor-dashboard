@@ -1,29 +1,82 @@
 {
-  "generated_at": "2026-11-11T02:24:47.725416+00:00",
+  "generated_at": "2026-11-12T03:14:31.000274+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-11",
-      "article_count": 5,
-      "game_count": 2,
-      "untagged_count": 3,
-      "digest": "当日 GameLook 发布 5 条新闻，共涉及 2 款游戏，其中 1 款为休闲手游新爆款《Cube Land》，年收入有望突破 1 亿美元；另 1 款为国产 3A 大作《影之刃零》，发售即引发热议，显示近期游戏市场仍出现多元化爆款与新动态，但具体报道内容及涉及细节需结合原文进一步梳理。",
+      "date": "2026-11-12",
+      "article_count": 7,
+      "game_count": 6,
+      "untagged_count": 1,
+      "digest": "今日游戏行业资讯聚焦于独立游戏争议、大厂项目变动及多品类游戏的市场表现。索尼终止了研发三年的射击网游《Fairgame$》，《Big Walk》因AI元素被IGF除名，Steam爆红独游《深空当铺》就本地化问题致歉。此外，《王者荣耀世界》S2赛季体验服开启，SLG品类在微信小游戏畅销榜表现强势，《造化仙府》首入Top5，而《皇室战争》则在中国举办总决赛。",
       "digest_source": "llm",
-      "input_hash": "c98875af77a49683",
+      "input_hash": "3ae195b65ba27d92",
+      "game_digests": [
+        {
+          "name": "Big Walk",
+          "count": 1,
+          "summary": "因使用AI技术，独立游戏《Big Walk》被IGF除名，引发独立游戏圈关于AI工具使用的争议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Fairgame",
+          "count": 1,
+          "summary": "索尼正式终止了由Haven Studios研发三年的在线射击网游《Fairgame$》，该项目承载着索尼的服务型游戏野心。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "深空当铺",
+          "count": 1,
+          "summary": "Steam爆红独游《深空当铺：可能是偷的》作者发文致歉，回应玩家关于文本修改及本地化处理的质疑。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "王者荣耀世界",
+          "count": 1,
+          "summary": "《王者荣耀世界》时隔165天迎来S2赛季体验服，项目正以近乎“重生”的姿态进行更新。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "皇室战争",
+          "count": 1,
+          "summary": "《皇室战争》在中国举办总决赛，埃及选手Mohamed Light在最终对决中获胜。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "造化仙府",
+          "count": 1,
+          "summary": "SLG品类在微信小游戏市场表现强势，《造化仙府》首度进入畅销榜前五名。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "article_count": 7,
+      "game_count": 3,
+      "untagged_count": 4,
+      "digest": "今日游戏行业资讯聚焦于国产3A大作《影之刃零》的发售盛况与土耳其休闲手游《Cube Land》的营收潜力，同时网易暴雪合作手游《魔兽世界：无限》上线后全球服与国服均创历史新高，此外还有四条未指向具体游戏的行业动态。",
+      "digest_source": "llm",
+      "input_hash": "45d947b9b01ed946",
       "game_digests": [
         {
           "name": "Cube Land",
           "count": 1,
-          "summary": "休闲手游新爆款！《Cube Land》年收入有望破1亿美元，又是土耳其人？。",
-          "summary_source": "rules"
+          "summary": "外媒分析称《Cube Land》有望在休闲手游赛道创造佳绩，该游戏由土耳其团队开发，自今年7月初上线以来表现强劲。",
+          "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 1,
-          "summary": "《影之刃零》之后中国3A谁来扛？“人永远比钱重要 ”！。",
-          "summary_source": "rules"
+          "summary": "国产3A大作《影之刃零》发售即大爆，媒体评价解禁后获得极高关注度，引发业界关于中国3A游戏未来发展的广泛讨论。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界：无限",
+          "count": 1,
+          "summary": "网易暴雪合作手游《魔兽世界：无限》于11月5日全球同步上线，上线后国服与全球服均创造了历史新高。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -72,8 +125,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "2026年11月7日，GameLook共收录1条行业资讯，内容聚焦于游戏行业监管政策动态，未涉及具体游戏产品的发售、更新或运营信息。当天无指向具体游戏名称的报道，行业焦点集中在宏观政策层面。按报道条数排序的游戏（含代表性标题与摘要）：",
-      "digest_source": "llm",
+      "digest": "11月7日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「2026 CRL皇室战争全球总决赛明日上海收官，中国选手憾别里滩」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
       "input_hash": "e9457e1d0c36c670",
       "game_digests": []
     },
@@ -225,47 +278,6 @@
           "name": "达巴：水痕之地",
           "count": 1,
           "summary": "索尼宣布该项目将于2027年内发售，单项目将获价值百万美元投资。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "article_count": 8,
-      "game_count": 5,
-      "untagged_count": 3,
-      "digest": "2026年11月2日游戏行业资讯聚焦于韩国市场增长、多款大作财报及新游上线。韩国手游内购收入达50亿美元，厂商加速出海；世纪华通、恺英等公司财报显示《异环》Q3流水破27亿；腾讯《怪物猎人：旅人》海外上线，开罗游戏推出《海贼王》干饭手游，而《魔兽世界》因微软裁员及售卖房屋装饰道具引发玩家争议。",
-      "digest_source": "llm",
-      "input_hash": "ca58fdd1a47a0f27",
-      "game_digests": [
-        {
-          "name": "2026年韩国游戏市场洞察",
-          "count": 1,
-          "summary": "韩国本土手游内购收入达50亿美元，市场正步入以用户价值和精细化运营为核心的新阶段，海外市场成为发行商增长关键引擎。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "异环",
-          "count": 1,
-          "summary": "完美世界、世纪华通、恺英网络、巨人网络公布2026年Q3财报，显示《异环》Q3流水突破27亿元，带动相关公司利润大幅增长。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "怪物猎人：旅人",
-          "count": 1,
-          "summary": "腾讯天美与卡普空合作的《怪物猎人：旅人》国际服于10月29日在iOS、安卓双端上线，上线后获得巨大流量。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "海贼王",
-          "count": 1,
-          "summary": "开罗游戏推出《海贼王》主题干饭手游，玩家对游戏中路飞成为厨子的设定感到新奇和有趣。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "魔兽世界",
-          "count": 1,
-          "summary": "微软宣布向全球约6万名员工提供自愿离职补偿方案，同时《魔兽世界》售卖房屋装饰道具，引发玩家关于此前承诺不卖钱的质疑。",
           "summary_source": "llm"
         }
       ]

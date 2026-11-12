@@ -1,107 +1,202 @@
 {
-  "generated_at": "2026-11-11T02:12:33.809321+00:00",
+  "generated_at": "2026-11-12T03:00:27.151795+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
+      "date": "2026-11-12",
+      "article_count": 19,
+      "game_count": 14,
+      "untagged_count": 3,
+      "digest": "今日游戏行业资讯聚焦多款新作发售与延期，GTA6因日澳版容量差异引发审查担忧，上古卷轴5迎来15周年但续作哨兵进展不明，堡垒之夜移除争议精灵音效，尘埃与悲伤之路延期至2027年2月，Switch 2独占鼠标工坊定档12月7日。",
+      "digest_source": "llm",
+      "input_hash": "1c43547743f5765d",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 3,
+          "summary": "澳日版容量差异引发审查担忧，目前尚无法确认是否因删改内容造成",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴5：天际",
+          "count": 1,
+          "summary": "迎来15周年，玩家聚焦续作《哨兵》进展并表达不满",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 1,
+          "summary": "第二赛季将为多人及战争地带加入排位玩法",
+          "summary_source": "llm"
+        },
+        {
+          "name": "堡垒之夜",
+          "count": 1,
+          "summary": "移除涉事精灵音效避免误听，此前该音效与游戏内其他声音叠加引发争议",
+          "summary_source": "llm"
+        },
+        {
+          "name": "尘埃与悲伤之路",
+          "count": 1,
+          "summary": "温馨生存恐怖冒险游戏延期至2027年2月19日发售",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师伐木工",
+          "count": 1,
+          "summary": "瑞典单人开发者Basti制作，计划于2027年在Steam推出暴力伐木RPG",
+          "summary_source": "llm"
+        },
+        {
+          "name": "悲伤球",
+          "count": 1,
+          "summary": "Steam免费游戏即将下架，玩家需在移除前领取以永久保留",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战犬",
+          "count": 1,
+          "summary": "第3赛季上线，新增近战地图Sabatulo并推出限制模式",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星际：异端先知",
+          "count": 1,
+          "summary": "顽皮狗确认游戏进入后期打磨阶段，计划于2027年展示玩法剧情",
+          "summary_source": "llm"
+        },
+        {
+          "name": "柯南：黑色金字塔",
+          "count": 1,
+          "summary": "公布2027年登陆Steam的肉鸽动作RPG，支持双人合作",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威1943：九头蛇崛起",
+          "count": 1,
+          "summary": "据称接近完成但内容流程大幅缩减，未取消",
+          "summary_source": "llm"
+        },
+        {
+          "name": "苍穹浩瀚：奥西里斯重生",
+          "count": 1,
+          "summary": "新预告展示零重力战斗，披露部分配音演员阵容",
+          "summary_source": "llm"
+        },
+        {
+          "name": "质量效应2",
+          "count": 1,
+          "summary": "前首席设计师回顾约18个月开发历程，强调范围控制的重要性",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鼠标工坊",
+          "count": 1,
+          "summary": "Switch 2独占合作派对游戏定档12月7日，支持四人合作",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
       "date": "2026-11-11",
       "article_count": 52,
       "game_count": 30,
       "untagged_count": 3,
-      "digest": "11月11日 3DMGame 共 52 条新闻，涉及 30 款游戏。报道最集中的是《GTA6》（18 条）、《塞尔达：时之笛 重制版》（2 条）、《索尼PSN》（2 条）。另有 3 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
+      "digest": "3DMGame当日共收录52条资讯，涵盖30款游戏。Take-Two CEO回应《GTA6》终局玩法，任天堂公布《塞尔达：时之笛》重制版销量与评价，索尼取消《Fairgame$》开发，多款游戏公布发售档期或更新内容。",
+      "digest_source": "llm",
       "input_hash": "f92d202decc4c3f1",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 18,
-          "summary": "Take-Two CEO谈《GTA6》主线通关后体验：总能继续玩；《GTA6》将通过云游戏登陆Xbox One 但PC玩家却无缘体验；《GTA6/侠盗猎车6》前瞻分析称犯罪后果或更具动态性！（当天共 18 条）",
-          "summary_source": "rules"
+          "summary": "Take-Two CEO回应《GTA6》主线通关后的游玩问题，称系列有大量事情可做，玩家总能继续玩，官方未公布具体终局系统。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达：时之笛 重制版",
           "count": 2,
-          "summary": "《塞尔达：时之笛 重制版》证明任天堂比PS和Xbox更懂自己的受众；《塞尔达：时之笛 重制版》开局良好 NS2涨价影响有限。",
-          "summary_source": "rules"
+          "summary": "任天堂社长表示重制版开局强劲，实体版首发表现位列系列历史第二，但未公布具体销量。",
+          "summary_source": "llm"
         },
         {
           "name": "索尼PSN",
           "count": 2,
-          "summary": "前PS高管：小岛秀夫等作者型创作者奠定游戏行业；索尼12月10日起停止提供PC版PlayStation Plus应用。",
-          "summary_source": "rules"
+          "summary": "前PS高管肖恩·莱登认为小岛秀夫等“作者型”创作者奠定了游戏行业，强调由单一创意愿景带领的游戏更有力量。",
+          "summary_source": "llm"
         },
         {
           "name": "Apex 英雄",
           "count": 1,
-          "summary": "迎战《Apex 英雄》× 哥斯拉活动，11 月 10 日正式上线。",
-          "summary_source": "rules"
+          "summary": "《Apex 英雄》× 哥斯拉活动于11月10日全平台上线，玩家可在哥斯拉肆虐后的混乱战场中战斗。",
+          "summary_source": "llm"
         },
         {
           "name": "Dig! Dig! Dino!",
           "count": 1,
-          "summary": "Playdate益智游戏《Dig! Dig! Dino!》11月18日登陆Steam。",
-          "summary_source": "rules"
+          "summary": "Playdate益智游戏《Dig! Dig! Dino!》将于11月18日登陆Steam，现已开放愿望单。",
+          "summary_source": "llm"
         },
         {
           "name": "Fairgame$",
           "count": 1,
-          "summary": "索尼取消了第一方即时服务射击游戏《Fairgame$》。",
-          "summary_source": "rules"
+          "summary": "索尼已停止开发《Fairgame$》，PlayStation表示测试未能达到目标，相关员工将转去支援其他项目。",
+          "summary_source": "llm"
         },
         {
           "name": "博德之门3",
           "count": 1,
-          "summary": "《博德之门3》主机版新增14款获批模组，扩充职业与装备。",
-          "summary_source": "rules"
+          "summary": "《博德之门3》主机版新增14款获批模组，扩充职业、装备与外观，PS5和Xbox Series X/S玩家可从游戏内菜单下载。",
+          "summary_source": "llm"
         },
         {
           "name": "叫魂",
           "count": 1,
-          "summary": "《叫魂》实机演示预告公开，窥见仙女镇往事。",
-          "summary_source": "rules"
+          "summary": "国产第一人称恐怖游戏《叫魂》公开实机演示预告，预计于2027年登陆PC与PS5。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：姆吉拉的假面",
           "count": 1,
-          "summary": "曝任天堂目前未制作《塞尔达传说：姆吉拉的假面》重制版。",
-          "summary_source": "rules"
+          "summary": "爆料者称任天堂目前尚未制作《姆吉拉的假面》重制版，该项目未进入制作阶段。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛",
           "count": 1,
-          "summary": "任天堂称《塞尔达传说：时之笛》重制版开局强劲但销量未公布。",
-          "summary_source": "rules"
+          "summary": "任天堂社长古川俊太郎称重制版开局强劲，Switch 2硬件销量同比下降37%。",
+          "summary_source": "llm"
         },
         {
           "name": "天外世界2",
           "count": 1,
-          "summary": "《天外世界2》首个大型剧情DLC将于12月2日推出。",
-          "summary_source": "rules"
+          "summary": "《天外世界2》首个大型剧情DLC《副作用保证》将于12月2日推出，售价14.99美元。",
+          "summary_source": "llm"
         },
         {
           "name": "失落星船：马拉松",
           "count": 1,
-          "summary": "《失落星船：马拉松》“共生”更新12月8日上线并免费开放一周。",
-          "summary_source": "rules"
+          "summary": "《马拉松》“共生”更新将于12月8日上线，并开放一周免费游玩，新增纯PvE模式“远征”。",
+          "summary_source": "llm"
         },
         {
           "name": "女神异闻录4 复兴版",
           "count": 1,
-          "summary": "《女神异闻录4 复兴版》原计划2026年夏季发售。",
-          "summary_source": "rules"
+          "summary": "《女神异闻录4：复兴版》原计划2026年夏季发售，现定于2027年2月18日登陆PS5。",
+          "summary_source": "llm"
         },
         {
           "name": "守望先锋",
           "count": 1,
-          "summary": "《守望先锋》第6赛季测试6对6职责队列 保留5对5模式。",
-          "summary_source": "rules"
+          "summary": "《守望先锋》第6赛季将测试6对6职责队列，保留5对5模式，测试为期四周。",
+          "summary_source": "llm"
         },
         {
           "name": "巫师3：狂猎",
           "count": 1,
-          "summary": "《巫师3：狂猎》新Mod“公国编年史”首章免费发布，提供三条剧情路线。",
-          "summary_source": "rules"
+          "summary": "《巫师3：狂猎》新Mod“公国编年史”首章免费发布，提供围绕陶森特的三条剧情路线。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -514,99 +609,99 @@
       "article_count": 130,
       "game_count": 68,
       "untagged_count": 26,
-      "digest": "11月6日 3DMGame 共 130 条新闻，涉及 68 款游戏。报道最集中的是《GTA6》（13 条）、《塞尔达：时之笛 重制版》（8 条）、《塞尔达传说：时之笛》（7 条）。另有 26 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
+      "digest": "今日游戏资讯聚焦于R星对《GTA6》开放世界设计的深度解析，任天堂公布《塞尔达：时之笛》强劲预购及《朋友聚会：梦想生活》销量破880万，以及《影之刃零》72小时销量超400万等重磅动态。此外，EA上线25款经典游戏、任天堂宣布持续推出电影计划、EA与《Apex英雄》联动哥斯拉等消息也引发关注。",
+      "digest_source": "llm",
       "input_hash": "0f5db66efcb25630",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 13,
-          "summary": "R星谈《GTA6》开放世界：弱化地图图标引导 鼓励玩家自然发现事件；《GTA6》PC版或提前推出 避免因AI抄袭而蒙受损失；美国飞行员耗时8小时8分钟绘制《GTA6》航迹图（当天共 13 条）",
-          "summary_source": "rules"
+          "summary": "R星谈《GTA6》开放世界设计，表示将弱化地图图标引导，鼓励玩家自然发现事件，并参考《荒野大镖客2》的沉浸式体验。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达：时之笛 重制版",
           "count": 8,
-          "summary": "《塞尔达：时之笛重制版》前几个小时令人惊艳 华丽背后却少了些原版韵味；《塞尔达：时之笛 重制版》为避免破坏沉浸感删减部分马里奥彩蛋；NS2模拟器Lichii已可启动运行《塞尔达：时之笛 重制版》（当天共 8 条）",
-          "summary_source": "rules"
+          "summary": "外媒评测称重制版前几个小时画面令人惊艳，细节与色彩极佳，但相比原版略显奢华，少了些原版韵味。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛",
           "count": 7,
-          "summary": "任天堂称《塞尔达传说：时之笛》预购强劲！《朋友聚会：梦想生活》销量破880万；美国白宫再发仿《塞尔达传说：时之笛》风格政策宣传视频；外媒：《塞尔达传说：时之笛》用三项设计推动3D动作冒险发展！（当天共 7 条）",
-          "summary_source": "rules"
+          "summary": "任天堂公布本财年前两个季度重点软件表现，称《塞尔达传说：时之笛》预购趋势强劲，《朋友聚会：梦想生活》累计销量突破880万份。",
+          "summary_source": "llm"
         },
         {
           "name": "塞尔达传说",
           "count": 4,
-          "summary": "任天堂计划在《塞尔达传说》真人电影后持续推出电影作品；从Switch 2游戏到电影音乐 《塞尔达传说》周年企划延续至明年；任天堂博物馆推出《塞尔达传说》40周年限时灯光秀！（当天共 4 条）",
-          "summary_source": "rules"
+          "summary": "任天堂计划在真人电影《塞尔达传说》上映后继续推出电影，并建立支持持续制作的框架，社长古川俊太郎表示电影能帮助不常接触游戏的人认识马力欧。",
+          "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 3,
-          "summary": "外媒解析《影之刃零》销量突破：战斗持续升级成关键！；《影之刃零》玩家分享绝美截图 氛围感拉满！；PCGamer评《影之刃零》战斗华丽爽快 但探索引导过多。",
-          "summary_source": "rules"
+          "summary": "《影之刃零》在PS5和PC发售72小时内售出超过400万份，基于45篇评测获得88分Metascore，Steam同时在线峰值接近83.4万人。",
+          "summary_source": "llm"
         },
         {
           "name": "暴力摩托",
           "count": 3,
-          "summary": "EA在Steam 上线25款PC经典游戏，其中包括《暴力摩托》和《银河飞将》系列的纪念版；《暴力摩托》30周年纪念版登陆Steam，支持60帧与高清过场；EA在Steam重新发行25款经典游戏 《暴力摩托》等。",
-          "summary_source": "rules"
+          "summary": "EA在Steam上线25款PC经典游戏，其中包括《暴力摩托》和《银河飞将》系列的周年纪念版，并对这些作品进行了现代系统优化。",
+          "summary_source": "llm"
         },
         {
           "name": "Apex 英雄",
           "count": 2,
-          "summary": "《Apex英雄》联动哥斯拉！风暴点遭巨兽袭击 10款怪兽主题皮肤登场；迎战《Apex 英雄》× 哥斯拉活动，11 月 10 日正式上线！。",
-          "summary_source": "rules"
+          "summary": "EA与Respawn Entertainment宣布《Apex英雄》将与《哥斯拉》联动，推出特别活动「Apex Legends | Godzilla Event」，风暴点将遭巨兽袭击。",
+          "summary_source": "llm"
         },
         {
           "name": "bioware",
           "count": 2,
-          "summary": "沃伦·斯佩克特再批EA关闭bioware，追问行业高管是否担责；bioware纪录片计划2027年推出，记录工作室从创立到关闭。",
-          "summary_source": "rules"
+          "summary": "游戏业界传奇制作人沃伦·斯佩克特再次公开批评EA关闭bioware，并将问题指向行业高管的责任，质疑高管是否真正承担了相应后果。",
+          "summary_source": "llm"
         },
         {
           "name": "上古卷轴6",
           "count": 2,
-          "summary": "外媒：为什么说《上古卷轴6》重返落锤省是一个错误；分析师认为《上古卷轴6》难接棒《GTA6》成为下一个白鲸级游戏。",
-          "summary_source": "rules"
+          "summary": "外媒分析称《上古卷轴6》重返落锤省可能是一个错误，因为该地区此前已被《上古卷轴2：匕首雨》探索过，而其他地区如艾斯维尔等尚未成为主线舞台。",
+          "summary_source": "llm"
         },
         {
           "name": "尼尔：机械纪元",
           "count": 2,
-          "summary": "Steam版《尼尔：机械纪元》误显需366.56GB！官方正调查原因；《尼尔：机械纪元》Steam更新后部分安装需求膨胀至366GB。",
-          "summary_source": "rules"
+          "summary": "Steam版《尼尔：机械纪元》更新简体中文、繁体中文及韩文支持后，安装界面出现容量显示异常，提示需366.56GB可用空间，官方正在调查原因。",
+          "summary_source": "llm"
         },
         {
           "name": "007：初露锋芒",
           "count": 1,
-          "summary": "《007：初露锋芒》推出免费试玩，首个任务约一小时且进度可继承。",
-          "summary_source": "rules"
+          "summary": "《007：初露锋芒》推出免费试玩版本，首个任务约一小时且进度可继承，登陆PS5、Xbox Series X/S和Steam。",
+          "summary_source": "llm"
         },
         {
           "name": "CHRONO PUNK",
           "count": 1,
-          "summary": "动作肉鸽《CHRONO PUNK》亮出复古锋芒 时间企业成为强敌。",
-          "summary_source": "rules"
+          "summary": "动作肉鸽游戏《CHRONO PUNK》亮出复古锋芒，采用千禧年前后主机游戏审美，玩家将挑战一家能够操控时间的企业。",
+          "summary_source": "llm"
         },
         {
           "name": "GeForce 8800 GTX：传奇二十年",
           "count": 1,
-          "summary": "英伟达在Steam推出《GeForce 8800 GTX：传奇二十年》，最低需RTX 4070。",
-          "summary_source": "rules"
+          "summary": "英伟达为纪念GeForce 8800 GTX推出20周年，在Steam上线免费技术演示《GeForce 8800 GTX：传奇二十年》，最低需RTX 4070。",
+          "summary_source": "llm"
         },
         {
           "name": "Strikemania",
           "count": 1,
-          "summary": "《Strikemania》试玩版将于2027年2月Steam新品节推出。",
-          "summary_source": "rules"
+          "summary": "动作游戏《Strikemania》试玩版将于2027年2月Steam新品节推出，采用20世纪70年代末至80年代的街机视觉风格。",
+          "summary_source": "llm"
         },
         {
           "name": "Vital Shell 2",
           "count": 1,
-          "summary": "《Vital Shell 2》公开Steam页面 转向第三人称3D机甲动作。",
-          "summary_source": "rules"
+          "summary": "独立开发者公开《Vital Shell 2》Steam页面，游戏转向第三人称3D机甲动作玩法，保留前作低多边形视觉风格，并提供部件定制功能。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -909,107 +1004,6 @@
           "name": "使命必达",
           "count": 1,
           "summary": "PC试玩版将于2027年1月登陆Steam，玩家将驾驶战机在程序生成的战场中完成送货任务。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "article_count": 102,
-      "game_count": 66,
-      "untagged_count": 17,
-      "digest": "索尼为应对即将发售的《GTA6》与破解技术进步，今日发布PS5系统更新14.22.00.00版本以加强安全防护。国产暗黑武侠动作游戏《影之刃零》发售后72小时销量突破400万，Steam在线人数峰值达83万刷新纪录。此外，《堡垒之夜》43.00版本上线开启“寻宝猎人”赛季，并加入《海贼王》相关内容；《守望先锋》公开与《剑星》联动的黑百合皮肤概念图。",
-      "digest_source": "llm",
-      "input_hash": "33d5425b94c1608d",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 11,
-          "summary": "索尼为应对破解技术进步，今日发布PS5系统更新14.22.00.00版本，该版本被指与11月19日发售的《GTA6》密切相关。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 4,
-          "summary": "《影之刃零》发售后72小时销量突破400万，Steam在线人数峰值达83万刷新2026年纪录，评价升至90%特别好评。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Apex英雄",
-          "count": 2,
-          "summary": "EA与Respawn发布新短片预热合作，片中的弧形图案引发玩家猜测可能与哥斯拉有关，但官方暂未确认。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "堡垒之夜",
-          "count": 2,
-          "summary": "《堡垒之夜》43.00版本上线开启“寻宝猎人”赛季，新地图“十字骨岛”支持80人对局并加入《海贼王》相关内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "守望先锋",
-          "count": 2,
-          "summary": "《守望先锋》公开与《剑星》联动的黑百合皮肤概念图，确认以《剑星》角色伊芙为主题，联动活动将于11月4日开启。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "质量效应",
-          "count": 2,
-          "summary": "生软制作人Mark Darrah认为《质量效应》比《龙腾世纪》更具潜在收购价值，因其科幻世界设定较难替代。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "魔兽世界",
-          "count": 2,
-          "summary": "玩家自制《魔兽世界》Dreamcast移植版并实现多人运行，受老旧硬件限制画面以极低分辨率呈现。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "龙帮",
-          "count": 2,
-          "summary": "Nagoshi Studio据称已停止运营并进入法律清算程序，其首个游戏项目《龙帮》也被报道取消。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Lost In Your Eyes",
-          "count": 1,
-          "summary": "双人合作解谜游戏《Lost In Your Eyes》新版试玩上线，正式版预计于2027年第一季度发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Selaco",
-          "count": 1,
-          "summary": "第一人称射击游戏《Selaco》将于11月13日推出“战争机器”大型更新，加入包含19张地图的第二章。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三角洲行动",
-          "count": 1,
-          "summary": "《三角洲行动》微光赛季开启后，玩家退坑出号增多，账号回收成为热门选择，但存在压价和打款拖延等痛点。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴5",
-          "count": 1,
-          "summary": "一名爱好者展示了《上古卷轴5：天际》的虚幻5渲染改造项目，并用安装超过1500个模组的版本测试兼容性。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴6",
-          "count": 1,
-          "summary": "《上古卷轴6》确认采用Creation Engine 3，Bethesda强调将继续强调开放世界互动自由度。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "丘比娃娃机",
-          "count": 1,
-          "summary": "抓娃娃题材游戏《丘比娃娃机》计划于11月12日发售，玩家需通过抓取奖品赚钱以重新购买订婚戒指。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "乐高派对",
-          "count": 1,
-          "summary": "LEGO公布三款2027年Friends系列套装，均将于2027年1月1日在全球发售，包含宠物照护、派对巴士和购物中心主题。",
           "summary_source": "llm"
         }
       ]

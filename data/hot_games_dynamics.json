@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-11-11T02:00:53.486014+00:00",
+  "crawled_at": "2026-11-12T02:50:19.864404+00:00",
   "window_days": 7,
   "publishers": [
     {
@@ -14,6 +14,13 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "2027年三角洲行动烽火地带职业电竞计划",
+              "type": "赛事",
+              "date": "2026-11-11",
+              "summary": "—— 2027烽火职业联赛俱乐部招募公告 回溯 2026 年，作为三角洲行动职业电竞起步元年，我们完成了赛事体系从 0 到 1 的搭建：烽火职业联赛完成首年春、夏两个赛季的完整落地，全年共计27家俱乐部深度参与联盟生态建设，为观众奉献了精彩的赛事内容，在此谨向各俱乐部一年来的投入…",
+              "url": "https://df.qq.com/cp/a20240906main/newsdetail.html?id=7633011749603709246"
+            },
+            {
               "title": "2026三角洲行动瑞典烽火世界杯11月27日开赛",
               "type": "赛事",
               "date": "2026-11-09",
@@ -26,20 +33,6 @@
               "date": "2026-11-07",
               "summary": "（本条为图片公告，正文无文字内容，点击查看原文）",
               "url": "https://df.qq.com/cp/a20240906main/newsdetail.html?id=14024839296739610758"
-            },
-            {
-              "title": "全新「微光」赛季开启，全新联动活动登场！",
-              "type": "新闻",
-              "date": "2026-11-05",
-              "summary": "《三角洲行动》全新「微光」赛季现已正式开启！烽火地带巴克什阵营交锋再起、绝密行动「AZ3-超临界」带来全新挑战、全面战场全新UE5规格地图「天际港」震撼亮相、全新突击型干员「野火」登场。还有全新武器、全新联动活动以及更多系统优化同步上线！ 阵营交锋，火光再起！巴克什全新阵营对抗玩…",
-              "url": "https://df.qq.com/cp/a20240906main/newsdetail.html?id=270362368040658313"
-            },
-            {
-              "title": "11月5日更新公告丨异常问题修复",
-              "type": "更新公告",
-              "date": "2026-11-05",
-              "summary": "干员朋友们好： 我们计划于11月5日进行不停机更新，更新期间不会影响正常游玩与匹配。 如您在更新后遇到异常问题，可尝试重启游戏完成更新解决。 本次更新主要内容如下： 问题修复与优化 修复中： ●修复被击败后观战界面无法显示问题； ●修复全面战场晋升之路部分军衔奖励错误的问题； ●…",
-              "url": "https://df.qq.com/cp/a20240906main/newsdetail.html?id=2866319836676742883"
             }
           ],
           "has_afk_grinding_tag": false
@@ -59,7 +52,15 @@
           "publisher_key": "tencent",
           "official_url": "https://rocom.qq.com/",
           "source_status": "ok",
-          "updates": [],
+          "updates": [
+            {
+              "title": "违规行为处罚公告（2026年10月27日~11月9日）",
+              "type": "处罚公告",
+              "date": "2026-11-11",
+              "summary": "亲爱的小洛克： 为打造公平、健康的游戏环境，保障各位小洛克的账号资产安全与游戏公平体验，自开服以来，「王国安全部」持续对发布违规信息、使用外挂、脚本或其他第三方辅助工具、恶意利用游戏漏洞获取不正当收益等行为进行监测和打击。详细规则请查阅游戏公告——《公平游戏公约》。 王国安全部提…",
+              "url": "https://rocom.qq.com/web202507/sub/detail.html?newsid=18950676"
+            }
+          ],
           "has_afk_grinding_tag": false
         },
         {
@@ -69,6 +70,13 @@
           "official_url": "https://world.qq.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "王者荣耀世界S2赛季体验服抢先爆料",
+              "type": "公告",
+              "date": "2026-11-10",
+              "summary": "王者荣耀世界S2赛季体验服抢先爆料：新英雄·李白、新地图、新剧情、新玩法等多项内容现已悉数就绪。11月10日S2赛季体验服已开启，我们不见不散！",
+              "url": "https://world.qq.com/web202603/newsDetail.html?newsid=18946545"
+            },
             {
               "title": "S2 体验服云游戏微端下载开启",
               "type": "公告",
@@ -82,13 +90,6 @@
               "date": "2026-11-10",
               "summary": "S2赛季体验服今日正式开启，我们不见不散！",
               "url": "https://world.qq.com/web202603/newsDetail.html?newsid=18946525"
-            },
-            {
-              "title": "王者荣耀世界S2赛季体验服抢先爆料",
-              "type": "公告",
-              "date": "2026-11-10",
-              "summary": "王者荣耀世界S2赛季体验服抢先爆料：新英雄·李白、新地图、新剧情、新玩法等多项内容现已悉数就绪。11月10日S2赛季体验服已开启，我们不见不散！",
-              "url": "https://world.qq.com/web202603/newsDetail.html?newsid=18946545"
             },
             {
               "title": "S2体验服现已开启",
@@ -155,48 +156,6 @@
               "date": "2026-11-09",
               "summary": "",
               "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=812312"
-            },
-            {
-              "title": "11月5日言语违规专项打击处罚公告",
-              "type": "公告",
-              "date": "2026-11-05",
-              "summary": "",
-              "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=812153"
-            },
-            {
-              "title": "11月5日挂车行为专项打击处罚公告",
-              "type": "公告",
-              "date": "2026-11-05",
-              "summary": "",
-              "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=812152"
-            },
-            {
-              "title": "11月5日“演员”行为专项打击处罚公告",
-              "type": "公告",
-              "date": "2026-11-05",
-              "summary": "",
-              "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=812151"
-            },
-            {
-              "title": "11月5日外挂专项打击处罚公告",
-              "type": "公告",
-              "date": "2026-11-05",
-              "summary": "",
-              "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=812150"
-            },
-            {
-              "title": "KPL拾光卡活动开启公告",
-              "type": "新活动",
-              "date": "2026-11-05",
-              "summary": "",
-              "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=812103"
-            },
-            {
-              "title": "【本命集结，默契开测】活动开启公告",
-              "type": "新活动",
-              "date": "2026-11-05",
-              "summary": "",
-              "url": "https://pvp.qq.com/web201706/newsdetail.shtml?tid=812107"
             }
           ],
           "has_afk_grinding_tag": false
@@ -209,11 +168,11 @@
           "source_status": "ok",
           "updates": [
             {
-              "title": "《金铲铲之战》11月5日更新 问题修复公告",
+              "title": "《金铲铲之战》18.6a版本 11月12日更新公告",
               "type": "更新公告",
-              "date": "2026-11-05",
+              "date": "2026-11-11",
               "summary": "",
-              "url": "https://jcc.qq.com/#/news/8320031833361983238"
+              "url": "https://jcc.qq.com/#/news/14915963092157149631"
             }
           ],
           "has_afk_grinding_tag": false
@@ -225,6 +184,13 @@
           "official_url": "https://aqtwwx.qq.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "《暗区突围：无限》违规行为处罚公告（11.02-11.08）",
+              "type": "公告",
+              "date": "2026-11-11",
+              "summary": "",
+              "url": "https://aqtwwx.qq.com/web202501/newsdetail.html?newsid=18950223"
+            },
             {
               "title": "11月10日 不停服更新",
               "type": "更新公告",
@@ -314,13 +280,6 @@
               "date": "2026-11-06",
               "summary": "",
               "url": "https://codm.qq.com/gicp/news/887/18945611.html"
-            },
-            {
-              "title": "纵身跃入福尔丹斯克，向新战场冲锋！",
-              "type": "公告",
-              "date": "2026-11-05",
-              "summary": "",
-              "url": "https://codm.qq.com/gicp/news/887/18942441.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -356,18 +315,18 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "以爱为炬《第五人格》游戏内公益活动今日开启",
+              "type": "新活动",
+              "date": "2026-11-12",
+              "summary": "筑梦生花，曙色新开。网易首款1V4非对称竞技手游《第五人格》集善残疾儿童助养项目公益活动于今日开启。铺平一道坎坷，或许就能开启无垠的天地。一起用爱的力量，让受限的步履重新迈向自由与光芒。 创造希望，乘光逐梦 本次活动，由第五人格联合中国残疾人福利基金会集善残疾儿童助养项目共同发起…",
+              "url": "https://id5.163.com/news/official/20261111/26476_1319362.html"
+            },
+            {
               "title": "高歌猛进！北京WBG求生者默契三跑逆转战局！——《第五人格》2026IVL秋季赛第六周赛报发布",
               "type": "新闻",
               "date": "2026-11-10",
               "summary": "【当前赛况】 2026IVL秋季赛第六周的比赛已经结束，当前积分排名如下： 【本周精彩回顾】 第一天GR vs ASC第三局下半场，ASC_Tear“牙医”透镜索敌，完美四抓：开局“牙医”选择追击中场的“逃脱大师”，远端透镜精准命中后利用沉沼现身快速贴近，随后利用“逃脱大师”的迷…",
               "url": "https://id5.163.com/news/official/20261110/26476_1319165.html"
-            },
-            {
-              "title": "耀星锐意《第五人格》电竞系列IDV-ES（IdentityV E-Sports）全新时装礼包今日上新",
-              "type": "新活动",
-              "date": "2026-11-05",
-              "summary": "流光载刃，银轮掠影！网易首款1V4非对称竞技手游《第五人格》电竞系列IDV-ES（IdentityV E-Sports）全新时装礼包今日上架商城，内含【奇珍时装】“骑士”-SRE.RICHARD和【稀世随身物品】“骑士”-耀星锐意。肆意洒脱的他，带着不羁的光芒来到庄园啦！ 霓虹驭…",
-              "url": "https://id5.163.com/news/official/20261105/26476_1318761.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -385,13 +344,6 @@
               "date": "2026-11-10",
               "summary": "亲爱的蛋仔： 感谢您一直以来对B站与《蛋仔派对》的支持和喜爱，因双方合作的业务模式升级，现已在B站内上架新的B站客户端。按照B站平台政策要求，为了保障您的账号和信息安全，您可按照界面提示指引将您的游戏账号与网易账号绑定，绑定成功后下载全新《蛋仔派对》客户端即可体验游戏，您的现有游…",
               "url": "https://party.163.com/update/20261110/35182_1319235.html"
-            },
-            {
-              "title": "《蛋仔派对》11月5日不停服更新维护公告",
-              "type": "更新公告",
-              "date": "2026-11-05",
-              "summary": "亲爱的蛋仔们： 惊魂寻宝队全新躲藏＆反杀限时玩法“惊魂躲猫猫”上线，找不到藏起来的它，下一个被反杀的就是你！ 为保证蛋仔们的游戏体验，我们已于 11月5日8:00~8:30 完成不停服维护， 本次更新的内容如下： 【玩法更新】 一、<惊魂寻宝队>更新 更新时间：11月6日（周五）…",
-              "url": "https://party.163.com/update/20261105/35182_1318881.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -430,13 +382,6 @@
               "date": "2026-11-06",
               "summary": "11月6日2.9.5A版本「长乐夜未央」更新公告",
               "url": "https://www.yysls.cn/news/update/20261106/40412_1318985.html"
-            },
-            {
-              "title": "DLSS 5官宣定档，福龟寻乐梦本周上线！",
-              "type": "新闻",
-              "date": "2026-11-05",
-              "summary": "全新战令套装上线",
-              "url": "https://www.yysls.cn/news/official/20261106/37780_1319026.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -449,11 +394,39 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "百绘罗衣·皮肤设计大赛&十周年限定浮妖百态·式神设计大赛端内投票即将开启",
+              "type": "新闻",
+              "date": "2026-11-10",
+              "summary": "寄情山水文明，撷取灵感丝线。将热情与爱意化作描摹形貌的画笔，绘出平安京的众生百态，感谢所有参与本次赛事的创作者大人！",
+              "url": "https://yys.163.com/news/official/20261111/22592_1319328.html"
+            },
+            {
+              "title": "双十一奇惠购物节，呱呱特惠礼包上线！",
+              "type": "新活动",
+              "date": "2026-11-10",
+              "summary": "好礼惠聚，福运上门。现世的双十一购物狂欢蔓延到了平安京商店街，一年一度的超值特惠大放送！",
+              "url": "https://yys.163.com/news/official/20261111/22592_1319327.html"
+            },
+            {
               "title": "《阴阳师》手游11月11日维护更新公告",
               "type": "更新公告",
               "date": "2026-11-10",
               "summary": "※维护时间 2026年11月11日7:00-9:00 ※亲爱的阴阳师大人： 为了给大家带来更好的游戏体验，服务器将进行停服维护，期间暂时无法进入游戏。若未能按时完成维护，则开服时间将会顺延，给各位带来的不便敬请谅解，非常感谢大家的支持和理解！",
               "url": "https://yys.163.com/news/update/20261110/23024_1319269.html"
+            },
+            {
+              "title": "笼身痛彻，以祸报之，全新SP阶式神笼梦祸津神CG展卷！",
+              "type": "新闻",
+              "date": "2026-11-09",
+              "summary": "花海中温柔回荡着圣洁祷歌，失真的呓语仍在耳畔嗡鸣 是神明？",
+              "url": "https://yys.163.com/news/official/20261111/22592_1319331.html"
+            },
+            {
+              "title": "梦已醒，一起迎接祸神降世！全新SP阶式神笼梦祸津神即将降临平安京！",
+              "type": "新闻",
+              "date": "2026-11-06",
+              "summary": "紧密相连的灵魂、互为囚缚的宿命………",
+              "url": "https://yys.163.com/news/official/20261111/22592_1319323.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -466,18 +439,25 @@
           "source_status": "ok",
           "updates": [
             {
-              "title": "鸢尾余韵礼盒概率公示",
-              "type": "公告",
-              "date": "2026-11-05",
-              "summary": "鸢尾余韵礼盒 道具 概率 发型·鸢尾栖（非绑） 0.035% 画笔福瑞宝匣（25枚非绑绘梦画笔） 0.",
-              "url": "https://n.163.com/news/update/20261105/29094_1318916.html"
+              "title": "《逆水寒》11月12日更新公告",
+              "type": "更新公告",
+              "date": "2026-11-12",
+              "summary": "正式服更新内容 赛季服更新内容 黄金服更新内容 黄金畅玩服更新内容 各位自在同门： 为了保证服务器的运行稳定和服务质量，《逆水寒》将于2026年11月12日早8时停机进行维护工作，预计维护到上午10时。 本次更新结束后，游戏客户端版本将升为26-11-11-02-00，更新客户端…",
+              "url": "https://n.163.com/news/update/20261111/29094_1319401.html"
             },
             {
-              "title": "《逆水寒》11月5日更新公告",
-              "type": "更新公告",
-              "date": "2026-11-05",
-              "summary": "为了保证服务器的运行稳定和服务质量，《逆水寒》将于2026年11月5日早8时停机进行维护工作，预计维护到上午10时。",
-              "url": "https://n.163.com/news/update/20261104/29094_1318753.html"
+              "title": "碎梦技能“重生”归来，新一轮流派技改来了！",
+              "type": "新闻",
+              "date": "2026-11-10",
+              "summary": "在会呼吸的江湖，武学，也是“会呼吸”的。 我们正持续推出的流派技能翻新计划，就是为了能让每一位同门在日新月异的武林中，体验到源源不断的新鲜感。",
+              "url": "https://n.163.com/news/20261110/26225_1319254.html"
+            },
+            {
+              "title": "首届X9明星赛荣耀收官！恭喜【君临天下】【快乐小猪后援会】【我无所谓】【酷鱼雪糕】斩获各组冠军！",
+              "type": "新闻",
+              "date": "2026-11-09",
+              "summary": "激战落幕，巅峰有名！黄金畅玩服各路豪杰在首届X9明星赛的赛场上倾力而战，以热血回应挑战，以实力攀登巅峰，终于迎来了属于自己的加冕时刻！",
+              "url": "https://n.163.com/news/20261110/26225_1319243.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -495,13 +475,6 @@
               "date": "2026-11-10",
               "summary": "各位英雄： 《永劫无间》致力于打造一个公正、健康、良好的竞技环境。 目前有部分玩家采取“请挂护航”的手段实现快速上分的目的，严重破坏了游戏竞技公平，对游戏环境造成了极大的影响。 针对“请挂护航”的违规玩家，永劫无间开发团队将对其进行严厉打击，依据具体违规情况，对其进行扣除段位分、…",
               "url": "https://www.yjwujian.cn/news/update/20261110/33456_1319241.html"
-            },
-            {
-              "title": "《永劫无间》11月05日更新公告",
-              "type": "更新公告",
-              "date": "2026-11-05",
-              "summary": "亲爱的玩家： 《永劫无间》服务器将于11月5日早7：00-12：00进行停服维护，建议所有玩家提前退出游戏，待更新完成后重新登录。 具体更新内容如下： 全新内容 一、新英雄 云庆上线 自从与饕餮合魂后，本为隐族末流弟子的云庆便获得了难以控制的超凡之力。 从此他自号厌虚子，积极投身…",
-              "url": "https://www.yjwujian.cn/news/update/20261023/33456_1317570.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -532,11 +505,11 @@
           "source_status": "ok",
           "updates": [
             {
-              "title": "《遗忘之海》“桑松”执法者角色PV ——沉默审判",
-              "type": "新闻",
-              "date": "2026-11-05",
-              "summary": "哒 哒 哒…… 在黑暗中回荡的， 是丧钟？ 还是桑松？",
-              "url": "https://sea.163.com/news/official/20261105/42726_1318812.html"
+              "title": "11月12日更新公告",
+              "type": "更新公告",
+              "date": "2026-11-11",
+              "summary": "尊敬的船长： 为提供更优质的游戏体验，《遗忘之海》计划将于 2026年11月12日 04:30~10:00 进行 停服维护更新 ，维护期间将暂时无法登录游戏，开服时间可能视实际情况略有浮动，请船长们合理安排游戏进度和时间。感谢船长们的支持和理解！ ★ 更新安排 更新时间：2026…",
+              "url": "https://sea.163.com/news/update/20261111/42727_1319371.html"
             }
           ],
           "has_afk_grinding_tag": false
@@ -588,6 +561,13 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "基尼奇生日快乐 | 东西还没熟，别偷吃。",
+              "type": "新闻",
+              "date": "2026-11-11",
+              "summary": "「东西还没熟，别偷吃。」 「啊啊啊啊放手啊可恶的绿蜥蜴！我就是来考察一下你有没有在认真干活而已！」 「火力小了点，不然你想想办法？」 「那就松开你的手，给伟大圣龙两盆青蜜莓？」 「成交。」 关于《原神》 《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「…",
+              "url": "https://ys.mihoyo.com/main/news/detail/167309"
+            },
+            {
               "title": "米提亚顾问的观察记录",
               "type": "新闻",
               "date": "2026-11-08",
@@ -607,13 +587,6 @@
               "date": "2026-11-06",
               "summary": "▌霜冕昭苏·安娜丝塔夏 裁雪辟夜，澄晓终明 「…还记得初次与陛下对弈的时候，我便在她落子的间隙恍了神…『我的君主，我那冷峻的女皇啊，为何您的眼底总是藏着这般深重又挥之不去的哀伤呢？』」 ——「魔女J」约安娜·伊万诺夫娜晚年在回忆录中写道 关于女皇的过去—— 安娜丝塔夏是于冰霜之中…",
               "url": "https://ys.mihoyo.com/main/news/detail/167267"
-            },
-            {
-              "title": "丝柯克生日快乐 | 若是有喜欢的星屑，触碰时可要小心一点。",
-              "type": "新闻",
-              "date": "2026-11-05",
-              "summary": "星海浩瀚，无边无际，但也并非遥不可及。 想要更近一点看星空的话，可以试一试像我这样。 若是有喜欢的星屑，触碰时可要小心一点。 万一它们逸散开去，只需静静等待，不久便会重回指尖。 关于《原神》 《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻…",
-              "url": "https://ys.mihoyo.com/main/news/detail/167253"
             }
           ],
           "has_afk_grinding_tag": false
@@ -625,6 +598,13 @@
           "official_url": "https://sr.mihoyo.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "《崩坏：星穹铁道》动画短片：「月下的欢快葬礼」",
+              "type": "新闻",
+              "date": "2026-11-11",
+              "summary": "遥遥致意，远道而来的客人",
+              "url": "https://sr.mihoyo.com/news/167306"
+            },
             {
               "title": "4.7版本「此刻，将群星付之一笑」版本更新说明",
               "type": "更新公告",
@@ -720,6 +700,20 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "生日快乐妮可丨家电回收去哪里",
+              "type": "新闻",
+              "date": "2026-11-11",
+              "summary": "「回去就从比利这家伙身上卸下来！」",
+              "url": "https://zzz.mihoyo.com/news/167310"
+            },
+            {
+              "title": "重返天空的旅程丨3.3版本内容一览（下期）",
+              "type": "新闻",
+              "date": "2026-11-11",
+              "summary": "绳匠们好，3.3版本下期现已开启！S级代理人[赛维里安(风·强攻)]、[诺姆(火·击破)]与S级音擎[禁罪囚笼(强攻)]、[首席跟班(击破)]加入限时频段~",
+              "url": "https://zzz.mihoyo.com/news/167308"
+            },
+            {
               "title": "3.3版本「商城」上新说明",
               "type": "更新公告",
               "date": "2026-11-10",
@@ -774,20 +768,6 @@
               "date": "2026-11-07",
               "summary": "绳匠，现在为您奉上《绝区零》2026 FES 最新情报！",
               "url": "https://zzz.mihoyo.com/news/167278"
-            },
-            {
-              "title": "《绝区零》对iPhone Duo机型的适配说明",
-              "type": "公告",
-              "date": "2026-11-05",
-              "summary": "《绝区零》现已支持对iPhone Duo机型的适配，有需要的绳匠请前往App Store搜索《绝区零》，手动选择更新至3.3.1版本后即可体验相关适配功能。",
-              "url": "https://zzz.mihoyo.com/news/167256"
-            },
-            {
-              "title": "代理人机制介绍丨赛维里安篇",
-              "type": "新闻",
-              "date": "2026-11-05",
-              "summary": "资料库中已收录代理人【赛维里安】的战斗相关信息，重点内容解析完毕，请查收。",
-              "url": "https://zzz.mihoyo.com/news/167252"
             }
           ],
           "has_afk_grinding_tag": false
@@ -856,6 +836,20 @@
           "official_url": "https://infinitynikki.nuanpaper.com/",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "《无限暖暖》11月13日更新预告",
+              "type": "更新公告",
+              "date": "2026-11-11",
+              "summary": "《无限暖暖》2.11版本「时光缝合的扉页」现已全球同步开启！",
+              "url": "https://infinitynikki.nuanpaper.com/news/1095"
+            },
+            {
+              "title": "《无限暖暖》2.11版本「时光缝合的扉页」| 活动开启提醒",
+              "type": "新活动",
+              "date": "2026-11-11",
+              "summary": "《无限暖暖》2.11版本「时光缝合的扉页」现已全球同步开启！",
+              "url": "https://infinitynikki.nuanpaper.com/news/1094"
+            },
             {
               "title": "《无限暖暖》「何人消隐于祷声」限定共鸣复刻开启",
               "type": "新闻",
@@ -931,6 +925,13 @@
           "source_status": "ok",
           "updates": [
             {
+              "title": "「旧梦凋零的百合」3.8版本内容说明",
+              "type": "更新公告",
+              "date": "2026-11-12",
+              "summary": "",
+              "url": "https://mc.kurogames.com/main/news/detail/5779"
+            },
+            {
               "title": "《鸣潮》共鸣者「莉莉」PV |  忘记恐惧",
               "type": "新闻",
               "date": "2026-11-10",
@@ -981,7 +982,7 @@
           "publisher": "库洛游戏",
           "publisher_key": "hg_kuro_pape",
           "official_url": "https://pns.kurogames.com/",
-          "source_status": "error",
+          "source_status": "ok",
           "updates": [],
           "has_afk_grinding_tag": false,
           "company": "库洛"
@@ -1017,6 +1018,20 @@
           "official_url": "https://www.chaoziran.com/news",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "【零-清风入袖】时装优化速递！",
+              "type": "新闻",
+              "date": "2026-11-11",
+              "summary": "",
+              "url": "https://www.chaoziran.com/news/862"
+            },
+            {
+              "title": "什么叫你左脚踩右脚拿糯米炮上天了？",
+              "type": "新闻",
+              "date": "2026-11-11",
+              "summary": "",
+              "url": "https://www.chaoziran.com/news/861"
+            },
             {
               "title": "背饰和美妆能自定义大小和位置了？！",
               "type": "新闻",
@@ -1072,20 +1087,6 @@
               "date": "2026-11-06",
               "summary": "",
               "url": "https://www.chaoziran.com/news/853"
-            },
-            {
-              "title": "版更速递！新员工【莫娜】入职活动将启",
-              "type": "新活动",
-              "date": "2026-11-05",
-              "summary": "",
-              "url": "https://www.chaoziran.com/news/851"
-            },
-            {
-              "title": "11月5日更新——九儿、艾伦迎来加强！",
-              "type": "更新公告",
-              "date": "2026-11-05",
-              "summary": "",
-              "url": "https://www.chaoziran.com/news/852"
             }
           ],
           "has_afk_grinding_tag": false,
@@ -1108,6 +1109,27 @@
           "official_url": "https://game.bilibili.com/fgo/news.html",
           "source_status": "ok",
           "updates": [
+            {
+              "title": "【限时】赠送使用「Fate/Grand Order 藤丸立香想不明白」Season4主视觉图的纪念概念礼装！",
+              "type": "新活动",
+              "date": "2026-11-11",
+              "summary": "",
+              "url": "https://game.bilibili.com/fgo/news.html#!news/0/1/18579"
+            },
+            {
+              "title": "「冠位戴冠战：Archer」开幕！",
+              "type": "公告",
+              "date": "2026-11-11",
+              "summary": "",
+              "url": "https://game.bilibili.com/fgo/news.html#!news/0/1/18578"
+            },
+            {
+              "title": "活动维护公告（2026年11月13日 14时）",
+              "type": "新活动",
+              "date": "2026-11-11",
+              "summary": "",
+              "url": "https://game.bilibili.com/fgo/news.html#!news/0/1/18577"
+            },
             {
               "title": "【限时】「全世界1亿下载纪念推荐召唤」！",
               "type": "新活动",
@@ -1135,13 +1157,6 @@
               "date": "2026-11-06",
               "summary": "",
               "url": "https://game.bilibili.com/fgo/news.html#!news/0/1/18561"
-            },
-            {
-              "title": "活动维护公告（2026年11月7日 17时）",
-              "type": "新活动",
-              "date": "2026-11-05",
-              "summary": "",
-              "url": "https://game.bilibili.com/fgo/news.html#!news/0/1/18558"
             }
           ],
           "has_afk_grinding_tag": false,

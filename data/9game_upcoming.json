@@ -1,38 +1,10 @@
 {
-  "crawled_at": "2026-11-11T02:01:36.627204+00:00",
+  "crawled_at": "2026-11-12T02:51:08.003187+00:00",
   "days": [
     {
-      "date": "2026-11-11",
-      "date_label": "11月11日 今天",
-      "games": [
-        {
-          "game_name": "封神之刃",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "三职业高爆传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/fengshenzhiren1/",
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
       "date": "2026-11-12",
-      "date_label": "11月12日 明天",
+      "date_label": "11月12日 今天",
       "games": [
-        {
-          "game_name": "大圣",
-          "categories": [
-            "休闲"
-          ],
-          "score": null,
-          "event_desc": "西游咸鱼",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/dasheng2/",
-          "has_afk_grinding_tag": false
-        },
         {
           "game_name": "一点三国",
           "categories": [
@@ -42,13 +14,13 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/yidiansanguo2/",
-          "has_afk_grinding_tag": true
+          "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-11-13",
-      "date_label": "11月13日 后天",
+      "date_label": "11月13日 明天",
       "games": [
         {
           "game_name": "斗破苍穹",
@@ -88,6 +60,17 @@
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/sgjyqj/",
           "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "烽火龙途",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "三职业高爆传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/fenghuolongtu/",
+          "has_afk_grinding_tag": false
         }
       ]
     },
@@ -104,6 +87,17 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/dldlzxcs/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "卧龙无敌",
+          "categories": [
+            "策略"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/wolongwudi/",
           "has_afk_grinding_tag": false
         },
         {
@@ -146,7 +140,7 @@
             "角色扮演"
           ],
           "score": null,
-          "event_desc": "0氪仙侠",
+          "event_desc": "高爆0氪仙侠",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/shenchuangjiuzhou/",
           "has_afk_grinding_tag": false
@@ -179,11 +173,11 @@
           "categories": [
             "角色扮演"
           ],
-          "score": null,
+          "score": "7.3",
           "event_desc": "复古打金传奇",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/zuichuanqi3/",
-          "has_afk_grinding_tag": false
+          "has_afk_grinding_tag": true
         }
       ]
     },
@@ -228,23 +222,6 @@
           "event_desc": "预约赢茅台",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/tgzyc/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-12-29",
-      "date_label": "12月29日",
-      "games": [
-        {
-          "game_name": "新大奉打更人",
-          "categories": [
-            "卡牌"
-          ],
-          "score": "8.1",
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/xdfdgr/",
           "has_afk_grinding_tag": false
         }
       ]
