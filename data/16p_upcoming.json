@@ -1,64 +1,12 @@
 {
-  "crawled_at": "2026-11-12T02:51:58.013073+00:00",
+  "crawled_at": "2026-11-13T02:32:01.438538+00:00",
   "days": [
     {
-      "date": "2026-11-12",
-      "date_label": "11月12日 今天",
-      "games": [
-        {
-          "game_name": "永不言弃:镜世界",
-          "categories": [
-            "益智"
-          ],
-          "score": "9.7",
-          "release_date": "2026-11-12",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1962170.html",
-          "publisher": "HOYO",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "恋影迷踪",
-          "categories": [
-            "女性向",
-            "乙女",
-            "剧情",
-            "文字",
-            "恋爱",
-            "角色扮演",
-            "收集",
-            "模拟"
-          ],
-          "score": "8.1",
-          "release_date": "2026-11-12",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1962386.html",
-          "publisher": "游一游工作室",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "工位倒卖局",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": "7.7",
-          "release_date": "2026-11-12",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1952919.html",
-          "publisher": "时迹网络",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-11-13",
-      "date_label": "11月13日 明天",
+      "date_label": "11月13日 今天",
       "games": [
         {
-          "game_name": "斗破苍穹：异火降世",
+          "game_name": "斗破苍穹:异火降世",
           "categories": [
             "角色扮演",
             "国潮",
@@ -66,11 +14,11 @@
             "中国风",
             "高画质"
           ],
-          "score": "7.9",
+          "score": "7.7",
           "release_date": "2026-11-13",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1893611.html",
-          "publisher": "广东星辉天拓互动娱乐有限公司",
+          "publisher": "星辉游戏",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         },
@@ -85,7 +33,7 @@
             "3D",
             "高画质"
           ],
-          "score": "7.6",
+          "score": "8.1",
           "release_date": "2026-11-13",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1946025.html",
@@ -97,7 +45,7 @@
     },
     {
       "date": "2026-11-14",
-      "date_label": "11月14日 后天",
+      "date_label": "11月14日 明天",
       "games": [
         {
           "game_name": "抓虫大师",
@@ -107,7 +55,7 @@
             "休闲",
             "竖屏"
           ],
-          "score": "9.8",
+          "score": null,
           "release_date": "2026-11-14",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1954715.html",
@@ -127,7 +75,7 @@
             "角色扮演",
             "刷宝"
           ],
-          "score": "7.9",
+          "score": "7.8",
           "release_date": "2026-11-16",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952915.html",
@@ -206,13 +154,103 @@
             "放置",
             "策略"
           ],
-          "score": "7.7",
+          "score": "7.8",
           "release_date": "2026-11-18",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1954975.html",
           "publisher": "广州星河月科技有限公司",
           "is_major_publisher": false,
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "date_label": "11月19日 下周四",
+      "games": [
+        {
+          "game_name": "匹配大师",
+          "categories": [
+            "益智",
+            "消除",
+            "竖屏",
+            "3D",
+            "收集",
+            "卡牌"
+          ],
+          "score": "8.3",
+          "release_date": "2026-11-19",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1909938.html",
+          "publisher": "上海橙墨信息技术有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "龙王大人",
+          "categories": [
+            "卡牌",
+            "放置",
+            "像素",
+            "回合制",
+            "经营",
+            "治愈",
+            "Q版"
+          ],
+          "score": "9.4",
+          "release_date": "2026-11-19",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1953244.html",
+          "publisher": "上海久游网络科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "高塔旅人",
+          "categories": [
+            "编辑推荐",
+            "解谜",
+            "益智",
+            "探索",
+            "Steam移植",
+            "冒险",
+            "买断制",
+            "单机",
+            "闯关",
+            "烧脑",
+            "独立游戏",
+            "剧情",
+            "多平台"
+          ],
+          "score": "9.6",
+          "release_date": "2026-11-19",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952833.html",
+          "publisher": "良心工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "斗罗大陆:诛邪传说",
+          "categories": [
+            "动作",
+            "多平台",
+            "开放世界",
+            "多人联机",
+            "动漫改编",
+            "角色扮演",
+            "冒险",
+            "国漫",
+            "小说改编",
+            "剧情"
+          ],
+          "score": "8.2",
+          "release_date": "2026-11-19",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1903196.html",
+          "publisher": "贪玩游戏",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
         }
       ]
     }

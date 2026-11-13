@@ -1,196 +1,309 @@
 {
-  "generated_at": "2026-11-12T03:04:11.275104+00:00",
+  "generated_at": "2026-11-13T02:47:47.784119+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-12",
-      "article_count": 23,
-      "game_count": 13,
-      "untagged_count": 7,
-      "digest": "今日游戏资讯聚焦于《GTA6》的帧率争议与日版删减传闻，以及《生化危机9：安魂曲》和《巫师3：重制版》在金摇杆奖上的大获全胜。此外，《影之刃零》Steam好评如潮，《怪物史莱克2》重制版口碑翻车，多款新作如《王权陨落》与《风暴熔炉》也同步发售或开启试玩。",
+      "date": "2026-11-13",
+      "article_count": 20,
+      "game_count": 15,
+      "untagged_count": 5,
+      "digest": "今日游戏资讯涵盖多款新作动态与老游更新，R星透露《GTA7》选址思路，小岛秀夫新作《OD Knock》实景录制并扫描家具，太空工厂建造游戏《主星序》开启Steam抢先体验，《光环：战役进化》今冬加入四人合作PvE模式，《塞尔达无双：灾厄启示录》定于2027年2月25日登陆Switch 2。",
       "digest_source": "llm",
-      "input_hash": "d11a0bd96a80c39d",
+      "input_hash": "9ff84875a545e1da",
       "game_digests": [
         {
-          "name": "GTA6",
-          "count": 4,
-          "summary": "外媒批评主机版锁30帧，认为操作流畅性比画质更重要，并指出日版容量缩水至208GB，疑似删减了“强烈性内容”。",
+          "name": "GTA7",
+          "count": 1,
+          "summary": "R星透露《GTA7》选址思路，Epic喜加一，韩国评级受阻。",
           "summary_source": "llm"
         },
         {
-          "name": "上古卷轴6",
+          "name": "OD Knock",
           "count": 1,
-          "summary": "外媒推测新作探索区域可能仅聚焦于哨兵城邦，而非整个落锤省，但Bethesda尚未公布具体的地图边界或面积。",
+          "summary": "小岛秀夫新作实景录制，使用GoPro扫描房屋与古董家具。",
           "summary_source": "llm"
         },
         {
-          "name": "安魂曲",
+          "name": "主星序",
           "count": 1,
-          "summary": "《生化危机9：安魂曲》在第44届金摇杆奖中以17%的玩家得票率拿下“终极年度游戏”，并斩获四项大奖。",
+          "summary": "太空工厂建造游戏《主星序》今日开启Steam抢先体验。",
           "summary_source": "llm"
         },
         {
-          "name": "巫师3",
+          "name": "光环：战役进化",
           "count": 1,
-          "summary": "CDPR确认扩展内容《旧时曲》将使用AI技术还原杰洛特的初版波兰语声线，由Respeecher负责。",
+          "summary": "今冬免费更新，加入四人合作PvE模式“枪林弹雨”。",
           "summary_source": "llm"
         },
         {
-          "name": "巫师3RE",
+          "name": "塞尔达无双：灾厄启示录",
           "count": 1,
-          "summary": "《巫师3：狂猎 — 重制版》以37%的得票率夺得“最佳重制/复刻游戏”奖。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师4",
-          "count": 1,
-          "summary": "《巫师4》击败《神鬼寓言》和《生化危机：代号维罗妮卡》，获得2026年金摇杆奖“最受期待游戏”。",
+          "summary": "决定版定于2027年2月25日登陆Switch 2。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 1,
-          "summary": "《影之刃零》Steam简中区好评率升至95%，获“好评如潮”标签，历时约两周。",
+          "summary": "3D美术负责人发布角色3D建模图，展示细节质感。",
           "summary_source": "llm"
         },
         {
-          "name": "怪物史莱克2",
+          "name": "德军总部3",
           "count": 1,
-          "summary": "《怪物史莱克2》重制版上线即翻车，Steam好评率仅47%，玩家吐槽过场动画损坏、性能拉胯且联机需绑定Epic账号。",
+          "summary": "正式进入制作阶段，Bethesda与MachineGames联合宣布。",
           "summary_source": "llm"
         },
         {
-          "name": "最终幻想7",
+          "name": "战争机器：事变日",
           "count": 1,
-          "summary": "《最终幻想7》重制第三部《启示录》的滑雪小游戏确认回归主线剧情，导演滨口直树表示其对整部作品不可或缺。",
+          "summary": "推出Xbox 25周年纪念武器套装，含12款透明绿色皮肤。",
           "summary_source": "llm"
         },
         {
-          "name": "毒液",
+          "name": "战锤40K黑暗异端",
           "count": 1,
-          "summary": "美漫核心编剧RamV成立新工作室“Mirror Maker Studios”，旗下新作漫画《DEICIDIUM》即将发售。",
+          "summary": "PS5与Switch2实体版将于2027年4月底发售。",
           "summary_source": "llm"
         },
         {
-          "name": "猛鬼追魂",
+          "name": "控制：共振",
           "count": 1,
-          "summary": "恐怖游戏《猛鬼追魂：复兴》推出免费试玩Demo，包含序章与第一章内容，游戏将于10月8日发售。",
+          "summary": "拍照模式延期，预估12月初上线。",
           "summary_source": "llm"
         },
         {
-          "name": "王权陨落",
+          "name": "时之笛",
           "count": 1,
-          "summary": "极简策略塔防游戏《王权陨落》于11月11日正式登陆PS5及Xbox Series X|S平台，同步加入Xbox Game Pass订阅库。",
+          "summary": "重制版实体版在日本销量占比高达66%，总销量81万份。",
           "summary_source": "llm"
         },
         {
-          "name": "风暴熔炉",
+          "name": "最终幻想7：启示",
           "count": 1,
-          "summary": "《风暴熔炉》抢先体验上线Steam，支持8人合作与模组，拥有动态风暴机制与多职业技能，日区正八五折特惠。",
+          "summary": "获韩国15+评级，部分服装暴露。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "杀戮尖塔2",
+          "count": 1,
+          "summary": "迎来超大游戏性更新，新增角色与新模式。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "深空当铺",
+          "count": 1,
+          "summary": "公开更新计划，新增开局职业和大量内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "都市：天际线2",
+          "count": 1,
+          "summary": "开启限时免费游玩活动，可免费畅玩至11月17日。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "article_count": 70,
+      "game_count": 38,
+      "untagged_count": 21,
+      "digest": "今日游戏资讯聚焦于《GTA6》主机版锁帧争议与日版删减内容讨论，同时R星透露未来或推出海外地图作品。此外，《生化危机9：安魂曲》斩获金摇杆四项大奖，多款经典老游戏如《GT赛车6》与《孤岛惊魂：本能掠夺者》迎来PC版新进展，独立游戏与视觉小说新作也纷纷公布试玩版。",
+      "digest_source": "llm",
+      "input_hash": "080a300089d4925b",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 12,
+          "summary": "开发主管Rob Nelson透露角色可双手执行不同动作，例如一手喝啤酒一手拿甜甜圈。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF14",
+          "count": 1,
+          "summary": "全服玩家自发举办悼念活动，为官方乐队THE PRIMALS贝斯手岩井英吉送别。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7启示",
+          "count": 1,
+          "summary": "滨口直树确认三部曲终章剧情不会因玩家期待而改写，故事走向由资深团队确定。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA",
+          "count": 1,
+          "summary": "R星开发人员表示未来《GTA》不排除走出美国，暂无海外地图计划，但美国仍有大量内容可挖掘。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GT赛车6",
+          "count": 1,
+          "summary": "Modder发布PC一键启动器，支持在PC和Linux上以最高4K分辨率畅玩本作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴6",
+          "count": 1,
+          "summary": "外媒推测新作探索区域可能仅聚焦于哨兵城邦，而非整个落锤省。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "农场与盛宴",
+          "count": 1,
+          "summary": "今日正式开启Steam抢先体验，玩家可体验种菜、开店及经营农家乐的玩法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "勇者小队全灭了。",
+          "count": 1,
+          "summary": "Steam商店页面更新，强调主角攻略漂亮老婆的剧情，主打黑暗奇幻浪漫风格。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "半条命2：第三章",
+          "count": 1,
+          "summary": "《半条命2：第三章》废案曝光，泄露代码显示曾包含冰冻炮、火焰喷射器及可变形吞噬敌人的怪物。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塔斯克巴英雄",
+          "count": 1,
+          "summary": "官方发布安全公告，证实发生玩家数据泄露事件，黑客利用第三方服务器漏洞获取了部分资料。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "天穗之咲稻姬",
+          "count": 1,
+          "summary": "Marvelous放出外传新作第二弹先导PV，以新角色心环为主角，展现全新故事篇章。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "孤岛惊魂：本能掠夺者",
+          "count": 1,
+          "summary": "开发者利用“静态重编译”技术将原版PowerPC代码直接转换为C++代码，实现PC原生发布。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "安魂曲",
+          "count": 1,
+          "summary": "《生化危机9：安魂曲》在第44届金摇杆奖中以17%的玩家得票率险胜《影之刃零》，斩获四项大奖。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "审判官谢泼德",
+          "count": 1,
+          "summary": "悬疑惊悚视觉小说游戏今日上线Steam试玩版，正式版计划于2027年推出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 1,
+          "summary": "CDPR确认扩展内容《旧时曲》将使用AI技术还原杰洛特的初版波兰语声线。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-11-11",
-      "article_count": 53,
-      "game_count": 27,
-      "untagged_count": 12,
-      "digest": "11月11日 游侠网 共 53 条新闻，涉及 27 款游戏。报道最集中的是《GTA6》（15 条）、《Fairgames》（1 条）、《全军出鸡》（1 条）。另有 12 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
-      "input_hash": "7202e9bc6791782a",
+      "article_count": 92,
+      "game_count": 45,
+      "untagged_count": 24,
+      "digest": "今日游戏行业资讯聚焦《GTA6》云串流登陆Xbox与PS商店预购纪录刷新，任天堂《时之笛》重制版销量突破520万份创Switch2纪录，同时《足球经理27》正式发售，索尼《Fairgame$》项目被取消，以及《城市：天际线II》公园DLC定档。",
+      "digest_source": "llm",
+      "input_hash": "bbe566dc88af9ca5",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 15,
-          "summary": "Xbox One也能玩《GTA6》了！前提是你的网络够稳；索尼确认《GTA6》刷新PS商店预购纪录！PS5特性公开；索尼、微软确认《GTA6》预购创PS/Xbox商店历史最高（当天共 15 条）",
-          "summary_source": "rules"
+          "count": 20,
+          "summary": "索尼确认《GTA6》刷新PS商店预购纪录，预载正式开放，游戏于11月19日按地区时区解锁。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛",
+          "count": 3,
+          "summary": "《塞尔达传说：时之笛》重制版4天狂卖520万份，创Switch2软件发售初期4天销量历史最高纪录。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛RE",
+          "count": 2,
+          "summary": "《塞尔达传说：时之笛 重制版》以96分位居Metacritic高分重制游戏榜单榜首。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "足球经理27",
+          "count": 2,
+          "summary": "《足球经理27》今日正式发售，登陆PS5、Xbox、PC及Mac等全平台，引入全新“战术微调”系统。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "CS2",
+          "count": 1,
+          "summary": "《CS2》BLAST香港对抗赛今日开幕，八队角逐百万美元奖金。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Fairgame$",
+          "count": 1,
+          "summary": "Haven Studios开发的劫掠射击游戏《Fairgame$》在公布三年多后被取消。",
+          "summary_source": "llm"
         },
         {
           "name": "Fairgames",
           "count": 1,
-          "summary": "索尼的\"服务型游戏\"梦碎 《Fairgames》宣布终止开发。",
-          "summary_source": "rules"
+          "summary": "索尼的实时服务战略再次受挫，PvP射击游戏《Fairgames》宣布终止开发。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "P4R",
+          "count": 1,
+          "summary": "《女神异闻录4 Revival》开发内幕大爆料，里中千枝的形象调整成为团队论战焦点。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Project Motor Racing",
+          "count": 1,
+          "summary": "《Project Motor Racing》全新DLC“World Endurance Pack”正式上线，带来4大组别、11台传奇赛车及富士Speedway赛道。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "伊苏1&2",
+          "count": 1,
+          "summary": "《伊苏I&II》PC移植版推出，支持宽屏高刷、CRT滤镜等现代化游玩功能。",
+          "summary_source": "llm"
         },
         {
           "name": "全军出鸡",
           "count": 1,
-          "summary": "Devolver公布首款AAA游戏《全军出鸡》 画风依然癫狂。",
-          "summary_source": "rules"
+          "summary": "Devolver公布首款AAA游戏《ALL ARMY ATTACK!!!》，这是一款画风癫狂的大规模Roguelike自走棋。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "《剑星》开发商SHIFTUP急求次世代Xbox ProjectHelix，首席技术官公开表示对下一代Xbox充满热情。",
+          "summary_source": "llm"
         },
         {
           "name": "叫魂",
           "count": 1,
-          "summary": "《叫魂》实机演示预告公开，窥见仙女镇往事。",
-          "summary_source": "rules"
+          "summary": "国产第一人称恐怖游戏《叫魂》实机演示预告公开，展示游戏画面。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "城市：天际线II",
+          "count": 1,
+          "summary": "《城市：天际线 II：公园冒险》扩展包将于日本时间2026年12月2日上线，归属第二季扩展通行证。",
+          "summary_source": "llm"
         },
         {
           "name": "堡垒之夜",
           "count": 1,
-          "summary": "官方辟谣反遭质疑！《堡垒之夜》精灵说\"脏话\"被禁音。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "塞尔达：姆吉拉的假面",
-          "count": 1,
-          "summary": "曝任天堂目前并未制作《塞尔达:姆吉拉的假面》重制版。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "女神异闻录4RE",
-          "count": 1,
-          "summary": "《女神异闻录4RE》原计划今年夏季发售 大量剧情在夏季。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "必看！",
-          "count": 1,
-          "summary": "【必看！】新物集BGM游戏展·上海站 游戏侧重磅消息来了！！！！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "怪物猎人物语3：命运双龙",
-          "count": 1,
-          "summary": "《怪物猎人物语3：命运双龙》宣布全球销量突破100万。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "怪猎：荒野",
-          "count": 1,
-          "summary": "SteamDB更新暗示《怪猎:荒野》DLC“凌越”或开放试玩。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "恶魔城：血之轮回",
-          "count": 1,
-          "summary": "《恶魔城：血之轮回》PC移植版发布！支持4K+即时存档。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "我的世界地下城2",
-          "count": 1,
-          "summary": "《我的世界地下城2》PS5、Switch实体版于12月3日发售!。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "时之笛：重制版",
-          "count": 1,
-          "summary": "《时之笛：重制版》证明任天堂比PS和Xbox更懂粉丝！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "植物大战僵尸重植版",
-          "count": 1,
-          "summary": "订阅就能玩!《植物大战僵尸重植版》将登陆苹果Arcade。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "死亡搁浅2",
-          "count": 1,
-          "summary": "《死亡搁浅2》领衔！索尼PS+会员11月二/三档会免公布。",
-          "summary_source": "rules"
+          "summary": "《堡垒之夜》精灵小弗拉科因意外音效被禁音，官方辟谣反遭质疑。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -898,107 +1011,6 @@
           "count": 1,
           "summary": "《FF14》8.0改动:黑魔法师进化重做  诗学神典石下架。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "article_count": 88,
-      "game_count": 50,
-      "untagged_count": 20,
-      "digest": "11月3日游戏资讯聚焦于《影之刃零》口碑回升与Steam好评率升至91%，以及《GTA6》发售前夕粉丝离世引发9.6万美元捐款，同时《魔兽世界：无限》开启预载，任天堂公布《塞尔达：时之笛 重制版》将移除传送点并赠送限定周边。",
-      "digest_source": "llm",
-      "input_hash": "e399e1df39fc1d49",
-      "game_digests": [
-        {
-          "name": "影之刃零",
-          "count": 11,
-          "summary": "官方公布路径追踪与DLSS 4.5宣传视频，展示PC平台全套RTX渲染特性。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 4,
-          "summary": "开发主管确认Sam全程深度参与《GTA6》创意开发，并非退居幕后的风格监督者。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Physint",
-          "count": 2,
-          "summary": "小岛秀夫《Physint》新爆料，展区首次展示机械设计概念与剧本实物。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达：时之笛 重制版",
-          "count": 2,
-          "summary": "青沼英二透露重制初衷，旨在让新加入团队的开发者理解作品核心意义。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战争机器",
-          "count": 2,
-          "summary": "爆料人澄清《战争机器：E-Day》开发预算说法过度简化，称The Coalition是Xbox“金牌辅助”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "时之笛RE",
-          "count": 2,
-          "summary": "任天堂在开发者访谈中曝光，为留住沿途惊喜已删掉已完工的传送系统。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "魔兽世界：无限",
-          "count": 2,
-          "summary": "外网论坛爆料首个付费DLC《Shadows of Lordaeron(洛丹伦之暗影)》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "ARC Raiders",
-          "count": 1,
-          "summary": "发售后增长超出预期，工作室已扩充团队并计划长期运营游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤",
-          "count": 1,
-          "summary": "玩家深夜激战时遭遇流弹穿墙击中电脑屏幕，万幸被华硕显示器挡下。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "信长之野望：飞翔",
-          "count": 1,
-          "summary": "原定11月4日公布发售日期的官方直播紧急延期，为优化玩家体验重新评估发售档期。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "全境封锁2",
-          "count": 1,
-          "summary": "分阶段跨平台上线，11月10日PC端率先迁移新服务器并重置排行榜。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "冰汽时代2",
-          "count": 1,
-          "summary": "DLC3《激流》将于12月14日上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星完全版",
-          "count": 1,
-          "summary": "Switch 2版测显示掌机模式表现更佳，允许关闭默认启用的帧生成。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "午夜之南",
-          "count": 1,
-          "summary": "创意总监David Sears坦言微软对该项目资金投入“不可持续”，称Xbox砸钱太猛。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "哥布林女仆大扫除",
-          "count": 1,
-          "summary": "海盗湾更新上线，两座全新海盗主题关卡登场，豪华版包含原声带。",
-          "summary_source": "llm"
         }
       ]
     }
