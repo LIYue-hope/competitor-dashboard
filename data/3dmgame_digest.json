@@ -1,118 +1,219 @@
 {
-  "generated_at": "2026-11-13T02:44:39.613870+00:00",
+  "generated_at": "2026-11-14T02:27:43.900806+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-13",
-      "article_count": 64,
-      "game_count": 43,
-      "untagged_count": 13,
-      "digest": "11月13日 3DMGame 共 64 条新闻，涉及 43 款游戏。报道最集中的是《GTA6》（9 条）、《EA SPORTS FC 27 Lite》（1 条）、《Paradox》（1 条）。另有 13 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
-      "input_hash": "10523559b5bf16cc",
+      "date": "2026-11-14",
+      "article_count": 21,
+      "game_count": 16,
+      "untagged_count": 0,
+      "digest": "11月14日游戏行业资讯聚焦于《GTA6》确认符合TGA 2026参评资格，Take Two强调独立意愿并预计本财年营收80至82亿美元，同时育碧批准开发《彩虹六号：维加斯》新作，CD Projekt Red确认《巫师4》预计2028年发售，以及《收获日3》免费周末吸引32万玩家。",
+      "digest_source": "llm",
+      "input_hash": "c87477086ccc4c0a",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 9,
-          "summary": "《GTA6/侠盗猎车6》收藏箱地图曝光，画面可辨认七个地点名称；《GTA6》负责人未排除系列未来走出美国；《GTA6》疑似地图现身伦敦Selfridges联名活动（当天共 9 条）",
-          "summary_source": "rules"
+          "count": 4,
+          "summary": "TGA 2026将于11月17日公布提名名单，游戏虽在两天后才发售但符合参评期限，由Geoff Keighley主持全球直播。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "万智牌",
+          "count": 2,
+          "summary": "威世智公布“纳克提斯”系列将于2027年2月5日发售，并首次引入稀有或秘稀卡“神包”，推出四款预组指挥官套牌。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "彩虹六号：维加斯",
+          "count": 2,
+          "summary": "匿名消息称育碧已批准开发代号为“Spades”的新作，由育碧蒙特利尔推进，预计为《彩虹六号：维加斯3》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Take Two",
+          "count": 1,
+          "summary": "CEO Strauss Zelnick强调公司保持独立意愿，本财年营收指引为80亿至82亿美元，目前市值超过420亿美元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 1,
+          "summary": "CD Projekt Red确认《巫师4》预计要到2028年才会发售，法务团队招聘信息显示合同期限至2028年4月30日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战神：斯巴达之子",
+          "count": 1,
+          "summary": "游戏确认将于11月16日登陆PS4，并新增赫尔墨斯竞速模式和厄瑞玻斯极限容错模式。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "收获日3",
+          "count": 1,
+          "summary": "免费周末活动期间玩家总数突破32万，其中25万为新玩家，Starbreeze CEO致谢社区热情，游戏口碑实现翻盘。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "死亡搁浅2：冥滩之上",
+          "count": 1,
+          "summary": "迪士尼动画主管Jared Bush表示，与小岛秀夫交流《死亡搁浅2》创作方式后，为其电影《Hexed》的剧情难题提供了灵感。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "深岩银河",
+          "count": 1,
+          "summary": "衍生肉鸽新作《深岩银河：异动核心》开启限时免费试玩，PC玩家可在11月17日凌晨2点前体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "深空当铺：可能是偷的",
+          "count": 1,
+          "summary": "工作室公布未来更新路线图，计划通过三次更新加入“废料客”、“器官贩子”和“街头餐贩”开局。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威争锋",
+          "count": 1,
+          "summary": "第11赛季将加入夜行者和德古拉，后续角色安排尚未确认，毁灭博士等5名角色仅是潜在人选。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "燕云十六声",
+          "count": 1,
+          "summary": "上线周年更新，开放滹沱区域并新增剧情玩法、首领及棋局模式，每名玩家可免费选择一套高级服装。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "织田信长传",
+          "count": 1,
+          "summary": "1998年策略RPG《织田信长传》首次复刻登陆PS5与Switch 2，加入现代便利功能但未提供完整英文翻译。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "维京战士沃尔加",
+          "count": 1,
+          "summary": "创作者Christopher Dürrschmidt认为AI游戏恐慌是旧事重演，市场最终会淘汰平庸作品。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛博朋克2077",
+          "count": 1,
+          "summary": "设计师Paweł Sasko确认部分剧情会刻意限制玩家控制，以表现强尼·银手逐渐侵入主角意识。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "article_count": 154,
+      "game_count": 101,
+      "untagged_count": 32,
+      "digest": "GTA6线上模式或于2027年末推出，本体将于11月19日登陆PS5和XSX/S；塞尔达传说：时之笛Switch 2版首周售出53.7万套夺冠；Delve Survivors、九王、阴暗航线、雷顿教授与蒸汽新世界、777勇者：抗争时间之人、BOMBANANA!、Corepunk、DC、EA SPORTS FC 27 Lite、LoveLive!及Paradox均发布相关动态。",
+      "digest_source": "llm",
+      "input_hash": "447859b371d19905",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 14,
+          "summary": "彭博视频称线上模式或于2027年末推出，较本体晚约一年，本体将于11月19日登陆PS5和XSX/S。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说：时之笛",
+          "count": 3,
+          "summary": "Switch 2版首周售出53.7万套夺冠，日本整体销量为81万套。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Delve Survivors",
+          "count": 2,
+          "summary": "回合制幸存者类新游于11月13日上架Steam，售价45元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "九王",
+          "count": 2,
+          "summary": "牌组构筑肉鸽游戏正式版上线，新增自定义初始牌组及27种以上“敕令”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "宝可梦传说 Z-A",
+          "count": 2,
+          "summary": "排位对战“赛季X”开启，仅限超级雷丘X、超级喷火龙X和超级超梦X可超级进化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "阴暗航线",
+          "count": 2,
+          "summary": "克苏鲁卡牌生存游戏Steam免费试玩版推出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "雷顿教授与蒸汽新世界",
+          "count": 2,
+          "summary": "确定于12月9日发售，Steam Deck支持触控操作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "马里奥赛车：世界",
+          "count": 2,
+          "summary": "Switch 2与游戏套装黑五优惠最高省50美元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "777勇者：抗争时间之人",
+          "count": 1,
+          "summary": "弹珠机放置RPG开启Steam抢先体验，定价850日元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "BOMBANANA!",
+          "count": 1,
+          "summary": "登陆PS5、Xbox One和XSX/S平台，Steam销量突破200万份。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Corepunk",
+          "count": 1,
+          "summary": "发布新补丁，调整开放世界战争、副本与敌人。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "DC",
+          "count": 1,
+          "summary": "消息称超级少女等角色或将换角，DC宇宙可能不完整重启。",
+          "summary_source": "llm"
         },
         {
           "name": "EA SPORTS FC 27 Lite",
           "count": 1,
-          "summary": "EA意外移除《EA SPORTS FC 27 Lite》D加密技术。",
-          "summary_source": "rules"
+          "summary": "意外移除D加密技术，可离线运行。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "LoveLive!",
+          "count": 1,
+          "summary": "μ's语音应用确定2026年冬季上线，九名成员参与新录音。",
+          "summary_source": "llm"
         },
         {
           "name": "Paradox",
           "count": 1,
-          "summary": "Paradox宣布首席执行官交接 Mattias Lilja明年1月接任。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "上古卷轴：影之钥 重铸版",
-          "count": 1,
-          "summary": "《上古卷轴：影之钥 重铸版》将N-Gage旧作移植到PC！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "主星序",
-          "count": 1,
-          "summary": "打造星际工业帝国！太空工厂建造游戏《主星序》今日开启Steam抢先体验。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "使命召唤：无限战争",
-          "count": 1,
-          "summary": "《使命召唤：无限战争》联合导演回忆麦格雷戈动捕排练经历。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "光环：战役进化",
-          "count": 1,
-          "summary": "《光环：战役进化》今冬免费更新加入四人合作“枪林弹雨”。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "古墓丽影：催化剂",
-          "count": 1,
-          "summary": "Amazon Games官网删除《古墓丽影：催化剂》Switch 2平台与2028年发行窗口。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "地狱铸造",
-          "count": 1,
-          "summary": "《地狱铸造》2027年1月18日开启Steam抢先体验。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "塞尔达传说：时之笛",
-          "count": 1,
-          "summary": "Take-Two CEO称赞《塞尔达传说：时之笛》重制版，回应与《GTA6/侠盗猎车6》竞争。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "塞尔达无双：灾厄启示录",
-          "count": 1,
-          "summary": "《塞尔达无双：灾厄启示录》明年2月登陆Switch2。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "守望先锋2",
-          "count": 1,
-          "summary": "Jeff称曾反对过早公布《守望先锋2》及付费解锁英雄。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "宝可梦传说 Z-A",
-          "count": 1,
-          "summary": "《宝可梦传说 Z-A》开放异色哲尔尼亚斯限时兑换，1月7日截止。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "宝可梦：Pokopia",
-          "count": 1,
-          "summary": "《宝可梦：Pokopia》开放神秘礼物代码 可领取6件家具。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "尘埃异变2",
-          "count": 1,
-          "summary": "《尘埃异变2》11月27日登陆Switch双平台并推出免费更新！。",
-          "summary_source": "rules"
+          "summary": "宣布首席执行官交接，Mattias Lilja将于2027年1月接任。",
+          "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-11-12",
-      "article_count": 146,
+      "article_count": 149,
       "game_count": 103,
-      "untagged_count": 20,
-      "digest": "11月12日 3DMGame 共 146 条新闻，涉及 103 款游戏。报道最集中的是《GTA6》（15 条）、《上古卷轴5：天际》（3 条）、《上古卷轴5》（2 条）。另有 20 条未指向具体游戏的行业或平台资讯。",
+      "untagged_count": 23,
+      "digest": "11月12日 3DMGame 共 149 条新闻，涉及 103 款游戏。报道最集中的是《GTA6》（15 条）、《上古卷轴5：天际》（3 条）、《上古卷轴5》（2 条）。另有 23 条未指向具体游戏的行业或平台资讯。",
       "digest_source": "rules",
-      "input_hash": "9b2efba55dfcc033",
+      "input_hash": "43a9b3f6ac78eef2",
       "game_digests": [
         {
           "name": "GTA6",
@@ -909,107 +1010,6 @@
           "name": "ASTELLIA2",
           "count": 1,
           "summary": "《ASTELLIA2》基于ONEchain的全球MMORPG 于11月5日正式上线。",
-          "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "article_count": 104,
-      "game_count": 60,
-      "untagged_count": 19,
-      "digest": "2026年11月4日，当日行业动态较丰富，涉及游戏数量达60款，新闻总数104条，整体呈现多品类游戏持续更新、发行推进及行业动态调整并发的局面，多款重点游戏动态各有进展，行业内容围绕游戏生态发展展开。",
-      "digest_source": "llm",
-      "input_hash": "61eb258ade165ada",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 14,
-          "summary": "消息称《GTA6》或支持PS5 Pro增强、PSSR与高级光线追踪；《GTA6》可能仅靠预购就已经赚了7.51亿美元；《GTA6》PS5 Pro页面疑泄露PSSR与高级光追支持（当天共 14 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "塞尔达：时之笛 重制版",
-          "count": 6,
-          "summary": "《塞尔达：时之笛 重制版》获Fami通37分 与3DS版持平；发售前先迎更新 《塞尔达：时之笛 重制版》升至1.1.1版；任天堂为《塞尔达：时之笛 重制版》盲选配音 意外选回原版声优（当天共 6 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "影之刃零",
-          "count": 5,
-          "summary": "《影之刃零》海外市场收入占55% 美国单日收入四天增至8.5倍；《影之刃零》玩家模组让孙悟空替换主角魂登场；《影之刃零》更新：BOSS新娘阿花削弱 大量问题修复（当天共 5 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "上古卷轴6",
-          "count": 3,
-          "summary": "《上古卷轴6》确认以落锤省为舞台！消息称发售仍需两年以上；《上古卷轴6》剧情或泄露 玩家这次竟然不是天选之人？；等了多年！《上古卷轴6》定名预告公布 副标题为“哨兵”。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "无畏契约",
-          "count": 2,
-          "summary": "FURIA退出《无畏契约》混合组别赛事！全体队员与教练成为自由人；新娘设置《无畏契约》婚礼堵门挑战 新郎需对局取胜。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "007：初露锋芒",
-          "count": 1,
-          "summary": "《007：初露锋芒》向PS Plus高级会员开放一小时试玩！提供六折优惠。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "2026中国游戏产业IP发展报告",
-          "count": 1,
-          "summary": "《2026中国游戏产业IP发展报告》发布：六大趋势揭秘3000亿市场新方向。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Addicted",
-          "count": 1,
-          "summary": "BLACKPINK成员Jisoo确认《Addicted》红裙造型致敬《生化危机》。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Apex 英雄：破译天机",
-          "count": 1,
-          "summary": "《Apex 英雄：破译天机》现已正式上线！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "Catharsis～最后的画室～",
-          "count": 1,
-          "summary": "讲谈社艺术新游《Catharsis～最后的画室～》定档12.1！Steam试玩版现已上线！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "GT赛车7",
-          "count": 1,
-          "summary": "《GT赛车7》销量超1270万份 收入超8.4亿美元。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "SKULD",
-          "count": 1,
-          "summary": "动作塔防游戏《SKULD》Steam试玩版上线 正式版2027年推出。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "上古卷轴3：晨风",
-          "count": 1,
-          "summary": "Bethesda设计总监回忆从临时试玩到全职QA与游戏设计！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "上古卷轴5：天际",
-          "count": 1,
-          "summary": "《上古卷轴5：天际》美术人员曾尝试真正制作7000级台阶。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "乐浮岛",
-          "count": 1,
-          "summary": "多人生活模拟《乐浮岛》开启抢先体验 支持共建空岛社区。",
           "summary_source": "rules"
         }
       ]

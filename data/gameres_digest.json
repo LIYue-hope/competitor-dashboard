@@ -1,23 +1,29 @@
 {
-  "generated_at": "2026-11-13T02:57:11.333089+00:00",
+  "generated_at": "2026-11-14T02:39:30.817962+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-11-13",
-      "article_count": 5,
-      "game_count": 1,
-      "untagged_count": 4,
-      "digest": "2026-11-13当天，游资网共发布5条新闻，涉及游戏仅1款，即大梦推出测试对战卡牌小游戏《吾剑之路》，采用武侠手绘风格，玩法接近《炉石传说》，兼具《杀戮尖塔》式分支路线、卡牌合成强化及多线养成，设定新颖，但初期引导、节奏等需优化，其余新闻未指向具体游戏，整体呈现小规模聚焦相关游戏动态的态势。",
+      "article_count": 8,
+      "game_count": 2,
+      "untagged_count": 6,
+      "digest": "大梦推出武侠风格对战卡牌游戏《吾剑之路》，采用手绘风格并融合《炉石传说》与《杀戮尖塔》玩法，但需优化引导与节奏；《魔域》公布「世界树：天痕之上」年终活动，将于12月18日上线，包含千万魔石预约福利及圣装精炼系统等更新。",
       "digest_source": "llm",
-      "input_hash": "9eb7ae6c55340ba3",
+      "input_hash": "acfe20bfb3955b31",
       "game_digests": [
         {
           "name": "吾剑之路",
           "count": 1,
-          "summary": "卡牌对战的武侠新尝试！大梦《吾剑之路》开辟新思路！。",
-          "summary_source": "rules"
+          "summary": "大梦推出武侠手绘风格对战卡牌游戏《吾剑之路》，玩法接近《炉石传说》并融合《杀戮尖塔》式分支路线、卡牌合成强化及多线养成，但初期引导、节奏等需优化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔域",
+          "count": 1,
+          "summary": "《魔域》公布「世界树：天痕之上」年终活动，将于2026年12月18日上线，新增圣装精炼系统、副本每周轮换机制及千万魔石组队预约福利，并优化圣装分解功能。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -274,29 +280,6 @@
           "name": "魔域",
           "count": 1,
           "summary": "11月华服嘉年华前瞻发布，新品「万岳昭威·镇煞」双形态虎系外观将于11月11日上线，同步曝光多款穿搭。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "article_count": 11,
-      "game_count": 2,
-      "untagged_count": 9,
-      "digest": "11月4日资讯显示，米哈游旗下《原神》于11月2日获CPOPwave2026“长红IP”出海荣誉，表彰其上线六年坚持长线运营；另一款游戏《时间旅者：拉撒路》宣布将于12月3日登陆PC、PS5及Xbox Series X|S平台。",
-      "digest_source": "llm",
-      "input_hash": "3833ee595797b571",
-      "game_digests": [
-        {
-          "name": "原神",
-          "count": 1,
-          "summary": "11月2日，米哈游旗下《原神》获CPOPwave2026“长红IP”出海荣誉，表彰其上线六年坚持长线运营，推动多元文明交流。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "时间旅者：拉撒路",
-          "count": 1,
-          "summary": "游戏宣布将于12月3日登陆PC、PS5及Xbox Series X|S平台。",
           "summary_source": "llm"
         }
       ]
