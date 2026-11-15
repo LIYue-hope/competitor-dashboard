@@ -1,31 +1,9 @@
 {
-  "crawled_at": "2026-11-14T02:15:53.576510+00:00",
+  "crawled_at": "2026-11-15T01:43:53.605305+00:00",
   "days": [
     {
-      "date": "2026-11-14",
-      "date_label": "11月14日 今天",
-      "games": [
-        {
-          "game_name": "抓虫大师",
-          "categories": [
-            "模拟",
-            "放置",
-            "休闲",
-            "竖屏"
-          ],
-          "score": null,
-          "release_date": "2026-11-14",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1954715.html",
-          "publisher": "SKY工作室",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
       "date": "2026-11-16",
-      "date_label": "11月16日 后天",
+      "date_label": "11月16日 明天",
       "games": [
         {
           "game_name": "渊环",
@@ -33,7 +11,7 @@
             "角色扮演",
             "刷宝"
           ],
-          "score": "7.8",
+          "score": "7.9",
           "release_date": "2026-11-16",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952915.html",
@@ -45,7 +23,7 @@
     },
     {
       "date": "2026-11-17",
-      "date_label": "11月17日 下周二",
+      "date_label": "11月17日 后天",
       "games": [
         {
           "game_name": "幻想九霄",
@@ -94,7 +72,7 @@
             "买断制",
             "安心购"
           ],
-          "score": "9.4",
+          "score": "9.3",
           "release_date": "2026-11-18",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1898909.html",
@@ -112,7 +90,7 @@
             "放置",
             "策略"
           ],
-          "score": "7.8",
+          "score": "7.9",
           "release_date": "2026-11-18",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1954975.html",
@@ -217,6 +195,24 @@
       "date_label": "11月20日 下周五",
       "games": [
         {
+          "game_name": "逍遥王国",
+          "categories": [
+            "卡牌",
+            "策略",
+            "横版",
+            "三国",
+            "怀旧向",
+            "即时策略"
+          ],
+          "score": null,
+          "release_date": "2026-11-20",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1958435.html",
+          "publisher": "广州君道网络科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        },
+        {
           "game_name": "无名之诗",
           "categories": [
             "动作",
@@ -225,7 +221,7 @@
             "二次元",
             "角色扮演"
           ],
-          "score": "8.4",
+          "score": "8.3",
           "release_date": "2026-11-20",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1945867.html",
@@ -240,7 +236,7 @@
             "策略",
             "PVP"
           ],
-          "score": "7.7",
+          "score": "8.1",
           "release_date": "2026-11-20",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1960100.html",
@@ -291,7 +287,8 @@
             "休闲",
             "单机",
             "动作",
-            "冒险"
+            "冒险",
+            "建造"
           ],
           "score": "7.9",
           "release_date": "2026-11-20",
@@ -300,6 +297,44 @@
           "publisher": "量子艺界（QUANTUM ARTS）",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "date_label": "11月21日 下周六",
+      "games": [
+        {
+          "game_name": "方寸文明",
+          "categories": [
+            "休闲",
+            "合成",
+            "策略"
+          ],
+          "score": "9.2",
+          "release_date": "2026-11-21",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1849824.html",
+          "publisher": "喜人一个",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "神创九州",
+          "categories": [
+            "仙侠",
+            "MMO",
+            "3D",
+            "即时战斗",
+            "社交"
+          ],
+          "score": null,
+          "release_date": "2026-11-21",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1959097.html",
+          "publisher": "厦门捷游",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T02:38:39.849608+00:00",
+  "generated_at": "2026-11-15T01:57:52.714520+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
@@ -154,8 +154,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "11月7日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「2026 CRL皇室战争全球总决赛明日上海收官，中国选手憾别里滩」。未指向具体游戏的内容占当天的 100%。",
-      "digest_source": "rules",
+      "digest": "当日共发布1条 GameLook 新闻，涉及游戏0款，其中未指向具体游戏1条，整体信息相对有限，侧重记录当日新闻的概貌与涉及情况。游戏Valorant 当天的动态是发布相关新闻，未具体指向游戏玩法或市场表现等核心内容，仅呈现新闻发布这一基础信息。游戏《赛博坦:沙海》当天的动态是游戏热度引发讨论，围绕该游戏相关话题展开讨论，未明确提及发售、更新、销量等具体事件信息。",
+      "digest_source": "llm",
       "input_hash": "e9457e1d0c36c670",
       "game_digests": []
     },
@@ -202,35 +202,6 @@
           "name": "金铲铲之战",
           "count": 1,
           "summary": "正式发布2027电竞升级计划，宣布PC版下赛季上线，并举办“共赴新局”发布会。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "article_count": 7,
-      "game_count": 3,
-      "untagged_count": 4,
-      "digest": "11月5日游戏行业资讯聚焦出海安全与市场表现，腾讯因《NIKKE》PC启动器遭攻击致歉，微信小游戏市场换血显著，《三冰》登顶10月畅销榜第11名，而《明日方舟》凭借新版本登顶iOS畅销榜并进入总榜前二。",
-      "digest_source": "llm",
-      "input_hash": "9df33515e056e150",
-      "game_digests": [
-        {
-          "name": "NIKKE",
-          "count": 1,
-          "summary": "腾讯服务器遭攻击，二游《NIKKE》PC启动器出现故障，腾讯对此致歉。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三冰",
-          "count": 1,
-          "summary": "《三冰》登顶10月微信小游戏畅销榜Top 100第11名，游戏市场换血近三成。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "明日方舟",
-          "count": 1,
-          "summary": "《明日方舟》2026「感谢庆典」版本上线，玩家5年攒4941抽一把冲，游戏登顶iOS畅销榜并进入总榜前二。",
           "summary_source": "llm"
         }
       ]
