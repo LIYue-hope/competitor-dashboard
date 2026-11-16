@@ -1,22 +1,81 @@
 {
-  "generated_at": "2026-11-15T01:54:16.250116+00:00",
+  "generated_at": "2026-11-16T01:58:44.158622+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-15",
-      "article_count": 4,
-      "game_count": 3,
-      "untagged_count": 1,
-      "digest": "2026年11月15日，当天游侠网发布4条新闻，涉及游戏3款，其中1款未指向具体游戏。GTA6获R星透露加入同理心机制，玩家可选择向善，犯罪仍是核心，该机制影响游戏发展；亡命狂奔作为免费犯罪沙盒，在线人数大涨，峰值在线达36.5万，抢先体验收获大量评价但整体褒贬不一；铁拳系列累计出货6270万，一年增量170万，万代南梦宫数据附带多款IP销量数据，整体呈现热度高且增长显著的特点。",
+      "date": "2026-11-16",
+      "article_count": 10,
+      "game_count": 6,
+      "untagged_count": 4,
+      "digest": "11月16日游戏资讯聚焦多款大作临近发售与争议，R星为《GTA6》Xbox版推送小幅更新，CDPR高管与加州州长会面引发玩家对《巫师4》设计走向的担忧，《塞尔达传说：时之笛 重制版》因存档位缩减引发不满，《神鬼寓言》实机差评不断被指像《影障守护者》续作，Alcon高管证实《银翼杀手》3A游戏正在洽谈但未立项，MMO方面则对比了《魔兽世界：无限》与《最终幻想14》的副本设计理念。",
       "digest_source": "llm",
-      "input_hash": "85652c2b1e111661",
+      "input_hash": "be91732532d0851c",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 1,
-          "summary": "设定革新！曝《GTA6》加入同理心机制 但犯罪仍是核心。",
+          "summary": "距发售仅剩三天，Rockstar为Xbox版推送小幅更新，改动落在提交ID与数个包体文件上，核心世界资源与音频包未变。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 1,
+          "summary": "CDPR高管与加州州长会面引发争议，玩家担忧新作受DEI理念影响，也有人认为只是正常产业交流。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛：重制版",
+          "count": 1,
+          "summary": "玩家对《塞尔达传说：时之笛 重制版》仅有1个手动存档位感到不满，原版三个存档位被缩减为每个用户档案仅保留一个。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "神鬼寓言",
+          "count": 1,
+          "summary": "Xbox旗舰新作《神鬼寓言》新实机差评不断，玩家吐槽战斗生硬，戏称它像《影障守护者》续作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "银翼杀手",
+          "count": 1,
+          "summary": "Alcon高管证实正在洽谈《银翼杀手》3A游戏，项目尚未立项，此前IP相关游戏项目多遇波折。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界：无限",
+          "count": 1,
+          "summary": "《魔兽世界：无限》与《最终幻想14》展现了两种截然不同的MMO副本设计理念，前者将重复挑战副本作为核心玩法循环，后者则被设计者定义为“体验一两次即可”的模式。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "article_count": 32,
+      "game_count": 5,
+      "untagged_count": 23,
+      "digest": "2026年11月15日当天游侠网共发布32条新闻，涉及游戏5款，整体游戏资讯以GTA6、马里奥赛车64、三国志：王道天下、亡命狂奔及铁拳相关动态为主，其中GTA6在机制、争议、标价及防盗机制等方面受关注，马里奥赛车64在PC版上线及浏览器版开发上推进，三国志：王道天下公定档期明确，亡命狂奔和铁拳系列热度与出货数据值得关注，整体呈现多款游戏不同方向的信息更新。",
+      "digest_source": "llm",
+      "input_hash": "481b8a34cae577fe",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 4,
+          "summary": "设定革新！曝《GTA6》加入同理心机制 但犯罪仍是核心；吵翻社区！《GTA6》锁30帧争议持续 有人觉得可以接受；看傻了！《GTA6》标价闹乌龙 冒出1.4万元所谓隐藏版（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "马里奥赛车64",
+          "count": 2,
+          "summary": "游侠早报：BLG夺S16冠军 《马里奥赛车64》PC版上线；浏览器版《马里奥赛车64》上线！任天堂或再出手打击。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "三国志：王道天下",
+          "count": 1,
+          "summary": "光荣正版授权！三国SLG沙盘策略旗舰新作《三国志：王道天下》公测定档12月24日。",
           "summary_source": "rules"
         },
         {
@@ -35,59 +94,83 @@
     },
     {
       "date": "2026-11-14",
-      "article_count": 20,
-      "game_count": 8,
-      "untagged_count": 11,
-      "digest": "11月14日游戏资讯聚焦于《GTA6》实体版兑换码失效争议、多款游戏发售与更新，以及《神鬼寓言4》新实机引发社区讨论。索尼新作《宇宙机器人》PC移植版获玩家好评，卡普空《生化危机1》重制传闻流出，多款老游戏登陆新平台。",
+      "article_count": 26,
+      "game_count": 12,
+      "untagged_count": 12,
+      "digest": "今日游戏资讯聚焦多款大作动态，GTA6因PS5租赁套餐套路、实体版兑换码失效及符合TGA2026提名条件引发热议；索尼旗下《宇宙机器人》PC移植版获玩家好评；卡普空《生化危机1》重制传闻流出；Riot探讨2027全球总决赛赛制调整；此外《七日世界》《女神异闻录：夜幕魅影》等游戏公布新版本更新计划。",
       "digest_source": "llm",
-      "input_hash": "f44d73a04058e9ec",
+      "input_hash": "a6711f9f82633a63",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 2,
-          "summary": "部分《GTA6》实体版盒内兑换码失效，玩家向官方求助被指引找零售商，开发商与发行商暂未回应。",
+          "count": 3,
+          "summary": "英国PS5租赁套餐月租约163元玩该作暗藏套路，实体版盒内兑换码失效且无补发渠道，开发商与发行商暂未回应，游戏符合TGA2026提名条件。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Menes: The Chainbreaker",
+          "count": 1,
+          "summary": "Rage Game Studio宣布该作已于11月13日登陆Xbox与PC双平台，支持Xbox Play Anywhere，Steam版现已上架并支持简体中文文本。",
           "summary_source": "llm"
         },
         {
           "name": "七日世界",
           "count": 1,
-          "summary": "异象轮盘S5【万念共鸣】将于11月19日开启，新增上位者“回响者”及声鸣乐章玩法。",
+          "summary": "异象轮盘S5【万念共鸣】将于11月19日版本更新后开启，全新上位者“回响者”降临，S4兑换商店将于12月3日关闭。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "失落星船：马拉松",
+          "count": 1,
+          "summary": "PlayStation日本官方博客公布更新计划，「共生」将于12月9日上线，新增PvE模式「远征」、实验性PvP「死斗」测试版及新跑者外壳「主教」。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "女神异闻录：夜幕魅影",
+          "count": 1,
+          "summary": "世嘉于11月13日宣布日服及欧美服实装Ver.4.13更新，主线第四章“誠実なる仮面”终幕开放，池波星辉与加纳骏的强化新五星形态同步登场。",
           "summary_source": "llm"
         },
         {
           "name": "宇宙机器人",
           "count": 1,
-          "summary": "玩家自制PC原生移植版支持帧生成最高128FPS，效果亮眼但并非索尼官方移植。",
+          "summary": "玩家自制PC原生移植版效果亮眼，支持帧生成最高128FPS，该版本用到AI技术，并非索尼官方移植。",
           "summary_source": "llm"
         },
         {
           "name": "战神：斯巴达之子",
           "count": 1,
-          "summary": "将于11月16日登陆PS4，同步推送更新，新增赫尔墨斯与厄瑞玻斯两种挑战模式。",
+          "summary": "该作将于11月16日登陆PS4，同步推送更新补丁，为PS4、PS5新增赫尔墨斯模式与厄瑞玻斯模式，分别面向速通玩家和硬核挑战者。",
           "summary_source": "llm"
         },
         {
           "name": "时之笛RE",
           "count": 1,
-          "summary": "Switch2重制版强化大师剑名场面演出，新增剧情镜头，老玩家倍感惊喜。",
+          "summary": "《时之笛》Switch2重制版强化大师剑名场面演出，新增剧情镜头，压迫感更强，老玩家倍感惊喜。",
           "summary_source": "llm"
         },
         {
           "name": "燕云十六声",
           "count": 1,
-          "summary": "全球服一周年，2.4新区域「滹沱」已上线，登录可领12选1豪华时装及福利。",
+          "summary": "全球服一周年，2.4新区域「滹沱」已于11月13日不停服更新后开放，登录可领12选1豪华时装及超过5000台币周年福利。",
           "summary_source": "llm"
         },
         {
           "name": "生化危机1",
           "count": 1,
-          "summary": "爆料称卡普空计划在《生化危机3》重制后启动《生化危机1》全新重制，消息暂未获官方确认。",
+          "summary": "爆料人称卡普空计划在《生化危机：维罗妮卡RE》之后开发生化1全新重制，消息暂未获得官方确认。",
           "summary_source": "llm"
         },
         {
           "name": "神鬼寓言4",
           "count": 1,
-          "summary": "新实机曝光引发社区争议，女角色造型遭吐槽，玩家联想到DEI相关担忧。",
+          "summary": "新实机曝光引发社区争议，女角色造型遭玩家吐槽，部分人联想到多款翻车作品，但游戏尚未发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "英雄联盟",
+          "count": 1,
+          "summary": "Riot正在探讨改动2027全球总决赛开幕阶段，考虑取消入围赛，替换为德玛西亚杯全球邀请赛，2027年S赛瑞士轮落地日本、淘汰赛设在韩国。",
           "summary_source": "llm"
         }
       ]
@@ -796,107 +879,6 @@
           "count": 1,
           "summary": "曝《漫威蜘蛛侠2》销量超1910万份！收入约13亿美元。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "article_count": 120,
-      "game_count": 60,
-      "untagged_count": 37,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》发售前的盗版讨论与宣传冲刺，以及《影之刃零》对《黑神话悟空》的致谢与展会亮相。此外，《剑星》登陆Switch 2引发争议，而《漫威金刚狼》销量不及预期，索尼CFO仍称其带动业绩增长。",
-      "digest_source": "llm",
-      "input_hash": "c940bee899f7f6ff",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 9,
-          "summary": "Take-Two CEO泽尔尼克表示盗版是行业现实，不会过度担忧；Rockstar今日公布多张新截图，展示罪恶城与雷奥奈达州的街道、夜店及水下环境。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 6,
-          "summary": "玩家分享的高质量BOSS搏杀截图引发关注；制作人梁其伟在专访中致谢《黑神话：悟空》，称其完成了从0到1；咪咕游戏携该作亮相2026移动网络大会。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 3,
-          "summary": "《剑星 完全版》登陆Switch 2，同步上线90秒真人广告引发反应；官方推送《猎天使魔女》联动服装；推出coser宣传片展示“Black Tresses”服饰。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "时之笛RE",
-          "count": 3,
-          "summary": "Switch2版《时之笛》重制版推出，马特·默瑟配音的加侬多夫再度遭粉丝狂喷；IShowSpeed直播开荒被咕咕鸡一血；外媒称其跳出系列时间线束缚。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴6",
-          "count": 2,
-          "summary": "外媒ComicBook发文称，副标题“哨兵”暗示回归落锤省的观点可能有误；官方周边先行上架，推出印有“Sentinel”标志的T恤与连帽衫。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达",
-          "count": 2,
-          "summary": "《时之笛重制版》96分领跑年度评分；任天堂确认将塞尔达电影作为长期业务，计划建立持续制作框架。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "暴力摩托",
-          "count": 2,
-          "summary": "EA将25款经典游戏重新上架Steam与GOG，其中《暴力摩托》与六款《银河飞将》推出周年纪念版；EA高级制作人Jim Vessella透露抢救了2万份历史母带。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威金刚狼",
-          "count": 2,
-          "summary": "发售50天仅240万份，销量仅为回本线三分之一；索尼CFO陶琳在财报会议上表示该作表现优异，带动PS业务增长。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "老滚6",
-          "count": 2,
-          "summary": "分析师指出《上古卷轴6》在《GTA6》发售后难成为下一个白鲸级游戏；副标题“哨兵”揭晓后，官方周边先行上架。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "莉娜清洁物语",
-          "count": 2,
-          "summary": "Steam发售，首发八折；玩家可在游戏中清扫垃圾场、整理杂物并挖掘屋主故事。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "007 初露锋芒",
-          "count": 1,
-          "summary": "《007 初露锋芒》推出免费入门版，限时正式版享5折优惠。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Apex英雄",
-          "count": 1,
-          "summary": "与东宝合作推出《哥斯拉》限时联动活动，将于11月10日开启。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA Online",
-          "count": 1,
-          "summary": "全新抢劫主题活动今日开启，至12月2日提供双倍奖励及免费名画。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "MC",
-          "count": 1,
-          "summary": "外媒指出《我的世界》定位从生存游戏转向面向全球创作者的内容平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "仁王3",
-          "count": 1,
-          "summary": "盖世小鸡推出官方授权Nova Vision限定版手柄，带有草薙守护灵涂装及LCD屏。",
-          "summary_source": "llm"
         }
       ]
     }

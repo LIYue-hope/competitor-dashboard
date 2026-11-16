@@ -1,17 +1,30 @@
 {
-  "crawled_at": "2026-11-15T01:43:53.605305+00:00",
+  "crawled_at": "2026-11-16T01:48:38.664165+00:00",
   "days": [
     {
       "date": "2026-11-16",
-      "date_label": "11月16日 明天",
+      "date_label": "11月16日 今天",
       "games": [
+        {
+          "game_name": "天下霸业",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": "9.6",
+          "release_date": "2026-11-16",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1962878.html",
+          "publisher": "鲲之大工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "渊环",
           "categories": [
             "角色扮演",
             "刷宝"
           ],
-          "score": "7.9",
+          "score": "8.0",
           "release_date": "2026-11-16",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952915.html",
@@ -23,7 +36,7 @@
     },
     {
       "date": "2026-11-17",
-      "date_label": "11月17日 后天",
+      "date_label": "11月17日 明天",
       "games": [
         {
           "game_name": "幻想九霄",
@@ -33,7 +46,7 @@
             "多人联机",
             "角色扮演"
           ],
-          "score": "9.0",
+          "score": "8.9",
           "release_date": "2026-11-17",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1951096.html",
@@ -45,7 +58,7 @@
     },
     {
       "date": "2026-11-18",
-      "date_label": "11月18日 下周三",
+      "date_label": "11月18日 后天",
       "games": [
         {
           "game_name": "战斗吧!艾莉娜",
@@ -90,7 +103,7 @@
             "放置",
             "策略"
           ],
-          "score": "7.9",
+          "score": "7.7",
           "release_date": "2026-11-18",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1954975.html",
@@ -102,7 +115,7 @@
     },
     {
       "date": "2026-11-19",
-      "date_label": "11月19日 下周四",
+      "date_label": "11月19日 周四",
       "games": [
         {
           "game_name": "匹配大师",
@@ -158,7 +171,7 @@
             "剧情",
             "多平台"
           ],
-          "score": "9.6",
+          "score": "9.7",
           "release_date": "2026-11-19",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952833.html",
@@ -192,7 +205,7 @@
     },
     {
       "date": "2026-11-20",
-      "date_label": "11月20日 下周五",
+      "date_label": "11月20日 周五",
       "games": [
         {
           "game_name": "逍遥王国",
@@ -236,7 +249,7 @@
             "策略",
             "PVP"
           ],
-          "score": "8.1",
+          "score": "8.2",
           "release_date": "2026-11-20",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1960100.html",
@@ -302,7 +315,7 @@
     },
     {
       "date": "2026-11-21",
-      "date_label": "11月21日 下周六",
+      "date_label": "11月21日 周六",
       "games": [
         {
           "game_name": "方寸文明",

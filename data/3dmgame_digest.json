@@ -1,34 +1,201 @@
 {
-  "generated_at": "2026-11-15T01:51:06.494094+00:00",
+  "generated_at": "2026-11-16T01:55:41.729841+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-15",
-      "article_count": 4,
-      "game_count": 3,
-      "untagged_count": 0,
-      "digest": "2026年11月15日，游戏行业聚焦于《英雄联盟》即将到来的重大革新与《GTA6》对直播生态的深远影响，同时《女神异闻录6》的域名更新引发了对新预告的猜测。Riot在2026年全球总决赛期间公布了《英雄联盟：曙光》预告，承诺带来玩法与符文改动及全新客户端；Twitch为应对《GTA6》的高人气，正试点调整规则以提升主播直播此类成熟分级游戏的收入；Atlus对《女神异闻录6》域名进行更新，引发外界对正式预告即将发布的猜测。",
-      "digest_source": "llm",
-      "input_hash": "2bd7c1ebeab89d81",
+      "date": "2026-11-16",
+      "article_count": 36,
+      "game_count": 19,
+      "untagged_count": 2,
+      "digest": "11月16日 3DMGame 共 36 条新闻，涉及 19 款游戏。报道最集中的是《GTA6》（14 条）、《塞尔达：时之笛 重制版》（2 条）、《星球大战：旧共和国命运》（2 条）。另有 2 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "0a54c7f2b07efd7f",
       "game_digests": [
         {
-          "name": "英雄联盟",
+          "name": "GTA6",
+          "count": 14,
+          "summary": "《GTA6》开局限制犯罪能力 角色需逐步承接大型行动；《GTA6/侠盗猎车6》11月19日登陆PS5首发仅含单人内容！；《GTA6》Xbox版发售前小幅更新构建 国际版容量增加约73KB（当天共 14 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达：时之笛 重制版",
           "count": 2,
-          "summary": "Riot在2026年全球总决赛期间公布了《英雄联盟：曙光》预告，承诺将带来玩法与符文改动以及全新客户端。",
+          "summary": "横尾太郎坂口博信等分享《塞尔达：时之笛 重制版》看法；《塞尔达：时之笛 重制版》仅有一个手动存档位 让玩家不满。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "星球大战：旧共和国命运",
+          "count": 2,
+          "summary": "《星球大战：旧共和国命运》2027年将陆续公开新消息；《星球大战：旧共和国命运》约60人开发 2027年初公布新消息。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "使命召唤",
+          "count": 1,
+          "summary": "《使命召唤》官方警告外置AI作弊更难被传统反作弊发现。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "古墓丽影：亚特兰蒂斯遗迹",
+          "count": 1,
+          "summary": "《古墓丽影：亚特兰蒂斯遗迹》重构战斗成长系统引发玩家质疑。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "塞尔达传说：时之笛",
+          "count": 1,
+          "summary": "《塞尔达传说：时之笛》曾测试手动跳跃！为强化解谜最终取消。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "夺宝奇兵：古老之圈",
+          "count": 1,
+          "summary": "《夺宝奇兵：古老之圈》曾测试通缉机制限制玩家依赖枪战。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "彩虹六号：围攻",
+          "count": 1,
+          "summary": "《彩虹六号：围攻》Y11S4定档12月1日 排位拆分双队列。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "挖掘者",
+          "count": 1,
+          "summary": "《挖掘者》票房仅4900万美元 作者预测影片或成邪典经典。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "最终幻想14",
+          "count": 1,
+          "summary": "《最终幻想14》与《魔兽世界：无限》呈现两种副本设计取向。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "死了就会死！",
+          "count": 1,
+          "summary": "只有一条命！恐怖游戏《死了就会死！》计划明年免费上线。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "泰坦陨落",
+          "count": 1,
+          "summary": "外媒l重评十大Xbox特别版手柄 《泰坦陨落》款蝉联第一。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "流离之路",
+          "count": 1,
+          "summary": "《流离之路》Steam免费试玩开放！以真实弹道支持四人合作。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "生化危机：幸存者",
+          "count": 1,
+          "summary": "《生化危机：幸存者》非官方PC移植RESPeCt开放。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "编年史：中世纪",
+          "count": 1,
+          "summary": "《编年史：中世纪》开发商破产 CoffeeStain收购IP并续投开发。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "article_count": 27,
+      "game_count": 14,
+      "untagged_count": 6,
+      "digest": "今日游戏资讯聚焦于《GTA6》的发售时间与游玩时长爆料，以及《英雄联盟》全球总决赛BLG夺冠并诞生首位中国FMVP。此外，育碧确认将回归刺客信条现代剧情，Atlus更新《女神异闻录6》域名引发新预告猜想，Playground Games公布《极限竞速：地平线6》路线图，Nexon公布《洛奇英雄传：反抗命运》宣传片，以及《神鬼寓言》实机演示引发玩家批评。",
+      "digest_source": "llm",
+      "input_hash": "daf1be1396d8f8b0",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 6,
+          "summary": "Insider Gaming爆料称《GTA6》定于2026年11月19日发售，主线约50小时，全成就约需200小时，共有近100个任务分布在五个独立章节中。",
           "summary_source": "llm"
         },
         {
-          "name": "GTA6",
+          "name": "英雄联盟",
+          "count": 3,
+          "summary": "BLG以3比1战胜Gen.G夺得《英雄联盟》2026全球总决赛冠军，中单卓定（Knight）当选FMVP，成为首位夺冠的中国中单。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA",
           "count": 1,
-          "summary": "Twitch正试点调整规则以提升主播直播《GTA6》这类成熟分级游戏的收入，并给予品牌方更多自主权。",
+          "summary": "Reddit用户NakedSnake21发布三张构图相近的照片，用三代《GTA》作品记录自己跨越18年的变化，第三张照片展示了《GTA6》PS5版包装。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "刺客信条：黑旗 记忆重置",
+          "count": 1,
+          "summary": "育碧正重新规划系列未来十年发展方向，考虑在未来的刺客信条新作中加大可玩现代剧情的内容比重，并计划举办专属研讨会。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "受折磨的灵魂2",
+          "count": 1,
+          "summary": "《受折磨的灵魂2》推送013.000版本更新，修复了角色瞄准卡死、喷火器瞄准异常、收集品弹窗滞留等BUG，并优化了光照与环境特效。",
           "summary_source": "llm"
         },
         {
           "name": "女神异闻录6",
           "count": 1,
-          "summary": "Atlus对《女神异闻录6》域名进行更新，引发外界对正式预告即将发布的猜测，此前该作已公布登陆Switch 2。",
+          "summary": "Atlus更新了《女神异闻录6》域名，相关迹象表明新预告片可能即将到来，游戏将登陆PC、PS5、Xbox Series X和Nintendo Switch 2。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "姆吉拉的假面",
+          "count": 1,
+          "summary": "前美国任天堂市场与公关负责人克里斯塔·杨认为，在《时之笛》之后推出《姆吉拉的假面》重制版是必然趋势，重制项目可能早已启动。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战神：升天",
+          "count": 1,
+          "summary": "开发者M Bilal发布了《战神：升天》非官方PC移植版首个公开版本0.1.31，支持最高5K分辨率，锐龙9 9950X3D与RTX 5080组合在高负载战斗中可维持60 FPS。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "极限竞速：地平线6",
+          "count": 1,
+          "summary": "Playground Games公布了《极限竞速：地平线6》的首份更新路线图，规划了截至2027年的内容更新、新车及两款资料片，首款资料片定档1月21日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "洛奇英雄传：反抗命运",
+          "count": 1,
+          "summary": "Nexon公布中世纪奇幻动作RPG《洛奇英雄传：反抗命运》中文玩法宣传片和CG预告，游戏将于2027年发售，登陆Steam和PS5。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "海贼王：海洋盛宴",
+          "count": 1,
+          "summary": "《海贼王：海洋盛宴》推送1.1.3版本更新，优化了部分界面显示效果，修复了稳定性相关问题，提升游戏整体运行表现。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "神鬼寓言",
+          "count": 1,
+          "summary": "Playground Games公布《神鬼寓言》新任务玩法，但早期实机演示遭遇差评，玩家批评其战斗动作僵硬、动画表现不自然，将其比作《龙腾世纪：影障守护者》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "银河护卫队4",
+          "count": 1,
+          "summary": "克里斯·帕拉特表示，如果詹姆斯·古恩希望回到Marvel并重新启动《银河护卫队》系列，他很愿意与其重聚出演《银河护卫队4》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "银翼杀手",
+          "count": 1,
+          "summary": "Alcon Entertainment联席首席执行官Andrew Kosove证实，公司已就制作一款基于《银翼杀手》系列的AAA游戏展开商谈，但项目尚未正式立项。",
           "summary_source": "llm"
         }
       ]
@@ -837,107 +1004,6 @@
           "name": "巫师4",
           "count": 1,
           "summary": "Nordisk Games任命新CEO与CFO，CD Projekt Red则吸纳三名前Warhorse Studios成员参与《巫师4》开发。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "article_count": 130,
-      "game_count": 68,
-      "untagged_count": 26,
-      "digest": "今日游戏资讯聚焦于R星对《GTA6》开放世界设计的深度解析，任天堂公布《塞尔达：时之笛》强劲预购及《朋友聚会：梦想生活》销量破880万，以及《影之刃零》72小时销量超400万等重磅动态。此外，EA上线25款经典游戏、任天堂宣布持续推出电影计划、EA与《Apex英雄》联动哥斯拉等消息也引发关注。",
-      "digest_source": "llm",
-      "input_hash": "0f5db66efcb25630",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 13,
-          "summary": "R星谈《GTA6》开放世界设计，表示将弱化地图图标引导，鼓励玩家自然发现事件，并参考《荒野大镖客2》的沉浸式体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达：时之笛 重制版",
-          "count": 8,
-          "summary": "外媒评测称重制版前几个小时画面令人惊艳，细节与色彩极佳，但相比原版略显奢华，少了些原版韵味。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛",
-          "count": 7,
-          "summary": "任天堂公布本财年前两个季度重点软件表现，称《塞尔达传说：时之笛》预购趋势强劲，《朋友聚会：梦想生活》累计销量突破880万份。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说",
-          "count": 4,
-          "summary": "任天堂计划在真人电影《塞尔达传说》上映后继续推出电影，并建立支持持续制作的框架，社长古川俊太郎表示电影能帮助不常接触游戏的人认识马力欧。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 3,
-          "summary": "《影之刃零》在PS5和PC发售72小时内售出超过400万份，基于45篇评测获得88分Metascore，Steam同时在线峰值接近83.4万人。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "暴力摩托",
-          "count": 3,
-          "summary": "EA在Steam上线25款PC经典游戏，其中包括《暴力摩托》和《银河飞将》系列的周年纪念版，并对这些作品进行了现代系统优化。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Apex 英雄",
-          "count": 2,
-          "summary": "EA与Respawn Entertainment宣布《Apex英雄》将与《哥斯拉》联动，推出特别活动「Apex Legends | Godzilla Event」，风暴点将遭巨兽袭击。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "bioware",
-          "count": 2,
-          "summary": "游戏业界传奇制作人沃伦·斯佩克特再次公开批评EA关闭bioware，并将问题指向行业高管的责任，质疑高管是否真正承担了相应后果。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴6",
-          "count": 2,
-          "summary": "外媒分析称《上古卷轴6》重返落锤省可能是一个错误，因为该地区此前已被《上古卷轴2：匕首雨》探索过，而其他地区如艾斯维尔等尚未成为主线舞台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "尼尔：机械纪元",
-          "count": 2,
-          "summary": "Steam版《尼尔：机械纪元》更新简体中文、繁体中文及韩文支持后，安装界面出现容量显示异常，提示需366.56GB可用空间，官方正在调查原因。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "007：初露锋芒",
-          "count": 1,
-          "summary": "《007：初露锋芒》推出免费试玩版本，首个任务约一小时且进度可继承，登陆PS5、Xbox Series X/S和Steam。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "CHRONO PUNK",
-          "count": 1,
-          "summary": "动作肉鸽游戏《CHRONO PUNK》亮出复古锋芒，采用千禧年前后主机游戏审美，玩家将挑战一家能够操控时间的企业。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GeForce 8800 GTX：传奇二十年",
-          "count": 1,
-          "summary": "英伟达为纪念GeForce 8800 GTX推出20周年，在Steam上线免费技术演示《GeForce 8800 GTX：传奇二十年》，最低需RTX 4070。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Strikemania",
-          "count": 1,
-          "summary": "动作游戏《Strikemania》试玩版将于2027年2月Steam新品节推出，采用20世纪70年代末至80年代的街机视觉风格。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Vital Shell 2",
-          "count": 1,
-          "summary": "独立开发者公开《Vital Shell 2》Steam页面，游戏转向第三人称3D机甲动作玩法，保留前作低多边形视觉风格，并提供部件定制功能。",
           "summary_source": "llm"
         }
       ]
