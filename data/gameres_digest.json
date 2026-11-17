@@ -1,9 +1,50 @@
 {
-  "generated_at": "2026-11-16T02:04:04.498627+00:00",
+  "generated_at": "2026-11-17T04:45:23.295060+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-11-17",
+      "article_count": 9,
+      "game_count": 5,
+      "untagged_count": 4,
+      "digest": "11月17日游戏资讯聚焦多款新作与老游动态，瑞典Embark撤离射击游戏《ARC Raiders》上线半年销量破1600万，腾讯代理国服定名《弧光猎人》已获版号；日本独立团队C-Chicken的拔草劳作游戏《Just Weeding》将于11月27日登陆Steam，售价22元；Tear Bird工作室制作的2D横版平台解谜游戏《卷尺人》以卷尺为核心解谜工具，体量小但机制与关卡设计细腻；伽马数据10月报告显示《影之刃零》助力出海收入环比同比双增，合成品类持续领跑；Steam放置挂机游戏《TBH》到《桌面破坏神》阉割跑图治好了玩家的“电子阳痿”。",
+      "digest_source": "llm",
+      "input_hash": "4b8e74d30598c23d",
+      "game_digests": [
+        {
+          "name": "ARC Raiders",
+          "count": 1,
+          "summary": "瑞典Embark旗下撤离射击游戏《ARC Raiders》上线半年销量破1600万，腾讯代理国服定名《弧光猎人》已获版号，近日核心主创接受外媒专访复盘爆红后遇产能不足、外挂及玩家下滑等危机。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Just Weeding",
+          "count": 1,
+          "summary": "日本独立团队C-Chicken的拔草劳作游戏《Just Weeding》将于2026年11月27日登陆Steam，售价22元，支持简繁中文，可单人或最多6人联机，目标拔光10万根杂草直至升级工具至UFO。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "卷尺人",
+          "count": 1,
+          "summary": "Tear Bird工作室制作、indienova发行的2D横版平台解谜游戏《卷尺人》以卷尺为核心解谜工具，体量不大但机制与关卡设计细腻，难度曲线平滑，部分关卡解题思路值得玩味。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "伽马数据发布2026年10月中国游戏产业报告，显示《影之刃零》助力自研游戏出海收入环比同比双增，合成品类持续领跑海外市场。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "放置挂机",
+          "count": 1,
+          "summary": "Steam放置挂机游戏《TBH》到《桌面破坏神》阉割了跑图的老暗黑玩法，治好了玩家的“电子阳痿”，挂满1000小时再打差评被指是今年Steam最暴利的生意。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-11-16",
       "article_count": 14,
@@ -264,23 +305,6 @@
           "name": "深空当铺",
           "count": 1,
           "summary": "硬刚影之刃档期卖出50万份，除了“赛博黑店” 《深空当铺》还有什么好玩？。",
-          "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "article_count": 1,
-      "game_count": 1,
-      "untagged_count": 0,
-      "digest": "2026年11月7日，当日仅发布1条游戏资讯，涉及游戏为《金铲铲之战》。该游戏于11月6日西安发布会公布2027电竞升级计划，明确未来三年投入10亿元建设游戏生态，赛事将进行七大升级，PC版下赛季也将上线，并已开启预约。",
-      "digest_source": "llm",
-      "input_hash": "bba164742700f344",
-      "game_digests": [
-        {
-          "name": "金铲铲之战",
-          "count": 1,
-          "summary": "共赴新局！《金铲铲之战》发布2027电竞升级计划，PC版下赛季见。",
           "summary_source": "rules"
         }
       ]

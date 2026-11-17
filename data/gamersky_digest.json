@@ -1,230 +1,486 @@
 {
-  "generated_at": "2026-11-16T01:58:44.165283+00:00",
+  "generated_at": "2026-11-17T04:43:35.878076+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-15",
-      "article_count": 7,
-      "game_count": 2,
-      "untagged_count": 5,
-      "digest": "今日游戏行业资讯主要围绕《GTA6》与《女神异闻录6》展开。游戏媒体影视飓风创始人潘天鸿宣布公司放假一天，让员工畅玩《GTA6》；同时《女神异闻录6》官网域名出现更新，引发玩家对新预告的期待。",
+      "date": "2026-11-17",
+      "article_count": 31,
+      "game_count": 11,
+      "untagged_count": 10,
+      "digest": "2026-11-17当天游民星空共发布31条新闻，涉及11款游戏，整体围绕游戏发售、版本更新、玩家反馈与厂商动态展开。GTA6引发行业关注并有多项联动与榜单表现；天国：拯救2推进促销并获史低推荐；红色沙漠调整AI应用与版本内容争议；影之刃零出现脸模互动与韩国类魂支持；Hela：鼠鼠奇旅发布解析视频；多部游戏涉及发售、更新、开发动态与争议，内容覆盖较广。",
       "digest_source": "llm",
-      "input_hash": "ea690c1ae0dea5c0",
+      "input_hash": "ef8289c8ab88706f",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 1,
-          "summary": "创始人潘天鸿宣布11月19日全体员工放假一天，让员工畅玩《GTA6》。",
+          "count": 8,
+          "summary": "《GTA6》PS商店近乎满分，全球畅销榜杀疯，距离发售仅剩最后3天其统治力提前显现",
           "summary_source": "llm"
         },
         {
-          "name": "女神异闻录6",
+          "name": "天国：拯救2",
+          "count": 2,
+          "summary": "新史低《红色沙漠：增强版》与《天国：拯救2》及多部《如龙》史低同时推进，游民星空推荐该批热门作品",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "韩国类魂尖子生力挺《影之刃零》，称其匠心十足",
+          "summary_source": "llm"
+        },
+        {
+          "name": "红色沙漠",
+          "count": 2,
+          "summary": "2.05.00版本更新后玩家发现多位女性角色长相与之前不同，引发内容争议",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Hela：鼠鼠奇旅",
           "count": 1,
-          "summary": "《女神异闻录6》官网域名出现更新，引发玩家对新预告的期待。",
+          "summary": "发布全新深度解析视频，聚焦核心剧情并支持四人跨平台联机",
+          "summary_source": "llm"
+        },
+        {
+          "name": "人生一串",
+          "count": 1,
+          "summary": "LPL夺冠玄学，该游戏更新就夺冠，刚好一串四",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛",
+          "count": 1,
+          "summary": "一位艺术家制作《塞尔达传说：时之笛》中林克的雕塑，造型引发不适争议",
+          "summary_source": "llm"
+        },
+        {
+          "name": "洛奇英雄传",
+          "count": 1,
+          "summary": "11月17日全新RAID战役“古代神殿废墟”正式开战",
+          "summary_source": "llm"
+        },
+        {
+          "name": "神鬼寓言",
+          "count": 1,
+          "summary": "Xbox再推迟《神鬼寓言》发售，因预告片遭社区抨击，原定2027年2月23日发售",
+          "summary_source": "llm"
+        },
+        {
+          "name": "群尸来压境",
+          "count": 1,
+          "summary": "《群尸来压境》将于11月17日正式发售，面对数以万计敌人来袭",
+          "summary_source": "llm"
+        },
+        {
+          "name": "诡视低语",
+          "count": 1,
+          "summary": "该恐怖游戏11月17日登陆Steam，发售首14天可享85折优惠",
           "summary_source": "llm"
         }
       ]
     },
     {
-      "date": "2026-11-14",
-      "article_count": 103,
+      "date": "2026-11-16",
+      "article_count": 134,
       "game_count": 27,
-      "untagged_count": 33,
-      "digest": "今日游戏资讯聚焦于《GTA6》实体版安全隐患、发售日期及商店细节，以及《影之刃零》发售后的玩家反馈与Bug讨论。此外，《塞尔达传说：时之笛》重制版引发对后续作品及PC移植的期待，而《红色沙漠》因版本更新引发角色建模争议，多款大作与独立游戏均有动态更新。",
+      "untagged_count": 50,
+      "digest": "今日游戏资讯聚焦于《GTA6》相关热点，黑客认罪引发关注，玩家实测破解手段及成人内容泛滥，同时R星回应开发周期并透露曾考虑制作5.5版。此外，《影之刃零》获《匹诺曹的谎言》总监盛赞，《神鬼寓言4》公开超大城市地图与5080实机表现，《红色沙漠》DLC获83分好评，多款新作如《三国志：王道天下》《主星序》公布定档或开启试玩。",
       "digest_source": "llm",
-      "input_hash": "fa4a5eb3d5adc6a5",
+      "input_hash": "b566332859f3caa6",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 29,
-          "summary": "海外博主发现实体版存在安全隐患，手电照射即可泄露代码，同时Just a Nerd爆料游戏将拥有700家以上商店供玩家探索。",
+          "count": 47,
+          "summary": "外媒疑似发布一段包含游戏内经典吉祥物的新截图，视频随后被删除但截图被保存。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
-          "count": 11,
-          "summary": "官方发布甄子丹参演宣传片，主角魂的脸模演员在直播中展示游戏玩法并发现角色下半身Bug，梦华脸模身份也正式曝光。",
+          "count": 10,
+          "summary": "演员贾雄凯在B站分享幕后花絮，展示角色“魂”与左殇开篇的文戏捕捉过程。",
           "summary_source": "llm"
         },
         {
-          "name": "时之笛RE",
-          "count": 3,
-          "summary": "《时之笛RE》神级改编！经典名场面更震撼；《时之笛RE》后还有惊喜？下一款经典塞尔达重制稳了；网友发现《时之笛RE》与原版彩蛋：骑马画面无缝衔接。",
+          "name": "神鬼寓言4",
+          "count": 2,
+          "summary": "官方放出PC版4K 60帧、Ultra画质的实机演示，机器搭载RTX 5080。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "红色沙漠",
+          "count": 2,
+          "summary": "DLC“未知征途”在M站开分，媒体均分达到83分。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA",
+          "count": 1,
+          "summary": "R星取材员工回忆在东洛杉矶随警巡逻的经历，包括屋顶哨兵吹口哨传警等细节。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA 5.5",
+          "count": 1,
+          "summary": "R星在接受采访时回应开发周期问题，表示曾考虑制作《GTA 5.5》但最终豪赌《GTA6》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "三国志：王道天下",
+          "count": 1,
+          "summary": "由光荣正版授权的沙盘策略新作公测定档12月24日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "主星序",
+          "count": 1,
+          "summary": "太空模拟自动化建造游戏《主星序》今日开启Steam抢先体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仙剑",
+          "count": 1,
+          "summary": "2026仙剑嘉年华锁座通道将于11月17日中午12:00开启，五千席位先到先得。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "分喵必争",
+          "count": 1,
+          "summary": "双人合作平台跳跃游戏《分喵必争》将参展上海2026 WePlay文化展并开放试玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "半条命2",
+          "count": 1,
+          "summary": "《半条命2》完整开发仓库疑似泄露，包含数百个废弃模型及原始素材。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "如龙",
+          "count": 1,
+          "summary": "横山昌义在接受采访时表示《如龙》与《GTA》并非宿敌关系。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3：狂猎重制版E",
+          "count": 1,
+          "summary": "重制版拿下最佳重制/复刻奖，成为该奖项获奖最多的游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "征途2归来",
+          "count": 1,
+          "summary": "《征途2归来》将于11月20日开启首次测试，包含五大经典职业。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "战神",
+          "count": 1,
+          "summary": "基于PS Vita版制作的《战神》和《战神2》非官方安卓移植版发布，手机可玩。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "article_count": 92,
+      "game_count": 15,
+      "untagged_count": 52,
+      "digest": "11月15日游戏资讯聚焦于《GTA6》的发售预热，汤姆·亨德森透露其主线需50小时、含近百任务，典藏版开箱与白金奖杯200小时等消息引发热议。此外，《影之刃零》因Boss设计遭UP主吐槽，B站百大UP主回应争议；《古墓丽影》新作配置要求提高；《东北往事》登陆主机平台；BLG夺得S16全球总决赛冠军，引发《黑神话》制作人冯骥等人的庆祝。",
+      "digest_source": "llm",
+      "input_hash": "12b1f9f5ee78bc9b",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 21,
+          "summary": "Xbox商店出现标价闹乌龙，1.4万元的“隐藏",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 4,
+          "summary": "RTX 5090也吃不消！《影之刃零》4K路径追踪仅42帧；《影之刃零》顾家好男人脸模公开！一人分饰三角；世界第一!B站UP主27分钟速通《影之刃零》:飞天遁地（当天共 4 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "GTA",
+          "count": 2,
+          "summary": "从男孩等到大叔！玩家时隔18年重拍《GTA》同款照片；T2 CEO：好游戏易上手难精通 《GTA》正是典范。",
           "summary_source": "rules"
         },
         {
           "name": "红色沙漠",
           "count": 2,
-          "summary": "2.05.00版本更新后，玩家发现部分女性角色外貌被悄悄修改，引发社区关于角色颜值的争议。",
+          "summary": "玩《红色沙漠》娶到最爱女巫 主角太老硬配有罪恶感；《红色沙漠》新举措遭玩家强烈谴责 官方承诺突然不作数了。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "东北往事",
+          "count": 1,
+          "summary": "比狠活时代更狠的《东北往事》，出游戏了。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "古墓丽影",
+          "count": 1,
+          "summary": "《古墓丽影》新作配置吓人！最低2070 优化要暴雷？。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "女神异闻录6",
+          "count": 1,
+          "summary": "《女神异闻录6》新预告要来了？官网有大动作。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "巫师4",
+          "count": 1,
+          "summary": "CDPR高层离“政确”太近！玩家担忧《巫师4》变味。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "极限竞速：地平线6",
+          "count": 1,
+          "summary": "老哥借IGN满分佳作《极限竞速：地平线6》与已故好友重聚 催泪故事令人感动。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "真三国无双：起源",
+          "count": 1,
+          "summary": "《真三国无双：起源》迎好价！游民商城多款3A史低了。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "神鬼寓言",
+          "count": 1,
+          "summary": "《神鬼寓言》女角色颜值打回原型 新实机遭疯狂点踩。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "给她爱5",
+          "count": 1,
+          "summary": "《给她爱5》成功搬上NS2 破解玩家又整新活。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "英雄联盟",
+          "count": 1,
+          "summary": "BLG夺冠+新版本官宣！国服《英雄联盟》重获新生？。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "蜘蛛侠2",
+          "count": 1,
+          "summary": "PS5免费画面升级！外媒盛赞《蜘蛛侠2》更新效果。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "黑神话",
+          "count": 1,
+          "summary": "《黑神话》冯骥庆祝BLG夺冠！早就提前开好香槟了。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "article_count": 100,
+      "game_count": 26,
+      "untagged_count": 33,
+      "digest": "今日游戏资讯聚焦《GTA6》实体版安全隐患、700家商店设定及主角底层开局，以及《影之刃零》宣传片与角色脸模相关动态；同时《时之笛RE》重制版获媒体盛赞，BLG确认S16决赛对阵GEN.G，多款大作如《博德之门3》雕像发售、《地平线6》DLC公布及《彩虹六号：维加斯3》立项等也引发关注。",
+      "digest_source": "llm",
+      "input_hash": "13781b2f4db3600c",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 28,
+          "summary": "《GTA6》主角开局设定曝光，被描述为底层小人物。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 11,
+          "summary": "日本玩家发现角色“魂”下半身出现异常喷水Bug。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛RE",
+          "count": 3,
+          "summary": "网友对比原版与重制版，发现骑马画面存在无缝衔接的彩蛋。",
           "summary_source": "llm"
         },
         {
           "name": "英雄联盟",
           "count": 2,
-          "summary": "BLG发布S16全球总决赛赛前Vlog，确认将于11月15日凌晨对阵GEN.G，决赛期间或将公布《英雄联盟》IP的重大革新。",
+          "summary": "S16决赛期间拳头可能公布《英雄联盟》IP的重大革新及专门宣传片。",
           "summary_source": "llm"
         },
         {
           "name": "黎明行者之血",
           "count": 2,
-          "summary": "制作人确认正在开发正统续作，1.2版本更新将加入新游戏+模式并修复多个问题。",
+          "summary": "官方宣布1.2重大版本更新，将加入备受期待的新游戏+模式及修复多个问题。",
           "summary_source": "llm"
         },
         {
           "name": "上古卷轴6",
           "count": 1,
-          "summary": "报道提及《湮灭》开局选职业的体验促成了《天际》的成长方式改动，引发对系列技能系统变化的讨论。",
+          "summary": "报道提及《湮灭》开局选职业的体验促成了《天际》的成长方式改动，引发对技能系统的讨论。",
           "summary_source": "llm"
         },
         {
           "name": "勇者斗恶龙",
           "count": 1,
-          "summary": "作曲家光田康典在博客发文，针对手游版插画风格发表看法，认为《勇者斗恶龙》相关话题应暂时结束。",
+          "summary": "作曲家光田康典发文，认为《勇者斗恶龙》相关手游应暂时结束，并批评蹭鸟山明热度的行为。",
           "summary_source": "llm"
         },
         {
           "name": "博德之门3",
           "count": 1,
-          "summary": "官方雕像厂商公布人气角色阿斯代伦的预购信息，售价315美元，预计2027年发货。",
+          "summary": "Sideshow Collectibles公布阿斯代伦官方雕像，开放预购售价315美元，预计2027年发货。",
           "summary_source": "llm"
         },
         {
           "name": "地平线6",
           "count": 1,
-          "summary": "Playground Games公布未来计划，将于2027年推出两款大型扩展内容并对现有玩法系统进行调整。",
+          "summary": "Playground Games公布未来计划，将于2027年推出两款大型扩展内容并进行系统调整。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：众神的三角力量2",
           "count": 1,
-          "summary": "玩家在任天堂官网发现该3DS游戏页面出现“Playable with ONLINE”标识，疑似将登陆Switch Online会员库。",
+          "summary": "玩家在任天堂官网发现该作页面出现“Playable with ONLINE”标识，疑似将加入Switch Online会员库。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛 重制版",
           "count": 1,
-          "summary": "Switch 2重制版强化了经典剧情演出，网友发现其与原版存在无缝衔接彩蛋，PC移植版则实现了2至4人联机功能。",
+          "summary": "PC移植项目实现可游玩合作多人模式，支持2至4名玩家联机对抗怪物。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3",
           "count": 1,
-          "summary": "新DLC启动AI修复杰洛特配音，演员中风亲自授权，旨在修复因演员健康问题导致的配音缺失。",
+          "summary": "新DLC启动AI修复杰洛特配音，演员中风亲自授权。",
           "summary_source": "llm"
         },
         {
           "name": "异于天堂",
           "count": 1,
-          "summary": "龙组新作被曝体量庞大，通关时间预计在50至100小时之间。",
+          "summary": "龙组新作体量超大，通关时长预计在50至100小时之间。",
           "summary_source": "llm"
         },
         {
           "name": "彩虹六号：维加斯3",
           "count": 1,
-          "summary": "育碧已正式批准该系列新项目，内部代号为“Spades”，目前处于开发早期阶段。",
+          "summary": "育碧已正式批准系列回归项目，内部代号为“Spades”，目前处于开发早期阶段。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "忍者神龟",
+          "count": 1,
+          "summary": "白金工作室正在开发3A级新作，业内人士爆料该作或同时登陆PS6和PS5平台。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-11-13",
-      "article_count": 139,
+      "article_count": 138,
       "game_count": 52,
       "untagged_count": 41,
-      "digest": "今日游戏资讯聚焦于《GTA6》发售前的预热与破解讨论，以及《影之刃零》幕后制作揭秘。此外，《塞尔达传说：时之笛 重制版》实体价格跳水引发热议，而《红色沙漠》则因AI应用与金摇杆奖项引发玩家争议。",
+      "digest": "今日游戏资讯聚焦于《GTA6》发售前的预热与破解劝退讨论，以及《影之刃零》制作人访谈与《时之笛RE》实体销量大爆等热点。此外，《刺客信条》现代线回归传闻、小岛秀夫新作《OD》新细节及《神鬼寓言4》新实机也引发关注。",
       "digest_source": "llm",
-      "input_hash": "8eb1ebd99e952ec8",
+      "input_hash": "fa9d5480d96d5aef",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 29,
-          "summary": "《GTA6》还没解锁就推首日补丁，PS5更新1GB，尽管游戏尚未正式发售，但PlayStation 5平台已出现相关更新。",
+          "summary": "R星官方预热喊话下周莱昂尼达见，PS5破解大神劝玩家买正版，发售前已推1GB首日补丁。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 10,
-          "summary": "《影之刃零》通关后留下大疑问，老外期待DLC补完剧情，随着游戏持续热销，丰富的角色设定与幕后制作细节正被陆续揭晓。",
+          "summary": "制作人梁其伟接受6小时深度访谈，设计师揭秘字体设计，神秘眼镜女动捕及泳装照曝光。",
           "summary_source": "llm"
         },
         {
           "name": "时之笛RE",
           "count": 4,
-          "summary": "《时之笛RE》健硕美臀走红！盔甲缩水 一览无余；谁说实体没人买?《时之笛RE》日本实体售出53.7万份；《时之笛RE》制作人：怪物本来超恐怖 但收敛了（当天共 4 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "红色沙漠",
-          "count": 3,
-          "summary": "《红色沙漠》开发商拥抱AI！粉丝：他早用了，开发商在财报中透露公司正在进一步扩大AI技术的应用范围，未来还计划将AI整合进自研的BlackSpace引擎。",
+          "summary": "日本实体版售出53.7万份，实体销量超数字版一倍，背部护甲被大幅去除引发玩家调侃。",
           "summary_source": "llm"
         },
         {
           "name": "GTA",
           "count": 2,
-          "summary": "《GTA》竟有人不喜欢玩 玩家很困惑：明明是解压神游，相关讨论在社区再度发酵。",
+          "summary": "T2 CEO表示《GTA》影视化需严格把控，有玩家困惑为何有人不喜欢玩这款解压神游。",
           "summary_source": "llm"
         },
         {
           "name": "刺客信条",
           "count": 2,
-          "summary": "《刺客信条》要回归初心？育碧考虑重启现代剧情，育碧正在认真考虑让《刺客信条》系列重新加入现代剧情，甚至可能让玩家再次体验现代世界中的可操作内容。",
+          "summary": "育碧考虑重启现代剧情线，并计划举办工作坊讨论如何处理被骂稀烂的现代线内容。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛 重制版",
           "count": 2,
-          "summary": "《时之笛RE》制作人：怪物本来超恐怖 但收敛了，藤林秀麿称重制版ReDead的音效、画面与动作一度做得过火，最终为贴近原版体验而收敛。",
+          "summary": "Switch2平台实体卡带价格跳水至250元，PC移植版已支持DLSS FSR。",
           "summary_source": "llm"
         },
         {
           "name": "神鬼寓言4",
           "count": 2,
-          "summary": "微软重磅大作《神鬼寓言4》新实机！DEI又回来了？《神鬼寓言4》是经典RPG《神鬼寓言》系列的一次重启之作，由Xbox旗下Playground Games开发，Xbox Game Studios负责发行，2027年2月23日发售。",
+          "summary": "Xbox公布4分钟新实机展示战斗与UI，游戏定档2027年2月23日登陆多平台。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "红色沙漠",
+          "count": 2,
+          "summary": "获金摇杆年度最佳PC提名，玩家认为缺乏竞争，游戏持续进行大量优化更新。",
           "summary_source": "llm"
         },
         {
           "name": "Bottled by Bears",
           "count": 1,
-          "summary": "《Bottled by Bears》现已登陆 Steam！游戏原价 32 元人民币，首发限时享 75 折优惠。",
+          "summary": "现已登陆Steam，首发限时75折优惠，售价32元人民币。",
           "summary_source": "llm"
         },
         {
           "name": "DOOM",
           "count": 1,
-          "summary": "《DOOM》老兵创业！“大厂员工”这套还能行吗？此前被微软裁员的约20名前id Software员工近日组建了独立游戏工作室Hidden Horses，并公布了首款作品《Danger Pay》。",
+          "summary": "前id Software约20名被裁员工组建Hidden Horses工作室，公布首款作品《Danger Pay》。",
           "summary_source": "llm"
         },
         {
           "name": "Delve Survivors",
           "count": 1,
-          "summary": "《Delve Survivors》幸存者，但是回合制，由独立团队iDiOSLAB开发的回合制幸存者类新游于11月13日正式上架Steam，售价人民币45元。",
+          "summary": "回合制幸存者类新游上架Steam，售价45元人民币。",
           "summary_source": "llm"
         },
         {
           "name": "GTA4",
           "count": 1,
-          "summary": "《GTA4》经典角色回归《GTA6》？也曾在5代出现，有玩家注意到这名角色的胡须样式、眼镜和声线都与托尼·普林斯高度相似。",
+          "summary": "玩家发现经典角色托尼·普林斯疑似回归《GTA6》，其胡须眼镜声线与5代高度相似。",
           "summary_source": "llm"
         },
         {
           "name": "OD",
           "count": 1,
-          "summary": "小岛秀夫《OD》新细节 鱼眼视角超拟真，小岛秀夫采用GoPro运动相机实地拍摄真实环境，再将这些场景还原到游戏引擎中。",
+          "summary": "小岛秀夫新作采用GoPro实地拍摄还原鱼眼视角，追求极致拟真效果。",
           "summary_source": "llm"
         },
         {
           "name": "倘若你想见到明天",
           "count": 1,
-          "summary": "你能在60分钟内活下来吗？RPGmaker创作大赛最佳游戏《倘若你想见到明天》试玩版上线。",
+          "summary": "RPGmaker创作大赛最佳游戏试玩版上线，玩家需在60分钟内活下来。",
           "summary_source": "llm"
         },
         {
           "name": "光环：战役进化",
           "count": 1,
-          "summary": "《光环：战役进化》重磅更新！经典模式回归 裁员也不放弃，官方正式公布游戏将于今年冬季推出免费更新，加入粉丝耳熟能详的Firefight PVE模式。",
+          "summary": "工作室虽面临裁员传闻，但官方宣布将于冬季推出免费更新，加入经典Firefight模式。",
           "summary_source": "llm"
         }
       ]
@@ -730,107 +986,6 @@
           "name": "塞尔达时之笛",
           "count": 1,
           "summary": "Switch 2、3DS与N64三个世代画面对比视频发布，展示脱胎换骨的效果。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "article_count": 92,
-      "game_count": 30,
-      "untagged_count": 24,
-      "digest": "11月7日游戏资讯聚焦于《影之刃零》的社区热议与Bug修复，以及《GTA6》关于PC版发售与周边的爆料。此外，《塞尔达传说：时之笛 重制版》发售当日口碑炸裂，媒体与玩家评分均创历史新高，引发全网关注。",
-      "digest_source": "llm",
-      "input_hash": "346826c6d3ff78e7",
-      "game_digests": [
-        {
-          "name": "影之刃零",
-          "count": 16,
-          "summary": "社区反馈称Bug修复已生效，但官方补丁说明未点名该逻辑，同时有玩家吐槽“不灭侠胆”支线操作要求苛刻，还有UP主分享90小时制作无伤系列视频。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA6",
-          "count": 14,
-          "summary": "前技术总监认为AI技术可能促使Rockstar提前推出PC版，实体版或赠双面海报，索尼《GTA6》限定版DualSense手柄黑白款重新开放预订。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "时之笛RE",
-          "count": 6,
-          "summary": "M站玩家评分创新高达9.7分，媒体评分高达96分，47家媒体给出满分，Switch 2版支持手柄吹陶笛，且原生PC移植版在RTX 5090上可跑51帧。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 3,
-          "summary": "Shift Up为Switch 2版发布真人发售预告片，展示性感女主伊芙哄睡场景，估算显示Steam版销量占比49.6%，与PS5版几乎持平。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛 重制版",
-          "count": 3,
-          "summary": "发售当日口碑封神，媒体评分96分，玩家评分9.7分，FSR与DLSS对比显示画面表现强劲，发丝细节清晰。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "漫威蜘蛛侠2",
-          "count": 2,
-          "summary": "估算显示其营收达13亿美元，销量破1910万，但Steam收入占比仅约5.3%，远低于PS5端。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "DOOM",
-          "count": 1,
-          "summary": "索尼第一方类《DOOM》新作曝光，核心机制为断肢分层与护符“汲取”回血，并支持合作游玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴5",
-          "count": 1,
-          "summary": "总监表示《老滚6》需要改进梯子只能点击瞬移的限制，以支持多层空间设计。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴6",
-          "count": 1,
-          "summary": "一名25岁粉丝表示自己最大的担忧是可能无法活到《上古卷轴6》正式发售的那一天。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺客信条：英灵殿",
-          "count": 1,
-          "summary": "曝免费大更新提升巨大，开启PSSR 2.0后画面表现获得好评。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影",
-          "count": 1,
-          "summary": "新作《古墓丽影：亚特兰蒂斯遗迹》体验总监称其是系列下一阶段的重要起点，并非简单翻新。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "堕落之主2",
-          "count": 1,
-          "summary": "官方确认游戏拥有超25种武器模组，并展示了大量魔法与无限弹药等玩法。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达时之笛RE",
-          "count": 1,
-          "summary": "知名硬件博主分享了“原生FSR与注入DLSS”的画面对比视频，称赞发丝清晰。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "宝可梦风/波",
-          "count": 1,
-          "summary": "任天堂社长在财报说明会中点名该作，称其对Switch 2第三年发展至关重要。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "怪猎荒野",
-          "count": 1,
-          "summary": "卡普空称Switch 2版与资料片公布后，销售节奏和同时在线人数均有改善，但半年销量仅80万份。",
           "summary_source": "llm"
         }
       ]

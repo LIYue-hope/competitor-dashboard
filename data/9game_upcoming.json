@@ -1,9 +1,9 @@
 {
-  "crawled_at": "2026-11-16T01:48:23.823458+00:00",
+  "crawled_at": "2026-11-17T04:29:16.269946+00:00",
   "days": [
     {
       "date": "2026-11-17",
-      "date_label": "11月17日 明天",
+      "date_label": "11月17日 今天",
       "games": [
         {
           "game_name": "幻想九霄",
@@ -20,7 +20,7 @@
     },
     {
       "date": "2026-11-18",
-      "date_label": "11月18日 后天",
+      "date_label": "11月18日 明天",
       "games": [
         {
           "game_name": "箭雨千军",
@@ -48,7 +48,7 @@
     },
     {
       "date": "2026-11-19",
-      "date_label": "11月19日 周四",
+      "date_label": "11月19日 后天",
       "games": [
         {
           "game_name": "斗罗大陆",
@@ -120,6 +120,23 @@
       ]
     },
     {
+      "date": "2026-11-24",
+      "date_label": "11月24日 下周二",
+      "games": [
+        {
+          "game_name": "饥困荒野",
+          "categories": [
+            "即时"
+          ],
+          "score": "7.9",
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/jhxj1/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
       "date": "2026-11-25",
       "date_label": "11月25日 下周三",
       "games": [
@@ -140,6 +157,17 @@
       "date": "2026-11-27",
       "date_label": "11月27日 下周五",
       "games": [
+        {
+          "game_name": "小小村长2",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "打天下",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/xiaoxiaocunzhang2/",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "最传奇",
           "categories": [
@@ -166,6 +194,23 @@
           "event_desc": "复古三职业传奇",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/zhandixianfeng/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-12-02",
+      "date_label": "12月02日",
+      "games": [
+        {
+          "game_name": "大梦仙途",
+          "categories": [
+            "回合"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/dmxt/",
           "has_afk_grinding_tag": false
         }
       ]
@@ -211,40 +256,6 @@
           "event_desc": "预约领豪礼",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/moribaye1/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-12-23",
-      "date_label": "12月23日",
-      "games": [
-        {
-          "game_name": "猛犸崛起",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "复古打金传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/mengmajueqi/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-12-30",
-      "date_label": "12月30日",
-      "games": [
-        {
-          "game_name": "新大奉打更人",
-          "categories": [
-            "卡牌"
-          ],
-          "score": "8.1",
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/xdfdgr/",
           "has_afk_grinding_tag": false
         }
       ]
