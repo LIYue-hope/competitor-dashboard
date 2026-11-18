@@ -1,45 +1,9 @@
 {
-  "crawled_at": "2026-11-17T04:28:42.684048+00:00",
+  "crawled_at": "2026-11-18T03:40:41.813165+00:00",
   "days": [
     {
-      "date": "2026-11-17",
-      "date_label": "11月17日 今天",
-      "games": [
-        {
-          "game_name": "斗罗大陆：诛邪传说-11月19日上线(官服)",
-          "categories": [
-            "动作",
-            "多平台",
-            "开放世界"
-          ],
-          "score": "7.7",
-          "event_desc": "10:00 预下载，11月19日上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/172701.htm",
-          "publisher": "贪玩游戏",
-          "reservation_count": null,
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "幻想九霄-预下载",
-          "categories": [
-            "修仙",
-            "刷宝",
-            "多人联机"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/197570.htm",
-          "publisher": "上海混沌奇点信息科技有限公司",
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-11-18",
-      "date_label": "11月18日 明天",
+      "date_label": "11月18日 今天",
       "games": [
         {
           "game_name": "战斗吧！艾莉娜-拉比哩比Rabi·Ribi",
@@ -53,7 +17,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/173896.htm",
           "publisher": "良心工作室",
-          "reservation_count": "43706",
+          "reservation_count": null,
           "has_afk_grinding_tag": false
         },
         {
@@ -68,7 +32,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201562.htm",
           "publisher": "广州星河月科技有限公司",
-          "reservation_count": "118",
+          "reservation_count": "164",
           "has_afk_grinding_tag": false
         },
         {
@@ -83,14 +47,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/203374.htm",
           "publisher": null,
-          "reservation_count": "616",
+          "reservation_count": "636",
           "has_afk_grinding_tag": true
         }
       ]
     },
     {
       "date": "2026-11-19",
-      "date_label": "11月19日 后天",
+      "date_label": "11月19日 明天",
       "games": [
         {
           "game_name": "高塔旅人-巴别塔圣歌",
@@ -104,18 +68,18 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/185571.htm",
           "publisher": "良心工作室",
-          "reservation_count": "32099",
+          "reservation_count": "32186",
           "has_afk_grinding_tag": false
         },
         {
-          "game_name": "斗罗大陆：诛邪传说-11月19日上线(官服)",
+          "game_name": "斗罗大陆：诛邪传说-预下载(官服)",
           "categories": [
             "动作",
             "多平台",
             "开放世界"
           ],
-          "score": "7.7",
-          "event_desc": "10:00 正式上线",
+          "score": "7.6",
+          "event_desc": "10:00 正式上线，预下载已开启",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/172701.htm",
           "publisher": "贪玩游戏",
@@ -134,7 +98,22 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/176464.htm",
           "publisher": "TBG LIMITED",
-          "reservation_count": "3861",
+          "reservation_count": "3865",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "无名之诗",
+          "categories": [
+            "动作",
+            "冒险",
+            "探索"
+          ],
+          "score": null,
+          "event_desc": "10:00 预下载,11月20日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/162037.htm",
+          "publisher": "蝉翼游戏",
+          "reservation_count": "1256",
           "has_afk_grinding_tag": false
         },
         {
@@ -156,7 +135,7 @@
     },
     {
       "date": "2026-11-20",
-      "date_label": "11月20日 周五",
+      "date_label": "11月20日 后天",
       "games": [
         {
           "game_name": "蓝色星原：旅谣-11月26日上线(官服)",
@@ -170,7 +149,22 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/164274.htm",
           "publisher": "蛮啾网络",
-          "reservation_count": "65.8万",
+          "reservation_count": "66万",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "无名之诗",
+          "categories": [
+            "动作",
+            "冒险",
+            "探索"
+          ],
+          "score": null,
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/162037.htm",
+          "publisher": "蝉翼游戏",
+          "reservation_count": "1256",
           "has_afk_grinding_tag": false
         },
         {
@@ -186,6 +180,21 @@
           "detail_url": "https://www.3839.com/a/201040.htm",
           "publisher": "广州金科文化科技有限公司",
           "reservation_count": "78",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "万世镜",
+          "categories": [
+            "角色扮演",
+            "养成",
+            "女性向"
+          ],
+          "score": null,
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/205558.htm",
+          "publisher": "万锦游",
+          "reservation_count": "428",
           "has_afk_grinding_tag": false
         },
         {
@@ -221,8 +230,89 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/203374.htm",
           "publisher": null,
-          "reservation_count": "616",
+          "reservation_count": "636",
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "date_label": "11月24日 下周二",
+      "games": [
+        {
+          "game_name": "幻梦无年",
+          "categories": [
+            "动作",
+            "角色扮演",
+            "剧情"
+          ],
+          "score": "8.3",
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/196521.htm",
+          "publisher": "成都嘉谊互娱科技有限公司",
+          "reservation_count": "4303",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "饥困荒野-11月24日上线",
+          "categories": [
+            "编辑推荐",
+            "多人联机",
+            "沙盒"
+          ],
+          "score": "7.1",
+          "event_desc": "距11月24日上线仅剩6天！",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/124032.htm",
+          "publisher": "腾讯",
+          "reservation_count": "128.4万",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "包吃住模拟器",
+          "categories": [
+            "模拟经营",
+            "模拟人生",
+            "休闲"
+          ],
+          "score": null,
+          "event_desc": "上线试玩，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/203058.htm",
+          "publisher": "厦门纪石科技有限公司",
+          "reservation_count": "132",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "造车模拟器",
+          "categories": [
+            "经营",
+            "模拟",
+            "放置"
+          ],
+          "score": null,
+          "event_desc": "上线试玩，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/202760.htm",
+          "publisher": "厦门纪石科技有限公司",
+          "reservation_count": "120",
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "万物皆可蟹",
+          "categories": [
+            "Steam移植",
+            "Roguelite",
+            "策略"
+          ],
+          "score": null,
+          "event_desc": "海外上线安卓和iOS",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/205686.htm",
+          "publisher": "Secret Mode Ltd",
+          "reservation_count": "110",
+          "has_afk_grinding_tag": false
         }
       ]
     }
