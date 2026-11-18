@@ -86,6 +86,7 @@ npm --prefix web run build
 ```
 scripts/                 数据采集层（Python 3.11+，仅 requests + beautifulsoup4）
   crawl_*.py             一个数据源一个脚本，互相独立
+  retry_crawl.py         抓取脚本失败重试入口
   crawl_16p.py           游资网新游开测表（16p.com / gameres gamecenter 接口）
   crawl_gameres.py       游资网资讯
   crawl_taptap_rank.py   TapTap 热门 / 预约 / 新品榜
@@ -243,12 +244,12 @@ Vue 3.4 + Vite 5，无状态管理库、无 UI 框架，组件直接 `fetch` 对
 
 ## 本地开发
 
-采集脚本（Python 3.11+，CI 用 3.11）：
+采集脚本使用 Python 3.11+，CI 使用 3.11。本地使用 `retry_crawl.py` 运行单个抓取脚本，可获得与 CI 相同的重试行为。
 
 ```bash
 pip install -r scripts/requirements.txt
-python scripts/crawl_taptap.py            # 单独跑某个源
-python scripts/crawl_16p.py               # 游资网新游
+python scripts/retry_crawl.py scripts/crawl_taptap.py  # 单独跑 TapTap 新游
+python scripts/retry_crawl.py scripts/crawl_16p.py     # 游资网新游
 python scripts/summarize_news.py youxia   # 只给一个来源生成总结，不传参则五个都跑
 python scripts/snapshot_daily_news_counts.py # 固化各资讯站每日新增条数
 python scripts/summarize_week.py          # 上周热度榜与综述
@@ -277,6 +278,8 @@ npm run build    # 产物在 web/dist，含拷贝进去的 data/
 `.github/workflows/crawl.yml`，每天 UTC 22:00（北京时间次日 06:00）定时触发，也可手动 `workflow_dispatch`。
 两个 job：`crawl`（采集 + 提交）→ `deploy`（构建 + 部署 Pages）。几个关键设计：
 
+- 每个网站抓取步骤独立运行。脚本以非零状态退出后等待 30 秒再重跑当前脚本，
+  初次运行之外最多重试 3 次。任一次成功即结束该步骤，耗尽重试后才报告该步骤失败。
 - 每个采集步骤都是 `continue-on-error: true` 并带 `id`，避免"一个源改版导致当天全都不更新"。
   判定失败必须用 `steps.<id>.outcome`（`continue-on-error` 会把 `conclusion` 改写成 success）。
 - 失败信息先由一个"哨兵"步骤逐个打成 `::error::` 注解，然后先提交推送已成功的数据，

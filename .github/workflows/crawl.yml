@@ -43,22 +43,19 @@ jobs:
       - name: 安装依赖
         run: pip install -r scripts/requirements.txt
 
-      # 各采集脚本互相独立，各自对应一个数据源。统一加 continue-on-error: true
-
-      # 是为了让"部分失败"不再演变成"全部不更新"：某个源改版/超时导致脚本 exit
-      # 非 0 时，后面的采集脚本和提交推送步骤仍会执行，已成功采集到的数据照样
-      # 落库并部署。同时给每步加 id，供后续步骤用 steps.<id>.outcome 精确判断
-      # 是哪个源失败（continue-on-error 会把 conclusion 改写成 success，只有
-      # outcome 保留原始结果，所以判定必须用 outcome）。
+      # 每个采集步骤独立重试，失败后等待 30 秒，最多重试 3 次。
+      # 重试耗尽仍失败时，continue-on-error: true 使后续采集和提交继续执行。
+      # 失败汇总用 steps.<id>.outcome 区分失败来源，因为 continue-on-error
+      # 会将失败步骤的 conclusion 改为 success。
       - name: 运行 TapTap 采集脚本
         id: taptap
         continue-on-error: true
-        run: python scripts/crawl_taptap.py
+        run: python scripts/retry_crawl.py scripts/crawl_taptap.py
 
       - name: 运行热门游戏动态采集脚本
         id: hot_games
         continue-on-error: true
-        run: python scripts/crawl_hot_games.py
+        run: python scripts/retry_crawl.py scripts/crawl_hot_games.py
 
       - name: 运行好游快爆采集脚本
         # 输出 data/haoyoukuaibao_upcoming.json，依赖与其它脚本一致
@@ -66,12 +63,12 @@ jobs:
         # data/*.json 下，能被下面提交步骤的 add / diff 通配直接覆盖。
         id: haoyoukuaibao
         continue-on-error: true
-        run: python scripts/crawl_haoyoukuaibao.py
+        run: python scripts/retry_crawl.py scripts/crawl_haoyoukuaibao.py
 
       - name: 运行九游采集脚本
         id: jiuyou
         continue-on-error: true
-        run: python scripts/crawl_9game.py
+        run: python scripts/retry_crawl.py scripts/crawl_9game.py
 
       - name: 运行游资网新游采集脚本
         # 输出 data/16p_upcoming.json，7 天窗口的「上线」新游；数据来自 16p.com，
@@ -79,7 +76,7 @@ jobs:
         # requests（已在 scripts/requirements.txt 覆盖）。
         id: p16
         continue-on-error: true
-        run: python scripts/crawl_16p.py
+        run: python scripts/retry_crawl.py scripts/crawl_16p.py
 
 
       - name: 运行 3DMGame 新闻/测评采集脚本
@@ -87,7 +84,7 @@ jobs:
         # 窗口，脚本内部自行读取旧文件合并去重，因此本步骤无需额外处理。
         id: dmgame
         continue-on-error: true
-        run: python scripts/crawl_3dmgame.py
+        run: python scripts/retry_crawl.py scripts/crawl_3dmgame.py
 
       - name: 运行游侠网新闻/评测采集脚本
         # 输出 data/youxia_news.json + data/youxia_reviews.json，新闻 10 天、
@@ -95,21 +92,21 @@ jobs:
         # 文件合并去重，因此本步骤无需额外处理。
         id: youxia
         continue-on-error: true
-        run: python scripts/crawl_youxia.py
+        run: python scripts/retry_crawl.py scripts/crawl_youxia.py
 
       - name: 运行游民星空新闻/评测采集脚本
         # 输出 data/gamersky_news.json + data/gamersky_reviews.json，新闻 10 天、
         # 评测 15 天滚动窗口，脚本内部自行读取旧文件合并去重，因此本步骤无需额外处理。
         id: gamersky
         continue-on-error: true
-        run: python scripts/crawl_gamersky.py
+        run: python scripts/retry_crawl.py scripts/crawl_gamersky.py
 
       - name: 运行 GameLook 新闻采集脚本
         # 输出 data/gamelook_news.json，10 天滚动窗口；该站只有新闻没有评测，
         # 所以只产出一个文件，前端对应面板走 news-only 模式。
         id: gamelook
         continue-on-error: true
-        run: python scripts/crawl_gamelook.py
+        run: python scripts/retry_crawl.py scripts/crawl_gamelook.py
 
       - name: 运行游资网新闻采集脚本
         # 输出 data/gameres_news.json，10 天滚动窗口；该站只有新闻没有评测，
@@ -117,7 +114,7 @@ jobs:
         # 采集侧按 tags 的 tid 白名单只保留「推荐/原创/产品/厂商/市场」5 类。
         id: gameres
         continue-on-error: true
-        run: python scripts/crawl_gameres.py
+        run: python scripts/retry_crawl.py scripts/crawl_gameres.py
 
       - name: 生成各网站每日资讯新增曲线数据
         # 原始资讯文件只保留短期滚动窗口；该快照将 2026-09-01 起按发布日期、来源
@@ -153,7 +150,7 @@ jobs:
         # 0 条时脚本拒绝覆盖旧文件，失败不阻断后续周报生成。
         id: taptap_rank
         continue-on-error: true
-        run: python scripts/crawl_taptap_rank.py
+        run: python scripts/retry_crawl.py scripts/crawl_taptap_rank.py
 
       - name: 生成上周游戏总结
         # 排在四路资讯 digest 与 TapTap 榜单之后：读已有 news/upcoming/dynamics/rank。
