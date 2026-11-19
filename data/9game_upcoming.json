@@ -1,54 +1,9 @@
 {
-  "crawled_at": "2026-11-17T04:29:16.269946+00:00",
+  "crawled_at": "2026-11-19T03:11:56.029433+00:00",
   "days": [
     {
-      "date": "2026-11-17",
-      "date_label": "11月17日 今天",
-      "games": [
-        {
-          "game_name": "幻想九霄",
-          "categories": [
-            "冒险"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/huanxiangjiuxiao/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "date_label": "11月18日 明天",
-      "games": [
-        {
-          "game_name": "箭雨千军",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": "策略卡牌千抽自选",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/sgjyqj/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "烽火龙途",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "三职业高爆传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/fenghuolongtu/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-11-19",
-      "date_label": "11月19日 后天",
+      "date_label": "11月19日 今天",
       "games": [
         {
           "game_name": "斗罗大陆",
@@ -87,8 +42,30 @@
     },
     {
       "date": "2026-11-20",
-      "date_label": "11月20日 周五",
+      "date_label": "11月20日 明天",
       "games": [
+        {
+          "game_name": "无名之诗",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/wumingzhishi/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "魔法森林",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/mfsldzz/",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "约战皇城",
           "categories": [
@@ -104,7 +81,7 @@
     },
     {
       "date": "2026-11-21",
-      "date_label": "11月21日 周六",
+      "date_label": "11月21日 后天",
       "games": [
         {
           "game_name": "神创九州",
@@ -162,7 +139,7 @@
           "categories": [
             "角色扮演"
           ],
-          "score": null,
+          "score": "7.0",
           "event_desc": "打天下",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/xiaoxiaocunzhang2/",
@@ -203,6 +180,17 @@
       "date_label": "12月02日",
       "games": [
         {
+          "game_name": "剑气与魔法",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/jqymf/",
+          "has_afk_grinding_tag": false
+        },
+        {
           "game_name": "大梦仙途",
           "categories": [
             "回合"
@@ -228,34 +216,6 @@
           "event_desc": "攻速传奇",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/wujinhandong1/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "太古诛妖传",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "预约赢茅台",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/tgzyc/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-12-09",
-      "date_label": "12月09日",
-      "games": [
-        {
-          "game_name": "末日霸业",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "预约领豪礼",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/moribaye1/",
           "has_afk_grinding_tag": false
         }
       ]

@@ -1,28 +1,98 @@
 {
-  "generated_at": "2026-11-18T04:07:16.517812+00:00",
+  "generated_at": "2026-11-19T03:36:11.342651+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-17",
-      "article_count": 5,
-      "game_count": 2,
-      "untagged_count": 3,
-      "digest": "今日游戏行业资讯主要聚焦于《ARC Raiders》研发团队关于设计文档缺失的争议性言论，以及《三国志：王道天下》定档12月24日公测的消息。此外，还有3条未指向具体游戏的行业动态。",
+      "date": "2026-11-19",
+      "article_count": 6,
+      "game_count": 5,
+      "untagged_count": 1,
+      "digest": "TGA 2026提名名单公布，《GTA 6》领跑获八项提名；网易《哈利波特：魔法觉醒》因授权到期宣布停运；Firaxis裁员三分之一；鹰角《终末地》获Google Play年度游戏；暴雪新作《魔兽世界：无限》开服两周遭遇恶性刷金Bug。",
       "digest_source": "llm",
-      "input_hash": "9364bc5197ada0bc",
+      "input_hash": "6a5622c596fa2498",
+      "game_digests": [
+        {
+          "name": "GTA 6",
+          "count": 1,
+          "summary": "TGA 2026公布提名名单，该作狂揽8项提名领跑全场。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "哈利波特：魔法觉醒",
+          "count": 1,
+          "summary": "网易该作因授权协议即将到期，正式宣布停运。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "文明",
+          "count": 1,
+          "summary": "开发商Firaxis大裁员三分之一，工作室总裁已被开除。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "终末地",
+          "count": 1,
+          "summary": "鹰角《终末地》获Google Play年度游戏大奖。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔兽世界：无限",
+          "count": 1,
+          "summary": "暴雪新作开服两周遭遇恶性刷金Bug。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "article_count": 7,
+      "game_count": 3,
+      "untagged_count": 4,
+      "digest": "2026-11-18当天共发布GameLook新闻7条，涉及3款游戏，含2款具明确游戏动态，未指向具体游戏4条。其中僵尸相关独立游《僵尸不是真实存在的》引发关注，聚焦城市地图与两难抉择机制；黑马游戏《我带过最差的一届》参加Steam新品节并完成一周爆卖60万套、Steam在线破5万人；国产独立游戏《艾希：续》完成众筹4280万元后开启人工退款，反映制作人态度与项目走向。",
+      "digest_source": "llm",
+      "input_hash": "dff0ad9347ffd112",
+      "game_digests": [
+        {
+          "name": "僵尸不是真实存在的",
+          "count": 1,
+          "summary": "Steam独游《僵尸不是真实存在的》出圈！“真实城市地图 + 两难抉择” 太戳人。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "我带过最差的一届",
+          "count": 1,
+          "summary": "冠军黑马《我带过最差的一届》出征！一周爆卖60万套，Steam在线破5万人。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "艾希：续",
+          "count": 1,
+          "summary": "《艾希：续》众筹4280万元后，开人工退款：制作人很天真、竟想“劝退”玩家。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "article_count": 7,
+      "game_count": 2,
+      "untagged_count": 5,
+      "digest": "GameLook今日共收录7条资讯，主要聚焦于《ARC Raiders》与《三国志：王道天下》两款游戏。瑞典Embark Studios的撤离射击新作《ARC Raiders》制作人透露研发期间无设计文档，且在爆红后因玩家分化屡陷危机；另一款由奇侠互娱研发、哔哩哔哩游戏代理的《三国志：王道天下》则定档12月24日公测。",
+      "digest_source": "llm",
+      "input_hash": "4ed1d240260b149b",
       "game_digests": [
         {
           "name": "ARC Raiders",
           "count": 1,
-          "summary": "瑞典开发商Embark Studios制作人透露游戏研发初期无设计文档，称爆红后玩家分化屡陷危机。",
+          "summary": "瑞典Embark Studios的撤离射击游戏《ARC Raiders》制作人透露，研发期间团队无设计文档，且在游戏爆红后因玩家分化屡陷危机。",
           "summary_source": "llm"
         },
         {
           "name": "三国志：王道天下",
           "count": 1,
-          "summary": "由奇侠互娱研发、哔哩哔哩游戏发行的该作定档12月24日公测。",
+          "summary": "由奇侠互娱研发、哔哩哔哩游戏代理的《三国志：王道天下》定档12月24日公测。",
           "summary_source": "llm"
         }
       ]
@@ -61,36 +131,36 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "今日行业资讯仅有一则报道，聚焦于游戏行业在 2026 年 11 月 15 日面临的监管与合规挑战。报道指出，随着游戏版号发放常态化，监管机构对游戏内容的审核标准日益严格，特别是针对未成年人保护机制及游戏内经济系统的合规性提出了更高要求，行业正经历从“野蛮生长”向“高质量发展”的深度转型。",
+      "digest": "当日整体情况为今日仅发布1条游戏相关新闻，涉及游戏数量为零，具体未指向明确游戏，整体信息较为有限，主要聚焦于相关新闻的呈现状态，尚未形成具体可分析的行业动态内容，整体信息呈现较为单一且有限。",
       "digest_source": "llm",
       "input_hash": "c4fb1ebb5e3982e6",
       "game_digests": []
     },
     {
       "date": "2026-11-13",
-      "article_count": 7,
+      "article_count": 8,
       "game_count": 3,
-      "untagged_count": 4,
-      "digest": "Shift Up财报显示NIKKE与剑星收入利润双降，旗舰二游Project Spirits今年将不再公开露脸；任天堂重制版塞尔达时之笛四天狂销520万套；影之刃零虽落选金摇杆年度游戏，但官方回应称获第二已大超预期。",
+      "untagged_count": 5,
+      "digest": "Shift Up财报显示旗下二游《Project Spirits》今年将不再公开露脸，任天堂重制版《塞尔达时之笛》上市4天销量达520万套，而《影之刃零》虽落选金摇杆年度游戏，官方回应称获得第二已大超预期。",
       "digest_source": "llm",
-      "input_hash": "b15fa91cea887599",
+      "input_hash": "0bc3f1ad2a26b8cd",
       "game_digests": [
         {
           "name": "Project Spirits",
           "count": 1,
-          "summary": "NIKKE与剑星开发商Shift Up财报显示收入利润双下滑，旗舰二游Project Spirits决定今年不再公开露脸。",
+          "summary": "NIKKE开发商Shift Up财报显示旗舰二游《Project Spirits》今年将不再公开露脸。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达时之笛",
           "count": 1,
-          "summary": "任天堂重制版塞尔达时之笛发售四天销量突破520万套。",
+          "summary": "任天堂重制版《塞尔达时之笛》上市4天销量达520万套。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 1,
-          "summary": "影之刃零落选金摇杆年度游戏，官方回应称获得第二已大超预期。",
+          "summary": "《影之刃零》落选金摇杆年度游戏，官方回应称获得第二已大超预期。",
           "summary_source": "llm"
         }
       ]
@@ -191,23 +261,6 @@
           "count": 1,
           "summary": "在西安举办的“金铲铲之战2027共赴新局：电竞升级·PC启航”发布会上，腾讯游戏副总裁、《金铲铲之战》中国总负责人宣布赛事加码升级、PC移动双线发力。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "article_count": 7,
-      "game_count": 1,
-      "untagged_count": 6,
-      "digest": "2026年11月9日，当日GameLook发布7条新闻，共涉及1款游戏，其中未指向具体游戏的6条内容均有报道，其中《女王魔域》当日因5天爆卖10万套、玩家好评如潮而引发关注，展现独立游戏赛道凭借创新与竞争突围的进展，整体呈现游戏资讯以突出具体项目动态为核心的特点。",
-      "digest_source": "llm",
-      "input_hash": "e325135572b52d5a",
-      "game_digests": [
-        {
-          "name": "女王魔域",
-          "count": 1,
-          "summary": "“画面毛坯、关卡高能”！2人开发《女王魔域》5天爆卖10万套，玩家好评如潮。",
-          "summary_source": "rules"
         }
       ]
     }
