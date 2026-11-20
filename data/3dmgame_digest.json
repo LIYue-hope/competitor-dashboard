@@ -1,106 +1,201 @@
 {
-  "generated_at": "2026-11-19T03:20:23.511199+00:00",
+  "generated_at": "2026-11-20T03:09:06.426220+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-19",
-      "article_count": 73,
-      "game_count": 23,
-      "untagged_count": 2,
-      "digest": "11月19日游戏行业资讯聚焦于《GTA6》发售前的热度，Rockstar与迈阿密热火联动的限定装备在约90分钟内售罄，场内商店随即关闭，现场排起长队。与此同时，《GTA6》在Metacritic收录168篇评测后仍保持99分，与《塞尔达传说：时之笛》并列最高。此外，BANDAI SPIRITS公布18款高达模型新品，Square Enix开启《最终幻想7》系列Steam折扣，SkyVu宣布《战斗熊：黄金版》回归并达成首周收入目标。",
-      "digest_source": "llm",
-      "input_hash": "caf6a98d8403d8fc",
+      "date": "2026-11-20",
+      "article_count": 53,
+      "game_count": 14,
+      "untagged_count": 3,
+      "digest": "11月20日 3DMGame 共 53 条新闻，涉及 14 款游戏。报道最集中的是《GTA6》（36 条）、《刺客信条：黑旗 记忆重置》（2 条）、《DOTA2》（1 条）。另有 3 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "d7970f51d4c29f1b",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 48,
-          "summary": "Rockstar与迈阿密热火举行主题营销活动，联动装备在约90分钟内售罄，场内商店关闭，现场排起长队，NBA记者认为可能刷新NBA单场比赛装备销售纪录。",
+          "count": 36,
+          "summary": "《GTA6》发售当天不工作？Pocketpair摆寿司开派对；作者与妻子双屏同玩《GTA6/侠盗猎车6》发现路线不同演出也有差异；《GTA6》发售带动成人相关搜索 关键词最高涨5000%（当天共 36 条）",
+          "summary_source": "rules"
+        },
+        {
+          "name": "刺客信条：黑旗 记忆重置",
+          "count": 2,
+          "summary": "育碧两地办公室裁员166人，《刺客信条：黑旗 记忆重置》仍超预期；《刺客信条：黑旗 记忆重置》销售超预期 旧作同步回升。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "DOTA2",
+          "count": 1,
+          "summary": "《DOTA2》7.42版本更新 重写底层规则的大版本来了。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "侠盗猎车",
+          "count": 1,
+          "summary": "初代《侠盗猎车》以俯视角自由玩法和争议营销奠定系列基础。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "博德之门3",
+          "count": 1,
+          "summary": "《博德之门3》12款Mod通过审核 现已登陆主机平台。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "命运2",
+          "count": 1,
+          "summary": "《命运2》全平台推新更新 官方补丁说明仍缺席。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "宝可梦：风与浪",
+          "count": 1,
+          "summary": "《宝可梦：风与浪》爆料账号承认散布真假混杂信息。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "时间旅者：重生曙光",
+          "count": 1,
+          "summary": "Bloober谈恐怖游戏热潮 工作室正开发7个项目。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "星球大战绝地3",
+          "count": 1,
+          "summary": "曝《星球大战绝地3》近期公布 前两作或登NS2。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "模拟山羊3",
+          "count": 1,
+          "summary": "《模拟山羊3》新扩展上线，新增主题公园地图及24项活动。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "猫满废土",
+          "count": 1,
+          "summary": "B社与DEVCATS申请《猫满废土》商标 寻猫玩法曝光。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "英雄联盟",
+          "count": 1,
+          "summary": "《英雄联盟》T1确认上单选手Doran正式离队。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "追逐末日之光",
+          "count": 1,
+          "summary": "《追逐末日之光》全新预告片正式公开，预计2027年初发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "露玛岛",
+          "count": 1,
+          "summary": "《露玛岛》12月2日登陆PS5与Xbox，支持跨平台合作。",
+          "summary_source": "rules"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "article_count": 134,
+      "game_count": 54,
+      "untagged_count": 7,
+      "digest": "今日游戏行业资讯聚焦于《GTA6》的硬件模拟测试与媒体评分，以及《红色沙漠》斩获韩国游戏大奖。此外，《007：初露锋芒》因TGA提名引发争议，多款新作如《红铃的恸哭》《纸牌巫：魔女决战》等陆续发售或开启测试，同时《乐高詹姆斯·邦德》传闻重启，行业动态丰富。",
+      "digest_source": "llm",
+      "input_hash": "4f2a36240d77bc0e",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 70,
+          "summary": "GameGPU利用RTX 5090与DLSS 5技术模拟PS5 Pro版画面，在露西亚监狱场景中通过帧生成技术将帧率从30飙升至280FPS。",
           "summary_source": "llm"
         },
         {
           "name": "机动战士高达",
           "count": 2,
-          "summary": "BANDAI SPIRITS公布18款高达模型新品，涵盖HG套件、扩展零件及水贴，计划于2027年4月至6月发售，多款商品属于《高达：异轨征途》和《机动战士高达RG XARX-ZERO》相关企划。",
+          "summary": "BANDAI SPIRITS公布18款高达模型新品，涵盖HG套件及零件，计划于2027年4月至6月发售，多款商品暂用代号。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "红色沙漠",
+          "count": 2,
+          "summary": "Pearl Abyss开发的《红色沙漠》在釜山G-STAR颁奖礼上斩获2026韩国游戏大奖最高奖，相关荣誉共八项。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "红铃的恸哭",
+          "count": 2,
+          "summary": "女性向黑暗奇幻冒险游戏《红铃的恸哭》于11月19日登陆Steam，标准价8140日元，12月3日前享九折优惠。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "纸牌巫：魔女决战",
+          "count": 2,
+          "summary": "美少女卡牌构筑动作游戏《纸牌巫：魔女决战》选择与《GTA6》同日开启Steam抢先体验，融合实时弹反与卡组策略。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "007：初露锋芒",
+          "count": 1,
+          "summary": "主播Asmongold批评《007：初露锋芒》入围TGA年度游戏候选名单，认为其缺乏文化影响力，引发玩家关于游戏质量与提名资格的争论。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Capsule Hotel",
+          "count": 1,
+          "summary": "心理恐怖游戏《Capsule Hotel》公开Steam页面，玩家需在东京下町胶囊旅馆完成四晚夜班，通过行动导向四种不同结局。",
           "summary_source": "llm"
         },
         {
           "name": "GTA6/",
           "count": 1,
-          "summary": "《GTA6》在Metacritic收录168篇评测后综合分仍维持在99分，与《塞尔达传说：时之笛》并列成为该站综合分最高的游戏，最低分为80分。",
+          "summary": "《GTA6》在Metacritic收录168篇评测后综合分仍维持在99分，与《塞尔达传说：时之笛》并列成为该站历史最高分。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Gate of Gates",
+          "count": 1,
+          "summary": "Webzen宣布策略塔防新作《Gate of Gates》将于2026年12月在日韩开启PC及移动端封闭测试，招募已启动。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Gloomwood",
+          "count": 1,
+          "summary": "New Blood Interactive宣布Arkane前设计师Julien Eveillé加入《幽暗森林》开发团队，计划于年末推出包含“第一国家银行”关卡的大型更新。",
           "summary_source": "llm"
         },
         {
           "name": "世界摔角娱乐2K26",
           "count": 1,
-          "summary": "Visual Concepts于11月18日推出1.021版本更新，修复入场演出、比赛解说及自定义内容中的多项视听与稳定性问题，并加入新的商店物品。",
+          "summary": "Visual Concepts为《世界摔角娱乐2K26》推出1.021版本更新，修复入场演出、比赛解说及自定义内容中的多项视听与稳定性问题。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "乐高詹姆斯·邦德",
+          "count": 1,
+          "summary": "传闻称曾被取消的《乐高詹姆斯·邦德》游戏项目可能重启，目前开发方与发行方尚未正式确认。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "任天堂明星大乱斗特别版",
+          "count": 1,
+          "summary": "任天堂修正《任天堂明星大乱斗特别版》世界战斗力系统中的非法数据交换及服务器异常数值，并对相关账号进行处理。",
           "summary_source": "llm"
         },
         {
           "name": "使命召唤：现代战争4",
           "count": 1,
-          "summary": "Infinity Ward据称已调整DMZ模式匹配逻辑，更加重视玩家技术水平，理论上可能减少新手队伍遭遇资深玩家的情况。",
+          "summary": "《使命召唤：现代战争4》DMZ模式据称已调整匹配逻辑，更加重视玩家技术水平，Infinity Ward尚未正式公布此项变化。",
           "summary_source": "llm"
         },
         {
-          "name": "单机游戏开发宝典",
+          "name": "侦探已经死了。",
           "count": 1,
-          "summary": "IndieLoop公开Steam商店页，收录近3000道涵盖游戏开发全流程的精选考题，面向游戏创作者提供系统学习工具。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "反恐精英2",
-          "count": 1,
-          "summary": "Valve在游戏中重新推出经典城堡地图Cobblestone，换上雪景设计并开放休闲、竞技等五种官方匹配模式，加入火焰融化积雪等细节。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "堡垒之夜",
-          "count": 1,
-          "summary": "“海贼王”主题寻宝活动因极低的稀有奖励概率和改变对局目标，令作者投入远超平常的时间后失去刷取动力。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说",
-          "count": 1,
-          "summary": "评论认为《塞尔达传说》电影改编的核心难题在于如何确定林克的人物形象，同时保留其沉默特质留给玩家的投射空间。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "少女前线2：追放",
-          "count": 1,
-          "summary": "新增水属性复合输出角色科蕾妲，可召唤跑车“克里普特”承担伤害并辅助攻击，同时推出适配武器及概率提升活动。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战斗熊：黄金版",
-          "count": 1,
-          "summary": "《战斗熊：黄金版》在《GTA6》发售前八天回归iOS、Android和Steam，首周达成7.5万美元收入目标。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想7：重制版 Intergrade",
-          "count": 1,
-          "summary": "Square Enix在Steam开启新一轮促销，《最终幻想7：重制版 Intergrade》与《最终幻想7：重生》折扣均刷新各自在该平台的纪录，幅度分别为82%和85%。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "机动战士Z高达",
-          "count": 1,
-          "summary": "Premium Bandai公布“RX-110加布斯雷 ver. A.N.I.M.E.”模型，无需更换零件即可完成MS到MA的变形，并还原中间状态。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "机动战士：高达战记",
-          "count": 1,
-          "summary": "Premium Bandai再次开放“HG 1/144伊弗利特·夜战型”模型预订，含税售价2750日元，预计于2027年2月发货。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "杀出重围",
-          "count": 1,
-          "summary": "《杀出重围》之父Warren Spector表示，《GTA6》十亿美元的开发模式不应成为同行复制的先例，认为这种商业模式既不是其他企业能够复制的，也未必值得复制。",
+          "summary": "太东宣布Switch冒险游戏《侦探已经死了。》将于2027年发售，采用原作者监修的原创剧情，玩家选择与女主角亲密度将影响结局。",
           "summary_source": "llm"
         }
       ]
@@ -904,107 +999,6 @@
           "count": 1,
           "summary": "暗黑奇幻冒险游戏《Horde of Distraction》将于12月4日发售，登陆PC平台。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "article_count": 132,
-      "game_count": 86,
-      "untagged_count": 13,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》发售前的厂商表态与《塞尔达传说：时之笛》重制版的发售盛况。Take-Two CEO泽尔尼克回应了破解与模组问题，并承诺《GTA7》开发周期将缩短；青沼英二称赞Switch 2版《时之笛》水神殿优化出色；重制版发售首周即登顶英国销量榜，同时速通玩家发现了“超级跳”等新漏洞。",
-      "digest_source": "llm",
-      "input_hash": "caf9b846402df3c7",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 20,
-          "summary": "Take-Two CEO泽尔尼克回应破解问题称游戏好玩自然不愁赚钱，并承诺《GTA7》开发周期将缩短，不再让玩家等待13年。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛",
-          "count": 5,
-          "summary": "Switch 2版《塞尔达传说：时之笛》制作人青沼英二称赞水神殿版本最佳，快捷按键与镜头控制优化了操作体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达：时之笛 重制版",
-          "count": 4,
-          "summary": "《塞尔达：时之笛 重制版》首周登顶英国销量榜，速通玩家已发现“超级跳”与“无限跳”等可突破原有限制的技巧。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战锤40K：黑暗异端",
-          "count": 3,
-          "summary": "开发商猫头鹰游戏宣布《战锤40K：黑暗异端》将于2027年1月28日发售，推荐配置为RTX 3060Ti或RX 60700XT显卡。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴5",
-          "count": 2,
-          "summary": "《上古卷轴5》首席设计师布鲁斯・内史密斯总结B社理念，强调“你不是在玩我的游戏，我是在创造属于你的游戏”，注重玩家自由体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤",
-          "count": 2,
-          "summary": "美国边疆航空一名乘客在机上与朋友连线游玩《使命召唤》时提及炸弹和爆炸，被误认为炸弹威胁导致航班紧急疏散，警方确认系误会。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛 重制版",
-          "count": 2,
-          "summary": "《塞尔达传说：时之笛 重制版》首周登顶英国销量榜！；《塞尔达传说：时之笛 重制版》文件出现神秘面具对白引发重制猜测。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "宝可梦集换式卡牌Pocket",
-          "count": 2,
-          "summary": "美国华盛顿州塔科马一家卡牌店遭蒙面人员驾驶皮卡撞门，盗走约5万美元的《宝可梦集换式卡牌游戏》及《万智牌》卡牌。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "赛博朋克2077",
-          "count": 2,
-          "summary": "《赛博朋克2077》设定解析指出，架空世界中苏联延续至2077年，旧美国则因经济战导致国家崩溃和情报机构解散。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "1999TOKOYO Building",
-          "count": 1,
-          "summary": "怀旧恐怖ADV《1999TOKOYO Building》今日登陆Steam，玩家扮演少年灯良在破败游乐园中搜寻秘密逃离。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "ARC Raiders",
-          "count": 1,
-          "summary": "撤离冒险游戏《ARC Raiders》累计销量突破1700万份，但公司预计2026年第四季度收入将同比下滑。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Against Heroes",
-          "count": 1,
-          "summary": "策略自动战斗肉鸽游戏《Against Heroes》登陆Steam，玩家扮演魔王抢在勇者成长前将其消灭，首发八折。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Apex英雄",
-          "count": 1,
-          "summary": "《Apex英雄》与《哥斯拉》联动试玩开启，哥斯拉的放射热线可摧毁玩家占据的优势据点，造成巨大伤害。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA",
-          "count": 1,
-          "summary": "Take-Two CEO泽尔尼克表示《GTA》系列在PC和主机上的整体体验已大致相同，FiveM业务目前能为公司创造利润。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA7",
-          "count": 1,
-          "summary": "Take Two承诺：《GTA7》不会再让你等13年。",
-          "summary_source": "rules"
         }
       ]
     }

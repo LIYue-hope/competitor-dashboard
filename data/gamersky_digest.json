@@ -1,46 +1,153 @@
 {
-  "generated_at": "2026-11-19T03:31:33.976548+00:00",
+  "generated_at": "2026-11-20T03:17:38.068150+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-19",
-      "article_count": 42,
-      "game_count": 5,
-      "untagged_count": 12,
-      "digest": "今日游戏资讯聚焦于《GTA6》的全面爆发，官方发布限定手柄，玩家热议游戏内的道德抉择与彩蛋细节，并发现车内可播放林子祥经典曲目。此外，泰国开发商Nomadic Games推出的南宋背景武侠动作游戏《焚剑：残阳恩仇录》今日在Steam发售，定价70元；韩国独立游戏《红沙》则包揽了8项韩国游戏大奖。",
+      "date": "2026-11-20",
+      "article_count": 33,
+      "game_count": 6,
+      "untagged_count": 2,
+      "digest": "今日游戏资讯聚焦《GTA6》，美国多地警方发文警告玩家勿模仿游戏犯罪行为，同时PS5版出现崩溃闪退故障引发关注。此外，邓紫棋新歌《任天堂》上线，任天堂相关新作及《异度之刃3》NS2版消息也引发讨论。",
       "digest_source": "llm",
-      "input_hash": "84806bee510cf115",
+      "input_hash": "e688212eaa7401a4",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 26,
-          "summary": "玩家发现《GTA6》开车时能听到林子祥演唱的《敢爱敢做》，被网友称赞为“开口跪”。",
+          "count": 25,
+          "summary": "主播展示了《GTA6》女主露西亚的完整换装界面，除了常规服饰外，玩家甚至可以直接让角色穿上比基尼，且在剧情演出中也不会被遮挡。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "任天堂",
+          "count": 2,
+          "summary": "邓紫棋新歌《任天堂》上线，老任粉丝将其视为对游戏文化的致敬。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA4",
+          "count": 1,
+          "summary": "《GTA4》主角尼克正式回归《GTA6》，出现在游戏接近尾声的章节中，并非彩蛋。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说：时之笛 重制版",
+          "count": 1,
+          "summary": "《塞尔达传说：时之笛 重制版》M站评分经历波动后再度回升至96分。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "异度之刃3",
+          "count": 1,
+          "summary": "《异度之刃3》突然更新，官方确认未来将推出NS2版本。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "追逐末日之光",
+          "count": 1,
+          "summary": "《追逐末日之光》公开全新预告片，预计将于2027年初发售。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "article_count": 192,
+      "game_count": 15,
+      "untagged_count": 57,
+      "digest": "11月19日游戏行业焦点集中在《GTA6》全球发售引发的狂欢，R星承认内容取舍并回应玩家关于难度与彩蛋的讨论，同时《赛博朋克2077》官方发文祝贺。此外，红魔手机成功运行《影之刃零》，国产科幻动作游戏《时空低语》发布首支预告，武侠新作《焚剑：残阳恩仇录》正式发售，音舞社交网游《鹦鹉团》上线。",
+      "digest_source": "llm",
+      "input_hash": "4d44b5ce411a8fc1",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 118,
+          "summary": "R星承认游戏内容有取舍，很多小游戏没时间做，同时玩家发现游戏没有简单难度但可通过调整设置降低难度，且男主可抚摸孕妇孕肚。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA",
+          "count": 2,
+          "summary": "汉堡王推出七层肉饼巨无霸致敬游戏内Burger Shot，玩家对比发现三代下车机制与六代相似，堵车下车时角色会瞬移。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
-          "count": 1,
-          "summary": "老外吐槽《影之刃零》最阴Boss 红光太快还刮痧。",
-          "summary_source": "rules"
+          "count": 2,
+          "summary": "红魔手机官方宣布成功启动该游戏，最高能跑60帧，同时有老外吐槽游戏中最阴Boss骨婉约攻击速度快且刮痧。",
+          "summary_source": "llm"
         },
         {
           "name": "敢爱敢做",
+          "count": 2,
+          "summary": "GTA6彩蛋致敬林子祥同名歌曲，玩家开车时能听到歌曲，引发国人热议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "2077",
           "count": 1,
-          "summary": "GTA6开车能听到林子祥《敢爱敢做》:开口跪 国人爽到。",
-          "summary_source": "rules"
+          "summary": "《赛博朋克2077》官方推特发文祝贺《GTA6》发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Muv-Luv 少女庭园",
+          "count": 1,
+          "summary": "游戏已开放试玩Demo，计划在2026年第四季度正式发行，参与活动有机会获得京东卡奖励。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "单机游戏开发宝典",
+          "count": 1,
+          "summary": "面向游戏创作者的知识题库Steam商店页已公开。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "心之眼",
+          "count": 1,
+          "summary": "开发商因游戏失败起诉第三方，诉讼被视为偿债主要资产来源。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时空低语",
+          "count": 1,
+          "summary": "国产科幻动作单机游戏举办全球首发预告片发布活动，4年投入3个亿打造。",
+          "summary_source": "llm"
         },
         {
           "name": "焚剑：残阳恩仇录",
           "count": 1,
-          "summary": "南宋背景武侠动作游戏《焚剑：残阳恩仇录》今日正式发售，由泰国开发商Nomadic Games制作，Steam国区售价70元。",
+          "summary": "南宋背景武侠动作新游今日发售，Steam国区售价70元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "砍与售",
+          "count": 1,
+          "summary": "确认参展WePlay上海，发售后销量已突破10.9万份。",
           "summary_source": "llm"
         },
         {
           "name": "红沙",
           "count": 1,
-          "summary": "韩国游戏《红沙》包揽了四项技术·创作奖，并成为新设全球游戏奖的首个获奖作品，共计斩获8项大奖。",
+          "summary": "斩获8项韩国游戏大奖，包揽四项技术·创作奖。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛博朋克",
+          "count": 1,
+          "summary": "官方祝贺GTA6发售，R星对此做出回应。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "饿狼传说：群狼之城",
+          "count": 1,
+          "summary": "季票3 DLC角色“拉奥”今日上线，动画宣传片公开。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "鹦鹉团",
+          "count": 1,
+          "summary": "超高自由度3D音舞社交网游于11月19日全平台公测上线。",
           "summary_source": "llm"
         }
       ]
@@ -849,107 +956,6 @@
           "name": "剑星2",
           "count": 1,
           "summary": "《剑星2》开发进展公布，财报显示《剑星1》NS2版销量符合内部预期。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "article_count": 143,
-      "game_count": 49,
-      "untagged_count": 30,
-      "digest": "今日游戏资讯聚焦于《GTA6》发售前的预热，R星公布预载开启、帧率锁定30帧及PS5 Pro支持PSSR等细节，同时实体版封面可换、云游戏版支持Xbox One及售价893万元的现实超跑周边引发热议。此外，《影之刃零》因徐静雨通关及DLSS5画质MOD备受关注，《卡莉亚的炼金工房》公布PS5港币528元售价，而《剑星》Switch 2版真人预告片引发AI生成争议。",
-      "digest_source": "llm",
-      "input_hash": "987aa3eeac8bb0d1",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 39,
-          "summary": "R星今日开启预载并确认主机平台目标帧率锁定30帧，PS5 Pro支持PSSR与光线追踪阴影，同时公布实体版封面可翻转、Xbox One可云游戏串流以及售价893万元的现实超跑周边。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 20,
-          "summary": "徐静雨爆肝通关本作并称其为玩过最好的游戏，海外玩家分享强制开启DLSS 5后的画质MOD截图，美女手搓妖锯及玉妖脸模美照也引发大量讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "卡莉亚的炼金工房：夜之王国与追忆之道标",
-          "count": 3,
-          "summary": "GUST新作公布PS5版售价528港币及PC国区348元，确认将于2027年2月25日发售并开启预购。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 2,
-          "summary": "SHIFT UP为Switch 2版公开真人发售预告片，部分玩家质疑视频可能由AI生成，官方同时宣布开发商新作延期。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "口袋传奇",
-          "count": 2,
-          "summary": "韩国独立游戏工作室Shading Box开发的背包肉鸽卡牌构筑游戏《口袋传奇》现已在Steam平台正式发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛 重制版",
-          "count": 2,
-          "summary": "本作已于11月5日发售，玩家在发售数日后挖掘出能一直往上跳的Bug，并称其画面为NS2最美画面。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "时之笛RE",
-          "count": 2,
-          "summary": "Switch 2文件被数据挖掘者翻出标记“MQ”的字符串，疑似泄露经典高难模式或随DLC回归。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者：剑之道",
-          "count": 2,
-          "summary": "新作首发即破百万并登上卡普空白金榜，官方详细介绍了鬼之武具大锤“地鸣”的攻击效果。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Apex 英雄",
-          "count": 1,
-          "summary": "与哥斯拉联动活动于11月10日正式上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA7",
-          "count": 1,
-          "summary": "Take-Two CEO在接受采访时表示，包括GTA在内的旗下标志性系列未来十年内容产出的“性质与速度”会明显不同。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "NBA 2K27",
-          "count": 1,
-          "summary": "Steam今日史低折扣，本作价格降至109元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "上古卷轴6",
-          "count": 1,
-          "summary": "Circana分析师Mat Piscatella表示本作虽是大作，但难以在《GTA6》发售后接棒成为业界下一头“白鲸”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "仙剑4重制",
-          "count": 1,
-          "summary": "官宣新联动并公布新歌单。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "你的老婆和你妈",
-          "count": 1,
-          "summary": "一款名为《你的老婆和你妈》的新作上线Steam，国区售价仅5元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤",
-          "count": 1,
-          "summary": "一名玩家在航班上讨论游戏炸弹遭逮捕，导致航班紧急疏散，警方搜查后未发现爆炸物。",
           "summary_source": "llm"
         }
       ]

@@ -1,22 +1,140 @@
 {
-  "generated_at": "2026-11-19T03:28:31.367822+00:00",
+  "generated_at": "2026-11-20T03:16:02.161935+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-18",
-      "article_count": 78,
-      "game_count": 33,
-      "untagged_count": 23,
-      "digest": "11月18日 游侠网 共 78 条新闻，涉及 33 款游戏。报道最集中的是《GTA6》（21 条）、《影之刃零》（2 条）、《黎明行者之血》（2 条）。另有 23 条未指向具体游戏的行业或平台资讯。另外还有《007》（1 条）、《DQ》（1 条）、《GTA》（1 条）也有报道。",
-      "digest_source": "rules",
-      "input_hash": "c2dc079e298d3256",
+      "date": "2026-11-20",
+      "article_count": 27,
+      "game_count": 4,
+      "untagged_count": 8,
+      "digest": "今日游戏资讯聚焦于《GTA6》发售后的市场表现与云游戏体验，以及多款新游预告的发布。Sensor Tower数据显示《GTA6》销量突破2450万份，预估营收23.6亿美元；Xbox云游戏实测证明老主机玩家可低延迟游玩。此外，国产科幻单机《时空低语》首支预告发布，计划2028年上线；《追逐末日之光》公布首支预告，预计2027年初发售；型月《魔法使之夜》剧场版首映后口碑两极分化。",
+      "digest_source": "llm",
+      "input_hash": "984b994592cf00c9",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 21,
-          "summary": "《GTA6》容量太大！GameSpot编辑忍痛删除其他游戏；《GTA6》发售日全球请假申请激增！美国150万人请假；还没发售就卖爆了！曝《GTA6》预购量近1600万份（当天共 21 条）",
+          "count": 16,
+          "summary": "Sensor Tower数据显示《GTA6》销量突破2450万份，预估营收23.6亿美元，且Xbox云游戏实测延迟极低，老主机玩家可通过云游戏低延迟游玩。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时空低语",
+          "count": 1,
+          "summary": "国产科幻动作单机《时空低语》发布全球首支预告，由濮冠楠带队打造，融合东方文化符号，计划2028年上线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "追逐末日之光",
+          "count": 1,
+          "summary": "《追逐末日之光》公布全新预告片，以末日前的首尔为舞台，预计2027年初发售，Steam愿望单已开放。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "魔法使之夜",
+          "count": 1,
+          "summary": "型月经典作品《魔法使之夜》剧场版首映结束，根据观众反馈，作品整体口碑呈现两极分化严重的情况。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "article_count": 59,
+      "game_count": 12,
+      "untagged_count": 16,
+      "digest": "今日游戏资讯聚焦于《GTA6》的持续热度，32条报道涵盖其主机版帧率限制、DLSS5画面对比及美人鱼彩蛋等细节；网易《七日世界》S5异象开启，玩家需射击音符反击天穹巨物；《光与影：33号远征队》首席编剧离职；《时空悍匪》将于明日开启抢先体验；此外《绝地潜兵2》修复计划引发玩家不满，《饿狼传说：群狼之城》季票DLC角色上线。",
+      "digest_source": "llm",
+      "input_hash": "f06ae7815b458a38",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 32,
+          "summary": "《GTA6》主机版全线锁定30帧，PS5 Pro无法解锁更高帧率，有玩家实测通过DLSS5技术将画面优化至60帧观感；同时游戏内沙滩出现美人鱼NPC彩蛋，且杰森手机相册藏有新细节。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "七日世界",
+          "count": 1,
+          "summary": "网易《七日世界》S5异象「万念共鸣」今日开启，玩家需在天穹巨影「万念灾骸」下，用手枪射击敌人化作的音符来拼成乐章进行反击。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "光与影：33号远征队",
+          "count": 1,
+          "summary": "《光与影：33号远征队》首席叙事设计师Jennifer Svedberg-Yen已于2026年7月离开工作室，未来将专注个人创作并呼吁行业改善薪酬与休假保障。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时空悍匪",
+          "count": 1,
+          "summary": "合作互坑游戏《时空悍匪》将于11月20日在Steam开启抢先体验，售价68元，支持1至4+人联机及简体中文。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "横冲直撞",
+          "count": 1,
+          "summary": "外媒曝光《GTA6》车辆碰撞系统，高速相撞时切入电影化慢动作，金属变形与火花飞溅效果被赞神似《横冲直撞》，且硬核车损将直接影响车辆操控。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "砍与售",
+          "count": 1,
+          "summary": "动作RPG《砍与售》确认参展WePlay上海，发售后销量已突破10.9万份，现场可试玩完整版本。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "空之轨迹the 1st",
+          "count": 1,
+          "summary": "《空之轨迹the 1st》推出1.0.8版更新，Switch2新增画质模式可锁30帧，补丁覆盖前两章内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "索尼克赛车 交叉世界",
+          "count": 1,
+          "summary": "世嘉“SEGA 黑五大促 Part2”开跑，《索尼克赛车 交叉世界》加入促销阵容，玩家可在PlayStation及Nintendo eShop享受限时特惠。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "绝地潜兵2",
+          "count": 1,
+          "summary": "《绝地潜兵2》官方宣布修复一项基础bug需等到明年，此举直接点燃社区玩家怒火，引发骂声一片。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "遗忘之海",
+          "count": 1,
+          "summary": "《遗忘之海》第三赛季「旧日序曲」前瞻情报公开，12月3日上线，将迎来敏捷系职业新成长路线及黑券船员。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "金属战潮2",
+          "count": 1,
+          "summary": "经典战棋游戏《金属战潮2》确认参展WePlay，国内首度亮相，现场设有试玩区，玩家可抢先体验。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "饿狼传说：群狼之城",
+          "count": 1,
+          "summary": "SNK宣布《饿狼传说：群狼之城》季票3 DLC角色“拉奥”今日上线，并公开由大张正己打造的动画宣传片。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "article_count": 91,
+      "game_count": 33,
+      "untagged_count": 31,
+      "digest": "11月18日 游侠网 共 91 条新闻，涉及 33 款游戏。报道最集中的是《GTA6》（26 条）、《影之刃零》（2 条）、《黎明行者之血》（2 条）。另有 31 条未指向具体游戏的行业或平台资讯。另外还有《007》（1 条）、《DQ》（1 条）、《GTA》（1 条）也有报道。",
+      "digest_source": "rules",
+      "input_hash": "dff8c7897db22f82",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 26,
+          "summary": "《GTA6》容量太大！GameSpot编辑忍痛删除其他游戏；《GTA6》发售日全球请假申请激增！美国150万人请假；还没发售就卖爆了！曝《GTA6》预购量近1600万份（当天共 26 条）",
           "summary_source": "rules"
         },
         {
@@ -107,102 +225,102 @@
     },
     {
       "date": "2026-11-17",
-      "article_count": 89,
-      "game_count": 45,
-      "untagged_count": 26,
-      "digest": "11月17日 游侠网 共 89 条新闻，涉及 45 款游戏。报道最集中的是《GTA6》（17 条）、《战神》（2 条）、《神鬼寓言4》（2 条）。另有 26 条未指向具体游戏的行业或平台资讯。另外还有《Clockwork Revolution》（1 条）、《EA SPORTS UFC 6》（1 条）、《Hela：鼠鼠奇旅》（1 条）也有报道。",
-      "digest_source": "rules",
-      "input_hash": "90db0f6e2689115f",
+      "article_count": 101,
+      "game_count": 49,
+      "untagged_count": 32,
+      "digest": "当日游侠网共发布101条新闻，覆盖49款游戏，其中32条未指向具体游戏。整体围绕热门游戏动态展开，包括《GTA6》的共情机制引入、移植优化进展、英国医疗服务关注手部保护，以及《战神》安卓移植版发布、《神鬼寓言4》延期及地图公开等，还有多款游戏发售、营销与运营更新等内容，行业信息较为多元，覆盖多款游戏的核心动态。",
+      "digest_source": "llm",
+      "input_hash": "b8488b9c8ec34377",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 17,
-          "summary": "走心还是走肾？R星官宣《GTA6》首次引入共情机制！；英国国家医疗服务体系：狂肝《GTA6》请注意手部保护；曝R星正在适配NS2版《GTA6》 专属团队已负责移植优化（当天共 17 条）",
-          "summary_source": "rules"
+          "count": 19,
+          "summary": "这款游戏首次引入共情机制，主角关系因玩家行为升温或破裂，同时需关注手部保护，且R星正推进Switch2移植优化",
+          "summary_source": "llm"
         },
         {
           "name": "战神",
           "count": 2,
-          "summary": "游侠早报：Gen官宣四人离队 《战神》安卓移植版发布；《战神》安卓移植版发布！希腊三部曲全部登陆移动端。",
-          "summary_source": "rules"
+          "summary": "《战神》安卓移植版发布，希腊三部曲全部登陆移动端，开发者Luisxl15基于2014年PS Vita版制作",
+          "summary_source": "llm"
         },
         {
           "name": "神鬼寓言4",
           "count": 2,
-          "summary": "曝《神鬼寓言4》或再次延期！Xbox要移除DEI元素；《神鬼寓言4》完整地图公开!贫困/商业/富人区同城并存。",
-          "summary_source": "rules"
+          "summary": "该作或再次延期，Xbox将评估推迟以调整内容方向，同时首都博沃斯通地图首次完整公开",
+          "summary_source": "llm"
         },
         {
           "name": "Clockwork Revolution",
           "count": 1,
-          "summary": "《Clockwork Revolution》Xbox杂志专访谈时间旅行。",
-          "summary_source": "rules"
+          "summary": "该游戏在Xbox杂志开展时间旅行专访，探讨Fargo与Moore对时间旅行抉择的改写，2027年Xbox独占并登陆PC、Steam和Game Pass",
+          "summary_source": "llm"
         },
         {
           "name": "EA SPORTS UFC 6",
           "count": 1,
-          "summary": "《EA SPORTS UFC 6》PRIDE FC 资料片12月11日上线。",
-          "summary_source": "rules"
+          "summary": "PRIDE FC资料片将于12月11日上线，登陆PS5与Xbox Series X|S，加入围绳擂台、PRIDE规则及20人传奇大奖赛模式",
+          "summary_source": "llm"
         },
         {
           "name": "Hela：鼠鼠奇旅",
           "count": 1,
-          "summary": "《Hela：鼠鼠奇旅》剧情深度解析视频发布，支持四人跨平台联机。",
-          "summary_source": "rules"
+          "summary": "发布剧情深度解析视频，支持四人跨平台联机，可本地分屏或在线跨平台联机体验完整游戏内容",
+          "summary_source": "llm"
         },
         {
           "name": "NBA2K27",
           "count": 1,
-          "summary": "《NBA2K27》联动《GTA6》！在罪恶城里打暴力篮球。",
-          "summary_source": "rules"
+          "summary": "与《侠盗猎车手6》正式官宣深度联动，将在罪恶城里开展暴力篮球相关内容",
+          "summary_source": "llm"
         },
         {
           "name": "ROCKMAN: Dual Override",
           "count": 1,
-          "summary": "《ROCKMAN: Dual Override》公布粉丝设计头目清洁人。",
-          "summary_source": "rules"
+          "summary": "公布粉丝设计头目清洁人，作为最优秀作品加入头目阵容，预定2027年春季多平台发售",
+          "summary_source": "llm"
         },
         {
           "name": "SONIC PICO PARK",
           "count": 1,
-          "summary": "《SONIC PICO PARK》已于11月12日正式发售！新增角色“金属索尼克”“蛋头博士”与“超级索尼克”也已公布。",
-          "summary_source": "rules"
+          "summary": "已于11月12日正式发售，新增金属索尼克、蛋头博士与超级索尼克等角色",
+          "summary_source": "llm"
         },
         {
           "name": "使命召唤",
           "count": 1,
-          "summary": "外挂进入AI时代！《使命召唤》传统反作弊已能被绕过。",
-          "summary_source": "rules"
+          "summary": "官方警告外挂进入AI时代，传统反作弊更易被绕过，相关问题正研究新方式提升识别与防范能力",
+          "summary_source": "llm"
+        },
+        {
+          "name": "全境封锁2",
+          "count": 1,
+          "summary": "完成跨平台功能的最后一次迁移，PC、PlayStation与Xbox玩家首次同场匹配",
+          "summary_source": "llm"
         },
         {
           "name": "勇者小队全灭了",
           "count": 1,
-          "summary": "《勇者小队全灭了》发售一周销量破5万份！好评率95%。",
-          "summary_source": "rules"
+          "summary": "发售一周销量达5万份，Steam好评率95%，开放限时折扣并提供免费试玩版",
+          "summary_source": "llm"
         },
         {
           "name": "匹诺曹",
           "count": 1,
-          "summary": "《匹诺曹》总监通关《影之刃零》：盛赞终极动作游戏。",
-          "summary_source": "rules"
+          "summary": "总监通关《影之刃零》，盛赞其为“终极动作游戏”，并晒出灵游坊赠送的实体礼包与通关截图",
+          "summary_source": "llm"
         },
         {
           "name": "地平线6",
           "count": 1,
-          "summary": "仍在身边！玩家在《地平线6》与离世挚友再度“相遇”。",
-          "summary_source": "rules"
+          "summary": "玩家与离世挚友在《极限竞速：地平线6》中通过Drivatar虚拟车手功能再度相遇",
+          "summary_source": "llm"
         },
         {
           "name": "天国：拯救2",
           "count": 1,
-          "summary": "《天国：拯救2》Steam新史低促销：标准版仅需75块！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "女神异闻录",
-          "count": 1,
-          "summary": "X平台竟有玩家自称红白机时代就接触了《女神异闻录》。",
-          "summary_source": "rules"
+          "summary": "Steam开启新史低促销，标准版降至67%折扣，国区现价75.24元（原价228元），皇家版70%折扣现价89.4元（原价298元），活动至11月30日",
+          "summary_source": "llm"
         }
       ]
     },
@@ -353,99 +471,99 @@
       "article_count": 37,
       "game_count": 20,
       "untagged_count": 13,
-      "digest": "11月14日 游侠网 共 37 条新闻，涉及 20 款游戏。报道最集中的是《GTA6》（4 条）、《少女与战车》（2 条）、《Menes: The Chainbreaker》（1 条）。另有 13 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
+      "digest": "2026年11月14日当天游侠网共发布37条新闻，涉及游戏20款，整体呈现多款主流及新作动态，涉及GTA6、少女与战车、Menes、七日世界等较多游戏，涵盖发售、更新、平台适配及玩法内容等。",
+      "digest_source": "llm",
       "input_hash": "2d6bba779235c2b3",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 4,
-          "summary": "看着很香？英国PS5租机套餐163元玩《GTA6》暗藏套路；盒内无光盘！部分《GTA6》实体版下载码被提前兑换；TGA2026提名直播11月17日开启 《GTA6》符合参评条件（当天共 4 条）",
-          "summary_source": "rules"
+          "summary": "英国PS5租机套餐月租低至约163元玩，暗藏长合约成本高套路，实体版部分下载码被提前兑换，玩家寻求补发渠道暂无明确解决",
+          "summary_source": "llm"
         },
         {
           "name": "少女与战车",
           "count": 2,
-          "summary": "《少女与战车》麻将新作公布 2027年登陆双平台；《少女与战车》新作2027年3月25日发售 三平台同步。",
-          "summary_source": "rules"
+          "summary": "麻将新作《白热！麻将组队对战！》公布，预定2027年登陆PS5和Switch 2，收录30名角色；动画改编新作《少女与战车 全明星坦克嘉年华》2027年3月25日登陆三平台同步，支持跨平台对战",
+          "summary_source": "llm"
         },
         {
           "name": "Menes: The Chainbreaker",
           "count": 1,
-          "summary": "《Menes: The Chainbreaker》已登陆Xbox、PC双平台。",
-          "summary_source": "rules"
+          "summary": "已登陆Xbox与PC双平台，支持Xbox Play Anywhere，Steam版上架且文本支持简体中文",
+          "summary_source": "llm"
         },
         {
           "name": "七日世界",
           "count": 1,
-          "summary": "《七日世界》异象轮盘S5【万念共鸣】11月19日更新。",
-          "summary_source": "rules"
+          "summary": "异象轮盘S5【万念共鸣】11月19日更新，开启全新上位者“回响者”相关体验，S4兑换商店12月3日关闭",
+          "summary_source": "llm"
         },
         {
           "name": "公会传说 遗落的世界",
           "count": 1,
-          "summary": "《公会传说 遗落的世界》确定将于2027年5月登陆PS5。",
-          "summary_source": "rules"
+          "summary": "确定于2027年5月登陆PS5，已在Steam推出抢先体验，采用可自由组合技能的回合制战术战斗",
+          "summary_source": "llm"
         },
         {
           "name": "名画のつもり！",
           "count": 1,
-          "summary": "对战画画新作《名画のつもり！》今日正式登陆Steam。",
-          "summary_source": "rules"
+          "summary": "对战画画新作《名画のつもり！》今日正式登陆Steam，官方定价1980日元，开展15%发售纪念折扣，玩家3分钟内临摹世界名画",
+          "summary_source": "llm"
         },
         {
           "name": "失落星船：马拉松",
           "count": 1,
-          "summary": "《失落星船：马拉松》「共生」更新将于12月9日上线。",
-          "summary_source": "rules"
+          "summary": "「共生」更新将于12月9日上线，加入PvE模式「远征」、实验性PvP「死斗」测试版及新跑者外壳「主教」，同步开启公开试玩周",
+          "summary_source": "llm"
         },
         {
           "name": "女神异闻录：夜幕魅影",
           "count": 1,
-          "summary": "《女神异闻录：夜幕魅影》第四章完结 Ver.4.13上线。",
-          "summary_source": "rules"
+          "summary": "第四章完结 Ver.4.13上线，日服及欧美服实装更新，主线第四章终幕开放，池波星辉与加纳骏强化新五星形态登场",
+          "summary_source": "llm"
         },
         {
           "name": "宇宙机器人",
           "count": 1,
-          "summary": "效果亮眼！《宇宙机器人》PC原生运行 四倍帧生成128FPS。",
-          "summary_source": "rules"
+          "summary": "玩家自制PC原生移植版效果亮眼，支持帧生成最高128FPS，用到AI且非索尼官方移植",
+          "summary_source": "llm"
         },
         {
           "name": "幸运卢克",
           "count": 1,
-          "summary": "《幸运卢克》孤独牛仔合集正式公布 将登陆全平台。",
-          "summary_source": "rules"
+          "summary": "孤独牛仔合集正式公布，收录6款经典作品，将登陆PS5、Xbox、Switch 2和Steam等平台",
+          "summary_source": "llm"
         },
         {
           "name": "战神：升天",
           "count": 1,
-          "summary": "《战神：升天》非官方PC原生移植新突破！能双人联机。",
-          "summary_source": "rules"
+          "summary": "非官方PC原生移植新突破，能双人联机，带来性能优化与FSR3.1支持并修复音频问题，项目仍未完工且存在延迟不稳定",
+          "summary_source": "llm"
         },
         {
           "name": "战神：斯巴达之子",
           "count": 1,
-          "summary": "《战神:斯巴达之子》11月16日登陆PS4 新增两类挑战模式。",
-          "summary_source": "rules"
+          "summary": "11月16日登陆PS4，新增赫尔墨斯模式与厄瑞玻斯模式，分别面向速通玩家和硬核挑战者",
+          "summary_source": "llm"
         },
         {
           "name": "时之笛RE",
           "count": 1,
-          "summary": "情怀炸裂！《时之笛RE》神级改编 经典名场面氛围感拉满。",
-          "summary_source": "rules"
+          "summary": "《时之笛RE》神级改编，Switch2重制版强化大师剑名场面演出，新增剧情镜头，压迫感更强",
+          "summary_source": "llm"
         },
         {
           "name": "燕云十六声",
           "count": 1,
-          "summary": "《燕云十六声》全球服一周年 2.4「滹沱」现已上线！。",
-          "summary_source": "rules"
+          "summary": "全球服一周年2.4「滹沱」上线，制作人Eric称全球游侠已超一亿，可领12选1豪华时装及超5000台币周年福利",
+          "summary_source": "llm"
         },
         {
           "name": "生化危机1",
           "count": 1,
-          "summary": "重磅爆料！《生化危机1》开启新重制 排在系列新作之后。",
-          "summary_source": "rules"
+          "summary": "重磅爆料开启新重制，计划在维罗妮卡RE之后启动，正式用于系列新作之后",
+          "summary_source": "llm"
         }
       ]
     },
@@ -748,107 +866,6 @@
           "name": "城市：天际线II",
           "count": 1,
           "summary": "Paradox Interactive公布《城市：天际线 II：公园冒险》扩展包将于12月2日上线，归属第二季扩展通行证。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "article_count": 97,
-      "game_count": 46,
-      "untagged_count": 29,
-      "digest": "今日游戏资讯聚焦于《GTA6》发售前的预热造势，Rockstar将游戏内超跑实体化并落地伦敦，同时确认11月19日发售；Square Enix公布《勇者斗恶龙》RPG手游新作PV；Steam平台则迎来《1999TOKOYO Building》与《勇者小队全灭了。》两款新游发售，另有《塞尔达传说：时之笛》重制版引发速通圈热议。",
-      "digest_source": "llm",
-      "input_hash": "f90fe006ba82f288",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 21,
-          "summary": "针对玩家担心被剧透的问题，有防剧透指南整理了社交媒体关键词过滤与账号设置建议，以避开游戏剧情泄露。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "勇者斗恶龙",
-          "count": 2,
-          "summary": "Square Enix公布《勇者斗恶龙》RPG新作《勇者斗恶龙RPG 魔界树与引导之岛》，首支预告片将于日本时间11月10日20:00首播。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 2,
-          "summary": "《影之刃零》玉妖、玉音子、炼邪的脸模徐楚宜在抖音分享了一组游戏拍摄花絮照。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "1999TOKOYO Building",
-          "count": 1,
-          "summary": "怀旧恐怖ADV《1999TOKOYO Building》今日登陆Steam，同步上线新PV，玩家将扮演失忆少年灯良在常夜大厦中逃脱。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA7",
-          "count": 1,
-          "summary": "Take-Two CEO泽尔尼克表示《GTA7》不会再让玩家等上13年，系列开发节奏将加快。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "丝之歌",
-          "count": 1,
-          "summary": "Team Cherry确认《空洞骑士：丝之歌》实体版附赠的后续DLC全部免费，最快将于2027年上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "任天堂明星大乱斗",
-          "count": 1,
-          "summary": "《任天堂明星大乱斗》制作人樱井政博证实自己正在开发一款未公开的新项目，暂无退休计划。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤",
-          "count": 1,
-          "summary": "美国加州安大略国际机场发生乌龙事件，一名旅客因在航班上视频聊《使命召唤》时提到炸弹等敏感词，导致机场紧急疏散。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 1,
-          "summary": "《剑星》开发商官宣新作延期亮相，以避开年末大作内卷。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑网一端游",
-          "count": 1,
-          "summary": "《剑网一端游》【高手去哪儿】体服争锋于11月10日开启，稀有剑耀、限定坐骑等好礼等待侠士争夺。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "勇者小队全灭了。",
-          "count": 1,
-          "summary": "高湿度、超沉重情感RPG《勇者小队全灭了。》正式登陆Steam，愿望单突破20万，首发限时10% off。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "嗨斗农场",
-          "count": 1,
-          "summary": "多人派对胡闹种田游戏《嗨斗农场》PC版今日登陆Steam，现享九折优惠，支持中文。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛 重制版",
-          "count": 1,
-          "summary": "速通玩家已发现无限跳与超级跳技巧，突破了原有行动限制，利用重制版新增跳跃机制与可移动物体交互。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达时之笛RE",
-          "count": 1,
-          "summary": "《塞尔达：时之笛》重制版非官方PC移植项目推进迅速，支持原生4K、DLSS及DLSS 5，已有多人游戏Mod完成测试。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达：时之笛",
-          "count": 1,
-          "summary": "《塞尔达传说：时之笛》重制版发售后，社交媒体上涌现出大量相关搞笑梗图。",
           "summary_source": "llm"
         }
       ]

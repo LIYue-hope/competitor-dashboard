@@ -1,46 +1,75 @@
 {
-  "generated_at": "2026-11-19T03:36:11.342651+00:00",
+  "generated_at": "2026-11-20T03:20:39.086450+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "article_count": 6,
-      "game_count": 5,
-      "untagged_count": 1,
-      "digest": "TGA 2026提名名单公布，《GTA 6》领跑获八项提名；网易《哈利波特：魔法觉醒》因授权到期宣布停运；Firaxis裁员三分之一；鹰角《终末地》获Google Play年度游戏；暴雪新作《魔兽世界：无限》开服两周遭遇恶性刷金Bug。",
+      "game_count": 1,
+      "untagged_count": 5,
+      "digest": "北京时间11月18日晚上，备受瞩目的《GTA6》正式上线，引发全球玩家抢购热潮。Metacritic平台解锁了150家游戏媒体的评分，该作首日表现极为亮眼，被业界视为一个注定无法复制的游戏业奇迹。",
       "digest_source": "llm",
-      "input_hash": "6a5622c596fa2498",
+      "input_hash": "9dfb7b4cc8eccfcd",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 1,
+          "summary": "《GTA6》于北京时间11月18日晚上正式上线，首日横扫全球，Metacritic平台解锁了150家游戏媒体的评分。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "article_count": 8,
+      "game_count": 7,
+      "untagged_count": 1,
+      "digest": "TGA 2026提名名单公布，《GTA 6》领跑获八项提名；网易《哈利波特：魔法觉醒》因授权到期宣布停运；叠纸《无限暖暖》发布会邀请梅耶·马斯克站台；谷歌 Play年度游戏揭晓，《明日方舟：终末地》加冕；暴雪新作《魔兽世界：无限》上线两周遭遇恶性刷金Bug；Firaxis《文明》开发商裁员三分之一；Sensor Tower数据显示《Gossip Harbor》10月海外收入创新高。",
+      "digest_source": "llm",
+      "input_hash": "2dcab9fc77fe80b8",
       "game_digests": [
         {
           "name": "GTA 6",
           "count": 1,
-          "summary": "TGA 2026公布提名名单，该作狂揽8项提名领跑全场。",
+          "summary": "TGA 2026公布提名名单，《GTA 6》领跑获八项提名，手游中国游戏包场。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Gossip Harbor",
+          "count": 1,
+          "summary": "Sensor Tower发布2026年10月中国手游海外市场收入及下载量排行榜，《Gossip Harbor》海外收入再创新高。",
           "summary_source": "llm"
         },
         {
           "name": "哈利波特：魔法觉醒",
           "count": 1,
-          "summary": "网易该作因授权协议即将到期，正式宣布停运。",
+          "summary": "网易《哈利波特：魔法觉醒》发布停运公告，宣布由于授权协议即将到期，游戏即将告别玩家。",
           "summary_source": "llm"
         },
         {
           "name": "文明",
           "count": 1,
-          "summary": "开发商Firaxis大裁员三分之一，工作室总裁已被开除。",
+          "summary": "《文明》开发商Firaxis大裁员三分之一，工作室总裁被直接开除。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "无限暖暖",
+          "count": 1,
+          "summary": "叠纸在《无限暖暖》3.0版本发布会上邀请梅耶·马斯克站台，引发国内玩家赞美与国外玩家找茬。",
           "summary_source": "llm"
         },
         {
           "name": "终末地",
           "count": 1,
-          "summary": "鹰角《终末地》获Google Play年度游戏大奖。",
+          "summary": "《明日方舟：终末地》加冕Google Play年度游戏，《异环》米哈游三七点点获奖。",
           "summary_source": "llm"
         },
         {
           "name": "魔兽世界：无限",
           "count": 1,
-          "summary": "暴雪新作开服两周遭遇恶性刷金Bug。",
+          "summary": "《魔兽世界：无限》上线两周遭遇恶性刷金Bug，刚创下的历史记录面临挑战。",
           "summary_source": "llm"
         }
       ]
@@ -131,7 +160,7 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "当日整体情况为今日仅发布1条游戏相关新闻，涉及游戏数量为零，具体未指向明确游戏，整体信息较为有限，主要聚焦于相关新闻的呈现状态，尚未形成具体可分析的行业动态内容，整体信息呈现较为单一且有限。",
+      "digest": "2026年11月15日整体资讯呈现出明显的稀疏性，当日仅发布1条新闻，且未指向具体游戏，未明确涉及任何游戏，整体信息含量极低，报道内容围绕该条未具体指向的游戏相关情况展开，整体可操作性有限。",
       "digest_source": "llm",
       "input_hash": "c4fb1ebb5e3982e6",
       "game_digests": []
@@ -237,29 +266,6 @@
           "name": "魔兽世界：无限",
           "count": 1,
           "summary": "网易暴雪合作手游《魔兽世界：无限》于11月5日全球同步上线，上线后国服与全球服均创造了历史新高。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "article_count": 8,
-      "game_count": 2,
-      "untagged_count": 6,
-      "digest": "2026年11月10日，游戏行业资讯聚焦于《ROBLOX》在10月全球手游收入榜登顶，以及腾讯《金铲铲之战》在西安举办发布会宣布电竞升级与PC端启航。此外，还有6条未指向具体游戏的行业动态。",
-      "digest_source": "llm",
-      "input_hash": "99eb0b7da5817df3",
-      "game_digests": [
-        {
-          "name": "ROBLOX",
-          "count": 1,
-          "summary": "10月全球手游收入与下载量排行榜TOP10：《ROBLOX》位居10月全球手游收入榜榜首。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "金铲铲之战",
-          "count": 1,
-          "summary": "在西安举办的“金铲铲之战2027共赴新局：电竞升级·PC启航”发布会上，腾讯游戏副总裁、《金铲铲之战》中国总负责人宣布赛事加码升级、PC移动双线发力。",
           "summary_source": "llm"
         }
       ]
