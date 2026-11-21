@@ -1,106 +1,25 @@
 {
-  "crawled_at": "2026-11-20T02:58:06.321401+00:00",
+  "crawled_at": "2026-11-21T03:06:40.257868+00:00",
   "days": [
     {
-      "date": "2026-11-20",
-      "date_label": "11月20日 今天",
-      "games": [
-        {
-          "game_name": "蓝色星原：旅谣-11月26日上线(官服)",
-          "categories": [
-            "编辑推荐",
-            "多平台",
-            "美少女"
-          ],
-          "score": "8.4",
-          "event_desc": "19:00 开启公测前瞻直播",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/164274.htm",
-          "publisher": "蛮啾网络",
-          "reservation_count": "66.6万",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "无名之诗-预下载",
-          "categories": [
-            "动作",
-            "冒险",
-            "探索"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/162037.htm",
-          "publisher": "蝉翼游戏",
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "密室绝境逃生",
-          "categories": [
-            "解谜",
-            "消除",
-            "侦探"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/201040.htm",
-          "publisher": "广州金科文化科技有限公司",
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "中世纪之战",
-          "categories": [
-            "第一人称",
-            "沙盒",
-            "中世纪"
-          ],
-          "score": null,
-          "event_desc": "00:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/201603.htm",
-          "publisher": "模拟一切工作室",
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "万世镜",
-          "categories": [
-            "角色扮演",
-            "养成",
-            "女性向"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/205558.htm",
-          "publisher": "万锦游",
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "逍遥王国-预下载",
-          "categories": [
-            "卡牌",
-            "策略",
-            "横版"
-          ],
-          "score": null,
-          "event_desc": "10:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/204618.htm",
-          "publisher": "广州君道网络科技有限公司",
-          "reservation_count": null,
-          "has_afk_grinding_tag": true
-        }
-      ]
-    },
-    {
       "date": "2026-11-21",
-      "date_label": "11月21日 明天",
+      "date_label": "11月21日 今天",
       "games": [
+        {
+          "game_name": "星弹远征",
+          "categories": [
+            "射击",
+            "战术竞技",
+            "弹射"
+          ],
+          "score": null,
+          "event_desc": "12:00 上线试玩",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/206736.htm",
+          "publisher": null,
+          "reservation_count": "22",
+          "has_afk_grinding_tag": false
+        },
         {
           "game_name": "神创九州-预下载",
           "categories": [
@@ -130,11 +49,26 @@
             "沙盒"
           ],
           "score": "7.1",
-          "event_desc": "距11月24日正式上线仅剩4天！",
+          "event_desc": "距11月24日10点上线剩3天;将提前开服",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/124032.htm",
           "publisher": "腾讯",
-          "reservation_count": "128.7万",
+          "reservation_count": "129万",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "蓝色星原：旅谣-11月26日上线(官服)",
+          "categories": [
+            "编辑推荐",
+            "多平台",
+            "美少女"
+          ],
+          "score": "8.4",
+          "event_desc": "11月24日15点预下载,11月26日10点上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/164274.htm",
+          "publisher": "上海蛮奈网络科技有限公司",
+          "reservation_count": "67.2万",
           "has_afk_grinding_tag": false
         },
         {
@@ -149,7 +83,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/204452.htm",
           "publisher": "Netflix, Inc.",
-          "reservation_count": "13375",
+          "reservation_count": "13617",
           "has_afk_grinding_tag": false
         },
         {
@@ -164,7 +98,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/196521.htm",
           "publisher": "成都嘉谊互娱科技有限公司",
-          "reservation_count": "4461",
+          "reservation_count": "4569",
           "has_afk_grinding_tag": false
         },
         {
@@ -179,7 +113,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/203058.htm",
           "publisher": "厦门纪石科技有限公司",
-          "reservation_count": "138",
+          "reservation_count": "142",
           "has_afk_grinding_tag": false
         },
         {
@@ -209,7 +143,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/205686.htm",
           "publisher": "Secret Mode Ltd",
-          "reservation_count": "128",
+          "reservation_count": "132",
           "has_afk_grinding_tag": false
         }
       ]
@@ -230,7 +164,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/206095.htm",
           "publisher": "五月四工作室",
-          "reservation_count": "110",
+          "reservation_count": "112",
           "has_afk_grinding_tag": false
         },
         {
@@ -245,7 +179,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201487.htm",
           "publisher": null,
-          "reservation_count": "194",
+          "reservation_count": "212",
           "has_afk_grinding_tag": true
         }
       ]
@@ -262,11 +196,11 @@
             "美少女"
           ],
           "score": "8.4",
-          "event_desc": "距11月26日正式上线仅剩6天！",
+          "event_desc": "距11月26日早10点上线剩5天",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/164274.htm",
-          "publisher": "蛮啾网络",
-          "reservation_count": "66.6万",
+          "publisher": "上海蛮奈网络科技有限公司",
+          "reservation_count": "67.2万",
           "has_afk_grinding_tag": false
         },
         {
@@ -281,7 +215,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/197070.htm",
           "publisher": "TRYMISS",
-          "reservation_count": "36309",
+          "reservation_count": "36371",
           "has_afk_grinding_tag": false
         }
       ]

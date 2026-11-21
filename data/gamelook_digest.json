@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-20T03:20:39.086450+00:00",
+  "generated_at": "2026-11-21T03:35:55.449535+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-11-20",
-      "article_count": 6,
+      "article_count": 7,
       "game_count": 1,
-      "untagged_count": 5,
-      "digest": "北京时间11月18日晚上，备受瞩目的《GTA6》正式上线，引发全球玩家抢购热潮。Metacritic平台解锁了150家游戏媒体的评分，该作首日表现极为亮眼，被业界视为一个注定无法复制的游戏业奇迹。",
+      "untagged_count": 6,
+      "digest": "当日共发布 GameLook 新闻 7 条，涉及 1 款游戏，其余多为未指向具体游戏的条目。其中 GTA6 相关报道聚焦其上线与全球销售表现，反映了《GTA6》上市后在全球市场取得显著进展，GameLook 对游戏行业奇迹有专题报道，整体呈现出头部游戏在市场扩张与行业关注突出的情况。",
       "digest_source": "llm",
-      "input_hash": "9dfb7b4cc8eccfcd",
+      "input_hash": "abb0fb8b275b1104",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 1,
-          "summary": "《GTA6》于北京时间11月18日晚上正式上线，首日横扫全球，Metacritic平台解锁了150家游戏媒体的评分。",
-          "summary_source": "llm"
+          "summary": "《GTA6》首日横扫全球！一个注定无法复制的游戏业奇迹。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -160,8 +160,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "2026年11月15日整体资讯呈现出明显的稀疏性，当日仅发布1条新闻，且未指向具体游戏，未明确涉及任何游戏，整体信息含量极低，报道内容围绕该条未具体指向的游戏相关情况展开，整体可操作性有限。",
-      "digest_source": "llm",
+      "digest": "11月15日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「凤凰山巅京城德比 北京WB荣耀加冕2026KPL年总决赛冠军」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
       "input_hash": "c4fb1ebb5e3982e6",
       "game_digests": []
     },
@@ -237,35 +237,6 @@
           "name": "造化仙府",
           "count": 1,
           "summary": "SLG品类在微信小游戏市场表现强势，《造化仙府》首度进入畅销榜前五名。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "article_count": 7,
-      "game_count": 3,
-      "untagged_count": 4,
-      "digest": "今日游戏行业资讯聚焦于国产3A大作《影之刃零》的发售盛况与土耳其休闲手游《Cube Land》的营收潜力，同时网易暴雪合作手游《魔兽世界：无限》上线后全球服与国服均创历史新高，此外还有四条未指向具体游戏的行业动态。",
-      "digest_source": "llm",
-      "input_hash": "45d947b9b01ed946",
-      "game_digests": [
-        {
-          "name": "Cube Land",
-          "count": 1,
-          "summary": "外媒分析称《Cube Land》有望在休闲手游赛道创造佳绩，该游戏由土耳其团队开发，自今年7月初上线以来表现强劲。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "国产3A大作《影之刃零》发售即大爆，媒体评价解禁后获得极高关注度，引发业界关于中国3A游戏未来发展的广泛讨论。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "魔兽世界：无限",
-          "count": 1,
-          "summary": "网易暴雪合作手游《魔兽世界：无限》于11月5日全球同步上线，上线后国服与全球服均创造了历史新高。",
           "summary_source": "llm"
         }
       ]
