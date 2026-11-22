@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T03:35:55.449535+00:00",
+  "generated_at": "2026-11-22T02:29:01.657019+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
@@ -160,8 +160,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "11月15日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「凤凰山巅京城德比 北京WB荣耀加冕2026KPL年总决赛冠军」。未指向具体游戏的内容占当天的 100%。",
-      "digest_source": "rules",
+      "digest": "2026年11月15日，当日 GameLook 新闻总数仅为1条，未指向任何具体游戏，仅有未明确指向具体游戏的内容，整体呈现信息较为有限的状态，主要反映出当天资讯内容缺乏明确指向，相关报道未能有效触达具体游戏动态。",
+      "digest_source": "llm",
       "input_hash": "c4fb1ebb5e3982e6",
       "game_digests": []
     },
@@ -190,53 +190,6 @@
           "name": "影之刃零",
           "count": 1,
           "summary": "《影之刃零》落选金摇杆年度游戏，官方回应称获得第二已大超预期。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-12",
-      "article_count": 7,
-      "game_count": 6,
-      "untagged_count": 1,
-      "digest": "今日游戏行业资讯聚焦于独立游戏争议、大厂项目变动及多品类游戏的市场表现。索尼终止了研发三年的射击网游《Fairgame$》，《Big Walk》因AI元素被IGF除名，Steam爆红独游《深空当铺》就本地化问题致歉。此外，《王者荣耀世界》S2赛季体验服开启，SLG品类在微信小游戏畅销榜表现强势，《造化仙府》首入Top5，而《皇室战争》则在中国举办总决赛。",
-      "digest_source": "llm",
-      "input_hash": "3ae195b65ba27d92",
-      "game_digests": [
-        {
-          "name": "Big Walk",
-          "count": 1,
-          "summary": "因使用AI技术，独立游戏《Big Walk》被IGF除名，引发独立游戏圈关于AI工具使用的争议。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Fairgame",
-          "count": 1,
-          "summary": "索尼正式终止了由Haven Studios研发三年的在线射击网游《Fairgame$》，该项目承载着索尼的服务型游戏野心。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "深空当铺",
-          "count": 1,
-          "summary": "Steam爆红独游《深空当铺：可能是偷的》作者发文致歉，回应玩家关于文本修改及本地化处理的质疑。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "王者荣耀世界",
-          "count": 1,
-          "summary": "《王者荣耀世界》时隔165天迎来S2赛季体验服，项目正以近乎“重生”的姿态进行更新。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "皇室战争",
-          "count": 1,
-          "summary": "《皇室战争》在中国举办总决赛，埃及选手Mohamed Light在最终对决中获胜。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "造化仙府",
-          "count": 1,
-          "summary": "SLG品类在微信小游戏市场表现强势，《造化仙府》首度进入畅销榜前五名。",
           "summary_source": "llm"
         }
       ]
