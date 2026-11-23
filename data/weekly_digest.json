@@ -1,41 +1,63 @@
 {
-  "generated_at": "2026-11-16T02:05:23.227345+00:00",
-  "week_start": "2026-11-09",
-  "week_end": "2026-11-15",
-  "article_count": 2172,
-  "game_count": 273,
-  "digest": "本周（2026年11月9日至11月15日）游戏行业资讯总量达2172条，涉及游戏273款，整体呈现出多元动态交织的趋势，内容覆盖发售、测试、销量、争议、版本更新等多类关键环节，热度榜单方面，星布谷地凭借167万预约与3项榜单数据占据首位，米哈游谈《星布谷地》登陆NS2并正与任天堂协商新进展，影之刃零热度突出，共120条资讯覆盖，其中金摇杆1%惜败第一后官方回应致谢，咪咕游戏热卖中并推出五重福利，4K材质包Mod发布且大量环境贴图升级，美术大佬放出角色3D图、细节质感拉满；饥困荒野预约252万、榜单5项，无限大预约396万、榜单6项；GTA6资讯数量最多达369条，主线约50小时且成就约200小时，原声专辑完整歌单泄露多位知名歌手确认加盟，在线模式2027年末推出传闻遭彭博社记者紧急辟谣，实体版曝出空码与兑换码提前被盗用两类问题；匹配大师预约50万、榜单23项，镇魂街王者归来预约26万、榜单11项，三国志：王道天下预约22万、榜单17项，崩坏：星穹铁道上线4.7版本并实装首位可玩星神阿哈，公益行动第三站聚焦心理健康，拉尼亚预约13万、榜单41项。整体来看，不同游戏围绕不同热点动态展开，既有预约与榜单数据亮眼的主场信息，也有版本更新、争议回应、玩法优化与IP开发等深度内容，行业热度呈现分化态势，部分游戏凭借针对性资讯积累较高关注度，其余更多围绕常规讨论与争议处理形成推进，整体资讯的覆盖面与深度兼顾不同层面的信息传递。",
+  "generated_at": "2026-11-23T02:58:26.722922+00:00",
+  "week_start": "2026-11-16",
+  "week_end": "2026-11-22",
+  "article_count": 2341,
+  "game_count": 178,
+  "digest": "上周游戏行业资讯总量达2341条，涵盖178款游戏，其中热度最高的当属《GTA6》，相关新闻高达978条，主要围绕玩家在游戏中发送不当照片遭PSN封禁30天、ATM操作繁琐引发吐槽、新增非二元角色引发争议以及频繁崩溃报错CE-108255-1导致索尼与R星相互推诿等话题展开。国产游戏方面，《影之刃零》表现抢眼，凭借获TGA五项提名、与《GTA6》同台竞争年度最佳以及致敬《生化危机》名场面和联动海底捞等动态，收获了45条资讯。此外，网易旗下的《无限大》因Q3研发投入高位而备受关注，预约量达399万；光荣授权的《三国志：王道天下》公测定档12月24日；《伍六七：暗影交锋》则凭借实测手感出色引发讨论；而《星布谷地》在主创访谈中着眼于长期运营规划，预约量达175万。",
   "digest_source": "llm",
   "heat_formula": "热度 = 资讯量 30% + 跨源覆盖 15% + 预约量 18% + 社区（周内新增关注/评价/讨论）15% + TapTap 榜单名次 12% + 官方动态 7% + 评测讨论 3%；各项先对数归一（资讯满格 200 条），缺测的维度计 0、不倒扣，满分 100。",
-  "input_hash": "157a72c84dbf385a",
+  "input_hash": "d69bd66565d70fd0",
   "hot_ranking": [
     {
       "rank": 1,
       "name": "星布谷地",
-      "heat_score": 51.1,
+      "heat_score": 51.8,
       "media_count": 1,
       "source_count": 1,
-      "reservation_label": "167万",
-      "follow_delta_label": "5万",
-      "best_rank": 3,
+      "reservation_label": "175万",
+      "follow_delta_label": "7万",
+      "best_rank": 2,
       "rank_lists": [
         "reserve"
       ],
       "official_count": 0,
       "news": [
         {
-          "title": "米哈游谈新作《星布谷地》登陆NS2：绝佳搭配 正在和任天堂协商",
-          "url": "https://www.gamersky.com/news/202611/2244707.shtml",
-          "source": "游民星空",
-          "published_at": "2026-11-11"
+          "title": "Fami 通《星布谷地》主创访谈：着眼于长期运营规划",
+          "url": "https://mp.weixin.qq.com/s/l6fImBXTE1UR4kUBtUz77A",
+          "source": "游资网",
+          "published_at": "2026-11-16"
         }
       ]
     },
     {
       "rank": 2,
-      "name": "影之刃零",
-      "heat_score": 45.9,
-      "media_count": 120,
+      "name": "无限大",
+      "heat_score": 50.5,
+      "media_count": 1,
+      "source_count": 1,
+      "reservation_label": "399万",
+      "follow_delta_label": "4万",
+      "best_rank": 5,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "网易Q3研发投入保持高位：《无限大》《诡影藏锋》等新品加速推进",
+          "url": "https://www.gameres.com/901203641.html",
+          "source": "游资网",
+          "published_at": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "GTA6",
+      "heat_score": 49.3,
+      "media_count": 978,
       "source_count": 5,
       "reservation_label": null,
       "follow_delta_label": null,
@@ -44,43 +66,50 @@
       "official_count": 0,
       "news": [
         {
-          "title": "《影之刃零》1%惜败金摇杆年度终极游戏！发售1天就停票：你来晚了？",
-          "url": "https://www.gamersky.com/news/202611/2245256.shtml",
+          "title": "《GTA6》4年前泄露场景再现！正式版对比令人意外",
+          "url": "https://www.gamersky.com/news/202611/2250880.shtml",
           "source": "游民星空",
-          "published_at": "2026-11-12"
+          "published_at": "2026-11-22"
         },
         {
-          "title": "《影之刃零》Steam通关率已达23.6%！发售近两周",
-          "url": "https://www.gamersky.com/news/202611/2244058.shtml",
+          "title": "《GTA6》争议不断！玩家担心舆论影响PC销量",
+          "url": "https://www.gamersky.com/news/202611/2250940.shtml",
           "source": "游民星空",
-          "published_at": "2026-11-10"
+          "published_at": "2026-11-22"
         }
       ]
-    },
-    {
-      "rank": 3,
-      "name": "饥困荒野",
-      "heat_score": 42.8,
-      "media_count": 0,
-      "source_count": 0,
-      "reservation_label": "252万",
-      "follow_delta_label": "4万",
-      "best_rank": 5,
-      "rank_lists": [
-        "reserve"
-      ],
-      "official_count": 0,
-      "news": []
     },
     {
       "rank": 4,
-      "name": "无限大",
-      "heat_score": 42.6,
+      "name": "三国志：王道天下",
+      "heat_score": 48.7,
+      "media_count": 2,
+      "source_count": 2,
+      "reservation_label": "23万",
+      "follow_delta_label": "2万",
+      "best_rank": 23,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": [
+        {
+          "title": "光荣正版授权！三国SLG沙盘策略旗舰新作《三国志：王道天下》公测定档12月24日",
+          "url": "https://www.gamersky.com/news/202611/2247249.shtml",
+          "source": "游民星空",
+          "published_at": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "饥困荒野",
+      "heat_score": 43.1,
       "media_count": 0,
       "source_count": 0,
-      "reservation_label": "396万",
+      "reservation_label": "256万",
       "follow_delta_label": "4万",
-      "best_rank": 6,
+      "best_rank": 4,
       "rank_lists": [
         "reserve"
       ],
@@ -88,40 +117,14 @@
       "news": []
     },
     {
-      "rank": 5,
-      "name": "GTA6",
-      "heat_score": 41.2,
-      "media_count": 369,
-      "source_count": 3,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": null,
-      "rank_lists": [],
-      "official_count": 0,
-      "news": [
-        {
-          "title": "《GTA6》原声专辑完整歌单泄露 多位知名歌手确认加盟",
-          "url": "https://www.3dmgame.com/news/202611/3960143.html",
-          "source": "3DMGame",
-          "published_at": "2026-11-15"
-        },
-        {
-          "title": "《GTA6》促使直播平台修改最具争议的核心功能规则",
-          "url": "https://www.3dmgame.com/news/202611/3960120.html",
-          "source": "3DMGame",
-          "published_at": "2026-11-15"
-        }
-      ]
-    },
-    {
       "rank": 6,
-      "name": "匹配大师",
-      "heat_score": 35.0,
+      "name": "镇魂街王者归来",
+      "heat_score": 38.2,
       "media_count": 0,
       "source_count": 0,
-      "reservation_label": "50万",
-      "follow_delta_label": "1万",
-      "best_rank": 23,
+      "reservation_label": "29万",
+      "follow_delta_label": "3万",
+      "best_rank": 13,
       "rank_lists": [
         "reserve"
       ],
@@ -130,79 +133,76 @@
     },
     {
       "rank": 7,
-      "name": "镇魂街王者归来",
-      "heat_score": 32.7,
-      "media_count": 1,
-      "source_count": 1,
-      "reservation_label": "26万",
+      "name": "影之刃零",
+      "heat_score": 36.7,
+      "media_count": 45,
+      "source_count": 4,
+      "reservation_label": null,
       "follow_delta_label": null,
-      "best_rank": 11,
-      "rank_lists": [
-        "reserve"
-      ],
+      "best_rank": null,
+      "rank_lists": [],
       "official_count": 0,
       "news": [
         {
-          "title": "还原与改编！《镇魂街王者归来》如何攻克IP改编的三个难题",
-          "url": "https://www.gameres.com/901203550.html",
-          "source": "游资网",
-          "published_at": "2026-11-12"
+          "title": "曝《影之刃零》Steam销量已达500万份！首月就卖351万",
+          "url": "https://www.gamersky.com/news/202611/2248184.shtml",
+          "source": "游民星空",
+          "published_at": "2026-11-17"
+        },
+        {
+          "title": "发售20天！超35%玩家通关《影之刃零》",
+          "url": "https://www.gamersky.com/news/202611/2248129.shtml",
+          "source": "游民星空",
+          "published_at": "2026-11-17"
         }
       ]
     },
     {
       "rank": 8,
-      "name": "三国志：王道天下",
-      "heat_score": 31.1,
+      "name": "拉尼亚",
+      "heat_score": 35.5,
+      "media_count": 0,
+      "source_count": 0,
+      "reservation_label": "14万",
+      "follow_delta_label": "2万",
+      "best_rank": 18,
+      "rank_lists": [
+        "reserve"
+      ],
+      "official_count": 0,
+      "news": []
+    },
+    {
+      "rank": 9,
+      "name": "伍六七：暗影交锋",
+      "heat_score": 35.5,
       "media_count": 1,
       "source_count": 1,
-      "reservation_label": "22万",
+      "reservation_label": "251万",
       "follow_delta_label": null,
-      "best_rank": 17,
+      "best_rank": 10,
       "rank_lists": [
         "reserve"
       ],
       "official_count": 0,
       "news": [
         {
-          "title": "光荣正版授权！三国SLG沙盘策略旗舰新作《三国志：王道天下》公测定档12月24日",
-          "url": "https://www.ali213.net/news/html/2026-11/1054643.html",
+          "title": "《伍六七：暗影交锋》实测：小鸡岛回来了，这手感比动画还上头！",
+          "url": "https://www.ali213.net/news/html/2026-11/1056219.html",
           "source": "游侠网",
-          "published_at": "2026-11-15"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "name": "崩坏：星穹铁道",
-      "heat_score": 29.3,
-      "media_count": 2,
-      "source_count": 2,
-      "reservation_label": null,
-      "follow_delta_label": null,
-      "best_rank": 7,
-      "rank_lists": [
-        "hot"
-      ],
-      "official_count": 8,
-      "news": [
-        {
-          "title": "《崩坏：星穹铁道》4.7版本上线，首位可玩星神阿哈实装",
-          "url": "https://www.3dmgame.com/news/202611/3959650.html",
-          "source": "3DMGame",
-          "published_at": "2026-11-11"
+          "published_at": "2026-11-22"
         }
       ]
     },
     {
       "rank": 10,
-      "name": "拉尼亚",
-      "heat_score": 29.0,
+      "name": "星眠",
+      "heat_score": 34.3,
       "media_count": 0,
       "source_count": 0,
-      "reservation_label": "13万",
+      "reservation_label": "19万",
       "follow_delta_label": "1万",
-      "best_rank": 41,
+      "best_rank": 21,
       "rank_lists": [
         "reserve"
       ],

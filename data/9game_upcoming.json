@@ -1,165 +1,9 @@
 {
-  "crawled_at": "2026-11-22T02:03:07.337431+00:00",
+  "crawled_at": "2026-11-23T02:28:19.245208+00:00",
   "days": [
     {
-      "date": "2026-11-17",
-      "date_label": "11月17日 周二",
-      "games": [
-        {
-          "game_name": "幻想九霄",
-          "categories": [
-            "冒险"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/huanxiangjiuxiao/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "date_label": "11月18日 周三",
-      "games": [
-        {
-          "game_name": "箭雨千军",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": "赢Switch2",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/sgjyqj/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "热血江湖传",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/rexuejianghuchuan1/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "烽火龙途",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "三职业高爆传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/fenghuolongtu/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-11-19",
-      "date_label": "11月19日 周四",
-      "games": [
-        {
-          "game_name": "斗罗大陆",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/dldlzxcs/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "卧龙无敌",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/wolongwudi/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "鹦鹉团",
-          "categories": [
-            "音乐"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/yingwutuan/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "date_label": "11月20日 周五",
-      "games": [
-        {
-          "game_name": "密室绝境逃生",
-          "categories": [
-            "休闲"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/msjjts/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "无名之诗",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/wumingzhishi/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "魔法森林",
-          "categories": [
-            "卡牌"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/mfsldzz/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "约战皇城",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/yuezhanhuangcheng/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "万世镜",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": null,
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/wanshijing1/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-11-24",
-      "date_label": "11月24日 后天",
+      "date_label": "11月24日 明天",
       "games": [
         {
           "game_name": "饥困荒野",
@@ -176,7 +20,7 @@
     },
     {
       "date": "2026-11-25",
-      "date_label": "11月25日 下周三",
+      "date_label": "11月25日 后天",
       "games": [
         {
           "game_name": "战与灵",
@@ -192,8 +36,25 @@
       ]
     },
     {
+      "date": "2026-11-26",
+      "date_label": "11月26日 周四",
+      "games": [
+        {
+          "game_name": "碎梦者",
+          "categories": [
+            "卡牌"
+          ],
+          "score": "7.0",
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/suimengzhe/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
       "date": "2026-11-27",
-      "date_label": "11月27日 下周五",
+      "date_label": "11月27日 周五",
       "games": [
         {
           "game_name": "小小村长2",
@@ -221,7 +82,7 @@
     },
     {
       "date": "2026-11-30",
-      "date_label": "11月30日",
+      "date_label": "11月30日 下周一",
       "games": [
         {
           "game_name": "战地先锋",
@@ -238,7 +99,7 @@
     },
     {
       "date": "2026-12-01",
-      "date_label": "12月01日",
+      "date_label": "12月01日 下周二",
       "games": [
         {
           "game_name": "变形金刚",
@@ -255,7 +116,7 @@
     },
     {
       "date": "2026-12-02",
-      "date_label": "12月02日",
+      "date_label": "12月02日 下周三",
       "games": [
         {
           "game_name": "剑气与魔法",
@@ -283,7 +144,7 @@
     },
     {
       "date": "2026-12-04",
-      "date_label": "12月04日",
+      "date_label": "12月04日 下周五",
       "games": [
         {
           "game_name": "无尽寒冬",

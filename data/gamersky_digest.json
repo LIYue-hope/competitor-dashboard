@@ -1,45 +1,128 @@
 {
-  "generated_at": "2026-11-22T02:27:41.896240+00:00",
+  "generated_at": "2026-11-23T02:52:44.057947+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-22",
-      "article_count": 8,
-      "game_count": 2,
-      "untagged_count": 1,
-      "digest": "2026年11月22日，当天游民星空发布新闻总数8条，涉及游戏2款，其中1款未指向具体游戏，整体内容围绕《GTA6》的多方面动态展开，包括玩家对游戏细节的讨论、游戏中的电视节目内容引发争议、发售后主机出现故障问题，以及腾讯《怪物猎人：旅人》PC版首次亮相的相关资讯。",
+      "date": "2026-11-23",
+      "article_count": 21,
+      "game_count": 3,
+      "untagged_count": 8,
+      "digest": "今日资讯主要围绕《GTA6》发售后的全球热潮展开，涉及日版女主服装调整、画质对比视频、赛博朋克之父评价、国人开发者现身片尾及车辆系统升级等热点。此外，玄机科技公布了《仙剑四》动画PV并定档2027年，索尼与微软多款游戏如《地平线》系列及《天国：拯救2》等在Steam迎来史低促销。",
       "digest_source": "llm",
-      "input_hash": "1cb039ffc5cdcf64",
+      "input_hash": "cb848699bea1699b",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 6,
-          "summary": "《GTA6》细节太逆天！一只苍蝇建模都这么精细；R星太会串：《GTA6》出现“异性恋骄傲游行”；《GTA6》玩到一半主机冒烟 上个厕所PS5起火了！（当天共 6 条）",
-          "summary_source": "rules"
+          "count": 11,
+          "summary": "随着《GTA6》正式发售，全球玩家涌入雷奥尼达州，日版女主服装遭和谐但意外更加涩情，车辆系统被IGN评价为玩家的移动基地。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仙剑四",
+          "count": 1,
+          "summary": "玄机科技制作的《仙剑奇侠传四》动画PV首曝，定档2027年上半年，将在B站独播。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "地平线",
+          "count": 1,
+          "summary": "Steam迎来一批游戏史低促销，包含微软《极限竞速：地平线》系列多部作品史低、《天国：拯救2》新史低等多款大作好价。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "article_count": 127,
+      "game_count": 11,
+      "untagged_count": 45,
+      "digest": "今日游戏资讯聚焦于《GTA6》的深度挖掘与彩蛋考据，以及《影之刃零》与海底捞的跨界联动。此外，腾讯《怪物猎人：旅人》PC版实机亮相，任天堂《时之笛RE》制作幕后揭秘，多款经典与新作均有相关动态发布。",
+      "digest_source": "llm",
+      "input_hash": "77c8c180a6004ba8",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 71,
+          "summary": "R星揭秘杰森不爱说话原因，NPC打破第四面墙彩蛋引发热议，女主正面裸露BUG及特殊触发方法被曝光。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "官方在B站发布与海底捞的联动宣传片，展示限定美食与周边，同时游戏入选今日游民史低推荐清单。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "剑星",
+          "count": 1,
+          "summary": "海外玩家制作饭制视频，将《剑星》角色与《GTA6》开场风格结合，打造出一段“剑星版”GTA6开场动画。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "勇者斗恶龙怪物仙境4 枯木国的碧安卡与芙萝拉",
+          "count": 1,
+          "summary": "Switch 2版游戏容量公布，官方确认其近12GB。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "博德之门3",
+          "count": 1,
+          "summary": "官方宣布推出前传小说《Baldur's Gate 3: Shadowheart》，主角定为人气角色影心。",
+          "summary_source": "llm"
         },
         {
           "name": "怪物猎人：旅人",
           "count": 1,
-          "summary": "腾讯《怪物猎人：旅人》PC版首次亮相！国内玩家还得等。",
-          "summary_source": "rules"
+          "summary": "腾讯官方发布PC版实机预告，首次展示游戏的电脑端画面，国内玩家还需等待。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛RE",
+          "count": 1,
+          "summary": "任天堂制作人藤林秀麿透露，团队曾反复打磨结局过场动画，旨在让玩家体验更强烈的情感冲击。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星之卡比",
+          "count": 1,
+          "summary": "新作《星之卡比：世界之外》玩法曝光，升级了复制能力并探索充满谜团的3D世界观。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化危机",
+          "count": 1,
+          "summary": "系列创作者三上真司揭秘初代作品开发理念，解释了弹药稀缺、恐怖演出及存档限制等经典设计的考量。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黎明杀机",
+          "count": 1,
+          "summary": "已取消两年的衍生游戏《Project T》意外重新现身，一段流出的视频展示了游戏可运行版本及未完成DLC内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "龙珠",
+          "count": 1,
+          "summary": "手游《龙珠激斗传说》公布2026年Legends Festival新角色，ULTRA野兽悟饭与橙色比克将以Tag组合登场。",
+          "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-11-21",
-      "article_count": 122,
+      "article_count": 119,
       "game_count": 20,
-      "untagged_count": 32,
-      "digest": "11月21日 游民星空 共 122 条新闻，涉及 20 款游戏。报道最集中的是《GTA6》（70 条）、《影之刃零》（2 条）、《GTA7》（1 条）。另有 32 条未指向具体游戏的行业或平台资讯。另外还有《传说之下》（1 条）、《双人成行》（1 条）、《地下城与勇士》（1 条）也有报道。",
+      "untagged_count": 31,
+      "digest": "11月21日 游民星空 共 119 条新闻，涉及 20 款游戏。报道最集中的是《GTA6》（68 条）、《影之刃零》（2 条）、《GTA7》（1 条）。另有 31 条未指向具体游戏的行业或平台资讯。另外还有《传说之下》（1 条）、《双人成行》（1 条）、《地下城与勇士》（1 条）也有报道。",
       "digest_source": "rules",
-      "input_hash": "0b74c2343403a98d",
+      "input_hash": "952879945dd0d50c",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 70,
-          "summary": "《GTA6》葱哥叫嚣要泄露完整游戏！门槛突然骤降 腰斩了；《GTA6》车载电台太有感觉！风格多样惬意兜风；《GTA6》大成功后R星或要裁员?《光与影：33号远征队|》主创抱不平（当天共 70 条）",
+          "count": 68,
+          "summary": "《GTA6》葱哥叫嚣要泄露完整游戏！门槛突然骤降 腰斩了；《GTA6》车载电台太有感觉！风格多样惬意兜风；《GTA6》大成功后R星或要裁员?《光与影：33号远征队|》主创抱不平（当天共 68 条）",
           "summary_source": "rules"
         },
         {
@@ -130,101 +213,101 @@
     },
     {
       "date": "2026-11-20",
-      "article_count": 149,
+      "article_count": 147,
       "game_count": 26,
       "untagged_count": 29,
-      "digest": "今日游戏资讯聚焦于《GTA6》的持续热度，涉及裸体场景实测、PS5闪退问题及官方专辑上线；同时《影之刃零》因角色建模及红魔手机60帧测试引发关注，任天堂则因邓紫棋新歌《任天堂》登上热搜，此外育碧多款老游戏因诺兰电影带动销量，多款新作如《卧龙2》《宝可梦：风/波》公布新情报。",
+      "digest": "当日游民星空发布总数147条新闻，涉及游戏26款，其中未指向具体游戏29条。围绕GTA6、影之刃零、任天堂、刺客信条系列、剑星、卧龙2等游戏，各有发售、更新、销量表现及争议等信息，整体呈现出多款游戏动态交织、部分游戏取得进展或受外界影响的情况。",
       "digest_source": "llm",
-      "input_hash": "e4962e68dae4777e",
+      "input_hash": "3a6a42ecd1d9bad8",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 92,
-          "summary": "IGN实测淋浴与亲密场景可裸体但镜头避开正面，PS5版被曝频繁闪退，R星官宣官方专辑上线各大流媒体平台。",
+          "count": 90,
+          "summary": "《GTA6》主角能不穿衣服吗？IGN实测给出答案，淋浴与亲密场景可裸体但镜头避开正面，同时官方宣推进原创专辑上线，玩家可通过各大主流音乐流媒体平台收听",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 3,
-          "summary": "3D负责人更新沐天邈等角色建模，红魔手机官宣成功启动游戏并跑满60帧，TGA年度最佳评选活动开启。",
+          "summary": "《影之刃零》3D负责人王琛陆续更新多名游戏角色建模作品，包括老冥主沐天邈、虚空三姐妹炼邪等，同时红魔手机官宣启动该游戏，最高支持60帧运行",
           "summary_source": "llm"
         },
         {
           "name": "任天堂",
           "count": 2,
-          "summary": "邓紫棋新歌《任天堂》突然上线各大音乐平台，引发玩家对老任合作及致敬游戏的猜测。",
+          "summary": "邓紫棋全新专辑第二主打《任天堂》在未作任何预热的情况下于11月20日零点突然上线各大音乐平台，邓紫棋另有新歌《任天堂》上线，老任粉丝关注其以致敬游戏为引",
           "summary_source": "llm"
         },
         {
           "name": "GTA",
           "count": 1,
-          "summary": "随着《GTA6》发售，玩家涌入游戏体验罪恶都市，有玩家在游戏中苦找露西娅无果。",
+          "summary": "随着《GTA6》正式发售，玩家涌入游戏感受罪恶都市魅力，近日一则社交媒体动态引发玩家关注讨论",
           "summary_source": "llm"
         },
         {
           "name": "仁王3",
           "count": 1,
-          "summary": "《仁王3》与《如龙8》开启新史低促销，配合代金券使用可再减5元。",
+          "summary": "《仁王3》《如龙8》公布新史低，无门槛代金券可在游民App“游戏商城”购买任何游戏时抵扣现金，还可搭配金币叠加使用",
           "summary_source": "llm"
         },
         {
           "name": "刺客信条4：黑旗 记忆重置",
           "count": 1,
-          "summary": "该作销量远超育碧预期，但公司仍宣布将继续裁员。",
+          "summary": "该游戏是育碧对经典之作《刺客信条4：黑旗》的现代重制，已于2013年经典作7月9日正式发售，支持中配，且销量远超育碧预期但仍在裁员",
           "summary_source": "llm"
         },
         {
           "name": "刺客信条：侠隐",
           "count": 1,
-          "summary": "育碧更新游戏近况，确认其以中国秦朝为背景，由育碧与腾讯Level Infinite合作开发。",
+          "summary": "育碧更新《刺客信条：侠隐》近况，游戏以中国秦朝为背景，由育碧和腾讯旗下Level Infinite合作打造并登陆移动端，最初2022年公布后偶有泄露，至今未推出",
           "summary_source": "llm"
         },
         {
           "name": "刺客信条：奥德赛",
           "count": 1,
-          "summary": "受诺兰电影《奥德赛》上映影响，该作销量出现暴涨。",
+          "summary": "诺兰电影上映带动《刺客信条：奥德赛》销量暴涨，该游戏为2018年发售的老游戏，玩家关注回升",
           "summary_source": "llm"
         },
         {
           "name": "剑星：血雨",
           "count": 1,
-          "summary": "新预告片使用AI生成画面引发玩家狂喷，开发商金亨泰强调坚持人工打造。",
+          "summary": "《剑星：血雨》为新片，采用AI制作引发舆论狂喷，开发团队坚持人工打造新规",
           "summary_source": "llm"
         },
         {
           "name": "卧龙2：凤火连天",
           "count": 1,
-          "summary": "公布新预告片并曝光诸葛亮设定，预计于2027年3月4日发售。",
+          "summary": "《卧龙2：凤火连天》新片公布，诸葛亮设定曝光，游戏由光荣制作发行，预计2027年3月4日发售",
           "summary_source": "llm"
         },
         {
           "name": "反恐精英2",
           "count": 1,
-          "summary": "MOUZ在英特尔极限大师赛决赛中以3比0击败对手夺得冠军。",
+          "summary": "MOUZ在英特尔极限大师赛决赛中以3比0击败The MongolZ，夺得《反恐精英2》项目冠军",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛 重制版",
           "count": 1,
-          "summary": "Switch2平台M站评分经历波动后再度回升至96分。",
+          "summary": "Switch2平台该重制版M站评分再度回到96分，此前经历小幅波动后重新回升",
           "summary_source": "llm"
         },
         {
           "name": "女神异闻录6",
           "count": 1,
-          "summary": "制作人和田和久称开发进展顺利，新作会来得更快。",
+          "summary": "和田和久称《女神异闻录6》开发进展顺利，但未说明缩短等待的具体做法与发售日期",
           "summary_source": "llm"
         },
         {
           "name": "宝可梦：风/波",
           "count": 1,
-          "summary": "爆料称主角将首次拥有跳跃能力，并放出相关预览素材。",
+          "summary": "曝《宝可梦：风/波》迎来“史诗级”突破，玩家操控主角有望首次拥有跳跃能力，发布跳跃动作预览及底层动画文件佐证",
           "summary_source": "llm"
         },
         {
           "name": "巫师",
           "count": 1,
-          "summary": "Netflix确认《巫师》真人剧最终季将于2027年及以后播出。",
+          "summary": "《巫师》真人剧最终季确认，Netflix将其列入2027年及以后改编作品名单，确定不会在2027年之前播出",
           "summary_source": "llm"
         }
       ]
@@ -335,99 +418,99 @@
       "article_count": 171,
       "game_count": 26,
       "untagged_count": 40,
-      "digest": "11月18日 游民星空 共 171 条新闻，涉及 26 款游戏。报道最集中的是《GTA6》（86 条）、《影之刃零》（16 条）、《仁王3》（3 条）。另有 40 条未指向具体游戏的行业或平台资讯。另外还有《影之刃》（3 条）、《鬼武者》（2 条）、《GTA4》（1 条）也有报道。",
-      "digest_source": "rules",
+      "digest": "2026年11月18日，游戏行业资讯整体呈现多元竞争与评价分化态势，涉及游戏覆盖广泛，既有众多游戏获得奖项提名或爆出争议，也有部分游戏涉及价格变动、裁员及平台评价问题，整体话题聚焦游戏本身表现与公众反响。",
+      "digest_source": "llm",
       "input_hash": "eaf5c3d97bde7d41",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 86,
-          "summary": "《GTA6》太吓人！博主绝望:《塞尔达传说：时之笛 重制版》TGA恐被横扫；《GTA6》30帧遭多位知名主播吐槽 画面被形容像PPT；《GTA6》恋爱攻略来了！不陪女友后果很严重（当天共 86 条）",
-          "summary_source": "rules"
+          "summary": "《GTA6》相关内容密集曝出：存在博主对TGA奖项走向的预测、玩家对30帧表现吐槽以及恋爱攻略相关玩法介绍。",
+          "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 16,
-          "summary": "排面拉满！央视报道《影之刃零》获五项TGA年度提名；《影之刃零》隐藏剧情去哪看：全渠道观看导航总览；《影之刃零》TGA提名数已追平《黑神话：悟空》！甚至有望超越（当天共 16 条）",
-          "summary_source": "rules"
+          "summary": "央视报道其获五项TGA年度提名，隐藏剧情全渠道观看导航、官方求投票获年度最佳等5项提名，TGA提名数追平《黑神话：悟空》且有望超越。",
+          "summary_source": "llm"
         },
         {
           "name": "仁王3",
           "count": 3,
-          "summary": "《仁王3》最新好价直接腰斩！游民商城多款佳作史低了；《仁王3》最新史低直接腰斩！发售还不到一年；IGN 9分《仁王3》一项提名都没有！最佳ACT都没有。",
-          "summary_source": "rules"
+          "summary": "光荣特库摩宣布其开启黑色星期五促销，标准版五折、季票七五折、PS5版数字豪华版五四折，但IGN称其未获任何提名。",
+          "summary_source": "llm"
         },
         {
           "name": "影之刃",
           "count": 3,
-          "summary": "《影之刃》幻鬼脸模再晒美照：完美侧颜 魂大人也爱；挑眉哥:《影之刃》年度提名实至名归 国游常被搞双标；挑眉哥质疑《影之刃》提名最佳指导：经典又是类魂。",
-          "summary_source": "rules"
+          "summary": "幻鬼脸模晒出完美侧颜美照，挑眉哥称其年度提名实至名归但国游常被双标、质疑被提名最佳指导因经典为类魂。",
+          "summary_source": "llm"
         },
         {
           "name": "鬼武者",
           "count": 2,
-          "summary": "IGN满分却无缘年度！《鬼武者》玩家喊冤：简直强盗；IGN满分《鬼武者》TGA仅一提名！没进年度 不受待见。",
-          "summary_source": "rules"
+          "summary": "IGN满分却无缘年度，玩家喊冤称其简直是强盗，且TGA仅获一项提名、未进年度。",
+          "summary_source": "llm"
         },
         {
           "name": "GTA4",
           "count": 1,
-          "summary": "《GTA4》重制版爆料！或基于《GTA6》更新引擎打造。",
-          "summary_source": "rules"
+          "summary": "业内人士爆料Rockstar Games考虑以《GTA6》新引擎为基础为经典游戏《GTA4》推出重制版。",
+          "summary_source": "llm"
         },
         {
           "name": "KAMAGI",
           "count": 1,
-          "summary": "韩国动作新作《KAMAGI》实机首曝！核心玩法曝光 强调精准弹开。",
-          "summary_source": "rules"
+          "summary": "韩国独立工作室公布《KAMAGI》实机首曝，展示战斗、探索及Boss战画面，核心玩法强调精准弹开。",
+          "summary_source": "llm"
         },
         {
           "name": "午夜以南",
           "count": 1,
-          "summary": "DEI大作《午夜以南》编剧回应多元化争议：玩家误解太深 解释是浪费时间。",
-          "summary_source": "rules"
+          "summary": "DEI大作《午夜以南》编剧回应多元化争议，称玩家误解太深是浪费时间，该作发售后获媒体好评。",
+          "summary_source": "llm"
         },
         {
           "name": "博德之门3",
           "count": 1,
-          "summary": "《博德之门3》连续四年获TGA提名！官方发文庆祝。",
-          "summary_source": "rules"
+          "summary": "TGA 2026公布提名名单，已发售超三年的《博德之门3》依旧出现在提名中，官方发文庆祝其连续四年获提名。",
+          "summary_source": "llm"
         },
         {
           "name": "古墓丽影",
           "count": 1,
-          "summary": "《古墓丽影》开发商第六轮裁员！新作已受影响跳票。",
-          "summary_source": "rules"
+          "summary": "开发商第六轮裁员，新作受影响跳票。",
+          "summary_source": "llm"
         },
         {
           "name": "唐传奇琵琶行",
           "count": 1,
-          "summary": "曾被称为\"国风版耻辱\"！大作《唐传奇琵琶行》疑取消。",
-          "summary_source": "rules"
+          "summary": "《唐传奇琵琶行》疑取消，为维塔士成都工作室自主研发的国风第一人称动作潜行游戏，灵感来自白居易《琵琶行》。",
+          "summary_source": "llm"
         },
         {
           "name": "文明7",
           "count": 1,
-          "summary": "曝《文明7》开发商裁员三分之一！工作室负责人离职。",
-          "summary_source": "rules"
+          "summary": "曝其开发商裁员三分之一，2K仅确认负责人离职，工作室负责人离职。",
+          "summary_source": "llm"
         },
         {
           "name": "时之笛RE",
           "count": 1,
-          "summary": "《时之笛RE》实体价格大跳水！好价快冲/还能降？。",
-          "summary_source": "rules"
+          "summary": "《时之笛RE》实体价格大跳水，适合好价购买。",
+          "summary_source": "llm"
         },
         {
           "name": "极限竞速：地平线6",
           "count": 1,
-          "summary": "IGN满分佳作《极限竞速：地平线6》获TGA双提名！系列已连续三代获奖。",
-          "summary_source": "rules"
+          "summary": "IGN满分佳作获TGA双提名，系列已连续三代获奖。",
+          "summary_source": "llm"
         },
         {
           "name": "火焰纹章：万缕千丝",
           "count": 1,
-          "summary": "IGN满分被TGA无视！《火焰纹章：万缕千丝》模拟/策略没提名。",
-          "summary_source": "rules"
+          "summary": "IGN满分被TGA无视，该作模拟/策略类未获提名。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -831,107 +914,6 @@
           "name": "忍者神龟",
           "count": 1,
           "summary": "白金工作室正在开发3A级新作，业内人士爆料该作或同时登陆PS6和PS5平台。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "article_count": 138,
-      "game_count": 52,
-      "untagged_count": 41,
-      "digest": "今日游戏资讯聚焦于《GTA6》发售前的预热与破解劝退讨论，以及《影之刃零》制作人访谈与《时之笛RE》实体销量大爆等热点。此外，《刺客信条》现代线回归传闻、小岛秀夫新作《OD》新细节及《神鬼寓言4》新实机也引发关注。",
-      "digest_source": "llm",
-      "input_hash": "fa9d5480d96d5aef",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 29,
-          "summary": "R星官方预热喊话下周莱昂尼达见，PS5破解大神劝玩家买正版，发售前已推1GB首日补丁。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 10,
-          "summary": "制作人梁其伟接受6小时深度访谈，设计师揭秘字体设计，神秘眼镜女动捕及泳装照曝光。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "时之笛RE",
-          "count": 4,
-          "summary": "日本实体版售出53.7万份，实体销量超数字版一倍，背部护甲被大幅去除引发玩家调侃。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA",
-          "count": 2,
-          "summary": "T2 CEO表示《GTA》影视化需严格把控，有玩家困惑为何有人不喜欢玩这款解压神游。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺客信条",
-          "count": 2,
-          "summary": "育碧考虑重启现代剧情线，并计划举办工作坊讨论如何处理被骂稀烂的现代线内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛 重制版",
-          "count": 2,
-          "summary": "Switch2平台实体卡带价格跳水至250元，PC移植版已支持DLSS FSR。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "神鬼寓言4",
-          "count": 2,
-          "summary": "Xbox公布4分钟新实机展示战斗与UI，游戏定档2027年2月23日登陆多平台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "红色沙漠",
-          "count": 2,
-          "summary": "获金摇杆年度最佳PC提名，玩家认为缺乏竞争，游戏持续进行大量优化更新。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Bottled by Bears",
-          "count": 1,
-          "summary": "现已登陆Steam，首发限时75折优惠，售价32元人民币。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "DOOM",
-          "count": 1,
-          "summary": "前id Software约20名被裁员工组建Hidden Horses工作室，公布首款作品《Danger Pay》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Delve Survivors",
-          "count": 1,
-          "summary": "回合制幸存者类新游上架Steam，售价45元人民币。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA4",
-          "count": 1,
-          "summary": "玩家发现经典角色托尼·普林斯疑似回归《GTA6》，其胡须眼镜声线与5代高度相似。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "OD",
-          "count": 1,
-          "summary": "小岛秀夫新作采用GoPro实地拍摄还原鱼眼视角，追求极致拟真效果。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "倘若你想见到明天",
-          "count": 1,
-          "summary": "RPGmaker创作大赛最佳游戏试玩版上线，玩家需在60分钟内活下来。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环：战役进化",
-          "count": 1,
-          "summary": "工作室虽面临裁员传闻，但官方宣布将于冬季推出免费更新，加入经典Firefight模式。",
           "summary_source": "llm"
         }
       ]

@@ -1,9 +1,38 @@
 {
-  "generated_at": "2026-11-22T02:29:01.657019+00:00",
+  "generated_at": "2026-11-23T02:55:12.090687+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-11-23",
+      "article_count": 6,
+      "game_count": 3,
+      "untagged_count": 3,
+      "digest": "2026年11月23日当天，GameLook发布新闻共6条，涉及游戏3款，其中1款为原神、1款为少女前线：蓝蝶契约、1款为挂币英雄。原神围绕IP新项目及UE5新概念PVP展开，米哈游于11月19日电子科技大学举行校招宣讲会，主讲人为原神项目技术负责人王萌；少女前线：蓝蝶契约海外首曝定档2027年发布，散爆旗下IP发布相关宣传内容；挂币英雄Steam在线突破4.3万人，好评率卡在一半，玩法呈现出出现自推进、砍怪、捡钱等特色表现，整体当日资讯围绕多款游戏动态展开，各方向呈现不同内容。",
+      "digest_source": "llm",
+      "input_hash": "ed65aff6d59b53c9",
+      "game_digests": [
+        {
+          "name": "原神",
+          "count": 1,
+          "summary": "《原神》IP新项目曝光，UE5新概念PVP；AI时代下技术人员应该如何成长？",
+          "summary_source": "llm"
+        },
+        {
+          "name": "少女前线：蓝蝶契约",
+          "count": 1,
+          "summary": "散爆加入二游大战！《少女前线：蓝蝶契约》海外首曝定档2027年发布",
+          "summary_source": "llm"
+        },
+        {
+          "name": "挂币英雄",
+          "count": 1,
+          "summary": "“上班摸鱼神器”！《挂币英雄》Steam在线破4.3万人，好评率却卡在一半",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-11-20",
       "article_count": 7,
@@ -160,39 +189,10 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "2026年11月15日，当日 GameLook 新闻总数仅为1条，未指向任何具体游戏，仅有未明确指向具体游戏的内容，整体呈现信息较为有限的状态，主要反映出当天资讯内容缺乏明确指向，相关报道未能有效触达具体游戏动态。",
-      "digest_source": "llm",
+      "digest": "11月15日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「凤凰山巅京城德比 北京WB荣耀加冕2026KPL年总决赛冠军」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
       "input_hash": "c4fb1ebb5e3982e6",
       "game_digests": []
-    },
-    {
-      "date": "2026-11-13",
-      "article_count": 8,
-      "game_count": 3,
-      "untagged_count": 5,
-      "digest": "Shift Up财报显示旗下二游《Project Spirits》今年将不再公开露脸，任天堂重制版《塞尔达时之笛》上市4天销量达520万套，而《影之刃零》虽落选金摇杆年度游戏，官方回应称获得第二已大超预期。",
-      "digest_source": "llm",
-      "input_hash": "0bc3f1ad2a26b8cd",
-      "game_digests": [
-        {
-          "name": "Project Spirits",
-          "count": 1,
-          "summary": "NIKKE开发商Shift Up财报显示旗舰二游《Project Spirits》今年将不再公开露脸。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达时之笛",
-          "count": 1,
-          "summary": "任天堂重制版《塞尔达时之笛》上市4天销量达520万套。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "《影之刃零》落选金摇杆年度游戏，官方回应称获得第二已大超预期。",
-          "summary_source": "llm"
-        }
-      ]
     }
   ]
 }

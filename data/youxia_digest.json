@@ -1,46 +1,170 @@
 {
-  "generated_at": "2026-11-22T02:19:23.455248+00:00",
+  "generated_at": "2026-11-23T02:44:17.362195+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-21",
-      "article_count": 24,
-      "game_count": 5,
-      "untagged_count": 9,
-      "digest": "当日游侠网发布新闻共24条，涉及5款游戏，整体围绕《GTA6》PC版配置信息、甲亢哥通关经历、GTA7选址传闻、《P6》优化规划及《PSYCHO DEAD》发售信息、猛鬼追魂获奖等展开，内容覆盖游戏发售、内容动态与行业讨论，对游戏行业近期动态呈现一定覆盖与梳理作用。",
+      "date": "2026-11-23",
+      "article_count": 20,
+      "game_count": 7,
+      "untagged_count": 8,
+      "digest": "今日资讯聚焦于《GTA6》的用户评分波动与开发细节，以及《给他爱5》在Steam的火爆表现。此外，世嘉在Steam开启黑五大促，《死亡空间》重制版PS5版大幅降价，而《最终幻想7重制版》系列登陆Xbox平台。",
       "digest_source": "llm",
-      "input_hash": "cc0eff26e5fe57d1",
+      "input_hash": "c9c2dfa21355bed1",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 11,
-          "summary": "PC版配置单曝出 RTX3060即可60帧高画质 —— 外网近日流传出一份《GTA6》PC版的预测配置需求单。数据显示，想在1080P高画质下开启DLSS稳60帧，仅需RTX3060与16GB内存。若想以1440P高画质畅玩，则推荐RTX4070与32GB内存。得益于AI超分技术，这款次世代大作的门槛似乎并没有想象中那么高不可攀。",
+          "count": 6,
+          "summary": "PC Gamer分享游玩体验，称游戏内19个电台中Flash FM是播放时长最多的选择。",
           "summary_source": "llm"
         },
         {
-          "name": "GTA7",
+          "name": "FF7：重制版",
           "count": 1,
-          "summary": "传《GTA7》选址亚特兰大 将成前作地理版图新延伸！ —— 据外媒消息，《GTA6》刚发售，关于《GTA7》的传闻已悄然浮出水面。爆料称新作可能设定在以佐治亚州亚特兰大为原型的都市，副标题或为MagicCity。由于前作以佛罗里达为原型，选址亚特兰大在地理上顺理成章。目前官方未回应，一切仍属早期猜测。",
+          "summary": "前两部登陆Xbox及微软PC商店，但《重生》未进XGP，两平台定价策略存在差异。",
           "summary_source": "llm"
         },
         {
-          "name": "P6",
+          "name": "人中之龙 极３",
           "count": 1,
-          "summary": "P系列制作人重磅爆料 《P6》后新作将大幅缩短等待 —— 《女神异闻录》系列制作人和田和久近日透露重磅消息。他明确表示女神异闻录6非系列的终点，官方正在采取多种措施，确保玩家不必像过去那样为下一部作品苦等多年。为了将女神异闻录打造成更庞大的IP，团队正持续构思创意。",
+          "summary": "世嘉现正举办“Steam 黑五大促”，《人中之龙 极３》与《人中之龙３外传》4折优惠，促销将于11月30日结束。",
           "summary_source": "llm"
         },
         {
-          "name": "PSYCHO DEAD",
+          "name": "勇者斗恶龙怪物仙境4",
           "count": 1,
-          "summary": "《PSYCHO DEAD》将于2027年4月15日发售 登陆PS5及PC —— MOON CATALYST公布第三人称生存恐怖新作《PSYCHO DEAD》发售信息，作品定档2027年4月15日，上线PS5与PC平台。游戏以拥有精神能力的少女为主角，融合念动力战斗、解谜与动态环境机制，官方同步放出预告与截图。",
+          "summary": "NS2版容量大小曝光，为11.7GB。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "通关后玩家满脑子都是没捋顺的设定，文章梳理了影境大陆的背景故事与组织恩怨。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "死亡空间",
+          "count": 1,
+          "summary": "PS5版美元区折扣90%，现价7美元，优惠截止12月1日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "给他爱5",
+          "count": 1,
+          "summary": "Steam峰值冲到23.9万，新作来了老作爆火。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "article_count": 20,
+      "game_count": 9,
+      "untagged_count": 6,
+      "digest": "2026年11月22日当天，当日游侠网共发布20条新闻，涉及游戏9款，整体呈现多重热点互动与评价争议。游戏层面，《GTA6》首日引发玩家实测与BUG曝光、全球流量纪录与主机帧率问题等动态；多款国产游戏围绕销量突破、玩法解析、画面优化等方向推进，同时《我的世界》PC版降价、《时之笛》评分下降、《沉星之序》中文配音更新等元素交织，整体信息丰富，热点分布较广。",
+      "digest_source": "llm",
+      "input_hash": "263024897a23c1b5",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 6,
+          "summary": "《GTA6》发售首日引发玩家互动与争议，玩家实测“高跟鞋俱乐部”以突出开放世界沉浸感，同时曝光女主露西亚半裸BUG，还有全球流量纪录新高与XSX主机解锁帧率锁等动态。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仁王3",
+          "count": 1,
+          "summary": "韩国游戏物管理委员会（GRAC）公开评级数据库中出现尚未官方宣布的《仁王3 完整版》评级条目，存在版本相关争议相关动向。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "伍六七：暗影交锋",
+          "count": 1,
+          "summary": "《伍六七：暗影交锋》通过2D像素手绘还原发廊、牛杂摊等场景，重点拆解横版动作RPG的战斗手感，包含三人小队实时切换、协力追击、绝技动画等机制。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "我带过的最差一届",
+          "count": 1,
+          "summary": "国产校园题材派对游戏《我带过的最差一届》发布公告，庆祝游戏在发售12天内销量突破100万，并公开未来更新计划。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "我的世界",
+          "count": 1,
+          "summary": "《我的世界》PC版售价降至76.99元，距上轮涨价仅约三周，补票窗口值得关注，单次降幅达34元，低于此前89元的涨价前售价。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "时之笛",
+          "count": 1,
+          "summary": "《GTA6》发售后，该游戏m站评分一度低于5分，同时《塞尔达传说：时之笛重制版》评分出现下降，两款无关游戏同时低分引发深思。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "沉星之序",
+          "count": 1,
+          "summary": "年度好评解谜游戏《沉星之序》发布公告，推出中文配音，以提升中国玩家沉浸感。",
           "summary_source": "llm"
         },
         {
           "name": "猛鬼追魂",
           "count": 1,
-          "summary": "《猛鬼追魂》爆冷击败生化危机加冕年度最佳恐怖游戏 —— 2026年恐怖游戏大奖（Horror Game Awards）正式揭晓，《克里夫·巴克猛鬼追魂：复苏》爆冷击败《生化危机：安魂曲》夺得年度最佳游戏。更令人动容的是，道格·布拉德利时隔近四十年再度为“钉子头”献声，一举拿下最佳表演奖。",
+          "summary": "2026恐怖游戏奖爆冷，《猛鬼追魂：复苏》击败《生化危机9：安魂曲》登顶2026恐怖游戏奖。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "荒野大镖客",
+          "count": 1,
+          "summary": "The Ankler独家显示Rockstar首次对《荒野大镖客》影视改编“挂牌”1亿美元起拍，但核心仍在于内部创意团队的“热情门槛”。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "article_count": 29,
+      "game_count": 6,
+      "untagged_count": 11,
+      "digest": "2026年11月21日当天，游侠网当天新闻总量为29条，涉及游戏6款，整体围绕游戏版本更新、新作上架及行业动态展开，涵盖GTA系列、P系列、恐怖游戏、新作发售等热点，多数报道聚焦具体游戏的技术、发售或内容更新情况，未涉及大量未指向具体游戏的资讯。",
+      "digest_source": "llm",
+      "input_hash": "db25087ca377a21a",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 13,
+          "summary": "《GTA6》美国首日数据:61%PS5用户启动 人均玩8.5小时——Circana分析师Mat Pisc提供首日数据，显示PS5用户启动率达61%，人均游戏时长达8.5小时。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA7",
+          "count": 1,
+          "summary": "传《GTA7》选址亚特兰大 将成前作地理版图新延伸！——据外媒消息，因《GTA6》刚发售，《GTA7》选址亚特兰大传闻浮出水面，新作可能设定在以佐治亚州亚特兰大为原型的都市，副标题或为MagicCity，前作以佛罗里达为原型，该选址顺理成章，目前官方未回应，属早期猜测。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "P6",
+          "count": 1,
+          "summary": "P系列制作人重磅爆料《P6》后新作将大幅缩短等待——《女神异闻录》系列制作人和田和久近日透露，女神异闻录6非系列终点，官方正采取多种措施保障玩家无需苦等多年，团队持续构思创意以打造更大IP。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "PSYCHO DEAD",
+          "count": 1,
+          "summary": "《PSYCHO DEAD》将于2027年4月15日发售 登陆PS5及PC——MOON CATALYST公布第三人称生存恐怖新作《PSYCHO DEAD》发售信息，作品定档2027年4月15日，上线PS5与PC平台，游戏以拥有精神能力的少女为主角，融合念动力战斗、解谜与动态环境机制，官方同步放出预告与截图。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "猛鬼追魂",
+          "count": 1,
+          "summary": "《猛鬼追魂》爆冷击败生化危机加冕年度最佳恐怖游戏——2026年恐怖游戏大奖（Horror Game Awards）正式揭晓，《克里夫·巴克猛鬼追魂：复苏》爆冷击败《生化危机：安魂曲》夺得年度最佳游戏，道格·布拉德利时隔近四十年再度为“钉子头”献声，一举拿下最佳表演奖。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "第一狂战士卡赞",
+          "count": 1,
+          "summary": "国区抢先!《第一狂战士卡赞》更新:新增臂铠与国风铠甲——硬核动作游戏《第一狂战士：卡赞》推出大型更新，沉寂许久的作品迎来新内容，新版本加入臂铠武器、新BOSS及四款外观（含国风铠甲），本次更新为国区玩家优先上线，相关消息吸引不少海外玩家留意。",
           "summary_source": "llm"
         }
       ]
@@ -688,107 +812,6 @@
           "name": "生化危机1",
           "count": 1,
           "summary": "重磅爆料开启新重制，计划在维罗妮卡RE之后启动，正式用于系列新作之后",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "article_count": 108,
-      "game_count": 65,
-      "untagged_count": 38,
-      "digest": "今日游戏资讯聚焦于《GTA6》的预购数据与性能传闻，以及《杀戮尖塔2》的新角色更新引发强度争议。此外，小岛秀夫新作《OD Knock》公布实景录制细节，多款新游如《主星序》、《三圣石传说》及《危险等级》陆续发售或开启试玩。",
-      "digest_source": "llm",
-      "input_hash": "98ca8a2c0e163398",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 5,
-          "summary": "PS5版推送约1.073GB首日补丁，Sensor Tower估算预购总量破千万，其中75%为PS5版，此前曾考虑推出60帧模式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "杀戮尖塔2",
-          "count": 2,
-          "summary": "开发商推送Beta版本更新，新增首位可玩角色愚人及两种新模式，但新角色因强度过高被玩家戏称为“轮椅”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Bottled by Bears",
-          "count": 1,
-          "summary": "西班牙独立工作室Monoii Studio宣布，温馨治愈的放置收集游戏《Bottled by Bears》已于11月12日登陆Steam，首发限时享75折优惠。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA7",
-          "count": 1,
-          "summary": "游侠早报提及R星透露了《GTA7》的选址思路。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "OD Knock",
-          "count": 1,
-          "summary": "小岛工作室使用GoPro相机录制第一人称真实场景并导入游戏引擎，扫描了日剧《再见了，老师！》的实景房屋和古董家具。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三圣石传说",
-          "count": 1,
-          "summary": "Deck13 Spotlight发行的DRPG《三圣石传说》定于2027年1月21日登陆全平台，预告片同步公开。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "主星序",
-          "count": 1,
-          "summary": "第一人称太空模拟工厂建造游戏《主星序》今日正式登陆Steam开启抢先体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "僵尸世界大战",
-          "count": 1,
-          "summary": "全新“病毒之州”更新现已上线，玩家将前往佛罗里达开启新章节，包含四名全新付费生存者与两把免费新武器。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "元素命运",
-          "count": 1,
-          "summary": "德产2D奇幻RPG《元素命运》公布发售时间，PC、PS、Xbox版本将于12月8日发售，Switch版晚一周上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环：战役进化",
-          "count": 1,
-          "summary": "Halo Studios确认将于今年冬季为全版本玩家加入四人合作PvE模式“枪林弹雨”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "刺客信条",
-          "count": 1,
-          "summary": "育碧正在“认真考虑”让《刺客信条》重新加入现代剧情，甚至不排除让玩家再次操作现代世界中的角色。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 1,
-          "summary": "曾因《剑星》Switch 2版真人广告被误疑为“AI生成”的韩裔模特Jade J造访Shift Up工作室，与制作人金亨泰合影。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "勇者小队全灭了",
-          "count": 1,
-          "summary": "独立RPG《勇者小队全灭了。》上线Steam后好评率高达96%，目前正处于首发折扣期。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "危险等级",
-          "count": 1,
-          "summary": "1-4人联机恐怖生存游戏《危险等级》将于11月12日从抢先体验阶段正式转为正式版发售，同步登陆主机。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影：催化剂",
-          "count": 1,
-          "summary": "Amazon Games更新官网，移除了《古墓丽影：催化剂》登陆Nintendo Switch 2的相关表述，原定2028年发售窗口改为“待定”。",
           "summary_source": "llm"
         }
       ]
