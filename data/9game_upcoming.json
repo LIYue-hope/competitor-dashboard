@@ -1,9 +1,9 @@
 {
-  "crawled_at": "2026-11-23T02:28:19.245208+00:00",
+  "crawled_at": "2026-11-24T05:54:34.806076+00:00",
   "days": [
     {
       "date": "2026-11-24",
-      "date_label": "11月24日 明天",
+      "date_label": "11月24日 今天",
       "games": [
         {
           "game_name": "饥困荒野",
@@ -20,7 +20,7 @@
     },
     {
       "date": "2026-11-25",
-      "date_label": "11月25日 后天",
+      "date_label": "11月25日 明天",
       "games": [
         {
           "game_name": "战与灵",
@@ -37,7 +37,7 @@
     },
     {
       "date": "2026-11-26",
-      "date_label": "11月26日 周四",
+      "date_label": "11月26日 后天",
       "games": [
         {
           "game_name": "碎梦者",
@@ -171,6 +171,40 @@
       ]
     },
     {
+      "date": "2026-12-05",
+      "date_label": "12月05日 下周六",
+      "games": [
+        {
+          "game_name": "冲吧勇者",
+          "categories": [
+            "卡牌"
+          ],
+          "score": null,
+          "event_desc": "高颜值福利卡牌",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/cbyz/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-12-08",
+      "date_label": "12月08日",
+      "games": [
+        {
+          "game_name": "群英争雄",
+          "categories": [
+            "策略"
+          ],
+          "score": null,
+          "event_desc": "策略卡牌三国",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/qunyingzhengxiong/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
       "date": "2026-12-09",
       "date_label": "12月09日",
       "games": [
@@ -188,6 +222,23 @@
       ]
     },
     {
+      "date": "2026-12-10",
+      "date_label": "12月10日",
+      "games": [
+        {
+          "game_name": "斗神萌将",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/doushenmengjiang/",
+          "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
       "date": "2026-12-15",
       "date_label": "12月15日",
       "games": [
@@ -200,6 +251,23 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/wjbwz/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-12-17",
+      "date_label": "12月17日",
+      "games": [
+        {
+          "game_name": "异人之下",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": "8.1",
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/yirenzhixia2/",
           "has_afk_grinding_tag": false
         }
       ]
@@ -245,6 +313,23 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/tianmingchuanqi/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-12-31",
+      "date_label": "12月31日",
+      "games": [
+        {
+          "game_name": "小兵打天下",
+          "categories": [
+            "策略"
+          ],
+          "score": null,
+          "event_desc": "多文明SLG手游",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/xbdtx/",
           "has_afk_grinding_tag": false
         }
       ]

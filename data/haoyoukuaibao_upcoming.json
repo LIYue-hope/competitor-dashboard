@@ -1,9 +1,9 @@
 {
-  "crawled_at": "2026-11-23T02:27:41.369774+00:00",
+  "crawled_at": "2026-11-24T05:53:26.098242+00:00",
   "days": [
     {
       "date": "2026-11-24",
-      "date_label": "11月24日 明天",
+      "date_label": "11月24日 今天",
       "games": [
         {
           "game_name": "饥困荒野-11月24日上线",
@@ -13,11 +13,11 @@
             "沙盒"
           ],
           "score": "7.1",
-          "event_desc": "10:00 正式上线，将提前开服",
+          "event_desc": "10:00 正式上线，会提前开服",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/124032.htm",
           "publisher": "腾讯",
-          "reservation_count": "129.6万",
+          "reservation_count": null,
           "has_afk_grinding_tag": false
         },
         {
@@ -32,7 +32,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/164274.htm",
           "publisher": "上海蛮奈网络科技有限公司",
-          "reservation_count": "68.6万",
+          "reservation_count": "69.2万",
           "has_afk_grinding_tag": false
         },
         {
@@ -47,7 +47,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/204452.htm",
           "publisher": "Netflix, Inc.",
-          "reservation_count": "14128",
+          "reservation_count": "14698",
           "has_afk_grinding_tag": false
         },
         {
@@ -57,12 +57,27 @@
             "角色扮演",
             "剧情"
           ],
-          "score": "8.6",
+          "score": "8.3",
           "event_desc": "10:00 正式上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/196521.htm",
           "publisher": "成都嘉谊互娱科技有限公司",
-          "reservation_count": "4849",
+          "reservation_count": null,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "相亲练习手册",
+          "categories": [
+            "模拟",
+            "剧情",
+            "文字"
+          ],
+          "score": null,
+          "event_desc": "09:00 上线试玩",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/206805.htm",
+          "publisher": null,
+          "reservation_count": null,
           "has_afk_grinding_tag": false
         },
         {
@@ -92,7 +107,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202760.htm",
           "publisher": "厦门纪石科技有限公司",
-          "reservation_count": "124",
+          "reservation_count": null,
           "has_afk_grinding_tag": true
         },
         {
@@ -107,14 +122,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/205686.htm",
           "publisher": "Secret Mode Ltd",
-          "reservation_count": "144",
+          "reservation_count": "154",
           "has_afk_grinding_tag": false
         }
       ]
     },
     {
       "date": "2026-11-25",
-      "date_label": "11月25日 后天",
+      "date_label": "11月25日 明天",
       "games": [
         {
           "game_name": "生存日记",
@@ -128,22 +143,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/206095.htm",
           "publisher": "五月四工作室",
-          "reservation_count": "116",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "相亲练习手册",
-          "categories": [
-            "模拟",
-            "剧情",
-            "文字"
-          ],
-          "score": null,
-          "event_desc": "09:00 上线试玩",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/206805.htm",
-          "publisher": null,
-          "reservation_count": "22",
+          "reservation_count": "124",
           "has_afk_grinding_tag": false
         },
         {
@@ -158,14 +158,14 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/201487.htm",
           "publisher": null,
-          "reservation_count": "372",
+          "reservation_count": "482",
           "has_afk_grinding_tag": true
         }
       ]
     },
     {
       "date": "2026-11-26",
-      "date_label": "11月26日 周四",
+      "date_label": "11月26日 后天",
       "games": [
         {
           "game_name": "蓝色星原：旅谣-11月26日上线(官服)",
@@ -175,11 +175,11 @@
             "美少女"
           ],
           "score": "8.4",
-          "event_desc": "距11月26日早10点上线剩3天",
+          "event_desc": "距11月26日早10点上线剩2天",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/164274.htm",
           "publisher": "上海蛮奈网络科技有限公司",
-          "reservation_count": "68.6万",
+          "reservation_count": "69.2万",
           "has_afk_grinding_tag": false
         },
         {
@@ -189,12 +189,33 @@
             "竞技",
             "射击"
           ],
-          "score": "9.1",
+          "score": "9.0",
           "event_desc": "海外上线，具体几点待定",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/197070.htm",
           "publisher": "TRYMISS",
-          "reservation_count": "36586",
+          "reservation_count": "36640",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "date_label": "11月29日 周日",
+      "games": [
+        {
+          "game_name": "忍者连结 -闪乱神乐-",
+          "categories": [
+            "换装",
+            "角色扮演",
+            "3D"
+          ],
+          "score": null,
+          "event_desc": "海外上线，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/202410.htm",
+          "publisher": "HONEY PARADE GAMES Inc.",
+          "reservation_count": "78",
           "has_afk_grinding_tag": false
         }
       ]

@@ -1,208 +1,309 @@
 {
-  "generated_at": "2026-11-23T02:38:08.419393+00:00",
+  "generated_at": "2026-11-24T06:04:50.159095+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-23",
-      "article_count": 41,
-      "game_count": 19,
-      "untagged_count": 2,
-      "digest": "今日游戏资讯聚焦于《GTA6》引发的玩家怀旧情绪及前主创动向，同时涉及多款游戏发售、定价及争议。R星前主创Dan Houser离开后成立Absurd Ventures工作室开发新作，引发玩家对《GTA6》剧情的讨论；育碧确认移动端《刺客信条：侠隐》仍在开发；《以撒的结合：忏悔+》因使用未披露AI音乐遭遇差评如潮；《死亡空间》重制版PS5数字版大幅降价至7美元。",
+      "date": "2026-11-24",
+      "article_count": 58,
+      "game_count": 27,
+      "untagged_count": 7,
+      "digest": "今日游戏资讯聚焦于《GTA6》前技术总监对游戏开篇体验的评价，以及新版《GTAOL》可能超越《堡垒之夜》收入的预测。此外，多款新作如《MONOPHOBIA》、《不要输！魔剑道1&2》及《冰与火之歌》公布发售信息，而《RuneScape》则因玩家反馈取消了备受争议的Reignited模式。",
       "digest_source": "llm",
-      "input_hash": "a0e7ae8ba2c7c7d6",
+      "input_hash": "5f086fb971ba7f78",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 20,
-          "summary": "《GTA6》前主创Dan Houser离开R星后成立Absurd Ventures工作室，正在开发两款开放世界动作冒险游戏，引发玩家对系列剧情及前作编剧的怀念与讨论。",
+          "count": 25,
+          "summary": "前Rockstar技术总监Obbe Vermeij在游玩后表示，游戏首章给予玩家选择较少，直到第二章才开始展现沙盒魅力，他认同部分玩家对开篇教程多、任务设计基础以及“现实感压过玩法”的批评。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTAOL",
+          "count": 1,
+          "summary": "美国银行分析师Omar Dessouky看好新版《GTAOL》，预计其长期收入可能超过《堡垒之夜》，这一判断基于《GTA6》初期已售出约4490万份、收入超过40亿美元的商业表现。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "MONOPHOBIA",
+          "count": 1,
+          "summary": "松竹游戏与Dendrobium在WePlay 2026公开了《MONOPHOBIA》中文版试玩，展示了少女主角中野篠在校园调查中触碰物品读取记忆碎片，以及应对心理恐怖元素的故事开篇。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "RuneScape",
+          "count": 1,
+          "summary": "《RuneScape》团队听取玩家反馈后，已取消刚公布不久的Reignited模式，创意总监Ryan Philpott表示团队在整理意见后决定撤回方案，称游戏需要增长但不能以现有玩家为代价。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "SO-JI Why Why Japanese SHINJUKU",
+          "count": 1,
+          "summary": "Get Up正式公布近未来清洁动作游戏《SO-JI Why Why Japanese SHINJUKU》，并开放了Steam免费试玩，玩家将扮演双胞胎员工对抗失控AI清洁机器人。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "不要输！魔剑道1&2",
+          "count": 1,
+          "summary": "Edia公布《不要输！魔剑道1&2》，确认游戏将于2027年3月18日登陆PS5、Switch和Steam，将收录初代横版动作与续作格斗玩法，并推出含海报、CD的特装版。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "世界大战：西伯利亚",
+          "count": 1,
+          "summary": "Comic Con Игромир 2026公布游戏板块安排，《世界大战：西伯利亚》将在12月3日至6日的展会上首次开放公开试玩，玩家将在河边渔屋抵御敌人体验战斗系统。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仁王3",
+          "count": 1,
+          "summary": "光荣特库摩宣布《仁王3》DLC“天草大乱”将于2026年12月17日上线，登陆PS5与PC，该DLC将为游戏主线故事收尾，并加入可自由组合战场效果的“修罗战场”终局挑战。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "冰与火之歌",
+          "count": 1,
+          "summary": "《冰与火之歌》公布将于2027年发售，游戏允许玩家通过阵营和策略选择改变角色命运，玩家可选择史塔克、坦格利安、兰尼斯特或夜王阵营，走出不同于电视剧的故事路线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "古墓丽影：催化剂",
+          "count": 1,
+          "summary": "Amazon页面曾显示《古墓丽影：催化剂》将登陆Nintendo Switch 2，但该页面已被删除，目前官方仅公布了PC、PS5及Xbox Series S/X版本，Switch 2版仍属推测。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "复仇者联盟：毁灭之日",
+          "count": 1,
+          "summary": "外媒评论文章提出，《复仇者联盟：毁灭之日》可以让詹姆斯·麦斯登饰演的镭射眼成为连接福克斯版X战警与2028年重启系列的桥梁，但这只是作者对旧版角色收尾方式的设想。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "大概是偷来的",
+          "count": 1,
+          "summary": "Tinybuild负责人Alex Nichiporchik表示，缩短宣发周期可降低仿作风险，其赛博朋克商店模拟游戏《大概是偷来的》在公布不足三个月后发售，销量已突破100万份。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "女神异闻录4：复兴版",
+          "count": 1,
+          "summary": "Atlus公开了《女神异闻录4：复兴版》第六批新情报，介绍了篮球部、足球部等六名学生，并披露了社团选择及“社群能力”系统，玩家可通过互动提升社群等级解锁新技能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "恶魔之魂",
+          "count": 1,
+          "summary": "非官方项目Regaliant已开放《恶魔之魂》重制版PC移植早期版本，该版本不模拟PS5 CPU，而是让原始代码在PC处理器上执行，并加入了DLSS、FSR等设置及多种显示功能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "明日方舟：终末地",
+          "count": 1,
+          "summary": "《明日方舟：终末地》将与日本披萨品牌PIZZA-LA展开联动，活动将于12月3日启动，推出附带佩丽卡、明昊及“ケーちゃん”周边的限量特别套餐。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "article_count": 96,
+      "game_count": 51,
+      "untagged_count": 6,
+      "digest": "GTA6发售引发行业关注，分析师估算其四天销量达4490万套，收入约40亿美元，其中PS5版占75.1%。同时，Nicalis因《以撒的结合：忏悔+》使用未披露的AI音乐遭差评如潮后紧急移除，反恐精英2则创下了Steam评测突破1000万篇的纪录。",
+      "digest_source": "llm",
+      "input_hash": "d8d1125a9b54b339",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 34,
+          "summary": "分析师估算其四天销量4490万套，收入约40亿美元，其中PS5版占75.1%，约76%玩家使用该平台游玩。",
           "summary_source": "llm"
         },
         {
           "name": "GTA3",
           "count": 2,
-          "summary": "前高管回忆《侠盗猎车3》PS2独占交易细节，称索尼美国团队起初迟疑，Take-Two与索尼达成协议，除现金外每份游戏还可获得约2.5至3美元的成本优惠。",
+          "summary": "前高管回忆称索尼美国团队起初迟疑，Take-Two与Rockstar当时更倾向支持PlayStation，并从每份游戏中获得约2.5至3美元的成本优惠。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "以撒的结合：忏悔+",
+          "count": 2,
+          "summary": "因使用未披露的生成式AI音乐遭差评如潮，Nicalis已通过补丁删除相关内容，PC版已上线，主机版正在审核。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说：时之笛",
+          "count": 2,
+          "summary": "X平台出现支持者互相评分轰炸的争议，部分低分被投向1998年的原版游戏，焦点在于为何经典老游戏成为目标。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "宝可梦：风/波",
+          "count": 2,
+          "summary": "宝可梦公司将在英国三城举办亲子卡牌教学活动，帮助年轻玩家接触“Mega Evolution Delta Reign”卡牌系列。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7",
+          "count": 2,
+          "summary": "重制三部曲创作方向曾存在分歧，北濑佳范想大改，滨口直树坚持保留原作优势，后者思路影响了整个系列方向。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "最终幻想7：启示",
+          "count": 2,
+          "summary": "该作已获ESRB T级评级，将登陆Switch 2，发售日期确定为2027年4月8日。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FOAMGRAVE",
+          "count": 1,
+          "summary": "TriadPixel开放海洋生存沙盒测试，玩家需在海上搭建住处并生存，游戏包含PvP与海盗船战斗内容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Muv-Luv 少女庭园",
+          "count": 1,
+          "summary": "全球版将于11月24日在Steam上线，这是一款全自动放置型RPG，累计销量已突破100万套。",
           "summary_source": "llm"
         },
         {
           "name": "人类熔炉",
           "count": 1,
-          "summary": "《人类熔炉》预计于2027年上半年发售，玩家将在游戏中制造人类并播出其人生，角色经历戏剧性事件越多获得的金钱越多。",
+          "summary": "预计于2027年上半年发售，玩家将制造角色并播出其人生，通过戏剧性事件获取金钱。",
           "summary_source": "llm"
         },
         {
-          "name": "以撒的结合：忏悔+",
+          "name": "使命召唤：现代战争4",
           "count": 1,
-          "summary": "《以撒的结合：忏悔+》因加入未披露的AI生成音乐遭遇大量差评，Steam好评率降至8%，引发争议的音乐目前已从游戏中撤下。",
+          "summary": "动视申请AI语音系统专利，旨在利用玩家聊天记录训练NPC，使其在关键时刻重现玩家的反应。",
           "summary_source": "llm"
         },
         {
           "name": "刺客信条：侠隐",
           "count": 1,
-          "summary": "育碧确认移动游戏《刺客信条：侠隐》仍在开发，并未取消，目前归入育碧与腾讯合资公司Vantage Studios旗下，但未公布新发售窗口。",
+          "summary": "育碧确认该移动游戏仍在开发，未公布新发售窗口，目前归入育碧与腾讯合资公司Vantage Studios旗下。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "卡莉亚的炼金工房",
+          "count": 1,
+          "summary": "光荣特库摩公开优米雅战斗演示，展示其使用藏有枪械的手杖及舞蹈进行攻击和辅助的玩法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "反恐精英2",
+          "count": 1,
+          "summary": "Steam评测数量突破1000万篇，成为平台首款跨过这一门槛的游戏，整体评价维持“特别好评”。",
           "summary_source": "llm"
         },
         {
           "name": "哥特王朝1重制版",
           "count": 1,
-          "summary": "《哥特王朝1重制版》PS5日本版延期发售，原有计划已调整，新发售日期尚未确定，已预购玩家将获得退款。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "宝可梦 心金·魂银",
-          "count": 1,
-          "summary": "粉丝原生移植版已加入宽屏显示、立体声及60帧运行表现，支持本地无线连接，并增加了图鉴追踪、战斗提示等便利设计。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "宝可梦：风/波",
-          "count": 1,
-          "summary": "宝可梦限量护发产品公开，共有迷唇姐、皮卡丘、百变怪和胖丁四种款式，将以数量限定形式销售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "我独自升级：崛起",
-          "count": 1,
-          "summary": "《我独自升级：崛起》更新加入两件卡米什SSR火属性武器“卡米什之怒”和“卡米什之咆哮”，并公开了新角色塔莉娅·德·罗西。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "我的世界",
-          "count": 1,
-          "summary": "爆料称乐高可能在2027年初推出11款套装，其中5款为《我的世界》主题，价格区间为9.99至69.99美元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战争机器：事变日",
-          "count": 1,
-          "summary": "《战争机器：事变日》虽未登陆PS平台，但在美国10月游戏销量榜上拿下第2名，仅次于《使命召唤：现代战争4》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想7",
-          "count": 1,
-          "summary": "北濑佳范在G-STAR 2026活动上谈《最终幻想7》重制创作思路，表示团队保留原作“生命”主题，通过新增场景和细腻演出深化角色塑造。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想7重制版",
-          "count": 1,
-          "summary": "《最终幻想7 重制版》系列现已登陆Xbox平台，前作标准版定价39.99美元，续作《重生》定价49.99美元，且续作不会进入XGP。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "死亡空间",
-          "count": 1,
-          "summary": "《死亡空间》重制版PS5数字版进行促销，美元区售价由70美元降至7美元，折扣幅度为90%，活动持续至12月1日。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "神鬼寓言",
-          "count": 1,
-          "summary": "Playground Games公布《神鬼寓言》新截图，展示Wraithmarsh阴郁沼泽环境，多艘沉船残骸散布其中，将成为玩家探索的起点。",
+          "summary": "PS5日本版因内容表现调整延期，新发售日未确定，已预购玩家将获得退款。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-11-22",
-      "article_count": 22,
+      "article_count": 27,
       "game_count": 15,
-      "untagged_count": 2,
-      "digest": "今日游戏资讯聚焦于《GTA6》玩家因PSN违规遭封禁事件，以及《仁王3》获韩方19禁评级等新动向。多款恐怖新作如《ILL》、《PSYCHO DEAD》公布发售计划，而《养鬼吃人：复兴》则击败《生化危机9》斩获年度游戏。此外，《恐鬼症》公布Unity 6引擎更新，R星选角导演变动及《质量效应》粉丝众筹提议也引发关注。",
+      "untagged_count": 7,
+      "digest": "当日（2026-11-22）3DMGame新闻共27条，涉及游戏15款，整体围绕电子游戏动态展开，涵盖恐怖游戏宣传与发布、平台封禁与线上热度、IP改编与分级争议、联机体验问题等不同类型内容，部分游戏涉及发售、更新、争议与分级等动态，整体呈现出游戏行业信息多元、聚焦具体项目与平台治理的实际情况。",
       "digest_source": "llm",
-      "input_hash": "642d9383505a7d04",
+      "input_hash": "048a937f64bc1e92",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 6,
-          "summary": "玩家DerrickGott007因通过PSN消息发送游戏内果体照片，被PlayStation Safety认定违反平台准则，遭社交功能封禁30天，并警告后续违规可能导致整个账号停用。",
-          "summary_source": "llm"
+          "summary": "《GTA6》玩家称发送果体营地照片后遭PSN封禁30天；一个女人毁了一切！网友痛批《GTA6》为何这么烂；《GTA6》ATM操作繁琐遭吐槽 玩家呼吁支持直接输金额（当天共 6 条）",
+          "summary_source": "rules"
         },
         {
           "name": "ILL",
           "count": 1,
-          "summary": "第一人称动作恐怖游戏《ILL》新宣传片公开，玩家将被困阴森要塞对抗怪物，游戏将于2027年登陆PC、Xbox及PS5平台。",
-          "summary_source": "llm"
+          "summary": "肉体恐怖游戏《ILL》新宣传片 2027年发售。",
+          "summary_source": "rules"
         },
         {
           "name": "PSYCHO DEAD",
           "count": 1,
-          "summary": "第三人称生存恐怖游戏《PSYCHO DEAD》官方发售日宣传片公开，将于2027年4月15日登陆Steam和PS5，试玩DEMO已在商店页开放。",
-          "summary_source": "llm"
+          "summary": "生存恐怖TPS《PSYCHO DEAD》新预告 2027年4月发售。",
+          "summary_source": "rules"
         },
         {
           "name": "亡命狂奔",
           "count": 1,
-          "summary": "因Rockstar未确认《GTA6》PC版发售时间，警匪题材沙盒游戏《亡命狂奔》热度飙升，11月15日峰值在线人数突破50万。",
-          "summary_source": "llm"
+          "summary": "Steam在线热度前五游戏成GTA6平替 实际体验乱象丛生。",
+          "summary_source": "rules"
         },
         {
           "name": "仁王3 完全版",
           "count": 1,
-          "summary": "韩国游戏分级管理委员会（GRAC）评定《仁王3 完全版》为19禁级别，理由为暴力表现程度过高，光荣特库摩尚未正式官宣。",
-          "summary_source": "llm"
+          "summary": "《仁王3 完全版》尚未官宣 已获韩国分级机构19禁评级。",
+          "summary_source": "rules"
         },
         {
           "name": "以撒的结合",
           "count": 1,
-          "summary": "《以撒的结合》联机DLC“忏悔+”正式版上线，但因网络代码问题频发，导致不同步和掉线，收获玩家差评。",
-          "summary_source": "llm"
+          "summary": "《以撒的结合》联机DLC体验糟糕 收获玩家多半差评。",
+          "summary_source": "rules"
         },
         {
           "name": "全面战争：战锤40K",
           "count": 1,
-          "summary": "开发商Creative Assembly展示游戏架构，将整个游戏拆分为多个迷你战役，每个星系拥有独立的战役内容和目标。",
-          "summary_source": "llm"
+          "summary": "《全面战争：战锤40K》设星系迷你战役 各有专属剧情目标。",
+          "summary_source": "rules"
         },
         {
           "name": "养鬼吃人：复兴",
           "count": 1,
-          "summary": "第一人称生存恐怖游戏《养鬼吃人：复兴》击败《生化危机9：安魂曲》获得2026年恐怖游戏奖年度游戏，主演Doug Bradley同时获最佳表演奖。",
-          "summary_source": "llm"
+          "summary": "《养鬼吃人：复兴》击败《生化危机9》获2026年恐怖游戏奖年度游戏。",
+          "summary_source": "rules"
         },
         {
           "name": "恐鬼症",
           "count": 1,
-          "summary": "《恐鬼症》“共鸣”更新将于11月24日上线，游戏引擎升级至Unity 6，新增探灵杖、声音传感器重做及自定义地图池等功能。",
-          "summary_source": "llm"
+          "summary": "《恐鬼症》共鸣更新下周上线 新增鬼魂抛物语音指令。",
+          "summary_source": "rules"
         },
         {
           "name": "星球大战：银河赛车手",
           "count": 1,
-          "summary": "《星球大战：银河赛车手》配角比迪·布拉斯人气爆火，热度超出开发商Fuse Games预期，其魔性赫特语独白广为流传。",
-          "summary_source": "llm"
+          "summary": "《星球大战：银河赛车手》配角爆火 热度超出开发商预期。",
+          "summary_source": "rules"
         },
         {
           "name": "玩具总动员3",
           "count": 1,
-          "summary": "Digital Eclipse计划将历代《玩具总动员》游戏移植至现代平台，并推出包含高清重制版在内的“复古精选集”实体版本。",
-          "summary_source": "llm"
+          "summary": "《玩具总动员3》至今仍是影改游戏的黄金标杆。",
+          "summary_source": "rules"
         },
         {
           "name": "荒野大镖客",
           "count": 1,
-          "summary": "报道称《荒野大镖客》影视改编版权报价达1亿美元，但Rockstar Games对《GTA》电影改编项目毫无兴趣，认为将游戏核心玩法改为电影是多此一举。",
-          "summary_source": "llm"
+          "summary": "报道称《荒野大镖客》影视改编版权报价达1亿美元。",
+          "summary_source": "rules"
         },
         {
           "name": "荒野大镖客2",
           "count": 1,
-          "summary": "曾在《荒野大镖客2》中饰演阿比盖尔·罗伯茨的凯莉·伊丽莎白·摩尔已转任R星正式员工，担任《GTA6》内部选角导演。",
-          "summary_source": "llm"
+          "summary": "《荒野大镖客2》女演员转任《GTA6》选角导演。",
+          "summary_source": "rules"
         },
         {
           "name": "质量效应",
           "count": 1,
-          "summary": "女薛帕德配音演员詹妮弗·黑尔提议粉丝发起众筹项目，以收购《质量效应》IP并重启《质量效应：宇宙》项目。",
-          "summary_source": "llm"
+          "summary": "女薛帕德配音演员提议粉丝众筹收购《质量效应》IP。",
+          "summary_source": "rules"
         },
         {
           "name": "醜伊",
           "count": 1,
-          "summary": "第三人称生存恐怖游戏《醜伊》公布，登陆PC、Xbox、PS5及Switch 2平台，玩家将在传统日式宅邸中扮演双主角小野寺柊和美山玲子。",
-          "summary_source": "llm"
+          "summary": "第三人称生存恐怖游戏《醜伊》公布 扮演双主角。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -891,107 +992,6 @@
           "name": "银翼杀手",
           "count": 1,
           "summary": "Alcon Entertainment证实已就制作一款基于《银翼杀手》系列的AAA游戏展开商谈，但项目尚未正式立项。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "article_count": 51,
-      "game_count": 32,
-      "untagged_count": 6,
-      "digest": "今日游戏行业资讯聚焦于《GTA6》的玩法革新与《万智牌》新系列发售计划，同时任天堂调整《塞尔达传说》时间线引发争议，育碧批准开发《彩虹六号：维加斯》新作，Riot研究调整2027年《英雄联盟》全球总决赛赛制，Take Two强调保持独立并预计本财年营收80亿至82亿美元，Kefir推出的《亡命狂奔》Steam同时在线峰值突破36.5万，飞燕群岛工作室为《光明记忆：无限》五周年开启60%折扣促销。",
-      "digest_source": "llm",
-      "input_hash": "596dcfd93f805a09",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 10,
-          "summary": "Rockstar透露《GTA6》将加入同理心机制，允许玩家扮演好人，犯罪仍是核心玩法。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "万智牌",
-          "count": 2,
-          "summary": "威世智公布“纳克提斯”系列将于2027年2月5日发售，并首次引入“神包”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说",
-          "count": 2,
-          "summary": "任天堂美国官网更新时间线，将首场大灾厄调整至《旷野之息》约一两个世纪前，引发玩家对标注错误的质疑。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "彩虹六号：维加斯",
-          "count": 2,
-          "summary": "匿名消息称育碧已批准开发代号为“Spades”的新作，由育碧蒙特利尔推进，预计为《彩虹六号：维加斯3》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "英雄联盟",
-          "count": 2,
-          "summary": "Riot正在研究取消2027年全球总决赛入围赛，改用结合德玛西亚杯全球邀请赛的赛制。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Take Two",
-          "count": 1,
-          "summary": "CEO Strauss Zelnick强调公司保持独立意愿，本财年营收预计达80亿至82亿美元。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "亡命狂奔",
-          "count": 1,
-          "summary": "Kefir推出的免费犯罪沙盒《亡命狂奔》Steam同时在线峰值突破36.5万。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光明记忆：无限",
-          "count": 1,
-          "summary": "飞燕群岛工作室为庆祝《光明记忆：无限》发售五周年，开启60%折扣促销。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛",
-          "count": 1,
-          "summary": "重制版让原作怪异角色全部回归，但部分角色因细节调整被认为失去了古怪感。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：旷野之息",
-          "count": 1,
-          "summary": "前员工称该作拯救了陷入严重发展困境的塞尔达系列，当时游戏销量惨淡。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3",
-          "count": 1,
-          "summary": "CDPR使用Respeecher AI技术处理中风演员Jacek Rozenek的声音，以保留其配音风格。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师4",
-          "count": 1,
-          "summary": "CD Projekt Red招聘法律顾问合同至2028年4月30日，疑似暗示游戏或定档2028年5月。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战神：斯巴达之子",
-          "count": 1,
-          "summary": "《战神：斯巴达之子》将于11月16日登陆PS4，并新增赫尔墨斯与厄瑞玻斯两种模式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "战锤幸存者",
-          "count": 1,
-          "summary": "开发商公布2026年末至2027年免费更新路线图，12月将新增角色与武器。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "收获日3",
-          "count": 1,
-          "summary": "《收获日3》免费周末活动成功，32万玩家参与，其中25万为新玩家。",
           "summary_source": "llm"
         }
       ]
