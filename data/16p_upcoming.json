@@ -1,67 +1,9 @@
 {
-  "crawled_at": "2026-11-24T05:54:54.011721+00:00",
+  "crawled_at": "2026-11-25T04:53:03.455536+00:00",
   "days": [
     {
-      "date": "2026-11-24",
-      "date_label": "11月24日 今天",
-      "games": [
-        {
-          "game_name": "网文高手模拟器",
-          "categories": [
-            "文字",
-            "TapTap制造",
-            "模拟",
-            "都市"
-          ],
-          "score": "8.9",
-          "release_date": "2026-11-24",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1962177.html",
-          "publisher": "糖画制造",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "幻梦无年",
-          "categories": [
-            "武侠",
-            "动作",
-            "角色扮演",
-            "冒险"
-          ],
-          "score": "8.9",
-          "release_date": "2026-11-24",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1953105.html",
-          "publisher": "成都嘉谊互娱科技有限公司",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "饥困荒野",
-          "categories": [
-            "编辑推荐",
-            "多人联机",
-            "沙盒",
-            "生存",
-            "SOC",
-            "冒险",
-            "建造",
-            "角色扮演"
-          ],
-          "score": "7.3",
-          "release_date": "2026-11-24",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1866809.html",
-          "publisher": "腾讯",
-          "is_major_publisher": true,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-11-25",
-      "date_label": "11月25日 明天",
+      "date_label": "11月25日 今天",
       "games": [
         {
           "game_name": "灵宝派对",
@@ -81,6 +23,20 @@
           "has_afk_grinding_tag": false
         },
         {
+          "game_name": "出道吧!大明星",
+          "categories": [
+            "模拟",
+            "都市"
+          ],
+          "score": "9.3",
+          "release_date": "2026-11-25",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1962796.html",
+          "publisher": "华飞工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
           "game_name": "生存日记",
           "categories": [
             "建造",
@@ -92,7 +48,7 @@
             "动作",
             "冒险"
           ],
-          "score": "6.7",
+          "score": "6.8",
           "release_date": "2026-11-25",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1962385.html",
@@ -104,7 +60,7 @@
     },
     {
       "date": "2026-11-26",
-      "date_label": "11月26日 后天",
+      "date_label": "11月26日 明天",
       "games": [
         {
           "game_name": "蓝色星原:旅谣",
@@ -153,8 +109,24 @@
     },
     {
       "date": "2026-11-27",
-      "date_label": "11月27日 周五",
+      "date_label": "11月27日 后天",
       "games": [
+        {
+          "game_name": "从小齿轮转到一个亿",
+          "categories": [
+            "模拟",
+            "休闲",
+            "放置",
+            "低多边形"
+          ],
+          "score": "9.2",
+          "release_date": "2026-11-27",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1963911.html",
+          "publisher": "无限创造无限进步工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": true
+        },
         {
           "game_name": "终极地城",
           "categories": [
@@ -203,11 +175,53 @@
             "角色扮演",
             "文字"
           ],
-          "score": "9.5",
+          "score": "9.6",
           "release_date": "2026-11-30",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1963206.html",
           "publisher": "散会的工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-12-01",
+      "date_label": "12月01日 下周二",
+      "games": [
+        {
+          "game_name": "深渊之影",
+          "categories": [
+            "Roguelite",
+            "动作",
+            "角色扮演",
+            "地牢",
+            "节奏",
+            "闯关",
+            "魔法",
+            "魔幻",
+            "Steam移植"
+          ],
+          "score": "7.0",
+          "release_date": "2026-12-01",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1906126.html",
+          "publisher": "深圳市凉屋游戏科技有限公司",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "变形金刚:新纪元",
+          "categories": [
+            "策略",
+            "剧情",
+            "收集"
+          ],
+          "score": "8.6",
+          "release_date": "2026-12-01",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952894.html",
+          "publisher": "Wanda Game",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }

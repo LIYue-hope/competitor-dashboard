@@ -1,15 +1,50 @@
 {
-  "generated_at": "2026-11-24T06:26:01.741935+00:00",
+  "generated_at": "2026-11-25T05:16:11.293956+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
+      "date": "2026-11-25",
+      "article_count": 7,
+      "game_count": 4,
+      "untagged_count": 3,
+      "digest": "年末国内游戏市场“神仙打架”格局已定，魔方新游《异人之下》定档12月17日，顽核社《我带过最差的一届》发售12天销量破百万，世纪华通代理的《饥困荒野》今日上线，另有《甄嬛传》相关小游戏登顶微信畅销榜第16名。",
+      "digest_source": "llm",
+      "input_hash": "3588cde5a545de19",
+      "game_digests": [
+        {
+          "name": "异人之下",
+          "count": 1,
+          "summary": "魔方新游《异人之下》定档12月17日，年末“二游大混战”全部就位。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "我带过最差的一届",
+          "count": 1,
+          "summary": "《我带过最差的一届》发售12天销量破百万，成为今年第四款百万国单。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "甄嬛传",
+          "count": 1,
+          "summary": "《甄嬛传》小游戏大乱斗，有人靠AI漫剧摸到微信畅销榜第16名。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "饥困荒野",
+          "count": 1,
+          "summary": "由腾讯代理发行、盛趣游戏研发的《饥困荒野》今日正式上线。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
       "date": "2026-11-24",
       "article_count": 6,
       "game_count": 0,
       "untagged_count": 6,
-      "digest": "今日 GameLook 共发布 6 条行业资讯，内容涵盖游戏出海、行业监管、投融资及市场动态。报道涉及《黑神话：悟空》海外发行、腾讯收购 Supercell、中国游戏出海收入、游戏版号发放、游戏出海合规及游戏行业投融资趋势，未指向具体单款游戏。",
+      "digest": "今日 GameLook 共发布 6 条行业资讯，内容聚焦于游戏出海、政策监管及行业动态，未涉及具体游戏产品的发售、更新或销量数据。报道涵盖了《黑神话：悟空》海外发行策略调整、中国游戏厂商在海外市场的表现、游戏出海的监管趋势、游戏出海的营销趋势以及游戏出海的合规挑战。",
       "digest_source": "llm",
       "input_hash": "a84735eacd73dfe5",
       "game_digests": []
@@ -199,16 +234,6 @@
           "summary_source": "llm"
         }
       ]
-    },
-    {
-      "date": "2026-11-15",
-      "article_count": 1,
-      "game_count": 0,
-      "untagged_count": 1,
-      "digest": "11月15日 GameLook 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「凤凰山巅京城德比 北京WB荣耀加冕2026KPL年总决赛冠军」。未指向具体游戏的内容占当天的 100%。",
-      "digest_source": "rules",
-      "input_hash": "c4fb1ebb5e3982e6",
-      "game_digests": []
     }
   ]
 }

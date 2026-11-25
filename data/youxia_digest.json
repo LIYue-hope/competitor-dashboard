@@ -1,46 +1,171 @@
 {
-  "generated_at": "2026-11-24T06:13:32.413903+00:00",
+  "generated_at": "2026-11-25T05:05:51.272266+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "article_count": 21,
-      "game_count": 9,
-      "untagged_count": 7,
-      "digest": "今日游戏资讯聚焦于《GTA6》泄露风波与《仁王3》发售，同时《饥困荒野》手游上线及《黑暗之魂》史低促销引发关注。此外，ATLUS公布《女神异闻录4：复兴版》新情报，世嘉宣布《愚者不灭》发售并开启优惠，Edia公布《不要输！魔剑道1&2》定档，R星与Remedy合作重制《马克思佩恩》获好评。",
+      "game_count": 10,
+      "untagged_count": 3,
+      "digest": "R星针对《GTA6》PC移植项目展开全面封杀，博主因发布技术观察视频收到DMCA警告；卡普空宣布多人对战游戏《原始袭变》将于2027年9月29日关服；CDPR与索尼达成合作，PlayStation将成为《巫师4》独家营销主阵地，CEO称其进化可比肩《GTA6》。",
       "digest_source": "llm",
-      "input_hash": "86672196b19362e1",
+      "input_hash": "0fdbaaaf2d841d4a",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 6,
-          "summary": "R星与Remedy合作重制《马克思佩恩》1、2代，Remedy首席执行官盛赞对方“非常尊重Remedy”“是个很棒的合作伙伴”。",
+          "count": 7,
+          "summary": "R星对PC移植项目展开全面封杀，博主因发布技术观察视频收到DMCA警告。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "原始袭变",
+          "count": 2,
+          "summary": "卡普空宣布多人团队对战游戏《原始袭变》将于2027年9月29日关服。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 2,
+          "summary": "CDPR与索尼达成合作，PlayStation将成为《巫师4》独家营销主阵地。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "PUBG",
+          "count": 1,
+          "summary": "公布限定音乐计划“THE SQUAD”，组合IVE将作为首位参与艺人登场。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "原子之心",
+          "count": 1,
+          "summary": "Mundfish公开多人衍生作《原子之心：The CUBE》新预告。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "忍者龙剑传4",
+          "count": 1,
+          "summary": "中国官方发布新宣传片，配合Steam五折促销，标准版降至149元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "恶魔之魂RE",
+          "count": 1,
+          "summary": "网友发布非官方PC移植项目Regaliant早期版本，支持超宽屏与超分。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星际 异端先知",
+          "count": 1,
+          "summary": "顽皮狗新作预计最早2027年发售，工作室已进入最后阶段。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威毒液",
+          "count": 1,
+          "summary": "失眠组新作《漫威毒液》瞄准2027年末或2028年上半年发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "量子破碎2",
+          "count": 1,
+          "summary": "Remedy官方回应称续作决定权在微软手中。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "article_count": 90,
+      "game_count": 36,
+      "untagged_count": 29,
+      "digest": "今日游戏资讯聚焦于《GTA6》PC移植项目因疑似R星介入而突然下架及演员保密协议曝光，同时《仁王3》完全版与最终DLC公布发售日期，多款经典游戏如《上古卷轴5》PS Vita移植及《刺客信条2》配音演员表态引发讨论，此外《女神异闻录4：复兴版》公布新角色情报。",
+      "digest_source": "llm",
+      "input_hash": "69d11117d0edf7a0",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 25,
+          "summary": "据PushSquare报道，《GTA6》现已开启PS Plus Premium云串流支持，可在PS5与PS4上运行。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仁王3 完全版",
+          "count": 2,
+          "summary": "《仁王3：完全版》Xbox港服开启预购，定价478港币，将于2027年1月28日发售，包含「庆安地狱变」与「天草大乱」两部付费资料片。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "CS2",
+          "count": 1,
+          "summary": "《反恐精英2》饰品市场综合指数跌破600点，创下有记录以来最低值，相关话题当天登上贴吧热议榜首，讨论量突破150万。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "EVA",
+          "count": 1,
+          "summary": "壹号本宣布将推出《新世纪福音战士》（EVA）联名限量版OneXPlayer X2三合一PC掌机。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "三国：战策长河",
+          "count": 1,
+          "summary": "《三国：战策长河》亮相WeGame之夜，旨在将策略体验做得更完整。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "上古卷轴5",
+          "count": 1,
+          "summary": "民间开发者利用开源引擎OpenSky，将《上古卷轴5：天际》移植至PS Vita，仅主线可玩，目前处于早期阶段。",
           "summary_source": "llm"
         },
         {
           "name": "不要输！魔剑道1&2",
           "count": 1,
-          "summary": "Edia官宣《不要输！魔剑道1&2》合集，定档2027年3月18日上线多平台，续作首次迎来本地化。",
+          "summary": "Edia官宣《不要输！魔剑道1&2》合集定档2027年3月18日上线多平台，续作首次迎来本地化。",
           "summary_source": "llm"
         },
         {
-          "name": "仁王3 完全版",
+          "name": "仁王3",
           "count": 1,
-          "summary": "《仁王3：完全版》Xbox港服开启预购，定价478港币，将于2027年1月28日发售。",
+          "summary": "光荣特库摩与Team NINJA宣布，《仁王3》第二弹DLC“天草大乱”将于2026年12月17日发售，作为季票最终章。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 1,
+          "summary": "《使命召唤：现代战争4》标准版在Steam迎来首次15%折扣，媒体评分85分，但Steam近期玩家评价褒贬不一。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "刺客信条2",
+          "count": 1,
+          "summary": "艾吉奥·奥迪托雷的原配音演员罗杰·克雷格·史密斯表示，若育碧决定重制《刺客信条2》并发出邀请，他乐意再次为该角色配音。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达传说",
+          "count": 1,
+          "summary": "宫崎英高接受外媒Rolling Stone采访，罕见谈及《塞尔达传说》对他的影响，坦言学生时代《塞尔达传说》是“里程碑”般的存在，自谦“深感不配”与之相提并论。",
           "summary_source": "llm"
         },
         {
           "name": "女神异闻录4：复兴版",
           "count": 1,
-          "summary": "Atlus公布《女神异闻录4：复兴版》第六批情报，介绍八十神高中六名学生及社团、“社群能力”系统。",
+          "summary": "Atlus于11月24日公布《女神异闻录4：复兴版》第六批情报，介绍八十神高中六名学生及社团、“社群能力”系统。",
           "summary_source": "llm"
         },
         {
           "name": "女神异闻录４ Revival",
           "count": 1,
-          "summary": "世嘉公开了《女神异闻录4 Revival》的最新角色信息，介绍了主角在八十神高中结识的众人，以及可与故事中结识的角色建立情谊的“社群”与“社群能力”。",
+          "summary": "世嘉公开了ATLUS新作RPG《女神异闻录4 Revival》的最新角色信息，介绍了主角在八十神高中结识的众人，以及可与故事中结识的角色建立情谊的“社群”与“社群能力”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 1,
+          "summary": "CD Projekt RED 联合负责人米哈乌·诺瓦科夫斯基确认，《巫师4》将推出盒装实体版，但其中是否包含游戏光盘尚不确定。",
           "summary_source": "llm"
         },
         {
@@ -48,46 +173,28 @@
           "count": 1,
           "summary": "疾速成长系动作RPG《愚者不灭（Stupid Never Dies）》“最终宣传片”发布！ 即日起Steam版限时7.5折优惠。",
           "summary_source": "rules"
-        },
-        {
-          "name": "饥困荒野",
-          "count": 1,
-          "summary": "由腾讯游戏发行，科雷正版授权、盛趣游戏研发的饥荒正版多人生存手游《饥困荒野》正式全平台公测。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "马克思佩恩",
-          "count": 1,
-          "summary": "《马克思佩恩》重制合作愉快 R星被RemedyCEO盛赞。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "黑暗之魂",
-          "count": 1,
-          "summary": "《黑暗之魂》系列三部作品近期在Steam平台同步开启五折促销，且全部追平历史最低价。",
-          "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-11-23",
-      "article_count": 71,
-      "game_count": 19,
-      "untagged_count": 29,
-      "digest": "11月23日游戏资讯聚焦于《GTA6》的用户评分波动与亲密场景打磨细节，以及《影之刃零》发售后的玩家通关与角色脸模相关讨论。此外，《最终幻想7》重制版系列登陆Xbox平台，而《CS2》则创下Steam平台千万条评测纪录。",
+      "article_count": 78,
+      "game_count": 20,
+      "untagged_count": 32,
+      "digest": "今日游戏资讯聚焦于《GTA6》的评分波动与内容细节，以及《影之刃零》的发售热度与角色揭秘。此外，《最终幻想7》系列登陆Xbox与新作分级，以及《CS2》创纪录的评测量也引发关注。部分老游戏如《毁灭全明星》宣布停服，而《以撒的结合》因更新争议遭遇差评轰炸。",
       "digest_source": "llm",
-      "input_hash": "feb41b6edf12be8e",
+      "input_hash": "5da3d23cb444b647",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 19,
-          "summary": "M站用户评分回升至5.6分，但负面评价占比仍达44%，Insider Gaming报道Rockstar正反复打磨杰森与露西亚的亲密互动场景，PC Gamer则分享了玩家在游戏中最常听Flash FM电台的个人体验。",
+          "count": 22,
+          "summary": "M站用户评分回升至5.6分，但负面评价仍占44%，亲密场景经过反复打磨以保证过程充满激情，PC Gamer分享其常听Flash FM电台。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 5,
-          "summary": "通关玩家梳理世界百科，沐小葵脸模章谨之直播展示COS服并分享通关经历，玉妖脸模徐楚宜直播重现高难度杂技，引发玩家玩梗讨论。",
+          "summary": "通关玩家梳理世界百科设定，脸模章谨之直播COS沐小葵完成角色闭环，玉妖脸模徐楚宜曾登央视展示高难度杂技。",
           "summary_source": "llm"
         },
         {
@@ -99,13 +206,13 @@
         {
           "name": "CS2",
           "count": 1,
-          "summary": "成为Steam平台首款评测突破1000万篇的作品，好评率85%，评价为特别好评。",
+          "summary": "评测数量突破1000万篇，创下Steam平台新纪录，当前好评率85%。",
           "summary_source": "llm"
         },
         {
           "name": "ILL",
           "count": 1,
-          "summary": "放出最新宣传视频，被描述为非常血腥、暴力且重口。",
+          "summary": "放出最新宣传视频，被描述为非常血腥、暴力、重口。",
           "summary_source": "llm"
         },
         {
@@ -113,6 +220,12 @@
           "count": 1,
           "summary": "“Steam 黑五大促”现正进行中！《人中之龙 极３ / 人中之龙３外传 Dark Ties》4折优惠，《索尼克赛车 交叉世界》6折优惠！。",
           "summary_source": "rules"
+        },
+        {
+          "name": "以撒的结合",
+          "count": 1,
+          "summary": "因蹭GTA6热度更新未标注AI音乐引发差评，官方打补丁移除相关音频。",
+          "summary_source": "llm"
         },
         {
           "name": "勇者斗恶龙怪物仙境4",
@@ -123,13 +236,13 @@
         {
           "name": "异于天堂",
           "count": 1,
-          "summary": "获新加坡IMDA M18分级，血腥暴力尺度十足。",
+          "summary": "获M18分级，血腥暴力大尺度十足。",
           "summary_source": "llm"
         },
         {
           "name": "异人之下",
           "count": 1,
-          "summary": "定档12月17日登陆PC、iOS、安卓与鸿蒙多平台。",
+          "summary": "定档12月17日，多平台同步上线。",
           "summary_source": "llm"
         },
         {
@@ -141,7 +254,7 @@
         {
           "name": "最终幻想7：启示",
           "count": 1,
-          "summary": "获ESRB T级评级，含暴力与轻微暗示性内容。",
+          "summary": "获ESRB评级为T级，含暴力与轻微暗示性。",
           "summary_source": "llm"
         },
         {
@@ -153,19 +266,13 @@
         {
           "name": "毁灭全明星",
           "count": 1,
-          "summary": "PS5独占游戏将于11月25日停服并下架。",
+          "summary": "PS5独占游戏将于11月25日停服，商店已下架。",
           "summary_source": "llm"
         },
         {
           "name": "灵魂能力",
           "count": 1,
-          "summary": "因卷入评分闹剧遭玩家恶意差评轰炸。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生化危机10",
-          "count": 1,
-          "summary": "开发已启动，目前处于非常早期的制作阶段。",
+          "summary": "因评分闹剧遭玩家恶意差评轰炸，M站评分第三。",
           "summary_source": "llm"
         }
       ]
@@ -243,29 +350,29 @@
     },
     {
       "date": "2026-11-21",
-      "article_count": 38,
-      "game_count": 6,
+      "article_count": 39,
+      "game_count": 7,
       "untagged_count": 19,
-      "digest": "今日游戏资讯聚焦于《GTA6》的发售表现与PC配置传闻，以及《猛鬼追魂》爆冷斩获年度最佳恐怖游戏。此外，《GTA7》选址亚特兰大的传闻、P系列新作开发策略调整、以及《第一狂战士卡赞》国区更新等消息也引发关注。",
+      "digest": "今日游戏资讯聚焦于R星旗下《GTA6》的发售表现与PC配置，以及《猛鬼追魂》爆冷斩获年度最佳恐怖游戏。此外，《GTA7》选址亚特兰大的传闻流出，《女神异闻录》系列制作人承诺缩短新作等待周期，《第一狂战士卡赞》国区更新臂铠与国风铠甲，而《黑色洛城2》的传闻亦再度引发关注。",
       "digest_source": "llm",
-      "input_hash": "73249157857e9465",
+      "input_hash": "219f4da389f06b3d",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 14,
-          "summary": "外网流传PC版配置单，RTX3060即可在1080P高画质下开启DLSS稳60帧，1440P高画质推荐RTX4070与32GB内存；网红甲亢哥连续52小时通关遭遇悲情结局情绪失控，首日数据显示61%PS5用户启动，人均游玩8.5小时。",
+          "summary": "PC版配置单曝出RTX3060即可60帧高画质，美国首日数据显示61%PS5用户启动，人均游玩8.5小时。",
           "summary_source": "llm"
         },
         {
           "name": "GTA7",
           "count": 1,
-          "summary": "外媒爆料新作可能设定在以佐治亚州亚特兰大为原型的都市，副标题或为MagicCity，官方未回应。",
+          "summary": "外媒爆料新作选址亚特兰大，副标题或为MagicCity，官方暂未回应，一切仍属早期猜测。",
           "summary_source": "llm"
         },
         {
           "name": "P6",
           "count": 1,
-          "summary": "《女神异闻录》系列制作人透露新作将缩短等待时间，官方正采取措施确保玩家不必像过去那样苦等多年。",
+          "summary": "《女神异闻录》系列制作人透露《P6》后新作将大幅缩短等待周期，团队正构思创意以打造庞大IP。",
           "summary_source": "llm"
         },
         {
@@ -277,13 +384,19 @@
         {
           "name": "猛鬼追魂",
           "count": 1,
-          "summary": "《克里夫·巴克猛鬼追魂：复苏》爆冷击败《生化危机：安魂曲》夺得2026年恐怖游戏大奖，道格·布拉德利时隔近四十年再度为钉子头献声并获最佳表演奖。",
+          "summary": "《克里夫·巴克猛鬼追魂：复苏》爆冷击败《生化危机：安魂曲》夺得年度最佳恐怖游戏，道格·布拉德利获最佳表演奖。",
           "summary_source": "llm"
         },
         {
           "name": "第一狂战士卡赞",
           "count": 1,
           "summary": "国区抢先上线大型更新，新增臂铠武器、新BOSS及四款外观，其中包含国风铠甲。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黑色洛城2",
+          "count": 1,
+          "summary": "曾精准爆料GTA6的消息源再传《黑色洛城2》传闻，舞台设在旧金山，围绕十二宫杀手，R星暂未官宣。",
           "summary_source": "llm"
         }
       ]
@@ -293,99 +406,99 @@
       "article_count": 120,
       "game_count": 24,
       "untagged_count": 42,
-      "digest": "11月20日 游侠网 共 120 条新闻，涉及 24 款游戏。报道最集中的是《GTA6》（54 条）、《博德之门3》（2 条）、《GTA7》（1 条）。另有 42 条未指向具体游戏的行业或平台资讯。另外还有《人类一败涂地》（1 条）、《卧龙2》（1 条）、《哈玛雷特》（1 条）也有报道。",
-      "digest_source": "rules",
+      "digest": "今日游戏资讯聚焦于《GTA6》发售后的持续热度，Sensor Tower数据显示其销量突破2450万份，营收预估达23.6亿美元，Xbox云游戏实测也证明了老主机玩家的游玩可行性。此外，多款新作与老游戏迎来发售、更新或特惠，《博德之门3》Mod通过主机审核，《人类一败涂地》登陆Switch 2，《战地6》Steam史低价促销，国产科幻单机《时空低语》发布首支预告。",
+      "digest_source": "llm",
       "input_hash": "89b064d51e199130",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 54,
-          "summary": "曝《GTA6》销量突破2450万份！预估营收23.6亿美元；老机器也能爽玩《GTA6》？Xbox云游戏实测延迟极低；国外美女COS《GTA6》封面女郎：穿着暴露 身材火辣（当天共 54 条）",
-          "summary_source": "rules"
+          "summary": "Rockstar Games开放世界大作《GTA6》现已正式发售，Sensor Tower数据显示其销量突破2450万份，预估营收23.6亿美元，Xbox云游戏实测也证明了老主机玩家的游玩可行性。",
+          "summary_source": "llm"
         },
         {
           "name": "博德之门3",
           "count": 2,
-          "summary": "《博德之门3》两大人气角色Q版化手办21美元开订！；《博德之门3》12款Mod通过主机审核！\"残酷难度\"领衔。",
-          "summary_source": "rules"
+          "summary": "Good Smile Company旗下Q版可动系列\"粘土人\"再添新员，阿斯塔利翁与夏芮丝两款手办已在Hobby Genki开启预售，单款售价约21美元，拉瑞安新一批12款社区Mod也通过主机审核登陆PS5与Xbox Series X/S。",
+          "summary_source": "llm"
         },
         {
           "name": "GTA7",
           "count": 1,
-          "summary": "先体验罪恶城！T2 CEO花式回应《GTA7》相关追问。",
-          "summary_source": "rules"
+          "summary": "Take-Two首席执行官施特劳斯・泽尔尼克在播客采访中回应了玩家对系列下一部作品《GTA7》的追问，调侃大家目光太长远。",
+          "summary_source": "llm"
         },
         {
           "name": "人类一败涂地",
           "count": 1,
-          "summary": "《人类一败涂地》NS2上线！滑鼠操控 精准摔个够！。",
-          "summary_source": "rules"
+          "summary": "《人类一败涂地》Switch 2 Edition今日正式上市，滑鼠操控、更高帧率、游戏分享与聊天功能全面解锁，超过30个梦境世界等待玩家体验。",
+          "summary_source": "llm"
         },
         {
           "name": "卧龙2",
           "count": 1,
-          "summary": "暗黑三国动作RPG《卧龙2》「诸葛亮」角色预告片！。",
-          "summary_source": "rules"
+          "summary": "光荣特库摩与Team NINJA近日公开了暗黑三国动作RPG《卧龙2：凤火连天》的「诸葛亮」角色介绍视频。",
+          "summary_source": "llm"
         },
         {
           "name": "哈玛雷特",
           "count": 1,
-          "summary": "《哈玛雷特》上线3天获Steam特别好评!开发者视频致谢。",
-          "summary_source": "rules"
+          "summary": "剧情向肉鸽卡牌新作《哈玛雷特》发售仅3天，就在Steam收获“特别好评”，目前114条评测中超半数来自国内玩家，开发者Kim专门学中文录制视频致谢。",
+          "summary_source": "llm"
         },
         {
           "name": "嗜血法医",
           "count": 1,
-          "summary": "GTA6《嗜血法医》彩蛋!公寓 作案工具 抛尸快艇全都有。",
-          "summary_source": "rules"
+          "summary": "随着《GTA6》正式上线，玩家在罪恶城挖出一处惊悚彩蛋，完整致敬经典美剧《嗜血法医》，玩家找到名为三一公寓的临水楼房，外观和德克斯特在迈阿密的住处几乎一模一样。",
+          "summary_source": "llm"
         },
         {
           "name": "幻世录 重制版",
           "count": 1,
-          "summary": "经典战棋SRPG《幻世录 重制版》将于12月推出免费DLC！ 前导预告与首波内容情报抢先看！。",
-          "summary_source": "rules"
+          "summary": "经典战棋SRPG《幻世录 重制版》今日宣布即将于今年12月推出免费DLC《残烬之痕》。",
+          "summary_source": "llm"
         },
         {
           "name": "战地6",
           "count": 1,
-          "summary": "《战地6》史低价！Steam限时特惠 标准版仅65.34元。",
-          "summary_source": "rules"
+          "summary": "EA和Battlefield Studios在Steam开启《战地6》限时折扣，活动持续至12月3日，标准版降价幅度达67%，来到65.34元，为发售以来最低价。",
+          "summary_source": "llm"
         },
         {
           "name": "时空低语",
           "count": 1,
-          "summary": "4年花3个亿！国产科幻单机《时空低语》首支预告发布。",
-          "summary_source": "rules"
+          "summary": "国产科幻动作单机《时空低语》放出全球首支预告，项目由濮冠楠带队打造，融合敦煌、墨家等东方文化与世界艺术符号，计划2028年上线。",
+          "summary_source": "llm"
         },
         {
           "name": "旺达与巨像",
           "count": 1,
-          "summary": "三上真司：好游戏话越少越牛！我羡慕《旺达与巨像》。",
-          "summary_source": "rules"
+          "summary": "《生化危机》系列创始人三上真司在与《剑星》制作人金亨泰的对谈中表示，自己设计游戏时刻意拒绝在屏幕上堆砌过多信息，更愿意留出让玩家自行想象的空间，盛赞上田文人的《旺达与巨像》。",
+          "summary_source": "llm"
         },
         {
           "name": "深渊之印",
           "count": 1,
-          "summary": "Epic喜加一：叙事探索类魂游戏《深渊之印》免费领取。",
-          "summary_source": "rules"
+          "summary": "Epic本周送出的游戏是叙事探索类魂游戏《深渊之印》，玩家将扮演新发现的印记守护者，在深渊进行探索和战斗。",
+          "summary_source": "llm"
         },
         {
           "name": "现代战争4",
           "count": 1,
-          "summary": "10月美国游戏市场大缩水 但《现代战争4》依旧登顶！。",
-          "summary_source": "rules"
+          "summary": "2026年10月美国游戏市场总支出为42.4亿美元，同比下滑12%，但《使命召唤：现代战争4》毫无悬念登顶月榜，延续系列19年首发月夺冠神话。",
+          "summary_source": "llm"
         },
         {
           "name": "生化危机",
           "count": 1,
-          "summary": "《生化危机》之父暴论：我真希望AI从世界上消失！。",
-          "summary_source": "rules"
+          "summary": "《生化危机》之父三上真司在与《剑星》制作人金亨泰的对谈中抛出惊人言论，他有时希望AI从整个世界上彻底消失，但他同时承认自己正在试验AI工具。",
+          "summary_source": "llm"
         },
         {
           "name": "神力科莎 拉力",
           "count": 1,
-          "summary": "《神力科莎 拉力》0.7版本更新现已上线！传奇赛车、瑞典拉力赛雪地赛段等全新内容登场。",
-          "summary_source": "rules"
+          "summary": "505 Games携手 Supernova Games Studios，并与 KUNOS Simulazioni 展开技术合作，正式宣布旗下硬核拉力模拟游戏《神力科莎 拉力》迎来重磅0.7版本更新。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -790,47 +903,6 @@
           "count": 1,
           "summary": "Mojang公布《我的世界》2027年首个更新内容，全新投掷武器回旋飞盘，以及基岩版完整副手同步亮相。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "article_count": 32,
-      "game_count": 5,
-      "untagged_count": 23,
-      "digest": "2026年11月15日当天游侠网共发布32条新闻，涉及游戏5款，整体游戏资讯以GTA6、马里奥赛车64、三国志：王道天下、亡命狂奔及铁拳相关动态为主，其中GTA6在机制、争议、标价及防盗机制等方面受关注，马里奥赛车64在PC版上线及浏览器版开发上推进，三国志：王道天下公定档期明确，亡命狂奔和铁拳系列热度与出货数据值得关注，整体呈现多款游戏不同方向的信息更新。",
-      "digest_source": "llm",
-      "input_hash": "481b8a34cae577fe",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 4,
-          "summary": "设定革新！曝《GTA6》加入同理心机制 但犯罪仍是核心；吵翻社区！《GTA6》锁30帧争议持续 有人觉得可以接受；看傻了！《GTA6》标价闹乌龙 冒出1.4万元所谓隐藏版（当天共 4 条）",
-          "summary_source": "rules"
-        },
-        {
-          "name": "马里奥赛车64",
-          "count": 2,
-          "summary": "游侠早报：BLG夺S16冠军 《马里奥赛车64》PC版上线；浏览器版《马里奥赛车64》上线！任天堂或再出手打击。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "三国志：王道天下",
-          "count": 1,
-          "summary": "光荣正版授权！三国SLG沙盘策略旗舰新作《三国志：王道天下》公测定档12月24日。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "亡命狂奔",
-          "count": 1,
-          "summary": "热度起飞！《亡命狂奔》在线人数大涨 峰值来到36.5万。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "铁拳",
-          "count": 1,
-          "summary": "热度持续！《铁拳》系列累计出货6270万 一年增量170万。",
-          "summary_source": "rules"
         }
       ]
     }
