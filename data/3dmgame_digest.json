@@ -1,28 +1,147 @@
 {
-  "generated_at": "2026-11-25T05:02:05.187914+00:00",
+  "generated_at": "2026-11-26T04:16:23.381875+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-25",
-      "article_count": 37,
-      "game_count": 26,
-      "untagged_count": 1,
-      "digest": "今日游戏行业资讯丰富，卡普空宣布恐龙射击游戏《原始袭变》将于2027年9月30日停服，铃空游戏宣布《昭和米国物语》延期至2027年10月发售。此外，索尼与CDPR达成协议独家宣传《巫师4》，《PUBG》公布十周年限定音乐计划“THE SQUAD”，《GTA6》获数毛社PS5 Pro版本实测排名，多款新作如《定海》《星尘：魔女的愿望》公布发售日期。",
+      "date": "2026-11-26",
+      "article_count": 42,
+      "game_count": 18,
+      "untagged_count": 10,
+      "digest": "今日游戏资讯聚焦于《GTA6》发售引发的音乐热潮与《信长之野望：飞翔》的发售预告，同时《命运－冠位指定》登顶日本手游周榜，多款新作如《混乱出租车2》《神鬼寓言4》及《无人深空》更新也引发关注。",
       "digest_source": "llm",
-      "input_hash": "9551ca2ca3f425b0",
+      "input_hash": "5c9c5ce9a7a5d708",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 11,
-          "summary": "数毛社对比了《GTA6》四款主机版本，PS5 Pro位列第一，Xbox Series X掉帧更少居次，标准PS5和Xbox Series S依次排在其后。",
+          "count": 15,
+          "summary": "Spotify公布数据显示，游戏插曲《Run Away With Me》播放量激增，新歌《Flower in a Hurricane》登顶播放榜。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "信长之野望：飞翔",
+          "count": 1,
+          "summary": "光荣特库摩宣布游戏将于2027年3月12日在亚洲发售，登陆PS5、Switch 2和Steam，支持简中。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "命运－冠位指定",
+          "count": 1,
+          "summary": "游戏在11月12日至18日的日本手游收入榜上登顶，下载量和收入分别增长15%和77。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "四人循环",
+          "count": 1,
+          "summary": "Bad Robot Games宣布合作射击新作将于12月10日开启PS5和Steam封测，玩家需在时限内完成送客任务。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达：时之笛 重制版",
+          "count": 1,
+          "summary": "任天堂发布1.1.2更新，修复了“玛蓉的朋友”章节卡关问题，受影响存档无需重开即可继续。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 1,
+          "summary": "CDPR澄清与索尼的合作仅涉及营销，强调《巫师4》首发仍将登陆Xbox平台，不会影响多平台发行策略。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "异度神剑3",
+          "count": 1,
+          "summary": "任天堂发布Switch 2版预告，游戏将于12月3日推出，支持增强4K分辨率和60帧运行。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "无人深空",
+          "count": 1,
+          "summary": "游戏更新至7.15 S版本，通过Vulkan接入AMD FSR 4技术，并重新上线“水世界”远征活动。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "极限竞速：地平线6",
+          "count": 1,
+          "summary": "官方回应痛车涂装处罚争议，表示审核员结合整体画面判断，申诉交由另一名审核员处理。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "混乱出租车2",
+          "count": 1,
+          "summary": "Rainy Frog发行的游戏于11月26日登陆Switch和PS5，玩家需在AI失控的未来都市限时送客。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "神鬼寓言4",
+          "count": 1,
+          "summary": "导演拉尔夫·富尔顿表示角色阵容将反映当代英国，游戏计划于2027年2月23日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "空洞骑士：丝之歌",
+          "count": 1,
+          "summary": "Team Cherry将于11月27日举办直播，公布扩展内容“悲伤之海”的新进展。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "维尼翁病毒",
+          "count": 1,
+          "summary": "心理恐怖视觉小说将推出多结局DLC，预计于2027年第一季度上线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "绿意新生",
+          "count": 1,
+          "summary": "种植模拟游戏将于12月7日登陆Steam，试玩版好评率89%。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "蓝色星原：旅谣",
+          "count": 1,
+          "summary": "外媒试玩体验了捕捉伙伴和农园经营玩法，玩家可安排伙伴在农园工作。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "article_count": 78,
+      "game_count": 41,
+      "untagged_count": 8,
+      "digest": "今日游戏行业资讯聚焦于《GTA6》的深度探索设计与玩家行为争议，以及《使命召唤：现代战争4》连续19年登顶美国10月销量榜的佳绩。此外，《巫师4》CEO公开表示该作技术飞跃将媲美《GTA5》到《GTA6》的跨度，卡普空宣布《原始袭变》将于2027年停服，华纳兄弟探索则因版权问题封禁了多部女版马尔福二创视频。",
+      "digest_source": "llm",
+      "input_hash": "d8fe5b9e5376042d",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 27,
+          "summary": "《GTA6》探索设计负责人透露游戏内隐藏内容丰富，玩家数月甚至数年后仍可能有新发现，部分秘密需留意环境细节、特定时刻抵达或与环境互动才能发现。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤：现代战争4",
+          "count": 2,
+          "summary": "《使命召唤：现代战争4》登顶2026年10月美国游戏销量榜，使该系列连续第19年在新作首发月份成为美国最畅销游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 2,
+          "summary": "CDPR CEO Michał Nowakowski表示，《巫师4》在技术与品质上的飞跃将能够媲美《GTA5》到《GTA6》的跨度。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "燕云十六声",
+          "count": 2,
+          "summary": "《燕云十六声》现已原生支持DLSS 5，开发商利用神经渲染改善了游戏的光照、阴影和材质细节。",
           "summary_source": "llm"
         },
         {
           "name": "Astario",
           "count": 1,
-          "summary": "太空工厂模拟游戏《Astario》现已在Steam开启抢先体验，玩家可以用方块造飞船、建空间站，再用管道和设备自动加工矿石。",
+          "summary": "太空工厂模拟游戏《Astario》现已在Steam开启抢先体验，玩家可用方块造飞船、建空间站并自动加工矿石。",
           "summary_source": "llm"
         },
         {
@@ -34,73 +153,55 @@
         {
           "name": "PUBG",
           "count": 1,
-          "summary": "《PUBG》公布十周年限定音乐计划“THE SQUAD”，组合“IVE”将作为首位参与艺人登场，旨在拓展与音乐粉丝之间的接触点。",
+          "summary": "《PUBG》公布限定音乐计划“THE SQUAD”，组合“IVE”将作为首位参与艺人登场，该计划旨在结合游戏与音乐拓展IP。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仓库猎人模拟器",
+          "count": 1,
+          "summary": "寻宝竞拍游戏《仓库猎人模拟器》现已登陆PlayStation 5和Xbox Series X|S。",
           "summary_source": "llm"
         },
         {
           "name": "原始袭变",
           "count": 1,
-          "summary": "卡普空宣布恐龙题材射击游戏《原始袭变》将于2027年9月30日12时结束服务，付费内容销售将先行终止。",
+          "summary": "卡普空宣布恐龙题材射击游戏《原始袭变》将于2027年9月30日12时结束服务，付费内容销售将提前终止。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "原子之心",
+          "count": 1,
+          "summary": "《原子之心》世界观多人射击新作《The CUBE》发布新预告，确认将登陆家用主机。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "合金弹头",
+          "count": 1,
+          "summary": "SNK的街机游戏《合金弹头》正在改编为真人电影，马可、塔马、英里与菲奥将担任主角。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "哈利波特",
+          "count": 1,
+          "summary": "华纳兄弟探索确认已对一批以女版德拉科·马尔福为题材的二创视频发起版权投诉，导致多个YouTube频道被封禁。",
           "summary_source": "llm"
         },
         {
           "name": "堕落之主2",
           "count": 1,
-          "summary": "《堕落之主2》将于2027年4月发售，具体发售日将在2026年12月公布，游戏将登陆PS5、Xbox Series X|S和Switch 2。",
+          "summary": "《堕落之主2》将于2027年4月发售，具体发售日计划在2026年12月公布。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "堡垒之夜",
+          "count": 1,
+          "summary": "消息称《堡垒之夜》将联动《心跳文学部》，四名文学部成员或最晚在12月1日登场。",
           "summary_source": "llm"
         },
         {
           "name": "定海",
           "count": 1,
-          "summary": "杰仕登宣布旗下首款自研动作RPG Roguelike游戏《定海》将于12月3日于Steam平台正式发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "定海：擎海之柱",
-          "count": 1,
-          "summary": "开发商Justdan International宣布《定海》将于12月3日通过Steam登陆PC，试玩版现已开放，支持简体中文。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "宝可梦集换式卡牌游戏",
-          "count": 1,
-          "summary": "《宝可梦集换式卡牌游戏》30周年日夜主题高级礼盒已于11月6日在全球发售，白天款主打太阳伊布，夜晚款主打月亮伊布。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "宝可梦：风/波",
-          "count": 1,
-          "summary": "《宝可梦：风/波》的三只初始伙伴亮相宝可梦系列30周年插画，与前代初始伙伴和皮卡丘同框。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师4",
-          "count": 1,
-          "summary": "CDPR宣布已与索尼就《巫师4》达成市场推广协议，涵盖PlayStation平台和PlayStation Plus会员服务中的推广。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "异于天堂",
-          "count": 1,
-          "summary": "世嘉宣布《异于天堂》将参展东京漫展2026，现场开放试玩，并于12月12日举办游戏特别舞台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星尘：魔女的愿望",
-          "count": 1,
-          "summary": "《星尘：魔女的愿望》将于2026年12月14日在PS5和Nintendo Switch 2发售数字版，实体版安排在2027年推出。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星球大战：银河赛车手",
-          "count": 1,
-          "summary": "《星球大战：银河赛车手》将于12月推出“速度传奇”更新，加入私人大厅、改键和八个新场景。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "昭和米国物语",
-          "count": 1,
-          "summary": "铃空游戏宣布《昭和米国物语》延期至2027年10月28日发售，官方确认游戏内容已全部制作完成。",
+          "summary": "杰仕登宣布自研动作RPG Roguelike游戏《定海》将于12月3日在Steam平台正式发售。",
           "summary_source": "llm"
         }
       ]
@@ -110,99 +211,99 @@
       "article_count": 101,
       "game_count": 54,
       "untagged_count": 12,
-      "digest": "11月24日 3DMGame 共 101 条新闻，涉及 54 款游戏。报道最集中的是《GTA6》（34 条）、《工人与资源：苏维埃共和国》（2 条）、《给他爱5》（2 条）。另有 12 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
+      "digest": "今日游戏资讯聚焦于《GTA6》的深度彩蛋挖掘与硬件需求分析，以及《工人与资源：苏维埃共和国》推出太空主题DLC。此外，Take Two针对《给他爱5》非官方移植项目发起版权投诉，分析师则预测新版《GTAOL》收入有望超越《堡垒之夜》。其他方面，多款经典游戏如《上古卷轴5》在PS Vita上运行、IO Interactive的《007：初露锋芒》史低价促销，以及《RuneScape》取消备受争议的Reignited模式等动态也引发关注。",
+      "digest_source": "llm",
       "input_hash": "5b5f81578a5d1a72",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 34,
-          "summary": "《GTA6》传送门彩蛋重现2002年《罪恶都市》 可带回衬衫和摩托车；推算称《GTA6》2K/60帧需要锐龙7 9700X和RTX 5070显卡；玩家在《GTA6》中发现纪念墙 刻有开发团队成员已故亲属姓名（当天共 34 条）",
-          "summary_source": "rules"
+          "summary": "推主Memeio发现游戏内通往2002年《罪恶都市》的传送门彩蛋，玩家需追踪12座变电站线索并按特定顺序操作，才能在晚上7点至次日早上6点进入旧作场景，获取汤米·维赛迪的衬衫和摩托车。",
+          "summary_source": "llm"
         },
         {
           "name": "工人与资源：苏维埃共和国",
           "count": 2,
-          "summary": "《工人与资源：苏维埃共和国》推出《太空计划》DLC 现已登陆PC；《工人与资源：苏维埃共和国》全新DLC「太空计划」现已上线。",
-          "summary_source": "rules"
+          "summary": "开发商3DIVISION与发行商Hooded Horse宣布《太空计划》DLC登陆PC，玩家可通过Steam、GOG和Epic游戏商城获取该扩展包，将苏维埃共和国带往群星。",
+          "summary_source": "llm"
         },
         {
           "name": "给他爱5",
           "count": 2,
-          "summary": "Take Two向GitHub投诉《给他爱5》非官方移植！要求封锁逾600个副本；《给他爱5》在64MB显存老显卡上约15帧运行但车辆消失。",
-          "summary_source": "rules"
+          "summary": "Take Two向GitHub提交四份版权投诉，要求封锁超过600个非官方移植项目副本，涉及Muguet、glue5及多个Android移植仓库，这些项目可追溯到10月出现的浏览器移植PlayGTA。",
+          "summary_source": "llm"
         },
         {
           "name": "007：初露锋芒",
           "count": 1,
-          "summary": "《007：初露锋芒》Steam半价至12月8日 149新史低。",
-          "summary_source": "rules"
+          "summary": "《007：初露锋芒》在Steam开启限时促销，售价从298元降至149元，刷新历史最低价，优惠持续至12月8日，目前Steam评价为“特别好评”。",
+          "summary_source": "llm"
         },
         {
           "name": "GTAOL",
           "count": 1,
-          "summary": "分析师预计新版《GTAOL》长期收入或超《堡垒之夜》。",
-          "summary_source": "rules"
+          "summary": "美国银行分析师Omar Dessouky预计新版《GTAOL》长期收入可能超过《堡垒之夜》，基于《GTA6》初期已售出约4490万份、收入超40亿美元，并上调Take-Two股票目标价至350美元。",
+          "summary_source": "llm"
         },
         {
           "name": "MONOPHOBIA",
           "count": 1,
-          "summary": "《MONOPHOBIA》试玩公开校园调查与心理恐怖玩法。",
-          "summary_source": "rules"
+          "summary": "松竹游戏公开Dendrobium开发的《MONOPHOBIA》试玩，展示2.5D横卷轴校园调查与心理恐怖玩法，玩家可操控女高中生中野篠触碰物品读取记忆碎片，调查无差别杀人魔事件。",
+          "summary_source": "llm"
         },
         {
           "name": "RuneScape",
           "count": 1,
-          "summary": "《RuneScape》听取玩家反馈后取消Reignited模式方案！。",
-          "summary_source": "rules"
+          "summary": "《RuneScape》团队听取玩家反馈后，决定取消此前公布的Reignited模式，该模式曾因限制老账号与新模式玩家组队而引发社区担忧，团队表示将集中推进2027年路线图。",
+          "summary_source": "llm"
         },
         {
           "name": "SO-JI Why Why Japanese SHINJUKU",
           "count": 1,
-          "summary": "Get Up公布《SO-JI Why Why Japanese SHINJUKU》并开放试玩。",
-          "summary_source": "rules"
+          "summary": "Get Up公布近未来清洁动作游戏，玩家扮演双胞胎员工对抗失控AI清洁机器人，使用高压水枪和吸尘装置清扫污垢，免费试玩已于11月24日在Steam开放。",
+          "summary_source": "llm"
         },
         {
           "name": "上古卷轴5：天际",
           "count": 1,
-          "summary": "玩家让《上古卷轴5：天际》在PS Vita上运行！ 目前仅支持主线。",
-          "summary_source": "rules"
+          "summary": "玩家利用开源引擎OpenSky让《上古卷轴5：天际》在PS Vita上运行，目前仅支持主线内容，项目通过读取PC版资源并压缩纹理来适配PS Vita的硬件条件。",
+          "summary_source": "llm"
         },
         {
           "name": "不要输！魔剑道1&2",
           "count": 1,
-          "summary": "《不要输！魔剑道1&2》明年3月18日登陆三大平台！。",
-          "summary_source": "rules"
+          "summary": "Edia确认将前两部作品打包收录，于2027年3月18日登陆PS5、Switch和Steam，初代为横版动作冒险，续作转为格斗玩法，实体特装版含复刻海报、原声CD及宣传单套装。",
+          "summary_source": "llm"
         },
         {
           "name": "世界大战：西伯利亚",
           "count": 1,
-          "summary": "《世界大战：西伯利亚》12月首次开放公开试玩。",
-          "summary_source": "rules"
+          "summary": "《世界大战：西伯利亚》将在12月3日至6日的Comic Con Игромир 2026活动中首次开放公开试玩，玩家将在河边渔屋抵御敌人，体验1896年火星入侵架空背景下的战斗系统。",
+          "summary_source": "llm"
         },
         {
           "name": "仁王3",
           "count": 1,
-          "summary": "《仁王3》DLC“天草大乱”12月17日上线并加入修罗战场。",
-          "summary_source": "rules"
+          "summary": "光荣特库摩宣布DLC“天草大乱”将于12月17日上线，登陆PS5与PC，为游戏主线故事收尾并加入终局挑战“修罗战场”，玩家需在强敌占据的区域中规划路线并击败首领。",
+          "summary_source": "llm"
         },
         {
           "name": "使命召唤：现代战争4",
           "count": 1,
-          "summary": "《使命召唤：现代战争4》Steam标准版首次打折 降价15%。",
-          "summary_source": "rules"
+          "summary": "《使命召唤：现代战争4》标准版在Steam迎来首次折扣，售价由69.99美元降至59.49美元，降幅15%，这是本作登陆Steam以来首次正式降价。",
+          "summary_source": "llm"
         },
         {
           "name": "冰与火之歌",
           "count": 1,
-          "summary": "《冰与火之歌》可改写角色命运2027年发售！。",
-          "summary_source": "rules"
+          "summary": "游戏将让玩家通过阵营和策略选择改变角色命运，计划于2027年发售，玩家可选择史塔克、坦格利安、兰尼斯特或夜王阵营，体验不同于电视剧的故事路线。",
+          "summary_source": "llm"
         },
         {
           "name": "刺客信条2",
           "count": 1,
-          "summary": "若育碧重制《刺客信条2》！艾吉奥原配音演员愿意回归。",
-          "summary_source": "rules"
+          "summary": "艾吉奥原配音演员罗杰·克雷格·史密斯在采访中表示，如果育碧决定重制《刺客信条2》，他愿意回归为艾吉奥配音，该作将于2029年迎来发售20周年。",
+          "summary_source": "llm"
         }
       ]
     },
@@ -897,107 +998,6 @@
           "name": "上古卷轴6：哨兵",
           "count": 1,
           "summary": "外媒分析新作主角可能非龙裔，剑歌力量或取代龙吼，涉及角色设定与玩法推测。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "article_count": 93,
-      "game_count": 62,
-      "untagged_count": 8,
-      "digest": "今日3DMGame资讯共93条，涵盖62款游戏。GTA6因普华永道分析被视作堪比奥运会的文化事件引发行业对游戏内广告的讨论；万代南梦宫披露自研引擎SOL-AVES；inXile办公楼遭枪击但无人受伤；CD Projekt RED总监祝贺《剑星》登陆Switch 2；恩奕游戏宣布《哈利波特：魔法觉醒》因授权到期将于2027年3月停运。",
-      "digest_source": "llm",
-      "input_hash": "6adcd75c632ca86f",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 21,
-          "summary": "普华永道负责人Bart Spiegel认为《GTA6》影响力堪比奥运会，可能推动游戏内广告及相关技术投资，但游戏本身尚未确定加入广告。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤",
-          "count": 2,
-          "summary": "Treyarch前高级首席编剧Craig Houston确认在工作室裁员中受到影响，结束约20年任职经历，此前长期参与僵尸模式叙事创作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达：时之笛 重制版",
-          "count": 2,
-          "summary": "横尾太郎、中岛圭介与坂口博信等日本开发者分享了对NS2版《塞尔达：时之笛 重制版》的看法，横尾太郎表示不会错过购买机会，中岛圭介已通关并认为新版更有趣，坂口博信认为本作依然出色且制作精致。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "星球大战：旧共和国命运",
-          "count": 2,
-          "summary": "《星球大战：旧共和国命运》总监Casey Hudson透露项目计划于2027年陆续公开新消息，目前仍未确定发售日期。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Bottled by Bears",
-          "count": 1,
-          "summary": "西班牙独立游戏《Bottled by Bears》现已登陆Steam平台，首发限时享75折优惠，玩家需帮助熊熊一家经营蜂蜜农场。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Monsterest",
-          "count": 1,
-          "summary": "韩国独立游戏《Monsterest》计划于2027年第一季度在Steam开启抢先体验，玩家将在陌生世界经营接待怪物的旅店。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "R星",
-          "count": 1,
-          "summary": "前Rockstar开发者David O’Reilly表示频繁裁员会削弱厂商知识积累，他认为Rockstar过去27年保留大部分“知识库”是其他厂商难以追赶的优势。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Zombies Aren't Real",
-          "count": 1,
-          "summary": "Jogamedev推出的《Zombies Aren't Real》于11月14日上线，两天内获96%玩家推荐，评价达到“好评如潮”。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "万代南梦宫",
-          "count": 1,
-          "summary": "万代南梦宫控股确认正在推进自有游戏引擎SOL-AVES的开发，该引擎属于内部技术项目，目前尚未公布具体功能、进度及适用范围。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "光环",
-          "count": 1,
-          "summary": "外媒回顾《光环》经典地图“血腥峡谷”，称玩家时隔约15年重聚仍选择在此进行夺旗战，该地图为四人分屏和系统联机提供了明确目标。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "分喵必争",
-          "count": 1,
-          "summary": "双人合作平台跳跃游戏《分喵必争》由Double Dusk开发、松竹代理亚洲区域发行，并将于上海2026 WePlay文化展开放试玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 1,
-          "summary": "CD Projekt RED游戏总监帕维尔·萨斯科到访SHIFT UP祝贺《剑星》登陆Switch 2，并分享了《巫师3》和《赛博朋克2077》的设计经验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "发条革命",
-          "count": 1,
-          "summary": "inXile Entertainment总部所在办公楼于11月11日遭枪击，工作室确认内部无人受伤，目前正在开发蒸汽朋克角色扮演游戏《发条革命》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影：亚特兰蒂斯遗迹",
-          "count": 1,
-          "summary": "《古墓丽影：亚特兰蒂斯遗迹》公布战斗与成长系统改动，新增专注槽、技能树和道具制作，但部分玩家质疑这些设计偏离了原作体验。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "哈利波特：魔法觉醒",
-          "count": 1,
-          "summary": "恩奕游戏旗下《哈利波特：魔法觉醒》因授权协议到期将于2027年3月3日正式停运，12月21日将停止充值和新用户注册。",
           "summary_source": "llm"
         }
       ]

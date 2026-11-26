@@ -1,64 +1,195 @@
 {
-  "generated_at": "2026-11-25T05:05:51.272266+00:00",
+  "generated_at": "2026-11-26T04:17:25.102410+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-25",
-      "article_count": 21,
-      "game_count": 10,
-      "untagged_count": 3,
-      "digest": "R星针对《GTA6》PC移植项目展开全面封杀，博主因发布技术观察视频收到DMCA警告；卡普空宣布多人对战游戏《原始袭变》将于2027年9月29日关服；CDPR与索尼达成合作，PlayStation将成为《巫师4》独家营销主阵地，CEO称其进化可比肩《GTA6》。",
+      "date": "2026-11-26",
+      "article_count": 48,
+      "game_count": 19,
+      "untagged_count": 13,
+      "digest": "今日资讯聚焦《GTA6》开发团队规模扩张及PC移植进展，同时《现代战争4》登顶美国10月销量榜，CDPR澄清《巫师4》将全平台发行，SNK宣布《合金弹头》将拍好莱坞电影，科乐美宣布《寂静岭：小镇陷落》国区永久降价。",
       "digest_source": "llm",
-      "input_hash": "0fdbaaaf2d841d4a",
+      "input_hash": "7d378455d5bf6613",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 7,
-          "summary": "R星对PC移植项目展开全面封杀，博主因发布技术观察视频收到DMCA警告。",
+          "count": 16,
+          "summary": "Rockstar新作藏有寂静岭彩蛋，开发团队规模较1997年《GTA1》扩张约428倍，PC移植新进展获37分钟程序未崩溃验证。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "现代战争4",
+          "count": 2,
+          "summary": "该作登顶美国10月游戏销量榜，系列已连续19年首发月夺冠，GTA6有望拿下11月榜首。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FF7重生",
+          "count": 1,
+          "summary": "制作人滨口直树确认游戏内置换装系统，但拒绝正面承诺电影版服装的加入。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "信长之野望：飞翔",
+          "count": 1,
+          "summary": "该作Steam预购开启，普通版定价348元，豪华版定价488元，计划于2027年3月12日发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "合金弹头",
+          "count": 1,
+          "summary": "SNK经典游戏将改编为好莱坞真人电影，由曾自编自导自演电影《我爸爱上我》的James Morosini担任编剧。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "地平线6",
+          "count": 1,
+          "summary": "官方首次回应痛车争议，玩家可二次换人再申诉审核。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "寂静岭：小镇陷落",
+          "count": 1,
+          "summary": "该作国区数字版开启永久调价，标准版与豪华版售价同步下调。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 1,
+          "summary": "CDPR承诺《巫师4》不会变成PS独占，将于2028年同日登陆PS5、Xbox Series X/S和PC。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "异度之刃3",
+          "count": 1,
+          "summary": "NS2预告片公布，展示了本作针对次世代主机Nintendo Switch 2进行的4K60帧画质与性能升级。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "彩虹岛",
+          "count": 1,
+          "summary": "FC经典游戏《彩虹岛》登陆PS5、Xbox Series X|S、Switch2与PC平台，售价约46元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "大反派“梦华”的高清3D建模公开，成为灵游坊发售后新一轮“美术揭秘”的焦点。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "恶魔城：苍月的十字架",
+          "count": 1,
+          "summary": "NDS经典类银河恶魔城《恶魔城：苍月的十字架》PC移植版发布，新增多项功能。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "火星求生：重制版",
+          "count": 1,
+          "summary": "扩展包「机械乌托邦」将于12月9日在PC、PS5与Xbox Series X|S平台推出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "碧海黑帆",
+          "count": 1,
+          "summary": "玩家起诉该作虚假宣传，育碧CEO此前将定价70美元的该作称为“AAAA级”游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "空洞骑士：丝之歌",
+          "count": 1,
+          "summary": "DLC发布会定档11月27日23点，将在YouTube平台播出。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "article_count": 51,
+      "game_count": 17,
+      "untagged_count": 16,
+      "digest": "R星针对《GTA6》PC移植项目展开全面封杀，博主因发布技术观察视频收到DMCA警告；卡普空宣布多人对战游戏《原始袭变》将于2027年9月29日关服；CDPR联席CEO在财报会上表示《巫师4》将实现从《巫师3》到《GTA6》的代际跃迁，并已与索尼达成独家宣传合作。",
+      "digest_source": "llm",
+      "input_hash": "7804ce4969c44493",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 16,
+          "summary": "《GTA6》发售后成人网站P站在美国流量一度下降15.5%，此前发售前该平台美国区流量曾较平日高出16.5%。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 3,
+          "summary": "《巫师4》叙事总监Marcin Blacha透露希里性格比杰洛特冲动，决策全凭直觉。",
           "summary_source": "llm"
         },
         {
           "name": "原始袭变",
           "count": 2,
-          "summary": "卡普空宣布多人团队对战游戏《原始袭变》将于2027年9月29日关服。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师4",
-          "count": 2,
-          "summary": "CDPR与索尼达成合作，PlayStation将成为《巫师4》独家营销主阵地。",
+          "summary": "卡普空宣布多人团队对战游戏《原始袭变》将终止运营，官方公布了分三阶段的停运时间表。",
           "summary_source": "llm"
         },
         {
           "name": "PUBG",
           "count": 1,
-          "summary": "公布限定音乐计划“THE SQUAD”，组合IVE将作为首位参与艺人登场。",
+          "summary": "《PUBG》公布限定音乐计划“THE SQUAD”，组合“IVE”将作为首位参与艺人登场，12月2日公开MV完整版。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "半条命3",
+          "count": 1,
+          "summary": "外媒爆料《半条命3》将引入“回溯”机制，重返已探索区域时场景状态将完全保留，玩家留下的物品和破坏痕迹不再重置。",
           "summary_source": "llm"
         },
         {
           "name": "原子之心",
           "count": 1,
-          "summary": "Mundfish公开多人衍生作《原子之心：The CUBE》新预告。",
+          "summary": "Mundfish公开多人衍生作《原子之心：The CUBE》新预告，定位多人RPG射击，计划2027年发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "塞尔达",
+          "count": 1,
+          "summary": "英国默西塞德郡警方发布趣味抓捕视频，借用《塞尔达传说：时之笛》的创意将行动取名“犯罪之笛”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "异于天堂",
+          "count": 1,
+          "summary": "《异于天堂》将参展2026年12月11日至13日在日本幕张展览馆举办的“东京漫画展2026”。",
           "summary_source": "llm"
         },
         {
           "name": "忍者龙剑传4",
           "count": 1,
-          "summary": "中国官方发布新宣传片，配合Steam五折促销，标准版降至149元。",
+          "summary": "《忍者龙剑传4》中国官方发布新宣传片，配合Steam五折促销，标准版降至149元。",
           "summary_source": "llm"
         },
         {
           "name": "恶魔之魂RE",
           "count": 1,
-          "summary": "网友发布非官方PC移植项目Regaliant早期版本，支持超宽屏与超分。",
+          "summary": "网友SulfurS16发布了《恶魔之魂：重制版》非官方PC移植项目Regaliant的早期版本，支持超宽屏与全系超分。",
           "summary_source": "llm"
         },
         {
           "name": "星际 异端先知",
           "count": 1,
-          "summary": "顽皮狗新作预计最早2027年发售，工作室已进入最后阶段。",
+          "summary": "顽皮狗新作《星际：异端先知》已进入最后阶段，爆料人士称工作室目标仍是2027年推出。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "昭和米国物语",
+          "count": 1,
+          "summary": "铃空游戏宣布《昭和米国物语》将于2027年10月29日发售，登陆PS5与PC（Steam）。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑4",
+          "count": 1,
+          "summary": "《暗黑破坏神4》第16赛季“泰瑞尔之谋”将于12月1日开启，地狱狂潮迎来多项优化。",
           "summary_source": "llm"
         },
         {
@@ -68,9 +199,9 @@
           "summary_source": "llm"
         },
         {
-          "name": "量子破碎2",
+          "name": "赛博朋克2",
           "count": 1,
-          "summary": "Remedy官方回应称续作决定权在微软手中。",
+          "summary": "CDPR在财报会上表示《赛博朋克2》开发进展良好，并计划缩短旗下作品发售间隔。",
           "summary_source": "llm"
         }
       ]
@@ -801,107 +932,6 @@
           "name": "天国：拯救2",
           "count": 1,
           "summary": "Steam开启新史低促销，标准版降至67%折扣，国区现价75.24元（原价228元），皇家版70%折扣现价89.4元（原价298元），活动至11月30日",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "article_count": 74,
-      "game_count": 39,
-      "untagged_count": 14,
-      "digest": "11月16日游戏资讯聚焦于《GTA6》发售前夕的预热活动与优化更新，以及《哈利波特：魔法觉醒》停运与《魔兽世界：无限》的热修风波。此外，育碧曝出《彩虹六号：维加斯3》开发计划，世嘉公开《STRANGER THAN HEAVEN》剧情预告，EA疑似移除《FC 27 Lite》D加密，Mojang公布《我的世界》新武器，Atlus域名更新暗示《女神异闻录6》或亮相TGA 2026。",
-      "digest_source": "llm",
-      "input_hash": "d79969398c8bf49f",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 20,
-          "summary": "R星为《GTA6》打造的专属动画剧集《麦卡与伙伴们》现已公布预告短片，支持玩家在游戏内收看，将于11月19日登陆威泽尔电视台。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "魔兽世界：无限",
-          "count": 3,
-          "summary": "集齐套装可变身食人魔，舒缓的游玩节奏、无装备快速淘汰机制、丰富社交内容，让这款Plus版本创下系列史上最强首发成绩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "FC 27 Lite",
-          "count": 1,
-          "summary": "据游戏媒体DSOGaming报道，《EA SPORTS FC 27 Lite》在最近一次更新后，疑似移除了Denuvo反篡改技术。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "STRANGER THAN HEAVEN",
-          "count": 1,
-          "summary": "世嘉宣布《STRANGER THAN HEAVEN》系列剧情预告片第二部“吴篇”现已公开，本作将于2027年1月15日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "使命召唤",
-          "count": 1,
-          "summary": "Treyarch前高级首席编剧Craig Houston确认在近期裁员中离职，结束约20年任职，他长期参与《使命召唤》系列创作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "哈利波特：魔法觉醒",
-          "count": 1,
-          "summary": "上线五年后，网易《哈利波特：魔法觉醒》工作室发布停运公告，因授权协议即将到期，游戏将于2027年3月3日正式停止运营。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达：时之笛 重制版",
-          "count": 1,
-          "summary": "多位日本游戏开发者分享了他们对NS2平台《塞尔达传说：时之笛 重制版》的看法，横尾太郎、中岛圭介和坂口博信分别阐述了各自关注本作的原因。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "夺宝奇兵：古老之圈",
-          "count": 1,
-          "summary": "MachineGames设计总监延斯·安德松透露，本作在开发阶段曾试验过类似《GTA》系列的星级通缉系统，但该机制最终未被采纳。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "女神异闻录6",
-          "count": 1,
-          "summary": "Atlus域名更新，结合今年6月消息，这款正统续作或亮相TGA 2026。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "守望先锋",
-          "count": 1,
-          "summary": "《守望先锋》总监回应哈德森改输出，表示其定位为输出而非此前承诺的支援，只是比支援更合适。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师4",
-          "count": 1,
-          "summary": "CDPR高管与加州州长会面引发争议，玩家担忧新作受DEI理念影响，也有人认为只是正常产业交流。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "彩六",
-          "count": 1,
-          "summary": "FaZe Clan在BLAST R6 Major大阪总决赛中直落三图零封DarkZero Esports，捧起队史第二座Major奖杯。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "彩六：围攻",
-          "count": 1,
-          "summary": "育碧公开Y11S4赛季相关安排，测试服定于11月16日开启，12月1日正式上线，本次更新重构排位机制，调整Doc、Thunderbird技能。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "彩虹六号：维加斯",
-          "count": 1,
-          "summary": "育碧被曝已批准《彩虹六号：维加斯》系列新作，内部代号“Spades”，由育碧蒙特利尔工作室早期开发中，更倾向于是正统续作《彩虹六号：维加斯3》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "我的世界",
-          "count": 1,
-          "summary": "Mojang公布《我的世界》2027年首个更新内容，全新投掷武器回旋飞盘，以及基岩版完整副手同步亮相。",
           "summary_source": "llm"
         }
       ]

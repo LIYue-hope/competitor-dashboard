@@ -1,9 +1,44 @@
 {
-  "generated_at": "2026-11-25T05:16:11.293956+00:00",
+  "generated_at": "2026-11-26T04:22:43.017157+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-11-26",
+      "article_count": 6,
+      "game_count": 4,
+      "untagged_count": 2,
+      "digest": "今日游戏行业资讯主要围绕DNF手游重构、米哈游新作三测开启、昭和米国物语定档以及腾讯新游首曝展开。DNF手游制作人卢克强调游戏需具备可玩性，米哈游《因缘精灵》开启三测，国产单机《昭和米国物语》定档2027年10月28日，腾讯魔方动作游戏《狩》首曝。",
+      "digest_source": "llm",
+      "input_hash": "e3f8f119c3157a4f",
+      "game_digests": [
+        {
+          "name": "DNF手游",
+          "count": 1,
+          "summary": "制作人卢克在DNF嘉年华上表示游戏需具备可玩性，游戏迎来大重构。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "因缘精灵",
+          "count": 1,
+          "summary": "米哈游《崩坏：因缘精灵》开启三测，被描述为崩坏IP的新一代旗舰产品。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "昭和米国物语",
+          "count": 1,
+          "summary": "游戏再次跳票至2027年10月28日发售，官方确认内容已全部完成。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "狩",
+          "count": 1,
+          "summary": "腾讯魔方新动作游戏《狩》首曝，主打让没练过连招的玩家也能体验战斗乐趣。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-11-25",
       "article_count": 7,
@@ -44,8 +79,8 @@
       "article_count": 6,
       "game_count": 0,
       "untagged_count": 6,
-      "digest": "今日 GameLook 共发布 6 条行业资讯，内容聚焦于游戏出海、政策监管及行业动态，未涉及具体游戏产品的发售、更新或销量数据。报道涵盖了《黑神话：悟空》海外发行策略调整、中国游戏厂商在海外市场的表现、游戏出海的监管趋势、游戏出海的营销趋势以及游戏出海的合规挑战。",
-      "digest_source": "llm",
+      "digest": "11月24日 GameLook 共 6 条新闻，涉及 0 款游戏。另有 6 条未指向具体游戏的行业或平台资讯。当天的内容包括「“猫咪游戏专业户”来中国踢馆：上线抖音微信小游戏，月收入破5000万！」。",
+      "digest_source": "rules",
       "input_hash": "a84735eacd73dfe5",
       "game_digests": []
     },
@@ -202,35 +237,6 @@
           "name": "三国志：王道天下",
           "count": 1,
           "summary": "由奇侠互娱研发、哔哩哔哩游戏代理的《三国志：王道天下》定档12月24日公测。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "article_count": 8,
-      "game_count": 3,
-      "untagged_count": 5,
-      "digest": "Nexon宣布与腾讯合作开发超本地化PC游戏《project OVERKILL》（DNF2），并计划于11月10日在东京发布公告；蒋大卫在接受采访时表示《崩坏：因缘精灵》将跳出舒适区，尝试全新的游戏路线；此外，13万玩家在线参与《明日方舟》舟友地图活动，该交互式地图将游戏剧情铺满了现实国土。",
-      "digest_source": "llm",
-      "input_hash": "84633e04febca160",
-      "game_digests": [
-        {
-          "name": "OVERKILL",
-          "count": 1,
-          "summary": "Nexon要和腾讯打造超本地化PC游戏，《OVERKILL》能当大任么？。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "崩坏：因缘精灵",
-          "count": 1,
-          "summary": "蒋大卫在接受采访时表示该作将跳出舒适区，尝试完全陌生的游戏路线，不再重复长板。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "明日方舟",
-          "count": 1,
-          "summary": "13万玩家在线参与舟友地图活动，该交互式地图由B站UP主Breeze青岚制作，将游戏剧情铺满了现实国土。",
           "summary_source": "llm"
         }
       ]
