@@ -1,9 +1,19 @@
 {
-  "generated_at": "2026-11-26T04:22:43.017157+00:00",
+  "generated_at": "2026-11-27T04:29:28.299491+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-11-27",
+      "article_count": 2,
+      "game_count": 0,
+      "untagged_count": 2,
+      "digest": "11月27日 GameLook 共 2 条新闻，涉及 0 款游戏。另有 2 条未指向具体游戏的行业或平台资讯。当天的内容包括「B站无惧短剧，陈睿：“短剧是薯片、B站是米饭”」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
+      "input_hash": "23b9ba2db66f5074",
+      "game_digests": []
+    },
     {
       "date": "2026-11-26",
       "article_count": 6,
@@ -79,8 +89,8 @@
       "article_count": 6,
       "game_count": 0,
       "untagged_count": 6,
-      "digest": "11月24日 GameLook 共 6 条新闻，涉及 0 款游戏。另有 6 条未指向具体游戏的行业或平台资讯。当天的内容包括「“猫咪游戏专业户”来中国踢馆：上线抖音微信小游戏，月收入破5000万！」。",
-      "digest_source": "rules",
+      "digest": "2026年11月24日当日GameLook共发布6条新闻，覆盖游戏相关资讯，但涉及的具体游戏数量为0款，其中未明确指向具体游戏的条目为6条，整体呈现为资讯信息相对分散、缺乏明确游戏聚焦的状态，内容以各类未明确指向具体游戏的资讯信息为主，尚未形成明确的单一游戏主线。",
+      "digest_source": "llm",
       "input_hash": "a84735eacd73dfe5",
       "game_digests": []
     },
@@ -215,29 +225,6 @@
           "count": 1,
           "summary": "《艾希：续》众筹4280万元后，开人工退款：制作人很天真、竟想“劝退”玩家。",
           "summary_source": "rules"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "article_count": 7,
-      "game_count": 2,
-      "untagged_count": 5,
-      "digest": "GameLook今日共收录7条资讯，主要聚焦于《ARC Raiders》与《三国志：王道天下》两款游戏。瑞典Embark Studios的撤离射击新作《ARC Raiders》制作人透露研发期间无设计文档，且在爆红后因玩家分化屡陷危机；另一款由奇侠互娱研发、哔哩哔哩游戏代理的《三国志：王道天下》则定档12月24日公测。",
-      "digest_source": "llm",
-      "input_hash": "4ed1d240260b149b",
-      "game_digests": [
-        {
-          "name": "ARC Raiders",
-          "count": 1,
-          "summary": "瑞典Embark Studios的撤离射击游戏《ARC Raiders》制作人透露，研发期间团队无设计文档，且在游戏爆红后因玩家分化屡陷危机。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三国志：王道天下",
-          "count": 1,
-          "summary": "由奇侠互娱研发、哔哩哔哩游戏代理的《三国志：王道天下》定档12月24日公测。",
-          "summary_source": "llm"
         }
       ]
     }

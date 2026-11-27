@@ -1,45 +1,9 @@
 {
-  "crawled_at": "2026-11-26T04:06:22.998016+00:00",
+  "crawled_at": "2026-11-27T04:11:04.096332+00:00",
   "days": [
     {
-      "date": "2026-11-26",
-      "date_label": "11月26日 今天",
-      "games": [
-        {
-          "game_name": "蓝色星原：旅谣-预下载(官服)",
-          "categories": [
-            "编辑推荐",
-            "多平台",
-            "美少女"
-          ],
-          "score": "8.3",
-          "event_desc": "10:00 开服上线,预下载已开启",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/164274.htm",
-          "publisher": "上海蛮奈网络科技有限公司",
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "魔法迷域",
-          "categories": [
-            "策略",
-            "Roguelike",
-            "战棋"
-          ],
-          "score": null,
-          "event_desc": "00:00 正式上线",
-          "status_tag": null,
-          "detail_url": "https://www.3839.com/a/130436.htm",
-          "publisher": null,
-          "reservation_count": null,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-11-29",
-      "date_label": "11月29日 周日",
+      "date_label": "11月29日 后天",
       "games": [
         {
           "game_name": "忍者连结 -闪乱神乐-",
@@ -53,7 +17,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202410.htm",
           "publisher": "HONEY PARADE GAMES Inc.",
-          "reservation_count": "102",
+          "reservation_count": "112",
           "has_afk_grinding_tag": false
         }
       ]
@@ -74,7 +38,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/163966.htm",
           "publisher": null,
-          "reservation_count": "53.5万",
+          "reservation_count": "53.7万",
           "has_afk_grinding_tag": false
         },
         {
@@ -89,7 +53,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/165538.htm",
           "publisher": null,
-          "reservation_count": "16469",
+          "reservation_count": "16535",
           "has_afk_grinding_tag": false
         },
         {
@@ -104,7 +68,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202108.htm",
           "publisher": null,
-          "reservation_count": "8752",
+          "reservation_count": "8864",
           "has_afk_grinding_tag": false
         },
         {
@@ -119,7 +83,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/205208.htm",
           "publisher": "广州卓游",
-          "reservation_count": "114",
+          "reservation_count": "118",
           "has_afk_grinding_tag": false
         }
       ]
@@ -155,7 +119,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/205208.htm",
           "publisher": "广州卓游",
-          "reservation_count": "114",
+          "reservation_count": "118",
           "has_afk_grinding_tag": false
         },
         {
@@ -172,6 +136,83 @@
           "publisher": "Ivy Sly",
           "reservation_count": "34",
           "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-12-03",
+      "date_label": "12月03日 下周四",
+      "games": [
+        {
+          "game_name": "魔方工作室周年直播",
+          "categories": [],
+          "score": "7.9",
+          "event_desc": "19点直播,赢《狩》首测资格",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/177705.htm",
+          "publisher": "魔方工作室",
+          "reservation_count": null,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "割绳子：重制版",
+          "categories": [
+            "闯关",
+            "冒险",
+            "休闲"
+          ],
+          "score": null,
+          "event_desc": "海外上线安卓和iOS",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/205060.htm",
+          "publisher": "嬉皮狗工作室",
+          "reservation_count": "152",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "魔法之巅",
+          "categories": [
+            "角色扮演",
+            "卡牌",
+            "养成"
+          ],
+          "score": null,
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/204940.htm",
+          "publisher": null,
+          "reservation_count": "94",
+          "has_afk_grinding_tag": true
+        },
+        {
+          "game_name": "快乐魔法",
+          "categories": [
+            "模拟经营",
+            "合成",
+            "魔法"
+          ],
+          "score": null,
+          "event_desc": "11:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/186732.htm",
+          "publisher": null,
+          "reservation_count": "1004",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "冲吧勇者",
+          "categories": [
+            "卡牌",
+            "3D",
+            "魔幻"
+          ],
+          "score": null,
+          "event_desc": "12:00 预下载，12月5日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/205623.htm",
+          "publisher": null,
+          "reservation_count": "88",
+          "has_afk_grinding_tag": true
         }
       ]
     }

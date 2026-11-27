@@ -1,70 +1,153 @@
 {
-  "generated_at": "2026-11-26T04:20:43.168654+00:00",
+  "generated_at": "2026-11-27T04:27:13.114455+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-26",
-      "article_count": 42,
-      "game_count": 9,
+      "date": "2026-11-27",
+      "article_count": 41,
+      "game_count": 6,
       "untagged_count": 15,
-      "digest": "今日游戏资讯聚焦于《GTA6》PC移植技术竞赛与限量PS5 Pro定制机，同时《寂静岭》新作发售两月后持续打折，《异度之刃3》Switch 2版本公布4K60帧升级预告，微软《神鬼寓言4》回应DEI争议，多款经典游戏如《恶魔城：苍月的十字架》PC移植及《龙珠：超宇宙2》登陆PS+会免引发关注。",
+      "digest": "今日资讯聚焦《GTA6》，相关报道达21条，分析师预测其销量已突破4000万份，年底有望达5000万份，但主机装机量瓶颈引发关注。此外，EA《钢铁侠》官网更新引发新作猜测，Remedy回应《量子破碎2》传闻，多款游戏同步更新动态。",
       "digest_source": "llm",
-      "input_hash": "61f7c8d3e507886e",
+      "input_hash": "ce6dd9c59f246665",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 18,
-          "summary": "PC移植进度引发热议，社区开发者技术竞赛激烈，官方推出限量100台PS5 Pro定制机赠予网红",
+          "count": 21,
+          "summary": "分析师预测其销量已突破4000万份，年底有望达5000万份，但主机装机量瓶颈引发关注。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Hela：鼠鼠奇旅",
+          "count": 1,
+          "summary": "发布全新深度解析视频，本期内容将聚焦游戏中充满乐趣的“游乐场”式玩法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仙剑奇侠传4重制",
+          "count": 1,
+          "summary": "官宣实体版，携手中国移动品牌，基于Unreal5引擎开发。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3：狂猎—重制版",
+          "count": 1,
+          "summary": "黑五促销现已开启，限时4折。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "量子破碎",
+          "count": 1,
+          "summary": "Remedy官方回应新作传闻，澄清该IP现状。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "钢铁侠",
+          "count": 1,
+          "summary": "EA Motive工作室更新官方网站，页面外观和结构均有所调整，引发新作猜测。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "article_count": 153,
+      "game_count": 29,
+      "untagged_count": 42,
+      "digest": "今日游戏资讯热度极高，R星《GTA6》占据绝对主导，不仅因剧情泄露引发关注，其非官方PC移植及女主演员热度也持续发酵。同时，多款大作动态密集，包括《影之刃零》即将推出日文更新、《美末2》MOD争议再起、《巫师3》重制版迎来超大体量更新，以及《巫师4》确认多平台同步首发等。",
+      "digest_source": "llm",
+      "input_hash": "1bd2d0d4a8260292",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 73,
+          "summary": "R星称序章关键剧情从未计划公开，黑客泄露核心文件后引发民间PC移植乱象，女主演员粉丝暴涨45万。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 5,
+          "summary": "官方宣布将于11月28日推出约7GB的重大更新，新增日文假名标注功能以帮助日本玩家辨认汉字。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "美末2",
+          "count": 3,
+          "summary": "《最后生还者2》多人MOD借助生成式AI卷土重来，开发者表示索尼难以彻底阻止其传播，艾比演员家人遭侮辱引争议。",
           "summary_source": "llm"
         },
         {
           "name": "寂静岭",
           "count": 2,
-          "summary": "《寂静岭：小镇陷落》发售两月后价格持续下调，Steam平台开启史低折扣促销",
+          "summary": "科乐美发行的《寂静岭：小镇陷落》发售仅两月即迎来新史低折扣，Steam今日史低折扣开启。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师3",
+          "count": 2,
+          "summary": "《巫师3：狂猎—重制版》5.02版本补丁登陆全平台，官方同步公开了超过40款全新跨平台MOD。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "巫师4",
+          "count": 2,
+          "summary": "CDPR确认《巫师4》不会成为PS5独占，将除NS2外同步首发，开发商表示其进化幅度将媲美《GTA6》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "神鬼寓言4",
+          "count": 2,
+          "summary": "Playground Games透露游戏配音台词超15万句，超过100名英国配音演员参与录制，主创回应了关于大量DEI的争议。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Embers of the Uncrowned",
+          "count": 1,
+          "summary": "该作于11月26日公开开发者展示会视频，宣布将于12月4日开启全球测试。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA7",
+          "count": 1,
+          "summary": "Take-Two首席执行官Strauss Zelnick再次回应了玩家关于《GTA7》发售时间的提问。",
           "summary_source": "llm"
         },
         {
           "name": "PICROSS S CLIMAX",
           "count": 1,
-          "summary": "系列首款实体版将于12月10日在香港地区发售，收录1,020道谜题",
+          "summary": "系列首款实体版将于12月10日在香港发售，收录1,020道谜题。",
           "summary_source": "llm"
         },
         {
-          "name": "塞尔达传说：时之笛 重制版",
+          "name": "丝之歌",
           "count": 1,
-          "summary": "发售后首次更新，对游玩体验进行了优化升级",
+          "summary": "《空洞骑士：丝之歌》官宣将于11月28日举办发布会，公布扩展内容《Sea of Sorrow》。",
           "summary_source": "llm"
         },
         {
-          "name": "异度之刃3",
+          "name": "仁王3",
           "count": 1,
-          "summary": "Switch 2版本概览宣传片公布，展示4K60帧画面及新玩法",
+          "summary": "光荣特库摩发布了《仁王3》天草四郎人物宣传片，完全版系列首登Xbox。",
           "summary_source": "llm"
         },
         {
-          "name": "影之刃零",
+          "name": "勇者斗恶龙怪物仙境4 枯木国的碧安卡与芙萝拉",
           "count": 1,
-          "summary": "官方参与Steam大奖拉票活动，角色“鬼兄”备受关注",
+          "summary": "《勇者斗恶龙怪物仙境4 枯木国的碧安卡与芙萝拉》最终PV！PC版晚一天 国区298元。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "地平线6",
+          "count": 1,
+          "summary": "开发商Playground Games针对痛车涂装封禁争议发布声明，公布处罚数据并解释审核标准。",
           "summary_source": "llm"
         },
         {
-          "name": "恶魔城：苍月的十字架",
+          "name": "塞尔达传说",
           "count": 1,
-          "summary": "DS经典游戏代码被编译为Windows原生程序，PC移植版迎来更新",
-          "summary_source": "llm"
-        },
-        {
-          "name": "神鬼寓言4",
-          "count": 1,
-          "summary": "主创回应游戏中大量DEI元素，表示旨在还原现代英国风貌",
-          "summary_source": "llm"
-        },
-        {
-          "name": "龙珠：超宇宙2",
-          "count": 1,
-          "summary": "索尼PS+12月会免名单公布，该作领衔欧美地区免费游戏阵容",
+          "summary": "《塞尔达传说：时之笛 重制版》推送1.1.2版本更新，官方仅提及修复剧情推进问题，未提BUG调整。",
           "summary_source": "llm"
         }
       ]
@@ -451,101 +534,101 @@
     },
     {
       "date": "2026-11-21",
-      "article_count": 117,
+      "article_count": 116,
       "game_count": 19,
-      "untagged_count": 31,
-      "digest": "2026年11月21日当天，整体游戏行业动态呈现多赛道并行态势。游民星空当日发布新闻117条、涉及游戏19款，涵盖各类游戏在发售、更新、内容互动等方向的信息，涉及GTA6、GTA7、传说之下、双人成行、地下城与勇士、塞尔达、影之刃零、怪物猎人系列、战争机器、星之卡比、海贼王、第一狂战士、赛博朋克2077等游戏，整体内容覆盖开发进展、上线动态、优化与内容更新等方面，各游戏动态具体反映行业热点，具体呈现多元变化。",
+      "untagged_count": 30,
+      "digest": "今日游戏资讯聚焦于《GTA6》黑客泄密事件、R星母公司CEO对《GTA7》的回应以及《传说之下》新作进展。此外，《双人成行》Steam国区促销、《地下城与勇士》怀旧服预约、《塞尔达传说：时之笛重制版》获玩家高评等消息也引发关注。同时，《影之刃零》主角脸模往事、《怪物猎人：荒野》Switch2版本更新及《海贼王》3D格斗新作等资讯同样备受瞩目。",
       "digest_source": "llm",
-      "input_hash": "57b6d443a0e208e5",
+      "input_hash": "0a3275865d7fbac5",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 68,
-          "summary": "教会了男人疼老婆：现实也给伴侣买花",
+          "summary": "黑客“大葱哥”CyberLeek将发布《GTA6》Xbox Series版可执行文件的加密货币市值门槛从1500万美元下调至600万美元，并叫嚣要泄露完整游戏。",
           "summary_source": "llm"
         },
         {
           "name": "GTA7",
           "count": 1,
-          "summary": "地图覆盖全世界？R星母公司老大回应",
+          "summary": "Take-Two首席执行官Strauss Zelnick回应了关于《GTA7》是否采用覆盖全世界超大地图的设想。",
           "summary_source": "llm"
         },
         {
           "name": "传说之下",
           "count": 1,
-          "summary": "独游《传说之下》精神续作新进展！6章内容已完成",
+          "summary": "独立游戏《Deltarune》作者Toby Fox公布开发进度，游戏第六章已完成整体框架，第七章已着手制作。",
           "summary_source": "llm"
         },
         {
           "name": "双人成行",
           "count": 1,
-          "summary": "登顶Steam国区畅销榜!全平台好价 仅需40块",
+          "summary": "《双人成行》在Steam开启限时促销，全平台售价39.6元，达到历史最低价。",
           "summary_source": "llm"
         },
         {
           "name": "地下城与勇士",
           "count": 1,
-          "summary": "怀旧服官宣预约！70版本为基准",
+          "summary": "腾讯WeGame官方宣布《地下城与勇士》经典版开启预约，计划2027年于国服上线，同步开启「重逢测试」。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达",
           "count": 1,
-          "summary": "玩家给《GTA6》刷差评?给前者10分后0分",
+          "summary": "《GTA6》M站用户评分解禁，形成极其悬殊的口碑反差，引发玩家讨论。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说：时之笛重制版",
           "count": 1,
-          "summary": "外媒：玩家更认可《塞尔达传说：时之笛重制版》！而不是《GTA6》",
+          "summary": "外媒报道《塞尔达传说：时之笛重制版》在Metacritic年度用户评分榜单中，收获玩家群体更高的认可度。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 1,
-          "summary": "魂大人脸模曾上相亲节目 大变样认不出",
+          "summary": "《影之刃零》主角“魂”的脸模演员贾雄凯早年参加相亲节目的片段在社区流传。",
           "summary_source": "llm"
         },
         {
           "name": "怪物猎人：旅人",
           "count": 1,
-          "summary": "手游PC版首次亮相！村庄及狩猎实机公开",
+          "summary": "《怪物猎人：旅人》PC版首次公开实机画面，村庄及狩猎内容曝光。",
           "summary_source": "llm"
         },
         {
           "name": "怪物猎人：荒野",
           "count": 1,
-          "summary": "更新官宣！角色造型券停止售卖",
+          "summary": "官方公布Ver1.043更新计划，全平台同步开启维护以迎接Switch2版本发售。",
           "summary_source": "llm"
         },
         {
           "name": "战争机器：事变日",
           "count": 1,
-          "summary": "首次折扣好价来袭！国区208元",
+          "summary": "《战争机器：事变日》开启首次折扣，国区售价208元。",
           "summary_source": "llm"
         },
         {
           "name": "星之卡比：跃然世界",
           "count": 1,
-          "summary": "新情报：新能力与设定曝光",
+          "summary": "据日本杂志《Nintendo Dream》扫图，游戏曝光了新能力与设定。",
           "summary_source": "llm"
         },
         {
           "name": "海贼王",
           "count": 1,
-          "summary": "曝《海贼王》3D格斗游戏！UE5打造 超150名角色参战",
+          "summary": "万代南梦宫正在开发一款《海贼王》3D竞技场格斗游戏，由《七龙珠 电光炸裂！ZERO》团队制作，预计2027年末推出。",
           "summary_source": "llm"
         },
         {
           "name": "第一狂战士：卡赞",
           "count": 1,
-          "summary": "突然复活：新武器新皮肤 国区抢先玩！",
+          "summary": "游戏迎来大型内容更新，新增武器与皮肤，国区玩家可抢先体验。",
           "summary_source": "llm"
         },
         {
           "name": "赛博朋克2077",
           "count": 1,
-          "summary": "演员谈真人电影：强尼不来就不演",
+          "summary": "演员伊德里斯·艾尔巴表示，如果基努·里维斯出演《赛博朋克2077》真人电影，他愿意加入。",
           "summary_source": "llm"
         }
       ]
@@ -849,107 +932,6 @@
           "name": "火焰纹章：万缕千丝",
           "count": 1,
           "summary": "IGN满分被TGA无视，该作模拟/策略类未获提名。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "article_count": 129,
-      "game_count": 39,
-      "untagged_count": 36,
-      "digest": "11月17日游戏资讯聚焦于《GTA6》发售前的最后预热，索尼官方宣布发售仅剩1天并放出了专属寄语，同时公司禁止员工在发售当天请假。此外，《影之刃零》Steam销量突破500万份，首月流水约1.1987亿美元；《塞尔达传说：时之笛 重制版》实体销量破百万并重回96分高评分；《天国：拯救2》开启新史低促销，仅需75元；多款游戏如《异度之刃2》、《喷射战士3》及《女神异闻录6》均有新动态发布。",
-      "digest_source": "llm",
-      "input_hash": "dabdca411f2f6088",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 47,
-          "summary": "索尼官方预热发售仅剩1天，放出了专属寄语，同时公司禁止员工在发售当天请假。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 5,
-          "summary": "Steam销量已达500万份，首月销量约351万份，流水约1.1987亿美元，成为10月收入最高的新作。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛 重制版",
-          "count": 2,
-          "summary": "上市仅一周便拿下2026年美国市场实体游戏销量冠军，Metacritic评分回升至96分。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "天国：拯救2",
-          "count": 2,
-          "summary": "在Steam开启新一轮促销，标准版折扣首次达到67%，皇家版则降到70%。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "异度之刃2",
-          "count": 2,
-          "summary": "Switch 2版游戏代码被静态重编译成能在Windows上原生运行的程序，最高支持4K60帧。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "红色沙漠",
-          "count": 2,
-          "summary": "开发商在财报中透露正在进一步扩大AI技术的应用范围，未来计划将AI整合进自研的BlackSpace引擎。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Hela：鼠鼠奇旅",
-          "count": 1,
-          "summary": "发布全新深度解析视频，支持四人跨平台联机。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "东北往事",
-          "count": 1,
-          "summary": "PS5版正式发售，港服售价79港币。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "人生一串",
-          "count": 1,
-          "summary": "更新后LPL夺冠，被称为“刚好一串四”的玄学。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 1,
-          "summary": "前索尼高管晒限定伊芙手办，全球仅50个。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "半条命",
-          "count": 1,
-          "summary": "TGA杰夫暗示《半条命》新作，引发是否为3代的猜测。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "喷射战士3",
-          "count": 1,
-          "summary": "Ver.12.0.0更新将于明日登陆Switch与Switch2平台，新增双人组队内容。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "回星乐章 Estella",
-          "count": 1,
-          "summary": "抢先体验版定于2027年1月29日上线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "女神异闻录6",
-          "count": 1,
-          "summary": "官网更新引发是否即将公开的猜测，但Atlus当前宣传重心在《女神异闻录4 Revival》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "山海奇旅",
-          "count": 1,
-          "summary": "网易新作公开兜风测试PV，美术画风备受关注。",
           "summary_source": "llm"
         }
       ]

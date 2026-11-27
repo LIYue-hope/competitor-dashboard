@@ -1,9 +1,50 @@
 {
-  "generated_at": "2026-11-26T04:24:12.088357+00:00",
+  "generated_at": "2026-11-27T04:31:11.843359+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
+    {
+      "date": "2026-11-27",
+      "article_count": 6,
+      "game_count": 5,
+      "untagged_count": 1,
+      "digest": "TopLord在《LastWar》减量、《TopKing》未接棒后，9月起爬坡并冲进美区畅销前百，对标《LastWar》并优化细节；IGN发布《残魂显影》前瞻，称其为致敬《零》与《宝可梦随乐拍》的复古3D生存恐怖游戏；俄罗斯钓鱼4深度拆解系统玩法；星期六魔王因同类产品多、投放难度大引发关注；美职篮瞬息亮相，瞄准懂球但被操作和氪金劝退的泛体育用户。",
+      "digest_source": "llm",
+      "input_hash": "ed61a229e2a97bcb",
+      "game_digests": [
+        {
+          "name": "TopLord",
+          "count": 1,
+          "summary": "9月起爬坡并冲进美区畅销前百，对标《LastWar》并优化细节。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "俄罗斯钓鱼4",
+          "count": 1,
+          "summary": "深度拆解鱼种、角色成长、房屋、经济等系统，分析长线用户留存逻辑。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星期六魔王",
+          "count": 1,
+          "summary": "为地府题材宫斗+模拟经营游戏，因同类产品多、玩法乐趣不足，投放难度较大。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "残魂显影",
+          "count": 1,
+          "summary": "IGN发布前瞻，称其为致敬《零》与《宝可梦随乐拍》的复古3D生存恐怖游戏。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "美职篮瞬息",
+          "count": 1,
+          "summary": "NBA正版篮球竞技手游亮相，瞄准懂球但被操作和氪金劝退的泛体育用户。",
+          "summary_source": "llm"
+        }
+      ]
+    },
     {
       "date": "2026-11-26",
       "article_count": 6,
@@ -136,8 +177,8 @@
       "article_count": 1,
       "game_count": 0,
       "untagged_count": 1,
-      "digest": "今日游戏行业资讯聚焦于市场动态与厂商动向，游资网共收录1条相关报道，内容主要围绕行业整体趋势及未指向具体游戏名称的宏观分析展开，暂无特定游戏的具体动态更新。按报道条数排序的游戏（含代表性标题与摘要）：",
-      "digest_source": "llm",
+      "digest": "11月21日 游资网 共 1 条新闻，涉及 0 款游戏。另有 1 条未指向具体游戏的行业或平台资讯。当天的内容包括「不妙！前暴雪成员团队10年爬塔大作正撞GTA6首发热玩期」。未指向具体游戏的内容占当天的 100%。",
+      "digest_source": "rules",
       "input_hash": "9aae91468ac07c44",
       "game_digests": []
     },
@@ -260,47 +301,6 @@
           "name": "雾隐",
           "count": 1,
           "summary": "制作人狼烟无言表示《雾隐》能“慢游戏”，为给《黑神话：悟空》画动画的人耗时六年完成，凸显该作品在制作难度与风格上的投入。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "article_count": 9,
-      "game_count": 5,
-      "untagged_count": 4,
-      "digest": "11月17日游戏资讯聚焦多款新作与老游动态，瑞典Embark撤离射击游戏《ARC Raiders》上线半年销量破1600万，腾讯代理国服定名《弧光猎人》已获版号；日本独立团队C-Chicken的拔草劳作游戏《Just Weeding》将于11月27日登陆Steam，售价22元；Tear Bird工作室制作的2D横版平台解谜游戏《卷尺人》以卷尺为核心解谜工具，体量小但机制与关卡设计细腻；伽马数据10月报告显示《影之刃零》助力出海收入环比同比双增，合成品类持续领跑；Steam放置挂机游戏《TBH》到《桌面破坏神》阉割跑图治好了玩家的“电子阳痿”。",
-      "digest_source": "llm",
-      "input_hash": "4b8e74d30598c23d",
-      "game_digests": [
-        {
-          "name": "ARC Raiders",
-          "count": 1,
-          "summary": "瑞典Embark旗下撤离射击游戏《ARC Raiders》上线半年销量破1600万，腾讯代理国服定名《弧光猎人》已获版号，近日核心主创接受外媒专访复盘爆红后遇产能不足、外挂及玩家下滑等危机。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Just Weeding",
-          "count": 1,
-          "summary": "日本独立团队C-Chicken的拔草劳作游戏《Just Weeding》将于2026年11月27日登陆Steam，售价22元，支持简繁中文，可单人或最多6人联机，目标拔光10万根杂草直至升级工具至UFO。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "卷尺人",
-          "count": 1,
-          "summary": "Tear Bird工作室制作、indienova发行的2D横版平台解谜游戏《卷尺人》以卷尺为核心解谜工具，体量不大但机制与关卡设计细腻，难度曲线平滑，部分关卡解题思路值得玩味。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "伽马数据发布2026年10月中国游戏产业报告，显示《影之刃零》助力自研游戏出海收入环比同比双增，合成品类持续领跑海外市场。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "放置挂机",
-          "count": 1,
-          "summary": "Steam放置挂机游戏《TBH》到《桌面破坏神》阉割了跑图的老暗黑玩法，治好了玩家的“电子阳痿”，挂满1000小时再打差评被指是今年Steam最暴利的生意。",
           "summary_source": "llm"
         }
       ]
