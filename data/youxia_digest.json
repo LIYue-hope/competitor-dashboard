@@ -1,28 +1,123 @@
 {
-  "generated_at": "2026-11-27T04:25:18.960462+00:00",
+  "generated_at": "2026-11-28T04:01:00.968228+00:00",
   "source": "游侠网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-27",
-      "article_count": 40,
+      "date": "2026-11-28",
+      "article_count": 17,
       "game_count": 10,
-      "untagged_count": 20,
-      "digest": "GTA6发售四天PS5玩家破3900万，但PS5版闪退严重且功耗过高触发过热保护，露西亚演员发布感谢声明，PC版帧数在户外场景回落至40-56帧。神鬼寓言4台词超15万句，勇者斗恶龙怪物仙境4定档12月3日，巫师3重制版开启4折黑五促销并上线超40个跨平台模组，生灵重塑DLC定档12月15日，雷曼传奇再叙12月3日发售，面包和年糕Epic免费领取，红色沙漠修复Bug优化稳定性。",
+      "untagged_count": 5,
+      "digest": "Team Cherry公布《空洞骑士：丝之歌》首个大型免费DLC“悲恸之海”将于12月11日上线，引发玩家热议；游侠早报同步报道《影之刃零》推送7GB更新，新增战斗辅助与视角控制选项；此外，GOG限时免费赠送《尸变纪元2》，《绝地求生》官宣12月2日上线5v5“拆弹”模式，YouTube频道则展示了《荒野大镖客2》启用DLSS 5后的非官方测试效果。",
       "digest_source": "llm",
-      "input_hash": "03bb9e6882a6ce8e",
+      "input_hash": "887561d9145f830f",
+      "game_digests": [
+        {
+          "name": "丝之歌",
+          "count": 2,
+          "summary": "《丝之歌》「悲恸之海」实机公布！12月11日免费上线；《丝之歌》免费DLC定档！玩家很开心并直言愿意付费。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "影之刃零",
+          "count": 2,
+          "summary": "全平台推送约7GB版本更新，新增战斗辅助与视角控制选项。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA6",
+          "count": 1,
+          "summary": "民间开发者通过非官方手段将游戏移植至Mac，但帧率表现极低。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "只管拔草",
+          "count": 1,
+          "summary": "日本团队C-Chicken开发的解压新作上线Steam，支持6人联机拔除10万株草。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "尸变纪元2",
+          "count": 1,
+          "summary": "GOG平台限时免费赠送该回合制丧尸生存游戏，玩家可永久加入游戏库。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "异于天堂",
+          "count": 1,
+          "summary": "如龙工作室制作人坂本宽之表示将提供休闲模式和自动回血选项。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "数码宝贝：阿利西翁",
+          "count": 1,
+          "summary": "卡牌手游在183个国家移动端免费上线，预约超45万。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "斯普拉遁3",
+          "count": 1,
+          "summary": "推送12.0.1补丁修复蛮颓比赛挑战匹配故障，并公布联机与回放兼容规则。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "绝地求生",
+          "count": 1,
+          "summary": "正式官宣常驻街机模式“拆弹”，将于12月2日上线5v5战术对决。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "荒野大镖客2",
+          "count": 1,
+          "summary": "YouTube频道展示启用DLSS 5神经渲染技术的非官方测试效果。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "article_count": 99,
+      "game_count": 28,
+      "untagged_count": 49,
+      "digest": "GTA6发售四天PS5玩家破3900万，但PS5版闪退严重且功耗过高；神鬼寓言4台词超15万句；仙剑四重制官宣独家发行；勇者斗恶龙怪物仙境4定档12月3日；巫师3重制版黑五4折；堡垒之夜联动穿靴子的猫。",
+      "digest_source": "llm",
+      "input_hash": "41c1f9d155e7a753",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 10,
-          "summary": "PS5版闪退严重且功耗过高触发过热保护，PC版户外场景帧数回落至40-56帧，露西亚演员发布感谢声明。",
+          "count": 22,
+          "summary": "PS5版闪退严重且功耗过高触发过热保护，PC版首次突破60帧但户外负载未验证。",
           "summary_source": "llm"
         },
         {
           "name": "神鬼寓言4",
           "count": 2,
-          "summary": "台词超15万句，由100多名英国演员录制，新截图展示康乃馨街1号购房安家玩法。",
+          "summary": "台词超15万句超越《老滚5》与《辐射4》，新截图展示康乃馨街1号购房玩法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "Hela：鼠鼠奇旅",
+          "count": 1,
+          "summary": "《Hela：鼠鼠奇旅》\"游乐场\"深度解析视频发布，距离正式发售仅剩一周。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "I Missed the Apocalypse",
+          "count": 1,
+          "summary": "Steam喜加一:《I Missed the Apocalypse》限时免费领。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "QUIET",
+          "count": 1,
+          "summary": "专访《QUIET》制作人崔炳亮：让尖叫与大笑都变成奶奶的“噪音槽”。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "仙剑奇侠传四：重制",
+          "count": 1,
+          "summary": "重磅官宣咪咕游戏成为实体版独家发行商。",
           "summary_source": "llm"
         },
         {
@@ -32,45 +127,51 @@
           "summary_source": "rules"
         },
         {
+          "name": "博德3",
+          "count": 1,
+          "summary": "狠活!《博德3》暴君戈塔什恋爱mod曝光 解锁禁忌之恋。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "卧龙2：凤火连天",
+          "count": 1,
+          "summary": "《卧龙2:凤火连天》曹丕角色短片公开！野心深不见底。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "原子之心：The CUBE",
+          "count": 1,
+          "summary": "《原子之心：The CUBE》新预告！神秘立方体曝光！。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "坦克世界",
+          "count": 1,
+          "summary": "《坦克世界》丨史蒂夫·布西密加入假日行动2027。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "堕落之主",
+          "count": 1,
+          "summary": "本地化升级！《堕落之主》全面中文 续作新增中文配音。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "堡垒之夜",
+          "count": 1,
+          "summary": "联动梦工厂《穿靴子的猫》，实装英雄与死神大灰狼。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "女神异闻录",
+          "count": 1,
+          "summary": "抽抽有奖！《女神异闻录》30周年纪念一番赏即将发售。",
+          "summary_source": "rules"
+        },
+        {
           "name": "巫师3：狂猎 — 重制版",
           "count": 1,
           "summary": "黑五促销开启，限时4折优惠。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师3：狂猎 重制版",
-          "count": 1,
-          "summary": "官宣上线超40个跨平台模组，支持PlayStation、Xbox、Switch 2与PC。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 1,
-          "summary": "深度世界观解析内容在抖音精选App上聚合度很高。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "生灵重塑",
-          "count": 1,
-          "summary": "DLC“红牌警告”定档2026年12月15日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "红色沙漠",
-          "count": 1,
-          "summary": "发布2.06.00版更新，修复Bug并提升稳定性。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "雷曼：传奇再叙",
-          "count": 1,
-          "summary": "公布全新剧情与全程配音过场，定于12月3日发售。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "面包和年糕",
-          "count": 1,
-          "summary": "Epic喜加一，本周免费领取。",
           "summary_source": "llm"
         }
       ]
@@ -801,107 +902,6 @@
           "name": "索尼克赛车 交叉世界",
           "count": 1,
           "summary": "“SEGA 黑五大促 Part2”开跑，该作与《女神异闻录３ Reload》加入促销阵容，部分PS5/PS4/Nintendo Switch游戏限时特惠",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "article_count": 91,
-      "game_count": 33,
-      "untagged_count": 31,
-      "digest": "TGA 2026提名名单公布，国产武侠动作游戏《影之刃零》与《007：初露锋芒》表现抢眼，分别斩获五项与四项提名。备受瞩目的《GTA6》在发售前热度持续攀升，预购量已达1588万份，容量约212GB，引发全球玩家大规模请假潮。此外，《黎明行者之血》推出新游戏+模式，等级上限提升至100；《十字军之王III》大型扩展《丝绸与白银》上线，Steam国区售价128元。",
-      "digest_source": "llm",
-      "input_hash": "dff8c7897db22f82",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 26,
-          "summary": "容量约212GB，多位GameSpot编辑为腾出安装空间忍痛删除其他游戏，发售前累计预购约1588万份，发售日全球请假申请激增，西班牙申请增幅位列全球第四。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 2,
-          "summary": "获TGA 2026五项提名，包括年度最佳游戏、最佳游戏指导、最佳艺术指导、最佳配乐与音乐、最佳动作游戏，创国产单机游戏TGA提名数量新高。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "黎明行者之血",
-          "count": 2,
-          "summary": "全平台推出1.2版本更新，包含“新游戏+”模式，玩家与物品等级上限由50提升至100，可继续在桑格拉山谷面对更致命的敌人。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "007",
-          "count": 1,
-          "summary": "获得TGA年度游戏、叙事、演出、动作冒险四项提名，主演Patrick Gibson凭借饰演年轻詹姆斯·邦德入围最佳表演。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "DQ",
-          "count": 1,
-          "summary": "知名配乐师光田康典发声，认为在鸟山明离世之后，经典IP《勇者斗恶龙》或许应该画上句号。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA",
-          "count": 1,
-          "summary": "外媒Kotaku组织面向新玩家的讨论，探讨了《GTA》系列备受关注和吸引人的原因。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "MC",
-          "count": 1,
-          "summary": "开发者推出WorldCraft服务器，实现以1:1完整比例还原地球，玩家只需输入现实地址，就能在方块世界中看见自己家的样貌。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "七日杀",
-          "count": 1,
-          "summary": "开发商The Fun Pimps官宣，玩家期盼已久的匪徒势力将于2027年初加入游戏，该设定时隔约13年终于落地。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "三国：箭雨千军",
-          "count": 1,
-          "summary": "定档11月18日公测，主打阵型羁绊自由搭配与轻松不肝，网易云游戏同步首发，登录即享12小时限免。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "剑星",
-          "count": 1,
-          "summary": "女主伊芙的体模申才恩在社交平台更新一组生活随拍，首度公开和儿子同框出镜，照片迅速在玩家圈走红。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "十字军之王III",
-          "count": 1,
-          "summary": "大型扩展《丝绸与白银》正式发售，Steam国区售价128元，新增商人政体与共和国政体，玩家可通过贸易路线建立商业帝国。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "博德之门3",
-          "count": 1,
-          "summary": "凭借玩家自制MOD《A Dream of Silence: Revamped》入围新增的“最佳用户创作”奖，连续第四年获得TGA提名。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影",
-          "count": 1,
-          "summary": "开发商水晶动力遭第六轮裁员，多名员工离职，包括UI软件工程师、高级游戏设计师及高级环境技术美术。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "山海奇旅",
-          "count": 1,
-          "summary": "网易多人社交生活模拟新游「兜风测试」定档12月18日，预约量破300万，TapTap获9.2高分。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "幻想九霄",
-          "count": 1,
-          "summary": "正式上线，网易云游戏免下载、不占本机内存、即点即玩，竖屏云手机点开就能掐诀斗法，首发限免12小时。",
           "summary_source": "llm"
         }
       ]

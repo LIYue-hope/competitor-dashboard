@@ -1,37 +1,9 @@
 {
-  "crawled_at": "2026-11-27T04:11:38.410899+00:00",
+  "crawled_at": "2026-11-28T03:50:48.778727+00:00",
   "days": [
     {
-      "date": "2026-11-27",
-      "date_label": "11月27日 今天",
-      "games": [
-        {
-          "game_name": "小小村长2",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "打天下",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/xiaoxiaocunzhang2/",
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "最传奇",
-          "categories": [
-            "角色扮演"
-          ],
-          "score": null,
-          "event_desc": "复古打金传奇",
-          "status_tag": "首发",
-          "detail_url": "https://www.9game.cn/zuichuanqi3/",
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-11-30",
-      "date_label": "11月30日 下周一",
+      "date_label": "11月30日 后天",
       "games": [
         {
           "game_name": "战地先锋",
@@ -138,7 +110,7 @@
           "event_desc": "复古传奇",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/baizhanwushuang1/",
-          "has_afk_grinding_tag": false
+          "has_afk_grinding_tag": true
         }
       ]
     },
@@ -200,7 +172,7 @@
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/doushenmengjiang/",
-          "has_afk_grinding_tag": false
+          "has_afk_grinding_tag": true
         },
         {
           "game_name": "龙魂争霸",
@@ -258,7 +230,7 @@
           "categories": [
             "角色扮演"
           ],
-          "score": null,
+          "score": "8.1",
           "event_desc": null,
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/yirenzhixia2/",
@@ -279,6 +251,68 @@
           "event_desc": "复古打金传奇",
           "status_tag": "首发",
           "detail_url": "https://www.9game.cn/mengmajueqi/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-12-30",
+      "date_label": "12月30日",
+      "games": [
+        {
+          "game_name": "新大奉打更人",
+          "categories": [
+            "卡牌"
+          ],
+          "score": "8.1",
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/xdfdgr/",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "天命传奇",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": "高爆打金传奇",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/tianmingchuanqi/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-12-31",
+      "date_label": "12月31日",
+      "games": [
+        {
+          "game_name": "小兵打天下",
+          "categories": [
+            "策略"
+          ],
+          "score": null,
+          "event_desc": "多文明SLG手游",
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/xbdtx/",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2027-01-21",
+      "date_label": "01月21日",
+      "games": [
+        {
+          "game_name": "英雄决战",
+          "categories": [
+            "角色扮演"
+          ],
+          "score": null,
+          "event_desc": null,
+          "status_tag": "首发",
+          "detail_url": "https://www.9game.cn/atmyxjz/",
           "has_afk_grinding_tag": false
         }
       ]

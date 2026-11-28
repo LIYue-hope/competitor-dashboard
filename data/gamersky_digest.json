@@ -1,117 +1,236 @@
 {
-  "generated_at": "2026-11-27T04:27:13.114455+00:00",
+  "generated_at": "2026-11-28T04:05:04.226003+00:00",
   "source": "游民星空",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-27",
-      "article_count": 41,
-      "game_count": 6,
-      "untagged_count": 15,
-      "digest": "今日资讯聚焦《GTA6》，相关报道达21条，分析师预测其销量已突破4000万份，年底有望达5000万份，但主机装机量瓶颈引发关注。此外，EA《钢铁侠》官网更新引发新作猜测，Remedy回应《量子破碎2》传闻，多款游戏同步更新动态。",
+      "date": "2026-11-28",
+      "article_count": 33,
+      "game_count": 9,
+      "untagged_count": 10,
+      "digest": "今日游戏资讯聚焦于《GTA6》的硬件测试与玩法探索，以及《生化奇兵：重制版》商店页面的更新。此外，《007：初露锋芒》开启五折促销，《影之刃零》修复视角问题，育碧启动50万美元现实寻宝活动，CDPR透露《赛博朋克2077》受《女神异闻录5》启发，P6制作人也确认开发进展顺利。",
       "digest_source": "llm",
-      "input_hash": "ce6dd9c59f246665",
+      "input_hash": "b910daa8ac7d4cca",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 21,
-          "summary": "分析师预测其销量已突破4000万份，年底有望达5000万份，但主机装机量瓶颈引发关注。",
+          "count": 15,
+          "summary": "数毛社发布技术文章，将《GTA6》发售版本与多支预热预告片、实机演示素材进行对比，梳理了游戏在开发周期内的画面技术变化。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "007：初露锋芒",
+          "count": 1,
+          "summary": "Steam标准版限时五折至34.99美元，但实际折扣、地区价格与截止时间应以当地商店页面为准。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "P5",
+          "count": 1,
+          "summary": "CDPR老兵帕维尔·萨斯科爆料称，《赛博朋克2077》的手机短信互动曾受到《女神异闻录5》部分机制启发，用于延展角色故事和补充叙事。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "刺客信条",
+          "count": 1,
+          "summary": "育碧与Unsolved Hunts推出加勒比现实寻宝活动，参与者需破解15道谜题定位宝藏，头奖总价值为50万美元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "女神异闻录6",
+          "count": 1,
+          "summary": "P-Studio总制作人和田和久在访谈中回应称，《女神异闻录6》开发工作正在顺利推进，并未出现计划之外的延误。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 1,
+          "summary": "游戏于11月28日在全平台推送版本1.0304629更新，修复了此前存在的视角问题。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "生化奇兵：重制版",
+          "count": 1,
+          "summary": "Xbox商店里《生化奇兵》初代页面出现名称改动，游戏标题从原本的《BioShock》更新为《BioShock (Xbox 360)》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "荒野大镖客2",
+          "count": 1,
+          "summary": "非官方对比测试称，在RTX 5080、4K和DLSS 4.5性能模式下启用单次神经渲染后，帧率下降约31%，但光影与反射表现有所改善。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "黑暗之魂",
+          "count": 1,
+          "summary": "Steam今日史低折扣，多款游戏价格历史最低，游民挑选了部分折扣游戏整理成清单供玩家浏览挑选。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "article_count": 130,
+      "game_count": 27,
+      "untagged_count": 38,
+      "digest": "今日游戏资讯聚焦于《GTA6》的防泄露讨论、玩家对自由度的期待及低配硬件的实测挑战，同时《影之刃零》好评率回升引发热议，此外《丝之歌》DLC公布、仁王3登陆Xbox、仙剑4重制实体版官宣以及《全境封锁2》跨平台新赛季上线等动态也备受关注。",
+      "digest_source": "llm",
+      "input_hash": "162acc59c6f4f37f",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 64,
+          "summary": "一位玩家分享在搭载GTX 1650显卡和24GB内存的PC上运行非官方移植版《GTA6》的测试结果，游戏运行时的帧率仅有2 FPS。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "影之刃零",
+          "count": 3,
+          "summary": "有玩家在讨论中呼吁《影之刃零》增加Boss复战模式，或提供能够自由调整配置、磨炼战斗技巧的练兵场。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "007初露锋芒",
+          "count": 1,
+          "summary": "《007初露锋芒》角色客串杀手，完成可获海盗套装，任务在12月24日前向游戏拥有者免费开放。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "FGO",
+          "count": 1,
+          "summary": "Fahrenheit 213 Inc宣布将同时举办面向PC的两款全新独立游戏《神剑少女战记》与《冥月悸动》的“封闭战斗β测试”。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "GTA",
+          "count": 1,
+          "summary": "曾在《GTA5》中饰演迈克尔·德圣塔的演员内德·卢克回应部分玩家对《GTA6》女性主角露西亚的批评，称露西亚是很酷的角色。",
           "summary_source": "llm"
         },
         {
           "name": "Hela：鼠鼠奇旅",
           "count": 1,
-          "summary": "发布全新深度解析视频，本期内容将聚焦游戏中充满乐趣的“游乐场”式玩法。",
+          "summary": "《Hela：鼠鼠奇旅》发布全新深度解析视频，本期内容将聚焦游戏中充满乐趣的“游乐场”式玩法。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "丝之歌",
+          "count": 1,
+          "summary": "Team Cherry正式公布了《空洞骑士：丝之歌》首个大型免费DLC“悲恸之海”最新情报，定于12月11日免费上线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "仁王3 完全版",
+          "count": 1,
+          "summary": "光荣特库摩正式发布了《仁王3 完全版》的公布预告片，作为系列诞生10周年的纪念献礼，本作将首次登陆Xbox Series X|S平台。",
           "summary_source": "llm"
         },
         {
           "name": "仙剑奇侠传4重制",
           "count": 1,
-          "summary": "官宣实体版，携手中国移动品牌，基于Unreal5引擎开发。",
+          "summary": "咪咕游戏成为《仙剑奇侠传四：重制》实体版独家发行商，官方表示游戏即将与大家相见。",
           "summary_source": "llm"
         },
         {
-          "name": "巫师3：狂猎—重制版",
+          "name": "仙剑奇侠传四：重制",
           "count": 1,
-          "summary": "黑五促销现已开启，限时4折。",
+          "summary": "重磅官宣!咪咕游戏成为《仙剑奇侠传四：重制》实体版独家发行商。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "全境封锁2",
+          "count": 1,
+          "summary": "《全境封锁2》全新赛季“锋矛覆灭”现已上线，“白牙”正向华盛顿特区发起进攻，全新传奇难度内容、装备与配装系统改进也将同步登场。",
           "summary_source": "llm"
         },
         {
-          "name": "量子破碎",
+          "name": "剑星",
           "count": 1,
-          "summary": "Remedy官方回应新作传闻，澄清该IP现状。",
+          "summary": "Shift Up技术总监李东基分享《剑星》开发复盘，称团队在发售约两年前开启首轮测试，68名测试人员共发现并推动解决549项问题。",
           "summary_source": "llm"
         },
         {
-          "name": "钢铁侠",
+          "name": "卧龙2：凤火连天",
           "count": 1,
-          "summary": "EA Motive工作室更新官方网站，页面外观和结构均有所调整，引发新作猜测。",
+          "summary": "《卧龙2：凤火连天》新片公布，野心家曹丕登场，游戏预计于2027年3月4日正式发售。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "堕落之主",
+          "count": 1,
+          "summary": "《堕落之主》官方发布了最新的2.5.338版本更新公告，重点围绕中文本地化质量、近距离PvP战斗体验、反作弊系统以及游戏稳定性进行了全面优化与修复。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "宝可梦：风/波",
+          "count": 1,
+          "summary": "《Pokémon Winds & Waves》的Browt、Pombon和Gecqua首批毛绒玩偶将于12月5日起在日本宝可梦中心发售，单只定价2200日元。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-11-26",
-      "article_count": 153,
+      "article_count": 149,
       "game_count": 29,
-      "untagged_count": 42,
-      "digest": "今日游戏资讯热度极高，R星《GTA6》占据绝对主导，不仅因剧情泄露引发关注，其非官方PC移植及女主演员热度也持续发酵。同时，多款大作动态密集，包括《影之刃零》即将推出日文更新、《美末2》MOD争议再起、《巫师3》重制版迎来超大体量更新，以及《巫师4》确认多平台同步首发等。",
+      "untagged_count": 41,
+      "digest": "2026年11月26日游戏资讯以《GTA6》为核心，围绕其剧情保密、PC移植乱象及直播纪录展开大量报道，同时《影之刃零》与《巫师3》迎来重大更新，其他多款游戏如《美末2》、《寂静岭》及《神鬼寓言4》也因技术力对比、史低价促销及DEI争议引发关注。",
       "digest_source": "llm",
-      "input_hash": "1bd2d0d4a8260292",
+      "input_hash": "f4c99e62c3005fd8",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 73,
-          "summary": "R星称序章关键剧情从未计划公开，黑客泄露核心文件后引发民间PC移植乱象，女主演员粉丝暴涨45万。",
+          "count": 70,
+          "summary": "R星称关键剧情从未计划公开，团队担心泄露并希望玩家亲自发现，同时非官方PC移植引发乱象，闲鱼已有付费教程，直播观看纪录被打破。",
           "summary_source": "llm"
         },
         {
           "name": "影之刃零",
           "count": 5,
-          "summary": "官方宣布将于11月28日推出约7GB的重大更新，新增日文假名标注功能以帮助日本玩家辨认汉字。",
+          "summary": "S-GAME宣布将于11月28日推出约7GB的更新，新增日文假名标注功能以帮助日本玩家辨认汉字，游戏已于10月29日发售。",
           "summary_source": "llm"
         },
         {
           "name": "美末2",
           "count": 3,
-          "summary": "《最后生还者2》多人MOD借助生成式AI卷土重来，开发者表示索尼难以彻底阻止其传播，艾比演员家人遭侮辱引争议。",
+          "summary": "开发者称《GTA6》技术力超出认知，多人MOD借助生成式AI卷土重来，艾比演员家人遭侮辱引发争议，玩家不应将不满发泄到演员及其家人身上。",
           "summary_source": "llm"
         },
         {
           "name": "寂静岭",
           "count": 2,
-          "summary": "科乐美发行的《寂静岭：小镇陷落》发售仅两月即迎来新史低折扣，Steam今日史低折扣开启。",
+          "summary": "科乐美发行的《寂静岭：小镇陷落》发售仅两月即迎来新史低好价，Steam今日史低折扣中有多款该系列游戏推荐。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3",
           "count": 2,
-          "summary": "《巫师3：狂猎—重制版》5.02版本补丁登陆全平台，官方同步公开了超过40款全新跨平台MOD。",
+          "summary": "官方宣布游戏迎来超过40款全新跨平台MOD，并同步公开宣传视频，5.02版本补丁现已登陆PC、PS5、Xbox Series X|S及Switch 2平台。",
           "summary_source": "llm"
         },
         {
           "name": "巫师4",
           "count": 2,
-          "summary": "CDPR确认《巫师4》不会成为PS5独占，将除NS2外同步首发，开发商表示其进化幅度将媲美《GTA6》。",
+          "summary": "开发商澄清游戏不会成为PS5独占，除NS2外将在全平台同步首发，并称《巫师4》的进化幅度将媲美《GTA6》。",
           "summary_source": "llm"
         },
         {
           "name": "神鬼寓言4",
           "count": 2,
-          "summary": "Playground Games透露游戏配音台词超15万句，超过100名英国配音演员参与录制，主创回应了关于大量DEI的争议。",
+          "summary": "Playground Games表示游戏配音台词超15万句，超过100名英国配音演员参与录制，主创回应称这是为了还原现代英国。",
           "summary_source": "llm"
         },
         {
           "name": "Embers of the Uncrowned",
           "count": 1,
-          "summary": "该作于11月26日公开开发者展示会视频，宣布将于12月4日开启全球测试。",
+          "summary": "游戏将于12月4日开启全球测试，官方YouTube频道已公开展示会视频介绍测试内容。",
           "summary_source": "llm"
         },
         {
           "name": "GTA7",
           "count": 1,
-          "summary": "Take-Two首席执行官Strauss Zelnick再次回应了玩家关于《GTA7》发售时间的提问。",
+          "summary": "Take-Two首席执行官Strauss Zelnick再次回应玩家关于《GTA7》发售时间的提问。",
           "summary_source": "llm"
         },
         {
@@ -123,132 +242,132 @@
         {
           "name": "丝之歌",
           "count": 1,
-          "summary": "《空洞骑士：丝之歌》官宣将于11月28日举办发布会，公布扩展内容《Sea of Sorrow》。",
+          "summary": "新作官宣将于11月28日举办发布会，公布免费扩展内容《Sea of Sorrow》。",
           "summary_source": "llm"
         },
         {
           "name": "仁王3",
           "count": 1,
-          "summary": "光荣特库摩发布了《仁王3》天草四郎人物宣传片，完全版系列首登Xbox。",
+          "summary": "光荣特库摩发布天草四郎人物宣传片，完全版系列首次登陆Xbox。",
           "summary_source": "llm"
         },
         {
           "name": "勇者斗恶龙怪物仙境4 枯木国的碧安卡与芙萝拉",
           "count": 1,
-          "summary": "《勇者斗恶龙怪物仙境4 枯木国的碧安卡与芙萝拉》最终PV！PC版晚一天 国区298元。",
-          "summary_source": "rules"
+          "summary": "公布最终PV，PC版发售时间比主机版晚一天，国区定价298元。",
+          "summary_source": "llm"
         },
         {
           "name": "地平线6",
           "count": 1,
-          "summary": "开发商Playground Games针对痛车涂装封禁争议发布声明，公布处罚数据并解释审核标准。",
+          "summary": "官方回应痛车封禁争议，公布处罚数据并解释审核标准。",
           "summary_source": "llm"
         },
         {
           "name": "塞尔达传说",
           "count": 1,
-          "summary": "《塞尔达传说：时之笛 重制版》推送1.1.2版本更新，官方仅提及修复剧情推进问题，未提BUG调整。",
+          "summary": "《塞尔达传说：时之笛 重制版》推送1.1.2版本更新，修复“玛蓉的朋友”章节无法推进问题，未提及BUG相关调整。",
           "summary_source": "llm"
         }
       ]
     },
     {
       "date": "2026-11-25",
-      "article_count": 150,
+      "article_count": 148,
       "game_count": 37,
       "untagged_count": 40,
-      "digest": "今日游戏资讯聚焦于《GTA6》的Fami通评分、主机配置参数及玩家账号纠纷，同时《巫师4》公布与索尼的营销合作及开发团队缩编情况，此外《信长之野望：飞翔》《昭和米国物语》等新作公布发售日期，T1官宣选手Zeus回归，以及《堕落之主2》延期至2027年第一季度。",
+      "digest": "今日游戏资讯聚焦于《GTA6》的Fami通评分、主机配置参数泄露及玩家账号纠纷，同时《信长之野望：飞翔》《昭和米国物语》等新作公布发售日，CDPR宣布《巫师4》与索尼达成营销合作，顽皮狗新作《星际：异端先知》预计2027年底发售，T1官宣上单Zeus回归，以及《仁王3》DLC、《合金弹头》真人电影等动态。",
       "digest_source": "llm",
-      "input_hash": "0664d6f0e5d355c0",
+      "input_hash": "1b96928f1f77ce7f",
       "game_digests": [
         {
           "name": "GTA6",
           "count": 67,
-          "summary": "Fami通第1973期公布评测得分，本作拿到39/40的高分，官方称游戏规模庞大供玩家探索，主机配置参数曝光显示PS5、PS5 Pro、Xbox Series X|S间存在画面差异，国外一名女子因收回Xbox账号导致前男友报警方处理。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "巫师4",
-          "count": 3,
-          "summary": "CDPR与索尼达成营销合作协议，将共同开展《巫师4》的宣传活动，同时财报披露截至10月31日《巫师4》开发团队规模为513人，相比上一季度减少6人。",
+          "summary": "Fami通公布39/40的高分，主机配置参数泄露，PS5与Xbox Series X|S画面差异曝光，玩家账号因前女友收回引发纠纷。",
           "summary_source": "llm"
         },
         {
           "name": "信长之野望：飞翔",
           "count": 2,
-          "summary": "光荣特库摩公布新作《信长之野望：飞翔》将于2027年3月12日发售，PS5版定价528港币，Steam国区定价348元，预购现已开启。",
+          "summary": "PS5版定价528港币，PC国区348元，将于2027年3月12日发售。",
           "summary_source": "llm"
         },
         {
           "name": "巫师3",
           "count": 2,
-          "summary": "CDPR官方庆祝旗下作品获得2026年TGA四项提名，其中三项来自《巫师》系列，并表示《巫师3》与《巫师4》之间的进步幅度将与《GTA5》到《GTA6》的跨代提升相当。",
+          "summary": "CDPR表示《巫师4》与《巫师3》的进化幅度堪比《GTA5》到《GTA6》，作品获TGA四项提名。",
           "summary_source": "llm"
         },
         {
-          "name": "影之刃零",
+          "name": "巫师4",
           "count": 2,
-          "summary": "游戏发售初期好评率约为79%，随着玩家深入游玩评价发生变化，Steam好评率已升至95%。",
+          "summary": "CDPR与索尼达成营销合作协议，公布内部开发人员分配图表。",
           "summary_source": "llm"
         },
         {
           "name": "星际：异端先知",
           "count": 2,
-          "summary": "顽皮狗新作《星际：异端先知》据爆料最快将于2027年底发售，目前工作室仍在进行最后的打磨与优化。",
+          "summary": "PS官网页面暗示新作存在，据爆料最快将于2027年底发售。",
           "summary_source": "llm"
         },
         {
           "name": "昭和米国物语",
           "count": 2,
-          "summary": "由铃空游戏开发的国产动作冒险游戏《昭和米国物语》官宣将于2027年10月28日发售，官方表示游戏主体内容已全部制作完成。",
+          "summary": "正式定档2027年10月28日，从首曝到发售历时6年。",
           "summary_source": "llm"
         },
         {
           "name": "LOL",
           "count": 1,
-          "summary": "T1电子竞技俱乐部官宣上单选手“Zeus”崔祐齐正式回归战队，双方已签约至2029年，Zeus分享了重返老东家的心境。",
+          "summary": "T1官宣上单选手Zeus回归，双方签约至2029年。",
           "summary_source": "llm"
         },
         {
           "name": "PUBG",
           "count": 1,
-          "summary": "游戏公布限定音乐计划“THE SQUAD”，组合“IVE”将作为首位参与艺人登场，该计划由原创歌曲、MV及游戏内内容构成。",
+          "summary": "公布限定音乐计划“THE SQUAD”，组合IVE将作为首位参与艺人登场。",
           "summary_source": "llm"
         },
         {
           "name": "仁王3",
           "count": 1,
-          "summary": "光荣特库摩公布《仁王3》第二弹大型DLC“天草大乱”，该DLC将于12月17日正式发售，新增海量好内容但无新武器。",
+          "summary": "12月17日发售第二弹大型DLC“天草大乱”，新增大型玩法但无新武器。",
           "summary_source": "llm"
         },
         {
           "name": "卧龙2：凤火连天",
           "count": 1,
-          "summary": "Team Ninja制作、光荣特库摩发行的动作游戏《卧龙2：凤火连天》将于2027年3月4日正式发售，登陆PC/PS5/Xbox/NS2平台。",
+          "summary": "公布新图，将于2027年3月4日登陆多平台。",
           "summary_source": "llm"
         },
         {
           "name": "原子之心",
           "count": 1,
-          "summary": "以《原子之心》宇宙为背景的全新衍生作品《THE CUBE》正式公开了最新预告片。",
+          "summary": "公布以该宇宙为背景的衍生作品《THE CUBE》预告片。",
           "summary_source": "llm"
         },
         {
           "name": "合金弹头",
           "count": 1,
-          "summary": "经典街机游戏《合金弹头》真人电影项目正式立项，由《我爱我爸》编剧詹姆斯・莫罗西尼负责剧本创作。",
+          "summary": "真人电影项目正式立项，由《我爱我爸》编剧操刀。",
           "summary_source": "llm"
         },
         {
           "name": "堕落之主2",
           "count": 1,
-          "summary": "成人类魂大作《堕落之主2》延期，原计划2026年内发售，现已延期至2027年第一季度。",
+          "summary": "延期至2027年第一季度发售。",
           "summary_source": "llm"
         },
         {
           "name": "大镖客2",
           "count": 1,
-          "summary": "官方放出免费插件，为游戏添加了真光追反射功能。",
+          "summary": "推出免费插件支持硬件加速光线追踪反射。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "如龙",
+          "count": 1,
+          "summary": "《异于天堂》将于2027年1月15日发售。",
           "summary_source": "llm"
         }
       ]
@@ -831,107 +950,6 @@
           "name": "鹦鹉团",
           "count": 1,
           "summary": "《鹦鹉团》于11月19日全平台公测上线，是上海金塞纳人工智能科技有限公司推出的超高自由度3D音舞社交网游，支持iOS与Android平台。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "article_count": 171,
-      "game_count": 26,
-      "untagged_count": 40,
-      "digest": "2026年11月18日，游戏行业资讯整体呈现多元竞争与评价分化态势，涉及游戏覆盖广泛，既有众多游戏获得奖项提名或爆出争议，也有部分游戏涉及价格变动、裁员及平台评价问题，整体话题聚焦游戏本身表现与公众反响。",
-      "digest_source": "llm",
-      "input_hash": "eaf5c3d97bde7d41",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 86,
-          "summary": "《GTA6》相关内容密集曝出：存在博主对TGA奖项走向的预测、玩家对30帧表现吐槽以及恋爱攻略相关玩法介绍。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃零",
-          "count": 16,
-          "summary": "央视报道其获五项TGA年度提名，隐藏剧情全渠道观看导航、官方求投票获年度最佳等5项提名，TGA提名数追平《黑神话：悟空》且有望超越。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "仁王3",
-          "count": 3,
-          "summary": "光荣特库摩宣布其开启黑色星期五促销，标准版五折、季票七五折、PS5版数字豪华版五四折，但IGN称其未获任何提名。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "影之刃",
-          "count": 3,
-          "summary": "幻鬼脸模晒出完美侧颜美照，挑眉哥称其年度提名实至名归但国游常被双标、质疑被提名最佳指导因经典为类魂。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "鬼武者",
-          "count": 2,
-          "summary": "IGN满分却无缘年度，玩家喊冤称其简直是强盗，且TGA仅获一项提名、未进年度。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA4",
-          "count": 1,
-          "summary": "业内人士爆料Rockstar Games考虑以《GTA6》新引擎为基础为经典游戏《GTA4》推出重制版。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "KAMAGI",
-          "count": 1,
-          "summary": "韩国独立工作室公布《KAMAGI》实机首曝，展示战斗、探索及Boss战画面，核心玩法强调精准弹开。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "午夜以南",
-          "count": 1,
-          "summary": "DEI大作《午夜以南》编剧回应多元化争议，称玩家误解太深是浪费时间，该作发售后获媒体好评。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "博德之门3",
-          "count": 1,
-          "summary": "TGA 2026公布提名名单，已发售超三年的《博德之门3》依旧出现在提名中，官方发文庆祝其连续四年获提名。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "古墓丽影",
-          "count": 1,
-          "summary": "开发商第六轮裁员，新作受影响跳票。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "唐传奇琵琶行",
-          "count": 1,
-          "summary": "《唐传奇琵琶行》疑取消，为维塔士成都工作室自主研发的国风第一人称动作潜行游戏，灵感来自白居易《琵琶行》。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "文明7",
-          "count": 1,
-          "summary": "曝其开发商裁员三分之一，2K仅确认负责人离职，工作室负责人离职。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "时之笛RE",
-          "count": 1,
-          "summary": "《时之笛RE》实体价格大跳水，适合好价购买。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "极限竞速：地平线6",
-          "count": 1,
-          "summary": "IGN满分佳作获TGA双提名，系列已连续三代获奖。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "火焰纹章：万缕千丝",
-          "count": 1,
-          "summary": "IGN满分被TGA无视，该作模拟/策略类未获提名。",
           "summary_source": "llm"
         }
       ]

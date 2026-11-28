@@ -1,47 +1,53 @@
 {
-  "generated_at": "2026-11-27T04:31:11.843359+00:00",
+  "generated_at": "2026-11-28T04:11:29.844614+00:00",
   "source": "游资网",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-11-27",
-      "article_count": 6,
-      "game_count": 5,
-      "untagged_count": 1,
-      "digest": "TopLord在《LastWar》减量、《TopKing》未接棒后，9月起爬坡并冲进美区畅销前百，对标《LastWar》并优化细节；IGN发布《残魂显影》前瞻，称其为致敬《零》与《宝可梦随乐拍》的复古3D生存恐怖游戏；俄罗斯钓鱼4深度拆解系统玩法；星期六魔王因同类产品多、投放难度大引发关注；美职篮瞬息亮相，瞄准懂球但被操作和氪金劝退的泛体育用户。",
+      "article_count": 10,
+      "game_count": 6,
+      "untagged_count": 4,
+      "digest": "2026-11-27当天游资网发布10条新闻，涉及6款游戏，整体围绕游戏产业动态展开，包含各游戏发售、玩法优化、前瞻、营销策略等内容，涉及TopLord、俄罗斯钓鱼4、星期六魔王、残魂显影、神机问鼎、美职篮瞬息等游戏，聚焦游戏内容呈现、机制设计及市场拓展方向，呈现多元游戏动态，各条报道围绕具体游戏展开分析或信息发布，反映游戏行业当下围绕玩法、营销、策略等方向的研究与动态。",
       "digest_source": "llm",
-      "input_hash": "ed61a229e2a97bcb",
+      "input_hash": "3fed6b7f2e98b90a",
       "game_digests": [
         {
           "name": "TopLord",
           "count": 1,
-          "summary": "9月起爬坡并冲进美区畅销前百，对标《LastWar》并优化细节。",
-          "summary_source": "llm"
+          "summary": "玩完冲进美区前百的《TopLord》，我反而觉得另一个游戏死早了。",
+          "summary_source": "rules"
         },
         {
           "name": "俄罗斯钓鱼4",
           "count": 1,
-          "summary": "深度拆解鱼种、角色成长、房屋、经济等系统，分析长线用户留存逻辑。",
-          "summary_source": "llm"
+          "summary": "一个钓鱼游戏，凭什么让我玩了上万个小时？《俄罗斯钓鱼4》系统玩法深度拆解（下）。",
+          "summary_source": "rules"
         },
         {
           "name": "星期六魔王",
           "count": 1,
-          "summary": "为地府题材宫斗+模拟经营游戏，因同类产品多、玩法乐趣不足，投放难度较大。",
-          "summary_source": "llm"
+          "summary": "地府宫斗+贪吃蛇收魂！《星期六魔王》的包装挺有意思！。",
+          "summary_source": "rules"
         },
         {
           "name": "残魂显影",
           "count": 1,
-          "summary": "IGN发布前瞻，称其为致敬《零》与《宝可梦随乐拍》的复古3D生存恐怖游戏。",
-          "summary_source": "llm"
+          "summary": "IGN《残魂显影》前瞻：《生化危机》与《宝可梦随乐拍》味儿的复古 3D 生存恐怖游戏。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "神机问鼎",
+          "count": 1,
+          "summary": "龙武【神机问鼎】版本前瞻：预备营活动上线，全新帮会玩法来袭，天帝宝库新区提前开启！。",
+          "summary_source": "rules"
         },
         {
           "name": "美职篮瞬息",
           "count": 1,
-          "summary": "NBA正版篮球竞技手游亮相，瞄准懂球但被操作和氪金劝退的泛体育用户。",
-          "summary_source": "llm"
+          "summary": "行业观察｜《美职篮瞬息》想把看球的人带上场。",
+          "summary_source": "rules"
         }
       ]
     },
@@ -248,59 +254,6 @@
           "name": "汉末霸业：再起",
           "count": 1,
           "summary": "《汉末霸业》迎来十周年，制作人邓钢基于过往续作积累，开启新产品《汉末霸业：再起》的众筹，预计2027年推出PC版。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "article_count": 16,
-      "game_count": 7,
-      "untagged_count": 9,
-      "digest": "当日游资网共发布16条新闻，涉及7款游戏，整体围绕游戏动态展开，覆盖游戏发售、玩法分析、厂商合作与产品创新等多方面内容，其中部分游戏获得奖项或推介，部分游戏聚焦玩法深度解读与制作故事，行业动态呈现较丰富，具体内容有具体报道支撑。",
-      "digest_source": "llm",
-      "input_hash": "50df48d326ec34b1",
-      "game_digests": [
-        {
-          "name": "三角洲行动",
-          "count": 1,
-          "summary": "腾讯发布Q3本土游戏收入双位数增长11%，相关游戏日活创新高，游戏AI全链路布局领先，产品商业化表现突出。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "俄罗斯钓鱼4",
-          "count": 1,
-          "summary": "拆解该游戏系统玩法，从定位、架构、地图设计、渔具体系等维度分析其吸引玩家长时间游玩的原因，聚焦硬核钓鱼模拟游戏的玩法特点。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "喵喵的结合",
-          "count": 1,
-          "summary": "E胖出品该游戏，获2026年TGA最佳独立游戏、最佳模拟/策略游戏两项提名，由E胖与泰勒·格莱尔合作开发，历经创意、波折与玩法调整后成型。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "布鲁伊的欢乐快照",
-          "count": 1,
-          "summary": "团队运用虚幻引擎5的动画工具与技术，将该深受喜爱的儿童动画改编成全家都能乐在其中的游戏冒险。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "最终幻想：共鸣",
-          "count": 1,
-          "summary": "该游戏于2026年10月22日发售，以像素画风重绘《最终幻想：勇气启示录》第一季内容，启动新生代开发者访谈分享战斗系统开发思路。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "胡闹厨房",
-          "count": 1,
-          "summary": "中西制作所跨界推出以配餐中心运营为题材的手机游戏《配餐大师》，探索将配餐中心内容与厨房设备作用突破传统广告传达的方式。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "雾隐",
-          "count": 1,
-          "summary": "制作人狼烟无言表示《雾隐》能“慢游戏”，为给《黑神话：悟空》画动画的人耗时六年完成，凸显该作品在制作难度与风格上的投入。",
           "summary_source": "llm"
         }
       ]

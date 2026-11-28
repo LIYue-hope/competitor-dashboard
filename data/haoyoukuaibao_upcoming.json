@@ -1,9 +1,9 @@
 {
-  "crawled_at": "2026-11-27T04:11:04.096332+00:00",
+  "crawled_at": "2026-11-28T03:49:53.593318+00:00",
   "days": [
     {
       "date": "2026-11-29",
-      "date_label": "11月29日 后天",
+      "date_label": "11月29日 明天",
       "games": [
         {
           "game_name": "忍者连结 -闪乱神乐-",
@@ -17,7 +17,28 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202410.htm",
           "publisher": "HONEY PARADE GAMES Inc.",
-          "reservation_count": "112",
+          "reservation_count": "122",
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "date_label": "11月30日 后天",
+      "games": [
+        {
+          "game_name": "变形金刚：新纪元",
+          "categories": [
+            "策略",
+            "机甲",
+            "剧情"
+          ],
+          "score": null,
+          "event_desc": "10:00 预下载，12月1日上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/202108.htm",
+          "publisher": null,
+          "reservation_count": "9004",
           "has_afk_grinding_tag": false
         }
       ]
@@ -38,7 +59,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/163966.htm",
           "publisher": null,
-          "reservation_count": "53.7万",
+          "reservation_count": "54万",
           "has_afk_grinding_tag": false
         },
         {
@@ -53,7 +74,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/165538.htm",
           "publisher": null,
-          "reservation_count": "16535",
+          "reservation_count": "16823",
           "has_afk_grinding_tag": false
         },
         {
@@ -64,11 +85,11 @@
             "剧情"
           ],
           "score": null,
-          "event_desc": "正式上线，具体几点待定",
+          "event_desc": "10:00 正式上线",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/202108.htm",
           "publisher": null,
-          "reservation_count": "8864",
+          "reservation_count": "9004",
           "has_afk_grinding_tag": false
         },
         {
@@ -83,7 +104,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/205208.htm",
           "publisher": "广州卓游",
-          "reservation_count": "118",
+          "reservation_count": "126",
           "has_afk_grinding_tag": false
         }
       ]
@@ -104,7 +125,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/204940.htm",
           "publisher": null,
-          "reservation_count": "94",
+          "reservation_count": "98",
           "has_afk_grinding_tag": true
         },
         {
@@ -119,7 +140,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/205208.htm",
           "publisher": "广州卓游",
-          "reservation_count": "118",
+          "reservation_count": "126",
           "has_afk_grinding_tag": false
         },
         {
@@ -134,7 +155,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/206681.htm",
           "publisher": "Ivy Sly",
-          "reservation_count": "34",
+          "reservation_count": "38",
           "has_afk_grinding_tag": false
         }
       ]
@@ -146,7 +167,7 @@
         {
           "game_name": "魔方工作室周年直播",
           "categories": [],
-          "score": "7.9",
+          "score": "8.0",
           "event_desc": "19点直播,赢《狩》首测资格",
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/177705.htm",
@@ -166,8 +187,23 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/205060.htm",
           "publisher": "嬉皮狗工作室",
-          "reservation_count": "152",
+          "reservation_count": "156",
           "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "金铲铲之战",
+          "categories": [
+            "PC游戏",
+            "自走棋",
+            "竞技"
+          ],
+          "score": null,
+          "event_desc": "PC端上线，开服时间待定",
+          "status_tag": "PC/主机",
+          "detail_url": "https://www.3839.com/a/202964.htm",
+          "publisher": "腾讯",
+          "reservation_count": null,
+          "has_afk_grinding_tag": true
         },
         {
           "game_name": "魔法之巅",
@@ -181,7 +217,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/204940.htm",
           "publisher": null,
-          "reservation_count": "94",
+          "reservation_count": "98",
           "has_afk_grinding_tag": true
         },
         {
@@ -196,7 +232,7 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/186732.htm",
           "publisher": null,
-          "reservation_count": "1004",
+          "reservation_count": "1006",
           "has_afk_grinding_tag": false
         },
         {
@@ -211,8 +247,74 @@
           "status_tag": null,
           "detail_url": "https://www.3839.com/a/205623.htm",
           "publisher": null,
-          "reservation_count": "88",
+          "reservation_count": "90",
           "has_afk_grinding_tag": true
+        }
+      ]
+    },
+    {
+      "date": "2026-12-04",
+      "date_label": "12月04日 下周五",
+      "games": [
+        {
+          "game_name": "星布谷地(官服)-12月4日正式上线",
+          "categories": [
+            "编辑推荐",
+            "多平台",
+            "模拟经营"
+          ],
+          "score": "8.6",
+          "event_desc": "正式上线，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/163966.htm",
+          "publisher": null,
+          "reservation_count": "54万",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "荣耀三国志",
+          "categories": [
+            "SLG",
+            "策略",
+            "三国"
+          ],
+          "score": null,
+          "event_desc": "10:00 正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/205448.htm",
+          "publisher": "广州宇游",
+          "reservation_count": "54",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "太古诛妖传",
+          "categories": [
+            "角色扮演",
+            "仙侠",
+            "中国风"
+          ],
+          "score": null,
+          "event_desc": "0点预下载，10点正式上线",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/200735.htm",
+          "publisher": null,
+          "reservation_count": "346",
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "钓遍海里的鱼",
+          "categories": [
+            "钓鱼",
+            "建造",
+            "经营"
+          ],
+          "score": null,
+          "event_desc": "上线试玩，具体几点待定",
+          "status_tag": null,
+          "detail_url": "https://www.3839.com/a/207026.htm",
+          "publisher": "厦门纪石科技有限公司",
+          "reservation_count": "18",
+          "has_afk_grinding_tag": false
         }
       ]
     }

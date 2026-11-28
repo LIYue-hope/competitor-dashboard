@@ -1,28 +1,141 @@
 {
-  "generated_at": "2026-11-27T04:22:34.464949+00:00",
+  "generated_at": "2026-11-28T04:00:03.180993+00:00",
   "source": "3DMGame",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
-      "date": "2026-11-27",
-      "article_count": 39,
-      "game_count": 22,
-      "untagged_count": 5,
-      "digest": "11月27日 3DMGame 共 39 条新闻，涉及 22 款游戏。报道最集中的是《GTA6》（11 条）、《侠盗猎车6》（3 条）、《EA SPORTS FC 27》（1 条）。另有 5 条未指向具体游戏的行业或平台资讯。",
-      "digest_source": "rules",
-      "input_hash": "b78256bd5426a1ad",
+      "date": "2026-11-28",
+      "article_count": 18,
+      "game_count": 14,
+      "untagged_count": 1,
+      "digest": "今日游戏行业资讯聚焦于《GTA6》非授权移植项目遭下架、BioWare前负责人马克·达拉回顾《龙腾世纪3：审判》与《星球大战：旧共和国》的发售历史，以及《使命召唤》电影启动选角等热点。此外，万代等厂商联合查获137件仿冒周边，Motive工作室开发的《钢铁侠》游戏被推测或亮相TGA。",
+      "digest_source": "llm",
+      "input_hash": "0d9ee35f0e269e9e",
       "game_digests": [
         {
           "name": "GTA6",
-          "count": 11,
-          "summary": "《GTA6》制作人谈为何将主角家庭设定留到发售揭晓；《GTA6》创英国2019年以来最大盒装首发 三天收入3200万英镑；《GTA6》开发者解释玩法取舍！网球因实现效果未达预期被移除（当天共 11 条）",
+          "count": 3,
+          "summary": "非授权PC移植项目Leonida遭GitHub下架，其他移植项目仍在推进，网上已出现借PC版之名散布恶意软件的假下载。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "龙腾世纪3：审判",
+          "count": 2,
+          "summary": "前BioWare负责人马克·达拉称团队曾承诺随Xbox One首发，但从未按该日期排期，发售日期后来推迟了一年又六周。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "使命召唤",
+          "count": 1,
+          "summary": "彼得·博格执导的电影已启动选角，影片以《现代战争》世界观为背景，计划于2028年6月30日登陆院线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "尤卡莱莉与无妄巢穴",
+          "count": 1,
+          "summary": "开发商Playtonic因“技术挑战与成本限制”决定版缺席Xbox Series X/S平台，将于12月15日上线。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "尸变纪元2",
+          "count": 1,
+          "summary": "GOG限时免费赠送该作，拥有账号的PC用户可在11月30日前领取并永久保留，平时售价17.99美元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "异于天堂",
+          "count": 1,
+          "summary": "如龙工作室负责人横山昌义详解战斗系统，玩家可独立控制主角身体左右两侧进行格挡与反击。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "星球大战：旧共和国",
+          "count": 1,
+          "summary": "马克·达拉称EA收购BioWare主要看中该作，意在挑战《魔兽世界》。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "暗黑破坏神5",
+          "count": 1,
+          "summary": "作者建议死灵法师、亚马逊和吟游诗人等职业回归首发阵容，暴雪承诺提供系列迄今规模最大的首发职业阵容。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "机动战士高达",
+          "count": 1,
+          "summary": "万代、史克威尔艾尼克斯和卡普空联合查获137件仿冒周边，店铺经营者被捕，这批周边估值约3100万日元。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "漫威1943",
+          "count": 1,
+          "summary": "黑豹演员卡里·佩顿驳斥单键操作传言，称其十分荒谬，并透露游戏制作水准精妙。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "灰烬奥兹",
+          "count": 1,
+          "summary": "开发商宣布首席动画师大卫·O于11月16日突发离世，开发者盼世人看见其创作。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "赛博朋克2077",
+          "count": 1,
+          "summary": "前CDPR任务主管表示《女神异闻录5》的手机短信交互设计影响了该作的叙事。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "辛普森：横冲直撞",
+          "count": 1,
+          "summary": "网传Radical Entertainment重制项目遭取消，设计师称即便成品惊艳也难逃行业寒冬。",
+          "summary_source": "llm"
+        },
+        {
+          "name": "钢铁侠",
+          "count": 1,
+          "summary": "外媒推测EA旗下Motive Studio开发的《钢铁侠》可能在本届TGA颁奖典礼上亮相，此前鲜有公开消息。",
+          "summary_source": "llm"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "article_count": 100,
+      "game_count": 58,
+      "untagged_count": 17,
+      "digest": "11月27日 3DMGame 共 100 条新闻，涉及 58 款游戏。报道最集中的是《GTA6》（21 条）、《侠盗猎车6》（3 条）、《天外来袭》（2 条）。另有 17 条未指向具体游戏的行业或平台资讯。",
+      "digest_source": "rules",
+      "input_hash": "c0213274aa737fc2",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 21,
+          "summary": "玩家共享PS5运行《GTA6》！网友可在浏览器免费轮玩；消息称《GTA6》PS5版已有作弊菜单和60帧补丁！非官方PC移植仍在开发；《GTA6》首周直播创两项纪录 观看4.2亿小时、峰值791万人（当天共 21 条）",
           "summary_source": "rules"
         },
         {
           "name": "侠盗猎车6",
           "count": 3,
           "summary": "《侠盗猎车6》里的食物会逐口变小，试玩作者难觅一顿正餐；贝塞斯达资深开发者称《侠盗猎车6》宛如魔法，或多年难被超越；PS5和Xbox单周销量均超去年同期两倍，回升或与《侠盗猎车6》有关。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "天外来袭",
+          "count": 2,
+          "summary": "像素战棋《天外来袭》登陆Steam，勇士沿途换位并在终点自动攻击；走位就是进攻！Roguelike策略战棋游戏《天外来袭》今日发售。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "恶魔之魂",
+          "count": 2,
+          "summary": "《恶魔之魂》PS5版凹槽铠甲可动手办将于2027年7月首次再版！；《恶魔之魂》PS5重制版非官方PC移植更新，4090多处接近60帧。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "潜渊症",
+          "count": 2,
+          "summary": "《潜渊症》扩展包《家园与港湾》12月2日推出，新增可建前哨站；《潜渊症》“港以为家”DLC将于12.2发布，第三期开发者日志现已上线。",
           "summary_source": "rules"
         },
         {
@@ -38,6 +151,24 @@
           "summary_source": "rules"
         },
         {
+          "name": "Near The Sun",
+          "count": 1,
+          "summary": "2D动作冒险《Near The Sun》发售 造访地点与获取情报的顺序会改变剧情。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "Normal Fishing钓了个诡",
+          "count": 1,
+          "summary": "《Normal Fishing钓了个诡》入围2026GameMaker Awards最受期待游戏大奖。",
+          "summary_source": "rules"
+        },
+        {
+          "name": "VAMPIR：血之继承者",
+          "count": 1,
+          "summary": "《VAMPIR：血之继承者》首个钻石狂潮服「ONE」开放预约，预计12月9日开服。",
+          "summary_source": "rules"
+        },
+        {
           "name": "万智牌",
           "count": 1,
           "summary": "《万智牌》联动《星际迷航》：皮卡德签名卡限量250张，最高挂牌3万美元。",
@@ -50,57 +181,21 @@
           "summary_source": "rules"
         },
         {
+          "name": "信的折叠旅途",
+          "count": 1,
+          "summary": "一封蜕变的折纸信！《信的折叠旅途》现已登陆主机平台。",
+          "summary_source": "rules"
+        },
+        {
           "name": "内在之丑",
           "count": 1,
           "summary": "日式生存恐怖新作《内在之丑》公布！双主角分别侧重潜行解谜与正面迎敌。",
           "summary_source": "rules"
         },
         {
-          "name": "塞尔达传说：时之笛",
+          "name": "冰汽时代1886",
           "count": 1,
-          "summary": "一名玩家时隔28年在Switch 2上首次通关《塞尔达传说：时之笛》！。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "天外来袭",
-          "count": 1,
-          "summary": "走位就是进攻！Roguelike策略战棋游戏《天外来袭》今日发售。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "寂静岭f",
-          "count": 1,
-          "summary": "《寂静岭f》Steam降价72%促销 新史低83.44元。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "巫师3：狂猎",
-          "count": 1,
-          "summary": "《巫师3：狂猎》重制版推出5.02补丁 修复PS5自动存档卡顿。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "巫师3：狂猎 — 重制版",
-          "count": 1,
-          "summary": "《巫师3：狂猎 — 重制版》黑五促销现已开启，限时 4 折。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "恶魔之魂",
-          "count": 1,
-          "summary": "《恶魔之魂》PS5重制版非官方PC移植更新，4090多处接近60帧。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "战锤：末世鼠疫2",
-          "count": 1,
-          "summary": "《战锤：末世鼠疫2》公开开发工具 玩家可自制关卡。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "柔术人生：黑带之路",
-          "count": 1,
-          "summary": "《柔术人生：黑带之路》公开Steam商店页！现已开放愿望单登记。",
+          "summary": "11 bit studios公布8个项目进展 《冰汽时代1886》目标2028年上半年发售。",
           "summary_source": "rules"
         }
       ]
@@ -897,107 +992,6 @@
           "name": "侦探已经死了。",
           "count": 1,
           "summary": "太东宣布Switch冒险游戏《侦探已经死了。》将于2027年发售，采用原作者监修的原创剧情，玩家选择与女主角亲密度将影响结局。",
-          "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "article_count": 152,
-      "game_count": 75,
-      "untagged_count": 12,
-      "digest": "GTA6首发内置照片模式，IGN作者体验耗时70小时；英国多校防范学生因发售日缺课；索尼克赛车交叉世界上线迈凯伦车队联动；Firaxis重组裁员约三分之一；POLYARIS计划2027年1月登陆Steam；Train Plus Pro 2027年内登陆PC。",
-      "digest_source": "llm",
-      "input_hash": "1b7d7798cb4232c5",
-      "game_digests": [
-        {
-          "name": "GTA6",
-          "count": 62,
-          "summary": "确认从首发版本起内置照片模式，玩家可调整景深、灯光和滤镜，但无法调整角色姿势或表情。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "给他爱5",
-          "count": 3,
-          "summary": "玩家使用模组将汽车替换为自行车，骑手常变为富兰克林分身，引发物理异常和失控场面。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "塞尔达传说：时之笛",
-          "count": 2,
-          "summary": "Switch 2重制版玩家通过连锁漏洞调出鲜红无面“假人”模型。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "索尼克赛车 交叉世界",
-          "count": 2,
-          "summary": "免费更新上线“索尼克（迈凯伦车队）”及原创赛车，联动活动将于11月20日开启。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "EVE：先锋",
-          "count": 1,
-          "summary": "开启全天候Alpha测试，并支持英伟达DLSS 4.5进行性能加速和画面增强。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Exodus",
-          "count": 1,
-          "summary": "公开女性版主角Jun，其恋爱路线不受玩家选择性别限制。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA",
-          "count": 1,
-          "summary": "英国多所学校防范学生以发售日为由集中缺课，校方提醒家长未成年人不宜游玩。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "GTA4",
-          "count": 1,
-          "summary": "配音演员预测《GTA6》Metacritic评分将落在94至96分。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "KALA",
-          "count": 1,
-          "summary": "心理恐怖游戏登陆Steam，玩家在孤岛循环中追查主角过去的罪行。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "POLYARIS",
-          "count": 1,
-          "summary": "Magic Pie宣布计划于2027年1月20日在Steam发售，设定在核爆炸后的世界。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "PROCEDURE ZERO",
-          "count": 1,
-          "summary": "监狱题材潜行动作游戏正式发售，原价1900日元，11月25日前享九折优惠。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Project Stella",
-          "count": 1,
-          "summary": "育碧被曝取消代号为“星辰计划”的刺客信条新作，采用双主角故事线。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Take Two",
-          "count": 1,
-          "summary": "确认Firaxis重组裁员，规模约占员工总数的三分之一，并重新聚焦策略游戏。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Train Plus Pro 2027",
-          "count": 1,
-          "summary": "Steam页面公开，计划于2026年内登陆PC，采用虚幻引擎5重制。",
-          "summary_source": "llm"
-        },
-        {
-          "name": "Z计划",
-          "count": 1,
-          "summary": "前技术总监回忆Rockstar曾开发僵尸动作游戏，因像“更压抑的GTA”而终止。",
           "summary_source": "llm"
         }
       ]

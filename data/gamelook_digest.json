@@ -1,18 +1,25 @@
 {
-  "generated_at": "2026-11-27T04:29:28.299491+00:00",
+  "generated_at": "2026-11-28T04:08:39.976612+00:00",
   "source": "GameLook",
   "window_days": 10,
   "top_n": 15,
   "items": [
     {
       "date": "2026-11-27",
-      "article_count": 2,
-      "game_count": 0,
-      "untagged_count": 2,
-      "digest": "11月27日 GameLook 共 2 条新闻，涉及 0 款游戏。另有 2 条未指向具体游戏的行业或平台资讯。当天的内容包括「B站无惧短剧，陈睿：“短剧是薯片、B站是米饭”」。未指向具体游戏的内容占当天的 100%。",
-      "digest_source": "rules",
-      "input_hash": "23b9ba2db66f5074",
-      "game_digests": []
+      "article_count": 6,
+      "game_count": 1,
+      "untagged_count": 5,
+      "digest": "2026年11月27日当天GameLook共发布6条新闻，涉及1款游戏《GTA6》，其中未指向具体游戏的报道有5条，整体呈现围绕《GTA6》上线初期热评与数据进展的聚焦，相关报道围绕其上线时间、媒体评价与数据表现展开，内容覆盖多角度关注该游戏的讨论与反馈，整体情况集中在《GTA6》相关动态的解读与梳理。",
+      "digest_source": "llm",
+      "input_hash": "43bf6f7ca9f62856",
+      "game_digests": [
+        {
+          "name": "GTA6",
+          "count": 1,
+          "summary": "游戏人热议：《GTA6》有哪些不可思议之处？。",
+          "summary_source": "rules"
+        }
+      ]
     },
     {
       "date": "2026-11-26",
@@ -89,7 +96,7 @@
       "article_count": 6,
       "game_count": 0,
       "untagged_count": 6,
-      "digest": "2026年11月24日当日GameLook共发布6条新闻，覆盖游戏相关资讯，但涉及的具体游戏数量为0款，其中未明确指向具体游戏的条目为6条，整体呈现为资讯信息相对分散、缺乏明确游戏聚焦的状态，内容以各类未明确指向具体游戏的资讯信息为主，尚未形成明确的单一游戏主线。",
+      "digest": "2026年11月24日，当天 GameLook 新闻总数达到6条，涉及游戏0款，未指向具体游戏6条，整体内容以一般信息为主，未涉及具体游戏动态，整体呈现信息较为分散、缺乏具体游戏相关事实的情况。",
       "digest_source": "llm",
       "input_hash": "a84735eacd73dfe5",
       "game_digests": []
@@ -196,35 +203,6 @@
           "count": 1,
           "summary": "《魔兽世界：无限》上线两周遭遇恶性刷金Bug，刚创下的历史记录面临挑战。",
           "summary_source": "llm"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "article_count": 7,
-      "game_count": 3,
-      "untagged_count": 4,
-      "digest": "2026-11-18当天共发布GameLook新闻7条，涉及3款游戏，含2款具明确游戏动态，未指向具体游戏4条。其中僵尸相关独立游《僵尸不是真实存在的》引发关注，聚焦城市地图与两难抉择机制；黑马游戏《我带过最差的一届》参加Steam新品节并完成一周爆卖60万套、Steam在线破5万人；国产独立游戏《艾希：续》完成众筹4280万元后开启人工退款，反映制作人态度与项目走向。",
-      "digest_source": "llm",
-      "input_hash": "dff0ad9347ffd112",
-      "game_digests": [
-        {
-          "name": "僵尸不是真实存在的",
-          "count": 1,
-          "summary": "Steam独游《僵尸不是真实存在的》出圈！“真实城市地图 + 两难抉择” 太戳人。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "我带过最差的一届",
-          "count": 1,
-          "summary": "冠军黑马《我带过最差的一届》出征！一周爆卖60万套，Steam在线破5万人。",
-          "summary_source": "rules"
-        },
-        {
-          "name": "艾希：续",
-          "count": 1,
-          "summary": "《艾希：续》众筹4280万元后，开人工退款：制作人很天真、竟想“劝退”玩家。",
-          "summary_source": "rules"
         }
       ]
     }

@@ -1,61 +1,9 @@
 {
-  "crawled_at": "2026-11-27T04:11:51.778037+00:00",
+  "crawled_at": "2026-11-28T03:51:03.416001+00:00",
   "days": [
     {
-      "date": "2026-11-27",
-      "date_label": "11月27日 今天",
-      "games": [
-        {
-          "game_name": "从小齿轮转到一个亿",
-          "categories": [
-            "模拟",
-            "休闲",
-            "放置",
-            "低多边形"
-          ],
-          "score": "9.2",
-          "release_date": "2026-11-27",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1963911.html",
-          "publisher": "无限创造无限进步工作室",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": true
-        },
-        {
-          "game_name": "终极地城",
-          "categories": [
-            "策略",
-            "奇幻",
-            "像素",
-            "回合制"
-          ],
-          "score": "9.7",
-          "release_date": "2026-11-27",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1963704.html",
-          "publisher": "娱乐至上",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        },
-        {
-          "game_name": "出道吧!大明星",
-          "categories": [
-            "模拟",
-            "都市"
-          ],
-          "score": "8.9",
-          "release_date": "2026-11-27",
-          "status_tag": "上线",
-          "detail_url": "https://www.16p.com/1962796.html",
-          "publisher": "华飞工作室",
-          "is_major_publisher": false,
-          "has_afk_grinding_tag": false
-        }
-      ]
-    },
-    {
       "date": "2026-11-28",
-      "date_label": "11月28日 明天",
+      "date_label": "11月28日 今天",
       "games": [
         {
           "game_name": "我在地牢当老六",
@@ -78,7 +26,7 @@
     },
     {
       "date": "2026-11-30",
-      "date_label": "11月30日 下周一",
+      "date_label": "11月30日 后天",
       "games": [
         {
           "game_name": "全职法师纯文字",
@@ -128,7 +76,7 @@
             "剧情",
             "收集"
           ],
-          "score": "8.0",
+          "score": "8.1",
           "release_date": "2026-12-01",
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1952894.html",
@@ -182,6 +130,21 @@
       "date": "2026-12-03",
       "date_label": "12月03日 下周四",
       "games": [
+        {
+          "game_name": "金铲铲之战",
+          "categories": [
+            "自走棋",
+            "策略",
+            "英雄联盟"
+          ],
+          "score": "6.5",
+          "release_date": "2026-12-03",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1737658.html",
+          "publisher": "腾讯",
+          "is_major_publisher": true,
+          "has_afk_grinding_tag": true
+        },
         {
           "game_name": "魔法之巅",
           "categories": [
@@ -241,6 +204,67 @@
           "status_tag": "上线",
           "detail_url": "https://www.16p.com/1959531.html",
           "publisher": "五只猫工作室",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        }
+      ]
+    },
+    {
+      "date": "2026-12-04",
+      "date_label": "12月04日 下周五",
+      "games": [
+        {
+          "game_name": "星布谷地",
+          "categories": [
+            "编辑推荐",
+            "多平台",
+            "模拟经营",
+            "模拟",
+            "钓鱼",
+            "种田",
+            "角色扮演",
+            "休闲",
+            "田园风",
+            "小清新"
+          ],
+          "score": "8.4",
+          "release_date": "2026-12-04",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1943515.html",
+          "publisher": "上海米哈游网络科技股份有限公司",
+          "is_major_publisher": true,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "太古诛妖传",
+          "categories": [
+            "角色扮演",
+            "仙侠",
+            "中国风",
+            "3D"
+          ],
+          "score": "7.9",
+          "release_date": "2026-12-04",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1952371.html",
+          "publisher": "广州游星",
+          "is_major_publisher": false,
+          "has_afk_grinding_tag": false
+        },
+        {
+          "game_name": "荣耀三国志",
+          "categories": [
+            "SLG",
+            "策略",
+            "三国",
+            "沙盘",
+            "战争"
+          ],
+          "score": null,
+          "release_date": "2026-12-04",
+          "status_tag": "上线",
+          "detail_url": "https://www.16p.com/1961218.html",
+          "publisher": "中登工作室",
           "is_major_publisher": false,
           "has_afk_grinding_tag": false
         }
